@@ -1,5 +1,6 @@
 # Interview-Prep
 This Repo holds Preperation materail for diffenret Roles.
+Open in VS Code and press Ctrl+Shift+V
 
 ===================================================================
 
