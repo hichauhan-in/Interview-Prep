@@ -1,5 +1,5 @@
 # Part 3 — SQL Mastery
-> Section goal: Take you from absolute beginner to interview-ready intermediate/advanced SQL for the Microsoft CE&S BI team — especially window functions, CTEs, and performance tuning — using support-domain examples that feel natural given your SPO/ODB background.
+> Section goal: Take you from absolute beginner to interview-ready intermediate/advanced SQL for the Microsoft CE&S BI team — especially window functions, CTEs, and performance tuning — using support-domain examples that feel natural if you come from a support background.
 Covers index item **3**. Maps to JD responsibilities **SQL analysis, window functions, CTEs, performance tuning, scalable reporting, and insight generation**.
 ---
 ## 0. How to use this Part
@@ -130,7 +130,7 @@ UPDATE cases SET status = 'Closed' WHERE case_id = 501;
 -- DDL example
 CREATE VIEW vw_case_summary AS SELECT product_id, COUNT(*) AS case_count FROM cases GROUP BY product_id;
 ```
-> 💡 **Tie-in to your background:** SQL fits CE&S work because support data is naturally relational: cases belong to products, customers belong to segments, agents belong to teams, and surveys belong to cases.
+> 💡 **Tie-in to your background:** SQL fits support work because support data is naturally relational: cases belong to products, customers belong to segments, agents belong to teams, and surveys belong to cases.
 ---
 ## 3. Data types, CREATE TABLE, and constraints
 If tables are the storage boxes of a database, then **data types** are the labels telling the database what each box is allowed to hold.
@@ -1427,7 +1427,7 @@ A good way to answer dialect questions is:
 ### 🔍 Plain-English deep-dive: dialect means accent, not a different language family
 - **Dialect** — *database-specific flavor of SQL.* **Analogy:** English spoken in India, the UK, and the US uses different wording but the core language is still recognizable.
 - **Portability** — *how easily SQL moves from one system to another.* **Analogy:** a plug adapter when traveling.
-> 💡 **Tie-in to your background:** Your listed experience with both SQL and PostgreSQL is already a strength here. In interviews, present dialect differences as an adaptation problem, not a barrier.
+> 💡 **Tie-in to your background:** Experience across more than one SQL engine (for example SQL Server and PostgreSQL) is already a strength here. In interviews, present dialect differences as an adaptation problem, not a barrier.
 ---
 ## 26. 🧪 Hands-on Lab Demo 1 — Beginner foundations in SQLite Online
 **Best for:** first-time practice with `SELECT`, `WHERE`, `GROUP BY`, `JOIN`, and `CASE`.

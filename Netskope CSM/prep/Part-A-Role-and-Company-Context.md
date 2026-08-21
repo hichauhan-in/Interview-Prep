@@ -198,7 +198,7 @@ These terms come up constantly in CSM interviews. Know them in plain language.
 > Walk the lifecycle: handoff → onboarding (drive TTV) → adoption (monitor utilization) → value realization (QBRs) → renewal (health & risk) → expansion. Name a metric per stage.
 
 **Q5. "Why do you want to move from Support to Customer Success / why Netskope?"**
-> Tie your story: deep enterprise technical troubleshooting at Microsoft (OneDrive/SharePoint) + networking + identity fundamentals → natural fit for a *technical* CSM in SSE. You enjoy the customer relationship and want to work proactively on outcomes, not just reactively on tickets. Netskope's market leadership and the technical-CSM nature of the role match where you want to grow.
+> Tie your story: deep enterprise technical troubleshooting on SaaS collaboration platforms + networking + identity fundamentals → natural fit for a *technical* CSM in SSE. You enjoy the customer relationship and want to work proactively on outcomes, not just reactively on tickets. Netskope's market leadership and the technical-CSM nature of the role match where you want to grow.
 
 ---
 

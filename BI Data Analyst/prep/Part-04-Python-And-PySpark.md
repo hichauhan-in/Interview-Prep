@@ -26,7 +26,7 @@ flowchart TD
 | 🔴 Advanced | 6–8 (Spark, Delta, tuning) | Explain Spark architecture, write distributed transformations, tune jobs |
 | 🧭 Decide | 9 | Pick the right tool and justify it in an interview |
 
-> 💡 **Tie-in to your background:** Arti — you already do "Data Analytics using Python and R," ship Power BI reports, and write SQL daily as a CE&S Support Escalation Engineer. That means the *concepts* (filtering, grouping, joining) are not new — you have done them in SQL and Power Query. This Part just teaches you to say the same thing in Python and PySpark, the two words the JD calls out explicitly. Every example below uses **support data you know cold**: cases, CSAT scores, escalations, SLA breaches, agents, products (SPO/ODB).
+> 💡 **Tie-in to your background:** If you already build Power BI reports and write SQL in a support role, the *concepts* (filtering, grouping, joining) are not new — you have done them in SQL and Power Query. This Part just teaches you to say the same thing in Python and PySpark, the two words the JD calls out explicitly. Every example below uses **support data you know cold**: cases, CSAT scores, escalations, SLA breaches, agents, and products.
 
 ---
 
@@ -58,7 +58,7 @@ flowchart LR
 | Train / score a machine-learning model | Python | scikit-learn, the ML ecosystem |
 | Transform data too big for one machine | PySpark | Distributed across a cluster |
 
-> 💡 **Tie-in to your background:** Your CV already lists "Data Analytics using Python and R." This Part formalises it and adds PySpark — the one new word the JD wants. Your DP-900 and AI-900 certs already gave you the vocabulary (data lakes, distributed processing); now you'll wire it to hands-on code.
+> 💡 **Tie-in to your background:** If your résumé already mentions data analysis in Python or R, this Part formalises it and adds PySpark — the one new word the JD wants. Cloud-fundamentals certifications already give you the vocabulary (data lakes, distributed processing); now you'll wire it to hands-on code.
 
 ---
 
@@ -118,7 +118,7 @@ print(title.replace("broken","fixed"))
 print("SPO-12345".split("-"))   # ['SPO','12345']
 ```
 
-An **f-string** (formatted string) is *a string with `{ }` placeholders that Python fills in*. **Analogy:** a mail-merge template — "Dear {name}" becomes "Dear Arti". The `f` before the quote turns the magic on.
+An **f-string** (formatted string) is *a string with `{ }` placeholders that Python fills in*. **Analogy:** a mail-merge template — "Dear {name}" becomes "Dear Alex". The `f` before the quote turns the magic on.
 
 ```python
 product, score, cases = "SPO", 4.73, 1240
@@ -485,7 +485,7 @@ from datetime import datetime, timedelta   # specific names
 import numpy as np                    # with an alias
 ```
 
-> 💡 **Tie-in to your background:** A venv is the data-science cousin of having separate Power BI workspaces / environments for Dev vs Prod — isolation so one change doesn't break everything. Your AZ-900 knowledge of "environments" maps cleanly here.
+> 💡 **Tie-in to your background:** A venv is the data-science cousin of having separate Power BI workspaces / environments for Dev vs Prod — isolation so one change doesn't break everything. Cloud-fundamentals knowledge of "environments" maps cleanly here.
 
 ### 1.13 A first taste of classes / OOP
 
@@ -1513,7 +1513,7 @@ spark.sql("VACUUM support.product_health RETAIN 168 HOURS")
    .saveAsTable("support.product_health"))
 ```
 
-> 💡 **Tie-in to your background:** MERGE + time travel is how you'd maintain a **slowly changing dimension** of agents or products (Part 5) and audit support metrics over time — a natural fit for CE&S reporting where you must explain "what did this number look like last month?"
+> 💡 **Tie-in to your background:** MERGE + time travel is how you'd maintain a **slowly changing dimension** of agents or products (Part 5) and audit support metrics over time — a natural fit for support reporting where you must explain "what did this number look like last month?"
 
 ---
 
@@ -1612,9 +1612,9 @@ flowchart TD
 
 **The one-liner to say in interview:** "I push heavy aggregation into **SQL** where the data already lives; I use **pandas** for local/medium analysis, ML prototyping, and charts; I reach for **PySpark** when data outgrows one machine — enterprise support telemetry in a Fabric Lakehouse or Databricks. The APIs rhyme, so the concepts transfer." That single sentence shows you understand the *why*, which is what they test.
 
-> 💡 **Tie-in to your background:** In your CE&S world: a quick CSAT-by-product cut on a 50k-row export → **pandas** in Colab. The same logic on the team's full multi-year case lake → **PySpark** in Fabric/Databricks. Pulling pre-aggregated numbers for a Power BI dashboard → **SQL/Spark SQL**. Knowing which to pick — and why — is exactly the judgement the role rewards.
+> 💡 **Tie-in to your background:** In a support-analytics world: a quick CSAT-by-product cut on a 50k-row export → **pandas** in Colab. The same logic on the team's full multi-year case lake → **PySpark** in Fabric/Databricks. Pulling pre-aggregated numbers for a Power BI dashboard → **SQL/Spark SQL**. Knowing which to pick — and why — is exactly the judgement the role rewards.
 
-> 💡 **Tie-in to your background:** Python also automates the boring stuff — schedule a notebook to refresh a CSV, email a weekly CSAT summary, or call an API. You already drove "automation initiatives using Power Platform"; Python/Spark notebooks are the analyst-grade version of that same instinct (covered further in Part 6).
+> 💡 **Tie-in to your background:** Python also automates the boring stuff — schedule a notebook to refresh a CSV, email a weekly CSAT summary, or call an API. If you have driven automation initiatives with the Power Platform, Python/Spark notebooks are the analyst-grade version of that same instinct (covered further in Part 6).
 
 ---
 

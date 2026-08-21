@@ -1,6 +1,6 @@
 # Part K — Behavioral & Closing
 
-> Section goal: Knowledge gets you in the door; **stories and presence** get you the offer. This section turns your real Microsoft/OneDrive/SharePoint escalation experience into compelling behavioral answers, gives you smart questions to ask, and ends with a one-page cheat sheet for the night before.
+> Section goal: Knowledge gets you in the door; **stories and presence** get you the offer. This section turns real SaaS support and escalation experience into compelling behavioral answers, gives you smart questions to ask, and ends with a one-page cheat sheet for the night before.
 
 Covers index items **37–39**.
 

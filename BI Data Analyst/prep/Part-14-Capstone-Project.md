@@ -10,9 +10,8 @@ Covers index item **14**. Integrates Parts **2–13** into one build-along proje
 3. Save screenshots and outputs as you go; this file is designed to become a **real portfolio artifact**, not just reading material.
 4. Rehearse the **3–5 minute walkthrough** at the end until the storyline sounds natural.
 
-**Why this section matters for Arti specifically:**
-- Your background already shows customer pressure, escalation ownership, coaching, and Microsoft support context; this capstone translates that into **BI analyst evidence**.
-- The CE&S BI team will care whether you can connect data engineering, analytics, reporting, and stakeholder action. This project proves that whole chain.
+**Why this section matters:**
+- A support background already shows customer pressure, escalation ownership, coaching, and enterprise product context; this capstone translates that into **BI analyst evidence**.- The CE&S BI team will care whether you can connect data engineering, analytics, reporting, and stakeholder action. This project proves that whole chain.
 - Because it uses **synthetic support data**, you can publish it safely on GitHub and discuss it freely in interviews.
 
 ---
@@ -141,7 +140,7 @@ flowchart TD
 - “The model, DQ rules, metric definitions, and report design are platform-agnostic; Fabric mainly changes the operational packaging.”
 - “That choice itself reflects real analyst judgment: tool constraints should not block analytical rigor.”
 
-> 💡 **Tie-in:** For Arti, even a Path B build is powerful because the support-health and deflection logic directly matches CE&S. If you have time, build in Path B first, then capture Path A screenshots later for Microsoft-native packaging.
+> 💡 **Tie-in:** Even a Path B build is powerful because the support-health and deflection logic directly matches real support operations. If you have time, build in Path B first, then capture Path A screenshots later for Microsoft-native packaging.
 
 ---
 ## 2. Step 1 — Data design and Bronze ingest

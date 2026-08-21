@@ -14,17 +14,14 @@ Then read the interview questions at the end out loud.
 ## 0. Why this Part matters
 This Part is where you sound broader than a dashboard-only analyst.
 This is where you show you can talk to data scientists, product managers, support leaders, and Responsible AI reviewers without getting lost.
-This is also where your background becomes unusually valuable.
-You have already worked in Microsoft CE&S support.
-You have already seen escalations, queue pressure, sentiment swings, and self-service gaps.
-You have AI-900 and AI-102.
-You have piloted Copilot Studio and Power Platform.
-That means these are not abstract topics for you.
+This is also where a support background becomes unusually valuable.
+If you have already worked in enterprise support, you have already seen escalations, queue pressure, sentiment swings, and self-service gaps.
+If you also hold AI-fundamentals certifications or have piloted a low-code copilot, these are not abstract topics.
 They are extensions of problems you have already lived.
 
 ```mermaid
 flowchart LR
-    A[CE&S escalation experience] --> B[Support problem intuition]
+    A[Support escalation experience] --> B[Support problem intuition]
     B --> C[Better ML framing]
     B --> D[Better GenAI use-case judgement]
     B --> E[Better KPI trade-off thinking]
@@ -1176,7 +1173,7 @@ Even if you are not the primary ML engineer, analysts often help with:
 ---
 ## 9. GenAI, LLMs, and enterprise grounding — from intuition to design choices
 This is one of the highest-value sections for a Microsoft interview in 2026.
-It connects your AI certifications and Copilot Studio pilot experience to enterprise analytics and support.
+It connects AI certifications and hands-on copilot pilot experience to enterprise analytics and support.
 ### 9.1 What GenAI is and is not
 Generative AI creates new content such as text, summaries, code, or images.
 An LLM predicts the next token repeatedly to generate language.
@@ -1384,7 +1381,7 @@ Other risks to recognize:
 ### 9.20 Enterprise-ready answer pattern
 A strong enterprise answer sounds like this:
 "I see GenAI as most valuable when it is grounded, measured, and attached to a workflow. In support, that means using RAG over trusted KB and policy content, adding citations, evaluating factuality and containment, protecting customer data, and keeping a human-in-the-loop for higher-risk actions."
-> 💡 **Tie-in to your background:** Because you piloted Copilot Studio and worked in CE&S support, you can connect GenAI to real scenarios: deflecting repetitive issues, grounding answers on support content, summarizing escalations, and surfacing sentiment or risk signals for faster intervention.
+> 💡 **Tie-in to your background:** If you have piloted a low-code copilot and worked in enterprise support, you can connect GenAI to real scenarios: deflecting repetitive issues, grounding answers on support content, summarizing escalations, and surfacing sentiment or risk signals for faster intervention.
 ---
 ## 10. Statistics deep dive — turning numbers into evidence
 Statistics is what stops analytics from becoming confident storytelling without proof.
@@ -1670,7 +1667,7 @@ You do not need to sell against competitors aggressively.
 You only need to show perspective.
 A balanced answer sounds like this:
 "My strongest hands-on alignment is with the Microsoft ecosystem, especially Fabric, Power BI, Azure AI, and Copilot-related capabilities. I also understand how that maps to alternatives like Databricks, Snowflake, BigQuery, Tableau, or dbt-based stacks, and I think the right choice depends on workload, governance needs, and how integrated the organization wants the platform to be."
-> 💡 **Tie-in to your background:** Because you already worked inside Microsoft's support environment and have Copilot Studio exposure, you can speak very naturally about why a unified Microsoft stack can be powerful for customer-support analytics, self-serve, and AI governance.
+> 💡 **Tie-in to your background:** If you have worked inside an enterprise support environment and have Copilot Studio exposure, you can speak very naturally about why a unified Microsoft stack can be powerful for customer-support analytics, self-serve, and AI governance.
 ---
 ## 13. Synthesis — how these deeper topics connect in one CE&S BI story
 The strongest candidates do not list buzzwords.

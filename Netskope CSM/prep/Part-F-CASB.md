@@ -1,6 +1,6 @@
 # Part F — Cloud Access Security Broker (CASB)
 
-> Section goal: CASB is **Netskope's heritage** — it's the pillar the company was originally famous for, and it's where your OneDrive/SharePoint expertise makes you genuinely credible. By the end you should be able to explain what a CASB does, the difference between its two deployment modes (inline vs API), and walk through real use cases without hesitating.
+> Section goal: CASB is **Netskope's heritage** — it's the pillar the company was originally famous for, and it's where hands-on OneDrive/SharePoint expertise makes a support background genuinely credible. By the end you should be able to explain what a CASB does, the difference between its two deployment modes (inline vs API), and walk through real use cases without hesitating.
 
 Covers index items **21–23**.
 

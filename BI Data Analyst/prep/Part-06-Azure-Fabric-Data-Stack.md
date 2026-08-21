@@ -19,7 +19,7 @@ flowchart LR
     Model --> Serve[Serve<br/>Power BI semantic model]
 ```
 
-> 💡 **Tie-in:** You hold DP-900 and AZ-900 — you already know the *concepts* (cloud, storage, compute). This Part attaches the *product names* to those concepts so the JD's tool list stops being scary.
+> 💡 **Tie-in:** If you hold cloud- and data-fundamentals certifications, you already know the *concepts* (cloud, storage, compute). This Part attaches the *product names* to those concepts so the JD's tool list stops being scary.
 
 ### What's in this Part (roadmap)
 
@@ -43,7 +43,7 @@ flowchart LR
 ## 1. Cloud fundamentals — the ground floor (Beginner)
 
 Before any tool names, lock down the cloud ideas underneath them.
-Your AZ-900 and DP-900 already touched these — here we make them concrete with support-data examples.
+Cloud- and data-fundamentals certifications already touch these — here we make them concrete with support-data examples.
 
 ### 1.1 What "the cloud" actually is
 
@@ -88,7 +88,7 @@ flowchart LR
 | **PaaS** | App config + data | OS, patching, scaling | Synapse/Databricks transforming case data |
 | **SaaS** | Just your data + settings | Everything | Power BI / Fabric serving the CSAT dashboard |
 
-> 💡 **Tie-in to your background:** As a SharePoint Online / OneDrive escalation engineer you already lived in SaaS every day — SharePoint Online *is* SaaS. When you say "Fabric is SaaS, like SharePoint Online — Microsoft runs the servers, I just build the analytics," interviewers instantly see you get it.
+> 💡 **Tie-in to your background:** If you have supported a SaaS product such as SharePoint Online or OneDrive, you already lived in SaaS every day. Saying "Fabric is SaaS, like SharePoint Online — Microsoft runs the servers, I just build the analytics" instantly shows interviewers you get it.
 
 ### 1.3 Regions, availability zones, and geographies
 
@@ -496,7 +496,7 @@ flowchart LR
     SC --> W1
 ```
 
-> 🔍 **Plain-English deep-dive — why "OneDrive for data" is the perfect phrase for you:** You supported OneDrive for years. OneDrive ended "emailing copies of documents" by giving everyone one shared, governed location. OneLake does the same for *data*: it ends "exporting CSVs and emailing them around" by giving every tool one shared, governed Delta lake. Use this analogy in the interview — it's authentic to your background and exactly right.
+> 🔍 **Plain-English deep-dive — why "OneDrive for data" is such a useful phrase:** OneDrive ended "emailing copies of documents" by giving everyone one shared, governed location. OneLake does the same for *data*: it ends "exporting CSVs and emailing them around" by giving every tool one shared, governed Delta lake. If you have supported OneDrive, this analogy is authentic to your background and exactly right for the interview.
 
 ### 5.2 The Fabric workloads (experiences) — every one explained
 
@@ -673,7 +673,7 @@ flowchart LR
   - Requires a sufficiently large capacity (commonly F64+).
 - **Support example:** "Copilot, write PySpark to compute weekly breach rate by product from `cases_silver`."
 
-> 💡 **Tie-in:** Your AI-900 / AI-102 background is a genuine edge here — you can speak to *responsible* AI use (grounding, reviewing generated code, not blindly trusting it).
+> 💡 **Tie-in:** An AI-fundamentals background is a genuine edge here — you can speak to *responsible* AI use (grounding, reviewing generated code, not blindly trusting it).
 
 ### 5.8 Lakehouse vs Warehouse in Fabric — the decision table
 
@@ -936,7 +936,7 @@ flowchart TD
 | Destination | Any (ADLS, Synapse, etc.) | OneLake-native + others |
 | Best when | Pure Azure ETL, on-prem reach via SHIR | You're already standardized on Fabric |
 
-> 💡 **Honest interview line:** "I've built Azure foundations through AZ-900/DP-900 and hands-on Fabric and Power BI labs. I understand how Data Factory ingests (linked services, datasets, Integration Runtime, triggers), how Synapse and Databricks transform with SQL and Spark, and how Fabric unifies them on OneLake. My production depth is growing through projects, and the concepts — lakehouse, Delta, Medallion, distributions, semantic models — transfer across whichever engine the team uses."
+> 💡 **Honest interview line:** "I've built Azure foundations through fundamentals certifications and hands-on Fabric and Power BI labs. I understand how Data Factory ingests (linked services, datasets, Integration Runtime, triggers), how Synapse and Databricks transform with SQL and Spark, and how Fabric unifies them on OneLake. My production depth is growing through projects, and the concepts — lakehouse, Delta, Medallion, distributions, semantic models — transfer across whichever engine the team uses."
 
 ---
 
@@ -1055,11 +1055,11 @@ flowchart TD
 
 ## 11. Certification path — what to target
 
-You already hold AZ-900, DP-900, AI-900, AI-102. For this Data Analyst (BI) role, line up the role-based certs in this order.
+If you already hold the fundamentals certs (AZ-900, DP-900, AI-900), line up the role-based certs for this Data Analyst (BI) role in this order.
 
 ```mermaid
 flowchart LR
-    F1[AZ-900 ✔] --> F2[DP-900 ✔]
+    F1[AZ-900<br/>fundamentals] --> F2[DP-900<br/>data fundamentals]
     F2 --> P[PL-300<br/>Power BI Data Analyst]
     P --> D6[DP-600<br/>Fabric Analytics Engineer]
     D6 --> D7[DP-700<br/>Fabric Data Engineer]
@@ -1410,7 +1410,7 @@ Practice saying them in 60–90 seconds.
 - [PL-300 — Microsoft Power BI Data Analyst](https://learn.microsoft.com/credentials/certifications/power-bi-data-analyst-associate/)
 - [DP-600 — Fabric Analytics Engineer Associate](https://learn.microsoft.com/credentials/certifications/fabric-analytics-engineer-associate/)
 - [DP-700 — Fabric Data Engineer Associate](https://learn.microsoft.com/credentials/certifications/fabric-data-engineer-associate/)
-- Foundations you already hold: [AZ-900](https://learn.microsoft.com/credentials/certifications/azure-fundamentals/) · [DP-900](https://learn.microsoft.com/credentials/certifications/azure-data-fundamentals/)
+- Foundation certifications: [AZ-900](https://learn.microsoft.com/credentials/certifications/azure-fundamentals/) · [DP-900](https://learn.microsoft.com/credentials/certifications/azure-data-fundamentals/)
 
 ---
 
@@ -1483,7 +1483,7 @@ Practice saying them in 60–90 seconds.
 > *Model answer:* "A request becomes a pipeline. Data Factory lands raw case, survey, and telemetry data into OneLake bronze. A Spark notebook cleans and conforms it to silver. I model a star schema — Fact_Cases with dimensions — in gold. A Direct Lake semantic model exposes standardized DAX KPIs like CSAT % and breach rate, with row-level security for EMEA. Power BI serves the dashboard every morning. One platform, one copy of data, governed end to end — and conceptually it mirrors an escalation: intake, reproduce, root-cause, communicate a trustworthy answer."
 
 **Q23. "Which certifications are you targeting and why?"**
-> *Model answer:* "I hold AZ-900 and DP-900 for foundations. Next I'm targeting PL-300 because Power BI is core to this role and builds on my existing strength, then DP-600, the Fabric Analytics Engineer cert, to formalize the lakehouse, semantic-model, and Direct Lake skills that are my biggest growth area — and DP-700 later if I lean more into data engineering."
+> *Model answer:* "I have the Azure and data fundamentals covered. Next I'm targeting PL-300 because Power BI is core to this role and builds on my existing strength, then DP-600, the Fabric Analytics Engineer cert, to formalize the lakehouse, semantic-model, and Direct Lake skills that are my biggest growth area — and DP-700 later if I lean more into data engineering."
 
 ---
 

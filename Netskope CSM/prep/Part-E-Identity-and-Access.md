@@ -49,7 +49,7 @@ flowchart TD
 
 ### 18.2 SAML — *the enterprise "trust letter" between login system and app*
 - **SAML (Security Assertion Markup Language)** is the older, enterprise standard that makes SSO work for business web apps.
-- **How it works in plain terms:** when you try to open an app, the app says "I don't handle logins — go prove yourself to your company's identity system." You log in there, and it sends the app a **signed digital 'assertion'** that says "Yes, this is really Arti, and she's allowed in."
+- **How it works in plain terms:** when you try to open an app, the app says "I don't handle logins — go prove yourself to your company's identity system." You log in there, and it sends the app a **signed digital 'assertion'** that says "Yes, this really is that user, and they're allowed in."
 - The two players:
   - **IdP (Identity Provider)** = the system that *verifies* you (e.g., **Microsoft Entra ID / Azure AD**, Okta).
   - **SP (Service Provider)** = the app you're trying to use (e.g., Salesforce).

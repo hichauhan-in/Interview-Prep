@@ -822,7 +822,7 @@ With governance:
 - access follows business need
 - lineage supports change and incident analysis
 - trusted self-service becomes possible
-> 💡 **Tie-in to your background:** Your CV strengths in operational governance, compliance, and risk management map naturally here. A strong interview translation is: "I bring a governance mindset already; in data that means controlled definitions, ownership, risk-aware access, and measurable quality controls."
+> 💡 **Tie-in to your background:** Strengths in operational governance, compliance, and risk management map naturally here. A strong interview translation is: "I bring a governance mindset already; in data that means controlled definitions, ownership, risk-aware access, and measurable quality controls."
 ---
 ## 7. Governance operating models: centralized, decentralized, and federated
 Different organisations govern data in different ways.

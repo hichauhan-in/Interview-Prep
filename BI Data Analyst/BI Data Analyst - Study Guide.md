@@ -1,7 +1,7 @@
 # Microsoft CE&S BI — Data Analyst: Interview Study Guide
 
-**Candidate:** Arti Thakur
 **Target role:** Data Analyst — Customer Experience & Success (CE&S) Business Intelligence Team, Microsoft
+**Intended reader:** Anyone moving into BI/analytics from a customer-support or service-operations background
 **Mode:** Interview preparation (technical + behavioral + 100+ question bank)
 **Goal:** Never go blank. Know the fundamentals *and* the concept behind every answer.
 
@@ -18,10 +18,10 @@
 
 ## Your edge (read this first)
 
-You are not starting cold. You already live in **CE&S** — the exact org this role sits in. You bring:
-- ~5 years supporting global Microsoft 365 (SPO/ODB) enterprise customers.
-- Real fluency in **CSAT/KPI/trend analysis**, **operational governance**, **escalation & incident management**, and **executive stakeholder communication**.
-- Hands-on **Power BI, SQL, Python/R, Power Platform, Copilot Studio**, plus **DP-900, AI-102, AI-900, AZ-900** certs and an in-progress **MBA in Business Analytics**.
+If you already work in customer support or service operations, you are not starting cold. A support background typically brings:
+- Real exposure to enterprise customers and the operational reality behind support data.
+- Practical fluency in **CSAT/KPI/trend analysis**, **operational governance**, **escalation & incident management**, and **executive stakeholder communication**.
+- Hands-on familiarity with reporting and automation tools such as **Power BI, SQL, Python/R, and the Power Platform**.
 
 The interview gap to close is **technical depth** (SQL internals, Python/PySpark, the Azure/Fabric data stack, data modeling, DAX) and **translating ambiguous business needs into technical designs**. This guide targets exactly that.
 

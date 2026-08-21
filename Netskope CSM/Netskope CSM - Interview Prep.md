@@ -1,7 +1,7 @@
 # Netskope CSM — Interview Preparation
 
 > Goal: For any likely question, never go blank. Know the fundamentals and the concept behind it.
-> Candidate background: Support Escalation Engineer (OneDrive/SharePoint, Microsoft). Strong networking fundamentals, working knowledge of Active Directory.
+> Intended reader: someone moving into Customer Success from a technical support/escalation background, with solid networking fundamentals and a working knowledge of Active Directory.
 
 ---
 
