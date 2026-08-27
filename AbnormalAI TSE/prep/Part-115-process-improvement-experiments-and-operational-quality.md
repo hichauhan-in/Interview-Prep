@@ -2,7 +2,7 @@
 
 > **Purpose:** Build a beginner-first, vendor-neutral method for turning recurring support patterns into bounded problem statements, trustworthy baselines, testable hypotheses, authorized interventions, ethical experiments, customer-first guardrails, quality audits, rollback-ready standard work, and continuous-learning reviews without overstating causality or hiding harm.
 >
-> **Artifact honesty label:** **Direct Microsoft enterprise-support transfer for pattern recognition, CSAT, backlog, case-quality analysis, mentoring, knowledge/training work, escalation, and cross-functional improvement only where Arti can support the claim with a sanitized real example; learner-authored synthetic process-improvement experiment and quality-audit artifacts; local tabletop unperformed. No Abnormal AI process, experiment, audit, metric, customer, system, approval, safeguard, workflow, or result is known, used, changed, or claimed.** Every organization, queue, case alias, measurement, threshold, assignment, intervention, result, quality score, review, and decision below is fictional study material. Nothing in this Part authorizes experimenting on customers, changing production, handling customer data, or removing a safeguard.
+> **Artifact honesty label:** **Direct enterprise-support transfer for pattern recognition, CSAT, backlog, case-quality analysis, mentoring, knowledge/training work, escalation, and cross-functional improvement only where you can support the claim with a sanitized real example; learner-authored synthetic process-improvement experiment and quality-audit artifacts; local tabletop unperformed. No Abnormal AI process, experiment, audit, metric, customer, system, approval, safeguard, workflow, or result is known, used, changed, or claimed.** Every organization, queue, case alias, measurement, threshold, assignment, intervention, result, quality score, review, and decision below is fictional study material. Nothing in this Part authorizes experimenting on customers, changing production, handling customer data, or removing a safeguard.
 >
 > **Currency and official-source access date:** August 24, 2026.
 >
@@ -90,10 +90,10 @@ The following vocabulary is the contract for this Part. These are portable defin
 
 ## JD Mapping
 
-| Role signal from the master guide | Capability developed here | Arti's honest transfer | Evidence ceiling |
+| Role signal from the master guide | Capability developed here | Your honest transfer | Evidence ceiling |
 |---|---|---|---|
 | Detect recurring support patterns | Converts case themes and metric movement into bounded problem statements | Enterprise support, backlog, CSAT, case-quality, and escalation pattern recognition where backed by a real Microsoft example | No claim about Abnormal queues, products, incidents, customers, or pattern frequency |
-| Improve support processes | Designs a hypothesis, authorized intervention, pilot, guardrails, rollback, and learning review | Transfer from Microsoft support improvement, KB/training, mentoring, and cross-functional work only within actual remembered scope | Written examples do not prove that Arti ran a controlled experiment in production |
+| Improve support processes | Designs a hypothesis, authorized intervention, pilot, guardrails, rollback, and learning review | Transfer from enterprise support improvement, KB/training, mentoring, and cross-functional work only within actual remembered scope | Written examples do not prove that you ran a controlled experiment in production |
 | Maintain operational quality | Builds behavior-based standard work and a calibrated quality-audit plan | Direct case-quality and mentoring experience where supported by sanitized facts | No ownership of Abnormal's rubric, audit program, performance policy, or quality result |
 | Collaborate with Product and Engineering | Packages evidence, alternatives, decision criteria, and negative results | Strong transfer from escalation, Engineering/Product partnership, and fix validation | A support pilot does not authorize product changes or establish product root cause |
 | Protect customer trust | Makes customer impact, ethics, privacy, safety, access, and escalation appropriateness non-negotiable guardrails | Enterprise customer ownership and evidence handling transfer | No customer experiment, production change, or security-control decision is performed here |
@@ -102,11 +102,11 @@ The following vocabulary is the contract for this Part. These are portable defin
 
 ## Candidate honesty note
 
-Arti's strongest honest bridge is not “I know Abnormal's process.” It is: “I have worked in Microsoft enterprise support where I used patterns, customer feedback, backlog evidence, case-quality review, knowledge, mentoring, escalation, and cross-functional investigation to improve support work.” She should use that sentence only if she can immediately provide a sanitized real example describing her role, the evidence she was authorized to use, the decision owner, the specific contribution she made, and the result she can support.
+Your strongest honest bridge is not “I know Abnormal's process.” It is: “I have worked in enterprise support where I used patterns, customer feedback, backlog evidence, case-quality review, knowledge, mentoring, escalation, and cross-functional investigation to improve support work.” You should use that sentence only if you can immediately provide a sanitized real example describing your role, the evidence you were authorized to use, the decision owner, the specific contribution you made, and the result you can support.
 
-This Part adds written practice, not a production credential. Arti has not used Abnormal's operational data, run an Abnormal experiment, audited an Abnormal case, changed an Abnormal workflow, or observed an Abnormal result. The two worked experiments below use learner-authored fictional numbers and remain unperformed. Even if the arithmetic is internally consistent, it is not empirical evidence.
+This Part adds written practice, not a production credential. You have not used Abnormal's operational data, run an Abnormal experiment, audited an Abnormal case, changed an Abnormal workflow, or observed an Abnormal result. The two worked experiments below use learner-authored fictional numbers and remain unperformed. Even if the arithmetic is internally consistent, it is not empirical evidence.
 
-> “My Microsoft enterprise-support experience gives me direct grounding in pattern recognition, CSAT, backlog and case-quality analysis, customer ownership, knowledge, mentoring, and cross-functional improvement. I have not operated Abnormal's process or data and do not know its experiment governance, quality rubric, safeguards, or change controls. To prepare, I authored a synthetic process-improvement charter, two worked fictional comparisons, a quality audit, an experiment decision tree, and a local tabletop design. None was run on customers or production. In the role, I would first learn the approved problem owners, metric contracts, risk review, privacy rules, authorization path, guardrails, rollback process, and quality standards.”
+> “My prior enterprise-support experience gives me direct grounding in pattern recognition, CSAT, backlog and case-quality analysis, customer ownership, knowledge, mentoring, and cross-functional improvement. I have not operated Abnormal's process or data and do not know its experiment governance, quality rubric, safeguards, or change controls. To prepare, I authored a synthetic process-improvement charter, two worked fictional comparisons, a quality audit, an experiment decision tree, and a local tabletop design. None was run on customers or production. In the role, I would first learn the approved problem owners, metric contracts, risk review, privacy rules, authorization path, guardrails, rollback process, and quality standards.”
 
 | Capability or artifact | Exact evidence label | Safe interview language | Claim to avoid |
 |---|---|---|---|
@@ -856,7 +856,7 @@ flowchart TD
 | Audit | Versioned behavior rubric, critical fails, sampling purpose, calibration, and appeal | Individual ranking, punishment, privacy violation, or critical fail hidden by average |
 | Learning | Negative, null, adverse, contradictory, and surprising evidence retained | Cherry-picking or rewriting history |
 | Standard work | Scope, roles, steps, safeguards, exceptions, escalation, rollback, version, and review | Obsolete or unsafe guidance treated as permanent truth |
-| Candidate boundary | Microsoft transfer is precise and no Abnormal experience/result is invented | Tool/process equivalence or production ownership inflation |
+| Candidate boundary | experience transfer is precise and no Abnormal experience/result is invented | Tool/process equivalence or production ownership inflation |
 
 **Lab automatic failure:** any customer or employee experiment; customer, employee, company, case, tenant, account, message, content, PII, identifier, secret, credential, token, key, cookie, certificate, private endpoint, restricted log, proprietary schema, or unrestricted text; production/staging/company system, account, API, database, external service, AI upload, or Abnormal tool; deployment, routing, access, configuration, customer-state, destructive, or safeguard change; unauthorized assignment or exposure; hidden negative/adverse/null result; metric gaming; person ranking or retaliation; fabricated execution, approval, p-value, confidence interval, significance, effect, causality, quality improvement, customer outcome, savings, or adoption; or any statement that SignalBridge Lab 115 was performed during authoring.
 
@@ -947,7 +947,7 @@ These official and primary sources anchor general process improvement, measureme
 
 ### Q8. How does your background transfer to process improvement at Abnormal, and what remains a gap?
 
-**Model answer:** “My Microsoft enterprise-support background gives me direct experience with recurring case patterns, CSAT, backlog and case-quality analysis, customer ownership, knowledge and training, mentoring, escalation, and cross-functional improvement where I can support each claim with a sanitized example. I have not operated Abnormal's process, data, quality program, experiment governance, safeguards, or production tools. I authored this synthetic experiment charter and audit for practice; the lab was not performed and produced no real result. I would first learn Abnormal's authorized owners, metric contracts, customer protections, change controls, rollback process, and quality rubric.”
+**Model answer:** “My prior enterprise-support background gives me direct experience with recurring case patterns, CSAT, backlog and case-quality analysis, customer ownership, knowledge and training, mentoring, escalation, and cross-functional improvement where I can support each claim with a sanitized example. I have not operated Abnormal's process, data, quality program, experiment governance, safeguards, or production tools. I authored this synthetic experiment charter and audit for practice; the lab was not performed and produced no real result. I would first learn Abnormal's authorized owners, metric contracts, customer protections, change controls, rollback process, and quality rubric.”
 
 ## Memory Hooks
 
@@ -969,7 +969,7 @@ These official and primary sources anchor general process improvement, measureme
 - **Rollback is designed first:** return to a known-safe state and verify.
 - **Negative results are assets:** keep them discoverable.
 - **No metric gaming:** never improve the number by harming access or truth.
-- **Arti's bridge is Microsoft support:** no Abnormal process or result is claimed.
+- **Your bridge is enterprise support:** no Abnormal process or result is claimed.
 
 ## Completion Checklist
 
@@ -997,6 +997,6 @@ These official and primary sources anchor general process improvement, measureme
 - [ ] I can state every non-negotiable prohibition without exception.
 - [ ] I reviewed the August 24, 2026 source anchors and will revalidate current versions, policy, permissions, customer obligations, and applicability before real use.
 - [ ] I describe SignalBridge Lab 115 as local, synthetic, unperformed, non-production, noncausal, privacy-safe, safeguard-preserving, and not an Abnormal process or result.
-- [ ] I can answer Q1 through Q8 aloud while preserving Arti's exact Microsoft-transfer and no-Abnormal-experience boundary.
+- [ ] I can answer Q1 through Q8 aloud while preserving your exact Microsoft-transfer and no-Abnormal-experience boundary.
 
 [Next: Part 116 - Safe AI-Assisted Support Prompting and Automation](Part-116-safe-ai-assisted-support-prompting-and-automation.md)

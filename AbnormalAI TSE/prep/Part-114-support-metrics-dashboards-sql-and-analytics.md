@@ -2,7 +2,7 @@
 
 > **Purpose:** Build a beginner-first, vendor-neutral method for defining, calculating, segmenting, visualizing, interpreting, and governing support metrics so that CSAT, CES, FCR, MTTA, restore and resolution time, SLA attainment, reopen, escalation, deflection, backlog age, and quality lead to safer decisions rather than misleading targets.
 >
-> **Artifact honesty label:** **Direct Microsoft enterprise-support transfer for CSAT, backlog, and case-quality analysis plus learner-authored synthetic metric-dictionary, SELECT-only SQL-analysis, dashboard-wireframe, and decision-tree artifacts; local analytics lab unperformed.** Arti may describe real Microsoft experience only through sanitized examples she can defend. Every case, survey, timestamp, segment, target, service level, query result, dashboard value, team, queue, and outcome in this Part is learner-authored fiction for study. This Part does not claim that Arti has operated Abnormal AI, queried Abnormal or customer data, used Abnormal tools, seen Abnormal metric definitions or targets, owned an Abnormal dashboard, or knows Abnormal's private schemas, SLAs, quality rubric, staffing model, customer segments, reporting policy, or escalation workflow.
+> **Artifact honesty label:** **Direct enterprise-support transfer for CSAT, backlog, and case-quality analysis plus learner-authored synthetic metric-dictionary, SELECT-only SQL-analysis, dashboard-wireframe, and decision-tree artifacts; local analytics lab unperformed.** You may describe real prior experience only through sanitized examples you can defend. Every case, survey, timestamp, segment, target, service level, query result, dashboard value, team, queue, and outcome in this Part is learner-authored fiction for study. This Part does not claim that you have operated Abnormal AI, queried Abnormal or customer data, used Abnormal tools, seen Abnormal metric definitions or targets, owned an Abnormal dashboard, or knows Abnormal's private schemas, SLAs, quality rubric, staffing model, customer segments, reporting policy, or escalation workflow.
 >
 > **Currency and official-source access date:** August 24, 2026.
 >
@@ -100,28 +100,28 @@ This twenty-five-row table is the exact vocabulary contract for this Part. Defin
 
 ## JD Mapping
 
-| Role signal from the master guide | Capability developed here | Arti's honest transfer | Evidence ceiling |
+| Role signal from the master guide | Capability developed here | Your honest transfer | Evidence ceiling |
 |---|---|---|---|
-| Use support metrics to improve customer outcomes | Defines decision questions, metric contracts, distributions, segments, guardrails, and action owners | Direct CSAT, backlog, and case-quality analysis experience at Microsoft where supported by a real example | No Abnormal definitions, targets, dashboard, trend, staffing result, or customer outcome |
+| Use support metrics to improve customer outcomes | Defines decision questions, metric contracts, distributions, segments, guardrails, and action owners | Direct CSAT, backlog, and case-quality analysis experience in a previous role where supported by a real example | No Abnormal definitions, targets, dashboard, trend, staffing result, or customer outcome |
 | Detect recurring support patterns | Uses stable taxonomy, cohorts, segment comparisons, age bands, and Pareto-ready counts | Transferable enterprise-support pattern recognition and backlog review | Synthetic analysis does not prove any real recurring pattern |
 | Drive case deflection and knowledge improvement | Separates helpfulness, containment, contact rate, and causal incremental deflection | KB/training experience is a useful bridge | No fabricated deflection, article impact, adoption, or cost saving |
-| Improve case quality and hygiene | Defines calibrated, behavior-based audit sampling and quality guardrails | Direct case-quality and mentoring transfer where backed by Arti's actual examples | No claim of designing or owning Abnormal's quality program |
-| Work with Engineering, Product, CSMs, and leaders | Turns metrics into bounded questions, evidence packets, and decision reviews | Strong transfer from cross-functional Microsoft support work | Dashboards do not authorize cause, roadmap, performance, or customer commitments |
+| Improve case quality and hygiene | Defines calibrated, behavior-based audit sampling and quality guardrails | Direct case-quality and mentoring transfer where backed by your actual examples | No claim of designing or owning Abnormal's quality program |
+| Work with Engineering, Product, CSMs, and leaders | Turns metrics into bounded questions, evidence packets, and decision reviews | Strong transfer from cross-functional enterprise support work | Dashboards do not authorize cause, roadmap, performance, or customer commitments |
 | Use SQL, PostgreSQL, Power BI, and Python knowledge | Demonstrates readable SELECT-only analytical patterns and a tool-neutral dashboard specification | Working knowledge stated in the CV and strengthened by written practice | Queries were not executed; no production database or Abnormal schema was accessed |
 | Protect customer trust and security | Applies minimization, aggregation, small-cell suppression, purpose limitation, and anti-leaderboard rules | Enterprise support evidence-handling habits transfer | Public principles do not define company policy or legal obligations |
 | Present practical artifacts | Produces a metric dictionary, synthetic SQL analysis, dashboard wireframe, gaming review, and lab plan | Completed learner-authored written portfolio | Artifacts are fictional, local, unsubmitted, unapproved, unperformed, and not company process |
 
 ## Candidate honesty note
 
-Arti can honestly say that her Microsoft enterprise-support background included working with **CSAT, backlog, and case-quality analysis**. That is a strong foundation because she already understands that operational numbers have customer stories behind them and that aging work, feedback, and quality require review. She should attach any production claim to a sanitized real example she personally remembers: what question she was answering, which data she was authorized to use, what she actually calculated or reviewed, what decision followed, and what result she can support.
+You can honestly say that your prior enterprise-support background included working with **CSAT, backlog, and case-quality analysis**. That is a strong foundation because you already understand that operational numbers have customer stories behind them and that aging work, feedback, and quality require review. You should attach any production claim to a sanitized real example you personally remember: what question you were answering, which data you were authorized to use, what you actually calculated or reviewed, what decision followed, and what result you can support.
 
-She must not stretch that transfer into ownership of every metric in this Part. The FCR, CES, MTTA, restore time, resolve time, SLA, reopen, escalation, and deflection definitions here are learner-authored vendor-neutral contracts. They do not establish how Microsoft measured them, and they reveal nothing about Abnormal. The safe bridge is:
+You must not stretch that transfer into ownership of every metric in this Part. The FCR, CES, MTTA, restore time, resolve time, SLA, reopen, escalation, and deflection definitions here are learner-authored vendor-neutral contracts. They do not establish how Microsoft measured them, and they reveal nothing about Abnormal. The safe bridge is:
 
-> “My Microsoft support experience gives me direct familiarity with CSAT, backlog, and case-quality analysis and with using operational evidence to improve customer support. I have not used Abnormal's data or analytics tools, and I do not know its private metric contracts or targets. For preparation, I built a synthetic metric dictionary, hand-worked a small dataset, wrote SELECT-only PostgreSQL-style examples, and designed a dashboard. In the role, I would first learn the authoritative schema, population rules, clock semantics, privacy controls, and decision owners before calculating or interpreting a company metric.”
+> “My prior support experience gives me direct familiarity with CSAT, backlog, and case-quality analysis and with using operational evidence to improve customer support. I have not used Abnormal's data or analytics tools, and I do not know its private metric contracts or targets. For preparation, I built a synthetic metric dictionary, hand-worked a small dataset, wrote SELECT-only PostgreSQL-style examples, and designed a dashboard. In the role, I would first learn the authoritative schema, population rules, clock semantics, privacy controls, and decision owners before calculating or interpreting a company metric.”
 
 | Capability or artifact | Exact evidence label | Safe interview language | Claim to avoid |
 |---|---|---|---|
-| Microsoft CSAT, backlog, and case-quality work | `DIRECT_PRODUCTION_TRANSFER` | “I can describe a sanitized Microsoft example of how I used CSAT, backlog, or quality evidence within my actual role.” | “I owned all support analytics” unless that exact scope is true |
+| Microsoft CSAT, backlog, and case-quality work | `DIRECT_PRODUCTION_TRANSFER` | “I can describe a sanitized example from your own work of how I used CSAT, backlog, or quality evidence within my actual role.” | “I owned all support analytics” unless that exact scope is true |
 | Metric dictionary, worked arithmetic, SQL text, and wireframe | `SYNTHETIC_WRITTEN_PORTFOLIO_COMPLETED_NOT_OPERATIONAL` | “I authored a vendor-neutral measurement contract and synthetic analysis for practice.” | “This dashboard measured a real team or customer.” |
 | SignalBridge Lab 114 | `DESIGN_NOT_EXECUTED_NOT_TRANSFERRED` | “The local synthetic lab is designed but was not performed during authoring.” | Any query run, file generation, dashboard render, result validation, or reviewer claim |
 | Abnormal data, tools, metric semantics, targets, and workflow | `NO_DIRECT_EXPERIENCE_UNKNOWN_CONFIGURATION` | “I would learn the current authorized definitions, systems, permissions, and owners before operational use.” | Any invented Abnormal table, field, report, SLA, CSAT, backlog, target, team result, or process |
@@ -900,7 +900,7 @@ Responsible segmentation asks:
 - Could the segment reflect workload mix, access, customer behavior, or audit selection?
 - Will the view support coaching and process improvement rather than punishment?
 
-For Arti, the practical interview move is to say: “I would use the aggregate to locate the question, then compare like with like and review minimized examples. I would not infer agent capability or product cause from one segment rate.”
+For you, the practical interview move is to say: “I would use the aggregate to locate the question, then compare like with like and review minimized examples. I would not infer agent capability or product cause from one segment rate.”
 
 ## 9. Failure modes metric gaming and escalation
 
@@ -1229,7 +1229,7 @@ These official and primary sources anchor general measurement design, statistica
 
 ### Q8. How does your background prepare you for support analytics at Abnormal, and what is still a gap?
 
-**Model answer:** “My Microsoft enterprise-support experience gives me direct grounding in CSAT, backlog, and case-quality analysis, plus customer ownership and cross-functional investigation. I can support that with sanitized examples from my actual scope. I also have working SQL/PostgreSQL and Power BI knowledge. I have not used Abnormal's data or tools and do not know its metric contracts, schemas, SLA clocks, quality rubric, targets, or privacy workflow. For preparation I authored a synthetic dictionary, hand-worked calculations, SELECT-only query examples, and a dashboard wireframe; the lab was not executed. I would learn the authoritative definitions and permissions before operational analysis.”
+**Model answer:** “My prior enterprise-support experience gives me direct grounding in CSAT, backlog, and case-quality analysis, plus customer ownership and cross-functional investigation. I can support that with sanitized examples from my actual scope. I also have working SQL/PostgreSQL and Power BI knowledge. I have not used Abnormal's data or tools and do not know its metric contracts, schemas, SLA clocks, quality rubric, targets, or privacy workflow. For preparation I authored a synthetic dictionary, hand-worked calculations, SELECT-only query examples, and a dashboard wireframe; the lab was not executed. I would learn the authoritative definitions and permissions before operational analysis.”
 
 ## Memory Hooks
 
@@ -1252,7 +1252,7 @@ These official and primary sources anchor general measurement design, statistica
 - **Goodhart warning:** pressure can improve the number while damaging the goal.
 - **Correlation opens a case:** it does not close the causal investigation.
 - **SQL safety:** synthetic, SELECT-only, unexecuted, and independently reviewed.
-- **Arti's honest bridge:** Microsoft CSAT/backlog/quality transfer; no Abnormal data or tools.
+- **Your honest bridge:** Microsoft CSAT/backlog/quality transfer; no Abnormal data or tools.
 
 ## Completion Checklist
 

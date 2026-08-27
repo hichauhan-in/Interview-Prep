@@ -1,10 +1,10 @@
 # Part 26 - Procmon, Browser Developer Tools, HAR Logs, and Fiddler
 
-> **Audience:** Arti Thakur, moving from Microsoft 365 Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
+> **Audience:** Candidates moving from Microsoft 365 Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
 >
 > **Purpose:** Build a safe, evidence-first method for using Process Monitor, browser Developer Tools, HTTP Archive files, and Fiddler to distinguish endpoint, browser, proxy, network, identity, policy, and service behavior.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Its users, devices, traces, URLs, processes, policies, incidents, logs, failures, and outcomes are synthetic. Arti's Microsoft 365, OneDrive for Business, SharePoint Online, networking, evidence, and escalation experience must remain within her approved factual background.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Its users, devices, traces, URLs, processes, policies, incidents, logs, failures, and outcomes are synthetic. Your own product, networking, evidence, and escalation experience must remain within your documented background.
 >
 > **Product caveat:** Tool interfaces, fields, capture drivers, browser privacy controls, HAR exports, service-worker behavior, Fiddler editions, certificate handling, and Microsoft or Zscaler product behavior change. Verify current official documentation, organizational policy, versions, and direct evidence. No Procmon event, waterfall bar, HAR field, proxy session, or synthetic lab proves a production Microsoft, Zscaler, endpoint, network, or application defect by itself.
 
@@ -14,7 +14,7 @@ The goal is to observe the same user operation from several deliberately chosen 
 
 Think of an airport delay. Procmon is the baggage-room activity log: which worker opened which door, looked for which tag, or received "not found." DevTools is the passenger departure board and gate record: which flight was requested, what connection initiated it, when it queued, and what status appeared. A HAR file is an exported copy of the board and flight details. Fiddler is a controlled inspection desk through which selected passengers are routed. None is the entire airport. Correlation across ticket number, time, route, process, and outcome turns separate observations into a defensible explanation.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Evidence of mastery |
 |---|---|---|
@@ -30,15 +30,15 @@ By the end, Arti should be able to:
 | Correlate observation points | Join process, browser, proxy, packet, policy, and service evidence by UTC and IDs | Cross-tool ledger |
 | Compare app paths | Distinguish OneDrive sync-client and browser execution, identity, cache, network, and service paths | Known-good comparison |
 | Escalate precisely | Package minimum decisive evidence, limitations, hashes, reproduction, and exact engineering ask | Escalation bundle |
-| Bridge honestly | Connect Arti's support method to SecOps technical success without claiming proprietary product experience | Interview narrative |
+| Bridge honestly | Connect your support method to SecOps technical success without claiming proprietary product experience | Interview narrative |
 
 ## JD Mapping
 
-| JD expectation | Part 26 capability | Customer artifact | Honest Arti bridge |
+| JD expectation | Part 26 capability | Customer artifact | Honest experience bridge |
 |---|---|---|---|
 | Analyze complex environments | Correlate process, browser, proxy, packet, policy, and service observations | Dependency and evidence map | Extends M365 escalation analysis |
 | Identify security risks | Recognize token leakage, unsafe interception, weak trust, and excessive evidence | Capture privacy review | Applies enterprise evidence discipline |
-| Resolve critical escalations | Separate browser-only, client-only, path, identity, and service symptoms | Discriminating-test plan | Builds on CRITSIT ownership |
+| Resolve critical escalations | Separate browser-only, client-only, path, identity, and service symptoms | Discriminating-test plan | Builds on critical-situation ownership |
 | Tailor mitigation | Choose cache reset, service-worker test, endpoint repair, proxy change, or service escalation only after evidence | Option and rollback record | Builds on fix validation |
 | Deliver consulting | Teach teams how tools alter the environment and what each field means | Workshop and runbook | Uses mentoring experience |
 | Partner cross-functionally | Define endpoint, browser, network, identity, security, privacy, and service ownership | Evidence RACI | Maps to customer and Engineering work |
@@ -47,7 +47,7 @@ By the end, Arti should be able to:
 
 ## Candidate honesty note
 
-Arti can truthfully discuss using browser tools, HAR, Procmon, Fiddler, network evidence, OneDrive/SharePoint comparisons, timelines, escalations, and validation only to the extent supported by her real work. This Part gives her a structured lab and explanation model; it does not convert conceptual reading into production experience. She should not claim that a browser request used a particular Zscaler policy, service edge, inspection action, or proprietary log unless she has authorized tenant evidence showing it.
+You can truthfully discuss using browser tools, HAR, Procmon, Fiddler, network evidence, OneDrive/SharePoint comparisons, timelines, escalations, and validation only to the extent supported by your real work. This Part gives you a structured lab and explanation model; it does not convert conceptual reading into production experience. You should not claim that a browser request used a particular Zscaler policy, service edge, inspection action, or proprietary log unless you have authorized tenant evidence showing it.
 
 | Claim class | Safe wording | Required boundary |
 |---|---|---|
@@ -878,7 +878,7 @@ Package one sanitized HAR derivative, a filtered Procmon export plus protected P
 
 NMH is fictional. After a managed endpoint change, a subset of finance users report that the fictional sync client repeatedly shows "Processing changes" for new spreadsheet uploads. Upload through the browser succeeds. No production Microsoft or Zscaler data is used.
 
-The support team initially says "the network is healthy because browser upload works" and proposes resetting every client. Arti reframes the problem:
+The support team initially says "the network is healthy because browser upload works" and proposes resetting every client. You reframe the problem:
 
 - Symptom: synthetic files added to the sync folder remain pending.
 - Scope: one managed endpoint ring; unmanaged lab endpoint works.
@@ -919,7 +919,7 @@ sequenceDiagram
 | Proxy log | No matching sync upload session ID during retry | Consistent with local pre-network failure | Logging completeness verified separately |
 | Service health | No relevant advisory in fictional exercise | Broad service issue less likely | Service health absence is not proof |
 
-Arti asks the endpoint-security owner to validate whether the new rule intended to deny the exact synthetic sidecar path and process. In an isolated policy-ring test, the owner narrows the rule to preserve security intent while allowing the documented client operation. Procmon then records successful sidecar access, the client creates an upload request, proxy/service evidence records it, and sync completes. Negative controls confirm unrelated executables remain denied.
+You ask the endpoint-security owner to validate whether the new rule intended to deny the exact synthetic sidecar path and process. In an isolated policy-ring test, the owner narrows the rule to preserve security intent while allowing the documented client operation. Procmon then records successful sidecar access, the client creates an upload request, proxy/service evidence records it, and sync completes. Negative controls confirm unrelated executables remain denied.
 
 ### NMH root-cause statement
 
@@ -981,14 +981,14 @@ flowchart LR
 
 Example exact ask: "Please identify which endpoint-policy decision corresponds to the synthetic `USER-A`, device `DEVICE-A`, process hash `HASH-A`, and denied path token `PATH-A` at 14:02:11.430 UTC, and confirm whether package 7.4 intended that denial. We are not requesting a broad allow. The protected PML and sanitized ten-event export are available under case access group A."
 
-## Arti bridge and interview positioning
+## Experience bridge and interview positioning
 
-Arti's advantage is the habit of moving from user impact to evidence, ownership, safe mitigation, and validation. These tools deepen that habit. Her answer should emphasize boundaries rather than tool-name collecting.
+Your advantage is the habit of moving from user impact to evidence, ownership, safe mitigation, and validation. These tools deepen that habit. Your answer should emphasize boundaries rather than tool-name collecting.
 
 | Existing strength | Part 26 translation | Portfolio proof |
 |---|---|---|
 | OneDrive/SharePoint support | Compare browser and sync-client paths without false equivalence | Path matrix |
-| CRITSIT leadership | Run endpoint/browser/network/service workstreams on one UTC ledger | NMH bridge timeline |
+| Critical-situation leadership | Run endpoint/browser/network/service workstreams on one UTC ledger | NMH bridge timeline |
 | RCA | Separate trigger, root cause, contributors, and detection gap | Fictional policy RCA |
 | Fix validation | Positive transaction plus negative security control | Pilot validation record |
 | Networking | Correlate HTTP timing with DNS/TCP/TLS/proxy evidence | Cross-tool timeline |
@@ -1170,7 +1170,7 @@ The following authoritative sources were reviewed on **2026-08-24**. They suppor
 - [ ] I can walk the fictional NMH scenario without claiming a Microsoft, Zscaler, or endpoint-vendor production defect.
 - [ ] I can write trigger, root cause, contributors, fix, validation, rollback, and prevention separately.
 - [ ] I can prepare a minimum-data escalation package with an exact owner ask.
-- [ ] I can explain Arti's transferable evidence method without overstating product experience.
+- [ ] I can explain your transferable evidence method without overstating product experience.
 - [ ] I can answer all eight interview questions aloud using bounded evidence language.
 
 [Part 27 - Structured Connectivity Troubleshooting and Fault Isolation](Part-27-connectivity-troubleshooting-fault-isolation.md)

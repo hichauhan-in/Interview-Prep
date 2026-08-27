@@ -1,6 +1,6 @@
 # Part 32 - FlexGroup, FlexCache, Qtrees, Quotas, and Large-Scale File Workloads
 
-> **Section goal:** Learn how ONTAP handles large-scale NAS workloads through FlexGroup scale-out volumes, FlexCache distributed caching, qtree administrative subdivisions, and user/group/tree quota accounting. By the end, Arti should be able to explain constituents and placement, membership and rebalance concepts, cache origin/coherency/write modes, quota policy/rule/reporting behavior, large-file-count risks, protection/mobility tradeoffs, and a safe evidence-led troubleshooting or recommendation plan.
+> **Section goal:** Learn how ONTAP handles large-scale NAS workloads through FlexGroup scale-out volumes, FlexCache distributed caching, qtree administrative subdivisions, and user/group/tree quota accounting. By the end, you should be able to explain constituents and placement, membership and rebalance concepts, cache origin/coherency/write modes, quota policy/rule/reporting behavior, large-file-count risks, protection/mobility tradeoffs, and a safe evidence-led troubleshooting or recommendation plan.
 
 Covers index item **32** and maps directly to job-description responsibilities for storage/NAS depth, customer-environment discovery, capacity and performance analysis, risk mitigation, strategic workload advice, supportability, operational reviews, and escalation quality.
 
@@ -8,7 +8,7 @@ Covers index item **32** and maps directly to job-description responsibilities f
 
 Exact FlexGroup constituent counts/layout, supported platforms/tiers, size/file/qtree/snapshot/protection/move limits, automatic placement, expansion, rebalance behavior, FlexCache origin/cache topology, write modes, coherency, disconnected behavior, licensing, qtree/security-style behavior, quota types/targets/rules/thresholds/scanning/reporting, commands, and limits vary by ONTAP release, platform, feature, workload, and configuration. A **current-doc check** means reopening current official documentation for the exact release and configuration. Verify **Interoperability Matrix Tool (IMT)** where client/application combinations matter, **Hardware Universe (HWU)** for relevant platform/capacity facts, application guidance, and authorized evidence. This Part gives no memorized hard limit or unverified write-mode procedure.
 
-> **No-production-NetApp boundary:** Arti does not claim production NetApp or ONTAP scale-out NAS experience. Every FlexGroup, constituent, cache, quota, file count, customer, metric, and result below is synthetic. Her factual experience is Microsoft enterprise support, SharePoint/OneDrive data services, Azure/VM/networking, permissions, CRITSIT ownership, analytics and customer communication. The explicit non-claim is: **she has not created or expanded a production FlexGroup, run a FlexGroup rebalance, deployed FlexCache or a write-back mode, created ONTAP qtrees/quota policies, initialized/resized quotas, or operated a high-file-count ONTAP namespace.**
+> **No-production-NetApp boundary:** You do not claim production NetApp or ONTAP scale-out NAS experience. Every FlexGroup, constituent, cache, quota, file count, customer, metric, and result below is synthetic. Your factual experience is enterprise support, SharePoint/OneDrive data services, Azure/VM/networking, permissions, critical-situation ownership, analytics and customer communication. The explicit non-claim is: **you have not created or expanded a production FlexGroup, run a FlexGroup rebalance, deployed FlexCache or a write-back mode, created ONTAP qtrees/quota policies, initialized/resized quotas, or operated a high-file-count ONTAP namespace.**
 
 ---
 
@@ -735,12 +735,12 @@ flowchart TD
 
 ### JD Mapping
 
-| JD responsibility | Part 32 contribution | Arti's factual bridge and gap |
+| JD responsibility | Part 32 contribution | Your factual bridge and gap |
 |---|---|---|
 | Understand environment | Maps large namespace, placement, cache, quota, identity and owners | M365 data-service method transfers; ONTAP operation unproven |
 | Storage depth | Covers FlexGroup/FlexCache/qtrees/quotas at safe depth | Conceptual/synthetic only |
 | Capacity/performance | Uses file/object/operation distributions and constituent/cache evidence | Analytics strength transfers |
-| Risk/stability | Finds imbalance, coherency, quota, identity and recovery risks | CRITSIT method transfers |
+| Risk/stability | Finds imbalance, coherency, quota, identity and recovery risks | critical-situation method transfers |
 | Supportability | Requires exact feature/limit/client/ONTAP current evidence | No gated/customer result claimed |
 | Recommendations | Compares workload/operational tradeoffs and validation | Advisory strength |
 | Service review | Reports scale, growth, performance, quota and protection actions | Business-review strength |
@@ -749,7 +749,7 @@ flowchart TD
 
 ## 16. Fully synthetic scenario: Northwind Engineering scale and quota incident
 
-> **Synthetic case:** Northwind Engineering, every namespace, file count, cache, quota and result below is fictional. It is not a NetApp customer, internal process, benchmark, tool result, or Arti's production work.
+> **Synthetic case:** Northwind Engineering, every namespace, file count, cache, quota and result below is fictional. It is not a NetApp customer, internal process, benchmark, tool result, or your production work.
 
 ### Environment
 
@@ -854,14 +854,14 @@ flowchart TD
 
 ---
 
-## 17. Arti's factual transfer and honest positioning
+## 17. Your factual transfer and honest positioning
 
 ```mermaid
 flowchart LR
     SPO[SharePoint/OneDrive production work] --> NS[Large shared namespace permissions sync and user impact]
     AZ[Azure/networking] --> DIST[Remote sites latency paths and shared services]
     BI[Analytics Excel Power BI SQL Python] --> SCALE[File/capacity/performance distributions and forecasts]
-    CRIT[CRITSIT/Product escalation] --> SAFE[Evidence hypotheses owner action and communication]
+    CRIT[Critical situation/Product escalation] --> SAFE[Evidence hypotheses owner action and communication]
     NS --> ONTAP[Scale-out NAS synthetic method]
     DIST --> ONTAP
     SCALE --> ONTAP
@@ -874,7 +874,7 @@ flowchart LR
 | SharePoint/OneDrive | Large shared namespace, permissions and user-operation reasoning | Not FlexGroup placement or FlexCache coherency experience |
 | Azure/networking | Remote path, DNS, latency and shared-fate analysis | No production origin/cache deployment |
 | Analytics | File-count/capacity/performance/forecast and quota reporting | No ONTAP scale counter/limit production use |
-| CRITSIT | Separate symptoms, safe action and escalation evidence | No rebalance/quota operation authority |
+| Critical situation | Separate symptoms, safe action and escalation evidence | No rebalance/quota operation authority |
 
 ### Honest answer
 
@@ -1029,7 +1029,7 @@ flowchart LR
 
 ### Q8. How does your background transfer, and what remains a gap?
 
-> **Model answer:** "My SharePoint/OneDrive, Azure/networking, analytics and CRITSIT experience gives me large-namespace, identity, remote-path, data-quality and customer-risk reasoning. I understand FlexGroup, FlexCache, qtrees and quotas conceptually but have not administered them in production. I would use current docs, authorized evidence, IMT/HWU and application/identity/network/NetApp specialists before expansion, rebalance, cache-mode or quota changes."
+> **Model answer:** "My SharePoint/OneDrive, Azure/networking, analytics and critical-situation experience gives me large-namespace, identity, remote-path, data-quality and customer-risk reasoning. I understand FlexGroup, FlexCache, qtrees and quotas conceptually but have not administered them in production. I would use current docs, authorized evidence, IMT/HWU and application/identity/network/NetApp specialists before expansion, rebalance, cache-mode or quota changes."
 
 ---
 
@@ -1051,7 +1051,7 @@ flowchart LR
 - **Hard versus soft:** Enforcement boundary versus warning orientation.
 - **Large namespace:** File count and metadata can dominate bytes.
 - **Scale recovery:** Test representative file enumeration and app restore.
-- **Arti's bridge:** Large-data/evidence reasoning transfers; ONTAP scale operations do not.
+- **Your bridge:** Large-data/evidence reasoning transfers; ONTAP scale operations do not.
 
 ---
 

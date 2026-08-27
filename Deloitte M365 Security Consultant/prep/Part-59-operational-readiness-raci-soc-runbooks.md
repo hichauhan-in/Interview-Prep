@@ -2,7 +2,7 @@
 
 > **Section goal:** Learn how to turn a deployed Microsoft 365 security capability into a reliable, owned, supportable service. By the end, you should be able to assess readiness across people, process, technology, data, and supplier dimensions; define service outcomes, boundaries, consumers, dependencies, and support hours; build practical RACI and RASCI models; distinguish service desk, SOC, L1, L2, L3, engineering, product, vendor, partner, privacy, legal, risk, and business roles; design queues, severity, priority, escalation, SLA, OLA, and underpinning-contract relationships; distinguish runbooks, standard operating procedures, playbooks, and knowledge articles; write executable runbooks with decision points, permissions, evidence, recovery, and escalation; design health monitoring, synthetic checks, alert routing, and on-call; govern administrative access, PIM, emergency access, and service identities; deliver training, knowledge transfer, shadowing, reverse shadowing, and table-top exercises; maintain CMDB and configuration baselines; define known errors and vendor contacts; run formal handover and acceptance gates; and use critical success factors, KPIs, KRIs, service reviews, and continual improvement without turning metrics into vanity reporting.
 
-This Part maps directly to the role's responsibilities for operational readiness, SOC integration, client handover, documentation, service troubleshooting, escalation, vendor coordination, and measurable improvement. Arti's demonstrated strengths are unusually relevant: she has worked across Microsoft 365 support queues, critical incidents, vendor and product-group escalations, RCA, fix validation, reusable documentation, mentoring, service KPIs, customer outcomes, and business reviews. The consulting bridge is to design those operating conditions deliberately before handover and to make ownership, evidence, recovery, and improvement auditable.
+This Part maps directly to the role's responsibilities for operational readiness, SOC integration, client handover, documentation, service troubleshooting, escalation, vendor coordination, and measurable improvement. Your demonstrated strengths are unusually relevant: you have worked across Microsoft 365 support queues, critical incidents, vendor and product-group escalations, RCA, fix validation, reusable documentation, mentoring, service KPIs, customer outcomes, and business reviews. The consulting bridge is to design those operating conditions deliberately before handover and to make ownership, evidence, recovery, and improvement auditable.
 
 > **Method boundary:** This chapter contains public, general consulting, service-management, security-operations, and handover practices. It does not describe or imply Deloitte proprietary operating models, methods, templates, service levels, SOC designs, tooling, client experience, or commercial practices. Real work must use approved firm/client governance, contracts, employment rules, security, privacy, legal, records, health and safety, accessibility, change, and labor/on-call requirements.
 
@@ -23,9 +23,9 @@ This Part maps directly to the role's responsibilities for operational readiness
 
 ## Candidate honesty note
 
-Arti can directly discuss Microsoft 365 enterprise support, high-severity escalation, SharePoint Online and OneDrive, sync and migration issues, vendors and product groups, customer communication, RCA, fix validation, documentation, knowledge sharing, mentoring, KPIs, and business reviews where evidenced. These are core operational-readiness behaviors because they show how a service is monitored, supported, diagnosed, recovered, explained, and improved.
+You can directly discuss Microsoft 365 enterprise support, high-severity escalation, SharePoint Online and OneDrive, sync and migration issues, vendors and product groups, customer communication, RCA, fix validation, documentation, knowledge sharing, mentoring, KPIs, and business reviews where evidenced. These are core operational-readiness behaviors because they show how a service is monitored, supported, diagnosed, recovered, explained, and improved.
 
-She should not claim that she has designed or managed a production SOC, negotiated client SLAs/OLAs/contracts, owned Microsoft Sentinel/Defender operations, administered PIM, or delivered a Deloitte operating model unless separately evidenced. Safe wording is:
+You should not claim that you have designed or managed a production SOC, negotiated client SLAs/OLAs/contracts, owned Microsoft Sentinel/Defender operations, administered PIM, or delivered a Deloitte operating model unless separately evidenced. Safe wording is:
 
 > “My production experience is Microsoft 365 support escalation and technical advisory. I have coordinated support teams, customers, vendors, and product groups; documented RCA and fixes; built reusable guidance; mentored engineers; and discussed service metrics in business reviews. I have used that experience to create a fictional operational-readiness pack covering RACI, queues, service levels, runbooks, monitoring, access, training, supplier escalation, handover, and continual improvement. I would tailor it to the client's approved operating model and contracts.”
 
@@ -487,7 +487,7 @@ Do not label speculation as root cause. Distinguish:
 - **Workaround:** reduces impact without removing underlying cause.
 - **Permanent fix:** removes or acceptably controls the cause and is validated.
 
-Arti's RCA and documentation experience naturally maps to problem and known-error management. Her fix-validation habit prevents a workaround from being mistaken for permanent resolution.
+Your RCA and documentation experience naturally maps to problem and known-error management. Your fix-validation habit prevents a workaround from being mistaken for permanent resolution.
 
 ## 24. Supplier and vendor operating model
 
@@ -505,7 +505,7 @@ Arti's RCA and documentation experience naturally maps to problem and known-erro
 ```mermaid
 flowchart LR
     CLIENT[Client service owner] --> CASE[Authoritative incident/problem record]
-    CASE --> MS[Microsoft support/product group]
+    CASE --> MS[enterprise support/product group]
     CASE --> THIRD[Third-party vendor]
     CASE --> PARTNER[Partner/MSSP/integrator]
     MS --> SHARED[Shared timeline, evidence and actions]
@@ -603,7 +603,7 @@ A useful review answers:
 6. What decisions, investments, risks, or priorities need owner action?
 7. Which improvements were validated, and what is next?
 
-Arti can use her business-review experience to keep this outcome-focused. Translate technical facts into customer impact and decisions without hiding uncertainty.
+You can use your business-review experience to keep this outcome-focused. Translate technical facts into customer impact and decisions without hiding uncertainty.
 
 ## 31. Continual improvement
 
@@ -628,7 +628,7 @@ The improvement register should include ID, source, problem/opportunity, evidenc
 
 ## 33. Scenario: Conditional Access operational readiness
 
-The service design identifies policy owner, identity operations, service desk, application owners, emergency access, sign-in monitoring, report-only analysis, policy-change process, user recovery, guest and service-identity boundaries, Microsoft support evidence, and business communication. Runbooks distinguish policy evaluation, token/session timing, device compliance, authentication method, application behavior, network location, and service health. A broad exclusion is never the default troubleshooting step.
+The service design identifies policy owner, identity operations, service desk, application owners, emergency access, sign-in monitoring, report-only analysis, policy-change process, user recovery, guest and service-identity boundaries, enterprise support evidence, and business communication. Runbooks distinguish policy evaluation, token/session timing, device compliance, authentication method, application behavior, network location, and service health. A broad exclusion is never the default troubleshooting step.
 
 ## 34. Scenario: DLP operations
 
@@ -725,7 +725,7 @@ Use **S-O-Q-L-R-M-K-A-I**:
 
 ## 40. JD Mapping: interview translation
 
-| Arti experience | Operational-readiness meaning | Honest sentence |
+| Your experience | Operational-readiness meaning | Honest sentence |
 |---|---|---|
 | Enterprise support queues | Intake, triage, routing, severity, escalation | “I understand what evidence makes a handoff actionable.” |
 | Vendor/product-group escalation | Supplier boundary and defect path | “I maintain a shared timeline and clear evidence-led ask.” |
@@ -825,7 +825,7 @@ Use current versions and access dates in real work.
 - [ ] I can build supplier contacts, evidence, support, access, maintenance, continuity, and exit controls.
 - [ ] I can define handover criteria, blockers, conditional acceptance, and residual-risk ownership.
 - [ ] I can design CSFs, KPIs, KRIs, health indicators, service reviews, and anti-gaming controls.
-- [ ] I can connect Arti's direct escalation, RCA, fix-validation, documentation, mentoring, and business-review evidence honestly.
+- [ ] I can connect your direct escalation, RCA, fix-validation, documentation, mentoring, and business-review evidence honestly.
 - [ ] I can present the Northstar artifacts as a fictional paper portfolio.
 - [ ] I can answer Q1–Q8 without implying proprietary methods or unsupported production experience.
 

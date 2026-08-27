@@ -499,7 +499,7 @@ This may not be a technical outage. Check:
 
 ---
 
-## 11. How Your Microsoft Experience Transfers
+## 11. How Your prior Experience Transfers
 
 | Glean concept | Your closest experience | What transfers | What remains to learn |
 |---|---|---|---|

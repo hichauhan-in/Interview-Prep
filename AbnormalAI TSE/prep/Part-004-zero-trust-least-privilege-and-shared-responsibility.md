@@ -2,19 +2,19 @@
 
 > **Purpose:** Build a beginner-first method for deciding who or what may access a resource, under which conditions, for how long, with what evidence, and under whose responsibility across a cloud service chain.
 >
-> **Evidence rule:** Arti's Microsoft enterprise support, networking learning, and identity fundamentals are transferable foundations only. All architectures, events, accounts, tokens, decisions, and artifacts in this Part are synthetic. Nothing here implies production operation of Abnormal AI, direct email-security work, a customer security assessment, or authority to approve access or accept risk.
+> **Evidence rule:** Your prior enterprise support, networking learning, and identity fundamentals are transferable foundations only. All architectures, events, accounts, tokens, decisions, and artifacts in this Part are synthetic. Nothing here implies production operation of Abnormal AI, direct email-security work, a customer security assessment, or authority to approve access or accept risk.
 >
 > **Currency and official-source access date:** August 24, 2026.
 
 ## Section Goal
 
-By the end of this Part, Arti should be able to explain **zero trust** as a security strategy rather than a product. She should be able to explain why traditional location-based confidence became insufficient, then use the three teaching principles **verify explicitly**, **use least privilege**, and **assume breach** without turning them into slogans. She should be able to identify the identity, device or workload, requested resource, action, environmental context, policy, and telemetry needed for a defensible access decision.
+By the end of this Part, you should be able to explain **zero trust** as a security strategy rather than a product. You should be able to explain why traditional location-based confidence became insufficient, then use the three teaching principles **verify explicitly**, **use least privilege**, and **assume breach** without turning them into slogans. You should be able to identify the identity, device or workload, requested resource, action, environmental context, policy, and telemetry needed for a defensible access decision.
 
-Arti should also be able to distinguish human trust from technical confidence, authentication from authorization, and a one-time login from a continuously governed session. She should be able to draw trust boundaries and data flows; separate control, data, and management planes; identify implicit-trust hazards; explain segmentation and microsegmentation; and reason through token issuance, use, refresh, expiration, revocation, and re-evaluation.
+You should also be able to distinguish human trust from technical confidence, authentication from authorization, and a one-time login from a continuously governed session. You should be able to draw trust boundaries and data flows; separate control, data, and management planes; identify implicit-trust hazards; explain segmentation and microsegmentation; and reason through token issuance, use, refresh, expiration, revocation, and re-evaluation.
 
-The least-privilege outcome is practical. Arti should be able to review users, administrators, support personnel, service accounts, Application Programming Interface (API) integrations, and emergency-access paths for excessive identity, action, resource, scope, duration, and delegation. She should understand privilege creep, **just-in-time (JIT)** access, the broader **just-enough administration** idea, Microsoft's specific **Just Enough Administration (JEA)** technology, and why break-glass access must be exceptional, tested, monitored, and reviewed.
+The least-privilege outcome is practical. You should be able to review users, administrators, support personnel, service accounts, Application Programming Interface (API) integrations, and emergency-access paths for excessive identity, action, resource, scope, duration, and delegation. You should understand privilege creep, **just-in-time (JIT)** access, the broader **just-enough administration** idea, Microsoft's specific **Just Enough Administration (JEA)** technology, and why break-glass access must be exceptional, tested, monitored, and reviewed.
 
-Finally, Arti should be able to map shared responsibility across a customer, Software as a Service (SaaS) vendor, cloud provider, identity provider, mail provider, integration vendors, the customer Security Operations Center (SOC), and support. She should know why a Responsible-Accountable-Consulted-Informed (RACI) chart is useful but cannot rewrite technical, legal, contractual, or risk responsibility. She should ask for evidence at the correct boundary, preserve case ownership while escalating, and avoid blame or invented product behavior.
+Finally, you should be able to map shared responsibility across a customer, Software as a Service (SaaS) vendor, cloud provider, identity provider, mail provider, integration vendors, the customer Security Operations Center (SOC), and support. You should know why a Responsible-Accountable-Consulted-Informed (RACI) chart is useful but cannot rewrite technical, legal, contractual, or risk responsibility. You should ask for evidence at the correct boundary, preserve case ownership while escalating, and avoid blame or invented product behavior.
 
 The practical outcome is a **Zero Trust Boundary and Shared-Responsibility Lab**. It produces a synthetic architecture, trust-boundary and plane map, access-decision record, privilege review, token-lifecycle trace, responsibility and RACI matrices, evidence manifest, failure tests, escalation packet, and scored rubric.
 
@@ -41,12 +41,12 @@ The mappings below come from the supplied job description represented in the con
 
 ## Candidate Honesty Note
 
-Zero-trust vocabulary can make ordinary troubleshooting sound like security architecture ownership. This Part keeps Arti's evidence limits explicit.
+Zero-trust vocabulary can make ordinary troubleshooting sound like security architecture ownership. This Part keeps your evidence limits explicit.
 
 | Evidence label | Honest use in this Part | Boundary that must remain explicit |
 |---|---|---|
-| **Production-transfer example** | CV-supported Microsoft customer-facing support, complex investigation, CRITSIT coordination, Engineering/Product escalation, fix validation, and customer communication support disciplined boundary diagnosis | These methods are not production zero-trust design, identity governance, email-security operations, or Abnormal administration |
-| **Working knowledge or upskilling** | Networking concepts and tools help Arti separate Domain Name System (DNS), Transport Layer Security (TLS), proxy, route, and application boundaries; AD/Entra, SSO, SAML, and OAuth fundamentals help frame identity questions | This is not network engineering ownership, privileged-access administration, formal identity architecture, or named-vendor integration operation |
+| **Production-transfer example** | CV-supported enterprise customer-facing support, complex investigation, critical-situation coordination, Engineering/Product escalation, fix validation, and customer communication support disciplined boundary diagnosis | These methods are not production zero-trust design, identity governance, email-security operations, or Abnormal administration |
+| **Working knowledge or upskilling** | Networking concepts and tools help you separate Domain Name System (DNS), Transport Layer Security (TLS), proxy, route, and application boundaries; AD/Entra, SSO, SAML, and OAuth fundamentals help frame identity questions | This is not network engineering ownership, privileged-access administration, formal identity architecture, or named-vendor integration operation |
 | **Local/public lab** | The synthetic architecture, token trace, policy tests, responsibility map, and escalation packet demonstrate a repeatable reasoning method | The lab is not a customer assessment, audit, penetration test, production deployment, or proof of operating Abnormal AI |
 | **Learned architecture** | NIST, CISA, Microsoft, and official Abnormal public source families support the conceptual model and limited public product context | Official-document study does not reveal private controls, contracts, internal telemetry, exact permissions, or support procedures |
 | **No direct experience** | The master records no direct Abnormal AI or email-security production operation and no stated authority to grant customer access or accept risk | Say this directly; then give the closest transferable method, the lab artifact, and the next learning checkpoint |
@@ -54,7 +54,7 @@ Zero-trust vocabulary can make ordinary troubleshooting sound like security arch
 
 A safe interview bridge is:
 
-> In Microsoft enterprise support, I learned to separate identity, client, network, configuration, service, and ownership boundaries, keep the customer informed, and escalate with evidence. My AD/Entra and authentication fundamentals help me ask structured access questions, and my networking study helps me distinguish reachability from application authorization. I have not designed or operated Abnormal's zero-trust controls or direct email-security workflows. My current proof is learned architecture plus a synthetic lab, not production ownership.
+> In enterprise support, I learned to separate identity, client, network, configuration, service, and ownership boundaries, keep the customer informed, and escalate with evidence. My AD/Entra and authentication fundamentals help me ask structured access questions, and my networking study helps me distinguish reachability from application authorization. I have not designed or operated Abnormal's zero-trust controls or direct email-security workflows. My current proof is learned architecture plus a synthetic lab, not production ownership.
 
 ## Beginner Definitions and Analogies
 
@@ -931,7 +931,7 @@ Place this exact label at the top of every saved artifact:
 
 **Identities and resources:**
 
-- `arti.lab.analyst`: human SOC analyst with `case.read`;
+- `lab.analyst`: human SOC analyst with `case.read`;
 - `nora.lab.admin`: customer identity administrator;
 - `svc-caserelay`: workload identity intended for `alerts.read` only;
 - `emergency-admin-01`: fictional break-glass identity;
@@ -944,7 +944,7 @@ Place this exact label at the top of every saved artifact:
 
 ```mermaid
 flowchart LR
-    Analyst["arti.lab.analyst"] -->|"Authenticate"| IdP["Northstar-ID"]
+    Analyst["lab.analyst"] -->|"Authenticate"| IdP["Northstar-ID"]
     Admin["nora.lab.admin"] -->|"Manage grants and roles"| IdP
     IdP -->|"Synthetic identity assertions"| SaaS["SignalShield-SaaS"]
     Mail["Northstar-Mail"] -->|"Synthetic metadata for MSG-1001 to MSG-1003"| SaaS
@@ -960,7 +960,7 @@ flowchart LR
 
 | UTC time | Event | Expected interpretation before testing |
 |---|---|---|
-| 09:00 | `arti.lab.analyst` signs in on managed device; session `SES-A` issued under `POL-7` | Authentication succeeded; exact resource authorization still required |
+| 09:00 | `lab.analyst` signs in on managed device; session `SES-A` issued under `POL-7` | Authentication succeeded; exact resource authorization still required |
 | 09:02 | `REQ-004-A` reads case metadata and is allowed | `case.read` matches resource/action |
 | 09:04 | `REQ-004-B` requests full message export and is denied `403` | Likely expected least-privilege denial |
 | 09:10 | `svc-caserelay` receives token `TOK-META-1` with `alerts.read` and unexpected `tenant.config.write` | Functional but overprivileged grant |
@@ -978,7 +978,7 @@ Create `01-resource-action-register.md` with at least these rows:
 
 | Resource | Security objective | Allowed subject/action | Explicitly disallowed action | Decision owner |
 |---|---|---|---|---|
-| Case metadata for `CASE-004-17` | Analysts can investigate minimum evidence | `arti.lab.analyst` may `case.read` while role and policy are valid | Full message export without separate approval | Customer SOC/role owner under synthetic policy |
+| Case metadata for `CASE-004-17` | Analysts can investigate minimum evidence | `lab.analyst` may `case.read` while role and policy are valid | Full message export without separate approval | Customer SOC/role owner under synthetic policy |
 | Tenant configuration | Only approved admins change policy | `nora.lab.admin` may perform named changes through approved management path | `svc-caserelay` may not write configuration | Customer identity/service owner |
 | Alert event stream | CaseRelay receives alert metadata | `svc-caserelay` may `alerts.read` for tenant `NST-100` | Cross-tenant read or configuration write | Customer integration owner |
 | Provider decision telemetry | Support can investigate documented case evidence | Support may retrieve approved request decisions for case purpose | Unbounded mailbox or customer-data browsing | SaaS vendor under fictional support policy |
@@ -1026,7 +1026,7 @@ Create `04-privilege-review.md` and review all four identities.
 
 | Identity | Needed access | Effective or observed access | Excess or gap | Proposed control | Validation |
 |---|---|---|---|---|---|
-| `arti.lab.analyst` | `case.read` for assigned synthetic cases | `case.read` under `POL-7`; no export | Role removal does not immediately stop `SES-A` in scenario | Session revoke and documented behavior review | New and old session denial after revoke |
+| `lab.analyst` | `case.read` for assigned synthetic cases | `case.read` under `POL-7`; no export | Role removal does not immediately stop `SES-A` in scenario | Session revoke and documented behavior review | New and old session denial after revoke |
 | `nora.lab.admin` | Named identity-management changes | State only approved task; do not invent global access | Determine whether standing privilege is necessary | JIT plus task-scoped administration concept | Approved change succeeds; unrelated action denied |
 | `svc-caserelay` | `alerts.read` for `NST-100` | Also has `tenant.config.write` | Excess write scope and possibly stale owner | Replace with read-only grant; assign owner; rotate/revoke | Read succeeds; write fails; old credential fails |
 | `emergency-admin-01` | Emergency restore only | Dependency on failed normal identity path | Recovery path not independent | Redesign under official guidance; protect and test | Approved test succeeds and alerts fire |
@@ -1186,12 +1186,12 @@ Score each dimension from 0 to 4. Maximum score: 48.
 
 ## Official Source Anchors
 
-All sources below were accessed on **August 24, 2026**. Standards, public product pages, documentation, and service responsibilities can change. Revalidate them before operational use. The supplied master/CV remains the only source for Arti's production-experience claims.
+All sources below were accessed on **August 24, 2026**. Standards, public product pages, documentation, and service responsibilities can change. Revalidate them before operational use. Your own CV remains the only source for your production-experience claims.
 
 | Official source title or family | URL | Access date | Use in this Part and caution |
 |---|---|---|---|
 | Supplied Abnormal AI Technical Support Engineer JD represented in the confirmed master | No public URL supplied | August 24, 2026 | Role, named product areas, case types, ecosystem, and culture signals; no private workflow inferred |
-| Arti Thakur tailored CV/master evidence summary | Local supplied source; no public URL | August 24, 2026 | Microsoft enterprise support, escalation, networking learning, identity fundamentals, and communication transfer only |
+| Your CV and master evidence summary | Local supplied source; no public URL | August 24, 2026 | enterprise support, escalation, networking learning, identity fundamentals, and communication transfer only |
 | NIST SP 800-207, Zero Trust Architecture | <https://csrc.nist.gov/pubs/sp/800/207/final> | August 24, 2026 | Primary architecture anchor: resource focus, removal of location-based implicit trust, tenets, policy engine/administrator/enforcement concepts; not a product checklist |
 | CISA Zero Trust Maturity Model Version 2.0 | <https://www.cisa.gov/sites/default/files/2023-04/zero_trust_maturity_model_v2_508.pdf> | August 24, 2026 | Identity, Devices, Networks, Applications and Workloads, and Data pillars; Visibility and Analytics, Automation and Orchestration, and Governance cross-cutting capabilities; maturity is a journey, not an Abnormal design claim |
 | Microsoft Zero Trust as a security foundation | <https://learn.microsoft.com/en-us/security/zero-trust/zero-trust-overview> | August 24, 2026 | Official teaching language for verify explicitly, least privilege, assume breach, conditional/temporary access, continuous evaluation, and shared security responsibility |
@@ -1219,7 +1219,7 @@ All sources below were accessed on **August 24, 2026**. Standards, public produc
 - **Official Abnormal public positioning:** Only the high-level statements available on the named official pages are used. No private permissions, token lifecycle, data flow, control plane, support access, contract, or product behavior is invented.
 - **Teaching framework:** The decision sentence, plane examples, tables, responsibility matrices, worked examples, lab, RACI, and rubric are original study aids, not official NIST, CISA, Microsoft, or Abnormal methods.
 - **Synthetic evidence:** Northstar Paperworks, SignalShield-SaaS, CloudBase, all identities, messages, tokens, requests, policies, events, and times are fictional.
-- **Candidate evidence:** Only the supplied CV/master supports Arti's production-transfer claims.
+- **Candidate evidence:** Only your own CV and the master curriculum support your production-transfer claims.
 - **Required revalidation:** Exact product capability, permission, log field, revocation behavior, responsibility, and escalation path must be checked against current official documentation and authorization.
 
 ## Interview Q&A
@@ -1331,7 +1331,7 @@ All sources below were accessed on **August 24, 2026**. Standards, public produc
 - [ ] My lab score is at least 40/48, with 4s in safety/honesty, explicit decisions, shared responsibility, and escalation quality.
 - [ ] I can walk through all six worked examples using inputs, reasoning, evidence, result, caveat, owner, and escalation boundary.
 - [ ] I can answer all eight interview questions aloud without overstating production zero-trust, identity governance, Abnormal, or email-security experience.
-- [ ] My Arti tie-ins use only stated Microsoft support, networking learning, and identity fundamentals, and every gap remains explicit.
+- [ ] My background tie-ins use only stated enterprise support, networking learning, and identity fundamentals, and every gap remains explicit.
 - [ ] I checked all official-source anchors against the August 24, 2026 access date and separated official guidance, public vendor positioning, teaching framework, synthetic evidence, and candidate evidence.
 
 [Next: Part 005 - Privacy Data Handling and Evidence Ethics](Part-005-privacy-data-handling-and-evidence-ethics.md)

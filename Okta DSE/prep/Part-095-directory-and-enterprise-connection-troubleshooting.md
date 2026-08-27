@@ -32,7 +32,7 @@ flowchart TD
 
 **The good news is that routing is fast** and depends on a small number of questions, most of which the customer can answer immediately. This Part is those questions, in order.
 
-> 💡 **Tie-in to your background:** as a Support Escalation Engineer handling CRITSITs, you have done exactly this — the discipline of narrowing before investigating, and asking for the right evidence in one request rather than five. The layers are different; the method is one you already use.
+> 💡 **Tie-in to your background:** as a Support Escalation Engineer handling critical situations, you have done exactly this — the discipline of narrowing before investigating, and asking for the right evidence in one request rather than five. The layers are different; the method is one you already use.
 
 ### 🔍 Plain-English deep-dive: the four questions that route almost everything
 

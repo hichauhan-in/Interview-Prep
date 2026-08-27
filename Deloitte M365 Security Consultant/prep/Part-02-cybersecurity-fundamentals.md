@@ -44,7 +44,7 @@ flowchart LR
 
 An asset can have several forms. A SharePoint Online finance site is a service resource, a collection of data, a set of permissions, an operational dependency, and a legal evidence source. Protecting only its availability while ignoring broad membership would miss confidentiality. Protecting only confidentiality while losing recoverability would miss availability and integrity.
 
-> **Arti's transferable advantage:** Production work across SharePoint Online, OneDrive, sync, customer environments, and critical escalations already requires asset-and-dependency thinking. The security extension is to ask not only “why did sync fail?” but also “what data, identity, permission, device, control, evidence, and business impact are involved?”
+> **Your transferable advantage:** Production work across SharePoint Online, OneDrive, sync, customer environments, and critical escalations already requires asset-and-dependency thinking. The security extension is to ask not only “why did sync fail?” but also “what data, identity, permission, device, control, evidence, and business impact are involved?”
 
 ---
 
@@ -182,7 +182,7 @@ sequenceDiagram
 
 **Data minimization** means collecting and retaining only what is necessary for a defined purpose. **Purpose limitation** means using data only for the stated legitimate purpose unless another lawful and governed basis exists. **Transparency** means affected people can understand important handling. These are governance and legal matters as well as technical design matters.
 
-> **Arti tie-in:** Customer escalation work already demands careful handling of logs, screenshots, tenant identifiers, and user information. The security-consulting extension is to request the minimum evidence needed, redact safely, control who receives it, document purpose, and follow retention and deletion requirements.
+> **Background tie-in:** Customer escalation work already demands careful handling of logs, screenshots, tenant identifiers, and user information. The security-consulting extension is to request the minimum evidence needed, redact safely, control who receives it, document purpose, and follow retention and deletion requirements.
 
 ---
 
@@ -444,7 +444,7 @@ Good evidence is relevant, traceable, time-bounded, scoped, authentic enough for
 | Privacy | Minimize and redact sensitive content; control recipients and retention |
 | Limitation | State missing logs, retention gaps, sampling, and uncertainty |
 
-> **Arti's transferable advantage:** RCA, fix validation, product-group escalation, vendor coordination, and troubleshooting documentation are direct evidence of disciplined fact gathering. In security work, preserve the same rigor while adding incident evidence handling, privacy, authorization, and adversarial hypotheses.
+> **Your transferable advantage:** RCA, fix validation, product-group escalation, vendor coordination, and troubleshooting documentation are direct evidence of disciplined fact gathering. In security work, preserve the same rigor while adding incident evidence handling, privacy, authorization, and adversarial hypotheses.
 
 ---
 
@@ -723,7 +723,7 @@ flowchart TD
     FIX --> RCA[RCA, residual risk, owner, documentation]
 ```
 
-| Artifact | Minimum content | Arti evidence bridge |
+| Artifact | Minimum content | transferable evidence bridge |
 |---|---|---|
 | Asset/dependency map | Asset, owner, identity, data, services, vendors, criticality | Existing cross-service and sync troubleshooting |
 | Finding | Observation, evidence, scope, risk, recommendation, owner | Technical advisory and documentation |
@@ -857,7 +857,7 @@ No tenant cleanup is required. Delete any accidental real identifiers from draft
 
 ## 18. Candidate honesty note
 
-| Evidence level | What Arti can support | What must not be implied |
+| Evidence level | What you can support | What must not be implied |
 |---|---|---|
 | Production | Microsoft 365 enterprise escalation, SharePoint Online, OneDrive, sync, technical advisory, customer/partner/engineering/vendor coordination, RCA, fix validation, documentation, business reviews, and Power Platform/Copilot-related work reflected in the CV | Production ownership of Entra, Intune, Purview, Defender, Sentinel, or every security control discussed here |
 | Transferable | Layered troubleshooting, dependency mapping, incident coordination, evidence gathering, client communication, documentation, and validation | That transferability equals years administering a security platform |
@@ -870,7 +870,7 @@ A safe answer names the evidence level before describing detail. Follow-up quest
 
 ## 19. JD Mapping
 
-| JD responsibility | Fundamentals applied in this Part | Evidence Arti can build or transfer |
+| JD responsibility | Fundamentals applied in this Part | Evidence you can build or transfer |
 |---|---|---|
 | Security assessments and health checks | Asset scope, finding quality, risk, control effectiveness, framework use | Paper assessment plus existing evidence-led technical reviews |
 | Microsoft 365 architecture and design | CIA, trust boundaries, defense in depth, shared responsibility | M365 workload knowledge translated into security requirements |

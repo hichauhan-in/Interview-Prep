@@ -6,7 +6,7 @@ This Part explains an **identity directory** from zero knowledge. A directory is
 
 A directory is not merely a contact list. It is part of an identity control plane. It can represent human users, external collaborators, devices, applications, service identities, and groups. It can participate in authentication, authorization, application assignment, provisioning, governance, and auditing. It can also synchronize with other directories and applications. A support engineer must identify the exact object, directory boundary, source, target, identifier, lifecycle state, and assignment path before drawing conclusions.
 
-This Part treats **Microsoft Entra ID** as a production-transfer area for Arti because the supplied CV includes Microsoft cloud support and Entra/Active Directory fundamentals. That does not mean every Entra feature was operated directly or that SharePoint/OneDrive support equals tenant-wide identity administration. **Okta** remains a learned architecture and later synthetic-lab target. No Okta production use is claimed. Abnormal's directory integration, identity schema, application objects, group handling, synchronization, and support tools remain unknown unless approved documentation states them.
+This Part treats **Microsoft Entra ID** as a production-transfer area for you because the supplied CV includes Microsoft cloud support and Entra/Active Directory fundamentals. That does not mean every Entra feature was operated directly or that SharePoint/OneDrive support equals tenant-wide identity administration. **Okta** remains a learned architecture and later synthetic-lab target. No Okta production use is claimed. Abnormal's directory integration, identity schema, application objects, group handling, synchronization, and support tools remain unknown unless approved documentation states them.
 
 The central rule is:
 
@@ -30,18 +30,18 @@ After completing this Part, you should be able to:
 - describe current Okta org, Universal Directory, user, profile, group, group rule, app, app user, assignment, and source concepts from official documentation;
 - build an Entra-to-Okta concept comparison without claiming one-to-one equivalence;
 - investigate assignment, import, synchronization, duplicate-object, and deprovisioning symptoms safely; and
-- use precise interview language that distinguishes Arti's Microsoft production transfer from Okta learned architecture and all named-platform gaps.
+- use precise interview language that distinguishes your prior production transfer from Okta learned architecture and all named-platform gaps.
 
 ## JD Mapping
 
-| Supplied role signal | Capability built | Arti evidence | Boundary |
+| Supplied role signal | Capability built | transferable evidence | Boundary |
 |---|---|---|---|
 | Enterprise SaaS ecosystem | Maps directories, principals, groups, applications, and assignments | Microsoft cloud support and Entra/AD fundamentals | No assumption about Abnormal's object model |
 | Microsoft 365 | Connects tenant-local identities and apps to Microsoft cloud integrations | SharePoint Online, OneDrive, Sync Client, Copilot | Do not claim full Entra administrator production ownership |
 | Okta | Establishes official-doc vocabulary and troubleshooting model | Structured learning in this guide | No direct Okta production use |
 | Configuration tickets | Distinguishes source, object ID, assignment, policy, and sync state | Enterprise case ownership and fix validation | No unauthorized tenant changes |
 | Onboarding with CSMs | Explains identity prerequisites and ownership | Customer/partner communication and training | Product-specific onboarding remains learned |
-| Complex investigations | Uses object graphs and lifecycle timelines | CRITSIT and Engineering/Product escalation | No invented identity incident |
+| Complex investigations | Uses object graphs and lifecycle timelines | critical situation and Engineering/Product escalation | No invented identity incident |
 | SaaS Security | Connects external/workload identity, least privilege, lifecycle, and audit | Microsoft and security fundamentals | No Abnormal control implementation claim |
 | API/integration questions | Reasons about schemas, IDs, mappings, and state | REST/JSON working knowledge | No production automation claim beyond evidence |
 
@@ -49,15 +49,15 @@ After completing this Part, you should be able to:
 
 | Evidence tier | Safe statement | Do not imply |
 |---|---|---|
-| **Production transfer - Microsoft** | “My Microsoft support background gives me practical familiarity with tenant context, users/groups, cloud service identity dependencies, customer configuration, escalation, and validation.” | Full-scope Entra identity engineering or administration unless a real example supports it |
+| **Production transfer - Microsoft** | “My prior support background gives me practical familiarity with tenant context, users/groups, cloud service identity dependencies, customer configuration, escalation, and validation.” | Full-scope Entra identity engineering or administration unless a real example supports it |
 | **Local/public lab** | “I built a synthetic directory object graph and lifecycle comparison with no live tenant.” | Real Entra/Okta provisioning or assignment changes |
-| **Learned architecture - Okta** | “From current official Okta documentation, I can explain orgs, Universal Directory, profiles, groups, apps, assignments, and lifecycle concepts.” | That Arti operated an Okta org or System Log in production |
+| **Learned architecture - Okta** | “From current official Okta documentation, I can explain orgs, Universal Directory, profiles, groups, apps, assignments, and lifecycle concepts.” | That you operated an Okta org or System Log in production |
 | **No direct experience** | “I have not administered Okta or Abnormal AI in production.” | Hidden credentials, customer access, or private product knowledge |
 | **Proprietary unknown** | “Abnormal's supported directories, schema, sync topology, app objects, group rules, lifecycle behavior, and support-access paths are unknown unless approved documentation says otherwise.” | A generic Entra or Okta pattern is an Abnormal fact |
 
 Safe interview language:
 
-> “I would lean on my Microsoft cloud support background for tenant and identity reasoning, but I would not overstate it as full Entra administration. Okta is a learned area for me: I can map the official concepts and troubleshoot a synthetic object flow, then validate the customer's actual org, source, identifiers, assignments, policies, and logs with an authorized administrator.”
+> “I would lean on my prior cloud support background for tenant and identity reasoning, but I would not overstate it as full Entra administration. Okta is a learned area for me: I can map the official concepts and troubleshoot a synthetic object flow, then validate the customer's actual org, source, identifiers, assignments, policies, and logs with an authorized administrator.”
 
 ## 1. Identity directory mental model
 
@@ -449,7 +449,7 @@ Current official Okta documentation describes an **Okta org** as the root contai
 | Assignment | User/group related to app | App assignment | Roles and provisioning depend on app |
 | Profile mapping | Attribute transform between profiles | Provisioning mapping | Direction/source must be explicit |
 
-Okta is learned architecture for Arti. Part 069 will apply these concepts to a larger synthetic Okta troubleshooting lab, including policies, network zones, System Log, SSO, and provisioning. This Part does not create an Okta org or use an Integrator Free Plan.
+Okta is learned architecture for you. Part 069 will apply these concepts to a larger synthetic Okta troubleshooting lab, including policies, network zones, System Log, SSO, and provisioning. This Part does not create an Okta org or use an Integrator Free Plan.
 
 ## 16. Entra and Okta concept bridge
 
@@ -534,7 +534,7 @@ flowchart LR
 
 **Result:** A learned-architecture escalation asks the authorized Okta/app owner to inspect the mapping and reprovision/reconcile through supported controls.
 
-**Caveat:** Arti has not run this in an Okta org; the case proves conceptual troubleshooting only.
+**Caveat:** You have not run this in an Okta org; the case proves conceptual troubleshooting only.
 
 ## 21. Worked example 5: Leaver's workload survives
 
@@ -696,7 +696,7 @@ This is a paper and local Markdown exercise only. It does not create an Entra te
 - AD DS versus Entra comparison and Entra versus Okta concept map.
 - Five completed case worksheets and one escalation packet.
 - Source ledger dated **August 24, 2026**.
-- Spoken candidate-boundary statement: Microsoft production transfer, Okta learned architecture, zero Abnormal production claim.
+- Spoken candidate-boundary statement: prior production transfer, Okta learned architecture, zero Abnormal production claim.
 
 ### Cleanup and privacy
 
@@ -720,7 +720,7 @@ This is a paper and local Markdown exercise only. It does not create an Entra te
 | AD/Entra | “AD in cloud” | Lists differences | Explains topology, protocol, object, admin, hybrid boundaries |
 | Entra/Okta | Claims equivalence | Compares labels | Uses similar-purpose questions and product-specific semantics |
 | Evidence | Uses names/secrets | Uses IDs | Immutable IDs, UTC, source, state, event IDs, minimal redaction |
-| Honesty/safety | Uses live org or claims Okta | Says learned | Zero live activity; Microsoft transfer, Okta learned, Abnormal unknown |
+| Honesty/safety | Uses live org or claims Okta | Says learned | Zero live activity; experience transfer, Okta learned, Abnormal unknown |
 
 ## 25. Official Source Anchors
 
@@ -730,7 +730,7 @@ All sources were accessed and recorded for the guide on **August 24, 2026**. Pro
 |---|---|---|
 | [Microsoft Learn - Compare Active Directory to Microsoft Entra ID](https://learn.microsoft.com/en-us/entra/fundamentals/compare) | Official conceptual differences for users, apps, devices, protocols, administration, and provisioning | Microsoft-specific; not “same service in cloud” |
 | [Microsoft Learn - Apps and service principals](https://learn.microsoft.com/en-us/entra/identity-platform/app-objects-and-service-principals) | Application registration, application object, tenant-local service principal, managed identity relationships | Entra model only |
-| [Microsoft Learn - Workload identities](https://learn.microsoft.com/en-us/entra/workload-id/workload-identities-overview) | Human/machine distinction and Entra workload-identity concepts | Arti uses conceptual/transfer language |
+| [Microsoft Learn - Workload identities](https://learn.microsoft.com/en-us/entra/workload-id/workload-identities-overview) | Human/machine distinction and Entra workload-identity concepts | You us conceptual/transfer language |
 | [Microsoft Learn - External ID overview](https://learn.microsoft.com/en-us/entra/external-id/external-identities-overview) | Workforce/external tenant and B2B/external population concepts | Current product behavior; revalidate |
 | [Microsoft Learn - Device identity](https://learn.microsoft.com/en-us/entra/identity/devices/overview) | Device object, registration/join/hybrid-join overview | Device record is not complete endpoint proof |
 | [Microsoft Learn - Manage users and groups assignment to an application](https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/assign-user-or-group-access-portal) | App assignments, app roles, current nested-group limitation | Current feature/licensing scope |
@@ -779,7 +779,7 @@ All sources were accessed and recorded for the guide on **August 24, 2026**. Pro
 
 ### Q8. What are your Entra and Okta experience boundaries?
 
-**Model answer:** My Microsoft enterprise support and Entra/AD fundamentals provide production-transfer context for tenant, user/group, app dependency, investigation, escalation, and validation, but I do not overstate that as full Entra administration. Okta is learned architecture from official documentation and a synthetic lab. I have not operated Okta or Abnormal in production.
+**Model answer:** My prior enterprise support and Entra/AD fundamentals provide production-transfer context for tenant, user/group, app dependency, investigation, escalation, and validation, but I do not overstate that as full Entra administration. Okta is learned architecture from official documentation and a synthetic lab. I have not operated Okta or Abnormal in production.
 
 ## Memory Hooks
 

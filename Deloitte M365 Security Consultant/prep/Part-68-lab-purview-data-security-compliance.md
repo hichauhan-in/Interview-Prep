@@ -2,7 +2,7 @@
 
 > **Section goal:** Build and defend a privacy-safe Microsoft Purview data-security and compliance design for a fictional organization. By the end, you should be able to create a synthetic classification taxonomy and sensitive-information test corpus; design exact data match without uploading a real source table; plan sensitivity-label publishing and encryption with external-user caution; simulate Data Loss Prevention across Microsoft 365 and endpoints; interpret policy tips, overrides, alerts, Activity Explorer, Content Explorer, and audit evidence; design an eDiscovery case from custodian through export; separate retention from legal hold; document a privacy-preserving insider-risk workflow; test false positives and rollback; and deliver a client-ready report.
 
-This lab maps directly to the Deloitte Microsoft 365 Security Senior Consultant scope in the master guide: Purview assessment and implementation planning, information protection, DLP, audit, eDiscovery, retention, insider risk, regulatory evidence, policy tuning, least privilege, change control, client communication, troubleshooting, and defensible documentation. It uses Arti's SharePoint/OneDrive, permissions, migration, incident, escalation, and stakeholder experience as a practical bridge into data-security consulting without overstating production Purview administration.
+This lab maps directly to the Deloitte Microsoft 365 Security Senior Consultant scope in the master guide: Purview assessment and implementation planning, information protection, DLP, audit, eDiscovery, retention, insider risk, regulatory evidence, policy tuning, least privilege, change control, client communication, troubleshooting, and defensible documentation. It uses your SharePoint/OneDrive, permissions, migration, incident, escalation, and stakeholder experience as a practical bridge into data-security consulting without overstating production Purview administration.
 
 > **Currency and licensing boundary (August 24, 2026):** Microsoft Purview portals, role groups, licensing, audit retention, explorer capabilities, classifiers, exact data match, endpoint DLP, eDiscovery, Insider Risk Management, Compliance Manager, service limits, preview status, and names can change. Treat the official links near the end as anchors, then verify the live Microsoft Learn page, Product Terms, licensing guidance, target cloud, region, and tenant before implementation. Never represent an unverified trial or feature as available.
 
@@ -22,15 +22,15 @@ This lab maps directly to the Deloitte Microsoft 365 Security Senior Consultant 
 
 ## Candidate honesty note
 
-Arti should distinguish three evidence classes every time she discusses this lab:
+You should distinguish three evidence classes every time you discuss this lab:
 
 | Evidence label | What it means | Honest wording |
 |---|---|---|
-| **Observed** | A result she personally saw in an authorized isolated licensed tenant | “I observed the scoped test policy produce this event in my lab.” |
+| **Observed** | A result you personally saw in an authorized isolated licensed tenant | “I observed the scoped test policy produce this event in my lab.” |
 | **Simulated** | A deterministic result generated from the fictional corpus, local decision rules, or supplied event cards | “I simulated policy evaluation and documented the expected decision and evidence.” |
 | **Expected** | A result predicted from current Microsoft documentation but not executed | “Microsoft documents this behavior; I would verify it during the pilot.” |
 
-She can connect the work to real SharePoint/OneDrive access, support, migration, incident, and stakeholder skills. She must not claim that this is Deloitte client work, that she ran Purview in an Arti production environment, that a paper eDiscovery case is a legal search, or that a simulated DLP match proves tenant capability.
+You can connect the work to real SharePoint/OneDrive access, support, migration, incident, and stakeholder skills. You must not claim that this is Deloitte client work, that you ran Purview in an documented production environment, that a paper eDiscovery case is a legal search, or that a simulated DLP match proves tenant capability.
 
 > “I built a fictional Purview engagement with synthetic files and identities. Where I had an authorized licensed lab, I used a narrow pilot and recorded only what I actually observed. Where licensing or a safe tenant was unavailable, I completed the same reasoning with a test corpus, decision tables, portal mock records, expected evidence, rollback, and client reporting. My direct SharePoint and OneDrive experience helped me reason about content, access, sharing, and user impact; I label the Purview-specific execution as lab, simulation, or design according to the evidence.”
 
@@ -740,7 +740,7 @@ flowchart LR
 | Insider-risk alert noisy | source quality, baseline, approved activity, thresholds, policy scope, privacy review | Monitoring more users/content |
 | Compliance score rises | Validate actual action/evidence and scope | Claiming legal compliance from score |
 
-Troubleshooting evidence should use a transaction narrative: **actor → object → action → location → policy version → decision → user result → event source → UTC time → correlation ID → limitation**. This structure draws naturally on Arti's support and RCA background.
+Troubleshooting evidence should use a transaction narrative: **actor → object → action → location → policy version → decision → user result → event source → UTC time → correlation ID → limitation**. This structure draws naturally on your support and RCA background.
 
 ## 17. Rollback, cleanup, and residual effects
 

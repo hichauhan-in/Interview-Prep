@@ -7,7 +7,9 @@
 > **Currency date:** August 25, 2026
 > **Generation state:** COMPLETE. All Groups A-M generated (Parts 001-130) and all Appendices A-L generated. Nothing outstanding.
 
-This guide is built for **Arti Thakur's transition from Microsoft enterprise escalation support (ODSP + Copilot) into an Okta Developer Support Engineer role** supporting a **Customer Identity SaaS platform**. The goal is practical interview readiness: for any likely question, do not go blank. Explain the fundamentals first, connect them to evidence, troubleshoot methodically, communicate clearly, and stay honest about what was done in production versus what was learned or simulated.
+This guide is built for **your transition from enterprise escalation support for SaaS products into an Okta Developer Support Engineer role** supporting a **Customer Identity SaaS platform**. The goal is practical interview readiness: for any likely question, do not go blank. Explain the fundamentals first, connect them to evidence, troubleshoot methodically, communicate clearly, and stay honest about what was done in production versus what was learned or simulated.
+
+> **How to use this guide:** It is written for **any** candidate preparing for this role. The candidate map below describes a *typical* starting profile, not one person's CV, and every model answer is a template. Replace the bracketed details, metrics, employers, products, and examples with evidence from your own CV before you use them, and never claim experience you cannot defend.
 
 No Part may imply production use of Okta, Auth0, or any platform that is only a learning target. All hands-on work uses free tiers, localhost, public standards, synthetic data, or local simulations, and produces inspectable artifacts.
 
@@ -29,20 +31,20 @@ No Part may imply production use of Okta, Auth0, or any platform that is only a 
 
 | Evidence area | Candidate evidence from the CV | Natural advantage for this role | Boundary to preserve |
 |---|---|---|---|
-| Enterprise support tenure | 5 years at Microsoft: Intern to Support Engineer to Support Escalation Engineer (ODSP + Copilot) | Directly satisfies the "5 years+ technical support" requirement; ownership, urgency, and enterprise expectations are proven | Microsoft scope is SaaS collaboration support, not identity-vendor developer support |
-| End-to-end ownership | Owns business-critical escalations and CRITSITs from investigation to resolution | Exact match for "end-to-end ownership of customer issues, including initial troubleshooting, root cause and resolution" | Do not imply ownership of Okta or Auth0 tenants |
+| Enterprise support tenure | Several years of progressive enterprise support experience, from intern through senior escalation engineer | Directly satisfies the "5 years+ technical support" requirement; ownership, urgency, and enterprise expectations are proven | Microsoft scope is SaaS collaboration support, not identity-vendor developer support |
+| End-to-end ownership | Owns business-critical escalations and critical situations from investigation to resolution | Exact match for "end-to-end ownership of customer issues, including initial troubleshooting, root cause and resolution" | Do not imply ownership of Okta or Auth0 tenants |
 | Root cause analysis | Structured troubleshooting and RCA across application, client, network, and configuration layers | Exact match for "instinctive ability to subdivide problems into basic components" | Identity-protocol RCA is a new application of the same method |
 | HTTP and TLS | HTTP/HTTPS, TLS/SSL, TCP/IP, OSI, DNS/DHCP, proxies, firewalls, ports, routing | Direct match for the "Knowledge of HTTP, encryption, basic security concepts" requirement | Framed as applied support knowledge, not network engineering ownership |
 | Evidence tooling | Wireshark, Netsh, Network Monitor, Procmon, browser DevTools, HAR logs, Fiddler | HAR and DevTools are the daily bread of developer support for browser-based auth | Depth must be demonstrable with a repeatable walkthrough |
 | Identity and directory | Active Directory, LDAP, Group Policy, user/group administration, authentication and authorization, Azure Identity / Microsoft Entra ID | Direct match for the JD's named "LDAP, Azure AD" and "authentication and authorization concepts" | Directory administration is not federation-protocol engineering; state the depth precisely |
 | Programming | Python, JavaScript, SQL/PostgreSQL, Power Automate, Power Apps, Copilot Studio | Satisfies "proficient in at least one programming language"; JavaScript is the JD's stated ideal | JavaScript depth must be demonstrated with real code, not listed |
 | Software fundamentals | SDLC, API and web service fundamentals, client-server architecture, cloud SaaS fundamentals | Direct match for "knowledge of software development fundamentals and common architectures" and "knowledge of the Development lifecycle" | Support-side lifecycle exposure, not shipping product code |
-| Customer obsession | 4.75+ Enterprise CSAT, 4.85+ SMB CSAT, 100+ recognitions, ACE Star Achiever, Pulse Awards | Strong, quantified proof for "customer-obsessed attitude" and "highest level of customer satisfaction" | Use the real numbers; never inflate them |
-| Cross-functional work | Partners with Engineering, Product, Delivery Partners, Customer IT, and Vendors | Direct match for "collaborate with other departments" and "internal and external point of contact" | Describe the influence honestly; she informs fixes, she does not author them |
+| Customer obsession | a strong customer-satisfaction record, repeated peer and customer recognition, an internal excellence award, internal recognition awards | Strong, quantified proof for "customer-obsessed attitude" and "highest level of customer satisfaction" | Use the real numbers; never inflate them |
+| Cross-functional work | Partners with Engineering, Product, Delivery Partners, Customer IT, and Vendors | Direct match for "collaborate with other departments" and "internal and external point of contact" | Describe the influence honestly; you inform fixes, you do not author them |
 | Knowledge sharing | KB articles, troubleshooting guides, best-practice docs, triages, case bashes, mentoring, technical interviews | Direct match for "contribute to and maintain repository of product-area knowledge" | Microsoft-internal KB systems, not Okta's |
-| Operational analytics | CSAT, backlog health, case quality, escalation trend analysis; MBA in Business Analytics | Direct match for "business and technical analysis skills" and "continuous growth" | Analysis informed process; it was not a standalone analyst role |
-| Leadership and initiative | SME accreditation, Technical Advisor program, Aspire Leadership Council, onboarding new engineers | Direct match for "proactivity", "self-starter", and "team player" | Individual-contributor leadership, not people management |
-| AI exposure | Copilot support, Copilot Studio agents, AI-102, AI-900 | Useful bridge to Okta's "secure every identity, from AI to human" thesis and to agent identity topics | Copilot support is not agentic-identity engineering |
+| Operational analytics | CSAT, backlog health, case quality, escalation trend analysis; a postgraduate business-analytics qualification | Direct match for "business and technical analysis skills" and "continuous growth" | Analysis informed process; it was not a standalone analyst role |
+| Leadership and initiative | SME accreditation, technical-advisor programme, a leadership-development council, onboarding new engineers | Direct match for "proactivity", "self-starter", and "team player" | Individual-contributor leadership, not people management |
+| AI exposure | Copilot support, Copilot Studio agents, AI certifications | Useful bridge to Okta's "secure every identity, from AI to human" thesis and to agent identity topics | Copilot support is not agentic-identity engineering |
 
 ### Named Gaps to Close Honestly
 
@@ -52,14 +54,14 @@ No Part may imply production use of Okta, Auth0, or any platform that is only a 
 | **OAuth 2.0 / OIDC depth** | Explicitly named; developer tickets are mostly these | Parts 056-078 with hands-on token labs | "I understood these as a consumer of Microsoft identity; I have now built the flows end to end in a lab." |
 | **SAML and WS-Federation** | Explicitly named | Parts 079-086 with decoded assertion labs | "I can decode an assertion, verify the signature chain, and name the top ten failure modes." |
 | **JavaScript proficiency** | JD says "ideally JavaScript" | Parts 024-033 with a real SPA + Node lab | "Python is my strongest language; here is a JavaScript SPA and Express API I wrote to learn the auth flows." |
-| **Developer-facing support** | Audience shifts from IT admins to developers | Parts 004, 030-033, 111-118 | "My Microsoft customers were IT admins; the method is identical, the artifacts change from tenant configs to code and HAR." |
+| **Developer-facing support** | Audience shifts from IT admins to developers | Parts 004, 030-033, 111-118 | "My prior customers were IT admins; the method is identical, the artifacts change from tenant configs to code and HAR." |
 | **Consumer-scale CIAM patterns** | B2C signup, progressive profiling, social login, bot abuse | Parts 099-105, 108 | Learned architecture plus lab, clearly labelled |
 
 ### Claim-Safety Language
 
 | Evidence tier | Meaning in this guide | Safe interview phrasing | Examples in scope |
 |---|---|---|---|
-| **Production experience** | Explicitly supported by the CV | "In my Microsoft enterprise escalation role, I owned..." then situation, action, result | SharePoint Online, OneDrive, Sync Client, Copilot, CRITSITs, RCA, escalation to Engineering, KB authoring, mentoring, CSAT and backlog analysis, HAR/Fiddler/Wireshark/Procmon investigation, AD/LDAP/Group Policy and Entra ID case work |
+| **Production experience** | Explicitly supported by the CV | "In my prior enterprise escalation role, I owned..." then situation, action, result | SharePoint Online, OneDrive, Sync Client, Copilot, critical situations, RCA, escalation to Engineering, KB authoring, mentoring, CSAT and backlog analysis, HAR/Fiddler/Wireshark/Procmon investigation, AD/LDAP/Group Policy and Entra ID case work |
 | **Lab experience** | A repeatable simulation completed during preparation, with saved evidence | "I have not run that in production. In a free-tier lab I demonstrated..." | Auth0/Okta free-tier tenants, Authorization Code + PKCE, SAML assertion decoding, JWKS validation, LDAP queries against a local directory, Express API guard, HAR capture of a login |
 | **Learned architecture** | Understood from official documentation without hands-on ownership | "My current understanding from the official documentation is..." then explain and state how you would verify | Okta Identity Engine internals, Auth0 Organizations at scale, FGA, Auth0 for AI Agents, enterprise migration programmes |
 | **No direct experience** | A named gap never disguised | "I have not done that yet. The closest transferable experience is..., and my ramp plan is..." | Okta/Auth0 production tenants, Zendesk/Salesforce at Okta, Okta-internal escalation paths |
@@ -73,7 +75,7 @@ No Part may imply production use of Okta, Auth0, or any platform that is only a 
 After completing the curriculum, labs, spoken practice, and portfolio artifacts, you should be able to:
 
 1. Explain what Okta does, how Customer Identity differs from Workforce Identity, and where a Developer Support Engineer sits in the customer journey.
-2. Describe the Developer Support Engineer role honestly against five years of Microsoft enterprise escalation experience.
+2. Describe the Developer Support Engineer role honestly against several years of enterprise escalation experience.
 3. Explain software development fundamentals, common application architectures, and the development lifecycle in the terms a customer's developer uses.
 4. Trace a complete web request through DNS, TCP, TLS, HTTP, proxy, and browser layers and name the evidence available at each hop.
 5. Read and reason about HTTP methods, status codes, headers, redirects, caching, and content negotiation without guessing.
@@ -248,7 +250,7 @@ Part ranges are inclusive. In every compressed route, Part 001's honesty framewo
 | **Protocol-first** | 034-045, 046-055, 056-069, 070-078, 079-086, 111-113, 127 | Closing the largest stated gap: OAuth, OIDC, SAML, WS-Fed | Decoded JWT, decoded SAML assertion, PKCE lab, protocol decision matrix |
 | **JavaScript bridge** | 024-033, 011-023, 096-103, 111-118 | Turning listed JavaScript into demonstrable JavaScript | Working SPA + Express API with a real login, published as a lab repo |
 | **Microsoft-strength bridge** | 087-095, 101, 079-086, 070-078, 111-118 | Converting AD, LDAP, Group Policy and Entra ID experience into an Okta advantage | Entra-as-enterprise-connection lab, LDAP query transcript, hybrid identity map |
-| **Support-operations** | 001-010, 111-126, 127-130 | Leaning on five years of enterprise escalation strength | Case plan, escalation packet, RCA, KB article, metrics story, STAR set |
+| **Support-operations** | 001-010, 111-126, 127-130 | Leaning on several years of enterprise escalation strength | Case plan, escalation packet, RCA, KB article, metrics story, STAR set |
 | **Lab-first** | 007, 024-033, 056-061, 096-110, 111-118, then theory gaps | Learning by producing evidence before deeper theory | Reproducible lab repository with configs, HAR, redacted logs, and conclusions |
 | **Platform-first** | 096-110, 056-078, 111-118, 127-130 | Fast product fluency for a product-heavy panel | Tenant map, connection matrix, Actions pipeline, log-event decoder |
 
@@ -308,11 +310,11 @@ Statuses: **Not started** / **In progress** / **Done**.
 
 | # | Part | What it covers and why it matters | Primary practice or proof | Status |
 |---:|---|---|---|---|
-| 001 | [Part 001 - Role Compass, Interview Map, and Honest Candidate Story](prep/Part-001-role-compass-interview-map-and-honest-candidate-story.md) | Maps the Developer Support Engineer role, the likely interview stages, candidate strengths, evidence tiers, named gaps, and a truthful Microsoft-to-Okta transition narrative that every later answer can lean on. | Role-fit matrix, 90-second introduction, claim-safety ledger | Done |
+| 001 | [Part 001 - Role Compass, Interview Map, and Honest Candidate Story](prep/Part-001-role-compass-interview-map-and-honest-candidate-story.md) | Maps the Developer Support Engineer role, the likely interview stages, candidate strengths, evidence tiers, named gaps, and a truthful support-to-Okta transition narrative that every later answer can lean on. | Role-fit matrix, 90-second introduction, claim-safety ledger | Done |
 | 002 | [Part 002 - Okta: Mission, Market, and the Identity-for-AI Thesis](prep/Part-002-okta-mission-market-and-the-identity-for-ai-thesis.md) | Explains what Okta sells, who buys it, the neutral-identity-fabric positioning, the Auth0 acquisition, and the "secure every identity, from AI to human" thesis quoted in the JD, using current official sources only. | Mission-to-customer-outcome one-pager with dated sources | Done |
 | 003 | [Part 003 - Customer Identity versus Workforce Identity](prep/Part-003-customer-identity-versus-workforce-identity.md) | Separates CIAM from workforce IAM: audiences, scale, signup versus provisioning, branding, consent, privacy, and why this role is scoped to Customer Identity. | CIAM versus workforce comparison matrix | Done |
 | 004 | [Part 004 - What Developer Support Engineering Actually Is](prep/Part-004-what-developer-support-engineering-actually-is.md) | Contrasts developer support with IT/admin support: the customer is a developer, the evidence is code and HTTP, and the answer is often a corrected implementation rather than a setting. | Developer-versus-admin support contrast table | Done |
-| 005 | [Part 005 - Ownership, Severity, SLAs, and Escalation Discipline](prep/Part-005-ownership-severity-slas-and-escalation-discipline.md) | Defines end-to-end ownership, severity and priority models, response and update commitments, escalation triggers, and handoffs, mapped onto real Microsoft CRITSIT experience. | Severity matrix and ownership commitment card | Done |
+| 005 | [Part 005 - Ownership, Severity, SLAs, and Escalation Discipline](prep/Part-005-ownership-severity-slas-and-escalation-discipline.md) | Defines end-to-end ownership, severity and priority models, response and update commitments, escalation triggers, and handoffs, mapped onto real enterprise critical-situation experience. | Severity matrix and ownership commitment card | Done |
 | 006 | [Part 006 - Security, Privacy, and Safe Evidence Handling in Identity Support](prep/Part-006-security-privacy-and-safe-evidence-handling-in-identity-support.md) | Covers why identity evidence is unusually sensitive, what must never be requested, how to redact tokens, cookies, and PII, and how to handle a suspected credential exposure. | Redaction checklist and evidence-handling protocol | Done |
 | 007 | [Part 007 - Building a Safe, Free Identity Lab](prep/Part-007-building-a-safe-free-identity-lab.md) | Sets up the lab used by every later Part: free-tier tenants, localhost apps, synthetic users, a local directory, and rules that prevent implying production platform use. | Lab charter, folder structure, and safety checklist | Done |
 | 008 | [Part 008 - Identity Vocabulary, Personas, and System Context Maps](prep/Part-008-identity-vocabulary-personas-and-system-context-maps.md) | Establishes the shared vocabulary and maps the people involved: application developers, architects, IT admins, security teams, CSMs, Engineering, and end users, and what evidence each can supply. | Persona-to-evidence map and starter glossary | Done |
@@ -575,7 +577,7 @@ Every generated Part must satisfy **all** of the following. Prose alone does not
 | WS-Fed to OIDC bridging map | 085-086 | Legacy-protocol competence | Learned architecture |
 | LDAP filter cookbook and query transcript | 088 | The JD's named LDAP requirement | Local lab |
 | Entra ID object model and token decoder | 090-091 | The JD's named Azure AD requirement, from real experience | Production transfer plus lab |
-| Entra-as-enterprise-connection lab plan | 093, 101 | The exact intersection of her strength and this product | Free-tier lab |
+| Entra-as-enterprise-connection lab plan | 093, 101 | The exact intersection of your strength and this product | Free-tier lab |
 | Tenant log-event decoder and correlation exercise | 107, 112 | Platform-specific investigation skill | Free-tier lab |
 | Custom-claim Action with a tested failure path | 103 | Extensibility understanding and debugging | Free-tier lab |
 | End-to-end case file with RCA | 115, 118 | The complete role, demonstrated once | Synthetic case plus production-transfer method |

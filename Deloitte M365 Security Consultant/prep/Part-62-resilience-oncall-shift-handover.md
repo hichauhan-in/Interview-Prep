@@ -2,7 +2,7 @@
 
 > **Section goal:** Build a beginner-first, consulting-grade understanding of resilient Microsoft cloud operations and humane on-call handover. By the end, you should be able to distinguish availability, resilience, reliability, recoverability, business continuity, and disaster recovery; map dependencies, blast radius, and single points of failure; compare redundancy, failover, and degraded modes; explain recovery time objective (RTO), recovery point objective (RPO), and maximum tolerable downtime/disruption (MTD) without making unsupported cloud promises; investigate Microsoft 365 or Azure service disruption through symptoms, scope, timeline, changes, correlation, Microsoft 365 Service health, Message center, public status information, and authorized support; coordinate a vendor incident while preserving one client-owned timeline; design manual workarounds and continuity decisions; operate, monitor, and test emergency-access accounts; reason about fail-open and fail-closed choices; govern emergency changes, approvals, rollback, and retrospective review; design readiness, rotations, escalation, fatigue controls, night/weekend/holiday coverage, and follow-the-sun support; triage severity and queues; deliver a minimum viable shift handover with impact, actions, hypotheses, evidence, next owner, and cadence; publish accurate status communications; maintain an auditable operational log; measure outcomes without gaming them; and practice all of this safely through fictional paper exercises.
 
-This Part maps directly to the job description's expectations for Microsoft 365 service troubleshooting, security operations, critical-incident coordination, client communication, vendor engagement, operational readiness, 24x7 rotational support, documentation, handover, risk-based decision making, and continual improvement. It uses Arti's demonstrated strengths in critical Microsoft 365 escalations, SharePoint Online and OneDrive, synchronization, customer impact, product-group and vendor coordination, shared timelines, RCA, fix validation, reusable documentation, KPIs, mentoring, and business reviews. The consulting extension is to make resilience objectives, dependency risks, continuity choices, emergency access, on-call authority, handover quality, and operational evidence explicit without implying production ownership she has not demonstrated.
+This Part maps directly to the job description's expectations for Microsoft 365 service troubleshooting, security operations, critical-incident coordination, client communication, vendor engagement, operational readiness, 24x7 rotational support, documentation, handover, risk-based decision making, and continual improvement. It uses your demonstrated strengths in critical Microsoft 365 escalations, SharePoint Online and OneDrive, synchronization, customer impact, product-group and vendor coordination, shared timelines, RCA, fix validation, reusable documentation, KPIs, mentoring, and business reviews. The consulting extension is to make resilience objectives, dependency risks, continuity choices, emergency access, on-call authority, handover quality, and operational evidence explicit without implying production ownership you have not demonstrated.
 
 > **Method boundary:** This chapter uses public, general reliability, resilience, business-continuity, incident-management, on-call, and Microsoft cloud administration practices. It does not describe or imply Deloitte proprietary methods, tools, service levels, client cases, staffing models, templates, or internal operations. Every example is fictional. Real work must follow the client and employer's approved governance, contracts, labor rules, support agreements, change controls, security policies, privacy requirements, records schedules, accessibility standards, health-and-safety duties, and applicable law.
 
@@ -23,9 +23,9 @@ This Part maps directly to the job description's expectations for Microsoft 365 
 
 ## Candidate honesty note
 
-Arti can directly discuss critical Microsoft 365 support escalations, SharePoint Online and OneDrive service and synchronization symptoms, scope and business impact, incident timelines, customer updates, coordination across vendors, partners, and product groups, RCA, fix validation, reusable documentation, mentoring, KPI analysis, and business reviews where supported by her actual record. Those are strong foundations for resilience operations because they show disciplined restoration, evidence correlation, ownership across boundaries, and communication under pressure.
+You can directly discuss critical Microsoft 365 support escalations, SharePoint Online and OneDrive service and synchronization symptoms, scope and business impact, incident timelines, customer updates, coordination across vendors, partners, and product groups, RCA, fix validation, reusable documentation, mentoring, KPI analysis, and business reviews where supported by your actual record. Those are strong foundations for resilience operations because they show disciplined restoration, evidence correlation, ownership across boundaries, and communication under pressure.
 
-She should not claim that she designed Microsoft's cloud architecture, guaranteed Microsoft service availability, owned a client's formal business-continuity program, administered production emergency-access accounts, managed a global 24x7 SOC/NOC rotation, approved emergency risk acceptance, or invoked disaster recovery unless separately evidenced. Safe wording is:
+You should not claim that you designed Microsoft's cloud architecture, guaranteed Microsoft service availability, owned a client's formal business-continuity program, administered production emergency-access accounts, managed a global 24x7 SOC/NOC rotation, approved emergency risk acceptance, or invoked disaster recovery unless separately evidenced. Safe wording is:
 
 > “My direct production experience is leading complex Microsoft 365 escalations: I scope symptoms and impact, correlate timelines and changes, coordinate customers, vendors and product groups, validate recovery and fixes, document RCA, mentor engineers, and report trends in business reviews. I have extended that experience through a fictional resilience and on-call paper exercise covering dependencies, recovery objectives, degraded modes, emergency access, shift handover, communications, metrics, and outage drills. I would apply the client's approved continuity, change, security, labor, and escalation processes, and I would validate Microsoft-specific behavior against current official guidance and support evidence.”
 
@@ -59,7 +59,7 @@ flowchart LR
 
 ### 🔍 Plain-English deep-dive: availability is an end-to-end user journey
 
-A Microsoft admin page showing “healthy” does not prove that a user in a specific location, tenant, license group, network path, client version, identity policy, and SharePoint site can complete a sync. The service outcome crosses customer-managed and provider-managed components. Measure representative journeys, such as “authorized user opens a protected document,” rather than only component status. This is why Arti's compare-affected-with-unaffected escalation discipline is valuable: it identifies which slice of the journey differs.
+A Microsoft admin page showing “healthy” does not prove that a user in a specific location, tenant, license group, network path, client version, identity policy, and SharePoint site can complete a sync. The service outcome crosses customer-managed and provider-managed components. Measure representative journeys, such as “authorized user opens a protected document,” rather than only component status. This is why your compare-affected-with-unaffected escalation discipline is valuable: it identifies which slice of the journey differs.
 
 ## 2. Define the critical service and journey
 
@@ -101,7 +101,7 @@ flowchart TB
 | Identity | Entra sign-in or Conditional Access | Authentication loop or broad denial | Is emergency administration independent and tested? |
 | Endpoint | Browser/client/device compliance | Some managed devices cannot connect | Is web/mobile/manual alternative approved? |
 | Network | DNS, proxy, firewall, ISP | Region/site-specific timeout | Is a diverse path available and governed? |
-| SaaS workload | SharePoint, Teams, Exchange | Feature or service journey fails | What Microsoft evidence and customer workaround exist? |
+| SaaS workload | SharePoint, Teams, Exchange | Feature or service journey fails | What prior evidence and customer workaround exist? |
 | Integration | Graph app, connector, webhook | Automation queues or silently misses events | Can work be queued, replayed, or done manually? |
 | Data/configuration | Wrong policy, corrupt content, expired certificate | Incorrect or inaccessible outcome | Is baseline/version/recovery material trustworthy? |
 | Supplier/support | Vendor owns gateway or managed device | Boundary dispute delays action | Are contracts, contacts, evidence, and escalation clear? |
@@ -231,7 +231,7 @@ flowchart LR
 
 ## 9. Microsoft Service health, Message center, status, and support
 
-Use each source for its intended purpose. **Microsoft 365 Service health** in the admin center provides organization-relevant health information when available to authorized admins. **Message center** communicates planned changes, maintenance, retirements, and actions; it is not only an outage feed. Public status pages can help when administrative portals are inaccessible or a broad issue is publicly acknowledged. Microsoft support creates a case, evidence exchange, severity process, and product escalation route subject to entitlement and current procedures.
+Use each source for its intended purpose. **Microsoft 365 Service health** in the admin center provides organization-relevant health information when available to authorized admins. **Message center** communicates planned changes, maintenance, retirements, and actions; it is not only an outage feed. Public status pages can help when administrative portals are inaccessible or a broad issue is publicly acknowledged. enterprise support creates a case, evidence exchange, severity process, and product escalation route subject to entitlement and current procedures.
 
 | Source | Primary use | Capture | Do not assume |
 |---|---|---|---|
@@ -239,14 +239,14 @@ Use each source for its intended purpose. **Microsoft 365 Service health** in th
 | Message center | Planned change, maintenance, retirement, action | Message ID, dates, affected service, required action | A planned message proves causation |
 | Azure Service Health | Personalized Azure service/region/resource context | Tracking ID, service/region, impact, guidance | It covers every Microsoft 365 dependency |
 | Public Azure/status pages | Broad external visibility | Publication time and scope | It replaces authenticated health information |
-| Microsoft support | Product investigation and escalation | Case ID, entitlement, severity, evidence, asks, commitments | Vendor owns the client's command or business decision |
+| enterprise support | Product investigation and escalation | Case ID, entitlement, severity, evidence, asks, commitments | Vendor owns the client's command or business decision |
 
 ```mermaid
 sequenceDiagram
     participant U as User/service desk
     participant O as Client on-call lead
     participant H as Microsoft health sources
-    participant S as Microsoft support
+    participant S as enterprise support
     participant B as Business/service owner
     U->>O: Symptoms, examples, times and impact
     O->>O: Validate scope, changes and critical journey
@@ -683,7 +683,7 @@ Availability calculations require agreed hours, exclusions, measurement point, p
 
 ## 29. Business reviews and decision-oriented reporting
 
-Arti's business-review experience transfers naturally. A resilience review should connect customer impact, service trends, on-call health, supplier performance, continuity tests, incidents, recurring dependencies, accepted risk, improvement ownership, and decisions required.
+Your business-review experience transfers naturally. A resilience review should connect customer impact, service trends, on-call health, supplier performance, continuity tests, incidents, recurring dependencies, accepted risk, improvement ownership, and decisions required.
 
 | Review section | Decision question | Evidence |
 |---|---|---|
@@ -752,7 +752,7 @@ This is a tabletop. Do not test by changing a real production tenant unless spec
 
 ## 33. Scenario 3: night shift handover
 
-**Fictional situation:** At 01:30 UTC, an engineer has worked six hours on an intermittent OneDrive sync incident. A follow-the-sun team begins in 30 minutes. Microsoft support expects new diagnostic results at 02:15. A manual upload path is safe until 04:00.
+**Fictional situation:** At 01:30 UTC, an engineer has worked six hours on an intermittent OneDrive sync incident. A follow-the-sun team begins in 30 minutes. enterprise support expects new diagnostic results at 02:15. A manual upload path is safe until 04:00.
 
 The outgoing engineer updates the common record, marks confirmed/suspected/unaffected scope, lists tests and negative results, identifies the medium-confidence client-version hypothesis, links exact evidence, states the 04:00 continuity expiry, and identifies the decision needed if no mitigation arrives. The incoming engineer reads it before overlap, confirms access to evidence/support, reads back the next test and escalation threshold, accepts ownership at 02:00, and announces the owner change. The outgoing engineer rests rather than remaining an unofficial parallel owner.
 
@@ -842,7 +842,7 @@ Use **R-E-S-I-L-I-E-N-T** in an interview:
 
 ## 39. JD Mapping: interview translation
 
-| Arti's demonstrated evidence | Resilience/on-call translation | Honest interview sentence |
+| Your demonstrated evidence | Resilience/on-call translation | Honest interview sentence |
 |---|---|---|
 | Critical M365 escalations | Severity, command rhythm, service recovery | “I establish scope, impact, one timeline, owners, evidence and cadence.” |
 | SharePoint/OneDrive/sync | End-to-end critical journeys and layer isolation | “I compare client, identity, network, workload, content and service evidence.” |

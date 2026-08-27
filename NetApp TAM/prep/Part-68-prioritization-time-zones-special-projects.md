@@ -1,10 +1,10 @@
 # Part 68 - Prioritization, Time Zones, High-Pressure Work, and Special Projects
 
-> **Section goal:** Choose the right work at the right time, protect quality under pressure, coordinate safely across time zones, and deliver bounded special projects through evidence rather than optimism. By the end, Arti should be able to separate impact, urgency, deadline, lead time, and critical path; use Eisenhower and WSJF only as orientation; control work in progress, queues, calendar, and focus; triage high-pressure work; design follow-the-sun handoffs and fatigue controls; and manage charter, scope, outcomes, stakeholders, RAID, milestones, dependencies, status, change, closure, lessons, and recovery from slippage.
+> **Section goal:** Choose the right work at the right time, protect quality under pressure, coordinate safely across time zones, and deliver bounded special projects through evidence rather than optimism. By the end, you should be able to separate impact, urgency, deadline, lead time, and critical path; use Eisenhower and WSJF only as orientation; control work in progress, queues, calendar, and focus; triage high-pressure work; design follow-the-sun handoffs and fatigue controls; and manage charter, scope, outcomes, stakeholders, RAID, milestones, dependencies, status, change, closure, lessons, and recovery from slippage.
 
 Covers index item **68** and maps directly to job-description responsibilities for prioritizing complex work, performing under pressure, aligning to customer time zones, managing special projects, tracking preventative remediation, coordinating cross-functional teams, conducting reviews, communicating status, and improving customer outcomes.
 
-**Explicit nonclaim:** Arti has not prioritized a production NetApp account portfolio, managed a live NetApp special project, committed NetApp/customer timelines or resources, or operated an internal NetApp follow-the-sun model.
+**Explicit nonclaim:** You have not prioritized a production NetApp account portfolio, managed a live NetApp special project, committed NetApp/customer timelines or resources, or operated an internal NetApp follow-the-sun model.
 
 **Privacy and access boundary:** Priority and project records can expose business impact, vulnerabilities, staffing, budgets, contracts, schedules, customer names, incident details, accepted risks, and employee availability. Use approved tools, role-based views, minimum necessary personal data, secure links, access review, retention, and careful handoffs.
 
@@ -14,7 +14,7 @@ Covers index item **68** and maps directly to job-description responsibilities f
 
 This Part provides transferable prioritization and project patterns, not a NetApp internal queue, staffing model, project methodology, SLA, fixed priority scale, WSJF implementation, time-zone coverage promise, or authority to assign resources. Actual account, customer, Support, incident, HR, project, and commercial governance controls live work.
 
-> **No-production-NetApp boundary:** Arti's factual strengths are Microsoft enterprise support, CRITSIT and business-critical prioritization, backlog health, case quality, time-sensitive escalation, global customer/partner communication, Technical Advisor work, programs, mentoring, Excel/Power BI analytics, and an MBA in Business Analytics. She does **not** claim NetApp portfolio authority, production ONTAP project delivery, NetApp staffing/cadence design, or customer budget/change ownership. Her exact non-claim is: **she has not prioritized, staffed, governed, delivered, or closed a production NetApp account portfolio or special project.**
+> **No-production-NetApp boundary:** Your factual strengths are enterprise support, critical situation and business-critical prioritization, backlog health, case quality, time-sensitive escalation, global customer/partner communication, technical advisor work, programs, mentoring, Excel/Power BI analytics, and an a postgraduate business-analytics qualification. You do **not** claim NetApp portfolio authority, production ONTAP project delivery, NetApp staffing/cadence design, or customer budget/change ownership. Your exact non-claim is: **you have not prioritized, staffed, governed, delivered, or closed a production NetApp account portfolio or special project.**
 
 ---
 
@@ -629,7 +629,7 @@ flowchart LR
 
 ## 12. Fully synthetic sanitized scenario: Northstar Media lifecycle project
 
-> **Synthetic boundary:** `Northstar Media`, every service, priority, project, system, version, task, score, timeline, cost, stakeholder, RAID item, decision, and outcome is invented. The scenario is not a NetApp account/project, service promise, internal method, or Arti production result.
+> **Synthetic boundary:** `Northstar Media`, every service, priority, project, system, version, task, score, timeline, cost, stakeholder, RAID item, decision, and outcome is invented. The scenario is not a NetApp account/project, service promise, internal method, or documented production result.
 
 ### Priority conflict
 
@@ -784,14 +784,14 @@ flowchart LR
 
 ---
 
-## 15. Arti's factual bridge and JD Mapping
+## 15. Your factual bridge and JD Mapping
 
 ```mermaid
 flowchart LR
-    CRIT[CRITSIT and enterprise support] --> TRIAGE[Impact, urgency, ownership and cadence]
+    CRIT[Critical situation and enterprise support] --> TRIAGE[Impact, urgency, ownership and cadence]
     BACK[Backlog and case quality] --> FLOW[Queues, aging, WIP and prioritization]
     GLOBAL[Global customers and partners] --> TZ[Time zones, handoffs and communication]
-    PROG[Technical Advisor, programs and analytics] --> PROJECT[Charter, milestones, RAID and status]
+    PROG[technical advisor, programs and analytics] --> PROJECT[Charter, milestones, RAID and status]
     TRIAGE --> METHOD[Transferable priority/project method]
     FLOW --> METHOD
     TZ --> METHOD
@@ -801,12 +801,12 @@ flowchart LR
 
 ### Factual tie
 
-| Arti evidence | Transfer | Boundary |
+| Transferable evidence | Transfer | Boundary |
 |---|---|---|
-| Microsoft CRITSIT/business-critical support | High-pressure impact/urgency and cadence | Not NetApp incident/portfolio authority |
+| enterprise critical situation/business-critical support | High-pressure impact/urgency and cadence | Not NetApp incident/portfolio authority |
 | Backlog health/case quality | Queue age, WIP, quality and closure | No NetApp account action queue |
 | Enterprise/partner customers | Time-zone and multi-owner coordination | No internal follow-the-sun claim |
-| Technical Advisor/program work | Special-project coordination and stakeholder status | Exact scope/results must remain factual |
+| Technical advisor/program work | Special-project coordination and stakeholder status | Exact scope/results must remain factual |
 | Excel/Power BI/MBA | Portfolio, milestone, RAID and trend views | No live NetApp data |
 | Mentoring/onboarding | Delegation, backup and knowledge transfer | Not staffing-management authority |
 
@@ -824,7 +824,7 @@ flowchart LR
 
 ### Honest interview statement
 
-> `I prioritize by separating impact, urgency, deadline, lead time and critical path, then checking readiness, dependencies, WIP, skills and displaced work. Under pressure I protect restoration, communication and handoffs. For special projects I use a charter, outcome-based scope, stakeholders, RAID, milestones, status/change control, slippage recovery, validation, handover and owned lessons. My production examples are Microsoft-focused, not NetApp project delivery.`
+> `I prioritize by separating impact, urgency, deadline, lead time and critical path, then checking readiness, dependencies, WIP, skills and displaced work. Under pressure I protect restoration, communication and handoffs. For special projects I use a charter, outcome-based scope, stakeholders, RAID, milestones, status/change control, slippage recovery, validation, handover and owned lessons. My production examples are focused on a different technology stack, not NetApp project delivery.`
 
 ---
 
@@ -896,7 +896,7 @@ Build 40 synthetic work items and one 12-week special project. Inject:
 7. Create full charter, scope, outcome and stakeholder model.
 8. Maintain RAID, milestones, dependencies and status.
 9. Recover from slippage and govern change/rebaseline.
-10. Close/handover/learn and state Arti's nonclaim.
+10. Close/handover/learn and state your nonclaim.
 
 ### Lab pass checklist
 
@@ -974,7 +974,7 @@ Build 40 synthetic work items and one 12-week special project. Inject:
 
 ### Q8. How does your background transfer, and what remains a gap?
 
-> **Model answer:** `Microsoft CRITSITs, backlog/case quality, global customers, Technical Advisor/program work and analytics give me triage, queue, handoff and project-status discipline. I have not governed a production NetApp portfolio or project, so actual priorities, staffing, timelines and customer/NetApp commitments remain authorized-owner decisions.`
+> **Model answer:** `enterprise critical situations, backlog/case quality, global customers, technical advisor/program work and analytics give me triage, queue, handoff and project-status discipline. I have not governed a production NetApp portfolio or project, so actual priorities, staffing, timelines and customer/NetApp commitments remain authorized-owner decisions.`
 
 ---
 
@@ -997,7 +997,7 @@ Build 40 synthetic work items and one 12-week special project. Inject:
 - **Status:** Forecast against outcome and critical path, not task count.
 - **Slippage:** Diagnose -> options -> authority -> versioned recovery.
 - **Lesson:** Control change + owner + test, not diary entry.
-- **Arti's bridge:** Microsoft priority/project skills transfer; NetApp authority does not.
+- **Your bridge:** Microsoft priority/project skills transfer; NetApp authority does not.
 
 ---
 

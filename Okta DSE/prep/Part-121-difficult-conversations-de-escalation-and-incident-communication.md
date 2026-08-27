@@ -40,7 +40,7 @@ flowchart TD
 
 **Row two is the highest-yield single move**, and it is covered in §2.
 
-> 💡 **Tie-in to your background:** CRITSIT work means difficult conversations under pressure are familiar. **CSAT of 4.75+ enterprise suggests this is a strength**, and it is worth being able to describe *what you actually do* rather than just citing the number.
+> 💡 **Tie-in to your background:** critical-situation work means difficult conversations under pressure are familiar. **a strong customer-satisfaction record suggests this is a strength**, and it is worth being able to describe *what you actually do* rather than just citing the number.
 
 ### 🔍 Plain-English deep-dive: the moves that de-escalate, and the ones that inflame
 
@@ -449,8 +449,8 @@ Day three of an incident. The customer writes:
 
 ## 9. Candidate Honesty Note
 
-- **Production experience:** difficult conversations during CRITSITs, including delivering bad news and handling escalation requests.
-- **Production experience:** CSAT of 4.75+ enterprise and 4.85+ SMB, with 100+ recognitions — evidence that this is a strength rather than an assertion.
+- **Production experience:** difficult conversations during critical situations, including delivering bad news and handling escalation requests.
+- **Production experience:** a strong customer-satisfaction record, with repeated peer and customer recognition — evidence that this is a strength rather than an assertion.
 - **Lab experience:** writing the hard messages deliberately and testing how they land, as above.
 - **Learned architecture:** the specific de-escalation moves and the error-admission structure.
 - **No direct experience:** these conversations in this product's context.

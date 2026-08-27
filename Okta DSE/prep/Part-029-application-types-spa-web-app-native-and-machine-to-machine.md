@@ -232,7 +232,7 @@ flowchart TD
 
 **The follow-up question worth asking every time:** *"Are you already having trouble keeping users signed in across page reloads or in Safari?"* If yes, they are hitting Part 017, and a BFF or custom domain is the structural answer rather than a workaround.
 
-> 💡 **Tie-in to your background:** this is the same consultative pattern you already run at Microsoft — a customer asks for a setting, and the useful response establishes the underlying requirement first. Your CV's *"business and technical analysis skills"* line is exactly this, and it transfers unchanged.
+> 💡 **Tie-in to your background:** this is the same consultative pattern you already run in support — a customer asks for a setting, and the useful response establishes the underlying requirement first. Your CV's *"business and technical analysis skills"* line is exactly this, and it transfers unchanged.
 
 ---
 

@@ -19,9 +19,9 @@ This Part combines the directory objects from [Part 6](Part-06-entra-id-architec
 
 ## Candidate honesty note
 
-Arti has strong directly relevant delivery behaviors: scoping Microsoft 365 incidents, comparing affected and unaffected users, correlating SharePoint/OneDrive/sync evidence, identifying changes, coordinating stakeholders and engineering, documenting RCA, testing fixes, and communicating business impact.
+You have strong directly relevant delivery behaviors: scoping Microsoft 365 incidents, comparing affected and unaffected users, correlating SharePoint/OneDrive/sync evidence, identifying changes, coordinating stakeholders and engineering, documenting RCA, testing fixes, and communicating business impact.
 
-This Part does **not** claim that Arti designed or enforced production Conditional Access policies. Safe phrasing is:
+This Part does **not** claim that you designed or enforced production Conditional Access policies. Safe phrasing is:
 
 > “I have production experience leading Microsoft 365 escalations and validating changes across SharePoint, OneDrive, sync, clients, and stakeholders. I have built a detailed Conditional Access paper design with report-only analysis, policy logic, lockout prevention, sign-in troubleshooting, positive/negative tests, and rollback. I would present that as structured lab/design evidence rather than production Entra policy ownership.”
 
@@ -365,7 +365,7 @@ flowchart TD
     SESSION --> BIND[Token protection where supported]
 ```
 
-**Application-enforced restrictions** can give an unmanaged device a limited browser experience, such as web-only access with download restrictions in SharePoint/OneDrive, rather than an all-or-nothing block. The workload must be configured to interpret device information. This is especially relevant to Arti's SharePoint/OneDrive background: CA chooses the session signal; SharePoint enforces the limited content experience.
+**Application-enforced restrictions** can give an unmanaged device a limited browser experience, such as web-only access with download restrictions in SharePoint/OneDrive, rather than an all-or-nothing block. The workload must be configured to interpret device information. This is especially relevant to your SharePoint/OneDrive background: CA chooses the session signal; SharePoint enforces the limited content experience.
 
 ---
 

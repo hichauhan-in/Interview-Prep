@@ -1,10 +1,10 @@
 # Part 54 - Taxonomy, Ontology, Canonical Schemas, and Data Mapping
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 >
 > **Purpose:** Build a beginner-first method for defining shared security meaning through controlled vocabularies, taxonomies, ontologies, entity-attribute-relationship models, canonical schemas, source-to-target mappings, code lists, transformations, validation, version evolution, governance, and safe extensibility while detecting false equivalence.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every source, schema, field, code list, mapping, rule, transformation, validation result, incident, query, owner, and outcome in this Part is synthetic. General W3C, JSON Schema, ISO metadata, NIST, and PostgreSQL concepts are not Zscaler Data Fabric schemas, mappings, ontologies, validation rules, interfaces, or guarantees. Official Zscaler material is used only for bounded public context: Zscaler publicly describes a customizable data model and capabilities to ingest, harmonize/map, deduplicate, correlate, and enrich data. Arti's Microsoft support, SQL, Power BI, data-quality, evidence, and RCA skills transfer; direct production Zscaler Data Fabric mapping operation remains a learning boundary.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every source, schema, field, code list, mapping, rule, transformation, validation result, incident, query, owner, and outcome in this Part is synthetic. General W3C, JSON Schema, ISO metadata, NIST, and PostgreSQL concepts are not Zscaler Data Fabric schemas, mappings, ontologies, validation rules, interfaces, or guarantees. Official Zscaler material is used only for bounded public context: Zscaler publicly describes a customizable data model and capabilities to ingest, harmonize/map, deduplicate, correlate, and enrich data. Your prior support, SQL, Power BI, data-quality, evidence, and RCA skills transfer; direct production Zscaler Data Fabric mapping operation remains a learning boundary.
 >
 > **Currency caveat:** Standards, code lists, schemas, APIs, product interfaces, security controls, and business definitions change. The controlled research/source date for this Part is exactly **2026-08-24**. Current approved contracts, tenant evidence, legal/privacy requirements, source owners, semantic stewards, and product specialists govern production.
 
@@ -14,7 +14,7 @@ Data can share a column name and still mean different things. One source may cal
 
 Think of international shipping. A box label needs a common language for country, weight, dimensions, contents, destination, and handling. Mapping `10` without saying pounds or kilograms can damage the shipment. A canonical security model is the shared shipping declaration; mappings are the documented conversions, not guesses.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Evidence artifact |
 |---|---|---|
@@ -52,7 +52,7 @@ flowchart LR
 
 ## JD Mapping
 
-| Role expectation | Part 54 capability | TSM artifact | Arti bridge and boundary |
+| Role expectation | Part 54 capability | TSM artifact | experience bridge and boundary |
 |---|---|---|---|
 | Analyze complex data environments | Compare source semantics and canonical meaning | Semantic inventory | Microsoft telemetry/contract analysis transfers |
 | Develop Data Fabric expertise | Explain harmonization/map concepts from public context | Conceptual mapping architecture | Internal Zscaler model unclaimed |
@@ -67,7 +67,7 @@ flowchart LR
 
 | Evidence class | Safe interview statement | Boundary |
 |---|---|---|
-| Production transfer | "I translated Microsoft support symptoms, telemetry fields, error codes, and customer language into shared technical definitions." | Not production Zscaler schema governance |
+| Production transfer | "I translated enterprise support symptoms, telemetry fields, error codes, and customer language into shared technical definitions." | Not production Zscaler schema governance |
 | Synthetic practice | "I built NMH glossary, canonical schema, mapping, code-list, validation, and migration exercises." | Fictional lab evidence |
 | General method | "I separate vocabulary, taxonomy, ontology, schema, and mapping because each solves a different problem." | Tools and formalisms vary |
 | Standards context | "W3C and JSON Schema specifications provide formal data/validation concepts." | A standard does not supply NMH business meaning |
@@ -1155,7 +1155,7 @@ W3C recommendations support RDF, OWL, SHACL, SKOS, and provenance concepts; JSON
 
 ### Q8. How does your background transfer, and what can you claim about Zscaler Data Fabric?
 
-**Model answer:** Microsoft escalation work required translating customer language, product terms, telemetry fields, IDs, states, and error codes into a shared problem model, then testing where meaning changed across boundaries. SQL, Power BI, data quality, RCA, and stakeholder communication support schema/mapping work. Zscaler publicly describes a customizable model and harmonize/map capabilities, but I do not claim internal schemas or rules; I would validate current tenant evidence, docs, and specialists.
+**Model answer:** enterprise escalation work required translating customer language, product terms, telemetry fields, IDs, states, and error codes into a shared problem model, then testing where meaning changed across boundaries. SQL, Power BI, data quality, RCA, and stakeholder communication support schema/mapping work. Zscaler publicly describes a customizable model and harmonize/map capabilities, but I do not claim internal schemas or rules; I would validate current tenant evidence, docs, and specialists.
 
 ## 30-Second Memory Hooks
 
@@ -1185,7 +1185,7 @@ W3C recommendations support RDF, OWL, SHACL, SKOS, and provenance concepts; JSON
 | Extension | Namespaced extra room |
 | False equivalence | Similar label, different contents |
 | Provenance | Source-to-target receipt |
-| Arti bridge | Translation and RCA transfer; internals do not |
+| Experience bridge | Translation and RCA transfer; internals do not |
 
 ## Completion Checklist
 

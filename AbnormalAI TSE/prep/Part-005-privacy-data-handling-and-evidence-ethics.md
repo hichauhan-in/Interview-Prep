@@ -2,15 +2,15 @@
 
 > **Purpose:** Learn to obtain useful support evidence without collecting, exposing, retaining, or interpreting more customer data than the authorized diagnostic purpose requires.
 >
-> **Evidence rule:** Every example and lab record in this Part is synthetic. Arti's Microsoft enterprise support experience transfers as evidence-handling discipline, customer communication, escalation, and fix validation; it does not establish privacy-office authority, legal expertise, direct email-security operations, or Abnormal AI product experience.
+> **Evidence rule:** Every example and lab record in this Part is synthetic. Your prior enterprise support experience transfers as evidence-handling discipline, customer communication, escalation, and fix validation; it does not establish privacy-office authority, legal expertise, direct email-security operations, or Abnormal AI product experience.
 >
 > **Currency and official-source access date:** August 24, 2026.
 
 ## Section Goal
 
-By the end of this Part, Arti should be able to explain privacy as disciplined control over information about people, organizations, communications, and behavior. She should be able to distinguish privacy from confidentiality, security, secrecy, and legal compliance; recognize message content, personal data, credentials, identifiers, telemetry, and metadata; and ask what information is actually necessary before requesting a file, screenshot, header, log, or recording.
+By the end of this Part, you should be able to explain privacy as disciplined control over information about people, organizations, communications, and behavior. You should be able to distinguish privacy from confidentiality, security, secrecy, and legal compliance; recognize message content, personal data, credentials, identifiers, telemetry, and metadata; and ask what information is actually necessary before requesting a file, screenshot, header, log, or recording.
 
-She should be able to apply **data minimization**, classification, purpose limitation, authorization, access control, secure transfer and storage, redaction, retention, deletion, integrity, provenance, and chain-of-custody practices to an enterprise support case. She should understand that consent may not be the only or correct authority for processing workplace or security data, that a support engineer must follow approved policy rather than invent a legal basis, and that legal, privacy, compliance, human-resources, or security questions require the appropriate owner.
+You should be able to apply **data minimization**, classification, purpose limitation, authorization, access control, secure transfer and storage, redaction, retention, deletion, integrity, provenance, and chain-of-custody practices to an enterprise support case. You should understand that consent may not be the only or correct authority for processing workplace or security data, that a support engineer must follow approved policy rather than invent a legal basis, and that legal, privacy, compliance, human-resources, or security questions require the appropriate owner.
 
 The practical outcome is a named **Glassbox Evidence Ethics Lab**. It produces a synthetic evidence-needs matrix, data inventory, authorization record, classification and minimization decisions, redaction log, integrity manifest, custody history, secure-transfer plan, retention schedule, customer-safe evidence request, escalation card, and validation rubric. The lab proves a support method only; it does not establish production privacy operations or legal competence.
 
@@ -35,18 +35,18 @@ The mappings below come from the supplied job description represented in the con
 
 ## Candidate Honesty Note
 
-Privacy language carries authority implications. Arti should preserve these evidence tiers in every interview answer.
+Privacy language carries authority implications. You should preserve these evidence tiers in every interview answer.
 
 | Evidence label | Honest use | Boundary that must remain explicit |
 |---|---|---|
-| **Production-transfer example** | Arti's CV-supported Microsoft enterprise support, CRITSIT communication, customer/partner coordination, Engineering/Product escalation, fix validation, KB/training, mentoring, and case-quality work support careful evidence and communication habits | These facts do not prove privacy-program ownership, legal interpretation, forensic custody, Abnormal operation, or email-security investigation authority |
-| **Working knowledge or upskilling** | Familiarity with HAR, Fiddler, DevTools, Procmon, Wireshark, Netsh, APIs, JSON, and identity concepts helps identify sensitive fields in diagnostic artifacts | Tool familiarity does not establish that every tool was used in production or that Arti may collect customer data with it |
+| **Production-transfer example** | Your CV-supported enterprise support, critical-situation communication, customer/partner coordination, Engineering/Product escalation, fix validation, KB/training, mentoring, and case-quality work support careful evidence and communication habits | These facts do not prove privacy-program ownership, legal interpretation, forensic custody, Abnormal operation, or email-security investigation authority |
+| **Working knowledge or upskilling** | Familiarity with HAR, Fiddler, DevTools, Procmon, Wireshark, Netsh, APIs, JSON, and identity concepts helps identify sensitive fields in diagnostic artifacts | Tool familiarity does not establish that every tool was used in production or that you may collect customer data with it |
 | **Local/public lab** | The Glassbox exercise demonstrates minimization, redaction, provenance, manifesting, retention, and decision reasoning with invented records | It is not a customer evidence package, formal forensic process, privacy impact assessment, audit, or legal opinion |
 | **Learned architecture** | NIST, CISA, RFC, and Microsoft official guidance provide public concepts for privacy, logs, incident evidence, and secret handling | General guidance does not define a customer's law, contract, classification policy, or Abnormal's private process |
-| **No direct experience** | The master records no direct Abnormal AI or email-security production experience and no stated role as privacy counsel, compliance officer, or incident commander | Arti should say so directly and route decisions to authorized specialists |
+| **No direct experience** | The master records no direct Abnormal AI or email-security production experience and no stated role as privacy counsel, compliance officer, or incident commander | You should say so directly and route decisions to authorized specialists |
 | **Template only** | Requests, manifests, redaction logs, and custody forms can be adapted after current policy review | A completed template does not prove an event occurred or that a legal requirement was met |
 
-A safe bridge is: “In Microsoft enterprise support I learned that useful diagnostics and customer trust depend on careful evidence requests, clear purpose, secure handling, and accurate escalation. I have not operated Abnormal or direct email-security investigations, and I am not a privacy or legal decision maker. My current proof is a synthetic evidence-handling lab plus official-source study.”
+A safe bridge is: “In enterprise support I learned that useful diagnostics and customer trust depend on careful evidence requests, clear purpose, secure handling, and accurate escalation. I have not operated Abnormal or direct email-security investigations, and I am not a privacy or legal decision maker. My current proof is a synthetic evidence-handling lab plus official-source study.”
 
 ## Beginner Terms: Meaning, Importance, and Memory Hooks
 
@@ -806,7 +806,7 @@ All sources below were accessed on **August 24, 2026**. Laws, standards, product
 | Official source title or family | URL | Use in this Part | Caution |
 |---|---|---|---|
 | Supplied Abnormal AI Technical Support Engineer JD represented in the confirmed master | No public URL supplied | Role, case types, customer trust, security mindset, and collaboration signals | Does not reveal private product or evidence workflow |
-| Arti Thakur tailored CV/master evidence summary | Local supplied source; no public URL | Microsoft support and escalation transfer only | No privacy-office, forensic, Abnormal, or email-security production claim |
+| Your CV and master evidence summary | Local supplied source; no public URL | enterprise support and escalation transfer only | No privacy-office, forensic, Abnormal, or email-security production claim |
 | NIST Privacy Framework | <https://www.nist.gov/privacy-framework> | Privacy-risk management, data processing, governance, and communication context | A voluntary framework, not legal advice or a universal control set |
 | NIST SP 800-53 Revision 5, Security and Privacy Controls | <https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final> | Access, audit, media, PII processing/transparency, retention, and control concepts | Controls require organizational tailoring and authorization |
 | NIST SP 800-61 Revision 3 | <https://csrc.nist.gov/pubs/sp/800/61/r3/final> | Evidence-aware incident response and risk-management integration | Does not make routine Support the incident commander |
@@ -819,7 +819,7 @@ All sources below were accessed on **August 24, 2026**. Laws, standards, product
 
 - **Official-source fact:** NIST, CISA, RFC, and Microsoft sources provide public guidance and reserved test conventions.
 - **Supplied JD fact:** The role requires customer-facing support across sensitive security and SaaS case types.
-- **Candidate fact:** Only the supplied CV/master supports Arti's Microsoft enterprise-support transfer.
+- **Candidate fact:** Only your own CV and the master curriculum support your prior enterprise-support transfer.
 - **Teaching framework:** The minimization sentence, matrices, redaction workflow, lab, and rubric are study aids, not official legal or forensic procedures.
 - **Synthetic evidence:** Lantern Post Lab, all IDs, addresses, messages, logs, credentials, times, and outcomes are fictional.
 - **Prohibited inference:** No Abnormal retention period, support access, legal basis, data flow, evidence portal, product behavior, or contractual duty is asserted.
@@ -872,7 +872,7 @@ All sources below were accessed on **August 24, 2026**. Laws, standards, product
 
 **Question:** How does your background support this work without overstating privacy experience?
 
-**Model answer:** My CV supports five years of Microsoft enterprise support and escalation, including CRITSIT communication, Engineering and Product collaboration, fix validation, knowledge work, mentoring, and case-quality analysis. Those experiences transfer to purposeful evidence requests, accurate records, customer trust, and disciplined handoffs. I do not claim privacy-program, legal, forensic, Abnormal AI, or direct email-security operations experience. My current domain proof is official-source study and a local synthetic evidence-handling lab.
+**Model answer:** My CV supports several years of enterprise support and escalation, including critical-situation communication, Engineering and Product collaboration, fix validation, knowledge work, mentoring, and case-quality analysis. Those experiences transfer to purposeful evidence requests, accurate records, customer trust, and disciplined handoffs. I do not claim privacy-program, legal, forensic, Abnormal AI, or direct email-security operations experience. My current domain proof is official-source study and a local synthetic evidence-handling lab.
 
 ## 30-Second Memory Hooks
 
@@ -917,7 +917,7 @@ All sources below were accessed on **August 24, 2026**. Laws, standards, product
 - [ ] I searched for credentials, personal data, hidden metadata, real domains, URLs, file paths, and accidental customer identifiers.
 - [ ] I deleted scratch copies and recorded disposition, reviewer, and next review date.
 - [ ] I can explain the lab in five minutes as local/synthetic evidence without implying production operation.
-- [ ] My Arti tie-ins use only supplied Microsoft support, escalation, communication, tooling familiarity, and case-quality facts.
+- [ ] My background tie-ins use only supplied enterprise support, escalation, communication, tooling familiarity, and case-quality facts.
 - [ ] I explicitly preserve no-direct-experience boundaries for Abnormal AI, direct email security, privacy/legal authority, and named adjacent tools.
 - [ ] I can answer all eight interview questions aloud using observation, purpose, authority, handling, limitation, and owner language.
 - [ ] I rechecked all official source anchors against the August 24, 2026 access date.

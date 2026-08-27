@@ -1,10 +1,10 @@
 # Part 52 - Data Quality, Profiling, Completeness, Freshness, and Reconciliation
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 >
 > **Purpose:** Build an operational data-quality method for security data: accuracy, completeness, consistency, timeliness, validity, uniqueness, integrity, profiling, reconciliation, freshness, latency, duplicate/missing/stale records, thresholds, exceptions, observability, root cause, ownership, acceptance gates, and trust reporting.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every source, field, record, rule, threshold, SLA, SLO, dashboard, query, finding, defect, incident, owner, sample, checksum, control total, and outcome in this Part is synthetic. General data-quality and PostgreSQL patterns are not Zscaler Data Fabric schemas, algorithms, connector behavior, quality scores, guarantees, or production recommendations. Official Zscaler material is used only for bounded public context: the reviewed page publicly describes harmonizing, deduplicating, correlating, enriching, and building accurate/contextualized/complete views. Arti's SQL, Power BI, statistics, support quality, incident, RCA, and customer communication transfer; direct production Zscaler Data Fabric quality operation remains a learning boundary.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every source, field, record, rule, threshold, SLA, SLO, dashboard, query, finding, defect, incident, owner, sample, checksum, control total, and outcome in this Part is synthetic. General data-quality and PostgreSQL patterns are not Zscaler Data Fabric schemas, algorithms, connector behavior, quality scores, guarantees, or production recommendations. Official Zscaler material is used only for bounded public context: the reviewed page publicly describes harmonizing, deduplicating, correlating, enriching, and building accurate/contextualized/complete views. Your SQL, Power BI, statistics, support quality, incident, RCA, and customer communication transfer; direct production Zscaler Data Fabric quality operation remains a learning boundary.
 >
 > **Currency caveat:** Data contracts, source behavior, product interfaces, quality tools, standards, thresholds, and public documentation change. Sources in this Part were reviewed on **2026-08-24**. Current contracts, approved controls, tenant evidence, customer risk tolerance, privacy/security requirements, observed baselines, and product/source specialists govern production.
 
@@ -14,7 +14,7 @@ Data quality means fitness for a declared use, not abstract perfection. The same
 
 Think of ingredients entering a restaurant. Freshness, quantity, identity, temperature, contamination, and supplier records are checked differently. A slightly bruised tomato may be fine for sauce but not a display salad; an unknown allergen label blocks service entirely. Security data also needs use-specific gates rather than one vague "quality score."
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Evidence artifact |
 |---|---|---|
@@ -51,7 +51,7 @@ flowchart LR
 
 ## JD Mapping
 
-| Role expectation | Part 52 capability | TSM artifact | Arti bridge and boundary |
+| Role expectation | Part 52 capability | TSM artifact | experience bridge and boundary |
 |---|---|---|---|
 | Analyze complex environments | Evaluate multi-source quality and fitness by use | Quality assessment | SQL/statistics transfer |
 | Identify security risks | Detect blind spots, stale evidence, invalid mappings, and misleading metrics | Data-risk register | Defect is risk evidence, not attack proof |
@@ -1071,7 +1071,7 @@ NIST sources frame measurement, controls, risk, and monitoring. PostgreSQL docum
 | RCA | First bad stage and failed control |
 | Trust report | Evidence, limitations, allowed decisions |
 | Last good | Label it stale |
-| Arti bridge | Quality/RCA skills transfer; product internals do not |
+| Experience bridge | Quality/RCA skills transfer; product internals do not |
 
 ## Completion Checklist
 

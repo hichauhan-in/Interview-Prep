@@ -1,12 +1,12 @@
 # Part 16 - SMB from Zero: Shares, Active Directory, Authentication, and Continuity
 
-> **Section goal:** Understand how an SMB client negotiates a dialect, authenticates, connects to a share, opens a file, caches safely, and recovers through supported failures. By the end, Arti should be able to trace SMB and Active Directory dependencies, distinguish share and file permissions, interpret signing/encryption and multichannel, and build an evidence-led continuity or access escalation.
+> **Section goal:** Understand how an SMB client negotiates a dialect, authenticates, connects to a share, opens a file, caches safely, and recovers through supported failures. By the end, you should be able to trace SMB and Active Directory dependencies, distinguish share and file permissions, interpret signing/encryption and multichannel, and build an evidence-led continuity or access escalation.
 
 Covers index item **16** and maps directly to job-description responsibilities for storage depth, customer-environment analysis, supportability, stability and risk mitigation, tailored recommendations, operational reviews, and escalation quality.
 
 This Part is vendor-neutral with Microsoft protocol grounding. Exact SMB dialects/capabilities, Kerberos/NTLM policy, signing, encryption, multichannel, durable/persistent handles, continuously available shares, Witness, transparent failover, Distributed File System (DFS), ports, timeouts, and NetApp behavior are version- and configuration-specific. Validate the exact Windows/client/application/network/storage combination in current official documentation and the NetApp Interoperability Matrix Tool (IMT).
 
-> **Evidence boundary:** Every domain, user, service principal, share, packet, timing, failure, and recommendation below is synthetic. Arti's production SharePoint, OneDrive, Microsoft 365, Windows, Active Directory, permissions, networking, and escalation experience is directly relevant. Production NetApp SMB server administration, continuously available share design, ONTAP failover, or SMB Multichannel tuning is not claimed.
+> **Evidence boundary:** Every domain, user, service principal, share, packet, timing, failure, and recommendation below is synthetic. Your production SharePoint, OneDrive, Microsoft 365, Windows, Active Directory, permissions, networking, and escalation experience is directly relevant. Production NetApp SMB server administration, continuously available share design, ONTAP failover, or SMB Multichannel tuning is not claimed.
 
 ---
 
@@ -681,11 +681,11 @@ flowchart TD
 
 ### Explicit JD Mapping
 
-| JD responsibility | Part 16 contribution | Arti's strength and honest gap |
+| JD responsibility | Part 16 contribution | Your strength and honest gap |
 |---|---|---|
 | Understand customer environment | Maps Windows/AD/DNS/network/SMB server/share/storage dependencies | **Strong transfer:** Windows, AD, M365, SharePoint/OneDrive support. **Gap:** production NetApp SMB ownership. |
 | Storage depth | Explains SMB dialect/session/tree/file state, security, channels, and continuity | **Conceptual/lab:** no ONTAP SMB or CA-share administration claim. |
-| Risk/stability | Finds SPN/fallback, ACL, lock, common-fate, state/timeout, and failover gaps | **Strength:** CRITSIT and identity/network evidence method. |
+| Risk/stability | Finds SPN/fallback, ACL, lock, common-fate, state/timeout, and failover gaps | **Strength:** critical situation and identity/network evidence method. |
 | Supportability | Builds exact client/network/AD/server/storage/feature matrix and IMT evidence | **Gap:** no customer IMT/gated result claimed. |
 | Recommendation quality | Connects exact SMB stage/status to owner-led action and validation | **Strength:** Product/Engineering escalation and customer advisory. |
 | Service review | Reports auth/security, continuity tests, performance trends, and actions | **Strength:** analytics/business reviews. |
@@ -693,7 +693,7 @@ flowchart TD
 
 ### Honest production-gap statement
 
-> "SMB and Active Directory are close to my production Microsoft experience: I have worked with Windows identities, permissions, DNS, authentication dependencies, enterprise data services, and high-severity escalations. I can trace negotiate, session, tree, file, and security state conceptually and from evidence. I have not administered ONTAP SMB servers, CA shares, NetApp Witness integration, or production SMB Multichannel on NetApp. I would verify exact Microsoft/NetApp support and IMT notes and work with AD, network, Windows, application, and storage owners for changes and failover tests."
+> "SMB and Active Directory are close to my production prior experience: I have worked with Windows identities, permissions, DNS, authentication dependencies, enterprise data services, and high-severity escalations. I can trace negotiate, session, tree, file, and security state conceptually and from evidence. I have not administered ONTAP SMB servers, CA shares, NetApp Witness integration, or production SMB Multichannel on NetApp. I would verify exact Microsoft/NetApp support and IMT notes and work with AD, network, Windows, application, and storage owners for changes and failover tests."
 
 ---
 
@@ -868,7 +868,7 @@ A fictional Windows client uses `\\domain.example\data\finance`, which returns a
 27. Complete the paper lab and whiteboard drills.
 28. Explain packet-capture limits for signed/encrypted/multichannel SMB.
 29. Answer Q1-Q8 aloud.
-30. State Arti's strengths and NetApp SMB production gap honestly.
+30. State your strengths and NetApp SMB production gap honestly.
 
 ---
 
@@ -952,9 +952,9 @@ A fictional Windows client uses `\\domain.example\data\finance`, which returns a
 
 ### Q8. How does your background transfer to SMB work, and what remains a gap?
 
-> **Model answer:** "SMB and AD align strongly with my Microsoft production background in Windows identities, permissions, DNS, authentication dependencies, SharePoint/OneDrive data services, networking, and enterprise escalations. I can trace the SMB state and correlate Windows evidence. I have not administered ONTAP SMB servers, CA shares, NetApp Witness integration, or production Multichannel on NetApp. I would verify exact Microsoft/NetApp documentation and IMT support and coordinate changes with AD, network, Windows, application, and storage owners."
+> **Model answer:** "SMB and AD align strongly with my prior production background in Windows identities, permissions, DNS, authentication dependencies, SharePoint/OneDrive data services, networking, and enterprise escalations. I can trace the SMB state and correlate Windows evidence. I have not administered ONTAP SMB servers, CA shares, NetApp Witness integration, or production Multichannel on NetApp. I would verify exact Microsoft/NetApp documentation and IMT support and coordinate changes with AD, network, Windows, application, and storage owners."
 
-**Follow-up depth:** Give one factual Microsoft identity/permissions incident and label the NetApp continuity work as conceptual or lab evidence.
+**Follow-up depth:** Give one factual enterprise identity/permissions incident and label the NetApp continuity work as conceptual or lab evidence.
 
 ---
 
@@ -980,7 +980,7 @@ A fictional Windows client uses `\\domain.example\data\finance`, which returns a
 - **Witness:** Proactive resource-change notification.
 - **DFS referral:** Namespace points client to a target; target still needs DNS/auth/access.
 - **Transparent failover:** Measure application pause and data outcome, not marketing wording.
-- **Arti's bridge:** SMB/AD methods are strong; NetApp SMB production ownership remains unclaimed.
+- **Your bridge:** SMB/AD methods are strong; NetApp SMB production ownership remains unclaimed.
 
 ---
 
@@ -1008,7 +1008,7 @@ A fictional Windows client uses `\\domain.example\data\finance`, which returns a
 - [ ] Recreate Contoso Legal and separate network, application, and authorization mechanisms.
 - [ ] Build exact current Microsoft/NetApp supportability and IMT evidence.
 - [ ] Complete the paper lab, whiteboard drills, self-test, and Q1-Q8 aloud.
-- [ ] State Arti's production strengths and NetApp SMB production gap honestly.
+- [ ] State your production strengths and NetApp SMB production gap honestly.
 - [ ] Recheck protocol revisions, policies, exact versions/features, and NetApp IMT notes before customer use.
 
 ---

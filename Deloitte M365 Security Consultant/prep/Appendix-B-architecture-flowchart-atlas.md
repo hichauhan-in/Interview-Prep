@@ -2,7 +2,7 @@
 
 > **Currency boundary:** This atlas reflects public product terminology and behavior available through **August 24, 2026**. Microsoft can change portals, licensing, data paths, preview status, service limits, and unified experiences. Treat every diagram as a reasoning model, then verify the live official documentation, tenant, cloud, region, license, and observed logs before implementation.
 >
-> **Candidate honesty note:** A clear whiteboard proves conceptual understanding, not production ownership. Arti should label examples accurately as production experience, lab evidence, or design knowledge. Her established production strengths are Microsoft 365 support, SharePoint Online and OneDrive, critical escalation, RCA, stakeholder communication, documentation, metrics, mentoring, and automation. Entra, Intune, Purview, Defender, Sentinel, Exchange, Teams, and security-transformation claims remain conceptual or lab-based unless independently supported by real evidence.
+> **Candidate honesty note:** A clear whiteboard proves conceptual understanding, not production ownership. You should label examples accurately as production experience, lab evidence, or design knowledge. Your established production strengths are Microsoft 365 support, SharePoint Online and OneDrive, critical escalation, RCA, stakeholder communication, documentation, metrics, mentoring, and automation. Entra, Intune, Purview, Defender, Sentinel, Exchange, Teams, and security-transformation claims remain conceptual or lab-based unless independently supported by real evidence.
 
 This atlas turns [Appendix A](Appendix-A-master-glossary-acronyms.md) vocabulary and [Parts 1-74](../Deloitte%20Microsoft%20365%20Security%20Senior%20Consultant%20-%20Study%20Guide.md#part-index) into interview-ready flows. It is not a deployment template. Every production design needs named assumptions, requirements, trust boundaries, roles, telemetry, data handling, licensing, testing, rollback, and operating ownership.
 
@@ -1256,7 +1256,7 @@ flowchart LR
 - Personal connections and service accounts create lifecycle risk; choose a supported identity pattern and least permissions for the automation.
 - Low-code assets need versioning, review, testing, monitoring, ownership, recovery, and retirement just like other software.
 
-**Interview use:** Tie Arti’s automation background to security by describing connector governance, identity, error handling, audit, data boundaries, and operational ownership.
+**Interview use:** Tie your automation background to security by describing connector governance, identity, error handling, audit, data boundaries, and operational ownership.
 
 **Common mistake:** Calling Power Platform DLP an endpoint data-loss prevention product or assuming a flow owned by an employee survives departure safely.
 

@@ -19,7 +19,7 @@ This Part uses the directory objects from [Part 6](Part-06-entra-id-architecture
 
 ## Candidate honesty note
 
-Arti has direct experience with Microsoft 365 escalation, SharePoint Online, OneDrive, sync, permissions symptoms, browser/client evidence, RCA, fix validation, and cross-team communication. That makes the distinction among identity, client, network, workload, and resource authorization familiar in practice.
+You have direct experience with Microsoft 365 escalation, SharePoint Online, OneDrive, sync, permissions symptoms, browser/client evidence, RCA, fix validation, and cross-team communication. That makes the distinction among identity, client, network, workload, and resource authorization familiar in practice.
 
 This Part does **not** claim production ownership of Entra federation, application registration, OAuth implementation, token validation, or Conditional Access. Safe phrasing is:
 
@@ -56,7 +56,7 @@ flowchart LR
 | Why was access allowed or denied? | Conditional Access, token claims, app assignment, resource permission | Sign-in success treated as SharePoint authorization |
 | What happened afterward? | Workload audit, API/resource logs, Defender/Sentinel evidence | Sign-in event treated as proof of every user action |
 
-Arti's SharePoint/OneDrive experience maps naturally: a user may authenticate successfully, receive a token for SharePoint, and still be denied because the site, library, item, sharing link, or tenant control does not authorize the requested action.
+Your SharePoint/OneDrive experience maps naturally: a user may authenticate successfully, receive a token for SharePoint, and still be denied because the site, library, item, sharing link, or tenant control does not authorize the requested action.
 
 ---
 

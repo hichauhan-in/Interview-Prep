@@ -1,10 +1,10 @@
 # Part 58 - Recommendation Writing: Evidence, Context, Action, Value, and Validation
 
-> **Section goal:** Convert technical and analytical evidence into recommendations that a customer can understand, challenge, decide, execute, and validate. By the end, Arti should be able to keep observations, findings, issues, risks, recommendations, actions, and decisions distinct; write evidence-context-condition-consequence statements; propose specific options with rationale and tradeoffs; name prerequisites, owners, dates, success criteria, rollback/forward recovery, and residual risk; tailor executive and technical versions without changing facts; manage the recommendation lifecycle; respond to objections; and close only with outcome evidence.
+> **Section goal:** Convert technical and analytical evidence into recommendations that a customer can understand, challenge, decide, execute, and validate. By the end, you should be able to keep observations, findings, issues, risks, recommendations, actions, and decisions distinct; write evidence-context-condition-consequence statements; propose specific options with rationale and tradeoffs; name prerequisites, owners, dates, success criteria, rollback/forward recovery, and residual risk; tailor executive and technical versions without changing facts; manage the recommendation lifecycle; respond to objections; and close only with outcome evidence.
 
 Covers index item **58** and maps directly to job-description responsibilities for customer-specific technical recommendations, proactive risk mitigation, operational service reviews, executive communication, technical escalation, lifecycle and upgrade planning, action tracking, support-experience improvement, cross-functional influence, and measurable customer value.
 
-**Explicit nonclaim:** Arti has not issued, approved, or implemented a production NetApp recommendation or represented a recommendation as an authorized NetApp support position.
+**Explicit nonclaim:** You have not issued, approved, or implemented a production NetApp recommendation or represented a recommendation as an authorized NetApp support position.
 
 **Privacy and access boundary:** Customer configurations, identifiers, telemetry, cases, defects, contracts, risks, costs, owners, business impacts, decisions, and change/recovery plans are sensitive. Use authorized evidence, purpose-limited access, audience-specific redaction, secure repositories, and approved retention.
 
@@ -14,7 +14,7 @@ Covers index item **58** and maps directly to job-description responsibilities f
 
 This Part gives no production command runbook, universal threshold, target release, sizing, hardware choice, QoS setting, remediation deadline, outage promise, risk acceptance, or guaranteed result. A recommendation is an evidence-bounded proposal; authorized customer and technical owners make decisions and execute supported changes.
 
-> **No-production-NetApp boundary:** Arti's factual strengths are Microsoft enterprise support, CRITSIT, technical RCA and escalation writing, customer service reviews, executive communication, an MBA in Business Analytics, Excel/Power BI/SQL/Python, change governance, and cross-team action ownership. She does **not** claim production ONTAP administration, Digital Advisor operation, IMT/HWU approval, private defect authority, NetApp sizing, or customer change authority. Her exact non-claim is: **she has not authored an approved production NetApp architecture, upgrade, performance, capacity, lifecycle, or remediation recommendation.**
+> **No-production-NetApp boundary:** Your factual strengths are enterprise support, critical situation, technical RCA and escalation writing, customer service reviews, executive communication, an a postgraduate business-analytics qualification, Excel/Power BI/SQL/Python, change governance, and cross-team action ownership. You do **not** claim production ONTAP administration, Digital Advisor operation, IMT/HWU approval, private defect authority, NetApp sizing, or customer change authority. Your exact non-claim is: **you have not authored an approved production NetApp architecture, upgrade, performance, capacity, lifecycle, or remediation recommendation.**
 
 ---
 
@@ -793,7 +793,7 @@ Alpine needs reliable imaging availability and a supportable upgrade path before
 | ID | Observation | Context | Quality/limitation |
 |---|---|---|---|
 | `O-01` | One node's last synthetic remote telemetry receipt is 16 days old | Imaging cluster; weekly evidence expected | Local collection current; remote account access owner-confirmed |
-| `O-02` | Target host driver differs from dated recipe evidence | Upgrade project in six weeks | Exact current IMT-like result unavailable to Arti |
+| `O-02` | Target host driver differs from dated recipe evidence | Upgrade project in six weeks | Exact current IMT-like result unavailable to you |
 | `O-03` | Local physical capacity base case reaches synthetic threshold in eight months | New imaging project starts in four months | Project size range not yet approved |
 | `O-04` | Restore test is 14 months old | Customer policy expects annual test | Backups succeed; current restore objective unproven |
 | `O-05` | Five cases reference retired node alias | Controller replaced two months ago | Cases are synthetic; no shared technical cause inferred |
@@ -926,10 +926,10 @@ flowchart LR
 
 ### JD Mapping
 
-| JD responsibility | Part 58 contribution | Arti's factual bridge and gap |
+| JD responsibility | Part 58 contribution | Your factual bridge and gap |
 |---|---|---|
 | Customer recommendations | Complete evidence-to-action anatomy | Microsoft advisory writing transfers; no NetApp production authority |
-| Proactive risk mitigation | Links mechanism/horizon to preventative options | CRITSIT/problem-management discipline transfers |
+| Proactive risk mitigation | Links mechanism/horizon to preventative options | critical situation/problem-management discipline transfers |
 | Operational service reviews | Executive ask plus technical evidence/action register | Customer-review communication transfers |
 | Technical escalation | Exact scope, sources, contradictions, specialist ask | Enterprise support escalation transfers |
 | Lifecycle/upgrade/capacity | Options, prerequisites, lead time, stop/recovery, proof | Change/analytics skills transfer |
@@ -938,12 +938,12 @@ flowchart LR
 
 ---
 
-## 17. Arti's transfer and honest NetApp gap
+## 17. Your transfer and honest NetApp gap
 
 ```mermaid
 flowchart LR
-    SUP[Microsoft enterprise support] --> EVID[Evidence, hypotheses, exact asks]
-    CRIT[CRITSIT/change governance] --> SAFE[Impact, owners, checkpoints, recovery]
+    SUP[enterprise support] --> EVID[Evidence, hypotheses, exact asks]
+    CRIT[Critical situation/change governance] --> SAFE[Impact, owners, checkpoints, recovery]
     MBA[MBA/analytics] --> OPT[Options, tradeoffs, value, uncertainty]
     COMM[Customer/executive reviews] --> STORY[Clear decision narrative]
     EVID --> METHOD[NetApp TAM recommendation method]
@@ -957,15 +957,15 @@ flowchart LR
 
 | Factual strength | Transfer | Honest limit |
 |---|---|---|
-| Microsoft support/RCA | Evidence-context-condition, hypotheses, escalation | Not ONTAP root-cause or Support authority |
-| CRITSIT/change | Impact, owner/date, stop/recovery, updates | No customer storage change authority |
+| enterprise support/RCA | Evidence-context-condition, hypotheses, escalation | Not ONTAP root-cause or Support authority |
+| Critical situation/change | Impact, owner/date, stop/recovery, updates | No customer storage change authority |
 | MBA/analytics | Options, tradeoffs, uncertainty, measurable value | No NetApp sizing/threshold guarantee |
 | Excel/Power BI/SQL/Python | Reproducible evidence and action tracking | No live NetApp dataset/tool operation |
 | Executive communication | Concise ask without losing material caveats | Decision remains with customer/accountable owners |
 
 ### Honest interview answer
 
-> `I separate observation, finding, issue, risk, recommendation, action and decision. My recommendation starts with dated scoped evidence and customer context, states the condition/consequence and confidence, compares options and status quo, and proposes a specific action with rationale, prerequisites, owner/date, safety, success criteria and residual risk. I create consistent executive and technical versions and close only on outcome evidence. My production experience is Microsoft support and analytics, not approved NetApp recommendations, so current NetApp sources and authorized owners govern real actions.`
+> `I separate observation, finding, issue, risk, recommendation, action and decision. My recommendation starts with dated scoped evidence and customer context, states the condition/consequence and confidence, compares options and status quo, and proposes a specific action with rationale, prerequisites, owner/date, safety, success criteria and residual risk. I create consistent executive and technical versions and close only on outcome evidence. My production experience is enterprise support and analytics, not approved NetApp recommendations, so current NetApp sources and authorized owners govern real actions.`
 
 ---
 
@@ -1038,7 +1038,7 @@ flowchart LR
 13. Write a decision record and accepted-risk record.
 14. Respond to common objections with a discriminating check.
 15. Define closure, reopen and value realization.
-16. Recreate Alpine Diagnostics and state Arti's gap.
+16. Recreate Alpine Diagnostics and state your gap.
 
 ### Lab pass checklist
 
@@ -1121,7 +1121,7 @@ flowchart LR
 
 ### Q8. How does your background transfer, and what remains a gap?
 
-> **Model answer:** `Microsoft support, CRITSIT and change work give me evidence, RCA, safety, owner and customer communication discipline; my MBA and analytics tools support options and measurable value. I have not authored or implemented an approved production NetApp recommendation, so current NetApp sources and authorized technical/customer owners control real decisions.`
+> **Model answer:** `enterprise support, critical situation and change work give me evidence, RCA, safety, owner and customer communication discipline; my MBA and analytics tools support options and measurable value. I have not authored or implemented an approved production NetApp recommendation, so current NetApp sources and authorized technical/customer owners control real decisions.`
 
 ---
 
@@ -1146,7 +1146,7 @@ flowchart LR
 - **Decision record:** Chosen/rejected options, evidence, authority and conditions.
 - **Objection:** Shared objective -> exact disagreement -> discriminating check.
 - **Closure:** Outcome evidence plus residual-risk acceptance.
-- **Arti's bridge:** Recommendation discipline transfers; NetApp authority does not.
+- **Your bridge:** Recommendation discipline transfers; NetApp authority does not.
 
 ---
 

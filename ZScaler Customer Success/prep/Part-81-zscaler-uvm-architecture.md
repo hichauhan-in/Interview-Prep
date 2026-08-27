@@ -1,14 +1,14 @@
 # Part 81 - Zscaler Unified Vulnerability Management Architecture
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 
 > **Purpose:** Explain Zscaler Unified Vulnerability Management, abbreviated UVM, as a source-bounded product architecture built on the public Data Fabric for Security story. Cover data sources, ingestion and source contracts, harmonization, deduplication, entity resolution, correlation, identity, assets, user behavior, mitigating controls, business processes, organizational hierarchy, contextual multifactor prioritization, workflows, ticket reconciliation, dashboards, KPIs, SLAs, product boundaries, implementation, health, troubleshooting, adoption, privacy, synthetic scenarios, and TSM value.
 
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer. Every NMH source, connector, field, rule, score, weight, dashboard, ticket, date, incident, metric, decision, and result is invented for learning and is not a description of a Zscaler tenant. Arti's factual experience is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; escalations; mentoring; and responsible AI exploration. Production Zscaler, UVM, Data Fabric, Risk360, Asset Exposure Management, CAASM, and CTEM administration remain learning boundaries. The chapter makes no claim that a named source, field, workflow, integration direction, or capability is available under any specific entitlement.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer. Every NMH source, connector, field, rule, score, weight, dashboard, ticket, date, incident, metric, decision, and result is invented for learning and is not a description of a Zscaler tenant. Your factual experience is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; escalations; mentoring; and responsible AI exploration. Production Zscaler, UVM, Data Fabric, Risk360, Asset Exposure Management, CAASM, and CTEM administration remain learning boundaries. The chapter makes no claim that a named source, field, workflow, integration direction, or capability is available under any specific entitlement.
 
 > **Currency caveat:** Zscaler products, packaging, integrations, interfaces, fields, calculations, entitlements, tenant behavior, APIs, support processes, and public wording change. The controlled official-source snapshot and review date for this Part is exactly **2026-08-24**. Current official documentation, licensed-tenant evidence, connector-specific guidance, customer contracts, product specialists, Zscaler Support, customer security/privacy/change requirements, and measured postconditions govern production.
 
-> **Section goal:** Give Arti a defensible UVM whiteboard and implementation conversation: what the official public pages say, how those claims connect to the Data Fabric foundations in Parts 58-68, which general mechanics make the architecture useful, which details remain unknown, and how a TSM helps a customer move from fragmented findings to explainable and validated remediation work.
+> **Section goal:** Give you a defensible UVM whiteboard and implementation conversation: what the official public pages say, how those claims connect to the Data Fabric foundations in Parts 58-68, which general mechanics make the architecture useful, which details remain unknown, and how a TSM helps a customer move from fragmented findings to explainable and validated remediation work.
 
 Zscaler's public UVM page positions the product as a way to identify important security gaps through contextual risk information and flexible workflows. It says UVM is powered by Zscaler Data Fabric for Security, uses an aggregated and correlated data set, ingests traditional vulnerability and exploitability sources plus Zscaler and third-party data, and correlates findings with context spanning identity, assets, user behavior, mitigating controls, business processes, organizational hierarchy, and more. It also publicly describes out-of-the-box multifactor scoring, adjustable factors and weights, support for additional factors through new data sources, dynamic risk/KPI/SLA reporting, custom remediation workflows with details and rationale, and automatic ticket reconciliation.
 
@@ -57,7 +57,7 @@ flowchart LR
 
 | Evidence class | Neutral phrasing | Boundary |
 |---|---|---|
-| Factual production background | Arti's Microsoft support work involved complex identity, permission, endpoint, network, service, analytics, escalation, and customer-outcome evidence | This does not establish production UVM or Data Fabric administration |
+| Factual production background | Your prior support work involved complex identity, permission, endpoint, network, service, analytics, escalation, and customer-outcome evidence | This does not establish production UVM or Data Fabric administration |
 | Transferable method | Source quality, exact IDs, UTC timelines, hypothesis testing, cross-team ownership, dashboards, RCA, and validation transfer to a TSM operating model | Tool-specific behavior remains to verify |
 | Synthetic practice | NMH architecture, mappings, factors, workflows, dashboards, and cases are fictional structured exercises | No production tenant or result claim |
 | Learned product knowledge | Public Zscaler UVM/Data Fabric claims can be explained with source/date/boundary | Public positioning is not licensed-tenant proof |
@@ -859,7 +859,7 @@ All labs use synthetic data, public pages, or explicitly authorized nonproductio
 | 20 | AI assistant tabletop | Allowed/prohibited matrix | Citations/review; no autonomous priority/action |
 | 21 | Interview rehearsal | Q1-Q8 recording | No production UVM/Data Fabric claim |
 
-## Arti bridge: Microsoft escalation and analytics to UVM TSM value
+## Experience bridge: enterprise escalation and analytics to UVM TSM value
 
 | Factual strength | UVM/TSM transfer | Example phrasing | Boundary |
 |---|---|---|---|
@@ -946,9 +946,9 @@ Zscaler official public pages support the bounded UVM and Data Fabric claims sta
 
 **Model answer:** I would pause affected automation and success claims, choose one episode and UTC window, then trace customer scope/native source, connector auth/pages/quotas/freshness, schema/mapping/time/rejects, entity identity/lifecycle/dedup, correlation/context, factor/gate/weight/policy versions, workflow/ticket/validation, and report grain/filter/access. I would repair in shadow, canary, replay deterministically, reconcile tickets and reports, restate history, communicate affected decisions, and escalate a redacted minimal evidence package if product behavior remains suspect.
 
-### Q8. How does Arti's background translate to a UVM TSM role while staying within factual boundaries?
+### Q8. How does your background translate to a UVM TSM role while staying within factual boundaries?
 
-**Model answer:** Microsoft escalation work provides adjacent strengths in exact tenant/user/device/app identity, permissions, network and trace isolation, service dependencies, source quality, customer impact, containment, cross-team coordination, RCA, and validation. SQL and Power BI support grains, joins, temporal models, quality checks, metrics, and narratives; mentoring supports adoption; AI can assist cited summaries under review. NMH is synthetic, while production UVM/Data Fabric administration, formulas, and tenant workflows remain learning and verification boundaries.
+**Model answer:** enterprise escalation work provides adjacent strengths in exact tenant/user/device/app identity, permissions, network and trace isolation, service dependencies, source quality, customer impact, containment, cross-team coordination, RCA, and validation. SQL and Power BI support grains, joins, temporal models, quality checks, metrics, and narratives; mentoring supports adoption; AI can assist cited summaries under review. NMH is synthetic, while production UVM/Data Fabric administration, formulas, and tenant workflows remain learning and verification boundaries.
 
 ## 30-Second Memory Hooks
 
@@ -975,7 +975,7 @@ Zscaler official public pages support the bounded UVM and Data Fabric claims sta
 | Product boundary | Coordinator does not replace every specialist |
 | Implementation | Outcome -> minimum data -> proof -> canary -> adoption |
 | TSM | Product + customer architecture + process + evidence + trust |
-| Arti bridge | Correlate Microsoft evidence now; learn UVM specifics honestly |
+| Experience bridge | Correlate prior evidence now; learn UVM specifics honestly |
 
 ## Completion Checklist
 

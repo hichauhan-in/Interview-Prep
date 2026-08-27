@@ -69,7 +69,7 @@ Strong hypothesis:
 
 The strong version predicts observable evidence. One focused check can support or disconfirm it.
 
-> **Tie-in to your background:** Your ODSP Sync Client SME work already follows this pattern when you compare an affected library, account, machine, or file with a known-good control. Part 5 makes that reasoning explicit so you can demonstrate it under interview pressure.
+> **Tie-in to your background:** Your sync-client subject-matter expert work already follows this pattern when you compare an affected library, account, machine, or file with a known-good control. Part 5 makes that reasoning explicit so you can demonstrate it under interview pressure.
 
 ---
 
@@ -1059,17 +1059,17 @@ Before taking a disruptive action, ask:
 
 ---
 
-## 22. Your Microsoft Experience Translation
+## 22. Your Experience Translation
 
 | Part 5 capability | CV-backed evidence | Interview connection |
 |---|---|---|
-| High-impact triage | Business-critical escalations and CRITSITs | "I establish impact, owners, mitigation, and update cadence before deep diagnosis." |
-| Competing hypotheses | ODSP Sync Client SME investigations | "I compare affected and known-good users, files, libraries, and environments." |
+| High-impact triage | Business-critical escalations and critical situations | "I establish impact, owners, mitigation, and update cadence before deep diagnosis." |
+| Competing hypotheses | sync-client subject-matter expert investigations | "I compare affected and known-good users, files, libraries, and environments." |
 | Cross-team coordination | Customer IT, Delivery Partners, Engineering, Product Groups, vendors | "I maintain one resolution plan while different teams own actions." |
 | Product escalation | Defect escalation and fix validation | "I provide reproduction, evidence, business impact, and verify the engineering fix." |
 | Data-driven operation | CSAT, backlog health, case quality, escalation trends | "I use objective signals to prioritize and improve support." |
 | Knowledge scaling | KB articles, guides, triages, case bashes | "I convert case learning into repeatable diagnosis and prevention." |
-| Learning from ambiguity | Technical Advisor program, AI adoption, mentoring | "I make unknowns explicit, test them, and share the resulting method." |
+| Learning from ambiguity | technical-advisor programme, AI adoption, mentoring | "I make unknowns explicit, test them, and share the resulting method." |
 
 ### Interview story prompt
 

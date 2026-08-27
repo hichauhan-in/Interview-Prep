@@ -1,8 +1,8 @@
 # Part 40 — Defender Advanced Hunting with KQL and Custom Detections
 
-> **Section goal:** Learn Microsoft Defender advanced hunting from absolute zero and progress to consulting-grade custom-detection engineering. This Part covers the hunting architecture, schema categories and entity relationships; guided and advanced modes; Kusto Query Language (KQL) tabular flow; time, string, parsing, dynamic JSON, aggregation and multi-table operators; endpoint, identity, email, cloud-app, alert and evidence tables; hypothesis-driven hunting; timeline joins, indicators and prevalence; query performance and errors; custom-detection schedules, lookbacks, entity mapping, enrichment, actions, scoping and noise control; backtesting, tuning, versioning, detection-as-code, deployment, rollback, operations, metrics and safe paper practice. Arti should be able to explain, review and dry-run queries without claiming production hunting or blindly executing AI-generated KQL.
+> **Section goal:** Learn Microsoft Defender advanced hunting from absolute zero and progress to consulting-grade custom-detection engineering. This Part covers the hunting architecture, schema categories and entity relationships; guided and advanced modes; Kusto Query Language (KQL) tabular flow; time, string, parsing, dynamic JSON, aggregation and multi-table operators; endpoint, identity, email, cloud-app, alert and evidence tables; hypothesis-driven hunting; timeline joins, indicators and prevalence; query performance and errors; custom-detection schedules, lookbacks, entity mapping, enrichment, actions, scoping and noise control; backtesting, tuning, versioning, detection-as-code, deployment, rollback, operations, metrics and safe paper practice. You should be able to explain, review and dry-run queries without claiming production hunting or blindly executing AI-generated KQL.
 
-This Part maps directly to Deloitte expectations for Defender XDR, advanced hunting, KQL, threat investigation, detection engineering, incident response, Microsoft 365 security, troubleshooting, control optimization, documentation and operational support. Arti's strengths in incident timelines, RCA, log correlation, validation, Microsoft 365 workload behavior, precise evidence, reporting and AI-agent evaluation are natural advantages. The honest bridge is translating support hypotheses into bounded queries and test plans, not claiming production custom detections.
+This Part maps directly to Deloitte expectations for Defender XDR, advanced hunting, KQL, threat investigation, detection engineering, incident response, Microsoft 365 security, troubleshooting, control optimization, documentation and operational support. Your strengths in incident timelines, RCA, log correlation, validation, Microsoft 365 workload behavior, precise evidence, reporting and AI-agent evaluation are natural advantages. The honest bridge is translating support hypotheses into bounded queries and test plans, not claiming production custom detections.
 
 > **Currency, licensing, preview and portal-convergence note (August 24, 2026):** This chapter uses official Microsoft Learn content available on August 24, 2026. Advanced hunting in the unified Microsoft Defender portal can query native Defender XDR data and, when Microsoft Sentinel is onboarded, supported Sentinel analytics-tier data. Native Defender data is currently searchable for up to 30 days; Sentinel retention depends on table configuration. Guided mode, schema tables/columns, Continuous near-real-time (NRT) eligibility, entity mapping, response actions, limits and unified RBAC can change. Preview tables visible in current schema include several behavior, AI-agent, cloud and data-security families; never build a production dependency without checking current status. Custom-detection actions that assume manually initiated endpoint AIR must be revalidated because the separate/manual Defender for Endpoint AIR experience ends September 1, 2026. Verify Product Terms, workload licenses, live schema references, `ActionType` values, tenant permissions, Message center, Roadmap and current custom-detection wizard before use.
 
@@ -19,9 +19,9 @@ This Part maps directly to Deloitte expectations for Defender XDR, advanced hunt
 
 ## Candidate honesty note
 
-Arti can speak directly about Microsoft 365 incident evidence, timestamp correlation, RCA, troubleshooting, fix validation, reporting and stakeholder coordination where supported by her work. She can describe learning KQL, reviewing schemas and building synthetic paper hunts.
+You can speak directly about Microsoft 365 incident evidence, timestamp correlation, RCA, troubleshooting, fix validation, reporting and stakeholder coordination where supported by your work. You can describe learning KQL, reviewing schemas and building synthetic paper hunts.
 
-She should not claim production Defender advanced-hunting ownership, production KQL query execution, custom-detection deployment, automated response configuration or tenant tuning unless separately evidenced. Safe wording is:
+You should not claim production Defender advanced-hunting ownership, production KQL query execution, custom-detection deployment, automated response configuration or tenant tuning unless separately evidenced. Safe wording is:
 
 > “My production foundation is Microsoft 365 incident support, evidence timelines, RCA and fix validation. I have built and reviewed synthetic Defender KQL hunts and a custom-detection design using current schema and Learn guidance. I have not run these hunts or deployed detections in a production Defender tenant. Before client use I would verify the live schema and `ActionType` values, constrain time and scope, redact sensitive output, backtest against labeled data, peer review entity/action mapping, deploy without automatic destructive actions, monitor quality and keep a tested disable/rollback path.”
 
@@ -320,7 +320,7 @@ DeviceEvents
 ```
 
 ```kusto
-print Raw="user=arti.test@example.com;result=Success;method=MFA"
+print Raw="user=test.user@example.com;result=Success;method=MFA"
 | parse Raw with "user=" User ";result=" Result ";method=" Method
 ```
 
@@ -411,7 +411,7 @@ This shows temporal association, not proof that the attachment created that file
 `union` stacks compatible table outputs. Normalize columns before union so the result has common `EventTime`, `Entity`, `Activity` and `Source` fields. Do not run unscoped union across every table; it can exceed size and CPU limits.
 
 ```kusto
-let targetUser = "arti.test@example.com";
+let targetUser = "test.user@example.com";
 let startTime = datetime(2026-08-24T09:00:00Z);
 let endTime = datetime(2026-08-24T11:00:00Z);
 let EmailTimeline =
@@ -512,7 +512,7 @@ The `leftouter` keeps process candidates even without matching network evidence.
 Hypothesis: a target account may have repeated failed logons followed by success across unusual applications or devices. Because exact `ActionType` and columns can differ by source, verify the live `IdentityLogonEvents` reference before use.
 
 ```kusto
-let targetUser = "arti.test@example.com";
+let targetUser = "test.user@example.com";
 IdentityLogonEvents
 | where Timestamp > ago(7d)
 | where AccountUpn =~ targetUser
@@ -566,7 +566,7 @@ Check current column names and data availability. A recorded click does not prov
 Hypothesis: a user may have downloaded an unusual volume of files after suspicious authentication.
 
 ```kusto
-let targetUser = "arti.test@example.com";
+let targetUser = "test.user@example.com";
 CloudAppEvents
 | where Timestamp > ago(7d)
 | where AccountId =~ targetUser or AccountDisplayName =~ targetUser
@@ -967,7 +967,7 @@ Detection logic can reveal defensive thresholds; outputs contain sensitive telem
 
 ## 40. Consulting scenario: phish to endpoint timeline
 
-**Fictional request:** A client asks whether a synthetic invoice email sent to `arti.test@example.com` was followed by a URL click, encoded PowerShell and network access from `LAB-W11-040`. No tenant is available. The deliverable is a paper query pack and detection specification.
+**Fictional request:** A client asks whether a synthetic invoice email sent to `test.user@example.com` was followed by a URL click, encoded PowerShell and network access from `LAB-W11-040`. No tenant is available. The deliverable is a paper query pack and detection specification.
 
 ```mermaid
 sequenceDiagram
@@ -1071,7 +1071,7 @@ The proposed rule detects a script interpreter with download-related terms plus 
 
 ## 43. JD Mapping: interview translation
 
-| Interview prompt | Arti's factual strength | Honest KQL/detection bridge |
+| Interview prompt | Your factual strength | Honest KQL/detection bridge |
 |---|---|---|
 | “How do you threat hunt?” | Hypothesis-led RCA and timeline work | Explain synthetic bounded cross-domain hunt |
 | “How strong is your KQL?” | Log analysis and structured troubleshooting | State study/paper queries, not production execution |
@@ -1155,7 +1155,7 @@ The proposed rule detects a script interpreter with download-related terms plus 
 - **Map impacted assets separately from related evidence.**
 - **Pilot alert-only before any automated response.**
 - **AI drafts KQL; humans verify schema, logic, scope and results.**
-- **Arti's bridge is RCA and evidence rigor, not production detection ownership.**
+- **Your bridge is RCA and evidence rigor, not production detection ownership.**
 
 ## Completion Checklist
 

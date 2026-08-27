@@ -1,10 +1,10 @@
 # Part 69 - Coaching, Buddying New Hires, Training, and Knowledge Quality
 
-> **Section goal:** Help new hires and peers become safely independent while preserving role boundaries, evidence quality, psychological safety, and customer trust. By the end, Arti should be able to apply adult-learning principles; decompose competencies and tasks; build onboarding plans; use shadow, reverse-shadow, teach-back, and deliberate practice; give sourced SBI feedback; distinguish coaching from managing; calibrate reviewers through quality rubrics; govern knowledge-article lifecycles; evaluate training through a Kirkpatrick orientation; remediate quality gaps; coach inclusively; and escalate when needs exceed her authority or expertise.
+> **Section goal:** Help new hires and peers become safely independent while preserving role boundaries, evidence quality, psychological safety, and customer trust. By the end, you should be able to apply adult-learning principles; decompose competencies and tasks; build onboarding plans; use shadow, reverse-shadow, teach-back, and deliberate practice; give sourced SBI feedback; distinguish coaching from managing; calibrate reviewers through quality rubrics; govern knowledge-article lifecycles; evaluate training through a Kirkpatrick orientation; remediate quality gaps; coach inclusively; and escalate when needs exceed your authority or expertise.
 
 Covers index item **69** and maps directly to job-description responsibilities for buddying new hires, coaching standard tasks, improving technical analysis and recommendation representation, contributing to SME and cross-functional teams, building specialization, documenting knowledge, communicating clearly, and improving service quality.
 
-**Explicit nonclaim:** Arti has not designed or owned a production NetApp onboarding curriculum, certified NetApp competency, trained a live NetApp account team, managed NetApp employees, or approved NetApp knowledge standards.
+**Explicit nonclaim:** You have not designed or owned a production NetApp onboarding curriculum, certified NetApp competency, trained a live NetApp account team, managed NetApp employees, or approved NetApp knowledge standards.
 
 **Privacy and access boundary:** Coaching and training records can contain employee identity, performance observations, customer examples, case details, access levels, accommodations, feedback, assessments, and manager decisions. Use approved systems, minimum necessary personal information, role-based access, sanitized examples, retention controls, and manager/HR/privacy routes for sensitive needs.
 
@@ -14,7 +14,7 @@ Covers index item **69** and maps directly to job-description responsibilities f
 
 This Part provides a generic learning and quality model, not a NetApp internal curriculum, manager process, HR policy, certification, permission model, knowledge standard, or production procedure. Actual manager, lead TAM, SME, HR, security/privacy, accessibility, and knowledge-owner governance controls live coaching.
 
-> **No-production-NetApp boundary:** Arti's factual strengths are mentoring, onboarding, technical interviews, Technical Advisor program work, Microsoft enterprise support, documentation, knowledge creation, Product/Engineering collaboration, customer communication, and quality/case analytics. She does **not** claim production NetApp coaching authority, ONTAP task certification, internal NetApp curriculum access, employee performance management, or knowledge approval. Her exact non-claim is: **she has not designed, delivered, certified, or governed a production NetApp onboarding, coaching, training, competency, or knowledge-quality program.**
+> **No-production-NetApp boundary:** Your factual strengths are mentoring, onboarding, technical interviews, technical-advisor programme work, enterprise support, documentation, knowledge creation, Product/Engineering collaboration, customer communication, and quality/case analytics. You do **not** claim production NetApp coaching authority, ONTAP task certification, internal NetApp curriculum access, employee performance management, or knowledge approval. Your exact non-claim is: **you have not designed, delivered, certified, or governed a production NetApp onboarding, coaching, training, competency, or knowledge-quality program.**
 
 ---
 
@@ -720,13 +720,13 @@ flowchart LR
 
 ---
 
-## 16. Arti's factual bridge and JD Mapping
+## 16. Your factual bridge and JD Mapping
 
 ```mermaid
 flowchart LR
     MENTOR[Mentoring and onboarding] --> COACH[Guidance, practice and feedback]
     INTERVIEW[Technical interviews] --> COMP[Competency evidence and questioning]
-    TA[Technical Advisor program] --> TEACH[Advisory and teach-back]
+    TA[technical-advisor programme] --> TEACH[Advisory and teach-back]
     DOC[Documentation and support quality] --> KNOW[Rubrics and knowledge lifecycle]
     COACH --> METHOD[Transferable coaching method]
     COMP --> METHOD
@@ -737,12 +737,12 @@ flowchart LR
 
 ### Factual tie
 
-| Arti evidence | Transfer | Boundary |
+| Transferable evidence | Transfer | Boundary |
 |---|---|---|
 | Mentoring/onboarding | Learning plan, shadowing, feedback and support | Not NetApp employee management |
 | Technical interviews | Observable competency questions | Not NetApp certification authority |
-| Technical Advisor program | Teach-back and broader team contribution | Not NetApp TAM/SME equivalence |
-| Microsoft support documentation | Knowledge quality and customer-safe writing | No internal NetApp article approval |
+| technical-advisor programme | Teach-back and broader team contribution | Not NetApp TAM/SME equivalence |
+| enterprise support documentation | Knowledge quality and customer-safe writing | No internal NetApp article approval |
 | Product/Engineering collaboration | Escalation and source review | No NetApp private-content access |
 | Analytics/quality work | Rubrics, calibration and evaluation | No production NetApp training dataset |
 
@@ -760,7 +760,7 @@ flowchart LR
 
 ### Honest interview statement
 
-> `I would define the task outcome and competency, decompose steps and judgment points, then use adult-learning principles, shadowing, deliberate practice, reverse-shadowing and teach-back. I give Situation-Behavior-Impact feedback, calibrate with rubrics, and grant only bounded independence through evidence. I have real mentoring/onboarding experience at Microsoft, but I have not operated a NetApp training or certification program.`
+> `I would define the task outcome and competency, decompose steps and judgment points, then use adult-learning principles, shadowing, deliberate practice, reverse-shadowing and teach-back. I give Situation-Behavior-Impact feedback, calibrate with rubrics, and grant only bounded independence through evidence. I have real mentoring/onboarding experience in a previous role, but I have not operated a NetApp training or certification program.`
 
 ---
 
@@ -831,7 +831,7 @@ Inject:
 7. Distinguish coach, manager, SME, HR and access authority.
 8. Build/calibrate a quality rubric.
 9. Govern article lifecycle and Kirkpatrick evaluation.
-10. Remediate Maya's case and state Arti's nonclaim.
+10. Remediate Maya's case and state your nonclaim.
 
 ### Lab pass checklist
 
@@ -910,7 +910,7 @@ Inject:
 
 ### Q8. How does your background transfer, and what remains a gap?
 
-> **Model answer:** `I have factual mentoring, onboarding, technical interview, Technical Advisor, documentation and quality-analysis experience at Microsoft. Those skills transfer to task decomposition, practice, feedback and knowledge. I have not operated or certified a NetApp training program, so internal standards, access and readiness decisions remain with authorized NetApp roles.`
+> **Model answer:** `I have factual mentoring, onboarding, technical interview, technical advisor, documentation and quality-analysis experience in a previous role. Those skills transfer to task decomposition, practice, feedback and knowledge. I have not operated or certified a NetApp training program, so internal standards, access and readiness decisions remain with authorized NetApp roles.`
 
 ---
 
@@ -932,7 +932,7 @@ Inject:
 - **Article:** Findable, current, scoped, safe, owned and reviewable.
 - **Kirkpatrick:** Reaction, learning, behavior, results; do not overclaim causation.
 - **Remediation:** Diagnose knowledge, skill, judgment, tool, process or workload.
-- **Arti's bridge:** Real Microsoft coaching transfers; NetApp certification authority does not.
+- **Your bridge:** Real Microsoft coaching transfers; NetApp certification authority does not.
 
 ---
 

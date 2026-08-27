@@ -8,9 +8,9 @@
 
 ## Section goal
 
-By the end of this Part, Arti should be able to read an HTTP request and response; distinguish method, target, authority, headers, body, status, and protocol version; and explain method safety, idempotency, and cacheability without reducing them to “GET reads, POST writes.” She should be able to interpret informational, successful, redirection, client-error, and server-error status classes; distinguish representation metadata from framing and content coding; and use request/correlation IDs, timestamps, and structured error bodies safely.
+By the end of this Part, you should be able to read an HTTP request and response; distinguish method, target, authority, headers, body, status, and protocol version; and explain method safety, idempotency, and cacheability without reducing them to “GET reads, POST writes.” You should be able to interpret informational, successful, redirection, client-error, and server-error status classes; distinguish representation metadata from framing and content coding; and use request/correlation IDs, timestamps, and structured error bodies safely.
 
-She should understand cookies and their `Secure`, `HttpOnly`, `SameSite`, domain, path, and lifetime attributes; validators such as ETag and Last-Modified; redirects; authentication challenges; proxy responses; compression; content negotiation; and browser Cross-Origin Resource Sharing (CORS), including preflight. She should be able to explain why CORS is browser-enforced access policy rather than a general server-to-server network block.
+You should understand cookies and their `Secure`, `HttpOnly`, `SameSite`, domain, path, and lifetime attributes; validators such as ETag and Last-Modified; redirects; authentication challenges; proxy responses; compression; content negotiation; and browser Cross-Origin Resource Sharing (CORS), including preflight. You should be able to explain why CORS is browser-enforced access policy rather than a general server-to-server network block.
 
 The support objective is to trace a SaaS/API/email-related operation after DNS, transport, and TLS have succeeded. A 401, 403, 407, 409, 415, 429, 502, or 504 response is not “the website is down.” It is evidence from a specific respondent about one request. The response must be tied to the requested authority, method, path, tenant/principal context, request ID, UTC, body/error schema, proxy path, and expected contract.
 
@@ -31,7 +31,7 @@ The support objective is to trace a SaaS/API/email-related operation after DNS, 
 
 ## Candidate honesty note
 
-Arti can position HTTP/HTTPS, browser DevTools, HAR, Fiddler, Postman, cURL, JSON, and REST as **working familiarity**, reinforced by public/local labs and grounded in Microsoft SaaS support methods. Her production evidence is enterprise customer support, client/cloud isolation, escalation, communication, and fix validation. She should not claim to have designed Abnormal's APIs, owned global reverse proxies/CDNs, operated production browser-security policy, or administered customer authentication systems without real evidence.
+You can position HTTP/HTTPS, browser DevTools, HAR, Fiddler, Postman, cURL, JSON, and REST as **working familiarity**, reinforced by public/local labs and grounded in Microsoft SaaS support methods. Your production evidence is enterprise customer support, client/cloud isolation, escalation, communication, and fix validation. You should not claim to have designed Abnormal's APIs, owned global reverse proxies/CDNs, operated production browser-security policy, or administered customer authentication systems without real evidence.
 
 | Evidence tier | Safe claim | Boundary |
 |---|---|---|

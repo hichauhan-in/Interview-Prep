@@ -9,7 +9,7 @@ On its own, data is usually not helpful.
 It becomes useful only after it gains **context**, **structure**, and **interpretation**.
 ### 🔍 Plain-English deep-dive: why data feels boring until context appears
 - **Data** — *raw recorded facts.*  
-**Analogy:** loose Lego pieces on a table. **Why it matters:** a number like `4.85` means nothing until you know it is SMB CSAT.
+**Analogy:** loose Lego pieces on a table. **Why it matters:** a number like `4.61` means nothing until you know it is SMB CSAT.
 - **Context** — *the meaning around the fact: what, when, who, where, how.*  
 **Analogy:** the picture on the Lego box showing what the pieces are supposed to become. **Why it matters:** without context, the same number could be a temperature, a rating, or a time.
 - **Analysis** — *the act of examining data to find patterns, differences, causes, or opportunities.*  
@@ -25,7 +25,7 @@ A[Raw events<br/>cases, clicks, surveys, chats] --> B[Recorded data];
     E --> F[Action];
     F --> G[Business impact]
 ```
-> 💡 **Tie-in to your background:** In CE&S, you already convert raw operational noise into executive-ready recommendations. When you summarize escalation trends, recurring pain points, and CSAT movement in MBRs, you are doing analytics even if the tooling becomes more advanced in the BI role.
+> 💡 **Tie-in to your background:** If you come from a support or service-operations organization, you already convert raw operational noise into executive-ready recommendations. When you summarize escalation trends, recurring pain points, and CSAT movement in MBRs, you are doing analytics even if the tooling becomes more advanced in the BI role.
 ### Data is not the same as truth
 This is a subtle but important point.
 Data is a **representation** of reality, not reality itself.
@@ -50,16 +50,16 @@ The **DIKW ladder** is a simple mental model:
 - **W**isdom
 ### 🔍 Plain-English deep-dive: climbing the ladder
 - **Data** — a raw fact.  
-Example: `4.75`
+Example: `4.32`
 - **Information** — a fact with context.  
-Example: "Average DP CSAT this quarter = 4.75"
+Example: "Average DP CSAT this quarter = 4.32"
 - **Knowledge** — a pattern or lesson from multiple pieces of information.  
 Example: "DP CSAT stays high overall, but dips after long escalation chains."
 - **Wisdom** — judgment about what to do.  
 Example: "Reduce handoffs in high-friction paths and publish clearer ownership rules."
 ```mermaid
 flowchart TD
-D[Data<br/>4.75] --> I[Information<br/>DP CSAT = 4.75 this quarter];
+D[Data<br/>4.32] --> I[Information<br/>DP CSAT = 4.32 this quarter];
     I --> K[Knowledge<br/>Scores dip when escalation chains get longer];
     K --> W[Wisdom / Action<br/>Reduce handoffs and tighten triage governance]
 ```

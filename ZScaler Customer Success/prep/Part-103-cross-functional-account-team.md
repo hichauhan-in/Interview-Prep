@@ -1,10 +1,10 @@
 # Part 103 - Cross-Functional Partnership with Sales, Support, Product, and Engineering
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 
 > **Purpose:** Explain cross-functional account-team partnership from zero across customer roles, Sales, account leadership, Technical Success Management, solution/technical specialists, professional services, Support, Product Management, Engineering, operations, security/privacy/legal, and commercial teams.
 
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH person, vendor role, product, capability, entitlement, support case, defect, request, date, target, roadmap discussion, commitment, conflict, artifact, and result is invented. Arti's factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler, SecOps TSM, sales/account ownership, Support process, product feedback, engineering investigation, roadmap communication, commercial negotiation, and customer outcome ownership remain learning boundaries.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH person, vendor role, product, capability, entitlement, support case, defect, request, date, target, roadmap discussion, commitment, conflict, artifact, and result is invented. Your factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler, SecOps TSM, sales/account ownership, Support process, product feedback, engineering investigation, roadmap communication, commercial negotiation, and customer outcome ownership remain learning boundaries.
 
 > **Currency caveat:** Team structures, role names, processes, products, documentation, Support terms, services, packaging, entitlements, roadmap policy, and communication authority change. The controlled official-source snapshot and source review date for this Part is exactly **2026-08-24**. Current official technical and ordering documentation, contracts, licensed-tenant evidence, customer policy, account leadership, product specialists, Support guidance, Product/Engineering processes, legal/commercial policy, and measured environment evidence govern production.
 
@@ -61,13 +61,13 @@ flowchart LR
 
 ## Candidate honesty note
 
-Arti can say: "My production background is Microsoft Support Escalation Engineering rather than a Zscaler TSM role. I have partnered with customer-facing support teams, service engineers, product engineering, incident managers, account stakeholders, and technical specialists to isolate issues, package evidence, manage workstreams, communicate impact, validate recovery, and share learning. I have studied account-team operating patterns and practiced these artifacts with a fictional scenario. In a Zscaler engagement I would learn the actual role model, Support and product processes, commercial boundaries, approved roadmap language, products, entitlements, and decision rights before making commitments."
+You can say: "My production background is support escalation engineering rather than a Zscaler TSM role. I have partnered with customer-facing support teams, service engineers, product engineering, incident managers, account stakeholders, and technical specialists to isolate issues, package evidence, manage workstreams, communicate impact, validate recovery, and share learning. I have studied account-team operating patterns and practiced these artifacts with a fictional scenario. In a Zscaler engagement I would learn the actual role model, Support and product processes, commercial boundaries, approved roadmap language, products, entitlements, and decision rights before making commitments."
 
-This does not claim Sales, Product Management, Engineering, or commercial authority. Arti can discuss factual collaboration from Microsoft support and the reasoning transfer. She should not say she ran Zscaler account teams, influenced a Zscaler roadmap, escalated Zscaler defects, negotiated renewals, committed Engineering dates, or delivered a production SecOps outcome unless independently factual.
+This does not claim Sales, Product Management, Engineering, or commercial authority. You can discuss factual collaboration from enterprise support and the reasoning transfer. You should not say you ran Zscaler account teams, influenced a Zscaler roadmap, escalated Zscaler defects, negotiated renewals, committed Engineering dates, or delivered a production SecOps outcome unless independently factual.
 
 | Factual background | Transferable strength | Neutral wording | Unsupported statement to avoid |
 |---|---|---|---|
-| Microsoft Support Escalation Engineering | Reproduction, evidence, engineering collaboration, recovery | "I translate customer impact into actionable technical evidence." | "I escalated Zscaler product defects." |
+| support escalation engineering | Reproduction, evidence, engineering collaboration, recovery | "I translate customer impact into actionable technical evidence." | "I escalated Zscaler product defects." |
 | Multi-team incident work | Workstreams, status, ownership, mitigation, validation | "I coordinate technical lanes around one fact pattern." | "I led a Zscaler account team." |
 | M365, OneDrive, SharePoint | Product/service dependency and customer workflow understanding | "I connect service behavior to customer consequence." | "I own SecOps architecture outcomes." |
 | Networking and traces | Discriminate customer, path, service, and product boundaries | "I improve escalation quality before adding pressure." | "I know Zscaler Engineering internals." |
@@ -980,7 +980,7 @@ Sales says value is delivered, TSM says adoption is low, Support has an open cas
 
 ### Exercise 6 - Candidate honesty answer
 
-Answer: "Tell me about partnering with Sales, Support, Product, and Engineering." Use factual Microsoft escalation collaboration, state that Sales/TSM/product roadmap work is adjacent rather than identical, show the synthetic operating agreement, and identify what Arti would verify at Zscaler.
+Answer: "Tell me about partnering with Sales, Support, Product, and Engineering." Use factual enterprise escalation collaboration, state that Sales/TSM/product roadmap work is adjacent rather than identical, show the synthetic operating agreement, and identify what you would verify at Zscaler.
 
 ## Customer discovery questions
 
@@ -1049,9 +1049,9 @@ The Zscaler sources support dated public portfolio positioning, public support r
 
 **Model answer:** Preserve technical and commercial integrity. I validate impact, scope, mitigation, evidence, owner, and next checkpoint; route the incident through Support and any required customer path; update success/adoption risk; and give Sales an accurate bounded fact pattern. Commercial timing may change communication urgency but not defect classification, severity, test quality, or facts. Decision owners receive options and residual; nobody promises a fix or suppresses the issue.
 
-### Q8. How does Arti's background transfer honestly to cross-functional partnership?
+### Q8. How does your background transfer honestly to cross-functional partnership?
 
-**Model answer:** As a Microsoft Support Escalation Engineer she worked across customers, support teams, service/product engineers, incident roles, and technical specialists to isolate faults, package traces, coordinate workstreams, communicate impact, validate recovery, and document learning. Those skills transfer strongly to TSM orchestration. Sales partnership, Zscaler Support processes, Product feedback, roadmap communication, commercial scope, and SecOps outcomes remain explicit ramp areas practiced only through synthetic artifacts here.
+**Model answer:** As a Microsoft Support Escalation Engineer you worked across customers, support teams, service/product engineers, incident roles, and technical specialists to isolate faults, package traces, coordinate workstreams, communicate impact, validate recovery, and document learning. Those skills transfer strongly to TSM orchestration. Sales partnership, Zscaler Support processes, Product feedback, roadmap communication, commercial scope, and SecOps outcomes remain explicit ramp areas practiced only through synthetic artifacts here.
 
 ## 30-Second Memory Hooks
 
@@ -1076,7 +1076,7 @@ The Zscaler sources support dated public portfolio positioning, public support r
 | Escalation | Add evidence, expertise, resources, or authority |
 | Conflict | Resolve source, scope, authority, then message |
 | Correction | Wrong claim, right fact, impact, action, prevention |
-| Arti bridge | Engineering collaboration transfers; Zscaler claims do not |
+| Experience bridge | Engineering collaboration transfers; Zscaler claims do not |
 
 ## Completion Checklist
 
@@ -1095,7 +1095,7 @@ The Zscaler sources support dated public portfolio positioning, public support r
 - [ ] I can protect customer and company information across account, Support, Product, and Engineering lanes.
 - [ ] I can use the operating agreement, role matrix, handoff, Support, product, roadmap, shared-plan, executive, pre-meeting, conflict, and objection templates.
 - [ ] I can state public Zscaler facts without inventing internal process, entitlement, defect, roadmap, release, or outcome.
-- [ ] I can describe Arti's factual collaboration without claiming production Zscaler account-team experience.
+- [ ] I can describe your factual collaboration without claiming production Zscaler account-team experience.
 - [ ] I can answer Q1-Q8 aloud using neutral, boundary-aware language.
 
 [Next: Part 104 - Risk Findings to Tailored Mitigation Strategy](Part-104-risk-findings-to-mitigation.md)

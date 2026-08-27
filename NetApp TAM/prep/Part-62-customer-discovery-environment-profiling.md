@@ -1,10 +1,10 @@
 # Part 62 - Customer Discovery, Environment Profiling, and Technical Questioning
 
-> **Section goal:** Learn a customer environment without guessing, interrogating, or reducing it to a product inventory. By the end, Arti should be able to plan and facilitate respectful discovery; use open, closed, and funnel questions; profile business services, critical data, objectives, workloads, topology, protocols, versions, changes, incidents, support models, vendors, constraints, pain, risk, stakeholders, and evidence; and manage assumptions, unknowns, and contradictions through owned validation.
+> **Section goal:** Learn a customer environment without guessing, interrogating, or reducing it to a product inventory. By the end, you should be able to plan and facilitate respectful discovery; use open, closed, and funnel questions; profile business services, critical data, objectives, workloads, topology, protocols, versions, changes, incidents, support models, vendors, constraints, pain, risk, stakeholders, and evidence; and manage assumptions, unknowns, and contradictions through owned validation.
 
 Covers index item **62** and maps directly to job-description responsibilities for understanding customer environments, generating and analyzing customer data, identifying technical risk, improving support experience, preparing service reviews, advising under lead-TAM guidance, coordinating cross-functional stakeholders, and applying communication and technical questioning skills.
 
-**Explicit nonclaim:** Arti has not conducted discovery for a production NetApp account, certified a live storage topology, or validated a customer's NetApp environment profile.
+**Explicit nonclaim:** You have not conducted discovery for a production NetApp account, certified a live storage topology, or validated a customer's NetApp environment profile.
 
 **Privacy and access boundary:** Discovery can expose business-critical services, data classification, network/storage topology, addresses, identities, versions, vulnerabilities, incidents, recovery posture, contracts, suppliers, owners, maintenance windows, and operational weaknesses. Collect only what serves an agreed purpose through authorized participants and systems; classify, redact, retain, share, and dispose of it according to customer and organizational policy.
 
@@ -14,7 +14,7 @@ Covers index item **62** and maps directly to job-description responsibilities f
 
 This Part is a transferable discovery model, not a NetApp internal questionnaire, required workshop agenda, service entitlement, audit, security assessment, architecture approval, or permission to inspect production systems. The lead TAM, customer owners, contract, data owners, and security/privacy authorities define actual scope and access.
 
-> **No-production-NetApp boundary:** Arti's factual strengths are Microsoft enterprise and partner support, SharePoint/OneDrive/Microsoft 365 data services, CRITSIT discovery, Azure, Windows networking, Active Directory, virtual-machine and storage fundamentals, customer communication, analytics, and Product/Engineering coordination. She does **not** claim production ONTAP, NAS, SAN, NetApp telemetry, IMT, HWU, or account discovery experience. Her exact non-claim is: **she has not discovered, mapped, validated, or approved a production NetApp customer environment.**
+> **No-production-NetApp boundary:** Your factual strengths are enterprise and partner support, SharePoint/OneDrive/Microsoft 365 data services, critical-situation discovery, Azure, Windows networking, Active Directory, virtual-machine and storage fundamentals, customer communication, analytics, and Product/Engineering coordination. You do **not** claim production ONTAP, NAS, SAN, NetApp telemetry, IMT, HWU, or account discovery experience. Your exact non-claim is: **you have not discovered, mapped, validated, or approved a production NetApp customer environment.**
 
 ---
 
@@ -586,7 +586,7 @@ flowchart LR
 
 ## 11. Fully synthetic sanitized scenario: BlueRock Imaging discovery
 
-> **Synthetic boundary:** `BlueRock Imaging`, all people, services, systems, versions, objectives, incidents, metrics, sources, risks, actions, dates, and outcomes are invented. No live NetApp result, customer process, or Arti production experience is represented.
+> **Synthetic boundary:** `BlueRock Imaging`, all people, services, systems, versions, objectives, incidents, metrics, sources, risks, actions, dates, and outcomes are invented. No live NetApp result, customer process, or documented production experience is represented.
 
 ### Initial request
 
@@ -691,12 +691,12 @@ The controlled test shows the application queue grows before storage latency cha
 
 ---
 
-## 13. Arti's factual bridge and JD Mapping
+## 13. Your factual bridge and JD Mapping
 
 ```mermaid
 flowchart LR
     M365[SharePoint OneDrive M365 support] --> DATA[Data flows, permissions and dependencies]
-    CRIT[CRITSIT ownership] --> DISC[Impact, scope, timeline and evidence]
+    CRIT[Critical-situation ownership] --> DISC[Impact, scope, timeline and evidence]
     AZ[Azure VM networking AD] --> MAP[Compute, network and identity mapping]
     ANA[Analytics and customer reviews] --> PROFILE[Structured profile and quality gaps]
     DATA --> METHOD[Transferable discovery method]
@@ -708,11 +708,11 @@ flowchart LR
 
 ### Factual tie
 
-| Arti evidence | Discovery transfer | Boundary |
+| Transferable evidence | Discovery transfer | Boundary |
 |---|---|---|
-| Enterprise/partner Microsoft support | Respectful questioning and multi-party context | Not a NetApp account profile |
+| Enterprise/partner enterprise support | Respectful questioning and multi-party context | Not a NetApp account profile |
 | SharePoint/OneDrive | Business data, permissions, sync and service dependencies | Not ONTAP NAS administration |
-| CRITSITs | Impact, scope, changes, timeline, evidence and owners | Not storage RCA by default |
+| Critical situations | Impact, scope, changes, timeline, evidence and owners | Not storage RCA by default |
 | Azure/VM/networking/AD | Application-to-compute-to-network/identity reasoning | Storage fabrics/protocol depth still developing |
 | MBA/Excel/Power BI/SQL/Python | Structured profile, contradictions and data quality | No live NetApp dataset |
 | Product/Engineering collaboration | Evidence requests and exact specialist asks | No private NetApp Engineering access |
@@ -732,7 +732,7 @@ flowchart LR
 
 ### Honest interview statement
 
-> `I would start with the customer outcome and decision, then use an open-to-closed funnel to map business services, critical data, objectives, workloads, topology, protocols, versions, changes, incidents, support, vendors, constraints and stakeholders. I would label facts, assumptions, unknowns and contradictions, request only authorized decision-relevant evidence, and return a dated profile with risks, actions and validation. My production discovery experience is Microsoft-focused; I have not validated a live NetApp environment.`
+> `I would start with the customer outcome and decision, then use an open-to-closed funnel to map business services, critical data, objectives, workloads, topology, protocols, versions, changes, incidents, support, vendors, constraints and stakeholders. I would label facts, assumptions, unknowns and contradictions, request only authorized decision-relevant evidence, and return a dated profile with risks, actions and validation. My production discovery experience is focused on a different technology stack; I have not validated a live NetApp environment.`
 
 ---
 
@@ -802,7 +802,7 @@ Inject:
 7. Write a purpose-limited evidence request.
 8. Manage an assumption, unknown and contradiction differently.
 9. Facilitate a respectful workshop and return the profile.
-10. Recreate BlueRock and state Arti's nonclaim.
+10. Recreate BlueRock and state your nonclaim.
 
 ### Lab pass checklist
 
@@ -878,7 +878,7 @@ Inject:
 
 ### Q8. How does your background transfer, and what remains a gap?
 
-> **Model answer:** `Microsoft enterprise support and CRITSITs give me impact, scope, timeline, dependency and evidence questioning; SharePoint/OneDrive, Azure, networking, AD and analytics help me map services and data. I have not discovered a production NetApp environment, so ONTAP, fabric, protocol and gated-tool conclusions require current evidence and experienced review.`
+> **Model answer:** `enterprise support and critical situations give me impact, scope, timeline, dependency and evidence questioning; SharePoint/OneDrive, Azure, networking, AD and analytics help me map services and data. I have not discovered a production NetApp environment, so ONTAP, fabric, protocol and gated-tool conclusions require current evidence and experienced review.`
 
 ---
 
@@ -898,7 +898,7 @@ Inject:
 - **Assumption:** Pencil; **unknown:** blank; **contradiction:** conflicting maps.
 - **Profile:** Living dated patient chart, not permanent truth.
 - **Workshop:** Purpose, no blame, live map, read-back, owners.
-- **Arti's bridge:** Microsoft discovery transfers; NetApp environment proof does not.
+- **Your bridge:** Microsoft discovery transfers; NetApp environment proof does not.
 
 ---
 

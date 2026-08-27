@@ -547,7 +547,7 @@ A **knowledge graph** represents entities and relationships.
 
 ```mermaid
 graph LR
-    A[Arti] -->|member of| T[ODSP team]
+    A[Candidate] -->|member of| T[your product team]
     A -->|authored| D[Troubleshooting guide]
     D -->|about| O[OneDrive sync]
     J[Escalation case] -->|mentions| O
@@ -1024,7 +1024,7 @@ Then say:
 
 > "I test availability, authorization, and relevance separately. Exact-title retrieval checks whether content is searchable. An allowed-versus-denied user comparison checks permissions. A realistic judged query checks ranking quality."
 
-### Your Microsoft bridge
+### Your prior bridge
 
 > "My SharePoint, OneDrive, Delve, sync, and Copilot experience gives me a strong base in content lifecycle, identity, permissions, freshness, discovery, grounded AI expectations, and user-specific behavior. The Glean-specific retrieval and ranking systems are new product surfaces for me, but the investigation discipline transfers directly: establish scope, compare affected and unaffected controls, identify the failing stage, verify the fix, and document prevention."
 

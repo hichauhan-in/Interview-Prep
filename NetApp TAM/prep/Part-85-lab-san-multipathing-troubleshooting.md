@@ -1,6 +1,6 @@
 # Part 85 - LAB 3 - SAN Data Service, Multipathing, and Troubleshooting
 
-> **Section goal:** Design, implement only in an explicitly authorized isolated lab, or paper-model an ONTAP block service from LUN to host filesystem while preserving one stable device identity across redundant iSCSI or Fibre Channel paths. By the end, Arti can validate discovery, login/zoning, mapping, ALUA-aware multipathing, path failure/recovery, negative access, compatibility, and data safety without initializing an unknown device.
+> **Section goal:** Design, implement only in an explicitly authorized isolated lab, or paper-model an ONTAP block service from LUN to host filesystem while preserving one stable device identity across redundant iSCSI or Fibre Channel paths. By the end, you can validate discovery, login/zoning, mapping, ALUA-aware multipathing, path failure/recovery, negative access, compatibility, and data safety without initializing an unknown device.
 
 Covers index item **85** and maps to job-description responsibilities for storage/virtualization depth, supportability validation, technical risk mitigation, complex troubleshooting, upgrade coordination, cross-vendor collaboration, evidence quality, and customer communication.
 
@@ -12,7 +12,7 @@ Covers index item **85** and maps to job-description responsibilities for storag
 
 **Lab safety contract:** The access fallback is a complete synthetic design. Use read-only first, obtain authorization before change, run a positive test and negative test, perform only bounded failure injection with no data-loss risk, document recovery and rollback, capture evidence, complete cleanup, control cost and privacy, and use honest interview language.
 
-**Explicit nonclaim:** Arti has not created, mapped, zoned, discovered, initialized, formatted, mounted, failed over, recovered, or troubleshot a production ONTAP LUN, igroup, iSCSI, Fibre Channel, MPIO, or ALUA environment. This lab is not proof of production SAN administration.
+**Explicit nonclaim:** You have not created, mapped, zoned, discovered, initialized, formatted, mounted, failed over, recovered, or troubleshot a production ONTAP LUN, igroup, iSCSI, Fibre Channel, MPIO, or ALUA environment. This lab is not proof of production SAN administration.
 
 **Privacy/access:** SAN evidence can expose initiator/target names, IQNs, WWPNs, addresses, zoning, switch ports, LUN serials, host filesystems, reservations, CHAP configuration, drivers, firmware, contracts, and topology. Use synthetic identifiers, minimum authorized data, approved repositories, redaction, and no CHAP secrets, credentials, customer serials, packet contents, or unapproved switch dumps.
 
@@ -22,7 +22,7 @@ Covers index item **85** and maps to job-description responsibilities for storag
 
 This Part contains no production storage recipe, zoning instruction, timeout recommendation, data migration procedure, compatibility result, or guarantee of nondisruptive failover.
 
-> **No-production-NetApp boundary:** Arti's factual strengths are Microsoft escalation, Windows/Azure infrastructure, virtual machines, networking, event/trace correlation, high-pressure coordination, and storage fundamentals. Her exact nonclaim is: **she has not administered or troubleshot a production NetApp SAN.** She may present this fully synthetic exercise or a later authorized lab with the evidence level explicit.
+> **No-production-NetApp boundary:** Your factual strengths are enterprise escalation, Windows/Azure infrastructure, virtual machines, networking, event/trace correlation, high-pressure coordination, and storage fundamentals. Your exact nonclaim is: **you have not administered or troubleshot a production NetApp SAN.** You may present this fully synthetic exercise or a later authorized lab with the evidence level explicit.
 
 ---
 
@@ -504,13 +504,13 @@ Capture exact stable LUN serial, initiator/target tokenized IDs, path matrix, ve
 
 Cleanup in owner-approved order; verify no temporary mapping, initiator membership, session, zone, route, filesystem, snapshot, LUN, volume, credential, or chargeable resource remains. No cost, license, simulator, or cloud availability is promised.
 
-## 18. JD Mapping and Arti tie
+## 18. JD Mapping and background tie
 
 ```mermaid
 flowchart LR
     AZ[Azure/VM/network fundamentals] --> PATH[Host-to-target path reasoning]
-    MS[Microsoft escalation] --> EVID[Cross-team evidence/timeline]
-    CRIT[CRITSIT] --> SAFE[Data-safe stop and recovery]
+    MS[enterprise escalation] --> EVID[Cross-team evidence/timeline]
+    CRIT[Critical situation] --> SAFE[Data-safe stop and recovery]
     ANALYTICS[Analytics] --> MATRIX[Path/compatibility coverage model]
     PATH --> TAM[SAN TAM capability]
     EVID --> TAM
@@ -590,7 +590,7 @@ flowchart LR
 
 ### Q8. What experience do you bring and what is the boundary?
 
-> **Model answer:** `My Microsoft escalation, Windows/Azure, networking, VM, trace and cross-team incident experience transfers to layered path diagnosis and safe coordination. I have not administered production NetApp SAN. This is synthetic unless later completed in an authorized lab with current IMT and qualified owners.`
+> **Model answer:** `My prior escalation, Windows/Azure, networking, VM, trace and cross-team incident experience transfers to layered path diagnosis and safe coordination. I have not administered production NetApp SAN. This is synthetic unless later completed in an authorized lab with current IMT and qualified owners.`
 
 ---
 

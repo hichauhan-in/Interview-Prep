@@ -1,12 +1,12 @@
 # Part 24 - ONTAP Administration Interfaces: System Manager, CLI, REST API, and Automation
 
-> **Section goal:** Learn how ONTAP System Manager, the command-line interface (CLI), the REST API, and automation expose the same management plane through different interaction models. By the end, Arti should be able to choose an interface, discover fields safely, scope RBAC, capture reproducible evidence, handle asynchronous jobs and errors, and design idempotent read-only-first automation without exposing secrets or inventing version-specific commands.
+> **Section goal:** Learn how ONTAP System Manager, the command-line interface (CLI), the REST API, and automation expose the same management plane through different interaction models. By the end, you should be able to choose an interface, discover fields safely, scope RBAC, capture reproducible evidence, handle asynchronous jobs and errors, and design idempotent read-only-first automation without exposing secrets or inventing version-specific commands.
 
 Covers index item **24** and maps directly to job-description responsibilities for customer-data generation, analysis/reporting, install-base quality, supportability, proactive recommendations, change safety, service reviews, automation, special projects, and escalation quality.
 
 Exact System Manager workflows, CLI commands/fields/privilege levels, REST endpoints/schemas/query syntax/status codes/jobs/pagination, authentication methods, certificates, tokens, PowerShell/Python module behavior, ONTAPI/ZAPI coverage, and deprecations change by ONTAP release and tool version. Verify current official documentation and the live cluster's documented API/command metadata. Use **IMT/HWU** for solution/hardware support, not to guess management syntax.
 
-> **Evidence and experience boundary:** Every cluster, account, command output, API response, job, and change below is synthetic. Code examples are templates for an authorized lab and emphasize read-only calls. Arti's factual strengths are Microsoft support, PowerShell/Python/SQL/analytics concepts, evidence handling, and change communication. She does **not** claim production ONTAP System Manager, CLI, REST, SDK, or automation ownership.
+> **Evidence and experience boundary:** Every cluster, account, command output, API response, job, and change below is synthetic. Code examples are templates for an authorized lab and emphasize read-only calls. Your factual strengths are enterprise support, PowerShell/Python/SQL/analytics concepts, evidence handling, and change communication. You do **not** claim production ONTAP System Manager, CLI, REST, SDK, or automation ownership.
 
 ---
 
@@ -734,11 +734,11 @@ flowchart TD
 
 ### JD Mapping
 
-| JD responsibility | Part 24 contribution | Arti's factual bridge and gap |
+| JD responsibility | Part 24 contribution | Your factual bridge and gap |
 |---|---|---|
 | Generate/analyze/report data | Structured API/CLI evidence, pagination, QA and provenance | Analytics/PowerShell/Python concepts transfer; ONTAP production access unproven |
 | Install-base accuracy | Stable IDs, complete collection, joins and audit | Backlog/data-quality skills transfer |
-| Risk/stability | Read-only first, idempotency, canary, jobs, rollback and secrets | CRITSIT/change discipline transfers |
+| Risk/stability | Read-only first, idempotency, canary, jobs, rollback and secrets | critical situation/change discipline transfers |
 | Recommendation quality | Reproducible evidence and exact postconditions | Support advisory communication transfers |
 | Service reviews | Repeatable refresh and evidence cutoff | Excel/Power BI/business reviews transfer |
 | Special projects | Versioned automation, dependency/control design and migration | Project/analytics skills transfer |
@@ -749,7 +749,7 @@ flowchart TD
 
 ## 16. Fully synthetic scenario: Northwind fleet inventory and failed change
 
-> **Synthetic case:** Northwind, all clusters, API responses, credentials, jobs and outcomes below are fictional. It is not NetApp internal process or Arti production automation.
+> **Synthetic case:** Northwind, all clusters, API responses, credentials, jobs and outcomes below are fictional. It is not NetApp internal process or documented production automation.
 
 ### Situation
 
@@ -817,13 +817,13 @@ flowchart TD
 
 ---
 
-## 17. Arti's Microsoft/automation/analytics bridge
+## 17. Your prior/automation/analytics bridge
 
 ```mermaid
 flowchart LR
     PS[PowerShell/Windows support] --> AUTO[Structured automation and error handling]
     PY[Python/SQL/analytics] --> DATA[APIs schemas joins QA and reproducibility]
-    CRIT[CRITSIT/Product escalation] --> SAFE[Correlation evidence stop and exact ask]
+    CRIT[Critical situation/Product escalation] --> SAFE[Correlation evidence stop and exact ask]
     BI[Power BI/business reviews] --> REPORT[Cutoff provenance limitations and decisions]
     AUTO --> ONTAP[ONTAP interface synthetic practice]
     DATA --> ONTAP
@@ -834,14 +834,14 @@ flowchart LR
 
 | Factual strength | Transfer | Explicit gap |
 |---|---|---|
-| Microsoft support/PowerShell familiarity | Authentication, sessions, errors, least privilege, change logs | No ONTAP CLI/System Manager production work |
+| enterprise support/PowerShell familiarity | Authentication, sessions, errors, least privilege, change logs | No ONTAP CLI/System Manager production work |
 | Python/SQL/Excel/Power BI | REST collection, pagination, schema QA, joins and reports | No NetApp SDK/module production ownership |
 | Product/Engineering escalation | Correlation ID, reproducible request, exact error and impact | No internal ONTAP diagnostic/API claim |
-| CRITSIT/change communication | Stop unsafe retry, owner/cadence/postcondition | No production ONTAP change authority |
+| Critical situation/change communication | Stop unsafe retry, owner/cadence/postcondition | No production ONTAP change authority |
 
 ### Honest answer
 
-> "I understand when to use System Manager, CLI, REST and automation; how cluster/SVM RBAC, TLS, sessions, jobs, fields, filters, pagination, versioning and idempotency affect reliability; and how to build read-only inventory scripts safely. My direct production experience is Microsoft support and analytics, not ONTAP administration. I would validate exact release endpoints/commands, use an authorized lab and least-privilege credentials, and involve storage owners for any write path."
+> "I understand when to use System Manager, CLI, REST and automation; how cluster/SVM RBAC, TLS, sessions, jobs, fields, filters, pagination, versioning and idempotency affect reliability; and how to build read-only inventory scripts safely. My direct production experience is enterprise support and analytics, not ONTAP administration. I would validate exact release endpoints/commands, use an authorized lab and least-privilege credentials, and involve storage owners for any write path."
 
 ---
 
@@ -928,7 +928,7 @@ flowchart LR
 19. Ask TAM discovery questions and write a recommendation.
 20. Recreate Northwind's pagination and job-retry defects separately.
 21. Complete all whiteboard drills, paper lab and Q1-Q8 aloud.
-22. State Arti's strengths and ONTAP administration/automation gap precisely.
+22. State your strengths and ONTAP administration/automation gap precisely.
 
 ---
 
@@ -1008,7 +1008,7 @@ flowchart LR
 
 ### Q8. How does your background transfer, and what remains a gap?
 
-> **Model answer:** "My Microsoft support, PowerShell/Python/SQL/analytics and Product/Engineering work give me strong foundations in authentication, APIs, data QA, error handling, reproducibility, change safety and evidence communication. I have not administered ONTAP or deployed NetApp automation in production. I would validate exact release commands/endpoints, use an authorized lab and least-privilege identity, protect secrets and have storage owners approve and verify any write path."
+> **Model answer:** "My prior support, PowerShell/Python/SQL/analytics and Product/Engineering work give me strong foundations in authentication, APIs, data QA, error handling, reproducibility, change safety and evidence communication. I have not administered ONTAP or deployed NetApp automation in production. I would validate exact release commands/endpoints, use an authorized lab and least-privilege identity, protect secrets and have storage owners approve and verify any write path."
 
 **Follow-up depth:** Give one factual Microsoft automation/data-quality example and state which ONTAP endpoint, RBAC, job and product semantics remain unproven.
 
@@ -1031,7 +1031,7 @@ flowchart LR
 - **Secrets:** Vault, scope, rotate, redact; never logs/code/history.
 - **ZAPI migration:** Map semantics, not names; no invented deadline.
 - **Evidence:** Release + endpoint/query + stable IDs + cutoff + raw data + QA.
-- **Arti's bridge:** Automation/data rigor transfers; ONTAP production authority does not.
+- **Your bridge:** Automation/data rigor transfers; ONTAP production authority does not.
 
 ---
 
@@ -1057,7 +1057,7 @@ flowchart LR
 - [ ] Ask TAM discovery questions and write a bounded recommendation.
 - [ ] Recreate Northwind's incomplete pagination and duplicate change mechanisms.
 - [ ] Complete all whiteboard drills, paper lab, self-test and Q1-Q8 aloud.
-- [ ] State Arti's strengths and ONTAP administration/automation production gap precisely.
+- [ ] State your strengths and ONTAP administration/automation production gap precisely.
 - [ ] Recheck exact release UI/CLI/API/tool docs, fields, jobs, auth, deprecations and Support guidance before customer use.
 
 ---

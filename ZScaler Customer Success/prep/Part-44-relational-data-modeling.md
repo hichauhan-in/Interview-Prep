@@ -1,10 +1,10 @@
 # Part 44 - Relational Data Modeling from Zero
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 >
 > **Purpose:** Build relational modeling from first principles: tables, rows, columns, domains, schemas, keys, relationships, cardinality, optionality, constraints, normalization, denormalization, indexes, transactions, isolation, temporal history, and executable PostgreSQL DDL for a synthetic security operations model.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every user, asset, application, vulnerability, finding, control, ticket, incident, schema, query, metric, and outcome is synthetic. The SQL models are educational PostgreSQL examples, not Zscaler schemas and not a claim about Zscaler Data Fabric internals. Arti has transferable SQL, PostgreSQL, Power BI, analytics, troubleshooting, and Microsoft enterprise experience. Direct production administration of Zscaler Data Fabric for Security remains a learning boundary.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every user, asset, application, vulnerability, finding, control, ticket, incident, schema, query, metric, and outcome is synthetic. The SQL models are educational PostgreSQL examples, not Zscaler schemas and not a claim about Zscaler Data Fabric internals. You have transferable SQL, PostgreSQL, Power BI, analytics, troubleshooting, and enterprise experience. Direct production administration of Zscaler Data Fabric for Security remains a learning boundary.
 >
 > **Currency caveat:** SQL implementations, PostgreSQL versions, optimizer behavior, index options, privileges, isolation behavior, organizational data definitions, privacy requirements, and product schemas change. Sources in this Part were reviewed on **2026-08-24**. The deployed database version, official documentation, approved data architecture, current source contracts, security/privacy review, and measured workload govern production.
 
@@ -14,7 +14,7 @@ A relational model is a set of explicit promises about data. It says what kinds 
 
 Think of a well-run library. A book title, a physical copy, an author, a member, and a loan are different concepts. One title can have many copies. A copy can participate in many loans over time, but only one current loan. A member can borrow many copies. Stable identifiers prevent two people named Alex from becoming one member. Rules prevent a loan from referencing a copy that does not exist. Relational design makes comparable promises for users, assets, applications, findings, controls, tickets, and incidents.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Proof artifact |
 |---|---|---|
@@ -46,7 +46,7 @@ flowchart LR
 
 ## JD Mapping
 
-| Role expectation | Part 44 capability | TSM artifact | Arti bridge and boundary |
+| Role expectation | Part 44 capability | TSM artifact | experience bridge and boundary |
 |---|---|---|---|
 | Analyze customer environments | Turn ambiguous inventory and finding concepts into explicit entities and relationships | Conceptual/logical model | Microsoft environment mapping transfers |
 | Develop Data Fabric expertise | Understand why identity, relationship, and integrity rules matter before product configuration | Model review checklist | No claim about product-managed schemas |
@@ -68,7 +68,7 @@ flowchart LR
 | Performance statement | "This index is a hypothesis for this query and distribution; I would verify with plans and workload tests." | Never promise universal speedup |
 | Experience boundary | "My direct Zscaler Data Fabric administration is conceptual and lab based." | Pair with current official evidence and specialists |
 
-The strongest interview position is practical and bounded: Arti can reason precisely about data identity, integrity, time, and customer decisions; she will learn the current product's actual configuration and semantics rather than projecting a lab schema onto it.
+The strongest interview position is practical and bounded: You can reason precisely about data identity, integrity, time, and customer decisions; you will learn the current product's actual configuration and semantics rather than projecting a lab schema onto it.
 
 ## Beginner vocabulary and memory hooks
 
@@ -862,7 +862,7 @@ flowchart LR
     REPORT --> ACTION[Decision owner and validated outcome]
 ```
 
-Arti should explain that normalization and a star schema solve different problems. The normalized model protects update integrity; the dimensional model makes analytical filtering and aggregation understandable. They can coexist with lineage and reconciliation.
+You should explain that normalization and a star schema solve different problems. The normalized model protects update integrity; the dimensional model makes analytical filtering and aggregation understandable. They can coexist with lineage and reconciliation.
 
 ## Data security, privacy, and governance in the relational model
 
@@ -927,7 +927,7 @@ flowchart TD
 12. Retire old fields only after consumers, retention, and rollback windows are complete.
 13. Record lineage, contract version, owner, decision, caveat, and effectiveness result.
 
-## Arti's Microsoft-to-relational-modeling bridge
+## Your experience bridge to relational-modeling
 
 | Demonstrated strength | Relational application | Interview boundary |
 |---|---|---|
@@ -1118,7 +1118,7 @@ PostgreSQL documentation supplies implementation behavior for the current docume
 | Serializable | Strong guarantee plus retry |
 | Temporal | Current, effective, and known-at-time differ |
 | Power BI bridge | Normalize operations, dimensionalize analytics |
-| Arti bridge | SQL rigor transfers; product schema claims do not |
+| Experience bridge | SQL rigor transfers; product schema claims do not |
 
 ## Completion Checklist
 

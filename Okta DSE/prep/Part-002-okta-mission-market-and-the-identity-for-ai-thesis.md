@@ -95,7 +95,7 @@ Customer identity has none of that. A stranger arrives at 3 a.m., may be a real 
 
 **Why it matters for you:** it explains why Customer Identity products invest so heavily in bot detection, breached-password detection, adaptive MFA, and rate limiting (Part 108) — and why "legitimate user blocked by attack protection" is a recurring support case with a real business cost attached.
 
-> 💡 **Tie-in to your background:** your Microsoft experience is almost entirely **workforce-shaped** — enterprise tenants, AD, Group Policy, Entra ID, admin-provisioned users. That is a genuine advantage for the *enterprise connection* half of Customer Identity (Part 101), because B2B customers federate to exactly the directories you already know. Be explicit about this in the interview: *"My background is workforce-shaped, which maps directly onto the enterprise-connection side. The consumer-scale side — social login, progressive signup, bot pressure — is new to me, and that's where I've focused my lab work."*
+> 💡 **Tie-in to your background:** your prior experience is almost entirely **workforce-shaped** — enterprise tenants, AD, Group Policy, Entra ID, admin-provisioned users. That is a genuine advantage for the *enterprise connection* half of Customer Identity (Part 101), because B2B customers federate to exactly the directories you already know. Be explicit about this in the interview: *"My background is workforce-shaped, which maps directly onto the enterprise-connection side. The consumer-scale side — social login, progressive signup, bot pressure — is new to me, and that's where I've focused my lab work."*
 
 ---
 
@@ -131,10 +131,10 @@ Okta publishes four values. In a values-based interview round, these are very li
 
 | Okta value | What it is asking for | Your honest evidence |
 |---|---|---|
-| **Love our customers** | Customer outcomes over internal convenience | Sustained 4.75+ Enterprise and 4.85+ SMB CSAT; 100+ recognitions for business-critical escalation handling; customer advocacy during CRITSITs |
+| **Love our customers** | Customer outcomes over internal convenience | A sustained, strong customer-satisfaction record; repeated peer and customer recognition for business-critical escalation handling; customer advocacy during critical situations |
 | **Always secure. Always on.** | Treating reliability and security as mission-critical, not optional | Owning high-priority production incidents where the service was down for an enterprise customer; disciplined evidence handling |
-| **Build and own it** | Ownership without waiting for permission | End-to-end escalation ownership; authoring KB articles and troubleshooting guides nobody assigned; mentoring and onboarding engineers; Aspire Leadership Council contribution |
-| **Drive what's next** | Improving the system, not just closing tickets | Using CSAT, backlog health, case quality and escalation trends to identify operational gaps and recommend improvements; MBA in Business Analytics; the Technical Advisor programme |
+| **Build and own it** | Ownership without waiting for permission | End-to-end escalation ownership; authoring KB articles and troubleshooting guides nobody assigned; mentoring and onboarding engineers; a leadership-development council contribution |
+| **Drive what's next** | Improving the system, not just closing tickets | Using CSAT, backlog health, case quality and escalation trends to identify operational gaps and recommend improvements; a postgraduate business-analytics qualification; the technical-advisor programme |
 
 Notice how closely the JD's own language echoes these: *"We are looking for builders and owners"* is **Build and own it**. *"Customer-obsessed attitude — a customer advocate, always going the extra mile"* is **Love our customers**. *"Continuous growth — permanently look for areas of improvement"* is **Drive what's next**. That is not a coincidence, and pointing it out in an interview shows you read carefully.
 
@@ -197,7 +197,7 @@ Auth0's own documentation lists **Auth0 for AI Agents** as one of three product 
 
 ### How to talk about it honestly
 
-You have real, relevant AI exposure — Copilot support, Copilot Studio agent work, AI-102 and AI-900 certifications. That is a genuine bridge. But be careful about the boundary.
+You have real, relevant AI exposure — Copilot support, Copilot Studio agent work, AI certifications. That is a genuine bridge. But be careful about the boundary.
 
 | Safe to say | Not safe to say |
 |---|---|
@@ -380,7 +380,7 @@ Accessed **26 August 2026**.
 > *Model answer:* "I'd be careful generalising from free-tier use. But one thing I noticed learning the platform: the distance between the quickstart working in five minutes and understanding *why* it worked is wide. When I hand-rolled the flow instead of using the SDK, I hit everything the quickstart had quietly handled — PKCE, `state`, token caching, renewal. My hypothesis is that a meaningful share of ticket volume comes from developers who succeeded with the quickstart, then diverged and lost the invisible parts. If that's true it's a documentation and diagnostics opportunity rather than a product flaw. I'd genuinely like to know whether the ticket data supports that, because I'd be wrong quite happily."
 
 ### Q8. "You're coming from Microsoft. Isn't Entra ID a competitor? How do you feel about that?"
-> *Model answer:* "It's a competitor in some deals and an integration partner in most support cases, and both are fine. Practically, a large share of Customer Identity's B2B customers will federate to Entra ID or AD FS as an enterprise connection — so my Entra, Active Directory and LDAP background is directly useful rather than awkward. I've got no interest in disparaging Microsoft; I had a good five years there and I'll be troubleshooting against their identity stack regularly. If anything, knowing how the other side behaves — Conditional Access, hybrid sync, token quirks — makes me faster on exactly the tickets that are hardest to diagnose from one side only."
+> *Model answer:* "It's a competitor in some deals and an integration partner in most support cases, and both are fine. Practically, a large share of Customer Identity's B2B customers will federate to Entra ID or AD FS as an enterprise connection — so my Entra, Active Directory and LDAP background is directly useful rather than awkward. I've got no interest in disparaging Microsoft; I had a good run there and I'll be troubleshooting against their identity stack regularly. If anything, knowing how the other side behaves — Conditional Access, hybrid sync, token quirks — makes me faster on exactly the tickets that are hardest to diagnose from one side only."
 
 ---
 

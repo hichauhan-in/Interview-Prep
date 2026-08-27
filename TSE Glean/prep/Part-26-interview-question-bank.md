@@ -180,12 +180,12 @@ flowchart LR
 
 | # | Question | STAR cue | Ref |
 |---:|---|---|---|
-| 101 | Critical incident ownership | Real CRITSIT: impact, triage, coordination, verify, prevention. | 1/27 |
+| 101 | Critical incident ownership | Real critical situation: impact, triage, coordination, verify, prevention. | 1/27 |
 | 102 | Difficult customer | Trust risk, listening, cadence, evidence, outcome. | 17/27 |
 | 103 | First hypothesis wrong | Contradictory test, pivot, humility, learning. | 5/27 |
 | 104 | Product defect influence | Repro/impact, engineering, validation, customer close. | 15/27 |
 | 105 | Process improvement | Baseline, intervention, metrics, guardrails, result. | 21/27 |
-| 106 | Learned technology quickly | ODSP SME/AI/Advisor: plan, practice, applied/shared result. | 1/27 |
+| 106 | Learned technology quickly | SME, AI and advisory: plan, practice, applied/shared result. | 1/27 |
 | 107 | Mentored engineer | Need, coaching, feedback, readiness/outcome. | 1/27 |
 | 108 | Mistake/failure | Own action, impact, correction, system prevention. | 27 |
 | 109 | Conflict without authority | Shared outcome, facts/options, decision, relationship. | 17/27 |
@@ -199,7 +199,7 @@ flowchart LR
 
 | # | Question | Answer cue | Ref |
 |---:|---|---|---|
-| 111 | Tell me about yourself | Microsoft support scope, evidence, Glean bridge. | 1 |
+| 111 | Tell me about yourself | enterprise support scope, evidence, Glean bridge. | 1 |
 | 112 | Why Glean? | Enterprise knowledge + AI + customer ownership + technical growth. | 1-2 |
 | 113 | Why leave Microsoft? | Move toward designated-customer ownership/integrations, not away negatively. | 1/27 |
 | 114 | Why should we hire you? | Proven support operating discipline + adjacent content/AI depth + honest learning. | 1 |

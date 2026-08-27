@@ -40,7 +40,7 @@ flowchart TD
 
 **Row two is worth calling out as a trap.** *"The certificate expired"* feels like a root cause and is a restatement of the symptom. **Certificates expiring is normal and expected**; the cause is why the expiry was not handled.
 
-> 💡 **Tie-in to your background:** RCA is explicitly on your CV, and CRITSIT work demands it. **The techniques here are ones you already use** — what this Part adds is the identity-specific chains and a written format.
+> 💡 **Tie-in to your background:** RCA is explicitly on your CV, and critical-situation work demands it. **The techniques here are ones you already use** — what this Part adds is the identity-specific chains and a written format.
 
 ### 🔍 Plain-English deep-dive: the techniques, and when each one fits
 
@@ -418,7 +418,7 @@ An incident is resolved: a customer's users could not sign in for ninety minutes
 
 ## 9. Candidate Honesty Note
 
-- **Production experience:** RCA is explicitly part of my role — I write these for business-critical escalations and CRITSITs.
+- **Production experience:** RCA is explicitly part of my role — I write these for business-critical escalations and critical situations.
 - **Production experience:** communicating causes that sit on the customer's side without damaging the relationship.
 - **Lab experience:** practising technique selection and the seven-section structure against this guide's incidents, as above.
 - **Learned architecture:** the identity-specific causal chains and the five internal questions.

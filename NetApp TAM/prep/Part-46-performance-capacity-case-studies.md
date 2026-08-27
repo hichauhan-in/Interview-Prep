@@ -1,6 +1,6 @@
 # Part 46 - Performance and Capacity Recommendation Case Studies
 
-> **Section goal:** Integrate Parts 1-45 into realistic performance and capacity decisions. By the end, Arti should be able to separate saturation from application, host, network and protocol delay; challenge misleading dashboards; reconcile logical, physical, local and tiered capacity; model growth and action lead time; compare application, schedule, QoS, placement and capacity options; design safe tests; and present an evidence-bounded recommendation in a customer service review.
+> **Section goal:** Integrate Parts 1-45 into realistic performance and capacity decisions. By the end, you should be able to separate saturation from application, host, network and protocol delay; challenge misleading dashboards; reconcile logical, physical, local and tiered capacity; model growth and action lead time; compare application, schedule, QoS, placement and capacity options; design safe tests; and present an evidence-bounded recommendation in a customer service review.
 
 Covers index item **46** and maps directly to job-description responsibilities for customer-data generation and analysis, deep technical investigation, proactive risk mitigation, solution stability, capacity/performance planning, operational service reviews, recommendation ownership, escalation, and executive communication.
 
@@ -8,7 +8,7 @@ Covers index item **46** and maps directly to job-description responsibilities f
 
 This Part gives no universal latency target, utilization limit, queue target, QoS value, reserve, headroom percentage, forecast model, growth rate, efficiency guarantee, placement rule, benchmark result, or hardware size. All organizations, telemetry, SLOs, thresholds, calculations and outcomes are synthetic teaching material.
 
-> **No-production-NetApp boundary:** Arti does not claim production ONTAP performance analysis, capacity administration, QoS, benchmarking, placement, sizing or change ownership. Every case below is fictional. Her factual strengths are Microsoft enterprise support, CRITSIT ownership, Azure/M365 service and network troubleshooting, an MBA in Business Analytics, and Excel, Power BI, SQL, Python, statistics, customer reviews and cross-team communication. The explicit non-claim is: **she has not diagnosed or tuned a production ONTAP workload, set production ONTAP QoS, produced a NetApp hardware sizing, executed a production volume move, or owned a customer ONTAP capacity plan.**
+> **No-production-NetApp boundary:** You do not claim production ONTAP performance analysis, capacity administration, QoS, benchmarking, placement, sizing or change ownership. Every case below is fictional. Your factual strengths are enterprise support, critical-situation ownership, Azure/M365 service and network troubleshooting, an a postgraduate business-analytics qualification, and Excel, Power BI, SQL, Python, statistics, customer reviews and cross-team communication. The explicit non-claim is: **you have not diagnosed or tuned a production ONTAP workload, set production ONTAP QoS, produced a NetApp hardware sizing, executed a production volume move, or owned a customer ONTAP capacity plan.**
 
 ---
 
@@ -866,24 +866,24 @@ sequenceDiagram
 
 ### JD Mapping
 
-| JD responsibility | Part 46 contribution | Arti's factual bridge and gap |
+| JD responsibility | Part 46 contribution | Your factual bridge and gap |
 |---|---|---|
 | Generate/analyze customer data | Reconciles transactions, counters, paths, capacity and forecasts | MBA/Excel/Power BI/SQL/Python transfer strongly |
 | Storage expertise | Integrates ONTAP objects, WAFL/CP, QoS, protection, capacity and tiers | Conceptual/synthetic; no production tuning claim |
 | Strategic recommendations | Quantifies options, lead time, lifecycle and business tradeoffs | Advisory/business analytics transfer |
-| Risk and stability | Requires causal tests, stop/rollback, protection and failure state | CRITSIT discipline transfers |
+| Risk and stability | Requires causal tests, stop/rollback, protection and failure state | critical-situation discipline transfers |
 | Operational service reviews | Converts evidence into decisions, owners, dates and residual risk | Customer-review communication transfers |
-| Escalation/supportability | Preserves contradictions and current product authority | Microsoft escalation rigor transfers |
+| Escalation/supportability | Preserves contradictions and current product authority | enterprise escalation rigor transfers |
 | Influence/adoption | Aligns app, network, storage, protection, finance and sponsor | Cross-team experience transfers |
 
 ---
 
-## 21. Arti's transfer and honest gap
+## 21. Your transfer and honest gap
 
 ```mermaid
 flowchart LR
     M365[M365/Azure support] --> DEP[User/service/dependency/change scoping]
-    CRIT[CRITSIT] --> INC[Impact/owners/evidence/updates/safe action]
+    CRIT[Critical situation] --> INC[Impact/owners/evidence/updates/safe action]
     MBA[MBA analytics] --> ANA[Segmentation/forecast/scenario/decision matrix]
     TOOL[Excel/Power BI/SQL/Python] --> QA[Reconciliation/dashboard/test analysis]
     DEP --> METHOD[Performance/capacity recommendation method]
@@ -899,13 +899,13 @@ flowchart LR
 |---|---|---|
 | Enterprise support | Symptom, dependency, timeline and escalation | Not ONTAP performance ownership |
 | Networking | Client-target path and clock-aligned packet evidence | Not FC/ONTAP production operation |
-| CRITSIT | Safety, owners, status, rollback and validation | No authority for customer storage changes |
+| Critical situation | Safety, owners, status, rollback and validation | No authority for customer storage changes |
 | MBA/statistics | Baselines, weighted math, forecasts, uncertainty and options | No NetApp sizing certification claimed |
 | BI/SQL/Python | Reproducible QA, models and service-review visuals | No customer telemetry entitlement assumed |
 
 ### Honest interview bridge
 
-> "I use a disciplined evidence method: define the customer SLO and workload, map the client-to-media and capacity hierarchy, validate units/objects/clocks/missing data, compare competing app/host/network/ONTAP hypotheses, and use weighted math, Little's Law and forecast backtests as cross-checks. I recommend only after a discriminating safe test, then define owner, rollback, validation and residual risk. My production background is Microsoft support and analytics, not ONTAP tuning, QoS, sizing or moves."
+> "I use a disciplined evidence method: define the customer SLO and workload, map the client-to-media and capacity hierarchy, validate units/objects/clocks/missing data, compare competing app/host/network/ONTAP hypotheses, and use weighted math, Little's Law and forecast backtests as cross-checks. I recommend only after a discriminating safe test, then define owner, rollback, validation and residual risk. My production background is enterprise support and analytics, not ONTAP tuning, QoS, sizing or moves."
 
 ---
 
@@ -978,7 +978,7 @@ flowchart LR
 15. Reject or redesign a nonrepresentative benchmark.
 16. Build a weighted decision matrix with sensitivity and vetoes.
 17. Design a safe canary and complete recommendation anatomy.
-18. Run the Orion service review and state Arti's transfer/gap honestly.
+18. Run the Orion service review and state your transfer/gap honestly.
 
 ---
 
@@ -1048,7 +1048,7 @@ flowchart LR
 
 ### Q8. How does your background transfer, and what remains a gap?
 
-> **Model answer:** "My Microsoft support and CRITSIT work gives me customer-impact scoping, dependency and network evidence, hypothesis testing, safe action and stakeholder updates. My MBA and Excel, Power BI, SQL, Python and statistics support baselines, forecasts and decision analysis. I have not operated production ONTAP performance, QoS, sizing or placement, so I would use current docs, authorized telemetry and NetApp/application specialists."
+> **Model answer:** "My prior support and critical-situation work gives me customer-impact scoping, dependency and network evidence, hypothesis testing, safe action and stakeholder updates. My MBA and Excel, Power BI, SQL, Python and statistics support baselines, forecasts and decision analysis. I have not operated production ONTAP performance, QoS, sizing or placement, so I would use current docs, authorized telemetry and NetApp/application specialists."
 
 ---
 
@@ -1068,7 +1068,7 @@ flowchart LR
 - **Benchmark:** Reproduce the business workload and SLO.
 - **Decision matrix:** Exposes assumptions; safety vetoes still win.
 - **Recommendation:** Finding -> risk -> options -> owner/date -> validation -> residual risk.
-- **Arti's bridge:** Evidence and analytics transfer; production ONTAP operation does not.
+- **Your bridge:** Evidence and analytics transfer; production ONTAP operation does not.
 
 ---
 

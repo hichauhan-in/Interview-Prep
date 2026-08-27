@@ -1,8 +1,8 @@
 # Part 41 — Security Posture, Exposure Management, Secure Score, and Control Prioritization
 
-> **Section goal:** Learn how to turn thousands of security findings into a defensible improvement program. This Part distinguishes Microsoft Secure Score, Microsoft Security Exposure Management, Defender Vulnerability Management and identity/app/data posture; explains score calculation and caveats; covers improvement-action states, third-party controls, alternate mitigation and risk acceptance; introduces attack surfaces, the enterprise exposure graph, critical assets, attack paths, choke points, initiatives, recommendations, events and exposure insights; builds a transparent prioritization method using exploitability, exposure, business criticality, threat intelligence and control effort; explains CVSS limits; and carries findings through ownership, SLA, exceptions, verification, executive reporting, metrics, roadmap and business case. Arti should be able to prioritize a fictional 20-finding backlog without claiming production Exposure Management or Secure Score ownership.
+> **Section goal:** Learn how to turn thousands of security findings into a defensible improvement program. This Part distinguishes Microsoft Secure Score, Microsoft Security Exposure Management, Defender Vulnerability Management and identity/app/data posture; explains score calculation and caveats; covers improvement-action states, third-party controls, alternate mitigation and risk acceptance; introduces attack surfaces, the enterprise exposure graph, critical assets, attack paths, choke points, initiatives, recommendations, events and exposure insights; builds a transparent prioritization method using exploitability, exposure, business criticality, threat intelligence and control effort; explains CVSS limits; and carries findings through ownership, SLA, exceptions, verification, executive reporting, metrics, roadmap and business case. You should be able to prioritize a fictional 20-finding backlog without claiming production Exposure Management or Secure Score ownership.
 
-This Part maps directly to Deloitte responsibilities for security assessment, Microsoft Defender and Microsoft 365 posture, risk-based recommendations, remediation planning, control optimization, executive reporting, operational governance and stakeholder management. Arti's production strengths in incidents, RCA, fix validation, Microsoft 365 dependencies, service health, documentation, reporting and multi-team ownership are especially relevant. Exposure management is the proactive version of the same discipline: determine what matters, prove the state, assign action, validate the fix and communicate residual risk.
+This Part maps directly to Deloitte responsibilities for security assessment, Microsoft Defender and Microsoft 365 posture, risk-based recommendations, remediation planning, control optimization, executive reporting, operational governance and stakeholder management. Your production strengths in incidents, RCA, fix validation, Microsoft 365 dependencies, service health, documentation, reporting and multi-team ownership are especially relevant. Exposure management is the proactive version of the same discipline: determine what matters, prove the state, assign action, validate the fix and communicate residual risk.
 
 > **Currency, licensing, preview and portal-convergence note (August 24, 2026):** This chapter is based on official Microsoft Learn content available on August 24, 2026. Microsoft Security Exposure Management is integrated into the unified Microsoft Defender portal and currently supports public cloud, not national/sovereign clouds. Licensing can include Microsoft 365 E5, qualifying E3 add-ons, Defender suites and other qualifying product plans; full value depends on enabled source products such as Defender for Cloud CSPM and Defender Vulnerability Management. External data connectors are preview and currently described with future consumption-based pricing. Current Learn guidance says supported first-party data can take up to 72 hours to appear, the latest graph snapshot is retained for at least 14 days rather than providing full historical state, and parameters can change. Secure Score recommendation state/points can lag and product-specific refresh cadences vary. Portal names, “Resolve Now/Monitor Exposure” experiences, initiatives, attack-path/blast-radius views, licensing, recommendations, weights, schemas and RBAC continue to evolve. Verify Product Terms, service descriptions, live portal, current Learn, Message center and Roadmap before client decisions.
 
@@ -19,9 +19,9 @@ This Part maps directly to Deloitte responsibilities for security assessment, Mi
 
 ## Candidate honesty note
 
-Arti can credibly discuss production Microsoft 365 incidents, evidence gathering, RCA, service dependencies, remediation/fix validation, reporting and cross-team coordination where supported by her experience. She can describe how those methods apply to a synthetic posture backlog.
+You can credibly discuss production Microsoft 365 incidents, evidence gathering, RCA, service dependencies, remediation/fix validation, reporting and cross-team coordination where supported by your experience. You can describe how those methods apply to a synthetic posture backlog.
 
-She should not claim production Secure Score administration, Exposure Management operation, attack-path remediation, Defender Vulnerability Management ownership or formal enterprise risk acceptance unless separately evidenced. Safe wording is:
+You should not claim production Secure Score administration, Exposure Management operation, attack-path remediation, Defender Vulnerability Management ownership or formal enterprise risk acceptance unless separately evidenced. Safe wording is:
 
 > “My production strength is Microsoft 365 incident RCA, evidence, fix validation and stakeholder coordination. I have built a current exposure-management design and a synthetic 20-finding prioritization exercise covering Secure Score, critical assets, attack paths, vulnerabilities, identity/app/data posture, exceptions, SLAs, verification and executive reporting. I have not operated these Microsoft posture products in production. In a client environment I would verify licenses, source coverage, freshness and RBAC; validate critical-asset classifications with business owners; separate platform scores from business risk; preserve high-risk items even when remediation is difficult; and close findings only after evidence-based verification.”
 
@@ -762,7 +762,7 @@ flowchart LR
 
 ## 33. JD Mapping: interview translation
 
-| Interview prompt | Arti's factual production strength | Honest exposure-management bridge |
+| Interview prompt | Your factual production strength | Honest exposure-management bridge |
 |---|---|---|
 | “How do you prioritize vulnerabilities?” | Incident impact and dependency analysis | Explain exposure/business/threat overlay beyond CVSS |
 | “How do you use Secure Score?” | Control validation and reporting | Describe synthetic score register and caveats |
@@ -841,7 +841,7 @@ flowchart LR
 - **Verify source state and control effect before waiting on score refresh.**
 - **Report critical exposure, decisions, confidence and residual risk.**
 - **Do not improve metrics by downgrading or hiding findings.**
-- **Arti's bridge is RCA and fix validation, not production posture ownership.**
+- **Your bridge is RCA and fix validation, not production posture ownership.**
 
 ## Completion Checklist
 

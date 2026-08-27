@@ -8,11 +8,11 @@
 
 ## Section goal
 
-By the end of this Part, Arti should be able to use browser Developer Tools (DevTools) Network, Console, Security, and Application panels as distinct evidence sources; read a request waterfall; and interpret request/response headers, initiator, timing, status, protocol, remote address, cookies, storage, certificate/security state, and browser errors. She should understand HTTP Archive (HAR) structure, field timing, limitations, and high-risk contents, and create a redaction/retention plan before export.
+By the end of this Part, you should be able to use browser Developer Tools (DevTools) Network, Console, Security, and Application panels as distinct evidence sources; read a request waterfall; and interpret request/response headers, initiator, timing, status, protocol, remote address, cookies, storage, certificate/security state, and browser errors. You should understand HTTP Archive (HAR) structure, field timing, limitations, and high-risk contents, and create a redaction/retention plan before export.
 
-She should explain Fiddler Classic/Everywhere at a high level as an explicit local HTTP debugging proxy, including capture scope, system/application proxy effects, HTTPS decryption authorization, locally trusted interception certificate, certificate cleanup, and the difference between client-to-Fiddler and Fiddler-to-origin TLS sessions. She must never advise decrypting customer or unrelated traffic without authorization.
+You should explain Fiddler Classic/Everywhere at a high level as an explicit local HTTP debugging proxy, including capture scope, system/application proxy effects, HTTPS decryption authorization, locally trusted interception certificate, certificate cleanup, and the difference between client-to-Fiddler and Fiddler-to-origin TLS sessions. You must never advise decrypting customer or unrelated traffic without authorization.
 
-She should use Linux and cross-platform `curl`, OpenSSL, `dig`/`nslookup`, `ss`, `ip route`, `tcpdump`, `journalctl`, `traceroute`/`tracert`, `pathping`, and `mtr` with accurate scope and caveats. Path tools show selected probe/response behavior, not a guaranteed application route or root cause; the lab uses only loopback for path commands. Finally, she should correlate all sources using UTC, request/trace IDs, operation/event IDs, process/PID, tuple, hostname, and exact expected/actual behavior.
+You should use Linux and cross-platform `curl`, OpenSSL, `dig`/`nslookup`, `ss`, `ip route`, `tcpdump`, `journalctl`, `traceroute`/`tracert`, `pathping`, and `mtr` with accurate scope and caveats. Path tools show selected probe/response behavior, not a guaranteed application route or root cause; the lab uses only loopback for path commands. Finally, you should correlate all sources using UTC, request/trace IDs, operation/event IDs, process/PID, tuple, hostname, and exact expected/actual behavior.
 
 ## JD Mapping
 
@@ -31,7 +31,7 @@ She should use Linux and cross-platform `curl`, OpenSSL, `dig`/`nslookup`, `ss`,
 
 ## Candidate honesty note
 
-Arti can accurately state working familiarity with browser DevTools, HAR, Fiddler, cURL, OpenSSL concepts, Linux utilities, Wireshark/tcpdump, Netsh, and Procmon. Her production-strength story remains Microsoft enterprise support, customer communication, evidence correlation, Engineering escalation, and fix validation. She should not claim unrestricted TLS interception, Linux/network administration ownership, Fiddler deployment ownership, or Abnormal production tooling.
+You can accurately state working familiarity with browser DevTools, HAR, Fiddler, cURL, OpenSSL concepts, Linux utilities, Wireshark/tcpdump, Netsh, and Procmon. Your production-strength story remains enterprise support, customer communication, evidence correlation, Engineering escalation, and fix validation. You should not claim unrestricted TLS interception, Linux/network administration ownership, Fiddler deployment ownership, or Abnormal production tooling.
 
 | Evidence tier | Safe claim | Boundary |
 |---|---|---|
@@ -662,7 +662,7 @@ flowchart TD
 
 ### Q8. How do you position these tools honestly?
 
-**Model answer:** I have working familiarity with DevTools/HAR/Fiddler concepts, curl/OpenSSL, DNS/path/socket/packet/journal tools and cross-tool correlation, reinforced through safe labs. My production strength is Microsoft enterprise support and evidence-led escalation, not unrestricted interception, Linux/network administration, or Abnormal production tooling.
+**Model answer:** I have working familiarity with DevTools/HAR/Fiddler concepts, curl/OpenSSL, DNS/path/socket/packet/journal tools and cross-tool correlation, reinforced through safe labs. My production strength is enterprise support and evidence-led escalation, not unrestricted interception, Linux/network administration, or Abnormal production tooling.
 
 ## Memory Hooks
 

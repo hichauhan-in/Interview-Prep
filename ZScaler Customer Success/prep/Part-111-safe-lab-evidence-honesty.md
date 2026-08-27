@@ -1,10 +1,10 @@
 # Part 111 - Safe Lab Setup, Evidence Portfolio, and Honesty Rules
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 
 > **Purpose:** Build a safe, local, synthetic, reproducible lab environment and an evidence portfolio that demonstrates method without implying production Zscaler access, customer delivery, unauthorized testing, or outcomes that did not occur.
 
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is explicitly fictional and synthetic. Every NMH person, hostname, domain, address, asset, finding, connector, ticket, metric, date, workshop, dashboard, incident, decision, and result in Parts 111-117 is invented for study. Arti's factual background includes Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler administration, SecOps TSM account ownership, customer security testing, production security-data modeling, UVM operation, and customer outcomes remain learning boundaries.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is explicitly fictional and synthetic. Every NMH person, hostname, domain, address, asset, finding, connector, ticket, metric, date, workshop, dashboard, incident, decision, and result in Parts 111-117 is invented for study. Your factual background includes Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler administration, SecOps TSM account ownership, customer security testing, production security-data modeling, UVM operation, and customer outcomes remain learning boundaries.
 
 > **Currency caveat:** Laws, employer policies, product behavior, documentation, licensing, data-protection rules, capture formats, and tool interfaces change. The controlled official-source snapshot and source review date for this Part is exactly **2026-08-24**. Current law, written authorization, organizational policy, customer contracts, official documentation, licensed-tenant evidence, and qualified legal, privacy, and security guidance govern real work.
 
@@ -12,7 +12,7 @@
 
 This Part is primarily **vendor-neutral lab-safety, evidence, data, reproducibility, and portfolio practice**. Reviewed Zscaler public sources support bounded positioning about zero trust, Data Fabric for Security, Unified Vulnerability Management, Risk360, and security operations. They do not grant authorization, provide paid access, establish a local simulation as product behavior, or prove a customer result.
 
-Every portfolio statement uses one of five evidence classes. **Official product fact** is a dated public statement supported by an official source anchor. **General practice** is a vendor-neutral method. **Synthetic observation** is a result produced only by the fictional NMH lab. **Factual candidate experience** is supported by Arti's own records and CV. **Unknown** is anything the available evidence does not establish. A polished dashboard never changes a synthetic observation into production experience.
+Every portfolio statement uses one of five evidence classes. **Official product fact** is a dated public statement supported by an official source anchor. **General practice** is a vendor-neutral method. **Synthetic observation** is a result produced only by the fictional NMH lab. **Factual candidate experience** is supported by your own records and CV. **Unknown** is anything the available evidence does not establish. A polished dashboard never changes a synthetic observation into production experience.
 
 ```mermaid
 flowchart LR
@@ -54,17 +54,17 @@ flowchart LR
 
 ## Candidate honesty note
 
-Arti can say: "I built a local, synthetic portfolio to practice security-data modeling, vulnerability prioritization, escalation analysis, discovery, and training. I used deterministic inputs, documented queries, evidence indexes, validation rubrics, privacy controls, and explicit limitations. The work demonstrates my method and builds on factual Microsoft escalation, network-trace, SQL, Power BI, mentoring, and customer communication experience. It does not represent production Zscaler access, a real customer engagement, live security testing, or measured customer risk reduction."
+You can say: "I built a local, synthetic portfolio to practice security-data modeling, vulnerability prioritization, escalation analysis, discovery, and training. I used deterministic inputs, documented queries, evidence indexes, validation rubrics, privacy controls, and explicit limitations. The work demonstrates my method and builds on factual enterprise escalation, network-trace, SQL, Power BI, mentoring, and customer communication experience. It does not represent production Zscaler access, a real customer engagement, live security testing, or measured customer risk reduction."
 
-She should not say that she implemented Zscaler Data Fabric, operated UVM for an enterprise, scanned a customer, captured a customer's traffic, resolved a Zscaler incident, or delivered an NMH onboarding. NMH does not exist. The lab may support "I practiced" and "I can explain my method," not "I delivered this in production."
+You should not say that you implemented Zscaler Data Fabric, operated UVM for an enterprise, scanned a customer, captured a customer's traffic, resolved a Zscaler incident, or delivered an NMH onboarding. NMH does not exist. The lab may support "I practiced" and "I can explain my method," not "I delivered this in production."
 
-| Factual Arti background | Transferable capability | Portfolio-safe wording | Unsupported wording to avoid |
+| Documented background | Transferable capability | Portfolio-safe wording | Unsupported wording to avoid |
 |---|---|---|---|
-| Microsoft enterprise escalation engineering | Evidence collection, hypothesis control, ownership, and RCA discipline | "My production escalation method informed this synthetic lab." | "This lab is a Zscaler customer escalation." |
+| enterprise escalation engineering | Evidence collection, hypothesis control, ownership, and RCA discipline | "My production escalation method informed this synthetic lab." | "This lab is a Zscaler customer escalation." |
 | Microsoft 365, OneDrive, and SharePoint | Familiarity with identity, permissions, client, network, and cloud-service boundaries | "I used an M365-style fictional dependency chain." | "I tested a customer's Microsoft 365 tenant." |
 | Wireshark, Netsh, Network Monitor, Procmon, HAR, Fiddler, and browser tools | Multi-layer evidence interpretation | "I analyzed supplied synthetic artifacts locally." | "I intercepted production traffic." |
 | SQL, PostgreSQL, Excel, Power BI, Python, R, statistics, and MBA analytics | Data modeling, quality, queries, dashboards, and calibrated metrics | "I built a vendor-neutral synthetic security-data model." | "I reproduced Zscaler's internal schema or algorithm." |
-| CRITSIT, RCA, Engineering collaboration, and fix validation | Escalation coordination and recovery validation | "I applied familiar incident disciplines to a fictional scenario." | "I led this Zscaler incident." |
+| Critical situation, RCA, Engineering collaboration, and fix validation | Escalation coordination and recovery validation | "I applied familiar incident disciplines to a fictional scenario." | "I led this Zscaler incident." |
 | Mentoring, onboarding, partner training, and knowledge articles | Beginner-first explanation, workshops, teach-back, and artifacts | "I designed and rehearsed a synthetic workshop." | "I trained an NMH SOC team." |
 | Responsible AI exploration | Cautious assisted drafting with human validation | "Any assistance remained secondary to inspectable evidence." | "An AI conclusion proves the finding." |
 
@@ -260,7 +260,7 @@ Use `NMH-SYN-P###-A##-short-name-v##` as the logical artifact ID, where `P###` i
 | reporting_cut | 2026-08-24T00:00:00Z | Calculation boundary | Same across comparable outputs |
 | hash | SHA-256 value | Integrity check | Recalculate after intentional change |
 | limitation | Not a product schema | Prevent overclaim | Non-empty |
-| owner | Arti Thakur | Accountability | One named maintainer |
+| owner | You | Accountability | One named maintainer |
 | disposition | retain_release | Cleanup | Controlled value |
 
 ### Claim labels
@@ -270,7 +270,7 @@ Every screenshot, dashboard page, executive note, architecture drawing, and inte
 | Label | Use when | Example sentence | What it never proves |
 |---|---|---|---|
 | SYNTHETIC LAB | Entire artifact comes from NMH generated data | "Synthetic NMH lab; no real tenant or customer data." | Production experience |
-| FACTUAL CANDIDATE EXPERIENCE | Statement is supported by Arti's own records | "I used trace-led troubleshooting in Microsoft enterprise support." | Zscaler product experience |
+| FACTUAL CANDIDATE EXPERIENCE | Statement is supported by your own records | "I used trace-led troubleshooting in enterprise support." | Zscaler product experience |
 | OFFICIAL PUBLIC FACT | Dated official source supports bounded statement | "The linked public page positions Data Fabric for Security as..." | Tenant behavior or entitlement |
 | GENERAL PRACTICE | Vendor-neutral method | "Preserve immutable raw input and record transformations." | Employer-required process |
 | ANALOGOUS EXERCISE | Local construct resembles a concept but not implementation | "This canonical model is an analogy for harmonization." | Internal Zscaler schema |
@@ -329,7 +329,7 @@ flowchart LR
 
 ## Prerequisites
 
-The lab requires only a normal local computer and standard concepts. Paid Zscaler access is neither required nor used. Choose one data path: a spreadsheet application, SQLite, DuckDB, PostgreSQL already installed locally, or another local relational tool you are authorized to use. SQLite is the simplest conceptual default because it is a single local file; DuckDB is convenient for CSV analytics; PostgreSQL matches Arti's prior experience but requires a local service and more setup. Power BI Desktop may be used if already available and permitted, but a spreadsheet pivot or saved SQL result fully satisfies the lab.
+The lab requires only a normal local computer and standard concepts. Paid Zscaler access is neither required nor used. Choose one data path: a spreadsheet application, SQLite, DuckDB, PostgreSQL already installed locally, or another local relational tool you are authorized to use. SQLite is the simplest conceptual default because it is a single local file; DuckDB is convenient for CSV analytics; PostgreSQL matches your prior experience but requires a local service and more setup. Power BI Desktop may be used if already available and permitted, but a spreadsheet pivot or saved SQL result fully satisfies the lab.
 
 ```mermaid
 flowchart TD
@@ -449,7 +449,7 @@ The portfolio evaluates reasoning, not a brand of software. The same normalized 
 |---|---|---|---|
 | SQLite | Single local file, simple SQL, no server required | Date functions and strict typing differ | Version, schema, query text, result export |
 | DuckDB | Strong local CSV and analytical workflow | Syntax and functions differ from transactional engines | Version, file paths, query text, result export |
-| PostgreSQL | Familiar to Arti and strong relational behavior | Local service, roles, and cleanup need care | Version, non-admin role, schema, query text |
+| PostgreSQL | Familiar to you and strong relational behavior | Local service, roles, and cleanup need care | Version, non-admin role, schema, query text |
 | Spreadsheet | Lowest setup and accessible inspection | Manual edits and formula drift are easy | Original import, formula cells, checks, export |
 | Power BI Desktop | Useful model, transformations, visuals, and interaction | Local file can hide steps and may contain cached data | Source path, Power Query steps, measures, filters, screenshots |
 | Static Markdown report | Highly portable and reviewable | Less interactive | Query, table, chart source, narrative |
@@ -1020,9 +1020,9 @@ The Zscaler sources support bounded public product positioning only. NIST, CISA,
 
 **Model answer:** I stop when the target is not clearly owned for the lab, authorization is missing, real data or a secret appears, administrator access is unexpectedly required, output leaves the dedicated folder, a command could reach an external system, a security control would be weakened, or observed behavior differs materially from the preflight. I preserve only minimal safe evidence, record the stop, and redesign. Stopping is evidence of judgment.
 
-### Q8. How does Arti's background strengthen this portfolio without becoming an unsupported claim?
+### Q8. How does your background strengthen this portfolio without becoming an unsupported claim?
 
-**Model answer:** Her Microsoft enterprise escalation work supports evidence discipline, timelines, hypothesis testing, RCA, customer communication, and cross-team coordination. Her network-trace tools support careful interpretation, while SQL, PostgreSQL, Power BI, statistics, and MBA analytics support data models and dashboards. Mentoring supports beginner-first workshops. Those are factual transfer points. Production Zscaler access, SecOps account ownership, security testing, UVM operation, and NMH outcomes remain explicitly unclaimed.
+**Model answer:** Your prior enterprise escalation work supports evidence discipline, timelines, hypothesis testing, RCA, customer communication, and cross-team coordination. Your network-trace tools support careful interpretation, while SQL, PostgreSQL, Power BI, statistics, and MBA analytics support data models and dashboards. Mentoring supports beginner-first workshops. Those are factual transfer points. Production Zscaler access, SecOps account ownership, security testing, UVM operation, and NMH outcomes remain explicitly unclaimed.
 
 ## 30-Second Memory Hooks
 
@@ -1065,7 +1065,7 @@ The Zscaler sources support bounded public product positioning only. NIST, CISA,
 - [ ] I can state exactly what each artifact proves and does not prove.
 - [ ] I can perform exact-path cleanup without destructive commands.
 - [ ] I can apply all five blocking gates before release.
-- [ ] I can discuss Arti's factual strengths without claiming Zscaler production experience or customer outcomes.
+- [ ] I can discuss your factual strengths without claiming Zscaler production experience or customer outcomes.
 - [ ] I can explain why even a 100-point synthetic lab remains a synthetic lab.
 
 [Next: Part 112 - Data Fabric and Security Data Modeling Lab](Part-112-data-fabric-modeling-lab.md)

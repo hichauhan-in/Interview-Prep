@@ -1,10 +1,10 @@
 # Part 64 - Customer Health, Success Plans, Value Realization, and Loyalty
 
-> **Section goal:** Assess and improve customer health without hiding complexity behind a color or using fear to influence renewal. By the end, Arti should be able to build a multidimensional health model, separate leading and lagging indicators, explain score caveats, create outcome-based success plans, connect evidence to value with counterfactual caution, treat loyalty and renewal as sensitive signals rather than sales levers, and help restore trust after failures through ownership, transparency, action, and validation.
+> **Section goal:** Assess and improve customer health without hiding complexity behind a color or using fear to influence renewal. By the end, you should be able to build a multidimensional health model, separate leading and lagging indicators, explain score caveats, create outcome-based success plans, connect evidence to value with counterfactual caution, treat loyalty and renewal as sensitive signals rather than sales levers, and help restore trust after failures through ownership, transparency, action, and validation.
 
 Covers index item **64** and maps directly to job-description responsibilities for understanding customer environments, improving support experience and loyalty, maximizing solution value, mitigating risk, tracking preventative remediation, conducting operational reviews, supporting strategic planning, communicating across stakeholders, and improving technical recommendations under lead-TAM guidance.
 
-**Explicit nonclaim:** Arti has not owned a production NetApp customer-health model, success plan, value-realization claim, renewal outcome, loyalty program, or trust-recovery plan.
+**Explicit nonclaim:** You have not owned a production NetApp customer-health model, success plan, value-realization claim, renewal outcome, loyalty program, or trust-recovery plan.
 
 **Privacy and access boundary:** Health and success data can combine telemetry, support history, adoption, incidents, risks, contracts, commercial timing, stakeholder sentiment, organizational behavior, business outcomes, and individual feedback. Limit collection to agreed purposes, separate technical from commercial access where appropriate, protect identities/comments, use approved systems, and avoid broad distribution of sensitive relationship or renewal signals.
 
@@ -14,7 +14,7 @@ Covers index item **64** and maps directly to job-description responsibilities f
 
 This Part supplies a generic learning model, not a NetApp internal health formula, threshold, customer-success methodology, renewal probability, account forecast, service entitlement, or commercial instruction. Actual account governance follows the lead TAM, authorized customer/account roles, contract, product evidence, and customer outcome owners.
 
-> **No-production-NetApp boundary:** Arti's factual strengths are Microsoft enterprise support, CSAT above 4.75 Enterprise and above 4.85 SMB, more than 100 recognitions, CRITSIT ownership, customer/business reviews, backlog/case-quality analytics, Excel, Power BI, statistics, an MBA in Business Analytics, advisory work, and mentoring. She does **not** claim NetApp customer health, Digital Advisor operation, ONTAP outcome ownership, Customer Success tenure, renewal authority, or commercial forecasting. Her exact non-claim is: **she has not designed, scored, governed, or represented a production NetApp customer-health, success, value, loyalty, or renewal model.**
+> **No-production-NetApp boundary:** Your factual strengths are enterprise support, a strong customer-satisfaction record, repeated peer and customer recognition, critical-situation ownership, customer/business reviews, backlog/case-quality analytics, Excel, Power BI, statistics, an a postgraduate business-analytics qualification, advisory work, and mentoring. You do **not** claim NetApp customer health, Digital Advisor operation, ONTAP outcome ownership, Customer Success tenure, renewal authority, or commercial forecasting. Your exact non-claim is: **you have not designed, scored, governed, or represented a production NetApp customer-health, success, value, loyalty, or renewal model.**
 
 ---
 
@@ -531,7 +531,7 @@ flowchart LR
 
 ## 11. Fully synthetic sanitized scenario: Pinecrest Legal health reset
 
-> **Synthetic boundary:** `Pinecrest Legal`, all services, systems, scores, incidents, contracts, people, objectives, actions, dates, metrics, and outcomes are invented. The scenario is not a NetApp account, customer-health method, Digital Advisor result, renewal forecast, or Arti production work.
+> **Synthetic boundary:** `Pinecrest Legal`, all services, systems, scores, incidents, contracts, people, objectives, actions, dates, metrics, and outcomes are invented. The scenario is not a NetApp account, customer-health method, Digital Advisor result, renewal forecast, or documented production work.
 
 ### Initial headline
 
@@ -631,12 +631,12 @@ flowchart LR
 
 ---
 
-## 13. Arti's factual bridge and JD Mapping
+## 13. Your factual bridge and JD Mapping
 
 ```mermaid
 flowchart LR
-    CSAT[CSAT and 100+ recognitions] --> EXP[Customer-experience evidence]
-    CRIT[CRITSIT and support ownership] --> TRUST[Impact, recovery and trust behaviors]
+    CSAT[CSAT and repeated peer and customer recognition] --> EXP[Customer-experience evidence]
+    CRIT[Critical situation and support ownership] --> TRUST[Impact, recovery and trust behaviors]
     REV[Business reviews and advisory] --> SUCCESS[Outcome narrative and milestones]
     BI[MBA, Excel, Power BI, statistics] --> HEALTH[Dimensions, trends and caveats]
     EXP --> METHOD[Transferable health and value method]
@@ -648,11 +648,11 @@ flowchart LR
 
 ### Factual tie
 
-| Arti evidence | Transfer | Boundary |
+| Transferable evidence | Transfer | Boundary |
 |---|---|---|
-| CSAT >4.75 Enterprise and >4.85 SMB | Measured support-experience awareness | Not a NetApp health or renewal score |
-| 100+ recognitions | Repeated customer/peer feedback signal | Not proof of storage expertise or loyalty |
-| CRITSIT/business-critical incidents | Trust, cadence, ownership and recovery | Not NetApp incident/product authority |
+| a strong customer-satisfaction record | Measured support-experience awareness | Not a NetApp health or renewal score |
+| repeated peer and customer recognition | Repeated customer/peer feedback signal | Not proof of storage expertise or loyalty |
+| Critical situation/business-critical incidents | Trust, cadence, ownership and recovery | Not NetApp incident/product authority |
 | Business reviews/advisory | Outcomes, risks, actions and stakeholder narrative | Not NetApp success-plan ownership |
 | MBA/analytics/Power BI/Excel | Multidimensional models, trends, uncertainty | No production NetApp account dataset |
 | Mentoring/Product collaboration | Relationship and cross-team contribution | No Customer Success or commercial authority |
@@ -672,7 +672,7 @@ flowchart LR
 
 ### Honest interview statement
 
-> `I would not begin with a single color. I would assess solution, supportability, adoption, risk, support experience, relationship, governance, actions, lifecycle, capacity, performance and protection using dated leading and lagging evidence. I would convert priorities into a customer-owned success plan and measure value with contribution/counterfactual caution. My factual customer experience is Microsoft support; I have not operated a NetApp health, success or renewal model.`
+> `I would not begin with a single color. I would assess solution, supportability, adoption, risk, support experience, relationship, governance, actions, lifecycle, capacity, performance and protection using dated leading and lagging evidence. I would convert priorities into a customer-owned success plan and measure value with contribution/counterfactual caution. My factual customer experience is enterprise support; I have not operated a NetApp health, success or renewal model.`
 
 ---
 
@@ -741,7 +741,7 @@ Inject:
 6. Explain value attribution and counterfactual caution.
 7. Handle renewal sensitivity ethically.
 8. Explain trust ingredients and recovery sequence.
-9. Recreate Pinecrest Legal and state Arti's nonclaim.
+9. Recreate Pinecrest Legal and state your nonclaim.
 10. Deliver Q1-Q8 aloud.
 
 ### Lab pass checklist
@@ -817,7 +817,7 @@ Inject:
 
 ### Q8. How does your background transfer, and what remains a gap?
 
-> **Model answer:** `My Microsoft CSAT, recognitions, CRITSIT ownership, customer reviews, analytics and advisory work support experience, trust, trend and outcome discipline. I have not operated a NetApp customer-health, success or renewal model, so live account dimensions, sources, objectives and commercial interpretation require authorized NetApp/customer owners.`
+> **Model answer:** `My prior CSAT, recognitions, critical-situation ownership, customer reviews, analytics and advisory work support experience, trust, trend and outcome discipline. I have not operated a NetApp customer-health, success or renewal model, so live account dimensions, sources, objectives and commercial interpretation require authorized NetApp/customer owners.`
 
 ---
 
@@ -836,7 +836,7 @@ Inject:
 - **Loyalty:** Earned through accurate, useful, reliable behavior.
 - **Renewal:** Multi-factor commercial decision, not a technical-health output.
 - **Trust recovery:** Acknowledge -> own -> act -> update -> validate -> sustain.
-- **Arti's bridge:** CSAT and support experience transfer; NetApp health ownership does not.
+- **Your bridge:** CSAT and support experience transfer; NetApp health ownership does not.
 
 ---
 

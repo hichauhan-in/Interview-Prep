@@ -1,12 +1,12 @@
 # Part 23 - ONTAP Storage Layout: Disks, Partitions, RAID Groups, Aggregates, and Volumes
 
-> **Section goal:** Build a precise physical-to-logical map from supported drives or SSDs through ownership, partitioning, RAID groups, plexes, local tiers, FlexVol volumes, files/LUNs, snapshots, and space policies. By the end, Arti should be able to explain capacity and failure scope, distinguish every root/data object, challenge misleading `free space` claims, and make a version-safe recommendation without inventing platform specifications.
+> **Section goal:** Build a precise physical-to-logical map from supported drives or SSDs through ownership, partitioning, RAID groups, plexes, local tiers, FlexVol volumes, files/LUNs, snapshots, and space policies. By the end, you should be able to explain capacity and failure scope, distinguish every root/data object, challenge misleading `free space` claims, and make a version-safe recommendation without inventing platform specifications.
 
 Covers index item **23** and maps directly to job-description responsibilities for storage depth, install-base accuracy, capacity/risk analysis, solution stability, lifecycle planning, customer-specific recommendations, supportability, service reviews, and escalation quality.
 
 Exact drive/SSD support, ownership, root-data or root-data-data partitioning, RAID type/default/group size, plex/mirroring behavior, local-tier limits, root requirements, volume type, guarantees, reserves, Snapshot accounting, autosize/autodelete, inode/file limits, commands, and API fields vary by platform and ONTAP release. Verify current official documentation, **Interoperability Matrix Tool (IMT)**, **Hardware Universe (HWU)**, release notes, and authorized system evidence. This Part intentionally gives no hard platform numbers.
 
-> **Evidence and experience boundary:** Every system, capacity, device, failure, forecast, and recommendation below is synthetic. Arti's factual strengths are Microsoft enterprise support, Azure/VM/networking, analytics, capacity/trend reasoning, and escalation ownership. She does **not** claim production ONTAP disk ownership, RAID, aggregate/local-tier, partitioning, volume, autosize, Snapshot-space, or hardware administration experience.
+> **Evidence and experience boundary:** Every system, capacity, device, failure, forecast, and recommendation below is synthetic. Your factual strengths are enterprise support, Azure/VM/networking, analytics, capacity/trend reasoning, and escalation ownership. You do **not** claim production ONTAP disk ownership, RAID, aggregate/local-tier, partitioning, volume, autosize, Snapshot-space, or hardware administration experience.
 
 ---
 
@@ -623,11 +623,11 @@ flowchart TD
 
 ### JD Mapping
 
-| JD responsibility | Part 23 contribution | Arti's factual bridge and gap |
+| JD responsibility | Part 23 contribution | Your factual bridge and gap |
 |---|---|---|
 | Storage depth | Maps media/partition/RAID/plex/local tier/volume/file/LUN | Conceptual/synthetic; no production ONTAP storage layout admin |
 | Analyze customer data | Reconciles units, logical/physical, snapshots, files and forecasts | Analytics/Excel/Power BI/SQL strengths transfer |
-| Mitigate risk/stability | Finds degraded RAID, shared partition fate, low headroom, root and automation risk | CRITSIT/risk method transfers |
+| Mitigate risk/stability | Finds degraded RAID, shared partition fate, low headroom, root and automation risk | critical situation/risk method transfers |
 | Strategic/lifecycle advice | Connects capacity/action lead time, placement, hardware and support | Advisory method transfers; HWU/IMT expertise requires access/practice |
 | Install-base accuracy | Requires serial/shelf/slot/owner/firmware/object relationship | Data-quality skills transfer |
 | Service review | Presents capacity ladder, protection, actions and residual risk | Business-review communication transfers |
@@ -637,7 +637,7 @@ flowchart TD
 
 ## 15. Fully synthetic scenario: Woodgrove Media capacity and partition alert
 
-> **Synthetic case:** Woodgrove Media, all capacities, devices, forecasts and outcomes below are fictional. This is not a NetApp sizing or hardware procedure and not Arti production experience.
+> **Synthetic case:** Woodgrove Media, all capacities, devices, forecasts and outcomes below are fictional. This is not a NetApp sizing or hardware procedure and not documented production experience.
 
 ### Environment
 
@@ -724,13 +724,13 @@ sequenceDiagram
 
 ---
 
-## 16. Arti's support/Azure/analytics bridge
+## 16. Your support/Azure/analytics bridge
 
 ```mermaid
 flowchart LR
     BI[Excel Power BI SQL Python statistics] --> CAP[Unit QA capacity ladder forecast and scenarios]
     AZ[Azure VM/storage foundation] --> LAYER[Logical versus physical allocation and shared infrastructure]
-    CRIT[Microsoft CRITSIT/escalation] --> SAFE[Identity evidence impact and safe owner-led action]
+    CRIT[Enterprise critical situation/escalation] --> SAFE[Identity evidence impact and safe owner-led action]
     M365[Data/retention/permissions support] --> POL[Data owner retention and recovery boundary]
     CAP --> ONTAP[ONTAP layout synthetic reasoning]
     LAYER --> ONTAP
@@ -743,12 +743,12 @@ flowchart LR
 |---|---|---|
 | Analytics and business reviews | Reconcile bytes/units, trends, thresholds, uncertainty, actions | No ONTAP capacity counter/tool production use |
 | Azure/VM/storage basics | Understand thin layers and logical/physical mappings | No ADP/RAID/local-tier administration |
-| CRITSIT/evidence | Preserve device/object identity and avoid destructive guesswork | No NetApp drive replacement or plex repair |
+| Critical situation/evidence | Preserve device/object identity and avoid destructive guesswork | No NetApp drive replacement or plex repair |
 | M365 data policies | Respect retention, recovery and data-owner authority | No ONTAP Snapshot/autodelete operations |
 
 ### Honest answer
 
-> "I can map ONTAP storage from physical media and supported partitions through node ownership, RAID groups, plexes, local tiers and FlexVol volumes to files/LUNs. I can reconcile logical/physical/Snapshot space and model guarantees, reserves, autosize, autodelete and file-count risk conceptually. My production strength is analytics and Microsoft support, not ONTAP storage administration. I would verify exact platform/release/HWU/IMT facts and use authorized evidence and NetApp Support before any physical or destructive action."
+> "I can map ONTAP storage from physical media and supported partitions through node ownership, RAID groups, plexes, local tiers and FlexVol volumes to files/LUNs. I can reconcile logical/physical/Snapshot space and model guarantees, reserves, autosize, autodelete and file-count risk conceptually. My production strength is analytics and enterprise support, not ONTAP storage administration. I would verify exact platform/release/HWU/IMT facts and use authorized evidence and NetApp Support before any physical or destructive action."
 
 ---
 
@@ -839,7 +839,7 @@ flowchart LR
 18. Build the minimum escalation pack and TAM recommendation.
 19. Recreate Woodgrove's SSD partition and capacity findings separately.
 20. Complete all whiteboard drills, paper lab and Q1-Q8 aloud.
-21. State Arti's strengths and ONTAP storage-layout production gap precisely.
+21. State your strengths and ONTAP storage-layout production gap precisely.
 
 ---
 
@@ -921,7 +921,7 @@ flowchart LR
 
 ### Q8. How does your analytics background transfer, and what remains a gap?
 
-> **Model answer:** "My Excel, Power BI, SQL, Python, statistics and support analytics experience is useful for raw-byte/unit reconciliation, physical/logical capacity, trend/event scenarios, threshold lead time and evidence quality. CRITSIT experience helps preserve identity and avoid unsafe action. I have not administered ONTAP disks, ADP, RAID, plexes, local tiers or volumes in production. I would use exact release docs, HWU/IMT, authorized telemetry and NetApp Support and label labs/synthetic work honestly."
+> **Model answer:** "My Excel, Power BI, SQL, Python, statistics and support analytics experience is useful for raw-byte/unit reconciliation, physical/logical capacity, trend/event scenarios, threshold lead time and evidence quality. Critical-situation experience helps preserve identity and avoid unsafe action. I have not administered ONTAP disks, ADP, RAID, plexes, local tiers or volumes in production. I would use exact release docs, HWU/IMT, authorized telemetry and NetApp Support and label labs/synthetic work honestly."
 
 **Follow-up depth:** Describe a workbook schema and name the platform, partition, RAID, volume and limit facts that must come from current official sources.
 
@@ -944,7 +944,7 @@ flowchart LR
 - **Snapshot space:** Changed old blocks times retention, not count alone.
 - **Files/inodes:** Metadata count can fill before bytes.
 - **Limits:** Exact release/object/HWU, never memory.
-- **Arti's bridge:** Capacity analytics transfers; ONTAP physical operations do not.
+- **Your bridge:** Capacity analytics transfers; ONTAP physical operations do not.
 
 ---
 
@@ -969,7 +969,7 @@ flowchart LR
 - [ ] Build the minimum escalation pack and TAM recommendation.
 - [ ] Recreate Woodgrove's partitioned-device and capacity workstreams.
 - [ ] Complete all whiteboard drills, paper lab, self-test and Q1-Q8 aloud.
-- [ ] State Arti's strengths and ONTAP storage-layout production gap precisely.
+- [ ] State your strengths and ONTAP storage-layout production gap precisely.
 - [ ] Recheck exact ONTAP docs, HWU, IMT, limits, commands/API fields, firmware and Support procedure before customer use.
 
 ---

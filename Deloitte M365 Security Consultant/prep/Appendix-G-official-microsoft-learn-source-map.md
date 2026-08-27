@@ -34,7 +34,7 @@ This appendix is a map, not a substitute for the source. Each record identifies 
 | Currency | Say `as documented at the August 24, 2026 baseline` | Claim that a portal, license, preview, or exam is current without recheck |
 | Confidence | Record uncertainty and a validation step | Guess about tenant behavior, legal meaning, pricing, or roadmap |
 
-> **Candidate limitation:** Official documentation establishes product guidance, not Arti's personal experience. A source-backed explanation can prove preparation; only truthful work records, lab evidence, or direct observation can prove execution.
+> **Candidate limitation:** Official documentation establishes product guidance, not your personal experience. A source-backed explanation can prove preparation; only truthful work records, lab evidence, or direct observation can prove execution.
 
 ## 3. Source status legend
 
@@ -140,7 +140,7 @@ flowchart LR
 | Source | What does the authoritative owner currently document? | Dated citation with scope |
 | Interpretation | What does it mean for this scenario? | Original explanation plus assumptions |
 | Decision | What should be done and why? | Tradeoff, owner, approval, test, rollback |
-| Evidence | What did Arti actually do or observe? | Production/transferable/lab/conceptual label |
+| Evidence | What did you actually do or observe? | Production/transferable/lab/conceptual label |
 | Currency | Could the fact have changed? | Recheck date and sensitivity |
 
 ## 7. Canonical source register
@@ -320,13 +320,13 @@ All records below have status **Selected/reviewed**, checked date **August 24, 2
 | W152 | Teams apps | Manage app permission policies | <https://learn.microsoft.com/microsoftteams/teams-app-permission-policies> | Microsoft | P14, P23, P25, P67 | Supports app allow/block governance and user targeting. | Aug 24 2026 | Retirement | Monthly | Selected/reviewed; current app-centric management terminology needs recheck. |
 | W153 | Teams apps | Manage app setup policies | <https://learn.microsoft.com/microsoftteams/teams-app-setup-policies> | Microsoft | P23, P25, P67 | Grounds installation, pinning, and assignment experience. | Aug 24 2026 | Retirement | Monthly | Selected/reviewed; portal model may transition. |
 | W154 | Teams compliance | Information barriers in Teams | <https://learn.microsoft.com/purview/information-barriers-teams> | Microsoft | P23, P31, P67 | Supports segmentation behavior and operational considerations. | Aug 24 2026 | Licensing | Monthly | Selected/reviewed; legal/compliance ownership required. |
-| W155 | SharePoint | SharePoint and OneDrive introduction | <https://learn.microsoft.com/sharepoint/introduction> | Microsoft | P23-P24, P67, A-C | Root architecture and administration map for collaboration content. | Aug 24 2026 | Portal | Quarterly | Selected/reviewed; Arti's strongest production anchor. |
+| W155 | SharePoint | SharePoint and OneDrive introduction | <https://learn.microsoft.com/sharepoint/introduction> | Microsoft | P23-P24, P67, A-C | Root architecture and administration map for collaboration content. | Aug 24 2026 | Portal | Quarterly | Selected/reviewed; Your strongest production anchor. |
 | W156 | SharePoint sharing | External sharing overview | <https://learn.microsoft.com/sharepoint/external-sharing-overview> | Microsoft | P12, P14, P23-P24, P67 | Grounds tenant/site sharing, guest models, and link behavior. | Aug 24 2026 | Schema | Monthly | Selected/reviewed; Teams and Entra dependencies must be traced. |
 | W157 | SharePoint sharing | Manage sharing settings | <https://learn.microsoft.com/sharepoint/turn-external-sharing-on-or-off> | Microsoft | P14, P24, P58, P67 | Supports tenant/site/OneDrive controls and link defaults. | Aug 24 2026 | Portal | Monthly | Selected/reviewed; use staged changes and negative tests. |
 | W158 | SharePoint access | Control access from unmanaged devices | <https://learn.microsoft.com/sharepoint/control-access-from-unmanaged-devices> | Microsoft | P9, P17, P24, P37, P67 | Connects SharePoint access control to Conditional Access session behavior. | Aug 24 2026 | Licensing | Monthly | Selected/reviewed; validate app/client compatibility. |
 | W159 | SharePoint access | Restricted Access Control | <https://learn.microsoft.com/sharepoint/restricted-access-control> | Microsoft | P12, P24, P54, P67 | Supports group-based site access restriction and oversharing reduction. | Aug 24 2026 | Licensing | Monthly | Selected/reviewed; license and scope require current check. |
 | W160 | SharePoint governance | Site lifecycle management | <https://learn.microsoft.com/sharepoint/site-lifecycle-management> | Microsoft | P12, P24, P29, P59, P67 | Grounds ownership, inactivity, review, and archive decisions. | Aug 24 2026 | Preview | Monthly | Selected/reviewed; feature availability may vary. |
-| W161 | OneDrive sync | OneDrive sync overview | <https://learn.microsoft.com/sharepoint/sync-process> | Microsoft | P5, P24, P60, P67, F | Supports sync architecture, files-on-demand, and troubleshooting flow. | Aug 24 2026 | Schema | Quarterly | Selected/reviewed; production expertise remains Arti's direct evidence. |
+| W161 | OneDrive sync | OneDrive sync overview | <https://learn.microsoft.com/sharepoint/sync-process> | Microsoft | P5, P24, P60, P67, F | Supports sync architecture, files-on-demand, and troubleshooting flow. | Aug 24 2026 | Schema | Quarterly | Selected/reviewed; production expertise remains your direct evidence. |
 | W162 | OneDrive sync | OneDrive sync app configuration | <https://learn.microsoft.com/sharepoint/use-group-policy> | Microsoft | P16, P19, P24, P66-P67 | Maps policy control of sync behavior and enterprise deployment. | Aug 24 2026 | Schema | Monthly | Selected/reviewed; ADMX and Intune settings evolve. |
 | W163 | SharePoint permissions | Understanding permission levels | <https://learn.microsoft.com/sharepoint/understanding-permission-levels> | Microsoft | P6, P11-P12, P24, P67 | Grounds roles, inheritance, and least-privilege permission reasoning. | Aug 24 2026 | Schema | Quarterly | Selected/reviewed; custom levels complicate support. |
 | W164 | SharePoint labels | Sensitivity labels for containers | <https://learn.microsoft.com/purview/sensitivity-labels-teams-groups-sites> | Microsoft | P23-P24, P27, P67-P68 | Supports privacy/sharing settings on groups, Teams, and sites. | Aug 24 2026 | Licensing | Monthly | Selected/reviewed; container labels do not label every file. |
@@ -976,7 +976,7 @@ sequenceDiagram
 | Scheme | Require `https` | Reject insecure or protocol-relative links. |
 | Host | Permit only owners in the source hierarchy | Reject aggregators, copied docs, and exam dumps. |
 | Canonical path | Prefer stable documentation path | Remove campaign and search-result URLs. |
-| Locale | Prefer locale-neutral path where Microsoft supports it | Avoid separate `en-us`, `en-gb`, and translated duplicates. |
+| Locale | Prefer locale-neutral path where enterprise supports it | Avoid separate `en-us`, `en-gb`, and translated duplicates. |
 | Query | Keep only required product/view version | Remove tracking parameters. |
 | Fragment | Use only when the subsection is the real source | Recheck fragment after heading changes. |
 | Trailing slash | Normalize consistently where practical | Treat slash-only variants as duplicates. |
@@ -1234,7 +1234,7 @@ flowchart LR
 
 | What a source can prove | What it cannot prove |
 |---|---|
-| Microsoft or framework owner documented a concept at the baseline | That Arti implemented it in a production client environment. |
+| Microsoft or framework owner documented a concept at the baseline | That you implemented it in a production client environment. |
 | A feature had documented prerequisites or state | That it is enabled, licensed, available, or correctly configured in a specific tenant. |
 | A product provides a control | That risk is fully mitigated or compliance achieved. |
 | A configuration path exists | That it is safe for a client's dependencies without testing. |

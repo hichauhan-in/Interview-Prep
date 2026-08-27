@@ -2,7 +2,7 @@
 
 > **Section goal:** Build a beginner-first, consulting-grade architecture and operating model for unified security operations across Microsoft Sentinel, Microsoft Defender XDR, Microsoft Purview, Microsoft Entra, Microsoft Intune, Microsoft Defender for Cloud, and third-party security sources. By the end, you should be able to explain the Defender portal control plane; select and onboard a primary Sentinel workspace; prevent duplicate alert/incident paths; define incident correlation, synchronization, and ownership; choose XDR, SIEM, or both for a use case; hunt across current data surfaces; coordinate response without violating product or privacy boundaries; design retention, RBAC, API, migration, and third-party integrations; operate a unified queue with RACI and runbooks; and complete a synthetic cross-domain incident exercise without claiming production platform ownership.
 
-This Part maps directly to Deloitte expectations for Microsoft Defender and Sentinel integration, Microsoft 365 security architecture, Purview and data-security coordination, identity and endpoint response, third-party transformation, incident investigation, portal migration, secure operations, troubleshooting, and stakeholder communication. Arti's strengths in Microsoft 365 escalations, SharePoint/OneDrive context, cross-team incident ownership, RCA, KPI reporting, and customer communication help connect technical signals to business impact. The guide still distinguishes that transferable experience from hands-on production unified SecOps administration.
+This Part maps directly to Deloitte expectations for Microsoft Defender and Sentinel integration, Microsoft 365 security architecture, Purview and data-security coordination, identity and endpoint response, third-party transformation, incident investigation, portal migration, secure operations, troubleshooting, and stakeholder communication. Your strengths in Microsoft 365 escalations, SharePoint/OneDrive context, cross-team incident ownership, RCA, KPI reporting, and customer communication help connect technical signals to business impact. The guide still distinguishes that transferable experience from hands-on production unified SecOps administration.
 
 > **Currency, status, portal, licensing, data-lake, and behavior-change note (August 24, 2026):** This chapter is grounded in official Microsoft Learn available on August 24, 2026. Microsoft Sentinel is **generally available** in the Defender portal, including for customers without Defender XDR or an E5 license; however, Defender, Purview, Intune, Entra, Security Copilot, Exposure Management, premium threat intelligence, data-lake, and source capabilities retain separate plans, prerequisites, regions, and charges. After March 31, 2027, Sentinel is supported only in the Defender portal. New Sentinel customers with specified subscription Owner/User Access Administrator onboarding paths have been automatically onboarded since July 2025. Defender XDR becomes the incident-creation/correlation engine for onboarded workspaces; Fusion is disabled; Microsoft security incident-creation rules are deactivated/unsupported; primary versus secondary workspace behavior changes Microsoft-alert ingestion; and several standalone Microsoft connector entries disappear from the Defender data-connectors page. Sentinel log storage remains in Log Analytics, while Defender portal privacy/processing policies apply to the unified experience. Alerts/incidents, CMK, `IdentityInfo`, Advanced Hunting, APIs, automation, data lake, retention, RBAC, and portal behavior have documented differences. Verify the live tenant, licenses, Product Terms, current Learn banners, cloud/region, privacy, schema, and service limits before approval.
 
@@ -21,9 +21,9 @@ This Part maps directly to Deloitte expectations for Microsoft Defender and Sent
 
 ## Candidate honesty note
 
-Arti can credibly discuss production Microsoft 365 incidents, SharePoint/OneDrive permissions and data context, evidence correlation, RCA, service boundaries, stakeholder coordination, privacy-aware handling, business reporting, and validating a change. She can demonstrate the paper architecture, synthetic incident chronology, decision matrices, and migration tests in this chapter.
+You can credibly discuss production Microsoft 365 incidents, SharePoint/OneDrive permissions and data context, evidence correlation, RCA, service boundaries, stakeholder coordination, privacy-aware handling, business reporting, and validating a change. You can demonstrate the paper architecture, synthetic incident chronology, decision matrices, and migration tests in this chapter.
 
-She should not claim production Defender XDR/Sentinel/Purview integration, portal onboarding, unified incident ownership, connector migration, hunting, automatic attack disruption, DLP/insider-risk investigation, API migration, or SOC management unless separately evidenced. Safe wording is:
+You should not claim production Defender XDR/Sentinel/Purview integration, portal onboarding, unified incident ownership, connector migration, hunting, automatic attack disruption, DLP/insider-risk investigation, API migration, or SOC management unless separately evidenced. Safe wording is:
 
 > “I have not administered unified Sentinel and Defender XDR in production. My production experience is complex Microsoft 365 support incidents, evidence/RCA, SharePoint and OneDrive data/permissions context, change validation, and multi-party communication. I built a current paper architecture that selects an authoritative unified queue and primary workspace, prevents duplicate Microsoft alert paths, maps Sentinel/Defender/Purview/Entra/Intune responsibilities, and covers retention, RBAC, APIs, tests, migration, rollback, runbooks, and metrics. In a client tenant I would inventory current connectors and automation, validate licenses/privacy/roles, onboard in a controlled window, and prove every critical workflow with synthetic cases before handover.”
 
@@ -175,7 +175,7 @@ There are two broad integration modes: enable the Defender XDR connector for Azu
 | Source/integration | Preferred path after onboarding | Duplicate risk/control |
 |---|---|---|
 | Defender for Endpoint | Defender XDR connector/primary workspace | Disconnect standalone alert connector |
-| Defender for Identity | Defender XDR connector/primary workspace | Disable duplicate Microsoft incident rules |
+| Defender for Identity | Defender XDR connector/primary workspace | Disable duplicate enterprise incident rules |
 | Defender for Office 365 | Defender XDR connector/current preview-status path | Verify connector and licensing |
 | Defender for Cloud Apps | Defender XDR connector | Avoid standalone alert duplication |
 | Entra ID Protection alerts | Defender XDR integrated path | Verify tenant alert path |
@@ -822,7 +822,7 @@ Rollback triggers include missing high-priority alerts, duplicate storms, privac
 
 ## 30. JD Mapping: interview translation
 
-| Interview theme | Arti's transferable strength | Honest unified SecOps answer |
+| Interview theme | Your transferable strength | Honest unified SecOps answer |
 |---|---|---|
 | Architecture | Understands M365 workload/service dependencies | Product boundaries and one incident owner |
 | Integration | Coordinates product groups/vendors | Connector and API ownership matrix |

@@ -2,7 +2,7 @@
 
 ## Section goal
 
-This Part builds a beginner-friendly comparison of Slack and Zoom integrations for support work. It is explicitly **learned architecture plus a synthetic paper lab**. Arti must not claim production administration of Slack Enterprise Grid, Slack app installations, Zoom Marketplace apps, Zoom account integrations, OAuth tokens, event subscriptions, Audit Logs APIs, or webhook endpoints unless a real experience supports it.
+This Part builds a beginner-friendly comparison of Slack and Zoom integrations for support work. It is explicitly **learned architecture plus a synthetic paper lab**. You must not claim production administration of Slack Enterprise Grid, Slack app installations, Zoom Marketplace apps, Zoom account integrations, OAuth tokens, event subscriptions, Audit Logs APIs, or webhook endpoints unless a real experience supports it.
 
 Slack and Zoom both support OAuth applications, scopes, APIs, event subscriptions, webhooks, signatures, administrative controls, audit/integration evidence, and rate limits. Those shared nouns can hide important differences. A Slack app can be installed to a workspace or, for supported use cases, an Enterprise organization; tokens can represent a bot, user, app, workflow, configuration, or other supported actor. Slack Events API visibility depends on installation, token actor, granted scopes, workspace/Enterprise context, event subscription, object/channel visibility, and lifecycle state.
 
@@ -36,17 +36,17 @@ After completing this Part, you should be able to:
 - classify installation, missing-scope, invalid-auth/token, disabled/revoked app, wrong workspace/account, subscription, endpoint, signature, 3xx/4xx/5xx, and rate-limit failures;
 - build a permission-to-event and event-to-effect map for both platforms;
 - collect customer-safe IDs/status/error/timeline evidence without message/chat/meeting/recording content or credentials; and
-- state Slack/Zoom learned-only experience and Microsoft production-transfer strengths honestly.
+- state Slack/Zoom learned-only experience and production-transfer strengths honestly.
 
 ## JD Mapping
 
-| Supplied role signal | Capability built | Arti's transferable evidence | Boundary |
+| Supplied role signal | Capability built | Your transferable evidence | Boundary |
 |---|---|---|---|
 | Slack and Zoom ecosystem | Learns account/workspace, apps, scopes, events, audit, and support touchpoints | Microsoft SaaS/identity transfer | No production Slack/Zoom claim |
 | Enterprise integrations | Traces install/authorization, event delivery, processing, and target | REST/JSON/cloud troubleshooting | Product profile differs |
 | SaaS Security | Least scopes, bot/user/account identity, signing secrets, token lifecycle, audit | Identity/security habits | No app administration claim |
 | Webhook support | Applies exact-byte signature, replay, ack, retry, queue, idempotency, reconciliation | Part 065 foundation | No live receiver |
-| Complex cases | Separates event not eligible, not attempted, not received, not processed, not reflected | CRITSIT/RCA/escalation | Synthetic cases only |
+| Complex cases | Separates event not eligible, not attempted, not received, not processed, not reflected | critical situation/RCA/escalation | Synthetic cases only |
 | Customer communication | Requests stable IDs, event names, status, UTC, not content/secrets | Privacy-aware support | Chat/meeting content excluded |
 | Admin evidence | Uses Slack audit/integration and Zoom webhook/app logs at correct scope | Microsoft audit transfer | Plan/retention availability varies |
 | Cross-functional work | Routes platform admin, app owner, network, security, vendor Engineering asks | Microsoft collaboration | Current platform docs govern |
@@ -855,7 +855,7 @@ The lab creates no Slack workspace/app/install/token/Socket Mode connection/requ
 | Evidence | Raw payload | Some IDs | Platform/customer/app/event/request/admin IDs/UTC, no content |
 | Rates | Retry immediately | Backoff | Platform-specific Retry-After/queues/concurrency/reconciliation |
 | Troubleshooting | Reinstall/revalidate first | Checks app | Source-to-target decision tree and precise owner asks |
-| Honesty | Claims platform ops | Says studied | Microsoft transfer, Slack/Zoom lab, Abnormal unknown |
+| Honesty | Claims platform ops | Says studied | experience transfer, Slack/Zoom lab, Abnormal unknown |
 
 ## 37. Official Source Anchors
 
@@ -917,7 +917,7 @@ All sources were verified and recorded with guide currency date **August 24, 202
 
 ### Q8. What are your Slack and Zoom experience boundaries?
 
-**Model answer:** My Slack and Zoom knowledge is learned from current official docs and a synthetic metadata-only lab. My production foundation is Microsoft enterprise support, identity, APIs, audit, incident ownership, escalation, and customer communication. I do not claim Slack/Zoom administration, and Abnormal's exact integrations remain unknown absent approved docs.
+**Model answer:** My Slack and Zoom knowledge is learned from current official docs and a synthetic metadata-only lab. My production foundation is enterprise support, identity, APIs, audit, incident ownership, escalation, and customer communication. I do not claim Slack/Zoom administration, and Abnormal's exact integrations remain unknown absent approved docs.
 
 ## Memory Hooks
 
@@ -936,7 +936,7 @@ All sources were verified and recorded with guide currency date **August 24, 202
 - **Zoom 4xx normally does not retry; reconciliation matters.**
 - **2xx acknowledges delivery, not final target effect.**
 - **Log IDs, status, stage, and UTC; never credentials or collaboration content.**
-- **Microsoft is production transfer; Slack/Zoom are learned architecture.**
+- **Prior-role work is production transfer; Slack/Zoom are learned architecture.**
 
 ## Completion Checklist
 
@@ -961,7 +961,7 @@ All sources were verified and recorded with guide currency date **August 24, 202
 - [ ] I completed or can explain **The Collaboration Event Twin Console 068**.
 - [ ] The lab includes Prerequisites, Expected evidence, Cleanup and privacy, and Validation rubric.
 - [ ] I used no live app, install, token, secret, endpoint, event, API, audit query, or collaboration content.
-- [ ] I can state Microsoft transfer, Slack/Zoom learned, and Abnormal unknown boundaries.
+- [ ] I can state experience transfer, Slack/Zoom learned, and Abnormal unknown boundaries.
 - [ ] I checked Official Source Anchors and recorded **August 24, 2026**.
 - [ ] I can answer exactly Q1-Q8.
 

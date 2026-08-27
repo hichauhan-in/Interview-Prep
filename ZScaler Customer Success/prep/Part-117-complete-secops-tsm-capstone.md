@@ -6,7 +6,7 @@
 
 > **Section goal:** Demonstrate a coherent SecOps TSM operating method that discovers decision needs, contracts outcomes, sequences technical dependencies, detects and owns defects, calibrates prioritization with customer authority, coordinates critical escalation, enables operators, facilitates cross-functional choices, reports value honestly, surfaces renewal risk early, and converts accepted evidence into a defensible next-quarter roadmap.
 
-This capstone inherits the complete shared portfolio contract from [Part 111](Part-111-safe-lab-evidence-honesty.md): local and synthetic inputs, visible labels, stable artifact IDs, frozen reporting cuts, provenance, reproducibility, privacy review, exact cleanup, evidence classes, and the claim pattern **context, personal action, synthetic observation, limitation, production next validation**. It reuses only the synthetic methods and bounded outputs from [Parts 112-116](Part-112-data-fabric-modeling-lab.md). It is a role simulation, not a claim that Arti has held a Zscaler TSM account.
+This capstone inherits the complete shared portfolio contract from [Part 111](Part-111-safe-lab-evidence-honesty.md): local and synthetic inputs, visible labels, stable artifact IDs, frozen reporting cuts, provenance, reproducibility, privacy review, exact cleanup, evidence classes, and the claim pattern **context, personal action, synthetic observation, limitation, production next validation**. It reuses only the synthetic methods and bounded outputs from [Parts 112-116](Part-112-data-fabric-modeling-lab.md). It is a role simulation, not a claim that you have held a Zscaler TSM account.
 
 ```mermaid
 flowchart LR
@@ -54,9 +54,9 @@ flowchart LR
 
 ## Candidate honesty note
 
-Arti can say: "I designed and rehearsed a complete local synthetic SecOps TSM account capstone for fictional NMH. I created discovery and success-plan artifacts, modeled source integration, diagnosed a supplied data defect, facilitated transparent vulnerability-priority tuning, applied my escalation discipline to a static connectivity case, designed operator training and teach-back, built a cross-functional decision record, presented a fictional QBR, and assessed value and renewal risk with explicit limitations. It demonstrates how I would operate; it was not a real customer engagement or Zscaler product delivery."
+You can say: "I designed and rehearsed a complete local synthetic SecOps TSM account capstone for fictional NMH. I created discovery and success-plan artifacts, modeled source integration, diagnosed a supplied data defect, facilitated transparent vulnerability-priority tuning, applied my escalation discipline to a static connectivity case, designed operator training and teach-back, built a cross-functional decision record, presented a fictional QBR, and assessed value and renewal risk with explicit limitations. It demonstrates how I would operate; it was not a real customer engagement or Zscaler product delivery."
 
-Arti's factual background includes Microsoft enterprise escalation engineering, Microsoft 365/OneDrive/SharePoint expertise, network and browser evidence tools, CRITSIT and RCA work, Engineering collaboration, fix validation, customer communication, service-quality analysis, SQL/PostgreSQL/Power BI/statistics, mentoring, onboarding, partner training, knowledge work, and AI learning/training. These facts support the method. They do not establish Zscaler administration, SecOps program ownership, vulnerability operations, CISO advisory delivery, commercial renewal responsibility, or the fictional NMH results.
+Your factual background includes enterprise escalation engineering, Microsoft 365/OneDrive/SharePoint expertise, network and browser evidence tools, critical situation and RCA work, Engineering collaboration, fix validation, customer communication, service-quality analysis, SQL/PostgreSQL/Power BI/statistics, mentoring, onboarding, partner training, knowledge work, and AI learning/training. These facts support the method. They do not establish Zscaler administration, SecOps program ownership, vulnerability operations, CISO advisory delivery, commercial renewal responsibility, or the fictional NMH results.
 
 | Factual candidate strength | Directly transferable behavior | Capstone practice | Claim boundary |
 |---|---|---|---|
@@ -97,7 +97,7 @@ Ownership means making sure the right problem is visible, the right evidence exi
 
 Imagine an orchestra conductor. The conductor does not play every instrument. The conductor knows the score, listens for gaps, sets tempo, cues specialists, resolves coordination problems, and keeps the performance aligned with the intended piece. If the conductor grabs every instrument, the music stops. In a strategic account, clear RACI and handoffs are part of technical quality.
 
-Arti can anchor this in factual escalation experience: she has coordinated evidence and Engineering work without claiming to own every underlying service. The bridge is to apply that discipline proactively across outcomes, adoption, data health, governance, and executive reviews.
+You can anchor this in factual escalation experience: you have coordinated evidence and Engineering work without claiming to own every underlying service. The bridge is to apply that discipline proactively across outcomes, adoption, data health, governance, and executive reviews.
 
 ```mermaid
 flowchart TB
@@ -281,7 +281,7 @@ sequenceDiagram
 
 ## Stage 3 - UVM-style prioritization tuning
 
-After the data defect is corrected, the fictional VM Lead challenges the original NMH-LAB-SCORE-v1 because privileged identity and direct exposure together deserve stronger review, while stale control evidence should reduce confidence rather than mechanically raise risk. The candidate facilitates model governance; she does not declare the correct business weighting.
+After the data defect is corrected, the fictional VM Lead challenges the original NMH-LAB-SCORE-v1 because privileged identity and direct exposure together deserve stronger review, while stale control evidence should reduce confidence rather than mechanically raise risk. The candidate facilitates model governance; you do not declare the correct business weighting.
 
 | Factor | Version 1 synthetic treatment | Stakeholder concern | Version 2 fictional decision | Guardrail |
 |---|---:|---|---:|---|
@@ -822,7 +822,7 @@ flowchart TD
 
 ### Scenario 1 - The perfect-looking dashboard
 
-The mapping defect removes criticality from three assets and lowers their priority. The candidate notices a quality guardrail, freezes the executive trend, publishes impact, coordinates correction, replays the batch, and annotates history. She does not celebrate the lower queue.
+The mapping defect removes criticality from three assets and lowers their priority. The candidate notices a quality guardrail, freezes the executive trend, publishes impact, coordinates correction, replays the batch, and annotates history. You do not celebrate the lower queue.
 
 ### Scenario 2 - The account-team shortcut
 
@@ -830,7 +830,7 @@ Commercial urgency creates pressure to call the model a deployed UVM workflow. T
 
 ### Scenario 3 - The resistant VM leader
 
-The fictional VM Lead challenges the privileged-identity interaction. The candidate does not defend a favorite weight. She compares anchor/edge cases, examines provenance and failure behavior, and records the authorized model decision. The disagreement strengthens adoption.
+The fictional VM Lead challenges the privileged-identity interaction. The candidate does not defend a favorite weight. You compare anchor/edge cases, examines provenance and failure behavior, and records the authorized model decision. The disagreement strengthens adoption.
 
 ### Scenario 4 - The missing executive ETA
 
@@ -838,7 +838,7 @@ During the synthetic escalation, the sponsor asks when service will be restored.
 
 ### Scenario 5 - The renewal prediction request
 
-An interviewer asks, "Will NMH renew?" The candidate says NMH is fictional and the evidence cannot support a renewal outcome. She can identify amber signals, alternative explanations, recovery actions, owners, and checkpoints, while Sales owns the commercial process.
+An interviewer asks, "Will NMH renew?" The candidate says NMH is fictional and the evidence cannot support a renewal outcome. You can identify amber signals, alternative explanations, recovery actions, owners, and checkpoints, while Sales owns the commercial process.
 
 ## Official Source Anchors
 
@@ -874,7 +874,7 @@ These sources support bounded public positioning and general cybersecurity/custo
 
 ### Q4. How do you lead a critical escalation while maintaining trust?
 
-**Model answer:** I clarify impact, severity, roles, cadence, workaround, and evidence in the first minutes; separate stabilization from diagnosis; run parallel workstreams; maintain a hypothesis/evidence timeline; and communicate known, unknown, action, owner, and next update without guessing ETA. I validate changed and control cohorts, then drive PIR and prevention. My factual Microsoft escalation experience supports this; the NMH connectivity case is static and synthetic.
+**Model answer:** I clarify impact, severity, roles, cadence, workaround, and evidence in the first minutes; separate stabilization from diagnosis; run parallel workstreams; maintain a hypothesis/evidence timeline; and communicate known, unknown, action, owner, and next update without guessing ETA. I validate changed and control cohorts, then drive PIR and prevention. My factual enterprise escalation experience supports this; the NMH connectivity case is static and synthetic.
 
 ### Q5. How do you measure adoption and value?
 
@@ -888,9 +888,9 @@ These sources support bounded public positioning and general cybersecurity/custo
 
 **Model answer:** I triangulate technical health, adoption behavior, stakeholder engagement, support trends, value evidence, product fit, and commercial context. I record scope, trend, confidence, and alternative explanations, then align recovery outcomes, owners, and checkpoints. I do not predict renewal from one signal or manufacture ROI. I surface risk early and coordinate with Sales while preserving customer trust and role boundaries.
 
-### Q8. Why does Arti's background fit this operating model?
+### Q8. Why does your background fit this operating model?
 
-**Model answer:** Her factual Microsoft escalation work supports ambiguity management, evidence, impact, cadence, Engineering partnership, RCA, and validation. M365 expertise supports layered SaaS troubleshooting. SQL, Power BI, statistics, and MBA analytics support data quality, measures, and QBRs. Mentoring and partner training support enablement. The honest gap is direct Zscaler/SecOps TSM production experience, which she addresses with structured learning, synthetic practice, clear boundaries, and a concrete ramp plan.
+**Model answer:** Your factual enterprise escalation work supports ambiguity management, evidence, impact, cadence, Engineering partnership, RCA, and validation. M365 expertise supports layered SaaS troubleshooting. SQL, Power BI, statistics, and MBA analytics support data quality, measures, and QBRs. Mentoring and partner training support enablement. The honest gap is direct Zscaler/SecOps TSM production experience, which you address with structured learning, synthetic practice, clear boundaries, and a concrete ramp plan.
 
 ## 30-Second Memory Hooks
 
@@ -911,14 +911,14 @@ These sources support bounded public positioning and general cybersecurity/custo
 | Renewal risk | Triangulated smoke alarm, not forecast |
 | Roadmap | Dependency gates and fallback paths |
 | NMH | Always fictional and synthetic |
-| Arti bridge | Escalation, analytics, enablement, honest ramp |
+| Experience bridge | Escalation, analytics, enablement, honest ramp |
 
 ## Completion Checklist
 
 - [ ] I can explain TSM, strategic engagement, success plan, milestone, adoption, health, value hypothesis, QBR, sponsor, champion, renewal risk, and RACI from zero.
 - [ ] I applied the Part 111 shared portfolio contract to A01-A18.
 - [ ] I kept NMH, every stakeholder, timeline, source, metric, result, decision, and renewal signal explicitly fictional and synthetic.
-- [ ] I separated Arti's supported facts from lab practice and learned product concepts.
+- [ ] I separated your supported facts from lab practice and learned product concepts.
 - [ ] I ran decision-focused discovery and recorded facts, assumptions, unknowns, and changed plans.
 - [ ] I built a technical success plan with outcomes, entry/exit evidence, owners, dependencies, health, and risks.
 - [ ] I modeled six source contracts and reconciled source-to-output counts.

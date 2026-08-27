@@ -1,14 +1,14 @@
 # Part 80 - Why Traditional Vulnerability Prioritization Fails
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 
 > **Purpose:** Explain why traditional vulnerability prioritization often creates enormous queues without reliable risk reduction. Cover CVSS-only sorting, source and team silos, missing asset/business/identity/path/control/threat context, data-quality and ownership defects, duplicates and grain errors, SLA gaming, exception debt, static reporting, alert fatigue, remediation friction, program anti-patterns, troubleshooting, redesign principles, synthetic customer scenarios, and TSM value.
 
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer. Every NMH asset, finding, score, policy, queue, date, team, metric, incident, decision, and result is invented. Arti's factual experience is Microsoft 365, OneDrive, and SharePoint support; networking and traces; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler, UVM, Data Fabric, Risk360, CAASM, CTEM, scanner, and vulnerability-program administration remain learning boundaries. Synthetic diagnosis is practice, not a customer result.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer. Every NMH asset, finding, score, policy, queue, date, team, metric, incident, decision, and result is invented. Your factual experience is Microsoft 365, OneDrive, and SharePoint support; networking and traces; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler, UVM, Data Fabric, Risk360, CAASM, CTEM, scanner, and vulnerability-program administration remain learning boundaries. Synthetic diagnosis is practice, not a customer result.
 
 > **Currency caveat:** Vulnerability volumes, threat evidence, product capabilities, organizational structures, metrics, regulations, and remediation methods change. The controlled official-source snapshot and review date for this Part is exactly **2026-08-24**. Current standards, official records, customer policy, source evidence, licensed product documentation, authorized tests, governance decisions, and measured postconditions govern real use.
 
-> **Section goal:** Enable Arti to diagnose prioritization failure as a connected people-process-data-technology system rather than blame analysts or buy another score. She should be able to explain why common queues fail, identify the controlling defect, propose a context-rich and evidence-governed operating model, and communicate improvement without inventing formulas or outcomes.
+> **Section goal:** Enable you to diagnose prioritization failure as a connected people-process-data-technology system rather than blame analysts or buy another score. You should be able to explain why common queues fail, identify the controlling defect, propose a context-rich and evidence-governed operating model, and communicate improvement without inventing formulas or outcomes.
 
 **Prioritization** means deciding which evidence, investigation, treatment, or validation deserves attention first and why. Traditional programs often approximate this decision by sorting every finding by a technical severity score and applying a fixed remediation deadline. That approach is simple and auditable, but simplicity becomes distortion when the queue omits applicability, exploitation, reachability, identity, controls, business impact, ownership, feasibility, confidence, and source health.
 
@@ -62,10 +62,10 @@ flowchart LR
 
 | Evidence class | Neutral statement | Boundary |
 |---|---|---|
-| Factual background | Arti has diagnosed cross-layer Microsoft incidents, correlated evidence, managed escalations, and communicated customer impact and next steps | This is not production VM-program ownership |
+| Factual background | You have diagnosed cross-layer enterprise incidents, correlated evidence, managed escalations, and communicated customer impact and next steps | This is not production VM-program ownership |
 | Transferable systems thinking | Error code, tenant, user, permission, network, service, data, and business impact had to be connected | Transfer does not prove UVM administration |
 | Synthetic practice | NMH anti-pattern diagnosis, queue redesign, SQL models, and dashboards are fictional | No customer outcome claim |
-| Learned architecture | Arti can explain prioritization factors and governance from current study and official sources | No proprietary formula claimed |
+| Learned architecture | You can explain prioritization factors and governance from current study and official sources | No proprietary formula claimed |
 | Official public product claim | Any Zscaler statement is source-bounded and dated | No UI field, default, entitlement, or result inferred |
 | Unknown | Customer-specific weights, policies, maturity, and product behavior require discovery and testing | Unknown is not filled with assumption |
 
@@ -102,7 +102,7 @@ A spreadsheet can be sorted correctly by CVSS and still be a poor priority syste
 
 The fix is not simply "add more scores." First define the decision. Is the queue for urgent investigation, patch deployment, control validation, owner assignment, exception review, or executive investment? Each queue needs different gates and context. An identity-conflicted public asset may belong at the top of an evidence queue even before technical risk is fully known. An applicable KEV item may enter an accelerated treatment cohort. A repeated vulnerable base image may create a root-cause campaign. One global list cannot serve every user.
 
-Arti has seen the same pattern in support. Sorting cases by error code would ignore tenant scale, service impact, reproducibility, workaround, and time sensitivity. A severity label helped route work, but customer context determined the operating decision.
+You have seen the same pattern in support. Sorting cases by error code would ignore tenant scale, service impact, reproducibility, workaround, and time sensitivity. A severity label helped route work, but customer context determined the operating decision.
 
 ## CVSS-only queues and severity-equals-risk
 
@@ -463,7 +463,7 @@ flowchart TD
 
 A dashboard displays a model of selected data. It can be wrong because the source failed, the asset merged incorrectly, a field mapping changed, a filter excluded a cohort, a join multiplied rows, or the definition changed. A green trend is a hypothesis that needs a cause bridge.
 
-Arti's Power BI experience is especially relevant. A measure requires a grain and denominator. Relationships can create double counting. Refresh success does not prove semantic completeness. Filters can change interpretation. A responsible TSM asks whether the view reconciles to source, actions, and postconditions and whether an operator can explain one representative record.
+Your Power BI experience is especially relevant. A measure requires a grain and denominator. Relationships can create double counting. Refresh success does not prove semantic completeness. Filters can change interpretation. A responsible TSM asks whether the view reconciles to source, actions, and postconditions and whether an operator can explain one representative record.
 
 ## Alert fatigue, trust, and adoption
 
@@ -704,7 +704,7 @@ This is an adaptive learning sequence, not a delivery promise or product impleme
 | 19 | AI scoring challenge | Governance review | Opaque/autonomous decisions rejected |
 | 20 | Interview rehearsal | Q1-Q8 recording | Claims remain factual, synthetic, source-bounded |
 
-## Arti bridge: escalation systems thinking to prioritization
+## Experience bridge: escalation systems thinking to prioritization
 
 | Factual strength | Prioritization transfer | Interview phrasing | Boundary |
 |---|---|---|---|
@@ -789,9 +789,9 @@ Official sources support technical severity, exploitation, risk, governance, vul
 
 **Model answer:** I stop automated closure and unsupported success claims, select one cohort and representative episode, and trace source scope/health/time, asset/component identity and lifecycle, business/owner context, path/identity/control evidence, CVSS/EPSS/KEV semantics, policy/model version, tickets/SLAs/exceptions/validation, and report grain/filter/refresh. I run the repair in shadow, reconcile every downstream artifact, restate history, communicate affected decisions, and add an invariant.
 
-### Q8. How does Arti's background transfer while preserving the experience boundary?
+### Q8. How does your background transfer while preserving the experience boundary?
 
-**Model answer:** Microsoft escalations taught me that an error or advisory needs exact tenant, user, device, permission, network path, service state, customer impact, evidence quality, and ownership before action. Networking/traces support path reasoning; SQL and Power BI support grain, joins, temporal state, denominators, and honest trends; escalation and mentoring support cross-team adoption and communication; AI can assist reviewed grouping. NMH is synthetic, and production UVM/scoring/program ownership remains a learning boundary.
+**Model answer:** enterprise escalations taught me that an error or advisory needs exact tenant, user, device, permission, network path, service state, customer impact, evidence quality, and ownership before action. Networking/traces support path reasoning; SQL and Power BI support grain, joins, temporal state, denominators, and honest trends; escalation and mentoring support cross-team adoption and communication; AI can assist reviewed grouping. NMH is synthetic, and production UVM/scoring/program ownership remains a learning boundary.
 
 ## 30-Second Memory Hooks
 
@@ -819,7 +819,7 @@ Official sources support technical severity, exploitation, risk, governance, vul
 | Validation | Close the condition, not the clock |
 | Adoption | Correct routine work, not logins |
 | TSM | Connect evidence, process, people, product, and outcome |
-| Arti bridge | Error code alone never set incident priority |
+| Experience bridge | Error code alone never set incident priority |
 
 ## Completion Checklist
 
@@ -859,7 +859,7 @@ Official sources support technical severity, exploitation, risk, governance, vul
 - [ ] I can explain all seven synthetic NMH scenarios and the fictional 90-day sequence without presenting them as results or promises.
 - [ ] I can create the failure map, anti-pattern inventory, decision charter, grain dictionary, context matrix, ownership model, priority record, metric audit, exception register, trend bridge, workflow contract, adoption log, and executive narrative.
 - [ ] I can complete all twenty labs using synthetic evidence.
-- [ ] I connect Microsoft support, traces, SQL/Power BI, escalation, mentoring, and AI to prioritization honestly.
+- [ ] I connect enterprise support, traces, SQL/Power BI, escalation, mentoring, and AI to prioritization honestly.
 - [ ] I retain the official-source snapshot/review date exactly as 2026-08-24 and label future synthetic dates explicitly.
 - [ ] I make no unsupported UVM/Data Fabric field, formula, default, entitlement, tenant, or customer-outcome claim.
 - [ ] I can answer Q1 through Q8 with system causes, evidence, redesign logic, safeguards, and experience boundaries.

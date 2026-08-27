@@ -2,7 +2,7 @@
 
 > **Section goal:** Understand Microsoft Teams as a collaboration experience built across multiple Microsoft 365 services, then secure its identities, teams, channels, meetings, events, external relationships, apps, data and operations. By the end, you should be able to design and troubleshoot guest/federated/shared-channel access, meeting and messaging controls, app consent, sensitivity/DLP/retention/eDiscovery, Conditional Access, recordings, policy propagation and common join/file failures.
 
-This Part maps to Deloitte's Microsoft 365 workload assessment, security architecture, configuration, incident troubleshooting, compliance, transformation and operational-readiness responsibilities. It builds on Entra external identity and cross-tenant controls from Parts 6–14, Exchange and Defender from [Parts 21–22](Part-22-eop-defender-office-365.md), and prepares the file/permission depth in [Part 24](Part-24-sharepoint-onedrive-security-sharing-sync-governance.md). Arti's direct production SharePoint/OneDrive and sync experience is a real advantage because Teams file access frequently depends on those services; Teams security implementation remains learning/lab evidence.
+This Part maps to Deloitte's Microsoft 365 workload assessment, security architecture, configuration, incident troubleshooting, compliance, transformation and operational-readiness responsibilities. It builds on Entra external identity and cross-tenant controls from Parts 6–14, Exchange and Defender from [Parts 21–22](Part-22-eop-defender-office-365.md), and prepares the file/permission depth in [Part 24](Part-24-sharepoint-onedrive-security-sharing-sync-governance.md). Your direct production SharePoint/OneDrive and sync experience is a real advantage because Teams file access frequently depends on those services; Teams security implementation remains learning/lab evidence.
 
 > **Currency, licensing, preview, portal, and change-sensitive note:** This chapter was checked against official Microsoft Learn available on **August 24, 2026**. Teams licenses and regional unbundling, Teams Premium, Audio Conferencing/Phone, webinar/town hall limits, meeting templates, sensitivity-label capabilities, external-access federation, cross-tenant access, shared channels, B2B direct connect, app-centric management, unified app management, app permission/setup policies, agent governance, resource-specific consent, recording locations, policy propagation and sovereign-cloud behavior change. Teams admin center navigation is also moving toward unified policies/settings. Microsoft documentation dated February 27, 2026 says app-centric management replaces app permission policies after a tenant is migrated; a tenant uses the applicable model, not both as competing authorities. Verify Product Terms, Teams service descriptions, Microsoft 365 roadmap/Message center, current admin-center experience and Purview/Entra licenses before production design.
 
@@ -19,9 +19,9 @@ This Part maps to Deloitte's Microsoft 365 workload assessment, security archite
 
 ## Candidate honesty note
 
-Arti may directly use production SharePoint Online, OneDrive, sync, migration, permissions and M365 support evidence when explaining Teams file storage, sharing, synchronization, access failures, service dependencies, incident handling and RCA. She may also use stakeholder, vendor/product-group, documentation, mentoring and KPI experience.
+You may directly use production SharePoint Online, OneDrive, sync, migration, permissions and M365 support evidence when explaining Teams file storage, sharing, synchronization, access failures, service dependencies, incident handling and RCA. You may also use stakeholder, vendor/product-group, documentation, mentoring and KPI experience.
 
-Arti should not claim production ownership of Teams meeting policies, federation, cross-tenant access, shared channels, Teams apps, resource-specific consent, information barriers, DLP/retention, Teams Phone or security implementation unless separately evidenced. Safe wording is:
+You should not claim production ownership of Teams meeting policies, federation, cross-tenant access, shared channels, Teams apps, resource-specific consent, information barriers, DLP/retention, Teams Phone or security implementation unless separately evidenced. Safe wording is:
 
 > “My direct production depth is SharePoint Online, OneDrive, sync, migration, permissions and M365 support escalation. That transfers strongly to Teams because channel files, chat files and recordings depend on SharePoint/OneDrive. Teams security configuration itself is current learning and paper-lab evidence. I can design the identity, meeting, external collaboration, app, data and troubleshooting controls, and I would implement with Teams, Entra, SharePoint, Exchange, Purview, network and telephony owners.”
 
@@ -625,7 +625,7 @@ Do not “fix” a shared-channel issue by inviting the user as a guest unless t
 
 ## 28. Troubleshooting file and recording access
 
-This is Arti's strongest bridge. Begin with the actual SharePoint/OneDrive URL and item, not the Teams tab. Identify standard/private/shared channel or chat/meeting scenario, owner, site, membership, link type, direct permissions, sensitivity label, DLP, Conditional Access/unmanaged-device control, retention and sync state.
+This is your strongest bridge. Begin with the actual SharePoint/OneDrive URL and item, not the Teams tab. Identify standard/private/shared channel or chat/meeting scenario, owner, site, membership, link type, direct permissions, sensitivity label, DLP, Conditional Access/unmanaged-device control, retention and sync state.
 
 | Teams symptom | Owning-layer check |
 |---|---|
@@ -855,4 +855,4 @@ First-party sources checked on **August 24, 2026**; recheck current licensing, p
 
 ---
 
-*Next suggested section:* [Part 24](Part-24-sharepoint-onedrive-security-sharing-sync-governance.md) — go deep on the SharePoint and OneDrive permission, sharing, sync, device, migration, data-governance and incident layers behind Teams files and Arti's strongest direct production experience.
+*Next suggested section:* [Part 24](Part-24-sharepoint-onedrive-security-sharing-sync-governance.md) — go deep on the SharePoint and OneDrive permission, sharing, sync, device, migration, data-governance and incident layers behind Teams files and your strongest direct production experience.

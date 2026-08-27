@@ -2,7 +2,7 @@
 
 ## Section goal
 
-This Part builds a beginner-friendly, support-ready model for a security integration spanning CrowdStrike Falcon, Splunk, and Cortex XSOAR. It is explicitly a **learned architecture and synthetic paper lab**. Arti must not claim production Splunk administration, CrowdStrike operation, Cortex XSOAR administration, detection response, endpoint containment, SIEM search ownership, playbook deployment, or API integration unless real evidence supports that statement.
+This Part builds a beginner-friendly, support-ready model for a security integration spanning CrowdStrike Falcon, Splunk, and Cortex XSOAR. It is explicitly a **learned architecture and synthetic paper lab**. You must not claim production Splunk administration, CrowdStrike operation, Cortex XSOAR administration, detection response, endpoint containment, SIEM search ownership, playbook deployment, or API integration unless real evidence supports that statement.
 
 A **security information and event management (SIEM)** platform collects security data, parses and indexes it, makes it searchable, correlates activity, and can generate alerts. Splunk can fill that role, but the exact products, topology, apps, add-ons, data models, retention, permissions, and detection content vary. Receiving bytes is not the same as indexing an event; indexing is not the same as parsing or normalizing it correctly; searchability is not the same as a correlation search generating a notable event or case.
 
@@ -41,17 +41,17 @@ After completing this Part, you should be able to:
 - troubleshoot missing, delayed, duplicate, malformed, mis-timed, mis-normalized, misclassified, stuck-playbook, unauthorized, and misleading-success cases;
 - build a source-to-SIEM-to-SOAR-to-target evidence ledger with immutable IDs, UTC, counts, status, and ownership;
 - create a privacy-minimized escalation packet without credentials, tokens, authorization headers, endpoint data, raw security payloads, command secrets, or customer identifiers; and
-- present all three products as learned architecture while using Microsoft production support, incident handling, ETW/log correlation, networking, identity, and escalation as transferable strengths.
+- present all three products as learned architecture while using prior production support, incident handling, ETW/log correlation, networking, identity, and escalation as transferable strengths.
 
 ## JD Mapping
 
-| Supplied role signal | Capability built | Arti's transferable evidence | Boundary |
+| Supplied role signal | Capability built | Your transferable evidence | Boundary |
 |---|---|---|---|
 | Splunk ecosystem | Ingestion, index/source/sourcetype/time, search, CIM, alert evidence | Microsoft telemetry/log correlation | Learned architecture only |
 | CrowdStrike ecosystem | OAuth scopes, source IDs, detections/incidents/hosts, API/stream retrieval | Security/identity/network investigation | No Falcon production claim |
 | Cortex XSOAR | Instances, fetch, mapping, context, playbooks, commands, audit | Automation/RCA workflow thinking | No XSOAR production claim |
 | Integrations | Joined source-delivery-index-fetch-action ledger | APIs, distributed troubleshooting | Synthetic metadata only |
-| Customer troubleshooting | Missing/delayed/duplicate/schema/permission/playbook diagnosis | CRITSIT and escalation | No customer security data |
+| Customer troubleshooting | Missing/delayed/duplicate/schema/permission/playbook diagnosis | critical situation and escalation | No customer security data |
 | SaaS security | Least privilege, secret handling, approvals, rollback, audit | Microsoft security experience | No live response actions |
 | Networking | DNS/TLS/proxy/timeout/retry/rate isolation | Production networking support | No endpoint bypass |
 | APIs | OAuth clients/scopes, pagination/cursors, checkpoints, idempotency | REST/JSON working knowledge | No API calls in lab |
@@ -70,7 +70,7 @@ After completing this Part, you should be able to:
 
 Safe interview language:
 
-> “My Splunk, CrowdStrike, and Cortex XSOAR knowledge is current-doc and synthetic-lab based. My production strength is Microsoft support: correlating distributed evidence, isolating identity/network/API layers, managing incidents, and producing engineering-ready escalations. For this integration, I would identify the Falcon tenant/region/client scopes/source object and checkpoint; prove Splunk delivery, index, source, sourcetype, event/index time, searchability, and normalization; then prove XSOAR instance, fetch `lastRun`, mirror/incident IDs, mapping, playbook task, command, and external read-back. I would not request tokens, authorization headers, raw endpoint telemetry, or execute response actions outside approved controls.”
+> “My Splunk, CrowdStrike, and Cortex XSOAR knowledge is current-doc and synthetic-lab based. My production strength is enterprise support: correlating distributed evidence, isolating identity/network/API layers, managing incidents, and producing engineering-ready escalations. For this integration, I would identify the Falcon tenant/region/client scopes/source object and checkpoint; prove Splunk delivery, index, source, sourcetype, event/index time, searchability, and normalization; then prove XSOAR instance, fetch `lastRun`, mirror/incident IDs, mapping, playbook task, command, and external read-back. I would not request tokens, authorization headers, raw endpoint telemetry, or execute response actions outside approved controls.”
 
 ## 1. SIEM, EDR, and SOAR from zero
 
@@ -1108,7 +1108,7 @@ The lab creates no tenant, API client, secret, token, HEC input, index, event, S
 | Mapping | Copies payload | Field map | Classifier/mapper/types/stable keys/context/playbook version |
 | Automation | Green command | Has approval | Read-only, least scope, allowlist, max targets, read-back, rollback, stop |
 | Evidence | Raw payloads | Some IDs | Native IDs/counts/UTC/status/owners with no secrets/security data |
-| Honesty | Claims production | Says learned | Microsoft transfer, synthetic three-product lab, Abnormal unknown |
+| Honesty | Claims production | Says learned | experience transfer, synthetic three-product lab, Abnormal unknown |
 
 ## 51. Official Source Anchors
 
@@ -1171,7 +1171,7 @@ All sources were verified and recorded with guide currency date **August 24, 202
 
 ### Q8. What are your experience boundaries for these platforms?
 
-**Model answer:** My Splunk, CrowdStrike, and Cortex XSOAR knowledge is current-doc and synthetic-lab based. My production evidence is Microsoft support, distributed log/network/identity investigation, incident management, and engineering escalation. I do not claim platform administration or live response, and Abnormal's exact integrations remain unknown without approved documentation.
+**Model answer:** My Splunk, CrowdStrike, and Cortex XSOAR knowledge is current-doc and synthetic-lab based. My production evidence is enterprise support, distributed log/network/identity investigation, incident management, and engineering escalation. I do not claim platform administration or live response, and Abnormal's exact integrations remain unknown without approved documentation.
 
 ## Memory Hooks
 
@@ -1192,7 +1192,7 @@ All sources were verified and recorded with guide currency date **August 24, 202
 - **Command accepted is not target effective.**
 - **Read-only, approval, allowlist, maximum targets, read-back, rollback.**
 - **UTC and stable IDs join every ledger row.**
-- **Microsoft is production transfer; all three platforms are learned architecture.**
+- **Prior-role work is production transfer; all three platforms are learned architecture.**
 
 ## Completion Checklist
 
@@ -1220,7 +1220,7 @@ All sources were verified and recorded with guide currency date **August 24, 202
 - [ ] I completed or can explain **The Detection Relay and Response Airlock 070**.
 - [ ] The lab includes Prerequisites, Expected evidence, Cleanup and privacy, and Validation rubric.
 - [ ] I used no live tenant, token, API, HEC, search, event, incident, playbook, command, endpoint, or action.
-- [ ] I can state Microsoft transfer, three-platform learned, and Abnormal unknown boundaries.
+- [ ] I can state experience transfer, three-platform learned, and Abnormal unknown boundaries.
 - [ ] I checked Official Source Anchors and recorded **August 24, 2026**.
 - [ ] I can answer exactly Q1-Q8.
 

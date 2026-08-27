@@ -1,8 +1,8 @@
 # Part 39 — Defender XDR Incident Triage, AIR, Attack Disruption, and Response Actions
 
-> **Section goal:** Build a beginner-first, consulting-grade method for operating the Microsoft Defender XDR incident lifecycle: queue prioritization; severity, status, ownership and tags; alerts versus incidents; attack story, timelines, entities and evidence; scope, impact and confidence; investigation across devices, identities, mailboxes, applications and cloud resources; automated investigation and response (AIR); Action Center decisions; endpoint, file, indicator, identity and email response actions; automatic attack disruption; classification, determination and closure; evidence preservation; communications, escalation, rollback, 24x7 handover and post-incident review (PIR). By the end, Arti should be able to explain and safely rehearse a phishing-to-ransomware incident without claiming production Defender XDR operations.
+> **Section goal:** Build a beginner-first, consulting-grade method for operating the Microsoft Defender XDR incident lifecycle: queue prioritization; severity, status, ownership and tags; alerts versus incidents; attack story, timelines, entities and evidence; scope, impact and confidence; investigation across devices, identities, mailboxes, applications and cloud resources; automated investigation and response (AIR); Action Center decisions; endpoint, file, indicator, identity and email response actions; automatic attack disruption; classification, determination and closure; evidence preservation; communications, escalation, rollback, 24x7 handover and post-incident review (PIR). By the end, you should be able to explain and safely rehearse a phishing-to-ransomware incident without claiming production Defender XDR operations.
 
-This Part maps directly to Deloitte expectations for Microsoft Defender XDR, incident response, threat investigation, security operations, Microsoft 365 security, troubleshooting, assessment, remediation planning, operational readiness, documentation, stakeholder communication and 24x7/on-call support. Arti's production strengths in major incidents, Microsoft 365 escalation, RCA, timestamped evidence, service-health correlation, fix validation, multi-team coordination, reporting and handover transfer directly. The honest bridge is disciplined incident method, not a claim that she has isolated production devices, disabled production identities, purged mail or run live response.
+This Part maps directly to Deloitte expectations for Microsoft Defender XDR, incident response, threat investigation, security operations, Microsoft 365 security, troubleshooting, assessment, remediation planning, operational readiness, documentation, stakeholder communication and 24x7/on-call support. Your production strengths in major incidents, Microsoft 365 escalation, RCA, timestamped evidence, service-health correlation, fix validation, multi-team coordination, reporting and handover transfer directly. The honest bridge is disciplined incident method, not a claim that you have isolated production devices, disabled production identities, purged mail or run live response.
 
 > **Currency, licensing, preview and portal-convergence note (August 24, 2026):** This chapter is grounded in official Microsoft Learn content available on August 24, 2026. Microsoft Defender experiences continue converging in `security.microsoft.com`, and Microsoft Sentinel, Exposure Management, Security Copilot and workload-specific features increasingly appear in the unified portal. Names, navigation, role models, action availability, platform support and limits can change. Most full endpoint response capabilities require Defender for Endpoint Plan 2; Plan 1 has a smaller manual-action set. Email AIR and remediation require applicable Defender for Office 365 licensing and permissions. **As of September 1, 2026, endpoint AIR will no longer run as a separate investigation experience or support manual triggering; endpoint detection/remediation remains in the default protection stack, while MDO AIR remains.** Automatic device isolation and several policy/exclusion/activity experiences are preview or rollout-sensitive. Verify Product Terms, service descriptions, Microsoft Defender unified RBAC, workload roles, supported operating systems, tenant settings, Message center, Roadmap and the live portal before design or action.
 
@@ -19,9 +19,9 @@ This Part maps directly to Deloitte expectations for Microsoft Defender XDR, inc
 
 ## Candidate honesty note
 
-Arti can credibly discuss production Microsoft 365 incidents, critical escalations, evidence gathering, RCA, dependency isolation, change/fix validation, stakeholder updates, documentation and multi-team coordination where supported by her experience. Those are central incident-response skills.
+You can credibly discuss production Microsoft 365 incidents, critical escalations, evidence gathering, RCA, dependency isolation, change/fix validation, stakeholder updates, documentation and multi-team coordination where supported by your experience. Those are central incident-response skills.
 
-She should not claim production Defender XDR queue ownership, AIR approval, attack-disruption operation, device isolation, live response, indicator blocking, account disablement, session revocation or mailbox deletion unless separately evidenced. Safe interview wording is:
+You should not claim production Defender XDR queue ownership, AIR approval, attack-disruption operation, device isolation, live response, indicator blocking, account disablement, session revocation or mailbox deletion unless separately evidenced. Safe interview wording is:
 
 > “My production experience is Microsoft 365 incident support, RCA, evidence timelines, fix validation and stakeholder coordination. I have built a current Defender XDR response design and completed a synthetic phishing-to-ransomware paper exercise covering queue triage, cross-domain scope, AIR and Action Center review, approval-controlled containment, rollback, handover and PIR. I have not operated Defender XDR response actions in production. In a client tenant I would verify licensing, unified RBAC, platform support and evidence retention; use the least disruptive sufficient action; require approval for high-impact changes; validate each result independently; and document residual risk.”
 
@@ -758,7 +758,7 @@ Create these paper records in the exercise worksheet, not as new workspace files
 
 1. Incident card with ID `DXDR-EX-039`, high severity, Active status and no initial owner.
 2. Five alerts: user-reported phish, malicious URL click, suspicious script, lateral-movement attempt and ransomware behavior.
-3. Entities: `arti.test@example.com`, `LAB-W11-039`, `FS-LAB-01`, synthetic URL `hxxps://invoice.example.com/a`, synthetic SHA-256 and a test OAuth app.
+3. Entities: `test.user@example.com`, `LAB-W11-039`, `FS-LAB-01`, synthetic URL `hxxps://invoice.example.com/a`, synthetic SHA-256 and a test OAuth app.
 4. Timeline with event time and alert time separated.
 5. AIR worksheet with trigger, analyzed entities, evidence, verdict and proposed action.
 6. Action Center worksheet with one approved, one rejected, one failed and one undone action.
@@ -797,7 +797,7 @@ Create these paper records in the exercise worksheet, not as new workspace files
 
 ## 33. JD Mapping: interview translation
 
-| Interview prompt | Arti's factual production strength | Honest Defender XDR bridge |
+| Interview prompt | Your factual production strength | Honest Defender XDR bridge |
 |---|---|---|
 | “How do you triage incidents?” | Critical M365 incident prioritization and evidence | Explain scope/impact/confidence and queue discipline |
 | “How do you contain ransomware?” | Risk-managed incident coordination and validation | Describe proposed isolation/identity/mail actions, not execution |
@@ -879,7 +879,7 @@ Create these paper records in the exercise worksheet, not as new workspace files
 - **Automatic disruption closes fire doors; responders still extinguish and inspect.**
 - **Resolve only after scope, action validation, residual risk and ownership.**
 - **Authorized test is expected activity, not automatically a false positive.**
-- **Arti's bridge is incident rigor, not claimed Defender operations.**
+- **Your bridge is incident rigor, not claimed Defender operations.**
 
 ## Completion Checklist
 

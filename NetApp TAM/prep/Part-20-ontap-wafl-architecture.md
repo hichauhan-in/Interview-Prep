@@ -1,12 +1,12 @@
 # Part 20 - ONTAP and WAFL Architecture from First Principles
 
-> **Section goal:** Understand how ONTAP turns file, block, and supported object requests into protected, consistent storage state through WAFL mappings, cache, nonvolatile write intent, consistency points, checksums, RAID, local tiers, volumes, snapshots, and clones. By the end, Arti should be able to trace reads, writes, failure recovery, and performance symptoms without inventing internal implementation details or claiming production ONTAP experience.
+> **Section goal:** Understand how ONTAP turns file, block, and supported object requests into protected, consistent storage state through WAFL mappings, cache, nonvolatile write intent, consistency points, checksums, RAID, local tiers, volumes, snapshots, and clones. By the end, you should be able to trace reads, writes, failure recovery, and performance symptoms without inventing internal implementation details or claiming production ONTAP experience.
 
 Covers index item **20** and maps directly to job-description responsibilities for storage depth, customer-environment analysis, stability and risk mitigation, supportability, performance/capacity reasoning, proactive recommendations, operational reviews, and escalation quality.
 
 This Part explains architecture at a safe conceptual depth. Exact block sizes, in-memory structures, consistency-point triggers, nonvolatile-memory implementation, platform topology, checksums, RAID behavior, cache policy, counters, commands, limits, efficiencies, and recovery procedures vary by ONTAP release, hardware family, configuration, and workload. Verify the exact current release documentation, **Interoperability Matrix Tool (IMT)**, **Hardware Universe (HWU)**, release notes, and authorized system evidence before customer use.
 
-> **No-production-NetApp boundary:** Arti does not claim production NetApp or ONTAP experience. All customers, workloads, counters, timelines, and recommendations below are synthetic. Arti's production strengths are Microsoft enterprise support, Azure, virtual machines, Windows networking, Microsoft 365 data services, analytics, and escalation ownership. She does **not** claim production ONTAP, WAFL, NVRAM/NVMEM, RAID, Snapshot, FlexVol, or recovery administration experience.
+> **No-production-NetApp boundary:** You do not claim production NetApp or ONTAP experience. All customers, workloads, counters, timelines, and recommendations below are synthetic. Your production strengths are enterprise support, Azure, virtual machines, Windows networking, Microsoft 365 data services, analytics, and escalation ownership. You do **not** claim production ONTAP, WAFL, NVRAM/NVMEM, RAID, Snapshot, FlexVol, or recovery administration experience.
 
 ---
 
@@ -590,12 +590,12 @@ flowchart TD
 
 ### JD Mapping
 
-| JD responsibility | Part 20 contribution | Arti's factual bridge and gap |
+| JD responsibility | Part 20 contribution | Your factual bridge and gap |
 |---|---|---|
 | Understand customer environments | Maps client operation through ONTAP/WAFL/RAID and owners | Microsoft dependency mapping transfers; ONTAP topology is unproven in production |
 | Storage depth | Explains mappings, cache, write intent, CP, checksum, snapshots, local tiers, volumes | Structured conceptual knowledge; no WAFL administration claim |
 | Analyze/report data | Defines counters, scope, timelines, baselines, and evidence limits | Excel/Power BI/SQL/statistics and support analytics transfer |
-| Mitigate risk/stability | Identifies degraded intent protection, CP/capacity, integrity, and recovery risks | CRITSIT prioritization transfers; exact action needs ONTAP Support/SMEs |
+| Mitigate risk/stability | Identifies degraded intent protection, CP/capacity, integrity, and recovery risks | critical-situation prioritization transfers; exact action needs ONTAP Support/SMEs |
 | Strategic recommendations | Connects workload, protection, efficiency, capacity, and lifecycle | Advisory method transfers; model/release behavior requires current validation |
 | Improve support experience | Produces an exact object/topology/timeline/escalation pack | Product/Engineering evidence discipline transfers |
 | Operational reviews | Turns telemetry into finding, owner, validation, residual risk | Business-review communication is a strength |
@@ -604,7 +604,7 @@ flowchart TD
 
 ## 14. Fully synthetic scenario: Northwind Clinical Database
 
-> **Synthetic case:** Northwind Clinical Database, all systems, counters, dates, and results below are fictional. The case is not a NetApp benchmark, internal support procedure, or record of Arti's production ONTAP work.
+> **Synthetic case:** Northwind Clinical Database, all systems, counters, dates, and results below are fictional. The case is not a NetApp benchmark, internal support procedure, or record of your production ONTAP work.
 
 ### Environment
 
@@ -702,12 +702,12 @@ flowchart TD
 
 ---
 
-## 15. Arti's Microsoft/Azure/analytics bridge
+## 15. Your prior/Azure/analytics bridge
 
 ```mermaid
 flowchart LR
     M365[Microsoft 365 production support] --> MAP[Layered dependency and identity mapping]
-    CRIT[CRITSIT ownership] --> TIME[Impact timeline evidence and safe restoration]
+    CRIT[Critical-situation ownership] --> TIME[Impact timeline evidence and safe restoration]
     AZ[Azure VM and networking foundation] --> PATH[Host network and shared-responsibility reasoning]
     BI[Analytics Excel Power BI SQL Python] --> METRIC[Counter QA distributions trends and correlation]
     MAP --> ONTAP[ONTAP/WAFL synthetic analysis method]
@@ -723,12 +723,12 @@ flowchart LR
 |---|---|---|
 | SharePoint/OneDrive data-service support | Separate user operation, identity, network, service, metadata, and persistence expectations | WAFL mapping, CP, Snapshot, local-tier operations |
 | Azure/VM/networking | Map host, path, cloud, control-plane, and failure dependencies | ONTAP cluster/data-path administration |
-| CRITSIT/Product collaboration | Preserve evidence, rank hypotheses, exact escalation ask, customer updates | NetApp internal tooling/process or WAFL debugging |
+| Critical situation/Product collaboration | Preserve evidence, rank hypotheses, exact escalation ask, customer updates | NetApp internal tooling/process or WAFL debugging |
 | Analytics/business reviews | Validate units, time windows, percentiles, trends, and decision story | Exact ONTAP counter semantics without current docs/access |
 
 ### Honest answer
 
-> "I understand the ONTAP/WAFL architecture conceptually: logical mappings and buffer trees, protected NVRAM/NVMEM write intent, consistency points, checksums with RAID, local tiers, FlexVol volumes, snapshots, clones, reads, writes, and recovery. My production experience is Microsoft support and analytics, not ONTAP operation. For a customer conclusion I would use the exact release's documented counters and behavior, authorized read-only evidence, IMT/HWU, and NetApp storage specialists, and I would label this paper case as synthetic."
+> "I understand the ONTAP/WAFL architecture conceptually: logical mappings and buffer trees, protected NVRAM/NVMEM write intent, consistency points, checksums with RAID, local tiers, FlexVol volumes, snapshots, clones, reads, writes, and recovery. My production experience is enterprise support and analytics, not ONTAP operation. For a customer conclusion I would use the exact release's documented counters and behavior, authorized read-only evidence, IMT/HWU, and NetApp storage specialists, and I would label this paper case as synthetic."
 
 ---
 
@@ -821,7 +821,7 @@ flowchart LR
 19. Apply the read/write/recovery troubleshooting tree.
 20. Recreate Northwind's evidence, hypotheses, recommendations, and limitations.
 21. Complete all whiteboard drills and paper-lab tasks.
-22. Deliver Arti's transfer/gap statement without claiming ONTAP production work.
+22. Deliver your transfer/gap statement without claiming ONTAP production work.
 
 ---
 
@@ -899,9 +899,9 @@ flowchart LR
 
 **Follow-up depth:** Recreate Northwind's batch, snapshot, capacity, host-queue, and database-checkpoint hypotheses and define one disconfirming check each.
 
-### Q8. How does your Microsoft background transfer, and what remains a gap?
+### Q8. How does your prior background transfer, and what remains a gap?
 
-> **Model answer:** "My production experience gives me application-impact scoping, Microsoft 365 data-service and identity troubleshooting, Azure/VM/network dependency mapping, analytics, CRITSIT coordination, and Product/Engineering evidence discipline. Those methods transfer to tracing an ONTAP data path and testing hypotheses. I have not administered ONTAP or WAFL in production. I would use exact current release documentation, authorized read-only telemetry, IMT/HWU, Support, and experienced storage specialists and describe my exercises as synthetic."
+> **Model answer:** "My production experience gives me application-impact scoping, Microsoft 365 data-service and identity troubleshooting, Azure/VM/network dependency mapping, analytics, critical-situation coordination, and Product/Engineering evidence discipline. Those methods transfer to tracing an ONTAP data path and testing hypotheses. I have not administered ONTAP or WAFL in production. I would use exact current release documentation, authorized read-only telemetry, IMT/HWU, Support, and experienced storage specialists and describe my exercises as synthetic."
 
 **Follow-up depth:** Give one factual Microsoft example and identify which WAFL, counter, command, failover, and recovery facts it cannot prove.
 
@@ -925,7 +925,7 @@ flowchart LR
 - **FlexClone:** Writable branch sharing unchanged blocks initially.
 - **Checksum plus RAID:** Detect covered damage, reconstruct when redundancy permits.
 - **Telemetry:** Each metric has a field of view; correlation needs a mechanism.
-- **Arti's bridge:** Evidence discipline transfers; ONTAP production operation remains unclaimed.
+- **Your bridge:** Evidence discipline transfers; ONTAP production operation remains unclaimed.
 
 ---
 
@@ -949,7 +949,7 @@ flowchart LR
 - [ ] Run the complete discovery/evidence request and JD mapping.
 - [ ] Recreate Northwind's architecture, evidence, hypotheses, risks, and customer summary.
 - [ ] Complete all whiteboard drills, paper lab, self-test, and Q1-Q8 aloud.
-- [ ] State Arti's strengths and ONTAP/WAFL production gap precisely.
+- [ ] State your strengths and ONTAP/WAFL production gap precisely.
 - [ ] Recheck exact release/platform docs, IMT, HWU, commands/API fields, support state, and authorized telemetry before customer use.
 
 ---

@@ -19,7 +19,7 @@ This Part assumes the enrollment, policy, compliance, app, update, and lifecycle
 
 ## Candidate honesty note
 
-Arti can credibly connect this Part to production critical-incident handling, Microsoft 365 client and access troubleshooting, RCA, fix validation, product-group/vendor coordination, documentation, KPI reporting, customer communications, and security-aligned guidance. Those skills are directly valuable when endpoint security causes or exposes an application, network, access, or service incident.
+You can credibly connect this Part to production critical-incident handling, Microsoft 365 client and access troubleshooting, RCA, fix validation, product-group/vendor coordination, documentation, KPI reporting, customer communications, and security-aligned guidance. Those skills are directly valuable when endpoint security causes or exposes an application, network, access, or service incident.
 
 This Part does **not** claim production ownership of Defender Antivirus/ASR, BitLocker/FileVault, MDE onboarding, LAPS, EPM, firewall, application control, security baselines, or ransomware response tooling. Safe wording is:
 
@@ -173,7 +173,7 @@ An antivirus **exclusion** tells Defender not to scan a specified path, process,
 | Exclusion review field | Required content |
 |---|---|
 | Business/application owner | Accountable service and contact |
-| Vendor/Microsoft evidence | Current documented recommendation, not forum folklore |
+| Vendor/prior evidence | Current documented recommendation, not forum folklore |
 | Exact scope | Path/process/extension/device group; least broad |
 | Permissions | Who can write/execute in excluded location |
 | Threat impact | Abuse path and likely blast radius |
@@ -763,7 +763,7 @@ Contoso has 2,500 Windows endpoints, 300 Macs, a third-party AV contract ending 
 
 ### Q3. How do you manage antivirus exclusions safely?
 
-> **Model answer:** I require vendor/Microsoft evidence, identify exact path/process semantics and who can write/execute there, reproduce the compatibility/performance issue, and choose the narrowest scope and ring. I add compensating controls, monitoring, owner, risk approval and expiry, then retest. I reject broad user-writable paths, drives, script engines or security folders and never use exclusions to make a dashboard green.
+> **Model answer:** I require vendor/prior evidence, identify exact path/process semantics and who can write/execute there, reproduce the compatibility/performance issue, and choose the narrowest scope and ring. I add compensating controls, monitoring, owner, risk approval and expiry, then retest. I reject broad user-writable paths, drives, script engines or security folders and never use exclusions to make a dashboard green.
 
 ### Q4. How would you deploy ASR and App Control without disrupting the business?
 
@@ -823,7 +823,7 @@ Contoso has 2,500 Windows endpoints, 300 Macs, a third-party AV contract ending 
 - [ ] I can plan staged deployment, safe testing, rollback and operations.
 - [ ] I can lead the paper ransomware scenario with SOC/identity/storage/endpoint roles.
 - [ ] I completed or can explain the safe lab as non-production evidence.
-- [ ] I can answer Q1-Q8 aloud and preserve Arti's honesty boundary.
+- [ ] I can answer Q1-Q8 aloud and preserve your honesty boundary.
 - [ ] I will recheck current platform, baseline, licensing, preview and retirement guidance.
 
 ---

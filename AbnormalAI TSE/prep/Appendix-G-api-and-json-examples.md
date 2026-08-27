@@ -30,11 +30,11 @@ All `json` fences contain strict JSON with no comments or trailing commas. Expla
 
 ## Candidate Honesty and Safety Boundary
 
-Arti may truthfully connect API reasoning, evidence correlation, PowerShell, browser/network diagnostics, and safe lab practice to her Microsoft enterprise-support background and upskilling. She must not claim that these samples came from production or that she directly operated Abnormal AI, Google Workspace, Slack, Okta, Splunk, CrowdStrike, Cortex SOAR, Zendesk, Salesforce, Jira, or Zoom in production.
+You may truthfully connect API reasoning, evidence correlation, PowerShell, browser/network diagnostics, and safe lab practice to your prior enterprise-support background and upskilling. You must not claim that these samples came from production or that you directly operated Abnormal AI, Google Workspace, Slack, Okta, Splunk, CrowdStrike, Cortex SOAR, Zendesk, Salesforce, Jira, or Zoom in production.
 
 Safe interview wording:
 
-> “These are standards-grounded, synthetic API examples. My production foundation is Microsoft enterprise support and evidence-led troubleshooting; my API depth is reinforced through safe public/local labs. I would verify the actual contract and authorized tooling rather than infer private platform behavior.”
+> “These are standards-grounded, synthetic API examples. My production foundation is enterprise support and evidence-led troubleshooting; my API depth is reinforced through safe public/local labs. I would verify the actual contract and authorized tooling rather than infer private platform behavior.”
 
 Security boundary:
 

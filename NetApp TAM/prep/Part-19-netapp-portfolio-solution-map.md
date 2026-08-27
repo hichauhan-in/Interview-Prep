@@ -1,12 +1,12 @@
 # Part 19 - NetApp Portfolio and Solution Map
 
-> **Section goal:** Build a current, beginner-first map of the NetApp portfolio and learn how to choose a solution category from customer requirements rather than from a product name. By the end, Arti should be able to distinguish ONTAP-based systems, dedicated object and block families, BlueXP management and data-service context, Cloud Volumes ONTAP, and first-party cloud services involving NetApp technology, then present a version-aware recommendation with evidence, ownership, validation, and residual risk.
+> **Section goal:** Build a current, beginner-first map of the NetApp portfolio and learn how to choose a solution category from customer requirements rather than from a product name. By the end, you should be able to distinguish ONTAP-based systems, dedicated object and block families, BlueXP management and data-service context, Cloud Volumes ONTAP, and first-party cloud services involving NetApp technology, then present a version-aware recommendation with evidence, ownership, validation, and residual risk.
 
 Covers index item **19** and maps directly to job-description responsibilities for understanding customer environments, strategic storage advice, risk mitigation, supportability, lifecycle planning, customer-specific recommendations, operational reviews, cross-functional work, and clear technical communication.
 
 This Part deliberately avoids hard model specifications, limits, prices, license promises, regional availability, and feature matrices. Product names, platform generations, media choices, protocols, cloud regions, service tiers, licensing, management integrations, lifecycle state, and support status change. For real work, verify the exact current product page and release documentation, the **Interoperability Matrix Tool (IMT)**, **Hardware Universe (HWU)**, applicable cloud-provider documentation, service descriptions, contracts, and authorized customer evidence.
 
-> **No-production-NetApp boundary:** Arti does not claim production NetApp experience. Every customer, workload, score, design, and recommendation below is synthetic. Arti's factual strengths are Microsoft enterprise support, Azure, virtual machines, Windows networking, Microsoft 365 data services, escalation ownership, analytics, and customer communication. She does **not** claim production experience selecting, administering, upgrading, or supporting ONTAP, AFF, ASA, FAS, StorageGRID, E-Series, BlueXP, Cloud Volumes ONTAP, or first-party cloud file services involving NetApp technology.
+> **No-production-NetApp boundary:** You do not claim production NetApp experience. Every customer, workload, score, design, and recommendation below is synthetic. Your factual strengths are enterprise support, Azure, virtual machines, Windows networking, Microsoft 365 data services, escalation ownership, analytics, and customer communication. You do **not** claim production experience selecting, administering, upgrading, or supporting ONTAP, AFF, ASA, FAS, StorageGRID, E-Series, BlueXP, Cloud Volumes ONTAP, or first-party cloud file services involving NetApp technology.
 
 ---
 
@@ -613,7 +613,7 @@ flowchart TD
 
 | Job responsibility or requirement | How Part 19 prepares the candidate | Evidence and honesty boundary |
 |---|---|---|
-| Understand the customer's environment | Starts with workload semantics, protocols, deployment locations, protection needs, operating model, and business constraints before selecting a product category | Arti can transfer dependency mapping from Microsoft support; current NetApp estate discovery remains a learned method rather than claimed production work |
+| Understand the customer's environment | Starts with workload semantics, protocols, deployment locations, protection needs, operating model, and business constraints before selecting a product category | You can transfer dependency mapping from enterprise support; current NetApp estate discovery remains a learned method rather than claimed production work |
 | Apply NetApp knowledge to improve support experience | Provides a portfolio map that routes questions and evidence toward the relevant platform, service, owner, and specialist | Category-level understanding must be followed by current product documentation and authorized customer evidence |
 | Provide strategic planning and best practices | Teaches requirement-led selection, options, tradeoffs, lifecycle questions, and a phased recommendation structure | It does not substitute for sizing, architecture review, IMT, Hardware Universe, licensing, or account-specific validation |
 | Understand supportability and risk parameters | Separates workload fit from exact configuration support and requires current documentation, IMT, Hardware Universe, entitlement, and specialist review where applicable | No platform, release, limit, or compatibility fact is inferred from portfolio marketing language |
@@ -624,7 +624,7 @@ flowchart TD
 
 ## 15. Fully synthetic scenario: Meridian Bioanalytics
 
-> **Synthetic case:** Meridian Bioanalytics, every workload, site, score, price concern, and decision below are fictional. The exercise does not represent NetApp sizing, a customer design, an internal sales process, or Arti's production experience.
+> **Synthetic case:** Meridian Bioanalytics, every workload, site, score, price concern, and decision below are fictional. The exercise does not represent NetApp sizing, a customer design, an internal sales process, or your production experience.
 
 ### Requirements
 
@@ -698,11 +698,11 @@ It proves a method: separate data jobs, compare categories neutrally, verify cur
 
 ---
 
-## 16. Arti's support, Azure, networking, and analytics bridge
+## 16. Your support, Azure, networking, and analytics bridge
 
 ```mermaid
 flowchart LR
-    PROD[Microsoft production evidence] --> SYS[Dependency and customer-impact thinking]
+    PROD[prior production evidence] --> SYS[Dependency and customer-impact thinking]
     PROD --> AZ[Azure VM network identity and service context]
     PROD --> DATA[SharePoint OneDrive data and permissions context]
     PROD --> ANALYTICS[Excel Power BI SQL Python and trends]
@@ -717,7 +717,7 @@ flowchart LR
 
 | Factual background | Natural advantage | Explicit gap |
 |---|---|---|
-| Microsoft enterprise support and CRITSIT ownership | Scope impact, organize evidence, coordinate owners, communicate uncertainty | No NetApp platform incident ownership |
+| enterprise support and critical-situation ownership | Scope impact, organize evidence, coordinate owners, communicate uncertainty | No NetApp platform incident ownership |
 | Azure, virtual machines, and networking | Understand cloud responsibility, routes, identity, regions, and service dependencies | No CVO or first-party NetApp cloud service deployment experience |
 | SharePoint and OneDrive | Understand user-facing data service, permissions, sync, recovery expectations | Not equivalent to ONTAP NAS, StorageGRID, or block storage administration |
 | Analytics, Excel, Power BI, SQL, Python, MBA | Build scorecards, forecasts, evidence quality, option tradeoffs, executive story | No NetApp sizing or proprietary-tool result may be claimed |
@@ -725,7 +725,7 @@ flowchart LR
 
 ### Honest interview language
 
-> "I can map the NetApp portfolio and explain how I would select a category from workload semantics, deployment, protection, security, operations, supportability, and economics. My production evidence is Microsoft support, Azure/networking, data-service troubleshooting, analytics, and customer communication. I have not selected or operated NetApp products in production. I would therefore validate exact current product generations, features, limits, licenses, regions, IMT/HWU results, and provider responsibilities with authorized sources and experienced NetApp specialists before making a customer commitment."
+> "I can map the NetApp portfolio and explain how I would select a category from workload semantics, deployment, protection, security, operations, supportability, and economics. My production evidence is enterprise support, Azure/networking, data-service troubleshooting, analytics, and customer communication. I have not selected or operated NetApp products in production. I would therefore validate exact current product generations, features, limits, licenses, regions, IMT/HWU results, and provider responsibilities with authorized sources and experienced NetApp specialists before making a customer commitment."
 
 ---
 
@@ -738,7 +738,7 @@ flowchart LR
 5. **Cloud boundary:** Draw CVO and a first-party cloud service with different operating responsibilities.
 6. **BlueXP:** Separate management/control dependencies from application data paths.
 7. **Selection:** Use all eight dimensions for one application without naming a product until the end.
-8. **Honesty:** Deliver Arti's strengths and production gap in 45 seconds.
+8. **Honesty:** Deliver your strengths and production gap in 45 seconds.
 
 ---
 
@@ -817,7 +817,7 @@ flowchart LR
 17. Correct every misconception in Section 14.
 18. Recreate Meridian's four data jobs, risks, and category hypotheses.
 19. Complete all eight whiteboard drills and the paper lab.
-20. Deliver Arti's honest background-to-portfolio bridge without claiming production NetApp work.
+20. Deliver your honest background-to-portfolio bridge without claiming production NetApp work.
 
 ---
 
@@ -902,9 +902,9 @@ flowchart LR
 
 **Follow-up depth:** Explain what product pages, release docs, IMT, HWU, provider docs, customer telemetry, and tests each prove and cannot prove.
 
-### Q8. How does your Microsoft background help with NetApp portfolio work, and what is your gap?
+### Q8. How does your prior background help with NetApp portfolio work, and what is your gap?
 
-> **Model answer:** "My production strengths are enterprise support and CRITSIT ownership, Azure and VM/network dependencies, SharePoint and OneDrive data-service and permission reasoning, analytics, and customer communication. Those skills help me discover requirements, separate control and data planes, compare shared responsibilities, validate evidence, and present tradeoffs. I have not selected or operated NetApp products in production, so I would call my portfolio knowledge conceptual and synthetic until I add authorized labs and reviewed work. Exact models, limits, licenses, regions, IMT/HWU results, and customer recommendations require current sources and NetApp specialists."
+> **Model answer:** "My production strengths are enterprise support and critical-situation ownership, Azure and VM/network dependencies, SharePoint and OneDrive data-service and permission reasoning, analytics, and customer communication. Those skills help me discover requirements, separate control and data planes, compare shared responsibilities, validate evidence, and present tradeoffs. I have not selected or operated NetApp products in production, so I would call my portfolio knowledge conceptual and synthetic until I add authorized labs and reviewed work. Exact models, limits, licenses, regions, IMT/HWU results, and customer recommendations require current sources and NetApp specialists."
 
 **Follow-up depth:** Give one factual Azure/M365 example, identify the transferable method, and list the NetApp-specific evidence it cannot supply.
 
@@ -927,7 +927,7 @@ flowchart LR
 - **HWU:** Exact hardware components, limits, and rules.
 - **Supportable is not guaranteed:** Add health, test, rollback, monitoring, and residual risk.
 - **Competitor-neutral discovery:** Ask questions that remain valid regardless of vendor.
-- **Arti's bridge:** Microsoft support, Azure, networking, and analytics transfer; NetApp production experience does not.
+- **Your bridge:** enterprise support, Azure, networking, and analytics transfer; NetApp production experience does not.
 
 ---
 
@@ -949,7 +949,7 @@ flowchart LR
 - [ ] Correct all common selection misconceptions and apply the troubleshooting tree.
 - [ ] Recreate the Meridian scenario and explain why one product is not forced across every data job.
 - [ ] Complete all whiteboard drills, the paper lab, self-test, and Q1-Q8 aloud.
-- [ ] State Arti's factual strengths and ONTAP/NetApp production gap precisely.
+- [ ] State your factual strengths and ONTAP/NetApp production gap precisely.
 - [ ] Recheck current product/service pages, exact release documentation, IMT, HWU, lifecycle, licensing, cloud-provider sources, and application support before customer use.
 
 ---

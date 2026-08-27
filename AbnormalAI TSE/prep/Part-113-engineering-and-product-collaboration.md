@@ -2,7 +2,7 @@
 
 > **Purpose:** Build a beginner-first, vendor-neutral method for collaborating with Engineering and Product from evidence intake through defect escalation, minimal reproduction, feature discovery, decision recording, fix validation, regression checking, release/deployment interpretation, and customer follow-through without overstating certainty or authority.
 >
-> **Artifact honesty label:** **Direct Microsoft enterprise-support transfer for technical investigation, Engineering/Product escalation, stakeholder communication, fix validation, and customer follow-through plus learner-authored synthetic bug-report, validation-plan, decision-log, and Product-evidence artifacts; local collaboration lab unperformed.** Arti may support the Microsoft experience with real sanitized examples. Every company, product, customer, person, event, identifier, version, result, decision, priority, artifact, and outcome in the worked cases is fiction created for study. This Part does not claim that Arti has operated Abnormal AI, used Abnormal customer data, or knows Abnormal's private defect taxonomy, ticket fields, severity criteria, Engineering intake, Product discovery, roadmap, release train, deployment architecture, validation environment, customer-notification policy, or internal workflow.
+> **Artifact honesty label:** **Direct enterprise-support transfer for technical investigation, Engineering/Product escalation, stakeholder communication, fix validation, and customer follow-through plus learner-authored synthetic bug-report, validation-plan, decision-log, and Product-evidence artifacts; local collaboration lab unperformed.** You may support the prior experience with real sanitized examples. Every company, product, customer, person, event, identifier, version, result, decision, priority, artifact, and outcome in the worked cases is fiction created for study. This Part does not claim that you have operated Abnormal AI, used Abnormal customer data, or knows Abnormal's private defect taxonomy, ticket fields, severity criteria, Engineering intake, Product discovery, roadmap, release train, deployment architecture, validation environment, customer-notification policy, or internal workflow.
 >
 > **Currency and official-source access date:** August 24, 2026.
 >
@@ -85,9 +85,9 @@ This sixteen-row table is the exact vocabulary contract for this Part. In an int
 
 ## JD Mapping
 
-| Role signal from the master guide | Capability developed here | Arti's honest transfer | Evidence ceiling |
+| Role signal from the master guide | Capability developed here | Your honest transfer | Evidence ceiling |
 |---|---|---|---|
-| Collaborate with Engineering | Builds a bounded defect candidate, minimal repro, evidence index, explicit questions, and validation return path | Direct Microsoft enterprise-support escalation and technical-investigation habits | No Abnormal Engineering route, field, ownership, acceptance, defect, or root-cause claim |
+| Collaborate with Engineering | Builds a bounded defect candidate, minimal repro, evidence index, explicit questions, and validation return path | Direct enterprise-support escalation and technical-investigation habits | No Abnormal Engineering route, field, ownership, acceptance, defect, or root-cause claim |
 | Collaborate with Product | Converts user problems and recurring friction into evidence briefs without prescribing or promising | Direct Microsoft Product collaboration plus transferable customer-context communication | No Abnormal Product intake, discovery, prioritization, roadmap, or commitment claim |
 | Provide RCA insights and recommendations | Separates symptom, mechanism hypothesis, confirmed cause, workaround, corrective action, and validation | Microsoft complex-investigation and fix-validation transfer | Insight is not authority to declare root cause, incident, security impact, or product defect |
 | Clear technical communication | States expected/actual, environment, versions, evidence semantics, tests, and one precise ask | Direct customer/partner and Engineering communication transfer | A well-written report does not prove its conclusion or acceptance |
@@ -98,11 +98,11 @@ This sixteen-row table is the exact vocabulary contract for this Part. In an int
 
 ## Candidate honesty note
 
-Arti can truthfully say that Microsoft enterprise support taught her to isolate customer symptoms, compare expected and actual behavior, preserve evidence, engage Engineering or Product, communicate across technical and nontechnical audiences, validate fixes, and follow through. She should support those claims with a real sanitized Microsoft example whose exact scope she can defend.
+You can truthfully say that enterprise support taught you to isolate customer symptoms, compare expected and actual behavior, preserve evidence, engage Engineering or Product, communicate across technical and nontechnical audiences, validate fixes, and follow through. You should support those claims with a real sanitized example from your own work whose exact scope you can defend.
 
-She cannot truthfully say that the transfer proves familiarity with Abnormal's product behavior or private collaboration workflow. Even familiar words may have different meanings. “Bug,” “accepted,” “scheduled,” “released,” “deployed,” and “resolved” can map to different systems, gates, and owners. The safe bridge is:
+You cannot truthfully say that the transfer proves familiarity with Abnormal's product behavior or private collaboration workflow. Even familiar words may have different meanings. “Bug,” “accepted,” “scheduled,” “released,” “deployed,” and “resolved” can map to different systems, gates, and owners. The safe bridge is:
 
-> “In Microsoft enterprise support, I developed the habits of separating symptom from cause, sourcing expected behavior, reducing problems to discriminating evidence, escalating with a clear ask, validating returned fixes, and maintaining customer communication. I have not used Abnormal's internal Engineering or Product workflow. I would first learn its systems of record, status semantics, data rules, acceptance and priority owners, release/deployment model, and customer-communication boundaries, then apply those portable habits.”
+> “In enterprise support, I developed the habits of separating symptom from cause, sourcing expected behavior, reducing problems to discriminating evidence, escalating with a clear ask, validating returned fixes, and maintaining customer communication. I have not used Abnormal's internal Engineering or Product workflow. I would first learn its systems of record, status semantics, data rules, acceptance and priority owners, release/deployment model, and customer-communication boundaries, then apply those portable habits.”
 
 | Capability or artifact | Evidence label | Safe interview language | Claim to avoid |
 |---|---|---|---|
@@ -933,7 +933,7 @@ These official and primary sources anchor general requirements language, HTTP se
 
 - Revalidate URL, publication/revision, status, scope, and applies-to language before operational use.
 - Prefer the current authoritative product specification, support policy, customer agreement, security/privacy rule, and named decision owner over this guide.
-- Use Microsoft experience as evidence of Arti's transferable habits, not as proof that Abnormal uses Microsoft's workflow, terminology, tools, release model, or authority structure.
+- Use prior experience as evidence of your transferable habits, not as proof that Abnormal uses Microsoft's workflow, terminology, tools, release model, or authority structure.
 - Use public standards to improve precision and questions, not to declare private expected behavior, defect status, priority, security impact, or commitment.
 - Treat public Abnormal material narrowly. Never infer private architecture, telemetry, issue fields, status, customer scope, or internal decision from marketing or trust content.
 - If two sources conflict, preserve both with dates and scope, hold the unsupported conclusion, and request clarification from the current authorized owner.
@@ -968,9 +968,9 @@ These official and primary sources anchor general requirements language, HTTP se
 
 **Model answer:** “I retain the customer thread unless an explicit handoff says otherwise. I explain the current evidence, accepted internal scope if approved for disclosure, remaining unknowns, safe customer action, and the next checkpoint I own. I translate material internal decisions without exposing restricted detail or inflating status. When a fix is returned, I validate it before saying resolved. When a feature is deferred or declined, I explain current supported options and the approved decision boundary without blame or false hope.”
 
-### Q8. How does your Microsoft background transfer to Abnormal, and what would you need to learn?
+### Q8. How does your prior background transfer to Abnormal, and what would you need to learn?
 
-**Model answer:** “My Microsoft enterprise-support experience gives me direct habits in complex investigation, customer and partner communication, Engineering/Product escalation, fix validation, knowledge work, and follow-through. I can demonstrate those with sanitized real examples. I have not operated Abnormal's platform or its private defect, Product, release, deployment, validation, or customer-communication workflows. I would learn the current systems of record, expected-behavior sources, data rules, status semantics, acceptance and priority authority, release exposure model, and escalation boundaries before representing them.”
+**Model answer:** “My prior enterprise-support experience gives me direct habits in complex investigation, customer and partner communication, Engineering/Product escalation, fix validation, knowledge work, and follow-through. I can demonstrate those with sanitized real examples. I have not operated Abnormal's platform or its private defect, Product, release, deployment, validation, or customer-communication workflows. I would learn the current systems of record, expected-behavior sources, data rules, status semantics, acceptance and priority authority, release exposure model, and escalation boundaries before representing them.”
 
 ## Memory Hooks
 
@@ -988,7 +988,7 @@ These official and primary sources anchor general requirements language, HTTP se
 - **One decision log:** state, authority, rationale, consequences, follow-up, supersession.
 - **One governed escalation:** deduplicate; do not flood for attention.
 - **Customer ownership continues:** internal movement never justifies silence.
-- **Arti's honest bridge:** Microsoft collaboration habits transfer; Abnormal workflow must be learned.
+- **Your honest bridge:** Microsoft collaboration habits transfer; Abnormal workflow must be learned.
 
 ## Completion Checklist
 
@@ -1006,7 +1006,7 @@ These official and primary sources anchor general requirements language, HTTP se
 - [ ] I can follow the collaboration decision tree and invoke safety routes when ordinary repro is inappropriate.
 - [ ] I can identify failure modes including duplicate flooding, unsafe evidence, destructive tests, state inflation, and customer abandonment.
 - [ ] I can maintain customer updates with evidence, unknowns, ownership, safe action, and an owned checkpoint.
-- [ ] I can answer all eight interview questions aloud with a real sanitized Microsoft example and an explicit no-direct-Abnormal boundary.
+- [ ] I can answer all eight interview questions aloud with a real sanitized example from your own work and an explicit no-direct-Abnormal boundary.
 - [ ] I reviewed the August 24, 2026 source anchors and will revalidate current product, policy, data, authority, and workflow sources before real use.
 - [ ] I describe SignalBridge Lab 113 as local, synthetic, unperformed, unsent, non-destructive, and not an Abnormal workflow unless I later complete it honestly.
 - [ ] I completed cleanup/privacy review and retained no real, restricted, or unnecessary information.

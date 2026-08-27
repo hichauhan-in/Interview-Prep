@@ -2,7 +2,7 @@
 
 > **Purpose:** Build a product-neutral, evidence-led method for deciding when and how to escalate, transferring work without abandoning ownership, forming a role-clear swarm, and maintaining an honest critical-incident cadence.
 >
-> **Artifact honesty label:** **Local synthetic escalation-packet and swarm-map design only.** Every organization, customer, person, system, event, symptom, impact, test, observation, owner, role, handoff, severity, cadence, decision, timestamp, identifier, and result in this Part is fictional unless a public source is explicitly cited or Microsoft experience is explicitly described as Microsoft experience. SignalBridge Lab 104 was not performed while this Part was authored. No Abnormal AI, Microsoft, customer, mailbox, identity, API, network, security, ticketing, incident-management, or production system was accessed or changed. Arti may describe the lab as completed only after she actually creates the local fictional artifact and every deterministic gate records `PASS`.
+> **Artifact honesty label:** **Local synthetic escalation-packet and swarm-map design only.** Every organization, customer, person, system, event, symptom, impact, test, observation, owner, role, handoff, severity, cadence, decision, timestamp, identifier, and result in this Part is fictional unless a public source is explicitly cited or prior experience is explicitly described as prior experience. SignalBridge Lab 104 was not performed while this Part was authored. No Abnormal AI, Microsoft, customer, mailbox, identity, API, network, security, ticketing, incident-management, or production system was accessed or changed. You may describe the lab as completed only after you actually create the local fictional artifact and every deterministic gate records `PASS`.
 >
 > **Currency and source access date:** August 24, 2026.
 
@@ -35,7 +35,7 @@ These twelve labels are defined before the lesson relies on them. Two rows delib
 | 8 | **Technical lead** | The role that owns the technical investigation strategy: hypotheses, tests, specialist tasks, evidence interpretation, and technical recommendations | A lead mechanic directs diagnosis while the service manager coordinates customers and resources | It protects technical coherence and avoids duplicate or conflicting experiments | The technical lead does not gain approval to make production or security changes merely by holding the role |
 | 9 | **Scribe and communications roles** | The scribe preserves a timestamped decision and action record; the communications owner turns verified facts into audience-appropriate updates | One person records a court hearing while another authorized spokesperson briefs the public | Separate roles reduce memory gaps and contradictory messaging | Either role may be combined locally, but notes must not expose sensitive data and communications must not invent certainty |
 | 10 | **Severity versus escalation** | Severity expresses the assessed level of impact and urgency under current criteria; escalation is an action taken to obtain capability, authority, coordination, or attention | A small locked-room problem may need a specialist keyholder even though the whole building is not in danger | It prevents every escalation from becoming “critical” and every critical case from being treated as only a queue transfer | Severity criteria, priority, support entitlement, and escalation paths are organization-specific and can change independently |
-| 11 | **CRITSIT** | A Microsoft-context term for a critical-situation engagement experienced by the candidate in Microsoft enterprise support, involving heightened coordination and customer focus | A hospital activates a special coordination mode for an unusually consequential case | It gives Arti an honest example of operating under pressure | It is not assumed to be Abnormal terminology, policy, severity, entitlement, role model, cadence, or process; portability is limited to habits |
+| 11 | **critical situation** | A prior-context term for a critical-situation engagement experienced by the candidate in enterprise support, involving heightened coordination and customer focus | A hospital activates a special coordination mode for an unusually consequential case | It gives you an honest example of operating under pressure | It is not assumed to be Abnormal terminology, policy, severity, entitlement, role model, cadence, or process; portability is limited to habits |
 | 12 | **Warm transfer** | A handoff in which the current owner directly conveys the bounded story, evidence, explicit ask, risks, and retained duties, and the receiving owner acknowledges what they accept | A nurse introduces the patient and care plan to the next nurse rather than leaving a folder at an empty desk | It closes the acknowledgement loop and protects continuity | Warm transfer does not mean oversharing data, remaining owner of everything forever, or skipping the official record |
 
 An **explicit ask** is one sentence stating what the receiver is being asked to decide, explain, approve, inspect, or do, why that receiver is needed, and what evidence or completion signal should come back. “Please investigate” is not explicit. “Please determine whether parser component `COMP-104-F` can produce the observed schema mismatch, identify the next discriminating test, and return a recommendation by the next governed checkpoint” is explicit, although every name and checkpoint in that example is fictional.
@@ -76,20 +76,20 @@ The central analogy is **a hospital referral that can become an emergency team r
 | Cross-functional work | Uses swarming when parallel work is justified | Names commander, technical lead, scribe, communications owner, specialist lanes, dependencies, and exit criteria | Swarm map |
 | Severity and SLA judgment | Separates impact classification from escalation action | Uses current severity criteria while escalating expertise at any appropriate severity | Severity-versus-escalation decision table |
 | Case quality | Prevents evidence dumps and context loss | Uses an indexed minimum-evidence manifest with source, time, relevance, redaction, and confidence | Evidence-quality ledger |
-| Microsoft enterprise support background | Transfers real CRITSIT coordination habits honestly | Describes Microsoft experience as Microsoft experience and extracts portable habits | Candidate transfer statement |
+| enterprise support background | Transfers real critical-situation coordination habits honestly | Describes prior experience as prior experience and extracts portable habits | Candidate transfer statement |
 | Abnormal AI learning goal | Learns a product-neutral escalation method without inventing internal process | Names gaps and verifies current policies, roles, tooling, and customer commitments before use | Source-and-boundary ledger |
 
 ## Candidate honesty note
 
-Arti can truthfully draw on five years of Microsoft enterprise support, including customer-facing case ownership, critical situations described in her Microsoft context as CRITSITs, coordination with Engineering or Product, technical investigation, fix validation, customer and partner updates, knowledge creation, mentoring, and quality improvement. Those experiences provide real evidence that she can stay organized under pressure, communicate uncertainty, ask for specialist help, and follow an issue through validation.
+You can truthfully draw on several years of enterprise support, including customer-facing case ownership, critical situations described in your prior context as critical situations, coordination with Engineering or Product, technical investigation, fix validation, customer and partner updates, knowledge creation, mentoring, and quality improvement. Those experiences provide real evidence that you can stay organized under pressure, communicate uncertainty, ask for specialist help, and follow an issue through validation.
 
-They do not prove knowledge of Abnormal AI's internal severity model, escalation criteria, queues, roles, incident command, swarm practice, support entitlement, security route, customer cadence, CRITSIT terminology, Engineering intake, tooling, acceptance state, or closure policy. There is no claim in this Part that Abnormal uses the term `CRITSIT` at all. A safe interview bridge is:
+They do not prove knowledge of Abnormal AI's internal severity model, escalation criteria, queues, roles, incident command, swarm practice, support entitlement, security route, customer cadence, critical-situation terminology, Engineering intake, tooling, acceptance state, or closure policy. There is no claim in this Part that Abnormal uses the term `critical situation` at all. A safe interview bridge is:
 
-> “In Microsoft enterprise support, I worked critical situations where I kept the customer impact and communication visible, coordinated specialists, supplied tested evidence, and validated outcomes. I use CRITSIT only for that Microsoft context. I have not operated Abnormal's internal critical-incident or escalation process. At Abnormal I would first learn the current severity criteria, security route, role authority, Engineering intake, handoff acceptance, communication cadence, and systems of record, then apply the portable habits without importing Microsoft's labels or promises.”
+> “In enterprise support, I worked critical situations where I kept the customer impact and communication visible, coordinated specialists, supplied tested evidence, and validated outcomes. I use critical-situation only for that prior-employer context. I have not operated Abnormal's internal critical-incident or escalation process. At Abnormal I would first learn the current severity criteria, security route, role authority, Engineering intake, handoff acceptance, communication cadence, and systems of record, then apply the portable habits without importing Microsoft's labels or promises.”
 
 | Evidence tier | Safe wording | Evidence | Overclaim to avoid |
 |---|---|---|---|
-| Microsoft production experience | “In my Microsoft support role, I coordinated a CRITSIT and maintained the customer and specialist workstreams.” | A real, defensible Microsoft example within confidentiality limits | “Abnormal has the same CRITSIT process.” |
+| prior production experience | “In my prior support role, I coordinated a critical situation and maintained the customer and specialist workstreams.” | A real, defensible Microsoft example within confidentiality limits | “Abnormal has the same critical-situation process.” |
 | Local synthetic practice | “After I actually complete it, I built and validated a fictional escalation packet and swarm map offline.” | Learner-authored file plus passing rubric | “I ran an Abnormal incident swarm.” |
 | Learned public guidance | “Official incident-response guidance supports role clarity, evidence preservation, and prepared communication.” | Dated official sources and explicit boundaries | “This public framework defines the employer's workflow.” |
 | Proposed future behavior | “I would verify the current owner and route, then make the smallest authorized escalation.” | Portable reasoning and ramp plan | Naming an internal queue, clock, entitlement, or approver without evidence |
@@ -398,13 +398,13 @@ The same applies to an incident bridge. Attendance is not contribution. A partic
 
 Swarming also reduces serial context loss. Instead of Support sending the ticket to identity, identity returning it, Support sending it to networking, and networking sending it to a parser team, the relevant specialists can inspect one timeline and agree on the next discriminating test. This does not eliminate ownership boundaries. It makes them visible at the same time.
 
-## 5. Critical incidents, CRITSIT transfer, and cadence
+## 5. Critical incidents, critical-situation transfer, and cadence
 
 A critical incident is not simply a difficult ticket. It is an event that meets the current organization's criteria for elevated coordination because confirmed or credible potential consequences, urgency, uncertainty, or recovery needs require it. Criteria may include breadth, loss of an essential function, security consequences, regulatory concerns, strategic customer impact, lack of workaround, rapid spread, or another defined threshold. The current policy decides; this Part does not.
 
-### CRITSIT is a Microsoft-context term here
+### "Critical situation" is a prior-employer term here
 
-Arti's CV-supported Microsoft background includes CRITSIT coordination. In interview answers, she can describe what she actually did: clarify impact, keep customers and partners informed, coordinate technical resources, maintain actions and owners, validate returned fixes, and follow through. She should not imply that every Microsoft team used one universal process, reveal confidential details, or claim authority she did not hold.
+Your CV-supported prior background includes critical-situation coordination. In interview answers, you can describe what you actually did: clarify impact, keep customers and partners informed, coordinate technical resources, maintain actions and owners, validate returned fixes, and follow through. You should not imply that every Microsoft team used one universal process, reveal confidential details, or claim authority you did not hold.
 
 The transferable capabilities are:
 
@@ -417,7 +417,7 @@ The transferable capabilities are:
 - validating the customer outcome after a technical action; and
 - capturing durable learning after stabilization.
 
-The nonportable elements include the name `CRITSIT`, severity definitions, support-plan entitlements, response targets, bridge tooling, escalation contacts, role authority, staffing model, approval path, customer promise, status fields, and closure rules. Abnormal may use different language and structures. The only correct approach is to learn its current authorized process after joining.
+The nonportable elements include the name `critical situation`, severity definitions, support-plan entitlements, response targets, bridge tooling, escalation contacts, role authority, staffing model, approval path, customer promise, status fields, and closure rules. Abnormal may use different language and structures. The only correct approach is to learn its current authorized process after joining.
 
 ### Critical cadence model
 
@@ -681,8 +681,8 @@ This Part, its worked examples, and SignalBridge Lab 104 prohibit:
 - making an unapproved account, role, consent, connector, route, mailbox, verdict, threshold, configuration, data, infrastructure, application, emergency, remediation, or production change;
 - deleting, purging, wiping, clearing, resetting, revoking, releasing, quarantining, overwriting, truncating, destroying, or destructively reproducing real data, evidence, messages, accounts, records, or systems;
 - performing unauthorized remediation, containment, eradication, rollback, restart, failover, deployment, configuration update, data repair, evidence collection, customer action, or production operation;
-- treating an Engineering escalation, critical label, CRITSIT label, incident bridge, swarm, customer request, runbook, workaround, or executive request as permission to take any prohibited action; and
-- claiming that Abnormal uses a Microsoft CRITSIT process, any role, clock, queue, status, entitlement, severity, handoff, swarm, or incident model described in this Part.
+- treating an Engineering escalation, critical label, critical-situation label, incident bridge, swarm, customer request, runbook, workaround, or executive request as permission to take any prohibited action; and
+- claiming that Abnormal uses a enterprise critical-situation process, any role, clock, queue, status, entitlement, severity, handoff, swarm, or incident model described in this Part.
 
 ```mermaid
 flowchart TD
@@ -750,8 +750,8 @@ If performed later, the learner creates one local Markdown packet containing the
 
 - A learner-owned local folder and plain-text or Markdown editor.
 - This Part as a read-only reference.
-- No Abnormal AI, Microsoft production, customer, email, identity, API, cloud, network, security, ticketing, incident, CRM, knowledge, change, monitoring, paging, collaboration, or external system.
-- No real person, customer, employer, tenant, domain, address, case, event, incident, CRITSIT, severity, escalation, handoff, owner, message, log, contract, timestamp, identifier, procedure, screenshot, or product output.
+- No Abnormal AI, prior production, customer, email, identity, API, cloud, network, security, ticketing, incident, CRM, knowledge, change, monitoring, paging, collaboration, or external system.
+- No real person, customer, employer, tenant, domain, address, case, event, incident, critical situation, severity, escalation, handoff, owner, message, log, contract, timestamp, identifier, procedure, screenshot, or product output.
 - No password, token, cookie, key, secret, MFA code, recovery code, authorization header, credential-shaped placeholder, or authenticated URL.
 - Obvious aliases such as `ORG-104-FICTION`, `ESC-104-A`, `SWARM-104-A`, `ROLE-104-A`, and `example.invalid` only if a domain-shaped value is needed.
 - This exact line at the top of every later-created lab artifact: `LOCAL SYNTHETIC TABLETOP - UNPERFORMED DURING AUTHORING - NOT ABNORMAL OR MICROSOFT PRODUCTION EXPERIENCE`.
@@ -769,7 +769,7 @@ If performed later, the learner creates one local Markdown packet containing the
 | Changes | Identification of a fictional authority boundary | Account, role, consent, policy, connector, route, threshold, verdict, configuration, data, or production change | Change authority would be needed |
 | Evidence | Indexed invented text evidence | Dumps, screenshots, HAR, captures, exports, secrets, or unnecessary content | An item is not minimum and fictional |
 | Destructive action | None | Delete, purge, wipe, clear, reset, revoke, release, quarantine, overwrite, truncate, or destructive reproduction | Any irreversible action is proposed |
-| Claims | “Designed” and, after actual passing completion, “completed offline with fiction” | Abnormal workflow, real CRITSIT, real swarm leadership, real Engineering transfer, or production outcome | Evidence tier is unclear |
+| Claims | “Designed” and, after actual passing completion, “completed offline with fiction” | Abnormal workflow, real critical situation, real swarm leadership, real Engineering transfer, or production outcome | Evidence tier is unclear |
 | Status and ETA | Authored fictional checkpoint and explicit unknown | Fabricated status, progress, acceptance, restoration, resolution, or ETA | A claim exceeds recorded evidence |
 
 ### Lab steps
@@ -777,11 +777,11 @@ If performed later, the learner creates one local Markdown packet containing the
 1. Retain state `DESIGN_NOT_EXECUTED_NOT_TRANSFERRED` while reading this design.
 2. If performing later, create one learner-owned local Markdown packet through the normal file interface.
 3. Add the exact honesty line, date, owner alias, version, and state at the top.
-4. Do not copy a real case, customer statement, CRITSIT, incident, escalation, handoff, packet, swarm map, role list, internal policy, screenshot, log, chat, email, or memory-derived identifying detail.
+4. Do not copy a real case, customer statement, critical situation, incident, escalation, handoff, packet, swarm map, role list, internal policy, screenshot, log, chat, email, or memory-derived identifying detail.
 5. Define the twelve required vocabulary labels in the learner's own words with meaning, analogy, purpose, and boundary.
 6. Define explicit ask as a bounded request with a completion signal.
 7. Define cadence as a time-and-event update rhythm, not a fix ETA.
-8. State that the word `CRITSIT` is used only for Arti's honest Microsoft-context experience and is not claimed as Abnormal terminology or process.
+8. State that the word `critical situation` is used only for your honest prior-context experience and is not claimed as Abnormal terminology or process.
 9. Create three fictional cases: one functional escalation, one hierarchical escalation, and one security stop-and-route escalation.
 10. For each case, state expected versus actual outcome, confirmed/potential/untested scope, consequence, workaround state, and unknowns.
 11. Apply current fictional severity criteria separately from escalation selection.
@@ -814,8 +814,8 @@ If performed later, the learner creates one local Markdown packet containing the
 38. Add one event-triggered cadence change for a security boundary.
 39. Add one transition from synchronous swarm to asynchronously owned residual work.
 40. Include a completion signal for the technical lane that does not imply case closure or customer restoration.
-41. Create a failure-mode review covering evidence dump, abandonment, vague ask, status invention, ETA invention, severity inflation, bypass, sensitive data, unauthorized remediation, destructive action, swarm theater, and Microsoft-to-Abnormal overclaim.
-42. Search the packet for unsupported `Abnormal`, `Microsoft`, `CRITSIT`, `customer`, `production`, `critical`, `owner accepted`, `safe`, `approved`, `fixed`, `resolved`, `root cause`, `breach`, and `ETA` claims.
+41. Create a failure-mode review covering evidence dump, abandonment, vague ask, status invention, ETA invention, severity inflation, bypass, sensitive data, unauthorized remediation, destructive action, swarm theater, and support-to-Abnormal overclaim.
+42. Search the packet for unsupported `Abnormal`, `Microsoft`, `critical situation`, `customer`, `production`, `critical`, `owner accepted`, `safe`, `approved`, `fixed`, `resolved`, `root cause`, `breach`, and `ETA` claims.
 43. Search for secret-shaped and unnecessary-content fields including token, cookie, key, authorization, body, attachment, screenshot, HAR, capture, export, and mailbox.
 44. Search for unsafe verbs including bypass, disable, delete, purge, wipe, reset, revoke, release, execute, replay, scan, upload, contain, remediate, and deploy; every occurrence must be a prohibition or clearly fictional conceptual discussion.
 45. Search for queue moves, tags, mentions, assignments, or invites treated as ownership acceptance and reject them.
@@ -831,13 +831,13 @@ If performed later, the learner creates one local Markdown packet containing the
 55. Practice explaining why severity and escalation are different.
 56. Practice a warm transfer where Engineering accepts technical analysis while Support retains customer communication.
 57. Practice a critical update with no supported repair ETA.
-58. Practice the honest Microsoft CRITSIT bridge and explicitly state the Abnormal process gap.
+58. Practice the honest enterprise critical-situation bridge and explicitly state the Abnormal process gap.
 59. Practice stopping when security-sensitive material appears without claiming breach or taking remediation action.
 60. When learning use ends, follow approved local retention policy; do not use destructive commands or claim universal deletion.
 
 ```mermaid
 flowchart TD
-    Charter["Confirm local synthetic unperformed charter"] --> Define["Define twelve labels explicit ask cadence and CRITSIT boundary"]
+    Charter["Confirm local synthetic unperformed charter"] --> Define["Define twelve labels explicit ask cadence and critical-situation boundary"]
     Define --> Cases["Write three fictional escalation cases"]
     Cases --> Packet["Complete twelve-label Engineering packet"]
     Packet --> Handoff["Build ownership and warm-transfer ledger"]
@@ -865,7 +865,7 @@ If the lab is actually performed later, expected evidence is:
 - one handoff ledger showing acceptance, partial acceptance, decline, fallback, retained duties, and return path;
 - one swarm map with incident commander, technical lead, scribe, communications owner, Support owner, specialist lanes, dependencies, and exits;
 - initial, no-change, partial-restoration, ETA-unknown, security-boundary, and transition messages;
-- one explicit Microsoft-context CRITSIT transfer statement with an Abnormal portability caveat;
+- one explicit prior-context critical-situation transfer statement with an Abnormal portability caveat;
 - one failure-mode and prohibition review;
 - one deterministic validation ledger with no more than three repair cycles; and
 - no real data, external interaction, production execution, evidence dump, ownership abandonment, fabricated ETA/status, bypass, sensitive data, unauthorized remediation, destructive action, or Abnormal policy/process claim.
@@ -875,12 +875,12 @@ If the lab is actually performed later, expected evidence is:
 - Keep any future exercise in one learner-owned local folder containing manually authored fictional text only.
 - Do not upload, publish, paste, email, sync, commit, or send the artifact to a public repository, scanner, converter, personal cloud, external AI system, unapproved collaboration service, or other recipient.
 - Do not log in to Abnormal AI, Microsoft, a customer environment, a mailbox, ticketing platform, incident platform, knowledge system, change system, identity provider, security platform, or external service.
-- Do not include real contracts, cases, incidents, CRITSITs, escalations, handoffs, swarms, customer messages, email content, screenshots, exports, logs, audit events, HAR files, captures, identities, metrics, timestamps, owners, roles, or internal procedures.
+- Do not include real contracts, cases, incidents, critical situations, escalations, handoffs, swarms, customer messages, email content, screenshots, exports, logs, audit events, HAR files, captures, identities, metrics, timestamps, owners, roles, or internal procedures.
 - Do not include passwords, tokens, cookies, API keys, client secrets, private keys, certificate private material, MFA codes, recovery codes, authorization headers, authenticated URLs, or credential-shaped values.
 - Do not create or use suspicious content, executable files, credential tests, scans, load, quota exhaustion, security-control changes, containment actions, remediation, or destructive actions.
 - If real or sensitive material appears, stop processing and sharing it, restrict further exposure, and use the approved privacy or security process. This Part grants no deletion, revocation, remediation, notification, legal, incident, or customer authority.
 - If unperformed, record `SignalBridge Lab 104 remains a reviewed design and was not executed.`
-- If later performed and passed, record `SignalBridge Lab 104 was completed locally using learner-authored fictional text only; no real product, customer, incident, CRITSIT, escalation, handoff, swarm, production system, external service, secret, unnecessary content, evidence dump, ownership abandonment, fabricated ETA/status, bypass, unauthorized remediation, destructive action, or Abnormal process claim was used.`
+- If later performed and passed, record `SignalBridge Lab 104 was completed locally using learner-authored fictional text only; no real product, customer, incident, critical situation, escalation, handoff, swarm, production system, external service, secret, unnecessary content, evidence dump, ownership abandonment, fabricated ETA/status, bypass, unauthorized remediation, destructive action, or Abnormal process claim was used.`
 
 ### Validation rubric
 
@@ -898,18 +898,18 @@ Score every row. Any automatic-failure condition makes the overall result `FAIL`
 | Ownership | “Engineering owns it” replaces a responsibility split | Several owners exist but objects are unclear | Case, customer, technical, action, security, communication, validation, and follow-up ownership are scoped |
 | Swarm | Crowd, bridge theater, duplicate action, or no command role | Roles exist but lanes or exits are vague | Trigger, objective, commander, technical lead, scribe, communications, lanes, dependencies, cadence, safety, and exit are complete |
 | Critical cadence | Silence or unsupported ETA/status appears | Scheduled updates exist without event triggers | Impact, facts, actions, next step, time trigger, event triggers, approval, and audience boundaries are explicit |
-| CRITSIT transfer | Microsoft term or process is projected onto Abnormal | Microsoft experience is named without portability boundary | Real Microsoft-context habits, nonportable elements, Abnormal gap, and ramp plan are explicit |
+| Critical-situation transfer | A prior-employer term or process is projected onto Abnormal | prior experience is named without portability boundary | Real prior-context habits, nonportable elements, Abnormal gap, and ramp plan are explicit |
 | Worked artifacts | Packet or map is only a blank template | Artifacts are partly completed | Complete fictional Engineering packet, three worked escalations, ownership ledger, and swarm map are present |
 | Failure handling | Pressure justifies bypass, data dump, abandonment, or unsafe action | Warnings are generic | Named failure modes have better behaviors, stop triggers, and explicit prohibitions |
 | Safety/privacy | Production, sensitive, bypass, destructive, or unauthorized work appears | Local warning exists without detailed stops | Local synthetic scope, minimum data, approved routes, automatic stops, and named prohibited actions are enforced |
-| Candidate honesty | Lab or Microsoft work is presented as Abnormal production experience | Gap is implied | Production experience, local practice, learned guidance, and Abnormal process gap are clearly separated |
+| Candidate honesty | Lab or prior work is presented as Abnormal production experience | Gap is implied | Production experience, local practice, learned guidance, and Abnormal process gap are clearly separated |
 | Source discipline | Secondary claims define policy | Official sources exist without limits | At least eight official/primary sources each have an explicit authority boundary and currency caution |
 | Interview Q&A | Count differs from eight or an answer lacks the required label | Eight answers exist but omit evidence or limits | Exactly eight numbered questions each have one `Model answer` grounded in method, ethics, transfer, and boundaries |
 | Deterministic review | Counts, gates, evidence, repairs, or final link are missing | Informal review only | Every contract gate is counted, automatic failures are absent, and repairs do not exceed three |
 
-**Automatic failures:** any production execution; any login, network request, API call, product action, ticket/escalation/incident update, paging, customer action, or external interaction; any evidence dump, secret, unnecessary customer content, unsafe disclosure, security bypass, privilege expansion, unsupported access, unapproved change, unauthorized remediation, harmful test, or destructive action; any abandonment of ownership without accepted scope and retained duties; any fabricated ETA, status, progress, acceptance, owner, severity, scope, result, safety, approval, root cause, compromise, breach, containment, eradication, recovery, or permanent fix; any invented Abnormal workflow, policy, queue, role, clock, target, entitlement, CRITSIT process, escalation route, handoff state, swarm model, or customer promise; any claim that the lab was performed; or any master status update before a complete `PASS`.
+**Automatic failures:** any production execution; any login, network request, API call, product action, ticket/escalation/incident update, paging, customer action, or external interaction; any evidence dump, secret, unnecessary customer content, unsafe disclosure, security bypass, privilege expansion, unsupported access, unapproved change, unauthorized remediation, harmful test, or destructive action; any abandonment of ownership without accepted scope and retained duties; any fabricated ETA, status, progress, acceptance, owner, severity, scope, result, safety, approval, root cause, compromise, breach, containment, eradication, recovery, or permanent fix; any invented Abnormal workflow, policy, queue, role, clock, target, entitlement, critical-situation process, escalation route, handoff state, swarm model, or customer promise; any claim that the lab was performed; or any master status update before a complete `PASS`.
 
-**Deterministic Part pass rule:** at least 6,500 words; exactly one H1 equal to the required title; all twelve required vocabulary labels, explicit ask, cadence, and all twelve escalation-packet labels present; at least eight closed Mermaid blocks using recognized declarations; at least four Plain-English deep-dive headings; at least ten Markdown tables; functional, hierarchical, and security escalation, handoff, ownership, swarm, incident commander, technical lead, scribe/communications roles, severity versus escalation, Microsoft-context CRITSIT with portability caveat, warm transfer, explicit ask, and cadence defined; escalation criteria, attempted tests, evidence quality, ownership during handoff, role clarity, critical cadence, Engineering escalation packet, swarm map, at least three worked escalations, decision tree, and failure modes present; exactly eight numbered interview questions with one `Model answer` each and no additional interview-question entries; at least eight official or primary URLs with an explicit boundary for each; all named prohibitions present; lab state remains local, synthetic, and unperformed; exactly one final next-Part link; and no master tracker update before a complete `PASS`. Validate after the initial write, make no more than three repair cycles, and mark the master target `Done` only after `PASS`.
+**Deterministic Part pass rule:** at least 6,500 words; exactly one H1 equal to the required title; all twelve required vocabulary labels, explicit ask, cadence, and all twelve escalation-packet labels present; at least eight closed Mermaid blocks using recognized declarations; at least four Plain-English deep-dive headings; at least ten Markdown tables; functional, hierarchical, and security escalation, handoff, ownership, swarm, incident commander, technical lead, scribe/communications roles, severity versus escalation, prior-context critical situation with portability caveat, warm transfer, explicit ask, and cadence defined; escalation criteria, attempted tests, evidence quality, ownership during handoff, role clarity, critical cadence, Engineering escalation packet, swarm map, at least three worked escalations, decision tree, and failure modes present; exactly eight numbered interview questions with one `Model answer` each and no additional interview-question entries; at least eight official or primary URLs with an explicit boundary for each; all named prohibitions present; lab state remains local, synthetic, and unperformed; exactly one final next-Part link; and no master tracker update before a complete `PASS`. Validate after the initial write, make no more than three repair cycles, and mark the master target `Done` only after `PASS`.
 
 ### Authored-Part deterministic validation record
 
@@ -934,18 +934,18 @@ Score every row. Any automatic-failure condition makes the overall result `FAIL`
 
 ## Official Source Anchors - August 24, 2026
 
-These official or primary sources anchor public product context, support severity concepts, incident-response preparation, role clarity, communication, cybersecurity handling, recovery, and precise requirement language. They do not define Abnormal AI's internal escalation criteria, queues, evidence fields, Engineering intake, incident command, swarm model, handoff acceptance, security route, customer cadence, service entitlement, CRITSIT terminology, or closure process.
+These official or primary sources anchor public product context, support severity concepts, incident-response preparation, role clarity, communication, cybersecurity handling, recovery, and precise requirement language. They do not define Abnormal AI's internal escalation criteria, queues, evidence fields, Engineering intake, incident command, swarm model, handoff acceptance, security route, customer cadence, service entitlement, critical-situation terminology, or closure process.
 
 | Official or primary source | Concept anchored | Explicit authority boundary |
 |---|---|---|
 | [Abnormal Behavioral Security Platform](https://abnormal.ai/platform/overview) | Public high-level context for Abnormal's platform and security outcomes | Public product material does not reveal or authorize an internal escalation, handoff, incident, swarm, Engineering, or critical-response process |
 | [Abnormal Trust Center](https://abnormal.ai/trust-center) | Public trust, security, privacy, and compliance context | It grants no customer-data access, evidence permission, security role, incident authority, remediation authority, or internal workflow knowledge |
-| [Microsoft Unified Support](https://www.microsoft.com/en-us/unifiedsupport) | Official public context for Microsoft enterprise support offerings | The public page does not prove one universal CRITSIT implementation, disclose the candidate's cases, or define Abnormal's support model |
+| [Microsoft Unified Support](https://www.microsoft.com/en-us/unifiedsupport) | Official public context for enterprise support offerings | The public page does not prove one universal critical-situation implementation, disclose the candidate's cases, or define Abnormal's support model |
 | [Azure Support Plans - Severity and Responsiveness](https://azure.microsoft.com/en-us/support/plans/response/) | Official public example of severity definitions and response targets tied to specific support plans | Azure definitions and entitlements do not apply to Abnormal, another Microsoft offering, or a fictional lab; current contracts and policies control |
 | [NIST SP 800-61 Rev. 3](https://csrc.nist.gov/pubs/sp/800/61/r3/final) | Primary U.S. government guidance integrating cybersecurity incident response with risk management | It does not declare a specific event a security incident or authorize L1 collection, containment, eradication, notification, attribution, or customer action |
 | [CISA Federal Government Cybersecurity Incident and Vulnerability Response Playbooks](https://www.cisa.gov/news-events/news/cisa-releases-cybersecurity-incident-and-vulnerability-response-playbooks) | Official public context for prepared roles, coordination, response steps, and vulnerability handling | Federal playbooks do not govern a private vendor/customer workflow, grant access, or authorize production/security actions in this lesson |
 | [Google SRE Workbook - Incident Response](https://sre.google/workbook/incident-response/) | Primary Google SRE discussion of mitigation, role separation, communication, incident records, drills, and preparedness | Google and referenced PagerDuty practices are examples, not Abnormal policy, authority, terminology, cadence, or customer commitment |
-| [Google SRE Book - Managing Incidents](https://sre.google/sre-book/managing-incidents/) | Primary guidance on structured incident roles and coordinated response | Its role model must be adapted under local policy and does not appoint Arti as incident commander or define a support handoff |
+| [Google SRE Book - Managing Incidents](https://sre.google/sre-book/managing-incidents/) | Primary guidance on structured incident roles and coordinated response | Its role model must be adapted under local policy and does not appoint you as incident commander or define a support handoff |
 | [Google SRE Workbook - Postmortem Culture](https://sre.google/workbook/postmortem-culture/) | Primary guidance on learning, clear records, and blameless improvement | It does not prove cause, define incident closure, or replace the evidence and authority required for an escalation or RCA |
 | [AWS Well-Architected Framework - Prepare](https://docs.aws.amazon.com/wellarchitected/latest/operational-excellence-pillar/prepare.html) | Official AWS guidance on operational readiness, observability, runbooks, playbooks, and response preparation | AWS guidance is not an executable process for another service and grants no access, change approval, incident role, or escalation entitlement |
 | [NIST SP 800-184 - Guide for Cybersecurity Event Recovery](https://csrc.nist.gov/pubs/sp/800/184/final) | Primary U.S. government guidance on recovery planning, coordination, and improvement | Recovery guidance does not define customer service restoration, legal notification, product remediation, or L1 authority for a specific organization |
@@ -954,7 +954,7 @@ These official or primary sources anchor public product context, support severit
 Source discipline:
 
 - Abnormal public pages support only attributed platform and trust context. They reveal no internal incident, escalation, Engineering, handoff, swarm, cadence, security, entitlement, or customer-process detail.
-- Microsoft sources provide public Microsoft support context. Arti's actual Microsoft experience supports only the duties she can defend; neither source nor experience transfers Microsoft terminology, CRITSIT mechanics, contracts, or authority to Abnormal.
+- Microsoft sources provide public enterprise support context. Your actual prior experience supports only the duties you can defend; neither source nor experience transfers prior-employer terminology, critical-situation mechanics, contracts, or authority to Abnormal.
 - NIST and CISA address cybersecurity response and recovery. They do not authorize ordinary Support to declare an incident, collect unrestricted evidence, contain accounts, notify parties, make legal findings, or reveal restricted information.
 - Google SRE sources offer valuable examples of role clarity, mitigation, records, communication, and learning. Their terminology and organization design are not universal.
 - AWS operational guidance supports preparation and controlled response. It is not a runbook or escalation policy for another environment.
@@ -987,9 +987,9 @@ Source discipline:
 
 **Model answer:** I commit to the next update and decision point, not a time I cannot support. I use impact, verified facts, completed and active actions, the next test or decision, and the next time or event trigger. I say explicitly when there is no material change or no evidence for a restoration estimate. I trigger an earlier update for scope, security, mitigation, restoration, ownership, or risk changes. I never turn activity into progress, an attempted mitigation into restoration, or a technical guess into status certainty.
 
-### Q7. How does your Microsoft CRITSIT experience transfer to this role?
+### Q7. How does your prior critical-situation experience transfer to this role?
 
-**Model answer:** In Microsoft enterprise support, I gained real experience staying customer-focused under pressure, coordinating specialists, maintaining evidence and actions, communicating at a reliable cadence, escalating ownership or resource blocks, and validating returned fixes. I use the term CRITSIT only for that Microsoft context. I do not assume Abnormal uses the term or Microsoft's severity, entitlement, role, bridge, cadence, or closure model. I would learn Abnormal's current authorized process and transfer the habits, not the labels or promises.
+**Model answer:** In enterprise support, I gained real experience staying customer-focused under pressure, coordinating specialists, maintaining evidence and actions, communicating at a reliable cadence, escalating ownership or resource blocks, and validating returned fixes. I use the term critical-situation only for that prior-employer context. I do not assume Abnormal uses the term or the prior employer's severity, entitlement, role, bridge, cadence, or closure model. I would learn Abnormal's current authorized process and transfer the habits, not the labels or promises.
 
 ### Q8. What would you do if sensitive evidence appeared during an escalation?
 
@@ -1013,7 +1013,7 @@ Source discipline:
 - **Cadence commits to the next beat, not the ending.**
 - **No material change is an honest status.**
 - **An action completed is not an outcome restored.**
-- **CRITSIT is Microsoft context here, not an Abnormal claim.**
+- **Critical-situation language is prior-employer context here, not an Abnormal claim.**
 - **Transfer habits, not foreign policy.**
 - **No dumps, abandonment, invented ETA/status, bypass, sensitive data, unauthorized remediation, or destruction.**
 - **Designed is not performed.**
@@ -1062,8 +1062,8 @@ Source discipline:
 - [ ] I can write an initial, no-change, partial-restoration, ETA-unknown, security-boundary, and transition update.
 - [ ] I use event triggers for material scope, risk, security, mitigation, restoration, or ownership changes.
 - [ ] I never fabricate ETA, status, progress, owner acceptance, approval, cause, safety, restoration, or resolution.
-- [ ] I can explain exactly which Microsoft CRITSIT habits transfer and which process details do not.
-- [ ] I never claim that Abnormal uses CRITSIT or any Microsoft role, severity, entitlement, cadence, tool, queue, or closure model.
+- [ ] I can explain exactly which enterprise critical-situation habits transfer and which process details do not.
+- [ ] I never claim that Abnormal uses critical situation or any Microsoft role, severity, entitlement, cadence, tool, queue, or closure model.
 - [ ] I state honestly that I have not operated Abnormal's internal escalation, swarm, or critical-incident process.
 - [ ] I verify current internal sources, customer agreements, permissions, security handling, roles, and acceptance before real work.
 - [ ] I never bypass official intake, entitlement, severity, leadership, change, access, security, privacy, legal, or evidence controls.
@@ -1075,7 +1075,7 @@ Source discipline:
 - [ ] I never delete, purge, wipe, clear, reset, revoke, release, quarantine, overwrite, truncate, destroy, or destructively reproduce real data, evidence, messages, accounts, records, or systems.
 - [ ] I never perform unauthorized remediation, containment, eradication, rollback, restart, failover, deployment, or data repair.
 - [ ] I can explain what each official source anchors and where its authority stops.
-- [ ] I can answer Q1 through Q8 aloud with evidence, ethics, Microsoft transfer, and Abnormal boundaries.
+- [ ] I can answer Q1 through Q8 aloud with evidence, ethics, experience transfer, and Abnormal boundaries.
 - [ ] I describe SignalBridge Lab 104 as `DESIGN_NOT_EXECUTED_NOT_TRANSFERRED` unless I actually create the local artifact and every gate passes.
 - [ ] I make no more than three repair cycles and leave the result incomplete if any automatic failure remains.
 - [ ] I never claim this authored Part, packet, map, handoff, swarm, escalation, or lab was performed.

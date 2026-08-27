@@ -1,10 +1,10 @@
 # Part 76 - Asset Exposure Implementation, Troubleshooting, and Adoption Scenarios
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 >
 > **Purpose:** Provide an end-to-end, vendor-careful implementation and adoption playbook for Asset Exposure Management (AEM). Cover discovery and use-case selection, source planning, connectors and data acceptance, golden-record validation, relationships, criticality and coverage rules, Configuration Management Database (CMDB) and workflow integration, rollout and change control, false merge/split, stale or missing sources, ownership disputes, gap triage, troubleshooting, training, governance, product health, value evidence, Support/Product escalation, a 30/60/90 plan, and multiple worked synthetic customer scenarios.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every NMH organization, source, connector, account, asset, identity, owner, service, relationship, rule, confidence threshold, field, control, metric, workflow, CMDB record, ticket, SLA/SLO, timeline, incident, target, decision, and outcome in this Part is synthetic. Zscaler public pages support bounded statements that AEM, described in Cyber Asset Attack Surface Management (CAASM) terms, unifies and deduplicates asset data, adds relationships and context, identifies coverage and CMDB-health gaps, supports workflows/reporting, and is powered by Data Fabric for Security; Data Fabric public pages support integration, correlation/enrichment, business logic, workflows, and reporting positioning. Public pages do not disclose proprietary source schemas, connector internals, matching algorithms, default confidence/criticality/coverage rules, workflow semantics, service levels, implementation timelines, escalation procedures, support commitments, or guaranteed outcomes. Detailed mechanics below are general educational patterns, not undocumented Zscaler implementation claims. Arti's Microsoft escalation, service-delivery, identity, networking, data-quality, Power BI/SQL, customer communication, training, RCA, and Engineering collaboration experience transfers. Direct production AEM implementation or administration remains a learning boundary.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every NMH organization, source, connector, account, asset, identity, owner, service, relationship, rule, confidence threshold, field, control, metric, workflow, CMDB record, ticket, SLA/SLO, timeline, incident, target, decision, and outcome in this Part is synthetic. Zscaler public pages support bounded statements that AEM, described in Cyber Asset Attack Surface Management (CAASM) terms, unifies and deduplicates asset data, adds relationships and context, identifies coverage and CMDB-health gaps, supports workflows/reporting, and is powered by Data Fabric for Security; Data Fabric public pages support integration, correlation/enrichment, business logic, workflows, and reporting positioning. Public pages do not disclose proprietary source schemas, connector internals, matching algorithms, default confidence/criticality/coverage rules, workflow semantics, service levels, implementation timelines, escalation procedures, support commitments, or guaranteed outcomes. Detailed mechanics below are general educational patterns, not undocumented Zscaler implementation claims. Your prior escalation, service-delivery, identity, networking, data-quality, Power BI/SQL, customer communication, training, RCA, and Engineering collaboration experience transfers. Direct production AEM implementation or administration remains a learning boundary.
 >
 > **Currency caveat:** Products, packaging, connectors, APIs, source schemas, rate limits, fields, user interfaces, documentation, support processes, customer systems, and threat conditions change. The controlled research/source date for this Part is exactly **2026-08-24**. Current official documentation, licensed tenant behavior, approved architecture and contracts, customer security/privacy/legal/change requirements, source and target owners, product specialists, Zscaler Support guidance, authorized tests, and measured production evidence govern implementation.
 
@@ -14,7 +14,7 @@ An AEM implementation is not "connect tools and wait for a perfect inventory." I
 
 Think of building a metropolitan transit control center. Each rail, bus, road, and maintenance system has a different map, identifier, clock, owner, and blind spot. Combining the feeds can improve coordination, but only after deciding which operational questions matter, validating routes and vehicle identities, defining authoritative fields, handling feed outages, training dispatchers, and testing actions. A colorful combined map is not success if it routes responders to the wrong vehicle.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Evidence artifact |
 |---|---|---|
@@ -52,7 +52,7 @@ flowchart LR
 
 ## JD Mapping
 
-| Role expectation | Part 76 capability | TSM artifact | Arti bridge and boundary |
+| Role expectation | Part 76 capability | TSM artifact | experience bridge and boundary |
 |---|---|---|---|
 | Become AEM/Data Fabric expert | Explain public architecture/value while validating current behavior | Implementation whiteboard | Product specifics require current evidence |
 | Analyze complex environments | Inventory sources, identities, owners, services, controls, and integrations | Discovery/source plan | Microsoft tenant/service mapping transfers |
@@ -69,7 +69,7 @@ flowchart LR
 
 | Evidence class | Safe interview statement | Boundary to state |
 |---|---|---|
-| Production transfer | "I led complex Microsoft support investigations across identity, client, network, service, and customer layers." | Not production AEM implementation |
+| Production transfer | "I led complex enterprise support investigations across identity, client, network, service, and customer layers." | Not production AEM implementation |
 | Delivery transfer | "I align stakeholders, define evidence, track owners, communicate risk, and validate outcomes." | Not customer change/risk authority |
 | Data transfer | "I test scope, stable IDs, joins, duplicates, freshness, control totals, and report reconciliation." | Not proprietary Data Fabric logic |
 | Escalation transfer | "I create minimal reproducible cases with IDs, timestamps, versions, expected/actual, and impact." | Not Zscaler-internal support procedure knowledge |
@@ -1480,28 +1480,28 @@ Deliver the NMH outcome narrative, discuss defects found before scale, request t
 
 Write initial, update, recovery, and RCA messages for the stale EDR source. Include facts, impact, containment, unknowns, owner, next checkpoint, correction, and prevention. **Pass:** no invented root cause/ETA.
 
-### Lab 24 - Arti interview capstone
+### Lab 24 - your interview capstone
 
 Answer Q1 through Q8 aloud, whiteboard the complete implementation loop, and distinguish production transfer, synthetic practice, learned product positioning, and unknown product details. **Pass:** examples are honest and decision-focused.
 
-## Arti bridge: escalation engineer to AEM implementation TSM
+## Experience bridge: escalation engineer to AEM implementation TSM
 
-Implementation leadership combines technical depth, customer operating discipline, analytics, and communication. Arti's Microsoft experience offers strong transfer without pretending product administration experience.
+Implementation leadership combines technical depth, customer operating discipline, analytics, and communication. Your prior experience offers strong transfer without pretending product administration experience.
 
 | Existing strength | AEM implementation transfer | Learning boundary | Honest interview sentence |
 |---|---|---|---|
 | Microsoft 365 scope/identity | Tenant/account/source/asset namespace discipline | AEM schema/matching behavior | "I verify exact scope and identity before action." |
 | Network troubleshooting | Connector reachability, TLS/proxy/DNS/path isolation | Zscaler connector diagnostics | "I separate transport from data acceptance." |
 | HAR/Fiddler/Procmon/logs | Timestamped expected/actual evidence | Product-specific logs/tools | "I preserve minimal reproducible evidence." |
-| CRITSIT/RCA | Containment, hypotheses, blast radius, status, prevention | Security incident authority | "I stop harmful decisions while isolating the layer." |
+| Critical situation/RCA | Containment, hypotheses, blast radius, status, prevention | Security incident authority | "I stop harmful decisions while isolating the layer." |
 | Engineering collaboration | Support/Product escalation and fix validation | Internal Zscaler process | "I provide IDs, versions, reproduction, and one ask." |
 | Backlog/case quality | Workflow aging, duplicates, reopen, outcome quality | Exposure-program SLAs | "I measure validated completion, not status closure." |
 | SQL/Power BI/statistics | Control totals, identity samples, trends, value chain | Proprietary algorithms | "I state sample and denominator limits." |
-| Technical Advisor/training | Discovery, enablement, role coaching, review | Licensed tenant instruction | "I teach representative decisions, not button tours." |
+| Technical advisor/training | Discovery, enablement, role coaching, review | Licensed tenant instruction | "I teach representative decisions, not button tours." |
 | Customer satisfaction | Trust, expectation, proactive communication | Renewal causality | "I connect evidence to customer outcomes cautiously." |
 | AI enablement | Guardrailed summarization/triage possibilities | Approved AEM AI features | "I require source citation, human review, and no autonomous risk acceptance." |
 
-An interview-ready story is: "I would approach AEM as a decision and adoption program. I would discover the customer's use cases and owners, map minimum sources and authority, accept connector data with scope and control totals, validate golden records and rules in shadow, pilot a low-consequence workflow with idempotency and read-back, train users on real tasks, and expand through gates. My Microsoft escalation background gives me strong evidence, RCA, stakeholder, analytics, and customer communication skills. I have rehearsed the AEM method through synthetic NMH cases, not operated it in production, so I would validate current Zscaler behavior and use Support/Product channels where needed."
+An interview-ready story is: "I would approach AEM as a decision and adoption program. I would discover the customer's use cases and owners, map minimum sources and authority, accept connector data with scope and control totals, validate golden records and rules in shadow, pilot a low-consequence workflow with idempotency and read-back, train users on real tasks, and expand through gates. My prior escalation background gives me strong evidence, RCA, stakeholder, analytics, and customer communication skills. I have rehearsed the AEM method through synthetic NMH cases, not operated it in production, so I would validate current Zscaler behavior and use Support/Product channels where needed."
 
 ## Common misconceptions to correct
 
@@ -1590,7 +1590,7 @@ Zscaler sources support bounded positioning for AEM/CAASM multi-source visibilit
 
 ### Q8. How does your background transfer, and what is your boundary?
 
-**Model answer:** Microsoft escalation gave me cross-layer identity/network/service troubleshooting, high-impact containment and communication, data-quality/analytics, Engineering escalation, customer ownership, training, RCA, and fix validation. Those map directly to source acceptance, identity/rule quality, operational rollout, and Support partnership. I designed and rehearsed synthetic NMH AEM scenarios; I do not claim production AEM administration and would verify actual capabilities in current official docs, tenant tests, and supported channels.
+**Model answer:** enterprise escalation gave me cross-layer identity/network/service troubleshooting, high-impact containment and communication, data-quality/analytics, Engineering escalation, customer ownership, training, RCA, and fix validation. Those map directly to source acceptance, identity/rule quality, operational rollout, and Support partnership. I designed and rehearsed synthetic NMH AEM scenarios; I do not claim production AEM administration and would verify actual capabilities in current official docs, tenant tests, and supported channels.
 
 ## 30-Second Memory Hooks
 
@@ -1624,7 +1624,7 @@ Zscaler sources support bounded positioning for AEM/CAASM multi-source visibilit
 | Value | Quality -> decision -> action -> validated outcome |
 | Escalation | Expected/actual + IDs + UTC + reproduction + one ask |
 | 30/60/90 | Understand, prove, operationalize |
-| Arti bridge | Escalation discipline transfers; product admin does not |
+| Experience bridge | Escalation discipline transfers; product admin does not |
 
 ## Completion Checklist
 
@@ -1694,11 +1694,11 @@ Zscaler sources support bounded positioning for AEM/CAASM multi-source visibilit
 - [ ] I can explain all ten NMH scenarios and why each number, rule, timeline, and outcome is synthetic.
 - [ ] I can execute source-outage, false merge/split, and workflow-incident runbooks.
 - [ ] I can complete all twenty-four labs and retain reproducible synthetic artifacts.
-- [ ] I connect Arti's Microsoft identity/network/service troubleshooting, CRITSIT, RCA, analytics, customer, training, and Engineering experience honestly.
+- [ ] I connect your prior identity/network/service troubleshooting, critical situation, RCA, analytics, customer, training, and Engineering experience honestly.
 - [ ] I distinguish production transfer, synthetic practice, learned public product positioning, and unknown implementation behavior.
 - [ ] I use official Zscaler, NIST, and CISA sources with explicit boundaries.
 - [ ] I use the controlled research/source date exactly as 2026-08-24.
 - [ ] I make no unsupported Zscaler connector, schema, algorithm, default, rule, threshold, workflow, support commitment, timeline, compliance, production, or outcome claim.
-- [ ] I can answer Q1 through Q8 with definitions, analogies, mechanics, examples, tradeoffs, failures, troubleshooting, labs, NMH evidence, official-source caveats, and an honest Arti bridge.
+- [ ] I can answer Q1 through Q8 with definitions, analogies, mechanics, examples, tradeoffs, failures, troubleshooting, labs, NMH evidence, official-source caveats, and an honest experience bridge.
 
 [Part 77 - Vulnerability Management Fundamentals and Program Lifecycle](Part-77-vulnerability-management-fundamentals.md)

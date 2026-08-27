@@ -1,14 +1,14 @@
 # Part 43 — SIEM, SOAR, SOC Fundamentals, and Microsoft Sentinel Architecture
 
-> **Section goal:** Build a beginner-first, consulting-grade understanding of why a Security Operations Center exists, how its people and capabilities fit together, and where Microsoft Sentinel sits in the Microsoft security architecture. This Part covers SOC purpose and roles; tier labels versus capabilities; the event/log/signal/alert/incident/case chain; SIEM, SOAR and XDR distinctions; Sentinel in the Microsoft Defender portal; Azure subscriptions, resource groups and Log Analytics workspaces; control and data planes; Content Hub; connectors, tables, analytics, incidents, entities, hunting, workbooks and automation; RBAC and managed identities; Defender XDR integration; lifecycle, operations, service health, shared responsibility and an end-to-end paper design. Arti should be able to explain and design the system without claiming production Microsoft Sentinel administration.
+> **Section goal:** Build a beginner-first, consulting-grade understanding of why a Security Operations Center exists, how its people and capabilities fit together, and where Microsoft Sentinel sits in the Microsoft security architecture. This Part covers SOC purpose and roles; tier labels versus capabilities; the event/log/signal/alert/incident/case chain; SIEM, SOAR and XDR distinctions; Sentinel in the Microsoft Defender portal; Azure subscriptions, resource groups and Log Analytics workspaces; control and data planes; Content Hub; connectors, tables, analytics, incidents, entities, hunting, workbooks and automation; RBAC and managed identities; Defender XDR integration; lifecycle, operations, service health, shared responsibility and an end-to-end paper design. You should be able to explain and design the system without claiming production Microsoft Sentinel administration.
 
-This Part maps directly to Deloitte expectations for Microsoft security architecture, Sentinel and Defender XDR, incident response, troubleshooting, root-cause analysis (RCA), automation, governance, client workshops, documentation and stakeholder reporting. Arti's incident ownership, evidence correlation, fix validation and reporting are directly transferable. The honest bridge is from disciplined incident practice to a current Sentinel design and safe paper lab, not a claim that she has operated a production SOC or Sentinel tenant.
+This Part maps directly to Deloitte expectations for Microsoft security architecture, Sentinel and Defender XDR, incident response, troubleshooting, root-cause analysis (RCA), automation, governance, client workshops, documentation and stakeholder reporting. Your incident ownership, evidence correlation, fix validation and reporting are directly transferable. The honest bridge is from disciplined incident practice to a current Sentinel design and safe paper lab, not a claim that you have operated a production SOC or Sentinel tenant.
 
 > **Currency, portal, preview, licensing and pricing note (August 24, 2026):** This chapter is grounded in Microsoft Learn architecture and product documentation available on August 24, 2026. Microsoft is completing the transition of Sentinel experiences to the Microsoft Defender portal. Portal paths, onboarding behavior, Defender XDR correlation, incident providers, Content Hub packages, roles, table plans, data-lake capabilities, automation behavior, preview labels, included benefits and prices can change by cloud, region, tenant rollout and contract. The legacy Microsoft Sentinel experience in the Azure portal is change-sensitive and is scheduled to be unsupported after the Microsoft-published transition date; do not design a new operating procedure around an Azure-portal-only screen. Verify the live Defender portal, Microsoft Learn page banners, Azure Updates, Service Health, Product Terms, pricing calculator, region availability and the client's agreement before implementation. Preview features require an explicit risk decision and must not be presented as generally available.
 
 ## JD Mapping
 
-| Deloitte expectation | Capability developed here | Consulting evidence Arti can produce |
+| Deloitte expectation | Capability developed here | Consulting evidence you can produce |
 |---|---|---|
 | Advise on Microsoft security architecture | Explain SOC, SIEM, SOAR, XDR and Sentinel boundaries | Current-state and target-state architecture |
 | Improve incident response | Map telemetry through alerts, incidents, entities and actions | Incident-flow diagram and handoff model |
@@ -20,9 +20,9 @@ This Part maps directly to Deloitte expectations for Microsoft security architec
 
 ## Candidate honesty note
 
-Arti can credibly discuss production incident coordination, evidence timelines, troubleshooting, RCA, remediation validation, knowledge articles and stakeholder reporting where supported by her experience. She can also describe the Sentinel architecture and safe paper design in this chapter.
+You can credibly discuss production incident coordination, evidence timelines, troubleshooting, RCA, remediation validation, knowledge articles and stakeholder reporting where supported by your experience. You can also describe the Sentinel architecture and safe paper design in this chapter.
 
-She should not claim production Sentinel onboarding, workspace administration, connector deployment, analytics-rule ownership, incident queue operation, Logic App automation or Defender portal migration unless separately evidenced. Safe wording is:
+You should not claim production Sentinel onboarding, workspace administration, connector deployment, analytics-rule ownership, incident queue operation, Logic App automation or Defender portal migration unless separately evidenced. Safe wording is:
 
 > “My production strength is disciplined incident handling: defining impact, correlating evidence, isolating the failing layer, validating recovery and communicating clearly. I have not administered Microsoft Sentinel in production. To prepare for this role, I built a current Sentinel architecture and paper lab covering Azure hierarchy, Log Analytics, Content Hub, data connectors, analytics, incidents, entities, RBAC, managed identities, Defender XDR integration, testing, rollback and operational metrics. In a client tenant I would verify portal and license state, start read-only, protect sensitive telemetry, deploy in rings and require evidence before changing detection or response behavior.”
 
@@ -418,7 +418,7 @@ Sentinel **workbooks** are interactive Azure Monitor visualizations backed by qu
 | SOC manager | Backlog, dwell/response time and quality | Incentivizing premature closure |
 | Executive | Risk themes, material incidents and improvement | Raw alert-volume charts without context |
 
-Arti's reporting experience is a strength here: define the question first, preserve metric definitions, call out missing data and explain what decision the report supports.
+Your reporting experience is a strength here: define the question first, preserve metric definitions, call out missing data and explain what decision the report supports.
 
 ## 18. Automation rules, playbooks and managed identities
 
@@ -614,7 +614,7 @@ Daily operation should monitor data freshness, connector errors, ingestion anoma
 | Quarterly | Architecture, threat model, DR exercise, roles, privacy and roadmap review? |
 | After incident | What detection/response/control improvement follows the RCA? |
 
-Arti's existing incident and RCA habits map naturally: keep a UTC timeline, distinguish symptom from cause, validate the fix at the failing layer and communicate residual uncertainty.
+Your existing incident and RCA habits map naturally: keep a UTC timeline, distinguish symptom from cause, validate the fix at the failing layer and communicate residual uncertainty.
 
 ## 28. Service Health and change management
 
@@ -672,7 +672,7 @@ Useful objectives might say: “For each critical source, the newest expected re
 | Unexpected cost | Volume jump, plan/retention/query/change | Split usage by table/source/day and review changes |
 | Portal disagreement | Sync delay, provider behavior, filter/scope or rollout | Check record IDs/API/source portal and service health |
 
-Troubleshoot from fact to layer. Ask “what is the earliest point at which expected reality differs from observed reality?” That is the same disciplined boundary isolation Arti uses in incident RCA.
+Troubleshoot from fact to layer. Ask “what is the earliest point at which expected reality differs from observed reality?” That is the same disciplined boundary isolation you us in incident RCA.
 
 ## 31. End-to-end use-case story
 
@@ -814,7 +814,7 @@ Do not promise full coverage in 90 days. Prioritize a small number of high-value
 
 ## 36. JD Mapping: interview translation
 
-| Interview theme | Honest bridge from Arti's background | Sentinel-level answer |
+| Interview theme | Honest bridge from your background | Sentinel-level answer |
 |---|---|---|
 | Incident response | Evidence timelines and coordinated restoration | Explain alert-to-incident-to-entity investigation and authorized response |
 | Troubleshooting | Isolate source, transport, service and client layers | Trace source-to-table-to-rule-to-incident-to-automation |

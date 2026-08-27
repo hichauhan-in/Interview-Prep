@@ -49,7 +49,7 @@ eyJzdWIiOiJhdXRoMHxhYmMxMjMiLCJlbWFpbCI6ImFydGlAZXhhbXBsZS5jb20ifQ
 That decodes, with no key and no effort, to:
 
 ```json
-{"sub":"auth0|abc123","email":"arti@example.com"}
+{"sub":"auth0|abc123","email":"user@example.com"}
 ```
 
 **Encoding provides zero security.** It is a transport convenience, nothing more.

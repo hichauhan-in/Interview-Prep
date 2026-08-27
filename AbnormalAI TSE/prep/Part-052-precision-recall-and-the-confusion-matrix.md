@@ -28,11 +28,11 @@ After completing this Part, you should be able to:
 - explain macro, micro, weighted, and per-class averaging caveats;
 - add explicit false-positive/false-negative costs without pretending cost is universal;
 - troubleshoot metric disagreements caused by population, sampling, labels, units, windows, duplicates, intervention, or threshold changes; and
-- communicate Arti's analytics/SQL/Python and support-trend strengths as transferable calculation and explanation skills only.
+- communicate your analytics/SQL/Python and support-trend strengths as transferable calculation and explanation skills only.
 
 ## JD Mapping
 
-| Supplied role signal | Capability built | Transferable Arti evidence | Boundary |
+| Supplied role signal | Capability built | Transferable evidence | Boundary |
 |---|---|---|---|
 | Behavioral false-positive cases | Quantifies FP burden and investigates denominator/context | Support quality and trend analytics | No claim of Abnormal production metrics |
 | Threat investigations | Tracks misses/FN hypotheses and label evidence | Evidence-based complex investigations | Undetected threats may not be labeled |
@@ -47,7 +47,7 @@ After completing this Part, you should be able to:
 
 | Evidence tier | Safe statement | Must not be implied |
 |---|---|---|
-| **Production transfer** | "I have used support metrics and trend analysis to reason about quality, volume, and customer impact." | That Arti measured an Abnormal production model |
+| **Production transfer** | "I have used support metrics and trend analysis to reason about quality, volume, and customer impact." | That you measured an Abnormal production model |
 | **Local/public lab** | "I hand-calculated confusion matrices and base-rate/cost scenarios from synthetic tables." | That the numbers represent customer or vendor outcomes |
 | **Learned architecture** | "I learned evaluation and responsible-AI concepts from official sources." | That generic formulas reveal Abnormal score behavior |
 | **No direct experience** | "I have not operated Abnormal AI or its evaluation pipeline in production." | Knowledge of private labels, sampling, thresholds, or benchmark sets |

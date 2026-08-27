@@ -1,6 +1,6 @@
 # Part 87 - VMware vSphere and Virtualized Workloads on NetApp
 
-> **Section goal:** Explain how a virtual-machine I/O travels through VMware vSphere to ONTAP over NFS, iSCSI, or Fibre Channel; compare VMFS, NFS datastores, and broad VVols concepts; and reason about multipathing, offloads, storage policy, protection, compatibility, performance, failure domains, and troubleshooting. By the end, Arti can discuss the architecture accurately without claiming a product guarantee.
+> **Section goal:** Explain how a virtual-machine I/O travels through VMware vSphere to ONTAP over NFS, iSCSI, or Fibre Channel; compare VMFS, NFS datastores, and broad VVols concepts; and reason about multipathing, offloads, storage policy, protection, compatibility, performance, failure domains, and troubleshooting. By the end, you can discuss the architecture accurately without claiming a product guarantee.
 
 Covers index item **87** and maps to job-description requirements for storage and virtualization depth, customer-environment discovery, best-practice and upgrade advice, supportability/risk analysis, technical troubleshooting, cross-vendor coordination, and operational service reviews.
 
@@ -10,7 +10,7 @@ Covers index item **87** and maps to job-description requirements for storage an
 
 **Version caveat:** VMware and NetApp names, plugins, features, compatibility, commands, licensing, and limits change; complete current-doc, IMT, and vendor checks before customer use.
 
-**Explicit nonclaim:** Arti has not designed, deployed, managed, upgraded, protected, benchmarked, or troubleshot a production VMware vSphere environment on NetApp storage, and has not operated ONTAP tools for VMware vSphere or SnapCenter Plug-in for VMware vSphere in production.
+**Explicit nonclaim:** You have not designed, deployed, managed, upgraded, protected, benchmarked, or troubleshot a production VMware vSphere environment on NetApp storage, and has not operated ONTAP tools for VMware vSphere or SnapCenter Plug-in for VMware vSphere in production.
 
 **Privacy/access:** Virtualization evidence can expose vCenter inventory, hosts, clusters, VM names, applications, datastores, storage paths, IPs/WWPNs, credentials, snapshots, backups, performance, licenses, support contracts, and business topology. Use least privilege, minimum fields, approved tools/repositories, redaction/tokenization, secure transfer, retention, and no customer exports, secrets, support bundles, or gated screenshots in a portfolio.
 
@@ -20,7 +20,7 @@ Covers index item **87** and maps to job-description requirements for storage an
 
 This Part is an architecture and troubleshooting guide, not a sizing rule, supported recipe, license statement, migration plan, backup guarantee, or production runbook.
 
-> **No-production-NetApp boundary:** Arti's factual strengths are Azure and virtual-machine fundamentals, Windows/networking, Microsoft enterprise escalation, performance evidence, change coordination, analytics, and customer communication. Her exact nonclaim is: **she has not operated production VMware workloads on NetApp.** She may use the fully synthetic scenario to demonstrate reasoning and state how she would validate a live design.
+> **No-production-NetApp boundary:** Your factual strengths are Azure and virtual-machine fundamentals, Windows/networking, enterprise escalation, performance evidence, change coordination, analytics, and customer communication. Your exact nonclaim is: **you have not operated production VMware workloads on NetApp.** You may use the fully synthetic scenario to demonstrate reasoning and state how you would validate a live design.
 
 ---
 
@@ -436,13 +436,13 @@ flowchart LR
 
 Record exact object relationships, versions/builds, definitions, population, interval, changes, healthy controls, support sources/notes/date, access class, reviewer and limitation. Delete temporary exports/accounts/snapshots/test VMs and chargeable resources through authorization; no licensing or cost promise is made.
 
-## 18. JD Mapping and Arti tie
+## 18. JD Mapping and background tie
 
 ```mermaid
 flowchart LR
     AZ[Azure/VM fundamentals] --> HV[Hypervisor/guest/control-plane reasoning]
     NET[Windows/networking] --> PATH[Protocol/path isolation]
-    CRIT[Escalation/CRITSIT] --> EVID[Cross-vendor timeline and ownership]
+    CRIT[Escalation/critical situation] --> EVID[Cross-vendor timeline and ownership]
     DATA[Analytics] --> PERF[Scope and percentile correlation]
     HV --> TAM[Virtualization TAM capability]
     PATH --> TAM
@@ -521,7 +521,7 @@ flowchart LR
 
 ### Q8. What is your experience boundary?
 
-> **Model answer:** `Azure/VM, Windows/networking, Microsoft escalation, analytics and change coordination transfer to virtualization reasoning. I have not operated production VMware on NetApp or the integrations. The scenario is synthetic, and live advice requires current NetApp/VMware docs, IMT and qualified owners.`
+> **Model answer:** `Azure/VM, Windows/networking, enterprise escalation, analytics and change coordination transfer to virtualization reasoning. I have not operated production VMware on NetApp or the integrations. The scenario is synthetic, and live advice requires current NetApp/VMware docs, IMT and qualified owners.`
 
 ---
 

@@ -1,10 +1,10 @@
 # Part 30 - Zscaler Company, Platform, Portfolio, and Market Vocabulary
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 >
 > **Purpose:** Build a current, factual map of Zscaler as a company, its public platform story, major product and solution families, market categories, customer personas, relationships, and outcome language before later Parts examine architecture and mechanics.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every NMH license, product, policy, deployment, user, workload, asset, risk, incident, metric, and outcome is synthetic. Direct production operation of Zscaler products is not established for Arti. Public product pages support conceptual statements, not tenant configuration or past experience.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every NMH license, product, policy, deployment, user, workload, asset, risk, incident, metric, and outcome is synthetic. Direct production operation of Zscaler products is not established for you. Public product pages support conceptual statements, not tenant configuration or past experience.
 >
 > **Currency caveat:** The source snapshot is **2026-08-24**. Zscaler names, portfolio groupings, website navigation, form factors, features, integrations, metrics, packaging, editions, entitlements, previews, availability, and service descriptions change. Vendor pages sometimes group the same capability under several solution stories. Confirm the current official documentation, release notes, price/plan or ordering material, contract, tenant entitlements, cloud/region, and specialist guidance before giving customer-specific advice.
 
@@ -14,7 +14,7 @@ Product portfolios are often taught as a list of logos. That approach fails as s
 
 Think of a modern airport. The airport is the platform. Passenger screening, baggage inspection, private staff access, flight monitoring, cargo security, and incident response are related systems. A boarding pass is a component, not the whole airport. "Safe travel" is an outcome, not a product. A managed incident-response team is a service, not a firewall. The public website may group pages by traveler, journey, threat, or department; that menu is not the airport's engineering blueprint.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Proof |
 |---|---|---|
@@ -34,7 +34,7 @@ By the end, Arti should be able to:
 
 ## JD Mapping
 
-| Role expectation | Part 30 capability | Artifact | Arti bridge/boundary |
+| Role expectation | Part 30 capability | Artifact | experience bridge/boundary |
 |---|---|---|---|
 | Lead strategic engagements | Organize a broad portfolio around customer outcomes | Outcome-to-portfolio map | Enterprise ownership transfers; product operation is new |
 | Analyze complex environments | Identify entities, destinations, traffic, data, telemetry, and owners | Current-state diagram | M365 dependency mapping transfers |
@@ -43,13 +43,13 @@ By the end, Arti should be able to:
 | Build Data Fabric/UVM expertise | Place exposure products in the larger platform story | Data-to-action diagram | SQL/analytics transfer; product use not established |
 | Advocate best practices | Explain staged adoption, integration, health, policy, and validation | Roadmap | Advisory/change methods transfer |
 | Partner with Sales/Support/Product | Use precise product/category/service boundaries | RACI/handoff | Microsoft cross-functional work transfers |
-| Resolve escalations | Route workforce, data, cloud, exposure, SecOps, or experience issue correctly | Triage matrix | CRITSIT method transfers |
+| Resolve escalations | Route workforce, data, cloud, exposure, SecOps, or experience issue correctly | Triage matrix | critical-situation method transfers |
 | Consult and train | Explain the portfolio from zero for several audiences | Whiteboard/teach-back | Direct training strength |
 | Communicate to executives | Lead with risk, productivity, simplification, resilience, and evidence | Executive narrative | Avoid unvalidated vendor metrics |
 
 ## Candidate honesty note
 
-Arti can say she has studied the current official Zscaler portfolio and can explain a source-grounded conceptual map. She cannot say she configured, deployed, tuned, licensed, troubleshot, or delivered production outcomes with ZIA, ZPA, ZDX, Client Connector, Zero Trust Browser, Data Security, Zero Trust Cloud, Zero Trust Branch, Data Fabric, Asset Exposure Management, UVM, Risk360, or Agentic SecOps unless separately established by approved facts.
+You can say you have studied the current official Zscaler portfolio and can explain a source-grounded conceptual map. You cannot say you configured, deployed, tuned, licensed, troubleshot, or delivered production outcomes with ZIA, ZPA, ZDX, Client Connector, Zero Trust Browser, Data Security, Zero Trust Cloud, Zero Trust Branch, Data Fabric, Asset Exposure Management, UVM, Risk360, or Agentic SecOps unless separately established by approved facts.
 
 | Claim label | Safe statement | Unsafe conversion |
 |---|---|---|
@@ -59,7 +59,7 @@ Arti can say she has studied the current official Zscaler portfolio and can expl
 | Not yet used | "I have not administered ZIA or ZPA in production; I would learn the tenant's forwarding, identity, policy, and logs." | "I am hands-on with ZIA/ZPA." |
 | Unknown | "Licensing and availability are unverified until the account team and tenant evidence confirm them." | "The feature is included because the website lists it." |
 
-Public rankings, customer quotes, transaction counts, threat counts, detection percentages, return-on-investment estimates, savings, deployment times, product accuracy claims, and connector counts are dated vendor or cited-third-party claims. They can guide questions but are not universal guarantees and are intentionally not used as Arti's proof.
+Public rankings, customer quotes, transaction counts, threat counts, detection percentages, return-on-investment estimates, savings, deployment times, product accuracy claims, and connector counts are dated vendor or cited-third-party claims. They can guide questions but are not universal guarantees and are intentionally not used as your proof.
 
 ## Vocabulary taxonomy: what kind of thing is this?
 
@@ -804,9 +804,9 @@ flowchart LR
 | Value | What changed from baseline and why? | Outcome measure/caveat | Vendor metric as customer result |
 | Roadmap | What next use case fits risk/capacity? | Prioritized roadmap | Commercial promise |
 
-## Arti's interview bridge
+## Your interview bridge
 
-Arti can say:
+You can say:
 
 "Zscaler's current public story starts with an AI security platform built on Zero Trust. The Zero Trust Exchange is the central inline connection, policy, and enforcement foundation. For the workforce, ZIA secures internet/SaaS access, ZPA provides specific private-app access, ZDX analyzes digital experience, and Client Connector or browser form factors support endpoint context and traffic/access use cases. Data Security spans DLP, CASB, DSPM, endpoint, browser, API, and AI/Copilot scenarios. Zero Trust Cloud and Branch extend the model to workloads, branches, IoT/OT, and privileged/third-party access.
 
@@ -922,7 +922,7 @@ Record the company/portfolio answer. For each named term, identify a dated offic
 
 ## Official Source Anchors
 
-All pages were reviewed on **2026-08-24**. These are vendor-authored sources used for current names and public positioning. They do not independently verify comparative superiority, customer-specific entitlement, performance, outcome, or Arti's experience. Some pages use dynamic marketing metrics and overlapping navigation; current technical/order documentation controls production decisions.
+All pages were reviewed on **2026-08-24**. These are vendor-authored sources used for current names and public positioning. They do not independently verify comparative superiority, customer-specific entitlement, performance, outcome, or your experience. Some pages use dynamic marketing metrics and overlapping navigation; current technical/order documentation controls production decisions.
 
 | Source | URL | Used for | Boundary |
 |---|---|---|---|
@@ -1080,7 +1080,7 @@ All pages were reviewed on **2026-08-24**. These are vendor-authored sources use
 - [ ] I can work all eight fictional scenario drills without collapsing product roles.
 - [ ] I can explain the TSM lifecycle from discovery through EBR/roadmap.
 - [ ] I can deliver the 30-second company/portfolio answer in my own voice.
-- [ ] I can state Arti's production strengths and Zscaler product gap honestly.
+- [ ] I can state your production strengths and Zscaler product gap honestly.
 - [ ] I have completed all twelve labs using synthetic/owned data.
 - [ ] I can answer Q1-Q8 concisely and cite dated official sources.
 

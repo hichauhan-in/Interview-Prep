@@ -2,7 +2,7 @@
 
 > **Purpose:** Build a product-neutral, evidence-based method for separating urgent service restoration from underlying-cause management and standard request fulfillment, then converting approved learning into safe known-error records, knowledge articles, runbooks, and playbooks with explicit ownership.
 >
-> **Artifact honesty label:** **Local synthetic work-item classification and known-error/runbook design only.** Every organization, service, person, customer, tenant, event, symptom, cause, request, approval, change, timestamp, identifier, workaround, validation, record, and result in this Part is fictional unless a public source is explicitly cited. The lab was not performed while this Part was authored. No Abnormal AI, Microsoft, customer, mailbox, identity, API, network, security, ticketing, knowledge, change-management, or production system was accessed or changed. Arti may describe the lab as completed only after she actually creates the local fictional artifact and every deterministic gate records `PASS`.
+> **Artifact honesty label:** **Local synthetic work-item classification and known-error/runbook design only.** Every organization, service, person, customer, tenant, event, symptom, cause, request, approval, change, timestamp, identifier, workaround, validation, record, and result in this Part is fictional unless a public source is explicitly cited. The lab was not performed while this Part was authored. No Abnormal AI, Microsoft, customer, mailbox, identity, API, network, security, ticketing, knowledge, change-management, or production system was accessed or changed. You may describe the lab as completed only after you actually create the local fictional artifact and every deterministic gate records `PASS`.
 >
 > **Currency and source access date:** August 24, 2026.
 
@@ -63,20 +63,20 @@ This Part expressly prohibits production execution of its sample runbook, any un
 | Knowledge creation | Converts repeated evidence into reusable, governed material | Separates reader guidance from executable operational procedure | Known-error and knowledge-entry template |
 | Recommendations | Offers safe temporary recovery without presenting it as a fix | Records approval, risk, limits, validation, expiry, and residual impact | Workaround record |
 | Process improvement | Reviews recurrence, runbook outcomes, and stale known errors | Assigns review owner, evidence threshold, metrics, and retirement criteria | Runbook review scorecard |
-| Microsoft enterprise support background | Transfers case ownership, CRITSIT coordination, fix validation, KB creation, and escalation discipline | Uses a real Microsoft example only within the actual role and product boundaries | Candidate transfer statement |
+| enterprise support background | Transfers case ownership, critical-situation coordination, fix validation, KB creation, and escalation discipline | Uses a real Microsoft example only within the actual role and product boundaries | Candidate transfer statement |
 | Abnormal AI learning goal | Learns product-neutral service operations while preserving vendor boundaries | Makes no claim about Abnormal's internal incident, problem, request, knowledge, change, or runbook workflow | Source-and-boundary ledger |
 
 ## Candidate honesty note
 
-Arti can truthfully draw on five years of Microsoft enterprise support: owning customer cases, working critical situations, clarifying service impact, coordinating with Engineering or Product, communicating with customers and partners, validating fixes, creating knowledge or training, mentoring others, and reviewing case quality, backlog, and customer satisfaction. Those experiences support the judgment taught here.
+You can truthfully draw on several years of enterprise support: owning customer cases, working critical situations, clarifying service impact, coordinating with Engineering or Product, communicating with customers and partners, validating fixes, creating knowledge or training, mentoring others, and reviewing case quality, backlog, and customer satisfaction. Those experiences support the judgment taught here.
 
-They do not establish that she has operated Abnormal AI's production support workflows, incident command, problem management, request catalog, known-error database, change model, security response, runbook system, ticket fields, role permissions, closure criteria, or escalation routes. Microsoft terminology, CRITSIT practice, tools, approvals, and record types cannot be projected onto another employer. The safe interview bridge is:
+They do not establish that you have operated Abnormal AI's production support workflows, incident command, problem management, request catalog, known-error database, change model, security response, runbook system, ticket fields, role permissions, closure criteria, or escalation routes. prior-employer terminology, critical-situation practice, tools, approvals, and record types cannot be projected onto another employer. The safe interview bridge is:
 
-> “My Microsoft enterprise support experience taught me to restore the customer's usable outcome, keep the evidence and owners visible, validate a workaround rather than oversell it, and continue durable follow-up through the right owning team. I have not operated Abnormal's internal incident, problem, request, or known-error workflow. I would learn the current glossary, service catalog, change policy, security route, and systems of record before applying a label or executing a procedure.”
+> “My prior enterprise support experience taught me to restore the customer's usable outcome, keep the evidence and owners visible, validate a workaround rather than oversell it, and continue durable follow-up through the right owning team. I have not operated Abnormal's internal incident, problem, request, or known-error workflow. I would learn the current glossary, service catalog, change policy, security route, and systems of record before applying a label or executing a procedure.”
 
 | Evidence tier | Safe wording | What supports it | Overclaim to avoid |
 |---|---|---|---|
-| Microsoft production experience | “In Microsoft enterprise support, I owned customer communication and coordinated evidence-based escalation.” | CV-supported scope plus a real defensible story | “Abnormal uses the same CRITSIT or problem process.” |
+| prior production experience | “In enterprise support, I owned customer communication and coordinated evidence-based escalation.” | CV-supported scope plus a real defensible story | “Abnormal uses the same critical situation or problem process.” |
 | Local synthetic practice | “After I actually complete it, I created and validated an offline classifier and runbook artifact using fiction.” | Learner-authored local evidence and a passing rubric | “I executed an Abnormal runbook” or “I managed a real known error.” |
 | Learned architecture | “Official sources help me explain why mitigation, causal follow-up, and prepared procedures are separate.” | Dated official sources and stated boundaries | “The source proves Abnormal's workflow.” |
 | No direct experience | “I have not used the internal tool or process; I would verify the current authorized source.” | Explicit gap plus a concrete ramp plan | Naming an internal queue, approval, status, or owner without evidence |
@@ -698,7 +698,7 @@ A memorable operating method is **R-C-L-E-A-R**:
 - **A - Authorize every action:** Verify owner acceptance, access, change class, security/privacy boundary, scope, and stop conditions.
 - **R - Reassess and review:** Recheck impact, workaround, runbook result, residual risk, stale knowledge, closure, and recurrence triggers.
 
-| Interview prompt | Strong answer shape | Honest Microsoft transfer | Boundary |
+| Interview prompt | Strong answer shape | Honest experience transfer | Boundary |
 |---|---|---|---|
 | “Incident or problem?” | State current impact, desired outcome, restoration track, causal track, and links | Critical-case coordination plus Engineering follow-up | Do not claim Abnormal record names or policy |
 | “When do you use a workaround?” | Approval, safety, scope, validation, limits, expiry, owner, residual risk | Fix-validation and customer communication habits | No security bypass or automatic closure |
@@ -707,7 +707,7 @@ A memorable operating method is **R-C-L-E-A-R**:
 | “How do you trust a runbook?” | Version, scope, entry, authority, evidence, branches, stop, validation, recovery, owner, review | Knowledge/training quality habits | Never execute this lesson's example in production |
 | “What if root cause is unknown?” | State evidence ceiling, preserve rejected hypotheses, improve detection, and assign next trigger | Evidence-based escalation | Never fill the field with a guess |
 
-The strongest answer is neither “everything is an incident” nor a recital of framework definitions. It shows that Arti can protect the immediate customer outcome, preserve durable learning, respect authorization, and state exactly what evidence supports.
+The strongest answer is neither “everything is an incident” nor a recital of framework definitions. It shows that you can protect the immediate customer outcome, preserve durable learning, respect authorization, and state exactly what evidence supports.
 
 ## Lab
 
@@ -719,7 +719,7 @@ If performed later, the learner creates one local Markdown packet containing twe
 
 - A learner-owned local folder and plain-text or Markdown editor.
 - This Part as a read-only reference.
-- No Abnormal AI, Microsoft production, customer, email, identity, API, cloud, network, security, ticketing, CRM, knowledge, change, monitoring, or external system.
+- No Abnormal AI, prior production, customer, email, identity, API, cloud, network, security, ticketing, CRM, knowledge, change, monitoring, or external system.
 - No real person, customer, employer, tenant, domain, address, incident, problem, request, error, cause, event, content, log, contract, timestamp, identifier, procedure, screenshot, or product output.
 - No password, token, cookie, key, secret, MFA code, recovery code, authorization header, credential-shaped placeholder, or authenticated URL.
 - Obvious aliases such as `ORG-103-FICTION`, `WI-103-A`, `PRB-103-A`, `KE-103-A`, `RUN-103-A`, `USER-103-A`, and `example.invalid` only if a domain-shaped value is needed.
@@ -868,7 +868,7 @@ Score every row. Any automatic-failure condition makes the overall result `FAIL`
 | Closure | Workaround or task creation closes the incident | Outcome is partially validated but residual work is vague | Current policy gate, validated scope, residual risk, customer communication, and accepted linked ownership control closure |
 | Escalation | A data dump or urgent adjective substitutes for an ask | Receiving team is named but evidence/acceptance is weak | Trigger, bounded evidence, authority gap, exact ask, acceptance, retained duties, fallback, and communication are complete |
 | Safety/privacy | Production, secret, content, bypass, or destructive step appears | Generic warning exists | Local synthetic scope, minimum data, explicit prohibitions, stop conditions, and authorized routes are enforced |
-| Candidate honesty | Microsoft or lab work is presented as Abnormal production experience | Gap is implied | Microsoft transfer, local practice, learned sources, and no direct Abnormal workflow experience are explicit |
+| Candidate honesty | Prior-role or lab work is presented as Abnormal production experience | Gap is implied | experience transfer, local practice, learned sources, and no direct Abnormal workflow experience are explicit |
 | Source discipline | Secondary summaries or unsupported claims define policy | Official sources exist without limits | At least eight primary official sources each have an explicit authority boundary and current-source caution |
 | Interview Q&A | Count differs from eight or an answer lacks the required label | Eight answers exist but omit evidence or limits | Exactly eight numbered questions each have one `Model answer` grounded in method, ethics, transfer, and boundaries |
 | Deterministic review | Counts, links, gates, evidence, or repair cap are missing | Informal review only | Every contract gate is counted, automatic failures are absent, and repairs do not exceed three |
@@ -911,7 +911,7 @@ These official or primary sources anchor public product context, service-managem
 | [NIST SP 800-61 Rev. 3](https://csrc.nist.gov/pubs/sp/800/61/r3/final) | Primary U.S. government recommendations for integrating cybersecurity incident response with risk management | It does not make L1 a security incident commander or authorize collection, containment, eradication, notification, breach declaration, or customer action |
 | [CISA Federal Government Cybersecurity Incident and Vulnerability Response Playbooks](https://www.cisa.gov/news-events/news/cisa-releases-cybersecurity-incident-and-vulnerability-response-playbooks) | Official public context for prepared cybersecurity incident and vulnerability response playbooks | Federal playbooks do not govern a private vendor/customer workflow, grant access, or authorize production/security actions in this lab |
 | [Google SRE Workbook - Incident Response](https://sre.google/workbook/incident-response/) | Primary Google SRE discussion of mitigation-first incident management, roles, communication, records, drills, and runbooks | Google's practices and case studies describe Google/PagerDuty contexts; they do not establish Abnormal policy, authority, terminology, or customer commitments |
-| [Google SRE Book - Managing Incidents](https://sre.google/sre-book/managing-incidents/) | Primary Google SRE guidance on structured incident response and role clarity | The model must be adapted under local policy and does not grant Arti incident-command authority or define a support-ticket workflow |
+| [Google SRE Book - Managing Incidents](https://sre.google/sre-book/managing-incidents/) | Primary Google SRE guidance on structured incident response and role clarity | The model must be adapted under local policy and does not grant you incident-command authority or define a support-ticket workflow |
 | [Google SRE Workbook - Postmortem Culture](https://sre.google/workbook/postmortem-culture/) | Primary guidance on learning from incidents and avoiding blame | Postmortem guidance does not prove a single root cause, replace evidence, or define when a problem or incident may close |
 | [AWS Well-Architected Framework - Prepare](https://docs.aws.amazon.com/wellarchitected/latest/operational-excellence-pillar/prepare.html) | Official AWS guidance on operational readiness, observability, runbooks, playbooks, and change risk | AWS guidance is not an executable procedure for another service and grants no production access, change approval, or vendor-specific role |
 | [NIST SP 800-184 - Guide for Cybersecurity Event Recovery](https://csrc.nist.gov/pubs/sp/800/184/final) | Primary U.S. government guidance on planning and improving recovery | Recovery guidance does not define customer service restoration, legal notification, product remediation, or L1 authority for a specific organization |
@@ -957,9 +957,9 @@ Source discipline:
 
 **Model answer:** I record the restored outcome and scope, residual impact, workaround limits, incident completion criteria, linked problem or corrective work, exact accepted owner, retained Support communication, and the next review or reopen trigger. Tagging Engineering is not acceptance. The incident and problem can have different owners and close at different times. I preserve the original customer timeline and do not reset records for metrics. If ownership is not accepted, I use the current fallback escalation and keep customer continuity visible.
 
-### Q8. How does your Microsoft background help without overstating Abnormal experience?
+### Q8. How does your prior background help without overstating Abnormal experience?
 
-**Model answer:** Microsoft enterprise support gave me real experience owning cases, coordinating CRITSIT work, communicating with customers and partners, collaborating with Engineering or Product, validating fixes, and creating knowledge or training. Those habits transfer directly to restoration, evidence quality, ownership, and follow-through. Microsoft record types, change processes, clocks, tools, and terminology do not define Abnormal's operations, and I have not run Abnormal's internal workflows in production. I would learn the current approved glossary, service catalog, security route, change policy, and systems of record before acting.
+**Model answer:** enterprise support gave me real experience owning cases, coordinating critical-situation work, communicating with customers and partners, collaborating with Engineering or Product, validating fixes, and creating knowledge or training. Those habits transfer directly to restoration, evidence quality, ownership, and follow-through. Microsoft record types, change processes, clocks, tools, and terminology do not define Abnormal's operations, and I have not run Abnormal's internal workflows in production. I would learn the current approved glossary, service catalog, security route, change policy, and systems of record before acting.
 
 ## Memory Hooks
 
@@ -1036,7 +1036,7 @@ Source discipline:
 - [ ] I never delete, purge, wipe, clear, reset, revoke, quarantine, release, overwrite, or destructively reproduce real data, evidence, messages, accounts, records, or systems.
 - [ ] I can explain what each official source anchors and where its authority stops.
 - [ ] I revalidate current sources, versions, permissions, policies, customer context, and ownership after August 24, 2026.
-- [ ] I state honestly which experience came from Microsoft production support, which came from local practice, which is learned architecture, and which remains a gap.
+- [ ] I state honestly which experience came from prior production support, which came from local practice, which is learned architecture, and which remains a gap.
 - [ ] I make no claim about Abnormal's internal incident, problem, request, change, known-error, knowledge, runbook, playbook, status, queue, owner, or closure workflow.
 - [ ] I can answer all eight interview questions aloud with evidence, safety, ownership, and scope boundaries.
 - [ ] I describe SignalBridge Lab 103 as `DESIGN_NOT_EXECUTED_NOT_TRANSFERRED` unless I actually create the local artifact and every gate passes.

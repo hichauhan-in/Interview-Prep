@@ -8,9 +8,9 @@
 
 ## Section goal
 
-By the end of this Part, Arti should be able to use the current term **Transport Layer Security (TLS)** rather than calling modern connections “SSL,” while recognizing that product settings and errors may retain legacy Secure Sockets Layer (SSL) wording. She should be able to explain TLS confidentiality, integrity, and peer authentication; narrate ClientHello and ServerHello negotiation at a high level; distinguish protocol versions, cipher suites, key agreement, signatures, and record protection; and identify what TLS does not prove about application authorization or business processing.
+By the end of this Part, you should be able to use the current term **Transport Layer Security (TLS)** rather than calling modern connections “SSL,” while recognizing that product settings and errors may retain legacy Secure Sockets Layer (SSL) wording. You should be able to explain TLS confidentiality, integrity, and peer authentication; narrate ClientHello and ServerHello negotiation at a high level; distinguish protocol versions, cipher suites, key agreement, signatures, and record protection; and identify what TLS does not prove about application authorization or business processing.
 
-She should be able to read an X.509 certificate chain containing leaf, intermediate, and root/trust anchor roles; distinguish issuer, subject, Subject Alternative Name (SAN), validity time, signature, public key, Key Usage, Extended Key Usage (EKU), and revocation mechanisms; and explain hostname validation. She should understand Server Name Indication (SNI), Application-Layer Protocol Negotiation (ALPN), session resumption, enterprise TLS inspection, and mutual TLS (mTLS) client-certificate authentication.
+You should be able to read an X.509 certificate chain containing leaf, intermediate, and root/trust anchor roles; distinguish issuer, subject, Subject Alternative Name (SAN), validity time, signature, public key, Key Usage, Extended Key Usage (EKU), and revocation mechanisms; and explain hostname validation. You should understand Server Name Indication (SNI), Application-Layer Protocol Negotiation (ALPN), session resumption, enterprise TLS inspection, and mutual TLS (mTLS) client-certificate authentication.
 
 The support goal is to isolate a SaaS/API/email connection at the TLS boundary. A successful TCP handshake with a failed certificate check means route/transport worked for that attempt but protected peer identity did not validate. A successful TLS handshake proves negotiated protection and validated identity according to the client context; it does not prove an OAuth scope, tenant role, HTTP request, SMTP recipient, or asynchronous product action succeeded.
 
@@ -31,7 +31,7 @@ The support goal is to isolate a SaaS/API/email connection at the TLS boundary. 
 
 ## Candidate honesty note
 
-Arti can accurately describe TLS, certificate, SNI, ALPN, mTLS, `curl`, OpenSSL, browser evidence, and trust-store comparison as **working familiarity supported by safe labs**. Her production transfer is enterprise Microsoft support: diagnosing client/cloud boundaries, collecting logs, coordinating identity/network/product owners, communicating risk, escalating to Engineering, and validating fixes. She should not claim to have designed enterprise public key infrastructure (PKI), operated a certificate authority (CA), managed production private keys, configured Abnormal's TLS endpoints, or owned enterprise inspection policy.
+You can accurately describe TLS, certificate, SNI, ALPN, mTLS, `curl`, OpenSSL, browser evidence, and trust-store comparison as **working familiarity supported by safe labs**. Your production transfer is enterprise support: diagnosing client/cloud boundaries, collecting logs, coordinating identity/network/product owners, communicating risk, escalating to Engineering, and validating fixes. You should not claim to have designed enterprise public key infrastructure (PKI), operated a certificate authority (CA), managed production private keys, configured Abnormal's TLS endpoints, or owned enterprise inspection policy.
 
 | Evidence tier | Safe claim | Boundary |
 |---|---|---|

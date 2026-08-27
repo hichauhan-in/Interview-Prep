@@ -8,11 +8,11 @@
 
 ## Section Goal
 
-By the end of this Part, Arti should be able to explain a cloud email-security flow from first principles and diagnose where an unexpected outcome may have occurred. She should distinguish the **SMTP envelope** from visible message content; sender authentication from sender intent; message analysis from policy treatment; verdict from delivery state; quarantine from deletion; and a remediation request from validated target state.
+By the end of this Part, you should be able to explain a cloud email-security flow from first principles and diagnose where an unexpected outcome may have occurred. You should distinguish the **SMTP envelope** from visible message content; sender authentication from sender intent; message analysis from policy treatment; verdict from delivery state; quarantine from deletion; and a remediation request from validated target state.
 
-Arti should be able to organize evidence into mail context, identity context, relationship/behavior context, message/content context, policy/configuration, action state, and customer ground truth. She should explain why a message can pass SPF, DKIM, or DMARC and still be fraudulent; why a behavioral anomaly is not proof of malice; why one false-positive report is not automatically a model defect; and why a missing alert is not automatically a false negative until data/path/ground-truth questions are checked.
+You should be able to organize evidence into mail context, identity context, relationship/behavior context, message/content context, policy/configuration, action state, and customer ground truth. You should explain why a message can pass SPF, DKIM, or DMARC and still be fraudulent; why a behavioral anomaly is not proof of malice; why one false-positive report is not automatically a model defect; and why a missing alert is not automatically a false negative until data/path/ground-truth questions are checked.
 
-She should also know the L1 touchpoints for configuration tickets, disputed verdicts, user-reported messages, delivery/quarantine questions, post-delivery remediation, threat investigations, and feedback. The practical outcome is the **Signal Post Synthetic Email-Security Decision and Support Map Lab**, which uses a harmless invented message, known ground truth, paper event records, and no live email system.
+You should also know the L1 touchpoints for configuration tickets, disputed verdicts, user-reported messages, delivery/quarantine questions, post-delivery remediation, threat investigations, and feedback. The practical outcome is the **Signal Post Synthetic Email-Security Decision and Support Map Lab**, which uses a harmless invented message, known ground truth, paper event records, and no live email system.
 
 ## JD Mapping
 
@@ -31,11 +31,11 @@ She should also know the L1 touchpoints for configuration tickets, disputed verd
 
 ## Candidate Honesty Note
 
-Arti has no claimed direct email-security production operations or Abnormal experience. Her Microsoft cloud support experience transfers to tenant/configuration reasoning, evidence, customer communication, Engineering/Product escalation, and fix validation. Networking and protocol learning helps her explain DNS, SMTP, TLS, HTTP/API, and provider boundaries. Identity and AI knowledge helps frame accounts, sessions, context, uncertainty, and human verification. It does not prove Exchange Online protection operations, mail-flow administration, threat verdict ownership, or proprietary model understanding.
+You have no claimed direct email-security production operations or Abnormal experience. Your prior cloud support experience transfers to tenant/configuration reasoning, evidence, customer communication, Engineering/Product escalation, and fix validation. Networking and protocol learning helps your explain DNS, SMTP, TLS, HTTP/API, and provider boundaries. Identity and AI knowledge helps frame accounts, sessions, context, uncertainty, and human verification. It does not prove Exchange Online protection operations, mail-flow administration, threat verdict ownership, or proprietary model understanding.
 
 | Evidence label | Honest use | Boundary |
 |---|---|---|
-| **Production-transfer example** | Enterprise support ownership, complex investigation, CRITSIT communication, escalation, validation, knowledge | Do not call Microsoft cloud support email-security operations |
+| **Production-transfer example** | Enterprise support ownership, complex investigation, critical-situation communication, escalation, validation, knowledge | Do not call Microsoft cloud support email-security operations |
 | **Working knowledge/upskilling** | Mail, networking, identity, APIs, logs, AI fundamentals | Do not claim deep production mail administration |
 | **Local/public lab** | Synthetic raw-message metadata, decision map, false-positive/negative reasoning | No sent mail, tenant, real headers, product console, or threat |
 | **Learned architecture** | Official public product positioning and neutral email-security flow | No proprietary logic or workflow claim |
@@ -52,7 +52,7 @@ Arti has no claimed direct email-security production operations or Abnormal expe
 | **Inference/question to validate** | Likely but unconfirmed operational detail | Which evidence fields an L1 can see for a disputed verdict |
 | **Unknown/private** | Proprietary or customer-specific detail | Signals, features, weights, thresholds, model internals, exact action semantics, permissions, case flow, SLA |
 
-The detection ceiling is strict: Arti may explain **types of context** a behavior-centered system could use at a generic level, and she may repeat high-level categories explicitly published by Abnormal. She must not say, “Abnormal uses field X with weight Y,” “a score above Z causes quarantine,” or “the model retrains when a customer submits a case.”
+The detection ceiling is strict: You may explain **types of context** a behavior-centered system could use at a generic level, and you may repeat high-level categories explicitly published by Abnormal. You must not say, “Abnormal uses field X with weight Y,” “a score above Z causes quarantine,” or “the model retrains when a customer submits a case.”
 
 ## Beginner Term Primer
 
@@ -681,7 +681,7 @@ Create end-user, mail-admin, SOC, executive, and Engineering versions from one e
 | Remediation | Accepted equals success | Final state checked | Targets, partial state, idempotency, retry/rollback, side effects complete |
 | Evidence/privacy | Real/full message | Synthetic fields | Minimum metadata, no secrets/links/content, manifest and cleanup complete |
 | Escalation | “Model wrong” | IDs and impact | Path/verdict/policy/action evidence and explicit private-owner question |
-| Candidate honesty | Email ops implied | Gap stated | Microsoft transfer and no-direct-email/Abnormal boundaries explicit |
+| Candidate honesty | Email ops implied | Gap stated | experience transfer and no-direct-email/Abnormal boundaries explicit |
 | Reproducibility/admin | Live action or missing record | Partial lab | Full artifacts, known ground truth, no activity, score and retention complete |
 
 **Passing target:** 42/48 or higher, with 4s in detection ceiling, FP/FN discipline, threat support, evidence/privacy, candidate honesty, and reproducibility/admin. Any sent email, live tenant/account/API/DNS action, real message/header/content, URL/attachment interaction, credential, private product claim, or production experience claim is an automatic failure.
@@ -759,7 +759,7 @@ Create end-user, mail-admin, SOC, executive, and Engineering versions from one e
 
 **Question:** What direct email-security experience do you have?
 
-**Model answer:** I do not claim direct email-security production operation or Abnormal experience. My production foundation is Microsoft enterprise support and escalation: complex diagnosis, tenant/configuration context, CRITSIT communication, Engineering/Product handoffs, fix validation, knowledge, mentoring, and support analytics. Networking, mail-protocol, identity, API, log, and AI study adds technical readiness. My current email-security proof is learned architecture and a harmless synthetic decision/support lab.
+**Model answer:** I do not claim direct email-security production operation or Abnormal experience. My production foundation is enterprise support and escalation: complex diagnosis, tenant/configuration context, critical-situation communication, Engineering/Product handoffs, fix validation, knowledge, mentoring, and support analytics. Networking, mail-protocol, identity, API, log, and AI study adds technical readiness. My current email-security proof is learned architecture and a harmless synthetic decision/support lab.
 
 ## 30-Second Memory Hooks
 
@@ -801,7 +801,7 @@ Create end-user, mail-admin, SOC, executive, and Engineering versions from one e
 - [ ] I scored at least 42/48, with 4s in detection ceiling, FP/FN discipline, threat support, evidence/privacy, candidate honesty, and reproducibility/admin.
 - [ ] I sent no mail and used no account, tenant, API, DNS change, real header/content, credential, URL, attachment, product console, or network action.
 - [ ] I made no claim about Abnormal's exact detection signals, features, weights, scores, thresholds, training, baselines, fields, permissions, workflows, actions, entitlements, SLAs, or customer behavior.
-- [ ] I use Arti's Microsoft, M365, networking, API/data, customer, KB/training, mentoring, and AI facts only as transferable background.
+- [ ] I use your prior support, cloud, networking, API/data, customer, KB/training, mentoring, and AI facts only as transferable background.
 - [ ] I can answer all eight interview questions aloud while preserving customer and vendor authority.
 - [ ] I revalidated all official source anchors against August 24, 2026.
 

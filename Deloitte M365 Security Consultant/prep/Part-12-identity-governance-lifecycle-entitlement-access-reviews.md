@@ -19,9 +19,9 @@ This Part extends the privileged assignment lifecycle in [Part 11](Part-11-privi
 
 ## Candidate honesty note
 
-Arti can credibly connect this topic to demonstrated Microsoft 365 support and advisory work: tracing permissions and sharing in SharePoint/OneDrive, coordinating customer stakeholders and product vendors, managing escalations, documenting ownership and RCA, validating fixes, creating reusable guidance, mentoring peers, and translating technical impact for business reviews.
+You can credibly connect this topic to demonstrated Microsoft 365 support and advisory work: tracing permissions and sharing in SharePoint/OneDrive, coordinating customer stakeholders and product vendors, managing escalations, documenting ownership and RCA, validating fixes, creating reusable guidance, mentoring peers, and translating technical impact for business reviews.
 
-This Part does **not** claim that Arti owned production HR provisioning, Lifecycle Workflows, entitlement management, access reviews, guest governance, or separation-of-duties policy. Safe wording is:
+This Part does **not** claim that you owned production HR provisioning, Lifecycle Workflows, entitlement management, access reviews, guest governance, or separation-of-duties policy. Safe wording is:
 
 > “My production experience includes Microsoft 365 escalations, SharePoint/OneDrive permissions and sharing analysis, stakeholder and vendor coordination, RCA, documentation, and fix validation. I have built a current fictional Entra ID Governance design covering authoritative HR events, Lifecycle Workflows, access packages, guest lifecycle, reviews, exceptions, testing, metrics, and troubleshooting. I present that as transferable delivery skill and structured design evidence, not production IGA ownership.”
 
@@ -806,7 +806,7 @@ flowchart LR
     SOD[Production Approver package] -.incompatible both ways.-> PACKAGE
 ```
 
-Arti’s SharePoint/OneDrive background helps test what the package actually grants: site role, Team-backed group, file sharing, sync/download, external-user experience, inherited/direct permissions, and cleanup. The consulting answer remains honest: transfer workload and escalation knowledge into governance design without claiming to have deployed entitlement management in production.
+Your SharePoint/OneDrive background helps test what the package actually grants: site role, Team-backed group, file sharing, sync/download, external-user experience, inherited/direct permissions, and cleanup. The consulting answer remains honest: transfer workload and escalation knowledge into governance design without claiming to have deployed entitlement management in production.
 
 ---
 

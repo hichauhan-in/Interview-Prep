@@ -2,17 +2,17 @@
 
 > **Purpose:** Learn how organizations prepare for, detect, analyze, contain, eradicate, recover from, and learn from cybersecurity incidents while preserving evidence, authority, business context, and customer trust.
 >
-> **Evidence rule:** Every incident, message, identity, endpoint, event, action, timeline, and artifact in this Part is synthetic. Arti's Microsoft CRITSIT and enterprise-support experience transfers to coordination, communication, escalation, evidence, and validation; it does not establish incident-command, SOC-response, direct email-security, Abnormal AI, legal, or forensic production authority.
+> **Evidence rule:** Every incident, message, identity, endpoint, event, action, timeline, and artifact in this Part is synthetic. Your prior critical situation and enterprise-support experience transfers to coordination, communication, escalation, evidence, and validation; it does not establish incident-command, SOC-response, direct email-security, Abnormal AI, legal, or forensic production authority.
 >
 > **Currency and official-source access date:** August 24, 2026.
 
 ## Section Goal
 
-By the end of this Part, Arti should be able to explain incident response as a risk-management capability that exists before, during, and after a cybersecurity incident. She should be able to walk through preparation; detection and analysis; containment; eradication; recovery; and lessons learned/continuous improvement while understanding that real work is iterative rather than a one-way checklist.
+By the end of this Part, you should be able to explain incident response as a risk-management capability that exists before, during, and after a cybersecurity incident. You should be able to walk through preparation; detection and analysis; containment; eradication; recovery; and lessons learned/continuous improvement while understanding that real work is iterative rather than a one-way checklist.
 
-She should be able to reference **NIST Special Publication (SP) 800-61 Revision 3**, the current NIST incident-response publication as of the source date, accurately. Revision 3 integrates incident response across the NIST Cybersecurity Framework (CSF) 2.0 functions. **Govern, Identify, and Protect** support preparation and readiness; **Detect, Respond, and Recover** organize core incident activity; **Improve** outcomes feed lessons across all functions. The familiar sequence used in this lesson preserves operational clarity and continuity with older teaching, but it must not be presented as a verbatim list of Rev. 3 phases. NIST SP 800-61 Revision 2, now superseded, used the widely memorized four-phase lifecycle: Preparation; Detection and Analysis; Containment, Eradication, and Recovery; and Post-Incident Activity.
+You should be able to reference **NIST Special Publication (SP) 800-61 Revision 3**, the current NIST incident-response publication as of the source date, accurately. Revision 3 integrates incident response across the NIST Cybersecurity Framework (CSF) 2.0 functions. **Govern, Identify, and Protect** support preparation and readiness; **Detect, Respond, and Recover** organize core incident activity; **Improve** outcomes feed lessons across all functions. The familiar sequence used in this lesson preserves operational clarity and continuity with older teaching, but it must not be presented as a verbatim list of Rev. 3 phases. NIST SP 800-61 Revision 2, now superseded, used the widely memorized four-phase lifecycle: Preparation; Detection and Analysis; Containment, Eradication, and Recovery; and Post-Incident Activity.
 
-Arti should also be able to distinguish an event, alert, case, suspected incident, and declared incident; describe severity and priority without inventing an employer's matrix; map incident commander, technical lead, SOC analyst, system owner, communications, privacy/legal, business owner, vendor support, Engineering, and scribe roles; preserve evidence and decision logs; compare short-term and long-term containment; explain business tradeoffs; and keep product support separate from customer incident-command authority.
+You should also be able to distinguish an event, alert, case, suspected incident, and declared incident; describe severity and priority without inventing an employer's matrix; map incident commander, technical lead, SOC analyst, system owner, communications, privacy/legal, business owner, vendor support, Engineering, and scribe roles; preserve evidence and decision logs; compare short-term and long-term containment; explain business tradeoffs; and keep product support separate from customer incident-command authority.
 
 The practical outcome is a **Northstar Incident Timeline and Action-Card Lab**. It produces a synthetic declaration record, severity rationale, normalized timeline, role/RACI map, evidence manifest, phase action cards, decision log, short/long containment comparison, communications set, recovery validation, lessons-learned register, and rubric. It is a tabletop exercise only and performs no live containment or investigation.
 
@@ -37,14 +37,14 @@ The practical outcome is a **Northstar Incident Timeline and Action-Card Lab**. 
 
 | Evidence label | Honest use | Boundary to preserve |
 |---|---|---|
-| **Production-transfer example** | Arti's CV supports Microsoft enterprise support/escalation, CRITSITs, customer/partner updates, Engineering/Product collaboration, fix validation, KB/training, mentoring, and support analytics | A CRITSIT is not automatically a cybersecurity incident, and coordination experience is not proof of incident-command authority |
+| **Production-transfer example** | Your CV supports enterprise support/escalation, critical situations, customer/partner updates, Engineering/Product collaboration, fix validation, KB/training, mentoring, and support analytics | A critical situation is not automatically a cybersecurity incident, and coordination experience is not proof of incident-command authority |
 | **Working knowledge/upskilling** | Networking, logs, APIs, identity, diagnostic tools, and security fundamentals support incident evidence reasoning | Do not imply production SOC, forensic, EDR, SIEM, SOAR, XDR, or email-threat operations |
 | **Local/public lab** | Northstar demonstrates a tabletop timeline, decision log, role map, and action cards | It is not a real incident, live containment, forensic investigation, breach notification, or production response exercise |
 | **Learned architecture** | NIST, CISA, and Microsoft official guidance support lifecycle and role concepts | Official-source study does not establish an employer's private severity, playbooks, contracts, or legal duties |
 | **No direct experience** | The master records no direct Abnormal AI or email-security operations and no stated incident-commander, privacy, or legal authority | State the gap, then identify the transferable support method and lab |
 | **Template only** | Action cards, updates, RACI, and post-incident forms can be adapted under authorization | A template does not prove a real incident or action occurred |
 
-Safe language: “I have worked in Microsoft CRITSIT situations and can transfer structured impact scoping, communication, evidence, cross-team coordination, escalation, and fix validation. I would not call that direct security incident command. In a customer incident, I would follow the authorized response lead, own the product-support workstream, and keep the product case evidence and customer communication accurate.”
+Safe language: “I have worked in enterprise critical situations and can transfer structured impact scoping, communication, evidence, cross-team coordination, escalation, and fix validation. I would not call that direct security incident command. In a customer incident, I would follow the authorized response lead, own the product-support workstream, and keep the product case evidence and customer communication accurate.”
 
 ## Beginner Term Primer
 
@@ -736,7 +736,7 @@ At least ten action rows across governance, identity/app policy, mail rule alert
 | Communications | One message | Audiences differ | Seven consistent artifacts with facts, uncertainty, owner, checkpoint |
 | Lessons | Generic recommendations | Owners present | Ten measurable actions with dependencies and retest |
 | Privacy/safety | Real data/live action | Synthetic | Minimum data, no secrets/content, tabletop only, cleanup complete |
-| Candidate honesty | CRITSIT called incident command | Gap noted | Production transfer and no-direct-experience boundaries explicit |
+| Candidate honesty | critical-situation called incident command | Gap noted | Production transfer and no-direct-experience boundaries explicit |
 | Reproducibility | Missing artifacts | Partial set | Full manifest, sources, score, corrections, and cleanup record |
 
 **Passing target:** 40/48 or higher, with 4s for NIST accuracy, roles/authority, privacy/safety, and candidate honesty. Any live account, endpoint, message, token, link, scanner, containment action, customer data, legal conclusion, or incident-command claim is an automatic failure.
@@ -772,7 +772,7 @@ All sources below were accessed on **August 24, 2026**. Incident guidance, laws,
 | Official source title or family | URL | Use | Caution |
 |---|---|---|---|
 | Supplied Abnormal AI Technical Support Engineer JD represented in the master | No public URL supplied | Role, support case, communication, investigation, collaboration signals | No private incident process inferred |
-| Arti Thakur tailored CV/master evidence summary | Local supplied source; no public URL | Microsoft CRITSIT/support transfer only | CRITSIT does not equal cybersecurity incident command |
+| Your CV and master evidence summary | Local supplied source; no public URL | enterprise critical situation/support transfer only | critical-situation does not equal cybersecurity incident command |
 | NIST SP 800-61 Revision 3 | <https://csrc.nist.gov/pubs/sp/800/61/r3/final> | Current incident-response recommendations and CSF 2.0 Community Profile | Use current Rev. 3 framing; do not quote Rev. 2 phases as Rev. 3 structure |
 | NIST Cybersecurity Framework 2.0 | <https://www.nist.gov/cyberframework> | Govern, Identify, Protect, Detect, Respond, Recover, and Improve outcomes | A flexible framework, not one employer's incident plan |
 | NIST SP 800-61 Revision 2 archive | <https://csrc.nist.gov/pubs/sp/800/61/r2/final> | Historical four-phase lifecycle and terminology evolution | Superseded by Revision 3 |
@@ -786,7 +786,7 @@ All sources below were accessed on **August 24, 2026**. Incident guidance, laws,
 - Preparation/detection-analysis/containment/eradication/recovery/lessons is a useful operational teaching sequence, not claimed as Rev. 3's verbatim phase list.
 - Northstar Ledger Lab and all systems, events, messages, identities, actions, and outcomes are fictional.
 - No Abnormal incident process, SLA, role, containment capability, legal duty, or root-cause practice is invented.
-- Arti's production claim remains Microsoft enterprise support/CRITSIT transfer; direct security incident command and email-security operations remain explicit gaps.
+- Your production claim remains enterprise support/critical-situation transfer; direct security incident command and email-security operations remain explicit gaps.
 
 ## Interview Q&A
 
@@ -834,9 +834,9 @@ All sources below were accessed on **August 24, 2026**. Incident guidance, laws,
 
 ### Q8.
 
-**Question:** How does your CRITSIT experience transfer, and where are the boundaries?
+**Question:** How does your critical-situation experience transfer, and where are the boundaries?
 
-**Model answer:** My CV supports Microsoft CRITSIT and enterprise escalation experience, so I can transfer disciplined impact scoping, customer and partner communication, action/owner tracking, Engineering/Product collaboration, fix validation, and knowledge capture. I do not claim that those situations were cybersecurity incidents or that I served as incident commander. I have no direct Abnormal or email-security operations experience. In this role I would own the product-support workstream and learn the customer's and employer's incident process and authority model.
+**Model answer:** My CV supports enterprise critical situation and enterprise escalation experience, so I can transfer disciplined impact scoping, customer and partner communication, action/owner tracking, Engineering/Product collaboration, fix validation, and knowledge capture. I do not claim that those situations were cybersecurity incidents or that I served as incident commander. I have no direct Abnormal or email-security operations experience. In this role I would own the product-support workstream and learn the customer's and employer's incident process and authority model.
 
 ## 30-Second Memory Hooks
 
@@ -878,7 +878,7 @@ All sources below were accessed on **August 24, 2026**. Incident guidance, laws,
 - [ ] My lab contains the ten required artifact categories, at least eight decisions, seven communications, ten improvement actions, and complete cleanup.
 - [ ] My lab score is at least 40/48, with 4s in NIST accuracy, roles/authority, privacy/safety, and candidate honesty.
 - [ ] I performed no live containment, account action, endpoint isolation, message action, API call, scanning, credential use, or suspicious-link access.
-- [ ] I tie Arti's experience only to supplied Microsoft support/CRITSIT, communication, escalation, validation, knowledge, analytics, and technical foundations.
+- [ ] I tie your experience only to supplied enterprise support/critical situation, communication, escalation, validation, knowledge, analytics, and technical foundations.
 - [ ] I explicitly preserve no-direct-experience boundaries for incident command, SOC operations, Abnormal AI, direct email security, and named adjacent tools.
 - [ ] I can answer all eight interview questions aloud while naming authority, evidence, tradeoffs, and uncertainty.
 - [ ] I revalidated all official sources against the August 24, 2026 access date and kept current guidance, historical terminology, teaching models, and synthetic evidence distinct.

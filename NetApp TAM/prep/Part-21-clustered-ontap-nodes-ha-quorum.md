@@ -1,12 +1,12 @@
 # Part 21 - Clustered ONTAP: Nodes, HA Pairs, Clusters, Quorum, and Failover
 
-> **Section goal:** Understand how ONTAP nodes form HA pairs and scale-out clusters, how cluster membership and replicated configuration differ from storage failover, and how takeover, giveback, aggregate ownership, LIF mobility, quorum, epsilon, fencing, and client recovery interact. By the end, Arti should be able to reason through planned maintenance and failures without promising zero interruption or improvising a force action.
+> **Section goal:** Understand how ONTAP nodes form HA pairs and scale-out clusters, how cluster membership and replicated configuration differ from storage failover, and how takeover, giveback, aggregate ownership, LIF mobility, quorum, epsilon, fencing, and client recovery interact. By the end, you should be able to reason through planned maintenance and failures without promising zero interruption or improvising a force action.
 
 Covers index item **21** and maps directly to job-description responsibilities for storage depth, customer-environment analysis, risk mitigation, solution stability, lifecycle/change advice, proactive recommendations, service reviews, major-incident reasoning, and escalation quality.
 
 This Part is an architecture and judgment guide. Exact node limits, supported cluster sizes, switchless/switched topology, quorum rules, epsilon placement, takeover triggers, giveback checks, aggregate relocation, LIF failover, nondisruptive-operation behavior, timeouts, commands, encryption, and platform capabilities vary by ONTAP release, model, protocol, configuration, and workload. Verify current official release documentation, **Interoperability Matrix Tool (IMT)**, **Hardware Universe (HWU)**, release notes, and authorized system evidence.
 
-> **Evidence and experience boundary:** Every topology, failure, timestamp, result, and recommendation below is synthetic. Arti's production strengths are Microsoft enterprise escalation, Azure/virtual-machine/network dependency reasoning, CRITSIT communication, analytics, and customer support. She does **not** claim production ONTAP cluster, HA pair, takeover/giveback, quorum, aggregate-relocation, or nondisruptive-operation experience.
+> **Evidence and experience boundary:** Every topology, failure, timestamp, result, and recommendation below is synthetic. Your production strengths are enterprise escalation, Azure/virtual-machine/network dependency reasoning, critical-situation communication, analytics, and customer support. You do **not** claim production ONTAP cluster, HA pair, takeover/giveback, quorum, aggregate-relocation, or nondisruptive-operation experience.
 
 ---
 
@@ -593,11 +593,11 @@ flowchart TD
 
 ### JD Mapping
 
-| JD responsibility | Part 21 contribution | Arti's factual bridge and gap |
+| JD responsibility | Part 21 contribution | Your factual bridge and gap |
 |---|---|---|
 | Understand customer environment | Maps nodes, HA pairs, cluster planes, ownership, clients, and failure domains | Azure/VM/network mapping transfers; ONTAP cluster operations unproven |
 | Storage depth | Explains RDB, quorum/epsilon, takeover/giveback, relocation, LIF distinction | Conceptual/synthetic knowledge only |
-| Risk and stability | Identifies partner capacity, split-brain, quorum, common-fate, NDO risks | CRITSIT risk/communication transfers |
+| Risk and stability | Identifies partner capacity, split-brain, quorum, common-fate, NDO risks | critical-situation risk/communication transfers |
 | Strategic/lifecycle advice | Builds supported maintenance/upgrade/NDO prerequisites and tests | Change-advisory method transfers; exact NetApp procedures require SMEs |
 | Analyze/report | Correlates cluster, HA, LIF, ownership, client, application and event evidence | Analytics and escalation evidence are strengths |
 | Service review | Converts HA state/tests/actions into customer outcome and residual risk | Business-review communication transfers |
@@ -607,7 +607,7 @@ flowchart TD
 
 ## 14. Fully synthetic scenario: Fabrikam Payments maintenance and partition
 
-> **Synthetic case:** Fabrikam Payments, all nodes, events, timings, and results below are fictional. It is not an ONTAP procedure, NetApp customer incident, or Arti production experience.
+> **Synthetic case:** Fabrikam Payments, all nodes, events, timings, and results below are fictional. It is not an ONTAP procedure, NetApp customer incident, or documented production experience.
 
 ### Environment
 
@@ -707,11 +707,11 @@ flowchart TD
 
 ---
 
-## 15. Arti's support/Azure/network/analytics bridge
+## 15. Your support/Azure/network/analytics bridge
 
 ```mermaid
 flowchart LR
-    CRIT[Microsoft CRITSIT production work] --> IMP[Impact severity timeline and communications]
+    CRIT[Enterprise critical-situation production work] --> IMP[Impact severity timeline and communications]
     AZ[Azure VM and network foundation] --> PLANES[Control data management and failure domains]
     M365[M365 service dependencies] --> STATE[Session identity service and recovery separation]
     BI[Analytics and business reviews] --> TREND[Capacity health test and action evidence]
@@ -731,7 +731,7 @@ flowchart LR
 
 ### Honest answer
 
-> "I understand clustered ONTAP architecture conceptually: nodes form HA pairs, HA pairs form clusters, cluster configuration is replicated, quorum and epsilon protect control authority, and storage failover, aggregate ownership, LIF mobility, protocol recovery, and application continuity are separate mechanisms. My production strength is Microsoft incident, network, and analytics work. I have not run ONTAP takeover/giveback or quorum actions, so I would use current official procedures, authorized evidence, NetApp Support, and experienced storage owners and would never improvise a force operation."
+> "I understand clustered ONTAP architecture conceptually: nodes form HA pairs, HA pairs form clusters, cluster configuration is replicated, quorum and epsilon protect control authority, and storage failover, aggregate ownership, LIF mobility, protocol recovery, and application continuity are separate mechanisms. My production strength is enterprise incident, network, and analytics work. I have not run ONTAP takeover/giveback or quorum actions, so I would use current official procedures, authorized evidence, NetApp Support, and experienced storage owners and would never improvise a force operation."
 
 ---
 
@@ -822,7 +822,7 @@ flowchart LR
 18. Ask the TAM discovery questions and write a bounded recommendation.
 19. Recreate Fabrikam's planned takeover, separate power partition, force-safety decision, and recommendations.
 20. Complete all whiteboard drills, paper lab, and Q1-Q8 aloud.
-21. State Arti's strengths and ONTAP cluster/HA production gap precisely.
+21. State your strengths and ONTAP cluster/HA production gap precisely.
 
 ---
 
@@ -903,9 +903,9 @@ flowchart LR
 
 ### Q8. How does your background transfer, and what remains a gap?
 
-> **Model answer:** "My Microsoft CRITSIT work gives me impact-first incident coordination, one evidence timeline, safe restoration, cross-team ownership, and executive communication. Azure/VM/network experience helps me separate control, data, and management planes and map failure domains; analytics helps with capacity and test evidence. I have not operated ONTAP clusters or takeover/giveback in production. I would use current documentation, authorized read-only evidence, NetApp Support and storage SMEs, and never improvise quorum or force actions."
+> **Model answer:** "My prior critical-situation work gives me impact-first incident coordination, one evidence timeline, safe restoration, cross-team ownership, and executive communication. Azure/VM/network experience helps me separate control, data, and management planes and map failure domains; analytics helps with capacity and test evidence. I have not operated ONTAP clusters or takeover/giveback in production. I would use current documentation, authorized read-only evidence, NetApp Support and storage SMEs, and never improvise quorum or force actions."
 
-**Follow-up depth:** Give one factual Microsoft incident and state which ONTAP authority, interconnect, ownership, and client-recovery facts it cannot supply.
+**Follow-up depth:** Give one factual enterprise incident and state which ONTAP authority, interconnect, ownership, and client-recovery facts it cannot supply.
 
 ---
 
@@ -927,7 +927,7 @@ flowchart LR
 - **Degraded HA:** Service may continue, but risk and load are higher.
 - **Aggregate relocation:** Ownership move; **volume move:** data placement; **LIF move:** network location.
 - **NDO:** Supported prerequisites plus measured application continuity.
-- **Arti's bridge:** Incident and network rigor transfer; ONTAP force authority does not.
+- **Your bridge:** Incident and network rigor transfer; ONTAP force authority does not.
 
 ---
 
@@ -950,7 +950,7 @@ flowchart LR
 - [ ] Ask all TAM discovery questions and write an owner/date/validation/residual-risk recommendation.
 - [ ] Recreate Fabrikam's takeover, partner load, shared-power partition, quorum/force decision, and closure evidence.
 - [ ] Complete all whiteboard drills, paper lab, self-test, and Q1-Q8 aloud.
-- [ ] State Arti's strengths and ONTAP cluster/HA production gap precisely.
+- [ ] State your strengths and ONTAP cluster/HA production gap precisely.
 - [ ] Recheck exact ONTAP/platform docs, IMT, HWU, topology, commands/API fields, support state, and Support procedure before customer use.
 
 ---

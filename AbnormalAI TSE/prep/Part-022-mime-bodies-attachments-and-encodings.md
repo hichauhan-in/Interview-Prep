@@ -8,7 +8,7 @@
 
 ## Section Goal
 
-By the end of this Part, Arti should be able to take a synthetic raw message and produce a MIME tree without treating it as one flat body plus a list of attachments. For every entity, she should identify:
+By the end of this Part, you should be able to take a synthetic raw message and produce a MIME tree without treating it as one flat body plus a list of attachments. For every entity, you should identify:
 
 1. the entity’s parent and multipart semantics;
 2. its raw `Content-*` fields and parameters;
@@ -41,9 +41,9 @@ The practical outcome is a **MIME Tree and Attachment-Risk Worksheet** built ent
 
 ## Candidate Honesty Note
 
-Arti’s Microsoft enterprise support experience transfers naturally to recursive data structures, layered parsers, encoding/decoding, evidence preservation, safe reproduction, and escalation. The same discipline used to distinguish wire data, logs, UI state, and policy outcomes applies directly to MIME.
+Your prior enterprise support experience transfers naturally to recursive data structures, layered parsers, encoding/decoding, evidence preservation, safe reproduction, and escalation. The same discipline used to distinguish wire data, logs, UI state, and policy outcomes applies directly to MIME.
 
-This Part remains learned architecture and a local/public lab. It does not establish production operation of Abnormal, Google Workspace, a secure email gateway, malware analysis tooling, or enterprise mail parsers. Arti should say that she can reason from standards and build a safe evidence packet, while learning each product’s parser limits, normalization, attachment taxonomy, and security controls during ramp.
+This Part remains learned architecture and a local/public lab. It does not establish production operation of Abnormal, Google Workspace, a secure email gateway, malware analysis tooling, or enterprise mail parsers. You should say that you can reason from standards and build a safe evidence packet, while learning each product’s parser limits, normalization, attachment taxonomy, and security controls during ramp.
 
 | Evidence label | Honest use | Claim boundary |
 |---|---|---|

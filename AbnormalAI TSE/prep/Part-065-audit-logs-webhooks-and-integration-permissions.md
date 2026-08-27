@@ -14,7 +14,7 @@ The central support rule is:
 
 This Part covers event actors and objects, timestamps, event IDs, correlation IDs, audit versus operational records, integrity, retention, redaction, webhook subscriptions, endpoint validation, HTTPS, signatures/HMAC at a high level, replay resistance, acknowledgement, retries, backoff, duplicates, ordering, idempotency, queues, dead-letter handling, reconciliation, polling/delta fallback, permission-to-event mapping, consent/grants, least privilege, and investigation of missing/duplicate/delayed events. It does not provide a live endpoint, secret, signature, API request, tenant change, credential, private key, customer event, or executable receiver. The lab is a paper delivery ledger using fictional metadata only.
 
-Microsoft Graph change-notification material is production-transfer learning for Arti and a current official example, not a claim that she implemented Graph webhook receivers in production. GitHub webhook material is learned architecture from official public documentation. Abnormal's audit schema, event taxonomy, webhook support, subscription lifecycle, signatures, delivery guarantees, retry windows, permissions, retention, and evidence interfaces remain proprietary unknowns unless approved documentation states them.
+Microsoft Graph change-notification material is production-transfer learning for you and a current official example, not a claim that you implemented Graph webhook receivers in production. GitHub webhook material is learned architecture from official public documentation. Abnormal's audit schema, event taxonomy, webhook support, subscription lifecycle, signatures, delivery guarantees, retry windows, permissions, retention, and evidence interfaces remain proprietary unknowns unless approved documentation states them.
 
 ## Learning outcomes
 
@@ -36,16 +36,16 @@ After completing this Part, you should be able to:
 - map business needs to source permissions, subscription scope, event categories, payload fields, downstream actions, and retention;
 - investigate missing, delayed, duplicate, out-of-order, invalid-signature, expired-subscription, revoked-permission, and slow-endpoint cases;
 - produce a customer-safe escalation packet without event payloads, secrets, signatures, tokens, or unnecessary personal data; and
-- state Microsoft transfer, GitHub learned architecture, and Abnormal proprietary boundaries honestly.
+- state experience transfer, GitHub learned architecture, and Abnormal proprietary boundaries honestly.
 
 ## JD Mapping
 
-| Supplied role signal | Capability built | Arti's transferable evidence | Boundary |
+| Supplied role signal | Capability built | Your transferable evidence | Boundary |
 |---|---|---|---|
-| Complex support investigations | Reconstructs source, delivery, queue, processing, and target timelines | CRITSIT, escalation, and Engineering collaboration | No invented webhook incident |
+| Complex support investigations | Reconstructs source, delivery, queue, processing, and target timelines | critical situation, escalation, and Engineering collaboration | No invented webhook incident |
 | SaaS Security | Treats logs, event payloads, subscription secrets, grants, and service identities as sensitive | Microsoft security/identity habits | No Abnormal implementation claim |
 | Enterprise integrations | Maps permissions and subscription scope to observable events and downstream state | REST/JSON/cloud configuration knowledge | Product contracts vary |
-| Microsoft 365 ecosystem | Transfers current Graph change-notification, lifecycle, permission, and reconciliation concepts | Microsoft production-transfer context | No claim of building Graph receivers |
+| Microsoft 365 ecosystem | Transfers current Graph change-notification, lifecycle, permission, and reconciliation concepts | production-transfer context | No claim of building Graph receivers |
 | API troubleshooting | Interprets HTTP acknowledgement, retry, timeout, redirect, auth, and rate behavior | HTTP/API working knowledge | Lab sends no request |
 | Log-driven RCA | Correlates stable IDs, UTC, actors, objects, outcomes, and changes | Production support evidence discipline | Synthetic data only here |
 | Customer trust | Requests minimum metadata and redacts event content/credentials | Privacy-aware communication | No raw mailbox/security payloads |
@@ -55,7 +55,7 @@ After completing this Part, you should be able to:
 
 | Evidence tier | Safe statement | Do not imply |
 |---|---|---|
-| **Production transfer - Microsoft** | “I have used Microsoft support and identity practices to reason about logs, permissions, timelines, and integrations.” | That Arti implemented Microsoft Graph webhook infrastructure |
+| **Production transfer - Microsoft** | “I have used enterprise support and identity practices to reason about logs, permissions, timelines, and integrations.” | That you implemented Microsoft Graph webhook infrastructure |
 | **Local/public lab** | “I built a synthetic event/delivery/permission reconciliation ledger without an endpoint or payload.” | A live subscription, webhook delivery, secret, or API call |
 | **Learned architecture - GitHub/Graph** | “I studied current official webhook/change-notification delivery guidance and can transfer the reliability concepts.” | Direct production operations on those platforms |
 | **Standards knowledge** | “I use HTTP semantics and HMAC concepts to explain acknowledgement, retry, and integrity at a high level.” | A custom cryptographic implementation |
@@ -65,7 +65,7 @@ Safe interview language:
 
 > “For a missing-event case, I first prove whether the source event occurred and was eligible under the subscription. Then I trace publisher attempt, endpoint receipt, authenticity validation, acknowledgement, queue, worker, target write, and reconciliation with distinct UTC timestamps and identifiers. I request metadata and redacted field names, not webhook secrets, signatures, authorization headers, tokens, or sensitive payload content.”
 
-**Named-platform experience boundary:** Microsoft support evidence practices are transferable production context; Abnormal AI, GitHub, Microsoft Graph webhook implementation, and other named-platform event-delivery operations are learned architecture or synthetic-lab areas unless a real example establishes otherwise.
+**Named-platform experience boundary:** enterprise support evidence practices are transferable production context; Abnormal AI, GitHub, Microsoft Graph webhook implementation, and other named-platform event-delivery operations are learned architecture or synthetic-lab areas unless a real example establishes otherwise.
 
 ## 1. Event, audit, log, and notification vocabulary
 
@@ -899,7 +899,7 @@ The lab uses invented event IDs, delivery IDs, timestamps, status codes, field n
 | Permissions | “Consent granted” | Lists scopes | Source/subscription/payload/retrieval/target/audit least privilege |
 | Privacy | Raw payload/log | Manual redaction | Metadata-first, pre-ingest redaction, access, retention, disposal |
 | Troubleshooting | Resubscribe/replay | Checks attempt | Source eligibility through target plus reconciliation/precise ask |
-| Honesty/safety | Live webhook claim | Says learned | Paper-only; Microsoft transfer, GitHub learned, Abnormal unknown |
+| Honesty/safety | Live webhook claim | Says learned | Paper-only; experience transfer, GitHub learned, Abnormal unknown |
 
 ## 35. Official Source Anchors
 
@@ -958,7 +958,7 @@ All sources were verified and recorded with guide currency date **August 24, 202
 
 ### Q8. What are your experience and evidence-handling boundaries?
 
-**Model answer:** I bring Microsoft production support, identity, timeline, and escalation practices as transfer. I studied Graph and GitHub webhook architecture and built a metadata-only paper lab, but I am not claiming production webhook implementation. I never request secrets, signatures, tokens, keys, authorization headers, or sensitive payloads, and Abnormal-specific behavior remains unknown without approved docs.
+**Model answer:** I bring prior production support, identity, timeline, and escalation practices as transfer. I studied Graph and GitHub webhook architecture and built a metadata-only paper lab, but I am not claiming production webhook implementation. I never request secrets, signatures, tokens, keys, authorization headers, or sensitive payloads, and Abnormal-specific behavior remains unknown without approved docs.
 
 ## Memory Hooks
 
@@ -1005,7 +1005,7 @@ All sources were verified and recorded with guide currency date **August 24, 202
 - [ ] I completed or can explain **The Event Relay Control Room 065**.
 - [ ] The lab includes Prerequisites, Expected evidence, Cleanup and privacy, and Validation rubric.
 - [ ] I used no live endpoint, subscription, event, payload, credential, signature, key, request, queue, or permission change.
-- [ ] I can state Microsoft transfer, GitHub learned, and Abnormal unknown boundaries.
+- [ ] I can state experience transfer, GitHub learned, and Abnormal unknown boundaries.
 - [ ] I checked Official Source Anchors and recorded **August 24, 2026**.
 - [ ] I can answer exactly Q1-Q8.
 

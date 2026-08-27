@@ -1,8 +1,8 @@
 # Part 44 — Sentinel Planning, Workspace Design, Cost, Retention, and Data Lake
 
-> **Section goal:** Build a beginner-first, consulting-grade method for planning Microsoft Sentinel before data starts flowing. This Part converts business risks into use cases and measurable data requirements; inventories sources, events per second (EPS), billable volume, latency, retention, query and compliance needs; compares single and multiple workspaces across tenants, regions, subscriptions, RBAC, residency, chargeback and MSSP boundaries; explains current Analytics, Basic and Auxiliary table plans; estimates pay-as-you-go and commitment-tier costs; separates analytics and long-term retention, search and restore; introduces Microsoft Sentinel data lake architecture, onboarding, tiering and 2026 caveats; and designs budgets, continuity, roadmaps and safe cost tests. Arti should be able to facilitate and document these decisions without claiming production Sentinel commercial or workspace ownership.
+> **Section goal:** Build a beginner-first, consulting-grade method for planning Microsoft Sentinel before data starts flowing. This Part converts business risks into use cases and measurable data requirements; inventories sources, events per second (EPS), billable volume, latency, retention, query and compliance needs; compares single and multiple workspaces across tenants, regions, subscriptions, RBAC, residency, chargeback and MSSP boundaries; explains current Analytics, Basic and Auxiliary table plans; estimates pay-as-you-go and commitment-tier costs; separates analytics and long-term retention, search and restore; introduces Microsoft Sentinel data lake architecture, onboarding, tiering and 2026 caveats; and designs budgets, continuity, roadmaps and safe cost tests. You should be able to facilitate and document these decisions without claiming production Sentinel commercial or workspace ownership.
 
-This Part maps directly to Deloitte expectations for cloud security architecture, Microsoft Sentinel, Azure governance, cost optimization, compliance, data protection, resilience, consulting workshops and executive reporting. Arti's incident/RCA and troubleshooting background is useful because every planning assumption becomes an operational dependency: an omitted field can break a detection, excessive delay can invalidate a timeline, a poor retention choice can remove evidence, and an unowned meter can surprise a client.
+This Part maps directly to Deloitte expectations for cloud security architecture, Microsoft Sentinel, Azure governance, cost optimization, compliance, data protection, resilience, consulting workshops and executive reporting. Your incident/RCA and troubleshooting background is useful because every planning assumption becomes an operational dependency: an omitted field can break a detection, excessive delay can invalidate a timeline, a poor retention choice can remove evidence, and an unowned meter can surprise a client.
 
 > **Currency, pricing, licensing, preview, portal and data-lake note (August 24, 2026):** This chapter uses official Microsoft Learn pages current on August 24, 2026. Microsoft states that after **March 31, 2027**, Sentinel is no longer supported in the Azure portal and is available through the Microsoft Defender portal; current transition dates and exceptions must still be checked before reuse. Prices are regional, contractual and change-sensitive, so this chapter deliberately uses variables rather than currency amounts. Microsoft Learn currently documents a Sentinel 31-day trial with up to 10 GB/day of qualifying Analytics ingestion, modern simplified pay-as-you-go/commitment billing, a 100-GB/day commitment entry point, source-specific free benefits, Analytics/Basic/Auxiliary plans, up to 12 years of total retention and a Sentinel data lake onboarding experience. Those facts do not guarantee eligibility, feature parity or availability in every cloud/region. Data lake, graph, notebooks, jobs, MCP/AI, plan capabilities and specific UI paths can have independent preview or rollout states. Verify Learn banners, Defender portal, supported regions, pricing pages/calculator, Product Terms, service limits and the client's agreement immediately before design approval.
 
@@ -20,9 +20,9 @@ This Part maps directly to Deloitte expectations for cloud security architecture
 
 ## Candidate honesty note
 
-Arti can credibly discuss defining incident evidence needs, troubleshooting missing or delayed telemetry, preserving timelines, validating fixes, reporting assumptions and coordinating stakeholders. She can present the paper cost and workspace design in this chapter.
+You can credibly discuss defining incident evidence needs, troubleshooting missing or delayed telemetry, preserving timelines, validating fixes, reporting assumptions and coordinating stakeholders. You can present the paper cost and workspace design in this chapter.
 
-She should not claim production Sentinel workspace architecture, Azure cost-account ownership, commitment-tier purchase, retention administration, data-lake onboarding, regulatory approval or MSSP operation unless separately evidenced. Safe wording is:
+You should not claim production Sentinel workspace architecture, Azure cost-account ownership, commitment-tier purchase, retention administration, data-lake onboarding, regulatory approval or MSSP operation unless separately evidenced. Safe wording is:
 
 > “My production background is incident/RCA, troubleshooting, evidence validation and stakeholder reporting. I have not owned a production Sentinel workspace or invoice. I built a current planning model that starts with security use cases, inventories volume and latency, tests the fewest workspaces that meet tenant/residency/RBAC needs, maps each table to Analytics, Basic, Auxiliary or Sentinel data-lake usage, and models ingestion, retention, search, restore and automation costs using live regional rates. I would validate estimates against a measured pilot and Cost Management, obtain privacy and commercial approval, and treat data-lake onboarding as a governed architectural change rather than a cost toggle.”
 
@@ -577,7 +577,7 @@ flowchart LR
 | Data-lake bill changes | Meter migration after onboarding | Pre/post meter comparison and onboarding date |
 | Chargeback dispute | Shared overhead or missing source attribution | Allocation rule and usage provenance |
 
-Arti's RCA pattern applies: define the variance, build a UTC timeline, identify the first changed meter/table/source, test competing causes and reconcile the corrective action against subsequent actual cost.
+Your RCA pattern applies: define the variance, build a UTC timeline, identify the first changed meter/table/source, test competing causes and reconcile the corrective action against subsequent actual cost.
 
 ## 27. Security and privacy controls
 
@@ -773,7 +773,7 @@ Record Defender onboarding, primary region, all same-region connected workspaces
 
 ## 35. JD Mapping: interview translation
 
-| Interview theme | Arti's transferable strength | Planning answer |
+| Interview theme | Your transferable strength | Planning answer |
 |---|---|---|
 | Requirements | Clarifies incident impact and evidence | Start risk/use case first, then data and architecture |
 | Troubleshooting | Isolates failing layer | Decompose event rate, route, table, tier and latency |

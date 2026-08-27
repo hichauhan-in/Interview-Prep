@@ -1,10 +1,10 @@
 # Part 70 - Multi-Source Asset Discovery and Inventory Reconciliation
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 >
 > **Purpose:** Explain how to discover and reconcile cyber assets from EDR, vulnerability scanners, CMDB, IAM, cloud, network, MDM, SaaS, Zscaler, and business sources. Build a defensible model for source scope, authority, freshness, counts, identifiers, deduplication context, blind spots, ephemeral assets, unresolved conflicts, control totals, data quality, troubleshooting, and validation.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every NMH source, connector, record, scope, identifier, count, match, threshold, conflict, control total, incident, timeline, metric, and outcome in this Part is synthetic. Zscaler public pages support bounded statements about Data Fabric integrations and about AEM multi-source asset resolution, deduplication, relationships, golden records, coverage gaps, workflows, CMDB, and reporting. They do not disclose proprietary matching algorithms, internal topology, connector field coverage, default confidence thresholds, exact freshness behavior, guaranteed completeness, implementation times, or customer outcomes. All detailed reconciliation mechanics below are general educational patterns, not undocumented Zscaler implementation claims. Arti's Microsoft endpoint, identity, SaaS, networking, telemetry, SQL, data-quality, escalation, and customer skills transfer; direct production AEM operation remains a learning boundary.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every NMH source, connector, record, scope, identifier, count, match, threshold, conflict, control total, incident, timeline, metric, and outcome in this Part is synthetic. Zscaler public pages support bounded statements about Data Fabric integrations and about AEM multi-source asset resolution, deduplication, relationships, golden records, coverage gaps, workflows, CMDB, and reporting. They do not disclose proprietary matching algorithms, internal topology, connector field coverage, default confidence thresholds, exact freshness behavior, guaranteed completeness, implementation times, or customer outcomes. All detailed reconciliation mechanics below are general educational patterns, not undocumented Zscaler implementation claims. Your prior endpoint, identity, SaaS, networking, telemetry, SQL, data-quality, escalation, and customer skills transfer; direct production AEM operation remains a learning boundary.
 >
 > **Currency caveat:** Integrations, APIs, permissions, schemas, quotas, source products, packaging, and tenant behavior change. The controlled research/source date for this Part is exactly **2026-08-24**. Current official documentation, the current integration catalog, licensed tenant behavior, approved source contracts, source-owner evidence, customer policy, product specialists, Support guidance, and measured tests govern production.
 
@@ -14,7 +14,7 @@ No source sees the whole enterprise. Endpoint Detection and Response (EDR) sees 
 
 Think of counting people in a city. Tax records, school rosters, transit cards, hospital visits, voter lists, and apartment leases each see different populations at different times. Adding all rows double-counts people; trusting only one list misses others. Reconciliation does not force every list to agree. It explains why they differ, resolves identities where evidence supports it, preserves conflicts, and creates a bounded view for a specific decision.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Evidence artifact |
 |---|---|---|
@@ -29,7 +29,7 @@ By the end, Arti should be able to:
 | Troubleshoot | Isolate scope, source, transport, mapping, identity, context, policy, and report faults | Runbook |
 | Validate safely | Reconcile downstream records, metrics, tickets, and decisions | Acceptance report |
 | Practice | Complete an NMH multi-source reconciliation with a synthetic incident | Lab portfolio |
-| Bridge honestly | Relate Microsoft support evidence without claiming AEM internals | Candidate narrative |
+| Bridge honestly | Relate enterprise support evidence without claiming AEM internals | Candidate narrative |
 
 ```mermaid
 flowchart LR
@@ -48,7 +48,7 @@ flowchart LR
 
 ## JD Mapping
 
-| Role expectation | Part 70 capability | TSM artifact | Arti bridge and boundary |
+| Role expectation | Part 70 capability | TSM artifact | experience bridge and boundary |
 |---|---|---|---|
 | Become Data Fabric expert | Explain multi-source planning and reconciliation using public capability boundaries | Source-to-asset whiteboard | Verify current connector behavior |
 | Analyze complex environments | Map source populations, owners, dependencies, conflicts, and blind spots | Source authority matrix | Microsoft service/source mapping transfers |
@@ -784,9 +784,9 @@ The team repairs least-privileged access, reprocesses the complete snapshot in s
 | Reporting | Scope/grain/as-of/rule/source health visible and totals reproduce | Dashboard/detail disagreement blocks acceptance |
 | Operations | Runbook, RACI, alerts, incident drill, rollback/rebuild tested | No owner or recovery evidence blocks go-live |
 
-## Arti bridge: evidence correlation at enterprise scale
+## Experience bridge: evidence correlation at enterprise scale
 
-Arti's Microsoft background maps naturally to source reconciliation. Sync and SharePoint issues rarely had one perfect source. A user report, client log, Windows event, identity state, permissions, network trace, browser HAR, and service telemetry each represented a bounded observation. She had to align tenant, user, device, file, timestamp, request ID, and network path; compare normal and failing cases; recognize collection gaps; and escalate with a reproducible evidence package.
+Your prior background maps naturally to source reconciliation. Sync and SharePoint issues rarely had one perfect source. A user report, client log, Windows event, identity state, permissions, network trace, browser HAR, and service telemetry each represented a bounded observation. You had to align tenant, user, device, file, timestamp, request ID, and network path; compare normal and failing cases; recognize collection gaps; and escalate with a reproducible evidence package.
 
 | Existing strength | Reconciliation transfer | Gap to build | Honest answer |
 |---|---|---|---|
@@ -855,7 +855,7 @@ Recreate the NMH source matrix, count bridge, source-presence patterns, identifi
 
 ### Lab 14 - Interview whiteboard
 
-Draw source universe through decision and explain count differences, identifiers, ephemeral handling, quality, and troubleshooting in eight minutes. **Pass:** include product caveat and Arti bridge without unsupported experience.
+Draw source universe through decision and explain count differences, identifiers, ephemeral handling, quality, and troubleshooting in eight minutes. **Pass:** include product caveat and experience bridge without unsupported experience.
 
 ## Common misconceptions to correct
 
@@ -932,7 +932,7 @@ Zscaler sources support bounded integration, Data Fabric, and AEM positioning. N
 
 ### Q8. How does your background transfer, and what remains a learning gap?
 
-**Model answer:** Microsoft escalation work trained me to correlate user/device/identity/client/network/service evidence with timestamps and IDs, identify collection gaps, test hypotheses, coordinate source owners, and validate recovery. SQL/analytics supports count bridges and quality tests. I practiced the full method in synthetic NMH data. I have not operated Zscaler AEM in production, so I would validate current integration docs, tenant behavior, and product-specialist guidance.
+**Model answer:** enterprise escalation work trained me to correlate user/device/identity/client/network/service evidence with timestamps and IDs, identify collection gaps, test hypotheses, coordinate source owners, and validate recovery. SQL/analytics supports count bridges and quality tests. I practiced the full method in synthetic NMH data. I have not operated Zscaler AEM in production, so I would validate current integration docs, tenant behavior, and product-specialist guidance.
 
 ## 30-Second Memory Hooks
 
@@ -958,7 +958,7 @@ Zscaler sources support bounded integration, Data Fabric, and AEM positioning. N
 | Quality | Arithmetic and semantic integrity |
 | Troubleshoot | Universe to source to movement to meaning to identity to use |
 | Product claim | Catalog candidate, not tenant promise |
-| Arti bridge | Correlation and escalation transfer; AEM operation does not |
+| Experience bridge | Correlation and escalation transfer; AEM operation does not |
 
 ## Completion Checklist
 
@@ -1009,6 +1009,6 @@ Zscaler sources support bounded integration, Data Fabric, and AEM positioning. N
 - [ ] I use official Zscaler AEM/Data Fabric/integration, NIST, CIS, and CMDB sources with caveats.
 - [ ] I use the controlled research/source date exactly as 2026-08-24.
 - [ ] I make no unsupported connector, field, direction, schema, match algorithm, default threshold, completeness, timeline, production, or customer-outcome claim.
-- [ ] I can answer Q1 through Q8 with definitions, analogies, architecture, mechanics, examples, tradeoffs, failures, troubleshooting, labs, NMH evidence, official-source caveats, and an honest Arti bridge.
+- [ ] I can answer Q1 through Q8 with definitions, analogies, architecture, mechanics, examples, tradeoffs, failures, troubleshooting, labs, NMH evidence, official-source caveats, and an honest experience bridge.
 
 [Part 71 - Asset Golden Records, Relationships, Ownership, and Criticality](Part-71-asset-golden-records-relationships.md)

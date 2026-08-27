@@ -1,10 +1,10 @@
 # Part 76 - Performance Troubleshooting Scenarios: Latency, Throughput, CPU, Disk, and Network
 
-> **Section goal:** Diagnose performance as an end-to-end customer outcome using workload identity, baseline, distributions, time alignment, competing hypotheses, controlled tests, and proof of improvement. By the end, Arti should be able to reason through application/host/protocol/network/ONTAP/media layers; latency, throughput, IOPS, tails, CPU, cache, consistency points, disks/local tiers, FabricPool, network loss/retransmission/MTU, QoS, noisy neighbors, backup, replication, capacity pressure, path imbalance, and seasonality without mistaking correlation or utilization for cause.
+> **Section goal:** Diagnose performance as an end-to-end customer outcome using workload identity, baseline, distributions, time alignment, competing hypotheses, controlled tests, and proof of improvement. By the end, you should be able to reason through application/host/protocol/network/ONTAP/media layers; latency, throughput, IOPS, tails, CPU, cache, consistency points, disks/local tiers, FabricPool, network loss/retransmission/MTU, QoS, noisy neighbors, backup, replication, capacity pressure, path imbalance, and seasonality without mistaking correlation or utilization for cause.
 
 Covers index item **76** and maps directly to job-description responsibilities for analytics, storage depth, stability/risk mitigation, customer reviews, data-driven recommendations, complex troubleshooting, and cross-functional Support engagement.
 
-**Explicit nonclaim:** Arti has not collected, interpreted, tuned, benchmarked, or remediated production ONTAP performance counters, QoS, WAFL consistency points, local tiers, FabricPool, or customer storage workloads.
+**Explicit nonclaim:** You have not collected, interpreted, tuned, benchmarked, or remediated production ONTAP performance counters, QoS, WAFL consistency points, local tiers, FabricPool, or customer storage workloads.
 
 **Privacy/access:** Performance data can expose customer workloads, object names, topology, usage patterns, transaction volumes, business peaks, addresses, identities, costs, capacity, cases, and application behavior. Use authorized purpose-limited collection, minimum grain, aggregation/redaction, secure transfer, access controls, retention, and audience-specific outputs. Never publish real customer metrics, screenshots, workload names, or gated counter exports in a study portfolio.
 
@@ -14,7 +14,7 @@ Covers index item **76** and maps directly to job-description responsibilities f
 
 This Part is a reasoning casebook, not a NetApp internal performance method, threshold catalog, tuning guide, benchmark, sizing result, QoS recommendation, command reference, or permission to load-test or change production.
 
-> **No-production-NetApp boundary:** Arti's factual strengths are business analytics, statistics, Excel, Power BI, SQL, Python, Microsoft enterprise escalation, Azure/Windows networking, trace correlation, customer reviews, and evidence-based communication. Her exact nonclaim is: **she has not performed or remediated production ONTAP performance analysis.** All NetApp examples below are synthetic exercises.
+> **No-production-NetApp boundary:** Your factual strengths are business analytics, statistics, Excel, Power BI, SQL, Python, enterprise escalation, Azure/Windows networking, trace correlation, customer reviews, and evidence-based communication. Your exact nonclaim is: **you have not performed or remediated production ONTAP performance analysis.** All NetApp examples below are synthetic exercises.
 
 ---
 
@@ -633,13 +633,13 @@ flowchart TD
 
 ---
 
-## 9. Arti transfer/honesty and JD Mapping
+## 9. Experience transfer and honesty and JD Mapping
 
 ```mermaid
 flowchart LR
     MBA[MBA analytics, statistics and forecasting] --> QUALITY[Units, distributions, baselines and uncertainty]
     PBI[Excel, Power BI, SQL and Python] --> CORR[Time-aligned multi-source analysis]
-    ESC[Microsoft escalations] --> HYP[Layer hypotheses and controlled evidence]
+    ESC[enterprise escalations] --> HYP[Layer hypotheses and controlled evidence]
     NET[Azure/Windows networking] --> PATH[Loss, retransmission, MTU and route reasoning]
     QUALITY --> TRANS[Transferable performance method]
     CORR --> TRANS
@@ -654,12 +654,12 @@ flowchart LR
 | Mitigate stability risk | Bottleneck proof and safe tests | No ONTAP production tuning claim |
 | Storage depth | CPU/cache/CP/local tier/FabricPool/QoS scenarios | Conceptual/synthetic evidence |
 | Customer reviews | SLO, trends, proof and residual risk | Existing review/communication strength |
-| Cross-functional troubleshooting | App/host/network/storage owner model | Microsoft production escalation experience |
+| Cross-functional troubleshooting | App/host/network/storage owner model | prior production escalation experience |
 | Recommendations | Options, controlled validation, no-regression proof | Method transfers; values remain environment-specific |
 
 ### Honest interview wording
 
-> `I define the customer transaction and SLO, fingerprint the workload, align application, host, path and storage evidence by object, operation and time, compare a valid baseline and healthy control, then test competing hypotheses. I call a bottleneck only when demand, queue/backpressure, output plateau or tail/errors and a controlled change support it. My analytics and Microsoft escalation experience transfer strongly; I have not tuned production ONTAP, so counters and actions require current NetApp sources and qualified owners.`
+> `I define the customer transaction and SLO, fingerprint the workload, align application, host, path and storage evidence by object, operation and time, compare a valid baseline and healthy control, then test competing hypotheses. I call a bottleneck only when demand, queue/backpressure, output plateau or tail/errors and a controlled change support it. My analytics and enterprise escalation experience transfer strongly; I have not tuned production ONTAP, so counters and actions require current NetApp sources and qualified owners.`
 
 ---
 
@@ -782,7 +782,7 @@ flowchart LR
 
 ### Q8. What experience transfers, and what remains your gap?
 
-> **Model answer:** `My MBA analytics, statistics, Excel, Power BI, SQL, Python, Microsoft escalation and networking experience give me strong baseline, data-quality, distribution and cross-layer hypothesis skills. I have not analyzed or tuned production ONTAP performance, so these metrics are synthetic and live counters/actions require exact current NetApp definitions and qualified owners.`
+> **Model answer:** `My MBA analytics, statistics, Excel, Power BI, SQL, Python, enterprise escalation and networking experience give me strong baseline, data-quality, distribution and cross-layer hypothesis skills. I have not analyzed or tuned production ONTAP performance, so these metrics are synthetic and live counters/actions require exact current NetApp definitions and qualified owners.`
 
 ---
 
@@ -806,7 +806,7 @@ flowchart LR
 - **Background work:** Balance protection objective and foreground SLO.
 - **Capacity:** Typed headroom plus mechanism, not a red gauge.
 - **Improvement:** Customer SLO + mechanism + no regression + time.
-- **Arti boundary:** Analytics transfers; production ONTAP tuning does not.
+- **Experience boundary:** Analytics transfers; production ONTAP tuning does not.
 
 ---
 

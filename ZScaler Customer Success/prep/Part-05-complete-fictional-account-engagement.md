@@ -2,7 +2,7 @@
 
 > **Fiction notice:** Everything about Northstar Meridian Holdings in this chapter is invented for study: the organization, people, environment, products, licenses, tools, data, incidents, calculations, meetings, decisions, and outcomes. Northstar Meridian Holdings is not a real customer. **This engagement is not production experience, and direct production operation of the named Zscaler, Security Operations, vulnerability, exposure, scanner, EDR, SIEM, or risk products is not established.**
 >
-> **Audience:** Arti Thakur, preparing to move from Microsoft enterprise Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
+> **Audience:** Candidates preparing to move from enterprise Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
 >
 > **Currency date:** 2026-08-24.
 >
@@ -12,9 +12,9 @@
 
 This chapter turns the concepts from Parts 1 through 4 into one complete multi-quarter account story. It follows the fictional Northstar Meridian Holdings account from handoff and discovery through security-data onboarding, asset reconciliation, contextual vulnerability prioritization, continuous exposure work, executive risk framing, AI-assisted Security Operations concepts, adoption, a critical connector outage, remediation, a quarterly business review, residual risk, and a next-quarter roadmap.
 
-Think of the case as a flight simulator. A simulator can teach sequencing, judgment, communication, and failure handling, but simulator hours are not airline production experience. Arti can use this case to demonstrate how she thinks, identify which facts require validation, and practice artifacts. She must always call it fictional or synthetic.
+Think of the case as a flight simulator. A simulator can teach sequencing, judgment, communication, and failure handling, but simulator hours are not airline production experience. You can use this case to demonstrate how you think, identify which facts require validation, and practice artifacts. You must always call it fictional or synthetic.
 
-By the end of Part 5, Arti should be able to:
+By the end of Part 5, you should be able to:
 
 | Learning outcome | What mastery looks like |
 |---|---|
@@ -48,13 +48,13 @@ By the end of Part 5, Arti should be able to:
 
 ## Candidate honesty note
 
-This chapter is **not** a production story. It is valid evidence of preparation only if Arti can explain the architecture, assumptions, calculations, artifacts, failure modes, and verification plan. She should introduce it this way:
+This chapter is **not** a production story. It is valid evidence of preparation only if you can explain the architecture, assumptions, calculations, artifacts, failure modes, and verification plan. You should introduce it this way:
 
 > "Direct production operation of Zscaler Data Fabric, Asset Exposure Management, Unified Vulnerability Management, Risk360, or Agentic SecOps is not part of my current experience. To practice the role end to end, I built a clearly fictional account case with synthetic data. I used official product pages for current positioning, created my own labeled formulas only to demonstrate reasoning, and separated every assumption from production fact."
 
-| Evidence category | What Arti may say | What Arti must not say |
+| Evidence category | What you may say | What you must not say |
 |---|---|---|
-| Production | Microsoft support, escalation, OneDrive, SharePoint, networking, analytics, mentoring, training, and approved AI facts | Present NMH as a delivered customer exposure transformation |
+| Production | enterprise support, escalation, OneDrive, SharePoint, networking, analytics, mentoring, training, and approved AI facts | Present NMH as a delivered customer exposure transformation |
 | Lab or exercise | Created synthetic datasets, calculations, diagrams, and account artifacts | "I implemented the platform for 42,000 users" |
 | Conceptual | Understands documented product purpose and validation questions | Present conceptual study as production UVM expertise |
 | Fictional | NMH people, tools, integrations, incidents, metrics, outcomes, and scripts | "My CISO customer Maya said..." |
@@ -86,7 +86,7 @@ The terms are defined before the case uses them deeply.
 | SIEM | Security Information and Event Management | Fictional Splunk event and investigation context | Event-focused security control room |
 | SLA | Service Level Agreement | Synthetic response and remediation commitments | SLA turns urgency into agreement |
 | SOC | Security Operations Center | Fictional team led by Jonah Reed | Security watch floor |
-| TSM | Technical Success Manager | Fictional role Arti practices, not production evidence | Technology into durable outcomes |
+| TSM | Technical Success Manager | Fictional role you practice, not production evidence | Technology into durable outcomes |
 | UVM | Unified Vulnerability Management | Zscaler's documented contextual vulnerability-prioritization offering | Fix what matters, not only what scores high |
 
 ## Account profile
@@ -826,7 +826,7 @@ A faster vehicle can reduce travel time, but it needs reliable steering, brakes,
 | Automation bias | Analyst accepts fluent recommendation | Required challenge and approval record |
 | Unclear accountability | Team says "AI blocked it" | Named human and business authority |
 
-Arti's factual Copilot Studio and AI enablement work supports an honest transfer around workflow design, validation, and training. It does not prove production Agentic SecOps operation.
+Your factual Copilot Studio and AI enablement work supports an honest transfer around workflow design, validation, and training. It does not prove production Agentic SecOps operation.
 
 ## Training and adoption plan
 
@@ -1157,7 +1157,7 @@ The increase is not proof of objective customer health. It summarizes agreed syn
 
 ## 30/60/90 customer plan
 
-This is the next-quarter customer plan, not Arti's personal new-hire plan.
+This is the next-quarter customer plan, not your personal new-hire plan.
 
 | Period | Customer outcome | Activities | Exit evidence | Main guardrail |
 |---|---|---|---|---|
@@ -1190,7 +1190,7 @@ A polished case that contains only progress is less credible than a case that sh
 | Residual risk | None mentioned | Ranked risks, owners, dates, and evidence |
 | Next value | Feature list | Customer outcome and readiness-based roadmap |
 
-This case gives Arti a coherent interview structure without giving her a false production history.
+This case gives you a coherent interview structure without giving you a false production history.
 
 ## Interview reuse map
 
@@ -1250,7 +1250,7 @@ This case gives Arti a coherent interview structure without giving her a false p
 | General industry | CTEM, data quality, entity resolution, RACI, risk treatment, AI governance | "A general practice is..." |
 | Fictional architecture | NMH environment, licenses, integrations, people, workflows | "In my fictional case design..." |
 | Fictional data | Every table row, count, date, score, calculation, and outcome | "Using synthetic data..." |
-| Arti production fact | Approved Microsoft support, customer, escalation, analytics, mentoring, training, and AI experience | "In my Microsoft production work..." |
+| Verified background fact | Approved enterprise support, customer, escalation, analytics, mentoring, training, and AI experience | "In my prior production work..." |
 | Not established | Direct Zscaler/SecOps/vulnerability operation and real CISO account ownership | "I have not done that in production yet..." |
 
 ## Likely Interview Questions
@@ -1259,7 +1259,7 @@ This case gives Arti a coherent interview structure without giving her a false p
 
 **Model answer:** I would begin with handoff and discovery: why the customer invested, business services, criticality, environment, stakeholders, current tools, data, workflows, risk, support history, constraints, and decision rights. I would establish a baseline and select a bounded first outcome with an accountable owner, source plan, quality gates, adoption plan, measures, and governance. Then I would operationalize data, prioritization, remediation, validation, training, health, escalations, and executive reviews in a recurring loop.
 
-My NMH example is entirely fictional. It demonstrates the method through a Tier 1 internet-facing pilot, contextual priority, a connector failure, recovery, and a next roadmap. My production evidence is Microsoft enterprise support, escalation, troubleshooting, analytics, and enablement, not Zscaler product operation.
+My NMH example is entirely fictional. It demonstrates the method through a Tier 1 internet-facing pilot, contextual priority, a connector failure, recovery, and a next roadmap. My production evidence is enterprise support, escalation, troubleshooting, analytics, and enablement, not Zscaler product operation.
 
 ### Q2. How would you onboard security data without creating a long integration project?
 
@@ -1301,7 +1301,7 @@ Trust comes from showing why the number changed, how data quality is governed, a
 
 **Model answer:** The NMH organization, products, deployment, people, datasets, formulas, incidents, metrics, outcomes, and executive interactions are all fictional. They are evidence that I have studied the role and can build a structured account model. They are not customer experience.
 
-My real production evidence is Microsoft enterprise Support Escalation Engineering: SharePoint Online, OneDrive, Sync, Copilot-related scenarios, customer impact, cross-layer troubleshooting, network and process evidence, business-critical escalations and CRITSITs, Engineering coordination, fix validation, analytics, mentoring, onboarding, training, and practical AI work. I would bring that method while building Zscaler and SecOps depth through official learning, labs, shadowing, reverse-shadowing, and reviewed customer artifacts.
+My real production evidence is enterprise Support Escalation Engineering: SharePoint Online, OneDrive, Sync, Copilot-related scenarios, customer impact, cross-layer troubleshooting, network and process evidence, business-critical escalations and critical situations, Engineering coordination, fix validation, analytics, mentoring, onboarding, training, and practical AI work. I would bring that method while building Zscaler and SecOps depth through official learning, labs, shadowing, reverse-shadowing, and reviewed customer artifacts.
 
 ## 30-Second Memory Hooks
 
@@ -1326,7 +1326,7 @@ My real production evidence is Microsoft enterprise Support Escalation Engineeri
 | QBR | Outcome, failure, evidence, residual risk, decisions, next |
 | Health score | Drivers and hard stops, not objective truth |
 | Residual risk | What remains, owner, review, validation |
-| Arti bridge | Real method, fictional case, honest gap |
+| Experience bridge | Real method, fictional case, honest gap |
 
 ## Completion Checklist
 

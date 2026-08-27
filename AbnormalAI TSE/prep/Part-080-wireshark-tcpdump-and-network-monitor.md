@@ -8,11 +8,11 @@
 
 ## Section goal
 
-By the end of this Part, Arti should be able to plan a packet capture by authorization, question, interface, direction, endpoint, time window, filter, snap length, stop condition, storage, and deletion. She should distinguish a **capture filter**, applied before packets are stored, from a **display filter**, applied while viewing captured data. She should use safe Berkeley Packet Filter (BPF) examples for owned loopback traffic and recognize that capture-filter and Wireshark-display-filter syntax are different.
+By the end of this Part, you should be able to plan a packet capture by authorization, question, interface, direction, endpoint, time window, filter, snap length, stop condition, storage, and deletion. You should distinguish a **capture filter**, applied before packets are stored, from a **display filter**, applied while viewing captured data. You should use safe Berkeley Packet Filter (BPF) examples for owned loopback traffic and recognize that capture-filter and Wireshark-display-filter syntax are different.
 
-She should be able to navigate Wireshark interfaces, packets, protocol details, bytes, conversations, endpoints, streams, name resolution, time display, expert information, and basic statistics. She should identify DNS, TCP handshake/state/retransmission clues, TLS ClientHello/SNI/ALPN/version metadata where visible, and HTTP content only when unencrypted or decrypted through an explicitly authorized method. She should use `tcpdump` with numeric output, interface, packet count, snapshot length, write/read, and rotation/stop controls safely.
+You should be able to navigate Wireshark interfaces, packets, protocol details, bytes, conversations, endpoints, streams, name resolution, time display, expert information, and basic statistics. You should identify DNS, TCP handshake/state/retransmission clues, TLS ClientHello/SNI/ALPN/version metadata where visible, and HTTP content only when unencrypted or decrypted through an explicitly authorized method. You should use `tcpdump` with numeric output, interface, packet count, snapshot length, write/read, and rotation/stop controls safely.
 
-She should understand Microsoft Network Monitor as a **legacy familiarity area**, useful when encountering historical `.cap` files/parsers or older support workflows, but not assume it is Microsoft's current recommended capture platform. Tool status and supported collection workflows must be verified against current Microsoft documentation. The core skill is protocol evidence, not loyalty to one UI.
+You should understand Microsoft Network Monitor as a **legacy familiarity area**, useful when encountering historical `.cap` files/parsers or older support workflows, but not assume it is Microsoft's current recommended capture platform. Tool status and supported collection workflows must be verified against current Microsoft documentation. The core skill is protocol evidence, not loyalty to one UI.
 
 ## JD Mapping
 
@@ -31,7 +31,7 @@ She should understand Microsoft Network Monitor as a **legacy familiarity area**
 
 ## Candidate honesty note
 
-Arti's CV supports working familiarity with Wireshark, Netsh, Microsoft Network Monitor, Procmon, DevTools, HAR, and Fiddler. The honest claim is that these tools reinforce an evidence-first enterprise support method. She should not claim advanced packet-forensics specialization, unrestricted customer capture authority, production network ownership, or current deep operation of every legacy parser.
+Your CV supports working familiarity with Wireshark, Netsh, Microsoft Network Monitor, Procmon, DevTools, HAR, and Fiddler. The honest claim is that these tools reinforce an evidence-first enterprise support method. You should not claim advanced packet-forensics specialization, unrestricted customer capture authority, production network ownership, or current deep operation of every legacy parser.
 
 | Evidence tier | Safe claim | Boundary |
 |---|---|---|
@@ -372,7 +372,7 @@ Microsoft Network Monitor 3.x is a legacy Windows packet capture/parser tool enc
 | `.cap` files | Historical evidence artifact | Convert/open only in approved tooling; preserve original |
 | Frame summary/details/hex | Layered packet reading | Protocol updates may not decode correctly |
 
-Arti can say she has familiarity with Network Monitor concepts and can transfer packet reasoning to current tools. She should not present Network Monitor as the preferred current Microsoft capture solution.
+You can say you have familiarity with Network Monitor concepts and can transfer packet reasoning to current tools. You should not present Network Monitor as the preferred current Microsoft capture solution.
 
 ## 16. Worked examples
 
@@ -550,7 +550,7 @@ A strong escalation therefore pairs the smallest relevant packet slice with capt
 
 ### Source-use discipline
 
-- Verify tool/version syntax, filter compilation, interface semantics, and current Microsoft support status.
+- Verify tool/version syntax, filter compilation, interface semantics, and current enterprise support status.
 - Authorization and minimization precede collection; display filters are not redaction.
 - Always record capture point/interface, direction, UTC/clock, BPF, snap length, packet/time limit, drops, offload, and repro.
 - Treat pcap/pcapng/`.cap` as sensitive evidence regardless of TLS encryption.

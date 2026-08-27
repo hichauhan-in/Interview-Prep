@@ -1,6 +1,6 @@
 # Part 005 - Ownership, Severity, SLAs, and Escalation Discipline
 
-> Section goal: Build the operational frame that decides what you work on first, how fast you must respond, when you pull others in, and what "end-to-end ownership" actually obliges you to do. This is the Part where five years of Microsoft escalation experience converts almost one-for-one — but only if you can articulate it precisely.
+> Section goal: Build the operational frame that decides what you work on first, how fast you must respond, when you pull others in, and what "end-to-end ownership" actually obliges you to do. This is the Part where several years of enterprise escalation experience converts almost one-for-one — but only if you can articulate it precisely.
 
 Covers index item **005**. Maps to JD signals: *end-to-end ownership of customer issues*, *operational management of Support tickets*, *exceed customer expectations on timeliness*, *serve as internal and external point of contact*, *resolve issues in a timely fashion*, and *speed and urgency, execute with excellence*.
 
@@ -66,7 +66,7 @@ flowchart TD
 
 > **The most important habit in this diagram:** *agree the facts before the label.* "Help me understand the scope — is this every user, or users on a particular connection? Is there any path that still works?" You are not resisting the customer; you are gathering the exact information you need anyway. The severity conversation and the diagnostic conversation are the same conversation.
 
-> 💡 **Tie-in to your background:** this is exactly the CRITSIT qualification conversation you already run. Your CV says you own *"business-critical customer escalations and high-priority production incidents."* Do not undersell that in an interview — the ability to hold a calm severity conversation with a frightened customer is a senior skill, and many candidates for this role will not have it.
+> 💡 **Tie-in to your background:** this is exactly the critical-situation qualification conversation you already run. Your CV says you own *"business-critical customer escalations and high-priority production incidents."* Do not undersell that in an interview — the ability to hold a calm severity conversation with a frightened customer is a senior skill, and many candidates for this role will not have it.
 
 ---
 
@@ -293,7 +293,7 @@ flowchart TD
 
 That reply acknowledges, shows work, escalates genuinely, commits to a controllable promise, and asks for something useful. It does not defend, and it does not over-promise.
 
-> 💡 **Tie-in to your background:** you have done this. Escalation calls and CRITSIT bridges with unhappy enterprise customers are on your CV. Rehearse one real example (anonymised) as a STAR story — this is one of the highest-value stories you own for this role. Part 130 builds the bank.
+> 💡 **Tie-in to your background:** you have done this. Escalation calls and critical-situation bridges with unhappy enterprise customers are on your CV. Rehearse one real example (anonymised) as a STAR story — this is one of the highest-value stories you own for this role. Part 130 builds the bank.
 
 ---
 
@@ -350,7 +350,7 @@ That reply acknowledges, shows work, escalates genuinely, commits to a controlla
 
 ## 11. Candidate Honesty Note
 
-- **Production transfer (strong):** everything in this Part is genuinely yours. Business-critical escalations, CRITSITs, high-priority production incidents, technical roadblock calls, case reviews, backlog and case-quality analysis, and being the point of contact between customers, Customer IT, delivery partners, Engineering, Product, and vendors. This is the Part where you are *ahead* of a typical candidate, not behind.
+- **Production transfer (strong):** everything in this Part is genuinely yours. Business-critical escalations, critical situations, high-priority production incidents, technical roadblock calls, case reviews, backlog and case-quality analysis, and being the point of contact between customers, Customer IT, delivery partners, Engineering, Product, and vendors. This is the Part where you are *ahead* of a typical candidate, not behind.
 - **How to claim it well:** describe the *structure*, not just the experience. Anyone can say "I owned escalations." Describing the eight-element escalation packet, the cadence rule, and the "agree facts before the label" technique is what demonstrates seniority.
 - **Honest boundary:** severity matrices, SLAs, and escalation paths are vendor-specific and contractual. Never state Okta's as if you know it. Say: *"I'd want to learn the actual matrix and the entitlement tiers on day one — the reasoning transfers, the thresholds don't."*
 - **Confidentiality:** do not disclose your current employer's internal severity definitions, tooling, or specific customer situations. Anonymise every story to the pattern level.
@@ -392,7 +392,7 @@ Accessed **26 August 2026**.
 > *Model answer:* "A packet, not a plea. Eight elements: one-line summary so a triager can route it in seconds; impact and severity with actual numbers; a minimal reproducible example they can run; exact versions and environment, because behavior varies by version; expected versus actual stated precisely, so 'wrong' is objective; correlation IDs and timestamps with timezones so they can find it in server logs; what I've already ruled out and how, so they don't repeat my first two days; and one explicit ask. That last one is the element most people miss. 'Please investigate' isn't an ask. 'Please confirm whether this claim is expected to be absent in this flow — the spec says optional, our docs imply always present' is an ask, and it's answerable."
 
 ### Q6. "Tell me about a time you owned a critical production issue."
-> *Model answer:* Use a real, anonymised CRITSIT from your Microsoft work in STAR form. **Situation:** a business-critical outage for a large enterprise customer affecting a core collaboration workflow. **Task:** you owned it end to end as the escalation engineer, coordinating the customer, their IT team, a delivery partner, and Engineering. **Action:** describe the *method* — establishing scope and impact first, collecting evidence across the application, client, network and identity layers, forming and testing hypotheses, running a communication cadence on the bridge, and building the escalation packet when it pointed at a product behavior. **Result:** the concrete outcome, the time to resolution, and what you changed afterwards — a KB article, a triage guide, or a process improvement. Keep customer and system names out of it entirely.
+> *Model answer:* Use a real, anonymised critical situation from your prior work in STAR form. **Situation:** a business-critical outage for a large enterprise customer affecting a core collaboration workflow. **Task:** you owned it end to end as the escalation engineer, coordinating the customer, their IT team, a delivery partner, and Engineering. **Action:** describe the *method* — establishing scope and impact first, collecting evidence across the application, client, network and identity layers, forming and testing hypotheses, running a communication cadence on the bridge, and building the escalation packet when it pointed at a product behavior. **Result:** the concrete outcome, the time to resolution, and what you changed afterwards — a KB article, a triage guide, or a process improvement. Keep customer and system names out of it entirely.
 
 ### Q7. "What's the difference between severity and priority?"
 > *Model answer:* "Severity is a classification from agreed criteria, combining how much damage is being done with how fast it's getting worse. Priority is the order I actually work things, which is severity *plus* real-world factors — contractual entitlement, how close something is to breaching, whether a customer is already unhappy from a previous case, and whether a quick answer unblocks several people. So two S2s can have very different priorities. It matters in conversation because when a customer argues about severity they're usually arguing about *impact*, and when they argue about priority they're usually saying 'I don't feel like I'm being worked on'. Those need different responses — one is a facts conversation, the other is a communication problem."

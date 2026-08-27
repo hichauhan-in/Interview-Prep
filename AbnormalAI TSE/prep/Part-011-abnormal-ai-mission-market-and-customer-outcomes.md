@@ -8,9 +8,9 @@
 
 ## Section Goal
 
-By the end of this Part, Arti should be able to explain why a company might invest in behavior-centered security without beginning with product features. She should be able to move from a mission, to a human and business problem, to a security job, to a measurable customer outcome. She should distinguish an activity such as processing alerts from an outcome such as reducing exposure or returning analyst time to higher-value work.
+By the end of this Part, you should be able to explain why a company might invest in behavior-centered security without beginning with product features. You should be able to move from a mission, to a human and business problem, to a security job, to a measurable customer outcome. You should distinguish an activity such as processing alerts from an outcome such as reducing exposure or returning analyst time to higher-value work.
 
-Arti should also be able to research Abnormal with source discipline. She should know what the official pages publicly state, what the supplied JD names, what this guide teaches as a vendor-neutral model, what is only an inference or question to validate, and what remains unknown or private. She should be able to discuss adjacent competitive categories without declaring an unsupported winner, inventing a feature comparison, or treating a vendor's internal benchmark as independent proof.
+You should also be able to research Abnormal with source discipline. You should know what the official pages publicly state, what the supplied JD names, what this guide teaches as a vendor-neutral model, what is only an inference or question to validate, and what remains unknown or private. You should be able to discuss adjacent competitive categories without declaring an unsupported winner, inventing a feature comparison, or treating a vendor's internal benchmark as independent proof.
 
 The practical outcome is the **Northstar Mission-to-Outcome One-Pager and Source Ledger Lab**. It produces a one-page company brief, a claim ledger, an enterprise-pain map, an activity-to-outcome chain, a non-ranking category map, a customer-value hypothesis, interview-safe statements, and a scored validation record. The lab uses only public pages and synthetic examples. It requires no Abnormal account, customer data, product access, security testing, or competitor trial.
 
@@ -35,19 +35,19 @@ The mappings below come from the supplied Abnormal AI Technical Support Engineer
 
 ## Candidate Honesty Note
 
-Arti's production evidence remains her five years of Microsoft enterprise support and escalation across the workloads and responsibilities stated in the master: SharePoint Online, OneDrive, Sync Client, Copilot, CRITSITs, customer and partner communication, Engineering and Product escalation, fix validation, KB and training creation, mentoring, and CSAT, backlog, and case-quality analysis. Those experiences support customer-outcome thinking, but they do not establish Abnormal AI or direct email-security experience.
+Your production evidence remains your several years of enterprise support and escalation across the workloads and responsibilities stated in the master: SharePoint Online, OneDrive, Sync Client, Copilot, critical situations, customer and partner communication, Engineering and Product escalation, fix validation, KB and training creation, mentoring, and CSAT, backlog, and case-quality analysis. Those experiences support customer-outcome thinking, but they do not establish Abnormal AI or direct email-security experience.
 
 | Evidence label | Honest use in this Part | Boundary to preserve |
 |---|---|---|
-| **Production-transfer example** | Arti can discuss enterprise support ownership, customer trust, high-impact communication, escalation, validation, knowledge, and support analytics from her real Microsoft background | Do not turn Microsoft work into Abnormal operation, threat-verdict ownership, or email-security production experience |
+| **Production-transfer example** | You can discuss enterprise support ownership, customer trust, high-impact communication, escalation, validation, knowledge, and support analytics from your real prior background | Do not turn prior work into Abnormal operation, threat-verdict ownership, or email-security production experience |
 | **Local/public lab** | The Northstar lab proves public research, claim classification, outcome reasoning, and a synthetic one-pager | It does not prove product use, customer research, security operations, or competitor evaluation |
-| **Learned architecture** | Arti can explain the public mission, public platform positioning, and vendor-neutral customer-value chain | Reading official pages does not reveal algorithms, internal data, workflows, permissions, or service commitments |
-| **No direct experience** | Arti has no claimed direct Abnormal platform or direct email-security production experience | Say this plainly before discussing transferable strengths and study artifacts |
+| **Learned architecture** | You can explain the public mission, public platform positioning, and vendor-neutral customer-value chain | Reading official pages does not reveal algorithms, internal data, workflows, permissions, or service commitments |
+| **No direct experience** | You have no claimed direct Abnormal platform or direct email-security production experience | Say this plainly before discussing transferable strengths and study artifacts |
 | **Template only** | The one-pager and source ledger can structure later company research | A template is not evidence that a customer achieved an outcome |
 
 A safe interview bridge is:
 
-> I have not operated Abnormal AI in production. My understanding of the company comes from its current official public material and the supplied JD. My Microsoft enterprise-support experience gives me a proven foundation in customer outcomes, investigation, communication, escalation, fix validation, and knowledge creation. I am using a dated source ledger and synthetic labs to add the product and security domain without blurring those evidence tiers.
+> I have not operated Abnormal AI in production. My understanding of the company comes from its current official public material and the supplied JD. My prior enterprise-support experience gives me a proven foundation in customer outcomes, investigation, communication, escalation, fix validation, and knowledge creation. I am using a dated source ledger and synthetic labs to add the product and security domain without blurring those evidence tiers.
 
 ## Claim Labels and Product Fact Ceiling
 
@@ -127,7 +127,7 @@ A mission describes the enduring change a company wants to create. A feature is 
 
 **Analogy:** A fire department's mission is protecting life and property. A ladder truck is one capability. Counting ladder movements does not prove that people were protected. The analogy stops because a cybersecurity company sells products in a market, and digital outcomes can be probabilistic, shared across providers, and difficult to attribute.
 
-When Arti explains Abnormal, she should use three levels:
+When you explain Abnormal, you should use three levels:
 
 1. **Mission:** Abnormal publicly states that its mission is to stop crime with AI.
 2. **Problem framing:** Its public material says attackers use AI for speed, scale, and sophistication, and that trusted communications and identities can look normal to rules or signature-oriented defenses.
@@ -182,7 +182,7 @@ The diagram is a **vendor-neutral teaching model**. It does not describe Abnorma
 
 Behavioral context is not mind reading. An unusual action can be legitimate; a harmful action can look normal. A public claim that AI models behavior does not tell an interviewer which personal fields are used, how privacy is protected in a specific deployment, how long data is retained, or why one verdict occurred. Those details require authorized product documentation and case evidence.
 
-Arti should say:
+You should say:
 
 > Abnormal publicly positions behavioral context as its central approach. At a vendor-neutral level, behavior can add relationship, identity, timing, sequence, and normal-versus-unusual context to isolated technical signals. I would not infer the private features, model design, customer data fields, or exact verdict path.
 
@@ -436,7 +436,7 @@ flowchart TD
 
 ## Public VOICE Values and Support Behavior
 
-The careers page publicly defines VOICE as Velocity, Ownership, Intellectual honesty, Customer obsession, and Excellence. Arti should not claim to have experienced Abnormal's culture. She can explain how her existing behavior aligns with the public language.
+The careers page publicly defines VOICE as Velocity, Ownership, Intellectual honesty, Customer obsession, and Excellence. You should not claim to have experienced Abnormal's culture. You can explain how your existing behavior aligns with the public language.
 
 | Public value | Public theme | Transferable support behavior | Boundary |
 |---|---|---|---|
@@ -446,7 +446,7 @@ The careers page publicly defines VOICE as Velocity, Ownership, Intellectual hon
 | Customer obsession | Work should serve customer value | Start with impact and reduce customer effort | Agreement with every request is not obsession |
 | Excellence | Raise the bar in work, feedback, and outcomes | Produce reproducible evidence, useful escalations, and validated closure | Perfectionism must not delay urgent useful action |
 
-Arti's production transfer is credible: CRITSIT communication maps to purposeful velocity and ownership; Engineering/Product escalation and fix validation map to outcome quality; KB/training and mentoring map to compounding learning; CSAT/backlog/case-quality analysis maps to customer outcomes and operational improvement. Exact stories and results must come from Arti, not this guide.
+Your production transfer is credible: critical-situation communication maps to purposeful velocity and ownership; Engineering/Product escalation and fix validation map to outcome quality; KB/training and mentoring map to compounding learning; CSAT/backlog/case-quality analysis maps to customer outcomes and operational improvement. Exact stories and results must come from you, not this guide.
 
 ## Worked Examples
 
@@ -498,7 +498,7 @@ Arti's production transfer is credible: CRITSIT communication maps to purposeful
 
 **Actions:** Support records the exact question and resolution, links related evidence, proposes a KB or training correction, shares pattern/frequency/impact with Product and CSM, and measures whether repeated contacts decline without hiding unresolved cases.
 
-**Outcome:** One case becomes reusable clarity. Arti can tie this method to her real KB/training, mentoring, and case-quality experience, but she cannot claim Abnormal's tooling or metric.
+**Outcome:** One case becomes reusable clarity. You can tie this method to your real KB/training, mentoring, and case-quality experience, but you cannot claim Abnormal's tooling or metric.
 
 ## Troubleshooting Decision Tree for Company and Value Claims
 
@@ -553,7 +553,7 @@ flowchart TD
 | Competitor ranking without evaluation | Customer need and architecture are missing | Compare categories/criteria, not brand adjectives | Buyer requests shortlist or formal proof |
 | Current feature mixed with future direction | Roadmap language is not commitment | Separate currently stated capability from disclaimer | Purchase/support promise is requested |
 | Trust certification used as blanket security proof | Scope and report detail matter | Point to Trust Center and authorized evidence process | Contract, audit, or control question arises |
-| Careers language claimed as personal experience | Public values are aspirational/declared | Say how Arti's evidence aligns, not “I know the culture” | Interviewer asks observed internal examples |
+| Careers language claimed as personal experience | Public values are aspirational/declared | Say how your evidence aligns, not “I know the culture” | Interviewer asks observed internal examples |
 | Customer outcome promised by Support | Outcome depends on customer, configuration, contract, and evidence | State supported path and validation plan | Commercial, legal, or risk commitment requested |
 | Abnormal name attached to synthetic architecture | Creates invented product fact | Label every diagram vendor-neutral | Exact product data flow is required |
 | “No direct experience” ends the answer | Honest gap lacks relevant value | Add transfer, sourced model, lab artifact, and ramp | Follow-up asks readiness |
@@ -562,7 +562,7 @@ flowchart TD
 
 ### Lab purpose
 
-Create a concise, evidence-based company brief that Arti can use to answer mission, market, customer-value, and competitor-category questions without unsupported claims. The lab's “northstar” is the customer outcome; every feature or metric must point toward that outcome and carry a source label.
+Create a concise, evidence-based company brief that you can use to answer mission, market, customer-value, and competitor-category questions without unsupported claims. The lab's “northstar” is the customer outcome; every feature or metric must point toward that outcome and carry a source label.
 
 ### Honest artifact label
 
@@ -798,7 +798,7 @@ Record 45-second answers for “What is Abnormal's mission?”, “What customer
 
 **Question:** How does L1 Support contribute to customer value?
 
-**Model answer:** Product value can fail at configuration, permissions, integration, expected behavior, evidence interpretation, or adoption. L1 protects value by defining expected and actual outcomes, scoping impact, collecting minimum evidence, testing supported hypotheses, resolving known paths, escalating a precise question, communicating reliably, and validating the original workflow. Repeated cases can become knowledge or Product evidence. My Microsoft support experience proves those methods, but I have not yet applied them inside Abnormal's product or internal processes.
+**Model answer:** Product value can fail at configuration, permissions, integration, expected behavior, evidence interpretation, or adoption. L1 protects value by defining expected and actual outcomes, scoping impact, collecting minimum evidence, testing supported hypotheses, resolving known paths, escalating a precise question, communicating reliably, and validating the original workflow. Repeated cases can become knowledge or Product evidence. My prior support experience proves those methods, but I have not yet applied them inside Abnormal's product or internal processes.
 
 ### Q7.
 
@@ -810,7 +810,7 @@ Record 45-second answers for “What is Abnormal's mission?”, “What customer
 
 **Question:** Why are you interested in this company when you have no direct email-security experience?
 
-**Model answer:** The mission and problem connect to work I already value: protecting customer outcomes through complex enterprise investigation, candid communication, ownership, Engineering/Product collaboration, fix validation, and reusable knowledge. My five years in Microsoft support provide production evidence for that support discipline. Direct Abnormal and email-security operation remain real gaps. I am addressing them through dated official research, beginner-first security and mail study, synthetic labs, artifacts, and spoken practice. I would bring mature support habits now and earn product depth without representing study as experience.
+**Model answer:** The mission and problem connect to work I already value: protecting customer outcomes through complex enterprise investigation, candid communication, ownership, Engineering/Product collaboration, fix validation, and reusable knowledge. My several years in enterprise support provide production evidence for that support discipline. Direct Abnormal and email-security operation remain real gaps. I am addressing them through dated official research, beginner-first security and mail study, synthetic labs, artifacts, and spoken practice. I would bring mature support habits now and earn product depth without representing study as experience.
 
 ## 30-Second Memory Hooks
 
@@ -845,7 +845,7 @@ Record 45-second answers for “What is Abnormal's mission?”, “What customer
 - [ ] I can evaluate a public benchmark or ROI claim by source, sponsor, population, time, method, applicability, and caveat.
 - [ ] I can translate customer value for SOC, admin, identity, SaaS, leadership, executive, end-user, CSM, Engineering, and Product personas.
 - [ ] I can connect L1 case quality to adoption, trust, resolution, validation, knowledge, and product learning.
-- [ ] I can discuss VOICE values as public culture statements and connect them only to real Arti evidence.
+- [ ] I can discuss VOICE values as public culture statements and connect them only to real transferable evidence.
 - [ ] I completed the Northstar lab with at least twelve claim-ledger rows and no private or restricted source.
 - [ ] My one-pager contains the ten required blocks and records August 24, 2026 as the access date.
 - [ ] I classified every statement as verified public fact, supplied JD fact, vendor-neutral teaching model, inference/question to validate, or unknown/private.
@@ -856,7 +856,7 @@ Record 45-second answers for “What is Abnormal's mission?”, “What customer
 - [ ] I used no Abnormal account, customer data, private documentation, competitor trial, scraping, automation, or security testing.
 - [ ] I made no claim about exact algorithms, data fields, internal APIs, console steps, permissions, support entitlements, SLAs, deployment mechanics, or customer-specific behavior.
 - [ ] I can deliver the three practice answers in 45 seconds each without “best,” “always,” or “guarantee” language.
-- [ ] I can explain Arti's Microsoft support experience as transferable method while preserving no-direct-Abnormal and no-direct-email-security boundaries.
+- [ ] I can explain your prior support experience as transferable method while preserving no-direct-Abnormal and no-direct-email-security boundaries.
 - [ ] I revalidated every official URL and changing claim against the August 24, 2026 source ledger.
 
 [Next: Part 012 - Portfolio Map Cloud Email Security AI Security Agents and SaaS Security](Part-012-portfolio-map-cloud-email-security-ai-security-agents-and-saas-security.md)

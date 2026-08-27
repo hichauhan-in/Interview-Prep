@@ -1,10 +1,10 @@
 # Part 112 - Data Fabric and Security Data Modeling Lab
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 
 > **Purpose:** Build and explain a complete local security-data modeling lab from synthetic multi-tool sources through canonical entities, mappings, quality controls, deduplication, relationships, enrichment, connector health, portable SQL, and a decision-oriented dashboard.
 
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is explicitly fictional and synthetic. Every source, connector, batch, asset, identity, finding, owner, ticket, metric, dashboard, timestamp, defect, and result in this Part is invented for study. The lab is a vendor-neutral analogy for security-data-fabric concepts; it is not a Zscaler Data Fabric schema, connector, algorithm, dashboard, tenant, or implementation. Arti's factual background includes SQL, PostgreSQL, Excel, Power BI, statistics, Microsoft 365 escalation engineering, networking and trace analysis, and customer communication. Production Zscaler Data Fabric operation and customer security-data outcomes remain unclaimed.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is explicitly fictional and synthetic. Every source, connector, batch, asset, identity, finding, owner, ticket, metric, dashboard, timestamp, defect, and result in this Part is invented for study. The lab is a vendor-neutral analogy for security-data-fabric concepts; it is not a Zscaler Data Fabric schema, connector, algorithm, dashboard, tenant, or implementation. Your factual background includes SQL, PostgreSQL, Excel, Power BI, statistics, Microsoft 365 escalation engineering, networking and trace analysis, and customer communication. Production Zscaler Data Fabric operation and customer security-data outcomes remain unclaimed.
 
 > **Currency caveat:** Product capabilities, source support, connector behavior, schemas, interfaces, packaging, entitlements, and recommended practices change. The controlled official-source snapshot and source review date for this Part is exactly **2026-08-24**. Current official documentation, licensed-tenant evidence, customer source contracts, data-owner approval, privacy/security review, product specialists, and controlled validation govern production work.
 
@@ -58,9 +58,9 @@ flowchart LR
 
 ## Candidate honesty note
 
-Arti can say: "I created a local synthetic security-data modeling lab using deterministic CMDB-, EDR-, vulnerability-scanner-, identity-, ticketing-, and business-registry-style inputs. I defined source contracts and canonical entities, implemented quality and reconciliation checks, resolved selected duplicates with explainable rules, modeled relationships and enrichment, wrote portable SQL, and built a quality-aware dashboard. This uses my factual SQL, PostgreSQL, Power BI, statistics, Microsoft escalation, and evidence-analysis strengths. It is an analogous learning model, not a Zscaler Data Fabric implementation, real connector deployment, customer dataset, or production outcome."
+You can say: "I created a local synthetic security-data modeling lab using deterministic CMDB-, EDR-, vulnerability-scanner-, identity-, ticketing-, and business-registry-style inputs. I defined source contracts and canonical entities, implemented quality and reconciliation checks, resolved selected duplicates with explainable rules, modeled relationships and enrichment, wrote portable SQL, and built a quality-aware dashboard. This uses my factual SQL, PostgreSQL, Power BI, statistics, enterprise escalation, and evidence-analysis strengths. It is an analogous learning model, not a Zscaler Data Fabric implementation, real connector deployment, customer dataset, or production outcome."
 
-| Factual Arti background | Transferable strength | Safe wording | Unsupported wording to avoid |
+| Documented background | Transferable strength | Safe wording | Unsupported wording to avoid |
 |---|---|---|---|
 | SQL and PostgreSQL | Schema design, joins, quality checks, aggregations | "I exercised a normalized synthetic security model locally." | "I know Zscaler's production schema." |
 | Power BI, Excel, statistics, MBA analytics | Measures, segmentation, visual interpretation, executive framing | "I built a quality-aware synthetic dashboard." | "I deployed a Zscaler dashboard for a customer." |
@@ -1048,7 +1048,7 @@ The Zscaler sources support bounded public positioning about Data Fabric for Sec
 | SQLite documentation | https://www.sqlite.org/docs.html | Local SQL reference | Installed behavior/version must be verified |
 | DuckDB documentation | https://duckdb.org/docs/ | Local analytical SQL reference | Dialect-specific behavior must be labeled |
 | PostgreSQL documentation | https://www.postgresql.org/docs/ | Relational modeling and SQL reference | Local version and configuration govern |
-| Microsoft Power BI documentation | https://learn.microsoft.com/power-bi/ | Optional local dashboard context familiar to Arti | No product availability or approved use assumed |
+| Microsoft Power BI documentation | https://learn.microsoft.com/power-bi/ | Optional local dashboard context familiar to you | No product availability or approved use assumed |
 
 ## Likely Interview Questions
 
@@ -1080,9 +1080,9 @@ The Zscaler sources support bounded public positioning about Data Fabric for Sec
 
 **Model answer:** I would say the synthetic pipeline consolidated a known duplicate and linked security records to business and ownership context, but stale scanner data, an orphan finding, a disabled owner, and a ticket-state conflict limit current decision confidence. The immediate priorities are restore source freshness, resolve the orphan and owner, and reconcile workflow state before using totals for risk claims. I would add that this is a local simulation, not a customer or Zscaler environment.
 
-### Q8. How does Arti's background transfer to Data Fabric work?
+### Q8. How does your background transfer to Data Fabric work?
 
-**Model answer:** Her SQL, PostgreSQL, Power BI, statistics, and business analytics support schema design, transformations, quality checks, dashboards, and careful metrics. Microsoft escalation work adds evidence provenance, timeline reconciliation, technical ownership, and communication, while network traces reinforce that each source observes only part of a system. These strengths support a fast ramp, but they do not establish production Zscaler Data Fabric experience or customer outcomes.
+**Model answer:** Your SQL, PostgreSQL, Power BI, statistics, and business analytics support schema design, transformations, quality checks, dashboards, and careful metrics. enterprise escalation work adds evidence provenance, timeline reconciliation, technical ownership, and communication, while network traces reinforce that each source observes only part of a system. These strengths support a fast ramp, but they do not establish production Zscaler Data Fabric experience or customer outcomes.
 
 ## 30-Second Memory Hooks
 
@@ -1103,7 +1103,7 @@ The Zscaler sources support bounded public positioning about Data Fabric for Sec
 | Connector health | Fetch to workflow, not green plug |
 | Dashboard | Quality beside quantity |
 | Product boundary | Analogous lab, not Zscaler internals |
-| Arti bridge | Analytics plus escalation discipline |
+| Experience bridge | Analytics plus escalation discipline |
 
 ## Completion Checklist
 

@@ -1,10 +1,10 @@
 # Part 18 - TCP, UDP, Ports, Sockets, State, and Reliability
 
-> **Audience:** Arti Thakur, moving from Microsoft 365 Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
+> **Audience:** Candidates moving from Microsoft 365 Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
 >
 > **Purpose:** Explain how processes create transport endpoints, how TCP establishes and maintains reliable byte streams, how UDP carries datagrams, how QUIC adds modern transport behavior over UDP, and how packet evidence separates resets, loss, delay, flow control, congestion, state exhaustion, and application failure.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Its sockets, packets, timings, devices, policies, failures, and outcomes are synthetic learning artifacts. Arti's Microsoft 365, OneDrive for Business, SharePoint Online, networking, evidence, and escalation experience must stay within her approved factual background.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Its sockets, packets, timings, devices, policies, failures, and outcomes are synthetic learning artifacts. Your own product, networking, evidence, and escalation experience must stay within your documented background.
 >
 > **Product caveat:** This Part teaches IETF transport standards and general host/network behavior. Exact operating-system algorithms, timer bounds, offloads, NAT/firewall state, Microsoft service transports, QUIC availability, proxy behavior, and Zscaler handling can vary by version, policy, path, and product. Confirm them with current official documentation and direct environment evidence.
 
@@ -14,7 +14,7 @@ Part 17 delivered an IP packet toward a destination. Part 18 asks what the commu
 
 Think of a telephone system. An IP address resembles a building address. A port resembles an extension. A socket is the operating system's active call endpoint. TCP resembles a tracked conversation: both sides establish state, number the stream, acknowledge progress, slow down for the receiver and network, and close deliberately. UDP resembles sending independent postcards: each message has endpoints and a checksum, but the postal service does not establish a conversation or promise order and recovery. QUIC builds a secure, multiplexed transport system on top of UDP postcards.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Evidence of mastery |
 |---|---|---|
@@ -31,11 +31,11 @@ By the end, Arti should be able to:
 
 ## JD Mapping
 
-| JD expectation | Part 18 capability | Artifact | Honest Arti bridge |
+| JD expectation | Part 18 capability | Artifact | Honest experience bridge |
 |---|---|---|---|
 | Analyze complex environments | Map processes, tuples, transport state, NAT/firewall state, and application timing | Socket and flow inventory | Microsoft 365 cross-layer troubleshooting |
 | Identify risk | Recognize exposed listeners, weak attribution, state exhaustion, indiscriminate bypass, and sensitive captures | Transport-boundary risk notes | Learned SecOps interpretation, not claimed product operation |
-| Resolve escalations | Separate handshake, loss, receiver, network, intermediary, and application workstreams | Packet timeline and hypothesis matrix | CRITSIT evidence and coordination discipline |
+| Resolve escalations | Separate handshake, loss, receiver, network, intermediary, and application workstreams | Packet timeline and hypothesis matrix | critical-situation evidence and coordination discipline |
 | Tailor mitigation | Recommend scoped listener, timeout, retry, capacity, path, or policy changes with validation | Change and rollback plan | Production fix validation and communication |
 | Deliver consulting | Explain sequence/ACK and window mechanics in plain language | Whiteboard and packet teach-back | Advisor, mentoring, and training strengths |
 | Work cross-functionally | Give endpoint, network, security, and service teams exact tuple/time/state questions | Shared evidence register | Customer and Engineering collaboration |
@@ -43,9 +43,9 @@ By the end, Arti should be able to:
 
 ## Candidate honesty note
 
-Arti can factually discuss using network and application evidence in Microsoft 365 support, isolating OneDrive and SharePoint failures, comparing affected and unaffected conditions, coordinating Engineering, and validating fixes. She can explain TCP/IP and complete controlled packet-analysis labs. She should label specific claims as production, lab, conceptual, or fictional.
+You can factually discuss using network and application evidence in Microsoft 365 support, isolating OneDrive and SharePoint failures, comparing affected and unaffected conditions, coordinating Engineering, and validating fixes. You can explain TCP/IP and complete controlled packet-analysis labs. You should label specific claims as production, lab, conceptual, or fictional.
 
-She must not claim to have tuned a customer's enterprise TCP stack, operated Zscaler transport controls, or proven a vendor defect from a client capture unless her actual evidence supports it. A safe bridge is: "My production experience is in evidence-led Microsoft 365 escalation. I have used transport symptoms as part of a larger chain, and I have deliberately deepened the standards and packet mechanics. In a new environment I would verify the process, tuple, capture point, stateful boundaries, and application correlation before assigning cause."
+You must not claim to have tuned a customer's enterprise TCP stack, operated Zscaler transport controls, or proven a vendor defect from a client capture unless your actual evidence supports it. A safe bridge is: "My production experience is in evidence-led Microsoft 365 escalation. I have used transport symptoms as part of a larger chain, and I have deliberately deepened the standards and packet mechanics. In a new environment I would verify the process, tuple, capture point, stateful boundaries, and application correlation before assigning cause."
 
 | Evidence label | Safe statement | Unsafe statement |
 |---|---|---|
@@ -1069,7 +1069,7 @@ The following authoritative sources were reviewed on **2026-08-24**. They suppor
 - [ ] I can treat Wireshark TCP analysis flags as inferences affected by capture completeness.
 - [ ] I can protect process, tuple, payload, identity, and timing evidence through minimization and controls.
 - [ ] I can walk the OneDrive/SharePoint and fictional NMH state-capacity scenarios without unsupported claims.
-- [ ] I can connect Arti's factual Microsoft escalation method to transport troubleshooting honestly.
+- [ ] I can connect your factual enterprise escalation method to transport troubleshooting honestly.
 - [ ] I can answer Q1-Q8 aloud and complete all eight labs with sanitized evidence.
 
 [Part 19 - DNS and DHCP End to End](Part-19-dns-dhcp.md)

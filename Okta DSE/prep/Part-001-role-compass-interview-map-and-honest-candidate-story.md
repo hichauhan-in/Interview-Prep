@@ -1,6 +1,6 @@
 # Part 001 - Role Compass, Interview Map, and Honest Candidate Story
 
-> Section goal: Build a stable foundation for every later answer — know exactly what an Okta Developer Support Engineer does all day, what the interview will probe, which parts of five years at Microsoft transfer honestly, where the real gaps are, and how to tell that story in 90 seconds without exaggerating a single word.
+> Section goal: Build a stable foundation for every later answer — know exactly what an Okta Developer Support Engineer does all day, what the interview will probe, which parts of your existing experience transfer honestly, where the real gaps are, and how to tell that story in 90 seconds without exaggerating a single word.
 
 Covers index item **001**. Maps to JD responsibilities: *end-to-end ownership*, *internal and external point of contact*, *5 years+ technical support*, *self-starter*, *continuous growth*, *customer-obsessed attitude*, and the onsite Bengaluru expectation.
 
@@ -71,7 +71,7 @@ A realistic day mixes:
 - **One collaboration touchpoint** — Engineering, Product, a Customer Success Manager, or a colleague's escalation.
 - **Some knowledge work** — a runbook, a forum answer, a KB update.
 
-> 💡 **Tie-in to your background:** this shape is *identical* to your Microsoft escalation day: queue triage, a deep CRITSIT investigation, roadblock calls for frontline engineers, a Product/Engineering sync, and KB authoring. You are not learning a new *rhythm*. You are learning a new *domain and a new evidence set*. Say exactly that in the interview — it is true, it is specific, and it is reassuring to a hiring manager.
+> 💡 **Tie-in to your background:** this shape is *identical* to your prior escalation day: queue triage, a deep critical-situation investigation, roadblock calls for frontline engineers, a Product/Engineering sync, and KB authoring. You are not learning a new *rhythm*. You are learning a new *domain and a new evidence set*. Say exactly that in the interview — it is true, it is specific, and it is reassuring to a hiring manager.
 
 ---
 
@@ -101,14 +101,14 @@ The JD has four blocks. Here is what each line is really asking, and where this 
 | JD line | Your position today | Action |
 |---|---|---|
 | "5 years+ of technical support and/or software development" | **Met.** Apr 2021 internship → Sep 2021 Support Engineer → Oct 2024 Support Escalation Engineer | State the progression, not just the total |
-| "Strong analytical and problem-solving skills" | **Met.** RCA and CRITSIT ownership | Bring a concrete example, not an adjective |
+| "Strong analytical and problem-solving skills" | **Met.** RCA and critical-situation ownership | Bring a concrete example, not an adjective |
 | "Self-starter — come up to speed on complex, difficult concepts with minimal assistance" | **Met and demonstrable.** Your CV literally says you *upskilled* into networking and identity on the job | This is your strongest cultural card — see §7 |
 | "Quickly context-switch between multiple complex work streams" | **Met.** Escalation queues force this | Have a system to describe (Part 119) |
 | "Instinctive ability to subdivide problems into basic components" | **Met.** This is exactly what layered troubleshooting is | Demo it live in the panel (Part 111) |
-| "Customer-obsessed attitude" | **Met with numbers.** 4.75+ Enterprise CSAT, 4.85+ SMB, 100+ recognitions | Numbers beat adjectives every time |
-| "Team player with solid communication and presentation skills" | **Met.** Triages, case bashes, mentoring, technical interviews, Aspire Leadership Council | Pick one story, not a list |
+| "Customer-obsessed attitude" | **Met with numbers.** a strong customer-satisfaction record, repeated peer and customer recognition | Numbers beat adjectives every time |
+| "Team player with solid communication and presentation skills" | **Met.** Triages, case bashes, mentoring, technical interviews, a leadership-development council | Pick one story, not a list |
 | "Proactivity" | **Met.** Backlog/CSAT trend analysis leading to recommendations | Part 126 |
-| "Continuous growth" | **Met.** MBA in progress, 8 certifications, Technical Advisor programme | Part 126 |
+| "Continuous growth" | **Met.** MBA in progress, 8 certifications, technical-advisor programme | Part 126 |
 
 ### Technical Domain Focus
 
@@ -151,7 +151,7 @@ Each persona needs a different register of the *same* truth:
 | Security team | Risk and standards conformance | The relevant standard and the control | Hand-waving about "it's secure" |
 | Executive | Impact, ETA, and confidence level | Impact statement, next update time, honest confidence | Deep protocol detail |
 
-> 💡 **Tie-in to your background:** you already do this five-way translation at Microsoft — you speak differently to a frontline engineer, a Customer IT team, a Delivery Partner, a Product Group, and an executive on a CRITSIT bridge. That is a *transferable, provable* skill. Part 120 makes it explicit.
+> 💡 **Tie-in to your background:** you already do this five-way translation in your current role — you speak differently to a frontline engineer, a Customer IT team, a Delivery Partner, a Product Group, and an executive on a critical-situation bridge. That is a *transferable, provable* skill. Part 120 makes it explicit.
 
 ---
 
@@ -233,7 +233,7 @@ That answer scores well even though the candidate has never touched DPoP — bec
 
 ### The transition narrative in one paragraph
 
-> "I have spent five years at Microsoft in enterprise support, the last two as a Support Escalation Engineer owning business-critical escalations for SharePoint Online, OneDrive, and Copilot. My work is fundamentally about taking an ambiguous, high-pressure production problem, subdividing it across the application, client, network, and identity layers, finding the true root cause, and driving it to resolution with the customer, Engineering, and Product. Identity kept turning up as the layer that mattered — Active Directory, LDAP, Group Policy, and Entra ID authentication issues — and it is the part I found most interesting. I want to move from supporting a collaboration product that happens to involve identity, to supporting identity itself, for developers. I have not run an Okta or Auth0 tenant in production, and I will not pretend otherwise. What I have done is build the protocol depth deliberately: I can decode a JWT and a SAML assertion by hand, walk an authorization code flow with PKCE end to end, and I have built a small SPA and API to prove the JavaScript side rather than just listing it."
+> "I have spent several years in enterprise support, the last two as a Support Escalation Engineer owning business-critical escalations for SharePoint Online, OneDrive, and Copilot. My work is fundamentally about taking an ambiguous, high-pressure production problem, subdividing it across the application, client, network, and identity layers, finding the true root cause, and driving it to resolution with the customer, Engineering, and Product. Identity kept turning up as the layer that mattered — Active Directory, LDAP, Group Policy, and Entra ID authentication issues — and it is the part I found most interesting. I want to move from supporting a collaboration product that happens to involve identity, to supporting identity itself, for developers. I have not run an Okta or Auth0 tenant in production, and I will not pretend otherwise. What I have done is build the protocol depth deliberately: I can decode a JWT and a SAML assertion by hand, walk an authorization code flow with PKCE end to end, and I have built a small SPA and API to prove the JavaScript side rather than just listing it."
 
 ### Why this works
 
@@ -261,7 +261,7 @@ Keep this in your head as a live filter on every sentence you say.
 ```mermaid
 flowchart TD
     Claim["About to make a claim"] --> T1{"Is it on my CV as work I did?"}
-    T1 -->|"Yes"| Prod["PRODUCTION: 'In my role at Microsoft, I owned...'"]
+    T1 -->|"Yes"| Prod["PRODUCTION: 'In my previous role, I owned...'"]
     T1 -->|"No"| T2{"Did I build or break it in a lab?"}
     T2 -->|"Yes"| Lab["LAB: 'I have not done this in production. In a free-tier lab I...'"]
     T2 -->|"No"| T3{"Have I read the official documentation carefully?"}
@@ -271,7 +271,7 @@ flowchart TD
 
 | Tier | Trigger phrase | Examples in your case |
 |---|---|---|
-| **Production** | "In my role at Microsoft, I owned…" | CRITSITs, RCA, HAR/Fiddler/Wireshark/Procmon analysis, AD/LDAP/Group Policy, Entra ID authentication cases, KB authoring, mentoring, CSAT and backlog analysis, Engineering/Product escalation |
+| **Production** | "In my previous role, I owned…" | critical situations, RCA, HAR/Fiddler/Wireshark/Procmon analysis, AD/LDAP/Group Policy, Entra ID authentication cases, KB authoring, mentoring, CSAT and backlog analysis, Engineering/Product escalation |
 | **Lab** | "I have not done this in production; in a free-tier lab I…" | Auth0 tenant setup, authorization code + PKCE, SAML assertion decoding, JWKS verification, Express API guard, SPA login |
 | **Learned** | "My understanding from the official documentation is…" | Okta Identity Engine internals, Organizations at scale, fine-grained authorization, agent identity |
 | **Gap** | "I have not worked with that yet. The closest transferable experience is…" | Okta/Auth0 production operations, Okta-internal tooling and escalation paths |
@@ -293,7 +293,7 @@ Track these. Update the status column as you complete Parts.
 | 7 | Developer-audience register | **Medium** | Parts 004, 030–032, 120 | Minimal repro + a code-level answer sample | Open |
 | 8 | CIAM-specific patterns | **Medium** | Parts 099–105, 108 | Social login + account linking lab | Open |
 
-> **Reframe:** a gap ledger is not a list of reasons to be nervous. It is a *project plan*. You have run harder projects than this under CRITSIT pressure.
+> **Reframe:** a gap ledger is not a list of reasons to be nervous. It is a *project plan*. You have run harder projects than this under critical-situation pressure.
 
 ---
 
@@ -360,7 +360,7 @@ Track these. Update the status column as you complete Parts.
 
 ## 12. Candidate Honesty Note
 
-- **Production transfer (safe to claim):** five years of enterprise support with escalation ownership; RCA under production pressure; multi-stakeholder communication; mentoring and KB authoring; measured CSAT; AD, LDAP, Group Policy and Entra ID case exposure; HTTP/TLS troubleshooting with HAR, Fiddler, Wireshark, and Procmon.
+- **Production transfer (safe to claim):** several years of enterprise support with escalation ownership; RCA under production pressure; multi-stakeholder communication; mentoring and KB authoring; measured CSAT; AD, LDAP, Group Policy and Entra ID case exposure; HTTP/TLS troubleshooting with HAR, Fiddler, Wireshark, and Procmon.
 - **Lab (safe once completed):** everything produced in this guide's labs, always labelled as lab work.
 - **Learned architecture:** Okta and Auth0 product internals until a free-tier tenant has actually been built.
 - **No direct experience (say plainly):** operating an Okta or Auth0 production tenant; Okta's internal tooling, ticketing system, and escalation paths.
@@ -388,13 +388,13 @@ Accessed **August 25–26, 2026**. Deep URLs are deliberately omitted at this st
 ## ⭐ Likely Interview Questions for This Section
 
 ### Q1. "Tell me about yourself."
-> *Model answer:* Deliver the 90-second story from §7 — five years at Microsoft, progression to Support Escalation Engineer, ownership of business-critical escalations across SharePoint Online, OneDrive and Copilot, the method (subdivide across application, client, network and identity layers, find root cause, drive to resolution with Engineering and Product), the identity thread that kept recurring through AD, LDAP, Group Policy and Entra ID work, the deliberate protocol upskilling, and the honest statement that you have not run an Okta or Auth0 tenant in production. End on evidence: what you built in a lab, not what you intend to learn.
+> *Model answer:* Deliver the 90-second story from §7 — several years in enterprise support, progression to Support Escalation Engineer, ownership of business-critical escalations across SharePoint Online, OneDrive and Copilot, the method (subdivide across application, client, network and identity layers, find root cause, drive to resolution with Engineering and Product), the identity thread that kept recurring through AD, LDAP, Group Policy and Entra ID work, the deliberate protocol upskilling, and the honest statement that you have not run an Okta or Auth0 tenant in production. End on evidence: what you built in a lab, not what you intend to learn.
 
 ### Q2. "Why are you leaving Microsoft, and why Okta?"
-> *Model answer:* Frame it as progression, never as escape. "I am not leaving because of a problem — I have had a strong run there, with SME accreditation, the Technical Advisor programme, and consistent CSAT above 4.75. I am moving because the layer I found most interesting was always identity. At Microsoft I supported a collaboration product where identity was one component. Okta is a company where identity *is* the product, and this role is specifically developer-facing, which is where I want my technical depth to go. The Customer Identity space also has a scale and consumer dimension that my enterprise-only background hasn't touched, and that is precisely the growth I want."
+> *Model answer:* Frame it as progression, never as escape. "I am not leaving because of a problem — I have had a strong run there, with SME accreditation, the technical-advisor programme, and a strong customer-satisfaction record. I am moving because the layer I found most interesting was always identity. At Microsoft I supported a collaboration product where identity was one component. Okta is a company where identity *is* the product, and this role is specifically developer-facing, which is where I want my technical depth to go. The Customer Identity space also has a scale and consumer dimension that my enterprise-only background hasn't touched, and that is precisely the growth I want."
 
 ### Q3. "You have no Okta or Auth0 experience. Why should we hire you?"
-> *Model answer:* "That is correct, and I would not claim otherwise. What I bring is the part that is hardest to teach: five years of owning ambiguous, high-pressure production escalations end to end, and a disciplined method for isolating root cause across layers. What you would be teaching me is one product surface. I have already de-risked that: I have built free-tier tenants, run authorization code with PKCE end to end, decoded SAML assertions and JWTs by hand, and written a SPA and an API to prove the JavaScript side. And two of the six protocols the JD names — LDAP and Azure AD — are things I have genuinely worked with in production."
+> *Model answer:* "That is correct, and I would not claim otherwise. What I bring is the part that is hardest to teach: several years of owning ambiguous, high-pressure production escalations end to end, and a disciplined method for isolating root cause across layers. What you would be teaching me is one product surface. I have already de-risked that: I have built free-tier tenants, run authorization code with PKCE end to end, decoded SAML assertions and JWTs by hand, and written a SPA and an API to prove the JavaScript side. And two of the six protocols the JD names — LDAP and Azure AD — are things I have genuinely worked with in production."
 
 ### Q4. "How do you handle working on several complex issues at once?"
 > *Model answer:* "Three habits. First, I triage by *blast radius and reversibility*, not by arrival order — a production login outage outranks a configuration question every time. Second, I write the state down before I switch: current hypothesis, last test, next test, and what I promised the customer. That means switching back costs me thirty seconds instead of ten minutes. Third, I protect the promise separately from the work — even if I have made no progress, the update goes out when I said it would. Silence is what destroys trust, not slow progress."
@@ -403,7 +403,7 @@ Accessed **August 25–26, 2026**. Deep URLs are deliberately omitted at this st
 > *Model answer:* "I subdivide before I guess. First I establish what *is* working, because that bounds the problem — if the login page renders, DNS, TLS, and the tenant are alive. Then I list the layers between the user and the outcome and identify which layer the evidence points to. Then I form two or three competing hypotheses and pick the test that eliminates the most possibilities at once, rather than the test that confirms my favourite theory. I record the observation before acting on it. If I reach the edge of what I know, I say so and name how I would find out — the specification, the tenant log, or a reproduction in a sandbox."
 
 ### Q6. "What does 'end-to-end ownership' mean to you?"
-> *Model answer:* "It means the case is mine until the customer confirms it is resolved, regardless of who does the work. If it turns out to be a product defect, I do not hand it to Engineering and close my part — I build the escalation packet, chase progress, translate updates back to the customer on cadence, validate the fix when it lands, and confirm with the customer in their environment. In my current role that includes CRITSITs where I coordinate the customer, their IT team, delivery partners, Engineering, and Product. Ownership is about who feels responsible when it goes quiet."
+> *Model answer:* "It means the case is mine until the customer confirms it is resolved, regardless of who does the work. If it turns out to be a product defect, I do not hand it to Engineering and close my part — I build the escalation packet, chase progress, translate updates back to the customer on cadence, validate the fix when it lands, and confirm with the customer in their environment. In my current role that includes critical situations where I coordinate the customer, their IT team, delivery partners, Engineering, and Product. Ownership is about who feels responsible when it goes quiet."
 
 ### Q7. "How do you decide when to escalate?"
 > *Model answer:* "Three triggers. One: I have evidence the product itself is behaving contrary to its documented contract — that is a defect and belongs with Engineering immediately, with a minimal reproduction. Two: I have exhausted my hypotheses and the next test needs access or knowledge I do not have. Three: the customer impact or the clock has crossed a threshold where the risk of continuing solo outweighs the cost of pulling someone in. The mistake I avoid is escalating *early with a thin packet* — that just moves the investigation. A good escalation includes the reproduction, exact versions, expected versus actual, correlation IDs, impact, and one explicit ask."

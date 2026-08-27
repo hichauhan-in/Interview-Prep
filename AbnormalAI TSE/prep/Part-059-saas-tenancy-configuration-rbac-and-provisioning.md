@@ -31,16 +31,16 @@ After completing this Part, you should be able to:
 - investigate configuration drift with snapshots, versions, actors, approvals, audit events, and independent validation;
 - plan a safe rollback using prerequisites, dependencies, blast radius, canaries, checkpoints, and stop conditions;
 - build an evidence packet that does not expose secrets, personal data, tenant identifiers, or unsupported proprietary details; and
-- position Arti's Microsoft 365 support and escalation experience as production transfer while labeling generic SaaS architecture and named-vendor behavior honestly.
+- position your Microsoft 365 support and escalation experience as production transfer while labeling generic SaaS architecture and named-vendor behavior honestly.
 
 ## JD Mapping
 
-| Supplied role signal | Capability built in this Part | Arti's transferable evidence | Honesty boundary |
+| Supplied role signal | Capability built in this Part | Your transferable evidence | Honesty boundary |
 |---|---|---|---|
-| Own inbound configuration tickets | Finds owning scope, effective value, actor, change, and rollback path | Five years of Microsoft enterprise support and fix validation | Do not claim Abnormal configuration ownership |
+| Own inbound configuration tickets | Finds owning scope, effective value, actor, change, and rollback path | Several years of enterprise support and fix validation | Do not claim Abnormal configuration ownership |
 | Enterprise SaaS ecosystem | Maps tenants, organizations, workspaces, environments, identity, and control planes | SharePoint Online, OneDrive, Sync Client, and Copilot support | Generic terms are not proof of another vendor's model |
 | SaaS Security | Connects isolation, least privilege, lifecycle, and audit to risk | Microsoft cloud and security upskilling | No Abnormal SaaS Security implementation claim |
-| Complex investigations | Uses timelines, competing hypotheses, state snapshots, and discriminating tests | CRITSIT ownership and Engineering/Product escalation | No invented customer incident |
+| Complex investigations | Uses timelines, competing hypotheses, state snapshots, and discriminating tests | critical-situation ownership and Engineering/Product escalation | No invented customer incident |
 | Customer trust | Minimizes evidence and separates observation from inference | Enterprise customer and partner communication | Never request secrets or unnecessary content |
 | API and integration questions | Reasons about object IDs, scopes, assignments, provisioning, and eventual state | REST/JSON and identity fundamentals | No production-scale API claim unless CV supported |
 | Recommendations and RCA insights | Separates trigger, cause, contributing conditions, and control gaps | Fix validation, case-quality work, and KB/training | A rollback is not automatically a root cause |
@@ -50,7 +50,7 @@ After completing this Part, you should be able to:
 
 | Evidence tier | Safe statement | Do not imply |
 |---|---|---|
-| **Production transfer** | “In Microsoft enterprise support, I investigated tenant-scoped behavior, customer configuration, identity context, service evidence, and validated fixes.” | That every Microsoft object maps directly to Abnormal or another SaaS product |
+| **Production transfer** | “In enterprise support, I investigated tenant-scoped behavior, customer configuration, identity context, service evidence, and validated fixes.” | That every Microsoft object maps directly to Abnormal or another SaaS product |
 | **Local/public lab** | “I built a synthetic tenancy, RBAC, provisioning, drift, and rollback workbook using fictional IDs.” | That the workbook changed or tested a production platform |
 | **Learned architecture** | “I use a vendor-neutral hierarchy and effective-state method, then verify product-specific semantics in official documentation.” | That tenant, org, workspace, project, or environment are interchangeable |
 | **No direct experience** | “I have not administered Abnormal AI, Okta, Google Workspace, Slack, Zoom, Splunk, CrowdStrike, or Cortex SOAR in production.” | Hidden hands-on experience or privileged access |
@@ -58,7 +58,7 @@ After completing this Part, you should be able to:
 
 Safe interview language:
 
-> “My production transfer is Microsoft enterprise support: I am used to confirming tenant identity, scope, configuration, change history, service state, and customer impact before acting. For a new SaaS product, I would verify its object model and authorization semantics from approved documentation, reproduce only in an authorized non-production scope, preserve before-and-after evidence, and state clearly that my generic lab is learned architecture rather than platform operations.”
+> “My production transfer is enterprise support: I am used to confirming tenant identity, scope, configuration, change history, service state, and customer impact before acting. For a new SaaS product, I would verify its object model and authorization semantics from approved documentation, reproduce only in an authorized non-production scope, preserve before-and-after evidence, and state clearly that my generic lab is learned architecture rather than platform operations.”
 
 ## 1. SaaS administration starts with boundaries
 
@@ -683,7 +683,7 @@ The lab proves method only. It uses no SaaS account, trial, cloud API, identity 
 18. Simulate a rollback that is unsafe because an owned resource must be transferred; choose containment and escalation instead.
 19. Run the troubleshooting decision tree on four cases: wrong workspace, inherited value, denied admin, and stale direct assignment.
 20. Produce a redacted customer update and an Engineering escalation with an explicit ask.
-21. Deliver a 90-second spoken explanation connecting Arti's Microsoft tenant/configuration support transfer to the learned generic model, with named-platform boundaries.
+21. Deliver a 90-second spoken explanation connecting your prior tenant/configuration support transfer to the learned generic model, with named-platform boundaries.
 22. Complete cleanup, privacy review, source verification, and the rubric.
 
 ### Expected evidence
@@ -735,7 +735,7 @@ All sources below were verified for this guide and recorded with the guide curre
 | [NIST Glossary - Least Privilege](https://csrc.nist.gov/glossary/term/least_privilege) | Primary security meaning of restricting privileges to task needs | Principle, not SaaS object model |
 | [NIST SP 800-53 Rev. 5](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final) | Access control, least privilege, separation of duties, audit, configuration, and system controls | Control catalog; tailoring required |
 | [Microsoft Learn - Overview of Microsoft Entra RBAC](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/custom-overview) | Microsoft role definitions, assignments, principals, scopes, access review, and audit examples | Microsoft Entra behavior only |
-| [Microsoft Learn - What is Microsoft Entra?](https://learn.microsoft.com/en-us/entra/fundamentals/what-is-entra) | Current Microsoft identity/access product-family context and tenant references | Product family changes over time |
+| [Microsoft Learn - What is Microsoft Entra?](https://learn.microsoft.com/en-us/entra/fundamentals/what-is-entra) | Current enterprise identity/access product-family context and tenant references | Product family changes over time |
 | [Microsoft Learn - Apps and service principals](https://learn.microsoft.com/en-us/entra/identity-platform/app-objects-and-service-principals) | Application object versus tenant-local service principal concepts | Microsoft identity-platform semantics |
 | [OWASP Authorization Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html) | Deny-by-default, least privilege, authorization validation, and logging guidance | Community defensive guidance, not vendor guarantee |
 
@@ -779,7 +779,7 @@ All sources below were verified for this guide and recorded with the guide curre
 
 ### Q8. How does your background transfer without overstating SaaS-platform experience?
 
-**Model answer:** My production transfer is Microsoft enterprise support: tenant context, customer configuration, evidence-based investigation, CRITSIT ownership, Engineering/Product escalation, fix validation, and clear updates. My tenancy/RBAC workbook is a synthetic local lab, and vendor-neutral architecture is learned knowledge. I have not administered Abnormal or the other named ecosystems in production, and I would verify each product's approved model before acting.
+**Model answer:** My production transfer is enterprise support: tenant context, customer configuration, evidence-based investigation, critical-situation ownership, Engineering/Product escalation, fix validation, and clear updates. My tenancy/RBAC workbook is a synthetic local lab, and vendor-neutral architecture is learned knowledge. I have not administered Abnormal or the other named ecosystems in production, and I would verify each product's approved model before acting.
 
 ## Memory Hooks
 
@@ -796,7 +796,7 @@ All sources below were verified for this guide and recorded with the guide curre
 - **Drift is a difference, not a verdict.**
 - **Rollback restores state; it does not establish root cause.**
 - **A cross-tenant signal is an incident boundary, not a reproduction invitation.**
-- **Microsoft experience transfers; Abnormal internals remain unknown.**
+- **prior experience transfers; Abnormal internals remain unknown.**
 
 ## Completion Checklist
 

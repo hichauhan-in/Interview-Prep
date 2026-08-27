@@ -1,10 +1,10 @@
 # Part 35 - Zscaler Private Access (ZPA) Fundamentals
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 >
 > **Purpose:** Explain Zscaler Private Access from zero: private-application access, application segments and grouping, App Connectors and connector groups, service edges, Client Connector and browser access, identity/policy/posture, inside-out connectivity, no inbound exposure, discovery, health, DNS/server/network dependencies, VPN comparison and migration, policy, logs, resilience, and troubleshooting.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every NMH identity, device, app, segment, connector, policy, path, log, migration, incident, metric, and outcome is synthetic. Arti has Microsoft 365 identity, permissions, client, networking, trace, escalation, analytics, mentoring, and training experience, but production ZPA deployment, administration, connector operation, or VPN migration is not established.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every NMH identity, device, app, segment, connector, policy, path, log, migration, incident, metric, and outcome is synthetic. You have Microsoft 365 identity, permissions, client, networking, trace, escalation, analytics, mentoring, and training experience, but production ZPA deployment, administration, connector operation, or VPN migration is not established.
 >
 > **Currency caveat:** The source snapshot is **2026-08-24**. ZPA object names, application-segmentation features, discovery, connector/service-edge behavior, policy types/order, browser/client access, posture, private service edges, business continuity, threat/data controls, logs, interfaces, APIs, editions, entitlements, regions, previews, and limits change. Confirm current authenticated ZPA help, release notes, ordering/contract material, tenant state, product specialists, and customer DNS/network/application evidence before production use.
 
@@ -16,7 +16,7 @@ Think of a secure office switchboard. A caller does not receive a map and keys t
 
 The analogy has limits. ZPA supports several user, workload, partner, browser, private-service-edge, and protocol use cases under current product capabilities. Private apps depend on DNS, routes, firewalls, load balancers, servers, certificates, authentication, application authorization, and downstream services. Segmentation reduces broad reachability but does not patch applications, stop stolen authorized identities, or replace defense in depth.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Proof artifact |
 |---|---|---|
@@ -39,14 +39,14 @@ By the end, Arti should be able to:
 
 ## JD Mapping
 
-| Role expectation | Part 35 capability | TSM artifact | Arti bridge and boundary |
+| Role expectation | Part 35 capability | TSM artifact | experience bridge and boundary |
 |---|---|---|---|
 | Analyze complex environments | Map entity, identity, user path, service, connector, DNS, network, app, and dependencies | End-to-end architecture | M365 dependency isolation transfers |
 | Identify security risk | Find public exposure, broad routes, overbroad app definitions, stale groups, connector gaps | Risk register | Formal risk decisions remain customer-owned |
 | Tailor mitigation | Choose segmentation, stronger context, browser mode, HA, or migration sequence | Options record | Product/license/support must be verified |
-| Resolve escalations | Separate ZPA deny from connector, server, DNS, app auth, and experience faults | Hypothesis matrix | CRITSIT discipline transfers |
+| Resolve escalations | Separate ZPA deny from connector, server, DNS, app auth, and experience faults | Hypothesis matrix | critical-situation discipline transfers |
 | Advocate best practices | Discovery, least privilege, negative tests, staged migration, operations | Adoption/migration plan | Change validation is a strength |
-| Partner with teams | Coordinate identity, endpoint, network, app, cloud, SOC, privacy, Support | RACI | Cross-functional Microsoft work transfers |
+| Partner with teams | Coordinate identity, endpoint, network, app, cloud, SOC, privacy, Support | RACI | Cross-functional prior work transfers |
 | Consult/train | Explain app-not-network and object/flow mechanics from zero | Workshop/teach-back | Mentoring/training transfers directly |
 | Communicate outcomes | Translate narrower reachability into risk and agility with caveats | Executive brief | Do not promise zero lateral movement or instant savings |
 
@@ -130,7 +130,7 @@ flowchart TB
 
 ### Plain-English deep-dive 1 - ZPA connects to an app, not to a magical app cloud
 
-Suppose the switchboard accepts Arti's call but the payroll employee's extension is unplugged. The connection still fails. If the internal directory has the wrong extension, the call goes nowhere. If the employee answers but refuses the request, the switchboard did its job.
+Suppose the switchboard accepts your call but the payroll employee's extension is unplugged. The connection still fails. If the internal directory has the wrong extension, the call goes nowhere. If the employee answers but refuses the request, the switchboard did its job.
 
 ZPA follows the same boundary logic. A user can reach the ZPA service and pass policy while an App Connector cannot resolve the app name, route to the server, pass a firewall, complete TCP/TLS, or receive an application response. The application can also deny the user after connectivity succeeds.
 
@@ -864,9 +864,9 @@ The team pauses the wave, validates the license protocol and business owner, des
 
 Do not count Client Connector installations, segments created, or VPN sessions reduced as outcome alone. Measure successful required operations, prohibited reachability, fallback dependence, connector/app health, access reviews, exceptions, user experience, and retired exposure with a documented denominator.
 
-## Arti's Microsoft-to-Zscaler bridge
+## Your experience bridge to Zscaler
 
-| Microsoft production strength | Part 35 transfer | New ZPA learning | Honest language |
+| prior production strength | Part 35 transfer | New ZPA learning | Honest language |
 |---|---|---|---|
 | SharePoint/OneDrive access and permissions | Separate ZPA connectivity from app authorization | ZPA policy/segment logs | "Connection and permission remain distinct." |
 | Client/browser comparison | Client Connector versus browser access reasoning | ZPA mode support/objects | "The comparison method transfers." |
@@ -1046,7 +1046,7 @@ All pages were reviewed on **2026-08-24**. Zscaler pages are vendor-authored sou
 | VPN coexistence | Old route can hide a gap |
 | Migration | Discover, design, coexist, remove, prove, retire |
 | Troubleshooting | User, policy, connector, DNS, server, app |
-| Arti bridge | Hidden-dependency discipline transfers; ZPA operation is new |
+| Experience bridge | Hidden-dependency discipline transfers; ZPA operation is new |
 
 ## Completion Checklist
 
@@ -1093,7 +1093,7 @@ All pages were reviewed on **2026-08-24**. Zscaler pages are vendor-authored sou
 - [ ] I never present NMH as a real customer or its migration as production experience.
 - [ ] I can define reachability, exposure, health, experience, partner, operations, resilience, and audit outcomes honestly.
 - [ ] I measure successful operations and removed fallback, not installations/segments alone.
-- [ ] I can deliver Arti's 30-second bridge with a clear ZPA hands-on boundary.
+- [ ] I can deliver your 30-second bridge with a clear ZPA hands-on boundary.
 - [ ] I can run all twelve labs using owned/synthetic systems only.
 - [ ] I can cite current official Zscaler, NIST, and IETF source anchors.
 - [ ] I state product, license, UI, object, protocol, connector, edge, browser, region, limit, and currency caveats.

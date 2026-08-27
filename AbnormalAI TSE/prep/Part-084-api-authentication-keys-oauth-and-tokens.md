@@ -8,9 +8,9 @@
 
 ## Section goal
 
-By the end of this Part, Arti should distinguish identification, authentication, authorization, and accounting; explain API keys, HTTP Basic authentication conceptually, bearer tokens, OAuth client credentials, and delegated authorization flows; and describe mutual Transport Layer Security and HTTP message signatures at an appropriate high level. She should compare scopes, roles, resource relationships, and policy checks without treating any one mechanism as universally sufficient.
+By the end of this Part, you should distinguish identification, authentication, authorization, and accounting; explain API keys, HTTP Basic authentication conceptually, bearer tokens, OAuth client credentials, and delegated authorization flows; and describe mutual Transport Layer Security and HTTP message signatures at an appropriate high level. You should compare scopes, roles, resource relationships, and policy checks without treating any one mechanism as universally sufficient.
 
-She should diagnose 401 versus 403 carefully, recognizing that implementations can intentionally return 404 to avoid disclosing a resource. She should reason about token expiry, not-before time, revocation, refresh, key rotation, secret storage, redaction, least privilege, issuer, audience, subject, tenant, clock, signature/key selection, and sender constraints. She should separate “who or what authenticated?” from “what may that principal do to this resource now?”
+You should diagnose 401 versus 403 carefully, recognizing that implementations can intentionally return 404 to avoid disclosing a resource. You should reason about token expiry, not-before time, revocation, refresh, key rotation, secret storage, redaction, least privilege, issuer, audience, subject, tenant, clock, signature/key selection, and sender constraints. You should separate “who or what authenticated?” from “what may that principal do to this resource now?”
 
 The security objective is strict: credentials are never learning artifacts. This Part includes no real key, password, token, certificate private key, OAuth endpoint, consent request, client registration, live authorization flow, or named-vendor call. Synthetic labels such as `[SYNTHETIC_TOKEN_REDACTED]` are evidence placeholders, not values to send. Current approved Abnormal documentation and internal policy remain authoritative for any actual integration identity, scope, credential lifecycle, endpoint, or troubleshooting procedure.
 
@@ -31,11 +31,11 @@ The security objective is strict: credentials are never learning artifacts. This
 
 ## Candidate honesty note
 
-Arti's Microsoft cloud, Entra fundamentals, SSO/SAML/OAuth learning, enterprise support, escalation, and customer-trust experience provide a strong transfer base. She can claim working familiarity with authentication evidence, OAuth roles and flows, token claims, least privilege, and secret hygiene. She should not claim identity-provider engineering, authorization-server operation, production public key infrastructure ownership, cryptographic implementation, customer credential custody, or Abnormal API administration.
+Your prior cloud, Entra fundamentals, SSO/SAML/OAuth learning, enterprise support, escalation, and customer-trust experience provide a strong transfer base. You can claim working familiarity with authentication evidence, OAuth roles and flows, token claims, least privilege, and secret hygiene. You should not claim identity-provider engineering, authorization-server operation, production public key infrastructure ownership, cryptographic implementation, customer credential custody, or Abnormal API administration.
 
 | Evidence tier | Safe claim | Boundary |
 |---|---|---|
-| Production transfer | Microsoft enterprise support, identity/configuration isolation, customer communication, escalation | Do not invent production OAuth-security incidents |
+| Production transfer | enterprise support, identity/configuration isolation, customer communication, escalation | Do not invent production OAuth-security incidents |
 | Working familiarity | API key, Basic concept, bearer, OAuth roles/flows, scopes, claims, 401/403 reasoning | Not authorization-server engineering |
 | Local/paper lab | Synthetic credential lifecycle and denial diagnosis | No live auth flow or credential |
 | Learned architecture | mTLS, signatures, sender-constrained tokens, named ecosystem patterns | Not deployed ownership |
@@ -622,7 +622,7 @@ The canonical request must not contain the token. Record `Authorization: Bearer 
 | 401/403 | Swaps status meanings | Knows rough split | Uses challenge/error, concealment, principal validation, exact permission evidence |
 | Lifecycle | Rotates immediately | Names overlap | Inventories consumers, stages overlap, validates, retires, monitors, handles exposure |
 | Secret handling | Includes partial value | Redacts obvious field | Uses allowlist evidence, aliases, approved stores, revocation/incident process |
-| Honesty | Claims Abnormal/IAM ownership | Says learned | Separates Microsoft transfer, working familiarity, lab, learned, unknown |
+| Honesty | Claims Abnormal/IAM ownership | Says learned | Separates experience transfer, working familiarity, lab, learned, unknown |
 
 ## Official Source Anchors - August 24, 2026
 
@@ -720,7 +720,7 @@ The canonical request must not contain the token. Record `Authorization: Bearer 
 - [ ] I can write a credential-free canonical request and escalation package.
 - [ ] I completed or can reproduce **The Credential Lifecycle Decision Ledger 084** with no network or credential.
 - [ ] I can answer exactly Q1-Q8 aloud with precise safety and honesty language.
-- [ ] I can state Microsoft production transfer, working familiarity, paper lab, learned architecture, no direct experience, and Abnormal unknowns.
+- [ ] I can state prior production transfer, working familiarity, paper lab, learned architecture, no direct experience, and Abnormal unknowns.
 - [ ] I checked Official Source Anchors dated August 24, 2026 and current RFC 9700 guidance.
 
 [Next: Part 085 - Postman curl and PowerShell API Practice](Part-085-postman-curl-and-powershell-api-practice.md)

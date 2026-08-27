@@ -1,6 +1,6 @@
 # Part 41 - Ransomware Resilience and Autonomous Ransomware Protection
 
-> **Section goal:** Understand ransomware as a full attack-and-recovery problem and place ONTAP Autonomous Ransomware Protection (ARP) inside a layered resilience strategy. By the end, Arti should be able to distinguish original ARP from ARP with artificial intelligence (ARP/AI), interpret learning/evaluation/active states by exact release and workload, triage anomalies without assuming attack or false positive, preserve evidence, contain safely, select a clean recovery point, validate restoration, and communicate residual risk without promising prevention.
+> **Section goal:** Understand ransomware as a full attack-and-recovery problem and place ONTAP Autonomous Ransomware Protection (ARP) inside a layered resilience strategy. By the end, you should be able to distinguish original ARP from ARP with artificial intelligence (ARP/AI), interpret learning/evaluation/active states by exact release and workload, triage anomalies without assuming attack or false positive, preserve evidence, contain safely, select a clean recovery point, validate restoration, and communicate residual risk without promising prevention.
 
 Covers index item **41** and maps directly to job-description responsibilities for storage/security depth, customer discovery, risk mitigation, high-pressure incidents, proactive recommendations, supportability, analytics, service reviews, evidence quality, and cross-functional execution.
 
@@ -8,7 +8,7 @@ Covers index item **41** and maps directly to job-description responsibilities f
 
 Current public documentation checked below describes **ARP/AI as the default model for ONTAP 9.16.1 and later** and the **original ARP model for ONTAP 9.10.1 through 9.15.1**, with volume/workload exceptions across later releases. This is a dated orientation, not a timeless rule. No threshold, learning/evaluation duration, snapshot schedule/retention, detection rate, false-positive rate, response time, or “zero data loss” guarantee is asserted without rechecking the exact current page.
 
-> **No-production-NetApp boundary:** Arti does not claim production NetApp ARP or ransomware-response experience on ONTAP. Every volume, extension, entropy signal, alert, snapshot, customer, timeline, and outcome below is synthetic. Her factual strengths are Microsoft enterprise escalation, security/identity/networking concepts, Azure/M365 incident ownership, data recovery, analytics, stakeholder coordination, and customer communication. The explicit non-claim is: **she has not enabled/tuned production ARP/ARP-AI, transitioned a production volume from learning/evaluation to active, classified a NetApp ARP alert, marked activity normal, paused/disabled protection, cleared suspects, restored an ONTAP ransomware incident, or claimed ARP prevented an attack.**
+> **No-production-NetApp boundary:** You do not claim production NetApp ARP or ransomware-response experience on ONTAP. Every volume, extension, entropy signal, alert, snapshot, customer, timeline, and outcome below is synthetic. Your factual strengths are enterprise escalation, security/identity/networking concepts, Azure/M365 incident ownership, data recovery, analytics, stakeholder coordination, and customer communication. The explicit non-claim is: **you have not enabled/tuned production ARP/ARP-AI, transitioned a production volume from learning/evaluation to active, classified a NetApp ARP alert, marked activity normal, paused/disabled protection, cleared suspects, restored an ONTAP ransomware incident, or claimed ARP prevented an attack.**
 
 ---
 
@@ -568,12 +568,12 @@ flowchart TD
 
 ### JD Mapping
 
-| JD responsibility | Part 41 contribution | Arti's factual bridge and gap |
+| JD responsibility | Part 41 contribution | Your factual bridge and gap |
 |---|---|---|
 | Understand environment | Maps threat through identity/endpoint/network/app/storage/recovery | Microsoft cloud/support systems thinking transfers |
 | Analyze/report data | Coverage/state/update/alerts/snapshots/cases/recovery metrics | Analytics strength transfers |
 | Strategic planning | Builds layered prevent/detect/respond/recover roadmap | Advisory/MBA transfer |
-| Risk/stability | Handles false positives, containment, clean point and residual risk | CRITSIT discipline transfers |
+| Risk/stability | Handles false positives, containment, clean point and residual risk | critical-situation discipline transfers |
 | Supportability | Requires exact ARP release/workload/platform evidence | No customer/internal result claimed |
 | Service reviews | Reports coverage, exceptions, exercises, actions and readiness | Business-review strength transfers |
 | Escalation | Produces privacy-safe ARP plus cross-plane evidence | Product collaboration transfers |
@@ -582,7 +582,7 @@ flowchart TD
 
 ## 18. Fully synthetic scenario: Contoso Design suspected encryption
 
-> **Synthetic case:** Contoso Design, every system, model state, extension, event, timestamp, snapshot, and outcome below is fictional. It is not a NetApp customer, benchmark, internal process, tool result, or Arti's production work.
+> **Synthetic case:** Contoso Design, every system, model state, extension, event, timestamp, snapshot, and outcome below is fictional. It is not a NetApp customer, benchmark, internal process, tool result, or your production work.
 
 ### Environment
 
@@ -663,11 +663,11 @@ flowchart TD
 
 ---
 
-## 19. Arti's factual transfer and honest positioning
+## 19. Your factual transfer and honest positioning
 
 ```mermaid
 flowchart LR
-    CRIT[Microsoft CRITSIT ownership] --> IR[Incident command evidence workstreams updates]
+    CRIT[Enterprise critical-situation ownership] --> IR[Incident command evidence workstreams updates]
     IAM[AD/Entra/security concepts] --> ID[Credential containment MFA least privilege]
     AZ[Azure/networking] --> SEG[Segmentation egress endpoint/cloud dependencies]
     M365[M365 data services] --> DATA[Permissions versions recovery user impact]
@@ -680,7 +680,7 @@ flowchart LR
     ARP --> LAB[Future authorized tabletop/lab/NetApp review]
 ```
 
-> **Honest interview answer:** "I position ARP as a storage detection and protection layer, not prevention. I first identify exact ONTAP release, workload, volume type, original ARP versus ARP/AI, state and model/update currency. Then I correlate anomalies with identity, EDR, network and application evidence, preserve snapshots/logs, contain safely and restore a clean point in isolation. My production background is Microsoft incident and data-service work, not ONTAP ARP operations, so I would use current docs and NetApp/security specialists."
+> **Honest interview answer:** "I position ARP as a storage detection and protection layer, not prevention. I first identify exact ONTAP release, workload, volume type, original ARP versus ARP/AI, state and model/update currency. Then I correlate anomalies with identity, EDR, network and application evidence, preserve snapshots/logs, contain safely and restore a clean point in isolation. My production background is enterprise incident and data-service work, not ONTAP ARP operations, so I would use current docs and NetApp/security specialists."
 
 ---
 
@@ -760,7 +760,7 @@ flowchart LR
 13. Operate coverage/update/alert/recovery metrics and lifecycle.
 14. Apply troubleshooting/support boundaries.
 15. Recreate Contoso Design and complete paper lab/Q1-Q8.
-16. State Arti's factual transfer and gap without prevention claims.
+16. State your factual transfer and gap without prevention claims.
 
 ---
 
@@ -829,7 +829,7 @@ flowchart LR
 
 ### Q8. How does your background transfer, and what remains a gap?
 
-> **Model answer:** "My Microsoft CRITSIT, identity/networking, Azure/M365 data and analytics experience gives me incident command, evidence correlation, containment, recovery and communication discipline. I understand ARP architecture conceptually but have not operated or tuned it in production. I would use current release/workload docs and NetApp/security/application specialists and never promise ARP prevents ransomware."
+> **Model answer:** "My prior critical situation, identity/networking, Azure/M365 data and analytics experience gives me incident command, evidence correlation, containment, recovery and communication discipline. I understand ARP architecture conceptually but have not operated or tuned it in production. I would use current release/workload docs and NetApp/security/application specialists and never promise ARP prevents ransomware."
 
 ---
 
@@ -851,7 +851,7 @@ flowchart LR
 - **Clean point:** Last unburned page, not merely latest saved page.
 - **Recovery:** Isolate, hunt, validate app, transact, reprotect, monitor.
 - **Residual risk:** State what remains unknown after recovery.
-- **Arti's bridge:** Incident/evidence rigor transfers; production ARP operation does not.
+- **Your bridge:** Incident/evidence rigor transfers; production ARP operation does not.
 
 ---
 
@@ -871,7 +871,7 @@ flowchart LR
 - [ ] Restore in isolation; hunt, validate integrity/app/business transaction, reprotect.
 - [ ] Track coverage, updates, alerts, cases, snapshots, exercises and RPO/RTO.
 - [ ] Apply troubleshooting, support boundaries, recommendation and residual-risk models.
-- [ ] Recreate Contoso Design, complete paper lab, answer Q1-Q8, and state Arti's boundary.
+- [ ] Recreate Contoso Design, complete paper lab, answer Q1-Q8, and state your boundary.
 - [ ] Recheck current ARP/release/HWU/IMT/NIST/CISA/Support guidance before customer use.
 
 ---

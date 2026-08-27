@@ -39,7 +39,7 @@ flowchart TD
 | Failure blamed on others | ❌ Serious negative |
 | Story where you were wrong and said so | ✅ **Strong** |
 
-> 💡 **Tie-in to your background:** five years of enterprise escalation work, CRITSITs, and a CSAT record above 4.75 means **the stories exist**. **The preparation is selecting and structuring them**, not inventing them.
+> 💡 **Tie-in to your background:** several years of enterprise escalation work, critical situations, and a strong customer-satisfaction record means **the stories exist**. **The preparation is selecting and structuring them**, not inventing them.
 
 **And there is a redaction requirement** (Part 112). **Customer names, case identifiers, and internal specifics do not go into an interview answer.** *"A large enterprise customer"* and *"a business-critical service"* carry the shape without the detail, **and being visibly careful about it is itself a positive signal** for an identity company.
 
@@ -128,7 +128,7 @@ flowchart TD
 | **Build and own it** | Unasked initiative · complex diagnosis |
 | **Drive what's next** | Learning fast · improving a process |
 
-> 💡 **Tie-in to your background:** **CRITSITs, business-critical escalations, and RCA ownership** supply stories for every row above. **The Technical Advisor programme and ODSP SME work** supply the "build and own it" and "drive what's next" stories directly.
+> 💡 **Tie-in to your background:** **critical situations, business-critical escalations, and RCA ownership** supply stories for every row above. **The technical-advisor programme and product subject-matter expert work** supply the "build and own it" and "drive what's next" stories directly.
 
 ### 🔍 Plain-English deep-dive: constructing the "I was wrong" story safely
 
@@ -185,11 +185,11 @@ Two questions are close to certain (Part 129). **Both deserve rehearsal to a sta
 
 **"Why this role?"** — the answer must be **specific and true.** Generic enthusiasm reads as generic.
 
-> *"Because it is the intersection of what I already do and what I want to go deeper into. I have spent five years on enterprise escalations where the hardest problems were nearly always identity, networking, or the boundary between them — federation failures, token issues, directory and permission problems. What I want is to be in the product where that is the whole job rather than a recurring theme, and the developer-facing side specifically, because the person on the other end is building something and the conversation is about how it works rather than only about restoring service."*
+> *"Because it is the intersection of what I already do and what I want to go deeper into. I have spent several years on enterprise escalations where the hardest problems were nearly always identity, networking, or the boundary between them — federation failures, token issues, directory and permission problems. What I want is to be in the product where that is the whole job rather than a recurring theme, and the developer-facing side specifically, because the person on the other end is building something and the conversation is about how it works rather than only about restoring service."*
 
 **"You have no Okta or Auth0 experience"** — the answer must be **a statement, not an apology** (Part 126).
 
-> *"That is accurate — I have not used either in production. What I did about it is build a free-tier tenant and work through the flows properly: authorization code with PKCE, a SAML connection, a SCIM provisioning run, Actions with custom claims, and reading the tenant logs until I could tell the failure shapes apart. What I bring is five years of business-critical escalation work and the substrate identity actually runs on — Active Directory, LDAP, Entra ID, TLS, DNS, HTTP, and HAR analysis — which is where a large share of identity failures actually live. And to be honest about the boundary: the thing labs cannot give me is architecture judgement, which needs real customer patterns over six to nine months."*
+> *"That is accurate — I have not used either in production. What I did about it is build a free-tier tenant and work through the flows properly: authorization code with PKCE, a SAML connection, a SCIM provisioning run, Actions with custom claims, and reading the tenant logs until I could tell the failure shapes apart. What I bring is several years of business-critical escalation work and the substrate identity actually runs on — Active Directory, LDAP, Entra ID, TLS, DNS, HTTP, and HAR analysis — which is where a large share of identity failures actually live. And to be honest about the boundary: the thing labs cannot give me is architecture judgement, which needs real customer patterns over six to nine months."*
 
 ```mermaid
 flowchart TD
@@ -392,7 +392,7 @@ flowchart TD
 
 **Steps.**
 
-1. **List candidate stories** from five years of escalation work — aim for twelve before selecting.
+1. **List candidate stories** from several years of escalation work — aim for twelve before selecting.
 2. **Select seven** covering: difficult customer · complex diagnosis · being wrong · saying no · unasked initiative · disagreement · fast learning.
 3. **Redact each one.** No customer names, case IDs, or internal specifics. Check twice.
 4. **Write each as STAR** with the target proportions: 15s / 10s / 45–60s / 15s.
@@ -447,11 +447,11 @@ flowchart TD
 
 ## 10. Candidate Honesty Note
 
-- **Production experience:** enterprise escalations, CRITSITs, RCA ownership, and sustained CSAT above 4.75 — the stories are real and there are plenty of them.
+- **Production experience:** enterprise escalations, critical situations, RCA ownership, and a strong customer-satisfaction record — the stories are real and there are plenty of them.
 - **Lab experience:** structuring, redacting, timing, and rehearsing them to a spoken standard, as above.
 - **Learned architecture:** why proportions matter, why the correction is the story, and why naming the boundary is what makes the rest credible.
 - **No direct experience:** Okta or Auth0 in production; developer-facing support as the whole role.
-- **How to say it:** *"I have the stories — five years of escalation work supplies them. What I prepared was the structure: keeping the situation short, being specific about what I did rather than what the team did, and making sure every one ends with what changed rather than just how it resolved. And I made sure the story about being wrong was a real misdiagnosis, because that is the one that actually tells you something."*
+- **How to say it:** *"I have the stories — several years of escalation work supplies them. What I prepared was the structure: keeping the situation short, being specific about what I did rather than what the team did, and making sure every one ends with what changed rather than just how it resolved. And I made sure the story about being wrong was a real misdiagnosis, because that is the one that actually tells you something."*
 
 ---
 
@@ -550,7 +550,7 @@ flowchart TD
 - **Explaining the reason, not just the fix** (Part 120) is what makes support scale.
 - **Honest boundaries** are more persuasive than claimed completeness.
 
-**And the honest position throughout:** five years of real escalation work, a strong technical substrate, deliberate lab-built product knowledge, and one named gap — architecture judgement — that takes six to nine months of real customer patterns and no amount of preparation can shortcut.
+**And the honest position throughout:** several years of real escalation work, a strong technical substrate, deliberate lab-built product knowledge, and one named gap — architecture judgement — that takes six to nine months of real customer patterns and no amount of preparation can shortcut.
 
 **That is a credible, defensible, and genuinely strong position.** Go and use it.
 

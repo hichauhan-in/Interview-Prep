@@ -206,7 +206,7 @@ flowchart TD
     B2a --> R["\ud83d\udd35 There is no shortcut,\nand saying so is the credible position"]
 ```
 
-**Node T4a is the argument for hiring you** (Part 130 §3). **A large share of identity failures live in the substrate**, not in the identity product — and that substrate is five years of production experience, not a gap.
+**Node T4a is the argument for hiring you** (Part 130 §3). **A large share of identity failures live in the substrate**, not in the identity product — and that substrate is several years of production experience, not a gap.
 
 ---
 

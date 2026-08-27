@@ -8,7 +8,7 @@
 
 This plan turns “I learn quickly” into a reviewable sequence of questions, practice, evidence, feedback, and progressively broader contribution. It is a proposal to negotiate with a manager, not a promise to reach arbitrary ticket counts or unsupported independence by a fixed date.
 
-Arti's verified base is five years of Microsoft customer-facing enterprise support, including the named cloud workloads, complex/critical investigations, customer and partner communication, Engineering/Product escalation, fix validation, knowledge/training, mentoring, and support analytics recorded in [Part 001](Part-001-role-compass-and-honest-candidate-story.md). Direct Abnormal operation, email-security production case ownership, and production use of Google Workspace, Slack, Okta, Splunk, CrowdStrike, Cortex SOAR, Zoom, Zendesk, Salesforce, Jira, or Confluence are not established.
+Your verified base is several years of enterprise customer-facing support, including the named cloud workloads, complex/critical investigations, customer and partner communication, Engineering/Product escalation, fix validation, knowledge/training, mentoring, and support analytics recorded in [Part 001](Part-001-role-compass-and-honest-candidate-story.md). Direct Abnormal operation, email-security production case ownership, and production use of Google Workspace, Slack, Okta, Splunk, CrowdStrike, Cortex SOAR, Zoom, Zendesk, Salesforce, Jira, or Confluence are not established.
 
 Safe interview wording:
 
@@ -75,11 +75,11 @@ Do not request customer/product access before employment or outside the approved
 
 This is a functional map, not an Abnormal organization chart.
 
-| Stakeholder/function | What Arti needs to learn from them | What Arti can contribute during ramp | Boundary/question |
+| Stakeholder/function | What you need to learn from them | What you can contribute during ramp | Boundary/question |
 |---|---|---|---|
 | Manager/lead | Priorities, quality bar, scope, risk, feedback, readiness gates | Transparent progress, blockers, coaching application | Manager approves targets and broader ownership |
 | Onboarding/trainer/buddy | Product mental model, workflow, local language, common cases | Prepared questions, teach-back, lab artifacts | Confirm who is authorized to approve actions |
-| L1 peers | Intake patterns, case hygiene, customer cadence, practical pitfalls | Microsoft support transfer and collaborative notes | Local practice overrides generic guide |
+| L1 peers | Intake patterns, case hygiene, customer cadence, practical pitfalls | enterprise support transfer and collaborative notes | Local practice overrides generic guide |
 | L2/specialists | Escalation thresholds, deeper evidence, uncommon cases | Complete reproductions, timelines, explicit asks | Do not bypass L1-supported scope |
 | Engineering | Defect evidence, telemetry limits, fix validation | Expected/actual, minimal repro, IDs, impact, validation | Engineering owns code/service conclusions |
 | Product | Expected behavior, recurring needs, prioritization evidence | Pattern, impact, workaround, customer job | Never promise roadmap or dates |
@@ -90,7 +90,7 @@ This is a functional map, not an Abnormal organization chart.
 
 ```mermaid
 flowchart TD
-    Customer[Customer admins analysts and stakeholders] --> L1[Arti as L1 case owner]
+    Customer[Customer admins analysts and stakeholders] --> L1[you as L1 case owner]
     L1 --> Manager[Manager or lead]
     L1 --> Peers[L1 peers buddy trainer]
     L1 --> Deep[L2 specialists and Engineering]
@@ -215,11 +215,11 @@ Weeks are flexible sequencing markers. Holidays, access, team needs, case mix, a
 
 | Competency | Starting evidence | 30-day evidence | 60-day evidence | 90-day evidence | Reviewer |
 |---|---|---|---|---|---|
-| Enterprise ownership | Verified Microsoft support/CRITSIT transfer | Local lifecycle teach-back | Reviewed bounded case continuity | Consistency across approved mix | Manager/quality |
+| Enterprise ownership | Verified enterprise support/critical-situation transfer | Local lifecycle teach-back | Reviewed bounded case continuity | Consistency across approved mix | Manager/quality |
 | Customer communication | Verified technical/nontechnical customer work | Local templates and shadow review | Real assigned updates reviewed in system | Reliable audience/cadence judgment | Manager/peer |
 | Product/customer outcomes | Public learning only | Reviewed product/job map | Correct use in assigned cases | Pattern/product brief if appropriate | Trainer/Product |
 | Email threat fundamentals | Curriculum/synthetic learning | Header/auth/threat exercises | Correct use in supervised workflow | Broader cases only if approved | Specialist |
-| SaaS/identity/API/network/logs | Mixed Microsoft transfer and learning | Layered labs/teach-back | Reviewed assigned integration diagnosis | Consistent cross-layer reasoning | Specialist/Engineering |
+| SaaS/identity/API/network/logs | Mixed experience transfer and learning | Layered labs/teach-back | Reviewed assigned integration diagnosis | Consistent cross-layer reasoning | Specialist/Engineering |
 | Evidence/privacy/security | Microsoft method plus guide | Local policy/access/handling pass | Safe minimum collection and escalation | Consistent judgment and cleanup | Security/quality |
 | Escalation/collaboration | Verified Engineering/Product transfer | Local packet standard learned | Useful, timely packets with feedback | Reduced restart and clear ownership | L2/Engineering |
 | Knowledge/improvement | Verified KB/training/analytics transfer | Local standards learned | Reviewed draft if justified | Validated contribution/experiment if approved | Knowledge/ops |
@@ -231,7 +231,7 @@ Do not mark a cell complete because a document exists. Evidence requires perform
 | Learning loop | Activity | Artifact | Review question |
 |---|---|---|---|
 | Read | Current authorized docs and public standards | Source/claim ledger using [Appendix J](Appendix-J-source-bibliography-and-current-official-docs.md) | Is the claim current, scoped, and faithful? |
-| Explain | Teach concept in plain English and technical depth | Short diagram and spoken answer | Can Arti define, apply, limit, and answer follow-up? |
+| Explain | Teach concept in plain English and technical depth | Short diagram and spoken answer | Can you define, apply, limit, and answer follow-up? |
 | Observe | Shadow a case and predict decisions | Sanitized in-system shadow template | Which evidence changed the next action? |
 | Practice | Run approved synthetic/sandbox task | Lab report and manifest | Was it authorized, reproducible, and correctly labeled? |
 | Perform | Handle assigned bounded work | Case notes, customer update, validation | Did outcome, safety, and quality meet local standard? |
@@ -295,7 +295,7 @@ No numeric KPI is invented here. Use the team's definitions, segmentation, data 
 
 ```mermaid
 sequenceDiagram
-    participant A as Arti
+    participant A as Candidate
     participant M as Manager
     participant R as Reviewer or specialist
     participant C as Customer or case context
@@ -353,7 +353,7 @@ Never place customer or private company artifacts in a personal portfolio. The p
 | “What will you deliver?” | Reviewed artifacts and changed behavior: safe case notes, updates, escalations, labs, coaching corrections, and manager-agreed outcomes |
 | “How fast will you be independent?” | No fixed promise; scope broadens by risk, case type, quality evidence, and manager approval |
 | “What metric will you hit?” | First learn definitions and baseline; negotiate balanced target with quality/customer guardrails |
-| “How will your background help?” | Microsoft enterprise ownership, ambiguity, communication, escalation, validation, KB/training, mentoring, and analytics transfer |
+| “How will your background help?” | enterprise ownership, ambiguity, communication, escalation, validation, KB/training, mentoring, and analytics transfer |
 | “What is the gap?” | Direct Abnormal and email-security operations; close through current docs, authorized training, shadowing, labs, reviewed cases, and feedback |
 | “Will you mentor?” | Share narrow verified learning only when appropriate and manager-requested; learning remains the priority |
 
@@ -365,7 +365,7 @@ Never place customer or private company artifacts in a personal portfolio. The p
 - [ ] Mentoring is conditional and appropriate, never guaranteed responsibility.
 - [ ] No invented KPI, access, certification, internal process, or guaranteed autonomy appears.
 - [ ] Every target requires a baseline, definition, manager agreement, and guardrail.
-- [ ] Experience claims stay within verified Microsoft production transfer, current learning, and actually performed/reviewed evidence.
+- [ ] Experience claims stay within verified prior production transfer, current learning, and actually performed/reviewed evidence.
 - [ ] Changing product and role details are marked for revalidation at use time.
 
 **Next references:** Use [Appendix L](Appendix-L-night-before-one-page-cheat-sheet.md) for the compact interview summary, [Part 100](Part-100-l1-ticket-lifecycle-and-case-ownership.md) for case ownership, [Part 104](Part-104-escalation-handoffs-swarming-and-critical-incidents.md) for escalation, and [Part 114](Part-114-support-metrics-dashboards-sql-and-analytics.md) for metric definitions and guardrails.

@@ -32,7 +32,7 @@ flowchart TD
 
 **The discipline that prevents it:** treat recognition as a **hypothesis**, and confirm it before acting. **One confirming check is usually cheap**, and it converts a guess into a finding.
 
-> 💡 **Tie-in to your background:** as a Support Escalation Engineer handling CRITSITs, this is your existing craft. **The method below is largely a formalisation of what you already do** — and being able to articulate it explicitly is itself an interview asset.
+> 💡 **Tie-in to your background:** as a Support Escalation Engineer handling critical situations, this is your existing craft. **The method below is largely a formalisation of what you already do** — and being able to articulate it explicitly is itself an interview asset.
 
 ### 🔍 Plain-English deep-dive: the five questions, and what each eliminates
 

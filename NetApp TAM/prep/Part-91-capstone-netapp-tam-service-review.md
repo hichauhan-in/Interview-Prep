@@ -1,6 +1,6 @@
 # Part 91 - CAPSTONE - NetApp TAM Quarterly Service Review and Stability Plan
 
-> **Section goal:** Complete a full fictional Technical Account Manager quarterly cycle: discovery, install-base reconciliation, data-quality review, health/performance/capacity/protection/supportability/bug/lifecycle/incident analysis, risk scoring, prioritized recommendations, Excel model, Power BI concept, PowerPoint service review, objections, decisions, action register, follow-up and measured value. By the end, Arti can defend every claim from evidence to customer outcome while preserving authority and experience boundaries.
+> **Section goal:** Complete a full fictional Technical Account Manager quarterly cycle: discovery, install-base reconciliation, data-quality review, health/performance/capacity/protection/supportability/bug/lifecycle/incident analysis, risk scoring, prioritized recommendations, Excel model, Power BI concept, PowerPoint service review, objections, decisions, action register, follow-up and measured value. By the end, you can defend every claim from evidence to customer outcome while preserving authority and experience boundaries.
 
 Covers index item **91** and maps to nearly every job-description responsibility: customer-data analysis, strategic planning, install-base accuracy, operational reviews, risk mitigation, preventative remediation adoption, recommendation quality, Microsoft Office, complex priorities, special projects, cross-functional work, customer loyalty and technical communication.
 
@@ -12,7 +12,7 @@ Covers index item **91** and maps to nearly every job-description responsibility
 
 **Lab safety contract:** The access fallback is the complete synthetic capstone and requires no customer system. Use read-only first, obtain authorization before any real-world adaptation, run a positive test and negative test of every key conclusion, use bounded failure injection only in synthetic cases, document recovery and rollback assumptions, capture evidence, complete cleanup, control cost and privacy, and use honest interview language.
 
-**Explicit nonclaim:** Arti has not served as a NetApp TAM, delivered a production NetApp quarterly service review, accessed the referenced gated tools for a live account, approved the recommendations below, committed NetApp/customer resources, or produced the fictional outcomes for a real customer.
+**Explicit nonclaim:** You have not served as a NetApp TAM, delivered a production NetApp quarterly service review, accessed the referenced gated tools for a live account, approved the recommendations below, committed NetApp/customer resources, or produced the fictional outcomes for a real customer.
 
 **Privacy/access:** A service review can combine customer identity, topology, serials, telemetry, cases, vulnerabilities, defects, contracts, lifecycle, performance, capacity, protection, budgets, stakeholders, accepted risk, sentiment and commercial context. Use purpose-limited role access, approved repositories/distribution, minimum fields, secure links, redaction/tokenization, retention and authorized account/security/legal review. Never use customer or gated evidence in a portfolio or unapproved AI tool.
 
@@ -22,7 +22,7 @@ Covers index item **91** and maps to nearly every job-description responsibility
 
 This capstone is a learning simulation, not a live account plan, health score, severity model, forecast, value guarantee, internal NetApp template, commercial advice, or production change authorization.
 
-> **No-production-NetApp boundary:** Arti's factual strengths are Microsoft enterprise Support Escalation Engineering, CRITSIT, SharePoint/OneDrive and identity/networking, Product/Engineering collaboration, high CSAT, business/customer reviews, mentoring, Excel/Power BI/SQL/Python/statistics and executive communication. Her exact nonclaim is: **she has not delivered a production NetApp TAM service review or stability plan.** She may present this fully synthetic capstone as evidence of preparation and transferable method.
+> **No-production-NetApp boundary:** Your factual strengths are enterprise Support Escalation Engineering, critical situation, SharePoint/OneDrive and identity/networking, Product/Engineering collaboration, high CSAT, business/customer reviews, mentoring, Excel/Power BI/SQL/Python/statistics and executive communication. Your exact nonclaim is: **you have not delivered a production NetApp TAM service review or stability plan.** You may present this fully synthetic capstone as evidence of preparation and transferable method.
 
 ---
 
@@ -81,7 +81,7 @@ A cockpit dashboard is useful only because pilots connect instruments to decisio
 | Security lead | Advisory/ransomware/access | Security controls/incident authority |
 | App owners | Transactions, RPO/RTO, validation | App downtime and acceptance |
 | Lead TAM (synthetic) | Integrated account governance | Review/coordination, not customer change |
-| Arti role-play | Analysis and deliverables | Evidence quality; no production authority |
+| You role-play | Analysis and deliverables | Evidence quality; no production authority |
 
 ```mermaid
 flowchart TB
@@ -690,15 +690,15 @@ flowchart LR
     PANEL --> READY[All critical dimensions at 4+ with honest boundary]
 ```
 
-## 25. JD Mapping and Arti tie
+## 25. JD Mapping and background tie
 
-| JD responsibility | Capstone evidence | Arti's factual bridge and boundary |
+| JD responsibility | Capstone evidence | Your factual bridge and boundary |
 |---|---|---|
 | Generate/analyze/report customer data | Source register, install-base model, workbook and dashboard schemas | Microsoft analytics/reviews transfer; all NetApp account data here is synthetic |
 | Strategic planning and upgrade advice | Lifecycle/supportability gates, target-planning action and scenario roadmap | Release/change reasoning transfers; no production ONTAP upgrade approval |
 | Maintain accurate install base | Stable-ID/effective-date reconciliation and exception queue | Data-quality experience transfers; no live NetApp install-base ownership |
 | Conduct operational reviews | Eight-slide storyboard, timed script, objections and decision log | Microsoft business reviews transfer; no production NetApp review delivery |
-| Mitigate risk and track remediation | Risk register, recommendations, action/effectiveness/residual-risk model | CRITSIT/action tracking transfers; customer change authority remains external |
+| Mitigate risk and track remediation | Risk register, recommendations, action/effectiveness/residual-risk model | critical situation/action tracking transfers; customer change authority remains external |
 | Improve technical recommendations | Evidence-to-claim traceability, confidence, reviewer and rubric | Technical writing/Engineering collaboration transfer; no NetApp support position claimed |
 | Microsoft Office and communication | Excel, Power BI and PowerPoint artifact schemas | Factual tool/communication strengths applied to synthetic data |
 | Coach and contribute to SMEs | Panel defense, reusable templates and teach-back artifacts | Mentoring experience transfers; no NetApp SME or certification claim |

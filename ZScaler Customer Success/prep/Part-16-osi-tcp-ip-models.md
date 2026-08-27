@@ -1,10 +1,10 @@
 # Part 16 - OSI and TCP/IP Models from Zero
 
-> **Audience:** Arti Thakur, moving from Microsoft 365 Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
+> **Audience:** Candidates moving from Microsoft 365 Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
 >
 > **Purpose:** Build a first-principles model of how application data crosses software, operating systems, networks, intermediaries, and remote services, then turn that model into disciplined fault isolation.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Its users, devices, addresses, events, policies, failures, and outcomes are learning artifacts. Arti's Microsoft 365, SharePoint Online, OneDrive for Business, escalation, and network-evidence experience is factual only to the extent supported by her approved background.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Its users, devices, addresses, events, policies, failures, and outcomes are learning artifacts. Your Microsoft 365, SharePoint Online, OneDrive for Business, escalation, and network-evidence experience is factual only to the extent supported by your documented background.
 >
 > **Product caveat:** This Part teaches standards-based networking. It does not claim that every appliance, cloud service, Microsoft 365 component, security control, or Zscaler product implements a particular internal design. Product-specific forwarding, inspection, fields, policy, licensing, and support procedures require current official documentation and tenant evidence.
 
@@ -14,7 +14,7 @@ A network model is a thinking aid. It divides a complicated communication into s
 
 Think of sending a business document through an international courier. The author creates meaning, the office chooses a representation, the conversation establishes expectations, the courier service tracks an end-to-end shipment, regional depots route it, local drivers move it on one road, and the physical vehicle carries it. A failed delivery can originate at any responsibility. Calling every failure "the network" is like blaming the road when the recipient address was wrong or access to the building was denied.
 
-By the end of Part 16, Arti should be able to:
+By the end of Part 16, you should be able to:
 
 | Outcome | What mastery looks like | Evidence of mastery |
 |---|---|---|
@@ -24,27 +24,27 @@ By the end of Part 16, Arti should be able to:
 | Localize faults | Convert symptoms into layer hypotheses and discriminating checks | Build a short fault tree instead of running random commands |
 | Interpret evidence | Relate browser, process, socket, route, name, packet, and service evidence | Produce a timestamped evidence table with limitations |
 | Protect customers | Minimize, authorize, redact, retain, and transfer captures safely | Explain why packet capture can expose sensitive content and metadata |
-| Bridge prior experience | Reframe OneDrive and SharePoint troubleshooting as cross-layer reasoning | Give an honest Microsoft production example without claiming Zscaler production work |
+| Bridge prior experience | Reframe OneDrive and SharePoint troubleshooting as cross-layer reasoning | Give an honest prior production example without claiming Zscaler production work |
 
 ## JD Mapping
 
 The SecOps Technical Success Manager job description expects analysis of complex customer environments, tailored mitigation, critical-escalation coordination, technical consulting, and clear explanations. Layer models support those responsibilities, but a model alone does not prove a diagnosis.
 
-| JD expectation | Layer-model behavior | Useful artifact | Honest Arti bridge |
+| JD expectation | Layer-model behavior | Useful artifact | Honest experience bridge |
 |---|---|---|---|
 | Analyze complex environments | Decompose a user-to-service path into testable responsibilities | Layered path map with owners and evidence | OneDrive, SharePoint, browser, sync, and networking investigations |
 | Identify security risk | Mark trust, inspection, routing, identity, and data boundaries | Data-flow and trust-boundary diagram | Transferable reasoning, not production Zscaler administration |
-| Resolve critical escalations | Scope impact, form hypotheses, collect synchronized evidence, and assign owners | Fault tree, timeline, capture plan, action register | CRITSIT and Engineering-escalation discipline |
-| Deliver consulting | Explain why a symptom can cross layers and what test separates causes | Whiteboard and decision tree | Technical Advisor, mentoring, and training experience |
+| Resolve critical escalations | Scope impact, form hypotheses, collect synchronized evidence, and assign owners | Fault tree, timeline, capture plan, action register | critical situation and Engineering-escalation discipline |
+| Deliver consulting | Explain why a symptom can cross layers and what test separates causes | Whiteboard and decision tree | Technical advisor, mentoring, and training experience |
 | Tailor mitigation | Select a correction at the controlling layer and validate end-to-end | Change plan, rollback, and positive/negative tests | Fix validation and customer communication |
 | Work across teams | Use boundaries to route questions without throwing work over a wall | RACI and boundary evidence | Customer, network, identity, service, and Engineering coordination |
 | Communicate to leaders | Translate packet detail into service impact, confidence, owner, and next action | One-page incident update | Executive-safe escalation updates |
 
 ## Candidate honesty note
 
-Arti can say that her production Microsoft support work required layered reasoning. A OneDrive sync symptom might involve the local process, file state, user identity, name resolution, proxy selection, connection establishment, encrypted transport, HTTP response, service throttling, permissions, or Microsoft service health. She can discuss evidence tools listed in her background, including Wireshark, Netsh, Network Monitor, Procmon, HAR, Fiddler, and browser developer tools, when she can defend the actual use and result.
+You can say that your production enterprise support work required layered reasoning. A OneDrive sync symptom might involve the local process, file state, user identity, name resolution, proxy selection, connection establishment, encrypted transport, HTTP response, service throttling, permissions, or Microsoft service health. You can discuss evidence tools listed in your background, including Wireshark, Netsh, Network Monitor, Procmon, HAR, Fiddler, and browser developer tools, when you can defend the actual use and result.
 
-She should not say that using an OSI model proves cybersecurity operations experience, that she diagnosed a Zscaler tenant without having done so, or that a packet trace alone establishes a product defect. The accurate bridge is: "I have used cross-layer isolation in Microsoft 365 production support. I am extending that tested method into security architecture and product-specific evidence, which I will validate against current documentation and the customer's environment."
+You should not say that using an OSI model proves cybersecurity operations experience, that you diagnosed a Zscaler tenant without having done so, or that a packet trace alone establishes a product defect. The accurate bridge is: "I have used cross-layer isolation in Microsoft 365 production support. I am extending that tested method into security architecture and product-specific evidence, which I will validate against current documentation and the customer's environment."
 
 | Evidence label | Safe statement | Unsafe expansion |
 |---|---|---|
@@ -283,7 +283,7 @@ flowchart TD
 
 | Identifier | Example | Scope | Can change during journey? | Do not confuse with |
 |---|---|---|---|---|
-| User or workload identity | `arti@example.invalid` | Identity system and application policy | Tokens and context can change | IP address |
+| User or workload identity | `user@example.invalid` | Identity system and application policy | Tokens and context can change | IP address |
 | URI host name | `tenant.sharepoint.example` | Application naming | Redirects can select another host | Physical server |
 | IP address | `192.0.2.40` or `2001:db8::40` | Routing domain | NAT, load balancing, mobility, and service design can change observed values | Permanent device identity |
 | Transport port | TCP destination 443 | Host transport demultiplexing | Source ephemeral port usually changes per connection | Application authorization |
@@ -433,7 +433,7 @@ The investigation first scopes whether the symptom follows the user, device, bra
 
 ### NMH bridge cadence
 
-Arti's transferable escalation rhythm is useful here: state impact, scope, evidence clock, workstreams, owners, next discriminating checks, and update time. She should ask the network workstream for route and loss evidence, the endpoint workstream for client path and logs, the identity workstream for authentication decisions, and the service workstream for request correlation. She should not assign blame by layer name.
+Your transferable escalation rhythm is useful here: state impact, scope, evidence clock, workstreams, owners, next discriminating checks, and update time. You should ask the network workstream for route and loss evidence, the endpoint workstream for client path and logs, the identity workstream for authentication decisions, and the service workstream for request correlation. You should not assign blame by layer name.
 
 ## Layer interactions that matter
 
@@ -859,7 +859,7 @@ The following authoritative sources were reviewed for this Part on **2026-08-24*
 
 **Model answer:** I name the last verified good boundary and first verified failure with timestamps and artifacts. I assign actions to owners of concrete components, not abstract layers, while one coordinator retains end-to-end customer ownership. Every hypothesis has a check that could disprove it. Updates separate observation, interpretation, uncertainty, and next action, so collaboration follows evidence instead of assumptions.
 
-### Q8. How does your Microsoft background transfer to a SecOps TSM role?
+### Q8. How does your prior background transfer to a SecOps TSM role?
 
 **Model answer:** My production bridge is the method: I have scoped business-critical Microsoft 365 symptoms, separated client, identity, network, service, permissions, and data boundaries, gathered trace and application evidence, coordinated customers and Engineering, communicated under pressure, and validated fixes. I do not present that as Zscaler production experience. I would apply the same evidence-led method while learning the customer's security architecture and validating product-specific behavior against current official documentation and tenant telemetry.
 
@@ -907,7 +907,7 @@ The following authoritative sources were reviewed for this Part on **2026-08-24*
 - [ ] I can apply authorization, minimization, secure storage, redaction, retention, and controlled transfer to network evidence.
 - [ ] I can communicate observation, interpretation, alternatives, confidence, owner, and next action separately.
 - [ ] I can correct common layer misconceptions without becoming argumentative.
-- [ ] I can connect Arti's factual OneDrive, SharePoint, networking, escalation, and evidence background to this method.
+- [ ] I can connect your factual OneDrive, SharePoint, networking, escalation, and evidence background to this method.
 - [ ] I can say explicitly that this Part makes no unsupported Zscaler or NMH production claim.
 - [ ] I can answer Q1-Q8 aloud in concise, evidence-based language.
 

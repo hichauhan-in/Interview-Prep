@@ -348,7 +348,7 @@ flowchart TD
 
 ## 10. Candidate Honesty Note
 
-- **Claim safety:** *Learned architecture and lab experience*, with genuine adjacent background — Entra ID and Active Directory work at Microsoft is the IdP side of this.
+- **Claim safety:** *Learned architecture and lab experience*, with genuine adjacent background — Entra ID and Active Directory work is the IdP side of this.
 - **The strongest thing you can say:** *"When you connect an external identity provider, your tenant is both an OpenID Provider to your application and a Relying Party to the external IdP. There are two chained flows, and the first thing I establish is which hop failed — before the external login page, at it, or on return — because the symptoms look similar and the owners are different."*
 - **A second point, on the operational difference:** *"A social connection failure is one user; an enterprise connection failure is potentially every user at a customer, involves a second organisation, and usually cannot be reproduced without them. Severity and communication cadence should reflect that — proactive updates on a stated schedule prevent escalation better than a faster technical answer."*
 - **A third, and it changes what a good response is:** *"Most enterprise federation causes sit on the customer's side — certificate expiry, an attribute not released, a conditional access policy, a user not assigned. So my deliverable is often an evidence pack rather than a fix: timestamp with timezone, the exact error, what we sent, what we received decoded with the signature stripped, the specific missing value named, and one or two things for them to check."*

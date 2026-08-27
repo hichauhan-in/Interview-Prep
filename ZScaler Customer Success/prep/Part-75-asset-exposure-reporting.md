@@ -1,10 +1,10 @@
 # Part 75 - Asset Exposure Dashboards, Reports, and Customer Reviews
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 >
 > **Purpose:** Teach asset-exposure measurement and customer-review practice from first principles. Cover inventory coverage and confidence, unknown assets, source coverage, duplicate and ownership quality, lifecycle, control gaps, critical and internet-reachable cohorts, trends, aging, service-level measurement, remediation and validation, data health, technical and executive views, metric contracts and denominators, drill-down, narrative, action registers, review agendas, decisions, follow-up, troubleshooting, labs, and value evidence.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every NMH asset, source, owner, service, lifecycle state, control, dashboard, metric, threshold, denominator, filter, trend, SLA/SLO, target, ticket, action, review, timeline, incident, decision, and outcome in this Part is synthetic. Zscaler public pages support bounded statements that Asset Exposure Management (AEM), described in Cyber Asset Attack Surface Management (CAASM) terms, provides unified asset context, reports/dashboards, coverage-gap and CMDB-health use cases, and workflows; and that Data Fabric for Security supports integration, correlation, business logic, workflows, and dynamic reporting. Public pages do not disclose proprietary dashboard schemas, default KPIs, formulas, thresholds, denominators, query semantics, freshness windows, review cadences, service levels, connector behavior, or guaranteed outcomes. Detailed designs below are general educational patterns, not undocumented Zscaler implementation claims. Arti's Microsoft customer reporting, incident communication, backlog analysis, Power BI, Excel, SQL, statistics, service reviews, escalation, and validation skills transfer. Direct production AEM dashboard ownership remains a learning boundary.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every NMH asset, source, owner, service, lifecycle state, control, dashboard, metric, threshold, denominator, filter, trend, SLA/SLO, target, ticket, action, review, timeline, incident, decision, and outcome in this Part is synthetic. Zscaler public pages support bounded statements that Asset Exposure Management (AEM), described in Cyber Asset Attack Surface Management (CAASM) terms, provides unified asset context, reports/dashboards, coverage-gap and CMDB-health use cases, and workflows; and that Data Fabric for Security supports integration, correlation, business logic, workflows, and dynamic reporting. Public pages do not disclose proprietary dashboard schemas, default KPIs, formulas, thresholds, denominators, query semantics, freshness windows, review cadences, service levels, connector behavior, or guaranteed outcomes. Detailed designs below are general educational patterns, not undocumented Zscaler implementation claims. Your prior customer reporting, incident communication, backlog analysis, Power BI, Excel, SQL, statistics, service reviews, escalation, and validation skills transfer. Direct production AEM dashboard ownership remains a learning boundary.
 >
 > **Currency caveat:** Products, connectors, sources, asset populations, policies, organizations, dashboards, metrics, definitions, obligations, and support processes change. The controlled research/source date for this Part is exactly **2026-08-24**. Current official documentation, licensed tenant behavior, approved customer metric dictionary, authoritative source evidence, service-management contracts, security/privacy/legal requirements, product specialists, Support guidance, and validated drill-down results govern production.
 
@@ -14,7 +14,7 @@ A dashboard is a decision interface, not a wall of numbers. It should help a def
 
 Think of an airport operations board. "97 percent on time" is meaningless until one knows which flights count, what "on time" means, when the data was captured, which cancellations were excluded, whether feeds are healthy, and which delayed flights need action. Executives need the service impact and decisions. Dispatchers need the exact flights, causes, owners, and next steps. Both views must reconcile to the same governed facts.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Evidence artifact |
 |---|---|---|
@@ -52,13 +52,13 @@ flowchart LR
 
 ## JD Mapping
 
-| Role expectation | Part 75 capability | TSM artifact | Arti bridge and boundary |
+| Role expectation | Part 75 capability | TSM artifact | experience bridge and boundary |
 |---|---|---|---|
 | Become AEM/Data Fabric expert | Explain public reporting positioning with claim boundaries | AEM reporting whiteboard | Verify current licensed fields/views |
 | Analyze complex environments | Reconcile inventory, source, owner, control, lifecycle, and workflow metrics | Exposure scorecard | Power BI/SQL analysis transfers |
 | Identify risks | Surface critical, public, unknown, unmanaged, and control-gap cohorts | Prioritized cohort review | Metric is decision aid, not risk proof |
 | Recommend mitigation | Turn drill-down evidence into owned actions and validation | Action register | Customer owners approve |
-| Resolve complex issues | Diagnose count/trend/dashboard/detail mismatches | Evidence package | Microsoft escalation method transfers |
+| Resolve complex issues | Diagnose count/trend/dashboard/detail mismatches | Evidence package | enterprise escalation method transfers |
 | Lead strategic engagement | Run technical and executive reviews with decision records | Review pack and minutes | TSM facilitates governance |
 | Communicate proactively | Explain change, cause, impact, uncertainty, and next checkpoint | Narrative template | No unexplained green/red score |
 | Drive adoption/value | Connect use to validated remediation and durable process improvement | Value scorecard | Logins and ticket volume are not value |
@@ -69,7 +69,7 @@ flowchart LR
 
 | Evidence class | Safe interview statement | Boundary to state |
 |---|---|---|
-| Production transfer | "I used customer-impact, backlog, case-quality, telemetry, and trend evidence in Microsoft support operations." | Not production AEM reporting |
+| Production transfer | "I used customer-impact, backlog, case-quality, telemetry, and trend evidence in enterprise support operations." | Not production AEM reporting |
 | Analytics transfer | "I define measures, denominators, time grains, filters, and reconciliation before presenting a trend." | Not proprietary product semantics |
 | Review transfer | "I communicate facts, uncertainty, ownership, decisions, and next checkpoints during escalations and service discussions." | Not customer risk authority |
 | Quality transfer | "I test source freshness, duplicate rows, joins, control totals, and dashboard/detail agreement." | Not undocumented connector behavior |
@@ -1181,13 +1181,13 @@ Build a redacted summary/detail mismatch case with IDs, UTC times, versions, con
 
 Test color independence, labels, keyboard/table alternative, role access, export minimization, and action separation. **Pass:** accessibility and least privilege are acceptance criteria.
 
-### Lab 20 - Arti interview teach-back
+### Lab 20 - your interview teach-back
 
 Answer Q1 through Q8 aloud and connect one Microsoft reporting/RCA example to this method. **Pass:** explicitly distinguish production transfer, synthetic practice, learned product positioning, and unknown behavior.
 
-## Arti bridge: support analytics to exposure reviews
+## Experience bridge: support analytics to exposure reviews
 
-Arti's Microsoft work already requires careful metric and review behavior. Case volume without severity or age is weak. Closure without customer validation is weak. A service-health graph without scope and timestamps can mislead. Power BI and SQL require grain, joins, filters, measures, and source reconciliation. High-impact escalations require concise status, owners, blockers, decisions, and next checkpoints.
+Your prior work already requires careful metric and review behavior. Case volume without severity or age is weak. Closure without customer validation is weak. A service-health graph without scope and timestamps can mislead. Power BI and SQL require grain, joins, filters, measures, and source reconciliation. High-impact escalations require concise status, owners, blockers, decisions, and next checkpoints.
 
 | Existing strength | Exposure-reporting transfer | Learning boundary | Honest interview sentence |
 |---|---|---|---|
@@ -1195,9 +1195,9 @@ Arti's Microsoft work already requires careful metric and review behavior. Case 
 | CSAT/case quality | Balanced value and quality measures | Security-outcome causality | "A positive activity metric is not proof of risk reduction." |
 | Power BI/Excel/SQL | Metric contracts, joins, cohorts, drill-down | AEM reporting implementation | "I reconcile grain and denominator before presenting." |
 | Service incidents | Data-health banners and event-driven reviews | Product health telemetry | "A missing feed becomes unknown, not green." |
-| CRITSIT communication | Headline, impact, uncertainty, owner, next step | CISO risk authority | "I keep decisions explicit and avoid invented certainty." |
+| Critical-situation communication | Headline, impact, uncertainty, owner, next step | CISO risk authority | "I keep decisions explicit and avoid invented certainty." |
 | Engineering escalation | Summary/detail/source evidence package | Zscaler internal diagnostics | "I reduce disagreement to one reproducible record and rule." |
-| Technical Advisor work | Reviews, stakeholder alignment, action follow-up | Formal TSM account cadence | "I turn evidence into owned follow-through." |
+| Technical advisor work | Reviews, stakeholder alignment, action follow-up | Formal TSM account cadence | "I turn evidence into owned follow-through." |
 | Training/mentoring | Role-based dashboard literacy and labs | Customer enablement plans | "I teach decisions, not button tours." |
 
 An interview-ready bridge is: "I have used analytics and customer-impact reporting to manage support quality, backlog, escalations, and service communication. My rule is that a metric must be reproducible and actionable: define the population and clock, expose data health, reconcile detail, explain movement, assign ownership, and validate the outcome. I applied that discipline in a synthetic AEM-style customer review. I would verify the actual Zscaler dashboard fields and workflows in current documentation and the customer's licensed tenant."
@@ -1287,7 +1287,7 @@ Zscaler pages support bounded AEM/Data Fabric positioning for unified asset cont
 
 ### Q8. How does your background transfer, and what is the honest boundary?
 
-**Model answer:** My Microsoft support work included backlog and case-quality analytics, Power BI/Excel/SQL, service-impact communication, high-severity reviews, engineering escalation, ownership, and validation. Those skills transfer to metric contracts, cohort analysis, drill-down, narrative, and action follow-through. I built a synthetic NMH exposure-review lab; I do not claim production AEM reporting and would validate actual dashboards and semantics in current official documentation and the licensed tenant.
+**Model answer:** My prior support work included backlog and case-quality analytics, Power BI/Excel/SQL, service-impact communication, high-severity reviews, engineering escalation, ownership, and validation. Those skills transfer to metric contracts, cohort analysis, drill-down, narrative, and action follow-through. I built a synthetic NMH exposure-review lab; I do not claim production AEM reporting and would validate actual dashboards and semantics in current official documentation and the licensed tenant.
 
 ## 30-Second Memory Hooks
 
@@ -1318,7 +1318,7 @@ Zscaler pages support bounded AEM/Data Fabric positioning for unified asset cont
 | Action register | Stable owner, due logic, proof, checkpoint |
 | Customer review | Decisions and follow-through, not slide recital |
 | Validation | Working runway light, not closed ticket |
-| Arti bridge | Support analytics rigor transfers; AEM admin does not |
+| Experience bridge | Support analytics rigor transfers; AEM admin does not |
 
 ## Completion Checklist
 
@@ -1385,11 +1385,11 @@ Zscaler pages support bounded AEM/Data Fabric positioning for unified asset cont
 - [ ] I apply least privilege, export security, audit, minimization, action separation, accessibility, and responsible AI controls.
 - [ ] I measure adoption through task capability and validated workflow outcomes, not login or ticket volume alone.
 - [ ] I can complete all twenty labs and retain reproducible synthetic artifacts.
-- [ ] I connect Arti's backlog, quality, Power BI, SQL, service communication, escalation, review, and training strengths honestly.
+- [ ] I connect your backlog, quality, Power BI, SQL, service communication, escalation, review, and training strengths honestly.
 - [ ] I distinguish production transfer, synthetic practice, public product positioning, and unknown product behavior.
 - [ ] I use official Zscaler, NIST, and CISA sources with explicit boundaries.
 - [ ] I use the controlled research/source date exactly as 2026-08-24.
 - [ ] I make no unsupported Zscaler dashboard, KPI, formula, denominator, threshold, connector, workflow, SLA, compliance, production, or outcome claim.
-- [ ] I can answer Q1 through Q8 with definitions, analogies, mechanics, examples, tradeoffs, failures, troubleshooting, labs, NMH evidence, official-source caveats, and an honest Arti bridge.
+- [ ] I can answer Q1 through Q8 with definitions, analogies, mechanics, examples, tradeoffs, failures, troubleshooting, labs, NMH evidence, official-source caveats, and an honest experience bridge.
 
 [Part 76 - Asset Exposure Implementation, Troubleshooting, and Adoption Scenarios](Part-76-asset-exposure-implementation-scenarios.md)

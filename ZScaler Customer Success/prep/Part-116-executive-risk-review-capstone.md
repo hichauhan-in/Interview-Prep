@@ -48,16 +48,16 @@ flowchart LR
 
 ## Candidate honesty note
 
-Arti can say: "I built a local synthetic executive-risk capstone for fictional NMH. I reconciled supplied security-data and vulnerability fixtures, created an evidence-linked risk register, designed a quality-aware dashboard, wrote a seven-slide executive narrative, proposed a ninety-day mitigation roadmap, and defined decision and outcome contracts. The work demonstrates my analytical and communication method. It did not use a Zscaler tenant, reproduce Data Fabric, UVM, or Risk360, deliver a customer QBR, quantify real financial exposure, or prove production risk reduction."
+You can say: "I built a local synthetic executive-risk capstone for fictional NMH. I reconciled supplied security-data and vulnerability fixtures, created an evidence-linked risk register, designed a quality-aware dashboard, wrote a seven-slide executive narrative, proposed a ninety-day mitigation roadmap, and defined decision and outcome contracts. The work demonstrates my analytical and communication method. It did not use a Zscaler tenant, reproduce Data Fabric, UVM, or Risk360, deliver a customer QBR, quantify real financial exposure, or prove production risk reduction."
 
-Her factual Microsoft escalation experience supports evidence discipline, impact framing, executive updates, cross-team ownership, root-cause analysis, and validation. Her SQL, PostgreSQL, Excel, Power BI, statistics, and MBA Business Analytics background supports model review, denominator control, dashboard design, and analytical challenge. Her mentoring and partner-training work supports audience-aware explanation. Those transfer points remain factual. Production exposure-management program ownership, Zscaler administration, and NMH outcomes remain explicitly unclaimed.
+Your factual enterprise escalation experience supports evidence discipline, impact framing, executive updates, cross-team ownership, root-cause analysis, and validation. Your SQL, PostgreSQL, Excel, Power BI, statistics, and a postgraduate business-analytics qualification background supports model review, denominator control, dashboard design, and analytical challenge. Your mentoring and partner-training work supports audience-aware explanation. Those transfer points remain factual. Production exposure-management program ownership, Zscaler administration, and NMH outcomes remain explicitly unclaimed.
 
 | Supported candidate fact | Transfer to this capstone | Safe interview wording | Unsupported wording to avoid |
 |---|---|---|---|
-| Microsoft enterprise support and escalation engineering | Evidence timelines, hypotheses, ownership, high-pressure communication | "I applied my factual escalation discipline to a separate synthetic risk review." | "I led NMH's security program." |
+| enterprise support and escalation engineering | Evidence timelines, hypotheses, ownership, high-pressure communication | "I applied my factual escalation discipline to a separate synthetic risk review." | "I led NMH's security program." |
 | Microsoft 365, OneDrive, and SharePoint expertise | Understand layered SaaS, identity, endpoint, network, permissions, and service dependencies | "I used familiar dependency thinking to interpret the fictional scenario." | "I assessed NMH's Microsoft tenant." |
 | SQL, PostgreSQL, Excel, Power BI, Python, R, statistics | Reconciliation, metric contracts, segmentation, visual review | "I designed an inspectable synthetic dashboard and checked its denominators." | "I implemented Risk360 analytics." |
-| CRITSIT, RCA, Engineering collaboration, fix validation | Escalation-to-risk feedback and durable validation | "I translated a supplied fictional incident into prevention actions." | "I resolved a Zscaler product defect." |
+| Critical situation, RCA, Engineering collaboration, fix validation | Escalation-to-risk feedback and durable validation | "I translated a supplied fictional incident into prevention actions." | "I resolved a Zscaler product defect." |
 | Mentoring, onboarding, partner training, knowledge articles | Executive and operator explanation, rehearsal, teach-back | "I built and rehearsed audience-specific material." | "I delivered this deck to a CISO." |
 | CSAT and service-quality analysis | Customer concern, service health, action quality | "My factual customer-focus record informs the review design." | "The capstone improved renewal probability." |
 | Copilot Studio and AI learning/training | Responsible assistance, validation, governance questions | "I can discuss AI-assisted preparation with human verification." | "An agent autonomously approved mitigations." |
@@ -170,7 +170,7 @@ Executives need compression because they cannot inspect every row. Compression i
 
 The capstone therefore puts **decision usefulness** ahead of decoration. A red tile is not useful by itself. It must say what population is included, why it is red, whether the change reflects risk, data, or scope, and which action is needed. A green tile can be dangerous when it comes from missing sources. Quality indicators sit beside outcome indicators because absence of data can look like improvement.
 
-For Arti, this is a direct bridge from Power BI and service-quality analysis. The design skill is factual; the security scenario is synthetic. She can explain how she would protect denominators, define measures, reconcile data, and challenge a trend without claiming she operated a Zscaler dashboard.
+For you, this is a direct bridge from Power BI and service-quality analysis. The design skill is factual; the security scenario is synthetic. You can explain how you would protect denominators, define measures, reconcile data, and challenge a trend without claiming you operated a Zscaler dashboard.
 
 ## Technical review pack
 
@@ -778,7 +778,7 @@ flowchart TD
 
 ### Scenario 1 - The vanishing backlog
 
-The dashboard shows a sharp fall in high-priority findings. The candidate checks freshness and learns the scanner-style source did not load. She changes the executive headline from "risk improved" to "priority view incomplete because a source is stale," blocks comparison, and assigns source recovery. No risk reduction is claimed.
+The dashboard shows a sharp fall in high-priority findings. The candidate checks freshness and learns the scanner-style source did not load. You change the executive headline from "risk improved" to "priority view incomplete because a source is stale," blocks comparison, and assigns source recovery. No risk reduction is claimed.
 
 ### Scenario 2 - The demanded ROI number
 
@@ -840,9 +840,9 @@ These sources support bounded public product positioning and vendor-neutral gove
 
 **Model answer:** I clarify the contested proposition and stakes, separate fact from interpretation, inspect source quality and controls, state uncertainty, and invite the authorized owner's context. I compare options and tradeoffs and identify a discriminating validation. I correct the record visibly when evidence changes. The goal is a better decision and trust, not defending a slide or score.
 
-### Q7. How would you use Arti's background in this work?
+### Q7. How would you use your background in this work?
 
-**Model answer:** Her factual Microsoft escalation experience supports impact framing, evidence timelines, executive updates, ownership, Engineering partnership, RCA, and validation. SQL, PostgreSQL, Power BI, statistics, and MBA analytics support reconciliation, metrics, and dashboards. Mentoring supports audience-specific enablement. I would state those strengths directly while saying Zscaler product operation, exposure-program ownership, and this NMH capstone are learning or synthetic evidence.
+**Model answer:** Your factual enterprise escalation experience supports impact framing, evidence timelines, executive updates, ownership, Engineering partnership, RCA, and validation. SQL, PostgreSQL, Power BI, statistics, and MBA analytics support reconciliation, metrics, and dashboards. Mentoring supports audience-specific enablement. I would state those strengths directly while saying Zscaler product operation, exposure-program ownership, and this NMH capstone are learning or synthetic evidence.
 
 ### Q8. What decisions should a TSM own versus facilitate?
 
@@ -867,7 +867,7 @@ These sources support bounded public product positioning and vendor-neutral gove
 | Value | Baseline, denominator, guardrail, accepted evidence |
 | Product fact | Current official source, bounded claim |
 | NMH | Always fictional and synthetic |
-| Arti bridge | Escalation plus analytics plus enablement, honestly |
+| Experience bridge | Escalation plus analytics plus enablement, honestly |
 
 ## Completion Checklist
 
@@ -890,6 +890,6 @@ These sources support bounded public product positioning and vendor-neutral gove
 - [ ] I ran stale-source, orphan-resolution, validation-loss, funding-refusal, and dependency-failure changed cases.
 - [ ] I completed a contrarian review and recorded at least one correction or open limitation.
 - [ ] I performed exact-path cleanup and reviewed metadata, exports, and links.
-- [ ] I can discuss factual Arti strengths without claiming Zscaler production experience, real executive delivery, or customer outcomes.
+- [ ] I can discuss factual your strengths without claiming Zscaler production experience, real executive delivery, or customer outcomes.
 
 [Next: Part 117 - Complete SecOps TSM Account Capstone](Part-117-complete-secops-tsm-capstone.md)

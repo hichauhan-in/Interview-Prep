@@ -1,6 +1,6 @@
 # Part 34 - Storage Efficiency: Thin Provisioning, Deduplication, Compression, Compaction, and FabricPool
 
-> **Section goal:** Learn how ONTAP represents more logical data with less local physical capacity and how FabricPool can move eligible cold blocks between a local performance tier and an object capacity tier. By the end, Arti should be able to reconcile guarantees, reserves, thin provisioning, autosize/autodelete, deduplication, compression, compaction, logical/physical/effective reports, tiering policies, cooling/scans/recalls, cloud/object dependencies and costs, then write a safe customer recommendation without double-counting savings or hiding performance/protection risk.
+> **Section goal:** Learn how ONTAP represents more logical data with less local physical capacity and how FabricPool can move eligible cold blocks between a local performance tier and an object capacity tier. By the end, you should be able to reconcile guarantees, reserves, thin provisioning, autosize/autodelete, deduplication, compression, compaction, logical/physical/effective reports, tiering policies, cooling/scans/recalls, cloud/object dependencies and costs, then write a safe customer recommendation without double-counting savings or hiding performance/protection risk.
 
 Covers index item **34** and maps directly to job-description responsibilities for capacity/performance analytics, storage depth, strategic planning, customer-specific risk mitigation, supportability, service reviews, preventative recommendations, and executive communication.
 
@@ -8,7 +8,7 @@ Covers index item **34** and maps directly to job-description responsibilities f
 
 Exact ONTAP efficiency defaults, eligibility, inline/background ordering, data-reduction algorithms, compaction, reporting fields, guarantees/reserves, autosize/autodelete, FabricPool platforms/object stores, tiering policies, cooling periods, scans, inactive-data reporting, recalls, cloud/provider costs, snapshot/protection behavior, commands, licenses, limits, and support vary by ONTAP release, platform, volume type, workload, object provider and configuration. Verify current official documentation, **Interoperability Matrix Tool (IMT)** where ecosystem support applies, **Hardware Universe (HWU)** for exact platform/capacity facts, cloud/object-provider documentation, application guidance, and authorized evidence. No hard threshold, ratio or supported combination is asserted without a verify-current label.
 
-> **No-production-NetApp boundary:** Arti does not claim production NetApp or ONTAP efficiency/FabricPool experience. Every volume, ratio, tier, object store, cost, customer and result below is synthetic. Her factual strengths are Microsoft enterprise support, Azure/cloud/networking, SharePoint/OneDrive data services, analytics, Excel/Power BI/SQL/Python, CRITSIT ownership and customer communication. The explicit non-claim is: **she has not enabled or tuned production ONTAP deduplication/compression/compaction, changed guarantees/reserves/autosize/autodelete, attached an object capacity tier, selected a FabricPool tiering policy/cooling period, run a tiering scan, or operated recalls in production.**
+> **No-production-NetApp boundary:** You do not claim production NetApp or ONTAP efficiency/FabricPool experience. Every volume, ratio, tier, object store, cost, customer and result below is synthetic. Your factual strengths are enterprise support, Azure/cloud/networking, SharePoint/OneDrive data services, analytics, Excel/Power BI/SQL/Python, critical-situation ownership and customer communication. The explicit non-claim is: **you have not enabled or tuned production ONTAP deduplication/compression/compaction, changed guarantees/reserves/autosize/autodelete, attached an object capacity tier, selected a FabricPool tiering policy/cooling period, run a tiering scan, or operated recalls in production.**
 
 ---
 
@@ -835,12 +835,12 @@ flowchart TD
 
 ### JD Mapping
 
-| JD responsibility | Part 34 contribution | Arti's factual bridge and gap |
+| JD responsibility | Part 34 contribution | Your factual bridge and gap |
 |---|---|---|
 | Analyze/report data | Reconciles capacity/ratios/tiering/cost and prevents double-counting | Strong analytics transfer; ONTAP tools unproven |
 | Strategic planning | Connects headroom, lead time, tiering, provider cost and recovery | MBA/cloud/advisory transfer |
 | Storage depth | Covers thin/dedupe/compression/compaction/FabricPool | Conceptual/synthetic only |
-| Risk/stability | Finds overcommit, automation, recall, object/path and recovery risks | CRITSIT method transfers |
+| Risk/stability | Finds overcommit, automation, recall, object/path and recovery risks | critical-situation method transfers |
 | Supportability | Requires exact ONTAP/platform/object/provider evidence | No gated/customer result claimed |
 | Recommendations | Compares measured options with owners/tests/residual risk | Advisory/business-review strength |
 | Escalation | Supplies capacity/workload/object-path/protection evidence | Product/Engineering discipline transfers |
@@ -849,7 +849,7 @@ flowchart TD
 
 ## 19. Fully synthetic scenario: Contoso Imaging efficiency and recall storm
 
-> **Synthetic case:** Contoso Imaging, every ratio, tier, cost, event and result below is fictional. It is not a NetApp customer, benchmark, internal workflow, provider bill, tool result, or Arti's production work.
+> **Synthetic case:** Contoso Imaging, every ratio, tier, cost, event and result below is fictional. It is not a NetApp customer, benchmark, internal workflow, provider bill, tool result, or your production work.
 
 ### Environment
 
@@ -960,14 +960,14 @@ flowchart TD
 
 ---
 
-## 20. Arti's factual transfer and honest positioning
+## 20. Your factual transfer and honest positioning
 
 ```mermaid
 flowchart LR
     BI[Excel Power BI SQL Python MBA analytics] --> MODEL[Capacity ratios forecasts scenarios and cost]
     AZ[Azure/cloud/networking] --> CLOUD[Object endpoints IAM DNS TLS egress shared responsibility]
     SPO[SharePoint/OneDrive] --> DATA[Data growth retention versions and customer impact]
-    CRIT[CRITSIT/Product escalation] --> SAFE[Evidence hypotheses risk owners and communication]
+    CRIT[Critical situation/Product escalation] --> SAFE[Evidence hypotheses risk owners and communication]
     MODEL --> EFF[ONTAP efficiency synthetic method]
     CLOUD --> EFF
     DATA --> EFF
@@ -980,11 +980,11 @@ flowchart LR
 | Analytics/MBA | Unit QA, ratios, double-counting, forecasts, decisions | No ONTAP efficiency tool production use |
 | Azure/cloud | DNS/TLS/object/IAM/cost/shared responsibility | No FabricPool capacity-tier deployment |
 | M365 data services | Retention/versions/data growth/user outcome | Not ONTAP Snapshot/tiering administration |
-| CRITSIT/Product | Safe evidence and cross-owner escalation | No NetApp internal procedure/access claim |
+| Critical situation/Product | Safe evidence and cross-owner escalation | No NetApp internal procedure/access claim |
 
 ### Honest answer
 
-> "I understand ONTAP efficiency as layered accounting across thin provisioning, guarantees/reserves, autosize/autodelete, dedupe, compression, compaction and FabricPool. I can reconcile local and total footprint, model cooling/tiering/recall/network/object/cost and protection risks, and avoid double-counting. My production experience is Microsoft support, Azure/cloud and analytics, not ONTAP efficiency or FabricPool operation. I would use current docs, authorized evidence, IMT/HWU/provider sources and NetApp specialists before changes."
+> "I understand ONTAP efficiency as layered accounting across thin provisioning, guarantees/reserves, autosize/autodelete, dedupe, compression, compaction and FabricPool. I can reconcile local and total footprint, model cooling/tiering/recall/network/object/cost and protection risks, and avoid double-counting. My production experience is enterprise support, Azure/cloud and analytics, not ONTAP efficiency or FabricPool operation. I would use current docs, authorized evidence, IMT/HWU/provider sources and NetApp specialists before changes."
 
 ---
 
@@ -1137,7 +1137,7 @@ flowchart LR
 
 ### Q8. How does your background transfer, and what remains a gap?
 
-> **Model answer:** "My analytics/MBA, Azure/cloud/networking, M365 data and CRITSIT experience gives me capacity reconciliation, ratio/forecast, object-path/cost, retention and customer-risk discipline. I understand ONTAP efficiency/FabricPool architecture but have not configured these features in production. I would use current docs, authorized evidence, IMT/HWU/provider sources and NetApp/application/network/protection specialists before changes."
+> **Model answer:** "My analytics/MBA, Azure/cloud/networking, M365 data and critical-situation experience gives me capacity reconciliation, ratio/forecast, object-path/cost, retention and customer-risk discipline. I understand ONTAP efficiency/FabricPool architecture but have not configured these features in production. I would use current docs, authorized evidence, IMT/HWU/provider sources and NetApp/application/network/protection specialists before changes."
 
 ---
 
@@ -1160,7 +1160,7 @@ flowchart LR
 - **Local ratio:** Can improve when bytes move remote; total footprint tells another story.
 - **Cloud cost:** Stored bytes + operations + retrieval + egress + service/operations.
 - **Tiering is not backup:** Recovery still needs copies, dependencies and tests.
-- **Arti's bridge:** Analytics/cloud rigor transfers; ONTAP efficiency operation does not.
+- **Your bridge:** Analytics/cloud rigor transfers; ONTAP efficiency operation does not.
 
 ---
 

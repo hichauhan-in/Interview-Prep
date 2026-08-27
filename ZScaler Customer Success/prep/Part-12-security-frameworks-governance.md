@@ -1,10 +1,10 @@
 # Part 12 - Security Governance: NIST CSF, CIS Controls, ISO 27001, and Policies
 
-> **Audience:** Arti Thakur, moving from Microsoft 365 Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
+> **Audience:** Candidates moving from Microsoft 365 Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
 >
 > **Currency date:** 2026-08-24.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, and every NMH policy, framework mapping, control, audit, exception, maturity rating, metric, decision, and result are fictional. Arti's established production bridge is Microsoft support, OneDrive, SharePoint, networking, troubleshooting, analytics, mentoring, escalation, and approved AI work. Direct production ownership of an enterprise cybersecurity governance, risk, compliance, audit, ISO/IEC 27001 certification, Zscaler, Security Operations, vulnerability, or exposure-management program is not established.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, and every NMH policy, framework mapping, control, audit, exception, maturity rating, metric, decision, and result are fictional. Your established production bridge is enterprise support, OneDrive, SharePoint, networking, troubleshooting, analytics, mentoring, escalation, and approved AI work. Direct production ownership of an enterprise cybersecurity governance, risk, compliance, audit, ISO/IEC 27001 certification, Zscaler, Security Operations, vulnerability, or exposure-management program is not established.
 >
 > **Standards caveat:** This chapter summarizes public overviews and concepts. It does not reproduce copyrighted standards, provide legal advice, certify conformity, or replace licensed standards, qualified auditors, regulators, contracts, customer policy, or current implementation guidance. NIST Cybersecurity Framework 2.0, abbreviated CSF 2.0, is voluntary outcome guidance. CIS currently publishes the version 8 family and advertises CIS Controls v8.1. ISO/IEC 27001:2022 is the published third edition, with Amendment 1:2024 listed by ISO. Verify current editions and applicability.
 >
@@ -16,7 +16,7 @@ Security governance is the system by which an organization directs, oversees, an
 
 Imagine a city transport system. The city council sets outcomes and acceptable tradeoffs. Transportation leaders define policy and budgets. Engineers establish construction standards. Operators follow procedures. Inspectors test whether roads and trains meet requirements. Incident reports reveal weaknesses. Exceptions such as a temporary bridge restriction have an owner, expiry, and compensating safeguards. Security governance works similarly: it turns broad intent into accountable, testable practice.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Learning outcome | What mastery looks like |
 |---|---|
@@ -34,7 +34,7 @@ By the end, Arti should be able to:
 | Understand audit | Distinguish monitoring, assessment, internal audit, external audit, and certification |
 | Crosswalk frameworks | Map outcomes by intent and scope while preserving differences and uncertainty |
 | Act as a TSM | Support evidence, adoption, remediation, and product understanding without claiming auditor authority |
-| Practice honestly | Design fictional NMH governance and use Arti's factual support-quality bridge |
+| Practice honestly | Design fictional NMH governance and use your factual support-quality bridge |
 
 ```mermaid
 flowchart LR
@@ -55,26 +55,26 @@ Governance is not a binder on a shelf. The loop must influence actual identity l
 
 The target Technical Success Manager, abbreviated **TSM**, needs governance fluency because strategic customers ask how a solution supports policy, risk, evidence, ownership, maturity, and executive outcomes. A TSM can translate documented capabilities into customer questions and success measures. The TSM does not decide legal obligations, certify conformity, act as independent auditor, or accept customer risk.
 
-| JD expectation | Governance capability | Honest Arti bridge | Boundary to preserve |
+| JD expectation | Governance capability | Honest experience bridge | Boundary to preserve |
 |---|---|---|---|
-| Lead strategic engagements | Align technical roadmap to approved outcomes, owners, and governance cadence | Technical Advisor and customer leadership experience | Customer governance bodies retain accountability |
+| Lead strategic engagements | Align technical roadmap to approved outcomes, owners, and governance cadence | Technical advisor and customer leadership experience | Customer governance bodies retain accountability |
 | Identify security risks | Connect observed conditions to control objectives and risk owners | Production evidence gathering and escalation | Do not invent formal risk conclusions |
 | Deliver mitigation strategies | Define action, owner, due date, evidence, test, and residual uncertainty | Fix recommendation and validation discipline | Authorized customer approver selects treatment |
 | Advocate best practices | Explain framework intent and current product documentation | Training and knowledge-authoring strength | Best practice is not a universal mandate |
-| Resolve critical escalations | Use severity, decision rights, communication, evidence, and post-incident actions | CRITSIT coordination | Formal incident command or legal authority is not claimed |
+| Resolve critical escalations | Use severity, decision rights, communication, evidence, and post-incident actions | critical-situation coordination | Formal incident command or legal authority is not claimed |
 | Explain metrics | Use denominators, trends, evidence quality, and outcome measures | SQL, Power BI, Business Analytics | A green metric does not prove control effectiveness |
 | Partner with Sales, Support, and Product | Clarify customer requirement, product behavior, gap, owner, and escalation | Cross-functional Engineering and customer work | Commercial or roadmap statement requires authorized source |
 | Develop Zscaler expertise | Map documented capabilities to customer control objectives | Official-source learning | Product use and audit assurance are not established |
 
 ## Candidate honesty note
 
-Arti has strong factual examples of operational governance behaviors even though formal cybersecurity-governance ownership is not established. She has worked within support policies and escalation paths, reviewed case quality and backlog trends, authored knowledge, trained peers, mentored engineers, coordinated product defects, validated fixes, and maintained customer communication during high-pressure incidents. Those activities demonstrate evidence, accountability, process improvement, and stakeholder discipline.
+You have strong factual examples of operational governance behaviors even though formal cybersecurity-governance ownership is not established. You have worked within support policies and escalation paths, reviewed case quality and backlog trends, authored knowledge, trained peers, mentored engineers, coordinated product defects, validated fixes, and maintained customer communication during high-pressure incidents. Those activities demonstrate evidence, accountability, process improvement, and stakeholder discipline.
 
-She should describe the bridge precisely: "I have operated and improved support-quality processes in production. I am learning cybersecurity frameworks and have built a fictional governance design to practice mapping outcomes, controls, evidence, exceptions, and owners. I have not served as an ISO/IEC 27001 auditor, CISO, enterprise risk owner, or Zscaler administrator."
+You should describe the bridge precisely: "I have operated and improved support-quality processes in production. I am learning cybersecurity frameworks and have built a fictional governance design to practice mapping outcomes, controls, evidence, exceptions, and owners. I have not served as an ISO/IEC 27001 auditor, CISO, enterprise risk owner, or Zscaler administrator."
 
 | Claim class | Established or allowed | Example wording | Guardrail |
 |---|---|---|---|
-| Production | Microsoft support operations, escalation, analytics, mentoring, training, and approved AI work | "I used case-quality and backlog evidence to identify service improvements." | Do not rename support governance as a formal security program |
+| Production | enterprise support operations, escalation, analytics, mentoring, training, and approved AI work | "I used case-quality and backlog evidence to identify service improvements." | Do not rename support governance as a formal security program |
 | Lab | Synthetic NMH policy, crosswalk, metric, and review exercise | "I created a fictional NMH Current and Target Profile." | Keep all outcomes fictional |
 | Conceptual | NIST, CIS, ISO public concepts understood from sources | "I can explain how these approaches differ and interact." | Do not claim certification expertise |
 | Not-yet-used | Zscaler product operation, audit, vulnerability, SecOps, exposure programs | "These are ramp areas I would validate with specialists." | Never imply production ownership |
@@ -828,9 +828,9 @@ flowchart TD
 
 ## OneDrive and SharePoint governance bridge
 
-Arti can use familiar Microsoft 365 examples to explain governance without claiming audit authority.
+You can use familiar Microsoft 365 examples to explain governance without claiming audit authority.
 
-| Governance question | OneDrive or SharePoint example | Arti's factual bridge |
+| Governance question | OneDrive or SharePoint example | Your factual bridge |
 |---|---|---|
 | Policy | Who may share which content externally? | Understand permissions and sharing behavior |
 | Standard | Which identity, site, link, expiry, and review requirements apply? | Troubleshoot effective configuration and access |
@@ -939,7 +939,7 @@ NMH reports 99 percent access-review completion, yet a former supplier retains a
 
 A team says enabling a Zscaler feature satisfies NIST and ISO. Ask which exact customer outcome and control objective are intended, how the feature is configured, which traffic and identities are covered, who operates it, what evidence and negative tests exist, which responsibilities remain with the customer, and which assessor will evaluate the claim.
 
-### Drill 6 - Arti bridge
+### Drill 6 - experience bridge
 
 Use a factual case-quality or backlog-analysis example. Explain the objective, data source, quality criteria, observed trend, stakeholder decision, action, validation, and result. Then connect the method to security-governance metrics while stating that formal security control ownership and audit remain new areas.
 
@@ -1063,7 +1063,7 @@ I am extending that method into cybersecurity through NIST, CIS, ISO public conc
 | Risk owner | Authorized treatment decision |
 | Auditor | Independent assurance under scope |
 | TSM | Map, enable, evidence, coordinate; do not certify |
-| Arti bridge | Support-quality governance, honestly extended |
+| Experience bridge | Support-quality governance, honestly extended |
 
 ## Completion Checklist
 

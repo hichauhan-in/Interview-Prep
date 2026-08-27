@@ -38,7 +38,7 @@ After completing this Part, you should be able to:
 | Partner with CSM/Product/Engineering | Captures exact IDs, samples, policy, metrics, and business need | Escalation packet |
 | Apply enterprise support strengths | Reuses scoping, hypothesis testing, change control, and validation | Production-transfer method |
 
-Your Microsoft support background helps because these cases often begin as "the service blocked good mail" or "too much junk is arriving." The fastest path is not defending a product verdict. It is translating the complaint into observed versus expected behavior, identifying the controlling policy and message stream, testing alternatives, and validating a low-risk change. The honesty boundary is that transferable support method is not production ownership of Microsoft Defender for Office 365, deliverability operations, sender reputation, or Abnormal AI.
+Your prior support background helps because these cases often begin as "the service blocked good mail" or "too much junk is arriving." The fastest path is not defending a product verdict. It is translating the complaint into observed versus expected behavior, identifying the controlling policy and message stream, testing alternatives, and validating a low-risk change. The honesty boundary is that transferable support method is not production ownership of Microsoft Defender for Office 365, deliverability operations, sender reputation, or Abnormal AI.
 
 ## Candidate honesty note
 

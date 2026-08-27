@@ -1,10 +1,10 @@
 # Part 25 - Evidence Collection with Wireshark, Netsh, Network Monitor, and Packet Traces
 
-> **Audience:** Arti Thakur, moving from Microsoft 365 Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
+> **Audience:** Candidates moving from Microsoft 365 Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
 >
 > **Purpose:** Teach lawful capture planning, interfaces, ring buffers, snap length, capture/display filters, Wireshark conversations and streams, DNS/TCP/TLS/HTTP analysis, retransmissions, resets, zero windows, MTU, Windows Netsh/ETL concepts, legacy Network Monitor context, time correlation, encryption limits, sanitization, evidence integrity, OneDrive-style labs, and escalation packages.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Its users, devices, addresses, traces, packets, applications, policies, incidents, logs, failures, and outcomes are synthetic. Arti's Microsoft 365, OneDrive for Business, SharePoint Online, networking, evidence, and escalation experience must remain within her approved factual background.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Its users, devices, addresses, traces, packets, applications, policies, incidents, logs, failures, and outcomes are synthetic. Your own product, networking, evidence, and escalation experience must remain within your documented background.
 >
 > **Product caveat:** This Part teaches packet and Windows evidence methods. Exact Windows providers, ETL schemas, Netsh scenarios, NDIS behavior, Wireshark fields, capture drivers, Microsoft 365 endpoints, and Zscaler telemetry change by OS build, tool version, application, forwarding method, service, and tenant. Verify current official documentation and direct evidence. No packet pattern alone proves a production Microsoft, Zscaler, carrier, firewall, or application defect.
 
@@ -14,7 +14,7 @@ A packet trace is a time-ordered observation of bytes crossing a particular capt
 
 Think of a road camera. It records vehicles visible at one junction. It can show that a car entered, waited, retransmitted a radio call, or received a stop signal. It cannot automatically show the driver's application screen, the traffic-control policy at another junction, or what happened inside a sealed truck. A second camera at another boundary can distinguish loss between points. A trace is strongest when paired with endpoint process logs, proxy/firewall decisions, service request IDs, configuration, and a known-good comparison.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Evidence of mastery |
 |---|---|---|
@@ -35,11 +35,11 @@ By the end, Arti should be able to:
 
 ## JD Mapping
 
-| JD expectation | Part 25 capability | Artifact | Honest Arti bridge |
+| JD expectation | Part 25 capability | Artifact | Honest experience bridge |
 |---|---|---|---|
 | Analyze complex environments | Locate DNS, transport, TLS, proxy, application, and service boundaries | Multi-point packet timeline | Extends M365 connectivity investigations |
 | Identify security risk | Detect insecure capture scope, secret exposure, unauthorized decryption, and weak evidence handling | Privacy/security capture review | Learned SecOps evidence governance |
-| Resolve critical escalations | Collect bounded traces and separate simultaneous workstreams by last confirmed boundary | Escalation evidence package | Builds on CRITSIT coordination |
+| Resolve critical escalations | Collect bounded traces and separate simultaneous workstreams by last confirmed boundary | Escalation evidence package | Builds on critical-situation coordination |
 | Tailor mitigation | Use discriminating packet evidence for MTU, timeout, route, policy, or application correction | Test/change/rollback plan | Builds on fix validation |
 | Deliver consulting | Explain packet evidence from zero and coach teams on collection | Workshop and runbook | Uses mentoring/advisor strengths |
 | Partner cross-functionally | Coordinate endpoint, network, proxy, identity, app, security, privacy, and provider owners | Evidence RACI | Maps to customer/Engineering collaboration |
@@ -47,7 +47,7 @@ By the end, Arti should be able to:
 
 ## Candidate honesty note
 
-Arti can truthfully discuss Wireshark, Netsh, Network Monitor, M365 connectivity evidence, browser/client comparison, timeline building, escalation, and root-cause validation where supported by her actual experience. She can explain what a trace does and does not prove, how she would minimize data, and how she correlates packet evidence with client/service records.
+You can truthfully discuss Wireshark, Netsh, Network Monitor, M365 connectivity evidence, browser/client comparison, timeline building, escalation, and root-cause validation where supported by your actual experience. You can explain what a trace does and does not prove, how you would minimize data, and how you correlate packet evidence with client/service records.
 
 Carrier attribution from retransmissions alone, visibility into encrypted content without authorized decryption, observation beyond a local capture point, and production use of proprietary Zscaler logs are not established experience. A safe bridge is: "I have production experience using network and client evidence in Microsoft 365 escalations. I understand packet and Windows trace mechanics and limitations. In a Zscaler environment I would verify the forwarding method, capture point, tenant logs, policy IDs, and official support guidance before attributing a failure."
 
@@ -928,14 +928,14 @@ Example packet timeline:
 
 An exact escalation question might be: "At 14:03:22.400 UTC the client completed TLS to the explicit proxy and sent encrypted application data under client stream 7. The proxy log maps request ID R to upstream TCP success and TLS success, then records no response headers before its 30-second deadline. The origin service has no matching request ID. Please provide upstream load-balancer/backend receipt and dependency timing for R, or confirm whether the proxy request ID changes at the edge. Raw captures remain in the approved vault; the attached derivative excludes tokens and payload."
 
-## Arti bridge and interview positioning
+## Experience bridge and interview positioning
 
-Arti's advantage is not a collection of filter strings. It is experience connecting user impact to technical evidence, coordinating high-severity work, and validating fixes. Packet traces sharpen that method when used with restraint.
+Your advantage is not a collection of filter strings. It is experience connecting user impact to technical evidence, coordinating high-severity work, and validating fixes. Packet traces sharpen that method when used with restraint.
 
 | Existing strength | Part 25 translation | Practice proof |
 |---|---|---|
 | OneDrive/SharePoint support | Compare browser/sync DNS, TCP, TLS, proxy, service | Sanitized lab timeline |
-| CRITSIT leadership | Define capture points and parallel owner workstreams | NMH bridge plan |
+| Critical-situation leadership | Define capture points and parallel owner workstreams | NMH bridge plan |
 | RCA | Separate trigger, root cause, contributors, detection gap | PMTUD RCA |
 | Fix validation | Test positive transactions and negative controls | Change/rollback evidence |
 | Networking learning | Explain sequence, ACK, windows, retransmission, MTU | Annotated trace workbook |
@@ -1132,7 +1132,7 @@ The following authoritative sources were reviewed on **2026-08-24**. They suppor
 - [ ] I can perform browser-versus-sync, DNS, loss, zero-window, MTU, ETL, sanitization, and known-good labs safely.
 - [ ] I can walk the fictional NMH PMTUD scenario and scoped remediation without vendor blame.
 - [ ] I can build an escalation package with decisive packet/event numbers, IDs, privacy, and exact ask.
-- [ ] I can bridge Arti's M365 production experience without claiming proprietary Zscaler telemetry.
+- [ ] I can bridge your M365 production experience without claiming proprietary Zscaler telemetry.
 - [ ] I can answer Q1-Q8 aloud and complete all eight labs using synthetic or authorized evidence.
 
 [Part 26 - Procmon, Browser Developer Tools, HAR Logs, and Fiddler](Part-26-procmon-har-fiddler.md)

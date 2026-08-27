@@ -100,7 +100,7 @@ flowchart LR
 - **Geography** — *a data-residency boundary* (e.g., "Europe") that groups regions for compliance.
 
 > 🔍 **Plain-English deep-dive — why region choice matters for support data:**
-> Imagine your CE&S ticket data contains customer names from German enterprises. GDPR may require it to live in an EU region. Pick "West Europe," not "East US," or you create a compliance incident. Region selection is a *governance* decision, not just a performance one.
+> Imagine your support ticket data contains customer names from German enterprises. GDPR may require it to live in an EU region. Pick "West Europe," not "East US," or you create a compliance incident. Region selection is a *governance* decision, not just a performance one.
 
 ### 1.4 Separation of compute and storage (the most important modern idea)
 

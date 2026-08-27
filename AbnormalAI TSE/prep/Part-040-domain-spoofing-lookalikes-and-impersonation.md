@@ -51,9 +51,9 @@ By the end of this part, you should be able to:
 
 ## Candidate Honesty Note
 
-Arti can say:
+You can say:
 
-> "My production background is Microsoft enterprise support, where I isolated multi-layer issues, correlated logs and customer evidence, owned critical communication, and escalated with clear asks. I have not operated Abnormal AI or a production brand-protection/takedown program. I learned email authentication, domain parsing, IDN/Unicode, and impersonation investigation from official sources and practiced only with reserved offline strings. In production, authorized mail, security, DNS/domain, identity, vendor, brand/legal, and business owners would make enforcement or takedown decisions."
+> "My production background is enterprise support, where I isolated multi-layer issues, correlated logs and customer evidence, owned critical communication, and escalated with clear asks. I have not operated Abnormal AI or a production brand-protection/takedown program. I learned email authentication, domain parsing, IDN/Unicode, and impersonation investigation from official sources and practiced only with reserved offline strings. In production, authorized mail, security, DNS/domain, identity, vendor, brand/legal, and business owners would make enforcement or takedown decisions."
 
 | Evidence tier | Honest claim | Boundary |
 |---|---|---|

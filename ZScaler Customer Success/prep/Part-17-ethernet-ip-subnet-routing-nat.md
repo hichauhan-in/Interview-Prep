@@ -1,10 +1,10 @@
 # Part 17 - Ethernet, ARP, IP Addressing, Subnetting, Routing, and NAT
 
-> **Audience:** Arti Thakur, moving from Microsoft 365 Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
+> **Audience:** Candidates moving from Microsoft 365 Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
 >
 > **Purpose:** Explain how a host delivers frames locally, addresses and routes packets across networks, translates flows at boundaries, handles packet-size constraints, and proves where a path diverges.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Its devices, addresses, routes, captures, policies, failures, and outcomes are practice material. Arti's Microsoft 365, OneDrive for Business, SharePoint Online, networking, evidence, and escalation experience must be represented only as supported by her approved background.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Its devices, addresses, routes, captures, policies, failures, and outcomes are practice material. Your own product, networking, evidence, and escalation experience must be represented only as supported by your documented background.
 >
 > **Product caveat:** This Part covers standards and general operating-system behavior. It makes no claim about an undocumented Microsoft, carrier, firewall, cloud, or Zscaler implementation. Exact forwarding, tunneling, inspection, route, NAT, telemetry, and product behavior must be confirmed from current official documentation and environment evidence.
 
@@ -14,7 +14,7 @@ Part 16 separated communication into layers. Part 17 opens the link and Internet
 
 Think of a traveler moving through a city and then across countries. A building room number is useful only inside one building; a street address helps the local driver; an international destination guides the wider journey; border controls can rewrite visible paperwork; and every transport segment has a size limit. Ethernet link addresses resemble local delivery labels. IP prefixes and routes resemble regional maps. A default gateway is the local depot that accepts nonlocal traffic. Network Address Translation resembles a border desk that replaces private return details with a public mapping and keeps a time-sensitive ledger.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Evidence of mastery |
 |---|---|---|
@@ -31,25 +31,25 @@ By the end, Arti should be able to:
 
 ## JD Mapping
 
-| JD expectation | Part 17 capability | Customer artifact | Honest Arti bridge |
+| JD expectation | Part 17 capability | Customer artifact | Honest experience bridge |
 |---|---|---|---|
 | Analyze complex environments | Reconstruct local link, gateway, route, translation, and return path | Current-state path map | Microsoft 365 connectivity isolation |
 | Identify security risks | Find broad VLANs, exposed routes, uncontrolled NAT, weak attribution, and missing telemetry | Trust-boundary and exposure notes | Learned security interpretation built on factual networking work |
 | Tailor mitigation | Recommend scoped route, MTU, policy, segmentation, or configuration correction | Change, rollback, and validation plan | Production fix-validation discipline |
-| Resolve critical escalations | Divide link, route, translation, endpoint, and provider workstreams | Timeline, tuple map, capture matrix | CRITSIT-style coordination and evidence gathering |
-| Deliver technical consulting | Explain subnetting and packet journeys at customer depth | Whiteboard and teach-back | Technical Advisor, mentoring, and training experience |
+| Resolve critical escalations | Divide link, route, translation, endpoint, and provider workstreams | Timeline, tuple map, capture matrix | critical-situation-style coordination and evidence gathering |
+| Deliver technical consulting | Explain subnetting and packet journeys at customer depth | Whiteboard and teach-back | Technical advisor, mentoring, and training experience |
 | Work cross-functionally | Give each owner exact interface, prefix, tuple, timestamp, and hypothesis | Shared action register | Customer, networking, service, and Engineering coordination |
 | Communicate risk simply | Translate packet behavior into reachability, attribution, privacy, and resilience impact | Executive-safe summary | Customer-impact communication |
 
 ## Candidate honesty note
 
-Arti can factually discuss how Microsoft 365 symptoms required her to distinguish local configuration, DNS, proxy, route, transport, service, permission, and client behavior; how she used approved network and application evidence; how she coordinated specialists; and how she validated a result. She can explain these standards and complete the labs as learning evidence.
+You can factually discuss how Microsoft 365 symptoms required you to distinguish local configuration, DNS, proxy, route, transport, service, permission, and client behavior; how you used approved network and application evidence; how you coordinated specialists; and how you validated a result. You can explain these standards and complete the labs as learning evidence.
 
-She must not claim that the fictional NMH network is a real customer, that she administered enterprise routers or Zscaler services unless separately documented, or that one traceroute proves a vendor fault. A precise interview bridge is: "I have production experience applying evidence-led connectivity isolation to OneDrive and SharePoint cases. My routing, subnetting, NAT, and packet-analysis depth is a combination of that transferable work and deliberate study or labs. I would verify a customer's actual forwarding and product path before recommending a change."
+You must not claim that the fictional NMH network is a real customer, that you administered enterprise routers or Zscaler services unless separately documented, or that one traceroute proves a vendor fault. A precise interview bridge is: "I have production experience applying evidence-led connectivity isolation to OneDrive and SharePoint cases. My routing, subnetting, NAT, and packet-analysis depth is a combination of that transferable work and deliberate study or labs. I would verify a customer's actual forwarding and product path before recommending a change."
 
 | Evidence category | Safe phrasing | Boundary |
 |---|---|---|
-| Production | "In Microsoft support, I correlated client, path, HTTP, and service evidence." | Do not invent router ownership or security-policy authority |
+| Production | "In enterprise support, I correlated client, path, HTTP, and service evidence." | Do not invent router ownership or security-policy authority |
 | Lab | "I calculated prefixes and annotated pre-NAT and post-NAT packet captures in a lab." | Do not present synthetic addresses as customer evidence |
 | Conceptual | "The route algorithm selects the most specific matching prefix, subject to implementation and policy." | Validate the host's actual route table and policy |
 | Fictional | "In the NMH exercise, one branch had an MTU black-hole pattern." | NMH is not a real engagement |
@@ -684,7 +684,7 @@ The following is a generic teaching flow. Microsoft publishes connectivity princ
 
 ```mermaid
 sequenceDiagram
-    participant A as Arti's example client process
+    participant A as Candidate's example client process
     participant OS as Host network stack
     participant SW as Branch Ethernet/Wi-Fi domain
     participant GW as Branch gateway
@@ -744,7 +744,7 @@ flowchart LR
 
 ### NMH bridge leadership
 
-Arti can organize four workstreams. Endpoint verifies process, interface, address, route, neighbor cache, client time, and reproducibility. Branch networking verifies VLAN, switch port, gateway, and interface counters. Tunnel and edge owners verify effective MTU, encapsulation overhead, ICMP handling, state, translation, and return path. Microsoft support evidence uses sanitized request IDs and timestamps to distinguish service processing from path timeout.
+You can organize four workstreams. Endpoint verifies process, interface, address, route, neighbor cache, client time, and reproducibility. Branch networking verifies VLAN, switch port, gateway, and interface counters. Tunnel and edge owners verify effective MTU, encapsulation overhead, ICMP handling, state, translation, and return path. enterprise support evidence uses sanitized request IDs and timestamps to distinguish service processing from path timeout.
 
 The bridge update should say: "The failure is repeatably size-dependent on the branch tunnel path. The client reaches the gateway and completes small protected exchanges. Larger segments are retransmitted without corresponding acknowledgments in the client capture, and required size feedback is not observed there. This supports, but does not yet prove, a path-MTU or return-path issue. Tunnel and edge owners are validating effective MTU and ICMP handling. No Zscaler or Microsoft defect is asserted."
 
@@ -1097,7 +1097,7 @@ The following sources were reviewed on **2026-08-24**. They support protocol and
 - [ ] I can use Windows and Linux commands with exact time, interface, destination, and limitations.
 - [ ] I can design an authorized, minimized capture and protect route, MAC, IP, and NAT evidence.
 - [ ] I can walk browser-to-OneDrive/SharePoint and fictional NMH packet journeys without asserting internal vendor design.
-- [ ] I can connect Arti's factual Microsoft support method to the TSM role while preserving experience boundaries.
+- [ ] I can connect your factual enterprise support method to the TSM role while preserving experience boundaries.
 - [ ] I can answer Q1-Q8 aloud and complete the eight labs with retained, sanitized evidence.
 
 [Part 18 - TCP, UDP, Ports, Sockets, State, and Reliability](Part-18-tcp-udp-ports-sockets.md)

@@ -1,10 +1,10 @@
 # Part 59 - Data Fabric Source Discovery and Connector Planning
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 >
 > **Purpose:** Build a business-use-case-first method for discovering security and business sources; inventorying tools, owners, authority, entities, fields, and relationships; selecting inbound and outbound integration paths; planning API, file, or webhook options; governing authentication, permissions, and secrets; estimating volume, frequency, history, latency, dependencies, risk, and cost; writing data contracts; assessing readiness; sequencing onboarding; defining acceptance; and assigning RACI ownership.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every organization, source, owner, endpoint, connector, credential, permission, file, webhook, entity, field, relationship, volume, schedule, cost, risk, test, result, and outcome in this Part is synthetic. The official Zscaler pages reviewed for this Part publicly describe 150+ pre-built connectors, inbound and outbound integrations, listed formats, AnySource and AnyTarget concepts, and Data Fabric relationships. They do not establish that every catalog entry supports every direction, method, field, authentication scheme, schedule, tenant, license, limit, or use case. General connector-planning practices and NMH examples are not undocumented Zscaler behavior. Arti's Microsoft 365 discovery, API, JSON, networking, identity, escalation, SQL, analytics, and stakeholder skills transfer; direct production Zscaler Data Fabric connector administration remains a learning boundary.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every organization, source, owner, endpoint, connector, credential, permission, file, webhook, entity, field, relationship, volume, schedule, cost, risk, test, result, and outcome in this Part is synthetic. The official Zscaler pages reviewed for this Part publicly describe 150+ pre-built connectors, inbound and outbound integrations, listed formats, AnySource and AnyTarget concepts, and Data Fabric relationships. They do not establish that every catalog entry supports every direction, method, field, authentication scheme, schedule, tenant, license, limit, or use case. General connector-planning practices and NMH examples are not undocumented Zscaler behavior. Your Microsoft 365 discovery, API, JSON, networking, identity, escalation, SQL, analytics, and stakeholder skills transfer; direct production Zscaler Data Fabric connector administration remains a learning boundary.
 >
 > **Currency caveat:** Connector catalogs, names, categories, directions, APIs, scopes, schemas, limits, licensing, source products, and support policies change. The controlled research/source date for this Part is exactly **2026-08-24**. Current official product and connector-specific documentation, licensed tenant UI, source-vendor contracts, observed API responses, approved customer architecture, security/privacy review, and Zscaler and source specialists govern production.
 
@@ -14,7 +14,7 @@ A connector is useful only when it carries the right data for an agreed decision
 
 Think of planning a bridge between two towns. The catalog may show many bridge designs, but engineers first ask who needs to cross, what they carry, how often, in which direction, under what weather, with what safety rules, and who maintains each side. A technically available bridge can still be wrong for the traffic. Connector planning follows the same sequence.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Evidence artifact |
 |---|---|---|
@@ -54,7 +54,7 @@ flowchart LR
 
 ## JD Mapping
 
-| Role expectation | Part 59 capability | TSM artifact | Arti bridge and boundary |
+| Role expectation | Part 59 capability | TSM artifact | experience bridge and boundary |
 |---|---|---|---|
 | Develop Data Fabric expertise | Explain connector discovery and planning without invented internals | Connector plan | Tenant-specific setup remains unclaimed |
 | Analyze complex environments | Map tools, data, owners, dependencies, and trust | Source landscape | Microsoft environment discovery transfers |
@@ -776,7 +776,7 @@ A customer asks to connect every security tool. What is the first response?
 
 ### Exercise 2 - 150+ connectors
 
-Can Arti promise that a customer's product is supported because the page says 150+?
+Can you promise that a customer's product is supported because the page says 150+?
 
 **Answer:** No. Verify the current catalog entry and connector-specific documentation, source version, tenant, license, direction, objects, fields, authentication, limits, and support. The count is a time-sensitive portfolio statement.
 
@@ -836,9 +836,9 @@ Can the TSM be accountable for customer data authority?
 
 ### Exercise 12 - Value
 
-The pilot reduced analyst preparation time. Can Arti claim risk reduction?
+The pilot reduced analyst preparation time. Can you claim risk reduction?
 
-**Answer:** She can report the observed process improvement under a defined baseline. Risk reduction requires evidence that exposure or controls changed, plus cautious attribution. Keep efficiency, decision quality, and security outcome metrics separate.
+**Answer:** You can report the observed process improvement under a defined baseline. Risk reduction requires evidence that exposure or controls changed, plus cautious attribution. Keep efficiency, decision quality, and security outcome metrics separate.
 
 ## Labs and rehearsal
 
@@ -896,7 +896,7 @@ Build a three-year synthetic total-cost and risk register. Include build, run, c
 
 ### Lab 14 - Discovery role-play
 
-Run a 45-minute customer workshop. Arti facilitates, asks evidence-based questions, summarizes assumptions, identifies blockers, and ends with named decisions, owners, dates, and a bounded next step.
+Run a 45-minute customer workshop. You facilitate, asks evidence-based questions, summarizes assumptions, identifies blockers, and ends with named decisions, owners, dates, and a bounded next step.
 
 ### Lab 15 - Planning escalation
 
@@ -950,7 +950,7 @@ Simulate a catalog listing whose tenant capability or source scope does not matc
 | RACI means the work is staffed | Availability, skills, on-call, and runbooks need evidence |
 | Build cost is total cost | Run, change, incident, privacy, quality, and retirement count |
 | TSM owns all customer integration work | TSM coordinates; customer and product owners retain authority |
-| Arti's API experience proves Zscaler setup experience | Transferable method is strong; direct product operation remains unclaimed |
+| Your API experience proves Zscaler setup experience | Transferable method is strong; direct product operation remains unclaimed |
 
 ## Official Source Anchors
 
@@ -1005,7 +1005,7 @@ Zscaler sources support only the public connector, format, extensibility, and pr
 
 ### Q8. How does your background transfer, and what remains a learning boundary?
 
-**Model answer:** Microsoft escalation engineering taught me environment discovery, identity/permission analysis, API and network troubleshooting, source/owner coordination, evidence collection, impact framing, and acceptance testing. SQL and analytics support profiling and contracts. I built a synthetic NMH connector plan, but I do not claim production Zscaler connector administration or undocumented behavior. I would verify current docs, tenant evidence, source responses, approvals, and specialists.
+**Model answer:** enterprise escalation engineering taught me environment discovery, identity/permission analysis, API and network troubleshooting, source/owner coordination, evidence collection, impact framing, and acceptance testing. SQL and analytics support profiling and contracts. I built a synthetic NMH connector plan, but I do not claim production Zscaler connector administration or undocumented behavior. I would verify current docs, tenant evidence, source responses, approvals, and specialists.
 
 ## 30-Second Memory Hooks
 
@@ -1040,7 +1040,7 @@ Zscaler sources support only the public connector, format, extensibility, and pr
 | Acceptance | Auth success is only the first check |
 | RACI | Does, owns, advises, knows |
 | Cost | Build, run, change, fail, retire |
-| Arti bridge | Discovery and evidence transfer; product setup does not |
+| Experience bridge | Discovery and evidence transfer; product setup does not |
 
 ## Completion Checklist
 
@@ -1096,6 +1096,6 @@ Zscaler sources support only the public connector, format, extensibility, and pr
 - [ ] I can complete all fifteen labs and defend every tradeoff.
 - [ ] I use the controlled research/source date exactly as 2026-08-24.
 - [ ] I make no unsupported connector, source, target, license, schedule, field, limit, production, or outcome claim.
-- [ ] I can answer Q1 through Q8 with definitions, analogies, planning mechanics, examples, tradeoffs, failures, troubleshooting, NMH practice, and an honest Arti bridge.
+- [ ] I can answer Q1 through Q8 with definitions, analogies, planning mechanics, examples, tradeoffs, failures, troubleshooting, NMH practice, and an honest experience bridge.
 
 [Part 60 - Data Fabric Ingestion, Authentication, Scheduling, and Reliability](Part-60-data-fabric-ingestion-reliability.md)

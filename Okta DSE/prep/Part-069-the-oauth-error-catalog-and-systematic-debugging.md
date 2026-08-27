@@ -344,7 +344,7 @@ flowchart TD
 
 ## 10. Candidate Honesty Note
 
-- **Claim safety:** *Learned architecture and lab experience*, with genuinely transferable production skill — systematic evidence-driven troubleshooting is what you already do at Microsoft.
+- **Claim safety:** *Learned architecture and lab experience*, with genuinely transferable production skill — systematic evidence-driven troubleshooting is what you already do.
 - **The strongest thing you can say:** *"My method is eight steps and the first three cost almost nothing. How far did it get — that splits the problem into four. The exact error and `error_description` — which is often the whole answer. And fetch the discovery document for the domain their app actually calls, which needs nothing from them and rules out the configuration layer before they reply."*
 - **A second point, and it is the highest-yield habit:** *"`error_description` is the most valuable string in OAuth and applications routinely discard it, logging 'login failed' while the server explained exactly what happened. When they don't have it, I point them at the browser URL on the failing redirect, because it's in there — that's more useful than telling them their logging is inadequate."*
 - **A third, which turns a dead end into a checklist:** *"`invalid_grant` is six errors wearing one name: code reused, code expired, `redirect_uri` mismatch, PKCE verifier mismatch, refresh token reused, or refresh token revoked. Three context questions separate them — is it intermittent, does it correlate with environment, load, or multiple tabs, and which grant type."*

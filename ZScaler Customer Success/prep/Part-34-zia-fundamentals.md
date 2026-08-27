@@ -1,10 +1,10 @@
 # Part 34 - Zscaler Internet Access (ZIA) Fundamentals
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 >
 > **Purpose:** Explain Zscaler Internet Access from zero: secure internet/SaaS access, forwarding, authentication, proxying, URL filtering, cloud firewall, threat protection, sandbox, malware/phishing/command-and-control controls, TLS inspection, bandwidth/file/data policy, policy order, logs, deployment, health, change, outcomes, boundaries, and troubleshooting.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every NMH user, site, policy, category, file, threat, log, incident, metric, deployment, and outcome is synthetic. Arti has Microsoft 365 networking, proxy, browser, sync, identity, trace, escalation, analytics, mentoring, and training experience, but direct production administration of ZIA or related Zscaler controls is not established.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every NMH user, site, policy, category, file, threat, log, incident, metric, deployment, and outcome is synthetic. You have Microsoft 365 networking, proxy, browser, sync, identity, trace, escalation, analytics, mentoring, and training experience, but direct production administration of ZIA or related Zscaler controls is not established.
 >
 > **Currency caveat:** The source snapshot is **2026-08-24**. ZIA product names, policy families, rule order, actions, URL categories, threat engines, sandbox behavior, file types, firewall features, DLP classifiers, forwarding, authentication, logs, APIs, interfaces, editions, entitlements, regions, previews, and limits change. Confirm current authenticated help, release notes, Zscaler Config, ordering/contract material, tenant evidence, privacy/legal approval, and specialist guidance before production use.
 
@@ -16,7 +16,7 @@ Think of an international shipping inspection center. A parcel first has to arri
 
 The analogy has limits. ZIA handles several web and non-web traffic/control types using product-specific capabilities. Authentication, TLS inspection, cloud firewall, sandbox, Data Loss Prevention, or DLP, and SaaS controls are separate concepts with different coverage. A product page does not prove a feature is licensed or enabled. ZIA reduces risk on covered paths; it does not replace endpoint security, application authorization, identity governance, vulnerability management, backup, incident response, or user education.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Proof artifact |
 |---|---|---|
@@ -39,14 +39,14 @@ By the end, Arti should be able to:
 
 ## JD Mapping
 
-| Role expectation | Part 34 capability | TSM artifact | Arti bridge and boundary |
+| Role expectation | Part 34 capability | TSM artifact | experience bridge and boundary |
 |---|---|---|---|
 | Analyze complex environments | Map traffic, identity, proxy, controls, egress, SaaS, and logs | Current-state/target-state map | M365 proxy/path analysis transfers |
 | Identify security risk | Find bypass, no TLS visibility, overbroad policy, threat/data gaps, and logging drift | Risk register | Product efficacy needs tenant evidence |
 | Tailor mitigation | Choose right-sized forwarding, policy, inspection, exceptions, and compensating controls | Options record | Entitlement and specialist review required |
-| Resolve escalations | Separate path, auth, policy, inspection, destination, and export failures | Hypothesis matrix | CRITSIT and trace discipline transfers |
+| Resolve escalations | Separate path, auth, policy, inspection, destination, and export failures | Hypothesis matrix | critical situation and trace discipline transfers |
 | Advocate best practices | Baseline, pilot rings, negative tests, privacy, rollback, and operations | Adoption plan | Change/validation is a strength |
-| Partner with teams | Coordinate network, endpoint, identity, SOC, data, privacy, app, and Support | RACI | Cross-functional Microsoft work transfers |
+| Partner with teams | Coordinate network, endpoint, identity, SOC, data, privacy, app, and Support | RACI | Cross-functional prior work transfers |
 | Consult/train | Explain controls from beginner to technical audience | Workshop/teach-back | Training strength is directly relevant |
 | Communicate outcomes | Connect policy operation to risk and productivity with caveats | Executive brief | No universal threat/savings promise |
 
@@ -836,9 +836,9 @@ The correction is not "allow OneDrive." It is a classifier/rule-context change r
 
 Never claim "ZIA prevented X breaches" from block counts alone. A blocked request might be a scanner, duplicate retry, test, false positive, or real attack. Report what the evidence supports: transactions blocked, threats detected under defined rules, coverage, confirmed incidents, time saved, or validated control tests.
 
-## Arti's Microsoft-to-Zscaler bridge
+## Your experience bridge to Zscaler
 
-| Microsoft production strength | Part 34 transfer | New ZIA learning | Honest language |
+| prior production strength | Part 34 transfer | New ZIA learning | Honest language |
 |---|---|---|---|
 | OneDrive/SharePoint traffic mapping | User-to-ZIA-to-M365 path and app result | ZIA forwarding/service-edge objects | "The path method transfers; product operation is new." |
 | Proxy/PAC/DNS/TCP/TLS/HTTP | Forwarding, two legs, TLS, status, latency | ZIA logs and effective policy | "I would prove path and rule before attribution." |
@@ -1037,7 +1037,7 @@ All pages were reviewed on **2026-08-24**. Zscaler pages are vendor-authored sou
 | Logs | Correlate path, policy, verdict, app |
 | Pilot | Observe, test, stage, enforce, learn |
 | Outcome | Coverage and validated change, not marketing count |
-| Arti bridge | M365 path discipline transfers; ZIA operation is new |
+| Experience bridge | M365 path discipline transfers; ZIA operation is new |
 
 ## Completion Checklist
 
@@ -1080,7 +1080,7 @@ All pages were reviewed on **2026-08-24**. Zscaler pages are vendor-authored sou
 - [ ] I never present NMH as a real customer or its tests as production outcomes.
 - [ ] I can measure coverage, risk, response, data, experience, operations, and audit outcomes with caveats.
 - [ ] I never equate block counts with confirmed breaches prevented.
-- [ ] I can deliver Arti's 30-second bridge without claiming production ZIA administration.
+- [ ] I can deliver your 30-second bridge without claiming production ZIA administration.
 - [ ] I can run the twelve labs with synthetic data and authorized safe tests only.
 - [ ] I can cite current official Zscaler, IETF, NIST, and MITRE sources.
 - [ ] I state product, license, UI, category, signature, file, protocol, region, limit, and currency caveats.

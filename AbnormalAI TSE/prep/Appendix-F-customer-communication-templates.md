@@ -35,11 +35,11 @@ To use it:
 
 ## Candidate Honesty and Safety Boundary
 
-Arti can truthfully draw on substantiated Microsoft enterprise-support experience in customer/partner communication, CRITSIT updates, escalation, fix validation, knowledge work, training, and stakeholder coordination. These messages are newly created study templates. She must not claim they were used in production, disclose customer or employer information, invent Abnormal AI behavior or commitments, or claim direct production experience with Abnormal AI, email-security operations, Google Workspace, Slack, Okta, Splunk, CrowdStrike, Cortex SOAR, Zendesk, Salesforce, Jira, or Zoom.
+You can truthfully draw on substantiated enterprise-support experience in customer/partner communication, critical-situation updates, escalation, fix validation, knowledge work, training, and stakeholder coordination. These messages are newly created study templates. You must not claim they were used in production, disclose customer or employer information, invent Abnormal AI behavior or commitments, or claim direct production experience with Abnormal AI, email-security operations, Google Workspace, Slack, Okta, Splunk, CrowdStrike, Cortex SOAR, Zendesk, Salesforce, Jira, or Zoom.
 
 Safe interview wording:
 
-> “My production communication foundation is Microsoft enterprise support. This library is a synthetic practice artifact showing how I adapt facts, uncertainty, action, and cadence for different audiences. In a real role I would use the employer's approved voice, channels, severity model, commitments, and disclosure process.”
+> “My production communication foundation is enterprise support. This library is a synthetic practice artifact showing how I adapt facts, uncertainty, action, and cadence for different audiences. In a real role I would use the employer's approved voice, channels, severity model, commitments, and disclosure process.”
 
 Safety boundaries:
 
@@ -705,7 +705,7 @@ All sources below were accessed on **August 24, 2026**. They inform clarity, acc
 
 | Official or primary source | Use in this appendix | Boundary |
 |---|---|---|
-| [Microsoft Writing Style Guide](https://learn.microsoft.com/en-us/style-guide/welcome/) | Warm, crisp, clear, helpful technical writing | Public style guidance is not a private support script or proof of Arti's exact prior wording |
+| [Microsoft Writing Style Guide](https://learn.microsoft.com/en-us/style-guide/welcome/) | Warm, crisp, clear, helpful technical writing | Public style guidance is not a private support script or proof of your exact prior wording |
 | [Microsoft Writing Style Guide - Global communications](https://learn.microsoft.com/en-us/style-guide/global-communications/) | Clear language and localization-aware communication | Does not replace translation, legal, cultural, accessibility, or regional review |
 | [Microsoft Writing Style Guide - Bias-free communication](https://learn.microsoft.com/en-us/style-guide/bias-free-communication) | Inclusive and respectful language | Not an employment, conduct, accommodation, or legal policy |
 | [W3C Web Content Accessibility Guidelines 2.2](https://www.w3.org/TR/WCAG22/) | Perceivable, operable, understandable, and robust web-content principles | Does not alone define live-support accommodations or a private implementation |

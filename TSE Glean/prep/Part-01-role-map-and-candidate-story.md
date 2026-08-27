@@ -1,6 +1,6 @@
-# Part 1 - Role Map, Interview Strategy, and Your Microsoft-to-Glean Story
+# Part 1 - Role Map, Interview Strategy, and Your Experience Bridge to Glean
 
-> **Section goal:** Understand what this role is really hiring for, identify the evidence you already have, and build a truthful story that makes your Microsoft experience feel directly relevant to Glean.
+> **Section goal:** Understand what this role is really hiring for, identify the evidence you already have, and build a truthful story that makes your prior experience feel directly relevant to Glean.
 >
 > **Covers index item:** Part 1. **Maps to JD responsibilities:** customer ownership, proactive and reactive support, communication, technical curiosity, problem solving, detail orientation, data-driven improvement, and cross-functional collaboration.
 
@@ -74,8 +74,8 @@ mindmap
 
 | Hiring outcome | What the interviewer needs to believe | Evidence available from your CV |
 |---|---|---|
-| **1. Own the customer outcome** | You do not drop an issue when another team becomes involved | End-to-end enterprise escalations and CRITSITs; coordination with Customer IT, partners, engineering, product groups, and vendors |
-| **2. Troubleshoot with depth** | You can reduce ambiguity and isolate root cause | Advanced ODSP and sync-client investigations; SME accreditation; roadblock calls, triages, defect escalation, and fix validation |
+| **1. Own the customer outcome** | You do not drop an issue when another team becomes involved | End-to-end enterprise escalations and critical situations; coordination with Customer IT, partners, engineering, product groups, and vendors |
+| **2. Troubleshoot with depth** | You can reduce ambiguity and isolate root cause | advanced sync-client investigations; SME accreditation; roadblock calls, triages, defect escalation, and fix validation |
 | **3. Communicate under pressure** | Customers and internal teams receive clear, credible updates | Customer communication, proactive technical syncs, business reviews, technical advising, and leadership presentations |
 | **4. Improve the system** | You convert case learning into reusable improvements | KB articles, troubleshooting guides, training, automation projects, recurring-issue analysis, and product feedback |
 | **5. Learn across technologies** | You can close gaps quickly without pretending expertise | Progression from intern to escalation engineer; Azure, AI, data, Power Platform, Copilot Studio, MBA, mentoring, and certifications |
@@ -99,23 +99,23 @@ A claim without evidence sounds like a keyword. A claim with context, action, ev
 
 ---
 
-## 3. Your Microsoft-to-Glean Translation Map
+## 3. Your Experience Bridge to Glean
 
 Do not make the interviewer translate your background. State the connection explicitly.
 
-| Your Microsoft experience | Glean-relevant capability | Interview translation |
+| Your prior experience | Glean-relevant capability | Interview translation |
 |---|---|---|
 | SharePoint Online, OneDrive, Delve, and M365 administration | Enterprise content and knowledge systems | "My strongest product background is in enterprise content, collaboration, discovery, permissions, and sync scenarios." |
-| ODSP Sync Client SME | Deep technical ownership | "I became the escalation point for complex sync investigations and helped other engineers structure their diagnosis." |
-| Enterprise escalations and CRITSITs | High-urgency customer issue ownership | "I am used to balancing restoration, evidence collection, stakeholder updates, and engineering coordination during critical incidents." |
+| sync-client subject-matter expert | Deep technical ownership | "I became the escalation point for complex sync investigations and helped other engineers structure their diagnosis." |
+| Enterprise escalations and critical situations | High-urgency customer issue ownership | "I am used to balancing restoration, evidence collection, stakeholder updates, and engineering coordination during critical incidents." |
 | Customer IT, partner, engineering, product, and vendor coordination | Cross-functional resolution | "I keep one resolution plan across teams, with explicit owners, next actions, risks, and verification criteria." |
 | Defect escalation and fix validation | Customer-to-product feedback loop | "I translate customer impact into engineering evidence, validate the fix, and close the loop with the customer." |
 | KB articles, troubleshooting guides, case bashes, and training | Support scale and knowledge management | "I convert investigation learning into reusable guidance so the next case is faster and more consistent." |
 | CSAT, backlog health, case quality, and escalation trends | Data-driven support management | "I use customer and operational metrics to find risks, assess outcomes, and propose follow-up actions." |
-| Copilot Studio agents, AI training, AI-102, AI-900 | Enterprise AI foundation | "I already understand customer adoption and support questions around enterprise AI, and I am deepening the retrieval and search side for Glean." |
+| Copilot Studio agents, AI training, AI certifications | Enterprise AI foundation | "I already understand customer adoption and support questions around enterprise AI, and I am deepening the retrieval and search side for Glean." |
 | Azure, Active Directory, networking, virtual machines | Cloud and identity foundation | "Azure is my strongest cloud foundation; I use cloud-neutral categories to map the same concepts to AWS and GCP." |
 | Power Automate and Power Apps projects | Process improvement and automation | "I look for repeatable work that can be standardized or automated rather than treating every case as unique." |
-| Mentoring, onboarding, interviewing, and Technical Advisor training | Influence without authority | "I can guide people who do not report to me and improve investigation quality across a support organization." |
+| Mentoring, onboarding, interviewing, and technical advisor training | Influence without authority | "I can guide people who do not report to me and improve investigation quality across a support organization." |
 
 ### A useful sentence pattern
 
@@ -184,7 +184,7 @@ The exact interview process must be confirmed with the recruiter. Based on this 
 | Product/search discussion | Search, connectors, indexing, permissions, AI | Parts 2-4 and 16; map to SharePoint/OneDrive/Copilot |
 | Troubleshooting scenario | Ambiguous customer problem with incomplete evidence | Use the structured flow in Part 5 and integrated cases in Part 24 |
 | Customer communication exercise | First response, status update, expectation management | Parts 17-20; separate facts, hypotheses, actions, owners, and update time |
-| Behavioral or values | Curiosity, fearlessness, detail, collaboration, learning | STAR stories grounded in Microsoft experience; Part 27 |
+| Behavioral or values | Curiosity, fearlessness, detail, collaboration, learning | STAR stories grounded in prior experience; Part 27 |
 
 ### What strong technical interviewing sounds like
 
@@ -222,7 +222,7 @@ flowchart LR
 
 ### Ready-to-practice version
 
-> "I am a Support Escalation Engineer at Microsoft with more than five years of progressive experience in enterprise technical support. My core technical background is in SharePoint Online, OneDrive for Business, the sync client, Microsoft 365 administration, and Copilot. I own complex and business-critical escalations, coordinate customer IT, partners, engineering, and product teams, and drive cases from investigation through fix validation and customer closure. I also work with CSAT, backlog health, case quality, and escalation trends; my CV reflects sustained CSAT above 4.75 for Enterprise and 4.85 for SMB support. Alongside case ownership, I mentor engineers, create troubleshooting guidance, and support AI adoption through Copilot Studio agents and training. Glean interests me because this role combines the areas where I am strongest - enterprise content, customer ownership, deep troubleshooting, and AI - while letting me grow further in search, SaaS integrations, APIs, and identity."
+> "I am a senior support escalation engineer with several years of progressive experience in enterprise technical support. My core technical background is in SharePoint Online, OneDrive for Business, the sync client, Microsoft 365 administration, and Copilot. I own complex and business-critical escalations, coordinate customer IT, partners, engineering, and product teams, and drive cases from investigation through fix validation and customer closure. I also work with CSAT, backlog health, case quality, and escalation trends; my CV reflects a strong customer-satisfaction record. Alongside case ownership, I mentor engineers, create troubleshooting guidance, and support AI adoption through Copilot Studio agents and training. Glean interests me because this role combines the areas where I am strongest - enterprise content, customer ownership, deep troubleshooting, and AI - while letting me grow further in search, SaaS integrations, APIs, and identity."
 
 ### Short 30-second version
 
@@ -283,17 +283,17 @@ Use only facts you can defend. Fill in the missing case-specific details before 
 
 | Competency | CV-backed story source | Details you must add from memory |
 |---|---|---|
-| Critical incident ownership | Business-critical ODSP or Copilot escalation | Customer impact, timeline, your first decision, evidence, mitigation, final validation |
+| Critical incident ownership | Business-critical your core product area or Copilot escalation | Customer impact, timeline, your first decision, evidence, mitigation, final validation |
 | Difficult customer communication | Enterprise case requiring multiple teams | Why trust was at risk, update cadence, expectation reset, customer response |
 | Root-cause isolation | Complex sync-client investigation as SME | Competing hypotheses, discriminating evidence, actual cause, prevention |
 | Product improvement | Recurring issue escalated to engineering/product | Reproduction evidence, business impact, defect path, fix validation |
 | Data-driven improvement | CSAT/backlog/case-quality business review | Trend identified, recommendation, action owner, before/after result |
 | Documentation at scale | KB article or troubleshooting guide | Repeated pain point, audience, structure, adoption, effect on case handling |
 | Automation | Power Automate or Power Apps Evolve project | Manual problem, design, users, measured time/quality gain, award context |
-| Learning and curiosity | Progression to ODSP SME, AI program, or Technical Advisor | Learning method, obstacle, demonstration of new skill, business use |
+| Learning and curiosity | Progression to product subject-matter expert, AI program, or technical advisor | Learning method, obstacle, demonstration of new skill, business use |
 | Mentoring and influence | Onboarding, triage, case bash, technical interview | Person/team need, coaching approach, feedback, measurable readiness |
 | AI adoption | Copilot Studio agent or organization-wide training | User problem, design choice, evaluation, risks, adoption or feedback |
-| Leadership without authority | Aspire Leadership Council or global events | Stakeholders, disagreement/constraint, your influence, outcome |
+| Leadership without authority | a leadership-development council or global events | Stakeholders, disagreement/constraint, your influence, outcome |
 | Mistake or failed approach | Select a genuine low-risk example | Initial assumption, signal it was wrong, correction, learning, prevention |
 
 > **Important:** Do not invent the missing details. Interviewers often ask several follow-up questions, and a real story becomes stronger under examination while a fabricated story becomes weaker.
@@ -398,11 +398,11 @@ A score of **8 or higher out of 10** is a good Part 1 target.
 
 ### Q1. "Tell me about yourself."
 
-> **Model answer:** "I am a Support Escalation Engineer at Microsoft with more than five years of progressive enterprise support experience. I specialize in SharePoint Online, OneDrive, sync, Microsoft 365 administration, and Copilot. I own complex escalations, coordinate customers and internal engineering teams, validate fixes, and use CSAT and operational trends to improve support outcomes. I also mentor engineers, create troubleshooting guidance, and support AI adoption. I am now looking to bring that combination of enterprise content, technical troubleshooting, and customer ownership into Glean while deepening my expertise in search and SaaS integrations."
+> **Model answer:** "I am a senior support escalation engineer with several years of progressive enterprise support experience. I specialize in SharePoint Online, OneDrive, sync, Microsoft 365 administration, and Copilot. I own complex escalations, coordinate customers and internal engineering teams, validate fixes, and use CSAT and operational trends to improve support outcomes. I also mentor engineers, create troubleshooting guidance, and support AI adoption. I am now looking to bring that combination of enterprise content, technical troubleshooting, and customer ownership into Glean while deepening my expertise in search and SaaS integrations."
 
 ### Q2. "Why are you interested in Glean and this role?"
 
-> **Model answer:** "The role combines four areas I want in my next step: deep troubleshooting, designated-customer ownership, enterprise knowledge systems, and AI. My Microsoft experience gives me a strong base in content platforms, permissions, sync, critical incidents, and Copilot. Glean lets me apply that experience while growing further in enterprise search, connectors, APIs, and identity, and while owning both reactive resolution and proactive customer improvement."
+> **Model answer:** "The role combines four areas I want in my next step: deep troubleshooting, designated-customer ownership, enterprise knowledge systems, and AI. My prior experience gives me a strong base in content platforms, permissions, sync, critical incidents, and Copilot. Glean lets me apply that experience while growing further in enterprise search, connectors, APIs, and identity, and while owning both reactive resolution and proactive customer improvement."
 
 ### Q3. "You have not supported Glean before. Why should we hire you?"
 
@@ -418,7 +418,7 @@ A score of **8 or higher out of 10** is a good Part 1 target.
 
 ### Q6. "How are you data-driven in support?"
 
-> **Model answer:** "I use both customer and operational signals. In my current work that includes CSAT, backlog health, case quality, and escalation trends. I look for patterns rather than isolated numbers, connect them to customer impact, and propose a follow-up action with an owner and success measure. My CV reflects sustained CSAT above 4.75 for Enterprise and 4.85 for SMB support, but I would also explain the behaviors and review process behind those outcomes."
+> **Model answer:** "I use both customer and operational signals. In my current work that includes CSAT, backlog health, case quality, and escalation trends. I look for patterns rather than isolated numbers, connect them to customer impact, and propose a follow-up action with an owner and success measure. My CV reflects a strong customer-satisfaction record, but I would also explain the behaviors and review process behind those outcomes."
 
 ### Q7. "What technical areas do you still need to develop for this role?"
 
@@ -426,7 +426,7 @@ A score of **8 or higher out of 10** is a good Part 1 target.
 
 ### Q8. "Tell me about a time you learned a complex area quickly."
 
-> **Model-answer structure:** Use a real progression such as developing ODSP Sync Client SME depth, completing the Technical Advisor program, or moving into Copilot Studio agents. Explain the initial gap, learning plan, hands-on application, feedback loop, proof of competence, and how you then enabled others. The key result is not course completion; it is demonstrated use and shared impact.
+> **Model-answer structure:** Use a real progression such as developing sync-client subject-matter expert depth, completing the technical-advisor programme, or moving into Copilot Studio agents. Explain the initial gap, learning plan, hands-on application, feedback loop, proof of competence, and how you then enabled others. The key result is not course completion; it is demonstrated use and shared impact.
 
 ---
 

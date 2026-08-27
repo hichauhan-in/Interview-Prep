@@ -68,7 +68,7 @@ EVIDENCE: template only
 ```mermaid
 flowchart TD
     Work["Something I did while preparing"] --> Q1{"Is it on my CV as paid work?"}
-    Q1 -->|"Yes"| P["EVIDENCE: production - 'In my role at Microsoft I owned...'"]
+    Q1 -->|"Yes"| P["EVIDENCE: production - 'In my previous role, I owned...'"]
     Q1 -->|"No"| Q2{"Did I run it against a tenant I created?"}
     Q2 -->|"Yes"| F["EVIDENCE: free-tier lab"]
     Q2 -->|"No"| Q3{"Did I run it entirely on my own machine?"}
@@ -375,7 +375,7 @@ That distinction — *never disable the control, always break the input* — is 
 3. **Folders.** Create the structure from §4, including empty `labs/`, `evidence/`, `failures/`, `secrets/`.
 4. **Tooling.** Install Node.js LTS, Git, and jq. Verify each: `node -v`, `npm -v`, `git --version`, `jq --version`, `curl --version`, `openssl version`, `python --version`. Record the versions in your manifest — version awareness is a JD-relevant habit (Part 004).
 5. **Synthetic identity set.** In `labs/007-lab-setup/synthetic-identities.md`, invent five test users: names, `@example.com` addresses, roles, and which connection each will use. Never a real person.
-6. **Free-tier tenant.** Sign up for an Auth0 free-plan tenant using your personal email. Name it obviously (`arti-lab-<something>`). Create nothing else yet — later Parts will drive that.
+6. **Free-tier tenant.** Sign up for an Auth0 free-plan tenant using your personal email. Name it obviously (`demo-lab-<something>`). Create nothing else yet — later Parts will drive that.
 7. **First capture.** Open the tenant's OIDC discovery document in a browser (`/.well-known/openid-configuration`), then fetch it with curl and pretty-print it with jq. Save the output to `evidence/007-discovery-<date>/discovery.json`. This is a public document — no redaction needed, and confirming that for yourself is part of the lesson.
 8. **First fault injection.** Request a URL that does not exist on your tenant, and a discovery document with a deliberately wrong tenant name. Record both exact responses.
 9. **Failure catalog.** Create `failures/failure-catalog.md` with the table header from §5 and your first two rows from step 8.

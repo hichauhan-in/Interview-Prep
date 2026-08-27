@@ -2,7 +2,7 @@
 
 > **Section goal:** Master the approved cloud-app scope from zero: cloud access security broker (CASB) and security service edge (SSE) context; Microsoft Defender for Cloud Apps (MDCA) architecture; Cloud Discovery through firewall/proxy logs, log collectors, APIs, secure web gateway integrations and Defender for Endpoint; the cloud-app catalog, risk scores and sanctioned/unsanctioned governance; API app connectors; activity, file, anomaly and access/session policies; governance actions; OAuth app inventory, app governance and consent risk; Conditional Access App Control (CAAC) reverse-proxy and supported in-browser controls; Microsoft Purview labels and DLP integration; SaaS Security Posture Management (SSPM); shadow IT, generative-AI application context and third-party app onboarding; privacy, licensing, deployment, testing, rollback, operations and troubleshooting. By the end, you should be able to assess and design safe SaaS controls and investigate risky OAuth and data-exfiltration scenarios without claiming production MDCA ownership.
 
-This Part maps directly to Deloitte's Microsoft Defender for Cloud Apps, Microsoft Entra Conditional Access, Microsoft Purview, SaaS security, app governance, secure cloud transformation, assessment, architecture, deployment, optimization, incident investigation, troubleshooting, data protection and stakeholder expectations. Arti's production foundation in SharePoint Online and OneDrive permissions, external sharing, sync, content behavior, critical incidents, RCA, evidence capture and stakeholder coordination is especially relevant because MDCA governs identities, apps, activity and data paths across SaaS. The honest bridge is extending known Microsoft 365 workload reasoning into multi-SaaS controls. This chapter never claims production MDCA, CASB, OAuth-remediation or session-control ownership.
+This Part maps directly to Deloitte's Microsoft Defender for Cloud Apps, Microsoft Entra Conditional Access, Microsoft Purview, SaaS security, app governance, secure cloud transformation, assessment, architecture, deployment, optimization, incident investigation, troubleshooting, data protection and stakeholder expectations. Your production foundation in SharePoint Online and OneDrive permissions, external sharing, sync, content behavior, critical incidents, RCA, evidence capture and stakeholder coordination is especially relevant because MDCA governs identities, apps, activity and data paths across SaaS. The honest bridge is extending known Microsoft 365 workload reasoning into multi-SaaS controls. This chapter never claims production MDCA, CASB, OAuth-remediation or session-control ownership.
 
 > **Currency, licensing, preview, portal and support note:** This chapter was checked against official Microsoft Learn content available on **August 24, 2026**. Defender for Cloud Apps is accessed in the Microsoft Defender portal, but licenses can expose the full product or narrower Office 365 Cloud App Security capabilities. Cloud catalog size and scores, supported log parsers, app connectors, governance actions, SSPM coverage, OAuth providers, Conditional Access App Control support, Microsoft Edge in-browser protection, session activities, step-up authentication, file inspection, generative-AI discovery and third-party onboarding change frequently. Some controls in current documentation are preview. Validate Product Terms, Microsoft 365 and Entra entitlements, supported apps/clients/browsers, non-Microsoft identity-provider requirements, privacy/data location, roadmap, Message center and the live tenant before a client decision.
 
@@ -19,9 +19,9 @@ This Part maps directly to Deloitte's Microsoft Defender for Cloud Apps, Microso
 
 ## Candidate honesty note
 
-Arti can speak directly about production SharePoint Online and OneDrive permissions, external sharing, sync, content behavior, migrations/support, critical incidents, RCA, fix validation, evidence documentation and stakeholder communication where supported by her experience. Those strengths help with MDCA because SaaS investigations also require understanding identity, permission, file, sharing, client and policy paths.
+You can speak directly about production SharePoint Online and OneDrive permissions, external sharing, sync, content behavior, migrations/support, critical incidents, RCA, fix validation, evidence documentation and stakeholder communication where supported by your experience. Those strengths help with MDCA because SaaS investigations also require understanding identity, permission, file, sharing, client and policy paths.
 
-She should not claim that she has connected production SaaS apps, uploaded customer proxy logs, sanctioned applications, revoked OAuth consent, configured Conditional Access App Control, inspected user sessions, applied cross-SaaS governance actions or operated SSPM unless separately evidenced. Safe wording is:
+You should not claim that you have connected production SaaS apps, uploaded customer proxy logs, sanctioned applications, revoked OAuth consent, configured Conditional Access App Control, inspected user sessions, applied cross-SaaS governance actions or operated SSPM unless separately evidenced. Safe wording is:
 
 > “My production foundation is Microsoft 365 workload permissions, sharing, sync, incidents, RCA and stakeholder coordination. I have built a current Defender for Cloud Apps architecture and a safe fictional paper exercise covering shadow IT, OAuth consent and session-based data controls. I have not operated MDCA in production. I would start with approved visibility, validate licensing and app/client support, minimize personal data, connect third-party apps with least privilege, pilot monitoring before blocking, test browser and native-client paths, and require owner approval for app revocation or destructive governance actions.”
 
@@ -307,7 +307,7 @@ File policies inspect supported connected-app files and metadata and can use cla
 | Stale exposure | Old sensitive shared file | Records/legal and owner approval |
 | Governance action | Remove share/apply label/quarantine where supported | Destructive impact and provider behavior |
 
-Arti's SharePoint/OneDrive knowledge is a strength here: direct, group, link, inherited and guest access are different permission paths. Do not reduce every external-share finding to “remove the user.”
+Your SharePoint/OneDrive knowledge is a strength here: direct, group, link, inherited and guest access are different permission paths. Do not reduce every external-share finding to “remove the user.”
 
 ## 13. Governance actions
 
@@ -878,7 +878,7 @@ Map `GenAI-Chat Demo` to discovery, sanction decision, sanctioned alternative, M
 
 ## 40. JD Mapping: interview translation
 
-| Prompt | Arti's factual experience | Honest MDCA bridge |
+| Prompt | Your factual experience | Honest MDCA bridge |
 |---|---|---|
 | “How do you govern cloud data?” | SharePoint/OneDrive permissions, sharing and sync | Extend to connector/file/session control matrix |
 | “How do you find shadow IT?” | Workload evidence and user-impact analysis | Explain log sources, catalog, validation and sanction workflow |
@@ -957,7 +957,7 @@ Map `GenAI-Chat Demo` to discovery, sanction decision, sanctioned alternative, M
 - **SSPM checks configuration only for supported connected apps/settings.**
 - **Block with an approved alternative, migration and user communication.**
 - **Monitor first, test every client path, then enforce in rings.**
-- **Arti's bridge is collaboration-workload depth, not claimed MDCA ownership.**
+- **Your bridge is collaboration-workload depth, not claimed MDCA ownership.**
 
 ## Completion Checklist
 

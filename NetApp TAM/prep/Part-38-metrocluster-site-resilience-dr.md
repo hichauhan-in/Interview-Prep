@@ -1,6 +1,6 @@
 # Part 38 - MetroCluster, Site Resilience, and Disaster-Recovery Operations
 
-> **Section goal:** Understand how MetroCluster extends ONTAP resilience across sites, how local high availability differs from site disaster recovery, and how synchronous mirroring, configuration replication, networks/fabrics, switchover, healing, switchback, monitoring, and application dependencies combine. By the end, Arti should be able to reason safely about planned versus disaster operations, split-brain risk, RPO/RTO, and evidence-driven runbooks without turning this guide into a production procedure.
+> **Section goal:** Understand how MetroCluster extends ONTAP resilience across sites, how local high availability differs from site disaster recovery, and how synchronous mirroring, configuration replication, networks/fabrics, switchover, healing, switchback, monitoring, and application dependencies combine. By the end, you should be able to reason safely about planned versus disaster operations, split-brain risk, RPO/RTO, and evidence-driven runbooks without turning this guide into a production procedure.
 
 Covers index item **38** and maps directly to job-description responsibilities for storage depth, customer-environment discovery, technical risk, supportability, strategic planning, high-pressure incident work, preventative recommendations, operational reviews, and cross-functional execution.
 
@@ -8,7 +8,7 @@ Covers index item **38** and maps directly to job-description responsibilities f
 
 This Part gives no hard distance, latency, RPO, RTO, detection time, free-space, port, model, or topology limit and no production command sequence. Broad terms such as “zero data loss” describe a design objective under healthy synchronous operation, not a blanket guarantee across every rolling disaster, forced action, application cache, unmirrored object, or lost nonvolatile state.
 
-> **No-production-NetApp boundary:** Arti does not claim production MetroCluster experience. Every site, cluster, plex, network, failure, timeline, command placeholder, and recovery result below is synthetic. Her factual strengths are Microsoft enterprise escalation, Azure/site and network dependencies, Windows/AD/DNS, CRITSIT ownership, analytics, stakeholder coordination, and customer communication. The explicit non-claim is: **she has not installed, cabled, configured, monitored, upgraded, switched over, healed, switched back, forced, or disaster-recovered a production MetroCluster; configured ONTAP Mediator or MetroCluster Tiebreaker; or validated a NetApp customer's site-resilience design.**
+> **No-production-NetApp boundary:** You do not claim production MetroCluster experience. Every site, cluster, plex, network, failure, timeline, command placeholder, and recovery result below is synthetic. Your factual strengths are enterprise escalation, Azure/site and network dependencies, Windows/AD/DNS, critical-situation ownership, analytics, stakeholder coordination, and customer communication. The explicit non-claim is: **you have not installed, cabled, configured, monitored, upgraded, switched over, healed, switched back, forced, or disaster-recovered a production MetroCluster; configured ONTAP Mediator or MetroCluster Tiebreaker; or validated a NetApp customer's site-resilience design.**
 
 ---
 
@@ -543,11 +543,11 @@ flowchart TD
 
 ### JD Mapping
 
-| JD responsibility | Part 38 contribution | Arti's factual bridge and gap |
+| JD responsibility | Part 38 contribution | Your factual bridge and gap |
 |---|---|---|
 | Understand environment | Maps site/HA/storage/fabric/app failure domains | Azure/networking systems thinking transfers |
 | Strategic planning | Connects topology/lifecycle/RPO/RTO/runbooks/tests | Advisory/MBA strength transfers |
-| Risk/stability | Exposes split brain, forced action, unmirrored and dependency risks | CRITSIT discipline transfers |
+| Risk/stability | Exposes split brain, forced action, unmirrored and dependency risks | critical-situation discipline transfers |
 | Supportability | Requires exact HWU/IMT/docs/switch/ONTAP evidence | No gated/customer result claimed |
 | High pressure | Provides authority/evidence/veto/communication structure | Major-incident experience transfers |
 | Service reviews | Reports health, tests, actions, readiness and residual risk | Business-review strength transfers |
@@ -557,7 +557,7 @@ flowchart TD
 
 ## 16. Fully synthetic scenario: Alpine Health ambiguous site isolation
 
-> **Synthetic case:** Alpine Health, every site, platform, metric, alert, patient system, timeline, and outcome below is fictional. It is not a NetApp customer, internal process, benchmark, tool result, or Arti's production work.
+> **Synthetic case:** Alpine Health, every site, platform, metric, alert, patient system, timeline, and outcome below is fictional. It is not a NetApp customer, internal process, benchmark, tool result, or your production work.
 
 ### Environment
 
@@ -637,12 +637,12 @@ flowchart TD
 
 ---
 
-## 17. Arti's factual transfer and honest positioning
+## 17. Your factual transfer and honest positioning
 
 ```mermaid
 flowchart LR
     AZ[Azure/site/network experience] --> FD[Failure domains routes DNS identity dependencies]
-    CRIT[CRITSIT ownership] --> CMD[Incident authority workstreams evidence communication]
+    CRIT[Critical-situation ownership] --> CMD[Incident authority workstreams evidence communication]
     M365[M365 business services] --> APP[User transaction and external dependencies]
     BI[Analytics] --> KPI[Health test RPO RTO action trends]
     FD --> MCC[MetroCluster conceptual method]
@@ -652,7 +652,7 @@ flowchart LR
     MCC --> LAB[Future tabletop/lab and MetroCluster specialist review]
 ```
 
-> **Honest interview answer:** "I understand MetroCluster as two physically separate ONTAP clusters with local HA, synchronous mirrored storage, configuration replication and controlled site transitions. I separate IP/FC/stretch variants, Mediator and Tiebreaker roles, negotiated and forced switchover, healing and switchback, and storage RPO from application RTO. My production experience is Microsoft incident and cloud/network dependency work, not MetroCluster operations. I would rely on exact current topology docs, HWU/IMT, authorized evidence and NetApp Support before action."
+> **Honest interview answer:** "I understand MetroCluster as two physically separate ONTAP clusters with local HA, synchronous mirrored storage, configuration replication and controlled site transitions. I separate IP/FC/stretch variants, Mediator and Tiebreaker roles, negotiated and forced switchover, healing and switchback, and storage RPO from application RTO. My production experience is enterprise incident and cloud/network dependency work, not MetroCluster operations. I would rely on exact current topology docs, HWU/IMT, authorized evidence and NetApp Support before action."
 
 ---
 
@@ -732,7 +732,7 @@ flowchart LR
 13. Apply the troubleshooting and support-boundary tree.
 14. Recreate Alpine Health's authority and dependency analysis.
 15. Complete paper lab and Q1-Q8 aloud.
-16. State Arti's factual bridge and explicit gap.
+16. State your factual bridge and explicit gap.
 
 ---
 
@@ -802,7 +802,7 @@ flowchart LR
 
 ### Q8. How does your background transfer, and what remains a gap?
 
-> **Model answer:** "My Azure/networking and Microsoft incident background gives me failure-domain, DNS/identity, evidence, authority, communication and application-dependency discipline. I understand MetroCluster conceptually but have not operated it in production. I would use exact topology documentation, HWU/IMT, authorized evidence, application runbooks and NetApp Support before any switchover or recovery action."
+> **Model answer:** "My Azure/networking and enterprise incident background gives me failure-domain, DNS/identity, evidence, authority, communication and application-dependency discipline. I understand MetroCluster conceptually but have not operated it in production. I would use exact topology documentation, HWU/IMT, authorized evidence, application runbooks and NetApp Support before any switchover or recovery action."
 
 ---
 
@@ -827,7 +827,7 @@ flowchart LR
 - **NVFAIL:** Availability pauses until data integrity is checked.
 - **RTO:** Detection -> authority -> storage -> network/identity -> app transaction.
 - **Backup:** Still required for corruption, attack and historical points.
-- **Arti's bridge:** Incident/dependency rigor transfers; MetroCluster operation does not.
+- **Your bridge:** Incident/dependency rigor transfers; MetroCluster operation does not.
 
 ---
 

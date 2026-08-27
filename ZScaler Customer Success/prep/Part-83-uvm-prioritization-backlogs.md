@@ -1,10 +1,10 @@
 # Part 83 - UVM Prioritization, Grouping, and Remediation Backlogs
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 
 > **Purpose:** Explain how contextual vulnerability decisions become trustworthy remediation backlogs. Cover risk-ranked work, protected policy cohorts, grouping, campaigns, quick wins, root-cause work, dependencies, ownership, due dates, bulk operations, reason codes, backlog quality, capacity, anti-patterns, practical customer decisions, troubleshooting, safe exercises, and TSM adoption value.
 
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for learning. Every NMH asset, service, finding, exposure episode, rank, cohort, group, campaign, owner, date, deadline, ticket, result, metric, and decision is invented. Arti's factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; escalations; mentoring; and responsible AI exploration. Production Zscaler, Data Fabric, UVM, Risk360, CAASM, CTEM, and vulnerability-program operation remain learning boundaries.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for learning. Every NMH asset, service, finding, exposure episode, rank, cohort, group, campaign, owner, date, deadline, ticket, result, metric, and decision is invented. Your factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; escalations; mentoring; and responsible AI exploration. Production Zscaler, Data Fabric, UVM, Risk360, CAASM, CTEM, and vulnerability-program operation remain learning boundaries.
 
 > **Currency caveat:** Product wording, workflows, interfaces, objects, fields, ranking behavior, grouping behavior, integrations, entitlements, standards, threat evidence, and customer conditions change. The controlled official-source snapshot and review date for this Part is exactly **2026-08-24**. Current official documentation, licensed-tenant evidence, customer policy, product specialists, Zscaler Support, source-native evidence, approved change processes, and measured postconditions govern production.
 
@@ -55,7 +55,7 @@ flowchart LR
 
 | Evidence class | Neutral phrasing | Boundary |
 |---|---|---|
-| Factual Microsoft support | Complex support cases required exact scope, ownership, impact, dependencies, action registers, updates, and validation | Not production UVM backlog ownership |
+| Factual enterprise support | Complex support cases required exact scope, ownership, impact, dependencies, action registers, updates, and validation | Not production UVM backlog ownership |
 | M365/OneDrive/SharePoint context | Tenant, user, site, library, client, permissions, sync state, and service health changed action | Transferable context method, not vulnerability-program operation |
 | Networking/traces | DNS, TCP, TLS, proxy, route, HTTP, and time evidence helped distinguish path failures | Useful for reachability and validation, not proof of UVM use |
 | SQL/Power BI | Data skills support stable grains, grouping tests, anti-joins, aging, cohorts, and honest trends | No claim of UVM database access |
@@ -730,7 +730,7 @@ All exercises use synthetic data, reviewed public pages, or isolated explicitly 
 | 20 | Deliver review | Technical plus executive narratives | Facts, caveats, decisions, checkpoints |
 | 21 | Rehearse Q1-Q8 | Recorded answers | Neutral honesty and source boundaries |
 
-## Arti bridge: factual strengths applied to backlog operations
+## Experience bridge: factual strengths applied to backlog operations
 
 | Factual strength | Backlog application | Interview bridge | Boundary |
 |---|---|---|---|
@@ -805,7 +805,7 @@ Official Zscaler sources support only the bounded product positioning stated her
 
 **Model answer:** Pause success claims and harmful bulk actions, preserve versions, and build a movement bridge. Reconcile expected source population and health, scope, episode identity/age/state, grouping membership, filters, routing, due logic, target links, and validation. Separate validated remediation, retirement, non-applicability, deduplication, policy change, exceptions, and source/mapping defects. Repair, replay deterministically, reconcile work, and restate reporting.
 
-### Q8. How does Arti's background transfer while preserving the experience boundary?
+### Q8. How does your background transfer while preserving the experience boundary?
 
 **Model answer:** Microsoft 365, OneDrive, and SharePoint support built discipline around exact scope, identity, ownership, dependencies, customer impact, action plans, and validation. Networking traces support path and blocker evidence. SQL and Power BI support stable grain, deduplication, grouping tests, aging, flow, denominators, and movement bridges. Escalations and mentoring support adoption and coordination; AI can assist reviewed candidate grouping. NMH is synthetic, and production UVM backlog/program operation remains a learning boundary.
 
@@ -832,7 +832,7 @@ Official Zscaler sources support only the bounded product positioning stated her
 | Backlog drop | Build the movement bridge before celebrating |
 | Quality | Valid, unique, current, owned, actionable, explainable, validated |
 | TSM | Make product-supported work understandable, trusted, and measurable |
-| Arti bridge | Exact Microsoft case ownership becomes disciplined remediation coordination |
+| Experience bridge | Exact enterprise case ownership becomes disciplined remediation coordination |
 
 ## Completion Checklist
 

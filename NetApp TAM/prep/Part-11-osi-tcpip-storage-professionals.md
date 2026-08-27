@@ -1,12 +1,12 @@
 # Part 11 - OSI and TCP/IP for Storage Professionals
 
-> **Section goal:** Build a packet-level mental model from an application storage request to Ethernet frames and back. By the end, Arti should be able to explain OSI and TCP/IP without memorized slogans, read the important fields in a trace, reason about TCP state and loss, isolate a failure by layer, and turn network evidence into a bounded customer recommendation.
+> **Section goal:** Build a packet-level mental model from an application storage request to Ethernet frames and back. By the end, you should be able to explain OSI and TCP/IP without memorized slogans, read the important fields in a trace, reason about TCP state and loss, isolate a failure by layer, and turn network evidence into a bounded customer recommendation.
 
 Covers index item **11** and maps directly to job-description responsibilities for understanding customer environments, storage depth, technical analysis, stability and risk work, supportability review, operational service reviews, preventative recommendations, and escalation quality.
 
 This Part is vendor-neutral. Exact operating-system defaults, offload behavior, TLS policy, storage-protocol support, port use, packet-capture methods, and NetApp behavior depend on the complete product, release, host, adapter, switch, and configuration. Validate those facts in current official documentation and, for a real NetApp solution, in the current Interoperability Matrix Tool (IMT) and relevant release documentation.
 
-> **Evidence boundary:** All hosts, addresses, packet numbers, timings, incidents, calculations, and recommendations below are synthetic. Arti's Windows, Azure, Microsoft 365, DNS, TCP/IP, and enterprise escalation experience is production evidence. Production administration or packet-level diagnosis of NetApp NFS, SMB, iSCSI, or NVMe/TCP data paths is not claimed.
+> **Evidence boundary:** All hosts, addresses, packet numbers, timings, incidents, calculations, and recommendations below are synthetic. Your Windows, Azure, Microsoft 365, DNS, TCP/IP, and enterprise escalation experience is production evidence. Production administration or packet-level diagnosis of NetApp NFS, SMB, iSCSI, or NVMe/TCP data paths is not claimed.
 
 ---
 
@@ -66,7 +66,7 @@ flowchart TB
     MP -.does not prove health of.-> DP
 ```
 
-> **Arti bridge:** Microsoft 365 escalations already demand dependency thinking: a user-visible failure may involve client state, DNS, identity, proxy, TLS, service endpoint, or policy. The transferable skill is isolating the failed dependency with synchronized evidence. The new gap is applying that method to sustained storage traffic and storage-specific protocol state.
+> **Experience bridge:** Microsoft 365 escalations already demand dependency thinking: a user-visible failure may involve client state, DNS, identity, proxy, TLS, service endpoint, or policy. The transferable skill is isolating the failed dependency with synchronized evidence. The new gap is applying that method to sustained storage traffic and storage-specific protocol state.
 
 ---
 
@@ -795,12 +795,12 @@ The order is not a rigid bottom-up ritual. Start at the symptom and use the chea
 
 ### Explicit JD Mapping
 
-| JD responsibility | Part 11 contribution | Arti's strength and honest gap |
+| JD responsibility | Part 11 contribution | Your strength and honest gap |
 |---|---|---|
 | Understand customer environment | Maps application, host, network services, switches/fabrics, paths, target, and planes | **Strength:** Windows/Azure/M365 dependency troubleshooting. **Gap:** production NetApp data-path mapping is unproven. |
 | Analyze and report customer data | Turns packet fields, counters, logs, and timelines into bounded findings | **Strength:** escalation evidence and analytics. **Gap:** storage packet-trace portfolio must be built in labs. |
 | Storage and infrastructure depth | Connects NFS/SMB/iSCSI/NVMe-TCP to TCP/IP and Ethernet | **Conceptual:** protocol stack understood; production protocol administration is not claimed. |
-| Mitigate risk and improve stability | Finds common fate, MTU, loss, path, security, and service dependencies | **Transfer:** CRITSIT risk isolation; exact storage remediation requires current product and SME validation. |
+| Mitigate risk and improve stability | Finds common fate, MTU, loss, path, security, and service dependencies | **Transfer:** critical-situation risk isolation; exact storage remediation requires current product and SME validation. |
 | Understand supportability | Defines exact end-to-end component/version inventory and IMT evidence | **Gap:** no direct NetApp IMT result or customer tool access claimed. |
 | Track preventative remediation | Gives owner/date/test/validation/residual-risk structure | **Strength:** Microsoft case/action follow-through. |
 | Conduct service reviews | Converts packet detail into impact, confidence, options, and decisions | **Strength:** business reviews and audience calibration. |
@@ -808,7 +808,7 @@ The order is not a rigid bottom-up ritual. Start at the symptom and use the chea
 
 ### Honest production-gap statement
 
-> "I have production experience troubleshooting Windows, Azure, DNS, TCP/IP, proxies, and Microsoft 365 dependencies and coordinating high-severity evidence. I can explain and analyze the network stack and create a packet-correlation plan. I have not yet administered or diagnosed NetApp NFS, SMB, iSCSI, or NVMe/TCP data paths in production. For a customer case I would use authorized captures and telemetry, verify the exact supported combination and protocol behavior, and work with network, host, storage, and NetApp specialists rather than extrapolate from Microsoft experience."
+> "I have production experience troubleshooting Windows, Azure, DNS, TCP/IP, proxies, and Microsoft 365 dependencies and coordinating high-severity evidence. I can explain and analyze the network stack and create a packet-correlation plan. I have not yet administered or diagnosed NetApp NFS, SMB, iSCSI, or NVMe/TCP data paths in production. For a customer case I would use authorized captures and telemetry, verify the exact supported combination and protocol behavior, and work with network, host, storage, and NetApp specialists rather than extrapolate from prior experience."
 
 ---
 
@@ -1021,7 +1021,7 @@ The observed copy time should be longer if periodic pauses occur. Quantify pause
 27. Ask the complete discovery set and identify shared failure domains.
 28. Work the Alpine case without jumping from correlation to cause.
 29. Build the minimum escalation pack.
-30. State Arti's transferable production experience and storage-protocol gap honestly.
+30. State your transferable production experience and storage-protocol gap honestly.
 
 ---
 
@@ -1114,7 +1114,7 @@ The observed copy time should be longer if periodic pauses occur. Quantify pause
 
 ### Q8. How does your background prepare you for storage-network troubleshooting, and where is the gap?
 
-> **Model answer:** "My production Microsoft escalation work includes Windows and Azure networking, DNS, TCP/IP, proxies, Microsoft 365 dependencies, evidence correlation, high-severity ownership, and Product or Engineering escalation. That gives me a strong layered troubleshooting and communication method. My gap is direct production diagnosis of NetApp NFS, SMB, iSCSI, and NVMe/TCP data paths and NetApp support tools. I would close it through authorized labs and shadowing, current standards and vendor documentation, exact IMT validation, and review by host, network, storage, and NetApp specialists."
+> **Model answer:** "My production enterprise escalation work includes Windows and Azure networking, DNS, TCP/IP, proxies, Microsoft 365 dependencies, evidence correlation, high-severity ownership, and Product or Engineering escalation. That gives me a strong layered troubleshooting and communication method. My gap is direct production diagnosis of NetApp NFS, SMB, iSCSI, and NVMe/TCP data paths and NetApp support tools. I would close it through authorized labs and shadowing, current standards and vendor documentation, exact IMT validation, and review by host, network, storage, and NetApp specialists."
 
 **Follow-up depth:** Give a factual Microsoft dependency case, label exactly what transfers, and describe the packet/evidence lab artifact that demonstrates the new skill without calling it production experience.
 
@@ -1143,7 +1143,7 @@ The observed copy time should be longer if periodic pauses occur. Quantify pause
 - **Three planes:** Data moves I/O, control creates state, management configures and observes.
 - **Storage map:** NFS/SMB file meaning; iSCSI/NVMe block meaning; TCP/IP carries them.
 - **Supportability:** Exact versions and combinations plus a dated official result.
-- **Arti's bridge:** Production network escalation method transfers; storage-protocol production depth remains to be earned.
+- **Your bridge:** Production network escalation method transfers; storage-protocol production depth remains to be earned.
 
 ---
 
@@ -1171,7 +1171,7 @@ The observed copy time should be longer if periodic pauses occur. Quantify pause
 - [ ] Ask the complete TAM discovery set and write a bounded recommendation.
 - [ ] Recreate the Alpine case and preserve competing hypotheses until evidence discriminates.
 - [ ] Complete the paper lab, whiteboard drills, self-test, and Q1-Q8 aloud.
-- [ ] State Arti's production strengths and storage-protocol gap without inflation.
+- [ ] State your production strengths and storage-protocol gap without inflation.
 - [ ] Recheck RFC status, IEEE access/edition, product releases, and NetApp IMT before customer use.
 
 ---

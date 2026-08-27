@@ -37,7 +37,7 @@ flowchart TD
 
 **Node N6 is the requirement that drives commercial value.** Enterprise buyers want to manage their own users — invite colleagues, assign roles, configure their own SSO — **without raising a ticket with the vendor.** Delegated administration is a feature enterprises pay for, and it removes support load at the same time.
 
-> 💡 **Tie-in to your background:** enterprise support at Microsoft means you have worked with organisations that are themselves customers of a platform, each with their own administrators and configuration. **The three-party structure from Part 101 is the same shape**, and Organizations is where it becomes an explicit product concept.
+> 💡 **Tie-in to your background:** enterprise support experience means you have worked with organisations that are themselves customers of a platform, each with their own administrators and configuration. **The three-party structure from Part 101 is the same shape**, and Organizations is where it becomes an explicit product concept.
 
 ### 🔍 Plain-English deep-dive: the same person, three organisations, three different answers
 

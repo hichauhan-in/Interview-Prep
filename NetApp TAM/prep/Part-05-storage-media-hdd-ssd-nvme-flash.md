@@ -1,12 +1,12 @@
 # Part 5 - Storage Media: HDD, SSD, NVMe, Flash, Endurance, and Failure
 
-> **Section goal:** Understand how magnetic disks and NAND flash physically store data, why their latency, throughput, queueing, endurance, and failure behavior differ, and how to turn media evidence into a bounded customer recommendation. By the end, Arti should be able to explain HDD and SSD internals from zero, calculate endurance and workload demand, challenge misleading health claims, and identify what must be verified before recommending a media class.
+> **Section goal:** Understand how magnetic disks and NAND flash physically store data, why their latency, throughput, queueing, endurance, and failure behavior differ, and how to turn media evidence into a bounded customer recommendation. By the end, you should be able to explain HDD and SSD internals from zero, calculate endurance and workload demand, challenge misleading health claims, and identify what must be verified before recommending a media class.
 
 Covers index item **5** and maps directly to job-description responsibilities for storage depth, customer-environment analysis, technical-risk identification, strategic planning, customer-specific recommendations, supportability awareness, incident evidence, and clear technical communication.
 
 This Part is media-architecture education, not product sizing or a claim about a specific NetApp platform. Drive support, firmware, endurance ratings, sector formats, power-loss behavior, qualification rules, RAID use, replacement policy, and telemetry interpretation are model-, release-, workload-, and configuration-sensitive. Verify the exact supported configuration in current official documentation and authorized customer evidence.
 
-> **Evidence boundary:** Every customer name, device, workload, number, result, and recommendation scenario below is synthetic. Arti has Microsoft and Microsoft 365 production support experience, but no production NetApp media-selection, drive-replacement, or ONTAP administration experience is asserted.
+> **Evidence boundary:** Every customer name, device, workload, number, result, and recommendation scenario below is synthetic. You have Microsoft and Microsoft 365 production support experience, but no production NetApp media-selection, drive-replacement, or ONTAP administration experience is asserted.
 
 ---
 
@@ -702,20 +702,20 @@ flowchart TD
 
 ### Explicit JD mapping
 
-| JD responsibility | Part 5 contribution | Arti transfer and gap |
+| JD responsibility | Part 5 contribution | experience transfer and gap |
 |---|---|---|
 | Understand customer environment | Maps workload through protocol, controller, media, power, protection, and failure domain | M365 dependency mapping transfers; physical storage internals are learned here |
 | Provide storage guidance and strategic planning | Connects media fit, endurance, lifecycle, and workload growth | Analytics and advisory method transfer; no production NetApp media design claim |
-| Mitigate risk and improve stability | Interprets errors, wear, PLP, latent defects, and correlated failure cautiously | CRITSIT evidence discipline transfers; platform procedure requires NetApp expertise |
+| Mitigate risk and improve stability | Interprets errors, wear, PLP, latent defects, and correlated failure cautiously | critical-situation evidence discipline transfers; platform procedure requires NetApp expertise |
 | Analyze and report customer data | Requires scoped counters, percentiles, units, trends, and confidence | Excel/Power BI/statistics are strengths; tool semantics need authorized practice |
-| Improve support experience | Produces device identity, timeline, error, protection, and exact-ask evidence | Escalation packaging is proven in Microsoft support |
+| Improve support experience | Produces device identity, timeline, error, protection, and exact-ask evidence | Escalation packaging is proven in enterprise support |
 | Make customer-specific recommendations | Uses workload, supportability, tradeoff, owner, validation, and residual risk | Recommendation method is transferable; exact product choice needs review |
 
 ### Honest production-gap note
 
 Safe interview wording:
 
-> "I understand HDD and NAND mechanisms, endurance calculations, queueing orientation, and the evidence needed to assess media fit. My production experience is Microsoft enterprise support, not selecting or replacing drives in a NetApp estate. I would use current platform documentation, qualified device lists, authorized telemetry, and lead-TAM or storage-SME review before making a customer recommendation. A paper lab or synthetic calculation demonstrates my method, not production ownership."
+> "I understand HDD and NAND mechanisms, endurance calculations, queueing orientation, and the evidence needed to assess media fit. My production experience is enterprise support, not selecting or replacing drives in a NetApp estate. I would use current platform documentation, qualified device lists, authorized telemetry, and lead-TAM or storage-SME review before making a customer recommendation. A paper lab or synthetic calculation demonstrates my method, not production ownership."
 
 ---
 
@@ -1054,7 +1054,7 @@ These numbers are not sufficient for a selection. The exact rating definition, c
 - **PLP:** Verify exactly what survives power loss and when acknowledgement occurs.
 - **SMART:** Instrument panel, not a crystal ball.
 - **Media fit:** Workload + support + endurance + protection + evidence + tradeoff.
-- **Arti's bridge:** Transfer escalation rigor, not unearned NetApp operations experience.
+- **Your bridge:** Transfer escalation rigor, not unearned NetApp operations experience.
 
 ---
 
@@ -1080,7 +1080,7 @@ These numbers are not sufficient for a selection. The exact rating definition, c
 - [ ] Ask all discovery questions and produce a customer recommendation with owner, validation, and residual risk.
 - [ ] Recreate the Northwind scenario and challenge every unsupported conclusion.
 - [ ] Complete the paper lab, whiteboard criteria, self-test, and Q1-Q8 aloud.
-- [ ] State the Microsoft transfer and production gap honestly.
+- [ ] State the experience transfer and production gap honestly.
 - [ ] Recheck current official platform, drive, firmware, support, and service procedures before real use.
 
 ---

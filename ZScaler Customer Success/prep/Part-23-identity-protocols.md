@@ -1,10 +1,10 @@
 # Part 23 - Identity Protocols: AD, Entra ID, SAML, OAuth 2.0, OIDC, SCIM, and MFA
 
-> **Audience:** Arti Thakur, moving from Microsoft 365 Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
+> **Audience:** Candidates moving from Microsoft 365 Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
 >
 > **Purpose:** Build a first-principles model of enterprise identity, directories, authentication, authorization, accounting, federation, tokens, provisioning, multifactor authentication, conditional access, workload identities, credential lifecycle, and trace-led diagnosis.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Its users, tenants, domains, applications, groups, claims, tokens, policies, logs, failures, and outcomes are synthetic. Arti's Microsoft 365, OneDrive for Business, SharePoint Online, networking, evidence, identity troubleshooting, and escalation experience must remain within her approved factual background.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Its users, tenants, domains, applications, groups, claims, tokens, policies, logs, failures, and outcomes are synthetic. Your Microsoft 365, OneDrive for Business, SharePoint Online, networking, evidence, identity troubleshooting, and escalation experience must remain within your documented background.
 >
 > **Product caveat:** This Part teaches standards and documented Microsoft identity concepts. Exact Entra ID, Active Directory, application, Microsoft 365, Zscaler, federation, provisioning, claims, conditional-access, licensing, logging, and UI behavior vary by service, tenant, version, policy, and deployment. Verify current official documentation and sanitized tenant evidence. No fictional scenario proves a production vendor defect.
 
@@ -14,7 +14,7 @@ Identity systems answer several questions that are often blurred together. Who o
 
 Think of a corporate campus. A directory is the employee registry. An account is a record that can be used to sign in or run a workload. A principal is the security identity that can receive permissions. Authentication checks credentials at reception. Authorization checks whether the authenticated principal may enter a room. Accounting records what decision and activity occurred. Federation lets one trusted reception desk issue a signed statement another organization can evaluate. OAuth delegates access to an API. OpenID Connect adds an identity layer for sign-in. SCIM synchronizes account lifecycle; it does not perform the user's interactive login.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Evidence of mastery |
 |---|---|---|
@@ -34,11 +34,11 @@ By the end, Arti should be able to:
 
 ## JD Mapping
 
-| JD expectation | Part 23 capability | Artifact | Honest Arti bridge |
+| JD expectation | Part 23 capability | Artifact | Honest experience bridge |
 |---|---|---|---|
 | Analyze complex environments | Map directories, IdPs, apps, users, devices, tokens, provisioning, and policy | Identity dependency map | Extends M365 sign-in, permission, and client investigation |
 | Identify security risks | Find weak factors, stale accounts, broad consent, wrong audience, overprivileged apps, and secret sprawl | Identity risk register | Learned SecOps analysis, not claimed Zscaler administration |
-| Resolve escalations | Separate network, authentication, token, policy, provisioning, and app authorization workstreams | Correlated sign-in timeline | Builds on CRITSIT evidence discipline |
+| Resolve escalations | Separate network, authentication, token, policy, provisioning, and app authorization workstreams | Correlated sign-in timeline | Builds on critical-situation evidence discipline |
 | Tailor mitigation | Choose mapping, trust, scope, credential, MFA, policy, or deprovisioning correction | Scoped change and rollback | Builds on safe fix validation |
 | Deliver consulting | Explain identity flows from zero to technical and executive audiences | Whiteboard and teach-back | Builds on mentoring and advisor strengths |
 | Partner cross-functionally | Coordinate IAM, directory, endpoint, network, app, security, privacy, and vendor teams | RACI and decision record | Maps to customer/Engineering collaboration |
@@ -46,9 +46,9 @@ By the end, Arti should be able to:
 
 ## Candidate honesty note
 
-Arti can truthfully discuss Microsoft 365 identity and permissions troubleshooting, sign-in and client-context comparison, browser/network evidence, account and access symptoms, escalation coordination, and controlled standards-based labs where supported by her experience. She can explain how she would validate a token or assertion without disclosing it, distinguish sign-in from provisioning, and correlate identity evidence with OneDrive or SharePoint behavior.
+You can truthfully discuss Microsoft 365 identity and permissions troubleshooting, sign-in and client-context comparison, browser/network evidence, account and access symptoms, escalation coordination, and controlled standards-based labs where supported by your experience. You can explain how you would validate a token or assertion without disclosing it, distinguish sign-in from provisioning, and correlate identity evidence with OneDrive or SharePoint behavior.
 
-She should not claim that she has designed Entra ID internals, operated a Zscaler identity integration in production, administered an enterprise AD forest, or decoded customer tokens in an interview. A safe bridge is: "I have production experience investigating Microsoft 365 access and identity-related symptoms across clients, permissions, network paths, and services. I understand the standards and evidence model. For a Zscaler integration I would verify the tenant's IdP metadata, app registration, claims, groups, provisioning mappings, policy, and current official guidance before attributing cause."
+You should not claim that you have designed Entra ID internals, operated a Zscaler identity integration in production, administered an enterprise AD forest, or decoded customer tokens in an interview. A safe bridge is: "I have production experience investigating Microsoft 365 access and identity-related symptoms across clients, permissions, network paths, and services. I understand the standards and evidence model. For a Zscaler integration I would verify the tenant's IdP metadata, app registration, claims, groups, provisioning mappings, policy, and current official guidance before attributing cause."
 
 | Evidence category | Safe phrasing | Boundary |
 |---|---|---|
@@ -841,7 +841,7 @@ OneDrive and SharePoint access involves identity, token acquisition, application
 | Upload denied | Scope, CA, DLP, app permission | File restriction, quota, proxy body limit | Responder and policy/request IDs |
 | Access persists after removal | Session/token/cache or nested group delay | Permission replication | Change time, token/session, effective permission |
 
-Arti's strength is keeping these hypotheses separate. She can say: "I first establish whether the failing process obtained a token for the intended resource, whether the resource validated it, and whether application/object authorization permitted the operation. I correlate sign-in, client, network, and service IDs and avoid treating successful interactive login as proof of item-level access."
+Your strength is keeping these hypotheses separate. You can say: "I first establish whether the failing process obtained a token for the intended resource, whether the resource validated it, and whether application/object authorization permitted the operation. I correlate sign-in, client, network, and service IDs and avoid treating successful interactive login as proof of item-level access."
 
 ## Fictional NMH scenario: SAML succeeds, SCIM and app authorization diverge
 
@@ -892,7 +892,7 @@ sequenceDiagram
 
 ### NMH executive update
 
-"In this fictional exercise, authentication remained healthy, but the application and provisioning connector used different account keys after an identifier migration. The app could not map a valid SAML subject, and SCIM safely blocked a duplicate create. We paused risky lifecycle actions, reconciled identities using a stable key, piloted the coordinated mapping, and validated login, authorization, provisioning, deprovisioning, and duplicate controls. No evidence supports a Zscaler or Microsoft production defect."
+"In this fictional exercise, authentication remained healthy, but the application and provisioning connector used different account keys after an identifier migration. The app could not map a valid SAML subject, and SCIM safely blocked a duplicate create. We paused risky lifecycle actions, reconciled identities using a stable key, piloted the coordinated mapping, and validated login, authorization, provisioning, deprovisioning, and duplicate controls. No evidence supports a Zscaler or prior production defect."
 
 ## Additional troubleshooting scenarios
 
@@ -942,13 +942,13 @@ A nightly connector returns token endpoint authentication failure immediately af
 
 A precise engineering question is: "At 15:42:11Z, the fictional client received an authorization code for client A and exact redirect B. Code redemption with matching PKCE succeeded. The ID token validates for issuer C and client audience A, but API D rejects the access token whose audience is API E. Please confirm the documented resource/scope for D and whether client A has the required delegated permission. Tokens are retained only in the restricted case vault; the attached summary contains no credentials."
 
-## Arti bridge and interview positioning
+## Experience bridge and interview positioning
 
 | Existing strength | Identity translation | Practice artifact |
 |---|---|---|
 | M365 permissions cases | Separate authentication from site/item authorization | AuthN/AuthZ decision map |
 | OneDrive client cases | Compare browser/native app, token cache, proxy, API | Client-flow comparison |
-| CRITSIT leadership | Split IdP, app, endpoint, network, and provisioning workstreams | Federation incident timeline |
+| Critical-situation leadership | Split IdP, app, endpoint, network, and provisioning workstreams | Federation incident timeline |
 | RCA | Identify identifier mapping and rotation control gaps | NMH identity RCA |
 | Analytics | Group failures by client, policy, tenant, stage, error | Synthetic sign-in dashboard |
 | SQL/data skills | Reconcile source and target identity IDs safely | SCIM mismatch query/table |
@@ -1141,7 +1141,7 @@ The following authoritative sources were reviewed on **2026-08-24**. They suppor
 - [ ] I can protect tokens, assertions, codes, cookies, secrets, keys, identity attributes, and risk data.
 - [ ] I can troubleshoot browser-versus-native-client and authentication-versus-authorization differences.
 - [ ] I can present the fictional NMH SAML/SCIM case with safe coordinated remediation.
-- [ ] I can connect Arti's M365 support experience without claiming Zscaler identity production operation.
+- [ ] I can connect your M365 support experience without claiming Zscaler identity production operation.
 - [ ] I can answer Q1-Q8 aloud and complete labs using synthetic or authorized identity data.
 
 [Part 24 - REST APIs, JSON, Webhooks, Authentication, Pagination, and Rate Limits](Part-24-rest-api-json-webhooks.md)

@@ -1,10 +1,10 @@
 # Part 67 - Influence, Negotiation, Objection Handling, and Remediation Adoption
 
-> **Section goal:** Help stakeholders make and implement sound technical decisions when Arti does not control their budget, calendar, people, or production environment. By the end, Arti should be able to influence without authority through trust and evidence; distinguish interests from positions; map incentives; listen, question, reframe, and generate options; use tradeoffs and BATNA responsibly; prepare negotiations; handle cost, downtime, ownership, priority, and evidence objections; govern accepted risk and escalation; maintain decision logs; create implementation intentions; manage action aging; and preserve customer choice without fear or manipulation.
+> **Section goal:** Help stakeholders make and implement sound technical decisions when you do not control their budget, calendar, people, or production environment. By the end, you should be able to influence without authority through trust and evidence; distinguish interests from positions; map incentives; listen, question, reframe, and generate options; use tradeoffs and BATNA responsibly; prepare negotiations; handle cost, downtime, ownership, priority, and evidence objections; govern accepted risk and escalation; maintain decision logs; create implementation intentions; manage action aging; and preserve customer choice without fear or manipulation.
 
 Covers index item **67** and maps directly to job-description responsibilities for influencing and negotiating preventative remediation, communicating recommendations, managing customer risk, tracking actions, handling complex stakeholders, delivering reviews under lead-TAM guidance, improving support experience, and building trust and loyalty.
 
-**Explicit nonclaim:** Arti has not negotiated, approved, or secured adoption of a production NetApp remediation, accepted customer risk, committed NetApp/customer resources, or represented a NetApp commercial or legal position.
+**Explicit nonclaim:** You have not negotiated, approved, or secured adoption of a production NetApp remediation, accepted customer risk, committed NetApp/customer resources, or represented a NetApp commercial or legal position.
 
 **Privacy and access boundary:** Negotiations can expose budgets, staffing, contracts, vulnerabilities, risks, stakeholder incentives, internal disagreements, commercial timing, legal positions, and individual behavior. Use approved systems and channels, minimum necessary detail, role-based distribution, careful notes, and authorized commercial/legal/account participation.
 
@@ -14,7 +14,7 @@ Covers index item **67** and maps directly to job-description responsibilities f
 
 This Part provides an ethical problem-solving model, not a NetApp internal sales playbook, negotiation policy, escalation ladder, pricing position, threat script, support commitment, or authority to accept risk. Actual lead-TAM, account, commercial, Support, legal, security, and customer governance control live decisions.
 
-> **No-production-NetApp boundary:** Arti's factual strengths are Microsoft enterprise and partner support, CRITSIT ownership, technical advisory, customer objection handling, escalation strategy, business reviews, Product/Engineering coordination, action follow-through, and high CSAT. She does **not** claim NetApp commercial negotiation, production ONTAP remediation adoption, customer change authority, contract interpretation, or risk acceptance. Her exact non-claim is: **she has not negotiated, authorized, implemented, or validated a production NetApp remediation or customer risk decision.**
+> **No-production-NetApp boundary:** Your factual strengths are enterprise and partner support, critical-situation ownership, technical advisory, customer objection handling, escalation strategy, business reviews, Product/Engineering coordination, action follow-through, and high CSAT. You do **not** claim NetApp commercial negotiation, production ONTAP remediation adoption, customer change authority, contract interpretation, or risk acceptance. Your exact non-claim is: **you have not negotiated, authorized, implemented, or validated a production NetApp remediation or customer risk decision.**
 
 ---
 
@@ -569,7 +569,7 @@ Urgency comes from evidence, deadline, and lead time, not volume or seniority. S
 
 ## 11. Fully synthetic sanitized scenario: Silverline University remediation adoption
 
-> **Synthetic boundary:** `Silverline University`, all stakeholders, systems, risks, costs, windows, options, decisions, dates, actions, and outcomes are invented. The scenario is not a NetApp account, negotiation, support position, commercial offer, or Arti production result.
+> **Synthetic boundary:** `Silverline University`, all stakeholders, systems, risks, costs, windows, options, decisions, dates, actions, and outcomes are invented. The scenario is not a NetApp account, negotiation, support position, commercial offer, or documented production result.
 
 ### Situation
 
@@ -716,12 +716,12 @@ flowchart LR
 
 ---
 
-## 14. Arti's factual bridge and JD Mapping
+## 14. Your factual bridge and JD Mapping
 
 ```mermaid
 flowchart LR
     ADVISE[Microsoft technical advisory] --> EVID[Evidence, options and customer action]
-    CRIT[CRITSIT and escalations] --> NEG[Interests, urgency and stakeholder alignment]
+    CRIT[Critical situation and escalations] --> NEG[Interests, urgency and stakeholder alignment]
     PART[Partner and enterprise work] --> BOUND[Ownership and multi-party tradeoffs]
     REV[Business reviews and analytics] --> DEC[Decision records and action aging]
     EVID --> METHOD[Transferable ethical influence method]
@@ -733,10 +733,10 @@ flowchart LR
 
 ### Factual tie
 
-| Arti evidence | Transfer | Boundary |
+| Transferable evidence | Transfer | Boundary |
 |---|---|---|
-| Microsoft customer advisory | Evidence-based recommendations and objections | Not NetApp remediation authority |
-| CRITSIT/escalation strategy | Shared outcome, urgency, owners and checkpoints | Not customer risk acceptance |
+| prior customer advisory | Evidence-based recommendations and objections | Not NetApp remediation authority |
+| Critical situation/escalation strategy | Shared outcome, urgency, owners and checkpoints | Not customer risk acceptance |
 | Enterprise/partner customers | Cross-party interests and boundaries | Contract interpretation requires owners |
 | Business reviews/analytics | Options, value, decisions and aging | No live NetApp account dataset |
 | Product/Engineering collaboration | Technical disagreement and exact evidence | No private NetApp route/commitment |
@@ -756,7 +756,7 @@ flowchart LR
 
 ### Honest interview statement
 
-> `I influence by establishing shared outcomes, listening for interests and constraints, agreeing evidence and unknowns, and presenting real options with cost, downtime, ownership, priority, reversibility and residual-risk tradeoffs. I prepare a BATNA as a fallback, not a threat; record decisions and accepted risk; and turn agreement into implementation intentions and validation. My production experience is Microsoft-focused, not NetApp remediation negotiation.`
+> `I influence by establishing shared outcomes, listening for interests and constraints, agreeing evidence and unknowns, and presenting real options with cost, downtime, ownership, priority, reversibility and residual-risk tradeoffs. I prepare a BATNA as a fallback, not a threat; record decisions and accepted risk; and turn agreement into implementation intentions and validation. My production experience is focused on a different technology stack, not NetApp remediation negotiation.`
 
 ---
 
@@ -827,7 +827,7 @@ Inject:
 7. Handle all five required objection types.
 8. Govern accepted risk, escalation and decision logs.
 9. Write implementation intentions and action-aging controls.
-10. State Arti's exact nonclaim.
+10. State your exact nonclaim.
 
 ### Lab pass checklist
 
@@ -904,7 +904,7 @@ Inject:
 
 ### Q8. How does your background transfer, and what remains a gap?
 
-> **Model answer:** `Microsoft advisory, CRITSIT, partner/customer objections, business reviews and cross-team escalations give me listening, options, evidence and follow-through skills. I have not negotiated or implemented production NetApp remediation, so live technical options, account/commercial authority and customer risk acceptance remain with authorized owners.`
+> **Model answer:** `Microsoft advisory, critical situation, partner/customer objections, business reviews and cross-team escalations give me listening, options, evidence and follow-through skills. I have not negotiated or implemented production NetApp remediation, so live technical options, account/commercial authority and customer risk acceptance remain with authorized owners.`
 
 ---
 
@@ -926,7 +926,7 @@ Inject:
 - **Commitment:** Owner/date/trigger/proof, not acknowledgment.
 - **Implementation intention:** If/when X, owner does Y, validator proves Z.
 - **Ethical influence:** Truth + real choice + fair disclosed process.
-- **Arti's bridge:** Microsoft objection handling transfers; NetApp remediation authority does not.
+- **Your bridge:** Microsoft objection handling transfers; NetApp remediation authority does not.
 
 ---
 

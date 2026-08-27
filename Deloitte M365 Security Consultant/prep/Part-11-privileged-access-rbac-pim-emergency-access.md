@@ -19,9 +19,9 @@ This Part builds on authentication and Conditional Access from [Part 8](Part-08-
 
 ## Candidate honesty note
 
-Arti can credibly connect this Part to demonstrated experience as a technical advisor and escalation engineer: controlling high-impact support actions, separating diagnosis from authorization, coordinating customer administrators and Microsoft/product vendors, documenting approvals and RCA, validating changes, mentoring engineers, and explaining business impact across SharePoint Online and OneDrive.
+You can credibly connect this Part to demonstrated experience as a technical advisor and escalation engineer: controlling high-impact support actions, separating diagnosis from authorization, coordinating customer administrators and Microsoft/product vendors, documenting approvals and RCA, validating changes, mentoring engineers, and explaining business impact across SharePoint Online and OneDrive.
 
-This Part does **not** claim that Arti owned production Entra RBAC, PIM, Global Administrator governance, PAW deployment, or emergency accounts. Safe wording is:
+This Part does **not** claim that you owned production Entra RBAC, PIM, Global Administrator governance, PAW deployment, or emergency accounts. Safe wording is:
 
 > “I have production experience leading high-impact Microsoft 365 escalations with controlled changes, stakeholder authorization, vendor coordination, documentation, and validation. I have built a current privileged-access paper design covering Entra RBAC, PIM, role-assignable groups, administrative units, secure admin devices, emergency access, tests, and operations. I can defend the design and troubleshooting method while being explicit that it is structured learning rather than production Entra ownership.”
 

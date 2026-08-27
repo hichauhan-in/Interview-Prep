@@ -1,6 +1,6 @@
 # Part 004 - What Developer Support Engineering Actually Is
 
-> Section goal: Make the biggest behavioural adjustment of this transition — from supporting IT administrators who change settings, to supporting software engineers who write code. Learn what a developer audience expects, what a good developer-support answer contains, and where habits that served you well at Microsoft need retuning.
+> Section goal: Make the biggest behavioural adjustment of this transition — from supporting IT administrators who change settings, to supporting software engineers who write code. Learn what a developer audience expects, what a good developer-support answer contains, and where habits that served you well in a previous role need retuning.
 
 Covers index item **004**. Maps to JD signals: *resolve technical and non-technical customer issues*, *exceed customer expectations on response quality*, *knowledge of software development fundamentals*, *business and technical analysis skills and knowledge of the Development lifecycle*, *promote best practices*, and *contribute to a repository of product-area knowledge*.
 
@@ -94,7 +94,7 @@ Why it is only adequate: correct, but the developer learns nothing and will hit 
 
 That answer resolves the case, prevents two future cases, teaches a concept, and demonstrates exactly the "response quality" the JD asks you to exceed on.
 
-> 💡 **Tie-in to your background:** you already write structured technical communications for CRITSIT bridges and Engineering escalations. The structure above is the same discipline with a different payload. What is *new* is that element 5 is code, and element 6 is a specification.
+> 💡 **Tie-in to your background:** you already write structured technical communications for critical-situation bridges and Engineering escalations. The structure above is the same discipline with a different payload. What is *new* is that element 5 is code, and element 6 is a specification.
 
 ---
 
@@ -131,7 +131,7 @@ This is the most concrete difference from your current role.
 
 ```mermaid
 flowchart LR
-    subgraph Old["Microsoft ODSP escalation evidence"]
+    subgraph Old["enterprise escalation evidence"]
         A1["Tenant and admin configuration"]
         A2["Client logs and sync logs"]
         A3["Procmon and network captures"]
@@ -207,11 +207,11 @@ The consequences:
 
 ---
 
-## 6. Where Your Microsoft Habits Need Retuning
+## 6. Where Your Existing Habits Need Retuning
 
 Be honest with yourself about these. Naming them in an interview is a strength.
 
-| Habit that serves you at Microsoft | Why it needs adjusting here | The adjustment |
+| Habit that serves you in traditional support | Why it needs adjusting here | The adjustment |
 |---|---|---|
 | Reaching for admin configuration first | Most developer tickets are implementation, not configuration | Ask for the code and the token before the config |
 | Screenshots as primary evidence | A screenshot of a browser error contains almost no diagnostic information | Ask for a HAR and the decoded token instead |

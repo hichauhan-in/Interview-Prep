@@ -1,12 +1,12 @@
 # Part 4 - How Computers Store Data: Bits, Blocks, Files, Objects, and Metadata
 
-> **Section goal:** Build a beginner-first mental model of how data moves from physical media to application-visible files, block devices, database pages, and cloud objects. By the end, Arti should be able to calculate addresses and units, identify which layer owns which information, recognize workload fingerprints, ask useful customer questions, and make bounded storage recommendations without claiming unearned product or production experience.
+> **Section goal:** Build a beginner-first mental model of how data moves from physical media to application-visible files, block devices, database pages, and cloud objects. By the end, you should be able to calculate addresses and units, identify which layer owns which information, recognize workload fingerprints, ask useful customer questions, and make bounded storage recommendations without claiming unearned product or production experience.
 
 Covers index item **4** and maps directly to job-description responsibilities for storage depth, customer-environment analysis, technical-risk identification, customer-specific recommendations, support-experience improvement, troubleshooting, strategic planning, and clear technical communication.
 
 This Part is deliberately architecture-first and product-light. Exact device behavior, file-system implementation, database design, protocol semantics, NetApp platform behavior, limits, supportability, and performance depend on the actual products, releases, configurations, and workloads. Those facts must be checked in current official documentation and authorized customer evidence.
 
-> **Evidence boundary:** Every customer, system name, measurement, calculation input, and recommendation scenario in this Part is synthetic. The exercises require no production system, NetApp tool, customer data, or privileged access. They demonstrate reasoning, not Arti's production storage administration experience.
+> **Evidence boundary:** Every customer, system name, measurement, calculation input, and recommendation scenario in this Part is synthetic. The exercises require no production system, NetApp tool, customer data, or privileged access. They demonstrate reasoning, not your production storage administration experience.
 
 ---
 
@@ -1081,7 +1081,7 @@ flowchart LR
 
 ## 15. Fully synthetic customer workload comparison
 
-> **Synthetic evidence boundary:** Alder Manufacturing Group, all workloads, people, quantities, dates, measurements, risks, and recommendations below are fictional. This is a paper case, not a NetApp sizing exercise, benchmark, product recommendation, support result, or record of Arti's production work. Real decisions require current authorized measurements, application guidance, supportability validation, qualified design review, and testing.
+> **Synthetic evidence boundary:** Alder Manufacturing Group, all workloads, people, quantities, dates, measurements, risks, and recommendations below are fictional. This is a paper case, not a NetApp sizing exercise, benchmark, product recommendation, support result, or record of your production work. Real decisions require current authorized measurements, application guidance, supportability validation, qualified design review, and testing.
 
 ### 15.1 Customer context
 
@@ -1184,9 +1184,9 @@ This is a decimal payload-rate orientation before overhead. The operation rate a
 
 ---
 
-## 16. Arti's Microsoft 365 transfer bridge
+## 16. Your cloud-service transfer bridge
 
-Arti's SharePoint and OneDrive background provides a useful analogy for layered data handling, but it does not prove production ownership of their internal storage implementation or of NetApp storage.
+Your SharePoint and OneDrive background provides a useful analogy for layered data handling, but it does not prove production ownership of their internal storage implementation or of NetApp storage.
 
 ### OneDrive and SharePoint transfer analogy
 
@@ -1211,7 +1211,7 @@ flowchart LR
 
 ### Transferable method
 
-| Familiar Microsoft support method | Storage-facing transfer | Boundary to state honestly |
+| Familiar enterprise support method | Storage-facing transfer | Boundary to state honestly |
 |---|---|---|
 | Separate file name from sync state and service version | Separate file path, metadata, allocated blocks, and physical storage | No claim about Microsoft internal media or NetApp implementation |
 | Check identity, permission, client, network, and service evidence | Check client/initiator, path, protocol, namespace/LUN, storage, and application evidence | Protocol and ONTAP depth remains learned, labbed, or SME-reviewed |
@@ -1650,7 +1650,7 @@ Answer these without notes, then verify against the Part.
 - **Compression and deduplication:** Fewer representations, but measured behavior belongs in Part 34.
 - **Telemetry:** Every metric has a field of view.
 - **Recommendation:** Outcome -> fingerprint -> constraints -> options -> test -> owner -> proof.
-- **Arti's bridge:** Transfer M365 systems thinking, not unearned storage credentials.
+- **Your bridge:** Transfer M365 systems thinking, not unearned storage credentials.
 
 ---
 

@@ -27,11 +27,11 @@ After completing this Part, you should be able to:
 - recognize automation bias, anchoring, confirmation bias, selection bias, fatigue, and hindsight bias;
 - separate override, correction, appeal, feedback, label, retraining, and product change;
 - create an audit trail for output, explanation, policy, reviewer, action, and later outcome; and
-- use Arti's customer communication, Copilot evaluation/training, fix validation, analytics/SQL/Python, mentoring, and escalation only as transferable facts.
+- use your customer communication, Copilot evaluation/training, fix validation, analytics/SQL/Python, mentoring, and escalation only as transferable facts.
 
 ## JD Mapping
 
-| Supplied role signal | Capability built | Transferable Arti evidence | Boundary |
+| Supplied role signal | Capability built | Transferable evidence | Boundary |
 |---|---|---|---|
 | Behavioral false-positive cases | Builds local evidence and correction/feedback record | Reproduction and fix validation | No claim of inspecting hidden Abnormal attribution |
 | Threat investigations | Separates contributing signal from proof/causation | Complex evidence-based investigations | No production threat-verdict ownership |
@@ -46,7 +46,7 @@ After completing this Part, you should be able to:
 
 | Evidence tier | Safe statement | Must not be implied |
 |---|---|---|
-| **Production transfer** | "I have translated complex evidence, validated fixes, created training, and escalated reproducible cases for enterprise customers." | That Arti operated Abnormal explanation tools |
+| **Production transfer** | "I have translated complex evidence, validated fixes, created training, and escalated reproducible cases for enterprise customers." | That you operated Abnormal explanation tools |
 | **Local/public lab** | "I wrote customer, analyst, executive, and Engineering explanations from synthetic signals and audited reviewer decisions." | Use of real customer/model data |
 | **Learned architecture** | "I understand explanation and responsible-human-review concepts from official sources." | That generic methods match Abnormal internals |
 | **No direct experience** | "I have not operated Abnormal AI or reviewed its proprietary explanation implementation in production." | Knowledge of feature weights or explanation algorithms |

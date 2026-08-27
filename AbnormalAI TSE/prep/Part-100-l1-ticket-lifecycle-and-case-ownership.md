@@ -2,7 +2,7 @@
 
 > **Purpose:** Build a product-neutral method for carrying a support request from first receipt through verified resolution, careful closure, possible return, and reusable learning. The method emphasizes truthful communication, visible commitments, safe dependency management, and continuity even when another team performs the technical work.
 >
-> **Artifact honesty label:** **Local synthetic case-lifecycle checklist and sample case journal design only.** Every organization, person, account, tenant, event, timestamp, identifier, observation, commitment, and outcome in this Part is fictional. No lab step was run while this Part was authored. No Abnormal AI, Microsoft, customer, ticketing, email, identity, network, API, security, or production system was accessed or changed. Arti may describe the lab as completed only after she actually creates the local fictional artifacts and records a passing validation.
+> **Artifact honesty label:** **Local synthetic case-lifecycle checklist and sample case journal design only.** Every organization, person, account, tenant, event, timestamp, identifier, observation, commitment, and outcome in this Part is fictional. No lab step was run while this Part was authored. No Abnormal AI, Microsoft, customer, ticketing, email, identity, network, API, security, or production system was accessed or changed. You may describe the lab as completed only after you actually create the local fictional artifacts and records a passing validation.
 >
 > **Currency and source access date:** August 24, 2026.
 
@@ -48,19 +48,19 @@ This Part prohibits sensitive content or secrets; invented progress, status, evi
 | Engineering or Product collaboration | Sends a bounded question and keeps customer communication active | Handoff includes impact, evidence ceiling, exact ask, owner, and return condition | Product-neutral escalation packet row |
 | Recommendations and follow-through | Separates immediate recovery from corrective or preventive follow-up | Confirms the customer outcome and links remaining work without holding closure deceptively | Resolution and residual-work checklist |
 | Knowledge contribution | Converts verified reusable learning into a governed candidate | Captures symptom, environment, cause confidence, safe steps, limits, and review owner | Synthetic knowledge-candidate card |
-| Microsoft enterprise support background | Transfers case discipline, customer communication, escalation, CRITSIT composure, and validation habits | Uses a real Microsoft example only when permitted and labels exact personal contribution | Candidate truth-boundary table |
+| enterprise support background | Transfers case discipline, customer communication, escalation, critical-situation composure, and validation habits | Uses a real Microsoft example only when permitted and labels exact personal contribution | Candidate truth-boundary table |
 | Abnormal AI learning goal | Learns a safe operational method without claiming access or internal knowledge | Uses public product context only and asks for current internal procedure on the job | Product-boundary notes and source table |
 
 ## Candidate honesty note
 
-Arti can truthfully lean on Microsoft enterprise support experience involving SharePoint Online, OneDrive, Sync Client, Copilot, customer and partner communication, complex escalations, critical situations, Engineering or Product collaboration, and fix validation. Those experiences can support statements about disciplined ownership, expectation management, evidence-based updates, calm follow-through, and verification. They do not establish that Arti has used Abnormal AI, worked an Abnormal support queue, operated Zendesk in production, followed Abnormal severity or closure policy, accessed proprietary telemetry, or performed email-security remediation.
+You can truthfully lean on enterprise support experience involving SharePoint Online, OneDrive, Sync Client, Copilot, customer and partner communication, complex escalations, critical situations, Engineering or Product collaboration, and fix validation. Those experiences can support statements about disciplined ownership, expectation management, evidence-based updates, calm follow-through, and verification. They do not establish that you have used Abnormal AI, worked an Abnormal support queue, operated Zendesk in production, followed Abnormal severity or closure policy, accessed proprietary telemetry, or performed email-security remediation.
 
-A strong interview bridge is: “In Microsoft enterprise support, I learned that ownership is not the same as personally performing every task. I kept the customer outcome, next action, dependency, communication checkpoint, and escalation question visible until validation. I have not worked in Abnormal’s production support environment, so I would learn its current case system, service commitments, permissions, and security escalation paths rather than importing Microsoft terminology or assuming the workflow is identical.”
+A strong interview bridge is: “In enterprise support, I learned that ownership is not the same as personally performing every task. I kept the customer outcome, next action, dependency, communication checkpoint, and escalation question visible until validation. I have not worked in Abnormal’s production support environment, so I would learn its current case system, service commitments, permissions, and security escalation paths rather than importing prior-employer terminology or assuming the workflow is identical.”
 
 | Evidence category | Safe candidate wording | Claim that would exceed the evidence |
 |---|---|---|
-| Microsoft production experience | “I managed enterprise support communication, investigation checkpoints, cross-team escalation, and fix validation in Microsoft contexts.” | “I know Abnormal’s ticket lifecycle because all enterprise support systems work the same way.” |
-| Critical-case transfer | “I learned to keep a clear timeline, decision owner, customer cadence, and next checkpoint during high-impact Microsoft cases.” | “I would use Microsoft CRITSIT rules or timing as Abnormal policy.” |
+| prior production experience | “I managed enterprise support communication, investigation checkpoints, cross-team escalation, and fix validation in prior-employer contexts.” | “I know Abnormal’s ticket lifecycle because all enterprise support systems work the same way.” |
+| Critical-case transfer | “I learned to keep a clear timeline, decision owner, customer cadence, and next checkpoint during high-impact Microsoft cases.” | “I would use enterprise critical-situation rules or timing as Abnormal policy.” |
 | Local synthetic practice | “I completed a fictional offline case-journal exercise and scored it against explicit gates,” but only after actual completion | “I operated a live Abnormal or Zendesk case.” |
 | Public product learning | “I reviewed public Abnormal platform and trust material to understand the company’s high-level context.” | “I know Abnormal’s private queues, automation, case fields, telemetry, model logic, or response authority.” |
 | Proposed behavior | “I would use the current approved case procedure, document the dependency, and maintain the agreed customer checkpoint.” | “I would promise an update every two hours” without a supplied policy, severity rule, or agreement |
@@ -229,7 +229,7 @@ The analogy stops because support plans have contractual targets, privacy constr
 
 Cadence can be **time-driven** or **event-driven**. A time-driven checkpoint follows a documented interval or explicit agreement. An event-driven update occurs when severity changes, a hypothesis is rejected, a workaround is found, an escalation is accepted, an expected dependency misses its checkpoint, the customer supplies evidence, a security concern appears, or the resolution state changes.
 
-This Part provides no Abnormal SLA, SLO, severity matrix, response time, update interval, or escalation clock. Those belong to current contracts and approved operating procedures and are studied more directly in Part 102. In an interview, Arti should say she follows the applicable service commitment and adjusts communication to impact and change, not quote an invented number.
+This Part provides no Abnormal SLA, SLO, severity matrix, response time, update interval, or escalation clock. Those belong to current contracts and approved operating procedures and are studied more directly in Part 102. In an interview, you should say you follow the applicable service commitment and adjusts communication to impact and change, not quote an invented number.
 
 | Case condition | What the update should contain | What it must not imply | Follow-through record |
 |---|---|---|---|
@@ -664,12 +664,12 @@ flowchart LR
 
 Interviewers often test whether “ownership” means constant motion, heroic individual effort, or reliable control. A mature answer focuses on continuity and truth: define the customer outcome, communicate receipt, maintain a current plan, manage dependencies, record decisions, escalate precisely, validate the original outcome, and close transparently.
 
-| Interview prompt | Structure Arti can use | Microsoft background bridge | Boundary statement |
+| Interview prompt | Structure you can use | prior background bridge | Boundary statement |
 |---|---|---|---|
-| “How do you own a ticket?” | Outcome, owner, next action, checkpoint, evidence, dependency, validation, closure | Discuss a permitted enterprise support example where multiple roles contributed but Arti maintained continuity | Do not claim the same fields or process exist at Abnormal |
+| “How do you own a ticket?” | Outcome, owner, next action, checkpoint, evidence, dependency, validation, closure | Discuss a permitted enterprise support example where multiple roles contributed but you maintained continuity | Do not claim the same fields or process exist at Abnormal |
 | “What if Engineering has it?” | Accepted ask, ownership split, customer cadence, follow-up, returned evidence | Explain collaboration with Microsoft Engineering or Product in exact personal terms | Do not claim influence over another team’s ETA |
 | “When do you close?” | Original outcome, validation, confirmation/policy, residual links, final summary | Explain fix validation and expectation management | Do not quote an Abnormal closure rule not supplied publicly |
-| “How do you handle critical cases?” | Safety, impact, current incident process, role clarity, material-event updates | Use a genuine CRITSIT lesson if permitted | Microsoft CRITSIT process is not Abnormal policy |
+| “How do you handle critical cases?” | Safety, impact, current incident process, role clarity, material-event updates | Use a genuine critical-situation lesson if permitted | enterprise critical-situation process is not Abnormal policy |
 | “How do you create knowledge?” | Capture, sanitize, generalize, validate, review, publish, maintain | Explain any real documentation contribution accurately | Do not claim KCS implementation or publication authority without evidence |
 
 The most credible answer includes a moment where the plan changed because evidence changed. That demonstrates judgment. A perfectly linear story can sound rehearsed and can hide the central skill: updating the case truthfully without losing the customer, the timeline, or the next commitment.
@@ -684,7 +684,7 @@ The lab objective is to build one complete fictional case-lifecycle checklist an
 
 - A learner-owned local folder and a plain-text or Markdown editor.
 - This Part available locally for reference.
-- No Abnormal AI account, Microsoft production account, customer system, support portal, Zendesk instance, Salesforce instance, Jira project, Confluence space, mailbox, API, identity provider, network target, or cloud resource.
+- No Abnormal AI account, prior production account, customer system, support portal, Zendesk instance, Salesforce instance, Jira project, Confluence space, mailbox, API, identity provider, network target, or cloud resource.
 - No password, passphrase, token, cookie, API key, client secret, private key, certificate private material, MFA code, recovery code, authenticated connection string, or credential-shaped placeholder.
 - No real person, company, customer, tenant, domain, email address, IP address, host, URL, message, request ID, case ID, screenshot, log, HAR, packet capture, attachment, or customer content.
 - Use only obvious aliases such as `CASE-100-LAB`, `Owner-L1-A100`, `Customer-A100`, `principal-A100`, `resource-A100`, `DEP-100-LAB`, and reserved domain `example.invalid` if a domain-shaped placeholder is necessary.
@@ -829,7 +829,7 @@ If the lab is actually performed later, expected evidence is:
 - Do not make any real account, role, consent, policy, configuration, routing, connector, mailbox, allowlist, threshold, remediation, or security-control change.
 - Do not delete, purge, clear, wipe, reset, revoke, quarantine, release, overwrite, or otherwise alter real data, evidence, messages, accounts, or systems.
 - Verify that all statuses, owners, customer statements, specialist acceptances, validations, and times are labeled as authored fictional events.
-- Verify that no final text implies the designed lab ran during authoring or that Arti has direct Abnormal or Zendesk production experience.
+- Verify that no final text implies the designed lab ran during authoring or that you have direct Abnormal or Zendesk production experience.
 - If real or sensitive information enters the folder, stop copying, processing, and sharing it; restrict further exposure and use the approved privacy/security process. This Part grants no incident-response or deletion authority.
 - If unperformed, record `CaseLifecycleLab 100 remains a reviewed design and was not executed.`
 - If later performed and passed, record `CaseLifecycleLab 100 was completed locally using learner-authored fictional text only; no product, customer, production system, external service, sensitive content, secret, fabricated status or ETA, premature closure, abandoned ownership, security bypass, unapproved change, upload, or destructive action was used.`
@@ -856,7 +856,7 @@ Score every row. Any automatic-fail condition makes the overall result Fail rega
 | Closure | Queue age, silence, metric, or handoff triggers closure | Most notes complete but residual work is vague | Resolution state, final communication, accepted links, privacy, return path, and policy conditions all pass |
 | Reopen | History is rewritten or recurrence hidden | Reopen occurs without relationship analysis | Same outcome, environment, continuity, policy, and linked history drive a transparent decision |
 | Knowledge capture | Case content is copied or unverified cause is published | Sanitized draft lacks audience or owner | Reusable pattern is sanitized, scoped, validated, reviewed, owned, limited, and freshness-controlled |
-| Candidate honesty | Lab or Microsoft work is presented as Abnormal/Zendesk experience | Gap is implied rather than stated | Microsoft transfer, synthetic practice, learned concepts, and direct product gap are separated |
+| Candidate honesty | Lab or prior work is presented as Abnormal/Zendesk experience | Gap is implied rather than stated | experience transfer, synthetic practice, learned concepts, and direct product gap are separated |
 | Product boundary | Internal Abnormal field, queue, SLA, permission, or workflow is invented | Product references are broad but boundaries are inconsistent | Public product context is attributed and all operational specifics defer to current authorized sources |
 | Lab execution honesty | Designed steps are described as performed | State is ambiguous | Not-executed state remains explicit; completion is conditional on real local artifacts and a pass |
 | Deterministic review | No evidence pointers or repair cap | Informal checklist only | Every gate has Pass/Fail evidence, automatic fails are searched, repairs are recorded, and cycles do not exceed three |
@@ -880,7 +880,7 @@ These official or primary sources anchor public product context, service-managem
 | [NIST SP 800-61 Rev. 3](https://csrc.nist.gov/pubs/sp/800/61/r3/final) | Current incident-response recommendations integrated with cybersecurity risk management | It does not make L1 an incident commander or authorize evidence collection, containment, eradication, recovery, or notification |
 | [NIST Privacy Framework](https://www.nist.gov/privacy-framework) | Primary privacy-risk management framework and current resource family | A framework is not a customer data-handling procedure, retention rule, legal conclusion, or permission to collect information |
 | [ISO 10002:2018 Quality management - Customer satisfaction - Guidelines for complaints handling](https://www.iso.org/standard/71580.html) | Primary standard-page context for complaint-handling guidance and customer-focused process | The standard page does not specify a software support ticket implementation, contract, queue, field, or response target |
-| [Microsoft incident response overview](https://learn.microsoft.com/en-us/security/operations/incident-response-overview) | Official Microsoft example of preparation, roles, investigation, containment, recovery, and lessons | Microsoft guidance is not Abnormal procedure and does not establish Arti’s authority outside her documented experience |
+| [Microsoft incident response overview](https://learn.microsoft.com/en-us/security/operations/incident-response-overview) | Official Microsoft example of preparation, roles, investigation, containment, recovery, and lessons | Microsoft guidance is not Abnormal procedure and does not establish your authority outside your documented experience |
 | [Microsoft Privacy Statement](https://privacy.microsoft.com/en-us/privacystatement) | Official Microsoft public privacy statement and data-use context | It is not the privacy notice, data-processing agreement, retention schedule, or support-data policy for Abnormal or a customer |
 
 Source discipline:
@@ -890,14 +890,14 @@ Source discipline:
 - KCS sources anchor knowledge-centered concepts, not permission to expose a case, publish content, or claim a team’s maturity model.
 - NIST and CISA sources support risk and incident-response reasoning, not authority for L1 to collect, contain, eradicate, recover, disclose, or notify.
 - ISO’s public standard page identifies complaint-handling guidance; access to or conformity with a standard must not be assumed.
-- Microsoft sources provide truthful conceptual bridges for Arti’s background only. Microsoft products, policies, critical-case models, collection tools, and terminology do not automatically transfer to Abnormal.
+- Microsoft sources provide truthful conceptual bridges for your background only. Microsoft products, policies, critical-case models, collection tools, and terminology do not automatically transfer to Abnormal.
 - Sources and products can change after August 24, 2026. Revalidate current approved documentation, customer agreements, security requirements, and operating procedures before real work.
 
 ## Likely Interview Questions
 
 ### Q1. What does end-to-end L1 case ownership mean to you?
 
-**Model answer:** It means I remain accountable for movement and continuity from receipt through the governed end state. I acknowledge the request, define the customer outcome, keep a current action plan, record evidence and decisions, manage dependencies, maintain the right communication rhythm, escalate a bounded question when another owner is needed, validate the original outcome, and close transparently. It does not mean I personally perform every specialist action or act outside my authority. My Microsoft enterprise support background developed that coordination discipline; I would learn Abnormal’s actual case fields, commitments, permissions, and transfer rules rather than assume them.
+**Model answer:** It means I remain accountable for movement and continuity from receipt through the governed end state. I acknowledge the request, define the customer outcome, keep a current action plan, record evidence and decisions, manage dependencies, maintain the right communication rhythm, escalate a bounded question when another owner is needed, validate the original outcome, and close transparently. It does not mean I personally perform every specialist action or act outside my authority. My prior enterprise support background developed that coordination discipline; I would learn Abnormal’s actual case fields, commitments, permissions, and transfer rules rather than assume them.
 
 ### Q2. How do you acknowledge a ticket when you do not yet know the cause?
 
@@ -1000,8 +1000,8 @@ Source discipline:
 - [ ] I understand public KCS ideas without claiming an Abnormal or Microsoft KCS implementation.
 - [ ] I can walk the configuration, API, and security-sensitive worked examples while naming their evidence limits.
 - [ ] I can use the case-lifecycle checklist and sample journal without treating them as a production platform schema.
-- [ ] I can explain how Microsoft enterprise support experience demonstrates transferable ownership and communication.
-- [ ] I explicitly state that Microsoft terminology, CRITSIT practice, tooling, and policy do not define Abnormal operations.
+- [ ] I can explain how enterprise support experience demonstrates transferable ownership and communication.
+- [ ] I explicitly state that prior-employer terminology, critical-situation practice, tooling, and policy do not define Abnormal operations.
 - [ ] I state honestly that I have not operated Abnormal AI or Zendesk in production unless future real experience changes that fact.
 - [ ] I can explain the framework or product boundary for every official source.
 - [ ] I revalidate current product documentation, customer contract, security handling, and operating procedure after August 24, 2026.

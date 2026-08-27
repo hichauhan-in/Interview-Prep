@@ -1,20 +1,20 @@
 # Part 2 - Zscaler Mission, AI-Forward Strategy, Culture, and Interview Signals
 
-> **Audience:** Arti Thakur, preparing to move from Microsoft enterprise Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
+> **Audience:** Candidates preparing to move from enterprise Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
 >
 > **Currency date:** 2026-08-24.
 >
-> **Honesty rule:** This chapter separates official Zscaler statements, reasonable interpretation, general industry knowledge, fictional practice, and Arti's factual experience. Direct production operation of Zscaler, Security Operations, vulnerability-management, or exposure-management products is not established.
+> **Honesty rule:** This chapter separates official Zscaler statements, reasonable interpretation, general industry knowledge, fictional practice, and your factual experience. Direct production operation of Zscaler, Security Operations, vulnerability-management, or exposure-management products is not established.
 >
 > **Product caveat:** Product names, portfolios, packaging, interfaces, metrics, and culture wording can change. Confirm current official pages, the active job description, customer licensing, and tenant behavior before relying on any detail.
 
 ## Section goal
 
-This chapter explains why Zscaler exists, how its zero trust and artificial intelligence direction connects to customer outcomes, and what its published culture language may mean in daily work. The goal is not to memorize slogans. The goal is to turn every statement into a testable behavior: what Arti would do, what evidence she would show, what failure pattern she would avoid, and what business result would matter.
+This chapter explains why Zscaler exists, how its zero trust and artificial intelligence direction connects to customer outcomes, and what its published culture language may mean in daily work. The goal is not to memorize slogans. The goal is to turn every statement into a testable behavior: what you would do, what evidence you would show, what failure pattern you would avoid, and what business result would matter.
 
-Think of company research as studying a map before leading an expedition. A slogan names the destination. Product pages describe available vehicles. Culture pages describe how the crew says it will work. The job description says which seat Arti is interviewing for. None of those sources proves how every real journey unfolds. A strong candidate compares them, labels uncertainty, asks informed questions, and never invents experience.
+Think of company research as studying a map before leading an expedition. A slogan names the destination. Product pages describe available vehicles. Culture pages describe how the crew says it will work. The job description says which seat you are interviewing for. None of those sources proves how every real journey unfolds. A strong candidate compares them, labels uncertainty, asks informed questions, and never invents experience.
 
-By the end of Part 2, Arti should be able to:
+By the end of Part 2, you should be able to:
 
 | Learning outcome | What good looks like |
 |---|---|
@@ -23,7 +23,7 @@ By the end of Part 2, Arti should be able to:
 | Translate platform language | Connect secure, simplify, and transform to measurable customer outcomes and operating tradeoffs |
 | Explain the AI-forward context | Discuss AI as product capability, attacker force multiplier, employee workflow, and governance concern |
 | Decode culture signals | Translate impact, trust, customer obsession, transparency, debate, speed, quality, ownership, accountability, collaboration, urgency, high performance, and inclusion into behavior |
-| Build interview evidence | Use factual Arti examples where supported and label conceptual or fictional examples clearly |
+| Build interview evidence | Use factual your examples where supported and label conceptual or fictional examples clearly |
 | Research responsibly | Distinguish stable ideas from volatile terminology, metrics, packaging, and market claims |
 | Answer why questions | Deliver credible Why Zscaler, Why now, and Why the AI age answers without flattery or unsupported claims |
 
@@ -44,13 +44,13 @@ By the end of Part 2, Arti should be able to:
 
 ## Candidate honesty note
 
-Arti can factually discuss more than five years of Microsoft enterprise support and escalation work; SharePoint Online, OneDrive for Business, Sync, and Copilot-related scenarios; business-critical escalations and Critical Situations; network, browser, process, and application evidence; Engineering and Product Group coordination; analytics; mentoring; onboarding; training; Technical Advisor work; Copilot Studio agents; AI tool evaluation; certifications; and the customer-satisfaction and recognition figures recorded in the approved background.
+You can factually discuss several years of enterprise support and escalation work; SharePoint Online, OneDrive for Business, Sync, and Copilot-related scenarios; business-critical escalations and Critical Situations; network, browser, process, and application evidence; Engineering and Product Group coordination; analytics; mentoring; onboarding; training; technical advisor work; Copilot Studio agents; AI tool evaluation; certifications; and the customer-satisfaction and recognition figures recorded in your documented background.
 
 Those facts must not be converted into claims of production Zscaler administration, formal Security Operations program ownership, vulnerability-program leadership, or autonomous security response. The following labels should be audible in interview answers:
 
 | Evidence label | Meaning | Safe language | Unsafe conversion |
 |---|---|---|---|
-| Production | Performed in a real role and defensible in detail | "In my Microsoft production support work..." | Present Microsoft evidence as Zscaler exposure-program ownership |
+| Production | Performed in a real role and defensible in detail | "In my prior production support work..." | Present prior evidence as Zscaler exposure-program ownership |
 | Lab | Performed in a controlled exercise with retained evidence | "In a synthetic lab, I modeled..." | "I delivered this for an enterprise customer" |
 | Conceptual | Understands architecture and validation method | "Conceptually, I would validate..." | "I implemented it" |
 | Fictional | Invented account or scenario for practice | "In the fictional Northstar Meridian exercise..." | "My customer had..." |
@@ -84,7 +84,7 @@ An acronym is a shortened name built from initial letters. The safest learning p
 
 The official Zscaler company page dated for this guide states its mission as: **"To anticipate, secure, and simplify the experience of doing business, transforming today and tomorrow."** It states a vision of a world in which the exchange of information is always secure and seamless. The careers page describes high-performing teams and a culture of execution centered on customer obsession, collaboration, ownership, and accountability. The culture page documents commitments to the mission, the outcome, and each other, plus behaviors around ownership, collaboration, trust through outcomes and impact, and constructive challenge.
 
-Those are documented statements. The interview translations in this chapter are interpretations designed to prepare Arti. They are not promises about every manager, team, meeting, or employment experience.
+Those are documented statements. The interview translations in this chapter are interpretations designed to prepare you. They are not promises about every manager, team, meeting, or employment experience.
 
 | Claim type | Example | How to introduce it | Verification duty |
 |---|---|---|---|
@@ -94,7 +94,7 @@ Those are documented statements. The interview translations in this chapter are 
 | Interpretation | A TSM should use an action register to make accountability visible | "My interpretation for this role is..." | Explain the reasoning and ask how the team works |
 | General industry concept | AI governance needs authorization, data controls, evaluation, and human oversight | "A general control pattern is..." | Align with customer policy and applicable law |
 | Fictional scenario | NMH tests a machine-generated recommendation before action | "In the fictional case..." | Never present as production evidence |
-| Candidate fact | Arti led Microsoft business-critical escalations | "In my Microsoft production experience..." | Preserve scope, role, and metric context |
+| Candidate fact | You led Microsoft business-critical escalations | "In my prior production experience..." | Preserve scope, role, and metric context |
 
 ## Mission from first principles
 
@@ -273,7 +273,7 @@ Responsible discussion avoids sensationalism. Ask what changed in speed, cost, p
 
 ### AI as employee workflow
 
-Arti has factual experience with Copilot Studio agents, AI tool evaluation, certifications, and training as represented in the approved background. This supports a credible employee-workflow story: identify a repetitive task, use an approved tool, protect data, evaluate output, keep human review, measure whether quality or time improves, and teach others the safe pattern.
+You have factual experience with Copilot Studio agents, AI tool evaluation, certifications, and training as represented in your documented background. This supports a credible employee-workflow story: identify a repetitive task, use an approved tool, protect data, evaluate output, keep human review, measure whether quality or time improves, and teach others the safe pattern.
 
 | Workflow stage | Good employee behavior | Weak behavior | Evidence |
 |---|---|---|---|
@@ -324,7 +324,7 @@ Imagine a junior incident coordinator. The coordinator may collect logs, compare
 | Monitoring | How are drift and abuse detected? | Logs, alerts, sampling, and review | Silent degradation |
 | Accountability | Who owns the outcome? | Named business and technical owners | "The AI decided" |
 
-For an interview, Arti can say: "My direct AI evidence is employee workflow and enablement, not autonomous SecOps production deployment. I would transfer the same disciplined pattern: approved data, grounded output, human validation, explicit authority, audit, and outcome measurement."
+For an interview, you can say: "My direct AI evidence is employee workflow and enablement, not autonomous SecOps production deployment. I would transfer the same disciplined pattern: approved data, grounded output, human validation, explicit authority, audit, and outcome measurement."
 
 ## Culture is an operating system
 
@@ -357,18 +357,18 @@ flowchart TD
 
 This table translates every signal required for this chapter. The translation is preparation, not a claim that every phrase is an exact official value label.
 
-| Signal | Observable behavior | Anti-pattern | Useful metric | Interview evidence | Scenario question | Factual Arti bridge |
+| Signal | Observable behavior | Anti-pattern | Useful metric | Interview evidence | Scenario question | Factual experience bridge |
 |---|---|---|---|---|---|---|
 | Impact over activity | Defines outcome, baseline, decision, and validation before counting work | Lists meetings, emails, or hours as success | Customer outcome, quality, recurrence, adoption | Backlog or case-quality analysis that changed action | "You held ten workshops but adoption did not move. What next?" | Production analytics and service-quality improvement |
 | Trust through results | Makes realistic commitments, closes loops, and shows evidence | Overpromises, hides delay, relies on title | Commitment reliability, acceptance, confidence | Strong CSAT and repeated recognition with a specific story | "You will miss a milestone. How do you protect trust?" | Production customer and escalation work |
-| Customer obsession | Starts with customer impact and durable value, not automatic agreement | Says yes to unsafe, impossible, or low-value requests | Outcome attainment, sentiment, avoidable friction | High-pressure case where business impact guided priorities | "A customer demands a risky bypass. What do you do?" | Microsoft enterprise customer ownership |
-| Transparency | Labels facts, assumptions, risks, uncertainty, and changes promptly | Surprises stakeholders or performs false certainty | Time to disclose risk, forecast accuracy, decision clarity | Bad-news communication in an escalation | "A dashboard improved because data disappeared. What do you say?" | Evidence-led CRITSIT communication |
+| Customer obsession | Starts with customer impact and durable value, not automatic agreement | Says yes to unsafe, impossible, or low-value requests | Outcome attainment, sentiment, avoidable friction | High-pressure case where business impact guided priorities | "A customer demands a risky bypass. What do you do?" | enterprise customer ownership |
+| Transparency | Labels facts, assumptions, risks, uncertainty, and changes promptly | Surprises stakeholders or performs false certainty | Time to disclose risk, forecast accuracy, decision clarity | Bad-news communication in an escalation | "A dashboard improved because data disappeared. What do you say?" | Evidence-led critical-situation communication |
 | Constructive honest debate | Challenges ideas with evidence, listens, proposes options, then commits | Personal attack, silence, or endless relitigation | Decision time, rework, dissent quality | Engineering or Product discussion resolved around evidence | "You disagree with a senior architect. How do you proceed?" | Cross-functional technical investigation |
 | Speed with quality | Uses bounded scope, explicit quality gates, and rapid feedback | Rushes unsafe output or perfects low-value work | Time to value plus defect or rework rate | Rapid triage with validation before closure | "Security urgency conflicts with change safety. What is your plan?" | Business-critical escalation discipline |
-| Ownership | Steps from strategy into action, clarifies owner, and protects continuity | Waits behind the organization chart or absorbs every task | Accepted ownership, blocker age, closure | Maintained one narrative across teams | "A blocker falls between teams. Who owns it?" | CRITSIT and Technical Advisor experience |
+| Ownership | Steps from strategy into action, clarifies owner, and protects continuity | Waits behind the organization chart or absorbs every task | Accepted ownership, blocker age, closure | Maintained one narrative across teams | "A blocker falls between teams. Who owns it?" | critical situation and technical advisor experience |
 | Accountability | Accepts responsibility for commitments, evidence, and correction | Blames handoffs or hides a miss | On-time closure, recurrence actions, forecast accuracy | A miss followed by corrective action | "Your recommendation caused rework. What do you do?" | RCA and fix-validation habits |
 | Collaboration | Co-creates decisions and adapts between strategic and hands-on work | Consensus theater, heroics, or passive attendance | Cross-team action completion, handoff quality | Support, Engineering, Product Group, or partner coordination | "Two teams optimize conflicting goals. How do you align them?" | Production cross-functional work |
-| High performance | Sets a clear bar, seeks feedback, learns, and repeatedly improves | Unsustainable heroics or competition that damages the team | Quality trend, independence, outcome consistency | Mentoring and quality improvement | "How do you raise the bar without burning out the team?" | Mentoring, onboarding, 100+ recognitions |
+| High performance | Sets a clear bar, seeks feedback, learns, and repeatedly improves | Unsustainable heroics or competition that damages the team | Quality trend, independence, outcome consistency | Mentoring and quality improvement | "How do you raise the bar without burning out the team?" | Mentoring, onboarding, repeated peer and customer recognition |
 | Urgency | Acts on material risk now while sequencing reversible steps | Panic, reckless change, or delay disguised as analysis | Time to contain, time to decision, stale blocker age | First response to a critical situation | "A connector fails during a vulnerability emergency. First hour?" | Business-critical escalation leadership |
 | Inclusion | Invites relevant perspectives, makes context accessible, and separates challenge from status | Dominant voices decide; remote or junior staff cannot contribute | Participation, decision input diversity, follow-through | Training tailored to mixed audiences | "An expert repeatedly dismisses a junior analyst. What do you do?" | Mentoring, training, onboarding, interviews |
 
@@ -392,7 +392,7 @@ flowchart LR
 | Outcome | Cloud data arrived fresh and reconciled | "The connector is green" | "Counts and sample records matched agreed tolerances" |
 | Impact | Risk decisions no longer omitted cloud assets | "The dashboard looks better" | "Executives stopped using invalid trend data and urgent assets remained visible" |
 
-The interview test is usually a follow-up: "What changed because of your work?" Arti should answer with a before state, intervention, measured after state, and caveat. Her production backlog and case-quality analysis can support this signal if she preserves the real scope and outcome.
+The interview test is usually a follow-up: "What changed because of your work?" You should answer with a before state, intervention, measured after state, and caveat. Your production backlog and case-quality analysis can support this signal if you preserve the real scope and outcome.
 
 ## Trust through results
 
@@ -416,7 +416,7 @@ flowchart TD
 | Honest forecast | Gives conditions, dependencies, and confidence | Invents an ETA | Withdraw unsupported ETA and provide next checkpoint |
 | Closure | Confirms customer acceptance and prevention actions | Closes when an internal task ends | Validate the customer outcome |
 
-Arti's recorded customer-satisfaction results and more than 100 recognitions support credibility, but metrics are supporting evidence. A strong answer still needs one specific situation, action, and result.
+Your recorded customer-satisfaction results and repeated peer and customer recognition support credibility, but metrics are supporting evidence. A strong answer still needs one specific situation, action, and result.
 
 ## Customer obsession without customer capitulation
 
@@ -446,7 +446,7 @@ Transparency makes decision-relevant information visible. It does not mean broad
 
 ```mermaid
 sequenceDiagram
-    participant A as Arti
+    participant A as Candidate
     participant B as Colleague or Leader
     participant O as Decision Owner
     A->>B: State shared outcome
@@ -508,7 +508,7 @@ flowchart TD
 | Customer training | Reuse generic slides immediately | Build a semester-long course | Teach one target workflow, use practice, verify teach-back |
 | Policy change | Push globally | Delay every needed control | Test scoped ring, monitor, preserve rollback, expand |
 
-Arti's production CRITSIT work transfers because critical support requires quick scoping, parallel evidence, clear cadence, and validated recovery. It does not prove security-operations authority; that remains a domain and product ramp.
+Your production critical-situation work transfers because critical support requires quick scoping, parallel evidence, clear cadence, and validated recovery. It does not prove security-operations authority; that remains a domain and product ramp.
 
 ## Ownership, accountability, and collaboration
 
@@ -558,7 +558,7 @@ flowchart TD
 | Accessible artifacts | Define jargon and show diagrams | Enables business and technical participation | Acronyms become a status barrier |
 | Outcome recognition | Credit contributors and learning | Reinforces team-first results | Only visible rescue work is rewarded |
 
-Arti can use factual mentoring, onboarding, interview participation, partner training, knowledge articles, and organization-wide AI learning as evidence. The answer should name the learner need, intervention, observed improvement, and what she changed based on feedback.
+You can use factual mentoring, onboarding, interview participation, partner training, knowledge articles, and organization-wide AI learning as evidence. The answer should name the learner need, intervention, observed improvement, and what you changed based on feedback.
 
 ## Plain-English deep-dive 4 - Culture signals are tradeoff tests
 
@@ -577,15 +577,15 @@ Think of values as controls on a mixing board. Turning one dial to maximum can d
 
 The best interview stories contain the tension. "I collaborated" is generic. "I challenged a preferred diagnosis because the timestamp evidence did not fit, invited the service owner to test an alternative, accepted the accountable decision, and validated the result" demonstrates multiple signals.
 
-## Arti's factual evidence map
+## Your factual evidence map
 
-The table below is a preparation aid. Arti should replace generalized descriptions with exact factual stories she can defend.
+The table below is a preparation aid. You should replace generalized descriptions with exact factual stories you can defend.
 
 | Culture signal | Supported factual area | What it can prove | What it cannot prove | Best answer structure |
 |---|---|---|---|---|
-| Customer obsession | Enterprise Microsoft support and strong CSAT | Impact awareness, expectation management, follow-through | CISO advisory experience | Customer impact, evidence, choice, outcome |
-| Trust through results | CSAT and more than 100 recognitions | Repeated service credibility | That every engagement succeeded | Specific promise, obstacle, honest update, closure |
-| Ownership | Business-critical escalations and CRITSITs | Continuity under pressure | Formal incident-command authority in SecOps | Scope, workstreams, owner, cadence, validation |
+| Customer obsession | Enterprise support and strong CSAT | Impact awareness, expectation management, follow-through | CISO advisory experience | Customer impact, evidence, choice, outcome |
+| Trust through results | CSAT and repeated peer and customer recognition | Repeated service credibility | That every engagement succeeded | Specific promise, obstacle, honest update, closure |
+| Ownership | Business-critical escalations and critical situations | Continuity under pressure | Formal incident-command authority in SecOps | Scope, workstreams, owner, cadence, validation |
 | Impact over activity | Backlog and case-quality analysis | Data used to change service action | Security-risk quantification | Baseline, analysis, intervention, measured effect |
 | Constructive debate | Engineering and Product Group coordination | Evidence-led cross-functional challenge | Product roadmap ownership | Shared goal, conflicting views, test, decision |
 | Speed with quality | Trace-led troubleshooting and fix validation | Rapid investigation with evidence gates | Zscaler production troubleshooting | Timeline, hypothesis, discriminating test, result |
@@ -644,7 +644,7 @@ flowchart TD
 
 ## Fictional Northstar Meridian culture scenarios
 
-> **Fiction notice:** Northstar Meridian Holdings is invented for study. Its people, metrics, incidents, product use, and outcomes are synthetic. Arti did not perform this engagement in production.
+> **Fiction notice:** Northstar Meridian Holdings is invented for study. Its people, metrics, incidents, product use, and outcomes are synthetic. You did not perform this engagement in production.
 
 | Fictional scenario | Values in tension | Weak response | Strong TSM response | Proof of outcome |
 |---|---|---|---|---|
@@ -659,7 +659,7 @@ flowchart TD
 
 At 09:10, NMH's fictional executive dashboard shows a sharp reduction in exposed cloud assets. At 09:18, the vulnerability director reports that the cloud connector has not completed since a credential rotation. A leadership review begins at 11:00.
 
-The culture test is not whether Arti knows the connector interface. The test is whether she protects the decision:
+The culture test is not whether you know the connector interface. The test is whether you protect the decision:
 
 1. State that the apparent improvement is not yet valid.
 2. Separate verified facts from hypotheses about the connector.
@@ -714,7 +714,7 @@ Marketing metrics may be accurate within a defined method and still be unsuitabl
 | Variability | Could page sections differ or change? | "I would avoid memorizing a volatile count" |
 | Decision use | What customer decision would the metric support? | "I would baseline the customer's own environment" |
 
-The current official pages include large platform and product figures. Part 1 already notes differing Risk360 factor counts on the same live page. The Agentic SecOps page publishes a threat-accuracy statement tied to training data. The AI page publishes an annual activity trend. These may be useful conversation starters, but Arti should not promise that NMH or any real customer will reproduce them.
+The current official pages include large platform and product figures. Part 1 already notes differing Risk360 factor counts on the same live page. The Agentic SecOps page publishes a threat-accuracy statement tied to training data. The AI page publishes an annual activity trend. These may be useful conversation starters, but you should not promise that NMH or any real customer will reproduce them.
 
 ## Plain-English deep-dive 5 - A marketing number is a signpost, not a destination
 
@@ -741,7 +741,7 @@ Terminology drift means names and groupings change while underlying customer pro
 | CTEM | Recurring scope, discovery, prioritization, validation, mobilization | Vendor mapping and offering labels | Present as an industry program, not one product |
 | Risk360 | Risk drivers, trends, mitigation, financial and executive framing | Factor counts and model details | Emphasize assumptions and current documentation |
 
-The research rule is **problem first, architecture second, current name third**. If a product name changes, Arti should still explain the customer problem and operating model.
+The research rule is **problem first, architecture second, current name third**. If a product name changes, you should still explain the customer problem and operating model.
 
 ## Competitor neutrality
 
@@ -755,7 +755,7 @@ Competitor neutrality means discussing alternatives through customer requirement
 | "Our score is better" | "I would compare explainability, source quality, calibration, workflow, and decision outcomes" | Makes the evaluation testable |
 | "AI will replace analysts" | "AI may reduce repetitive analysis while accountable humans retain judgment and authority for consequential decisions" | Respects reality and governance |
 
-A useful comparison framework includes customer outcome, architecture, trust boundary, data source, integration, policy, user experience, operational burden, resilience, privacy, cost, migration, support, and evidence. If Arti lacks current verified competitor detail, she should say so and describe the evaluation method.
+A useful comparison framework includes customer outcome, architecture, trust boundary, data source, integration, policy, user experience, operational burden, resilience, privacy, cost, migration, support, and evidence. If you lack current verified competitor detail, you should say so and describe the evaluation method.
 
 ## Why Zscaler, why now, and why the AI age
 
@@ -763,13 +763,13 @@ These scripts are starting points, not lines to recite mechanically.
 
 ### Why Zscaler: 30-second version
 
-"Zscaler interests me because its mission connects secure business experience with architectural transformation, and its current platform story connects zero trust telemetry, contextual security data, exposure management, and AI-assisted Security Operations. That creates a role where technical depth, customer adoption, escalation leadership, analytics, and executive communication meet. Those are areas where my Microsoft production experience gives me a strong method, while Zscaler and SecOps product depth are explicit areas I am building rather than claiming."
+"Zscaler interests me because its mission connects secure business experience with architectural transformation, and its current platform story connects zero trust telemetry, contextual security data, exposure management, and AI-assisted Security Operations. That creates a role where technical depth, customer adoption, escalation leadership, analytics, and executive communication meet. Those are areas where my prior production experience gives me a strong method, while Zscaler and SecOps product depth are explicit areas I am building rather than claiming."
 
 ### Why Zscaler: deeper version
 
 "The official mission to anticipate, secure, and simplify the experience of doing business is meaningful to me because it does not frame security as a barrier. The Zero Trust Exchange story links identity, context, risk, policy, and narrow connections to secure, simplify, and transform outcomes. The current Agentic SecOps and Data Fabric direction adds a data and AI dimension: connect signals, add business context, improve prioritization, and close the loop through right-sized action.
 
-"That combination matches how I work. In Microsoft enterprise support, I have owned complex SharePoint, OneDrive, Sync, and Copilot-related situations that crossed identity, client, browser, network, service, and stakeholder boundaries. I bring evidence-led troubleshooting, critical escalation, Engineering coordination, analytics, mentoring, training, and practical AI exploration. I do not bring direct production Zscaler or vulnerability-program ownership today. I bring a tested customer method and a measurable product ramp."
+"That combination matches how I work. In enterprise support, I have owned complex SharePoint, OneDrive, Sync, and Copilot-related situations that crossed identity, client, browser, network, service, and stakeholder boundaries. I bring evidence-led troubleshooting, critical escalation, Engineering coordination, analytics, mentoring, training, and practical AI exploration. I do not bring direct production Zscaler or vulnerability-program ownership today. I bring a tested customer method and a measurable product ramp."
 
 ### Why now
 
@@ -837,12 +837,12 @@ flowchart LR
 ### Self-review questions
 
 1. Did the first sentence answer the question directly?
-2. Did Arti define any term that a non-specialist may not know?
+2. Did you define any term that a non-specialist may not know?
 3. Is the evidence label audible and accurate?
 4. Does the story include a real decision rather than only effort?
 5. Is the customer or team outcome measurable?
-6. Did she expose a tradeoff, failure mode, or uncertainty?
-7. Did she avoid an unsupported Zscaler production claim?
+6. Did you expose a tradeoff, failure mode, or uncertainty?
+7. Did you avoid an unsupported Zscaler production claim?
 8. Could the answer survive a skeptical follow-up asking for timestamps, stakeholders, and evidence?
 
 ## Failure modes and troubleshooting weak answers
@@ -899,7 +899,7 @@ flowchart LR
 | Interpretation | TSM behavior maps, decision trees, metrics, and scoring rubric | "My interpretation for this role is..." |
 | General practice | AI governance, evidence quality, customer outcome design | "A general control pattern is..." |
 | Fictional exercise | NMH events, decisions, people, tools, and outcomes | "In the fictional case exercise..." |
-| Arti production fact | Microsoft support, customer, escalation, analytics, mentoring, training, and approved AI evidence | "In my Microsoft production experience..." |
+| Verified background fact | enterprise support, customer, escalation, analytics, mentoring, training, and approved AI evidence | "In my prior production experience..." |
 | Not established | Production Zscaler, SecOps, vulnerability-product, or exposure-program operation | "Direct product operation is not part of my current experience..." |
 
 ## Likely Interview Questions
@@ -908,7 +908,7 @@ flowchart LR
 
 **Model answer:** As checked on 2026-08-24, Zscaler's official company page states its mission as anticipating, securing, and simplifying the experience of doing business while transforming today and tomorrow. I interpret that as a customer-outcome mandate rather than a product slogan. Anticipate means identify material change and risk early. Secure means reduce realistic threat, access, and data-loss paths through validated controls. Simplify means remove unnecessary complexity and operating burden. Transform means change architecture and workflow assumptions rather than merely replace technology.
 
-For a SecOps TSM, the mission becomes a success plan. I would connect product adoption to agreed outcomes, such as trustworthy asset context, better-prioritized exposure, faster investigation, or reduced recurring friction. I would measure the changed condition and caveat the evidence. My Microsoft production background supports customer impact, escalation, analytics, and enablement; direct production Zscaler and exposure-program operation remain explicit ramp areas.
+For a SecOps TSM, the mission becomes a success plan. I would connect product adoption to agreed outcomes, such as trustworthy asset context, better-prioritized exposure, faster investigation, or reduced recurring friction. I would measure the changed condition and caveat the evidence. My prior production background supports customer impact, escalation, analytics, and enablement; direct production Zscaler and exposure-program operation remain explicit ramp areas.
 
 ### Q2. How would you explain Zscaler's zero trust transformation to a nontechnical executive?
 
@@ -938,11 +938,11 @@ My transferable production evidence comes from coordinating technical investigat
 
 **Model answer:** I reduce scope before reducing standards. First I clarify impact and protect the immediate decision. Then I choose the smallest meaningful and reversible action, establish quality and rollback gates, run parallel workstreams, communicate facts and unknowns on a fixed cadence, and validate the customer outcome before closure. I do not invent an estimated recovery time to sound decisive.
 
-My production CRITSIT and business-critical escalation experience supports the operating discipline: impact, evidence, parallel ownership, Engineering coordination, customer updates, and fix validation. It does not establish SecOps command or Zscaler product operation. In a new domain I would combine that method with current product specialists, support processes, and customer authority.
+My production critical situation and business-critical escalation experience supports the operating discipline: impact, evidence, parallel ownership, Engineering coordination, customer updates, and fix validation. It does not establish SecOps command or Zscaler product operation. In a new domain I would combine that method with current product specialists, support processes, and customer authority.
 
 ### Q7. Why Zscaler, and why now?
 
-**Model answer:** Zscaler's mission and current platform direction connect several areas I want to bring together: zero trust architecture, secure business experience, contextual security data, exposure prioritization, AI-assisted operations, customer adoption, and executive outcomes. The TSM role requires technical investigation, cross-functional leadership, enablement, and long-term value rather than only incident resolution. That fits my strengths in Microsoft enterprise support, networking evidence, high-pressure ownership, analytics, mentoring, training, and practical AI initiative.
+**Model answer:** Zscaler's mission and current platform direction connect several areas I want to bring together: zero trust architecture, secure business experience, contextual security data, exposure prioritization, AI-assisted operations, customer adoption, and executive outcomes. The TSM role requires technical investigation, cross-functional leadership, enablement, and long-term value rather than only incident resolution. That fits my strengths in enterprise support, networking evidence, high-pressure ownership, analytics, mentoring, training, and practical AI initiative.
 
 The timing matters because cloud, distributed work, SaaS, operational technology, acquisitions, and AI create more identities, applications, data paths, and machine-speed decisions. I want to apply my proven method earlier and more strategically: discover risk, prevent recurring problems, drive adopted workflows, and show measurable outcomes. I am explicit that direct Zscaler and vulnerability-program depth require a structured ramp.
 
@@ -975,7 +975,7 @@ I would measure whether owners accept actions, blockers age appropriately, and t
 | Collaboration | Co-create without erasing decision rights |
 | Inclusion | Relevant voices improve the decision |
 | Marketing metric | Date, source, denominator, local baseline |
-| Arti bridge | Production fact, honest boundary, measurable ramp |
+| Experience bridge | Production fact, honest boundary, measurable ramp |
 
 ## Completion Checklist
 
@@ -989,7 +989,7 @@ I would measure whether owners accept actions, blockers age appropriately, and t
 - [ ] I can translate every required culture signal into behavior, anti-pattern, metric, and evidence.
 - [ ] I can use all three culture decision trees in scenario practice.
 - [ ] I can explain psychological safety and accountability as mutually reinforcing.
-- [ ] I can give factual Arti examples without claiming production Zscaler or SecOps work.
+- [ ] I can give factual your examples without claiming production Zscaler or SecOps work.
 - [ ] I can identify every Northstar Meridian detail as fictional.
 - [ ] I can discuss official marketing metrics with source, date, denominator, and caveat.
 - [ ] I can handle terminology drift and competitor questions neutrally.

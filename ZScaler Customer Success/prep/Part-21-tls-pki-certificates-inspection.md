@@ -1,10 +1,10 @@
 # Part 21 - TLS, SSL History, PKI, Certificates, Handshakes, and Inspection
 
-> **Audience:** Arti Thakur, moving from Microsoft 365 Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
+> **Audience:** Candidates moving from Microsoft 365 Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
 >
 > **Purpose:** Build a first-principles model of cryptographic goals, keys, certificates, public key infrastructure, TLS 1.2 and TLS 1.3 handshakes, session resumption, mutual TLS, certificate validation, inspection, privacy decisions, and evidence-led fault isolation.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Its certificate authorities, hostnames, users, policies, packet fields, failures, and outcomes are synthetic. Arti's Microsoft 365, OneDrive for Business, SharePoint Online, networking, evidence, and escalation experience must remain within her approved factual background.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Its certificate authorities, hostnames, users, policies, packet fields, failures, and outcomes are synthetic. Your own product, networking, evidence, and escalation experience must remain within your documented background.
 >
 > **Product caveat:** This Part teaches standards and general inspection architecture. Zscaler deployment details, supported applications, certificate behavior, bypass categories, policy order, logging fields, and administrative workflows vary by product, cloud, version, tenant, forwarding method, and policy. Verify current official documentation and tenant evidence. No fictional scenario proves a production Zscaler or Microsoft defect.
 
@@ -14,7 +14,7 @@ TLS is the protected conversation beneath most HTTPS application activity. It is
 
 Think of a secure international courier service. Encryption is an opaque locked case. Integrity is a tamper-evident seal. Authentication is a verified identity badge. A certificate binds a public key to names and other attributes. A certificate authority resembles an approved passport office, not the passport holder. The TLS handshake resembles two parties agreeing on current rules, checking credentials, deriving one-time combination codes, and only then exchanging sealed packages. Inspection resembles an authorized security desk ending one protected courier leg and beginning another; it is never one untouched end-to-end TLS session.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Evidence of mastery |
 |---|---|---|
@@ -33,11 +33,11 @@ By the end, Arti should be able to:
 
 ## JD Mapping
 
-| JD expectation | Part 21 capability | Artifact | Honest Arti bridge |
+| JD expectation | Part 21 capability | Artifact | Honest experience bridge |
 |---|---|---|---|
 | Analyze complex environments | Map certificates, trust stores, clients, inspection points, origins, and policy owners | TLS dependency map | Extends Microsoft 365 client/service investigation |
 | Identify security risk | Recognize weak versions, failed validation, private-key exposure, overbroad trust, unsafe bypass, and decrypted-data handling | Risk and control register | Learned security interpretation, not claimed product administration |
-| Resolve critical escalations | Separate DNS, TCP, TLS negotiation, certificate, inspection, identity, and application workstreams | Handshake timeline and owner matrix | Uses CRITSIT timeline and evidence discipline |
+| Resolve critical escalations | Separate DNS, TCP, TLS negotiation, certificate, inspection, identity, and application workstreams | Handshake timeline and owner matrix | Uses critical-situation timeline and evidence discipline |
 | Tailor mitigation | Recommend renewal, chain repair, trust deployment, protocol correction, scoped bypass, or application remediation | Change, test, rollback plan | Mirrors fix validation and customer-safe change practice |
 | Deliver technical consulting | Explain PKI and TLS from zero to engineer and executive audiences | Whiteboard, glossary, teach-back | Builds on advisor and mentoring experience |
 | Work cross-functionally | Give PKI, endpoint, network, security, legal/privacy, application, and vendor teams bounded evidence | Shared decision record | Builds on customer, partner, and Engineering collaboration |
@@ -45,7 +45,7 @@ By the end, Arti should be able to:
 
 ## Candidate honesty note
 
-Arti can truthfully discuss standards-based TLS analysis, packet and browser evidence, Windows certificate behavior at an appropriate support level, Microsoft 365 connectivity troubleshooting, controlled labs, stakeholder coordination, and fix validation where those statements match her real experience. She can explain how she would test a certificate path, compare browser and sync-client behavior, correlate timestamps, and prevent secrets from entering an escalation package.
+You can truthfully discuss standards-based TLS analysis, packet and browser evidence, Windows certificate behavior at an appropriate support level, Microsoft 365 connectivity troubleshooting, controlled labs, stakeholder coordination, and fix validation where those statements match your real experience. You can explain how you would test a certificate path, compare browser and sync-client behavior, correlate timestamps, and prevent secrets from entering an escalation package.
 
 Direct production operation of Zscaler SSL Inspection, public CA design, private service-key extraction, and vendor attribution from path presence alone are not established experience. A safe bridge is: "I have investigated protected Microsoft 365 client-to-service paths and correlated client, network, browser, and service evidence. I understand the standards and two-leg inspection model. In a Zscaler tenant I would verify the documented forwarding, policy, certificate, and logging behavior before making a product-specific conclusion."
 
@@ -905,7 +905,7 @@ An application configured for hard-fail revocation begins timing out after egres
 
 ## Practical labs and evidence artifacts
 
-All labs use systems Arti owns or is explicitly authorized to test, documentation-reserved domains such as `.example`, and synthetic content. Do not scan arbitrary services, intercept another person's traffic, or export production secrets.
+All labs use systems you own or is explicitly authorized to test, documentation-reserved domains such as `.example`, and synthetic content. Do not scan arbitrary services, intercept another person's traffic, or export production secrets.
 
 | Lab | Task | Deliverable | Success criterion |
 |---|---|---|---|
@@ -963,14 +963,14 @@ Do not use `-k`, `--insecure`, or equivalent as a remediation. It can be a tight
 
 A strong escalation question is: "At 14:03:22.418 UTC, client version X sent a TLS 1.3 ClientHello with SNI `api.example` through the documented path. The client received leaf fingerprint Y issued by enterprise inspection CA Z and sent a fatal alert before any HTTP request. Browser process B accepts the same chain; native application log code C reports pin mismatch. Please confirm whether version X supports inspection for this endpoint and whether the documented bypass list D is current." This is testable and bounded.
 
-## Arti bridge: from M365 escalation to SecOps TSM reasoning
+## Experience bridge: from M365 escalation to SecOps TSM reasoning
 
-Arti's transferable advantage is not a claim of prior product administration. It is the habit of decomposing a customer symptom into layers, preserving timestamps, comparing browser and client behavior, finding a discriminating test, coordinating owners, validating the fix, and translating details into business impact. TLS gives that method a precise vocabulary.
+Your transferable advantage is not a claim of prior product administration. It is the habit of decomposing a customer symptom into layers, preserving timestamps, comparing browser and client behavior, finding a discriminating test, coordinating owners, validating the fix, and translating details into business impact. TLS gives that method a precise vocabulary.
 
 | Existing strength | TLS/PKI translation | Interview proof to build |
 |---|---|---|
 | OneDrive/SharePoint troubleshooting | Compare process, destination, proxy path, certificate, and handshake | Sanitized lab comparison matrix |
-| CRITSIT leadership | Run endpoint, network, PKI, security, and service workstreams | Fictional NMH bridge timeline |
+| Critical-situation leadership | Run endpoint, network, PKI, security, and service workstreams | Fictional NMH bridge timeline |
 | RCA and fix validation | Separate trigger, root cause, contributing factors, and control gap | Node-chain RCA with recurrence prevention |
 | Customer communication | Explain why browser success is not universal proof | Two-minute executive update |
 | Mentoring | Teach chain validation and two-leg inspection visually | Whiteboard recording or notes |
@@ -1146,7 +1146,7 @@ The following authoritative sources were reviewed on **2026-08-24**. They suppor
 - [ ] I can protect private keys, session secrets, tokens, identities, decrypted content, and raw captures.
 - [ ] I can troubleshoot name, chain, clock, EKU, revocation, negotiation, SNI, ALPN, mTLS, pinning, and node drift.
 - [ ] I can explain the fictional NMH pinned-client scenario and a scoped mitigation with rollback.
-- [ ] I can bridge Arti's Microsoft 365 evidence and escalation experience without claiming Zscaler production operation.
+- [ ] I can bridge your Microsoft 365 evidence and escalation experience without claiming Zscaler production operation.
 - [ ] I can answer Q1-Q8 aloud and complete the twelve labs with sanitized evidence.
 
 [Part 22 - Proxies, Firewalls, VPNs, Load Balancers, CDN, SSE, and SASE](Part-22-proxies-firewalls-vpn-sse-sase.md)

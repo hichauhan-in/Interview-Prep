@@ -1,10 +1,10 @@
 # Part 52 - Bugs, BURTs, Defects, Release Notes, and Bug-Scrub Methodology
 
-> **Section goal:** Learn to identify candidate defects, verify exact applicability and exposure, distinguish severity from probability and customer priority, evaluate fixed releases and workarounds, deduplicate overlapping sources, and communicate customer risk safely. By the end, Arti should be able to run a repeatable bug scrub across Bugs Online/BURT records, release notes, security advisories, Knowledge Base (KB) articles, Digital Advisor signals, AutoSupport, cases, and system evidence without fabricating private details or assuming every matching version is affected.
+> **Section goal:** Learn to identify candidate defects, verify exact applicability and exposure, distinguish severity from probability and customer priority, evaluate fixed releases and workarounds, deduplicate overlapping sources, and communicate customer risk safely. By the end, you should be able to run a repeatable bug scrub across Bugs Online/BURT records, release notes, security advisories, Knowledge Base (KB) articles, Digital Advisor signals, AutoSupport, cases, and system evidence without fabricating private details or assuming every matching version is affected.
 
 Covers index item **52** and maps directly to job-description responsibilities for proactive risk analysis, system stability, upgrade planning, customer-specific recommendations, support-case pattern analysis, recurring-issue reduction, secure evidence handling, and cross-functional escalation.
 
-**Explicit nonclaim:** Arti has not performed a production NetApp BURT or bug scrub using gated defect information.
+**Explicit nonclaim:** You have not performed a production NetApp BURT or bug scrub using gated defect information.
 
 **Privacy and access boundary:** Private defect text, engineering notes, support cases, customer symptoms, attachments, and restricted fixes remain in approved need-to-know systems; customer-facing material is sanitized and source-bounded.
 
@@ -14,7 +14,7 @@ Covers index item **52** and maps directly to job-description responsibilities f
 
 Many defect and release-note details require a NetApp account, entitlement, or case relationship. Public security advisories have a separate publication process. A missing public record does not prove no defect; a private reference cannot be copied into an unauthorized report. This guide does not disclose a real private bug, exploit, customer case, or restricted workaround.
 
-> **No-production-NetApp boundary:** Arti does not claim production NetApp bug-scrub experience. Every defect/BURT ID, symptom, trigger, release, workaround, case, customer, exposure, and recommendation below is synthetic. Her factual strengths are Microsoft incident/problem management, known-issue correlation, release regression analysis, CRITSIT evidence, customer-safe RCA communication, SQL/Python/Excel data normalization, and support escalation. The explicit non-claim is: **she has not accessed a customer's private Bugs Online data, confirmed a production NetApp BURT, approved a NetApp fixed release/workaround, performed a customer bug scrub, or disclosed a private NetApp defect.**
+> **No-production-NetApp boundary:** You do not claim production NetApp bug-scrub experience. Every defect/BURT ID, symptom, trigger, release, workaround, case, customer, exposure, and recommendation below is synthetic. Your factual strengths are enterprise incident/problem management, known-issue correlation, release regression analysis, critical-situation evidence, customer-safe RCA communication, SQL/Python/Excel data normalization, and support escalation. The explicit non-claim is: **you have not accessed a customer's private Bugs Online data, confirmed a production NetApp BURT, approved a NetApp fixed release/workaround, performed a customer bug scrub, or disclosed a private NetApp defect.**
 
 ---
 
@@ -575,7 +575,7 @@ flowchart TD
 
 ---
 
-## 13. Discovery, JD Mapping, and Arti transfer
+## 13. Discovery, JD Mapping, and experience transfer
 
 ### Discovery questions
 
@@ -592,11 +592,11 @@ flowchart TD
 
 ### JD Mapping
 
-| JD responsibility | Part 52 contribution | Arti's factual bridge and gap |
+| JD responsibility | Part 52 contribution | Your factual bridge and gap |
 |---|---|---|
 | Proactive risk/stability | Applies defects to exact customer exposure and controls | Microsoft known-issue/problem management transfers |
 | Upgrade planning | Validates fixed release as one target input and scrubs target | Release/change analysis transfers; no NetApp target approval claimed |
-| Case/support improvement | Builds reproducible candidate/alternate/escalation evidence | CRITSIT and support escalation transfer |
+| Case/support improvement | Builds reproducible candidate/alternate/escalation evidence | critical situation and support escalation transfer |
 | Customer recommendations | Separates severity, probability, applicability, business priority | Customer-safe risk communication transfers |
 | Data analysis | Normalizes/deduplicates sources and asset mappings | SQL/Python/Excel strengths transfer |
 | Security/privacy | Handles public/private advisory, bug, KB, case boundaries | Enterprise evidence handling transfers |
@@ -723,7 +723,7 @@ flowchart LR
 
 ### Q8. How does your background transfer, and what remains a gap?
 
-> **Model answer:** "Microsoft incident/problem management gave me known-issue correlation, release regression, alternate-hypothesis and customer-safe RCA discipline; analytics skills support normalization and deduplication. I have not run a production NetApp bug scrub or accessed private Bugs Online data, so authorized current sources and reviewers remain explicit."
+> **Model answer:** "enterprise incident/problem management gave me known-issue correlation, release regression, alternate-hypothesis and customer-safe RCA discipline; analytics skills support normalization and deduplication. I have not run a production NetApp bug scrub or accessed private Bugs Online data, so authorized current sources and reviewers remain explicit."
 
 ---
 
@@ -742,7 +742,7 @@ flowchart LR
 - **Unknown:** Evidence action, not a favorable assumption.
 - **Root cause:** Candidate becomes confirmed only at supported evidence/authority level.
 - **Refresh:** Records and advisories evolve; rerun before change.
-- **Arti's bridge:** Microsoft problem discipline transfers; NetApp bug authority does not.
+- **Your bridge:** Microsoft problem discipline transfers; NetApp bug authority does not.
 
 ---
 

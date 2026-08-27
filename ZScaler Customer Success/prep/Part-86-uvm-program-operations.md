@@ -1,14 +1,14 @@
 # Part 86 - UVM Program Operations, Tuning, Troubleshooting, and Adoption
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 
 > **Purpose:** Explain how a contextual vulnerability-management capability becomes a durable operating service. Cover source onboarding, phased acceptance, scoring calibration, data defects, workflow health, stakeholder trust, remediation resistance, governance cadence, maturity, service delivery, TSM adoption and value, change safety, operational incidents, runbooks, customer artifacts, and continuous improvement.
 
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH source, service, connector, score, policy, workflow, ticket, date, metric, incident, result, stakeholder, maturity level, and decision is invented. Arti's factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; escalations; mentoring; and responsible AI exploration. Production Zscaler, Data Fabric, UVM, Risk360, CAASM, CTEM, vulnerability-program administration, and customer service ownership remain learning boundaries.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH source, service, connector, score, policy, workflow, ticket, date, metric, incident, result, stakeholder, maturity level, and decision is invented. Your factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; escalations; mentoring; and responsible AI exploration. Production Zscaler, Data Fabric, UVM, Risk360, CAASM, CTEM, vulnerability-program administration, and customer service ownership remain learning boundaries.
 
 > **Currency caveat:** Product wording, packaging, integrations, workflows, interfaces, fields, defaults, limits, entitlements, standards, threat evidence, and customer conditions change. The controlled official-source snapshot and review date for this Part is exactly **2026-08-24**. Current official documentation, licensed-tenant evidence, connector-specific guidance, customer policy, product specialists, Zscaler Support, approved change/security/privacy procedures, source-native evidence, and measured postconditions govern production.
 
-> **Section goal:** Enable Arti to run a credible TSM-level UVM operating conversation from discovery through sustained adoption: onboard one bounded source/use case safely, establish acceptance and health, tune scoring without hiding data defects, operate workflows and governance, diagnose resistance, measure value honestly, handle incidents with runbooks, and plan maturity improvements without claiming customer authority or production experience.
+> **Section goal:** Enable you to run a credible TSM-level UVM operating conversation from discovery through sustained adoption: onboard one bounded source/use case safely, establish acceptance and health, tune scoring without hiding data defects, operate workflows and governance, diagnose resistance, measure value honestly, handle incidents with runbooks, and plan maturity improvements without claiming customer authority or production experience.
 
 Zscaler's reviewed public UVM page positions the product as powered by Data Fabric for Security, using aggregated and correlated data, contextual multifactor scoring, adjustable factors and weights, custom remediation workflows with details and rationale, ticket reconciliation, and dynamic risk/KPI/SLA reporting. The reviewed Data Fabric pages support public positioning around ingestion, harmonization/mapping, deduplication, correlation/enrichment, customizable data models/business logic, workflows, reporting, and a broad integration ecosystem. These are bounded product facts. Exact deployment architecture, connector behavior, objects, health telemetry, acceptance criteria, operational roles, support processes, fields, limits, service levels, and entitlements require current verification.
 
@@ -57,7 +57,7 @@ flowchart LR
 
 | Evidence class | Neutral candidate phrasing | Boundary |
 |---|---|---|
-| Factual Microsoft support | Enterprise escalation work required service operations, customer communication, exact evidence, cross-team ownership, containment, RCA, and validation | Not production UVM operation |
+| Factual enterprise support | Enterprise escalation work required service operations, customer communication, exact evidence, cross-team ownership, containment, RCA, and validation | Not production UVM operation |
 | M365/OneDrive/SharePoint | Complex incidents crossed identity, permissions, endpoint/client, sync, network, service, and tenant configuration layers | Transferable systems thinking |
 | Networking/traces | DNS, TCP, TLS, proxy, HTTP, packet/trace, and timestamp analysis supports integration and reachability diagnosis | No claim of Zscaler telemetry administration |
 | SQL/Power BI | Skills support source reconciliation, quality, temporal models, health trends, adoption, and value evidence | No claim of UVM database access |
@@ -840,7 +840,7 @@ AI may assist with official-source summaries, runbook drafts, test-case generati
 
 ## Complete synthetic NMH UVM operating case
 
-Everything in this section is explicitly fictional and synthetic. It does not describe a Zscaler tenant, UVM/Data Fabric deployment, supported connector, field, metric, workflow, SLA, support process, customer result, or Arti production experience. No date later than the official review date is used. The official source snapshot remains 2026-08-24.
+Everything in this section is explicitly fictional and synthetic. It does not describe a Zscaler tenant, UVM/Data Fabric deployment, supported connector, field, metric, workflow, SLA, support process, customer result, or documented production experience. No date later than the official review date is used. The official source snapshot remains 2026-08-24.
 
 ### Synthetic outcome and operating charter
 
@@ -996,7 +996,7 @@ All exercises use synthetic records, public official pages, or isolated explicit
 | 21 | Run service review | Ten-minute synthetic review | Health, adoption, outcomes, decisions, caveats |
 | 22 | Rehearse Q1-Q8 | Recorded answers | Neutral honesty and source boundaries |
 
-## Arti bridge: factual strengths applied to UVM operations
+## Experience bridge: factual strengths applied to UVM operations
 
 | Factual strength | UVM operating application | Interview bridge | Boundary |
 |---|---|---|---|
@@ -1082,7 +1082,7 @@ Official Zscaler sources support bounded public product positioning only. The on
 
 **Model answer:** Assess decision/security/service impact, contain harmful automation and claims, preserve IDs/times/versions, and trace one record through scope, native source, access/transport, acquisition, schema/mapping/time, identity/context, scoring, workflow, exception/validation, report/access, and user process. Repair the smallest controlling layer, validate, backfill/replay, reconcile tickets/exceptions/reports, restate affected history, notify decision owners, and complete a prevention-focused post-incident review. Escalate a redacted minimal product case when needed.
 
-### Q8. How does Arti's background support UVM operations while preserving honesty?
+### Q8. How does your background support UVM operations while preserving honesty?
 
 **Model answer:** Microsoft 365, OneDrive, and SharePoint escalation work provides adjacent experience in multi-layer service diagnosis, exact identity/permissions, customer impact, containment, cross-team ownership, RCA, updates, and validation. Networking traces support integration-path evidence. SQL and Power BI support control totals, temporal models, health/adoption/value reporting, and restatement. Mentoring supports teach-back and champions; AI can assist grounded runbooks and summaries. NMH is synthetic, while production Zscaler/UVM/vulnerability-program operation remains a learning boundary.
 
@@ -1109,7 +1109,7 @@ Official Zscaler sources support bounded public product positioning only. The on
 | Incident recovery | Repair downstream decisions, not only pipeline |
 | Runbook | Detect, contain, diagnose, repair, validate, recover, communicate, learn |
 | TSM | Product plus architecture plus adoption plus evidence, without customer authority |
-| Arti bridge | Microsoft escalation rigor becomes honest UVM service methodology |
+| Experience bridge | enterprise escalation rigor becomes honest UVM service methodology |
 
 ## Completion Checklist
 

@@ -10,7 +10,7 @@ The central troubleshooting rule is:
 
 > Locate the failing boundary, then validate request, response, signature trust, protocol conditions, subject mapping, assignment, provisioning, local authorization, and session state in order; never treat “the assertion exists” as “the sign-in is valid.”
 
-This Part includes Microsoft Entra examples as production-transfer learning because of Arti's Microsoft support background, but it does not claim full Entra SAML administration. Okta terminology is learned from official documentation only. There is no claim of production SAML administration in Abnormal, Okta, Google Workspace, Slack, Zoom, or another named platform. Abnormal's supported SAML profile, configuration UI, certificates, claim mapping, assignment model, and support access are unknown unless approved documentation states them.
+This Part includes Microsoft Entra examples as production-transfer learning because of your prior support background, but it does not claim full Entra SAML administration. Okta terminology is learned from official documentation only. There is no claim of production SAML administration in Abnormal, Okta, Google Workspace, Slack, Zoom, or another named platform. Abnormal's supported SAML profile, configuration UI, certificates, claim mapping, assignment model, and support access are unknown unless approved documentation states them.
 
 The lab is synthetic and local. It never posts an assertion, configures a real IdP/SP, captures a real browser session, uploads metadata, or includes a real certificate, user attribute, session cookie, tenant identifier, or signature value.
 
@@ -34,13 +34,13 @@ After completing this Part, you should be able to:
 
 ## JD Mapping
 
-| Supplied role signal | Capability built | Arti's transferable evidence | Boundary |
+| Supplied role signal | Capability built | Your transferable evidence | Boundary |
 |---|---|---|---|
 | Enterprise SaaS and identity | Traces federated sign-in across directory, IdP, browser, SP, and session | Microsoft cloud and Entra/AD fundamentals | No Abnormal or Okta SAML operations claim |
 | Own configuration tickets | Checks identifiers, endpoints, certificates, claims, and assignments | Enterprise support and configuration investigation | No live changes without authorized owner |
-| Complex investigations | Correlates browser, IdP, SP, request, response, and time evidence | CRITSIT ownership and escalation | No invented identity incident |
+| Complex investigations | Correlates browser, IdP, SP, request, response, and time evidence | critical-situation ownership and escalation | No invented identity incident |
 | Customer trust | Redacts assertion content and avoids secrets/cookies | Customer communication and evidence handling | SAML responses can contain sensitive identity data |
-| Microsoft 365 ecosystem | Uses Entra protocol documentation as a concrete example | Microsoft production-transfer context | Does not imply full tenant-wide identity admin |
+| Microsoft 365 ecosystem | Uses Entra protocol documentation as a concrete example | production-transfer context | Does not imply full tenant-wide identity admin |
 | Okta ecosystem | Understands Okta's documented IdP/SP and app concepts | Learned architecture only | No Okta org experience |
 | API/integration mindset | Separates endpoints, identifiers, status, and validation contracts | REST/JSON/networking learning | SAML is XML/browser federation, not REST |
 | Recommendations/escalation | Produces exact failed check and owner-specific ask | Engineering/Product collaboration | Do not recommend disabling validation |
@@ -49,7 +49,7 @@ After completing this Part, you should be able to:
 
 | Evidence tier | Safe statement | Do not imply |
 |---|---|---|
-| **Production transfer - Microsoft** | “My Microsoft enterprise support background gives me practical tenant, identity, browser, configuration, evidence, and escalation habits.” | Full Entra SAML deployment ownership without a real example |
+| **Production transfer - Microsoft** | “My prior enterprise support background gives me practical tenant, identity, browser, configuration, evidence, and escalation habits.” | Full Entra SAML deployment ownership without a real example |
 | **Local/public lab** | “I annotated fictional SAML metadata, request, and response fields locally and built a validation tree.” | A live SAML transaction or certificate configuration |
 | **Learned architecture - Okta** | “I understand Okta's official IdP/SP SAML concepts and can apply a vendor-neutral troubleshooting method.” | Production Okta administration |
 | **No direct experience** | “I have not administered Abnormal or Okta SAML in production.” | Knowledge of private app mappings, certificates, or logs |
@@ -697,7 +697,7 @@ The lab never produces a usable signed assertion. XML-like examples use placehol
 | Troubleshooting | Reconfigure both sides | Checks error | Isolates exact failed boundary and safe discriminating evidence |
 | Redaction | Public decoder/raw XML | Hides NameID | Restricted original, sanitized derivative, values/cookies/keys protected |
 | Safety | Builds live IdP/SP | Uses placeholders | Non-executable paper artifact and zero upload/activity |
-| Honesty | Claims named platforms | Says generic | Microsoft transfer, Okta learned, Abnormal implementation unknown |
+| Honesty | Claims named platforms | Says generic | experience transfer, Okta learned, Abnormal implementation unknown |
 
 ## 26. Official Source Anchors
 
@@ -754,7 +754,7 @@ All source anchors were recorded for the guide on **August 24, 2026**. Standards
 
 ### Q8. What are your SAML experience boundaries?
 
-**Model answer:** I bring Microsoft enterprise support, tenant/identity context, browser/network evidence, escalation, and validation as production transfer, plus a synthetic SAML field and failure lab. Okta SAML is learned from official documentation. I have not administered Okta or Abnormal SAML in production, and Abnormal's exact profile and configuration remain unknown.
+**Model answer:** I bring enterprise support, tenant/identity context, browser/network evidence, escalation, and validation as production transfer, plus a synthetic SAML field and failure lab. Okta SAML is learned from official documentation. I have not administered Okta or Abnormal SAML in production, and Abnormal's exact profile and configuration remain unknown.
 
 ## Memory Hooks
 
@@ -790,7 +790,7 @@ All source anchors were recorded for the guide on **August 24, 2026**. Standards
 - [ ] I completed or can explain **The SAML Trust Theater 061**.
 - [ ] The lab includes Prerequisites, Expected evidence, Cleanup and privacy, and Validation rubric.
 - [ ] I used no live IdP/SP, account, browser capture, decoder upload, assertion, cookie, token, certificate, key, or customer data.
-- [ ] I can state Microsoft production transfer, Okta learned architecture, and Abnormal proprietary unknowns.
+- [ ] I can state prior production transfer, Okta learned architecture, and Abnormal proprietary unknowns.
 - [ ] I checked Official Source Anchors and recorded **August 24, 2026**.
 - [ ] I can answer exactly Q1-Q8.
 

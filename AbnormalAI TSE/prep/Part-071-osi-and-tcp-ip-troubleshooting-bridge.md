@@ -8,7 +8,7 @@
 
 ## Section goal
 
-By the end of this Part, Arti should be able to use the seven-layer Open Systems Interconnection (OSI) reference model and the Internet protocol suite, commonly called the TCP/IP model, as troubleshooting maps rather than rigid explanations of software ownership. She should be able to describe encapsulation and decapsulation, name protocol data units carefully, distinguish names, addresses, ports, certificates, and HTTP identities, and convert a customer symptom into a layer hypothesis, discriminating evidence, and the correct owner.
+By the end of this Part, you should be able to use the seven-layer Open Systems Interconnection (OSI) reference model and the Internet protocol suite, commonly called the TCP/IP model, as troubleshooting maps rather than rigid explanations of software ownership. You should be able to describe encapsulation and decapsulation, name protocol data units carefully, distinguish names, addresses, ports, certificates, and HTTP identities, and convert a customer symptom into a layer hypothesis, discriminating evidence, and the correct owner.
 
 The practical objective is not to recite seven layer names. It is to answer questions such as: Did a SaaS connector fail before name resolution, during route selection, while opening a Transmission Control Protocol (TCP) connection, during Transport Layer Security (TLS), or after an HTTP request reached the service? Which observation would disprove the current hypothesis? Which team can act on the evidence? That is the bridge from networking study to enterprise support.
 
@@ -31,15 +31,15 @@ This Part teaches three investigation directions: **bottom-up**, beginning with 
 
 ## Candidate honesty note
 
-Arti can accurately say that TCP/IP, OSI, HTTP/HTTPS, TLS, DNS/DHCP, proxies, firewalls, ports, routing, Wireshark, Netsh, Network Monitor, Procmon, DevTools, HAR, and Fiddler are areas of **upskilling and working familiarity**. Her production-strength transfer is five years of Microsoft enterprise support: scoping impact, comparing working and failing states, collecting evidence, coordinating owners, escalating to Engineering, validating fixes, and communicating under pressure.
+You can accurately say that TCP/IP, OSI, HTTP/HTTPS, TLS, DNS/DHCP, proxies, firewalls, ports, routing, Wireshark, Netsh, Network Monitor, Procmon, DevTools, HAR, and Fiddler are areas of **upskilling and working familiarity**. Your production-strength transfer is several years of enterprise support: scoping impact, comparing working and failing states, collecting evidence, coordinating owners, escalating to Engineering, validating fixes, and communicating under pressure.
 
-She should not say that she designed enterprise networks, administered routers or firewalls, owned packet-level production incidents as a network engineer, or operated Abnormal AI connectivity in production. A safe interview formulation is:
+You should not say that you designed enterprise networks, administered routers or firewalls, owned packet-level production incidents as a network engineer, or operated Abnormal AI connectivity in production. A safe interview formulation is:
 
 > My production depth is enterprise SaaS support and evidence-led escalation. Networking is a deliberate working-familiarity area that I use to isolate DNS, transport, TLS, proxy, and HTTP boundaries. I can demonstrate the method in repeatable labs, and I would partner with the customer's network or security owner for production policy and device changes.
 
 | Evidence tier | Honest claim in this Part | Claim to avoid |
 |---|---|---|
-| Production transfer | Structured Microsoft support investigations, customer updates, escalation, fix validation | Production network-engineering ownership |
+| Production transfer | Structured enterprise support investigations, customer updates, escalation, fix validation | Production network-engineering ownership |
 | Working familiarity | Layered TCP/IP reasoning and common diagnostic evidence | Expert packet forensics from this lesson alone |
 | Local/public lab | Loopback HTTP, local socket evidence, localhost capture where authorized | Customer-environment proof |
 | Learned architecture | Standards-based OSI/TCP-IP mapping and protocol identities | Abnormal-specific internal topology |
@@ -723,7 +723,7 @@ These sources anchor stable protocol concepts and current tool behavior. Standar
 
 ### Q8. How does your networking background fit this support role?
 
-**Model answer:** My production strength is five years of Microsoft enterprise support, including complex investigations, customer communication, escalation, and fix validation. Networking and tools are working-familiarity areas I am deliberately deepening through safe labs. I can isolate DNS, route, TCP, TLS, proxy, and HTTP boundaries, but I would not claim network-engineer ownership or Abnormal production experience.
+**Model answer:** My production strength is several years of enterprise support, including complex investigations, customer communication, escalation, and fix validation. Networking and tools are working-familiarity areas I am deliberately deepening through safe labs. I can isolate DNS, route, TCP, TLS, proxy, and HTTP boundaries, but I would not claim network-engineer ownership or Abnormal production experience.
 
 ## Memory Hooks
 

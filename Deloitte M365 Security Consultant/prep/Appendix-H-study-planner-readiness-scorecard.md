@@ -1,6 +1,6 @@
 # Appendix H - Study Planner, Lab Evidence Portfolio, and Readiness Scorecard
 
-> **Built for:** Arti Thakur, moving from Microsoft 365 Support Escalation Engineering into a Microsoft 365 Security Senior Consultant role.
+> **Built for:** Candidates moving from Microsoft 365 Support Escalation Engineering into a Microsoft 365 Security Senior Consultant role.
 >
 > **Evidence baseline:** August 24, 2026. This appendix uses the supplied CV evidence and the explicit boundaries recorded in [Part 1](Part-01-role-map-deloitte-cyber-engagement-story.md). It does not assume a lab, certification, mock interview, or guide chapter has been completed merely because material exists.
 >
@@ -19,7 +19,7 @@ Choose one schedule, record the starting evidence level, complete the assigned d
 | Evidence | Production, transferable, lab, or conceptual label on every claim | Never merge labels to improve a score. |
 | Sources | Use [Appendix G](Appendix-G-official-microsoft-learn-source-map.md) | Recheck high-change facts before interview, exam, lab, or design. |
 | Question bank | All 205 questions in [Part 73](Part-73-interview-question-bank.md) | Prioritize red domains first, but complete every question before final gate. |
-| Behavioral | Verified story anchors in [Part 74](Part-74-behavioral-consulting-closing.md) | Remove or mark any detail Arti cannot personally verify. |
+| Behavioral | Verified story anchors in [Part 74](Part-74-behavioral-consulting-closing.md) | Remove or mark any detail you cannot personally verify. |
 
 ```mermaid
 flowchart LR
@@ -44,7 +44,7 @@ flowchart LR
 
 ## 2. Evidence level: 0 through 7
 
-Use the highest level supported by current, reviewable evidence. Levels are cumulative in capability, but evidence may be domain-specific. Arti can be Level 6 in SharePoint/OneDrive operational troubleshooting and Level 1 in Sentinel without contradiction.
+Use the highest level supported by current, reviewable evidence. Levels are cumulative in capability, but evidence may be domain-specific. You can be Level 6 in SharePoint/OneDrive operational troubleshooting and Level 1 in Sentinel without contradiction.
 
 | Level | Name | Observable capability | Minimum evidence | Interview-safe wording |
 |---:|---|---|---|---|
@@ -89,7 +89,7 @@ flowchart LR
 
 ## 3. Personalized baseline self-assessment
 
-The baseline below is conservative. It credits Arti's documented Microsoft 365 escalation, SharePoint/OneDrive, incident, RCA, stakeholder, reporting, mentoring, and Power Platform evidence. It does not grant hands-on security-product levels until Arti completes and retains the relevant lab or work evidence.
+The baseline below is conservative. It credits your documented Microsoft 365 escalation, SharePoint/OneDrive, incident, RCA, stakeholder, reporting, mentoring, and Power Platform evidence. It does not grant hands-on security-product levels until you complete and retains the relevant lab or work evidence.
 
 ### 3.1 RAG meaning
 
@@ -123,7 +123,7 @@ The baseline below is conservative. It credits Arti's documented Microsoft 365 e
 
 | Signal | What it says | What to do |
 |---|---|---|
-| Green in workload operations | Arti has a credible production anchor. | Lead with SharePoint/OneDrive and escalation evidence; do not hide it. |
+| Green in workload operations | You have a credible production anchor. | Lead with SharePoint/OneDrive and escalation evidence; do not hide it. |
 | Green in troubleshooting/communication | The consulting method is learnable from existing strengths. | Translate evidence into discovery, risk, design, handover, and executive outcomes. |
 | Red across security products | Product breadth is not yet evidenced. | Use the lab sequence and answer-aloud practice; never substitute chapter completion. |
 | Amber in consulting/deployment | Adjacent experience is meaningful but needs artifacts. | Complete capstone assessment, HLD, roadmap, test plan, runbook, and executive brief. |
@@ -159,7 +159,7 @@ The score is rounded to one decimal place. Gates are applied separately; a high 
 | Lab portfolio | 2 | 0 | 0.00 |
 | **Baseline raw score** | **100** |  | **31.1 / 100** |
 
-> The arithmetic baseline is **31.1%** after summing the unrounded domain contributions and rounding the total to one decimal place. It is not a rejection prediction. It says that several high-weight product domains currently have conceptual rather than hands-on/operational evidence, while Arti's strongest production capabilities sit in transferable troubleshooting, collaboration workload depth, communication, and operations.
+> The arithmetic baseline is **31.1%** after summing the unrounded domain contributions and rounding the total to one decimal place. It is not a rejection prediction. It says that several high-weight product domains currently have conceptual rather than hands-on/operational evidence, while your strongest production capabilities sit in transferable troubleshooting, collaboration workload depth, communication, and operations.
 
 | Raw score band | Guide-specific interpretation | Gate requirement |
 |---:|---|---|
@@ -195,7 +195,7 @@ flowchart TD
 
 | Evidence anchor | Target-role value | Domains supported | Proof to prepare | Boundary statement |
 |---|---|---|---|---|
-| 5+ years Microsoft enterprise support/escalation | Accountability, technical depth, ambiguity handling | Troubleshooting, operations, consulting communication | Sanitized incident timeline and personal actions | Does not prove production ownership of each security product. |
+| 5+ years enterprise support/escalation | Accountability, technical depth, ambiguity handling | Troubleshooting, operations, consulting communication | Sanitized incident timeline and personal actions | Does not prove production ownership of each security product. |
 | SharePoint Online and OneDrive depth | Strong M365 workload anchor | Permissions, sharing, sync, migration, data/security context | Two architecture/troubleshooting examples | Workload depth is not identical to Purview/Defender experience. |
 | Critical incidents and RCA | Incident leadership and evidence discipline | IR, on-call, service disruption, stakeholder cadence | STAR story with scope, hypotheses, evidence, result | Distinguish security incident from service/technical incident. |
 | Fix validation and product-group coordination | Engineering rigor and cross-team delivery | Testing, defect escalation, rollback, vendor boundaries | Example of discriminating test and verified fix | Do not disclose customer or internal confidential detail. |
@@ -345,7 +345,7 @@ flowchart TD
 
 ## 7. Two-week emergency path
 
-**Goal:** Never go blank on role-critical fundamentals, present Arti's strengths honestly, complete a small defensible evidence set, and survive layered follow-up questions. This path does not create senior-level mastery in two weeks. Use design-only fallbacks when lab access is unavailable; never compress authorization, cleanup, or high-impact response actions.
+**Goal:** Never go blank on role-critical fundamentals, present your strengths honestly, complete a small defensible evidence set, and survive layered follow-up questions. This path does not create senior-level mastery in two weeks. Use design-only fallbacks when lab access is unavailable; never compress authorization, cleanup, or high-impact response actions.
 
 ### 7.1 Days 1-7
 
@@ -659,7 +659,7 @@ flowchart LR
 | Zero Trust access | P3, P6-P9, P15-P17 | User/device/app/data → policy decision → outcome | Add MFA, CA, compliance, session, logs, emergency access | Can explain every arrow. |
 | Token flow | P5, P7 | Client → authorize/token endpoint → resource | Add PKCE, consent, scopes, claims, cache, CA, failure logs | No token-as-authorization confusion. |
 | Intune effective state | P15-P20 | Enroll → assign → evaluate → report → CA | Add authority, filters, conflicts, grace, sync, logs | Identifies failure layer. |
-| M365 data/sharing | P21-P25 | Identity → workload permission → sharing → audit | Add Teams/SPO/Exchange dependencies, labels, DLP, guests | Arti ties to direct workload evidence. |
+| M365 data/sharing | P21-P25 | Identity → workload permission → sharing → audit | Add Teams/SPO/Exchange dependencies, labels, DLP, guests | You tie to direct workload evidence. |
 | Purview lifecycle | P26-P33 | Discover → classify → protect → retain → investigate | Add roles, explorers, audit/eDiscovery, privacy, DSPM AI | No compliance overclaim. |
 | XDR attack story | P34-P42 | Signal → alert → incident → evidence → response | Add email/device/identity/app entities, AIR, hunting, Action Center | Containment tradeoff explained. |
 | Sentinel pipeline | P43-P50 | Source → connector/DCR → table → KQL → rule → incident → playbook | Add ASIM, entities, UEBA/TI, health, cost, approval | No “ingest everything.” |
@@ -792,7 +792,7 @@ flowchart LR
 
 | Resource/change | Owner | Created | Cost risk | Data sensitivity | Cleanup action | Verified removed/reverted | Residual item/reason |
 |---|---|---|---|---|---|---|---|
-| ______ | Arti | YYYY-MM-DD | Low/Med/High | Synthetic/Personal/Other authorized |  | YYYY-MM-DD / evidence |  |
+| ______ | You | YYYY-MM-DD | Low/Med/High | Synthetic/Personal/Other authorized |  | YYYY-MM-DD / evidence |  |
 
 ### 13.6 Cost tracker
 
@@ -904,7 +904,7 @@ Certification names, exam objectives, prerequisites, scheduling, renewal, and re
 
 ### 15.1 Role-aligned certification sequence
 
-| Certification | Best purpose for Arti | Guide coverage | Start gate | Evidence it does not replace | Priority |
+| Certification | Best purpose for you | Guide coverage | Start gate | Evidence it does not replace | Priority |
 |---|---|---|---|---|---:|
 | SC-900 | Consolidate security/compliance/identity vocabulary | P2-P4 plus overviews in P6, P15, P26, P34, P43 | Basic question block ≥80% | Hands-on or production depth | Optional quick foundation |
 | SC-300 | Deepen Entra identity/access | P6-P14, Lab 1 | Lab 1 design plus Q006-Q014/Q078-Q083 stable | Production identity operation | High |
@@ -1040,7 +1040,7 @@ Score 0-4 per dimension, maximum 24. Use generic/public consulting discipline on
 ```mermaid
 sequenceDiagram
     participant I as Interviewer
-    participant A as Arti
+    participant A as Candidate
     I->>A: Ambiguous technical/client scenario
     A->>I: Clarify outcome, scope, constraints
     I->>A: Add failure or changed condition
@@ -1058,18 +1058,18 @@ sequenceDiagram
 
 | Story field | Verification question | Acceptable evidence | Reject/repair when |
 |---|---|---|---|
-| Situation | Did this event happen, and can Arti describe it without confidential detail? | Personal record/recollection consistent with CV | Story combines multiple unrelated events. |
-| Task | What was Arti personally responsible for? | Role, decision, deliverable, expectation | “We” obscures personal accountability. |
-| Action | What did Arti decide/do, in sequence? | Three specific actions and rationale | Generic team activity or invented authority. |
+| Situation | Did this event happen, and can you describe it without confidential detail? | Personal record/recollection consistent with CV | Story combines multiple unrelated events. |
+| Task | What was you personally responsible for? | Role, decision, deliverable, expectation | “We” obscures personal accountability. |
+| Action | What did you decide/do, in sequence? | Three specific actions and rationale | Generic team activity or invented authority. |
 | Result | What changed and how is it known? | Verified qualitative/quantitative outcome | Number cannot be verified or causality is overstated. |
 | Reflection | What was learned and changed later? | Specific improvement or changed method | Empty “communication is important.” |
-| Boundary | What was not Arti's role/product/scope? | Honest collaborator/product/experience limit | Takes credit for product team/client/manager decision. |
+| Boundary | What was not your role/product/scope? | Honest collaborator/product/experience limit | Takes credit for product team/client/manager decision. |
 
 ### 17.2 Story inventory
 
 | Story ID | Theme | Verified situation | Personal task/actions | Verified result | Reflection | Target competency | Boundary checked? |
 |---|---|---|---|---|---|---|---|
-| STAR-1 | Critical incident/CRITSIT |  |  |  |  | Incident leadership/on-call |  |
+| STAR-1 | Critical incident/critical situation |  |  |  |  | Incident leadership/on-call |  |
 | STAR-2 | RCA/product fix |  |  |  |  | Troubleshooting/engineering rigor |  |
 | STAR-3 | Difficult stakeholder/vendor |  |  |  |  | Consulting communication |  |
 | STAR-4 | Mentoring/quality |  |  |  |  | Leadership/capability building |  |
@@ -1079,7 +1079,7 @@ sequenceDiagram
 
 ### 17.3 Production-to-security bridge
 
-| Arti evidence | Security-consulting bridge | Safe sentence |
+| Transferable evidence | Security-consulting bridge | Safe sentence |
 |---|---|---|
 | SharePoint/OneDrive escalation depth | Workload security, permissions, data, migration, resilience | “My direct depth is the collaboration workload; I have extended into cross-product security through structured labs and designs.” |
 | Critical incident ownership | Security triage, stakeholder cadence, PIR, on-call | “The incident discipline transfers; I distinguish service incidents from security incidents and use the correct authority.” |
@@ -1101,7 +1101,7 @@ sequenceDiagram
 
 ## 18. 24x7/on-call readiness
 
-On-call readiness includes technical triage, reliable communication, protected privileged access, handoff, fatigue awareness, and honest discussion of personal availability. It is not a performance of unlimited availability. Arti should understand the employer's actual rotation and then answer truthfully about constraints. This guide does not give employment or legal advice.
+On-call readiness includes technical triage, reliable communication, protected privileged access, handoff, fatigue awareness, and honest discussion of personal availability. It is not a performance of unlimited availability. You should understand the employer's actual rotation and then answer truthfully about constraints. This guide does not give employment or legal advice.
 
 ### 18.1 Rotation discovery questions
 

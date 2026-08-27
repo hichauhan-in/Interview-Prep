@@ -1,10 +1,10 @@
 # Part 38 - Zscaler Digital Experience (ZDX) and End-to-End Experience Analysis
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 >
 > **Purpose:** Explain Zscaler Digital Experience from zero: the public architecture, Client Connector monitoring module, users/devices/locations, applications/services, synthetic Web and Cloud Path probes, device and Wi-Fi health, Real User Monitoring, scores, baselines, diagnostics, incidents, alerting, Microsoft 365 use cases, privacy, evidence limits, troubleshooting, proactive TSM reviews, rollout, and outcomes.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every NMH device, user, site, application, score, probe, baseline, incident, alert, metric, investigation, and outcome is synthetic. Arti has production Microsoft enterprise endpoint, browser, Microsoft 365, networking, trace, service-health, escalation, analytics, and customer-communication experience. Production ZDX administration, probe design, Diagnostics operation, Real User Monitoring deployment, and incident response through ZDX are not established experience.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every NMH device, user, site, application, score, probe, baseline, incident, alert, metric, investigation, and outcome is synthetic. You have production enterprise endpoint, browser, Microsoft 365, networking, trace, service-health, escalation, analytics, and customer-communication experience. Production ZDX administration, probe design, Diagnostics operation, Real User Monitoring deployment, and incident response through ZDX are not established experience.
 >
 > **Currency caveat:** ZDX names, architecture labels, score formulas, thresholds, probe cadence/protocols, RUM behavior, incident logic, AI/ML behavior, diagnostics types, feature compatibility, UI paths, filters, time ranges, retention, platform support, privacy collection, subscription requirements, role permissions, and limits change. Confirm current authenticated ZDX help, tenant behavior, Client Connector and ZDX Module versions, ranges and limitations, release notes, contract, privacy/legal decisions, application-owner guidance, and actual telemetry before production use.
 
@@ -18,7 +18,7 @@ The central reasoning rule is:
 
 > A score prioritizes where to look. Raw matched evidence decides what to conclude.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Proof artifact |
 |---|---|---|
@@ -50,7 +50,7 @@ flowchart LR
 
 ## JD Mapping
 
-| Role expectation | Part 38 capability | TSM artifact | Arti bridge and boundary |
+| Role expectation | Part 38 capability | TSM artifact | experience bridge and boundary |
 |---|---|---|---|
 | Understand architecture | Map endpoint module, telemetry gateway, analytics, identity context, probes, and portal | Responsibility map | Microsoft telemetry correlation transfers |
 | Improve customer outcomes | Turn recurring poor experience into owned actions and validation | Improvement backlog | Outcome operations are established |
@@ -59,7 +59,7 @@ flowchart LR
 | Proactive engagement | Detect trends before ticket volume grows | Health review | ZDX-specific setup remains new |
 | Lead incidents | Correlate reports, probes, diagnostics, paths, service health, and changes | Unified timeline | Critical-incident coordination transfers |
 | Communicate clearly | Convert metrics into user/business impact and bounded conclusions | Executive brief | Avoid dashboard theater |
-| Partner broadly | Coordinate endpoint, network, Wi-Fi, ISP, Zscaler, SaaS, app, privacy, and Support owners | RACI/escalation pack | Cross-team Microsoft work transfers |
+| Partner broadly | Coordinate endpoint, network, Wi-Fi, ISP, Zscaler, SaaS, app, privacy, and Support owners | RACI/escalation pack | Cross-team prior work transfers |
 | Advocate adoption | Expand representative monitoring, not probe count for its own sake | Coverage roadmap | Current entitlements/limits must be checked |
 
 ## Candidate honesty note
@@ -441,7 +441,7 @@ RUM creates a stronger link to actual browser experience than a synthetic probe,
 
 Microsoft 365 is a distributed SaaS with global front doors and many dependencies. Microsoft guidance emphasizes local DNS, local egress, avoiding hairpins, current endpoint data, and minimizing intrusive traffic handling for required endpoints. It also warns TLS termination, protocol blocking/downgrade, proxy authentication, and inspection can affect supportability/performance. Treat this as service-owner design guidance and validate the agreed Zscaler/Microsoft architecture.
 
-| Workload | Representative operations | ZDX evidence | Additional Microsoft evidence |
+| Workload | Representative operations | ZDX evidence | Additional prior evidence |
 |---|---|---|---|
 | Outlook Online | Load mailbox, search, send | Web/RUM/path/device | M365 service health, HAR, Exchange logs |
 | Outlook desktop | Startup, sync, search | Device/path/probes around dependencies | Client logs, connectivity tests, Exchange telemetry |
@@ -805,9 +805,9 @@ flowchart LR
 
 Rollback may disable or re-scope a probe, RUM assignment, alert, integration, diagnostics session, or module upgrade for a bounded cohort. Do not remove all monitoring because one threshold is noisy. Preserve pre-change evidence, stop privacy-impacting collection promptly if unauthorized, verify module/client health, and document resulting visibility gaps.
 
-## Arti's Microsoft-to-Zscaler bridge
+## Your experience bridge to Zscaler
 
-| Microsoft production strength | ZDX transfer | New learning | Honest wording |
+| prior production strength | ZDX transfer | New learning | Honest wording |
 |---|---|---|---|
 | M365 client/service isolation | Define task, compare cohorts, correlate service health | ZDX app/probe/score drill-down | "Method transfers; ZDX operation is new." |
 | Teams call-quality work | Align call, device, Wi-Fi, ISP, and service evidence | ZDX call integration/Autosense | "I verify integration coverage." |
@@ -960,7 +960,7 @@ Zscaler public help is the product anchor, but feature names, UI, formulas, thre
 
 **Model answer:** Depending on features, ZDX can associate identity/device with location, IP/ASN, Wi-Fi identifiers, hardware/software/processes, browser page metrics, call quality, and Diagnostics/PCAP. I require purpose, legal/HR/privacy review, minimum collection, notice, location choices, named-view RBAC, API permissions, retention, region, exports, support-sharing rules, audit, and deletion. Scores must not become employee-performance ratings, and Diagnostics is bounded and hypothesis-driven.
 
-### Q8. How does your Microsoft background transfer to ZDX work?
+### Q8. How does your prior background transfer to ZDX work?
 
 **Model answer:** I have production experience defining Microsoft 365 user operations, correlating endpoint/network/browser/client/service telemetry, analyzing Teams and OneDrive/Outlook issues, using traces and service health, comparing cohorts and percentiles, protecting customer evidence, coordinating incidents, and communicating bounded conclusions. Those methods map directly to ZDX. I would be clear that production ZDX probe, RUM, alert, and Diagnostics administration is new.
 
@@ -987,7 +987,7 @@ Zscaler public help is the product anchor, but feature names, UI, formulas, thre
 | M365 | Local DNS/egress and distributed front doors |
 | Workflow | Task, coverage, raw layers, cohort, test |
 | Outcomes | Fewer impact minutes and faster isolation |
-| Arti bridge | Microsoft correlation transfers; ZDX admin is new |
+| Experience bridge | Microsoft correlation transfers; ZDX admin is new |
 
 ## Completion Checklist
 
@@ -1039,7 +1039,7 @@ Zscaler public help is the product anchor, but feature names, UI, formulas, thre
 - [ ] I can design governance, inventory, compatibility, pilot, baseline, alert, Diagnostics, expansion, and operations phases.
 - [ ] I can roll back a bounded probe/RUM/alert/integration/module change and document visibility loss.
 - [ ] I can run all twelve labs only in owned/authorized environments.
-- [ ] I can deliver Arti's 30-second bridge with an explicit production boundary.
+- [ ] I can deliver your 30-second bridge with an explicit production boundary.
 - [ ] I can cite current Zscaler and Microsoft sources while stating UI/version/entitlement/privacy caveats.
 - [ ] I can answer Q1-Q8 and expand with architecture, evidence, limitations, metrics, and outcomes.
 

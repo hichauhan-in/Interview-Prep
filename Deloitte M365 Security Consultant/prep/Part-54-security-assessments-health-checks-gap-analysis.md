@@ -2,7 +2,7 @@
 
 > **Section goal:** Build a beginner-first, consulting-grade method for assessing Microsoft 365 security in a way that is scoped, evidence-based, reproducible, risk-aware, and useful to both executives and technical owners. By the end, you should be able to define control objectives and assessment criteria; distinguish design, configuration, implementation, and operational effectiveness; choose populations, samples, periods, evidence, and tests; map public frameworks and Microsoft baselines without treating any tool score as assurance; perform health checks across Entra, Intune, Exchange, Teams, SharePoint, OneDrive, Purview, Defender, and Sentinel; write defensible findings; rate severity, likelihood, impact, confidence, and maturity with caveats; handle exceptions, compensating controls, disputes, and residual risk; run quality review; publish executive and technical reports; and produce a prioritized treatment backlog plus reusable templates from a safe fictional exercise.
 
-This Part maps directly to the role's expectations for security assessments, health checks, readiness reviews, Microsoft 365 technical advisory, gap analysis, documentation, stakeholder validation, remediation planning, and executive reporting. Arti's strengths in complex escalations, RCA, log and configuration analysis, fix validation, critical-incident ownership, business reviews, KPI interpretation, vendor/product-group coordination, and customer documentation transfer directly. The new consulting discipline is to evaluate an agreed control population and period consistently, preserve limitations, and distinguish a point-in-time technical observation from evidence that a control is well designed and operates repeatedly.
+This Part maps directly to the role's expectations for security assessments, health checks, readiness reviews, Microsoft 365 technical advisory, gap analysis, documentation, stakeholder validation, remediation planning, and executive reporting. Your strengths in complex escalations, RCA, log and configuration analysis, fix validation, critical-incident ownership, business reviews, KPI interpretation, vendor/product-group coordination, and customer documentation transfer directly. The new consulting discipline is to evaluate an agreed control population and period consistently, preserve limitations, and distinguish a point-in-time technical observation from evidence that a control is well designed and operates repeatedly.
 
 > **Method boundary:** This chapter presents general public assessment and security-engineering guidance. It draws on Microsoft Learn, NIST, CIS, MITRE, CISA, and other recognized public sources where appropriate. It does not describe or imply Deloitte's internal, confidential, or proprietary assessment methodology, scoring model, templates, or quality process. In a real engagement, use the signed scope and the firm's approved methods, independence rules, quality reviews, evidence handling, and reporting templates.
 
@@ -21,9 +21,9 @@ This Part maps directly to the role's expectations for security assessments, hea
 
 ## Candidate honesty note
 
-Arti can credibly describe production work that examined Microsoft 365 configurations, logs, service behavior, support cases, changes, and user impact; isolated faults; coordinated vendors and product groups; documented RCA; validated fixes; and reported trends and service quality. She can explain how those evidence and validation skills support assessments.
+You can credibly describe production work that examined Microsoft 365 configurations, logs, service behavior, support cases, changes, and user impact; isolated faults; coordinated vendors and product groups; documented RCA; validated fixes; and reported trends and service quality. You can explain how those evidence and validation skills support assessments.
 
-She should not claim to have conducted a formal Deloitte assessment, issued an assurance opinion, certified compliance, audited every M365 security domain, or run production Secure Score, Purview, Defender, or Sentinel health checks unless separately evidenced. Safe wording is:
+You should not claim to have conducted a formal Deloitte assessment, issued an assurance opinion, certified compliance, audited every M365 security domain, or run production Secure Score, Purview, Defender, or Sentinel health checks unless separately evidenced. Safe wording is:
 
 > “My production background is Microsoft 365 support escalation and technical advisory, where I gathered configuration and operational evidence, tested hypotheses, coordinated owners and vendors, documented RCA, validated changes, and presented service trends. I have built a fictional assessment pack that defines control objectives, scope, populations, evidence and tests; distinguishes design, configuration and operational effectiveness; covers the Microsoft security stack; records confidence and limitations; and produces validated findings and a prioritized backlog. I would use the firm's approved assessment and quality processes in a client engagement and would not describe a posture score or sampled review as certification.”
 
@@ -397,7 +397,7 @@ Test persona combinations: employee, guest, external federated user, anonymous a
 | Apps/integration | Add-ins, Graph apps, migration tools, vendor access |
 | Monitoring/response | Audit, alerts, oversharing investigation, revocation, owner workflow |
 
-Arti's SharePoint and OneDrive depth is especially valuable. She can explain permission inheritance, sharing-link scope, sync and migration dependencies, then extend assessment into Entra, device, Purview, Defender, Sentinel, privacy, and operating ownership.
+Your SharePoint and OneDrive depth is especially valuable. You can explain permission inheritance, sharing-link scope, sync and migration dependencies, then extend assessment into Entra, device, Purview, Defender, Sentinel, privacy, and operating ownership.
 
 ## 17. Purview health check
 
@@ -741,7 +741,7 @@ Separate four disputes:
 | Escalate appropriately | Method owner, sponsor, risk owner, legal/privacy |
 | Publish unresolved limitation | Transparency over artificial consensus |
 
-Arti's vendor/product-group escalations provide a strong analogy: isolate the ownership boundary, align timestamps and identifiers, share reproducible evidence, test the cheapest discriminating hypothesis, and escalate a precise unresolved question.
+Your vendor/product-group escalations provide a strong analogy: isolate the ownership boundary, align timestamps and identifiers, share reproducible evidence, test the cheapest discriminating hypothesis, and escalate a precise unresolved question.
 
 ## 30. Quality review
 
@@ -1038,7 +1038,7 @@ flowchart LR
 
 ## 40. JD Mapping: interview translation
 
-| Interview theme | Arti's transferable experience | Honest assessment translation |
+| Interview theme | Your transferable experience | Honest assessment translation |
 |---|---|---|
 | Evidence | Logs, configs, traces, timelines, case records | Reproducible evidence/test workbook |
 | Scope | Impacted users/services and reproduction boundaries | Population, period, sample, exclusions, assurance level |
@@ -1130,7 +1130,7 @@ These public sources were used as anchors for general assessment and Microsoft p
 - **Owner validates facts; authorized risk owner accepts residual risk.**
 - **A remediation ticket does not close a finding.**
 - **Executive report decides; technical report reproduces.**
-- **Arti's bridge:** RCA evidence and fix validation → assessment testing and QA.
+- **Your bridge:** RCA evidence and fix validation → assessment testing and QA.
 - **Honesty:** advisory assessment, not certification or Deloitte-proprietary method.
 
 ## Completion Checklist

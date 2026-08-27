@@ -197,7 +197,7 @@ flowchart TD
     B2 --> Rec
 ```
 
-> 💡 **Tie-in to your background:** you have worked with audit and diagnostic data flowing into monitoring systems in an enterprise Microsoft context. The log-stream model — ship everything to a SIEM, buffer on failure, alert when the sink is unhealthy — is the same architecture you already recognise. What is new is the identity event vocabulary (Part 107).
+> 💡 **Tie-in to your background:** you have worked with audit and diagnostic data flowing into monitoring systems in an enterprise support context. The log-stream model — ship everything to a SIEM, buffer on failure, alert when the sink is unhealthy — is the same architecture you already recognise. What is new is the identity event vocabulary (Part 107).
 
 ---
 

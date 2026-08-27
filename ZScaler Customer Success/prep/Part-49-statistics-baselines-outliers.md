@@ -1,10 +1,10 @@
 # Part 49 - Statistics, Baselines, Outliers, Trends, and Analytical Honesty
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 >
 > **Purpose:** Build statistical judgment for security and customer analytics: populations and samples, distributions, center and spread, percentiles, rates and denominators, uncertainty, correlation and causation, regression, seasonality, control-chart concepts, anomalies, missing/censored data, bias, Simpson's paradox, dashboards, risk-score uncertainty, and experiments.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every population, sample, score, observation, chart, threshold, experiment, incident, trend, finding, result, and SQL example is synthetic. This Part teaches general statistics and PostgreSQL-oriented analysis; it does not document Zscaler algorithms, Risk360 scoring, product baselines, anomaly models, dashboards, or production results. Official Zscaler Data Fabric material is used only for bounded public context about unified data and business context. Arti's statistics, MBA Business Analytics, SQL, PostgreSQL, Power BI, support analytics, and evidence-based troubleshooting transfer; direct production Zscaler security analytics remains a learning boundary.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every population, sample, score, observation, chart, threshold, experiment, incident, trend, finding, result, and SQL example is synthetic. This Part teaches general statistics and PostgreSQL-oriented analysis; it does not document Zscaler algorithms, Risk360 scoring, product baselines, anomaly models, dashboards, or production results. Official Zscaler Data Fabric material is used only for bounded public context about unified data and business context. Your statistics, a postgraduate business-analytics qualification, SQL, PostgreSQL, Power BI, support analytics, and evidence-based troubleshooting transfer; direct production Zscaler security analytics remains a learning boundary.
 >
 > **Currency caveat:** Statistical methods, product implementations, customer populations, risk models, controls, regulations, and public documentation change. Sources in this Part were reviewed on **2026-08-24**. Current method documentation, customer data contracts, approved analytical plans, privacy controls, product evidence, and qualified statistical/security review govern production.
 
@@ -14,7 +14,7 @@ Statistics turns observations into disciplined statements about a population, pa
 
 Think of a physician reading a temperature. One high reading may be measurement error, normal variation, or illness. The physician asks how the instrument works, what the patient's baseline is, what other symptoms exist, and whether the change persists. A security analyst should treat a risk-score spike, connector-volume drop, or remediation improvement with the same care.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Evidence artifact |
 |---|---|---|
@@ -49,7 +49,7 @@ flowchart LR
 
 ## JD Mapping
 
-| Role expectation | Part 49 capability | TSM artifact | Arti bridge and boundary |
+| Role expectation | Part 49 capability | TSM artifact | experience bridge and boundary |
 |---|---|---|---|
 | Analyze complex environments | Profile distributions, trends, baselines, anomalies, and uncertainty | Analytical assessment | Statistics/BI skills transfer |
 | Identify security risk | Interpret indicators without treating score or outlier as ground truth | Risk evidence note | Risk decision needs context |
@@ -1008,7 +1008,7 @@ NIST sources provide measurement, statistical, risk, and cybersecurity guidance;
 | Risk score | Model output, not automatic probability |
 | Experiment | Intervention plus credible counterfactual |
 | Before/after | After does not mean because |
-| Arti bridge | Statistics transfers; Zscaler algorithms do not |
+| Experience bridge | Statistics transfers; Zscaler algorithms do not |
 
 ## Completion Checklist
 

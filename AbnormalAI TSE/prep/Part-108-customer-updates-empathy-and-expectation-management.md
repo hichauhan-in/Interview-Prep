@@ -2,7 +2,7 @@
 
 > **Purpose:** Build a beginner-first, vendor-neutral method for writing customer updates that acknowledge the customer, state impact accurately, show completed work, distinguish findings from hypotheses, name the next action and owner, give an honest time commitment, expose important uncertainty, and make a proportionate recommendation without filler.
 >
-> **Artifact honesty label:** **Direct Microsoft enterprise-support transfer plus completed local synthetic written messages; separate lab unperformed.** Arti's background, as recorded in the master guide, includes customer and partner communication, complex investigations, CRITSIT work, Engineering/Product escalation, fix validation, and enterprise case ownership at Microsoft. Those are relevant production-transfer strengths. The messages, customers, systems, incidents, identifiers, times, observations, owners, recommendations, and outcomes in this Part are learner-authored fiction. This Part does not reproduce or claim knowledge of Abnormal AI's templates, macros, SLAs, severity rules, update policies, escalation paths, customer commitments, internal systems, or approved wording. SignalBridge Lab 108 was not performed while this Part was authored.
+> **Artifact honesty label:** **Direct enterprise-support transfer plus completed local synthetic written messages; separate lab unperformed.** Your background, as recorded in the master guide, includes customer and partner communication, complex investigations, critical-situation work, Engineering/Product escalation, fix validation, and enterprise case ownership in a previous role. Those are relevant production-transfer strengths. The messages, customers, systems, incidents, identifiers, times, observations, owners, recommendations, and outcomes in this Part are learner-authored fiction. This Part does not reproduce or claim knowledge of Abnormal AI's templates, macros, SLAs, severity rules, update policies, escalation paths, customer commitments, internal systems, or approved wording. SignalBridge Lab 108 was not performed while this Part was authored.
 >
 > **Currency and source access date:** August 24, 2026.
 >
@@ -12,7 +12,7 @@
 
 A technically correct investigation can still lose customer trust if the customer cannot tell whether anyone understood the problem, what is happening now, who owns the next step, or when they will hear again. The opposite failure is equally dangerous: a polished message can sound confident while hiding impact, blurring evidence, inventing an estimated time of arrival, or recommending a risky change. Strong support communication joins **human recognition, evidence discipline, ownership, and time discipline** in one compact update.
 
-This Part teaches Arti to:
+This Part teaches you to:
 
 1. distinguish empathy from sympathy and an apology, then use empathy without scripted filler;
 2. acknowledge the specific situation without pretending agreement with an unverified cause;
@@ -27,7 +27,7 @@ This Part teaches Arti to:
 11. write a first response, progress update, and resolution message that form one coherent story;
 12. close only after distinguishing technical resolution, customer validation, monitoring, and administrative closure;
 13. reject fabricated certainty, fabricated ETA, blame, filler apology loops, unsafe bypass advice, hidden impact, and unreviewed generated messages; and
-14. present Microsoft production experience, local synthetic practice, and unknown Abnormal processes as separate evidence tiers.
+14. present prior production experience, local synthetic practice, and unknown Abnormal processes as separate evidence tiers.
 
 The portable rule is: **recognize the person and impact, report only what the evidence supports, own the next move, and promise the next communication before promising the outcome.**
 
@@ -76,12 +76,12 @@ flowchart LR
 | Provide recommendations | Gives bounded advice with risk and validation | States purpose, authority, rollback, alternative, and stop condition | Recommendation worksheet |
 | Collaborate with Engineering/Product | Translates internal dependency without blaming or promising | Says what decision is pending and what Support still owns | Escalation communication pattern |
 | Resolution and closure | Confirms outcome and limitations before administrative closure | Distinguishes restoration, root cause, monitoring, and case state | Resolution message artifact |
-| Microsoft enterprise-support transfer | Uses real experience in high-pressure customer communication and escalation | Tells one accurate Microsoft story with exact personal action and result | `DIRECT_PRODUCTION_TRANSFER` narrative |
+| enterprise-support transfer | Uses real experience in high-pressure customer communication and escalation | Tells one accurate Microsoft story with exact personal action and result | `DIRECT_PRODUCTION_TRANSFER` narrative |
 | Abnormal AI learning target | Learns current channels, templates, cadence, approvals, and promises before use | Asks discovery questions instead of presenting this guide as policy | First-week discovery checklist |
 
 ## Candidate honesty note
 
-Arti's Microsoft enterprise-support experience is directly relevant to listening under pressure, clarifying impact, coordinating technical work, updating customers and partners, escalating to Engineering or Product, validating fixes, and preserving ownership. In an interview, Arti should use a real Microsoft example only if she can accurately state the situation, her own actions, the communication choices, and the result. She should not disclose customer identities, internal-only data, proprietary procedures, confidential timelines, or details she is not authorized to share.
+Your prior enterprise-support experience is directly relevant to listening under pressure, clarifying impact, coordinating technical work, updating customers and partners, escalating to Engineering or Product, validating fixes, and preserving ownership. In an interview, you should use a real Microsoft example only if you can accurately state the situation, your own actions, the communication choices, and the result. You should not disclose customer identities, internal-only data, proprietary procedures, confidential timelines, or details you are not authorized to share.
 
 That transfer does **not** establish that Microsoft and Abnormal AI use the same case fields, message templates, severity model, cadence, approval chain, status page, escalation protocol, wording, SLA, or closure policy. This Part is a product-neutral learning framework. It contains no real Abnormal message, policy, macro, customer, case, incident, owner, SLA, ETA, or commitment. A future Abnormal employee would need current authorized training and supervision before applying local procedures.
 
@@ -89,7 +89,7 @@ That transfer does **not** establish that Microsoft and Abnormal AI use the same
 
 | Capability or claim | Evidence label | Safe interview language | Claim to avoid |
 |---|---|---|---|
-| Microsoft customer updates, escalation, and fix validation | **DIRECT_PRODUCTION_TRANSFER** | “In Microsoft enterprise support, I communicated with customers and partners during complex investigations and escalations; I can describe a real sanitized example and my exact role.” | “Microsoft used this exact framework” unless supported and shareable |
+| prior customer updates, escalation, and fix validation | **DIRECT_PRODUCTION_TRANSFER** | “In enterprise support, I communicated with customers and partners during complex investigations and escalations; I can describe a real sanitized example and my exact role.” | “Microsoft used this exact framework” unless supported and shareable |
 | General communication and incident principles | **LEARNED_METHOD_FROM_PRIMARY_SOURCES** | “I combined public primary guidance with my support experience into a vendor-neutral method.” | Presenting NIST, CDC, Microsoft style, Google SRE, or government writing guidance as one universal support policy |
 | Three message artifacts in this Part | **TEMPLATE_ONLY_SYNTHETIC_COMPLETED_IN_WRITING** | “I authored and reviewed a fictional first response, progress update, and resolution set to demonstrate structure.” | “I sent these messages to a customer” or “these are approved Abnormal templates” |
 | SignalBridge Lab 108 | **DESIGN_NOT_EXECUTED_NOT_TRANSFERRED** | “The local synthetic communication lab is designed but was not performed during authoring.” | Any claim of lab execution, scored performance, or observed customer outcome |
@@ -97,7 +97,7 @@ That transfer does **not** establish that Microsoft and Abnormal AI use the same
 
 A safe interview bridge is:
 
-> “My direct foundation is five years of Microsoft enterprise support, where customer communication, complex investigation, escalation, and fix validation were part of my role. I would use a real sanitized example to show how I recognized impact, kept ownership visible, and updated based on evidence. For preparation, I created a vendor-neutral synthetic message set. I have not used Abnormal's internal support process, so I would first learn its approved templates, severity and cadence rules, commitment authority, channels, and escalation paths rather than assume they match Microsoft.”
+> “My direct foundation is several years of enterprise support, where customer communication, complex investigation, escalation, and fix validation were part of my role. I would use a real sanitized example to show how I recognized impact, kept ownership visible, and updated based on evidence. For preparation, I created a vendor-neutral synthetic message set. I have not used Abnormal's internal support process, so I would first learn its approved templates, severity and cadence rules, commitment authority, channels, and escalation paths rather than assume they match Microsoft.”
 
 ## 1. Empathy without filler
 
@@ -931,7 +931,7 @@ flowchart TD
 | Continuity | Messages contradict | Thread mostly aligned | Goal, impact, evidence, state, owner, and time evolve coherently |
 | Resolution | Closure equals success | Fix stated | Customer outcome, validation, scope, limits, monitoring, and reopen route |
 | Safety | Real data, secret, send, or risky advice | General warning | Every privacy, promise, blame, change, and generation prohibition enforced |
-| Honesty | Abnormal policy/template or performed-lab claim | Gap implied | Microsoft transfer, synthetic artifacts, unperformed lab, and Abnormal unknowns separate |
+| Honesty | Abnormal policy/template or performed-lab claim | Gap implied | experience transfer, synthetic artifacts, unperformed lab, and Abnormal unknowns separate |
 
 **Lab automatic failure:** any real or uncertain-provenance customer/person/employer data; secret or sensitive detail; customer contact; external send, upload, account, portal, AI service, API, script, automation, product action, permission/configuration change, bypass, destructive advice, or publication; unsupported promise, certainty, ETA, validation, apology/admission, legal/contractual statement, Product/Engineering commitment, or root cause; hidden impact, blame, closure gaming, fabricated customer confirmation; copied proprietary template/policy; invented Abnormal process; or claim that the lab was performed during authoring.
 
@@ -959,7 +959,7 @@ The authored Part is complete only when every gate passes. The master status mus
 
 ## Official Source Anchors - August 24, 2026
 
-These sources anchor public communication, incident-response, recovery, style, and clarity concepts only. No source establishes an Abnormal AI support template, policy, SLA, cadence, severity, customer commitment, internal workflow, or Arti's direct operation of a named tool. Source guidance applies in its own context; current employer policy, contracts, law, security/privacy requirements, incident command, accessibility needs, and authorized communication channels control real work.
+These sources anchor public communication, incident-response, recovery, style, and clarity concepts only. No source establishes an Abnormal AI support template, policy, SLA, cadence, severity, customer commitment, internal workflow, or your direct operation of a named tool. Source guidance applies in its own context; current employer policy, contracts, law, security/privacy requirements, incident command, accessibility needs, and authorized communication channels control real work.
 
 | Official or primary source | Concept anchored | Boundary for this Part |
 |---|---|---|
@@ -968,7 +968,7 @@ These sources anchor public communication, incident-response, recovery, style, a
 | [NIST SP 800-61 Rev. 3 - Incident Response Recommendations and Considerations](https://csrc.nist.gov/pubs/sp/800/61/r3/final) | Organization-wide cybersecurity incident response integrated with CSF 2.0 risk management | NIST recommendations do not supply a vendor's customer-message wording, severity, SLA, notification duty, or legal conclusion. Not every support case is a cybersecurity incident. |
 | [NIST Cybersecurity Framework 2.0](https://www.nist.gov/cyberframework) | Govern, Identify, Protect, Detect, Respond, and Recover outcomes, including coordinated response and communication context | CSF is outcome-oriented and voluntary guidance. It does not prescribe one communication template, exact cadence, customer promise, tool, or implementation. |
 | [NIST SP 800-184 - Guide for Cybersecurity Event Recovery](https://csrc.nist.gov/pubs/sp/800/184/final) | Recovery planning, resilience, realistic scenarios, prioritization, testing, and improvement | Published in 2016 and scoped to cybersecurity event recovery. It does not define current private-company closure language, customer validation, or Abnormal recovery process. |
-| [Microsoft Writing Style Guide - Welcome](https://learn.microsoft.com/en-us/style-guide/welcome/) | Microsoft's public writing principles: warm and relaxed, crisp and clear, and ready to help | A public style guide is not proof of Microsoft's internal support process, Arti's exact prior templates, or Abnormal's voice. It does not authorize promises or disclosure. |
+| [Microsoft Writing Style Guide - Welcome](https://learn.microsoft.com/en-us/style-guide/welcome/) | Microsoft's public writing principles: warm and relaxed, crisp and clear, and ready to help | A public style guide is not proof of Microsoft's internal support process, your exact prior templates, or Abnormal's voice. It does not authorize promises or disclosure. |
 | [Microsoft Writing Style Guide - Top 10 tips for Microsoft style and voice](https://learn.microsoft.com/en-us/style-guide/top-10-tips-style-voice) | Reader-focused, concise, clear, conversational technology writing | Style guidance improves readability but cannot validate technical facts, impact, authority, security, or an ETA. Local terminology and review still apply. |
 | [Microsoft Writing Style Guide - Global communications](https://learn.microsoft.com/en-us/style-guide/global-communications/) | Writing for global audiences with clear language and localization awareness | Global-writing advice does not replace accessibility, localization, legal, cultural, time-zone, or customer-specific review. It is not an incident policy. |
 | [Google SRE Book - Managing Incidents](https://sre.google/sre-book/managing-incidents/) | Primary description of Google's incident roles, communication function, periodic stakeholder updates, live state, and explicit handoffs | Google's SRE practice is not an Abnormal process or universal standard. The chapter does not authorize customer-specific disclosures, promises, risky changes, or use of Google's exact structure elsewhere. |
@@ -1029,7 +1029,7 @@ Source discipline:
 - **Recommendations need purpose, authority, risk, rollback, and validation.**
 - **No blame: describe conditions, evidence, and prevention.**
 - **Mitigated is not fixed; restored is not root-caused; closed is not validated.**
-- **Microsoft experience transfers; Abnormal policy remains unknown until learned.**
+- **prior experience transfers; Abnormal policy remains unknown until learned.**
 - **Never send secrets, unsafe advice, unsupported promises, or unreviewed generated text.**
 
 ## Completion Checklist

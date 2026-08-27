@@ -2,7 +2,7 @@
 
 > **Section goal:** Learn a consulting-grade, evidence-led method for moving security capabilities from third-party products to Microsoft security services without confusing product replacement with risk reduction. By the end, you should be able to define migration outcomes; inventory use cases, architecture, policies, rules, telemetry, agents, connectors, APIs, workflows, service levels, contracts, skills, and evidence obligations; map the current state to Microsoft target capabilities without relying on marketing labels; assess parity, gaps, overlaps, risks, prerequisites, licenses, and total cost; design coexistence that avoids duplicate alerts, duplicate response actions, endpoint-agent conflict, broken email flow, lost SIEM history, or identity lockout; translate policies rather than blindly copying syntax; build pilots and acceptance criteria; validate telemetry, detection efficacy, performance, user impact, and operations; execute cutover, reconciliation, rollback, decommission, and vendor exit; and produce safe portfolio artifacts across email, endpoint, SIEM, CASB, and identity examples.
 
-This Part maps directly to the role's responsibility to assess, design, migrate, configure, troubleshoot, and operationalize Microsoft 365 security solutions, including transformation from third-party products. It uses Arti's demonstrated strengths in Microsoft 365 vendors and product-group coordination, high-severity escalation, root-cause analysis, fix validation, documentation, knowledge transfer, KPI reporting, and business reviews. The consulting extension is to apply those same habits before, during, and after a controlled security-platform migration.
+This Part maps directly to the role's responsibility to assess, design, migrate, configure, troubleshoot, and operationalize Microsoft 365 security solutions, including transformation from third-party products. It uses your demonstrated strengths in Microsoft 365 vendors and product-group coordination, high-severity escalation, root-cause analysis, fix validation, documentation, knowledge transfer, KPI reporting, and business reviews. The consulting extension is to apply those same habits before, during, and after a controlled security-platform migration.
 
 > **Method boundary:** This chapter contains public, general consulting, security-engineering, change, and migration practices. It does not describe or imply Deloitte proprietary methods, accelerators, templates, commercial positions, client experience, or internal delivery processes. A real engagement must use the approved client and firm governance, architecture, security, privacy, legal, procurement, licensing, change, quality, and records-management processes.
 
@@ -23,9 +23,9 @@ This Part maps directly to the role's responsibility to assess, design, migrate,
 
 ## Candidate honesty note
 
-Arti can directly discuss production Microsoft 365 support, SharePoint Online and OneDrive, migration and sync symptoms, permissions, critical escalations, vendors and product groups, technical advisory, RCA, fix validation, documentation, mentoring, KPI reviews, and customer communication where supported by her CV and real examples. Those are highly relevant because migrations fail at boundaries and require disciplined evidence, ownership, recovery, and communication.
+You can directly discuss production Microsoft 365 support, SharePoint Online and OneDrive, migration and sync symptoms, permissions, critical escalations, vendors and product groups, technical advisory, RCA, fix validation, documentation, mentoring, KPI reviews, and customer communication where supported by your CV and real examples. Those are highly relevant because migrations fail at boundaries and require disciplined evidence, ownership, recovery, and communication.
 
-She should not claim that she has led a production migration from a named third-party email gateway, EDR, SIEM, CASB, identity provider, or security platform into Microsoft security services unless she has separate evidence. She must not present this fictional exercise as client work. Safe wording is:
+You should not claim that you have led a production migration from a named third-party email gateway, EDR, SIEM, CASB, identity provider, or security platform into Microsoft security services unless you have separate evidence. You must not present this fictional exercise as client work. Safe wording is:
 
 > “My direct production strength is Microsoft 365 escalation engineering: I isolate multi-party faults, coordinate customers, partners, vendors, and product groups, document RCA, validate fixes, and communicate service impact and metrics. To prepare for security consulting, I built a vendor-neutral paper migration pack across email, endpoint, SIEM, CASB, and identity. It maps use cases and evidence, plans coexistence and rollback, and defines measurable acceptance. I would verify current product behavior, licensing, contracts, privacy, and client change controls before any real implementation.”
 
@@ -572,7 +572,7 @@ Use safe vendor-supported simulations, benign files/commands, synthetic identiti
 
 Measure startup/login, mail delivery, application launch, file access, browsing, synchronization, CPU, memory, disk, network, battery, crash/hang, policy evaluation, connector latency, API throttling, and ticket volume where relevant. Test ordinary, peak, degraded, offline, and recovery states.
 
-Arti's SharePoint/OneDrive experience is especially useful: a migration control may appear healthy in a portal yet disrupt sync, sharing, file hydration, authentication, proxy access, or client update behavior. Compare affected and unaffected cohorts, preserve timestamps, identify recent change, and validate the fix in the original workflow.
+Your SharePoint/OneDrive experience is especially useful: a migration control may appear healthy in a portal yet disrupt sync, sharing, file hydration, authentication, proxy access, or client update behavior. Compare affected and unaffected cohorts, preserve timestamps, identify recent change, and validate the fix in the original workflow.
 
 ## 24. Cutover planning and command control
 
@@ -685,7 +685,7 @@ Retain documentation and evidence per authorized records policy. Obtain deletion
 | Change authority | Change classification, go/no-go, emergency/rollback governance |
 | Risk owner | Residual-risk treatment or acceptance |
 
-Arti's strongest contribution in a scenario answer is often the connective work: establish one timeline, request precise evidence from each owner, prevent assumption-based blame, validate the fix end to end, document the root cause and workaround, and convert repeated defects into knowledge and business-review actions.
+Your strongest contribution in a scenario answer is often the connective work: establish one timeline, request precise evidence from each owner, prevent assumption-based blame, validate the fix end to end, document the root cause and workaround, and convert repeated defects into knowledge and business-review actions.
 
 ## 30. Quality, safety, security, and privacy controls
 
@@ -731,7 +731,7 @@ Quality requires traceability, peer review, reproducible evidence, controlled ve
 
 **Method:** Segment platforms and criticality; validate supported coexistence modes with both vendors; baseline resource use; inventory exclusions and response actions; onboard Ring 0; validate sensor health, telemetry, controlled detections, timeline, incident routing, isolation and recovery; compare performance; then move cohorts. Retain one response authority and do not copy broad exclusions. Separate server and VDI decisions. Record product defects with versions, timestamps, dumps/logs, minimal repro, business impact, and workaround.
 
-**Arti tie:** This is familiar escalation discipline: compare affected/unaffected endpoints, isolate change and dependency, gather product-specific evidence, coordinate vendors, validate remediation in the user's workflow, and publish a known-error article.
+**Background tie:** This is familiar escalation discipline: compare affected/unaffected endpoints, isolate change and dependency, gather product-specific evidence, coordinate vendors, validate remediation in the user's workflow, and publish a known-error article.
 
 ## 34. Scenario: SIEM migration to Sentinel
 
@@ -863,7 +863,7 @@ Use **O-I-M-D-P-C-R-O**:
 
 ## 42. JD Mapping: interview translation
 
-| Arti evidence | Consulting translation | Honest interview sentence |
+| Transferable evidence | Consulting translation | Honest interview sentence |
 |---|---|---|
 | Coordinated vendors/product groups | Multi-vendor migration and defect governance | “I establish ownership, a shared timeline, exact evidence requests, and validation criteria.” |
 | Led critical escalations | Cutover/hypercare command discipline | “I control impact, cadence, decisions, recovery, and stakeholder updates.” |
@@ -936,7 +936,7 @@ Use current versions and record access dates in real deliverables.
 - **Pilot represents reality.** Personas, platforms, networks, workflows, failure modes, and support must be present.
 - **Rollback needs machinery.** Trigger, authority, deadline, dependencies, steps, reconciliation, validation, communication.
 - **Reconcile before exit.** Coverage, data, cases, access, assets, contracts, and cost.
-- **Arti's bridge is evidence.** Scope, timeline, vendors, RCA, fix validation, documentation, and business communication.
+- **Your bridge is evidence.** Scope, timeline, vendors, RCA, fix validation, documentation, and business communication.
 
 ## Completion Checklist
 

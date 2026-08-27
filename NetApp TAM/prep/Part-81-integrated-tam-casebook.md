@@ -1,20 +1,20 @@
 # Part 81 - Integrated TAM Casebook: Twenty End-to-End Customer Cases
 
-> **Section goal:** Integrate Parts 1-80 into concise, defensible customer-case reasoning that can survive technical, executive, and interview follow-up. By the end, Arti should be able to select and answer exactly twenty diverse cases across NAS, SAN, performance, capacity, protection, security, upgrades, telemetry, data quality, lifecycle, incidents, service reviews, and governance from discovery through measured outcome and residual risk.
+> **Section goal:** Integrate Parts 1-80 into concise, defensible customer-case reasoning that can survive technical, executive, and interview follow-up. By the end, you should be able to select and answer exactly twenty diverse cases across NAS, SAN, performance, capacity, protection, security, upgrades, telemetry, data quality, lifecycle, incidents, service reviews, and governance from discovery through measured outcome and residual risk.
 
 Covers index item **81** and maps directly to job-description responsibilities for customer-data analysis, strategic planning, supportability, risk mitigation, operational reviews, recommendation adoption, special projects, high-pressure work, cross-functional/SME contribution, customer loyalty, and technical communication.
 
-**Explicit nonclaim:** Arti has not owned, investigated, recommended, changed, reviewed, or measured any of the fictional NetApp customer cases below in production, and she does not claim access to live AutoSupport, Digital Advisor, IMT, HWU, Bugs Online, ONTAP, account, Support, or Engineering data.
+**Explicit nonclaim:** You have not owned, investigated, recommended, changed, reviewed, or measured any of the fictional NetApp customer cases below in production, and you do not claim access to live AutoSupport, Digital Advisor, IMT, HWU, Bugs Online, ONTAP, account, Support, or Engineering data.
 
 **Privacy/access:** End-to-end cases can combine customer identity, topology, telemetry, serials, protocols, files, users, performance, capacity, incidents, vulnerabilities, defects, contracts, budgets, stakeholders, actions, accepted risks, and business outcomes. Use only authorized minimum data in approved systems, separate technical/account/commercial access, redact/tokenize for wider review, use secure links, retain/dispose under policy, and never move real or gated evidence into interview portfolios or unapproved AI tools.
 
-**Synthetic-evidence rule:** Every customer, asset, service, identity, topology, version, metric, threshold, defect, advisory, compatibility result, incident, recommendation, objection, owner, date, decision, outcome, and quote below is fictional and sanitized. No case represents a real NetApp customer, process, result, commitment, or Arti production experience.
+**Synthetic-evidence rule:** Every customer, asset, service, identity, topology, version, metric, threshold, defect, advisory, compatibility result, incident, recommendation, objection, owner, date, decision, outcome, and quote below is fictional and sanitized. No case represents a real NetApp customer, process, result, commitment, or documented production experience.
 
 **Version/current source caveat:** Products, ONTAP releases, support services, Digital Advisor, IMT/HWU, bugs/advisories, lifecycle, host/application support, procedures, account roles, and customer conditions change. A **current-source check** means reopening the exact official or authorized source for the current product/release/configuration and recording source/date/cutoff immediately before any live conclusion or decision.
 
 This Part is a synthetic interview and learning casebook, not a NetApp internal case library, support process, severity model, service-review method, tool output, product guarantee, change procedure, or authority to represent NetApp/customer decisions.
 
-> **No-production-NetApp boundary:** Arti's factual strengths are Microsoft enterprise Support Escalation Engineering, CRITSIT ownership, SharePoint/OneDrive and identity/network troubleshooting, Product/Engineering collaboration, business/customer reviews, high CSAT, mentoring, Excel/Power BI/SQL/Python/statistics, risk/action tracking, and executive communication. Her exact nonclaim is: **she has not delivered any production NetApp TAM case outcome.** She may use the frameworks and explicitly synthetic exercises below to demonstrate reasoning while naming the gap.
+> **No-production-NetApp boundary:** Your factual strengths are enterprise Support Escalation Engineering, critical-situation ownership, SharePoint/OneDrive and identity/network troubleshooting, Product/Engineering collaboration, business/customer reviews, high CSAT, mentoring, Excel/Power BI/SQL/Python/statistics, risk/action tracking, and executive communication. Your exact nonclaim is: **you have not delivered any production NetApp TAM case outcome.** You may use the frameworks and explicitly synthetic exercises below to demonstrate reasoning while naming the gap.
 
 ---
 
@@ -770,7 +770,7 @@ flowchart TD
 sequenceDiagram
     autonumber
     participant P as Panel
-    participant A as Arti
+    participant A as Candidate
     P->>A: Present one case prompt with missing information
     A->>P: Clarifying discovery and data questions
     P-->>A: Supply synthetic evidence and one contradiction
@@ -789,7 +789,7 @@ sequenceDiagram
 3. **Round 3 - Data and account:** Choose Cases 16-20.
 4. **Round 4 - Contrarian:** Panel changes one fact that weakens the preferred hypothesis.
 5. **Round 5 - Executive:** Compress to 60 seconds with exact decision ask.
-6. **Round 6 - Honesty:** State what Arti did in production versus learned/synthetic.
+6. **Round 6 - Honesty:** State what you did in production versus learned/synthetic.
 
 ### Follow-up challenge bank
 
@@ -831,11 +831,11 @@ flowchart LR
 
 ---
 
-## 9. Arti transfer/honesty and JD Mapping
+## 9. Experience transfer and honesty and JD Mapping
 
 ```mermaid
 flowchart LR
-    MS[Microsoft enterprise Support/CRITSIT] --> INCIDENT[Incident, RCA and Engineering evidence]
+    MS[enterprise Support/critical situation] --> INCIDENT[Incident, RCA and Engineering evidence]
     M365[SharePoint/OneDrive/AD/networking] --> DATA[Data, identity and dependency reasoning]
     BI[MBA, Excel, Power BI, SQL, Python] --> ANALYTICS[Quality, risk, trend and outcome analysis]
     REVIEW[Customer reviews, CSAT and mentoring] --> TAM[Communication, influence and knowledge]
@@ -854,13 +854,13 @@ flowchart LR
 | Operational reviews | Cases 19-20 and all customer wording | Microsoft reviews transfer |
 | Risk/stability | All cases, especially 9-15 | Qualified owners control live actions |
 | Remediation adoption | Cases 6, 12, 19 | No customer budget/risk authority |
-| High-pressure situations | Cases 11, 14-15 | Microsoft CRITSIT evidence |
+| High-pressure situations | Cases 11, 14-15 | enterprise critical-situation evidence |
 | Cross-functional/SME | Cases 2-4, 13, 18 | No NetApp internal role claim |
 | Value/customer loyalty | Cases 19-20 | Contribution only; no renewal causality |
 
 ### Honest interview statement
 
-> `My production examples are Microsoft enterprise support, CRITSIT, identity/data-service troubleshooting, Engineering engagement, analytics and customer reviews. I use the same structured method in these twenty fully synthetic NetApp cases: verify the customer outcome and data, test competing hypotheses, validate current supportability and lifecycle, frame risk and options, respect decision boundaries, and measure the result. I have not operated NetApp in production, and I would use current NetApp tools and qualified owners for live work.`
+> `My production examples are enterprise support, critical situation, identity/data-service troubleshooting, Engineering engagement, analytics and customer reviews. I use the same structured method in these twenty fully synthetic NetApp cases: verify the customer outcome and data, test competing hypotheses, validate current supportability and lifecycle, frame risk and options, respect decision boundaries, and measure the result. I have not operated NetApp in production, and I would use current NetApp tools and qualified owners for live work.`
 
 ---
 
@@ -899,7 +899,7 @@ flowchart LR
 6. State source date/currency and data/privacy limit.
 7. Add one objection and one alternative option.
 8. State measurable outcome and residual risk.
-9. Separate Microsoft production evidence from synthetic NetApp practice.
+9. Separate prior production evidence from synthetic NetApp practice.
 10. Run the six-round mock panel three times with randomized cases.
 
 ### Self-test
@@ -931,7 +931,7 @@ flowchart LR
 - [ ] NAS, SAN, performance, capacity, protection, security, upgrade, telemetry, data and governance are diverse.
 - [ ] No unsafe command, destructive action or invented internal process appears.
 - [ ] All evidence, tools, customers, decisions and results are fully synthetic and sanitized.
-- [ ] Production Microsoft transfer and NetApp gaps are explicit.
+- [ ] Production experience transfer and NetApp gaps are explicit.
 - [ ] Exact Q1-Q8 are answered aloud.
 
 ---
@@ -997,7 +997,7 @@ flowchart LR
 
 ### Q8. How does your background transfer, and how do you avoid overstating NetApp experience?
 
-> **Model answer:** `Microsoft enterprise escalation, CRITSIT, M365 identity/data services, networking, Product/Engineering collaboration, analytics and customer reviews give me the core method. I explicitly say I have not operated NetApp in production; these twenty cases are fully synthetic. For live work I would use current NetApp tools and qualified owners while contributing strong evidence, communication and follow-through.`
+> **Model answer:** `enterprise escalation, critical situation, M365 identity/data services, networking, Product/Engineering collaboration, analytics and customer reviews give me the core method. I explicitly say I have not operated NetApp in production; these twenty cases are fully synthetic. For live work I would use current NetApp tools and qualified owners while contributing strong evidence, communication and follow-through.`
 
 ---
 
@@ -1018,7 +1018,7 @@ flowchart LR
 - **Objection:** Often a hidden requirement.
 - **Executive:** Impact, evidence, risk, recommendation, ask, owner/date, proof.
 - **Contradiction:** Update the model and correct the record.
-- **Honesty:** Microsoft production evidence transfers; twenty NetApp cases remain synthetic.
+- **Honesty:** prior production evidence transfers; twenty NetApp cases remain synthetic.
 
 ---
 
@@ -1039,7 +1039,7 @@ flowchart LR
 - [ ] Score each case with the rubric and retest weak dimensions.
 - [ ] Complete six-round mock panels across technical, protection and governance cases.
 - [ ] Never use unsafe commands, real data, invented tool output or internal process.
-- [ ] State the exact no-production-NetApp boundary and Arti's factual transfer.
+- [ ] State the exact no-production-NetApp boundary and your factual transfer.
 - [ ] Answer exact Q1-Q8 aloud.
 
 ---

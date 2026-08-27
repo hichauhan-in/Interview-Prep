@@ -2000,7 +2000,7 @@ A chart can make a number look authoritative even when the underlying source is 
 | General SQL | `A window function can rank rows without collapsing detail.` | `Every database optimizes this query the same way.` |
 | Synthetic NMH | `The lab query prioritizes fictional findings with visible factors.` | `This is Zscaler UVM's scoring query.` |
 | Public product context | `Public material describes connected security data and contextual workflows.` | `The product exposes these exact tables and fields.` |
-| Candidate production transfer | `Arti can discuss SQL, PostgreSQL, Power BI, statistics, and support analytics factually.` | `Arti administered a production Zscaler data warehouse.` |
+| Candidate production transfer | `you can discuss SQL, PostgreSQL, Power BI, statistics, and support analytics factually.` | `You administered a production Zscaler data warehouse.` |
 | Current customer evidence | `I would validate tenant schema, source contracts, licensing, and approved access.` | `The remembered field name must exist.` |
 
 ## Completion checklist

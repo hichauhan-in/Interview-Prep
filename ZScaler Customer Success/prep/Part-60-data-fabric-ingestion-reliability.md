@@ -1,10 +1,10 @@
 # Part 60 - Data Fabric Ingestion, Authentication, Scheduling, and Reliability
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 >
 > **Purpose:** Explain a connector's lifecycle from request through retirement; full and incremental ingestion; watermarks and checkpoints; schedules and extraction windows; API pagination and limits; credentials, tokens, certificates, rotation, and revocation; timeouts, retries, exponential backoff, and jitter; idempotency and duplicate control; partial loads, quarantine, and dead-letter handling; late data, backfill, and replay; observability, freshness, and service-level objectives; security controls; and incident containment and recovery.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every connector, source, endpoint, credential, token, certificate, schedule, quota, page, watermark, checkpoint, timeout, retry, record, queue, threshold, service-level objective, incident, recovery target, result, and outcome in this Part is synthetic. Zscaler's official public pages support only the bounded statements in Official Source Anchors, including high-level ingestion, listed formats, and connector breadth. They do not document the internal scheduling, checkpoint, retry, queue, storage, topology, service-level, recovery, or secret-management mechanics described here. Those mechanics are general data-engineering and API-reliability patterns for learning and planning, not claims about Zscaler Data Fabric. Arti's API, HTTP, TLS, identity, networking, sync, log analysis, escalation, RCA, and analytics experience transfers; direct production operation of Zscaler Data Fabric ingestion remains a learning boundary.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every connector, source, endpoint, credential, token, certificate, schedule, quota, page, watermark, checkpoint, timeout, retry, record, queue, threshold, service-level objective, incident, recovery target, result, and outcome in this Part is synthetic. Zscaler's official public pages support only the bounded statements in Official Source Anchors, including high-level ingestion, listed formats, and connector breadth. They do not document the internal scheduling, checkpoint, retry, queue, storage, topology, service-level, recovery, or secret-management mechanics described here. Those mechanics are general data-engineering and API-reliability patterns for learning and planning, not claims about Zscaler Data Fabric. Your API, HTTP, TLS, identity, networking, sync, log analysis, escalation, RCA, and analytics experience transfers; direct production operation of Zscaler Data Fabric ingestion remains a learning boundary.
 >
 > **Currency caveat:** APIs, authentication profiles, certificates, cryptographic guidance, quotas, connector behavior, schemas, libraries, service limits, support processes, and product capabilities change. The controlled research/source date for this Part is exactly **2026-08-24**. Current official connector-specific and source documentation, licensed tenant behavior, observed responses, approved security architecture, executed agreements, measured workload, tested runbooks, and Zscaler and source specialists govern production.
 
@@ -14,7 +14,7 @@ Reliable ingestion is not "call an API and insert rows." It is the controlled mo
 
 Think of an international cargo route. A shipment needs an authorized sender, manifest, sealed containers, departure window, route, customs inspection, delivery receipt, damaged-goods area, and a way to resume after disruption. Repeatedly sending the same container can create duplicate inventory; advancing the manifest before unloading can lose goods. Ingestion reliability applies the same custody and progress discipline to data.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Evidence artifact |
 |---|---|---|
@@ -50,7 +50,7 @@ flowchart LR
 
 ## JD Mapping
 
-| Role expectation | Part 60 capability | TSM artifact | Arti bridge and boundary |
+| Role expectation | Part 60 capability | TSM artifact | experience bridge and boundary |
 |---|---|---|---|
 | Develop Data Fabric expertise | Explain reliable ingestion at conceptual and operational levels | Connector runbook | Exact product internals unclaimed |
 | Analyze complex environments | Trace source, auth, network, API, state, validation, and consumer dependencies | Reliability map | M365 and networking troubleshooting transfer |
@@ -65,7 +65,7 @@ flowchart LR
 
 | Evidence class | Safe interview statement | Boundary to state |
 |---|---|---|
-| Production transfer | "I investigated HTTP, API, TLS, proxy, credential, sync, throttling, and service-dependency failures in Microsoft support." | Not production Zscaler ingestion operation |
+| Production transfer | "I investigated HTTP, API, TLS, proxy, credential, sync, throttling, and service-dependency failures in enterprise support." | Not production Zscaler ingestion operation |
 | Synthetic practice | "I designed and fault-injected NMH full/incremental loads, checkpoints, retries, quarantine, replay, and freshness monitoring." | Lab evidence only |
 | Official public fact | "Zscaler publicly describes ingestion from any source, listed file formats, and 150+ integrations." | No per-connector reliability mechanics inferred |
 | General pattern | "Persist accepted pages before advancing a cursor and use idempotent processing." | Recommended architecture, not documented Zscaler implementation |
@@ -812,9 +812,9 @@ NMH sets a four-hour freshness target. Is it an SLA?
 
 ### Exercise 12 - Product claim
 
-Can Arti say Zscaler uses dead-letter queues internally?
+Can you say Zscaler uses dead-letter queues internally?
 
-**Answer:** No. She can explain dead-letter handling as a general design pattern and ask how the current product exposes failed records. The reviewed public page does not establish internal queue mechanics.
+**Answer:** No. You can explain dead-letter handling as a general design pattern and ask how the current product exposes failed records. The reviewed public page does not establish internal queue mechanics.
 
 ## Labs and rehearsal
 
@@ -985,7 +985,7 @@ Zscaler sources support bounded public ingestion and integration statements only
 
 ### Q8. How does your experience transfer, and what can you claim about Zscaler?
 
-**Model answer:** Microsoft escalation work gave me practical depth in API/HTTP/TLS/proxy/identity/sync failures, throttling, evidence correlation, critical communication, RCA, and fix validation. I practiced ingestion state, retries, quarantine, freshness, and recovery in synthetic NMH labs. Zscaler publicly documents high-level ingestion and connector breadth, but I do not claim its internal schedules, checkpoints, queues, retry logic, secret system, SLOs, or recovery architecture. I would validate current connector docs, tenant behavior, and specialists.
+**Model answer:** enterprise escalation work gave me practical depth in API/HTTP/TLS/proxy/identity/sync failures, throttling, evidence correlation, critical communication, RCA, and fix validation. I practiced ingestion state, retries, quarantine, freshness, and recovery in synthetic NMH labs. Zscaler publicly documents high-level ingestion and connector breadth, but I do not claim its internal schedules, checkpoints, queues, retry logic, secret system, SLOs, or recovery architecture. I would validate current connector docs, tenant behavior, and specialists.
 
 ## 30-Second Memory Hooks
 
@@ -1017,7 +1017,7 @@ Zscaler sources support bounded public ingestion and integration statements only
 | Freshness | Source watermark to accepted use |
 | SLI/SLO/SLA | Actual, target, formal promise |
 | Incident | Scope, contain, preserve, repair, replay, reconcile |
-| Arti bridge | API and incident depth transfer; internals do not |
+| Experience bridge | API and incident depth transfer; internals do not |
 
 ## Completion Checklist
 
@@ -1080,6 +1080,6 @@ Zscaler sources support bounded public ingestion and integration statements only
 - [ ] I label checkpoints, retries, queues, SLOs, and recovery as general patterns rather than Zscaler internals.
 - [ ] I use the controlled research/source date exactly as 2026-08-24.
 - [ ] I make no unsupported production, per-connector, reliability, security, service-level, or outcome claim.
-- [ ] I can answer Q1 through Q8 with definitions, analogies, mechanics, tradeoffs, failures, troubleshooting, labs, NMH examples, and an honest Arti bridge.
+- [ ] I can answer Q1 through Q8 with definitions, analogies, mechanics, tradeoffs, failures, troubleshooting, labs, NMH examples, and an honest experience bridge.
 
 [Part 61 - Data Fabric Harmonization, Mapping, and Custom Data Models](Part-61-data-fabric-harmonization-mapping.md)

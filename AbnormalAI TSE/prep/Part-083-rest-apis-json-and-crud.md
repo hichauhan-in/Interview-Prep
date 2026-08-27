@@ -8,9 +8,9 @@
 
 ## Section goal
 
-By the end of this Part, Arti should be able to explain an application programming interface from zero knowledge; distinguish an interface, resource, endpoint, and Uniform Resource Identifier; read URI components; and separate a resource from a transferred representation. She should be able to read and construct JavaScript Object Notation using objects, arrays, strings, numbers, booleans, and null while recognizing escaping, duplicate-name, precision, missing-field, and type hazards.
+By the end of this Part, you should be able to explain an application programming interface from zero knowledge; distinguish an interface, resource, endpoint, and Uniform Resource Identifier; read URI components; and separate a resource from a transferred representation. You should be able to read and construct JavaScript Object Notation using objects, arrays, strings, numbers, booleans, and null while recognizing escaping, duplicate-name, precision, missing-field, and type hazards.
 
-She should map create, read, update, and delete intentions to HTTP methods without claiming that the mapping is automatic or universal. She should distinguish a safe method from an idempotent method, interpret status, headers, and body together, explain stateless request semantics, and reason about `Content-Type`, `Accept`, and representation selection. She should understand OpenAPI as a high-level machine-readable HTTP API description, not as the running service itself, and should assess resource modeling, nesting, input validation, output validation, error evidence, and contract drift.
+You should map create, read, update, and delete intentions to HTTP methods without claiming that the mapping is automatic or universal. You should distinguish a safe method from an idempotent method, interpret status, headers, and body together, explain stateless request semantics, and reason about `Content-Type`, `Accept`, and representation selection. You should understand OpenAPI as a high-level machine-readable HTTP API description, not as the running service itself, and should assess resource modeling, nesting, input validation, output validation, error evidence, and contract drift.
 
 The support objective is not to memorize one vendor's endpoints. It is to ask: what resource and operation were intended, what exact representation and contract were sent, what did the responding component report, and which evidence would distinguish syntax, media type, schema, authorization, state, or server failures? All examples are synthetic. Current approved Abnormal documentation remains authoritative for any real Abnormal endpoint, schema, method, status, limit, or workflow.
 
@@ -31,11 +31,11 @@ The support objective is not to memorize one vendor's endpoints. It is to ask: w
 
 ## Candidate honesty note
 
-Arti can accurately present REST, HTTP, JSON, cURL, Postman, and API troubleshooting as **working familiarity supported by safe labs**, strengthened by production Microsoft enterprise-support habits: scoping, client/cloud isolation, evidence correlation, customer updates, Engineering escalation, and fix validation. She should not imply that she designed or operated Abnormal APIs, administered a production API gateway, owned customer integration credentials, or knows proprietary resource paths, schemas, status behavior, or backend implementation.
+You can accurately present REST, HTTP, JSON, cURL, Postman, and API troubleshooting as **working familiarity supported by safe labs**, strengthened by production enterprise-support habits: scoping, client/cloud isolation, evidence correlation, customer updates, Engineering escalation, and fix validation. You should not imply that you designed or operated Abnormal APIs, administered a production API gateway, owned customer integration credentials, or knows proprietary resource paths, schemas, status behavior, or backend implementation.
 
 | Evidence tier | Safe claim | Boundary to preserve |
 |---|---|---|
-| Production transfer | Structured enterprise case ownership, exact reproduction, correlation, escalation, and validation | Use only truthful Microsoft examples from the CV |
+| Production transfer | Structured enterprise case ownership, exact reproduction, correlation, escalation, and validation | Use only truthful examples from your own CV |
 | Working familiarity | REST-style resources, HTTP semantics, JSON, contracts, and troubleshooting | Not protocol or platform implementation ownership |
 | Local/synthetic lab | Parsed synthetic JSON and annotated synthetic HTTP exchanges | No authenticated vendor call or customer data |
 | Learned architecture | Vendor-neutral SaaS and security resource patterns | Pattern is not proof of any named platform design |
@@ -743,7 +743,7 @@ Escalate when the sanitized canonical request matches the current approved contr
 16. Produce a sanitized canonical request template that includes no values for Authorization/Cookie and uses aliases for tenant and resource identifiers.
 17. Produce a one-page escalation packet for a repeatable 422 where current contract says integer 1 through 4 and body sends integer 2. The explicit ask is whether deployed validation/specification drifted; do not claim a server bug until owner evidence confirms it.
 18. Deliver a spoken three-minute explanation covering API/interface/resource/representation/endpoint/URI, JSON types, CRUD mapping, safety/idempotency, status+headers+body, statelessness, negotiation, and contract validation.
-19. Deliver a spoken 60-second honesty statement distinguishing Microsoft production-transfer methods, API working familiarity, this local lab, named-platform learned architecture, and Abnormal unknowns.
+19. Deliver a spoken 60-second honesty statement distinguishing production-transfer methods, API working familiarity, this local lab, named-platform learned architecture, and Abnormal unknowns.
 20. Perform cleanup and retain only a minimized ledger if desired.
 
 ### Expected evidence
@@ -843,7 +843,7 @@ Escalate when the sanitized canonical request matches the current approved contr
 
 ### Q8. How would you troubleshoot a REST/JSON ticket while preserving honesty boundaries?
 
-**Model answer:** I define expected/actual, scope, environment, tenant alias, UTC, and approved contract; build a sanitized canonical request; then record respondent, status, media type, safe headers, request ID, and parsed error. I test method/target, negotiation, JSON syntax, schema, identity/permission, and state in order with a control. My production strength is Microsoft enterprise support and evidence-led escalation; REST/JSON is working familiarity and lab proof, not Abnormal API ownership.
+**Model answer:** I define expected/actual, scope, environment, tenant alias, UTC, and approved contract; build a sanitized canonical request; then record respondent, status, media type, safe headers, request ID, and parsed error. I test method/target, negotiation, JSON syntax, schema, identity/permission, and state in order with a control. My production strength is enterprise support and evidence-led escalation; REST/JSON is working familiarity and lab proof, not Abnormal API ownership.
 
 ## Memory Hooks
 
@@ -883,7 +883,7 @@ Escalate when the sanitized canonical request matches the current approved contr
 - [ ] I completed or can reproduce **The Synthetic Case Ledger Contract Lab 083** without network or dependencies.
 - [ ] I retained only minimized synthetic evidence and completed cleanup/privacy checks.
 - [ ] I can answer exactly Q1-Q8 aloud using the model answers as guides rather than scripts.
-- [ ] I can state Microsoft production transfer, API working familiarity, local lab proof, learned architecture, no-direct-experience, and Abnormal unknowns honestly.
+- [ ] I can state prior production transfer, API working familiarity, local lab proof, learned architecture, no-direct-experience, and Abnormal unknowns honestly.
 - [ ] I checked Official Source Anchors dated August 24, 2026 and separated standards, docs, observations, and inference.
 
 [Next: Part 084 - API Authentication Keys OAuth and Tokens](Part-084-api-authentication-keys-oauth-and-tokens.md)

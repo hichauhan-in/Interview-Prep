@@ -1,10 +1,10 @@
 # Part 8 - Vulnerability, Exposure, Threat, Finding, Alert, Incident, and Risk
 
-> **Audience:** Arti Thakur, moving from Microsoft 365 Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
+> **Audience:** Candidates moving from Microsoft 365 Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
 >
 > **Currency date:** 2026-08-24.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, and every NMH observation, event, finding, vulnerability, exposure, alert, detection, case, incident, score, metric, decision, and outcome are fictional. Arti's established production bridge is Microsoft support, OneDrive, SharePoint, networking, troubleshooting, analytics, mentoring, escalation, and approved AI work. Direct production operation of Zscaler, Security Operations, vulnerability, exposure, scanner, Endpoint Detection and Response, Security Information and Event Management, incident-response, or formal risk products is not established.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, and every NMH observation, event, finding, vulnerability, exposure, alert, detection, case, incident, score, metric, decision, and outcome are fictional. Your established production bridge is enterprise support, OneDrive, SharePoint, networking, troubleshooting, analytics, mentoring, escalation, and approved AI work. Direct production operation of Zscaler, Security Operations, vulnerability, exposure, scanner, Endpoint Detection and Response, Security Information and Event Management, incident-response, or formal risk products is not established.
 >
 > **Currency caveat:** Standards, scoring specifications, catalogs, vendor schemas, and product terminology evolve. Source anchors were checked for this guide on 2026-08-24. Verify current definitions, versions, field semantics, product documentation, licenses, and customer policy before operational use.
 
@@ -14,7 +14,7 @@ Security teams make poor decisions when they use one word for several different 
 
 Think of a hospital. A thermometer reading is an observation. The timestamped reading is an event record. A rule may alert because the temperature exceeds a threshold. A clinician evaluates it in a case with symptoms and history. A diagnosis is a reasoned conclusion, not the raw reading. Severity describes how bad the condition could be; confidence describes how strongly evidence supports the conclusion; priority describes what should be handled first given urgency, impact, and capacity. Security operations needs the same discipline.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Learning outcome | What mastery looks like |
 |---|---|
@@ -32,7 +32,7 @@ By the end, Arti should be able to:
 
 **JD** means job description. The target Technical Success Manager, abbreviated **TSM**, must translate across customer executives, security leaders, operators, Support, Product, and Engineering. Precise terms prevent escalation noise and make product value measurable.
 
-| JD expectation | Part 8 capability | Honest Arti bridge |
+| JD expectation | Part 8 capability | Honest experience bridge |
 |---|---|---|
 | Identify security risk | Convert technical conditions into bounded risk scenarios | Lab: fictional NMH transformation; production: impact and evidence reasoning |
 | Analyze complex environments | Reconcile records with different meanings and confidence | Production: cross-source Microsoft troubleshooting and analytics |
@@ -44,11 +44,11 @@ By the end, Arti should be able to:
 
 ## Candidate honesty note
 
-Arti can discuss production support cases, telemetry, errors, defects, incidents in the service-management sense, customer impact, root-cause work, and Engineering collaboration where supported by her record. She should clarify the context of the word "incident." A business-critical Microsoft support incident is not automatically a confirmed cybersecurity incident.
+You can discuss production support cases, telemetry, errors, defects, incidents in the service-management sense, customer impact, root-cause work, and Engineering collaboration where supported by your record. You should clarify the context of the word "incident." A business-critical enterprise support incident is not automatically a confirmed cybersecurity incident.
 
 | Label | Meaning in Part 8 | Safe wording | Unsafe wording |
 |---|---|---|---|
-| Production | Established Microsoft support, networking, analytics, escalation, mentoring, training, and approved AI facts | "I turned logs and customer impact into a reproducible Engineering escalation." | "I ran a SOC incident queue" |
+| Production | Established enterprise support, networking, analytics, escalation, mentoring, training, and approved AI facts | "I turned logs and customer impact into a reproducible Engineering escalation." | "I ran a SOC incident queue" |
 | Lab | Repeatable exercise with synthetic records | "I transformed a fictional NMH observation into a risk statement." | "I investigated a manufacturer breach" |
 | Conceptual | Terminology and method learned from authoritative sources | "I understand the relationship among CVE, CWE, CVSS, EPSS, and KEV." | "I own vulnerability prioritization in production" |
 | Not-yet-used | Product, workflow, or role not directly operated | "I have not operated Zscaler UVM or a SIEM in production." | "I tuned Zscaler detections" |
@@ -120,7 +120,7 @@ A failed sign-in can be an event. "143 failed sign-ins for one supplier account"
 
 The raw sign-ins did not change. The labels changed because investigation answered different questions. That is why a dashboard cannot simply count alerts as incidents. It is also why the term "false positive" must name the test: the event was real, but the malicious interpretation may have been false.
 
-Arti's production support background offers a strong bridge. A client error event may generate a monitoring alert and a Support case. Repeated cases may reveal a service problem. Reproducible unexpected product behavior may become an Engineering defect. Security workflows add adversary, authorization, evidence preservation, containment, and risk ownership, but the evidence discipline is familiar.
+Your production support background offers a strong bridge. A client error event may generate a monitoring alert and a Support case. Repeated cases may reveal a service problem. Reproducible unexpected product behavior may become an Engineering defect. Security workflows add adversary, authorization, evidence preservation, containment, and risk ownership, but the evidence discipline is familiar.
 
 ## Vulnerability versus exposure versus threat versus risk
 
@@ -640,7 +640,7 @@ flowchart TD
 
 ## Customer conversation pattern
 
-When a customer says, "Your platform says we have 5,000 critical risks," Arti can respond:
+When a customer says, "Your platform says we have 5,000 critical risks," you can respond:
 
 1. "Let us confirm what each record represents and which field is being called critical."
 2. "We will separate unique assets, unique CVEs, duplicate findings, technical severity, exploit signals, and local priority."
@@ -687,7 +687,7 @@ The same sign-in data can move through all these records, but each adds a differ
 
 **Model answer:** Incident work limits current harm and restores operation. Problem work identifies and removes an underlying recurring cause. A defect is a reproducible flaw in product or implementation behavior relative to expectation. One incident can reveal multiple problems, and one defect can contribute to many incidents. Some incidents involve valid functionality abused by a stolen identity and no product defect.
 
-My production bridge is strong here: I have built evidence packages and worked with Engineering on Microsoft support issues. I would preserve the security-specific ownership and not call every unexpected configuration a defect.
+My production bridge is strong here: I have built evidence packages and worked with Engineering on enterprise support issues. I would preserve the security-specific ownership and not call every unexpected configuration a defect.
 
 ### Q4. How do CVE, CWE, CVSS, EPSS, and KEV relate?
 
@@ -751,7 +751,7 @@ I would be honest that I have not operated Zscaler UVM in production. I would ve
 | Control gap | Required outcome missing or ineffective |
 | Exception | Authorized, scoped, time-bound deviation |
 | Executive translation | Confirmed, possible, unknown, action, decision |
-| Arti bridge | Production evidence discipline; lab security vocabulary |
+| Experience bridge | Production evidence discipline; lab security vocabulary |
 
 ## Completion Checklist
 

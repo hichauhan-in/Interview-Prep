@@ -2,7 +2,7 @@
 
 > **Section goal:** Build a beginner-first, consulting-grade method for proactive Microsoft Sentinel threat hunting and investigation. By the end, you should be able to turn a falsifiable hypothesis into scoped queries; use the current Hunts preview to organize queries, bookmarks, entities, comments, outcomes, incidents, threat indicators, and detections; preserve evidence without overstating what a bookmark proves; engineer performant, permission-aware Azure Monitor workbooks; choose among KQL, Microsoft Defender Advanced Hunting, classic Jupyter/Azure Machine Learning notebooks, and current Sentinel data-lake notebooks; protect credentials and sensitive results; validate, report, operationalize, and retire hunts; and complete a paper/synthetic exercise without touching production data or claiming production Sentinel experience.
 
-This Part maps directly to Deloitte expectations for threat hunting, Microsoft Sentinel and Defender integration, KQL, incident investigation, dashboards and reporting, complex problem solving, multicloud data, evidence integrity, stakeholder communication, and repeatable security operations. Arti's Microsoft 365 escalation background is useful: begin with a precise symptom or hypothesis, establish time and scope, correlate stable identifiers, preserve observations, test alternatives, communicate uncertainty, and turn recurring findings into a documented control improvement. The new skill is applying that discipline proactively across security telemetry.
+This Part maps directly to Deloitte expectations for threat hunting, Microsoft Sentinel and Defender integration, KQL, incident investigation, dashboards and reporting, complex problem solving, multicloud data, evidence integrity, stakeholder communication, and repeatable security operations. Your Microsoft 365 escalation background is useful: begin with a precise symptom or hypothesis, establish time and scope, correlate stable identifiers, preserve observations, test alternatives, communicate uncertainty, and turn recurring findings into a documented control improvement. The new skill is applying that discipline proactively across security telemetry.
 
 > **Currency, status, portal, licensing, data-lake, and behavior-change note (August 24, 2026):** This chapter is grounded in official Microsoft Learn available on August 24, 2026. **Hunts remains preview.** The Sentinel-specific Hunting experience is distinct from unified Defender Advanced Hunting. Advanced Hunting does not provide Sentinel bookmarks; current Learn says bookmarks can be created in Sentinel Hunting through the Azure portal, while existing bookmarks can be viewed in the Defender portal, and the Azure portal retires after March 31, 2027. This boundary is therefore highly change-sensitive and must be verified before designing a long-lived evidence workflow. Workbooks remain Azure resources based on Azure Monitor workbooks; some visualizations and print/PDF operations still require “Open in Azure.” Classic Sentinel notebooks use Jupyter on Azure Machine Learning and incur compute/storage/external-provider cost. The current Sentinel data lake also offers Jupyter notebooks, KQL, scheduled jobs, long-term storage, and promotion to the Analytics tier, with separate onboarding, roles, regions, retention, and cost. Portal features, notebook runtimes, packages, schemas, preview/GA labels, licenses, source retention, and data-lake behavior must be verified live.
 
@@ -21,9 +21,9 @@ This Part maps directly to Deloitte expectations for threat hunting, Microsoft S
 
 ## Candidate honesty note
 
-Arti can credibly discuss production investigation, log/evidence correlation, RCA, hypothesis testing, incident timelines, sensitive data handling, cross-team coordination, reporting, and validation. She can demonstrate the synthetic KQL, paper Hunt record, workbook specification, and notebook threat model in this chapter.
+You can credibly discuss production investigation, log/evidence correlation, RCA, hypothesis testing, incident timelines, sensitive data handling, cross-team coordination, reporting, and validation. You can demonstrate the synthetic KQL, paper Hunt record, workbook specification, and notebook threat model in this chapter.
 
-She should not claim production Sentinel hunting, Hunts administration, bookmark/case management, workbook engineering, Azure Machine Learning notebook operation, MSTICPy use, or data-lake notebook operation unless separately evidenced. Safe wording is:
+You should not claim production Sentinel hunting, Hunts administration, bookmark/case management, workbook engineering, Azure Machine Learning notebook operation, MSTICPy use, or data-lake notebook operation unless separately evidenced. Safe wording is:
 
 > “I have not run Microsoft Sentinel hunts or notebooks in production. My production experience is complex Microsoft 365 incident investigation, RCA, evidence correlation, validation, and stakeholder communication. I built a current synthetic threat-hunting exercise with a falsifiable hypothesis, scoped KQL, alternatives, bookmarks/evidence design, entity timeline, workbook specification, notebook security review, validation matrix, reporting, and detection-conversion gate. In a client environment I would verify the current portal and preview status, data rights and retention, roles, query cost, evidence policy, notebook credentials, and SOC authority before a limited hunt.”
 
@@ -868,7 +868,7 @@ Use four explicit categories:
 
 ## 33. JD Mapping: interview translation
 
-| Interview theme | Arti's transferable strength | Honest Sentinel hunting answer |
+| Interview theme | Your transferable strength | Honest Sentinel hunting answer |
 |---|---|---|
 | Hypothesis testing | Reproduces and isolates complex issues | Falsifiable hunt plus benign alternatives |
 | Evidence | Correlates IDs/timestamps/logs | Provenance, raw validation and timeline |

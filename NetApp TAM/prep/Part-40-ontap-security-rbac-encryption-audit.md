@@ -1,6 +1,6 @@
 # Part 40 - ONTAP Security Baseline: Identity, RBAC, Encryption, Certificates, and Audit
 
-> **Section goal:** Build a practical ONTAP security baseline around identity, authentication, authorization, accountability, secure management paths, certificates, encryption in transit and at rest, key management, peering, audit, change control, access review, and break-glass recovery. By the end, Arti should be able to discover control gaps, distinguish prevention from recoverability, and frame a current-supported remediation without assuming every authentication or encryption feature exists on every release/platform.
+> **Section goal:** Build a practical ONTAP security baseline around identity, authentication, authorization, accountability, secure management paths, certificates, encryption in transit and at rest, key management, peering, audit, change control, access review, and break-glass recovery. By the end, you should be able to discover control gaps, distinguish prevention from recoverability, and frame a current-supported remediation without assuming every authentication or encryption feature exists on every release/platform.
 
 Covers index item **40** and maps directly to job-description responsibilities for storage/security depth, customer-environment discovery, technical risk, supportability, strategic planning, analytics, preventative recommendations, operational reviews, and escalation quality.
 
@@ -8,7 +8,7 @@ Covers index item **40** and maps directly to job-description responsibilities f
 
 This Part gives no universal cipher, algorithm, password, rotation, session, port, retention, FIPS, compliance, or hardening value and no production command sequence. Named features are concepts only until validated for the exact system. Encryption and MFA reduce defined risks; neither guarantees security or availability.
 
-> **No-production-NetApp boundary:** Arti does not claim production ONTAP security-administration experience. Every account, role, certificate, key manager, finding, customer, and result below is synthetic. Her factual strengths are Microsoft enterprise support, Active Directory/Entra identity concepts, Azure, Windows/networking, SharePoint/OneDrive permissions, CRITSIT ownership, analytics, and customer communication. The explicit non-claim is: **she has not hardened a production ONTAP cluster, configured ONTAP RBAC/MFA/SAML/OAuth/MAV, installed production ONTAP certificates, enabled or rekeyed NVE/NAE/NSE, configured onboard/external KMIP key management, rotated peering secrets, or attested a customer's compliance.**
+> **No-production-NetApp boundary:** You do not claim production ONTAP security-administration experience. Every account, role, certificate, key manager, finding, customer, and result below is synthetic. Your factual strengths are enterprise support, Active Directory/Entra identity concepts, Azure, Windows/networking, SharePoint/OneDrive permissions, critical-situation ownership, analytics, and customer communication. The explicit non-claim is: **you have not hardened a production ONTAP cluster, configured ONTAP RBAC/MFA/SAML/OAuth/MAV, installed production ONTAP certificates, enabled or rekeyed NVE/NAE/NSE, configured onboard/external KMIP key management, rotated peering secrets, or attested a customer's compliance.**
 
 ---
 
@@ -728,12 +728,12 @@ flowchart TD
 
 ### JD Mapping
 
-| JD responsibility | Part 40 contribution | Arti's factual bridge and gap |
+| JD responsibility | Part 40 contribution | Your factual bridge and gap |
 |---|---|---|
 | Understand environment | Maps management, identity, trust, data/key and audit planes | AD/Azure/networking experience transfers |
 | Analyze/report data | Access, cert, encryption, key, log, drift and exception inventories | Analytics strength transfers |
 | Strategic planning | Builds phased hardening/recovery/access-review roadmap | MBA/advisory transfer |
-| Risk/stability | Balances security with IdP/key/cert availability and break glass | CRITSIT discipline transfers |
+| Risk/stability | Balances security with IdP/key/cert availability and break glass | critical-situation discipline transfers |
 | Supportability | Requires exact release/HWU/IMT/IdP/KMS evidence | No customer/gated result claimed |
 | Service review | Reports risks, owners, validation and residual exceptions | Business-review strength transfers |
 | Escalation | Produces path/auth/role/cert/key/audit evidence without secrets | Product collaboration transfers |
@@ -742,7 +742,7 @@ flowchart TD
 
 ## 20. Fully synthetic scenario: Northwind Energy access and key outage
 
-> **Synthetic case:** Northwind Energy, every account, certificate, key server, event, customer, and result below is fictional. It is not a NetApp customer, benchmark, internal workflow, tool result, or Arti's production work.
+> **Synthetic case:** Northwind Energy, every account, certificate, key server, event, customer, and result below is fictional. It is not a NetApp customer, benchmark, internal workflow, tool result, or your production work.
 
 ### Environment
 
@@ -826,13 +826,13 @@ flowchart TD
 
 ---
 
-## 21. Arti's factual transfer and honest positioning
+## 21. Your factual transfer and honest positioning
 
 ```mermaid
 flowchart LR
     AD[Active Directory/Entra/M365 identity] --> IAM[Identity groups MFA federation lifecycle]
     AZ[Azure/networking] --> PKI[Segmentation TLS cert cloud key shared responsibility]
-    CRIT[CRITSIT] --> REC[Break glass evidence restoration communication]
+    CRIT[Critical situation] --> REC[Break glass evidence restoration communication]
     BI[Analytics] --> GOV[Access cert key audit drift dashboards]
     IAM --> ONTAP[ONTAP security conceptual method]
     PKI --> ONTAP
@@ -841,7 +841,7 @@ flowchart LR
     ONTAP --> LAB[Future authorized lab/security specialist review]
 ```
 
-> **Honest interview answer:** "I use identity-authentication-authorization-accountability as the foundation, then map every System Manager, SSH, REST, peering and key-management path. I understand ONTAP RBAC/MFA/federation/MAV, certificates, NVE/NAE/NSE and onboard/external key management conceptually. My production background is Microsoft identity, cloud, networking and incidents, not ONTAP hardening or encryption operations. I would verify exact release/HWU/IMT/vendor support and use security, PKI, KMS and NetApp specialists before changes."
+> **Honest interview answer:** "I use identity-authentication-authorization-accountability as the foundation, then map every System Manager, SSH, REST, peering and key-management path. I understand ONTAP RBAC/MFA/federation/MAV, certificates, NVE/NAE/NSE and onboard/external key management conceptually. My production background is enterprise identity, cloud, networking and incidents, not ONTAP hardening or encryption operations. I would verify exact release/HWU/IMT/vendor support and use security, PKI, KMS and NetApp specialists before changes."
 
 ---
 
@@ -923,7 +923,7 @@ flowchart LR
 13. Secure peers and map administrative/data/event/external audit.
 14. Build baseline/drift/access review/break-glass programs.
 15. Apply troubleshooting and recreate Northwind Energy's workstreams.
-16. Complete paper lab and Q1-Q8 aloud; state Arti's boundary.
+16. Complete paper lab and Q1-Q8 aloud; state your boundary.
 
 ---
 
@@ -996,7 +996,7 @@ flowchart LR
 
 ### Q8. How does your background transfer, and what remains a gap?
 
-> **Model answer:** "My AD/Entra, Azure, Windows networking, M365 permissions, CRITSIT and analytics experience gives me identity, TLS, segmentation, evidence, recovery and governance discipline. I understand ONTAP security architecture conceptually but have not configured its RBAC/MFA/MAV/certificates/encryption/key managers in production. I would use current docs/HWU/IMT and security/PKI/KMS/NetApp specialists before changes."
+> **Model answer:** "My AD/Entra, Azure, Windows networking, M365 permissions, critical situation and analytics experience gives me identity, TLS, segmentation, evidence, recovery and governance discipline. I understand ONTAP security architecture conceptually but have not configured its RBAC/MFA/MAV/certificates/encryption/key managers in production. I would use current docs/HWU/IMT and security/PKI/KMS/NetApp specialists before changes."
 
 ---
 
@@ -1022,7 +1022,7 @@ flowchart LR
 - **External KMIP/cloud KMS:** Separate service, additional dependencies.
 - **Key recovery:** Encrypted data without a usable key is unavailable data.
 - **Break glass:** Independent, sealed, alerted, minimal and rotated.
-- **Arti's bridge:** Microsoft IAM/cloud rigor transfers; ONTAP operation does not.
+- **Your bridge:** Microsoft IAM/cloud rigor transfers; ONTAP operation does not.
 
 ---
 
@@ -1043,7 +1043,7 @@ flowchart LR
 - [ ] Correlate admin/data/EMS/IdP/PAM/KMS/network logs and delivery health.
 - [ ] Operate release-specific baseline/drift/exception/access-review/break-glass cycles.
 - [ ] Apply troubleshooting, support boundaries and recommendation logic.
-- [ ] Recreate Northwind Energy, complete paper lab, answer Q1-Q8, and state Arti's boundary.
+- [ ] Recreate Northwind Energy, complete paper lab, answer Q1-Q8, and state your boundary.
 
 ---
 

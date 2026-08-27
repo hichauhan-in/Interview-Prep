@@ -1,10 +1,10 @@
 # Part 13 - Risk Assessment, Treatment, Appetite, Tolerance, and Residual Risk
 
-> **Audience:** Arti Thakur, moving from Microsoft 365 Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
+> **Audience:** Candidates moving from Microsoft 365 Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
 >
 > **Currency date:** 2026-08-24.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, and every NMH asset, threat, vulnerability, control, likelihood, impact, score, probability, loss estimate, appetite, tolerance, treatment, acceptance, metric, decision, and outcome are fictional. Every formula is an instructional model created for this chapter. No formula is a NIST, Zscaler, Security Operations, Unified Vulnerability Management, Risk360, insurer, customer, or production formula. Arti's established production bridge is Microsoft support, OneDrive, SharePoint, networking, troubleshooting, analytics, mentoring, escalation, and approved AI work.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, and every NMH asset, threat, vulnerability, control, likelihood, impact, score, probability, loss estimate, appetite, tolerance, treatment, acceptance, metric, decision, and outcome are fictional. Every formula is an instructional model created for this chapter. No formula is a NIST, Zscaler, Security Operations, Unified Vulnerability Management, Risk360, insurer, customer, or production formula. Your established production bridge is enterprise support, OneDrive, SharePoint, networking, troubleshooting, analytics, mentoring, escalation, and approved AI work.
 >
 > **Risk caveat:** Risk assessment supports decisions under uncertainty; it does not predict the future with certainty. Qualitative labels, scores, probabilities, currency estimates, and vendor outputs depend on scope, data, model, assumptions, time horizon, and judgment. Authorized customer leaders own risk appetite, tolerance, treatment, acceptance, and escalation. A Technical Success Manager can clarify evidence and options but does not accept customer risk.
 >
@@ -16,7 +16,7 @@ Cybersecurity risk is the effect of uncertainty on business objectives arising f
 
 Imagine planning an outdoor event. Rain is a threat event. An uncovered electrical system is a vulnerability. A roof and protected wiring are controls. Likelihood depends on forecast, location, and time horizon. Impact depends on safety, attendance, cost, and recovery. The organizer can change venue, install protection, buy insurance, accept a bounded chance of cancellation, or postpone. A weather number alone does not make the decision. Cyber risk uses the same logic with more complex assets, adversaries, dependencies, controls, and uncertainty.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Learning outcome | What mastery looks like |
 |---|---|
@@ -34,7 +34,7 @@ By the end, Arti should be able to:
 | Handle uncertainty | Use ranges, confidence, sensitivity, scenarios, and model limitations |
 | Govern acceptance | Require rationale, approval, expiry, monitoring, and reassessment triggers |
 | Escalate clearly | Translate technical conditions into business consequence and decision requests |
-| Practice honestly | Build fictional NMH examples and use Arti's factual analytics and escalation bridge |
+| Practice honestly | Build fictional NMH examples and use your factual analytics and escalation bridge |
 
 ```mermaid
 flowchart LR
@@ -57,26 +57,26 @@ Risk is not a property of a vulnerability alone. A software weakness on an isola
 
 The target Technical Success Manager, abbreviated **TSM**, must translate technical findings into customer decisions and measurable mitigations. That requires risk fluency without overclaiming formal authority or model certainty.
 
-| JD expectation | Risk capability | Honest Arti bridge | Boundary to preserve |
+| JD expectation | Risk capability | Honest experience bridge | Boundary to preserve |
 |---|---|---|---|
 | Analyze complex environments | Connect asset, business process, identity, path, weakness, control, and owner | Production Microsoft 365 dependency analysis | Do not claim formal enterprise risk assessment ownership |
 | Identify security risks | Build evidence-backed scenarios and uncertainty | Troubleshooting hypotheses and scope analysis | Findings require customer context and risk-owner judgment |
 | Deliver mitigation strategies | Compare avoidance, mitigation, transfer, acceptance, and evidence options | Production recommendation and fix-validation method | Customer decides treatment and acceptance |
-| Explain complex metrics | Define formulas, denominators, assumptions, sensitivity, and limitations | SQL, statistics, Power BI, and MBA Business Analytics | Fictional models are not vendor formulas |
-| Lead strategic engagement | Maintain risk register, action plan, dependencies, and review cadence | Customer ownership and Technical Advisor work | CISO and business owners set appetite and priority |
-| Resolve critical escalations | Express current impact, plausible consequence, urgency, and decision needed | CRITSIT communication | Do not label an event a security incident without authorized criteria |
+| Explain complex metrics | Define formulas, denominators, assumptions, sensitivity, and limitations | SQL, statistics, Power BI, and a postgraduate business-analytics qualification | Fictional models are not vendor formulas |
+| Lead strategic engagement | Maintain risk register, action plan, dependencies, and review cadence | Customer ownership and technical advisor work | CISO and business owners set appetite and priority |
+| Resolve critical escalations | Express current impact, plausible consequence, urgency, and decision needed | critical-situation communication | Do not label an event a security incident without authorized criteria |
 | Develop Zscaler expertise | Interpret documented product outputs as decision inputs | Official-source learning and future labs | No production Risk360, UVM, exposure, or SecOps use |
 | Report to executives | Translate cyber condition into revenue, safety, operations, legal, customer, and strategic language | Executive-ready customer communication | Avoid false precision and guaranteed outcomes |
 
 ## Candidate honesty note
 
-Arti has factual experience with uncertainty and prioritization in production support: defining affected scope, comparing cases, assessing business impact, identifying dependencies, analyzing backlog and case-quality data, coordinating critical incidents, recommending actions, and validating fixes. Her analytics background supports careful formulas, distributions, sensitivity, and dashboard communication.
+You have factual experience with uncertainty and prioritization in production support: defining affected scope, comparing cases, assessing business impact, identifying dependencies, analyzing backlog and case-quality data, coordinating critical incidents, recommending actions, and validating fixes. Your analytics background supports careful formulas, distributions, sensitivity, and dashboard communication.
 
-She should not claim that she has set enterprise cyber-risk appetite, approved risk acceptance, quantified annualized cyber loss, operated Zscaler Risk360 or Unified Vulnerability Management, owned vulnerability remediation, or performed a regulated risk assessment. Safe wording is: "I understand the mechanics and have practiced them in a clearly fictional NMH case. My production bridge is evidence-driven technical impact analysis, analytics, and escalation."
+You should not claim that you have set enterprise cyber-risk appetite, approved risk acceptance, quantified annualized cyber loss, operated Zscaler Risk360 or Unified Vulnerability Management, owned vulnerability remediation, or performed a regulated risk assessment. Safe wording is: "I understand the mechanics and have practiced them in a clearly fictional NMH case. My production bridge is evidence-driven technical impact analysis, analytics, and escalation."
 
 | Label | Meaning | Safe wording | Unsafe wording |
 |---|---|---|---|
-| Production | Microsoft support, escalation, analytics, mentoring, training, approved AI | "I prioritized technical cases using impact, scope, evidence, and urgency." | "I owned enterprise cyber risk" |
+| Production | enterprise support, escalation, analytics, mentoring, training, approved AI | "I prioritized technical cases using impact, scope, evidence, and urgency." | "I owned enterprise cyber risk" |
 | Lab | Synthetic risk register, formulas, sensitivity, and treatment plan | "I built a fictional NMH risk model to practice decisions." | "I reduced NMH annual loss" |
 | Conceptual | Risk guidance and methods learned from official sources | "I can distinguish inherent, current, residual, and target risk." | "I am a quantitative risk expert" |
 | Not-yet-used | Zscaler Risk360, UVM, SecOps, production exposure program | "I would validate product drivers and model documentation." | "I tuned Risk360" |
@@ -980,7 +980,7 @@ The action owner misses a mitigation date, and acceptance expires in five days. 
 
 A leader says cyber insurance transfers the risk. Separate covered financial loss from technical compromise, safety, service interruption, reputation, exclusions, deductibles, limits, and claims conditions. Use Legal, Finance, insurance, and risk specialists.
 
-### Drill 6 - Arti analytics bridge
+### Drill 6 - your analytics bridge
 
 Describe a factual backlog or case-quality analysis using population, source, categories, trends, outliers, limitations, recommendation, and validation. Then explain that the same discipline applies to KRIs and risk models. State that production cyber-risk quantification remains a learning area.
 
@@ -1067,7 +1067,7 @@ I would not call it objective truth, a probability, or guaranteed financial loss
 
 ### Q8. How does your background transfer to cybersecurity risk work?
 
-**Model answer:** In Microsoft support and critical escalations, I have defined scope, compared affected and unaffected cases, evaluated technical and business impact, prioritized under uncertainty, coordinated owners, analyzed quality and backlog data, and validated fixes. My SQL, statistics, Power BI, and Business Analytics background helps me challenge formulas, denominators, trends, and sensitivity.
+**Model answer:** In enterprise support and critical escalations, I have defined scope, compared affected and unaffected cases, evaluated technical and business impact, prioritized under uncertainty, coordinated owners, analyzed quality and backlog data, and validated fixes. My SQL, statistics, Power BI, and Business Analytics background helps me challenge formulas, denominators, trends, and sensitivity.
 
 I am applying that method to fictional NMH cyber-risk exercises. I do not claim enterprise risk authority, production vulnerability-program ownership, or direct Zscaler Risk360 experience.
 
@@ -1108,7 +1108,7 @@ I am applying that method to fictional NMH cyber-risk exercises. I do not claim 
 | Risk owner | Owns the decision |
 | Action owner | Owns the work |
 | TSM | Clarify evidence and options; never accept for customer |
-| Arti bridge | Impact, analytics, escalation, validation |
+| Experience bridge | Impact, analytics, escalation, validation |
 
 ## Completion Checklist
 
@@ -1141,7 +1141,7 @@ I am applying that method to fictional NMH cyber-risk exercises. I do not claim 
 - [ ] I can walk the fictional supplier, plant recovery, and telemetry-connector examples.
 - [ ] I can interpret documented vendor risk outputs as inputs requiring source, model, context, and control validation.
 - [ ] I can troubleshoot score changes across scope, data, model, environment, and owner judgment.
-- [ ] I can use Arti's production support and analytics experience as a factual bridge without claiming enterprise cyber-risk ownership.
+- [ ] I can use your production support and analytics experience as a factual bridge without claiming enterprise cyber-risk ownership.
 - [ ] I can recheck NIST, CISA, FIRST, provider, and Zscaler sources after 2026-08-24.
 - [ ] I can answer all eight questions aloud with one explicit uncertainty and authority boundary in each.
 

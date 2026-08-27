@@ -4,7 +4,7 @@
 >
 > **Covers index item:** Part 6. **Maps to JD responsibilities:** network troubleshooting, root-cause isolation, SaaS integration support, REST API troubleshooting, browser and log analysis, alert handling, customer communication, and secure coordination with customer network teams.
 
-> **Candidate honesty note:** This Part builds support-oriented working knowledge. It does not claim that Arti is a network engineer or has administered Glean networking in production. Her professional foundation includes Windows networking, Azure, Microsoft 365, OneDrive sync, enterprise escalations, and structured troubleshooting.
+> **Candidate honesty note:** This Part builds support-oriented working knowledge. It does not claim that you are a network engineer or has administered Glean networking in production. Your professional foundation includes Windows networking, Azure, Microsoft 365, OneDrive sync, enterprise escalations, and structured troubleshooting.
 
 ---
 
@@ -1234,7 +1234,7 @@ Then say:
 
 > "I start with the exact source, destination hostname, resolved addresses, port, proxy/VPN path, time, and error. I test from the actual failing environment. DNS success moves me to route and TCP; a completed TCP handshake moves me to TLS; a valid HTTP response moves me to application authentication or behavior. I distinguish refusal from timeout and identify who sent a reset. I compare affected and known-good paths one variable at a time. During customer impact, I maintain a workaround, owner map, and update cadence, and I verify the original workflow after the network repair."
 
-### Microsoft experience bridge
+### prior experience bridge
 
 > "My Windows networking and Azure foundation, together with OneDrive and Microsoft 365 escalation work, gives me experience separating client, identity, network, and service behavior. For this role I would use that same controlled comparison method while deepening packet-level and cross-platform command fluency."
 

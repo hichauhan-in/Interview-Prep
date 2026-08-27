@@ -2,11 +2,11 @@
 
 > **Section goal:** Defend a complete fictional Microsoft 365 security consulting engagement from first executive conversation through discovery, assessment, target architecture, options, roadmap, pilot, cutover, hypercare, SOC handover, incident review, and executive closeout. The deliverable integrates Microsoft Entra, Intune, Exchange Online, Teams, SharePoint Online, OneDrive, Microsoft Purview, Microsoft Defender XDR, and Microsoft Sentinel while keeping every technical action design-only by default and every evidence claim explicitly **Observed**, **Simulated**, or **Expected**.
 
-This capstone maps to the Deloitte Microsoft 365 Security Senior Consultant role in the master guide: client discovery, current-state assessment, Microsoft 365 security architecture, Zero Trust, identity and Conditional Access, endpoint security, workload protection, data security/compliance, XDR/SIEM/SOAR, third-party coexistence and migration, licensing, control design, pilots, testing, rollback, incident response, operating model, executive reporting, documentation, stakeholder management, and technical defense. It deliberately uses Arti's real SharePoint/OneDrive, permissions, migration, support, incident, RCA, escalation, and stakeholder strengths while keeping newer solution areas honest.
+This capstone maps to the Deloitte Microsoft 365 Security Senior Consultant role in the master guide: client discovery, current-state assessment, Microsoft 365 security architecture, Zero Trust, identity and Conditional Access, endpoint security, workload protection, data security/compliance, XDR/SIEM/SOAR, third-party coexistence and migration, licensing, control design, pilots, testing, rollback, incident response, operating model, executive reporting, documentation, stakeholder management, and technical defense. It deliberately uses your real SharePoint/OneDrive, permissions, migration, support, incident, RCA, escalation, and stakeholder strengths while keeping newer solution areas honest.
 
 > **Currency and scope boundary (August 24, 2026):** Microsoft portals, product names, license bundles, service plans, product limits, roles, API behavior, preview status, Secure Score recommendations, Zero Trust guidance, Intune baselines, Defender/Sentinel experiences, and Purview capabilities evolve. Verify every design against current Microsoft Learn, service descriptions, Product Terms, target cloud/region, tenant settings, privacy/legal decisions, and vendor contracts before implementation. Do not future-date planned changes as already completed.
 
-> **Safety and ethics boundary:** This is a fictional portfolio engagement for **Northstar Research Cooperative**. It is not Deloitte client work and not Arti production security work. Do not use an employer, production, customer, or third-party tenant. Do not use real people, external users, real domains, personal/regulated data, real incidents, phishing, malware, attacks, broad security changes, employee monitoring, destructive retention, automatic containment, or paid Azure resources without explicit owner authorization. Use reserved `.example` domains, fictional identities, documentation IP ranges, synthetic artifacts, read-only evidence, report-only/disabled designs, approval gates, and complete rollback.
+> **Safety and ethics boundary:** This is a fictional portfolio engagement for **Northstar Research Cooperative**. It is not Deloitte client work and not documented production security work. Do not use an employer, production, customer, or third-party tenant. Do not use real people, external users, real domains, personal/regulated data, real incidents, phishing, malware, attacks, broad security changes, employee monitoring, destructive retention, automatic containment, or paid Azure resources without explicit owner authorization. Use reserved `.example` domains, fictional identities, documentation IP ranges, synthetic artifacts, read-only evidence, report-only/disabled designs, approval gates, and complete rollback.
 
 ## JD Mapping
 
@@ -25,13 +25,13 @@ This capstone maps to the Deloitte Microsoft 365 Security Senior Consultant role
 
 | Evidence label | Capstone meaning | Example wording |
 |---|---|---|
-| **Observed** | Result Arti personally saw in an explicitly authorized isolated lab from a prior Part | “In my isolated lab I observed the pilot user receive the scoped setting after propagation.” |
+| **Observed** | Result you personally saw in an explicitly authorized isolated lab from a prior Part | “In my isolated lab I observed the pilot user receive the scoped setting after propagation.” |
 | **Simulated** | Result produced by Northstar paper scenarios, synthetic matrices, local KQL, or tabletop | “I simulated the Northstar control and incident outcome.” |
 | **Expected** | Behavior predicted from current official documentation and awaiting pilot | “Microsoft documents this behavior; the pilot validates it for the client tenant.” |
 
-Arti can confidently discuss real SharePoint/OneDrive support, sharing/permissions, migration, incidents, diagnostics, RCA, escalation, and stakeholder communication where her CV supports them. She must not say she delivered this for Deloitte, performed a Northstar production rollout, operated an enterprise SOC, migrated a real third-party security stack, monitored employees, or implemented controls she only designed. Prior Parts may be cited as **optional lab evidence**, never as production experience.
+You can confidently discuss real SharePoint/OneDrive support, sharing/permissions, migration, incidents, diagnostics, RCA, escalation, and stakeholder communication where your CV supports them. You must not say you delivered this for Deloitte, performed a Northstar production rollout, operated an enterprise SOC, migrated a real third-party security stack, monitored employees, or implemented controls you only designed. Prior Parts may be cited as **optional lab evidence**, never as production experience.
 
-> “I created a fictional end-to-end Microsoft 365 security transformation for Northstar. It includes discovery, assessment, risks, target architecture, license/options analysis, phased roadmap, detailed pilots, test/cutover/rollback, SOC handover, and an incident/PIR. The engagement is design-only by default. Where earlier isolated labs produced evidence, I identify exactly what I observed; otherwise I label the outcome simulated or expected. It is not Deloitte client work or Arti production security work.”
+> “I created a fictional end-to-end Microsoft 365 security transformation for Northstar. It includes discovery, assessment, risks, target architecture, license/options analysis, phased roadmap, detailed pilots, test/cutover/rollback, SOC handover, and an incident/PIR. The engagement is design-only by default. Where earlier isolated labs produced evidence, I identify exactly what I observed; otherwise I label the outcome simulated or expected. It is not Deloitte client work or documented production security work.”
 
 ---
 
@@ -160,7 +160,7 @@ flowchart TB
     CLOUDQ[Netskope/SaaS queue] --> SOC
     SOC --> SPLUNK[Splunk SIEM]
     SOC --> TICKETS[ITSM cases]
-    M365SIG[Limited Microsoft incidents] --> SOC
+    M365SIG[Limited enterprise incidents] --> SOC
     SOC --> OWNERS[Identity, endpoint, messaging, collaboration, data owners]
 ```
 
@@ -1017,7 +1017,7 @@ flowchart TD
 
 ### Interview-ready capstone summary
 
-> “I built an end-to-end fictional Microsoft 365 security transformation for Northstar, a 6,200-employee hybrid research cooperative. I led the scenario from discovery and evidence through maturity/risk findings, threat model, Zero Trust HLD/LLD, control and persona/license maps, third-party coexistence, roadmap and business case. I designed detailed Conditional Access, Intune, Purview, XDR, and Sentinel pilots with positive, negative, boundary, failure, rollback, cutover and hypercare tests, then created a SOC RACI, runbooks, SLA/KPI, handover, incident/PIR, and executive deck. It is design-only by default, not Deloitte client work or Arti production security work. I label prior isolated-lab evidence as observed and everything else simulated or expected.”
+> “I built an end-to-end fictional Microsoft 365 security transformation for Northstar, a 6,200-employee hybrid research cooperative. I led the scenario from discovery and evidence through maturity/risk findings, threat model, Zero Trust HLD/LLD, control and persona/license maps, third-party coexistence, roadmap and business case. I designed detailed Conditional Access, Intune, Purview, XDR, and Sentinel pilots with positive, negative, boundary, failure, rollback, cutover and hypercare tests, then created a SOC RACI, runbooks, SLA/KPI, handover, incident/PIR, and executive deck. It is design-only by default, not Deloitte client work or documented production security work. I label prior isolated-lab evidence as observed and everything else simulated or expected.”
 
 ## 22. Official Source Anchors
 
@@ -1102,7 +1102,7 @@ These official sources were checked for the August 24, 2026 baseline. A real eng
 
 ## Completion Checklist
 
-- [ ] The engagement is clearly fictional, design-only by default, and not Deloitte client or Arti production security work.
+- [ ] The engagement is clearly fictional, design-only by default, and not Deloitte client or documented production security work.
 - [ ] No production/employer tenant, real person/data/domain/external user, phishing, malware, attack, surveillance, destructive control, or unauthorized cost was used.
 - [ ] Every result is labelled Observed, Simulated, or Expected.
 - [ ] Northstar scenario covers organization, users, regions, tenant, hybrid identity, devices, workloads, data, obligations, tools, licenses, SOC, incidents and constraints.

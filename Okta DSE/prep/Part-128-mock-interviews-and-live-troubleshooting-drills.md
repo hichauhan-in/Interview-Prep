@@ -37,7 +37,7 @@ flowchart TD
 | How you explain something | Communication under pressure |
 | Whether you ask clarifying questions | Whether you assume or check |
 
-> 💡 **Tie-in to your background:** you have handled CRITSITs — **thinking clearly under pressure while being observed is something you have done for real**, which is exactly what a live exercise simulates.
+> 💡 **Tie-in to your background:** you have handled critical situations — **thinking clearly under pressure while being observed is something you have done for real**, which is exactly what a live exercise simulates.
 
 ### 🔍 Plain-English deep-dive: thinking aloud, which is a skill rather than a trait
 
@@ -445,12 +445,12 @@ An interviewer says:
 
 ## 9. Candidate Honesty Note
 
-- **Production experience:** thinking clearly under pressure while observed — CRITSITs are exactly this.
+- **Production experience:** thinking clearly under pressure while observed — critical situations are exactly this.
 - **Production experience:** explaining technical findings to non-technical stakeholders in real time.
 - **Lab experience:** recorded solo mocks, deliberate practice on unknowns, and non-technical explanation testing, as above.
 - **Learned architecture:** the five question types and what each rewards.
 - **No direct experience:** technical interviews for this specific role.
-- **How to say it:** *"The live troubleshooting format suits how I already work — narrating reasoning while under observation is what a CRITSIT bridge call is. What I practised deliberately was the questions I can't answer, because that's where composure matters most and bluffing would be the worst possible signal."*
+- **How to say it:** *"The live troubleshooting format suits how I already work — narrating reasoning while under observation is what a critical-situation bridge call is. What I practised deliberately was the questions I can't answer, because that's where composure matters most and bluffing would be the worst possible signal."*
 
 ---
 

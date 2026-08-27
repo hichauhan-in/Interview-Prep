@@ -8,9 +8,9 @@
 
 ## Section goal
 
-By the end of this Part, Arti should be able to explain the Domain Name System (DNS) path from a local stub resolver through recursive resolution, delegation, root and top-level-domain servers, and authoritative answers. She should be able to distinguish positive and negative caching, read the common A, AAAA, CNAME, MX, TXT, PTR, and SRV record types, and interpret NXDOMAIN, no-data, SERVFAIL, REFUSED, timeout, truncation, DNS Security Extensions (DNSSEC), and Extension Mechanisms for DNS (EDNS) evidence without overclaiming cause.
+By the end of this Part, you should be able to explain the Domain Name System (DNS) path from a local stub resolver through recursive resolution, delegation, root and top-level-domain servers, and authoritative answers. You should be able to distinguish positive and negative caching, read the common A, AAAA, CNAME, MX, TXT, PTR, and SRV record types, and interpret NXDOMAIN, no-data, SERVFAIL, REFUSED, timeout, truncation, DNS Security Extensions (DNSSEC), and Extension Mechanisms for DNS (EDNS) evidence without overclaiming cause.
 
-She should also be able to explain Dynamic Host Configuration Protocol (DHCP) address acquisition through Discover, Offer, Request, and Acknowledgment (DORA), lease renewal and rebinding, relevant options such as gateway/router, DNS server, and domain/search configuration, and why an IPv4 link-local/APIPA address is a clue rather than a root cause.
+You should also be able to explain Dynamic Host Configuration Protocol (DHCP) address acquisition through Discover, Offer, Request, and Acknowledgment (DORA), lease renewal and rebinding, relevant options such as gateway/router, DNS server, and domain/search configuration, and why an IPv4 link-local/APIPA address is a clue rather than a root cause.
 
 The support objective is to connect configuration and naming to SaaS/API/email symptoms. A client might use a hosts entry, search suffix, split-DNS view, browser encrypted DNS path, local cache, enterprise recursive resolver, or application-specific resolver. A successful public `dig` query from another device does not prove the failing process received the same answer. Likewise, a DHCP lease can provide an address while supplying an incorrect DNS server or gateway.
 
@@ -31,11 +31,11 @@ The support objective is to connect configuration and naming to SaaS/API/email s
 
 ## Candidate honesty note
 
-Arti can position DNS/DHCP and the listed tools as **working familiarity strengthened by repeatable labs**. Her production transfer is enterprise Microsoft support: isolating local versus service boundaries, comparing affected and working users, correlating changes and timestamps, collecting minimum evidence, escalating with clear asks, and validating recovery. She should not claim to have administered production authoritative DNS, recursive resolver fleets, IP address management, DHCP failover, DNSSEC signing, or Abnormal AI DNS infrastructure.
+You can position DNS/DHCP and the listed tools as **working familiarity strengthened by repeatable labs**. Your production transfer is enterprise support: isolating local versus service boundaries, comparing affected and working users, correlating changes and timestamps, collecting minimum evidence, escalating with clear asks, and validating recovery. You should not claim to have administered production authoritative DNS, recursive resolver fleets, IP address management, DHCP failover, DNSSEC signing, or Abnormal AI DNS infrastructure.
 
 | Evidence tier | Safe wording | Boundary |
 |---|---|---|
-| Production transfer | “I used evidence-led client/cloud isolation in Microsoft support.” | Not DNS platform ownership |
+| Production transfer | “I used evidence-led client/cloud isolation in enterprise support.” | Not DNS platform ownership |
 | Working familiarity | “I can identify resolver/view/cache and interpret common records and response codes.” | Not authoritative-server administration |
 | Local/public lab | “I compared read-only queries against my configured resolver and public authoritative path.” | Not customer DNS proof |
 | Learned architecture | “I understand DORA, lease timing, delegation, EDNS, and DNSSEC at support depth.” | Implementation/config varies |

@@ -1,10 +1,10 @@
 # Part 95 - Threat Hunting, Deception, MDR, and Proactive Detection
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 
 > **Purpose:** Explain threat hunting, deception, Managed Detection and Response, and proactive detection from zero, including hypothesis-led methods, high-fidelity network and identity context, managed-service responsibilities, operational feedback, tradeoffs, security/privacy, troubleshooting, and product boundaries.
 
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH hunt, source, identity, device, decoy, event, provider, date, metric, detection, action, decision, and outcome is invented. Arti's factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler, Threat Hunting, Deception, MDR, SOC, detection-engineering, threat-intelligence, threat-hunting, and incident-response ownership remain learning boundaries.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH hunt, source, identity, device, decoy, event, provider, date, metric, detection, action, decision, and outcome is invented. Your factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler, Threat Hunting, Deception, MDR, SOC, detection-engineering, threat-intelligence, threat-hunting, and incident-response ownership remain learning boundaries.
 
 > **Currency caveat:** Product names, telemetry, services, integrations, methods, interfaces, fields, detections, actions, hours, service levels, packaging, limits, and entitlements change. The controlled official-source snapshot and source review date for this Part is exactly **2026-08-24**. Current official documentation, licensed-tenant evidence, service contract, statement of work, customer policy, product/service specialists, Support, source-native evidence, and tested runbooks govern production decisions.
 
@@ -61,7 +61,7 @@ flowchart LR
 
 ## Candidate honesty note
 
-Arti can say: "My production background is Microsoft enterprise escalation, not threat hunting, deception, MDR delivery, or SOC operations. I do bring transferable experience in hypothesis-led troubleshooting, network and identity traces, cross-source timelines, SQL/Power BI analysis, high-severity coordination, and knowledge scaling. I have studied these security methods and practiced only with fictional data. For Zscaler or an MDR service I would verify current telemetry, contract, entitlement, roles, and measured outcomes."
+You can say: "My production background is enterprise escalation, not threat hunting, deception, MDR delivery, or SOC operations. I do bring transferable experience in hypothesis-led troubleshooting, network and identity traces, cross-source timelines, SQL/Power BI analysis, high-severity coordination, and knowledge scaling. I have studied these security methods and practiced only with fictional data. For Zscaler or an MDR service I would verify current telemetry, contract, entitlement, roles, and measured outcomes."
 
 Neutral syntax preserves credibility. "I would frame the hunt this way" is not the same as "I hunted this threat in production." "The official page positions the service as" is not the same as "the customer receives this result." A fictional exercise is useful evidence of method when it is labeled honestly.
 
@@ -767,9 +767,9 @@ The vendor pages support dated public positioning only. Volatile numeric marketi
 
 **Model answer:** Material evidence becomes a case and response. Repeatable behavior becomes a tested detection. False positives improve logic or context. Misses and data gaps improve coverage and health gates. Deception findings improve placement and exposed paths. Identity defects improve lifecycle resolution. Control/exposure gaps enter remediation. Provider handoff defects improve contract and workflow. Every action needs an owner, validation, due date, and residual; hunt count alone is not value.
 
-### Q8. How does Arti's background transfer to this topic honestly?
+### Q8. How does your background transfer to this topic honestly?
 
-**Model answer:** Microsoft support gives factual experience in hypothesis-led investigation across identity, permission, endpoint, browser, network, sync, and cloud-service layers. Networking traces support traffic and timing analysis. SQL and Power BI support cohorts, joins, baselines, anomalies, quality, and reporting. Escalations and mentoring support evidence handoffs and learning loops. She has studied hunting, deception, and MDR with synthetic exercises; production operation and service delivery remain explicit ramp areas.
+**Model answer:** enterprise support gives factual experience in hypothesis-led investigation across identity, permission, endpoint, browser, network, sync, and cloud-service layers. Networking traces support traffic and timing analysis. SQL and Power BI support cohorts, joins, baselines, anomalies, quality, and reporting. Escalations and mentoring support evidence handoffs and learning loops. You have studied hunting, deception, and MDR with synthetic exercises; production operation and service delivery remain explicit ramp areas.
 
 ## 30-Second Memory Hooks
 
@@ -792,7 +792,7 @@ The vendor pages support dated public positioning only. Volatile numeric marketi
 | AI | Ground, bound tools, challenge, review, audit |
 | Zscaler | Attribute dated public hunting/deception/MDR positioning |
 | TSM | Clarify capability, contract, adoption, evidence, and boundaries |
-| Arti bridge | Troubleshooting and analytics transfer; hunter claims do not |
+| Experience bridge | Troubleshooting and analytics transfer; hunter claims do not |
 
 ## Completion Checklist
 

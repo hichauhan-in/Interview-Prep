@@ -1,12 +1,12 @@
 # Part 10 - Capacity Planning, Growth, Efficiency, and Headroom
 
-> **Section goal:** Learn to reconcile every layer of storage capacity, distinguish measured savings from promises, forecast growth with uncertainty, and choose action thresholds that preserve time to decide and change safely. By the end, Arti should be able to convert units, build a raw-to-available capacity ladder, analyze thin provisioning and efficiency, model linear/exponential/seasonal demand, calculate time to an operational threshold, and present customer options with explicit tradeoffs.
+> **Section goal:** Learn to reconcile every layer of storage capacity, distinguish measured savings from promises, forecast growth with uncertainty, and choose action thresholds that preserve time to decide and change safely. By the end, you should be able to convert units, build a raw-to-available capacity ladder, analyze thin provisioning and efficiency, model linear/exponential/seasonal demand, calculate time to an operational threshold, and present customer options with explicit tradeoffs.
 
 Covers index item **10** and maps directly to job-description responsibilities for customer-data generation and analysis, storage depth, strategic planning, risk mitigation, solution stability, tailored recommendations, operational service reviews, preventative-action tracking, and clear executive communication.
 
 This Part teaches vendor-neutral foundations. Exact ONTAP capacity counters, reserves, snapshots, thin provisioning, deduplication, compression, compaction, FabricPool or tiering, efficiency reporting, limits, thresholds, and remediation procedures are release-, platform-, workload-, and configuration-sensitive. Product-specific implementation is deferred to Parts 23, 34, and 45.
 
-> **Evidence boundary:** All organizations, systems, capacities, ratios, forecasts, costs, and recommendations below are synthetic. Arti's Excel, Power BI, SQL, Python, statistics, and Microsoft support analytics are production strengths; no production NetApp capacity planning, ONTAP efficiency tuning, or storage procurement experience is claimed.
+> **Evidence boundary:** All organizations, systems, capacities, ratios, forecasts, costs, and recommendations below are synthetic. Your Excel, Power BI, SQL, Python, statistics, and enterprise support analytics are production strengths; no production NetApp capacity planning, ONTAP efficiency tuning, or storage procurement experience is claimed.
 
 ---
 
@@ -749,18 +749,18 @@ flowchart TD
 
 ### Explicit JD mapping
 
-| JD responsibility | Part 10 contribution | Arti transfer and honest gap |
+| JD responsibility | Part 10 contribution | experience transfer and honest gap |
 |---|---|---|
 | Generate/analyze/report customer data | Defines capacity schema, unit QA, trends, models, scenarios, and visualization inputs | Excel, Power BI, SQL, Python, statistics, and MBA are strong evidence |
 | Strategic planning and storage advice | Connects forecast to lead time, onboarding, lifecycle, and options | Business analytics transfers; NetApp implementation requires study/SME |
-| Mitigate risk and improve stability | Protects headroom for failures, upgrades, and uncertainty | CRITSIT risk thinking transfers; exact thresholds are product/customer-specific |
+| Mitigate risk and improve stability | Protects headroom for failures, upgrades, and uncertainty | critical-situation risk thinking transfers; exact thresholds are product/customer-specific |
 | Understand customer environment | Maps application growth through every allocation and protection layer | M365 data/service mapping transfers |
 | Track preventative remediation | Creates threshold, owner, target, blocker, and validation logic | Backlog/action tracking is a proven strength |
 | Conduct service reviews | Turns capacity into decision horizon, options, tradeoffs, and asks | Business-review and executive communication transfer |
 
 ### Honest production-gap note
 
-> "I can reconcile capacity units and layers, calculate thin overcommit and efficiency ratios, build linear/exponential/scenario forecasts, and connect time-to-threshold with action lead time. My production evidence is Microsoft support analytics and business reporting, not ONTAP capacity or efficiency administration. In a NetApp account I would verify exact counter definitions and current product guidance, use authorized telemetry, and have storage SMEs review platform-specific recommendations."
+> "I can reconcile capacity units and layers, calculate thin overcommit and efficiency ratios, build linear/exponential/scenario forecasts, and connect time-to-threshold with action lead time. My production evidence is enterprise support analytics and business reporting, not ONTAP capacity or efficiency administration. In a NetApp account I would verify exact counter definitions and current product guidance, use authorized telemetry, and have storage SMEs review platform-specific recommendations."
 
 ---
 
@@ -1141,7 +1141,7 @@ The numerator's inclusion rules still need verification.
 
 ### Q8. How does your analytics background help, and what is your NetApp capacity gap?
 
-> **Model answer:** "My MBA Business Analytics, Excel, Power BI, SQL, Python, statistics, backlog analysis, and business reviews are strong foundations for unit QA, data joins, trend segmentation, scenarios, visualization, and decision communication. I have used those skills in Microsoft support, not production ONTAP capacity planning or efficiency tuning. I would verify current counter definitions and product guidance, use authorized customer data, and have storage SMEs review platform-specific actions while labeling synthetic work honestly."
+> **Model answer:** "My a postgraduate business-analytics qualification, Excel, Power BI, SQL, Python, statistics, backlog analysis, and business reviews are strong foundations for unit QA, data joins, trend segmentation, scenarios, visualization, and decision communication. I have used those skills in enterprise support, not production ONTAP capacity planning or efficiency tuning. I would verify current counter definitions and product guidance, use authorized customer data, and have storage SMEs review platform-specific actions while labeling synthetic work honestly."
 
 **Follow-up depth:** Describe a capacity workbook schema and name the ONTAP, hardware, protection, and workload facts that remain access- or version-sensitive.
 
@@ -1173,7 +1173,7 @@ The numerator's inclusion rules still need verification.
 - **Threshold:** A decision date, not merely an alert color.
 - **Onboarding:** Include growth, protection, efficiency downside, performance, and failure workspace.
 - **Capacity action:** Compare reclaim, policy, efficiency, tier, add, move, and defer tradeoffs.
-- **Arti's bridge:** Analytics transfers; ONTAP capacity operations remain unclaimed.
+- **Your bridge:** Analytics transfers; ONTAP capacity operations remain unclaimed.
 
 ---
 
@@ -1200,7 +1200,7 @@ The numerator's inclusion rules still need verification.
 - [ ] Ask all discovery questions and write an owner/date/validation/residual-risk recommendation.
 - [ ] Recreate Woodgrove's unit, ratio, growth, event, option, and summary calculations.
 - [ ] Complete the paper lab, self-test, and Q1-Q8 aloud.
-- [ ] State Arti's analytics strengths and production NetApp gap honestly.
+- [ ] State your analytics strengths and production NetApp gap honestly.
 - [ ] Recheck current official platform, release, counter, limit, efficiency, tiering, and support documentation before real use.
 
 ---

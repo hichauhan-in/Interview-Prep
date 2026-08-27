@@ -8,9 +8,9 @@
 
 ## Section goal
 
-By the end of this Part, Arti should be able to distinguish one-way latency, round-trip time (RTT), jitter/variation, packet loss, retransmission, timeout, throughput, and goodput. She should understand TCP retransmission timeout (RTO), duplicate acknowledgments, fast retransmit/recovery, flow control, congestion control, receiver window, congestion window, and bandwidth-delay product (BDP) at a support level without claiming one capture proves the network device that caused loss.
+By the end of this Part, you should be able to distinguish one-way latency, round-trip time (RTT), jitter/variation, packet loss, retransmission, timeout, throughput, and goodput. You should understand TCP retransmission timeout (RTO), duplicate acknowledgments, fast retransmit/recovery, flow control, congestion control, receiver window, congestion window, and bandwidth-delay product (BDP) at a support level without claiming one capture proves the network device that caused loss.
 
-She should be able to connect transport delay to application timeout budgets and identify where DNS, connect, TLS, first-byte, read, overall operation, gateway, queue, and asynchronous-processing timers differ. She should understand Maximum Transmission Unit (MTU), TCP Maximum Segment Size (MSS), IPv4/IPv6 fragmentation differences, Path MTU Discovery (PMTUD), ICMP “packet too big”/fragmentation-needed feedback, Packetization Layer PMTUD, and the characteristic “small works, large stalls” black-hole hypothesis.
+You should be able to connect transport delay to application timeout budgets and identify where DNS, connect, TLS, first-byte, read, overall operation, gateway, queue, and asynchronous-processing timers differ. You should understand Maximum Transmission Unit (MTU), TCP Maximum Segment Size (MSS), IPv4/IPv6 fragmentation differences, Path MTU Discovery (PMTUD), ICMP “packet too big”/fragmentation-needed feedback, Packetization Layer PMTUD, and the characteristic “small works, large stalls” black-hole hypothesis.
 
 The support objective is to diagnose SaaS/API/email symptoms with restraint. A Wireshark “TCP Retransmission” label is an expert-system inference based on packets visible at one capture point. It can reflect real loss, capture loss, offload, reordering, or asymmetric visibility. A long API request can reflect path RTT, server compute, queueing, rate limit, proxy buffering, dependency latency, or client timeout design. Measurement must separate observations from explanations.
 
@@ -31,7 +31,7 @@ The support objective is to diagnose SaaS/API/email symptoms with restraint. A W
 
 ## Candidate honesty note
 
-Arti can describe latency/loss/retransmission/MTU analysis as **working familiarity and lab-based learning**, supported by her production experience in Microsoft enterprise support, critical-case coordination, evidence correlation, and fix validation. She should not claim to be a network performance engineer, congestion-control implementer, carrier operator, or packet-forensics expert; nor should she prescribe production MTU/MSS, TCP, firewall, VPN, or timeout changes without the owning team's design and change control.
+You can describe latency/loss/retransmission/MTU analysis as **working familiarity and lab-based learning**, supported by your production experience in enterprise support, critical-case coordination, evidence correlation, and fix validation. You should not claim to be a network performance engineer, congestion-control implementer, carrier operator, or packet-forensics expert; nor should you prescribe production MTU/MSS, TCP, firewall, VPN, or timeout changes without the owning team's design and change control.
 
 | Evidence tier | Safe claim | Boundary |
 |---|---|---|

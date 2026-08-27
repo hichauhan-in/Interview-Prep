@@ -29,11 +29,11 @@ Use the smallest template that fits the decision. Replace every `{PLACEHOLDER}`;
 
 ## Candidate Honesty and Safety Boundary
 
-Arti may truthfully connect these structures to substantiated Microsoft enterprise-support work: complex investigations, CRITSIT participation, Engineering/Product escalation, customer and partner updates, fix validation, knowledge work, and process improvement. She must **not** imply that these templates were used in production, reveal any customer or employer information, or claim direct production operation of Abnormal AI, email-security operations, Google Workspace, Slack, Okta, Splunk, CrowdStrike, Cortex SOAR, Zendesk, Salesforce, Jira, or Zoom.
+You may truthfully connect these structures to substantiated enterprise-support work: complex investigations, critical-situation participation, Engineering/Product escalation, customer and partner updates, fix validation, knowledge work, and process improvement. You must **not** imply that these templates were used in production, reveal any customer or employer information, or claim direct production operation of Abnormal AI, email-security operations, Google Workspace, Slack, Okta, Splunk, CrowdStrike, Cortex SOAR, Zendesk, Salesforce, Jira, or Zoom.
 
 Safe interview wording:
 
-> “This is a reusable study template built from public guidance and my transferable Microsoft enterprise-support experience. I would adapt it to the employer's approved workflow, severity model, data-handling rules, and decision authority. I would not claim root cause before the evidence supports it.”
+> “This is a reusable study template built from public guidance and my transferable enterprise-support experience. I would adapt it to the employer's approved workflow, severity model, data-handling rules, and decision authority. I would not claim root cause before the evidence supports it.”
 
 Safety rules:
 
@@ -705,7 +705,7 @@ Score each dimension from 0 to 2. A final RCA should not pass if **causal discip
 
 ## Official Source Anchors - August 24, 2026
 
-All sources below were accessed on **August 24, 2026**. They organize reasoning; they do not define Abnormal AI's private workflow, authorize an action, prove a cause, or establish Arti's use of these templates in production.
+All sources below were accessed on **August 24, 2026**. They organize reasoning; they do not define Abnormal AI's private workflow, authorize an action, prove a cause, or establish your use of these templates in production.
 
 | Official or primary source | Use in this appendix | Boundary |
 |---|---|---|
@@ -713,7 +713,7 @@ All sources below were accessed on **August 24, 2026**. They organize reasoning;
 | [NIST Cybersecurity Framework 2.0](https://www.nist.gov/cyberframework) | Govern, Identify, Protect, Detect, Respond, Recover outcome context | Not a certification, causal method, or control-effectiveness result |
 | [NIST SP 800-184](https://csrc.nist.gov/pubs/sp/800/184/final) | Recovery planning, validation, resilience, and improvement | Does not define a vendor's restoration or customer-communication policy |
 | [CISA Incident and Vulnerability Response Playbooks](https://www.cisa.gov/news-events/news/cisa-releases-cybersecurity-incident-and-vulnerability-response-playbooks) | Public role, coordination, response, and playbook concepts | Federal guidance does not govern a private organization or authorize action |
-| [Google SRE Workbook - Incident Response](https://sre.google/workbook/incident-response/) | Mitigation-first coordination, roles, communication, and preparedness | Example practice, not Abnormal policy or Arti's production claim |
+| [Google SRE Workbook - Incident Response](https://sre.google/workbook/incident-response/) | Mitigation-first coordination, roles, communication, and preparedness | Example practice, not Abnormal policy or your production claim |
 | [Google SRE Book - Managing Incidents](https://sre.google/sre-book/managing-incidents/) | Incident roles, source of truth, handoffs, and communication | Must be adapted to local authority and terminology |
 | [Google SRE Workbook - Postmortem Culture](https://sre.google/workbook/postmortem-culture/) | Blameless learning and actionable postmortems | Does not prove a cause or eliminate accountability |
 | [Google SRE Book - Example Postmortem](https://sre.google/sre-book/example-postmortem/) | Public example of impact, timeline, cause, resolution, lessons, and actions | Example format is not a universal template or evidence |

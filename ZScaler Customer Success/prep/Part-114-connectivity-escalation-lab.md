@@ -1,10 +1,10 @@
 # Part 114 - Connectivity and Critical Escalation Lab
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 
 > **Purpose:** Analyze a complete synthetic Microsoft 365-style connectivity failure behind a proxy by correlating DNS, TCP, TLS, HTTP, HAR-like, proxy, process, configuration, and timeline evidence; isolate the responsible boundary; run a disciplined escalation bridge; produce an actionable escalation package; validate recovery; and write a bounded root-cause analysis.
 
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is explicitly fictional and synthetic. Every user, process, service, domain, IP address, packet summary, certificate, proxy policy, HTTP response, HAR-like record, correlation ID, timestamp, impact count, bridge participant, mitigation, root cause, and result in this Part is invented. The scenario uses reserved example domains and documentation IP ranges and does not depict a real Microsoft 365, Zscaler, or customer incident. Arti's factual background includes Microsoft 365, OneDrive, SharePoint, enterprise escalation engineering, CRITSITs, DNS/TCP/TLS/HTTP troubleshooting, Wireshark, Netsh, Network Monitor, Procmon, HAR, Fiddler, browser tools, RCA, and Engineering collaboration. Those factual strengths transfer; the lab itself remains simulation.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is explicitly fictional and synthetic. Every user, process, service, domain, IP address, packet summary, certificate, proxy policy, HTTP response, HAR-like record, correlation ID, timestamp, impact count, bridge participant, mitigation, root cause, and result in this Part is invented. The scenario uses reserved example domains and documentation IP ranges and does not depict a real Microsoft 365, Zscaler, or customer incident. Your factual background includes Microsoft 365, OneDrive, SharePoint, enterprise escalation engineering, critical situations, DNS/TCP/TLS/HTTP troubleshooting, Wireshark, Netsh, Network Monitor, Procmon, HAR, Fiddler, browser tools, RCA, and Engineering collaboration. Those factual strengths transfer; the lab itself remains simulation.
 
 > **Currency caveat:** Cloud endpoints, proxy architecture, authentication, TLS, client behavior, logging, product interfaces, support routes, incident processes, and recommended collection methods change. The controlled official-source snapshot and source review date for this Part is exactly **2026-08-24**. Current official documentation, customer architecture, approved capture procedures, privacy/security policy, licensed-tenant evidence, change authority, Support, and product specialists govern real investigation.
 
@@ -57,12 +57,12 @@ flowchart LR
 
 ## Candidate honesty note
 
-Arti can say: "My production Microsoft enterprise escalation background includes Microsoft 365, OneDrive, and SharePoint issues and evidence from DNS, TCP, TLS, HTTP, proxies, HAR, process traces, and client logs. In this separate synthetic NMH lab, I correlated supplied static fixtures, isolated an HTTP 407 at the proxy boundary before target TLS for a background process, linked onset to a fictional policy-object error, ran a simulated bridge, created an escalation package, and wrote an RCA. The lab demonstrates my method; it was not a real Microsoft, Zscaler, or customer incident and involved no live capture or configuration change."
+You can say: "My production enterprise escalation background includes Microsoft 365, OneDrive, and SharePoint issues and evidence from DNS, TCP, TLS, HTTP, proxies, HAR, process traces, and client logs. In this separate synthetic NMH lab, I correlated supplied static fixtures, isolated an HTTP 407 at the proxy boundary before target TLS for a background process, linked onset to a fictional policy-object error, ran a simulated bridge, created an escalation package, and wrote an RCA. The lab demonstrates my method; it was not a real Microsoft, Zscaler, or customer incident and involved no live capture or configuration change."
 
-| Factual Arti background | Transferable capability | Safe wording | Unsupported wording to avoid |
+| Documented background | Transferable capability | Safe wording | Unsupported wording to avoid |
 |---|---|---|---|
 | Microsoft 365, OneDrive, SharePoint support | Recognize layered SaaS/client/identity/network dependencies | "The scenario uses an M365-style sync workflow familiar in shape." | "This is an actual Microsoft 365 outage." |
-| Support Escalation Engineering and CRITSITs | Impact framing, workstreams, evidence, updates, RCA | "I applied production-proven escalation disciplines to a simulation." | "I led this customer escalation." |
+| Support Escalation Engineering and critical situations | Impact framing, workstreams, evidence, updates, RCA | "I applied production-proven escalation disciplines to a simulation." | "I led this customer escalation." |
 | Wireshark, Netsh, Network Monitor | Packet-state and timing interpretation | "I analyzed a supplied packet-summary fixture." | "I captured customer traffic." |
 | Procmon and client logs | Process, identity, file/config, and error correlation | "I correlated synthetic process events with proxy evidence." | "I inspected a real endpoint." |
 | HAR, Fiddler, browser tools | HTTP timing/header/status interpretation and privacy caution | "I compared a generated HAR-like browser path." | "I uploaded a customer's HAR." |
@@ -503,7 +503,7 @@ flowchart LR
 
 ### RCA statement
 
-At 08:56 UTC, fictional proxy policy revision 42 was deployed to NMH East and Central. The approved background-sync authentication-exception rule referenced `grp-sync-retired`, an empty retired object, instead of `grp-sync-active`. As a result, `nmhsync.exe` running in the defined non-interactive machine context did not match the intended rule and received HTTP 407 from the explicit proxy after successful DNS and TCP-to-proxy setup. The proxy tunnel was not established, so target TLS and application HTTP did not begin. Interactive browser traffic continued because it used a separate accepted user-authentication path. An approved synthetic revision 43 restored the active object reference, after which the background cohort received CONNECT 200, completed target TLS and HTTP, drained queued work, and met the 30-minute validation criteria.
+At 08:56 UTC, fictional proxy policy revision 42 was deployed to NMH East and Central. Your documented background-sync authentication-exception rule referenced `grp-sync-retired`, an empty retired object, instead of `grp-sync-active`. As a result, `nmhsync.exe` running in the defined non-interactive machine context did not match the intended rule and received HTTP 407 from the explicit proxy after successful DNS and TCP-to-proxy setup. The proxy tunnel was not established, so target TLS and application HTTP did not begin. Interactive browser traffic continued because it used a separate accepted user-authentication path. An approved synthetic revision 43 restored the active object reference, after which the background cohort received CONNECT 200, completed target TLS and HTTP, drained queued work, and met the 30-minute validation criteria.
 
 The trigger was the incorrect object reference. The systemic contributors were ambiguous active/retired object naming, absence of a deployment check for empty referenced groups, and absence of a background-process canary in the change validation plan. The RCA does not identify a Zscaler or Microsoft defect.
 
@@ -900,9 +900,9 @@ The Zscaler sources support bounded public positioning about zero-trust exchange
 
 **Model answer:** It links trigger, mechanism, observable failure, impact, recovery, and counterfactual evidence. Here the wrong empty object prevented rule match, produced 407, and stopped the tunnel before TLS; prior and corrected revisions succeeded for the same process cohort. The RCA also explains why controls allowed deployment and assigns testable prevention, while avoiding individual blame and any Microsoft or Zscaler defect claim.
 
-### Q8. How does Arti's background transfer to this lab and role?
+### Q8. How does your background transfer to this lab and role?
 
-**Model answer:** Her production Microsoft 365, OneDrive, SharePoint, CRITSIT, and escalation work directly supports impact framing, cross-layer troubleshooting, evidence correlation, customer updates, RCA, Engineering partnership, and recovery validation. Her familiarity with DNS, TCP, TLS, HTTP, proxies, Wireshark, Netsh, Procmon, HAR, Fiddler, and browser tools strengthens the method. The NMH case remains synthetic and does not become Zscaler production experience.
+**Model answer:** Your production Microsoft 365, OneDrive, SharePoint, critical situation, and escalation work directly supports impact framing, cross-layer troubleshooting, evidence correlation, customer updates, RCA, Engineering partnership, and recovery validation. Your familiarity with DNS, TCP, TLS, HTTP, proxies, Wireshark, Netsh, Procmon, HAR, Fiddler, and browser tools strengthens the method. The NMH case remains synthetic and does not become Zscaler production experience.
 
 ## 30-Second Memory Hooks
 
@@ -923,7 +923,7 @@ The Zscaler sources support bounded public positioning about zero-trust exchange
 | Recovery | Function plus guardrails plus observation |
 | RCA | Trigger, mechanism, counterfactual, system control |
 | Safety | Never weaken proxy or TLS to make a lab work |
-| Arti bridge | Real escalation method, synthetic case |
+| Experience bridge | Real escalation method, synthetic case |
 
 ## Completion Checklist
 
@@ -946,6 +946,6 @@ The Zscaler sources support bounded public positioning about zero-trust exchange
 - [ ] I validated recovery through CONNECT, TLS, application, queue, browser, security, and time criteria.
 - [ ] I wrote an RCA with trigger, mechanism, counterfactual, systemic contributors, and testable actions.
 - [ ] I ran four changed cases and changed the conclusion when evidence changed.
-- [ ] I can present Arti's factual escalation strength without claiming a real Microsoft, Zscaler, or customer incident.
+- [ ] I can present your factual escalation strength without claiming a real Microsoft, Zscaler, or customer incident.
 
 [Next: Part 115 - Strategic Customer Discovery, Onboarding, and Training Simulation](Part-115-customer-discovery-onboarding-training-simulation.md)

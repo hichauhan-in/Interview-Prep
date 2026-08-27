@@ -1,6 +1,6 @@
 # Part 27 - Behavioral, STAR Stories, Company Fit, and Night-Before Sheet
 
-> **Section goal:** Turn verified Microsoft experience into concise behavioral evidence, answer motivation/fit questions honestly, ask strong closing questions, and review the entire interview in one page.
+> **Section goal:** Turn verified prior experience into concise behavioral evidence, answer motivation/fit questions honestly, ask strong closing questions, and review the entire interview in one page.
 >
 > **Honesty rule:** The story scaffolds use facts supported by the CV, but bracketed case details must be filled from memory. Never invent customer names, technical causes, dates, metrics, or outcomes.
 
@@ -42,16 +42,16 @@ It is not a script formula; it prevents background from consuming the answer and
 
 | Glean competency | CV-backed evidence source |
 |---|---|
-| Customer ownership | Enterprise escalations and CRITSITs |
-| Technical depth | ODSP Sync Client SME |
+| Customer ownership | Enterprise escalations and critical situations |
+| Technical depth | sync-client subject-matter expert |
 | Communication | Technical syncs, business reviews, global events |
 | Cross-functional work | Customer IT, partners, engineering, product, vendors |
 | Data-driven | CSAT, backlog health, case quality, escalation trends |
 | Documentation/scale | KBs, guides, triages, case bashes, mentoring |
 | Product improvement | Defect escalation and fix validation |
 | Learning/curiosity | Intern -> engineer -> escalation; TA and AI programs |
-| AI | Copilot Studio agents, AI training, AI-102/AI-900 |
-| Leadership | Aspire council, mentoring, interviews, events |
+| AI | Copilot Studio agents, AI training, AI certifications |
+| Leadership | a leadership-development council, mentoring, interviews, events |
 
 ---
 
@@ -86,7 +86,7 @@ Avoid using the same story for every question.
 **Use for:** ownership, pressure, difficult customer, ambiguity, communication.
 
 ```text
-Situation: [Real enterprise ODSP/Copilot incident, impact, urgency]
+Situation: [Real enterprise incident from your own experience: impact and urgency]
 Task: I owned customer progress across [teams].
 Actions:
 - Established scope, safety, timeline, known-good controls.
@@ -113,7 +113,7 @@ Learning: [Runbook/monitoring/communication improvement].
 
 ```text
 Situation: [Real complex OneDrive sync scenario].
-Task: As ODSP Sync Client SME, isolate cause and guide engineers/customer.
+Task: As sync-client subject-matter expert, isolate cause and guide engineers/customer.
 Actions: [Affected/unaffected comparison, evidence, hypothesis pivot, cross-team escalation].
 Result: [Technical resolution/readiness/customer outcome].
 Learning: [Diagnostic method reused/shared].
@@ -150,7 +150,7 @@ flowchart LR
 
 **Use for:** metrics, executive communication, improvement.
 
-CV evidence: CSAT above 4.75 Enterprise and 4.85 SMB, backlog/case-quality/escalation trends, leadership reviews.
+CV evidence: a strong customer-satisfaction record, backlog/case-quality/escalation trends, leadership reviews.
 
 Fill:
 
@@ -218,7 +218,7 @@ Mention AI risks/evaluation, not only enthusiasm.
 
 ## 11. Story 8 - Leadership Without Authority
 
-Use Aspire Leadership Council, global events, peer recognition, mentoring, or cross-team escalation.
+Use a leadership-development council, global events, peer recognition, mentoring, or cross-team escalation.
 
 Show:
 
@@ -274,7 +274,7 @@ Do not choose "I work too hard." Show ownership, detection, correction, impact m
 
 ### 60-second version
 
-> "I am a Support Escalation Engineer at Microsoft with more than five years of progressive enterprise support experience. My core technical background is SharePoint Online, OneDrive for Business and the sync client, Microsoft 365 administration, and Copilot. I own complex and business-critical escalations, coordinate customer IT, partners, engineering and product teams, validate fixes, and use CSAT, backlog health, case quality, and escalation trends to improve outcomes. I also mentor engineers, author troubleshooting guidance, and support AI adoption through Copilot Studio agents and training. Glean interests me because it combines enterprise knowledge, AI, integrations, and high-touch customer ownership, which matches my strengths while deepening my search, API, and identity expertise."
+> "I am a senior support escalation engineer with several years of progressive enterprise support experience. My core technical background is SharePoint Online, OneDrive for Business and the sync client, Microsoft 365 administration, and Copilot. I own complex and business-critical escalations, coordinate customer IT, partners, engineering and product teams, validate fixes, and use CSAT, backlog health, case quality, and escalation trends to improve outcomes. I also mentor engineers, author troubleshooting guidance, and support AI adoption through Copilot Studio agents and training. Glean interests me because it combines enterprise knowledge, AI, integrations, and high-touch customer ownership, which matches my strengths while deepening my search, API, and identity expertise."
 
 Keep natural; do not recite every certification.
 
@@ -312,7 +312,7 @@ Move toward opportunity; do not criticize current employer.
 
 | Need | Evidence |
 |---|---|
-| Enterprise support ownership | Escalations/CRITSITs |
+| Enterprise support ownership | Escalations/critical situations |
 | Search/knowledge adjacency | SharePoint, OneDrive, Delve |
 | Customer communication | Syncs/business reviews/CSAT |
 | Cross-functional | Customer/partner/engineering/product/vendor |
@@ -328,7 +328,7 @@ Move toward opportunity; do not criticize current employer.
 
 Use strength-boundary-plan-evidence:
 
-1. Strongest production depth: M365/ODSP/escalations.
+1. Strongest production depth: core products and escalations.
 2. Gap: Glean-specific platform/internal tooling and production depth in some listed tools.
 3. Plan: labs/docs/shadowing/runbooks/SME feedback.
 4. Evidence: past SME/AI/TA progression.
@@ -433,11 +433,11 @@ Do not fabricate market data. Prepare personal minimum privately.
 
 ### Evidence
 
-- 5+ years Microsoft support.
-- CSAT >4.75 Enterprise / >4.85 SMB.
-- 100+ recognitions for critical escalation handling.
-- ODSP Sync Client SME; Technical Advisor program.
-- AI-102/AZ-900/DP-900/AI-900/MS-900 and Copilot work.
+- 5+ years enterprise support.
+- a strong customer-satisfaction record.
+- repeated peer and customer recognition for critical escalation handling.
+- sync-client subject-matter expert; technical-advisor programme.
+- cloud and AI certifications and Copilot work.
 
 Only quote these where context is accurate.
 
@@ -492,7 +492,7 @@ flowchart LR
 > **Model structure:** Baseline, root pattern, intervention, metrics/guardrails, outcome.
 
 ### Q6. "Learned quickly?"
-> **Model structure:** ODSP SME/AI/TA: gap, plan, practice, applied proof, enabled others.
+> **Model structure:** SME, AI and advisory: gap, plan, practice, applied proof, enabled others.
 
 ### Q7. "Mistake?"
 > **Model structure:** Own action, detection, impact management, correction, system prevention.

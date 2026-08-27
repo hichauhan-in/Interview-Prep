@@ -51,13 +51,13 @@ By the end of this part, you should be able to:
 | Validate remediation | Track requested/approved/in-progress/completed/failed/verified | Control validation ledger |
 | Handle Microsoft 365/Google concepts honestly | Use official identity/mail evidence architecture | Learned architecture, no claimed tenant operations |
 | Protect privacy | Minimize sign-in, location, device, mailbox, and content data | Redacted export references and secure evidence |
-| Transfer Microsoft support strengths | Apply enterprise scoping, CRITSIT cadence, and follow-through | Production transfer without identity-SOC inflation |
+| Transfer enterprise support strengths | Apply enterprise scoping, critical-situation cadence, and follow-through | Production transfer without identity-SOC inflation |
 
 ## Candidate Honesty Note
 
-Arti can say:
+You can say:
 
-> "My production background is Microsoft enterprise support, where I scoped complex incidents, coordinated stakeholders and Engineering, communicated under pressure, and validated recovery. I have not operated Abnormal AI, a SOC identity queue, or production account-takeover containment. I learned the identity/mailbox response architecture from official sources and practiced with synthetic audit rows. In a live incident, authorized identity, mail, endpoint, and application owners would perform changes; I would preserve evidence, coordinate, communicate, and verify outcomes."
+> "My production background is enterprise support, where I scoped complex incidents, coordinated stakeholders and Engineering, communicated under pressure, and validated recovery. I have not operated Abnormal AI, a SOC identity queue, or production account-takeover containment. I learned the identity/mailbox response architecture from official sources and practiced with synthetic audit rows. In a live incident, authorized identity, mail, endpoint, and application owners would perform changes; I would preserve evidence, coordinate, communicate, and verify outcomes."
 
 | Evidence tier | Honest formulation | Boundary |
 |---|---|---|

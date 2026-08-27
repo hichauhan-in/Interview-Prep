@@ -1,10 +1,10 @@
 # Part 28 - OneDrive Sync and SharePoint Online Connectivity Architecture
 
-> **Audience:** Arti Thakur, moving from Microsoft 365 Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
+> **Audience:** Candidates moving from Microsoft 365 Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
 >
 > **Purpose:** Explain OneDrive for work or school and SharePoint Online connectivity from tenant and identity through endpoint, network, sync, file, metadata, sharing, coauthoring, throttling, migration, health, and support boundaries.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Its tenant, users, sites, devices, files, traces, policies, logs, incidents, errors, migrations, and outcomes are synthetic. Arti's Microsoft 365, OneDrive for Business, SharePoint Online, networking, evidence, and escalation experience must remain within her approved factual background.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Its tenant, users, sites, devices, files, traces, policies, logs, incidents, errors, migrations, and outcomes are synthetic. Your own product, networking, evidence, and escalation experience must remain within your documented background.
 >
 > **Product caveat:** Microsoft 365 is a continuously changing distributed SaaS service. Endpoint sets, IP ranges, domains, ports, client behavior, limits, policy names, sync internals, report latency, and support procedures change. Verify the current Microsoft 365 endpoint web service, Microsoft Learn/Support, tenant settings, client release notes, service health, and direct evidence. This Part uses public architecture, not undocumented backend topology, proprietary algorithms, or a claim that any production Microsoft, Zscaler, carrier, proxy, firewall, endpoint, or customer component is defective.
 
@@ -14,7 +14,7 @@ OneDrive for work or school and SharePoint Online are not a single server reache
 
 Think of a library system. SharePoint is the managed library: buildings, collections, catalog metadata, permissions, version history, sharing, and collaboration rules. OneDrive is both an individual's SharePoint-backed library experience and the sync application that keeps a selected local shelf aligned with cloud records. A browser is a visitor using the web desk; OneDrive.exe is a courier with a durable route and local inventory. Both reach the library system, but they carry different credentials, requests, state, and failure modes.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Evidence of mastery |
 |---|---|---|
@@ -31,15 +31,15 @@ By the end, Arti should be able to:
 | Monitor health | Use service health, sync reports, client state, request IDs, and known-good comparisons | Health dashboard map |
 | Troubleshoot | Classify local, identity, endpoint, network, policy, service, content, and scale errors | Decision trees |
 | Escalate | Build a minimum-data bundle with exact support boundary and ask | Escalation package |
-| Bridge honestly | Use Arti's M365 depth without translating it into unsupported Zscaler production claims | Interview narrative |
+| Bridge honestly | Use your M365 depth without translating it into unsupported Zscaler production claims | Interview narrative |
 
 ## JD Mapping
 
-| JD expectation | Part 28 capability | Customer artifact | Honest Arti bridge |
+| JD expectation | Part 28 capability | Customer artifact | Honest experience bridge |
 |---|---|---|---|
 | Analyze complex environments | Map endpoint, identity, network, policy, service, content, and collaboration dependencies | Transaction architecture | Direct M365 strength |
 | Identify security risks | Review sharing, permission, token/log privacy, endpoint trust, and unsafe bypasses | Access/evidence review | Builds on SharePoint governance support |
-| Resolve critical escalations | Separate browser/sync, tenant/local, service/customer, and change boundaries | RCA timeline | Builds on CRITSIT leadership |
+| Resolve critical escalations | Separate browser/sync, tenant/local, service/customer, and change boundaries | RCA timeline | Builds on critical-situation leadership |
 | Tailor mitigation | Select supported file, policy, proxy, client, permission, or migration corrections | Option/rollback record | Builds on fix validation |
 | Deliver consulting | Explain Microsoft guidance to endpoint, network, security, and collaboration teams | Workshop/runbook | Uses advisor and mentoring strengths |
 | Partner cross-functionally | Coordinate Microsoft 365 admin, identity, endpoint, network, security, app, migration, and Microsoft Support | RACI and evidence bundle | Directly transferable motion |
@@ -48,13 +48,13 @@ By the end, Arti should be able to:
 
 ## Candidate honesty note
 
-This Part is closest to Arti's established domain. She can use real production examples only when they are supported by her actual CV and can be shared without customer information. She should distinguish official public architecture from internal Microsoft engineering knowledge that is confidential, obsolete, or not established.
+This Part is closest to your established domain. You can use real production examples only when they are supported by your actual CV and can be shared without customer information. You should distinguish official public architecture from internal Microsoft engineering knowledge that is confidential, obsolete, or not established.
 
-Exact OneDrive local database schemas, private cloud-service internals, undocumented endpoints, internal debugging tools, and proprietary Microsoft support telemetry are not described here and must not be invented. Production Zscaler policy, service-edge, Client Connector, ZDX, Data Fabric, or SecOps experience is still not established by Microsoft 365 expertise.
+Exact OneDrive local database schemas, private cloud-service internals, undocumented endpoints, internal debugging tools, and proprietary enterprise support telemetry are not described here and must not be invented. Production Zscaler policy, service-edge, Client Connector, ZDX, Data Fabric, or SecOps experience is still not established by Microsoft 365 expertise.
 
 | Claim class | Safe wording | Boundary |
 |---|---|---|
-| Production | "I investigated OneDrive/SharePoint client, identity, permissions, and connectivity in Microsoft support." | Use only supported personal facts |
+| Production | "I investigated OneDrive/SharePoint client, identity, permissions, and connectivity in enterprise support." | Use only supported personal facts |
 | Official architecture | "Microsoft documents WNS notification and HTTPS sync flows." | Recheck current Learn page and client version |
 | Conceptual | "The client needs durable local reconciliation state." | Exact schema/location is internal and unsupported to edit |
 | Lab | "I compared browser and sync-client evidence with synthetic files." | Keep artifact and label it synthetic |
@@ -839,20 +839,20 @@ Package a fictional NMH issue with minimum client/network/service evidence, know
 | Migration | Bottleneck allocated to a phase with evidence |
 | Escalation | Exact owner ask and minimum safe data |
 
-## Arti bridge and interview positioning
+## Experience bridge and interview positioning
 
 | Existing strength | Part 28 translation | Portfolio proof |
 |---|---|---|
 | OneDrive escalation | Deep browser/sync/local/service isolation | RCA packet |
 | SharePoint Online | Site/library/permission/sharing context | Access map |
 | Networking | DNS, egress, proxy, TLS, endpoint currency | Connectivity diagram |
-| CRITSIT | Parallel endpoint/network/identity/service workstreams | Decision log |
+| Critical situation | Parallel endpoint/network/identity/service workstreams | Decision log |
 | Analytics | Fleet sync health, scope, error and version trends | Synthetic dashboard |
 | Fix validation | Durable cloud/local result plus security negative controls | Validation matrix |
 | Mentoring | Teach sync architecture from zero | Workshop outline |
 | AI agents | Summarize sanitized evidence with source verification | Guardrailed incident brief |
 
-Arti should use this domain as proof of method, not false product equivalence. A strong answer is: "My Microsoft 365 background taught me to separate the user operation from the path. For OneDrive and SharePoint I map tenant/site/library permissions, client and local state, Files On-Demand, identity, current Microsoft endpoints, DNS/egress/proxy/TLS, service request IDs, and durable commit. Browser and sync success are not equivalent. I use Service health and sync reports as scope signals, not verdicts, preserve local evidence before reset, honor throttling backoff, and hand Microsoft or another owner an exact request and boundary. I would apply the same disciplined method to Zscaler while first learning its supported telemetry and policy model."
+You should use this domain as proof of method, not false product equivalence. A strong answer is: "My Microsoft 365 background taught me to separate the user operation from the path. For OneDrive and SharePoint I map tenant/site/library permissions, client and local state, Files On-Demand, identity, current Microsoft endpoints, DNS/egress/proxy/TLS, service request IDs, and durable commit. Browser and sync success are not equivalent. I use Service health and sync reports as scope signals, not verdicts, preserve local evidence before reset, honor throttling backoff, and hand Microsoft or another owner an exact request and boundary. I would apply the same disciplined method to Zscaler while first learning its supported telemetry and policy model."
 
 ## Common misconceptions to correct
 
@@ -1025,7 +1025,7 @@ The following Microsoft official sources were reviewed on **2026-08-24**. They s
 - [ ] I can prepare a minimum-data escalation bundle with UTC and request IDs.
 - [ ] I can state customer, Microsoft, and third-party support boundaries without abandoning end-to-end ownership.
 - [ ] I can complete all ten labs with synthetic or explicitly authorized data.
-- [ ] I can position Arti's Microsoft production depth without claiming Zscaler production experience.
+- [ ] I can position your prior production depth without claiming Zscaler production experience.
 - [ ] I can answer all eight interview questions aloud with current-source caveats.
 
 [Part 29 - Bridging Microsoft 365 Support Skills to Zero Trust and SecOps](Part-29-m365-to-zero-trust-secops-bridge.md)

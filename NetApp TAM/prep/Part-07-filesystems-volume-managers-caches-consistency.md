@@ -1,12 +1,12 @@
 # Part 7 - File Systems, Volume Managers, Caches, Journals, and Consistency
 
-> **Section goal:** Understand how a computer turns block addresses into named files, how volume managers and file systems allocate and protect metadata, and what caches, journals, write ordering, copy-on-write, checksums, snapshots, and crash recovery can and cannot guarantee. By the end, Arti should be able to trace an application write through every ownership layer, distinguish consistency from durability, and ask the questions needed before diagnosing corruption or recommending a storage change.
+> **Section goal:** Understand how a computer turns block addresses into named files, how volume managers and file systems allocate and protect metadata, and what caches, journals, write ordering, copy-on-write, checksums, snapshots, and crash recovery can and cannot guarantee. By the end, you should be able to trace an application write through every ownership layer, distinguish consistency from durability, and ask the questions needed before diagnosing corruption or recommending a storage change.
 
 Covers index item **7** and maps directly to job-description responsibilities for storage and virtualization depth, customer-environment discovery, risk analysis, supportability, troubleshooting, data protection reasoning, customer-specific recommendations, escalation quality, and clear technical communication.
 
 This Part teaches vendor-neutral architecture. File-system, database, operating-system, hypervisor, device, and storage behavior depends on exact versions and configuration. WAFL is introduced only as a deferred bridge to Part 20; no ONTAP write-path, consistency-point, snapshot, recovery, or performance behavior is inferred here.
 
-> **Evidence boundary:** All systems, file systems, devices, timings, incidents, and outcomes below are synthetic. Arti's SharePoint, OneDrive, and Microsoft 365 support experience supplies transferable evidence and escalation discipline, not production ownership of host file systems, databases, WAFL, or NetApp storage.
+> **Evidence boundary:** All systems, file systems, devices, timings, incidents, and outcomes below are synthetic. Your SharePoint, OneDrive, and Microsoft 365 support experience supplies transferable evidence and escalation discipline, not production ownership of host file systems, databases, WAFL, or NetApp storage.
 
 ---
 
@@ -618,14 +618,14 @@ flowchart TD
 
 ### Explicit JD mapping
 
-| JD responsibility | Part 7 contribution | Arti transfer and honest gap |
+| JD responsibility | Part 7 contribution | experience transfer and honest gap |
 |---|---|---|
 | Storage and virtualization depth | Maps partitions, logical volumes, file systems, caches, database, and storage | Windows/M365 familiarity helps; deep host/WAFL administration remains unclaimed |
 | Understand customer environment | Exposes split ownership and complete consistency group | SharePoint/OneDrive dependency mapping transfers strongly |
-| Mitigate risk and improve stability | Clarifies durability, flush, journal, snapshot, and repair risks | CRITSIT evidence preservation transfers; product procedure needs SMEs |
+| Mitigate risk and improve stability | Clarifies durability, flush, journal, snapshot, and repair risks | critical-situation evidence preservation transfers; product procedure needs SMEs |
 | Analyze customer data | Correlates capacity, cache, latency, logs, timestamps, and metadata | Analytics skills transfer; counters need exact definitions |
 | Make customer-specific recommendations | Requires application semantics, supportability, owner, test, and residual risk | Advisory method transfers; no generic file-system setting is prescribed |
-| Improve support experience | Produces a cross-layer ownership map and minimum escalation package | Microsoft escalation and Product/Engineering collaboration are proven strengths |
+| Improve support experience | Produces a cross-layer ownership map and minimum escalation package | enterprise escalation and Product/Engineering collaboration are proven strengths |
 
 ### Honest production-gap note
 
@@ -635,7 +635,7 @@ flowchart TD
 
 ## 15. Fully synthetic worked scenario: Fabrikam Orders
 
-> **Synthetic case:** Fabrikam Orders, all systems, versions, times, data, and outcomes below are fictional. The scenario does not represent a NetApp implementation or Arti's production storage work.
+> **Synthetic case:** Fabrikam Orders, all systems, versions, times, data, and outcomes below are fictional. The scenario does not represent a NetApp implementation or your production storage work.
 
 Fabrikam runs an order database in a virtual machine. The guest has:
 
@@ -958,7 +958,7 @@ Slack is about 1.95 MiB before directory, file-record, journal, and other metada
 - **Split ownership:** Every layer sees a valid fragment of the truth.
 - **Repair:** Preserve evidence and copies before changing structures.
 - **WAFL:** General problems are familiar; implementation waits for Part 20.
-- **Arti's bridge:** M365 systems thinking transfers, host/WAFL production claims do not.
+- **Your bridge:** M365 systems thinking transfers, host/WAFL production claims do not.
 
 ---
 
@@ -986,7 +986,7 @@ Slack is about 1.95 MiB before directory, file-record, journal, and other metada
 - [ ] Ask all discovery questions and write a bounded recommendation.
 - [ ] Recreate Fabrikam's timeline, hypotheses, recovery decision, and customer summary.
 - [ ] Complete the paper lab, self-test, and Q1-Q8 aloud.
-- [ ] State Arti's production gap and Microsoft transfer honestly.
+- [ ] State your production gap and experience transfer honestly.
 - [ ] Recheck exact OS, file-system, database, hypervisor, device, and ONTAP documentation before real use.
 
 ---

@@ -1,10 +1,10 @@
 # Part 113 - UVM and Vulnerability Prioritization Lab
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 
 > **Purpose:** Build and explain a complete local vulnerability-prioritization simulation that joins synthetic vulnerability, asset, control, identity, business, and workflow data; calculates an explainable contextual score; calibrates priority; creates an owned backlog with illustrative SLAs; governs exceptions; measures execution; and communicates the result to technical and executive audiences.
 
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is explicitly fictional and synthetic. Every asset, vulnerability identifier, threat signal, exposure state, control, identity, owner, score, priority, SLA, ticket, exception, metric, date, and result in this Part is invented for study. The scoring formula is candidate-designed and vendor-neutral. It is not Zscaler UVM's algorithm, field model, score, workflow, recommendation, interface, or output. Arti's factual background includes SQL, Power BI, statistics, business analytics, Microsoft enterprise escalations, customer communication, and evidence validation. Production vulnerability-management ownership, Zscaler UVM operation, and customer risk reduction remain unclaimed.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is explicitly fictional and synthetic. Every asset, vulnerability identifier, threat signal, exposure state, control, identity, owner, score, priority, SLA, ticket, exception, metric, date, and result in this Part is invented for study. The scoring formula is candidate-designed and vendor-neutral. It is not Zscaler UVM's algorithm, field model, score, workflow, recommendation, interface, or output. Your factual background includes SQL, Power BI, statistics, business analytics, enterprise escalations, customer communication, and evidence validation. Production vulnerability-management ownership, Zscaler UVM operation, and customer risk reduction remain unclaimed.
 
 > **Currency caveat:** Vulnerability standards, threat intelligence, exploitability evidence, product capabilities, scoring methods, workflow fields, recommended practices, regulations, and customer policies change. The controlled official-source snapshot and source review date for this Part is exactly **2026-08-24**. Current official documentation, licensed-tenant evidence, customer risk policy, source contracts, security and application owners, change processes, exception authority, and controlled validation govern production decisions.
 
@@ -57,13 +57,13 @@ flowchart LR
 
 ## Candidate honesty note
 
-Arti can say: "I built a local synthetic vulnerability-prioritization lab that joined vulnerability, asset, control, business, identity, and workflow data. I designed an explainable score, tested it against anchor cases, calibrated thresholds, produced an owner/SLA backlog, modeled exceptions and validation, wrote SQL, and created technical and executive views. This draws on my factual SQL, Power BI, statistics, MBA analytics, escalation, and customer communication experience. The formula is my learning model, not Zscaler UVM's scoring logic, and the work did not use a real scanner, tenant, customer workflow, or production outcome."
+You can say: "I built a local synthetic vulnerability-prioritization lab that joined vulnerability, asset, control, business, identity, and workflow data. I designed an explainable score, tested it against anchor cases, calibrated thresholds, produced an owner/SLA backlog, modeled exceptions and validation, wrote SQL, and created technical and executive views. This draws on my factual SQL, Power BI, statistics, MBA analytics, escalation, and customer communication experience. The formula is my learning model, not Zscaler UVM's scoring logic, and the work did not use a real scanner, tenant, customer workflow, or production outcome."
 
-| Factual Arti background | Transferable capability | Safe wording | Unsupported wording to avoid |
+| Documented background | Transferable capability | Safe wording | Unsupported wording to avoid |
 |---|---|---|---|
 | SQL, PostgreSQL, statistics | Join context, calculate components, test distributions | "I implemented and validated an explainable synthetic model." | "I reverse-engineered UVM scoring." |
 | Power BI and business analytics | Build drillable metrics and executive narratives | "I visualized a fictional backlog with data-quality context." | "I proved customer risk reduction." |
-| Microsoft enterprise escalations | Prioritize by impact, evidence, dependencies, and ownership | "I transferred evidence-led prioritization discipline." | "I ran an enterprise vulnerability program." |
+| enterprise escalations | Prioritize by impact, evidence, dependencies, and ownership | "I transferred evidence-led prioritization discipline." | "I ran an enterprise vulnerability program." |
 | RCA and fix validation | Distinguish ticket closure, remediation, control, and effective validation | "I modeled closure and reopen evidence." | "I remediated these vulnerabilities." |
 | Customer and Engineering collaboration | Explain options, unknowns, owners, and checkpoints | "I can facilitate an evidence-based prioritization discussion." | "I set customer SLAs or accepted risk." |
 | Synthetic NMH portfolio | Demonstrate preparation | "This is reproducible practice with known ground truth." | "NMH adopted my backlog." |
@@ -484,7 +484,7 @@ sequenceDiagram
 | Reopen triggers | New exploitation, control failure, scope change, missed checkpoint | Makes exception adaptive |
 | Audit evidence | Decision, rationale, dates, approvals, changes | Supports review |
 
-Synthetic exception example: database maintenance for `f-003` cannot occur before a fictional clinical release freeze ends. The Database Owner proposes a 10-day extension within the P2 window, restricts administrative path access under approved policy, increases monitoring, validates backup and rollback, and sets expiry. The Business Risk Owner decides. The candidate records the scenario; she does not accept risk.
+Synthetic exception example: database maintenance for `f-003` cannot occur before a fictional clinical release freeze ends. The Database Owner proposes a 10-day extension within the P2 window, restricts administrative path access under approved policy, increases monitoring, validates backup and rollback, and sets expiry. The Business Risk Owner decides. The candidate records the scenario; you do not accept risk.
 
 ### Plain-English deep-dive 3 - A closed ticket is not a closed exposure
 
@@ -845,7 +845,7 @@ The unresolved lab asset scores 31 because context is missing. The workflow crea
 
 ### Scenario 3 - Exception under release freeze
 
-A fictional database owner requests a bounded delay with a compensating access restriction, evidence, expiry, and reopen triggers. A fictional risk authority decides. Arti demonstrates governance but does not accept customer risk.
+A fictional database owner requests a bounded delay with a compensating access restriction, evidence, expiry, and reopen triggers. A fictional risk authority decides. You demonstrate governance but does not accept customer risk.
 
 ### Scenario 4 - Metric falls after feed delay
 
@@ -901,9 +901,9 @@ The Zscaler sources support bounded public positioning around UVM, Data Fabric, 
 
 **Model answer:** I define validation before work: current source evidence, fixed version or configuration, control state, service regression test, and no unacceptable side effect. Ticket closure is workflow evidence, not proof. I report open high-priority aging, owner acceptance, SLA cohorts, validation pass, reopen, exceptions, context completeness, and source freshness. A model-weighted backlog change is not automatically real risk reduction.
 
-### Q8. How does Arti's background transfer to UVM-oriented work?
+### Q8. How does your background transfer to UVM-oriented work?
 
-**Model answer:** SQL, PostgreSQL, statistics, Power BI, and MBA analytics support contextual modeling, calibration, transparent measures, and dashboards. Microsoft escalation work adds impact-based prioritization, hypothesis discipline, ownership, cross-team coordination, and fix validation. Customer communication supports technical and executive explanations. These are strong transfer points, but they do not establish production vulnerability-program ownership, Zscaler UVM operation, or customer risk outcomes.
+**Model answer:** SQL, PostgreSQL, statistics, Power BI, and MBA analytics support contextual modeling, calibration, transparent measures, and dashboards. enterprise escalation work adds impact-based prioritization, hypothesis discipline, ownership, cross-team coordination, and fix validation. Customer communication supports technical and executive explanations. These are strong transfer points, but they do not establish production vulnerability-program ownership, Zscaler UVM operation, or customer risk outcomes.
 
 ## 30-Second Memory Hooks
 
@@ -924,7 +924,7 @@ The Zscaler sources support bounded public positioning around UVM, Data Fabric, 
 | Closure | Evidence, not ticket status |
 | Metrics | Cohort, denominator, freshness, validation |
 | Product boundary | NMH model is not UVM scoring |
-| Arti bridge | Analytics plus escalation and validation |
+| Experience bridge | Analytics plus escalation and validation |
 
 ## Completion Checklist
 

@@ -1,10 +1,10 @@
 # Part 6 - Cybersecurity Fundamentals: Assets, Threats, Vulnerabilities, Risk, and Controls
 
-> **Audience:** Arti Thakur, moving from Microsoft 365 Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
+> **Audience:** Candidates moving from Microsoft 365 Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
 >
 > **Currency date:** 2026-08-24.
 >
-> **Scope and honesty:** Cybersecurity principles, NIST guidance, and public standards in this chapter are learning material. Arti's established production bridge is Microsoft support, OneDrive, SharePoint, networking, troubleshooting, analytics, mentoring, and approved AI work. Northstar Meridian Holdings, abbreviated NMH, and every NMH asset, event, score, control, decision, and outcome are fictional. Direct production operation of Zscaler, Security Operations, vulnerability, exposure, scanner, Endpoint Detection and Response, Security Information and Event Management, or enterprise cyber-risk products is not established.
+> **Scope and honesty:** Cybersecurity principles, NIST guidance, and public standards in this chapter are learning material. Your established production bridge is enterprise support, OneDrive, SharePoint, networking, troubleshooting, analytics, mentoring, and approved AI work. Northstar Meridian Holdings, abbreviated NMH, and every NMH asset, event, score, control, decision, and outcome are fictional. Direct production operation of Zscaler, Security Operations, vulnerability, exposure, scanner, Endpoint Detection and Response, Security Information and Event Management, or enterprise cyber-risk products is not established.
 >
 > **Currency caveat:** Standards and vendor pages change. The source anchors were checked for this guide on 2026-08-24. Recheck current versions, product documentation, tenant behavior, law, and customer policy before making a real decision.
 
@@ -14,7 +14,7 @@ This chapter builds the vocabulary and reasoning chain underneath every later se
 
 Imagine a hospital protecting a medicine cabinet. The cabinet and medicine are assets. A person who intends to steal medicine is an adversary. Theft is a threat event. A broken lock is a vulnerability. Leaving the cabinet in an unlocked public corridor is exposure. A copied key may be an exploit method. A stronger lock is a preventive control, a camera is a detective control, and an inventory and recovery process are corrective and recovery controls. Risk considers both the chance of the event and the harm it could cause. Cybersecurity applies the same logic to data, identities, devices, applications, services, and business operations.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Learning outcome | What mastery looks like |
 |---|---|
@@ -32,7 +32,7 @@ By the end, Arti should be able to:
 
 **JD** means job description. The target role asks a Technical Success Manager, abbreviated **TSM**, to analyze complex customer environments, identify security risks, tailor mitigation, explain metrics, coordinate stakeholders, and drive outcomes. Fundamentals matter because weak terminology creates weak recommendations.
 
-| JD expectation | Part 6 capability | Evidence Arti can present honestly |
+| JD expectation | Part 6 capability | Evidence you can present honestly |
 |---|---|---|
 | Analyze complex enterprise environments | Inventory business services, assets, identities, data, dependencies, and owners | Production: structured troubleshooting across Microsoft 365 and networking dependencies |
 | Identify security risks | Build an asset-threat-vulnerability-control-risk chain | Lab: fictional NMH risk register and evidence plan |
@@ -44,11 +44,11 @@ By the end, Arti should be able to:
 
 ## Candidate honesty note
 
-Arti can say that she has used security-adjacent reasoning in production when protecting Microsoft 365 customer data, identity-dependent access, service availability, and configuration integrity. She can describe network evidence, browser traces, logs, escalation, remediation validation, analytics, and customer communication supported by her background. She must not claim that this equals operating a formal Security Operations Center, abbreviated **SOC**, owning an enterprise vulnerability program, administering Zscaler, or approving cyber risk for a customer.
+You can say that you have used security-adjacent reasoning in production when protecting Microsoft 365 customer data, identity-dependent access, service availability, and configuration integrity. You can describe network evidence, browser traces, logs, escalation, remediation validation, analytics, and customer communication supported by your background. You must not claim that this equals operating a formal Security Operations Center, abbreviated **SOC**, owning an enterprise vulnerability program, administering Zscaler, or approving cyber risk for a customer.
 
 | Label | Meaning in this chapter | Safe wording | Unsafe wording |
 |---|---|---|---|
-| Production | Established Microsoft support, networking, analytics, mentoring, training, escalation, and approved AI facts | "In Microsoft support production work, I validated identity, permissions, network, client, and service evidence." | "I ran SecOps for Microsoft customers." |
+| Production | Established enterprise support, networking, analytics, mentoring, training, escalation, and approved AI facts | "In enterprise support production work, I validated identity, permissions, network, client, and service evidence." | "I ran SecOps for Microsoft customers." |
 | Lab | A repeatable exercise completed with synthetic data | "In my NMH risk-register lab, I practiced evidence, scoring, treatment, and review." | "I reduced a manufacturer's cyber risk." |
 | Conceptual | Architecture or method understood from authoritative material | "Conceptually, I would distinguish inherent from residual risk and validate controls." | "I have implemented enterprise risk governance." |
 | Not-yet-used | A product, tool, or responsibility not directly operated | "I have not used Zscaler UVM in production; I can explain the transferable method and my validation plan." | "I am a Zscaler vulnerability expert." |
@@ -146,7 +146,7 @@ The CIA triad is not a universal ranking. A news website may prioritize availabi
 
 The practical sequence is: name the asset, name the business use, define acceptable outcomes, identify who has authority, and only then choose controls. Starting with a tool can invert the process. Buying a stronger lock before deciding which doors matter produces cost without confidence.
 
-Arti's OneDrive and SharePoint experience provides a factual bridge. A sync issue is not automatically a security incident, yet the same evidence can reveal which objective is affected. A user unable to open a required file is an availability symptom. A file changed by an unexpected identity raises an integrity question. A broadly accessible site raises a confidentiality question. Security interpretation adds authorization, adversary, risk, and governance context to the technical evidence.
+Your OneDrive and SharePoint experience provides a factual bridge. A sync issue is not automatically a security incident, yet the same evidence can reveal which objective is affected. A user unable to open a required file is an availability symptom. A file changed by an unexpected identity raises an integrity question. A broadly accessible site raises a confidentiality question. Security interpretation adds authorization, adversary, risk, and governance context to the technical evidence.
 
 ## Beyond CIA: authenticity, accountability, privacy, and resilience
 
@@ -417,7 +417,7 @@ flowchart TD
 
 Control **design effectiveness** asks whether the control, if implemented as designed, could address the risk. **Operating effectiveness** asks whether it actually operates consistently in the defined scope and period. **Outcome effectiveness** asks whether it meaningfully changes the scenario. A beautifully designed control that is disabled is ineffective. A consistently running control that watches the wrong assets is also ineffective.
 
-Arti's production fix-validation habit transfers directly. In support, a setting change is not proof until expected behavior returns and side effects are checked. In security, a closed remediation ticket is not proof until the weakness, path, control, or consequence has been retested with appropriate authority.
+Your production fix-validation habit transfers directly. In support, a setting change is not proof until expected behavior returns and side effects are checked. In security, a closed remediation ticket is not proof until the weakness, path, control, or consequence has been retested with appropriate authority.
 
 ## Governance turns controls into a system
 
@@ -461,7 +461,7 @@ These disciplines overlap but are not synonyms. A TSM should collaborate across 
 
 ## OneDrive and SharePoint bridge
 
-This bridge stays factual. Arti has production experience investigating Microsoft 365 workloads and dependencies. The scenarios below show how familiar evidence can support security questions; they do not assert that she owned a customer's security program.
+This bridge stays factual. You have production experience investigating Microsoft 365 workloads and dependencies. The scenarios below show how familiar evidence can support security questions; they do not assert that you owned a customer's security program.
 
 | Familiar production symptom | Security objective question | Possible benign cause | Possible security concern | Evidence before conclusion |
 |---|---|---|---|---|
@@ -757,7 +757,7 @@ The fictional workstation runs vendor software needed to tune a packaging line. 
 
 ## Consulting conversation pattern
 
-When discussing an unfamiliar customer's risk, Arti can use the following structure:
+When discussing an unfamiliar customer's risk, you can use the following structure:
 
 1. "Let me confirm the business service and decision we are supporting."
 2. "Here are the facts we have, their sources, and their timestamps."
@@ -783,7 +783,7 @@ This sounds slower than saying "critical," but it prevents rework and earns trus
 | CISA Cybersecurity Performance Goals | https://www.cisa.gov/cybersecurity-performance-goals-cpgs | Prioritized baseline practices and outcome thinking | Check current CISA location and sector applicability; site routing may change |
 | CISA Known Exploited Vulnerabilities Catalog | https://www.cisa.gov/known-exploited-vulnerabilities-catalog | Evidence that listed vulnerabilities are known to be exploited in the wild | Listing changes prioritization context but does not replace asset and exposure analysis |
 | International terminology | https://www.iso.org/standard/80585.html | ISO/IEC 27001 information security management context | Full standard text may require licensed access; organizational certification scope matters |
-| Zscaler zero trust positioning | https://www.zscaler.com/resources/security-terms-glossary/what-is-zero-trust | Vendor description of identity, device, application, data, context, and least-privileged access | Vendor positioning is not a standard and does not establish Arti's product experience |
+| Zscaler zero trust positioning | https://www.zscaler.com/resources/security-terms-glossary/what-is-zero-trust | Vendor description of identity, device, application, data, context, and least-privileged access | Vendor positioning is not a standard and does not establish your product experience |
 | Zscaler security operations positioning | https://www.zscaler.com/products-and-solutions/security-operations | Current public product and outcome language relevant to the target role | Validate current packaging, licensing, documentation, and tenant behavior |
 
 ## Likely Interview Questions
@@ -792,7 +792,7 @@ This sounds slower than saying "critical," but it prevents rework and earns trus
 
 **Model answer:** I start with an objective and an asset that supports it. I identify a threat source and a plausible threat event, then the vulnerability or condition and exposure path that could let the event create harm. I examine current controls and their evidence, estimate likelihood and impact within a stated scope and time, and record uncertainty. That produces an inherent and current residual-risk view. I then propose treatment, owner, due date, validation, and an authorized residual-risk decision.
 
-A vulnerability score or alert can inform the chain but is not the risk by itself. My production bridge is evidence-driven Microsoft support and escalation. Formal enterprise cyber-risk ownership and Zscaler product operation are not established; the NMH register is a lab exercise.
+A vulnerability score or alert can inform the chain but is not the risk by itself. My production bridge is evidence-driven enterprise support and escalation. Formal enterprise cyber-risk ownership and Zscaler product operation are not established; the NMH register is a lab exercise.
 
 ### Q2. What is the CIA triad, and how do tradeoffs appear in real systems?
 
@@ -824,7 +824,7 @@ For an unpatchable plant workstation, segmentation and restricted administration
 
 Any formula in my NMH lab is fictional and not a Zscaler or NIST scoring formula. In production I would use the customer's approved method and current product documentation, preserve version and denominator, and treat missing context as uncertainty rather than safety.
 
-### Q7. How does your Microsoft support background transfer to cybersecurity fundamentals?
+### Q7. How does your prior support background transfer to cybersecurity fundamentals?
 
 **Model answer:** The transferable method is structured discovery, cross-layer evidence, competing hypotheses, impact communication, ownership, escalation, fix validation, and learning from recurring patterns. OneDrive and SharePoint cases already require reasoning across identities, permissions, clients, networks, service behavior, and data. Security adds explicit adversary, authorization, control, risk, privacy, and governance questions.
 
@@ -864,7 +864,7 @@ I would verify scope, sign-in methods, sponsors, session policy, approval indepe
 | Resilience | Prepare, withstand, recover, adapt |
 | Formula | Discussion aid, not scientific truth |
 | Missing data | Uncertainty, never automatic safety |
-| Arti bridge | Production investigation method; lab security practice; honest product gap |
+| Experience bridge | Production investigation method; lab security practice; honest product gap |
 
 ## Completion Checklist
 

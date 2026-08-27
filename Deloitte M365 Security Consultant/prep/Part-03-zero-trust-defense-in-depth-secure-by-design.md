@@ -45,7 +45,7 @@ flowchart TD
 
 Zero Trust is successful when legitimate access becomes explicit and manageable, attackers face repeated barriers, compromised access has limited reach, suspicious behavior becomes visible, and response can restore a trusted state. It is not successful merely because multifactor authentication was enabled.
 
-> **Arti's transferable advantage:** M365 escalation work already challenges weak assumptions. A sync symptom may arise from identity, permission, device, network, service, or client state. Zero Trust applies the same evidence-led discipline to access: never accept “inside,” “managed,” “licensed,” or “authenticated” as a complete explanation.
+> **Your transferable advantage:** M365 escalation work already challenges weak assumptions. A sync symptom may arise from identity, permission, device, network, service, or client state. Zero Trust applies the same evidence-led discipline to access: never accept “inside,” “managed,” “licensed,” or “authenticated” as a complete explanation.
 
 ---
 
@@ -267,7 +267,7 @@ sequenceDiagram
 8. Remove access on role change, departure, inactivity, or risk.
 9. Test emergency paths separately.
 
-> **Arti tie-in:** Escalation engineering demonstrates knowing when to involve product groups, vendors, and specialist owners rather than taking every action personally. Least privilege formalizes the same discipline: the right actor receives the right capability for the right task, with evidence and expiry.
+> **Background tie-in:** Escalation engineering demonstrates knowing when to involve product groups, vendors, and specialist owners rather than taking every action personally. Least privilege formalizes the same discipline: the right actor receives the right capability for the right task, with evidence and expiry.
 
 ---
 
@@ -869,7 +869,7 @@ No tenant cleanup is needed. Confirm every organization, identity, domain, metri
 
 | Evidence type | Defensible statement | Boundary |
 |---|---|---|
-| Production | Arti has led Microsoft 365 enterprise escalations involving SharePoint Online, OneDrive, sync, customers, partners, engineering, vendors, RCA, fix validation, documentation, and business reviews | Do not convert this into claims of owning Conditional Access, Intune compliance, Purview, Defender, Sentinel, or privileged identity deployments |
+| Production | You have led Microsoft 365 enterprise escalations involving SharePoint Online, OneDrive, sync, customers, partners, engineering, vendors, RCA, fix validation, documentation, and business reviews | Do not convert this into claims of owning Conditional Access, Intune compliance, Purview, Defender, Sentinel, or privileged identity deployments |
 | Transferable | Layer isolation, hypothesis testing, stakeholder coordination, safe validation, documentation, and operational communication map directly to Zero Trust delivery | Transferability supports readiness; it is not identical product tenure |
 | Lab/paper | Architecture, workshop, policy matrix, emergency-access design, tests, and metrics can be demonstrated as structured exercises | State clearly that no production tenant was changed |
 | Conceptual | Principles, pillars, planes, signals, segmentation, maturity, failure modes, and roadmap can be explained and defended | Conceptual fluency needs product labs and supervised implementation to become operational depth |

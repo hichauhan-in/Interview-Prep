@@ -1,6 +1,6 @@
 # Part 36 - SnapMirror Replication Architecture and Policies
 
-> **Section goal:** Learn how SnapMirror connects a defined source and destination through peering, intercluster networking, snapshots, policy, and transfer state. By the end, Arti should be able to distinguish asynchronous, Sync, and StrictSync behavior; interpret relationship state/status/lag; reason safely about baseline, update, break, resync, reverse resync, deletion, fan-out, and cascade; and separate replication freshness from failover and application recovery readiness.
+> **Section goal:** Learn how SnapMirror connects a defined source and destination through peering, intercluster networking, snapshots, policy, and transfer state. By the end, you should be able to distinguish asynchronous, Sync, and StrictSync behavior; interpret relationship state/status/lag; reason safely about baseline, update, break, resync, reverse resync, deletion, fan-out, and cascade; and separate replication freshness from failover and application recovery readiness.
 
 Covers index item **36** and maps directly to job-description responsibilities for storage depth, customer-environment discovery, risk analysis, supportability, strategic planning, preventative recommendations, operational service reviews, escalation quality, and high-pressure communication.
 
@@ -8,7 +8,7 @@ Covers index item **36** and maps directly to job-description responsibilities f
 
 This Part states no hard latency, bandwidth, peer, relationship, retention, RPO/RTO, transfer-time, or platform limit. It provides no executable production runbook. Any named default policy or state is an orientation from public documentation checked on the date below; inspect the actual policy and exact current release before use.
 
-> **No-production-NetApp boundary:** Arti does not claim production NetApp or SnapMirror experience. Every cluster, SVM, LIF, relationship, transfer, policy, lag, incident, and recovery result below is synthetic. Her factual strengths are Microsoft enterprise support, Azure/networking, SharePoint/OneDrive synchronization concepts, CRITSIT ownership, analytics, stakeholder coordination, and customer communication. The explicit non-claim is: **she has not peered production ONTAP clusters/SVMs, configured intercluster LIFs, created or initialized SnapMirror relationships, changed policies/throttles, broken or resynchronized a production mirror, performed reverse resync/failback, or validated production NetApp DR.**
+> **No-production-NetApp boundary:** You do not claim production NetApp or SnapMirror experience. Every cluster, SVM, LIF, relationship, transfer, policy, lag, incident, and recovery result below is synthetic. Your factual strengths are enterprise support, Azure/networking, SharePoint/OneDrive synchronization concepts, critical-situation ownership, analytics, stakeholder coordination, and customer communication. The explicit non-claim is: **you have not peered production ONTAP clusters/SVMs, configured intercluster LIFs, created or initialized SnapMirror relationships, changed policies/throttles, broken or resynchronized a production mirror, performed reverse resync/failback, or validated production NetApp DR.**
 
 ---
 
@@ -603,11 +603,11 @@ flowchart TD
 
 ### JD Mapping
 
-| JD responsibility | Part 36 contribution | Arti's factual bridge and gap |
+| JD responsibility | Part 36 contribution | Your factual bridge and gap |
 |---|---|---|
 | Understand environment | Maps source/destination/peer/network/app dependencies | Azure/networking method transfers |
 | Analyze/report data | Interprets policy/state/status/lag/transfers/capacity | Analytics strength transfers |
-| Strategic planning | Connects topology, bandwidth, RPO/RTO, failover/failback | Advisory/CRITSIT planning transfers |
+| Strategic planning | Connects topology, bandwidth, RPO/RTO, failover/failback | Advisory/critical-situation planning transfers |
 | Risk/stability | Finds stale points, path, capacity, resync and split-history risks | Incident discipline transfers |
 | Supportability | Requires exact version/topology/policy evidence | No gated/customer result claimed |
 | Customer reviews | Converts fleet relationships into action/owner/proof | Business-review experience transfers |
@@ -617,7 +617,7 @@ flowchart TD
 
 ## 15. Fully synthetic scenario: Fabrikam Research lag and failed DR test
 
-> **Synthetic case:** Fabrikam Research, every cluster, metric, policy, timeline, and result below is fictional. It is not a NetApp customer, internal workflow, benchmark, tool result, or Arti's production work.
+> **Synthetic case:** Fabrikam Research, every cluster, metric, policy, timeline, and result below is fictional. It is not a NetApp customer, internal workflow, benchmark, tool result, or your production work.
 
 ### Environment
 
@@ -699,13 +699,13 @@ flowchart TD
 
 ---
 
-## 16. Arti's factual transfer and honest positioning
+## 16. Your factual transfer and honest positioning
 
 ```mermaid
 flowchart LR
     OD[OneDrive/SharePoint sync concepts] --> DELTA[Baseline delta backlog conflict intuition]
     AZ[Azure/networking] --> PATH[Routes firewalls DNS identity bandwidth security]
-    CRIT[CRITSIT] --> DR[Authority restoration workstreams communication]
+    CRIT[Critical situation] --> DR[Authority restoration workstreams communication]
     BI[Analytics] --> TREND[Lag change rate transfer capacity and action trends]
     DELTA --> SM[SnapMirror conceptual method]
     PATH --> SM
@@ -714,7 +714,7 @@ flowchart LR
     SM --> LAB[Future authorized lab and NetApp review]
 ```
 
-> **Honest interview answer:** "I understand SnapMirror as a relationship among source, destination, peering, intercluster paths, snapshots and policy. I can distinguish baseline from incremental updates, XDP type from policy intent, asynchronous from Sync and StrictSync failure behavior, and replication freshness from failover readiness. My production experience is Microsoft support, sync services, Azure/networking and incident leadership, not ONTAP SnapMirror administration. I would verify current compatibility, documentation and authorized evidence and use NetApp/application/network owners before any lifecycle action."
+> **Honest interview answer:** "I understand SnapMirror as a relationship among source, destination, peering, intercluster paths, snapshots and policy. I can distinguish baseline from incremental updates, XDP type from policy intent, asynchronous from Sync and StrictSync failure behavior, and replication freshness from failover readiness. My production experience is enterprise support, sync services, Azure/networking and incident leadership, not ONTAP SnapMirror administration. I would verify current compatibility, documentation and authorized evidence and use NetApp/application/network owners before any lifecycle action."
 
 ---
 
@@ -792,7 +792,7 @@ flowchart LR
 13. Apply the troubleshooting tree and escalation boundary.
 14. Recreate Fabrikam's three independent workstreams.
 15. Complete paper lab and recommendations.
-16. Deliver Arti's honest answer without production inflation.
+16. Deliver your honest answer without production inflation.
 
 ---
 
@@ -860,7 +860,7 @@ flowchart LR
 
 ### Q8. How does your experience transfer, and what remains a gap?
 
-> **Model answer:** "OneDrive/SharePoint sync gives me baseline/delta/backlog intuition; Azure/networking gives me path/security dependencies; CRITSIT and analytics give me authority, timeline, risk and communication discipline. I understand SnapMirror architecture but have not configured or operated it in production. I would verify current docs, compatibility, authorized evidence and specialist runbooks before lifecycle actions."
+> **Model answer:** "OneDrive/SharePoint sync gives me baseline/delta/backlog intuition; Azure/networking gives me path/security dependencies; critical situation and analytics give me authority, timeline, risk and communication discipline. I understand SnapMirror architecture but have not configured or operated it in production. I would verify current docs, compatibility, authorized evidence and specialist runbooks before lifecycle actions."
 
 ---
 
@@ -884,7 +884,7 @@ flowchart LR
 - **Fan-out:** One source, several destinations.
 - **Cascade:** Primary -> secondary -> tertiary; delays/dependencies accumulate.
 - **Recovery:** Replication + app/network/identity/runbook + test.
-- **Arti's bridge:** Sync/network/incident method transfers; ONTAP operation does not.
+- **Your bridge:** Sync/network/incident method transfers; ONTAP operation does not.
 
 ---
 

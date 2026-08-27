@@ -2,13 +2,13 @@
 
 > **Purpose:** Build a product-neutral method for turning a vague support report into a bounded, testable case statement. The method captures the symptom, expected and actual result, timeline, scope, impact, useful identifiers, change context, reproducibility, environment, controls, and minimum safe evidence before deeper troubleshooting or escalation.
 >
-> **Artifact honesty label:** **Local synthetic intake questionnaire and reproduction-plan design only.** Every person, tenant, user, message, request, event, timestamp, identifier, environment, observation, and result in this Part is fictional. No lab step was performed while this Part was authored. No Abnormal AI, Microsoft, customer, mailbox, identity, API, network, security, ticketing, or production system was accessed or changed. Arti may describe the lab as completed only after she actually creates the local fictional artifacts and records a passing validation.
+> **Artifact honesty label:** **Local synthetic intake questionnaire and reproduction-plan design only.** Every person, tenant, user, message, request, event, timestamp, identifier, environment, observation, and result in this Part is fictional. No lab step was performed while this Part was authored. No Abnormal AI, Microsoft, customer, mailbox, identity, API, network, security, ticketing, or production system was accessed or changed. You may describe the lab as completed only after you actually create the local fictional artifacts and records a passing validation.
 >
 > **Currency and source access date:** August 24, 2026.
 
 ## Section goal
 
-The goal is to make the first support conversation produce **decision-grade context**, not a long but unusable data dump. By the end of this Part, Arti should be able to restate a report neutrally, separate a symptom from a sign and a cause, establish expected versus actual behavior, bound time and scope, describe customer impact without assigning severity prematurely, choose useful identifiers, inventory the environment, ask what changed, assess reproducibility safely, select a matched control, and request only the minimum evidence needed for the next decision.
+The goal is to make the first support conversation produce **decision-grade context**, not a long but unusable data dump. By the end of this Part, you should be able to restate a report neutrally, separate a symptom from a sign and a cause, establish expected versus actual behavior, bound time and scope, describe customer impact without assigning severity prematurely, choose useful identifiers, inventory the environment, ask what changed, assess reproducibility safely, select a matched control, and request only the minimum evidence needed for the next decision.
 
 The central analogy is a **doctor taking a history before ordering tests**. The doctor asks what the patient felt, what was measured, when it began, what changed, what makes it better or worse, and which other systems are affected. That history narrows useful tests and avoids random procedures. The analogy stops being accurate because enterprise software can span organizations, tenants, identities, networks, APIs, security controls, and distributed services; evidence may be restricted; and Support must follow contracts, role permissions, privacy requirements, incident processes, and change controls rather than exercising clinical authority.
 
@@ -65,20 +65,20 @@ This Part prohibits asking for passwords, tokens, cookies, private keys, MFA cod
 | Engineering and Product collaboration | Builds a reproducible, privacy-aware escalation | Supplies expected/actual, environment, steps, frequency, controls, observations, limitations, and one explicit question | Repro plan and escalation packet |
 | Recommendations and RCA insights | Protects causal reasoning from intake bias | Distinguishes changed variables, correlation, signs, hypotheses, and confirmed cause | Change-and-evidence ledger |
 | Security mindset and privacy | Minimizes collection and prevents unsafe testing | Requests metadata before content and stops at permission, privacy, security, or integrity boundaries | Minimum-evidence matrix |
-| Microsoft enterprise support background | Transfers scoping, correlation, customer interviewing, Engineering handoff, and fix-validation discipline | Uses a real Microsoft story only within its true product, role, action, and result boundaries | Candidate transfer statement |
+| enterprise support background | Transfers scoping, correlation, customer interviewing, Engineering handoff, and fix-validation discipline | Uses a real Microsoft story only within its true product, role, action, and result boundaries | Candidate transfer statement |
 | Abnormal AI learning goal | Applies public context without inventing private operations | Defers fields, telemetry, permissions, support paths, and product semantics to current authorized documentation | Source-and-boundary table |
 
 ## Candidate honesty note
 
-Arti can truthfully transfer methods from five years of Microsoft enterprise support: clarifying customer outcomes, scoping users and services, normalizing timelines, asking what changed, identifying affected and healthy comparisons, correlating identifiers, collaborating with Engineering or Product, communicating under pressure, and validating a fix. She can use a genuine SharePoint Online, OneDrive, Sync Client, Copilot, escalation, or CRITSIT example when it is relevant and permitted. She must state her own action accurately and must not recast that example as email-security, Abnormal AI, or another vendor’s production experience.
+You can truthfully transfer methods from several years of enterprise support: clarifying customer outcomes, scoping users and services, normalizing timelines, asking what changed, identifying affected and healthy comparisons, correlating identifiers, collaborating with Engineering or Product, communicating under pressure, and validating a fix. You can use a genuine SharePoint Online, OneDrive, Sync Client, Copilot, escalation, or critical-situation example when it is relevant and permitted. You must state your own action accurately and must not recast that example as email-security, Abnormal AI, or another vendor’s production experience.
 
-Arti has not established direct production use of Abnormal AI, its support console, proprietary telemetry, detection models, tenant schema, message fields, request fields, evidence-retention behavior, escalation route, permissions, or reproduction environment. Public product pages can explain high-level product context, but they cannot support a claim about internal support operations. In a real role, current authorized documentation, customer agreements, data-handling policy, assigned permissions, and product owners would control what is collected and how it is interpreted.
+You have not established direct production use of Abnormal AI, its support console, proprietary telemetry, detection models, tenant schema, message fields, request fields, evidence-retention behavior, escalation route, permissions, or reproduction environment. Public product pages can explain high-level product context, but they cannot support a claim about internal support operations. In a real role, current authorized documentation, customer agreements, data-handling policy, assigned permissions, and product owners would control what is collected and how it is interpreted.
 
-A strong interview bridge is: “In Microsoft enterprise support, I learned to turn broad reports into a precise expected-versus-actual statement, bound the timeline and affected population, preserve identifiers, compare a healthy control, and ask for only the evidence that changed the next decision. I have not used Abnormal AI in production, so I would not assume its fields or telemetry. I would apply that investigation discipline through Abnormal’s current approved tools, privacy rules, and escalation paths.”
+A strong interview bridge is: “In enterprise support, I learned to turn broad reports into a precise expected-versus-actual statement, bound the timeline and affected population, preserve identifiers, compare a healthy control, and ask for only the evidence that changed the next decision. I have not used Abnormal AI in production, so I would not assume its fields or telemetry. I would apply that investigation discipline through Abnormal’s current approved tools, privacy rules, and escalation paths.”
 
 | Evidence tier | Safe candidate wording | Evidence available | Claim that would exceed the evidence |
 |---|---|---|---|
-| Microsoft production transfer | “In Microsoft enterprise support, I scoped affected users, gathered approved evidence, correlated timelines, and escalated bounded questions.” | Real CV-supported work and a truthful example Arti can defend | “I have performed the same intake in Abnormal’s support environment.” |
+| prior production transfer | “In enterprise support, I scoped affected users, gathered approved evidence, correlated timelines, and escalated bounded questions.” | Real CV-supported work and a truthful example you can defend | “I have performed the same intake in Abnormal’s support environment.” |
 | Local synthetic lab | “After I complete it, I built and validated an offline fictional intake and repro packet.” | Learner-created local text plus a passing rubric | “I reproduced an Abnormal defect or worked a customer case.” |
 | Learned architecture | “From official public sources, my understanding is that the platform operates in cloud email and related security contexts.” | Attributed public documentation with explicit limits | “I know which proprietary logs or fields prove an Abnormal decision.” |
 | No direct experience | “I have not used that product or internal workflow directly; I would learn the authorized schema and handling process.” | Honest gap plus transferable method | Inventing a console name, queue, response target, tenant field, message identifier, or escalation permission |
@@ -91,7 +91,7 @@ Customers naturally describe problems in business language, emotional language, 
 
 A useful symptom sentence has six parts:
 
-> In **[bounded environment]**, **[actor or object alias]** expected **[documented or agreed result]** when **[operation or condition]**, but observed **[exact actual result]** during **[normalized interval]**, affecting **[bounded outcome or impact]**.
+> In **[bounded environment]**, **[actor or object alias]** expected **[Documented or agreed result]** when **[operation or condition]**, but observed **[exact actual result]** during **[normalized interval]**, affecting **[bounded outcome or impact]**.
 
 For example:
 
@@ -304,7 +304,7 @@ The analogy stops because distributed systems can create parent and child trace 
 | Interface | UI/API/connector/webhook/mail path and version class | `UNKNOWN - localize first` | Unapproved endpoint probing |
 | Network path | Approved proxy/VPN/DNS/TLS path category | `UNKNOWN - no bypass requested` | Packet or HAR data without handling approval |
 | Policy/configuration | Object alias, intended and effective version/state | `UNKNOWN - authorized owner required` | Broad policy export or unapproved edit |
-| Time/region | UTC interval, original offset, clock source, region alias if relevant | `UNCERTAIN +/- [documented amount]` | Invented precision or proprietary topology claim |
+| Time/region | UTC interval, original offset, clock source, region alias if relevant | `UNCERTAIN +/- [Documented amount]` | Invented precision or proprietary topology claim |
 
 ## 4. Change context, reproducibility, controls, and evidence
 
@@ -437,7 +437,7 @@ The questionnaire is a decision tool, not a script to read mechanically. Ask the
 | Field | Concise entry pattern |
 |---|---|
 | Customer outcome | `[workflow or security outcome]` |
-| Expected | `[documented or approved result and conditions]` |
+| Expected | `[Documented or approved result and conditions]` |
 | Actual symptom | `[exact observable difference without cause]` |
 | Timeline | `[last good / first bad / attempts / report time in UTC with uncertainty]` |
 | Scope | `[affected and unaffected aliases, counts, cohorts, operations, environments]` |
@@ -717,12 +717,12 @@ flowchart TD
 
 ## 9. Putting intake and reproduction into interview language
 
-Interviewers are usually testing judgment, not whether the candidate memorized a form. A strong answer shows how Arti turns ambiguity into one safe next decision while respecting privacy, evidence quality, and product boundaries.
+Interviewers are usually testing judgment, not whether the candidate memorized a form. A strong answer shows how you turn ambiguity into one safe next decision while respecting privacy, evidence quality, and product boundaries.
 
-| Interview prompt | Answer structure | Microsoft transfer | Required boundary |
+| Interview prompt | Answer structure | experience transfer | Required boundary |
 |---|---|---|---|
 | “What do you ask first?” | Outcome, expected/actual, time, scope, impact, safety, environment, identifiers, changes, reproduction | Mention a truthful enterprise-support intake pattern | Do not claim an Abnormal script or field set |
-| “How do you reproduce?” | Permission, harmlessness, preconditions, one variable, control, bounded steps, evidence, stop conditions | Discuss fix validation or controlled testing from Microsoft work if accurate | Do not imply production security testing authority |
+| “How do you reproduce?” | Permission, harmlessness, preconditions, one variable, control, bounded steps, evidence, stop conditions | Discuss fix validation or controlled testing from prior work if accurate | Do not imply production security testing authority |
 | “What logs do you need?” | Name the decision first, then minimum source, time, fields, identifier, and coverage | Transfer correlation and evidence-minimization habits | Do not ask for full exports, content, or proprietary logs by assumption |
 | “What if it will not reproduce?” | Preserve history, record bounded negative evidence, compare environment, use existing observations, escalate if needed | Explain intermittent-case discipline | Do not dismiss the report or claim resolution |
 | “How do you handle a suspected security miss?” | Stop replay, ask interaction categories, preserve minimum identifiers, route authorized response, maintain communication | Transfer calm critical-case coordination only | Do not claim verdict, containment, or incident-command authority |
@@ -751,7 +751,7 @@ The objective is to create one high-signal intake questionnaire response and one
 
 - A learner-owned local folder and a plain-text or Markdown editor.
 - This Part available locally for reference.
-- No Abnormal AI account, Microsoft production account, customer environment, mailbox, API client, browser session, support platform, identity provider, ticketing system, cloud system, or external service.
+- No Abnormal AI account, prior production account, customer environment, mailbox, API client, browser session, support platform, identity provider, ticketing system, cloud system, or external service.
 - No password, token, cookie, authorization header, API key, client secret, private key, certificate private material, MFA code, recovery code, authenticated connection string, or credential-shaped placeholder.
 - No real person, company, customer, tenant, user, domain, email address, IP address, hostname, URL, message, request, correlation ID, event, change, screenshot, log, HAR, packet, attachment, or content.
 - Use only obvious aliases such as `CASE-101-LAB`, `tenant-A101`, `user-A101`, `message-A101`, `request-A101`, `corr-A101`, `change-A101`, `env-A101`, and reserved domain `example.invalid` if a domain-shaped placeholder is necessary.
@@ -770,7 +770,7 @@ The objective is to create one high-signal intake questionnaire response and one
 | Changes | Describe authorized owner and validation needs | Real account, role, policy, connector, route, configuration, threshold, remediation, reset, revocation | A state change is proposed outside local fiction |
 | Destructive acts | None | Delete, purge, wipe, clear, reset, revoke, quarantine, release, overwrite, detonate | Any action could alter evidence or state |
 | Storage | One learner-owned local folder | Public repository, paste site, scanner, converter, personal cloud, external AI, email, chat, sync | Artifact would leave the approved local location |
-| Claims | “Designed” and, only after a real pass, “completed locally with fictional text” | Real customer, Abnormal, Microsoft production, product defect, certification, or operational claim | Evidence tier could be misunderstood |
+| Claims | “Designed” and, only after a real pass, “completed locally with fictional text” | Real customer, Abnormal, prior production, product defect, certification, or operational claim | Evidence tier could be misunderstood |
 
 ### Lab scenario cards
 
@@ -860,7 +860,7 @@ flowchart TD
 
 If the lab is actually performed later, expected evidence is:
 
-- One honesty card stating local, synthetic, offline, not executed against a system, not transferred, and not direct Abnormal or Microsoft production experience.
+- One honesty card stating local, synthetic, offline, not executed against a system, not transferred, and not direct Abnormal or prior production experience.
 - Four scenario cards using only obvious fictional aliases.
 - Four neutral symptom statements that separate customer report, sign, hypothesis, and cause status.
 - One completed high-signal questionnaire per card, with unknowns stated explicitly.
@@ -920,7 +920,7 @@ Score every row. Any automatic-failure condition makes the overall result Fail r
 | Minimum evidence | Full export, content, or broad dump is requested | Collection is narrowed but not tied to a decision | Every requested item has a next-decision purpose and restricted evidence is deferred to the approved route |
 | Privacy and security | Credential, customer content, harmful test, bypass, or destructive action appears | Generic safety note exists | Explicit prohibitions, minimization, handling route, stop conditions, and authorized owner boundaries are enforced |
 | Failure and escalation | Intake continues despite risk or authority gap | Escalation is named but packet/ask is weak | Security, privacy, product, impact, telemetry, and change-authority triggers plus minimum packet and exact ask are complete |
-| Candidate honesty | Microsoft or lab work is presented as Abnormal experience | Gap is implied | Microsoft production transfer, local synthetic practice, learned public context, and no direct Abnormal experience are separated |
+| Candidate honesty | Prior-role or lab work is presented as Abnormal experience | Gap is implied | prior production transfer, local synthetic practice, learned public context, and no direct Abnormal experience are separated |
 | Product boundary | Internal Abnormal field, log, permission, model, workflow, target, or behavior is invented | Product references are vague | Public context is attributed and all internal semantics defer to current authorized documentation |
 | Lab execution honesty | Designed steps are presented as performed | State is ambiguous | Not-performed state remains explicit and completion is conditional on actual local artifacts and a pass |
 | Interview Q&A | Count differs from eight or answers omit boundaries | Eight answers exist but methods are generic | Exactly Q1-Q8 contain credible model answers with method, safety, evidence, transfer, and product boundaries |
@@ -956,8 +956,8 @@ Source discipline:
 - Public Abnormal pages support only attributed high-level product context. They do not support claims about proprietary fields, logs, identifiers, model signals, case routing, support authority, or customer-specific behavior.
 - RFC 9110 supports general HTTP semantics, but APIs can add documented constraints and intermediaries can generate responses. Interpret every result with the current endpoint contract and source boundary.
 - W3C Trace Context explains standardized trace propagation, not whether a product implements it or whether L1 may view or share trace identifiers.
-- Microsoft sources are conceptual and experiential bridges for Arti. Microsoft Graph identifiers, collection tools, support roles, and data handling do not transfer automatically to Abnormal AI.
-- NIST and CISA sources support risk-aware preparation and escalation. They do not authorize Arti to perform incident response, collect restricted evidence, contain a threat, notify affected parties, or make legal conclusions.
+- Microsoft sources are conceptual and experiential bridges for you. Microsoft Graph identifiers, collection tools, support roles, and data handling do not transfer automatically to Abnormal AI.
+- NIST and CISA sources support risk-aware preparation and escalation. They do not authorize you to perform incident response, collect restricted evidence, contain a threat, notify affected parties, or make legal conclusions.
 - OWASP offers useful logging guidance, but the real organization defines approved sources, required fields, retention, access, redaction, storage, and disclosure.
 - Product pages and documentation can change after August 24, 2026. Revalidate current authorized sources, contracts, product behavior, privacy rules, and operating procedures before real work.
 
@@ -965,7 +965,7 @@ Source discipline:
 
 ### Q1. How do you turn a vague support complaint into a useful problem statement?
 
-**Model answer:** I preserve the customer’s wording as a report, then rewrite the working symptom as expected versus actual behavior under bounded conditions. I add the environment, actor or object, UTC interval, confirmed scope, impact, and evidence tier without adopting the customer’s proposed cause. For example, I would write that three approved requests returned a denial for one principal while a matched control succeeded, rather than “permissions are broken.” My Microsoft support background gives me practice in that clarification, but I would use Abnormal’s current approved fields and procedures rather than assume they match Microsoft.
+**Model answer:** I preserve the customer’s wording as a report, then rewrite the working symptom as expected versus actual behavior under bounded conditions. I add the environment, actor or object, UTC interval, confirmed scope, impact, and evidence tier without adopting the customer’s proposed cause. For example, I would write that three approved requests returned a denial for one principal while a matched control succeeded, rather than “permissions are broken.” My prior support background gives me practice in that clarification, but I would use Abnormal’s current approved fields and procedures rather than assume they match Microsoft.
 
 ### Q2. What information do you collect at initial intake?
 
@@ -991,9 +991,9 @@ Source discipline:
 
 **Model answer:** It contains a neutral expected-versus-actual statement, normalized timeline, confirmed and unknown scope, impact, relevant environment and versions, minimum approved identifiers, changed-variable ledger, safe repro steps or a reason not to reproduce, attempt and control results, source observations, bounded negative evidence, active and weakened hypotheses, privacy and safety treatment, and the strongest justified evidence ceiling. I finish with one explicit product-owned question and preserve L1 customer communication unless an accepted process transfers it.
 
-### Q8. How would your Microsoft support experience help you here without overstating it?
+### Q8. How would your prior support experience help you here without overstating it?
 
-**Model answer:** Microsoft enterprise support taught me to clarify outcomes, scope users and environments, correlate times and identifiers, compare healthy controls, work with Engineering or Product, communicate uncertainty, and validate results. Those are transferable investigation habits. They do not mean I know Abnormal’s internal fields, telemetry, permissions, model logic, support workflow, or service targets. I would say that gap directly, use public sources only for high-level context, and learn the current authorized Abnormal process before handling real evidence.
+**Model answer:** enterprise support taught me to clarify outcomes, scope users and environments, correlate times and identifiers, compare healthy controls, work with Engineering or Product, communicate uncertainty, and validate results. Those are transferable investigation habits. They do not mean I know Abnormal’s internal fields, telemetry, permissions, model logic, support workflow, or service targets. I would say that gap directly, use public sources only for high-level context, and learn the current authorized Abnormal process before handling real evidence.
 
 ## Memory Hooks
 
@@ -1068,7 +1068,7 @@ Source discipline:
 - [ ] I do not invent any Abnormal field, log, identifier schema, tenant model, telemetry source, permission, queue, model signal, retention rule, support target, or workflow.
 - [ ] I can explain what each official source anchors and where its authority stops.
 - [ ] I revalidate sources, contracts, privacy rules, supported behavior, permissions, and procedures after August 24, 2026.
-- [ ] I state that Microsoft enterprise support methods transfer while Microsoft product schemas, tools, policies, and CRITSIT processes do not define Abnormal operations.
+- [ ] I state that enterprise support methods transfer while Microsoft product schemas, tools, policies, and critical-situation processes do not define Abnormal operations.
 - [ ] I state honestly that I have not operated Abnormal AI in production unless future real experience changes that fact.
 - [ ] I answer Q1 through Q8 aloud with method, evidence, safety, ownership, and product-boundary language.
 - [ ] I can deliver a two-minute EAST-CRIME intake explanation without presenting the mnemonic as employer policy.

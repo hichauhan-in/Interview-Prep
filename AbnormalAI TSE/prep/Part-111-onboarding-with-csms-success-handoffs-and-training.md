@@ -2,7 +2,7 @@
 
 > **Purpose:** Build a beginner-first, vendor-neutral method for coordinating customer onboarding with Customer Success Managers, proving technical and business readiness, validating integrations safely, enabling adoption through role-based training, managing risk, and transferring post-launch ownership without losing an action or inventing a result.
 >
-> **Artifact honesty label:** **Direct Microsoft enterprise-support, customer-communication, training, mentoring, escalation, and fix-validation transfer plus a completed local synthetic written artifact; onboarding lab unperformed.** Arti's background, as recorded in the master guide, supports those transferable capabilities. The 30-day plan, customer names, roles, dates, integrations, readiness evidence, risks, decisions, adoption signals, training records, and outcomes in this Part are learner-authored fiction. They were not used with a customer, sent externally, accepted by a stakeholder, or executed in any platform. This Part does not claim that Arti has operated Abnormal AI, led an Abnormal onboarding, used Abnormal customer data, or knows Abnormal's private onboarding, implementation, CSM, Support, Engineering, training, launch, hypercare, adoption, escalation, or handoff process.
+> **Artifact honesty label:** **Direct enterprise-support, customer-communication, training, mentoring, escalation, and fix-validation transfer plus a completed local synthetic written artifact; onboarding lab unperformed.** Your background, as recorded in the master guide, supports those transferable capabilities. The 30-day plan, customer names, roles, dates, integrations, readiness evidence, risks, decisions, adoption signals, training records, and outcomes in this Part are learner-authored fiction. They were not used with a customer, sent externally, accepted by a stakeholder, or executed in any platform. This Part does not claim that you have operated Abnormal AI, led an Abnormal onboarding, used Abnormal customer data, or knows Abnormal's private onboarding, implementation, CSM, Support, Engineering, training, launch, hypercare, adoption, escalation, or handoff process.
 >
 > **Currency and source access date:** August 24, 2026.
 >
@@ -12,7 +12,7 @@
 
 Customer onboarding is the coordinated journey from a purchased intention to a customer who is technically ready, operationally prepared, able to use the capability, and supported by clear ownership. It is not a long installation checklist. A configuration can be complete while users remain untrained, a technically healthy integration can fail the customer's workflow, and a successful launch can decay when no one owns the next alert, review, credential rotation, support case, or adoption checkpoint.
 
-This Part teaches Arti to connect six questions:
+This Part teaches you to connect six questions:
 
 1. **Why is the customer doing this?** State the desired business or security outcome in the customer's language.
 2. **Who must decide, act, advise, learn, and operate?** Map stakeholders, authority, and Responsible-Accountable-Consulted-Informed roles.
@@ -83,10 +83,10 @@ The numbered rows below form the exact vocabulary contract for this Part. Learn 
 | Role signal from the master guide | Capability developed in this Part | Observable interview behavior | Honest evidence ceiling |
 |---|---|---|---|
 | Assist onboarding with CSMs | Coordinates outcome, readiness, adoption, training, risks, and ownership | Uses a joint plan while distinguishing role boundaries | Completed synthetic written plan; no Abnormal onboarding performed |
-| Handle integrations and configuration questions | Converts prerequisites into safe validation gates and escalation evidence | States expected behavior, test data, stop condition, rollback, and owner | Working familiarity and prior Microsoft support transfer; no Abnormal integration operation |
+| Handle integrations and configuration questions | Converts prerequisites into safe validation gates and escalation evidence | States expected behavior, test data, stop condition, rollback, and owner | Working familiarity and prior enterprise support transfer; no Abnormal integration operation |
 | Maintain customer trust | Makes uncertainty, dependencies, risks, decisions, and owners visible | Refuses false green status and unsupported dates | Direct Microsoft customer communication transfer |
 | Collaborate across teams | Uses stakeholder, RACI, decision, risk, and handoff records | Keeps customer communication owned while a specialist investigates | Direct Engineering/Product escalation habits, without claiming identical process |
-| Create training and knowledge | Designs role-based objectives, practice, teach-back, and support routes | Tests ability rather than counting attendance | Direct KB/training/mentoring transfer when supported by Arti's real examples |
+| Create training and knowledge | Designs role-based objectives, practice, teach-back, and support routes | Tests ability rather than counting attendance | Direct KB/training/mentoring transfer when supported by your real examples |
 | Validate fixes and outcomes | Separates technical validation, adoption evidence, and business outcome | Names evidence source and what the result does not prove | Direct fix-validation habits; fictional onboarding measures |
 | Work with enterprise customers | Plans sponsors, admins, SOC operators, identity teams, privacy, change, and executives | Adjusts communication by decision need and authority | Direct enterprise support transfer; fictional stakeholder map |
 | Learn Abnormal operations | Creates a first-week discovery list for the real process | Asks about approved roles, tools, data, gates, and ownership before acting | `NO_DIRECT_EXPERIENCE_UNKNOWN_CONFIGURATION` |
@@ -95,7 +95,7 @@ The numbered rows below form the exact vocabulary contract for this Part. Learn 
 
 | Capability or claim | Evidence label | Safe interview language | Claim to avoid |
 |---|---|---|---|
-| Microsoft enterprise case ownership and customer coordination | **DIRECT_PRODUCTION_TRANSFER** | “In Microsoft enterprise support, I maintained technical case ownership, aligned stakeholders, communicated risks, and followed through on validation.” | “Microsoft and Abnormal use the same onboarding process.” |
+| enterprise case ownership and customer coordination | **DIRECT_PRODUCTION_TRANSFER** | “In enterprise support, I maintained technical case ownership, aligned stakeholders, communicated risks, and followed through on validation.” | “Microsoft and Abnormal use the same onboarding process.” |
 | Training, mentoring, and knowledge creation | **DIRECT_PRODUCTION_TRANSFER_WHEN_SUPPORTED_BY_REAL_EXAMPLE** | “I created or delivered guidance and mentored others; I can describe a sanitized example of how I checked understanding.” | An invented audience size, adoption percentage, certification, or business outcome |
 | Engineering/Product escalation and fix validation | **DIRECT_PRODUCTION_TRANSFER** | “I built evidence, stated the technical ask, kept customer communication moving, and validated behavior after a fix.” | “I owned Engineering priority or release dates.” |
 | 30-day plan and worked scenarios in this Part | **SYNTHETIC_WRITTEN_ARTIFACT_COMPLETED_NOT_USED** | “I authored and reviewed a vendor-neutral onboarding and success-handoff plan using fictional data.” | “I delivered this onboarding” or “the customer adopted the product.” |
@@ -103,7 +103,7 @@ The numbered rows below form the exact vocabulary contract for this Part. Learn 
 | Abnormal onboarding and CSM process | **NO_DIRECT_EXPERIENCE_UNKNOWN_CONFIGURATION** | “I would learn Abnormal's current approved lifecycle, roles, tools, data rules, launch criteria, and handoff expectations.” | Any private Abnormal stage, owner, template, timeline, system, entitlement, or commitment |
 | Abnormal product integration | **PUBLIC_CONTEXT_PLUS_UNKNOWN_IMPLEMENTATION** | “Public material describes cloud-native API integrations at a high level; exact onboarding and validation require approved product documentation.” | Exact permission, endpoint, data flow, setup duration, validation behavior, or customer configuration |
 
-Arti's strongest bridge is not “I have done this exact vendor onboarding.” It is: “I know how to make a complex enterprise journey inspectable. I clarify the outcome, separate facts from assumptions, map dependencies, keep owners and checkpoints visible, build safe validation, train for the role, escalate with evidence, and confirm acceptance. My Microsoft experience gives me those habits. I have not operated Abnormal's onboarding process, so I would learn its current approved lifecycle and tools before representing them to a customer.”
+Your strongest bridge is not “I have done this exact vendor onboarding.” It is: “I know how to make a complex enterprise journey inspectable. I clarify the outcome, separate facts from assumptions, map dependencies, keep owners and checkpoints visible, build safe validation, train for the role, escalate with evidence, and confirm acceptance. My prior experience gives me those habits. I have not operated Abnormal's onboarding process, so I would learn its current approved lifecycle and tools before representing them to a customer.”
 
 ## 1. Start with the customer outcome, not the configuration
 
@@ -1055,7 +1055,7 @@ flowchart LR
 
 Rehearse the 30-day plan using only local, obvious fiction. The learner should be able to define the terms, connect outcomes to criteria, build dual-readiness evidence, map stakeholders and RACI, expose dependencies and risks, design safe integration validation, plan role-based training, distinguish adoption evidence, make launch/hypercare decisions, and complete an accepted handoff without a responsibility gap.
 
-The lab was **not performed during authoring**. No person attended. No customer, Abnormal AI, Microsoft production system, email service, SaaS application, identity provider, API, network, Zoom meeting, Salesforce record, ticketing system, cloud service, external AI, or integration was accessed. No customer data, personal data, content, credential, secret, production configuration, traffic, message, alert, training, launch, adoption measurement, acceptance, or outcome exists.
+The lab was **not performed during authoring**. No person attended. No customer, Abnormal AI, prior production system, email service, SaaS application, identity provider, API, network, Zoom meeting, Salesforce record, ticketing system, cloud service, external AI, or integration was accessed. No customer data, personal data, content, credential, secret, production configuration, traffic, message, alert, training, launch, adoption measurement, acceptance, or outcome exists.
 
 ### Prerequisites and safety charter
 
@@ -1202,16 +1202,16 @@ These official and primary sources anchor public product context and general con
 | [NIST Cybersecurity Framework 2.0](https://www.nist.gov/cyberframework) | Outcome-oriented cybersecurity risk management across Govern, Identify, Protect, Detect, Respond, and Recover | CSF 2.0 is voluntary general guidance. It does not define a vendor implementation, launch checklist, customer contract, risk acceptance authority, technical configuration, or Abnormal process. |
 | [NIST Privacy Framework](https://www.nist.gov/privacy-framework) | Voluntary enterprise privacy-risk management and stakeholder-oriented privacy outcomes | The August 24, 2026 page also exposes Privacy Framework 1.1 as an Initial Public Draft; draft status matters. Neither the framework nor draft supplies legal advice, consent, a retention schedule, a data-transfer decision, or permission to use customer data. |
 | [NIST SP 800-61 Rev. 3](https://csrc.nist.gov/pubs/sp/800/61/r3/final) | Current final incident-response recommendations integrated with CSF 2.0; published April 2025 | Incident-response guidance does not make onboarding staff incident commanders, classify a specific event, or authorize investigation, collection, containment, eradication, recovery, notification, or disclosure. Actual security process supersedes ordinary onboarding. |
-| [Microsoft Cloud Adoption Framework - Strategy](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/strategy/) | Aligning technology initiatives to measurable business outcomes, cross-functional leadership, organizational preparation, risk, and iteration | Microsoft Azure guidance, current page dated May 14, 2026, is a conceptual transfer source. It is not an Abnormal methodology, proof of Arti's specific work, or a customer success plan for security SaaS. |
+| [Microsoft Cloud Adoption Framework - Strategy](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/strategy/) | Aligning technology initiatives to measurable business outcomes, cross-functional leadership, organizational preparation, risk, and iteration | Microsoft Azure guidance, current page dated May 14, 2026, is a conceptual transfer source. It is not an Abnormal methodology, proof of your specific work, or a customer success plan for security SaaS. |
 | [Microsoft Cloud Adoption Framework - Ready and Azure landing zones](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/) | Preparing governed technical foundations and adapting a reference architecture to organizational requirements | Azure landing-zone guidance, current page dated July 24, 2025 and fetched with an August 2026 update, is Azure-specific. It does not define an email-security integration, Abnormal architecture, readiness gate, or customer permission. |
-| [Microsoft Adoption](https://adoption.microsoft.com/en-us/) | Public Microsoft user-enablement resources, training, experimentation, skills, and value-oriented adoption themes | The site is product-specific enablement material that changes over time. It does not prove attendance, comprehension, adoption, outcome, certification, Arti's use of a resource, or applicability to Abnormal. |
+| [Microsoft Adoption](https://adoption.microsoft.com/en-us/) | Public Microsoft user-enablement resources, training, experimentation, skills, and value-oriented adoption themes | The site is product-specific enablement material that changes over time. It does not prove attendance, comprehension, adoption, outcome, certification, your use of a resource, or applicability to Abnormal. |
 | [Microsoft Incident Response Overview](https://learn.microsoft.com/en-us/security/operations/incident-response-overview) | Role clarity, stakeholder communication, careful changes, prioritization, escalation to expertise, recovery ownership, and lessons | Microsoft security guidance is scoped to incident response, not ordinary onboarding. It does not establish Abnormal procedure, customer authority, support entitlement, or permission to change, collect, disclose, or respond. A security incident may supersede this plan. |
 
 ### Source-use rules
 
 - Revalidate each source, its date, scope, applies-to notes, and linked details before relying on it operationally.
 - Attribute public Abnormal statements narrowly and never infer private workflows or a customer-specific result.
-- Treat Microsoft guidance as a conceptual and experiential bridge for Arti, not tool or employer equivalence.
+- Treat Microsoft guidance as a conceptual and experiential bridge for you, not tool or employer equivalence.
 - Treat NIST frameworks as general risk-management guidance, not company policy, legal advice, contractual requirement, or implementation proof.
 - Prefer current authorized product and organizational sources over this study artifact for any real action.
 - If an official source conflicts with customer agreement, law, security/privacy direction, incident command, or current authorized company procedure, stop and route the conflict to the appropriate owner.
@@ -1220,7 +1220,7 @@ These official and primary sources anchor public product context and general con
 
 ### Q1. How would you partner with a CSM during customer onboarding?
 
-**Model answer:** “I would start with one shared outcome and stakeholder map, then build a joint plan that keeps responsibilities explicit. The CSM would bring customer goals, adoption context, relationship risk, and success cadence. I would contribute technical prerequisites, evidence, validation, supportability, and case continuity. We would agree on one factual customer message, but neither of us would speak outside our authority. I would keep technical readiness separate from business readiness, and I would require named owners and checkpoints for every dependency. My direct foundation is Microsoft enterprise support and customer communication; I have not operated Abnormal's onboarding process, so I would learn its approved role boundaries, tools, and gates first.”
+**Model answer:** “I would start with one shared outcome and stakeholder map, then build a joint plan that keeps responsibilities explicit. The CSM would bring customer goals, adoption context, relationship risk, and success cadence. I would contribute technical prerequisites, evidence, validation, supportability, and case continuity. We would agree on one factual customer message, but neither of us would speak outside our authority. I would keep technical readiness separate from business readiness, and I would require named owners and checkpoints for every dependency. My direct foundation is enterprise support and customer communication; I have not operated Abnormal's onboarding process, so I would learn its approved role boundaries, tools, and gates first.”
 
 ### Q2. What is the difference between implementation, adoption, and outcome?
 
@@ -1262,7 +1262,7 @@ These official and primary sources anchor public product context and general con
 - **Launch is a decision, not a date:** Hard gates and authorized risk acceptance control scope.
 - **Hypercare must end deliberately:** Define scope, cadence, exit, extension authority, and durable ownership.
 - **A handoff requires acceptance:** No open or recurring item crosses the boundary silently.
-- **Arti's honest bridge:** Microsoft enterprise-support discipline transfers; Abnormal's process must be learned.
+- **Your honest bridge:** enterprise-support discipline transfers; Abnormal's process must be learned.
 
 ## Completion Checklist
 
@@ -1276,7 +1276,7 @@ These official and primary sources anchor public product context and general con
 - [ ] I can define bounded hypercare, exit criteria, and durable post-launch ownership.
 - [ ] I can produce a complete handoff packet and obtain explicit receiving-owner acceptance.
 - [ ] I can walk through both synthetic scenarios and explain their evidence ceilings.
-- [ ] I can answer Q1 through Q8 aloud using truthful Microsoft transfer examples and explicit gaps.
+- [ ] I can answer Q1 through Q8 aloud using truthful experience transfer examples and explicit gaps.
 - [ ] I reviewed the August 24, 2026 source anchors and will revalidate current product, policy, permission, and customer context before real work.
 - [ ] I describe SignalBridge Lab 111 as unperformed unless I actually complete and validate it locally.
 - [ ] I completed the cleanup and privacy checks and retained no real or unnecessary data.

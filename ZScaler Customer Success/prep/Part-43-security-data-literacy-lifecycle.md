@@ -1,10 +1,10 @@
 # Part 43 - Security Data Literacy and the Data Lifecycle
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 >
 > **Purpose:** Build a beginner-first but technically rigorous mental model for security data: how raw observations become trustworthy information, knowledge, insight, and controlled action; how events, findings, entities, relationships, dimensions, measures, and metadata differ; and how data moves from collection through deletion.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every NMH source, asset, identity, vulnerability, event, finding, relationship, dashboard, query result, owner, threshold, incident, and outcome is synthetic. Arti's production strengths include Microsoft 365 troubleshooting, evidence collection, customer communication, SQL, PostgreSQL, Excel, Power BI, statistics, and service analytics. Direct production administration of Zscaler Data Fabric for Security is a learning boundary. This Part uses public Zscaler positioning only for high-level context and does not claim undocumented schemas, connector behavior, product limits, scoring logic, or customer outcomes.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every NMH source, asset, identity, vulnerability, event, finding, relationship, dashboard, query result, owner, threshold, incident, and outcome is synthetic. Your production strengths include Microsoft 365 troubleshooting, evidence collection, customer communication, SQL, PostgreSQL, Excel, Power BI, statistics, and service analytics. Direct production administration of Zscaler Data Fabric for Security is a learning boundary. This Part uses public Zscaler positioning only for high-level context and does not claim undocumented schemas, connector behavior, product limits, scoring logic, or customer outcomes.
 >
 > **Currency caveat:** Data regulations, organizational policies, source schemas, APIs, connector catalogs, retention rules, PostgreSQL versions, and Zscaler product capabilities change. Sources in this Part were reviewed on **2026-08-24**. Current laws, contracts, authenticated product documentation, tenant evidence, approved architecture, data-owner decisions, and controlled tests govern production.
 
@@ -14,7 +14,7 @@ Security programs do not act on "data" in the abstract. They act on claims suppo
 
 Think of a hospital laboratory. A vial is not a diagnosis, a machine reading is not a treatment, and a dashboard is not a recovered patient. Staff label the sample, record who collected it, validate the instrument, interpret the result in context, obtain clinical review, choose an intervention, observe the response, and retain or dispose of records according to policy. Security data needs the same disciplined chain from observation to decision.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Proof artifact |
 |---|---|---|
@@ -44,7 +44,7 @@ The arrows do not guarantee correctness. Each handoff needs an owner, definition
 
 ## JD Mapping
 
-| Role expectation | Part 43 capability | TSM artifact | Arti bridge and boundary |
+| Role expectation | Part 43 capability | TSM artifact | experience bridge and boundary |
 |---|---|---|---|
 | Analyze complex customer environments | Inventory sources, owners, grains, times, contracts, and dependencies | Security-data source map | Enterprise troubleshooting transfers |
 | Develop Data Fabric expertise | Explain the documented raw-to-context-to-workflow idea without inventing internals | Conceptual data-flow map | Product administration remains a learning area |
@@ -52,7 +52,7 @@ The arrows do not guarantee correctness. Each handoff needs an owner, definition
 | Drive risk mitigation | Convert a supported finding into an owned, time-bound action | Finding-to-action register | Critical escalation ownership transfers |
 | Troubleshoot integrations | Reconcile counts and timestamps at each handoff | Data-pipeline runbook | First-failure isolation transfers |
 | Communicate with executives | Translate technical measures into decisions and outcomes with caveats | Power BI value brief | Power BI experience transfers |
-| Partner across functions | Assign source, platform, security, privacy, and business accountability | Data RACI | Cross-functional Microsoft work transfers |
+| Partner across functions | Assign source, platform, security, privacy, and business accountability | Data RACI | Cross-functional prior work transfers |
 | Maintain transparency | Label observation, inference, assumption, synthetic practice, and product fact | Evidence legend | Honest customer communication transfers |
 
 ## Candidate honesty note
@@ -68,7 +68,7 @@ Data fluency is highly transferable, but a familiar analytical technique does no
 | Current validation | "I would verify the current tenant, contract, source API, mapping, freshness, privacy, and product documentation." | Relying on a remembered screenshot or marketing number |
 | Experience boundary | "My direct Data Fabric administration is currently conceptual and lab based." | Hiding the boundary behind general data experience |
 
-Arti's advantage is not that every security field is familiar. It is that she already knows how to ask whether evidence is complete, current, comparable, and sufficient for a customer decision. The new work is to apply that discipline to security entities, findings, controls, relationships, and risk workflows.
+Your advantage is not that every security field is familiar. It is that you already know how to ask whether evidence is complete, current, comparable, and sufficient for a customer decision. The new work is to apply that discipline to security entities, findings, controls, relationships, and risk workflows.
 
 ## Beginner vocabulary and memory hooks
 
@@ -703,7 +703,7 @@ flowchart LR
     VALID --> EVENTS[Events and findings history]
     ENTITY --> SEM[Analytical semantic layer]
     EVENTS --> SEM
-    SEM --> SQL[Arti read-only PostgreSQL analysis]
+    SEM --> SQL[you read-only PostgreSQL analysis]
     SEM --> PBI[Power BI synthetic review]
     SQL --> DECISION[Human-reviewed decision register]
     PBI --> DECISION
@@ -801,7 +801,7 @@ ORDER BY a.business_unit;
 
 The query counts rows at the finding grain after a many-findings-to-one-asset join. It does not claim contextual risk, exploitability, internet exposure, control failure, or remediation priority. The result is a synthetic operational clue, not a production security conclusion.
 
-### Arti's SQL reasoning checklist
+### Your SQL reasoning checklist
 
 | Step | Question | Evidence in the example |
 |---|---|---|
@@ -892,7 +892,7 @@ An executive narrative should follow: decision, current evidence, trend, busines
 16. **Communicate limitations.** State affected decisions, confidence, mitigation, owner, next update, and whether historical outputs require correction.
 17. **Prevent recurrence.** Add contract tests, lineage, monitoring, runbook changes, ownership, and effectiveness review.
 
-## Arti's Microsoft-to-security-data bridge
+## Your experience bridge to security-data
 
 | Demonstrated Microsoft strength | Security-data application | Honest boundary |
 |---|---|---|
@@ -900,13 +900,13 @@ An executive narrative should follow: decision, current evidence, trend, busines
 | SharePoint/OneDrive evidence correlation | Reconcile client, identity, network, service, and permissions evidence | Security source semantics are new |
 | SQL and PostgreSQL | Profile, join, aggregate, validate, and explain synthetic data | Product-managed schemas require documentation |
 | Power BI | Build role-specific trends and drill paths | A visual does not prove data quality or outcomes |
-| CRITSIT leadership | Establish timeline, first failed handoff, owners, and cadence | Data incident privacy duties need current process |
+| Critical-situation leadership | Establish timeline, first failed handoff, owners, and cadence | Data incident privacy duties need current process |
 | RCA and fix validation | Trace trigger, conditions, controls, correction, and effectiveness | Correlation does not establish root cause |
 | Customer communication | Separate facts, hypotheses, limitations, and requests | Avoid unsupported Zscaler claims |
 
 ### 30-second interview bridge
 
-"My Microsoft escalation work taught me that evidence is useful only when its source, time, scope, meaning, and limitations are understood. I bring SQL, PostgreSQL, Power BI, statistics, cross-layer troubleshooting, and customer communication. For security data, I apply that method to events, findings, entities, relationships, quality, privacy, and controlled action. I have built the NMH lifecycle as synthetic practice. My direct Zscaler Data Fabric administration is still a learning area, so I would validate current documentation, tenant evidence, source contracts, and product-specialist guidance before making a production recommendation."
+"My prior escalation work taught me that evidence is useful only when its source, time, scope, meaning, and limitations are understood. I bring SQL, PostgreSQL, Power BI, statistics, cross-layer troubleshooting, and customer communication. For security data, I apply that method to events, findings, entities, relationships, quality, privacy, and controlled action. I have built the NMH lifecycle as synthetic practice. My direct Zscaler Data Fabric administration is still a learning area, so I would validate current documentation, tenant evidence, source contracts, and product-specialist guidance before making a production recommendation."
 
 ## Labs and rehearsal
 
@@ -1040,7 +1040,7 @@ These anchors establish general concepts and high-level public positioning. They
 
 ### Q8. How does your background prepare you for security data and Zscaler Data Fabric work?
 
-**Model answer:** Microsoft escalation work gave me cross-layer evidence correlation, UTC timelines, first-failure isolation, RCA, customer communication, and outcome validation. SQL, PostgreSQL, statistics, Excel, and Power BI give me practical modeling and reporting skills. I have applied them to a complete synthetic NMH lifecycle. Direct Zscaler Data Fabric administration remains a learning boundary, so I would pair these transferable methods with current official documentation, tenant evidence, source contracts, controlled tests, and product specialists.
+**Model answer:** enterprise escalation work gave me cross-layer evidence correlation, UTC timelines, first-failure isolation, RCA, customer communication, and outcome validation. SQL, PostgreSQL, statistics, Excel, and Power BI give me practical modeling and reporting skills. I have applied them to a complete synthetic NMH lifecycle. Direct Zscaler Data Fabric administration remains a learning boundary, so I would pair these transferable methods with current official documentation, tenant evidence, source contracts, controlled tests, and product specialists.
 
 ## 30-Second Memory Hooks
 
@@ -1071,7 +1071,7 @@ These anchors establish general concepts and high-level public positioning. They
 | Archive | Inactive but governed |
 | Delete | Follow every authorized descendant |
 | Troubleshoot | Claim backward, known record forward |
-| Arti bridge | Evidence rigor plus analytics, product claims bounded |
+| Experience bridge | Evidence rigor plus analytics, product claims bounded |
 
 ## Completion Checklist
 

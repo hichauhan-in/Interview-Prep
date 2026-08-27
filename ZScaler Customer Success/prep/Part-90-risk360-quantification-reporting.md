@@ -1,14 +1,14 @@
 # Part 90 - Risk360 Quantification, Financial Exposure, Guided Mitigation, and Board Reporting
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 
 > **Purpose:** Explain Risk360 quantification and reporting from zero using bounded public product facts and clearly labeled general risk-analysis practice. Cover factor drill-down, weighting, uncertainty, potential financial exposure, scenario ranges, guided mitigation, policy links, governance, executive and board reporting, operations, troubleshooting, security, privacy, artifacts, exercises, and responsible caveats.
 
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH scenario, source, factor, value, weight, score, probability, financial range, date, recommendation, policy, decision, and result is invented and is not Risk360 output. Arti's factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler, Risk360, enterprise cyber-risk quantification, financial modeling, actuarial work, GRC ownership, policy authority, and executive or board reporting remain learning boundaries.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH scenario, source, factor, value, weight, score, probability, financial range, date, recommendation, policy, decision, and result is invented and is not Risk360 output. Your factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler, Risk360, enterprise cyber-risk quantification, financial modeling, actuarial work, GRC ownership, policy authority, and executive or board reporting remain learning boundaries.
 
 > **Currency caveat:** Product wording, factors/counts, architecture, metrics, quantification methods, financial-exposure presentation, recommendations, reports, interfaces, fields, limits, packaging, and entitlements change. The controlled official-source snapshot and source review date for this Part is exactly **2026-08-24**. The reviewed Risk360 live page contained differing factor-count statements, so no factor count is asserted. Current official documentation, licensed-tenant evidence, customer model/policy governance, finance/legal/risk review, product specialists, Zscaler Support, source-native evidence, and measured postconditions govern production decisions.
 
-> **Section goal:** Enable Arti to explain how factor evidence can support a risk and potential-financial-exposure conversation without false precision, how to drill from summary to assumptions and actions, how guided mitigation connects to customer policy and authority, and how technical and board audiences receive concise decision support with explicit uncertainty and product boundaries.
+> **Section goal:** Enable you to explain how factor evidence can support a risk and potential-financial-exposure conversation without false precision, how to drill from summary to assumptions and actions, how guided mitigation connects to customer policy and authority, and how technical and board audiences receive concise decision support with explicit uncertainty and product boundaries.
 
 The reviewed public Risk360 page supports bounded positioning around enterprise risk drivers and trends, the four attack stages, guided mitigation, potential financial exposure, and executive or board-oriented reporting using described Zscaler and external signals. It does not publicly establish a complete formula, factor count, weighting scheme, loss distribution, confidence method, field catalog, interface, entitlement, or guaranteed financial result. Nothing in this Part fills those gaps by inference.
 
@@ -52,7 +52,7 @@ flowchart LR
 
 ## Candidate honesty note
 
-Use neutral, evidence-labeled phrasing: "I understand the general mechanics of scenario-based cyber-risk quantification and have practiced them in a fictional case. Risk360's public page describes potential financial exposure and board-oriented reporting, but I have not operated it in production. My production bridge is evidence-led Microsoft escalation, networking analysis, SQL/Power BI, customer communication, and mentoring. I would verify the current product model and keep finance, legal, and customer risk authorities involved."
+Use neutral, evidence-labeled phrasing: "I understand the general mechanics of scenario-based cyber-risk quantification and have practiced them in a fictional case. Risk360's public page describes potential financial exposure and board-oriented reporting, but I have not operated it in production. My production bridge is evidence-led enterprise escalation, networking analysis, SQL/Power BI, customer communication, and mentoring. I would verify the current product model and keep finance, legal, and customer risk authorities involved."
 
 | Factual background | Transferable skill | Safe phrasing | Boundary |
 |---|---|---|---|
@@ -514,7 +514,7 @@ flowchart LR
 
 ## Complete synthetic NMH quantification case
 
-Everything in this section is explicitly fictional and synthetic. It is not Risk360 output, does not reproduce any product formula, and does not describe a customer, tenant, factor, score, financial estimate, recommendation, policy, report, or Arti production experience. Every date below is a synthetic scenario date on or before the official source review date. The source snapshot remains 2026-08-24.
+Everything in this section is explicitly fictional and synthetic. It is not Risk360 output, does not reproduce any product formula, and does not describe a customer, tenant, factor, score, financial estimate, recommendation, policy, report, or documented production experience. Every date below is a synthetic scenario date on or before the official source review date. The source snapshot remains 2026-08-24.
 
 NMH creates a synthetic scenario on 2026-08-21: unauthorized use of a fictional privileged analytics identity could disrupt a medication-reporting service and expose synthetic records. The exercise uses invented low/central/high bands solely to practice transparency. Currency is fictional USD, the horizon is one synthetic year, and no actual probability, event, loss, or avoided loss is claimed.
 
@@ -785,7 +785,7 @@ Official Zscaler pages support bounded public positioning only. All formulas, qu
 
 **Model answer:** Reproduce audience, scope, as-of, currency, period, and model/version. Trace source health, identity, factor lineage, scenario, units, ranges/distributions, dependencies, weights, missing behavior, transformations, aggregation/simulation, rounding, policy mapping, recommendation applicability, refresh, access, filters, visualization, and narrative. Contain affected decisions, repair the smallest layer, recalculate, reconcile, sensitivity-test, restate material reports, and notify affected decision owners.
 
-### Q8. How does Arti's background support this work without overstating experience?
+### Q8. How does your background support this work without overstating experience?
 
 **Model answer:** Microsoft 365, OneDrive, and SharePoint escalation work supports scoped scenario, identity, permission, service, data, impact, and evidence reasoning. Networking traces support technical prerequisite validation. SQL and Power BI support grain, ranges, distributions, sensitivity, joins, trends, drill-through, and reconciliation. Escalation and mentoring support decision communication; reviewed AI can assist cited drafts. NMH is synthetic; production Risk360, financial quantification, model governance, and board reporting remain learning boundaries.
 
@@ -808,7 +808,7 @@ Official Zscaler pages support bounded public positioning only. All formulas, qu
 | Benefit | Bounded driver change, not exact prevented dollars |
 | Board report | Material scenario, action, residual, ask, caveat |
 | Restatement | Repair affected decisions, not just dashboard |
-| Arti bridge | Analytics and escalation transfer; quantification authority does not |
+| Experience bridge | Analytics and escalation transfer; quantification authority does not |
 
 ## Completion Checklist
 

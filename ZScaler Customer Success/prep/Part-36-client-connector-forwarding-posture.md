@@ -1,10 +1,10 @@
 # Part 36 - Zscaler Client Connector, Forwarding, Posture, and User Experience
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 >
 > **Purpose:** Explain Zscaler Client Connector from zero at a public, supportable level: endpoint components and lifecycle, installation, enrollment, authentication, administration and app profiles, forwarding profiles, tunnels, bypass, identity and posture, relationships with ZIA, ZPA, and ZDX, updates, coexistence, logs, endpoint and network dependencies, user experience, privacy, deployment, pilot, change, rollback, and evidence-led troubleshooting.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every NMH user, device, profile, tunnel, policy, log, metric, deployment, incident, and outcome is synthetic. Arti has production Microsoft 365 client, identity, networking, trace, escalation, analytics, mentoring, and change-validation experience. Production Zscaler Client Connector administration, profile authoring, endpoint deployment, and tunnel operation are not established experience.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every NMH user, device, profile, tunnel, policy, log, metric, deployment, incident, and outcome is synthetic. You have production Microsoft 365 client, identity, networking, trace, escalation, analytics, mentoring, and change-validation experience. Production Zscaler Client Connector administration, profile authoring, endpoint deployment, and tunnel operation are not established experience.
 >
 > **Currency caveat:** This is a public-concept study guide, not a tenant runbook. Client Connector names, supported operating systems, profile fields, forwarding and tunnel choices, trusted-network detection, posture checks, strict-enforcement behavior, update channels, rollback features, logs, UI paths, API fields, limits, entitlements, and interoperability guidance change. Confirm current authenticated Zscaler help, release notes, the assigned cloud, tenant configuration, platform/version documentation, support policy, and endpoint/network evidence before production use.
 
@@ -14,7 +14,7 @@ Zscaler Client Connector is endpoint software that helps an organization identif
 
 The support lesson is more important than the icon. A complaint such as "Zscaler is slow" can originate before Client Connector starts, during enrollment, at authentication, in profile assignment, in network classification, during DNS or tunnel establishment, at a Zscaler service, on an origin path, inside an application, or in another endpoint control. A Technical Success Manager, abbreviated TSM, must identify the exact transaction and first failed boundary before proposing a change.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Proof artifact |
 |---|---|---|
@@ -45,7 +45,7 @@ flowchart LR
 
 ## JD Mapping
 
-| Role expectation | Part 36 capability | TSM artifact | Arti bridge and boundary |
+| Role expectation | Part 36 capability | TSM artifact | experience bridge and boundary |
 |---|---|---|---|
 | Analyze complex environments | Map endpoint, identity, profiles, DNS, route, tunnel, service, and destination | End-to-end dependency map | Microsoft client and network isolation transfers |
 | Identify risk | Find bypass, stale versions, profile gaps, weak posture, unowned exceptions, and alternate paths | Risk register | Risk acceptance remains customer-owned |
@@ -58,7 +58,7 @@ flowchart LR
 
 ## Candidate honesty note
 
-This Part creates conceptual mastery and synthetic practice. It does not turn public documentation into production experience. An interview answer should distinguish what Arti operated at Microsoft, what she modeled in NMH, what official material states, and what remains tenant-specific.
+This Part creates conceptual mastery and synthetic practice. It does not turn public documentation into production experience. An interview answer should distinguish what you operated in a previous role, what you modeled in NMH, what official material states, and what remains tenant-specific.
 
 | Claim class | Safe statement | Unsupported conversion |
 |---|---|---|
@@ -833,9 +833,9 @@ Because payroll report rendering is critical, NMH pauses the finance wave. The b
 
 A proactive TSM review should ask: Are active devices on supported versions? Are profile assignments and exceptions owned? Which network contexts generate failure? Is posture unknown increasing? Which apps rely on VPN or bypass? Are support bundles handled safely? Did recent updates change error, latency, or resource distributions? Which upcoming OS, VPN, certificate, IdP, or network changes need joint testing?
 
-## Arti's Microsoft-to-Zscaler bridge
+## Your experience bridge to Zscaler
 
-| Microsoft production strength | Transfer to Part 36 | New Client Connector learning | Honest interview language |
+| prior production strength | Transfer to Part 36 | New Client Connector learning | Honest interview language |
 |---|---|---|---|
 | OneDrive client and Office troubleshooting | Define exact endpoint operation and lifecycle state | Client diagnostics/profile state | "Client isolation transfers; product operation is new." |
 | Entra ID sign-in and Conditional Access | Separate user, device, session, posture, and policy | Zscaler enrollment/auth flows | "I would correlate both identity and client evidence." |
@@ -848,7 +848,7 @@ A proactive TSM review should ask: Are active devices on supported versions? Are
 
 ### 30-second interview bridge
 
-"Client Connector is the managed endpoint junction for supported Zscaler services. It enrolls a user and device, receives assigned configuration, provides context such as posture, and steers eligible internet traffic toward ZIA and private-app traffic toward ZPA; it can also support ZDX observations and probes. I troubleshoot it as a lifecycle and path, not an icon: install, enrollment, identity, profile, network context, forwarding decision, service policy, and destination. My Microsoft client, Intune, identity, DNS, TLS, proxy, escalation, and analytics methods transfer directly, while production Client Connector administration remains a learning boundary."
+"Client Connector is the managed endpoint junction for supported Zscaler services. It enrolls a user and device, receives assigned configuration, provides context such as posture, and steers eligible internet traffic toward ZIA and private-app traffic toward ZPA; it can also support ZDX observations and probes. I troubleshoot it as a lifecycle and path, not an icon: install, enrollment, identity, profile, network context, forwarding decision, service policy, and destination. My prior client, Intune, identity, DNS, TLS, proxy, escalation, and analytics methods transfer directly, while production Client Connector administration remains a learning boundary."
 
 ## Labs and rehearsal
 
@@ -986,9 +986,9 @@ Zscaler product pages are vendor-authored positioning; public help provides more
 
 **Model answer:** VPNs, proxies, DNS agents, EDR, firewalls, and other network controls may compete for adapters, routes, DNS, proxy settings, certificates, or filters. I test exact versions/configurations and define ownership by traffic and network context. For posture, I trace source, collected value, freshness, evaluation, effective policy, user action, and remediation. A green label or MDM compliance value alone does not prove the current Zscaler decision.
 
-### Q8. How does your Microsoft background apply?
+### Q8. How does your prior background apply?
 
-**Model answer:** My Microsoft work required separating client installation/state, Entra identity and policy, Intune-style management, DNS, TCP, TLS, proxies, service health, app permissions, and user operations while running critical escalations and validating changes. That maps directly to Client Connector lifecycle, profile delivery, path ownership, posture evidence, deployment rings, and user-experience analysis. I would state clearly that production Zscaler profile administration and tunnel operations are new, while the diagnostic and change disciplines are established.
+**Model answer:** My prior work required separating client installation/state, Entra identity and policy, Intune-style management, DNS, TCP, TLS, proxies, service health, app permissions, and user operations while running critical escalations and validating changes. That maps directly to Client Connector lifecycle, profile delivery, path ownership, posture evidence, deployment rings, and user-experience analysis. I would state clearly that production Zscaler profile administration and tunnel operations are new, while the diagnostic and change disciplines are established.
 
 ## 30-Second Memory Hooks
 
@@ -1014,7 +1014,7 @@ Zscaler product pages are vendor-authored positioning; public help provides more
 | Evidence | Exact transaction plus correlated clocks |
 | Privacy | Minimum necessary case file |
 | NMH lesson | VPN can hide a missing dependency |
-| Arti bridge | Microsoft client method transfers; Zscaler operation is new |
+| Experience bridge | Microsoft client method transfers; Zscaler operation is new |
 
 ## Completion Checklist
 
@@ -1053,7 +1053,7 @@ Zscaler product pages are vendor-authored positioning; public help provides more
 - [ ] I can explain the fictional NMH pilot and hidden payroll dependency.
 - [ ] I never present NMH as a customer or its outcomes as production evidence.
 - [ ] I can run all twelve labs only on owned or authorized systems.
-- [ ] I can deliver Arti's 30-second bridge with an explicit hands-on boundary.
+- [ ] I can deliver your 30-second bridge with an explicit hands-on boundary.
 - [ ] I can cite current official Zscaler, NIST, and CISA anchors with source limitations.
 - [ ] I state platform, version, tenant, cloud, UI, entitlement, privacy, and packaging caveats.
 - [ ] I can answer Q1-Q8 and expand each answer with architecture, evidence, metrics, and limits.

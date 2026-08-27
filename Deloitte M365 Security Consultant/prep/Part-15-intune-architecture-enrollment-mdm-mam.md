@@ -19,9 +19,9 @@ This Part adds endpoint context to the identity controls in [Part 14](Part-14-ex
 
 ## Candidate honesty note
 
-Arti can credibly connect this Part to demonstrated Microsoft 365 support strengths: identity and permission investigation, SharePoint/OneDrive sync and access troubleshooting, critical-incident coordination, hypothesis-driven RCA, change validation, customer communication, vendor/product-group escalation, documentation, and service metrics. Those skills transfer directly to separating a user issue from device identity, enrollment, token, network, policy, or service failure.
+You can credibly connect this Part to demonstrated Microsoft 365 support strengths: identity and permission investigation, SharePoint/OneDrive sync and access troubleshooting, critical-incident coordination, hypothesis-driven RCA, change validation, customer communication, vendor/product-group escalation, documentation, and service metrics. Those skills transfer directly to separating a user issue from device identity, enrollment, token, network, policy, or service failure.
 
-This Part does **not** claim that Arti has owned a production Intune tenant, enrolled an enterprise fleet, administered Apple Business Manager or Managed Google Play, operated certificate connectors, or executed production retire/wipe actions. Safe wording is:
+This Part does **not** claim that you have owned a production Intune tenant, enrolled an enterprise fleet, administered Apple Business Manager or Managed Google Play, operated certificate connectors, or executed production retire/wipe actions. Safe wording is:
 
 > “My production background is Microsoft 365 support, escalation, RCA, documentation, and stakeholder coordination rather than Intune platform ownership. I have built a current, platform-aware Intune enrollment and lifecycle design as a structured paper exercise. I can explain the architecture, prerequisites, evidence, tests, risks, rollback, and troubleshooting method, and I would validate tenant-specific behavior with the endpoint owner before implementation.”
 
@@ -76,7 +76,7 @@ flowchart LR
 - **Enforcement point** — *the OS or app component that actually applies a control.* **Analogy:** The physical lock, not the architect's drawing. **Why it matters:** Platform and edition support determine whether a requested setting can work.
 - **Evidence** — *status, inventory, logs, timestamps, and user-visible results that show what happened.* **Analogy:** Inspection records and a tested door. **Why it matters:** “Assigned” is not the same as “received,” “applied,” or “effective.”
 
-For Arti, this resembles troubleshooting a SharePoint/OneDrive policy or sync issue: separate configuration intent, target, delivery, client enforcement, and telemetry instead of treating “the portal looks correct” as proof.
+For you, this resembles troubleshooting a SharePoint/OneDrive policy or sync issue: separate configuration intent, target, delivery, client enforcement, and telemetry instead of treating “the portal looks correct” as proof.
 
 ## 3. Tenant readiness, MDM authority, and automatic enrollment scope
 
@@ -546,7 +546,7 @@ flowchart LR
 | Retirement | Was corporate data/management removed without excess impact? | Action status and user confirmation |
 | Disposal | Was secure erase and asset disposition verified? | Chain-of-custody/destruction certificate |
 
-For Arti, the transferable behavior is lifecycle-aware RCA: a recurring enrollment incident can be a procurement/program registration defect, not a user mistake. Corrective action belongs at the earliest broken stage.
+For you, the transferable behavior is lifecycle-aware RCA: a recurring enrollment incident can be a procurement/program registration defect, not a user mistake. Corrective action belongs at the earliest broken stage.
 
 ## 21. Retire, wipe, delete, and MAM selective wipe are not synonyms
 
@@ -788,7 +788,7 @@ flowchart LR
     CLOUD --> OWNER2[Assign identity/endpoint/Microsoft action with IDs]
 ```
 
-Arti's multi-protocol support habit is valuable: define impact, compare a control group, correlate the change window, identify the first failed transaction, and provide the responsible team a reproducible evidence pack.
+Your multi-protocol support habit is valuable: define impact, compare a control group, correlate the change window, identify the first failed transaction, and provide the responsible team a reproducible evidence pack.
 
 ### Scenario E: HR asks IT to wipe a departing employee's personal phone
 
@@ -835,7 +835,7 @@ You should be able to explain, without notes, why one physical device can have m
 
 ## 32. JD Mapping: how to present this Part in a consulting interview
 
-| Interview prompt | Arti-aligned truthful response structure |
+| Interview prompt | candidate-aligned truthful response structure |
 |---|---|
 | “Design Intune enrollment for a client” | State discovery, persona/platform/ownership matrix, authority/licenses/dependencies, MDM/MAM decisions, architecture, pilot, tests, privacy, rollback, operations |
 | “What have you done with Intune?” | Separate production M365 support from the current paper design; describe artifacts and reasoning, not invented administration |
@@ -936,7 +936,7 @@ These first-party anchors were checked for the August 2026 study snapshot. Reche
 - [ ] I can plan architecture, prerequisites, licensing, security, privacy, deployment rings, testing, rollback, operations, and metrics.
 - [ ] I can troubleshoot enrollment using evidence and a falsifiable hypothesis without destructive guesswork.
 - [ ] I completed or can describe the safe paper lab and label it honestly as non-production evidence.
-- [ ] I can answer Q1-Q8 aloud in my own words and keep Arti's production/lab boundary explicit.
+- [ ] I can answer Q1-Q8 aloud in my own words and keep your production/lab boundary explicit.
 - [ ] I will recheck official platform, licensing, preview, retirement, and remote-action guidance before implementation.
 
 ---

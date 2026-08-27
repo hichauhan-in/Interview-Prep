@@ -2,13 +2,13 @@
 
 > **Purpose:** Build a beginner-first, evidence-safe method for turning a support symptom into competing falsifiable hypotheses, choosing tests that separate those explanations, predicting expected observations before testing, updating confidence without false precision, and selecting the next-best action. The lesson uses only fictional local evidence and generic support concepts. It does not describe Abnormal AI's internal architecture, telemetry, detection logic, case tools, or production procedures.
 >
-> **Artifact honesty label:** **Local synthetic competing-hypothesis-ledger design only.** Every tenant, user, message, request, event, time, configuration, detection, investigation, test, result, and conclusion in this Part is invented. No lab step or test was run. No Abnormal AI, Microsoft 365, Splunk, customer tenant, production service, mailbox, security platform, or external system was accessed. Arti may call the artifact completed only after she actually builds and reviews it locally.
+> **Artifact honesty label:** **Local synthetic competing-hypothesis-ledger design only.** Every tenant, user, message, request, event, time, configuration, detection, investigation, test, result, and conclusion in this Part is invented. No lab step or test was run. No Abnormal AI, Microsoft 365, Splunk, customer tenant, production service, mailbox, security platform, or external system was accessed. You may call the artifact completed only after you actually build and reviews it locally.
 >
 > **Currency and source access date:** August 24, 2026.
 
 ## Section goal
 
-By the end of this Part, Arti should be able to explain why troubleshooting is a sequence of controlled decisions rather than a hunt for facts that support the first idea. She should be able to write several plausible explanations, make each explanation falsifiable, state what she expects to observe if it is true or false, choose a safe discriminating test, update confidence after the result, and record the next-best action. She should also be able to stop at the evidence ceiling instead of converting sequence or correlation into an unsupported root-cause claim.
+By the end of this Part, you should be able to explain why troubleshooting is a sequence of controlled decisions rather than a hunt for facts that support the first idea. You should be able to write several plausible explanations, make each explanation falsifiable, state what you expect to observe if it is true or false, choose a safe discriminating test, update confidence after the result, and record the next-best action. You should also be able to stop at the evidence ceiling instead of converting sequence or correlation into an unsupported root-cause claim.
 
 The primary artifact is a **competing-hypothesis ledger**. A ledger is a structured investigation record, similar to an accountant's book in which every movement has a visible reason. Here, each row records a hypothesis, mechanism, scope, prediction, test, expected observation, actual or declared synthetic observation, confidence update, alternatives, safety boundary, and next action. The analogy has a limit: evidence is not money, and confidence cannot be balanced to an exact total unless a valid probabilistic model exists. The ledger makes reasoning reviewable; it does not make uncertainty disappear.
 
@@ -28,27 +28,27 @@ Safety is part of reasoning quality. This Part prohibits broad collection, testi
 | Engineering collaboration | Records expected versus actual behavior, tests, controls, alternatives, and one precise ask | Gives Engineering a reproducible reasoning chain instead of a log dump | Escalation-ready ledger excerpt |
 | RCA insight | Separates trigger, contributor, mechanism, root cause, and control gap | Avoids simplistic chronology and prepares for later RCA work | Causal-language worksheet |
 | Safe evidence handling | Uses minimum necessary synthetic metadata and passive checks first | Protects customer data and keeps testing within authorization | Test-safety gate |
-| Microsoft enterprise support transfer | Reuses Arti's CRITSIT, investigation, customer communication, Engineering escalation, and fix-validation discipline | Provides credible evidence of method and judgment | Candidate transfer narrative |
+| enterprise support transfer | Reuses your critical situation, investigation, customer communication, Engineering escalation, and fix-validation discipline | Provides credible evidence of method and judgment | Candidate transfer narrative |
 | Honest Abnormal boundary | Labels generic reasoning, synthetic practice, and unknown product specifics | Avoids invented telemetry, field names, detection behavior, access, or production experience | Product-boundary statement |
 
 ## Candidate honesty note
 
-Arti's Microsoft enterprise support background is a genuine strength here. Complex SharePoint Online, OneDrive, Sync Client, and Copilot cases required scoping impact, separating client and service boundaries, correlating evidence, testing changes carefully, keeping customers informed, and escalating to Engineering or Product with a coherent record. CRITSIT experience also supports calm prioritization: restore or reduce impact first when necessary, preserve evidence, assign owners, and continue causal investigation without letting the customer wait for certainty.
+Your prior enterprise support background is a genuine strength here. Complex SharePoint Online, OneDrive, Sync Client, and Copilot cases required scoping impact, separating client and service boundaries, correlating evidence, testing changes carefully, keeping customers informed, and escalating to Engineering or Product with a coherent record. Critical-situation experience also supports calm prioritization: restore or reduce impact first when necessary, preserve evidence, assign owners, and continue causal investigation without letting the customer wait for certainty.
 
-The transferable capability is the **method**, not tool or product equivalence. Arti should use a real Microsoft example only if she can accurately describe what she observed, what alternatives she considered, what tests were authorized, what she personally did, what another team did, and how the outcome was verified. She should not retrofit a past case into the terminology in this lesson if the original evidence did not support it.
+The transferable capability is the **method**, not tool or product equivalence. You should use a real Microsoft example only if you can accurately describe what you observed, what alternatives you considered, what tests were authorized, what you personally did, what another team did, and how the outcome was verified. You should not retrofit a past case into the terminology in this lesson if the original evidence did not support it.
 
 This Part does not establish production experience with Abnormal AI, email-security operations, proprietary behavioral detections, customer threat cases, Abnormal case tooling, or Abnormal telemetry. It does not reveal or assume how Abnormal computes verdicts, exposes evidence, represents confidence, stores logs, assigns permissions, performs remediation, or routes escalation. During onboarding, current approved documentation, role-based access, customer consent, runbooks, and product owners must define what evidence exists and what actions an L1 engineer may perform.
 
-| Evidence tier | Honest wording Arti can adapt | Boundary to preserve |
+| Evidence tier | Honest wording you can adapt | Boundary to preserve |
 |---|---|---|
-| Production transfer | “In Microsoft enterprise support, I used competing explanations, scoped evidence, controlled validation, and Engineering escalation on complex customer cases.” | Use a real case and do not add tests, tools, or results that did not occur |
+| Production transfer | “In enterprise support, I used competing explanations, scoped evidence, controlled validation, and Engineering escalation on complex customer cases.” | Use a real case and do not add tests, tools, or results that did not occur |
 | Local synthetic practice | “I built a local synthetic hypothesis ledger and practiced updating it from declared fictional observations.” | Say whether the artifact was actually completed; this guide itself was not run |
 | Learned architecture | “I understand how hypotheses, predictions, controls, and evidence correlation support SaaS and security investigations.” | Conceptual knowledge is not product operations experience |
 | Abnormal-specific knowledge | “I would verify the approved Abnormal evidence surfaces and runbook before applying the generic method.” | Do not guess product fields, scores, internals, permissions, or procedures |
 | Proposed customer-case action | “My next step would be the least risky authorized check that best separates the leading explanations.” | A proposal is not an action already performed |
 | Escalation judgment | “I would escalate when the next discriminating test crosses access, product, privacy, or security boundaries.” | Do not bypass the boundary to obtain a faster answer |
 | Causal statement | “The evidence supports this bounded mechanism within the tested scope.” | Do not claim universal root cause from one sequence or one successful workaround |
-| No direct experience | “I have not operated Abnormal AI in production; my closest evidence is Microsoft enterprise support plus this local synthetic practice.” | State the gap directly and make the ramp plan concrete |
+| No direct experience | “I have not operated Abnormal AI in production; my closest evidence is enterprise support plus this local synthetic practice.” | State the gap directly and make the ramp plan concrete |
 
 ## 1. The investigation loop from zero
 
@@ -651,7 +651,7 @@ Escalate through the approved path when:
 - Source coverage, clock behavior, identifier scope, field semantics, schema version, retention, sampling, parser health, or evidence integrity cannot be established.
 - A suspected product defect has a minimal reproduction and verified expected behavior but requires Engineering-owned telemetry or code.
 - The leading causal claim would affect broad remediation, customer security posture, executive communication, disclosure, or product commitments.
-- Customer impact requires incident command, CRITSIT-style coordination, a security incident process, or a communication cadence beyond a normal L1 case.
+- Customer impact requires incident command, critical-situation-style coordination, a security incident process, or a communication cadence beyond a normal L1 case.
 
 An escalation should include the symptom and impact, exact scope and UTC interval, current state, verified observations, source and coverage boundaries, competing hypotheses, tests and results, confidence changes, actions deliberately not taken, customer communication status, and one precise ask. “Please investigate” is weaker than “Please verify whether approved service result `SYN097_ROLE_REQUIRED` is emitted only after successful authentication and whether mapping audit state represents evaluation-time authorization for this route and version.”
 
@@ -682,7 +682,7 @@ flowchart LR
 | Decision tree | Includes symptom to hypothesis to test to observation to next action | Section 13 |
 | Failure modes and biases | Covers reasoning traps, cognitive biases, and countermeasures | Section 14 |
 | Safety prohibitions | Explicitly prohibits broad collection, unauthorized production testing, bypass, uploads, and destructive tests | Section 14 and Lab |
-| Candidate honesty | Ties Microsoft support strengths to method while preserving Abnormal boundaries | Candidate honesty note |
+| Candidate honesty | Ties enterprise support strengths to method while preserving Abnormal boundaries | Candidate honesty note |
 | Official anchors | Uses dated primary or official sources and states each scope boundary | Official Source Anchors section |
 | Interview Q&A | Contains exactly eight Q headings and model answers | Likely Interview Questions |
 | Completion controls | Includes knowledge, artifact, spoken, honesty, privacy, safety, and source checks | Completion Checklist |
@@ -690,7 +690,7 @@ flowchart LR
 
 ## Lab - HypothesisLab 097 Competing-Hypothesis Ledger
 
-This is a **local, handwritten, synthetic design lab**. It is not claimed to have been run. It requires no account, server, tenant, database, SIEM, mail system, Abnormal AI access, Microsoft 365 access, external request, or public upload. The lab teaches reasoning by reading and comparing invented metadata files. If Arti performs it later, she must record the actual run state and retain only harmless synthetic artifacts.
+This is a **local, handwritten, synthetic design lab**. It is not claimed to have been run. It requires no account, server, tenant, database, SIEM, mail system, Abnormal AI access, Microsoft 365 access, external request, or public upload. The lab teaches reasoning by reading and comparing invented metadata files. If you perform it later, you must record the actual run state and retain only harmless synthetic artifacts.
 
 The lab has four fictional cases corresponding to the worked investigations: an API denial, a verdict disagreement, a duplicate/delayed webhook, and a recurring support trend. The objective is not to force one root cause. It is to maintain alternatives, write predictions before revealing declared outcomes, and choose safe next actions.
 
@@ -704,7 +704,7 @@ The lab has four fictional cases corresponding to the worked investigations: an 
 - Every active-test entry must remain `not_authorized_not_run`. The lab uses passive comparison only.
 - Every expected result must be written before the corresponding declared-result card is opened or read during actual practice.
 - Every file must carry this label: `Local synthetic hypothesis lab; no production access, customer data, sensitive content, external upload, security-control bypass, active production test, state change, or destructive action.`
-- The artifact should be described as a **design** until Arti actually creates and reviews it locally.
+- The artifact should be described as a **design** until you actually create and reviews it locally.
 
 ### Lab design
 
@@ -792,7 +792,7 @@ The lab has four fictional cases corresponding to the worked investigations: an 
 61. Ask a second reviewer, if available, to choose the next test from the ledger without seeing the favored hypothesis. Record disagreements as review evidence, not as failure.
 62. Practice a five-minute spoken walkthrough of one case from symptom through next action. Use the words observation, prediction, disconfirming evidence, and evidence ceiling accurately.
 63. Practice a 90-second explanation of correlation, sequence, contribution, trigger, and root cause using the domino analogy and its limit.
-64. Practice an honest transition statement connecting Microsoft enterprise support to the method while saying directly that Abnormal production experience has not been established.
+64. Practice an honest transition statement connecting enterprise support to the method while saying directly that Abnormal production experience has not been established.
 65. Check every artifact for broad collection language. Replace “all logs” and “everything around the time” with exact fictional sources, fields, aliases, and intervals.
 66. Check every action for production implications. No role change, policy edit, test message, replay, load, bypass, control weakening, or destructive operation may remain as an executable instruction.
 67. Check every artifact for sensitive fields. Credentials, cookies, authorization, tokens, keys, secrets, addresses, content, subject, body, attachment, URL, IP, customer, and tenant identifiers must be structurally absent.
@@ -877,7 +877,7 @@ If the lab is actually performed, expected evidence includes:
 | Escalation | Sends broad dump | Sends a summary | Includes ledger, bounded evidence, actions not taken, ceiling, and one precise ask |
 | Privacy | Uses realistic or sensitive data | Redacts afterward | Structurally excludes sensitive classes and stays local |
 | Artifact | Loose notes | Partial ledger | Complete versioned ledger, prediction, test, result, confidence, causal, and action registers |
-| Candidate honesty | Implies security-vendor operations | Calls examples synthetic | Separates Microsoft production transfer, completed local work, learned method, and Abnormal unknowns |
+| Candidate honesty | Implies security-vendor operations | Calls examples synthetic | Separates prior production transfer, completed local work, learned method, and Abnormal unknowns |
 | Spoken readiness | Recites definitions | Explains one case | Walks symptom to action and answers all eight questions with safety and evidence limits |
 
 ## Official Source Anchors - August 24, 2026
@@ -901,7 +901,7 @@ These sources anchor general incident response, risk, logs, troubleshooting, obs
 - NIST SP 800-30 Rev. 1 supports explicit assumptions, uncertainty, likelihood, and impact. It does not turn qualitative support confidence into a calibrated probability.
 - NIST SP 800-92 remains a foundational log-management source, but its 2006 publication date requires supplementation with current privacy, cloud, retention, security, and organizational requirements.
 - The Google SRE troubleshooting chapter directly describes iterative hypotheses, confirming and disconfirming evidence, safe treatment, confounders, side effects, notes, and the danger of spurious correlation. Its examples and operational context are Google's, not a product-support contract for Abnormal.
-- Microsoft Azure Well-Architected observability guidance supports consistent telemetry, correlation IDs, health models, source protection, data minimization, and actionable decisions. Arti may connect these concepts to her Microsoft background without claiming that Azure's model describes Abnormal internals.
+- Microsoft Azure Well-Architected observability guidance supports consistent telemetry, correlation IDs, health models, source protection, data minimization, and actionable decisions. You may connect these concepts to your prior background without claiming that Azure's model describes Abnormal internals.
 - RFC 3339 standardizes timestamp representation. A correctly formatted timestamp can still come from an inaccurate clock, have ambiguous event meaning, arrive late, or be transformed.
 - RFC 9110 defines protocol semantics such as safe methods, but “safe” in HTTP semantics does not equal authorized, zero-cost, privacy-safe, side-effect-free, or appropriate for production troubleshooting.
 - The NIST/SEMATECH statistical handbook explains formal null-hypothesis testing. This Part uses “hypothesis testing” in the broader operational troubleshooting sense and intentionally avoids p-values, significance claims, and invented numerical confidence.
@@ -937,9 +937,9 @@ These sources anchor general incident response, risk, logs, troubleshooting, obs
 
 **Model answer:** I stop when the next discriminating step requires access, product semantics, security content, customer data, a production change, or authority I do not have; when evidence integrity or coverage is uncertain; or when compromise, data exposure, or control bypass may be involved. I preserve the minimum authorized evidence and escalate with impact, scope, observations, ledger, tests, confidence, actions not taken, evidence ceiling, and one precise ask. I retain customer ownership and communication during the handoff.
 
-### Q8. How does your Microsoft support experience transfer, and where are your Abnormal boundaries?
+### Q8. How does your prior support experience transfer, and where are your Abnormal boundaries?
 
-**Model answer:** My Microsoft enterprise support experience transfers in the investigation habits: scope impact, separate client and service boundaries, maintain alternatives, correlate evidence, validate changes carefully, communicate uncertainty, manage critical cases, and escalate to Engineering with reproducible evidence. I have not operated Abnormal AI in production, and this Part does not establish that experience. I would use current approved Abnormal documentation and runbooks to learn available evidence, field semantics, permissions, and L1 actions, while applying the same disciplined and customer-focused reasoning.
+**Model answer:** My prior enterprise support experience transfers in the investigation habits: scope impact, separate client and service boundaries, maintain alternatives, correlate evidence, validate changes carefully, communicate uncertainty, manage critical cases, and escalate to Engineering with reproducible evidence. I have not operated Abnormal AI in production, and this Part does not establish that experience. I would use current approved Abnormal documentation and runbooks to learn available evidence, field semantics, permissions, and L1 actions, while applying the same disciplined and customer-focused reasoning.
 
 ## Memory Hooks
 
@@ -1014,7 +1014,7 @@ These sources anchor general incident response, risk, logs, troubleshooting, obs
 - [ ] I can recognize product, access, privacy, evidence-integrity, security-incident, and production-change escalation boundaries.
 - [ ] My escalation contains impact, scope, UTC interval, current state, observations, coverage, hypotheses, tests, confidence, actions not taken, ceiling, and one precise ask.
 - [ ] My customer update distinguishes observation, bounded interpretation, uncertainty, next action, owner, and next update time.
-- [ ] I can connect Arti's Microsoft enterprise support, CRITSIT, Engineering escalation, and fix-validation experience to this method using a real truthful example.
+- [ ] I can connect your prior enterprise support, critical situation, Engineering escalation, and fix-validation experience to this method using a real truthful example.
 - [ ] I can say directly that this synthetic lesson does not establish Abnormal AI production experience.
 - [ ] I do not claim Abnormal fields, schemas, telemetry, detection logic, confidence behavior, permissions, remediation, or L1 procedure.
 - [ ] I can explain the scope boundary for all eight official sources.

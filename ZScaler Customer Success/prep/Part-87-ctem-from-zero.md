@@ -1,10 +1,10 @@
 # Part 87 - Continuous Threat Exposure Management (CTEM) from Zero
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 
 > **Purpose:** Explain Continuous Threat Exposure Management from first principles, including business-aligned scoping, discovery, prioritization, safe validation, mobilization, iteration, architecture, governance, operating mechanics, troubleshooting, security, privacy, failure modes, artifacts, exercises, and the distinction between CTEM and traditional vulnerability management.
 
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH person, asset, source, weakness, exposure, attack path, control, test, date, metric, decision, and outcome is invented. Arti's factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler, CTEM, Risk360, Data Fabric, Asset Exposure Management, UVM, penetration testing, red teaming, vulnerability-program ownership, and customer risk authority remain learning boundaries.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH person, asset, source, weakness, exposure, attack path, control, test, date, metric, decision, and outcome is invented. Your factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler, CTEM, Risk360, Data Fabric, Asset Exposure Management, UVM, penetration testing, red teaming, vulnerability-program ownership, and customer risk authority remain learning boundaries.
 
 > **Currency caveat:** Product wording, architecture, integrations, stages, interfaces, fields, methods, limits, entitlements, standards, and customer conditions change. The controlled official-source snapshot and source review date for this Part is exactly **2026-08-24**. Current official documentation, licensed-tenant evidence, customer policy, product specialists, Zscaler Support, authorized testing procedures, source-native evidence, and measured postconditions govern production decisions.
 
@@ -50,7 +50,7 @@ flowchart LR
 
 ## Candidate honesty note
 
-Arti should use neutral syntax: "My production experience establishes X; I have studied or practiced Y in a fictional exercise; in a customer environment I would verify Z." That sentence structure is stronger than vague confidence because it tells the interviewer exactly which evidence supports each claim.
+You should use neutral syntax: "My production experience establishes X; I have studied or practiced Y in a fictional exercise; in a customer environment I would verify Z." That sentence structure is stronger than vague confidence because it tells the interviewer exactly which evidence supports each claim.
 
 | Evidence class | Factual bridge | Safe interview wording | Unsupported claim to avoid |
 |---|---|---|---|
@@ -234,7 +234,7 @@ An exposure graph is like a transport map. Circles may represent assets, identit
 
 Every consequential edge therefore needs a semantic contract: exact meaning, direction, source, observation time, scope, prerequisites, confidence, authority, and expiration. "User accesses server" is too vague. Does it mean a successful session last month, current group authorization, a network route, an application role, or an inferred possibility? Those are different assertions. CTEM discovery should preserve the distinction and allow challenge.
 
-Arti's SQL experience is directly useful here. A many-to-many join can multiply rows and make one source appear like many independent facts. A failed inner join can drop unknown assets and improve a percentage. A stale dimension can attach yesterday's owner to today's service. The transferable skill is evidence modeling and reconciliation. It is not a claim of access to any Zscaler schema.
+Your SQL experience is directly useful here. A many-to-many join can multiply rows and make one source appear like many independent facts. A failed inner join can drop unknown assets and improve a percentage. A stale dimension can attach yesterday's owner to today's service. The transferable skill is evidence modeling and reconciliation. It is not a claim of access to any Zscaler schema.
 
 ## Source and assertion contracts
 
@@ -606,7 +606,7 @@ flowchart LR
 
 ## Complete synthetic NMH CTEM case
 
-Everything in this section is explicitly fictional and synthetic. It does not describe a Zscaler tenant, customer, product feature, supported integration, field, score, formula, attack path, test result, or Arti production experience. All dates in this section are synthetic scenario dates and are on or before the official review date. The official source snapshot remains 2026-08-24.
+Everything in this section is explicitly fictional and synthetic. It does not describe a Zscaler tenant, customer, product feature, supported integration, field, score, formula, attack path, test result, or documented production experience. All dates in this section are synthetic scenario dates and are on or before the official review date. The official source snapshot remains 2026-08-24.
 
 NMH is a fictional healthcare organization. Its synthetic CTEM cycle is dated 2026-08-18 through 2026-08-22. The fictional sponsor asks a bounded question: "Could an internet-originated credential attack reach the synthetic medication-ordering service through unmanaged external exposure or overbroad identity trust, and which safe treatment would interrupt the most plausible routes?" No real target or exploit is involved.
 
@@ -754,7 +754,7 @@ Priority must include execution. Segment urgent containment, validation, quick c
 | 17 | Run a tabletop source outage | Timeline and decisions | Automation and claims contained before repair |
 | 18 | Review AI use | Control checklist | Grounding, data, authorization, and human review covered |
 
-## Arti bridge: factual strengths applied to CTEM
+## Experience bridge: factual strengths applied to CTEM
 
 M365, OneDrive, and SharePoint escalations often require resolving the exact tenant, user, site, file, permission, client, network route, timestamp, service dependency, and change history before making a claim. That discipline maps naturally to CTEM's entity, relationship, provenance, scope, and evidence-quality requirements. The analogy is strong because both domains punish vague identity and mixed timestamps. It does not establish CTEM production operation.
 
@@ -810,7 +810,7 @@ Official Zscaler sources below support bounded public product positioning only. 
 
 **Model answer:** Fix the exact scope, entity, viewer, and UTC window; preserve raw evidence and pause harmful automation or success claims. Reconcile the independent population, source access/freshness/completeness, schema and time mappings, entity merges/splits, edge semantics, policy/model versions, validation conditions, workflow states, exceptions, closure, metric denominators, and access filters. Repair the smallest controlling layer, replay deterministically, reconcile downstream work, restate affected history, and communicate affected decisions.
 
-### Q8. How does Arti's background support CTEM while preserving honesty?
+### Q8. How does your background support CTEM while preserving honesty?
 
 **Model answer:** Microsoft 365, OneDrive, and SharePoint escalation work provides adjacent discipline in exact identity, permissions, scope, layered dependencies, customer impact, evidence, containment, ownership, RCA, and validation. Networking traces support reachability reasoning. SQL and Power BI support entity correlation, nulls, temporal models, denominators, trends, and drill-down. Mentoring supports adoption, and reviewed AI assistance supports bounded summaries and tests. NMH is synthetic; production Zscaler, CTEM, offensive testing, and customer risk ownership remain learning boundaries.
 
@@ -833,7 +833,7 @@ Official Zscaler sources below support bounded public product positioning only. 
 | Continuous | Refresh on risk-based cadence and change |
 | Closure | Technical plus path plus control plus service proof |
 | TSM | Facilitate product use, evidence, adoption, and escalation without customer authority |
-| Arti bridge | Microsoft escalation rigor transfers; production CTEM experience does not |
+| Experience bridge | enterprise escalation rigor transfers; production CTEM experience does not |
 
 ## Completion Checklist
 

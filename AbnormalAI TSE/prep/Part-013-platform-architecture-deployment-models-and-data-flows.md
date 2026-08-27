@@ -8,11 +8,11 @@
 
 ## Section Goal
 
-By the end of this Part, Arti should be able to draw and explain a vendor-neutral cloud security platform without presenting the drawing as Abnormal's private architecture. She should distinguish a **deployment pattern** from a deployment procedure; a logical plane from a physical service; a trust boundary from a network firewall; and a data flow from a product feature list.
+By the end of this Part, you should be able to draw and explain a vendor-neutral cloud security platform without presenting the drawing as Abnormal's private architecture. You should distinguish a **deployment pattern** from a deployment procedure; a logical plane from a physical service; a trust boundary from a network firewall; and a data flow from a product feature list.
 
-She should be able to compare API-based, mail-flow, endpoint/agent, event-stream, and hybrid integration patterns at a conceptual level. She should know that each pattern creates different observations, failure modes, permissions, latency, availability, and customer/vendor responsibilities. She should be able to trace a message or security event from source, through authorized collection, normalization, context, policy, decision, action, audit, and customer-visible outcome while labeling every arrow with identity, data, interface, owner, evidence, and failure behavior.
+You should be able to compare API-based, mail-flow, endpoint/agent, event-stream, and hybrid integration patterns at a conceptual level. You should know that each pattern creates different observations, failure modes, permissions, latency, availability, and customer/vendor responsibilities. You should be able to trace a message or security event from source, through authorized collection, normalization, context, policy, decision, action, audit, and customer-visible outcome while labeling every arrow with identity, data, interface, owner, evidence, and failure behavior.
 
-Arti should also be able to reason about tenant isolation, least-privilege scopes, control/data/management planes, asynchronous processing, retries, idempotency, partial failure, degraded operation, regional or dependency failure, change/versioning, rollback, and observability. The practical outcome is the **Glass Harbor Architecture and Verified-vs-Assumed Ledger Lab**, a local paper-only architecture package that contains no live product or customer data.
+You should also be able to reason about tenant isolation, least-privilege scopes, control/data/management planes, asynchronous processing, retries, idempotency, partial failure, degraded operation, regional or dependency failure, change/versioning, rollback, and observability. The practical outcome is the **Glass Harbor Architecture and Verified-vs-Assumed Ledger Lab**, a local paper-only architecture package that contains no live product or customer data.
 
 ## JD Mapping
 
@@ -32,7 +32,7 @@ Arti should also be able to reason about tenant isolation, least-privilege scope
 
 ## Candidate Honesty Note
 
-Arti may connect this Part to Microsoft enterprise support experience in tenant-aware cloud troubleshooting, client/cloud boundaries, configuration, service evidence, Engineering/Product escalation, fix validation, and customer communication. AD/Entra, OAuth, SSO/SAML, REST/JSON, networking, and diagnostic tools are working foundations. They do not prove that she designed Microsoft 365 security architecture, operated Exchange email security, implemented Abnormal, or managed production integrations at scale.
+You may connect this Part to enterprise support experience in tenant-aware cloud troubleshooting, client/cloud boundaries, configuration, service evidence, Engineering/Product escalation, fix validation, and customer communication. AD/Entra, OAuth, SSO/SAML, REST/JSON, networking, and diagnostic tools are working foundations. They do not prove that you designed Microsoft 365 security architecture, operated Exchange email security, implemented Abnormal, or managed production integrations at scale.
 
 | Evidence label | Honest use | Boundary |
 |---|---|---|
@@ -579,7 +579,7 @@ flowchart TD
 | SLA/region/DR guessed | Commercial and architectural details vary | Route to authoritative contract/trust source | Customer commitment requested |
 | Version change called root cause | Temporal correlation is not causation | Compare versioned affected/control behavior | Repro aligns with change |
 | Support edits customer config without authority | Blurs responsibility and risk | Guide authorized owner; document change/rollback | Consequential change requested |
-| Microsoft transfer becomes Abnormal claim | Methods transfer, implementation does not | State evidence tier and limit | Interview asks exact operation |
+| experience transfer becomes Abnormal claim | Methods transfer, implementation does not | State evidence tier and limit | Interview asks exact operation |
 
 ## Glass Harbor Architecture and Verified-vs-Assumed Ledger Lab
 
@@ -736,7 +736,7 @@ The expected evidence is the complete, internally consistent artifact set below,
 | Change/version | “After update” | Versions captured | Policy/schema lifecycle, compatibility, effective time, rollback, validation complete |
 | Troubleshooting | Last box blamed | Several hypotheses | Plane/boundary-specific tests update confidence and owner |
 | Escalation | Generic request | IDs and versions | Three actionable packets with explicit questions and customer continuity |
-| Candidate honesty | Architecture ownership implied | Gap stated | Microsoft transfer and no-direct-Abnormal/email/integration claims precise |
+| Candidate honesty | Architecture ownership implied | Gap stated | experience transfer and no-direct-Abnormal/email/integration claims precise |
 | Privacy/admin | Live data/system | Synthetic | No calls, accounts, secrets, private docs; cleanup and retention complete |
 
 **Passing target:** 42/48 or higher, with 4s in fact separation, permissions, trust/tenancy, candidate honesty, and privacy/admin. Any live setup, mail/API/network action, real data/credential, restricted source, invented Abnormal field/scope/topology/SLA, or production architecture claim is an automatic failure.
@@ -812,7 +812,7 @@ The expected evidence is the complete, internally consistent artifact set below,
 
 **Question:** What direct architecture or deployment experience do you claim here?
 
-**Model answer:** I do not claim Abnormal deployment, direct email-security architecture, or production ownership of these integrations. My production transfer is Microsoft enterprise cloud support: tenant-aware investigation, client/cloud and configuration boundaries, customer communication, Engineering/Product escalation, and fix validation. REST/JSON, OAuth, identity, networking, and diagnostic tools are working foundations. This Part adds learned architecture and a synthetic paper lab, not product operation.
+**Model answer:** I do not claim Abnormal deployment, direct email-security architecture, or production ownership of these integrations. My production transfer is enterprise cloud support: tenant-aware investigation, client/cloud and configuration boundaries, customer communication, Engineering/Product escalation, and fix validation. REST/JSON, OAuth, identity, networking, and diagnostic tools are working foundations. This Part adds learned architecture and a synthetic paper lab, not product operation.
 
 ## 30-Second Memory Hooks
 
@@ -854,7 +854,7 @@ The expected evidence is the complete, internally consistent artifact set below,
 - [ ] I scored at least 42/48, with 4s in fact separation, permissions, trust/tenancy, candidate honesty, and privacy/admin.
 - [ ] I used no account, trial, demo, mail, API, webhook, credential, packet capture, network request, customer data, or private documentation.
 - [ ] I made no claim about exact Abnormal endpoints, fields, scopes, queues, regions, stores, tenant controls, retention, failure modes, entitlements, support access, or SLAs.
-- [ ] I use Arti's Microsoft, M365, networking, API/data, identity, customer, KB/training, mentoring, and AI facts only as transferable background.
+- [ ] I use your prior support, cloud, networking, API/data, identity, customer, KB/training, mentoring, and AI facts only as transferable background.
 - [ ] I can answer all eight interview questions aloud and identify the evidence label of every architecture statement.
 - [ ] I revalidated all official public statements against August 24, 2026.
 

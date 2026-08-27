@@ -19,7 +19,7 @@ This Part operationalizes [Parts 15-19](Part-19-intune-endpoint-security-stack.m
 
 ## Candidate honesty note
 
-Arti can strongly connect this Part to production Microsoft 365 support escalation, critical-incident leadership, RCA, log and timeline analysis, vendor/product-group coordination, customer updates, knowledge articles, KPI/business reviews, mentoring, and service handover. Those are the core operating behaviors this chapter needs.
+You can strongly connect this Part to production Microsoft 365 support escalation, critical-incident leadership, RCA, log and timeline analysis, vendor/product-group coordination, customer updates, knowledge articles, KPI/business reviews, mentoring, and service handover. Those are the core operating behaviors this chapter needs.
 
 This Part does **not** claim production administration of Intune RBAC, remote actions, remediations, Microsoft Graph automation, Configuration Manager, CMG, tenant attach, or co-management workloads. Safe wording is:
 
@@ -414,7 +414,7 @@ flowchart TD
 | Ask | Specific owner question/action and urgency |
 | Privacy/security | Redaction, secure upload, evidence retention/chain of custody |
 
-Arti's existing escalation discipline is directly applicable: a good pack reduces back-and-forth and keeps ownership factual rather than political.
+Your existing escalation discipline is directly applicable: a good pack reduces back-and-forth and keeps ownership factual rather than political.
 
 ## 16. Major incident and 24x7 handover
 
@@ -912,7 +912,7 @@ Contoso has 5,000 ConfigMgr-managed Windows devices, 1,000 remote laptops, 400 I
 - [ ] I can design workload tests, rollback and residual-state reconciliation.
 - [ ] I can define operational readiness, 24x7 handover, metrics and problem management.
 - [ ] I completed or can explain the safe paper lab as non-production evidence.
-- [ ] I can answer Q1-Q8 aloud and preserve Arti's honesty boundary.
+- [ ] I can answer Q1-Q8 aloud and preserve your honesty boundary.
 - [ ] I will verify current tenant/site version, licensing, privacy, preview, retirement and workload guidance.
 
 ---

@@ -1,6 +1,6 @@
 # Part 27 - ONTAP NAS Architecture and Unified Namespace
 
-> **Section goal:** Build an end-to-end mental model of ONTAP Network-Attached Storage (NAS): how a storage virtual machine, protocol server, data LIF, network and name services, SVM root volume, FlexVol volumes, junctions, shares or exports, identities, and file permissions cooperate to serve one client request. By the end, Arti should be able to discover a NAS environment, trace NFS and SMB data/control paths, explain mobility and availability, separate permission layers, troubleshoot common failures, and make a version-honest customer recommendation.
+> **Section goal:** Build an end-to-end mental model of ONTAP Network-Attached Storage (NAS): how a storage virtual machine, protocol server, data LIF, network and name services, SVM root volume, FlexVol volumes, junctions, shares or exports, identities, and file permissions cooperate to serve one client request. By the end, you should be able to discover a NAS environment, trace NFS and SMB data/control paths, explain mobility and availability, separate permission layers, troubleshoot common failures, and make a version-honest customer recommendation.
 
 Covers index item **27** and maps directly to job-description responsibilities for customer-environment discovery, storage/network depth, risk and stability analysis, customer-specific recommendations, supportability, operational service reviews, evidence quality, and cross-functional escalation.
 
@@ -8,7 +8,7 @@ Covers index item **27** and maps directly to job-description responsibilities f
 
 Exact ONTAP NAS protocol versions, SVM server options, LIF service policies, failover policies, DNS and name-service behavior, export/share fields, namespace/referral behavior, load distribution, volume-move behavior, multiprotocol rules, commands, limits, and nondisruptive-operation claims vary by ONTAP release, platform, client, and configuration. A **current-doc check** means reopening the current official documentation for the exact release and configuration. Verify the **Interoperability Matrix Tool (IMT)**, **Hardware Universe (HWU)** where hardware facts matter, application/client guidance, and authorized customer evidence.
 
-> **No-production-NetApp boundary:** Arti does not claim production NetApp or ONTAP NAS experience. Every SVM, address, path, customer, incident, metric, and recommendation below is synthetic. Her factual experience is Microsoft enterprise support, SharePoint/OneDrive data services, Active Directory, Windows/Azure networking, CRITSIT ownership, analytics, and customer communication. The explicit non-claim is: **she has not configured, administered, migrated, or troubleshot an ONTAP NFS/SMB production service, data LIF, junction namespace, export, share, or multiprotocol identity mapping.**
+> **No-production-NetApp boundary:** You do not claim production NetApp or ONTAP NAS experience. Every SVM, address, path, customer, incident, metric, and recommendation below is synthetic. Your factual experience is enterprise support, SharePoint/OneDrive data services, Active Directory, Windows/Azure networking, critical-situation ownership, analytics, and customer communication. The explicit non-claim is: **you have not configured, administered, migrated, or troubleshot an ONTAP NFS/SMB production service, data LIF, junction namespace, export, share, or multiprotocol identity mapping.**
 
 ---
 
@@ -204,7 +204,7 @@ flowchart TB
     J2 --> VH[FlexVol home on local tier B]
     J3 --> VF[FlexVol finance on local tier C]
     VP --> P1[/projects/design/current]
-    VH --> P2[/home/arti]
+    VH --> P2[/home/user1]
     VF --> P3[/finance/reports]
     PARENT[Parent traversal/export/share permissions] -.must permit path.-> ROOT
 ```
@@ -539,11 +539,11 @@ flowchart TD
 
 ### JD Mapping
 
-| JD responsibility | Part 27 contribution | Arti's factual bridge and gap |
+| JD responsibility | Part 27 contribution | Your factual bridge and gap |
 |---|---|---|
 | Understand the customer environment | Maps client, DNS/network, SVM, LIF, protocol server, namespace, identity, volume and storage ownership | SharePoint/OneDrive and Azure dependency mapping transfers; ONTAP NAS operation is unproven |
 | Storage and networking depth | Explains NFS/SMB data/control paths, unified namespace, LIF mobility and multiprotocol identity | Conceptual and synthetic only; no production ONTAP configuration claim |
-| Mitigate risk and improve stability | Finds failed NAS paths, permission layers, client concentration, remote-node locality and HA recovery gaps | CRITSIT hypothesis and evidence discipline transfers |
+| Mitigate risk and improve stability | Finds failed NAS paths, permission layers, client concentration, remote-node locality and HA recovery gaps | critical-situation hypothesis and evidence discipline transfers |
 | Analyze and report customer data | Requires per-client/LIF/node/volume evidence, timelines, confidence and supportability records | Analytics, Excel and Power BI strengths transfer |
 | Provide tailored recommendations | Connects evidence and customer context to owner-led path, identity, namespace or placement actions | Advisory communication transfers; exact action needs current docs and SMEs |
 | Conduct operational service reviews | Converts availability, capacity, performance, access and test evidence into decisions and tracked actions | Business-review experience is a strength |
@@ -598,7 +598,7 @@ flowchart TD
 
 ## 13. Fully synthetic scenario: Aster Health unified namespace failure
 
-> **Synthetic case:** Aster Health, every address, SVM, user, event, observation and outcome below is fictional. It does not represent a NetApp customer, internal process, tool result, or Arti's production work.
+> **Synthetic case:** Aster Health, every address, SVM, user, event, observation and outcome below is fictional. It does not represent a NetApp customer, internal process, tool result, or your production work.
 
 ### Environment
 
@@ -711,14 +711,14 @@ flowchart TD
 
 ---
 
-## 14. Arti's factual transfer and honest interview positioning
+## 14. Your factual transfer and honest interview positioning
 
 ```mermaid
 flowchart LR
     SPO[SharePoint/OneDrive production support] --> PATH[Namespace permission and user-operation reasoning]
     AD[Windows/AD production context] --> ID[SID group token DNS Kerberos dependencies]
     AZ[Azure/VM/networking] --> NET[Logical identity routes failover and shared fate]
-    CRIT[CRITSIT escalation] --> EVID[Impact timeline hypotheses and owner coordination]
+    CRIT[Critical-situation escalation] --> EVID[Impact timeline hypotheses and owner coordination]
     BI[Excel/Power BI/SQL/Python] --> ANALYZE[Trend evidence and service-review story]
     PATH --> NAS[ONTAP NAS synthetic method]
     ID --> NAS
@@ -732,7 +732,7 @@ flowchart LR
 |---|---|---|
 | SharePoint/OneDrive support | Separate path, identity, permission, cache and service behavior | These are not ONTAP shares/exports or WAFL administration |
 | Active Directory/Windows networking | DNS, Kerberos, users/groups, route and firewall dependencies | No ONTAP SMB domain-join or LIF configuration claim |
-| CRITSIT/Product collaboration | Scope, evidence, safe restoration, exact escalation ask | No NetApp internal process or customer-tool access claim |
+| Critical situation/Product collaboration | Scope, evidence, safe restoration, exact escalation ask | No NetApp internal process or customer-tool access claim |
 | Analytics/business reviews | Data quality, trends, risk, owners and executive narrative | No production ONTAP counter or capacity result claim |
 
 ### Honest answer
@@ -887,9 +887,9 @@ flowchart LR
 
 > **Model answer:** "I capture client, user, path, operation, exact error, time and change, then follow the last successful stage: DNS/address, network/current LIF, NFS/SMB negotiation/session, root/junction/share/export, effective identity and permission, lock/handle state, then volume/node/local-tier service. I keep coincident symptoms separate until a mechanism joins them, use the cheapest safe disconfirming check, and write an owner, validation and residual-risk plan."
 
-### Q8. How does your Microsoft background transfer, and what remains a gap?
+### Q8. How does your prior background transfer, and what remains a gap?
 
-> **Model answer:** "My SharePoint/OneDrive, Active Directory, Windows/Azure networking and CRITSIT work gives me production experience with namespaces, permissions, identity, DNS, dependency mapping, evidence and customer communication. Those methods transfer strongly to ONTAP NAS reasoning. I have not administered ONTAP NFS/SMB servers, data LIFs, junctions, exports, shares or multiprotocol mappings in production. I would use current docs, authorized evidence, IMT/HWU and NetApp/network/identity specialists for real changes."
+> **Model answer:** "My SharePoint/OneDrive, Active Directory, Windows/Azure networking and critical-situation work gives me production experience with namespaces, permissions, identity, DNS, dependency mapping, evidence and customer communication. Those methods transfer strongly to ONTAP NAS reasoning. I have not administered ONTAP NFS/SMB servers, data LIFs, junctions, exports, shares or multiprotocol mappings in production. I would use current docs, authorized evidence, IMT/HWU and NetApp/network/identity specialists for real changes."
 
 ---
 
@@ -909,7 +909,7 @@ flowchart LR
 - **LIF move:** Network location changes; **volume move:** data placement changes.
 - **Locality:** Inter-node access is valid until evidence shows an SLO cost.
 - **Availability:** LIF + network + server + identity + namespace + storage + client recovery.
-- **Arti's bridge:** Microsoft namespace/identity rigor transfers; ONTAP production operation does not.
+- **Your bridge:** enterprise namespace/identity rigor transfers; ONTAP production operation does not.
 
 ---
 

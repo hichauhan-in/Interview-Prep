@@ -2,15 +2,15 @@
 
 > **Purpose:** Learn how an enterprise Level 1 support engineer creates forward motion, reduces customer effort, preserves trust, and coordinates specialists without pretending to do every job.
 >
-> **Evidence rule:** Microsoft examples use only facts stated in Arti's CV/master: enterprise support and escalation, CRITSIT work, customer and partner updates, Engineering/Product collaboration, fix validation, CSAT/backlog/case-quality analysis, KB/training creation, and mentoring. Missing case details remain prompts for Arti to complete; they are never invented here.
+> **Evidence rule:** Microsoft examples use only facts stated in your CV/master: enterprise support and escalation, critical-situation work, customer and partner updates, Engineering/Product collaboration, fix validation, CSAT/backlog/case-quality analysis, KB/training creation, and mentoring. Missing case details remain prompts for you to complete; they are never invented here.
 >
 > **Currency and official-source access date:** August 24, 2026.
 
 ## Section Goal
 
-By the end of this Part, Arti should be able to own an enterprise support case without confusing ownership with solitary work. She should be able to explain what she controls, what she can influence, and what she must transparently track as a dependency. She should be able to keep a case in a meaningful state, name the next action and owner, set a useful update cadence, communicate differently to technical and nontechnical audiences, and preserve urgency without sacrificing evidence quality or safety.
+By the end of this Part, you should be able to own an enterprise support case without confusing ownership with solitary work. You should be able to explain what you control, what you can influence, and what you must transparently track as a dependency. You should be able to keep a case in a meaningful state, name the next action and owner, set a useful update cadence, communicate differently to technical and nontechnical audiences, and preserve urgency without sacrificing evidence quality or safety.
 
-Arti should also be able to explain trust as an operational result rather than a personality trait. That includes empathy without automatic agreement, psychological safety, honest uncertainty, reliable commitments, expectation and boundary management, proactive updates, low-effort evidence requests, warm handoffs, follow-through, closure confirmation, and knowledge capture. The practical outcome is an **Enterprise Ownership and Trust Case Lab** containing an ownership map, next-action ledger, update cadence, audience-specific updates, warm handoff, closure note, and trust scorecard for a synthetic Software as a Service security case.
+You should also be able to explain trust as an operational result rather than a personality trait. That includes empathy without automatic agreement, psychological safety, honest uncertainty, reliable commitments, expectation and boundary management, proactive updates, low-effort evidence requests, warm handoffs, follow-through, closure confirmation, and knowledge capture. The practical outcome is an **Enterprise Ownership and Trust Case Lab** containing an ownership map, next-action ledger, update cadence, audience-specific updates, warm handoff, closure note, and trust scorecard for a synthetic Software as a Service security case.
 
 This Part introduces severity and priority only enough to protect ownership decisions. It does not replace the dedicated later lessons on ticket lifecycle, severity, critical incidents, communication, Engineering/Product collaboration, metrics, or knowledge-centered support.
 
@@ -21,7 +21,7 @@ The mappings below come from the supplied job description represented in the con
 | Supplied JD signal | Capability developed here | Proof produced or practiced |
 |---|---|---|
 | Enterprise L1 Technical Support Engineer | Continuous ownership from acknowledgment through validated closure | Ownership map and next-action ledger |
-| Four or more years of customer-facing enterprise support | Converts Arti's five years of Microsoft support into role-relevant ownership language | CV-grounded transfer statements |
+| Four or more years of customer-facing enterprise support | Converts your several years of enterprise support into role-relevant ownership language | CV-grounded transfer statements |
 | Build customer trust | Makes candor, reliability, empathy, care, and competence observable | Trust scorecard and update sequence |
 | Send timely, clear customer updates | Uses impact, evidence, next action, owner, and time for proactive communication | Update cadence and worked message set |
 | Communicate with technical and nontechnical audiences | Preserves the same facts while changing detail, vocabulary, and decision framing | Customer-admin, executive, Engineering, CSM, and SOC updates |
@@ -37,14 +37,14 @@ The mappings below come from the supplied job description represented in the con
 
 This lesson uses four evidence labels consistently.
 
-| Evidence label | What Arti may say | What Arti must not imply |
+| Evidence label | What you may say | What you must not imply |
 |---|---|---|
-| **Production-transfer example** | Arti has CV-supported Microsoft enterprise support and escalation experience, including CRITSITs, customer/partner updates, Engineering/Product collaboration, fix validation, CSAT/backlog/case-quality analysis, KB/training, and mentoring | That those cases involved Abnormal AI, direct email-security operations, or a named adjacent security platform |
-| **Local/public lab** | Arti completed the synthetic case exercise in this Part and can show its sanitized artifacts | That a simulation is a customer case or production platform operation |
-| **Learned architecture** | Arti understands the roles and support methods explained from official sources and this curriculum | That a generic role map is Abnormal's exact organization or escalation path |
-| **Template only** | Arti has a reusable structure for updates, handoffs, closure, and knowledge capture | That the unfilled template describes an event that actually happened |
+| **Production-transfer example** | You have CV-supported enterprise support and escalation experience, including critical situations, customer/partner updates, Engineering/Product collaboration, fix validation, CSAT/backlog/case-quality analysis, KB/training, and mentoring | That those cases involved Abnormal AI, direct email-security operations, or a named adjacent security platform |
+| **Local/public lab** | You completed the synthetic case exercise in this Part and can show its sanitized artifacts | That a simulation is a customer case or production platform operation |
+| **Learned architecture** | You understand the roles and support methods explained from official sources and this curriculum | That a generic role map is Abnormal's exact organization or escalation path |
+| **Template only** | You have a reusable structure for updates, handoffs, closure, and knowledge capture | That the unfilled template describes an event that actually happened |
 
-Arti can truthfully say that Microsoft enterprise support taught her to coordinate complex investigations, communicate during CRITSITs, work with Engineering and Product, validate fixes, and improve knowledge and case quality. She cannot add an incident type, customer impact, technical root cause, timeline, metric, or business result unless she personally verifies it from a real, nonconfidential example. The synthetic SaaS security case later in this Part is **local/public lab evidence**, not Microsoft or Abnormal production experience.
+You can truthfully say that enterprise support taught you to coordinate complex investigations, communicate during critical situations, work with Engineering and Product, validate fixes, and improve knowledge and case quality. You cannot add an incident type, customer impact, technical root cause, timeline, metric, or business result unless you personally verify it from a real, nonconfidential example. The synthetic SaaS security case later in this Part is **local/public lab evidence**, not Microsoft or Abnormal production experience.
 
 ## Beginner Term Primer
 
@@ -69,7 +69,7 @@ Arti can truthfully say that Microsoft enterprise support taught her to coordina
 | **Customer Success Manager or CSM** | A partner focused on adoption, value, goals, and relationship health | CSM context can improve coordination without replacing technical ownership | Support fixes the case; CSM protects the journey |
 | **Knowledge base or KB** | A maintained set of reusable support guidance | A verified case can reduce future customer effort | Solve once, teach responsibly |
 | **Customer satisfaction or CSAT** | Feedback about how a customer perceived an interaction or service | It can reveal trust and quality signals, but it is not the whole outcome | A score is a signal, not the story |
-| **CRITSIT or critical situation** | A Microsoft support term used in Arti's CV context for high-impact, tightly coordinated support work | It provides a real transfer example for structured communication under pressure | Facts, owners, cadence, validation |
+| **Critical situation** | A enterprise support term used in your CV context for high-impact, tightly coordinated support work | It provides a real transfer example for structured communication under pressure | Facts, owners, cadence, validation |
 
 ## The Core Mental Model: Own the Journey, Route the Work
 
@@ -416,13 +416,13 @@ Never invent a company's severity definitions or response targets. Ask for the d
 | Skip notes during a call | Keep a live decision and action ledger |
 | Close when a fix ships | Validate the original workflow and watch for recurrence conditions |
 
-### CRITSIT transfer, stated honestly
+### Critical-situation transfer, stated honestly
 
-Arti's CV supports CRITSIT experience and clear customer/partner updates. The transferable method is to keep impact, known facts, unknowns, owners, actions, and checkpoints visible under pressure. Arti may also connect Engineering/Product collaboration and fix validation to critical-case follow-through.
+Your CV supports critical-situation experience and clear customer/partner updates. The transferable method is to keep impact, known facts, unknowns, owners, actions, and checkpoints visible under pressure. You may also connect Engineering/Product collaboration and fix validation to critical-case follow-through.
 
-Arti must supply the actual story details herself. A safe interview scaffold is:
+You must supply the actual story details yourself. A safe interview scaffold is:
 
-> In a Microsoft enterprise CRITSIT involving **[sanitized real workload and impact]**, I was responsible for **[verified personal ownership]**. I kept technical and nontechnical stakeholders aligned by **[real cadence or artifact]**, worked with **[verified team boundary]** using **[real evidence]**, and validated **[real customer outcome]**. The experience taught me **[real lesson]**. I would transfer that coordination discipline to a security SaaS support case, while learning and following the new product's severity and escalation rules.
+> In a enterprise critical-situation involving **[sanitized real workload and impact]**, I was responsible for **[verified personal ownership]**. I kept technical and nontechnical stakeholders aligned by **[real cadence or artifact]**, worked with **[verified team boundary]** using **[real evidence]**, and validated **[real customer outcome]**. The experience taught me **[real lesson]**. I would transfer that coordination discipline to a security SaaS support case, while learning and following the new product's severity and escalation rules.
 
 This scaffold is **template only** until every bracket is replaced with a real, nonconfidential fact.
 
@@ -716,11 +716,11 @@ Follow-through starts when another person accepts an action. It includes trackin
 
 Capture knowledge when the conclusion is stable enough to guide another case. Good knowledge contains symptoms, environment, prerequisites, decision points, safe evidence, resolution or workaround, validation, limitations, and escalation criteria. Remove customer identifiers and avoid turning one case into a universal rule.
 
-Arti's CV-supported KB/training creation, mentoring, and case-quality work are strong production transfers. A safe statement is:
+Your CV-supported KB/training creation, mentoring, and case-quality work are strong production transfers. A safe statement is:
 
-> My Microsoft support experience taught me to turn verified case learning into reusable KB or training and to improve quality through mentoring. I would bring that habit to a new support organization while learning its review, publication, privacy, and measurement standards.
+> My prior support experience taught me to turn verified case learning into reusable KB or training and to improve quality through mentoring. I would bring that habit to a new support organization while learning its review, publication, privacy, and measurement standards.
 
-Do not claim a particular deflection percentage, publication count, audience size, or named methodology unless Arti can verify it.
+Do not claim a particular deflection percentage, publication count, audience size, or named methodology unless you can verify it.
 
 ## Impact Over Activity
 
@@ -730,10 +730,10 @@ An ownership story should end with the changed condition, not the number of mess
 |---|---|
 | “I escalated to Engineering.” | “I converted the case into a reproducible technical question, enabled Engineering to inspect the missing layer, maintained customer continuity, and validated the returned path.” |
 | “I sent daily updates.” | “I reduced stakeholder uncertainty by maintaining an agreed cadence that separated current impact, evidence, dependencies, and decisions.” |
-| “I joined a CRITSIT call.” | “I helped keep a high-pressure Microsoft support situation structured around impact, facts, owners, and checkpoints.” |
+| “I joined a critical-situation call.” | “I helped keep a high-pressure enterprise support situation structured around impact, facts, owners, and checkpoints.” |
 | “I worked with Product.” | “I supplied customer impact and recurring evidence so Product could clarify intended behavior or evaluate the need without an unsupported roadmap promise.” |
 | “I wrote a KB.” | “I captured a verified path so future engineers or customers could reach the right action with less repeated effort.” |
-| “I mentored engineers.” | “I helped others apply consistent case-quality and communication habits, using only results Arti can substantiate.” |
+| “I mentored engineers.” | “I helped others apply consistent case-quality and communication habits, using only results you can substantiate.” |
 | “I reviewed CSAT and backlog.” | “I used support signals to identify experience, aging, or quality patterns and inform a targeted improvement, without inventing metrics.” |
 
 Useful impact categories are restored function, protected safety, reduced uncertainty, reduced customer effort, faster access to the right expertise, higher-quality decision, verified fix, reusable knowledge, improved case quality, and better product evidence. Pick only the category supported by the example.
@@ -811,33 +811,33 @@ The trigger is not “the case is difficult.” The trigger is a named need: **a
 
 The CV/master supports categories of experience, not complete stories. The examples below show how to translate those categories without inventing details.
 
-### Example 1: CRITSIT ownership
+### Example 1: critical-situation ownership
 
-**Supported facts:** Arti worked in Microsoft enterprise support/escalation and handled CRITSITs and clear customer/partner updates.
+**Supported facts:** You worked in enterprise support/escalation and handled critical situations and clear customer/partner updates.
 
 **Safe transfer statement:**
 
-> In Microsoft enterprise support, I worked in CRITSIT situations where disciplined ownership and clear updates mattered under pressure. My transferable method is to keep impact, confirmed facts, unknowns, action owners, and next checkpoints visible for technical and nontechnical stakeholders. I would apply that method to a security SaaS case while following the new organization's documented severity and escalation process.
+> In enterprise support, I worked in critical situations where disciplined ownership and clear updates mattered under pressure. My transferable method is to keep impact, confirmed facts, unknowns, action owners, and next checkpoints visible for technical and nontechnical stakeholders. I would apply that method to a security SaaS case while following the new organization's documented severity and escalation process.
 
-**Needs candidate detail before STAR use:** A real sanitized situation, Arti's personal actions, update method, decisions, verified outcome, and lesson.
+**Needs candidate detail before STAR use:** A real sanitized situation, your personal actions, update method, decisions, verified outcome, and lesson.
 
-**Do not claim:** That the CRITSIT was an email-security incident, that Arti was the incident commander, or that a particular metric improved.
+**Do not claim:** That the critical situation was an email-security incident, that you were the incident commander, or that a particular metric improved.
 
 ### Example 2: Engineering/Product collaboration and fix validation
 
-**Supported facts:** Arti collaborated with Engineering/Product on escalations and validated fixes.
+**Supported facts:** You collaborated with Engineering/Product on escalations and validated fixes.
 
 **Safe transfer statement:**
 
-> My Microsoft escalation experience taught me that a handoff must make the next team able to act: expected and actual behavior, useful evidence, scope, and a clear question. I also learned that the customer case is not complete when a fix is proposed; the original scenario must be validated. That discipline transfers directly even though Abnormal's product and internal workflow are new to me.
+> My prior escalation experience taught me that a handoff must make the next team able to act: expected and actual behavior, useful evidence, scope, and a clear question. I also learned that the customer case is not complete when a fix is proposed; the original scenario must be validated. That discipline transfers directly even though Abnormal's product and internal workflow are new to me.
 
-**Needs candidate detail:** The real workload, observed behavior, evidence, explicit ask, Arti's role, validation step, and outcome.
+**Needs candidate detail:** The real workload, observed behavior, evidence, explicit ask, your role, validation step, and outcome.
 
 **Do not claim:** Code-level diagnosis, Product roadmap influence, or defect ownership unless a real story supports it.
 
 ### Example 3: CSAT, backlog, and case quality
 
-**Supported facts:** Arti analyzed or worked with CSAT, backlog, and case-quality signals.
+**Supported facts:** You analyzed or worked with CSAT, backlog, and case-quality signals.
 
 **Safe transfer statement:**
 
@@ -849,13 +849,13 @@ The CV/master supports categories of experience, not complete stories. The examp
 
 ### Example 4: KB, training, and mentoring
 
-**Supported facts:** Arti created KB/training and mentored others.
+**Supported facts:** You created KB/training and mentored others.
 
 **Safe transfer statement:**
 
 > I have turned support learning into KB and training and supported others through mentoring. The ownership connection is that a case should leave the system better when its lesson is verified: clearer diagnostic guidance, fewer repeated questions, or stronger case quality. I would first learn the new organization's review and privacy standards before publishing product-specific guidance.
 
-**Needs candidate detail:** Audience, problem, Arti's content or coaching action, review method, and observed result.
+**Needs candidate detail:** Audience, problem, your content or coaching action, review method, and observed result.
 
 **Do not claim:** Named KCS certification, deflection outcome, or publication scale unless verified.
 
@@ -869,11 +869,11 @@ Create a complete ownership and communication package for a synthetic SaaS secur
 
 Place this label at the top of every lab artifact:
 
-> **Local/public lab:** Produced from a synthetic SaaS security case. No Abnormal AI, customer, Microsoft production, email-security operations, or named adjacent platform experience is implied.
+> **Local/public lab:** Produced from a synthetic SaaS security case. No Abnormal AI, customer, prior production, email-security operations, or named adjacent platform experience is implied.
 
 ### Prerequisites
 
-1. A local folder controlled by Arti.
+1. A local folder controlled by you.
 2. A Markdown editor or spreadsheet application.
 3. A clock or timer for update-cadence simulation.
 4. This Part's ownership, VANET, CLEAR-UP, warm-handoff, and closure templates.
@@ -1043,20 +1043,20 @@ Maximum score: 40. A first-pass target is **30 or higher**, with no score below 
 
 ## Official Source Anchors
 
-All sources were accessed on **August 24, 2026**. Official guidance can change, especially product support workflows, severity definitions, service commitments, and organizational practices. Revalidate current pages before an interview. The supplied CV/master remains the only source for Arti's production-experience claims.
+All sources were accessed on **August 24, 2026**. Official guidance can change, especially product support workflows, severity definitions, service commitments, and organizational practices. Revalidate current pages before an interview. The supplied CV/master remains the only source for your production-experience claims.
 
 | Official source title or family | URL | Access date | Use in this Part and caution |
 |---|---|---|---|
 | Supplied Abnormal AI Technical Support Engineer JD represented in the confirmed master | No public URL supplied | August 24, 2026 | Role scope, stakeholders, customer trust, communication, collaboration, and knowledge expectations; do not infer private process |
-| Arti Thakur tailored CV/master evidence summary | Local supplied source; no public URL | August 24, 2026 | Microsoft enterprise support/escalation, CRITSIT, updates, Engineering/Product collaboration, fix validation, CSAT/backlog/case quality, KB/training, and mentoring; do not invent story details |
+| Your CV and master evidence summary | Local supplied source; no public URL | August 24, 2026 | enterprise support/escalation, critical situation, updates, Engineering/Product collaboration, fix validation, CSAT/backlog/case quality, KB/training, and mentoring; do not invent story details |
 | Microsoft Support for business | <https://support.microsoft.com/supportforbusiness> | August 24, 2026 | Official Microsoft business-support entry family; current entitlement and workflow details must be checked live |
-| Microsoft 365 admin center: Get support | <https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-support> | August 24, 2026 | Official example of business support-request guidance and organizational/admin context; not evidence of Arti's exact workflow |
+| Microsoft 365 admin center: Get support | <https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-support> | August 24, 2026 | Official example of business support-request guidance and organizational/admin context; not evidence of your exact workflow |
 | NIST SP 800-61 Revision 3, Incident Response Recommendations and Considerations for Cybersecurity Risk Management | <https://csrc.nist.gov/pubs/sp/800/61/r3/final> | August 24, 2026 | Official incident-response authority for preparation and coordinated response concepts; this Part does not reproduce a full incident-response process |
 
 ### Source discipline
 
 - **Sourced fact:** The supplied JD/master names enterprise L1 ownership, customer trust, communication, collaboration, and knowledge responsibilities.
-- **CV-supported production transfer:** Arti's Microsoft enterprise support/escalation, CRITSIT, customer/partner updates, Engineering/Product collaboration, fix validation, support analytics, KB/training, and mentoring.
+- **CV-supported production transfer:** Your prior enterprise support/escalation, critical situation, customer/partner updates, Engineering/Product collaboration, fix validation, support analytics, KB/training, and mentoring.
 - **Reasoned support model:** The ownership loops, stakeholder maps, VANET, CLEAR-UP, trust scorecard, and lab are teaching frameworks created for preparation. They are not presented as Abnormal or Microsoft internal methods.
 - **Synthetic evidence:** The Northwind Shield Lab case, users, IDs, API behavior, defect, correction, messages, and times are fictional.
 - **Unverified and prohibited inference:** No private Abnormal tooling, severity target, queue, response commitment, product behavior, detection logic, or organization chart is claimed.
@@ -1073,7 +1073,7 @@ All sources were accessed on **August 24, 2026**. Official guidance can change, 
 
 **Question:** How do you balance urgency with technical quality?
 
-**Model answer:** I make the fastest safe action the priority. I establish impact and any immediate risk, preserve necessary evidence, choose a reversible test that separates the leading hypotheses, and escalate early when access or authority is missing. I do not treat urgency as permission to request excessive data, make multiple uncontrolled changes, or promise a fix time I do not control. During CRITSIT work in Microsoft support, the transferable discipline was keeping facts, owners, actions, and checkpoints clear under pressure.
+**Model answer:** I make the fastest safe action the priority. I establish impact and any immediate risk, preserve necessary evidence, choose a reversible test that separates the leading hypotheses, and escalate early when access or authority is missing. I do not treat urgency as permission to request excessive data, make multiple uncontrolled changes, or promise a fix time I do not control. During critical-situation work in enterprise support, the transferable discipline was keeping facts, owners, actions, and checkpoints clear under pressure.
 
 ### Q3.
 
@@ -1101,9 +1101,9 @@ All sources were accessed on **August 24, 2026**. Official guidance can change, 
 
 ### Q7.
 
-**Question:** Tell me how your Microsoft support experience transfers to this role without overstating it.
+**Question:** Tell me how your prior support experience transfers to this role without overstating it.
 
-**Model answer:** My CV supports five years of Microsoft enterprise support and escalation, including CRITSITs, customer and partner updates, Engineering and Product collaboration, fix validation, KB and training creation, mentoring, and CSAT, backlog, and case-quality work. Those experiences transfer to ownership, communication, escalation quality, validation, and continuous improvement. I do not claim direct Abnormal AI, email-security operations, or named adjacent platform production experience. The support method transfers; the product and security workflows are learning and lab targets.
+**Model answer:** My CV supports several years of enterprise support and escalation, including critical situations, customer and partner updates, Engineering and Product collaboration, fix validation, KB and training creation, mentoring, and CSAT, backlog, and case-quality work. Those experiences transfer to ownership, communication, escalation quality, validation, and continuous improvement. I do not claim direct Abnormal AI, email-security operations, or named adjacent platform production experience. The support method transfers; the product and security workflows are learning and lab targets.
 
 ### Q8.
 
@@ -1127,7 +1127,7 @@ All sources were accessed on **August 24, 2026**. Official guidance can change, 
 - **Urgency chooses the fastest safe discriminating action.**
 - **A deployed fix is activity; a validated customer outcome is impact.**
 - **Close the loop, then capture only verified learning.**
-- **Microsoft support discipline transfers; Abnormal and email-security operations do not become claimed experience.**
+- **enterprise support discipline transfers; Abnormal and email-security operations do not become claimed experience.**
 
 ## Completion Checklist
 
@@ -1148,7 +1148,7 @@ All sources were accessed on **August 24, 2026**. Official guidance can change, 
 - [ ] I completed the Enterprise Ownership and Trust Case Lab using only synthetic identifiers.
 - [ ] My lab contains an ownership map, at least eight-row next-action ledger, update cadence, five audience-specific updates, warm handoff, closure note, and trust scorecard.
 - [ ] My lab score is at least 30/40, with candor, safety/privacy, and closure each at 2 or higher.
-- [ ] Every lab artifact carries the exact local/public lab label and contains no real customer, Microsoft production, Abnormal, email-security, or named-platform evidence.
+- [ ] Every lab artifact carries the exact local/public lab label and contains no real customer, prior production, Abnormal, email-security, or named-platform evidence.
 - [ ] I can tell one real Microsoft ownership story only after filling missing details from memory and checking confidentiality; I have invented no impact, root cause, metric, or outcome.
 - [ ] I can answer all eight interview questions aloud while preserving the production-transfer, lab, learned-architecture, and no-direct-experience boundaries.
 - [ ] I rechecked official-source currency against the August 24, 2026 access date and separated sourced fact from teaching framework and synthetic evidence.

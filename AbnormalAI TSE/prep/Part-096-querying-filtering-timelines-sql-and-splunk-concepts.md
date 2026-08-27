@@ -2,17 +2,17 @@
 
 > **Purpose:** Build a beginner-first, evidence-safe method for searching structured support records, extracting useful fields, applying Boolean logic, aggregating events, joining related records, using window calculations, comparing baselines, and building a recurring-pattern timeline. The examples use only fictional local data and teach read-only SQL and Splunk-style concepts without representing any vendor's production schema.
 >
-> **Artifact honesty label:** **Local synthetic query-workbook design only.** Every event, identity, tenant, message, request, timestamp, identifier, query result, trend, and conclusion in this Part is invented. No query in this guide was executed. The lab does not connect to a database, Splunk deployment, cloud tenant, Abnormal AI system, customer environment, or external service. Arti must describe the artifact as completed only if she actually creates and reviews it locally.
+> **Artifact honesty label:** **Local synthetic query-workbook design only.** Every event, identity, tenant, message, request, timestamp, identifier, query result, trend, and conclusion in this Part is invented. No query in this guide was executed. The lab does not connect to a database, Splunk deployment, cloud tenant, Abnormal AI system, customer environment, or external service. You must describe the artifact as completed only if you actually create and reviews it locally.
 >
 > **Currency and source access date:** August 24, 2026.
 
 ## Section goal
 
-By the end of this Part, Arti should be able to turn a support question into a narrow, reproducible query; explain what each clause does; inspect whether expected fields and time ranges are actually present; and produce a query workbook plus a recurring-pattern timeline from harmless synthetic records. She should be able to move from individual events to grouped patterns without losing source provenance, retry identity, missing-data boundaries, or the distinction between what a query returned and what actually happened.
+By the end of this Part, you should be able to turn a support question into a narrow, reproducible query; explain what each clause does; inspect whether expected fields and time ranges are actually present; and produce a query workbook plus a recurring-pattern timeline from harmless synthetic records. You should be able to move from individual events to grouped patterns without losing source provenance, retry identity, missing-data boundaries, or the distinction between what a query returned and what actually happened.
 
 The primary artifact is a **query workbook and recurring-pattern timeline**. A query workbook is a structured record of the question, source, schema, time interval, query text, assumptions, result summary, validation checks, privacy limits, and next action. A recurring-pattern timeline is an ordered summary that shows when a symptom repeats, which dimensions recur, how its frequency compares with an explicit baseline, and where coverage or confidence changes. Neither artifact is a pile of copied search results.
 
-This Part covers search, field extraction, Boolean logic, aggregation, joins, windows, baselines, SQL, and Splunk-style concepts. Every concept is defined before it is used. Examples deliberately use two different query families so Arti can recognize transferable reasoning while respecting dialect differences. **SQL**, or Structured Query Language, is a family of languages for working with relational data. The SQL examples target read-only **SQLite 3-style** syntax for a possible local exercise. **SPL**, or Search Processing Language, is Splunk's search language. The Splunk-style examples are pedagogical text only and were not validated against Splunk Cloud Platform or Splunk Enterprise. Actual syntax, commands, fields, permissions, limits, and behavior must be checked against the deployed product and version.
+This Part covers search, field extraction, Boolean logic, aggregation, joins, windows, baselines, SQL, and Splunk-style concepts. Every concept is defined before it is used. Examples deliberately use two different query families so you can recognize transferable reasoning while respecting dialect differences. **SQL**, or Structured Query Language, is a family of languages for working with relational data. The SQL examples target read-only **SQLite 3-style** syntax for a possible local exercise. **SPL**, or Search Processing Language, is Splunk's search language. The Splunk-style examples are pedagogical text only and were not validated against Splunk Cloud Platform or Splunk Enterprise. Actual syntax, commands, fields, permissions, limits, and behavior must be checked against the deployed product and version.
 
 Safety is part of query correctness. This Part prohibits credentials or customer content, broad production searches or exports, control bypass, SQL injection testing, destructive SQL, unsafe uploads, and claims that a local synthetic pattern reflects Abnormal production behavior. A technically valid query can still be operationally wrong if it exceeds authorization, collects unnecessary data, changes state, silently drops records, joins unrelated entities, or overstates causality.
 
@@ -23,26 +23,26 @@ Safety is part of query correctness. This Part prohibits credentials or customer
 | Complex SaaS troubleshooting | Converts a symptom into bounded searches and discriminating comparisons | Finds the first useful evidence without requesting an unrestricted export | Query scope card and workbook |
 | Log and evidence analysis | Extracts typed fields, checks coverage, and preserves source meaning | Separates a real absence from a field, permission, retention, or query problem | Field and coverage register |
 | SQL familiarity | Uses read-only selection, filtering, grouping, joins, common table expressions, and windows | Investigates synthetic support events with reproducible logic | SQLite 3-style query worksheet |
-| Splunk familiarity as a learning target | Maps search pipelines, field extraction, `stats`, `eventstats`, `streamstats`, `timechart`, and safe joins conceptually | Can discuss how she would approach indexed event data without claiming production access | Splunk-style concept worksheet |
+| Splunk familiarity as a learning target | Maps search pipelines, field extraction, `stats`, `eventstats`, `streamstats`, `timechart`, and safe joins conceptually | Can discuss how you would approach indexed event data without claiming production access | Splunk-style concept worksheet |
 | Incident timelines | Preserves raw time, normalized time, event versus ingest time, and retry identity | Reconstructs sequence while avoiding portal-order and clock-skew mistakes | Recurring-pattern timeline |
 | Trend identification | Compares counts, rates, dimensions, and explicit baselines | Distinguishes a repeated symptom from a widespread regression | Baseline comparison sheet |
 | Engineering escalation | Records exact query, schema assumptions, source coverage, samples, and alternatives | Makes the investigation reproducible and reviewable | Engineering query manifest |
 | Customer communication | Translates query findings into bounded observations and next steps | Avoids phrases such as “the logs prove” when evidence is incomplete | Customer-safe pattern summary |
 | Privacy and security | Uses narrow time, selected fields, aliases, aggregate-first review, and export limits | Reduces exposure while preserving diagnostic value | Privacy and query-safety checklist |
-| Microsoft support transfer | Reuses Arti's enterprise support, scoping, analytics, evidence, and escalation habits | Makes an honest bridge from support analytics to security SaaS troubleshooting | Candidate transfer statement |
+| enterprise support transfer | Reuses your enterprise support, scoping, analytics, evidence, and escalation habits | Makes an honest bridge from support analytics to security SaaS troubleshooting | Candidate transfer statement |
 | No direct Abnormal or Splunk production claim | Labels generic concepts, fictional schemas, and unexecuted queries | Prevents invented access, retention, field names, commands, or product behavior | Candidate boundary statement |
 
 ## Candidate honesty note
 
-Arti can honestly say that her Microsoft enterprise support background gives her transferable query reasoning: start with the customer's impact, reduce the time and entity scope, preserve identifiers, compare healthy and failing behavior, test assumptions, summarize evidence, and escalate with a reproducible question. Her support and analytics experience is useful because querying is not merely syntax. It is the discipline of translating an ambiguous report into fields, conditions, comparisons, and evidence limits.
+You can honestly say that your prior enterprise support background gives your transferable query reasoning: start with the customer's impact, reduce the time and entity scope, preserve identifiers, compare healthy and failing behavior, test assumptions, summarize evidence, and escalate with a reproducible question. Your support and analytics experience is useful because querying is not merely syntax. It is the discipline of translating an ambiguous report into fields, conditions, comparisons, and evidence limits.
 
-She should describe only tools and production activities she actually used. This Part does not establish that she operated Splunk, administered a security information and event management platform, queried Abnormal AI telemetry, accessed customer mail or security content, maintained production SQL databases, or ran incident hunts. Reading official documentation and designing a synthetic workbook establish learned concepts. Completing the local lab would establish local demonstrated practice. Neither is equivalent to production ownership.
+You should describe only tools and production activities you actually used. This Part does not establish that you operated Splunk, administered a security information and event management platform, queried Abnormal AI telemetry, accessed customer mail or security content, maintained production SQL databases, or ran incident hunts. Reading official documentation and designing a synthetic workbook establish learned concepts. Completing the local lab would establish local demonstrated practice. Neither is equivalent to production ownership.
 
 Nothing here describes Abnormal AI's indexes, source types, fields, data model, retention, search interface, internal queries, customer permissions, detection logic, or operational limits. Generic fields such as `event_time`, `request_alias`, `status_class`, and `tenant_alias` are fictional teaching fields. During onboarding, approved product documentation and owners must define available sources, searchable fields, identifier scope, access controls, query cost, export policy, and escalation procedures.
 
-| Evidence tier | Honest wording Arti can adapt | Boundary to preserve |
+| Evidence tier | Honest wording you can adapt | Boundary to preserve |
 |---|---|---|
-| Production transfer | “In Microsoft enterprise support, I used scoped evidence and analytics to investigate customer-impacting patterns and prepare escalations.” | Use a real, permitted example and name the actual tool and depth |
+| Production transfer | “In enterprise support, I used scoped evidence and analytics to investigate customer-impacting patterns and prepare escalations.” | Use a real, permitted example and name the actual tool and depth |
 | SQL knowledge | “I can explain and write read-only SQL for filtering, grouping, joining, and windowed analysis.” | Do not imply database administration or production execution unless true |
 | Splunk concept familiarity | “I have studied Splunk search-pipeline concepts and mapped them to a synthetic support corpus.” | Do not claim Splunk production operation, certification, or tenant access unless established |
 | Demonstrated local practice | “I designed and, if completed, reviewed a local synthetic query workbook and recurring-pattern timeline.” | State whether the lab was actually performed |
@@ -968,7 +968,7 @@ It prohibits uploading a database, log, workbook, search result, screenshot, or 
 
 Stop local query work and use the approved path when:
 
-- The next query would require production access, a broader index, another tenant, privileged fields, customer content, mailbox content, security evidence, or a role Arti does not hold.
+- The next query would require production access, a broader index, another tenant, privileged fields, customer content, mailbox content, security evidence, or a role you do not hold.
 - A result contains or may contain a credential, token, cookie, key, connection string, private URL, personal identifier, message content, attachment, customer file, or proprietary sensitive field.
 - The query would be expensive, all-time, high-cardinality, regex-heavy, join-heavy, or export-heavy and the platform owner has not approved its scope.
 - Row counts change unexpectedly after extraction or join, raw and normalized times conflict, identifiers appear reused outside their declared scope, or evidence integrity is uncertain.
@@ -998,7 +998,7 @@ An escalation should include one precise question. Example: “For approved sche
 | Troubleshooting | Includes a query-integrity decision tree and matrix | Section 13 |
 | Failure and escalation | Lists misleading practices, prohibitions, and stop conditions | Section 14 |
 | Safe lab | Uses only handwritten/local synthetic metadata and does not claim execution | Lab section |
-| Candidate honesty | Separates Microsoft support/analytics transfer from Splunk and Abnormal production claims | Candidate honesty note |
+| Candidate honesty | Separates enterprise support/analytics transfer from Splunk and Abnormal production claims | Candidate honesty note |
 | Official anchors | Uses official SQLite, PostgreSQL, Microsoft, MySQL, Splunk, OWASP, IETF, and NIST sources with boundaries | Dated source section |
 | Interview Q&A | Contains exactly eight numbered question headings with model answers | Interview section |
 | Completion controls | Includes knowledge, artifact, privacy, source, spoken, and honesty checks | Completion Checklist |
@@ -1016,7 +1016,7 @@ This is a design-and-analysis lab using handwritten fictional support records. I
 - Use fixed harmless route families such as `policy-save`, not real URLs, domains, paths, query strings, or customer object names.
 - Exclude credentials, passwords, cookies, authorization, tokens, keys, connection strings, session values, email addresses, message content, subjects, bodies, attachments, files, private URLs, tenant IDs, device IDs, customer IDs, and proprietary fields.
 - Every synthetic record must include `synthetic=1` or an equivalent explicit label.
-- Every workbook entry must include `run_state=not_run` until Arti actually performs an approved local step.
+- Every workbook entry must include `run_state=not_run` until you actually perform an approved local step.
 - SQL pages may contain SELECT-only SQLite 3-style examples. They must contain no state-changing, destructive, administrative, extension, attachment, or permission statement.
 - Splunk pages must be labeled `unexecuted Splunk-style concept`; they must not claim compatibility with a product or version.
 - **Artifact honesty label:** `Local synthetic query lab; no customer data, credentials, content, production telemetry, database connection, Splunk deployment, Abnormal system, external upload, control bypass, injection test, state change, destructive SQL, or executed query.`
@@ -1099,7 +1099,7 @@ Create, only if actually performing the lab, a local fictional corpus and workbo
 55. Practice a five-minute explanation of search, filter, Boolean logic, extraction, aggregation, join, window, timeline, baseline, SQL, and Splunk-style concepts without reading.
 56. Practice a 90-second answer that explains why correlation is not causation and uses the synthetic scenario as a method demonstration, not production experience.
 57. Score the artifact with the rubric. Mark operational checks `not run` unless they were actually performed locally.
-58. Review every sentence for unsupported Abnormal or Splunk claims. Replace claims with Microsoft support transfer, local synthetic demonstration, learned concept, or onboarding verification.
+58. Review every sentence for unsupported Abnormal or Splunk claims. Replace claims with enterprise support transfer, local synthetic demonstration, learned concept, or onboarding verification.
 59. Retain only the minimum synthetic learning artifact if it remains useful. Remove obsolete drafts only through the learner's normal approved file interface after verifying the isolated path.
 60. Do not use recursive deletion, database deletion, log clearing, index changes, retention changes, permission changes, control bypass, unsafe upload, or any destructive cleanup action.
 
@@ -1178,7 +1178,7 @@ If the lab is actually performed, expected evidence includes:
 | Privacy | Includes credentials/content or broad export | Redacts after collection | Structurally excludes sensitive classes and uses only minimal local fictional metadata |
 | Security | Tests injection, bypasses control, or uses destructive SQL | States caution | Explicitly prohibits injection testing, control bypass, state changes, destructive SQL, and unsafe uploads |
 | Artifact | Keeps loose query notes | Has several queries | Delivers scope, schema, known cases, query manifest, key register, baseline, timeline, privacy, and summaries |
-| Candidate honesty | Implies Abnormal/Splunk production work | Calls data synthetic | Separates Microsoft transfer, local practice, learned concepts, unexecuted examples, and product unknowns |
+| Candidate honesty | Implies Abnormal/Splunk production work | Calls data synthetic | Separates experience transfer, local practice, learned concepts, unexecuted examples, and product unknowns |
 | Spoken readiness | Recites syntax | Explains one query | Explains the complete method and answers all eight questions with evidence limits |
 
 ## Official Source Anchors - August 24, 2026
@@ -1252,7 +1252,7 @@ These official or primary sources anchor generic query-language, SQLite, SQL-dia
 
 ### Q8. How would you present your experience with SQL, Splunk concepts, and Abnormal AI honestly?
 
-**Model answer:** I would connect my Microsoft enterprise support and analytics background to the core habits: scoping customer impact, querying bounded evidence, comparing healthy and failing behavior, protecting data, and producing reproducible escalations. I can explain and write read-only SQL concepts and I have mapped Splunk-style search concepts to a fictional corpus. I would not claim Splunk production operation, Abnormal internal access, proprietary schemas, or executed lab results unless I had actually done them. During onboarding I would verify the approved product, fields, permissions, retention, query limits, and runbooks.
+**Model answer:** I would connect my prior enterprise support and analytics background to the core habits: scoping customer impact, querying bounded evidence, comparing healthy and failing behavior, protecting data, and producing reproducible escalations. I can explain and write read-only SQL concepts and I have mapped Splunk-style search concepts to a fictional corpus. I would not claim Splunk production operation, Abnormal internal access, proprietary schemas, or executed lab results unless I had actually done them. During onboarding I would verify the approved product, fields, permissions, retention, query limits, and runbooks.
 
 ## Memory Hooks
 
@@ -1321,7 +1321,7 @@ These official or primary sources anchor generic query-language, SQLite, SQL-dia
 - [ ] I will never test SQL injection, concatenate untrusted input, add destructive or state-changing SQL, change schema or permissions, or alter evidence.
 - [ ] I will never upload a database, log, query result, workbook, screenshot, or export to an unapproved public tool or service.
 - [ ] I can state the difference between a designed artifact, a locally completed synthetic artifact, and production experience.
-- [ ] I can connect Arti's Microsoft support and analytics background to query reasoning without inventing Splunk or Abnormal production experience.
+- [ ] I can connect your prior support and analytics background to query reasoning without inventing Splunk or Abnormal production experience.
 - [ ] I can answer Q1-Q8 aloud with a specific method, safety boundary, and evidence limit.
 - [ ] I have revalidated official documentation for the actual SQL dialect, Splunk product/version, role, schema, and date before any real use.
 - [ ] I can state the final honesty label accurately: not run unless the local synthetic lab was actually performed.

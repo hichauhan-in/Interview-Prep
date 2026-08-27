@@ -2,7 +2,7 @@
 
 > **Section goal:** Master the approved Defender for Office 365 (MDO) security-operations scope at greater depth than Part 22's prevention baseline: incidents and alerts; Threat Explorer, Real-time detections and campaigns; email entity/page, headers, sender, recipient, URL, attachment/file and related-entity analysis; admin submissions and user-reported messages; Threat Tracker and current hunting tools; automated investigation and response (AIR), investigation graphs, verdicts, recommendations and Action Center; advanced-hunting email tables and query concepts; campaign clustering; business email compromise (BEC), phishing, malware and internal-phish response; scope search, purge/remediation permissions and safeguards; compromised-user coordination; mail-flow and third-party gateway evidence; false positives, false negatives and tuning; metrics, runbooks, shift handover and post-incident review (PIR). By the end, you should be able to design, deploy, test, operate and troubleshoot a safe MDO SecOps process and explain a fictional investigation without claiming production MDO ownership.
 
-This Part maps directly to Deloitte's Microsoft Defender for Office 365, Defender XDR, Exchange Online, Microsoft 365 workload security, incident response, threat investigation, assessment, operational readiness, 24x7/on-call, troubleshooting, documentation and stakeholder expectations. Arti's production strengths in Microsoft 365 support escalations, SharePoint/OneDrive workload behavior, critical incidents, RCA, evidence timelines, service-health checks, fix validation, multi-team coordination, shift-quality documentation and stakeholder updates are directly useful. The honest bridge is applying those methods to email and collaboration threat evidence. This chapter never claims production MDO SecOps ownership.
+This Part maps directly to Deloitte's Microsoft Defender for Office 365, Defender XDR, Exchange Online, Microsoft 365 workload security, incident response, threat investigation, assessment, operational readiness, 24x7/on-call, troubleshooting, documentation and stakeholder expectations. Your production strengths in Microsoft 365 support escalations, SharePoint/OneDrive workload behavior, critical incidents, RCA, evidence timelines, service-health checks, fix validation, multi-team coordination, shift-quality documentation and stakeholder updates are directly useful. The honest bridge is applying those methods to email and collaboration threat evidence. This chapter never claims production MDO SecOps ownership.
 
 > **Currency, licensing, portal, AI and change-sensitive note:** This chapter was checked against official Microsoft Learn content available on **August 24, 2026**. Real-time detections is associated with Defender for Office 365 Plan 1; Threat Explorer's deeper hunting/remediation, campaigns, Threat Tracker and AIR require Plan 2 under current guidance. Microsoft is adding AI-assisted/agentic submission grading and Security Copilot/Phishing Triage Agent capabilities under license and rollout conditions. Teams-message reporting has preview/change-sensitive behavior. Retention, selection/remediation limits, Action Center history, query schemas, campaign clustering, submission throttles, government-cloud behavior, unified RBAC, portal labels and available actions can change. Verify Product Terms, service descriptions, current MDO/Exchange/Defender roles, message-retention/location, live tenant UI, Message center, Roadmap and privacy rules before acting.
 
@@ -19,9 +19,9 @@ This Part maps directly to Deloitte's Microsoft Defender for Office 365, Defende
 
 ## Candidate honesty note
 
-Arti can speak directly about production Microsoft 365 escalations, critical incidents, RCA, evidence gathering, workload dependencies, fix validation, service health, stakeholder updates, documentation and cross-team/vendor coordination where supported by her experience. Those are highly relevant because email threat response depends on precise identifiers, timelines, scope, ownership and communication.
+You can speak directly about production Microsoft 365 escalations, critical incidents, RCA, evidence gathering, workload dependencies, fix validation, service health, stakeholder updates, documentation and cross-team/vendor coordination where supported by your experience. Those are highly relevant because email threat response depends on precise identifiers, timelines, scope, ownership and communication.
 
-She should not claim that she has operated Threat Explorer, purged production mail, approved AIR actions, investigated real MDO campaigns, tuned production detections, disabled compromised accounts or used Search and Purge in a client tenant unless separately evidenced. Safe wording is:
+You should not claim that you have operated Threat Explorer, purged production mail, approved AIR actions, investigated real MDO campaigns, tuned production detections, disabled compromised accounts or used Search and Purge in a client tenant unless separately evidenced. Safe wording is:
 
 > “My production foundation is Microsoft 365 incident support, RCA, evidence timelines, validation and stakeholder coordination. I have built a current MDO SecOps design and a safe fictional paper investigation covering BEC/phishing scope, message entities, AIR, purge safeguards and handover. I have not operated MDO SecOps or remediated production mail. In a client tenant I would verify Plan 1/2 capabilities and roles, preserve message and identity evidence, scope with immutable message identifiers, use two-person approval for destructive actions, coordinate identity and workload response, verify every remediation result and document residual risk.”
 
@@ -1031,7 +1031,7 @@ A real vendor account sends an authenticated bank-change request. Treat passing 
 
 ### Scenario B: third-party gateway hides original sender
 
-Trace headers and connector, validate Enhanced Filtering for Connectors and gateway logs, compare EOP verdict/override and avoid broad IP allows. Build a joint vendor/Microsoft evidence pack.
+Trace headers and connector, validate Enhanced Filtering for Connectors and gateway logs, compare EOP verdict/override and avoid broad IP allows. Build a joint vendor/prior evidence pack.
 
 ### Scenario C: large purge requested by executive
 
@@ -1147,7 +1147,7 @@ Write a handover with completed/pending/failed actions and residual external-rec
 
 ## 50. JD Mapping: interview translation
 
-| Interview prompt | Arti's factual strength | Honest MDO bridge |
+| Interview prompt | Your factual strength | Honest MDO bridge |
 |---|---|---|
 | “How do you investigate phishing?” | Evidence timelines and M365 workload incidents | Explain fictional entity/campaign/AIR process |
 | “How do you handle BEC?” | Stakeholder and multi-team critical-incident coordination | Add finance process, identity and mailbox evidence |
@@ -1229,7 +1229,7 @@ Write a handover with completed/pending/failed actions and residual external-rec
 - **Mail cleanup does not clean an endpoint or revoke an identity.**
 - **Gateway evidence needs headers, connector, auth, overrides and gateway logs.**
 - **Handover facts, hypotheses, actions, failures, next steps and residual risk.**
-- **Arti's bridge is M365 incident rigor, not claimed MDO SecOps ownership.**
+- **Your bridge is M365 incident rigor, not claimed MDO SecOps ownership.**
 
 ## Completion Checklist
 

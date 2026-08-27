@@ -38,7 +38,7 @@ flowchart TD
 
 **The last row is worth naming.** **Developers notice being talked down to**, and it damages credibility quickly. **Precision is a form of respect** in that audience.
 
-> 💡 **Tie-in to your background:** enterprise support means writing for all three already — engineers, IT administrators, and executives during a CRITSIT. **The audiences are the same; only the technical content changes.**
+> 💡 **Tie-in to your background:** enterprise support means writing for all three already — engineers, IT administrators, and executives during a critical situation. **The audiences are the same; only the technical content changes.**
 
 ### 🔍 Plain-English deep-dive: identifying the audience from what they wrote
 
@@ -431,12 +431,12 @@ A ticket has been running for two days with a developer. This morning **their VP
 
 ## 9. Candidate Honesty Note
 
-- **Production experience:** writing for engineers, IT administrators, and executives, including during CRITSITs where all three are on one thread.
-- **Production experience:** CSAT of 4.75+ enterprise and 4.85+ SMB, which reflects communication as much as technical resolution.
+- **Production experience:** writing for engineers, IT administrators, and executives, including during critical situations where all three are on one thread.
+- **Production experience:** a strong customer-satisfaction record, which reflects communication as much as technical resolution.
 - **Lab experience:** deliberately writing one finding three ways and testing comprehension with real readers, as above.
 - **Learned architecture:** developer-specific conventions and the layered structure for mixed audiences.
 - **No direct experience:** developer-facing written support at volume for this product.
-- **How to say it:** *"Writing for mixed audiences is something I do routinely — CRITSITs put engineers and executives on the same thread. What's newer is the developer register specifically: more precision, exact values, and always giving the reason rather than just the instruction, because developers generalise from reasons and that prevents the next five questions."*
+- **How to say it:** *"Writing for mixed audiences is something I do routinely — critical situations put engineers and executives on the same thread. What's newer is the developer register specifically: more precision, exact values, and always giving the reason rather than just the instruction, because developers generalise from reasons and that prevents the next five questions."*
 
 ---
 

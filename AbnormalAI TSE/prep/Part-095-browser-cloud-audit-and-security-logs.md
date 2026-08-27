@@ -2,19 +2,19 @@
 
 > **Purpose:** Build a beginner-first, evidence-safe method for correlating a browser symptom with cloud control-plane, identity, email, detection, and remediation records. This Part explains browser console and network evidence, HTTP Archive files, cloud admin and audit events, sign-in records, email traces, security detections, remediation histories, source coverage, privacy limits, and defensible causal reasoning.
 >
-> **Artifact honesty label:** **Local synthetic browser-to-cloud correlation design only.** Every user, tenant, browser request, account, message, alert, action, timestamp, identifier, and conclusion in the lab is invented. The lab does not use customer data, production telemetry, live cloud tenants, real email, external uploads, Abnormal AI systems, or proprietary schemas. It must not be described as completed unless Arti actually creates and reviews the local synthetic artifacts.
+> **Artifact honesty label:** **Local synthetic browser-to-cloud correlation design only.** Every user, tenant, browser request, account, message, alert, action, timestamp, identifier, and conclusion in the lab is invented. The lab does not use customer data, production telemetry, live cloud tenants, real email, external uploads, Abnormal AI systems, or proprietary schemas. It must not be described as completed unless you actually create and reviews the local synthetic artifacts.
 >
 > **Currency and source access date:** August 24, 2026.
 
 ## Section goal
 
-By the end of this Part, Arti should be able to start with a browser-visible symptom, identify the smallest relevant evidence at each boundary, normalize time and identifiers, and produce a browser-to-cloud event correlation that another engineer can reproduce. She should be able to explain what a browser console line, network request, HTTP Archive entry, cloud audit record, sign-in result, email trace, security detection, or remediation record directly establishes and what it does not establish.
+By the end of this Part, you should be able to start with a browser-visible symptom, identify the smallest relevant evidence at each boundary, normalize time and identifiers, and produce a browser-to-cloud event correlation that another engineer can reproduce. You should be able to explain what a browser console line, network request, HTTP Archive entry, cloud audit record, sign-in result, email trace, security detection, or remediation record directly establishes and what it does not establish.
 
 The primary artifact is a **browser-to-cloud event correlation pack**. It connects one synthetic user action to one synthetic browser request, one identity decision, one cloud administrative or data-plane outcome, one email-flow state when applicable, one security detection, and one remediation record. The pack keeps original evidence separate from normalized timeline rows and keeps observation, inference, hypothesis, and cause in separate fields.
 
 This Part treats privacy and authorization as properties of the investigation, not paperwork added afterward. Browser captures and cloud exports can contain session cookies, authorization headers, tokens, personal identifiers, tenant names, URLs, query strings, email addresses, message subjects, file names, message content, and administrative details. The safe default is structural exclusion: do not collect a field that is not needed. Redaction is a fallback for an already authorized necessary field, not permission to gather broadly.
 
-Arti should also be able to state evidence limits clearly. A failed browser request can be caused by client code, an extension, proxy behavior, name resolution, transport, Transport Layer Security, authentication, authorization, an application service, policy, or a downstream dependency. A cloud sign-in success does not prove an application request was authorized. A message trace status does not prove what a person saw in an inbox. A detection is a security system's evaluated finding, not automatically a confirmed attack. A remediation record proves that a named system or operator recorded an action state; it does not automatically prove complete reversal of impact.
+You should also be able to state evidence limits clearly. A failed browser request can be caused by client code, an extension, proxy behavior, name resolution, transport, Transport Layer Security, authentication, authorization, an application service, policy, or a downstream dependency. A cloud sign-in success does not prove an application request was authorized. A message trace status does not prove what a person saw in an inbox. A detection is a security system's evaluated finding, not automatically a confirmed attack. A remediation record proves that a named system or operator recorded an action state; it does not automatically prove complete reversal of impact.
 
 ## JD Mapping
 
@@ -30,20 +30,20 @@ Arti should also be able to state evidence limits clearly. A failed browser requ
 | Engineering escalation | Preserves source, query, time, IDs, coverage, alternatives, and one precise ask | Gives Engineering a small reproducible evidence pack | Escalation manifest |
 | Customer communication | Converts technical records into bounded findings and next steps | Explains current state without exposing internals or overstating causality | Customer-safe update |
 | Privacy and security | Excludes secrets, content, unrelated identities, and broad exports | Reduces collection risk while preserving diagnostic value | Collection allowlist and cleanup record |
-| Microsoft support transfer | Reuses Arti's enterprise scoping, browser DevTools, HAR, Microsoft cloud, escalation, and customer-update habits | Makes authentic experience a bridge into a security SaaS context | Honest transfer statement |
+| enterprise support transfer | Reuses your enterprise scoping, browser DevTools, HAR, Microsoft cloud, escalation, and customer-update habits | Makes authentic experience a bridge into a security SaaS context | Honest transfer statement |
 | No direct Abnormal production experience | Separates generic evidence models from unknown proprietary implementation | Prevents invented log names, schemas, retention, detections, actions, or support access | Candidate boundary statement |
 
 ## Candidate honesty note
 
-Arti can honestly connect this Part to her Microsoft enterprise support background. Her work with SharePoint Online, OneDrive, Sync Client, Copilot support, browser DevTools, HAR, customer scoping, escalations, and cloud/client boundaries gives her useful habits: begin with impact, identify the failing boundary, preserve timestamps and request identifiers, minimize customer data, compare a healthy and failing path, and hand Engineering a reproducible narrative. She should use only examples she personally performed and is allowed to discuss.
+You can honestly connect this Part to your prior enterprise support background. Your work with SharePoint Online, OneDrive, Sync Client, Copilot support, browser DevTools, HAR, customer scoping, escalations, and cloud/client boundaries gives your useful habits: begin with impact, identify the failing boundary, preserve timestamps and request identifiers, minimize customer data, compare a healthy and failing path, and hand Engineering a reproducible narrative. You should use only examples you personally performed and is allowed to discuss.
 
-She should not stretch that experience into unsupported claims. Microsoft cloud support does not by itself establish production experience with Exchange Online message tracing, Microsoft Entra sign-in investigation, Microsoft Defender detection operations, Google Workspace investigation, security operations center ownership, or Abnormal AI. Reading official documentation and completing a synthetic lab establish learned architecture and demonstrated reasoning, not customer-tenant access or production ownership.
+You should not stretch that experience into unsupported claims. Microsoft cloud support does not by itself establish production experience with Exchange Online message tracing, Microsoft Entra sign-in investigation, Microsoft Defender detection operations, Google Workspace investigation, security operations center ownership, or Abnormal AI. Reading official documentation and completing a synthetic lab establish learned architecture and demonstrated reasoning, not customer-tenant access or production ownership.
 
 Nothing in this Part describes Abnormal AI's internal browser calls, APIs, cloud providers, audit schemas, message pipeline, detection logic, remediation actions, retention, access model, or escalation tooling. Terms such as `request`, `sign-in`, `message trace`, `detection`, and `remediation` are generic. During onboarding, current approved product documentation and owners must define what evidence is available, which fields are stable, how identifiers are scoped, and what a support engineer is authorized to collect.
 
-| Evidence tier | Honest wording Arti can adapt | Boundary to preserve |
+| Evidence tier | Honest wording you can adapt | Boundary to preserve |
 |---|---|---|
-| Production transfer | “In Microsoft enterprise support, I correlated browser and cloud-side evidence, protected customer data, and prepared reproducible escalations.” | Use a real permitted example and name its actual scope |
+| Production transfer | “In enterprise support, I correlated browser and cloud-side evidence, protected customer data, and prepared reproducible escalations.” | Use a real permitted example and name its actual scope |
 | Tool familiarity | “I have working familiarity with browser DevTools and HAR-based troubleshooting.” | Describe the depth actually used; do not imply security-product administration |
 | Demonstrated local practice | “I designed and, if completed, built a local synthetic browser-to-cloud event correlation pack.” | State synthetic, local, and whether it was actually performed |
 | Learned architecture | “I can explain how browser, sign-in, audit, mail, detection, and remediation records answer different questions.” | Conceptual knowledge is not tenant operations experience |
@@ -757,7 +757,7 @@ An escalation should ask one answerable question. Example: “For documented bui
 | Troubleshooting | Symptom-first decision tree and matrix | Section 15 |
 | Failure modes and escalation | Misleading signals, prohibited actions, and explicit stop conditions | Section 16 |
 | Safe lab | Local handwritten fictional records only | Prerequisites, steps, evidence, cleanup, rubric |
-| Candidate honesty | Microsoft transfer, learned security/cloud concepts, and no Abnormal claim | Candidate honesty note |
+| Candidate honesty | experience transfer, learned security/cloud concepts, and no Abnormal claim | Candidate honesty note |
 | Official anchors | Browser, Microsoft, Google, standards, and NIST primary sources with boundaries | Dated source section |
 | Interview Q&A | Exactly eight numbered question headings with model answers | Interview section |
 | Completion controls | Knowledge, artifact, privacy, spoken practice, source, and honesty checks | Completion Checklist |
@@ -851,7 +851,7 @@ Create, only if actually performing the lab, a fictional corpus with at least 18
 52. Build a correlation-key register. For every identifier, state issuer, type, scope, lifetime, whether it propagates, and which sources can legitimately use it.
 53. Attempt three deliberately weak joins: timestamp-only, email-alias-only, and alert-title-only. Reject each and record the stronger evidence required.
 54. Build `reasoning-ledger-095.md` for at least six symptoms. For each, list three hypotheses, different predictions, the smallest read-only synthetic test, result, confidence update, rejected alternatives, next action, and evidence ceiling.
-55. Include the complete worked authorization scenario from Section 12, rewritten in Arti's own words. Keep every value fictional and do not call it production experience.
+55. Include the complete worked authorization scenario from Section 12, rewritten in your own words. Keep every value fictional and do not call it production experience.
 56. Include the complete message detection/remediation scenario from Section 13. Separate delivery, detection, alerting, action, and verification.
 57. Add a third scenario in which the browser error is caused by client parsing after an HTTP 200. This prevents cloud audit logs from becoming the answer to every browser symptom.
 58. Add a fourth scenario in which a sign-in event appears missing because the query selected interactive users while the actor was a workload identity. Do not broaden beyond the exact app and interval.
@@ -864,7 +864,7 @@ Create, only if actually performing the lab, a fictional corpus with at least 18
 65. Practice explaining the artifact in five minutes. Define console, Network panel, HAR, audit event, sign-in, email trace, detection, remediation, correlation, and provenance without reading.
 66. Practice a 90-second customer update that never says “the logs prove” and never exposes a token, message, user, tenant, or proprietary detail.
 67. Score the artifact using the rubric. A planned file is not a completed artifact. Record `not run` for every operational check if the lab has not actually been performed.
-68. Review every sentence for unsupported Abnormal claims. Replace them with Microsoft production transfer, synthetic demonstration, learned architecture, generic reasoning, or onboarding verification.
+68. Review every sentence for unsupported Abnormal claims. Replace them with prior production transfer, synthetic demonstration, learned architecture, generic reasoning, or onboarding verification.
 69. Retain only the minimum synthetic final pack if it has learning value. Remove obsolete local drafts only through the normal approved file interface after verifying the isolated folder.
 70. Do not use a recursive deletion command, clear browser data, clear a real audit log, alter retention, delete cloud evidence, or perform any destructive cleanup action.
 
@@ -939,7 +939,7 @@ If the lab is actually performed, expected evidence includes:
 | Privacy | Includes secrets/content or broad export | Redacts selected values afterward | Structurally excludes sensitive classes and uses only local fictional records with a manifest |
 | Security | Bypasses a control or performs real action | States caution | Explicitly prohibits disabling/bypassing controls, policy changes, content release, broad access, remediation, and destructive actions |
 | Artifact quality | Loose notes | Partial timeline | Complete scope, inventory, selected sources, correlation register, timeline, ledger, privacy manifest, updates, and rubric |
-| Candidate honesty | Implies Abnormal or security-operations experience | Calls examples fictional | Separates Microsoft transfer, tool familiarity, synthetic practice, learned architecture, product unknowns, and run status |
+| Candidate honesty | Implies Abnormal or security-operations experience | Calls examples fictional | Separates experience transfer, tool familiarity, synthetic practice, learned architecture, product unknowns, and run status |
 | Spoken readiness | Reads definitions | Explains one source | Gives a five-minute cross-boundary explanation and answers all eight interview questions with evidence limits |
 
 ## Official Source Anchors - August 24, 2026
@@ -1009,9 +1009,9 @@ These official or primary anchors support generic browser, identity, audit, emai
 
 **Model answer:** I include one precise symptom and reproduction, impact and time window, browser/build and capture state, selected console and Network evidence, sanitized request sequence, identity and audit results, typed correlation-key register, raw and normalized times, retries, mail/detection/action states when relevant, source permissions and coverage, competing hypotheses, tests and confidence changes, privacy manifest, current customer-safe status, one precise Engineering question, and the evidence ceiling. I exclude broad archives, secrets, content, unrelated users, and unsupported product assumptions.
 
-### Q8. How would you connect your Microsoft support background to this work honestly?
+### Q8. How would you connect your prior support background to this work honestly?
 
-**Model answer:** My Microsoft enterprise support experience gives me transferable strengths in browser and cloud boundary troubleshooting, DevTools and HAR familiarity, customer scoping, privacy-aware evidence handling, high-severity ownership, and Engineering handoffs. I would use only real examples I can defend from SharePoint Online, OneDrive, Sync Client, or Copilot support. I have studied sign-in, audit, mail, detection, and remediation evidence through official sources and this synthetic exercise, but I would not claim direct Abnormal production access or security-operations ownership. I would learn the approved product schemas, permissions, retention, and runbooks during onboarding.
+**Model answer:** My prior enterprise support experience gives me transferable strengths in browser and cloud boundary troubleshooting, DevTools and HAR familiarity, customer scoping, privacy-aware evidence handling, high-severity ownership, and Engineering handoffs. I would use only real examples I can defend from SharePoint Online, OneDrive, Sync Client, or Copilot support. I have studied sign-in, audit, mail, detection, and remediation evidence through official sources and this synthetic exercise, but I would not claim direct Abnormal production access or security-operations ownership. I would learn the approved product schemas, permissions, retention, and runbooks during onboarding.
 
 ## Memory Hooks
 
@@ -1085,7 +1085,7 @@ These official or primary anchors support generic browser, identity, audit, emai
 - [ ] I can score the artifact honestly and mark unperformed checks `not run`.
 - [ ] I can answer all eight interview questions aloud with bounded evidence language.
 - [ ] I can give a 90-second customer update and a five-minute Engineering explanation without reading.
-- [ ] I can tie browser, HAR, cloud/client troubleshooting, privacy, and escalation habits to real Microsoft support experience only where true.
+- [ ] I can tie browser, HAR, cloud/client troubleshooting, privacy, and escalation habits to real enterprise support experience only where true.
 - [ ] I can state that official-source study and a synthetic lab do not equal direct Exchange, Entra, Defender, Google, security-operations, or Abnormal production ownership.
 - [ ] I can state directly that I have no direct Abnormal internal log, detection, remediation, or production tenant experience unless that later becomes true.
 - [ ] I reviewed the Official Source Anchors dated August 24, 2026 and would revalidate actual browser, identity, audit, mail, security, license, role, retention, and product versions.

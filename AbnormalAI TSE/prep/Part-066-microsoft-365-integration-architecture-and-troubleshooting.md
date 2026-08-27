@@ -14,7 +14,7 @@ The central troubleshooting rule is:
 
 This Part covers Microsoft 365 service boundaries; Microsoft Entra application objects/service principals; single- versus multitenant context; delegated versus app-only access; user/admin consent; Graph permissions; other authorization systems; token and resource audiences; Graph/service-specific data planes; mailbox, mail-flow, security, audit, and service-health evidence; pagination; delta/change notification concepts; errors; throttling; Retry-After; retention/privacy; and end-to-end connector troubleshooting. It does not provide tenant setup, admin-consent URLs, credentials, runnable Graph/PowerShell commands, API requests, permission-change instructions, live endpoint tests, or customer data. The lab is a paper architecture and evidence matrix only.
 
-This is the guide area where Arti's Microsoft support background is a direct strength. Production experience can support statements about Microsoft cloud boundaries, tenant-aware triage, incident ownership, identity/configuration evidence, service health, and Engineering escalation. It must not be inflated into owning a Microsoft Graph app, Purview program, Exchange connector, Defender integration, or Abnormal Microsoft 365 implementation without a real example. Abnormal's actual onboarding flow, app ID, service principal, permission set, APIs, Exchange/Defender/Purview dependencies, data path, subscription model, checkpointing, and logs remain proprietary unknowns unless approved documentation states them.
+This is the guide area where your prior support background is a direct strength. Production experience can support statements about Microsoft cloud boundaries, tenant-aware triage, incident ownership, identity/configuration evidence, service health, and Engineering escalation. It must not be inflated into owning a Microsoft Graph app, Purview program, Exchange connector, Defender integration, or Abnormal Microsoft 365 implementation without a real example. Abnormal's actual onboarding flow, app ID, service principal, permission set, APIs, Exchange/Defender/Purview dependencies, data path, subscription model, checkpointing, and logs remain proprietary unknowns unless approved documentation states them.
 
 ## Learning outcomes
 
@@ -39,14 +39,14 @@ After completing this Part, you should be able to:
 
 ## JD Mapping
 
-| Supplied role signal | Capability built | Arti's transferable evidence | Boundary |
+| Supplied role signal | Capability built | Your transferable evidence | Boundary |
 |---|---|---|---|
-| Microsoft 365 ecosystem | Uses tenant, Entra identity, Graph, Exchange, audit, health, and admin evidence correctly | Direct Microsoft support strength | Do not claim connector ownership |
+| Microsoft 365 ecosystem | Uses tenant, Entra identity, Graph, Exchange, audit, health, and admin evidence correctly | Direct enterprise support strength | Do not claim connector ownership |
 | Enterprise integrations | Traces multitenant app instance, consent, token, resource, ingestion, and target state | Configuration and cloud troubleshooting | Vendor implementation remains unknown |
 | SaaS Security | Reviews app-only access, least privilege, credentials, grants, audit, and residual data | Identity/security transfer | No Abnormal security architecture claim |
-| Complex cases | Separates Microsoft service, customer tenant, connector, and target hypotheses | CRITSIT, escalation, RCA | No invented Microsoft 365 incident |
+| Complex cases | Separates Microsoft service, customer tenant, connector, and target hypotheses | critical situation, escalation, RCA | No invented Microsoft 365 incident |
 | API support | Interprets Graph errors, request IDs, paging, throttling, and change tracking | HTTP/REST/JSON working knowledge | Lab performs no API call |
-| Customer communication | Converts multi-service evidence into a clear timeline and owner map | Microsoft case ownership | No credential/raw mailbox collection |
+| Customer communication | Converts multi-service evidence into a clear timeline and owner map | enterprise case ownership | No credential/raw mailbox collection |
 | Mail/security concepts | Separates mailbox, mail flow, audit, and security signal planes | Microsoft domain familiarity | Exact Abnormal dependency unknown |
 | Engineering collaboration | Produces permission-to-operation and symptom-to-boundary matrices | Escalation discipline | Precise ask, not “Microsoft is broken” |
 
@@ -54,7 +54,7 @@ After completing this Part, you should be able to:
 
 | Evidence tier | Safe statement | Do not imply |
 |---|---|---|
-| **Production transfer - Microsoft** | “I have production Microsoft support experience with tenant-aware configuration, identity, service health, evidence, escalations, and customer communication.” | That Arti administered every Microsoft 365 product or Graph app |
+| **Production transfer - Microsoft** | “I have production enterprise support experience with tenant-aware configuration, identity, service health, evidence, escalations, and customer communication.” | That you administered every Microsoft 365 product or Graph app |
 | **Local/public lab** | “I built a synthetic multitenant app/service-principal, consent, API, and connector evidence map without a tenant or API call.” | A real enterprise app, consent, token, mailbox, alert, or connector |
 | **Current official-doc study** | “I verified Graph, Entra, Purview, and service-health concepts against Microsoft Learn.” | Production ownership of those integrations |
 | **Reasoned architecture** | “I can map likely planes and test them, while treating product-specific dependencies as hypotheses.” | That generic Microsoft architecture is Abnormal's design |
@@ -467,7 +467,7 @@ Microsoft Graph returns HTTP status plus JSON `error` with machine-readable `cod
 | Nested `innerError.code` | More specific understood cause | Do not assume undocumented values stable |
 | `message` | Human/developer context | Do not parse as contract/show raw to user |
 | `details` | Per-operation/batch breakdown | Batch top-level 200 can contain failures |
-| `request-id` | Microsoft support correlation | Not a credential |
+| `request-id` | enterprise support correlation | Not a credential |
 | `client-request-id` | Caller-generated correlation | Must be unique/logged per request |
 | `date` | Service response time | Compare with client UTC and service health |
 
@@ -556,13 +556,13 @@ When errors spike, compare first/last failure UTC, affected tenant/population/se
 | One connector node/region | Vendor deployment/network/cache/credential version |
 | 429 concentrated in high-volume tenant | Request pattern/throttling |
 | Source data correct, target missing after 2xx | Connector processing/checkpoint/target |
-| Service health issue matches service/time/impact | Microsoft incident with local validation |
+| Service health issue matches service/time/impact | enterprise incident with local validation |
 
 ## 24. Experience map and truthful Microsoft stories
 
-Arti can lean into Microsoft-specific support habits without inventing Graph implementation work.
+You can lean into Microsoft-specific support habits without inventing Graph implementation work.
 
-| Interview competency | Microsoft transfer statement | Add only with real example |
+| Interview competency | experience transfer statement | Add only with real example |
 |---|---|---|
 | Tenant-aware triage | “I separate tenant, user/app identity, service, object, policy, and timeline early.” | Exact production case |
 | Service health | “I correlate tenant-relevant incident ID and UTC instead of assuming outage.” | Incident handled |
@@ -744,7 +744,7 @@ flowchart TD
 | Token | Authority/resource audience/result/error/correlation/sign-in UTC; no token |
 | Resource operation | Graph/service API class, object type/ID, method intent, request IDs/date/error |
 | Collection | Filters, projection, paging, delta/subscription/checkpoint, counts/lag |
-| Microsoft evidence | Entra sign-in/audit, Purview/Exchange/Defender evidence, service-health ID |
+| prior evidence | Entra sign-in/audit, Purview/Exchange/Defender evidence, service-health ID |
 | Connector | Connector ID/version/node, last success, queue/DLQ, processing/target result |
 | Changes | Grants, credential, policy/RBAC, license, service, release, network, schema |
 | Privacy | Data minimized/redacted; approved evidence location/retention |
@@ -778,7 +778,7 @@ The lab does not access or create a Microsoft tenant, app registration, service 
 
 ### Lab steps
 
-1. Create the cover with artifact label, UTC, safety boundary, Microsoft production-transfer statement, and Abnormal proprietary-unknown statement.
+1. Create the cover with artifact label, UTC, safety boundary, production-transfer statement, and Abnormal proprietary-unknown statement.
 2. Define tenant/cloud, home/customer tenant, application object, app ID, service principal, SP object ID, enterprise app, consent, grant, access mode, resource, and connector.
 3. Draw Entra/Graph/Exchange/Defender/Purview/service-health/vendor planes and identify each owner.
 4. Build four customer tenants sharing one vendor app ID but different SP IDs, grants, policies, credentials, and connector states.
@@ -803,7 +803,7 @@ The lab does not access or create a Microsoft tenant, app registration, service 
 23. Create cross-tenant symptom patterns that distinguish Microsoft service, vendor deployment, tenant grant/policy, resource subset, and target processing.
 24. Run the troubleshooting tree on expired credential, one-mailbox 403, first-page gap, 429 lag, audit no-result, matching service incident, and source-mail/target gap.
 25. Draft a customer update for a Microsoft service advisory and another for a tenant-specific permission issue.
-26. Draft one identity-admin packet, one Microsoft support packet, and one vendor Engineering packet with precise asks.
+26. Draft one identity-admin packet, one enterprise support packet, and one vendor Engineering packet with precise asks.
 27. Deliver a 90-second multitenant architecture answer, a 90-second consent-versus-access answer, and a 60-second honesty boundary.
 28. Validate source URLs/date, cleanup, privacy, zero-activity statement, and rubric.
 
@@ -848,7 +848,7 @@ The lab does not access or create a Microsoft tenant, app registration, service 
 | Reliability | Retry all | Handles 429 | Retry-After, backoff, projection, bounded concurrency, health correlation |
 | Evidence | Raw tenant data | Some redaction | Stable IDs/metadata/scoped audit, no credentials/content/export |
 | Triage | Re-consent/recreate | Checks grants | Tenant-to-target decision tree and precise owner/escalation |
-| Honesty | Claims connector ops | Says learned | Leans into Microsoft support; Abnormal path remains unknown |
+| Honesty | Claims connector ops | Says learned | Leans into enterprise support; Abnormal path remains unknown |
 
 ## 35. Official Source Anchors
 
@@ -907,7 +907,7 @@ All sources were verified and recorded with guide currency date **August 24, 202
 
 ### Q8. How would you present your Microsoft 365 experience honestly for this role?
 
-**Model answer:** Microsoft support is a real strength: tenant-aware triage, identity/configuration boundaries, service health, audit evidence, escalation, and customer communication. My Graph connector model and lab are standards/current-doc based, not a claim that I built production receivers or owned Abnormal's integration. I keep Abnormal's app, permissions, APIs, data path, and logs unknown until approved docs confirm them.
+**Model answer:** enterprise support is a real strength: tenant-aware triage, identity/configuration boundaries, service health, audit evidence, escalation, and customer communication. My Graph connector model and lab are standards/current-doc based, not a claim that I built production receivers or owned Abnormal's integration. I keep Abnormal's app, permissions, APIs, data path, and logs unknown until approved docs confirm them.
 
 ## Memory Hooks
 
@@ -928,7 +928,7 @@ All sources were verified and recorded with guide currency date **August 24, 202
 - **429 means Retry-After and less pressure, not faster retry.**
 - **Service health must match service, time, tenant, and symptom.**
 - **Source correct plus target missing means inspect connector middle.**
-- **Microsoft production transfer is real; Abnormal internals remain unknown.**
+- **prior production transfer is real; Abnormal internals remain unknown.**
 
 ## Completion Checklist
 
@@ -953,7 +953,7 @@ All sources were verified and recorded with guide currency date **August 24, 202
 - [ ] I completed or can explain **The Microsoft 365 Boundary Flight Deck 066**.
 - [ ] The lab includes Prerequisites, Expected evidence, Cleanup and privacy, and Validation rubric.
 - [ ] I used no live tenant, app, SP, consent, credential, token, API request, mailbox, alert, audit search, or connector.
-- [ ] I can state Microsoft production-transfer and Abnormal proprietary boundaries.
+- [ ] I can state production-transfer and Abnormal proprietary boundaries.
 - [ ] I checked Official Source Anchors and recorded **August 24, 2026**.
 - [ ] I can answer exactly Q1-Q8.
 

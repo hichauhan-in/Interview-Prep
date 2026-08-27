@@ -1,10 +1,10 @@
 # Part 72 - Major Incident Management and High-Pressure Customer Communication
 
-> **Section goal:** Coordinate a high-impact service disruption without sacrificing safety, evidence, communication quality, or human sustainability. By the end, Arti should be able to distinguish severity from priority; establish incident commander, technical lead, communications lead, scribe, and workstreams; run disciplined first-15/30/60-minute actions; protect restoration and data integrity; set bridge rules and update cadence; manage evidence, decisions, change freeze, vendors, time zones, fatigue, and handoffs; validate recovery; and convert a post-incident review (PIR) into owned prevention.
+> **Section goal:** Coordinate a high-impact service disruption without sacrificing safety, evidence, communication quality, or human sustainability. By the end, you should be able to distinguish severity from priority; establish incident commander, technical lead, communications lead, scribe, and workstreams; run disciplined first-15/30/60-minute actions; protect restoration and data integrity; set bridge rules and update cadence; manage evidence, decisions, change freeze, vendors, time zones, fatigue, and handoffs; validate recovery; and convert a post-incident review (PIR) into owned prevention.
 
 Covers index item **72** and maps directly to job-description responsibilities for complex high-pressure situations, customer communication, cross-functional execution, Support engagement, risk mitigation, time-zone alignment, operational reviews, and preventative action tracking.
 
-**Explicit nonclaim:** Arti has not commanded, represented, or communicated on behalf of NetApp during a production ONTAP, storage, hardware, MetroCluster, or customer major incident.
+**Explicit nonclaim:** You have not commanded, represented, or communicated on behalf of NetApp during a production ONTAP, storage, hardware, MetroCluster, or customer major incident.
 
 **Privacy/access:** Incident channels can expose customer identity, service impact, data classification, topology, addresses, credentials, vulnerabilities, logs, packet contents, employee actions, vendor positions, contracts, and legal or security concerns. Use approved bridges and repositories, least necessary access, role-appropriate summaries, secure evidence links, controlled recording, retention rules, and authorized security/privacy/legal review. Never move restricted evidence into a broad chat or portfolio for convenience.
 
@@ -14,7 +14,7 @@ Covers index item **72** and maps directly to job-description responsibilities f
 
 This Part is a generic incident-management model, not a NetApp internal severity matrix, response-time commitment, staffing model, bridge policy, escalation route, PIR standard, or authorization to change a customer system.
 
-> **No-production-NetApp boundary:** Arti's factual strengths include Microsoft business-critical incident and CRITSIT ownership, Support Escalation Engineering, multi-team coordination, customer updates, executive communication, evidence preservation, engineering engagement, time-zone handoff, and recovery validation. Her exact nonclaim is: **she has not served as incident commander, technical lead, communications owner, or NetApp representative for a production NetApp customer incident.**
+> **No-production-NetApp boundary:** Your factual strengths include Microsoft business-critical incident and critical-situation ownership, Support Escalation Engineering, multi-team coordination, customer updates, executive communication, evidence preservation, engineering engagement, time-zone handoff, and recovery validation. Your exact nonclaim is: **you have not served as incident commander, technical lead, communications owner, or NetApp representative for a production NetApp customer incident.**
 
 ---
 
@@ -722,11 +722,11 @@ flowchart TD
 
 ---
 
-## 17. Arti transfer/honesty and JD Mapping
+## 17. Experience transfer and honesty and JD Mapping
 
 ```mermaid
 flowchart LR
-    CRIT[Microsoft CRITSIT ownership] --> COMMAND[Impact, roles, cadence and restoration]
+    CRIT[Enterprise critical-situation ownership] --> COMMAND[Impact, roles, cadence and restoration]
     SUP[Support Escalation Engineering] --> TECH[Evidence workstreams and escalation]
     COMM[Customer/executive communication] --> UPDATE[Audience-safe updates]
     TZ[Global partner and time-zone work] --> HAND[Handoff and fatigue controls]
@@ -739,7 +739,7 @@ flowchart LR
 
 | JD responsibility | Capability | Honest evidence/boundary |
 |---|---|---|
-| High-pressure customer situations | Command, first-15/30/60, cadence | Microsoft CRITSIT evidence; not NetApp IC claim |
+| High-pressure customer situations | Command, first-15/30/60, cadence | enterprise critical-situation evidence; not NetApp IC claim |
 | Cross-functional work | TL/workstreams/decision logs | Microsoft Product/Engineering and partner work |
 | Risk and stability | Safety, restoration, degraded-state tracking | Method and synthetic cases only for ONTAP |
 | Customer communication | Executive/technical/user updates | Production Microsoft communication transfers |
@@ -748,7 +748,7 @@ flowchart LR
 
 ### Honest interview wording
 
-> `In Microsoft enterprise incidents I have owned high-pressure coordination, evidence, engineering engagement, and customer communication. My method is to establish command roles, protect data and restoration, separate technical workstreams, keep one chronology and action log, communicate verified impact and uncertainty on cadence, rotate people safely, and validate the customer transaction before handback. I have not commanded a production NetApp incident, so exact NetApp Support, product, and customer procedures would come from authorized owners.`
+> `In enterprise incidents I have owned high-pressure coordination, evidence, engineering engagement, and customer communication. My method is to establish command roles, protect data and restoration, separate technical workstreams, keep one chronology and action log, communicate verified impact and uncertainty on cadence, rotate people safely, and validate the customer transaction before handback. I have not commanded a production NetApp incident, so exact NetApp Support, product, and customer procedures would come from authorized owners.`
 
 ---
 
@@ -881,7 +881,7 @@ flowchart LR
 
 ### Q8. What production experience transfers, and what remains your NetApp gap?
 
-> **Model answer:** `Microsoft CRITSIT and escalation work gives me production experience in command rhythm, cross-team evidence, restoration focus, customer and executive updates, Engineering engagement, handoffs and follow-through. I have not commanded or represented a production NetApp incident, so NetApp roles, severity, Support routes and technical actions must come from current authorized owners and sources.`
+> **Model answer:** `enterprise critical situation and escalation work gives me production experience in command rhythm, cross-team evidence, restoration focus, customer and executive updates, Engineering engagement, handoffs and follow-through. I have not commanded or represented a production NetApp incident, so NetApp roles, severity, Support routes and technical actions must come from current authorized owners and sources.`
 
 ---
 
@@ -903,7 +903,7 @@ flowchart LR
 - **Fatigue:** Rest is human redundancy.
 - **Recovery:** Customer transaction and data, not a green component.
 - **PIR:** Mechanism + response learning + effective prevention.
-- **Arti boundary:** Microsoft incident leadership transfers; NetApp command does not.
+- **Experience boundary:** enterprise incident leadership transfers; NetApp command does not.
 
 ---
 

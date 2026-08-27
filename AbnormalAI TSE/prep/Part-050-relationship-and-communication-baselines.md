@@ -27,11 +27,11 @@ After completing this Part, you should be able to:
 - explain why a graph edge, centrality measure, cluster, or shortest path is not proof of trust or causation;
 - troubleshoot missing, new, or changed relationship symptoms using identity, telemetry, lifecycle, and business evidence;
 - create customer-safe explanations that avoid profiling or revealing protected model details; and
-- connect Arti's enterprise investigations, support analytics/SQL/Python, Copilot evaluation/training, trend work, and audience-aware communication only as transferable methods.
+- connect your enterprise investigations, support analytics/SQL/Python, Copilot evaluation/training, trend work, and audience-aware communication only as transferable methods.
 
 ## JD Mapping
 
-| Supplied role signal | Capability built | Transferable Arti evidence | Boundary |
+| Supplied role signal | Capability built | Transferable evidence | Boundary |
 |---|---|---|---|
 | Behavioral false-positive cases | Tests relationship history, direction, cadence, and legitimate change | Affected/unaffected comparison and validation discipline | No claim of changing Abnormal relationship features |
 | Threat investigation | Maps sender, recipient, vendor, account, app, and timeline evidence | Complex investigations and Engineering escalation | No production email-threat graph ownership |
@@ -46,7 +46,7 @@ After completing this Part, you should be able to:
 
 | Evidence tier | Safe statement | Do not imply |
 |---|---|---|
-| **Production transfer** | "I have correlated users, systems, timelines, affected scope, and customer context in enterprise support." | That Arti operated a production security relationship graph |
+| **Production transfer** | "I have correlated users, systems, timelines, affected scope, and customer context in enterprise support." | That you operated a production security relationship graph |
 | **Local/public lab** | "I built a fictional directed temporal graph and calculated frequency/recency by hand." | Use of real communications or customer metadata |
 | **Learned architecture** | "I understand graph and privacy concepts from official and primary sources." | That the synthetic schema matches Abnormal internals |
 | **No direct experience** | "I have not operated Abnormal AI in production." | Knowledge of hidden graph features, topic/style processing, or scores |

@@ -194,7 +194,7 @@ flowchart LR
     O1 --> Q["Question: 'may Carol view Document 91?'<br/>Answer: traverse the graph"]
 ```
 
-**The defining capability is inheritance through a graph.** Carol was never granted anything on Document 91; she has `viewer` on the folder, and the document's parent is that folder. The answer is computed by traversal.
+**The defining capability is inheritance through a graph.** Carol was never granted anything on Document 91; you have `viewer` on the folder, and the document's parent is that folder. The answer is computed by traversal.
 
 | Concept | Meaning |
 |---|---|

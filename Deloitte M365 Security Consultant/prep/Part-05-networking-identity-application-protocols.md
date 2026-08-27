@@ -41,7 +41,7 @@ flowchart TB
 
 The models do not imply that troubleshooting must rigidly begin at Layer 1. Start where evidence is cheapest and most discriminating. If service health reports an active tenant-wide issue, do not spend an hour replacing cables. If one device fails while another on the same network succeeds, inspect client identity, proxy, certificate, DNS cache, and application state.
 
-> **Arti's transferable advantage:** SharePoint Online and OneDrive sync escalations already require layer separation. This Part supplies precise protocol names and evidence so the same RCA skill can distinguish local network, proxy, identity, workload, and Microsoft service behavior.
+> **Your transferable advantage:** SharePoint Online and OneDrive sync escalations already require layer separation. This Part supplies precise protocol names and evidence so the same RCA skill can distinguish local network, proxy, identity, workload, and Microsoft service behavior.
 
 ---
 
@@ -923,7 +923,7 @@ Network and identity evidence can grant access or reveal confidential data.
 7. Do not upload customer evidence to public analyzers or personal AI services.
 8. Record who collected, transformed, received, and deleted evidence when required.
 
-> **Arti tie-in:** Existing coordination with customers, partners, engineering, and vendors is valuable. Security consulting adds stricter minimization and explicit authorization: each recipient gets only evidence needed for their component and task.
+> **Background tie-in:** Existing coordination with customers, partners, engineering, and vendors is valuable. Security consulting adds stricter minimization and explicit authorization: each recipient gets only evidence needed for their component and task.
 
 ---
 
@@ -939,7 +939,7 @@ Complex paths can include endpoint vendor, identity team, DNS/DHCP, firewall, pr
 | Proxy/SWG vendor/team | PAC, auth, inspection, category, capacity | Selected route, policy verdict, TLS chain, proxy logs | Explain 407/reset/deny and supported M365 treatment |
 | Identity team | Entra/federation/app/claims/policy | Sign-in logs, app config, correlation, certificate | Explain auth/policy result at timestamp |
 | M365 workload team | Permissions/settings/workload logs | Object IDs, audit, message trace, sync/service evidence | Confirm expected workload behavior/config |
-| Microsoft support | SaaS service-side diagnosis | Tenant/time/request IDs/repro/health/captures | Investigate specified request/service boundary |
+| enterprise support | SaaS service-side diagnosis | Tenant/time/request IDs/repro/health/captures | Investigate specified request/service boundary |
 | Third-party app/vendor | App implementation, redirect, API client, SCIM | App logs, version, permission, request IDs | Correct protocol/permission/retry behavior |
 
 ```mermaid
@@ -948,7 +948,7 @@ flowchart LR
     CLIENT --> NET[DNS/network/proxy/VPN owners]
     NET --> ID[Identity/application owner]
     ID --> WORK[M365 workload owner]
-    WORK --> MS[Microsoft support]
+    WORK --> MS[enterprise support]
     ID --> VENDOR[Third-party vendor]
     CLIENT --> TIMELINE[Shared UTC timeline and evidence pack]
     NET --> TIMELINE
@@ -1075,7 +1075,7 @@ sequenceDiagram
 9. Validate sign-in, discovery, small/large upload, download, rename, conflict, and intended policy denial.
 10. Document root cause, affected endpoints, automated endpoint-list maintenance, monitoring, and rollback.
 
-Arti can use direct production experience for sync investigation, RCA, vendor coordination, and fix validation. The protocol explanation deepens that evidence; it should not be reframed as ownership of Entra or network security platforms.
+You can use direct production experience for sync investigation, RCA, vendor coordination, and fix validation. The protocol explanation deepens that evidence; it should not be reframed as ownership of Entra or network security platforms.
 
 ---
 
@@ -1090,7 +1090,7 @@ Arti can use direct production experience for sync investigation, RCA, vendor co
 5. Use Exchange message trace and security/quarantine evidence with exact message ID.
 6. Review connectors, certificates, accepted domains, transport rules, spam/phish verdict, and recent change.
 7. Check Microsoft service health and partner/vendor health.
-8. Correlate partner SMTP logs, customer network/firewall logs if mail traverses it, and Microsoft evidence in one timeline.
+8. Correlate partner SMTP logs, customer network/firewall logs if mail traverses it, and prior evidence in one timeline.
 9. If 4xx, understand retry behavior and avoid duplicate manual resends that confuse evidence.
 10. Apply the scoped supported correction; validate accepted mail, rejected unauthorized sender, authentication results, and no open relay/bypass.
 

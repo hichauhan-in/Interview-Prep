@@ -1,12 +1,12 @@
 # Part 6 - RAID, Erasure Protection, Spare Capacity, and Rebuild Risk
 
-> **Section goal:** Learn how storage systems combine devices into protected groups, calculate usable capacity and failure tolerance, and reason honestly about degraded operation, spare capacity, reconstruction, latent errors, and shared failure domains. By the end, Arti should be able to draw common RAID layouts, explain NetApp RAID-DP and RAID-TEC at a verified conceptual level, challenge unsafe `RAID means safe` claims, and turn customer evidence into a bounded protection recommendation.
+> **Section goal:** Learn how storage systems combine devices into protected groups, calculate usable capacity and failure tolerance, and reason honestly about degraded operation, spare capacity, reconstruction, latent errors, and shared failure domains. By the end, you should be able to draw common RAID layouts, explain NetApp RAID-DP and RAID-TEC at a verified conceptual level, challenge unsafe `RAID means safe` claims, and turn customer evidence into a bounded protection recommendation.
 
 Covers index item **6** and maps directly to job-description responsibilities for storage depth, customer-environment analysis, risk mitigation, stability planning, customer-specific recommendations, capacity analysis, incident evidence, supportability awareness, and technical communication.
 
 This Part uses simplified equal-device layouts to teach principles. Actual usable capacity, parity layout, RAID-group sizing, spare handling, partitioning, checksums, reconstruction, performance, failure tolerance, drive support, and operational procedures depend on the platform, release, device type, configuration, and current state. NetApp-specific implementation detail is deferred to Parts 20, 21, and 23 and must be verified in official documentation and authorized customer evidence.
 
-> **Evidence boundary:** All customer names, arrays, drives, failure events, rates, calculations, and recommendations are synthetic. Arti does not claim production NetApp RAID administration, failed-drive replacement, aggregate repair, or ONTAP command experience.
+> **Evidence boundary:** All customer names, arrays, drives, failure events, rates, calculations, and recommendations are synthetic. You do not claim production NetApp RAID administration, failed-drive replacement, aggregate repair, or ONTAP command experience.
 
 ---
 
@@ -676,11 +676,11 @@ flowchart TD
 
 ### Explicit JD mapping
 
-| JD responsibility | Part 6 contribution | Arti transfer and honest gap |
+| JD responsibility | Part 6 contribution | experience transfer and honest gap |
 |---|---|---|
 | Storage and virtualization depth | Explains group layout, parity, mirrors, spares, and reconstruction | Systems thinking transfers; no production NetApp RAID ownership claimed |
 | Understand customer environment | Connects group members to shelves, power, paths, workloads, and recovery | M365 dependency mapping helps discover shared fate |
-| Mitigate risk and improve stability | Identifies degraded-state, URE, spare, rebuild, and correlated-failure exposure | CRITSIT prioritization transfers; storage procedure requires SME/support |
+| Mitigate risk and improve stability | Identifies degraded-state, URE, spare, rebuild, and correlated-failure exposure | critical-situation prioritization transfers; storage procedure requires SME/support |
 | Analyze customer data | Uses capacity, state, errors, rebuild rates, and confidence | Analytics strength transfers; counters/tools need authorized practice |
 | Provide strategic advice | Compares protection, capacity efficiency, failure domains, and replacement logistics | Advisory method transfers; current platform design must be verified |
 | Improve support experience | Builds exact device/group/timeline/protection evidence and exact ask | Escalation-package quality is a proven Microsoft strength |
@@ -1041,11 +1041,11 @@ $$
 
 **Follow-up depth:** Compare all controls against device loss, deletion, corruption, ransomware, site loss, and long-term retention.
 
-### Q8. How would you handle a degraded NetApp system given your Microsoft background?
+### Q8. How would you handle a degraded NetApp system given your prior background?
 
-> **Model answer:** "I would use my proven CRITSIT method: define business impact, preserve one timeline, verify identities and scope, organize evidence, maintain customer communication, and engage the correct technical owner. I would not improvise a NetApp disk action. My RAID knowledge is conceptual and synthetic until authorized practice; I would verify current ONTAP and hardware documentation, exact group/member/spare state, and the Support procedure under the storage owner and lead TAM, then track reconstruction, service validation, residual risk, and follow-up."
+> **Model answer:** "I would use my proven critical-situation method: define business impact, preserve one timeline, verify identities and scope, organize evidence, maintain customer communication, and engage the correct technical owner. I would not improvise a NetApp disk action. My RAID knowledge is conceptual and synthetic until authorized practice; I would verify current ONTAP and hardware documentation, exact group/member/spare state, and the Support procedure under the storage owner and lead TAM, then track reconstruction, service validation, residual risk, and follow-up."
 
-**Follow-up depth:** Give a sanitized Microsoft escalation example, then list the exact NetApp facts and permissions that analogy cannot supply.
+**Follow-up depth:** Give a sanitized enterprise escalation example, then list the exact NetApp facts and permissions that analogy cannot supply.
 
 ---
 
@@ -1073,7 +1073,7 @@ $$
 - **Large drive:** More bytes can mean longer exposure, but exact design decides risk.
 - **Failure domain:** Put alternatives across what can fail together.
 - **RAID is not backup:** Current availability is not retained history.
-- **Arti's bridge:** Bring incident discipline; do not improvise NetApp operations.
+- **Your bridge:** Bring incident discipline; do not improvise NetApp operations.
 
 ---
 
@@ -1099,7 +1099,7 @@ $$
 - [ ] Ask the complete discovery set and write a bounded recommendation.
 - [ ] Recreate the Cedar Bank scenario, calculations, hypotheses, and executive summary.
 - [ ] Complete the paper lab, self-test, and Q1-Q8 aloud.
-- [ ] State Arti's Microsoft transfer and production NetApp gap precisely.
+- [ ] State your prior transfer and production NetApp gap precisely.
 - [ ] Recheck exact official ONTAP, platform, drive, spare, and support procedures before real use.
 
 ---

@@ -1,10 +1,10 @@
 # Part 65 - PowerPoint and Data Storytelling for Technical and Executive Audiences
 
-> **Section goal:** Turn verified technical analysis into a clear PowerPoint decision narrative for executives and engineers. By the end, Arti should be able to define audience and decision, build a message-first storyline and executive summary, write conclusion titles, draw architecture and data flows, choose responsible charts and heatmaps, present recommendations and actions, create a technical appendix, apply visual hierarchy and accessibility, show source/cutoff/uncertainty, use speaker notes, distinguish live and send-ahead decks, and run complete content/visual/presentation QA without slide clutter.
+> **Section goal:** Turn verified technical analysis into a clear PowerPoint decision narrative for executives and engineers. By the end, you should be able to define audience and decision, build a message-first storyline and executive summary, write conclusion titles, draw architecture and data flows, choose responsible charts and heatmaps, present recommendations and actions, create a technical appendix, apply visual hierarchy and accessibility, show source/cutoff/uncertainty, use speaker notes, distinguish live and send-ahead decks, and run complete content/visual/presentation QA without slide clutter.
 
 Covers index item **65** and maps directly to job-description responsibilities for Microsoft Office and PowerPoint, analyzing and reporting customer data, conducting operational service reviews, representing recommendations clearly, communicating with technical and executive stakeholders, influencing preventative remediation, working under lead-TAM guidance, and improving customer value.
 
-**Explicit nonclaim:** Arti has not authored, presented, approved, or distributed a production NetApp customer deck or represented a live NetApp recommendation in PowerPoint.
+**Explicit nonclaim:** You have not authored, presented, approved, or distributed a production NetApp customer deck or represented a live NetApp recommendation in PowerPoint.
 
 **Privacy and access boundary:** Decks can expose customer identifiers, topology, versions, telemetry, incidents, vulnerabilities, support cases, costs, contracts, stakeholders, decisions, and accepted risks. Use authorized minimum data, approved templates/repositories, role-appropriate redaction, sensitivity labels and access controls where available, controlled exports, distribution review, retention, and secure links rather than uncontrolled attachment chains.
 
@@ -14,7 +14,7 @@ Covers index item **65** and maps directly to job-description responsibilities f
 
 This Part provides a design and communication method, not a NetApp internal deck template, brand standard, required review format, commercial claim, production recommendation, or authorization to distribute customer data. Actual branding, legal, accessibility, account, customer, and information-protection requirements govern real presentations.
 
-> **No-production-NetApp boundary:** Arti's factual strengths are Microsoft customer and business reviews, executive communication, Excel, Power BI, PowerPoint exposure, analytics, an MBA in Business Analytics, CRITSIT updates, technical writing, and Product/Engineering collaboration. She does **not** claim a production NetApp review deck, live NetApp source access, approved ONTAP recommendation, customer presentation result, or NetApp brand/process ownership. Her exact non-claim is: **she has not built, approved, presented, or distributed a production NetApp technical or executive PowerPoint deck.**
+> **No-production-NetApp boundary:** Your factual strengths are customer and business reviews, executive communication, Excel, Power BI, PowerPoint exposure, analytics, an a postgraduate business-analytics qualification, critical-situation updates, technical writing, and Product/Engineering collaboration. You do **not** claim a production NetApp review deck, live NetApp source access, approved ONTAP recommendation, customer presentation result, or NetApp brand/process ownership. Your exact non-claim is: **you have not built, approved, presented, or distributed a production NetApp technical or executive PowerPoint deck.**
 
 ---
 
@@ -644,7 +644,7 @@ sequenceDiagram
 
 ## 12. Fully synthetic sanitized scenario: Meridian Transit service-review deck
 
-> **Synthetic boundary:** `Meridian Transit`, all slides, systems, sources, metrics, dates, risks, recommendations, decisions, owners, and outcomes are invented. The scenario is not a NetApp/customer deck, live tool output, brand template, or Arti production work.
+> **Synthetic boundary:** `Meridian Transit`, all slides, systems, sources, metrics, dates, risks, recommendations, decisions, owners, and outcomes are invented. The scenario is not a NetApp/customer deck, live tool output, brand template, or documented production work.
 
 ### Audience and decision
 
@@ -784,13 +784,13 @@ flowchart LR
 
 ---
 
-## 15. Arti's factual bridge and JD Mapping
+## 15. Your factual bridge and JD Mapping
 
 ```mermaid
 flowchart LR
     REV[Microsoft business and customer reviews] --> STORY[Audience and decision narrative]
     BI[Excel, Power BI and MBA analytics] --> VIS[Charts, data quality and uncertainty]
-    CRIT[CRITSIT executive updates] --> BLUF[Impact, action, owner and checkpoint]
+    CRIT[Critical-situation executive updates] --> BLUF[Impact, action, owner and checkpoint]
     ENG[Product and Engineering collaboration] --> TECH[Technical appendix and challenge]
     STORY --> METHOD[Transferable PowerPoint method]
     VIS --> METHOD
@@ -801,12 +801,12 @@ flowchart LR
 
 ### Factual tie
 
-| Arti evidence | Transfer | Boundary |
+| Transferable evidence | Transfer | Boundary |
 |---|---|---|
 | Customer/business reviews | Storyline, executive summary and facilitation | Not NetApp OSR deck ownership |
 | Excel/Power BI | Responsible chart and evidence workflow | No live NetApp data |
-| MBA Business Analytics | Decision framing and uncertainty | No customer value causation by default |
-| CRITSIT updates | Concise impact/action/checkpoint messages | Not NetApp incident authority |
+| A postgraduate business-analytics qualification | Decision framing and uncertainty | No customer value causation by default |
+| Critical-situation updates | Concise impact/action/checkpoint messages | Not NetApp incident authority |
 | Product/Engineering work | Technical detail and exact asks | No private NetApp technical source access |
 | Mentoring/onboarding | Teach-back and audience calibration | No NetApp training/brand authority |
 
@@ -824,7 +824,7 @@ flowchart LR
 
 ### Honest interview statement
 
-> `I start with audience and decision, write the storyline as conclusion sentences, then select the minimum architecture, chart, table or heatmap needed to support each message. I show source, cutoff, scope and uncertainty; include options, owner/date, validation and residual risk; use a technical appendix; and run content, visual, accessibility, privacy and rehearsal QA. I have built Microsoft-focused reviews, not a production NetApp deck.`
+> `I start with audience and decision, write the storyline as conclusion sentences, then select the minimum architecture, chart, table or heatmap needed to support each message. I show source, cutoff, scope and uncertainty; include options, owner/date, validation and residual risk; use a technical appendix; and run content, visual, accessibility, privacy and rehearsal QA. I have built reviews from a different technology context, not a production NetApp deck.`
 
 ---
 
@@ -896,7 +896,7 @@ Inject:
 7. Apply visual hierarchy, grid, fonts, colors and whitespace.
 8. Explain every accessibility control.
 9. Manage source/cutoff/uncertainty/notes/version.
-10. Recreate Meridian Transit and state Arti's nonclaim.
+10. Recreate Meridian Transit and state your nonclaim.
 
 ### Lab pass checklist
 
@@ -974,7 +974,7 @@ Inject:
 
 ### Q8. How does your background transfer, and what remains a gap?
 
-> **Model answer:** `Microsoft customer/business reviews, CRITSIT updates, Excel, Power BI, analytics and Product/Engineering communication give me strong storyline, visual and audience skills. I have not delivered a production NetApp deck, so live NetApp evidence, account narrative, branding and recommendations require authorized review.`
+> **Model answer:** `customer and business reviews, critical-situation updates, Excel, Power BI, analytics and Product/Engineering communication give me strong storyline, visual and audience skills. I have not delivered a production NetApp deck, so live NetApp evidence, account narrative, branding and recommendations require authorized review.`
 
 ---
 
@@ -996,7 +996,7 @@ Inject:
 - **Accessibility:** Title, reading order, alt text, contrast, redundant cues.
 - **Notes:** Presenter cues, not secret essential evidence.
 - **Two editions:** Different density, same truth.
-- **Arti's bridge:** Microsoft storytelling transfers; NetApp deck experience does not.
+- **Your bridge:** Microsoft storytelling transfers; NetApp deck experience does not.
 
 ---
 

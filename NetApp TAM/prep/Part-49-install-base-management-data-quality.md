@@ -1,10 +1,10 @@
 # Part 49 - Install-Base Management, Asset Identity, Ownership, and Data Quality
 
-> **Section goal:** Build a governed, auditable view of which NetApp assets exist, where they are, who owns them, what they run, what services they support, whether support and telemetry are current, and which conflicts need correction. By the end, Arti should be able to model customer/site/cluster/node/SVM identity, reconcile multiple sources, handle duplicates and lifecycle events, preserve history, score confidence, manage exceptions, measure data quality, and communicate risk without silently overwriting evidence.
+> **Section goal:** Build a governed, auditable view of which NetApp assets exist, where they are, who owns them, what they run, what services they support, whether support and telemetry are current, and which conflicts need correction. By the end, you should be able to model customer/site/cluster/node/SVM identity, reconcile multiple sources, handle duplicates and lifecycle events, preserve history, score confidence, manage exceptions, measure data quality, and communicate risk without silently overwriting evidence.
 
 Covers index item **49** and maps to job-description responsibilities for install-base accuracy, customer-data analysis, entitlement and lifecycle planning, proactive support, service reviews, ownership, asset moves/adds/changes, data-quality improvement, and cross-functional governance.
 
-**Explicit nonclaim:** Arti has not owned a production NetApp install base or reconciled live NetApp customer asset systems.
+**Explicit nonclaim:** You have not owned a production NetApp install base or reconciled live NetApp customer asset systems.
 
 **Privacy and access boundary:** Asset identifiers, serials, locations, contacts, contracts, entitlement, telemetry, cases, and ownership records are restricted customer and operational data.
 
@@ -14,7 +14,7 @@ Covers index item **49** and maps to job-description responsibilities for instal
 
 This Part does not designate one universal source of truth, define a customer retention policy, authorize an asset transfer, change a support contract, merge support records, decommission equipment, or expose customer contacts. Field-level authority belongs to the customer and relevant NetApp/account/support owners. Gated systems and secure assets require authorized access. Unknown values and conflicts remain visible exceptions.
 
-> **No-production-NetApp boundary:** Arti does not claim production NetApp install-base stewardship. Every account, site, serial, UUID, system ID, cluster, SVM, contact, contract, topology, workload, exception, and audit record below is synthetic. Her factual strengths are Microsoft support data, Azure/M365 tenant and resource identity, CMDB-style reconciliation, Excel/SQL/Python/Power BI quality analysis, customer ownership mapping, and audit-ready escalations. The explicit non-claim is: **she has not corrected a customer's NetApp installed base, transferred asset ownership, merged support records, decommissioned a production NetApp system, managed a Digital Advisor inventory export, or changed a NetApp contract/contact record.**
+> **No-production-NetApp boundary:** You do not claim production NetApp install-base stewardship. Every account, site, serial, UUID, system ID, cluster, SVM, contact, contract, topology, workload, exception, and audit record below is synthetic. Your factual strengths are enterprise support data, Azure/M365 tenant and resource identity, CMDB-style reconciliation, Excel/SQL/Python/Power BI quality analysis, customer ownership mapping, and audit-ready escalations. The explicit non-claim is: **you have not corrected a customer's NetApp installed base, transferred asset ownership, merged support records, decommissioned a production NetApp system, managed a Digital Advisor inventory export, or changed a NetApp contract/contact record.**
 
 ---
 
@@ -623,11 +623,11 @@ flowchart LR
 
 ### JD Mapping
 
-| JD responsibility | Part 49 contribution | Arti's factual bridge and gap |
+| JD responsibility | Part 49 contribution | Your factual bridge and gap |
 |---|---|---|
 | Install-base accuracy | Defines entities, keys, sources, reconciliation, lifecycle, audit | CMDB/data-quality reasoning transfers; no NetApp corrections claimed |
 | Customer data analysis | Adds lineage, confidence, freshness, exceptions, metrics | SQL/Python/Excel/Power BI strengths transfer |
-| Proactive support | Connects current assets/telemetry/contracts to risk | Microsoft support inventory habits transfer |
+| Proactive support | Connects current assets/telemetry/contracts to risk | enterprise support inventory habits transfer |
 | Service review | Reports scope, quality, aging exceptions, owners, deadlines | Customer review communication transfers |
 | Lifecycle/upgrade planning | Preserves exact hardware/software/firmware/workload dependencies | Planning discipline transfers; product validation stays gated/current |
 | Cross-functional ownership | Separates storage, account, contract, app, data steward roles | Multi-team escalation experience transfers |
@@ -794,7 +794,7 @@ flowchart LR
 
 ### Q8. How does your background transfer, and what is your gap?
 
-> **Model answer:** "My Microsoft support and Azure/M365 work gives me tenant/resource identity, CMDB-style reconciliation, audit and escalation habits; SQL/Python/Excel/Power BI support quality analysis. I have not changed a production NetApp installed base or contract record, so authorized owners and current NetApp sources remain explicit."
+> **Model answer:** "My prior support and Azure/M365 work gives me tenant/resource identity, CMDB-style reconciliation, audit and escalation habits; SQL/Python/Excel/Power BI support quality analysis. I have not changed a production NetApp installed base or contract record, so authorized owners and current NetApp sources remain explicit."
 
 ---
 
@@ -813,7 +813,7 @@ flowchart LR
 - **Service mapping:** Parts become customer impact through workload relationships.
 - **Quality:** Complete, unique, valid, consistent, fresh, related, owned, auditable.
 - **Unknown:** An exception with an owner, not a guessed value.
-- **Arti's bridge:** Identity/data governance transfers; NetApp record changes do not.
+- **Your bridge:** Identity/data governance transfers; NetApp record changes do not.
 
 ---
 

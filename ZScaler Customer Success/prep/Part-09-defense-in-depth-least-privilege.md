@@ -1,10 +1,10 @@
 # Part 9 - Defense in Depth, Least Privilege, Segmentation, and Compensating Controls
 
-> **Audience:** Arti Thakur, moving from Microsoft 365 Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
+> **Audience:** Candidates moving from Microsoft 365 Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
 >
 > **Currency date:** 2026-08-24.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, and every NMH control, architecture, identity, test, finding, incident, metric, calculation, decision, and outcome are fictional. Arti's established production bridge is Microsoft support, OneDrive, SharePoint, networking, troubleshooting, analytics, mentoring, escalation, and approved AI work. Direct production operation of Zscaler, Security Operations, vulnerability, exposure, scanner, Endpoint Detection and Response, Security Information and Event Management, Operational Technology security, microsegmentation, privileged-access, or formal Zero Trust programs is not established.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, and every NMH control, architecture, identity, test, finding, incident, metric, calculation, decision, and outcome are fictional. Your established production bridge is enterprise support, OneDrive, SharePoint, networking, troubleshooting, analytics, mentoring, escalation, and approved AI work. Direct production operation of Zscaler, Security Operations, vulnerability, exposure, scanner, Endpoint Detection and Response, Security Information and Event Management, Operational Technology security, microsegmentation, privileged-access, or formal Zero Trust programs is not established.
 >
 > **Safety:** Control testing must be authorized, bounded, monitored, reversible, and designed with application, identity, network, safety, privacy, and business owners. Do not test production access, segmentation, exploitation, or response actions outside written authority and change controls.
 >
@@ -16,7 +16,7 @@ Part 9 explains how organizations reduce the chance that one weakness becomes a 
 
 Imagine protecting a museum. Strong display glass helps prevent theft. Staff monitor rooms. Access badges separate public and employee areas. Valuable items have individual alarms. Inventory detects loss. Emergency procedures recover after disruption. If every layer depends on one power circuit with no backup, the museum has several devices but one common failure. Real defense in depth is not the number of products; it is the quality, coverage, independence, and tested interaction of controls.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Learning outcome | What mastery looks like |
 |---|---|
@@ -36,7 +36,7 @@ By the end, Arti should be able to:
 
 **JD** means job description. A Technical Success Manager, abbreviated **TSM**, does not own every customer control, but must understand architecture, dependencies, evidence, tradeoffs, and stakeholder authority well enough to guide adoption and risk reduction.
 
-| JD expectation | Part 9 capability | Honest Arti bridge |
+| JD expectation | Part 9 capability | Honest experience bridge |
 |---|---|---|
 | Analyze complex environments | Map boundaries across identity, device, network, application, data, cloud, SaaS, and OT | Production: cross-layer Microsoft 365 and networking troubleshooting |
 | Identify risks | Find broad privilege, flat trust, shared authority, missing layers, and common-mode failures | Lab: fictional NMH assessments |
@@ -48,11 +48,11 @@ By the end, Arti should be able to:
 
 ## Candidate honesty note
 
-Arti has factual production experience with Microsoft 365 identities, permissions, sharing, sync, client and service behavior, network dependencies, escalations, analytics, and validation. Those experiences support least-privilege and boundary reasoning. They do not establish production design of enterprise microsegmentation, privileged-access management, Zero Trust architecture, or Zscaler policy.
+You have factual production experience with Microsoft 365 identities, permissions, sharing, sync, client and service behavior, network dependencies, escalations, analytics, and validation. Those experiences support least-privilege and boundary reasoning. They do not establish production design of enterprise microsegmentation, privileged-access management, Zero Trust architecture, or Zscaler policy.
 
 | Label | Meaning in this chapter | Safe wording | Boundary |
 |---|---|---|---|
-| Production | Supported Microsoft workloads, permissions, networking, customers, and escalations | "I validated effective access and service dependencies in Microsoft support scenarios." | Do not claim ownership of customer security architecture |
+| Production | Supported Microsoft workloads, permissions, networking, customers, and escalations | "I validated effective access and service dependencies in enterprise support scenarios." | Do not claim ownership of customer security architecture |
 | Lab | Synthetic design or test completed for study | "I designed a fictional OT compensating-control package and test plan." | Do not present NMH as a customer deployment |
 | Conceptual | Architecture and governance understood from authoritative guidance | "I can compare RBAC, ABAC, JIT, and JEA and state validation questions." | Architecture knowledge is not implementation experience |
 | Not-yet-used | Product or program not directly operated | "I have not deployed Zscaler segmentation or a PAM platform in production." | Do not imply tenant access or policy tuning |
@@ -132,7 +132,7 @@ Imagine five strong locks installed on a lightweight interior door. The count is
 
 Control analysis should ask what each layer assumes. Does an email control, endpoint tool, cloud policy, and access gateway all trust one device-compliance feed? Can one tenant administrator disable all of them? Are production and backup governed by the same identity? Does one data pipeline populate every dashboard? A common assumption is not automatically wrong, but it must be protected, monitored independently, and included in failure planning.
 
-Arti's production troubleshooting method transfers well. Several application errors can share one proxy, certificate, DNS, or identity dependency. Counting symptoms does not identify independent causes. Security design uses the same dependency discipline before crediting multiple controls.
+Your production troubleshooting method transfers well. Several application errors can share one proxy, certificate, DNS, or identity dependency. Counting symptoms does not identify independent causes. Security design uses the same dependency discipline before crediting multiple controls.
 
 ## Trust boundaries
 
@@ -296,7 +296,7 @@ A factory issues a specialized cutting tool for a specific job, records who used
 
 Organizations sometimes equate seniority with broad permanent access. That increases the value of stolen accounts and the consequence of mistakes. JIT and JEA reduce the window and capability, but only if activation, approval, session binding, logging, revocation, and emergency paths work. If the normal workflow takes hours during an outage, engineers will seek bypasses. Usability is a security property because an unusable control creates shadow access.
 
-Arti can connect this to escalation practice: urgent work still needs clear ownership, approved scope, evidence, and validation. The security extension makes privilege activation and expiry explicit.
+You can connect this to escalation practice: urgent work still needs clear ownership, approved scope, evidence, and validation. The security extension makes privilege activation and expiry explicit.
 
 ## Separation of duties
 
@@ -558,7 +558,7 @@ flowchart LR
 
 ## OneDrive and SharePoint examples
 
-These examples bridge from Arti's production domain without claiming formal security architecture ownership.
+These examples bridge from your production domain without claiming formal security architecture ownership.
 
 ### Least-privilege collaboration design
 
@@ -822,7 +822,7 @@ A new network policy is followed by OneDrive sign-in and sync failures for one r
 | Unrelated client regression | Same failure outside changed path | Controlled alternate network and version comparison |
 | Service incident | Health and independent regions affected | Service evidence and timing |
 
-The target is the smallest correction that restores the authorized flow while preserving denied paths. Arti's production troubleshooting skills are directly relevant here; the security policy ownership remains with the customer.
+The target is the smallest correction that restores the authorized flow while preserving denied paths. Your production troubleshooting skills are directly relevant here; the security policy ownership remains with the customer.
 
 ### Drill 3 - Shared administrator compromises backup independence
 
@@ -918,7 +918,7 @@ Monitoring alone may not compensate for a fast severe event, and segmentation do
 
 The package does not remove the vulnerability and cannot override plant safety authority. The exception expires at the maintenance window, and any delay requires new explicit residual-risk acceptance. This is a lab design, not production OT experience.
 
-### Q8. How does your Microsoft background transfer, and what remains a gap?
+### Q8. How does your prior background transfer, and what remains a gap?
 
 **Model answer:** My production strength is effective-access and dependency reasoning across OneDrive, SharePoint, identity, clients, DNS, TCP, TLS, HTTP, proxies, and services, plus critical escalation, Engineering coordination, analytics, and fix validation. Those skills help discover required flows, distinguish policy from effective behavior, and test the smallest safe change.
 
@@ -950,7 +950,7 @@ I have not deployed Zscaler segmentation, microsegmentation, PAM, or a formal Ze
 | Compensating control | Alternate risk reduction with an expiry |
 | Zero Trust relation | Explicit verification plus resource-specific least privilege |
 | NMH | Fictional OT and SaaS practice only |
-| Arti bridge | Production access and dependency evidence; conceptual control architecture |
+| Experience bridge | Production access and dependency evidence; conceptual control architecture |
 
 ## Completion Checklist
 

@@ -1,10 +1,10 @@
 # Part 3 - Technical Success Management from Zero
 
-> **Audience:** Arti Thakur, preparing to move from Microsoft enterprise Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
+> **Audience:** Candidates preparing to move from enterprise Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
 >
 > **Currency date:** 2026-08-24.
 >
-> **Honesty rule:** This chapter teaches a general Technical Success operating model and applies it to fictional Zscaler-related scenarios. Arti's production evidence is limited to the Microsoft customer, support, escalation, networking, analytics, advisory, mentoring, training, and approved AI work in her background. Direct production operation of Zscaler, Security Operations, vulnerability-management, or exposure-management products is not established.
+> **Honesty rule:** This chapter teaches a general Technical Success operating model and applies it to fictional Zscaler-related scenarios. Your production evidence is limited to the Microsoft customer, support, escalation, networking, analytics, advisory, mentoring, training, and approved AI work in your background. Direct production operation of Zscaler, Security Operations, vulnerability-management, or exposure-management products is not established.
 >
 > **Role caveat:** Technical Success Manager, Customer Success Manager, and Technical Account Manager titles vary by company. Confirm Zscaler's current team charter, service package, account coverage, decision rights, and commercial boundaries rather than assuming universal definitions.
 
@@ -14,7 +14,7 @@ This chapter builds Technical Success Management from first principles. A **Tech
 
 Think of a TSM as the conductor of an orchestra. The conductor does not play every instrument, write every score, sell every ticket, or repair the stage. The conductor understands the intended performance, helps specialists enter at the right time, detects when sections drift, and makes the whole result coherent. A strategic customer should not have to assemble a usable outcome from disconnected vendor teams.
 
-By the end of this chapter, Arti should be able to:
+By the end of this chapter, you should be able to:
 
 | Learning outcome | What mastery looks like |
 |---|---|
@@ -26,7 +26,7 @@ By the end of this chapter, Arti should be able to:
 | Build governance | Use clear cadences, decision rights, stakeholders, metrics, and action tracking |
 | Create artifacts | Draft a charter, success plan, health score, action register, RAID log, QBR, account plan, RACI, and communication plan |
 | Handle difficult scenarios | Respond to low adoption, missing sponsorship, scope confusion, commercial pressure, roadmap asks, and repeated escalation |
-| Position Arti honestly | Translate support strengths into proactive success without claiming unearned product or security-program experience |
+| Position you honestly | Translate support strengths into proactive success without claiming unearned product or security-program experience |
 
 ## JD Mapping
 
@@ -47,13 +47,13 @@ By the end of this chapter, Arti should be able to:
 
 ## Candidate honesty note
 
-Arti's production support experience includes customer ownership, SharePoint Online and OneDrive for Business problem solving, Sync and Copilot-related scenarios, business-critical escalations, Critical Situations, evidence gathering, Engineering coordination, fix validation, communication, analytics, Technical Advisor work, mentoring, onboarding, training, and documented customer-satisfaction results. These facts are highly relevant to a TSM role.
+Your production support experience includes customer ownership, SharePoint Online and OneDrive for Business problem solving, Sync and Copilot-related scenarios, business-critical escalations, Critical Situations, evidence gathering, Engineering coordination, fix validation, communication, analytics, technical advisor work, mentoring, onboarding, training, and documented customer-satisfaction results. These facts are highly relevant to a TSM role.
 
 They do not establish ownership of a formal customer-success portfolio, a Zscaler production deployment, a vulnerability-management program, a Security Operations program, a renewal forecast, or a commercial quota. Interview answers should use this pattern:
 
 | Claim label | Example in this chapter | Safe wording |
 |---|---|---|
-| Production | Microsoft escalation, customer, analytics, advisory, or enablement evidence | "In my Microsoft production role..." |
+| Production | enterprise escalation, customer, analytics, advisory, or enablement evidence | "In my prior production role..." |
 | Lab | A retained synthetic health model or dashboard | "In a controlled lab exercise..." |
 | Conceptual | TSM lifecycle or Zscaler product architecture understanding | "Conceptually, I would validate..." |
 | Fictional | Northstar Meridian Holdings account artifacts | "In the fictional NMH case..." |
@@ -293,7 +293,7 @@ Technical depth does not mean knowing every command from memory. It means unders
 | Tradeoffs | Explain security, experience, cost, scale, and complexity | Does this mitigation reduce risk while preserving plant safety? |
 | Communication | Adjust depth for operator, architect, or executive | Which fact and decision matter to this audience? |
 
-Arti's production networking and Microsoft 365 troubleshooting provide a strong transfer. A OneDrive issue may cross identity, endpoint, browser, Domain Name System, Transport Layer Security, proxy, service, permissions, and sync state. A SecOps TSM uses the same cross-layer method while learning new security data, control, scoring, and product evidence.
+Your production networking and Microsoft 365 troubleshooting provide a strong transfer. A OneDrive issue may cross identity, endpoint, browser, Domain Name System, Transport Layer Security, proxy, service, permissions, and sync state. A SecOps TSM uses the same cross-layer method while learning new security data, control, scoring, and product evidence.
 
 ## Success plan
 
@@ -623,7 +623,7 @@ flowchart LR
 | Role ambiguity | RACI workshop | Owners accept responsibilities |
 | Low confidence | Office hours and coached repetition | Fewer avoidable escalations and stronger independence |
 
-Arti's factual mentoring, onboarding, partner training, knowledge writing, interviewing, and AI training create a strong transfer. She should explain how she assessed learner need and measured independence rather than only attendance.
+Your factual mentoring, onboarding, partner training, knowledge writing, interviewing, and AI training create a strong transfer. You should explain how you assessed learner need and measured independence rather than only attendance.
 
 ## Core operating templates
 
@@ -837,7 +837,7 @@ Retention is a customer continuing the relationship. Advocacy is a customer will
 
 ## QBR narrative example for fictional NMH
 
-> **Fiction notice:** Northstar Meridian Holdings, its people, tools, metrics, incidents, and outcomes are synthetic. Arti did not operate this account or any Zscaler product for it in production.
+> **Fiction notice:** Northstar Meridian Holdings, its people, tools, metrics, incidents, and outcomes are synthetic. You did not operate this account or any Zscaler product for it in production.
 
 **Executive opening:** "This quarter, NMH moved the Tier 1 internet-facing pilot from fragmented inventories toward a reconciled, owner-driven workflow. The strongest progress is validated ownership and source reconciliation. The main risk is cloud-source reliability after credential changes, which invalidated one dashboard trend and triggered a corrective workstream. We need two decisions today: approve the source-health hard stop for executive reporting and assign authority for plant exceptions."
 
@@ -865,18 +865,18 @@ Retention is a customer continuing the relationship. Advocacy is a customer will
 | Product blame | Every gap becomes a defect | Is this configuration, data, process, training, limitation, or defect? | Classify with evidence |
 | Reactive overload | Strategic milestones repeatedly slip | Which incidents are recurring and preventable? | Convert patterns into roadmap and capacity decisions |
 
-## Arti's support-to-TSM bridge
+## Your support-to-TSM bridge
 
-| Arti production strength | TSM transfer | New skill to build | Honest language |
+| Documented production strength | TSM transfer | New skill to build | Honest language |
 |---|---|---|---|
 | Business-impact scoping | Outcome discovery and escalation severity | Security and business-service risk framing | "I have scoped enterprise impact; I am building SecOps risk depth" |
 | Cross-layer troubleshooting | Architecture and integration analysis | Zscaler and security-data telemetry | "The method transfers; the product evidence is new" |
-| CRITSIT coordination | Critical account escalation | Customer SecOps authority and process | "I know high-pressure continuity, not formal SOC command" |
+| Critical-situation coordination | Critical account escalation | Customer SecOps authority and process | "I know high-pressure continuity, not formal SOC command" |
 | Engineering collaboration | Support and Product handoff quality | Zscaler internal operating model | "I provide reproducible evidence and learn the current route" |
 | Fix validation and RCA | Recovery and recurrence improvement | Security-control effectiveness validation | "I validate outcomes and will seek domain review" |
 | CSAT and recognition | Customer trust | Strategic multi-quarter value evidence | "Metrics support one specific factual story" |
 | Backlog and case analytics | Health, adoption, and KPI reasoning | Vulnerability and exposure measures | "Analytics transfers; formal VM ownership is not established" |
-| Technical Advisor and mentoring | Enablement and service scaling | SecOps role-based curriculum | "I have built capability and am learning the new domain" |
+| Technical advisor and mentoring | Enablement and service scaling | SecOps role-based curriculum | "I have built capability and am learning the new domain" |
 | Copilot Studio and AI work | AI-forward workflow thinking | Agentic SecOps product operation | "Employee AI evidence, not autonomous security response" |
 
 ## Official Source Anchors
@@ -904,7 +904,7 @@ Retention is a customer continuing the relationship. Advocacy is a customer will
 | General TSM practice | Lifecycle, health, governance, and artifact patterns | "A practical TSM model is..." |
 | Customer-specific | Scope, entitlement, service charter, metrics, thresholds, and owners | "I would confirm this for the account..." |
 | Fictional | Every NMH person, metric, issue, plan, and result | "In the fictional exercise..." |
-| Arti production | Approved Microsoft customer, support, escalation, analytics, mentoring, training, and AI facts | "In my Microsoft production work..." |
+| Documented production | Approved Microsoft customer, support, escalation, analytics, mentoring, training, and AI facts | "In my prior production work..." |
 | Not established | Zscaler production operation, formal VM/SecOps program ownership, renewal quota | "I have not owned that directly yet..." |
 
 ## Likely Interview Questions
@@ -937,7 +937,7 @@ The score is a smoke alarm, not objective truth. I show component trends and exp
 
 **Model answer:** I would diagnose before scheduling more training. I would compare target and actual behavior, observe the real workflow, and test whether the use case is valued, data is trusted, permissions work, the workflow fits existing tools, users are proficient, ownership is clear, and the sponsor reinforces the change. Each cause needs a different intervention.
 
-Success is repeated, correct, independent use that improves an outcome. Login count and training attendance are weak proxies. Arti's factual mentoring and training experience supports role-based explanation and teach-back; direct Zscaler workflow adoption remains a product ramp area.
+Success is repeated, correct, independent use that improves an outcome. Login count and training attendance are weak proxies. Your factual mentoring and training experience supports role-based explanation and teach-back; direct Zscaler workflow adoption remains a product ramp area.
 
 ### Q6. How do you support renewal and expansion without becoming the salesperson?
 
@@ -953,7 +953,7 @@ For expansion, I start with a verified unmet customer need, not product pressure
 
 ### Q8. How does your Support Escalation Engineering background prepare you for proactive Technical Success?
 
-**Model answer:** My production support work gives me a strong foundation in enterprise impact, cross-layer troubleshooting, evidence, Engineering coordination, customer communication, high-pressure ownership, fix validation, and recurrence learning. My Technical Advisor, backlog analysis, mentoring, onboarding, training, and AI work also show proactive and scalable behavior beyond individual case resolution.
+**Model answer:** My production support work gives me a strong foundation in enterprise impact, cross-layer troubleshooting, evidence, Engineering coordination, customer communication, high-pressure ownership, fix validation, and recurrence learning. My technical advisor, backlog analysis, mentoring, onboarding, training, and AI work also show proactive and scalable behavior beyond individual case resolution.
 
 The deliberate shift is to apply that rigor earlier: discover goals, baseline health, identify risks before incidents, build milestones, drive adoption, enable users, and measure durable outcomes. I do not claim formal TSM portfolio ownership, Zscaler production operation, or vulnerability-program leadership. I would prove the transition through reviewed success plans, synthetic labs, shadowing, reverse-shadowing, and measurable customer artifacts before independent high-impact guidance.
 
@@ -982,7 +982,7 @@ The deliberate shift is to apply that rigor earlier: discover goals, baseline he
 | Escalation | Stabilize, coordinate, recover, prevent |
 | Enablement | Explain, practice, teach back, operate independently |
 | Renewal | Technical truth supports; Sales commits |
-| Arti bridge | Apply incident rigor before the incident |
+| Experience bridge | Apply incident rigor before the incident |
 
 ## Completion Checklist
 
@@ -1004,7 +1004,7 @@ The deliberate shift is to apply that rigor earlier: discover goals, baseline he
 - [ ] I can handle low adoption, no sponsor, scope confusion, commercial pressure, roadmap asks, and repeated escalations.
 - [ ] I can collaborate on retention, renewal, and expansion without making Sales commitments.
 - [ ] I can describe every NMH example as fictional.
-- [ ] I can state exactly which Arti evidence is production, conceptual, lab, fictional, or not yet used.
+- [ ] I can state exactly which transferable evidence is production, conceptual, lab, fictional, or not yet used.
 - [ ] I can answer all eight questions aloud with one skeptical follow-up each.
 - [ ] I have rechecked official source anchors if preparing after 2026-08-24.
 

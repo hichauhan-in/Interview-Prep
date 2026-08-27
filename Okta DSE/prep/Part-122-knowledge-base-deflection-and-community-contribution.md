@@ -38,7 +38,7 @@ flowchart TD
 
 **Row two is the failure to avoid**, and it is why deflection is sometimes resisted. **The article is a tool, not a replacement for engagement.**
 
-> 💡 **Tie-in to your background:** ODSP SME and 100+ recognitions suggest you already do this — **knowledge sharing is usually what SME recognition reflects.** Being able to describe the practice rather than the title is what makes it credible.
+> 💡 **Tie-in to your background:** product subject-matter expert and repeated peer and customer recognition suggest you already do this — **knowledge sharing is usually what SME recognition reflects.** Being able to describe the practice rather than the title is what makes it credible.
 
 ### 🔍 Plain-English deep-dive: recognising what is worth writing
 
@@ -424,7 +424,7 @@ Over three weeks, five tickets arrive with variations of the same problem: **use
 
 ## 9. Candidate Honesty Note
 
-- **Production experience:** SME recognition and 100+ recognitions, which typically reflect knowledge sharing and helping colleagues rather than individual ticket volume.
+- **Production experience:** SME recognition and repeated peer and customer recognition, which typically reflect knowledge sharing and helping colleagues rather than individual ticket volume.
 - **Production experience:** recognising recurring questions and answering them once for reuse.
 - **Lab experience:** writing symptom-titled articles and testing both findability and usefulness with real readers, as above.
 - **Learned architecture:** the views-versus-tickets diagnostic and the maintenance discipline.

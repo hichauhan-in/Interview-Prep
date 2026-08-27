@@ -2,7 +2,7 @@
 
 > **Section goal:** Build a beginner-first, consulting-grade command of Kusto Query Language (KQL) for Microsoft Sentinel. This Part explains tables, rows, columns, scalar types, the tabular pipeline, schema discovery, bounded time filters, search versus `where`, projection and calculated columns, aggregation, parsing, dynamic JSON, arrays, reusable expressions, joins, unions, lookups, watchlists, external data, time-series and anomaly basics, entity timelines, indicators of compromise (IOCs), baselines, performance, query cost context, null/case/type failures, debugging, reusable functions, safe redaction and query lifecycle. Every hands-on example uses synthetic `datatable` data and can be studied without a Sentinel tenant or production evidence.
 
-This Part maps directly to Deloitte expectations for Microsoft Sentinel engineering, security monitoring, threat detection, incident investigation, troubleshooting, root-cause analysis (RCA), data quality, privacy, documentation and client communication. Arti's production strength is disciplined evidence correlation: define the question, constrain the time window, preserve identifiers, compare expected with observed behavior and state uncertainty. KQL turns that method into a repeatable query pipeline. The goal is not to imply production Sentinel operation; it is to demonstrate a safe, current and technically defensible foundation.
+This Part maps directly to Deloitte expectations for Microsoft Sentinel engineering, security monitoring, threat detection, incident investigation, troubleshooting, root-cause analysis (RCA), data quality, privacy, documentation and client communication. Your production strength is disciplined evidence correlation: define the question, constrain the time window, preserve identifiers, compare expected with observed behavior and state uncertainty. KQL turns that method into a repeatable query pipeline. The goal is not to imply production Sentinel operation; it is to demonstrate a safe, current and technically defensible foundation.
 
 > **Currency, portal, licensing and cost note (August 24, 2026):** This chapter is grounded in official Microsoft Learn available on August 24, 2026. KQL applies across several Microsoft services, but table names, functions, limits and supported language features can differ by product and query surface. Microsoft Learn currently says Sentinel uses Azure Monitor Log Analytics workspaces and that after March 31, 2027 Sentinel is supported only in the Microsoft Defender portal. Analytics, Basic and Auxiliary table plans have different query and cost behavior; search jobs, long-term retention and cross-resource queries add separate considerations. Never infer a client's bill from query text alone. Verify the selected portal, scope, table plan, retention tier, service limits, RBAC, current pricing and live schema before implementation.
 
@@ -20,9 +20,9 @@ This Part maps directly to Deloitte expectations for Microsoft Sentinel engineer
 
 ## Candidate honesty note
 
-Arti can credibly discuss production incident troubleshooting, timestamp correlation, evidence validation, RCA, reporting, stakeholder coordination and safe handling of sensitive records. She can demonstrate the synthetic queries and design method in this chapter.
+You can credibly discuss production incident troubleshooting, timestamp correlation, evidence validation, RCA, reporting, stakeholder coordination and safe handling of sensitive records. You can demonstrate the synthetic queries and design method in this chapter.
 
-She should not claim production Sentinel hunting, KQL analytics-rule ownership, watchlist administration, workspace function deployment, query-cost ownership or live SOC operation unless separately evidenced. Safe wording is:
+You should not claim production Sentinel hunting, KQL analytics-rule ownership, watchlist administration, workspace function deployment, query-cost ownership or live SOC operation unless separately evidenced. Safe wording is:
 
 > “My production background is incident troubleshooting, evidence correlation, RCA and validation. I have not operated Microsoft Sentinel or authored its KQL detections in production. I built a current synthetic KQL lab using `datatable` to practise bounded filtering, parsing, aggregation, joins, entity timelines, baselines, anomaly concepts, performance review, redaction and debugging. In a client workspace I would first verify scope, schema, permissions, table plan and data quality; test read-only queries on a narrow window; peer-review detection logic; and promote versioned content through a controlled pilot.”
 
@@ -1063,7 +1063,7 @@ Tie a metric to an owner and response. A dashboard without a threshold, runbook 
 
 ## 29. JD Mapping: interview translation
 
-| Interview theme | Arti's transferable strength | Honest KQL answer |
+| Interview theme | Your transferable strength | Honest KQL answer |
 |---|---|---|
 | Investigation | Builds evidence timelines | Explain bounded entity timelines and clock validation |
 | Troubleshooting | Isolates layers systematically | Table → time → field → type → parse → grain → join |

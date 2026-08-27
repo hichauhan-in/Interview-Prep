@@ -264,12 +264,12 @@ flowchart TD
     T4 --> T4b["Skills: minimal repro, clear bug reports - Part 117"]
     D --> T5["\ud83d\udd35 Ticket type 5: production incident"]
     T5 --> T5a["Urgency, communication, coordination"]
-    T5 --> T5b["Skills: exactly your CRITSIT experience"]
+    T5 --> T5b["Skills: exactly your critical-situation experience"]
 ```
 
 **Type two is the one most different from IT-facing support**, and it is worth preparing for deliberately. **A developer asking "should I use the implicit flow or authorization code with PKCE?" is not reporting a fault** — they are asking for judgement. Answering well requires understanding the trade-off, not looking up a setting.
 
-**Types one, three, and five map closely to escalation engineering**, which is genuinely transferable. **Type five in particular is where your CRITSIT experience is directly applicable** — production incidents need coordination, communication, and calm as much as they need diagnosis, and that skill does not depend on the product.
+**Types one, three, and five map closely to escalation engineering**, which is genuinely transferable. **Type five in particular is where your critical-situation experience is directly applicable** — production incidents need coordination, communication, and calm as much as they need diagnosis, and that skill does not depend on the product.
 
 | Ticket type | Transfers from your background? |
 |---|---|
@@ -277,7 +277,7 @@ flowchart TD
 | Architecture guidance | ⚠️ **New** — requires product judgement |
 | Regression / expiry | ✅ Strongly |
 | Bug isolation and escalation | ✅ Strongly — this is escalation work |
-| Production incident | ✅ **Very strongly** — CRITSIT experience |
+| Production incident | ✅ **Very strongly** — critical-situation experience |
 
 **Being explicit about the middle row is a strength rather than a weakness in interview.** *"Architecture guidance is the part I'd need to grow into, because it requires product judgement I don't have yet — the debugging and incident work transfers directly."* **That reads as self-aware rather than underqualified**, and it invites a conversation about ramp rather than about gaps.
 
@@ -405,7 +405,7 @@ A ticket says: *"Our application login is broken for some users after we enabled
 ## 9. Candidate Honesty Note
 
 - **Production experience:** enterprise support for IT-facing products, which maps to the Workforce Identity buyer and vocabulary.
-- **Production experience:** CRITSIT and production incident handling — directly transferable to ticket type five.
+- **Production experience:** critical situation and production incident handling — directly transferable to ticket type five.
 - **Lab experience:** reading the primary product documentation, working through Quickstarts, and categorising real developer forum questions, as above.
 - **Learned architecture:** Auth0's product areas and the CIAM-versus-workforce distinction.
 - **No direct experience:** Okta or Auth0 in production, for any customer.
@@ -460,7 +460,7 @@ A ticket says: *"Our application login is broken for some users after we enabled
 
 ### Q8. "You have no Okta or Auth0 production experience. Why should we hire you?"
 
-> *Model answer:* I would start by confirming that is accurate, because I would rather be straightforward about it. What I bring is five years of enterprise support and escalation work — owning business-critical escalations and CRITSITs, doing root cause analysis, and working with engineering to validate fixes — which is exactly the shape of ticket types one, three, four, and five in this role. I also bring the underlying technical foundation: Active Directory, LDAP, Entra ID, networking, TLS, HTTP, and HAR analysis, which is the substrate all of this identity work sits on. What I have done deliberately is close the product gap — worked through the protocols properly, built labs with free tiers, and read the developer forum to understand what the questions actually look like. The part I would genuinely need to grow into is architecture guidance, because that needs product judgement that only comes with time on the product.
+> *Model answer:* I would start by confirming that is accurate, because I would rather be straightforward about it. What I bring is several years of enterprise support and escalation work — owning business-critical escalations and critical situations, doing root cause analysis, and working with engineering to validate fixes — which is exactly the shape of ticket types one, three, four, and five in this role. I also bring the underlying technical foundation: Active Directory, LDAP, Entra ID, networking, TLS, HTTP, and HAR analysis, which is the substrate all of this identity work sits on. What I have done deliberately is close the product gap — worked through the protocols properly, built labs with free tiers, and read the developer forum to understand what the questions actually look like. The part I would genuinely need to grow into is architecture guidance, because that needs product judgement that only comes with time on the product.
 
 ---
 

@@ -2,7 +2,7 @@
 
 ## Section goal
 
-This Part builds a beginner-friendly support model for a third-party SaaS integration with Google Workspace. It is explicitly a **learned architecture and synthetic paper lab**, not a claim that Arti administered Google Workspace, Google Cloud, Gmail API, Admin SDK, Cloud Pub/Sub, OAuth verification, or domain-wide delegation in production.
+This Part builds a beginner-friendly support model for a third-party SaaS integration with Google Workspace. It is explicitly a **learned architecture and synthetic paper lab**, not a claim that you administered Google Workspace, Google Cloud, Gmail API, Admin SDK, Cloud Pub/Sub, OAuth verification, or domain-wide delegation in production.
 
 Google Workspace and Google Cloud are related but distinct administrative planes. A Google Cloud project can contain enabled APIs, OAuth clients, service accounts, keys, IAM roles, quota usage, Pub/Sub topics, and subscriptions. A Google Workspace customer/domain has users, groups, organizational units, licenses, Admin-console API controls, app access controls, domain-wide delegation entries, Gmail mailboxes, and audit/activity records. A Cloud service account is an application identity; it is not automatically a member or user of the Workspace domain. Cloud IAM permission on the project does not automatically authorize access to Workspace user data.
 
@@ -36,20 +36,20 @@ After completing this Part, you should be able to:
 - classify OAuth/JWT, 401/403/404, quota/rate, project/API, subject, scope, watch, Pub/Sub, and connector errors;
 - use truncated exponential backoff with jitter conceptually and avoid retry storms/full-scan loops;
 - distinguish Google-side service/project/domain causes from vendor connector/target causes; and
-- present Google Workspace experience as learned architecture and synthetic practice, while leaning on Microsoft transferable support skills.
+- present Google Workspace experience as learned architecture and synthetic practice, while leaning on experience transferable support skills.
 
 ## JD Mapping
 
-| Supplied role signal | Capability built | Arti's transferable evidence | Boundary |
+| Supplied role signal | Capability built | Your transferable evidence | Boundary |
 |---|---|---|---|
-| Google Workspace ecosystem | Maps Workspace domain, Cloud project, DWD, Gmail/Admin APIs, Pub/Sub, and audit | Microsoft identity/cloud concepts transfer | Learned architecture only |
+| Google Workspace ecosystem | Maps Workspace domain, Cloud project, DWD, Gmail/Admin APIs, Pub/Sub, and audit | enterprise identity/cloud concepts transfer | Learned architecture only |
 | SaaS integrations | Traces admin grant to identity, token, API, watch, checkpoint, and target | REST/JSON and enterprise configuration habits | No live Google connector claim |
 | Email security | Separates Gmail mailbox history/change notification from full message/resource retrieval | Microsoft mail-plane reasoning transfers | Abnormal Google mail path unknown |
 | Security/least privilege | Reviews exact scopes, impersonated subject, keys, API controls, data retention | Microsoft security/identity habits | No DWD administration claim |
-| Complex troubleshooting | Uses multi-plane IDs/timelines and competing hypotheses | CRITSIT/escalation experience | Synthetic cases only |
+| Complex troubleshooting | Uses multi-plane IDs/timelines and competing hypotheses | critical situation/escalation experience | Synthetic cases only |
 | API support | Understands pagination, history checkpoints, Pub/Sub IDs, quota/backoff | HTTP/API working knowledge | No API calls in lab |
 | Customer trust | Requests metadata and field names, not keys/tokens/mail | Privacy-aware support | Customer content excluded |
-| Cross-functional work | Routes Workspace admin, Cloud owner, security, network, and vendor Engineering asks | Microsoft support collaboration | Google role names/workflows need current docs |
+| Cross-functional work | Routes Workspace admin, Cloud owner, security, network, and vendor Engineering asks | enterprise support collaboration | Google role names/workflows need current docs |
 
 ## Candidate honesty note
 
@@ -63,7 +63,7 @@ After completing this Part, you should be able to:
 
 Safe interview language:
 
-> “My Google Workspace integration knowledge is learned and lab-based, supported by real Microsoft enterprise support experience. I would identify the Workspace customer/domain, Cloud project, service-account numeric client ID and email, DWD scopes, subject user, enabled API, request/quota evidence, Gmail watch and history checkpoint, Pub/Sub topic/subscription delivery, connector processing, and target state. I would never request the service-account JSON key, private key, access token, Gmail message content, or an unrestricted Admin audit export.”
+> “My Google Workspace integration knowledge is learned and lab-based, supported by real enterprise support experience. I would identify the Workspace customer/domain, Cloud project, service-account numeric client ID and email, DWD scopes, subject user, enabled API, request/quota evidence, Gmail watch and history checkpoint, Pub/Sub topic/subscription delivery, connector processing, and target state. I would never request the service-account JSON key, private key, access token, Gmail message content, or an unrestricted Admin audit export.”
 
 ## 1. Google Workspace and Google Cloud planes
 
@@ -839,7 +839,7 @@ The lab creates no Google account, project, OAuth client, service account, key, 
 | Quota | Fixed retry | Backoff | Per-project/user/method, truncated backoff+jitter, bounded concurrency |
 | Evidence | Raw mail/audit | Some redaction | Stable metadata/IDs/counts/UTC; no token/key/content/export |
 | Troubleshooting | Regrant all | Checks DWD | Project-to-target decision tree and precise owner asks |
-| Honesty | Claims Google ops | Says studied | Microsoft transfer, Google learned lab, Abnormal unknown |
+| Honesty | Claims Google ops | Says studied | experience transfer, Google learned lab, Abnormal unknown |
 
 ## 36. Official Source Anchors
 
@@ -898,7 +898,7 @@ All sources were verified and recorded with guide currency date **August 24, 202
 
 ### Q8. What are your Google Workspace experience boundaries?
 
-**Model answer:** My Google Workspace integration knowledge is learned from current official documentation and a metadata-only paper lab. My production strength is Microsoft enterprise support, identity, service boundaries, RCA, escalation, and customer communication. I do not claim Google admin/DWD/Gmail API operations, and Abnormal's Google integration remains unknown without approved docs.
+**Model answer:** My Google Workspace integration knowledge is learned from current official documentation and a metadata-only paper lab. My production strength is enterprise support, identity, service boundaries, RCA, escalation, and customer communication. I do not claim Google admin/DWD/Gmail API operations, and Abnormal's Google integration remains unknown without approved docs.
 
 ## Memory Hooks
 
@@ -918,7 +918,7 @@ All sources were verified and recorded with guide currency date **August 24, 202
 - **404 old history means controlled full sync, not infinite retry.**
 - **Notifications can delay/drop; backstop reconciliation closes gaps.**
 - **Quota is project/user/method specific; back off with jitter.**
-- **Microsoft is production transfer; Google is learned architecture.**
+- **Prior-role work is production transfer; Google is learned architecture.**
 
 ## Completion Checklist
 
@@ -943,7 +943,7 @@ All sources were verified and recorded with guide currency date **August 24, 202
 - [ ] I completed or can explain **The Google Workspace Delegation Observatory 067**.
 - [ ] The lab includes Prerequisites, Expected evidence, Cleanup and privacy, and Validation rubric.
 - [ ] I used no live Google project, DWD, subject, key, token, API, Pub/Sub, Gmail, audit, or connector.
-- [ ] I can state Microsoft transfer, Google learned, and Abnormal unknown boundaries.
+- [ ] I can state experience transfer, Google learned, and Abnormal unknown boundaries.
 - [ ] I checked Official Source Anchors and recorded **August 24, 2026**.
 - [ ] I can answer exactly Q1-Q8.
 

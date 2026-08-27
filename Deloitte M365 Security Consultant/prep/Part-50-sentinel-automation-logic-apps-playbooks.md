@@ -2,7 +2,7 @@
 
 > **Section goal:** Build a beginner-first, consulting-grade method for Microsoft Sentinel security orchestration, automation, and response (SOAR). By the end, you should be able to distinguish automation from orchestration; design ordered automation rules for incident-created, incident-updated, and alert-created events; select conditions and native actions; engineer Azure Logic Apps playbooks with the correct trigger, connectors, identities, API connections, permissions, retries, timeouts, idempotency, concurrency, secrets, approvals, and audit; account for Defender portal onboarding differences; review current AI-generated Python playbooks and enhanced alert triggers safely; deploy, test, monitor, version, roll back, and operate workflows; and present a synthetic phishing playbook without executing any production action.
 
-This Part maps directly to Deloitte expectations for Sentinel SOAR, Microsoft Defender integration, incident response, Power Platform-style automation thinking, Azure architecture, identity and least privilege, third-party ticketing and notification integration, troubleshooting, operational handover, secure change, and client reporting. Arti's Power Automate/Power Platform familiarity and production incident/RCA discipline are useful foundations, but Azure Logic Apps, Sentinel automation, generated playbooks, security-response authority, and production SOAR operation remain explicit learning areas.
+This Part maps directly to Deloitte expectations for Sentinel SOAR, Microsoft Defender integration, incident response, Power Platform-style automation thinking, Azure architecture, identity and least privilege, third-party ticketing and notification integration, troubleshooting, operational handover, secure change, and client reporting. Your Power Automate/Power Platform familiarity and production incident/RCA discipline are useful foundations, but Azure Logic Apps, Sentinel automation, generated playbooks, security-response authority, and production SOAR operation remain explicit learning areas.
 
 > **Currency, status, portal, licensing, data-lake, and behavior-change note (August 24, 2026):** This chapter is grounded in official Microsoft Learn available on August 24, 2026. Sentinel playbooks are Azure Logic Apps resources and can incur separate Logic Apps, connector, networking, storage, monitoring, and external-service charges. Playbook templates remain preview. Managed identity authentication for the Sentinel Logic Apps connector is currently documented as preview. **Simple Flows** case triggers/actions are preview. The Defender portal changes trigger scope, provider fields, incident correlation, title stability, update batching, manual playbook actions, and latency: incident sync can take up to five minutes; automation can run up to roughly ten minutes after Defender case creation/update; multiple changes within 5–10 minutes can be collapsed to the most recent update. The legacy direct analytics-rule-to-playbook path reached deprecation in March 2026 and should be replaced by automation rules. The August 2026 AI playbook generator creates alert-input Python playbooks in an embedded VS Code/Cline experience, with generated playbooks disabled by default and strict current limits; the reviewed Learn page does not present the overall generator with the same preview banner used for playbook templates, while the related Simple Flows and several surrounding features are preview/change-sensitive. Verify the live portal, release banner, license, regions, roles, connector support, generated-playbook terms, and data-lake dependencies before approval.
 
@@ -21,9 +21,9 @@ This Part maps directly to Deloitte expectations for Sentinel SOAR, Microsoft De
 
 ## Candidate honesty note
 
-Arti can credibly discuss production workflow automation concepts, Microsoft 365 incident response, RCA, validation, approvals, stakeholder communication, secure handling, and Power Platform foundations. She can show the paper workflow, synthetic payloads, failure matrix, and operational artifacts in this chapter.
+You can credibly discuss production workflow automation concepts, Microsoft 365 incident response, RCA, validation, approvals, stakeholder communication, secure handling, and Power Platform foundations. You can show the paper workflow, synthetic payloads, failure matrix, and operational artifacts in this chapter.
 
-She should not claim production Sentinel automation rules, Azure Logic Apps playbooks, managed identities, API connections, generated Python playbooks, automatic containment, or SOAR platform ownership unless separately evidenced. Safe wording is:
+You should not claim production Sentinel automation rules, Azure Logic Apps playbooks, managed identities, API connections, generated Python playbooks, automatic containment, or SOAR platform ownership unless separately evidenced. Safe wording is:
 
 > “I have not deployed Sentinel playbooks or automatic containment in production. My production strengths are incident coordination, RCA, validation, stakeholder communication, and Power Platform automation foundations. I built a current paper SOAR design for a phishing scenario with trigger and portal boundaries, native automation rules, a Logic Apps orchestration, managed-identity and API-connection permissions, approval gates, idempotency, retries, rate limits, audit, tests, monitoring, deployment, and rollback. In a client environment I would start with notification and enrichment, use synthetic incidents, require peer/security review and explicit response authority, and promote containment only after controlled operational acceptance.”
 
@@ -864,10 +864,10 @@ Every workflow needs a primary and backup owner, L1/L2/L3 escalation, target-sys
 
 ## 32. JD Mapping: interview translation
 
-| Interview theme | Arti's transferable strength | Honest SOAR answer |
+| Interview theme | Your transferable strength | Honest SOAR answer |
 |---|---|---|
 | Automation design | Power Platform/Copilot foundations | Trigger-condition-action plus secure orchestration |
-| Incident handling | CRITSIT/RCA coordination | Incident-centered workflow and human approval |
+| Incident handling | critical situation/RCA coordination | Incident-centered workflow and human approval |
 | Troubleshooting | Layered evidence isolation | Event → rule → launch → run → target → case |
 | Security | Privacy-aware customer handling | Least privilege, secrets, egress, audit |
 | Reliability | Fix validation and rollback | Idempotency, retries, timeouts, verification |

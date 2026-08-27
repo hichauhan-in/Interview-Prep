@@ -1,10 +1,10 @@
 # Part 68 - Data Fabric Implementation, Health, Troubleshooting, and Customer Adoption
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 >
 > **Purpose:** Turn Parts 58-67 into an end-to-end customer operating model. Cover discovery, use-case selection, prerequisites, source planning, design, pilot, acceptance, rollout, source/connector/mapping/entity/correlation/scoring/workflow/report layers, health objectives and monitoring, runbooks, data incidents, change and rollback, support escalation evidence, adoption, training, governance, value, a 30/60/90 roadmap, and a complete source-to-outcome scenario. The goal is a trustworthy capability customers operate and improve, not a connector project that stops at data arrival.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every customer, source, connector, credential, schema, field, entity, relationship, score, workflow, report, threshold, service-level objective, metric, incident, change, result, timeline, and outcome in this Part is synthetic. Zscaler public pages support bounded statements that Data Fabric connects security and business data, harmonizes, deduplicates, correlates, enriches, applies business logic, supports workflows/reports/integrations, and powers documented Asset Exposure Management and Unified Vulnerability Management use cases. Public pages do not disclose an internal implementation topology, onboarding sequence, health API, SLO, runbook, support diagnostic, acceptance threshold, default role, exact connector behavior, data model, scoring formula, or guaranteed outcome. Detailed implementation and operations mechanics below are general educational patterns, not undocumented Zscaler implementation claims. Arti's Microsoft enterprise escalation, networking, identity, telemetry, SQL/data quality, stakeholder leadership, RCA, mentoring, and customer communication skills transfer; direct production ownership of Zscaler Data Fabric remains a learning boundary.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every customer, source, connector, credential, schema, field, entity, relationship, score, workflow, report, threshold, service-level objective, metric, incident, change, result, timeline, and outcome in this Part is synthetic. Zscaler public pages support bounded statements that Data Fabric connects security and business data, harmonizes, deduplicates, correlates, enriches, applies business logic, supports workflows/reports/integrations, and powers documented Asset Exposure Management and Unified Vulnerability Management use cases. Public pages do not disclose an internal implementation topology, onboarding sequence, health API, SLO, runbook, support diagnostic, acceptance threshold, default role, exact connector behavior, data model, scoring formula, or guaranteed outcome. Detailed implementation and operations mechanics below are general educational patterns, not undocumented Zscaler implementation claims. Your prior enterprise escalation, networking, identity, telemetry, SQL/data quality, stakeholder leadership, RCA, mentoring, and customer communication skills transfer; direct production ownership of Zscaler Data Fabric remains a learning boundary.
 >
 > **Currency caveat:** Product capabilities, interfaces, connectors, permissions, quotas, schemas, documentation, and support processes change. The controlled research/source date for this Part is exactly **2026-08-24**. Current official documentation, licensed tenant behavior, approved solution design, source/target contracts, customer security/privacy/legal requirements, owners, product specialists, Support guidance, direct tests, and measured evidence govern production.
 
@@ -14,7 +14,7 @@ A successful Data Fabric implementation creates a reliable chain from source evi
 
 Think of opening a new hospital service. Connecting electricity and installing equipment are prerequisites, not success. The service also needs patient scope, clinical process, trained staff, handoffs, safety checks, monitoring, incident response, governance, and outcome measures. Data Fabric implementation similarly joins technology, policy, people, and evidence from discovery through continuous improvement.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Evidence artifact |
 |---|---|---|
@@ -34,7 +34,7 @@ By the end, Arti should be able to:
 | Prove value | Connect leading health/adoption signals to validated risk/operational outcomes | Value scorecard |
 | Plan 30/60/90 | Sequence learn, prove, scale, and institutionalize | Roadmap |
 | Tell complete story | Trace one NMH source-to-outcome case with defect and recovery | Interview capstone |
-| Bridge honestly | Connect Arti's transferable skills without inventing production experience | Candidate narrative |
+| Bridge honestly | Connect your transferable skills without inventing production experience | Candidate narrative |
 
 ```mermaid
 flowchart LR
@@ -54,10 +54,10 @@ flowchart LR
 
 ## JD Mapping
 
-| Role expectation | Part 68 capability | TSM artifact | Arti bridge and boundary |
+| Role expectation | Part 68 capability | TSM artifact | experience bridge and boundary |
 |---|---|---|---|
 | Become Data Fabric expert | Explain bounded product value and operate the full lifecycle | Architecture/health whiteboard | Verify current product behavior |
-| Analyze complex environments | Discover sources, owners, dependencies, risks, and process | Current-state assessment | Microsoft escalation discovery transfers |
+| Analyze complex environments | Discover sources, owners, dependencies, risks, and process | Current-state assessment | enterprise escalation discovery transfers |
 | Identify security risk | Connect data defects and exposure context to business outcome | Risk/use-case register | Data quality is security quality |
 | Recommend mitigation | Build phased plan with controls, owners, acceptance, rollback | Success plan | Customer risk owner decides treatment |
 | Resolve complex issues | Troubleshoot layer by layer and lead data incidents | Evidence pack/PIR | RCA/timeline/hypothesis skills transfer |
@@ -71,7 +71,7 @@ flowchart LR
 
 | Evidence class | Safe interview statement | Boundary to state |
 |---|---|---|
-| Production transfer | "I led Microsoft enterprise escalations from discovery through evidence, cross-team diagnosis, recovery, RCA, and customer communication." | Not production Zscaler Data Fabric administration |
+| Production transfer | "I led enterprise escalations from discovery through evidence, cross-team diagnosis, recovery, RCA, and customer communication." | Not production Zscaler Data Fabric administration |
 | Data transfer | "I used logs, SQL/analytics, identities, devices, network evidence, and quality checks to correlate complex service issues." | Not proprietary Data Fabric algorithms |
 | Synthetic practice | "I built a complete NMH onboarding, health, incident, change, adoption, and value plan." | Fictional lab evidence |
 | Official public fact | "Zscaler publicly describes Data Fabric capabilities and AEM/UVM use cases." | No internal implementation/SLO claim |
@@ -1267,7 +1267,7 @@ All connectors are green. Is service healthy?
 
 ### Exercise 6 - SLO
 
-Can Arti claim a 99.9 percent Zscaler connector SLO from this guide?
+Can you claim a 99.9 percent Zscaler connector SLO from this guide?
 
 **Answer:** No. SLO examples must be customer-approved and measured; official vendor commitments come only from current contracts/documentation. This guide supplies design patterns, not defaults.
 
@@ -1303,7 +1303,7 @@ Coverage improved after rollout. Can all improvement be attributed to Data Fabri
 
 ### Exercise 12 - Product claim
 
-Can Arti claim exact Zscaler health endpoints, runbooks, onboarding time, or support diagnostics?
+Can you claim exact Zscaler health endpoints, runbooks, onboarding time, or support diagnostics?
 
 **Answer:** No. Verify current official documentation, tenant behavior, contracts, and specialists. Keep detailed NMH operations explicitly synthetic/general.
 
@@ -1371,7 +1371,7 @@ Present activity, health, adoption, process, security, business, and financial e
 
 ### Lab 16 - Interview capstone
 
-In 15 minutes, whiteboard discovery -> design -> pilot -> SLOs -> incident -> adoption -> value for NMH. State official product facts, synthetic evidence, Arti bridge, and learning boundary.
+In 15 minutes, whiteboard discovery -> design -> pilot -> SLOs -> incident -> adoption -> value for NMH. State official product facts, synthetic evidence, experience bridge, and learning boundary.
 
 | Lab evidence | Completion standard |
 |---|---|
@@ -1476,7 +1476,7 @@ Zscaler sources support bounded Data Fabric, AEM, and UVM capability/use-case po
 
 ### Q8. How does your background transfer, and what can you claim about Zscaler?
 
-**Model answer:** Microsoft escalation work trained me in discovery, networking/identity/service dependencies, evidence collection, SQL/data quality, hypothesis testing, cross-team incident leadership, RCA, change, mentoring, and executive/customer communication. I practiced the complete Data Fabric lifecycle in synthetic NMH cases. Zscaler publicly describes the capability/use-case categories, but I do not claim internal architecture, onboarding time, SLOs, health endpoints, diagnostics, formulas, roles, or outcomes; I would validate current documentation, tenant evidence, and specialists.
+**Model answer:** enterprise escalation work trained me in discovery, networking/identity/service dependencies, evidence collection, SQL/data quality, hypothesis testing, cross-team incident leadership, RCA, change, mentoring, and executive/customer communication. I practiced the complete Data Fabric lifecycle in synthetic NMH cases. Zscaler publicly describes the capability/use-case categories, but I do not claim internal architecture, onboarding time, SLOs, health endpoints, diagnostics, formulas, roles, or outcomes; I would validate current documentation, tenant evidence, and specialists.
 
 ## 30-Second Memory Hooks
 
@@ -1510,7 +1510,7 @@ Zscaler sources support bounded Data Fabric, AEM, and UVM capability/use-case po
 | Value | Healthy + used + validated outcome |
 | Contribution | Stronger than invented attribution |
 | 30/60/90 | Align, prove, scale |
-| Arti bridge | Escalation/analytics/customer leadership transfer; internals do not |
+| Experience bridge | Escalation/analytics/customer leadership transfer; internals do not |
 
 ## Completion Checklist
 
@@ -1581,6 +1581,6 @@ Zscaler sources support bounded Data Fabric, AEM, and UVM capability/use-case po
 - [ ] I label every NMH source, schema, SLO, threshold, metric, timeline, incident, result, and outcome synthetic.
 - [ ] I use the controlled research/source date exactly as 2026-08-24.
 - [ ] I make no unsupported Zscaler topology, connector, onboarding time, SLO, health endpoint, runbook, role, diagnostic, acceptance threshold, formula, guarantee, production, or customer-outcome claim.
-- [ ] I can answer Q1 through Q8 with definitions, analogies, architecture, mechanics, examples, tradeoffs, failures, troubleshooting, labs, NMH evidence, official-source caveats, and an honest Arti bridge.
+- [ ] I can answer Q1 through Q8 with definitions, analogies, architecture, mechanics, examples, tradeoffs, failures, troubleshooting, labs, NMH evidence, official-source caveats, and an honest experience bridge.
 
 [Part 69 - Cyber Assets, Inventory, CAASM, and Asset Exposure Fundamentals](Part-69-cyber-assets-caasm-fundamentals.md)

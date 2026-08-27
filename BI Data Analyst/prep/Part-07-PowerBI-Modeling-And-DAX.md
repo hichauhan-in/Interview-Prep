@@ -19,7 +19,7 @@ flowchart LR
 - **DAX measure** — *a formula that answers a business question under the current filters.* **Analogy:** a smart calculator that changes its answer depending on which drawer you opened and what date you asked about.
 - **Visual** — *the thing users click.* **Analogy:** the dashboard speedometer on top of the engine.
 - **Filter context** — *the current slice of data being asked about.* **Analogy:** “Tell me the answer, but only for Product = SPO, Segment = Enterprise, Month = September.”
-> 💡 **Tie-in to your background:** In CE&S support, you already think in slices: product, region, support channel, severity, escalation path, and month. Power BI simply formalizes that habit into dimensions, relationships, and measures.
+> 💡 **Tie-in to your background:** In support work, you already think in slices: product, region, support channel, severity, escalation path, and month. Power BI simply formalizes that habit into dimensions, relationships, and measures.
 ### The running example used everywhere in this section
 We will use a support analytics star schema throughout the file:
 - **Fact_Cases** — one row per support case or support interaction grain.

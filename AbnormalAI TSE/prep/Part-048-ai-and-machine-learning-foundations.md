@@ -2,7 +2,7 @@
 
 ## Section goal
 
-This Part builds a beginner-safe mental model of artificial intelligence (AI), machine learning (ML), and ordinary statistical rules so that an L1 Technical Support Engineer can discuss behavioral security systems without inventing product internals. The practical goal is not to turn Arti into a data scientist. It is to make every later conversation about baselines, features, precision, thresholds, drift, explainability, and AI agents understandable, testable, and customer-safe.
+This Part builds a beginner-safe mental model of artificial intelligence (AI), machine learning (ML), and ordinary statistical rules so that an L1 Technical Support Engineer can discuss behavioral security systems without inventing product internals. The practical goal is not to turn you into a data scientist. It is to make every later conversation about baselines, features, precision, thresholds, drift, explainability, and AI agents understandable, testable, and customer-safe.
 
 By the end, you should be able to explain what a model learns, what it does not know, how examples become training data, why validation and test data are separated, how a loss function guides fitting, why good training performance can still fail in the real world, and how inference differs from training. You should also be able to distinguish correlation from causation, interpret probabilistic outputs cautiously, and state exactly what is unknown about proprietary Abnormal AI models, features, thresholds, training data, architecture, and implementation.
 
@@ -26,15 +26,15 @@ After completing this Part, you should be able to:
 - explain why correlation supports a hypothesis but does not establish causation;
 - interpret scores and estimated probabilities without assuming certainty, calibration, or Abnormal-specific semantics;
 - route customer questions toward observable behavior, documentation, reproducible evidence, and the correct product or engineering owner;
-- use Arti's Copilot evaluation/training, analytics, SQL/Python, support-trend work, and customer communication as transferable evidence only; and
+- use your Copilot evaluation/training, analytics, SQL/Python, support-trend work, and customer communication as transferable evidence only; and
 - preserve the boundary between public product statements and unknown proprietary implementation.
 
 ## JD Mapping
 
-| Supplied role signal | Capability built in this Part | Transferable proof Arti can use | Boundary |
+| Supplied role signal | Capability built in this Part | Transferable proof you can use | Boundary |
 |---|---|---|---|
 | Behavioral false-positive support | Separates label, prediction, score, threshold, and observed outcome | Structured case investigation and trend analysis | No claim of tuning an Abnormal model |
-| Threat investigations | Treats model output as one evidence source among message, identity, relationship, and customer facts | Evidence-first CRITSIT and escalation habits | No claim of production email-security verdict ownership |
+| Threat investigations | Treats model output as one evidence source among message, identity, relationship, and customer facts | Evidence-first critical situation and escalation habits | No claim of production email-security verdict ownership |
 | Customer trust | Explains uncertainty and public limits plainly | Technical and nontechnical Microsoft customer communication | No disclosure or speculation about proprietary internals |
 | Engineering collaboration | Produces reproducible inputs, expected/actual results, and evaluation questions | Engineering/Product escalation and fix validation | No claim of model-development ownership |
 | Product feedback | Distinguishes single-case symptom from aggregate performance pattern | CSAT, backlog, case-quality, and support-trend analysis | Support cases are not automatically ground-truth labels |
@@ -46,7 +46,7 @@ After completing this Part, you should be able to:
 
 | Evidence label | Safe statement | What must not be implied |
 |---|---|---|
-| **Production transfer** | "I have evaluated and supported Copilot-related experiences, analyzed support trends, validated fixes, and explained technical uncertainty to enterprise customers." | That Arti trained security models or administered Abnormal AI |
+| **Production transfer** | "I have evaluated and supported Copilot-related experiences, analyzed support trends, validated fixes, and explained technical uncertainty to enterprise customers." | That you trained security models or administered Abnormal AI |
 | **Local/public lab** | "I built a synthetic learning-lifecycle worksheet and hand-calculated simple errors and split decisions." | That any real model, tenant, API, or customer data was used |
 | **Learned architecture** | "My understanding of ML lifecycle and responsible-AI controls comes from official NIST and Microsoft sources." | That a vendor implements every generic lifecycle stage in the illustrated way |
 | **No direct experience** | "I have not operated Abnormal AI or its proprietary models in production." | Hidden expertise in model features, weights, thresholds, training data, or agent design |
@@ -856,7 +856,7 @@ All sources below were accessed on **August 24, 2026** for this guide. Revalidat
 - **Ask what a score means before interpreting it.**
 - **Model output, threshold, policy, human review, and action are distinct layers.**
 - **Public positioning is not proprietary architecture.**
-- **Arti's AI evaluation, analytics, and support communication transfer; Abnormal operation does not.**
+- **Your AI evaluation, analytics, and support communication transfer; Abnormal operation does not.**
 
 ## Completion Checklist
 

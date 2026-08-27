@@ -1,10 +1,10 @@
 # Part 61 - Operational Service Review Architecture and Meeting Lifecycle
 
-> **Section goal:** Design and run an operational service review as a recurring decision system, not a slide-reading event. By the end, Arti should be able to define purpose, audience, cadence, prework, data cutoff, quality gates, lead-TAM review, agenda, narrative, facilitation, decisions, actions, minutes, follow-up, value evidence, and review QA for technical and executive audiences.
+> **Section goal:** Design and run an operational service review as a recurring decision system, not a slide-reading event. By the end, you should be able to define purpose, audience, cadence, prework, data cutoff, quality gates, lead-TAM review, agenda, narrative, facilitation, decisions, actions, minutes, follow-up, value evidence, and review QA for technical and executive audiences.
 
 Covers index item **61** and maps directly to job-description responsibilities for conducting operational service reviews, analyzing and reporting customer data, understanding the customer environment, mitigating risk, tracking preventative remediation, representing recommendations clearly, communicating under lead-TAM guidance, working across time zones, and improving customer value and loyalty.
 
-**Explicit nonclaim:** Arti has not led or delivered a production NetApp operational service review, represented a live NetApp account, or committed NetApp or a customer to an action.
+**Explicit nonclaim:** You have not led or delivered a production NetApp operational service review, represented a live NetApp account, or committed NetApp or a customer to an action.
 
 **Privacy and access boundary:** Review inputs can contain customer identifiers, topology, versions, telemetry, incidents, cases, defects, vulnerabilities, contracts, lifecycle, costs, names, decisions, and accepted risks. Use purpose-limited authorized access, approved repositories, minimum necessary detail, audience-specific redaction, controlled distribution, retention, and an accurate attendance record.
 
@@ -14,7 +14,7 @@ Covers index item **61** and maps directly to job-description responsibilities f
 
 This Part describes a transferable operating model, not an internal NetApp process, fixed meeting cadence, contract entitlement, service-level commitment, severity model, account-health formula, or production change procedure. Actual governance follows the customer's agreement, lead TAM, authorized account roles, and customer decision authorities.
 
-> **No-production-NetApp boundary:** Arti's factual strengths are Microsoft enterprise support, CRITSIT ownership, customer and business reviews, CSAT/backlog/quality analysis, executive communication, Excel, Power BI, an MBA in Business Analytics, Product/Engineering coordination, mentoring, and action follow-through. She does **not** claim NetApp account ownership, live NetApp tool access, ONTAP administration, customer-risk acceptance, or formal NetApp review delivery. Her exact non-claim is: **she has not prepared, led, represented, or closed a production NetApp operational service review.**
+> **No-production-NetApp boundary:** Your factual strengths are enterprise support, critical-situation ownership, customer and business reviews, CSAT/backlog/quality analysis, executive communication, Excel, Power BI, an a postgraduate business-analytics qualification, Product/Engineering coordination, mentoring, and action follow-through. You do **not** claim NetApp account ownership, live NetApp tool access, ONTAP administration, customer-risk acceptance, or formal NetApp review delivery. Your exact non-claim is: **you have not prepared, led, represented, or closed a production NetApp operational service review.**
 
 ---
 
@@ -562,7 +562,7 @@ flowchart TD
 
 ## 10. Fully synthetic sanitized scenario: HarborView Research quarterly review
 
-> **Synthetic boundary:** `HarborView Research`, every service, system, metric, date, incident, risk, recommendation, owner, decision, and result is invented. The scenario does not represent a NetApp customer, internal process, tool output, contract, or Arti's production work.
+> **Synthetic boundary:** `HarborView Research`, every service, system, metric, date, incident, risk, recommendation, owner, decision, and result is invented. The scenario does not represent a NetApp customer, internal process, tool output, contract, or your production work.
 
 ### Purpose and scope
 
@@ -684,11 +684,11 @@ flowchart LR
 
 ---
 
-## 12. Arti's factual bridge and JD Mapping
+## 12. Your factual bridge and JD Mapping
 
 ```mermaid
 flowchart LR
-    MS[Microsoft support and CRITSIT] --> IMP[Impact, evidence, cadence, ownership]
+    MS[enterprise support and critical situation] --> IMP[Impact, evidence, cadence, ownership]
     REV[Business reviews and executive communication] --> STORY[Audience narrative and facilitation]
     BI[Excel, Power BI and MBA analytics] --> DATA[Cutoff, trends, QA and uncertainty]
     ENG[Product and Engineering collaboration] --> REVIEW[Technical review and exact asks]
@@ -701,14 +701,14 @@ flowchart LR
 
 ### Factual tie
 
-| Arti's factual evidence | Natural transfer | Boundary |
+| Your factual evidence | Natural transfer | Boundary |
 |---|---|---|
-| Microsoft enterprise support and CRITSITs | Impact-first updates, evidence, owner/checkpoint discipline | Not NetApp account or incident authority |
+| enterprise support and critical situations | Impact-first updates, evidence, owner/checkpoint discipline | Not NetApp account or incident authority |
 | Customer/business reviews | Audience calibration and outcome narrative | Not proof of NetApp OSR delivery |
 | CSAT, backlog, case quality and trends | Service-experience analysis and QA | Not NetApp case or Digital Advisor data |
 | Excel, Power BI, SQL, Python, statistics, MBA | Data cutoff, models, visuals, uncertainty | No live NetApp dataset/report ownership |
 | Product/Engineering collaboration | Technical review, escalation and defect-language discipline | No private NetApp defect access |
-| Mentoring and 100+ recognitions | Facilitation, trust and reusable quality practices | Recognition is corroboration, not storage expertise |
+| Mentoring and repeated peer and customer recognition | Facilitation, trust and reusable quality practices | Recognition is corroboration, not storage expertise |
 
 ### JD Mapping
 
@@ -726,7 +726,7 @@ flowchart LR
 
 ### Honest interview statement
 
-> `I have prepared and delivered customer and business reviews in Microsoft support contexts, but I have not run a NetApp operational service review. My approach would be to agree purpose, audience, cadence and decisions; set a controlled cutoff; validate health, incident, capacity, performance, protection, supportability, lifecycle and action evidence; review material claims with the lead TAM and SMEs; deliver layered executive and technical narratives; and close the loop through decisions, owners, minutes, validation and residual risk.`
+> `I have prepared and delivered customer and business reviews in enterprise support contexts, but I have not run a NetApp operational service review. My approach would be to agree purpose, audience, cadence and decisions; set a controlled cutoff; validate health, incident, capacity, performance, protection, supportability, lifecycle and action evidence; review material claims with the lead TAM and SMEs; deliver layered executive and technical narratives; and close the loop through decisions, owners, minutes, validation and residual risk.`
 
 ---
 
@@ -798,7 +798,7 @@ Create synthetic evidence for health, three incidents, capacity/performance, pro
 9. Write decisions, actions, minutes, and accepted-risk records.
 10. Validate follow-up outcomes and residual risk.
 11. Measure value without causal overclaim.
-12. Recreate HarborView and state Arti's exact nonclaim.
+12. Recreate HarborView and state your exact nonclaim.
 
 ### Lab pass checklist
 
@@ -872,7 +872,7 @@ Create synthetic evidence for health, three incidents, capacity/performance, pro
 
 ### Q8. How does your background transfer, and what remains a gap?
 
-> **Model answer:** `Microsoft enterprise support, CRITSITs, business reviews, analytics, executive communication and Product/Engineering coordination give me evidence, audience, facilitation and action discipline. I have not delivered a production NetApp OSR, so live NetApp sources, account narrative, service scope and commitments require lead-TAM and authorized-owner review.`
+> **Model answer:** `enterprise support, critical situations, business reviews, analytics, executive communication and Product/Engineering coordination give me evidence, audience, facilitation and action discipline. I have not delivered a production NetApp OSR, so live NetApp sources, account narrative, service scope and commitments require lead-TAM and authorized-owner review.`
 
 ---
 
@@ -893,7 +893,7 @@ Create synthetic evidence for health, three incidents, capacity/performance, pro
 - **Minutes:** Shared decision receipt, not transcript.
 - **Value:** Outcome movement with attribution caution, not meeting count.
 - **Closure:** Validated result and residual risk, not acknowledgment.
-- **Arti's bridge:** Microsoft review discipline transfers; NetApp OSR experience does not.
+- **Your bridge:** Microsoft review discipline transfers; NetApp OSR experience does not.
 
 ---
 

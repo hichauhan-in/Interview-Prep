@@ -1,10 +1,10 @@
 # Part 54 - ONTAP Upgrade Planning, Upgrade Advisor, and Nondisruptive Operations
 
-> **Section goal:** Turn a business reason to upgrade into a validated ONTAP target, supported path, healthy starting state, coordinated change, evidence-based go/no-go decision, and verified customer outcome. By the end, Arti should be able to use Upgrade Advisor or Upgrade Health Checker appropriately, validate hardware/IMT/release/bug/application/protocol/replication/security dependencies, explain automated nondisruptive upgrade (ANDU) boundaries, build communications and recovery plans, and run post-upgrade hypercare without promising zero impact.
+> **Section goal:** Turn a business reason to upgrade into a validated ONTAP target, supported path, healthy starting state, coordinated change, evidence-based go/no-go decision, and verified customer outcome. By the end, you should be able to use Upgrade Advisor or Upgrade Health Checker appropriately, validate hardware/IMT/release/bug/application/protocol/replication/security dependencies, explain automated nondisruptive upgrade (ANDU) boundaries, build communications and recovery plans, and run post-upgrade hypercare without promising zero impact.
 
 Covers index item **54** and maps directly to job-description responsibilities for upgrade strategy, proactive risk reduction, lifecycle management, technical configuration review, customer change governance, system stability, support readiness, cross-functional coordination, and executive communication.
 
-**Explicit nonclaim:** Arti has not planned, approved, or executed a production ONTAP upgrade.
+**Explicit nonclaim:** You have not planned, approved, or executed a production ONTAP upgrade.
 
 **Privacy and access boundary:** Cluster plans, Upgrade Advisor output, inventories, cases, bugs, credentials, maintenance windows, business services, and validation evidence require authorization and approved storage.
 
@@ -14,7 +14,7 @@ Covers index item **54** and maps directly to job-description responsibilities f
 
 Upgrade Advisor and Digital Advisor require authorized identity and qualifying support context; Upgrade Health Checker has different current prerequisites. This guide contains no real upgrade plan, target recommendation, path, precheck output, NDO guarantee, duration, command sequence, or rollback procedure. Exact customer evidence and current official instructions control.
 
-> **No-production-NetApp boundary:** Arti does not claim production ONTAP upgrade execution. Every customer, cluster, version, path, precheck, duration, blocker, result, and recommendation below is synthetic. Her factual strengths are Microsoft enterprise change governance, Windows/Azure/M365 upgrades, CRITSIT readiness, compatibility analysis, customer communications, rollback planning, service validation, and hypercare. The explicit non-claim is: **she has not generated a production Upgrade Advisor/Health Checker plan, executed ANDU, performed ONTAP takeover/giveback, approved a MetroCluster/SnapMirror upgrade, reverted ONTAP, or declared a customer NetApp upgrade nondisruptive.**
+> **No-production-NetApp boundary:** You do not claim production ONTAP upgrade execution. Every customer, cluster, version, path, precheck, duration, blocker, result, and recommendation below is synthetic. Your factual strengths are enterprise change governance, Windows/Azure/M365 upgrades, critical-situation readiness, compatibility analysis, customer communications, rollback planning, service validation, and hypercare. The explicit non-claim is: **you have not generated a production Upgrade Advisor/Health Checker plan, executed ANDU, performed ONTAP takeover/giveback, approved a MetroCluster/SnapMirror upgrade, reverted ONTAP, or declared a customer NetApp upgrade nondisruptive.**
 
 ---
 
@@ -194,7 +194,7 @@ flowchart LR
 
 ### Gated-access fallback
 
-If Arti lacks access:
+If you lack access:
 
 1. Define required fields: cluster/system IDs, source-data time, current/target/path, errors/warnings/actions, plan generation time.
 2. Ask an authorized storage/account owner to generate and sanitize the current report.
@@ -618,7 +618,7 @@ sequenceDiagram
 
 ---
 
-## 13. Discovery, JD Mapping, and Arti transfer
+## 13. Discovery, JD Mapping, and experience transfer
 
 ### Discovery questions
 
@@ -635,13 +635,13 @@ sequenceDiagram
 
 ### JD Mapping
 
-| JD responsibility | Part 54 contribution | Arti's factual bridge and gap |
+| JD responsibility | Part 54 contribution | Your factual bridge and gap |
 |---|---|---|
 | Upgrade strategy | Business driver -> target -> path -> readiness -> validation | Microsoft upgrade/change planning transfers |
-| Proactive risk | Clears blockers, target defects, compatibility and special configs | CRITSIT/prevention discipline transfers |
+| Proactive risk | Clears blockers, target defects, compatibility and special configs | critical situation/prevention discipline transfers |
 | System stability | HA/path/protection/capacity/performance/app gates | Enterprise service-health experience transfers |
 | Customer recommendation | Evidence-based go/no-go, recovery and hypercare | Customer communications transfer |
-| Support experience | AutoSupport/current plan/escalation pack | Microsoft support escalation transfers |
+| Support experience | AutoSupport/current plan/escalation pack | enterprise support escalation transfers |
 | Cross-functional governance | Coordinates storage/host/app/network/security/DR/change/Support | Multi-team ownership transfers |
 
 ### Honest interview answer
@@ -771,7 +771,7 @@ flowchart LR
 
 ### Q8. How does your background transfer, and what remains a gap?
 
-> **Model answer:** "Microsoft enterprise upgrades, Azure/M365 change governance and CRITSIT work give me compatibility, go/no-go, communication, recovery, validation and hypercare discipline. I have not generated a production Upgrade Advisor plan or executed ONTAP ANDU/revert, so experienced authorized owners and current procedures control execution."
+> **Model answer:** "enterprise upgrades, Azure/M365 change governance and critical-situation work give me compatibility, go/no-go, communication, recovery, validation and hypercare discipline. I have not generated a production Upgrade Advisor plan or executed ONTAP ANDU/revert, so experienced authorized owners and current procedures control execution."
 
 ---
 
@@ -790,7 +790,7 @@ flowchart LR
 - **Validation:** Node -> cluster -> storage -> network -> protection -> app -> customer.
 - **Revert:** Version-specific migration, not Undo.
 - **Hypercare:** Validate next business/backup/replication/peak cycles before closure.
-- **Arti's bridge:** Change governance transfers; production ONTAP execution does not.
+- **Your bridge:** Change governance transfers; production ONTAP execution does not.
 
 ---
 

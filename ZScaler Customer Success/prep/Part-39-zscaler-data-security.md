@@ -1,10 +1,10 @@
 # Part 39 - Zscaler Data Security, DLP, CASB, SaaS, and AI Data Protection
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 >
 > **Purpose:** Explain data security from zero and map it to current Zscaler concepts: data at rest, in motion, and in use; discovery and classification; inline, SaaS API, endpoint, browser, and posture planes; DLP dictionaries, engines, conditions, actions, and incidents; Exact Data Match and Indexed Document Match; OCR and ML/LLM classification at a safe high level; multimode CASB; shadow IT; SaaS posture; BYOD; generative AI; Microsoft Copilot permissions and labels; false positives/negatives; privacy; rollout, tuning, troubleshooting, and metrics.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every NMH employee, dataset, identifier, app, tenant, prompt, file, policy, classification, incident, permission, metric, test, and outcome is synthetic. Arti has production Microsoft 365 identity, permissions, OneDrive/SharePoint, Purview-adjacent support, client/networking, trace, escalation, analytics, and customer communication experience. Production Zscaler DLP, Endpoint DLP, SaaS API, CASB, SSPM, DSPM, browser data controls, AI policy, EDM/IDM indexing, and Microsoft Copilot protection administration are not established experience.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every NMH employee, dataset, identifier, app, tenant, prompt, file, policy, classification, incident, permission, metric, test, and outcome is synthetic. You have production Microsoft 365 identity, permissions, OneDrive/SharePoint, Purview-adjacent support, client/networking, trace, escalation, analytics, and customer communication experience. Production Zscaler DLP, Endpoint DLP, SaaS API, CASB, SSPM, DSPM, browser data controls, AI policy, EDM/IDM indexing, and Microsoft Copilot protection administration are not established experience.
 >
 > **Currency caveat:** Zscaler product families, licensing, supported apps/channels/files, limits, classifiers, DLP evaluation modes, actions, incident fields, SaaS APIs, permissions, remediation, browser form factors, AI/Copilot features, UI paths, reports, retention, and region behavior change. Microsoft Copilot names, permission behavior, Purview integration, agents, subprocessors, storage, retention, and privacy terms also evolve. Confirm current authenticated help, tenant behavior, contract, release notes, ranges/limits, product-owner guidance, legal/privacy decisions, and controlled test evidence before production use.
 
@@ -22,7 +22,7 @@ Think of a museum. The catalog identifies valuable objects. Labels explain sensi
 
 Zscaler's public data-security portfolio spans multiple enforcement and visibility planes. Inline controls can inspect eligible transactions. API integrations can scan supported SaaS data and sharing outside the live user request. Endpoint controls can monitor local channels. Browser controls can constrain actions on unmanaged devices. SSPM/DSPM can identify configuration, access, and posture risk. AI controls can discover apps and inspect eligible prompts or uploads. These planes can share classification concepts, but their timing, coverage, permissions, actions, evidence, and failure modes differ.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Proof artifact |
 |---|---|---|
@@ -50,7 +50,7 @@ flowchart LR
 
 ## JD Mapping
 
-| Role expectation | Part 39 capability | TSM artifact | Arti bridge and boundary |
+| Role expectation | Part 39 capability | TSM artifact | experience bridge and boundary |
 |---|---|---|---|
 | Understand customer risk | Map critical data, apps, users, channels, permissions, and gaps | Data-risk map | M365 permissions and support transfer |
 | Drive outcomes | Convert visibility into reduced exposure and usable policy | Improvement roadmap | Outcome discipline transfers |
@@ -862,9 +862,9 @@ sequenceDiagram
 | Triage/containment time improved | Faster validated handling | "Automation decides intent" |
 | Shadow app decisions completed | Material apps governed | "All cloud apps safe" |
 
-## Arti's Microsoft-to-Zscaler bridge
+## Your experience bridge to Zscaler
 
-| Microsoft production strength | Part 39 transfer | New Zscaler learning | Honest wording |
+| prior production strength | Part 39 transfer | New Zscaler learning | Honest wording |
 |---|---|---|---|
 | SharePoint/OneDrive permissions | Copilot oversharing and API CASB investigation | Zscaler remediation/reporting | "Permissions method transfers." |
 | Entra identity/groups | User/group/app/tenant context | ZIA/CASB identity mapping | "I verify effective identity." |
@@ -877,7 +877,7 @@ sequenceDiagram
 
 ### 30-second interview bridge
 
-"I model data security across data at rest, in motion, and in use. Zscaler can provide complementary planes: inline DLP for eligible live transactions, API CASB for supported stored SaaS data and sharing, Endpoint DLP for local channels, browser controls for unmanaged access, and posture tools for configuration and exposure. Classification can use dictionaries/engines, labels, EDM, IDM, OCR, or semantic methods, but every method needs channel-specific tests and human review. For Copilot, I start with Microsoft 365 permissions and labels, then add prompt/file and posture controls. My Microsoft identity, permissions, service, trace, privacy, and incident methods transfer; production Zscaler data-security administration is new."
+"I model data security across data at rest, in motion, and in use. Zscaler can provide complementary planes: inline DLP for eligible live transactions, API CASB for supported stored SaaS data and sharing, Endpoint DLP for local channels, browser controls for unmanaged access, and posture tools for configuration and exposure. Classification can use dictionaries/engines, labels, EDM, IDM, OCR, or semantic methods, but every method needs channel-specific tests and human review. For Copilot, I start with Microsoft 365 permissions and labels, then add prompt/file and posture controls. My prior identity, permissions, service, trace, privacy, and incident methods transfer; production Zscaler data-security administration is new."
 
 ## Labs and rehearsal
 
@@ -1022,7 +1022,7 @@ Zscaler Help is the public configuration/behavior anchor; authenticated current 
 
 **Model answer:** Microsoft says Copilot retrieves content the user can already access, so I first correct SharePoint/OneDrive permissions, groups, sharing links, external access, lifecycle, and Purview labels/encryption. Then I align native DLP, audit, eDiscovery, retention, agents/scopes, and responsible-use controls. Zscaler can add currently supported inline prompt/file DLP and API/posture/permission/label capabilities. I verify exact tenant actions and never claim prompt DLP fixes source oversharing.
 
-### Q8. How does your Microsoft background transfer to this role?
+### Q8. How does your prior background transfer to this role?
 
 **Model answer:** I have production experience with Microsoft 365 identity, group membership, SharePoint/OneDrive access and sharing, client/service traces, incident timelines, sensitive evidence, cross-team escalation, analytics, and user communication. Those methods transfer to CASB/DLP/Copilot investigations and tuning. I would explicitly state that production Zscaler DLP, EDM/IDM, API CASB, Endpoint DLP, and AI policy administration are new product-specific skills.
 
@@ -1049,7 +1049,7 @@ Zscaler Help is the public configuration/behavior anchor; authenticated current 
 | Incident | Match plus context, not guilt |
 | Tuning | Positive, negative, channel, regression |
 | Coverage | Name the path, app, file, device, and action |
-| Arti bridge | M365 permissions/evidence transfer; Zscaler admin is new |
+| Experience bridge | M365 permissions/evidence transfer; Zscaler admin is new |
 
 ## Completion Checklist
 
@@ -1104,7 +1104,7 @@ Zscaler Help is the public configuration/behavior anchor; authenticated current 
 - [ ] I can explain all three fictional NMH incidents without claiming production work.
 - [ ] I can conduct proactive reviews that produce owner-approved data-risk reduction actions.
 - [ ] I can run all twelve labs using only synthetic and owned/authorized data/systems.
-- [ ] I can deliver Arti's 30-second bridge with an explicit experience boundary.
+- [ ] I can deliver your 30-second bridge with an explicit experience boundary.
 - [ ] I can cite current Zscaler and Microsoft sources and state packaging/tenant/privacy caveats.
 - [ ] I can answer Q1-Q8 and expand with architecture, policy, evidence, tuning, metrics, and limitations.
 

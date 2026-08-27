@@ -1,10 +1,10 @@
 # Part 60 - Power BI, Dashboards, KPIs, Trends, and Responsible Visualization
 
-> **Section goal:** Build a trustworthy Power BI experience for customer install base, telemetry freshness, risk, lifecycle, supportability, capacity, cases, recommendations, and actions. By the end, Arti should be able to design a star schema, define fact/dimension grain, manage relationships and filter direction, separate Power Query from semantic-model work, choose measures versus columns, write bounded DAX and time intelligence, create TAM KPIs and trend/cohort views, use drill-through and tooltips, apply row-level security and access controls, plan refresh/gateway operations, design accessible visuals, communicate uncertainty, prevent misleading charts, separate executive and technical pages, and reconcile every result to governed sources.
+> **Section goal:** Build a trustworthy Power BI experience for customer install base, telemetry freshness, risk, lifecycle, supportability, capacity, cases, recommendations, and actions. By the end, you should be able to design a star schema, define fact/dimension grain, manage relationships and filter direction, separate Power Query from semantic-model work, choose measures versus columns, write bounded DAX and time intelligence, create TAM KPIs and trend/cohort views, use drill-through and tooltips, apply row-level security and access controls, plan refresh/gateway operations, design accessible visuals, communicate uncertainty, prevent misleading charts, separate executive and technical pages, and reconcile every result to governed sources.
 
 Covers index item **60** and maps directly to job-description responsibilities for Power BI customer analysis, proactive risk reporting, operational service reviews, install-base quality, lifecycle/upgrade/capacity planning, support and case insight, action governance, executive communication, technical drill-down, process improvement, and measurable customer outcomes.
 
-**Explicit nonclaim:** Arti has not built, published, secured, refreshed, or governed a production Power BI semantic model or dashboard containing live NetApp customer data.
+**Explicit nonclaim:** You have not built, published, secured, refreshed, or governed a production Power BI semantic model or dashboard containing live NetApp customer data.
 
 **Privacy and access boundary:** Customer identity, serials, topology, versions, metrics, cases, risks, defects, contracts, costs, owners, business-service mappings, accepted risks, and decisions are sensitive. Use authorized minimum data, approved workspaces, least privilege, row/object-level security where appropriate, sensitivity labels, export controls, audit, retention, and audience-specific views. RLS is not a substitute for workspace/app permissions or source security.
 
@@ -14,7 +14,7 @@ Covers index item **60** and maps directly to job-description responsibilities f
 
 This Part provides no `.pbix`/`.pbip` artifact, live credentials, customer threshold, NetApp metric definition, production RLS identity mapping, gateway configuration, universal KPI, or guarantee. DAX examples use a fictional semantic model and require adaptation, testing, and owner approval.
 
-> **No-production-NetApp boundary:** Arti factually knows Power BI, Excel, Power Query, SQL, Python, statistics, business analytics, Microsoft support data, case/customer reviews, and decision communication. She does **not** claim live NetApp data-model or dashboard ownership. Her exact non-claim is: **she has not modeled, visualized, secured, published, refreshed, certified, or distributed production NetApp customer data in Power BI.**
+> **No-production-NetApp boundary:** You factually know Power BI, Excel, Power Query, SQL, Python, statistics, business analytics, enterprise support data, case/customer reviews, and decision communication. You do **not** claim live NetApp data-model or dashboard ownership. Your exact non-claim is: **you have not modeled, visualized, secured, published, refreshed, certified, or distributed production NetApp customer data in Power BI.**
 
 ---
 
@@ -1379,10 +1379,10 @@ flowchart LR
 
 ### JD Mapping
 
-| JD responsibility | Part 60 contribution | Arti's factual bridge and gap |
+| JD responsibility | Part 60 contribution | Your factual bridge and gap |
 |---|---|---|
 | Generate/analyze customer data | Star schema, DAX, trends/cohorts and QA | Power BI/analytics skills transfer; NetApp sources remain unpracticed |
-| Proactive risk/stability | Applicability, freshness, lifecycle, action and capacity KPIs | Microsoft support-risk reasoning transfers |
+| Proactive risk/stability | Applicability, freshness, lifecycle, action and capacity KPIs | enterprise support-risk reasoning transfers |
 | Operational service reviews | Executive narrative, decisions, owners and drill-through | Customer communication transfers |
 | Technical analysis | Asset/evidence/supportability/capacity/case technical pages | SQL/Power Query/Power BI modeling transfers |
 | Install-base quality | Stable identity, relationships, unknowns and exception views | Data-quality discipline transfers |
@@ -1391,7 +1391,7 @@ flowchart LR
 
 ---
 
-## 22. Arti's transfer and honest NetApp gap
+## 22. Your transfer and honest NetApp gap
 
 ```mermaid
 flowchart LR
@@ -1399,7 +1399,7 @@ flowchart LR
     PQ[Power Query/Excel] --> CLEAN[Typed transformations and QA]
     SQL[SQL] --> REL[Grain, keys, relationships, reconciliation]
     PY[Python/statistics] --> TEST[Validation, trends, uncertainty]
-    MS[Microsoft support] --> STORY[Customer impact, actions, reviews]
+    MS[enterprise support] --> STORY[Customer impact, actions, reviews]
     STAR --> METHOD[NetApp TAM synthetic dashboard method]
     CLEAN --> METHOD
     REL --> METHOD
@@ -1416,7 +1416,7 @@ flowchart LR
 | Power Query/Excel | Source shaping, reconciliation, service-review prototype | No live AutoSupport/Digital Advisor refresh |
 | SQL | Star schema, cardinality and test queries | No NetApp enterprise data-platform schema |
 | Python/statistics | Cohort/trend/uncertainty and regression tests | No production pipeline credential ownership |
-| Microsoft support | Cases, impact, risks, actions and executive communication | No ONTAP production conclusion/change authority |
+| enterprise support | Cases, impact, risks, actions and executive communication | No ONTAP production conclusion/change authority |
 
 ### Honest interview answer
 
@@ -1591,7 +1591,7 @@ flowchart LR
 
 ### Q8. How does your background transfer, and what remains a gap?
 
-> **Model answer:** `I have Power BI, Power Query, Excel, SQL, Python, statistics and Microsoft support analytics experience, so star modeling, DAX, QA, trends and customer narrative transfer. I have not published or secured a production NetApp dashboard, so live NetApp sources, definitions, RLS, gateway and customer conclusions require authorized owners and current docs.`
+> **Model answer:** `I have Power BI, Power Query, Excel, SQL, Python, statistics and enterprise support analytics experience, so star modeling, DAX, QA, trends and customer narrative transfer. I have not published or secured a production NetApp dashboard, so live NetApp sources, definitions, RLS, gateway and customer conclusions require authorized owners and current docs.`
 
 ---
 
@@ -1618,7 +1618,7 @@ flowchart LR
 - **RLS:** Row filter, not full security architecture.
 - **Gateway:** Governed bridge with owner, monitoring and failure behavior.
 - **QA:** Source -> query -> model -> measure -> visual -> security -> narrative.
-- **Arti's bridge:** Power BI skill is real; live NetApp dashboard ownership is not.
+- **Your bridge:** Power BI skill is real; live NetApp dashboard ownership is not.
 
 ---
 

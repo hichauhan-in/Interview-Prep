@@ -8,11 +8,11 @@
 
 This appendix is a practical gate for deciding whether a lab or evidence task is authorized, necessary, harmless, reproducible, and safe to retain. It supports the safe-lab and evidence methods in [Part 009](Part-009-safe-support-lab-environment.md), [Part 046](Part-046-threat-investigation-evidence-preservation-and-timelines.md), [Part 098](Part-098-safe-evidence-collection-redaction-and-packaging.md), and [Part 117](Part-117-safe-lab-portfolio-and-end-to-end-capstones.md).
 
-Arti may truthfully say that she completed a local or synthetic exercise only after she actually performs it and retains a sanitized artifact. She must not imply direct use of Abnormal AI, a customer tenant, a production security tool, live malicious material, confidential Microsoft data, or forensic authority. The guide itself is a **design**, not proof that a lab was run.
+You may truthfully say that you completed a local or synthetic exercise only after you actually perform it and retains a sanitized artifact. You must not imply direct use of Abnormal AI, a customer tenant, a production security tool, live malicious material, confidential Microsoft data, or forensic authority. The guide itself is a **design**, not proof that a lab was run.
 
 Safe interview wording:
 
-> “My production foundation is Microsoft enterprise support. For this security transition, I design labs around explicit scope, synthetic data, minimum collection, redaction, reproducibility, and cleanup. I label unperformed designs and local observations honestly; I do not present them as Abnormal or customer production experience.”
+> “My production foundation is enterprise support. For this security transition, I design labs around explicit scope, synthetic data, minimum collection, redaction, reproducibility, and cleanup. I label unperformed designs and local observations honestly; I do not present them as Abnormal or customer production experience.”
 
 > 🔍 **Plain-English deep-dive:** Authorization is a permission envelope, like a ticket that states which train, date, and seat you may use. Permission to test one local service does not authorize another host, another account, another time window, or a more invasive action. The analogy stops because technical authorization may also depend on law, contract, policy, data ownership, and change control.
 
@@ -291,7 +291,7 @@ If only real sensitive evidence can answer the question, do not paste it into a 
 | T1 - Public-source learning | Current official/public material was reviewed | “The official source stated as of [date]...” |
 | T2 - Synthetic performed | Harmless local/synthetic exercise was actually run | “I performed a synthetic local exercise...” |
 | T3 - Reviewed synthetic | T2 artifact was checked by an identified reviewer/rubric | “The synthetic artifact was reviewed against...” |
-| T4 - Verified production transfer | Real experience supported by CV and candidate facts | “In Microsoft enterprise support, I...” |
+| T4 - Verified production transfer | Real experience supported by CV and candidate facts | “In enterprise support, I...” |
 | T5 - Direct target-product production | Direct Abnormal/customer production work | **Not established; do not claim** |
 
 Labels must also state `RAW/RESTRICTED` or `SANITIZED`, `PERFORMED/NOT PERFORMED`, source/access date, and review state.
@@ -387,7 +387,7 @@ flowchart TD
 - [ ] Chain of custody, integrity, hash limits, naming, manifest, storage, transfer, retention, deletion, and cleanup are usable.
 - [ ] Lab report, evidence tiers, go/no-go tree, and pre/during/post checks can be applied without additional invention.
 - [ ] All examples are defensive and harmless; no offensive steps or live malicious material appear.
-- [ ] Candidate claims remain within Microsoft production transfer, current public learning, and actually performed synthetic evidence.
+- [ ] Candidate claims remain within prior production transfer, current public learning, and actually performed synthetic evidence.
 - [ ] Changing product details and policy requirements are marked for revalidation at use time.
 
 **Next references:** Use [Appendix J](Appendix-J-source-bibliography-and-current-official-docs.md) to verify changing claims, [Appendix K](Appendix-K-30-60-90-day-ramp-plan.md) to govern authorized ramp evidence, and [Appendix L](Appendix-L-night-before-one-page-cheat-sheet.md) for rapid interview recall.

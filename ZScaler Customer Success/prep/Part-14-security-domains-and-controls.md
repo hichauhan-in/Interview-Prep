@@ -1,10 +1,10 @@
 # Part 14 - Identity, Endpoint, Network, Application, Cloud, SaaS, and Data Security Domains
 
-> **Audience:** Arti Thakur, moving from Microsoft 365 Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
+> **Audience:** Candidates moving from Microsoft 365 Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
 >
 > **Currency date:** 2026-08-24.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, and every NMH asset, architecture, control, event, incident, metric, gap, decision, and outcome are fictional. Arti's established production bridge is Microsoft support, OneDrive, SharePoint, networking, troubleshooting, analytics, mentoring, escalation, and approved AI work. Direct production ownership of Zscaler, Security Operations, vulnerability management, exposure management, Endpoint Detection and Response, Security Information and Event Management, Security Orchestration Automation and Response, Operational Technology security, cloud security, or an enterprise security program is not established.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, and every NMH asset, architecture, control, event, incident, metric, gap, decision, and outcome are fictional. Your established production bridge is enterprise support, OneDrive, SharePoint, networking, troubleshooting, analytics, mentoring, escalation, and approved AI work. Direct production ownership of Zscaler, Security Operations, vulnerability management, exposure management, Endpoint Detection and Response, Security Information and Event Management, Security Orchestration Automation and Response, Operational Technology security, cloud security, or an enterprise security program is not established.
 >
 > **Domain caveat:** Security domains overlap. A product category, team name, or telemetry source does not define a complete control boundary. Exact architecture, ownership, capabilities, retention, coverage, privacy, licensing, and response authority vary by organization and provider. Verify current source documentation and tested behavior.
 >
@@ -16,7 +16,7 @@ A security domain is a practical grouping of related assets, threats, controls, 
 
 Imagine a large theater. Tickets identify guests, ushers control entrances, stage crews manage equipment, electricians protect power, directors govern the performance, accountants protect payments, and emergency teams prepare for disruption. Each function has specialist controls, yet one incident can cross them all. A stolen staff badge, unlocked side door, altered lighting controller, and missing camera record form one path. Cybersecurity domains are similar: specialization is necessary, but the organization must reconnect the evidence and ownership.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Learning outcome | What mastery looks like |
 |---|---|
@@ -68,20 +68,20 @@ The business service belongs at the center. Domain tools exist to protect people
 
 The target Technical Success Manager, abbreviated **TSM**, must navigate domain specialists and connect product evidence to customer outcomes. The TSM coordinates and advises; the TSM does not replace each domain owner, Security Operations Center, incident commander, architect, auditor, or risk owner.
 
-| JD expectation | Domain capability | Honest Arti bridge | Boundary to preserve |
+| JD expectation | Domain capability | Honest experience bridge | Boundary to preserve |
 |---|---|---|---|
 | Analyze complex environments | Build a cross-domain business-service map | Production Microsoft 365 and network dependency analysis | Do not claim ownership of every domain |
 | Identify security risks | Find control gaps, overlaps, blind spots, and attack paths | Evidence-driven troubleshooting | Customer owners validate risk and priority |
 | Deliver mitigation strategies | Combine preventive, detective, responsive, and recovery controls | Production recommendation and fix validation | Specialist and business approval remains required |
 | Develop SecOps expertise | Explain how sources become detections, investigations, actions, and lessons | Incident and escalation bridge | No production SOC or Agentic SecOps operation claimed |
 | Develop exposure expertise | Connect assets, weaknesses, paths, controls, owners, and remediation | Analytics and prioritization bridge | No vulnerability-program ownership claimed |
-| Lead strategic engagement | Align domain roadmaps to business outcome and governance | Technical Advisor and customer leadership | Customer architecture and risk authorities decide |
-| Resolve critical escalations | Correlate identity, endpoint, network, application, provider, and data evidence | CRITSIT and Microsoft troubleshooting | Preserve legal, privacy, and forensic boundaries |
+| Lead strategic engagement | Align domain roadmaps to business outcome and governance | Technical advisor and customer leadership | Customer architecture and risk authorities decide |
+| Resolve critical escalations | Correlate identity, endpoint, network, application, provider, and data evidence | critical situation and Microsoft troubleshooting | Preserve legal, privacy, and forensic boundaries |
 | Explain value | Use coverage, control, response, recovery, and risk metrics | SQL, Power BI, statistics | Product activity is not automatically business outcome |
 
 ## Candidate honesty note
 
-Arti's strongest production bridge crosses several domains naturally. A OneDrive synchronization or SharePoint access problem can involve user and device identity, endpoint process and cache, Domain Name System, Transmission Control Protocol, Transport Layer Security, Hypertext Transfer Protocol, proxy policy, Microsoft 365 tenant authorization, file permissions, service health, and audit evidence. She has investigated these dependencies, coordinated owners, and validated fixes.
+Your strongest production bridge crosses several domains naturally. A OneDrive synchronization or SharePoint access problem can involve user and device identity, endpoint process and cache, Domain Name System, Transmission Control Protocol, Transport Layer Security, Hypertext Transfer Protocol, proxy policy, Microsoft 365 tenant authorization, file permissions, service health, and audit evidence. You have investigated these dependencies, coordinated owners, and validated fixes.
 
 That experience supports domain reasoning. It does not establish production operation of EDR, SIEM, SOAR, XDR, cloud security posture tools, vulnerability scanners, Zscaler products, Security Operations, or OT controls.
 
@@ -437,7 +437,7 @@ A sealed courier envelope protects a letter while it travels. If it is addressed
 
 Data security therefore includes identity, purpose, classification, application authorization, endpoint handling, sharing, monitoring, retention, and response. Key management is also a management-plane risk. An administrator who can change access policy and decrypt data creates a larger concentration than either privilege alone.
 
-For OneDrive and SharePoint, Transport Layer Security protects transport, while Microsoft and tenant controls govern service access. Site membership, sharing links, guest lifecycle, labels, retention, endpoint synchronization, local copies, and application permissions still matter. Arti can explain those mechanics from production support while deferring legal and privacy decisions to authorized customer functions.
+For OneDrive and SharePoint, Transport Layer Security protects transport, while Microsoft and tenant controls govern service access. Site membership, sharing links, guest lifecycle, labels, retention, endpoint synchronization, local copies, and application permissions still matter. You can explain those mechanics from production support while deferring legal and privacy decisions to authorized customer functions.
 
 ## Vulnerability and exposure management
 
@@ -601,7 +601,7 @@ On an office laptop, immediate network isolation may be a reasonable containment
 
 OT response must include control engineers, plant operations, safety leaders, incident response, and vendors under tested authority. Compensating controls may include segmentation, allowlisting, monitored jump access, passive detection, short maintenance windows, physical control, and manual procedures. Delaying a patch is not automatically negligence if the residual risk is explicitly governed and safer treatment is scheduled.
 
-A TSM should ask about business and safety impact before recommending a network or access change. Public Zscaler pages describe IoT/OT discovery, segmentation, and privileged remote-access positioning, but actual protocols, architecture, safety, licensing, and device support require specialist validation. Arti must not claim production OT deployment.
+A TSM should ask about business and safety impact before recommending a network or access change. Public Zscaler pages describe IoT/OT discovery, segmentation, and privileged remote-access positioning, but actual protocols, architecture, safety, licensing, and device support require specialist validation. You must not claim production OT deployment.
 
 ## Control overlap, defense in depth, and correlated gaps
 
@@ -740,7 +740,7 @@ The scenario may prompt hypotheses related to Phishing, Valid Accounts, Account 
 
 ## OneDrive and SharePoint evidence bridge
 
-Arti's production support method is directly useful for cross-domain analysis.
+Your production support method is directly useful for cross-domain analysis.
 
 ```mermaid
 flowchart LR
@@ -769,7 +769,7 @@ flowchart LR
 | Audit event is missing | License, source, delay, operation type, retention | Source health, expected event, provider docs | Evidence gap changes confidence |
 | Service degraded | Provider, region, network, tenant, client | Service health, request ID, comparisons | Availability incident is not automatically attack |
 
-Arti can truthfully describe the diagnostic mechanics: define scope and time, compare affected and unaffected cases, identify the first divergent layer, gather attributable evidence, avoid unsafe broad bypass, route to the owning team, and validate both allowed and denied behavior. She should not claim that this makes her a SOC analyst or Zscaler administrator.
+You can truthfully describe the diagnostic mechanics: define scope and time, compare affected and unaffected cases, identify the first divergent layer, gather attributable evidence, avoid unsafe broad bypass, route to the owning team, and validate both allowed and denied behavior. You should not claim that this makes you a SOC analyst or Zscaler administrator.
 
 ## Zscaler portfolio overview mapped to domains
 
@@ -932,7 +932,7 @@ Involve plant engineering and safety. Verify vulnerability, actual protocol and 
 
 A source connector reports connected but events are six hours old. Distinguish transport heartbeat from data freshness and completeness. Reconcile source and destination counts, timestamps, schema rejects, rate limits, identity mapping, buffering, and replay. Qualify detections and risk outputs until repaired.
 
-### Drill 6 - Arti bridge
+### Drill 6 - experience bridge
 
 Choose a factual OneDrive or SharePoint case. Draw the user, client, identity, Domain Name System, Transport Layer Security, proxy, Microsoft service, permission, and data path. Explain the first divergent evidence and validated fix. Then state which EDR, SIEM, Zscaler, vulnerability, or OT tasks remain not-yet-used.
 
@@ -1059,7 +1059,7 @@ That is a strong cross-domain troubleshooting method. I remain explicit that EDR
 | TTP | Goal, method, implementation |
 | Cross-domain evidence | Stable IDs, time, source quality, business context |
 | Zscaler | Documented overview plus tenant validation |
-| Arti bridge | Trace Microsoft 365 from client to data and provider |
+| Experience bridge | Trace Microsoft 365 from client to data and provider |
 
 ## Completion Checklist
 
@@ -1088,7 +1088,7 @@ That is a strong cross-domain troubleshooting method. I remain explicit that EDR
 - [ ] I can compare containment benefit, business impact, evidence preservation, authority, and validation.
 - [ ] I can map OneDrive and SharePoint symptoms across identity, client, network, proxy, tenant, permission, data, and provider domains.
 - [ ] I can describe the official Zscaler portfolio only at a documented overview level.
-- [ ] I can state that no NMH or Arti production Zscaler, SecOps, vulnerability, EDR, SIEM, SOAR, XDR, cloud, or OT operation is claimed.
+- [ ] I can state that no NMH or documented production Zscaler, SecOps, vulnerability, EDR, SIEM, SOAR, XDR, cloud, or OT operation is claimed.
 - [ ] I can define cross-domain metrics with complete denominators, owners, source health, and decisions.
 - [ ] I can troubleshoot by finding the first divergent signal and running a narrow discriminating test.
 - [ ] I can challenge a green domain status with a cross-domain outcome question.

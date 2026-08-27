@@ -1,10 +1,10 @@
 # Part 101 - Onboarding, Technical Success Plans, Milestones, and Time to Value
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 
 > **Purpose:** Explain customer onboarding and technical success planning from zero, including kickoff, prerequisites, roles, phased delivery, dependencies, adoption outcomes, milestones, evidence, risks, documentation, remote/on-site cadence, early wins, time to value, and recovery when a plan slips.
 
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH person, tenant, product, source, integration, task, date, duration, target, metric, milestone, risk, decision, artifact, and result is invented. Arti's factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler, SecOps TSM, customer onboarding, implementation ownership, adoption, and value realization remain learning boundaries.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH person, tenant, product, source, integration, task, date, duration, target, metric, milestone, risk, decision, artifact, and result is invented. Your factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler, SecOps TSM, customer onboarding, implementation ownership, adoption, and value realization remain learning boundaries.
 
 > **Currency caveat:** Product capabilities, interfaces, prerequisites, delivery methods, documentation, services, support boundaries, packaging, and entitlements change. The controlled official-source snapshot and source review date for this Part is exactly **2026-08-24**. Current official technical and ordering documentation, licensed-tenant evidence, contracts and statements of work, customer policy, product specialists, implementation/service owners, vendor Support, and measured environment evidence govern production plans.
 
@@ -55,9 +55,9 @@ flowchart LR
 
 ## Candidate honesty note
 
-Arti can say: "My production background is Microsoft Support Escalation Engineering rather than owning Zscaler SecOps onboarding. I have run complex technical workstreams with prerequisites, customer and engineering owners, evidence checkpoints, mitigations, status cadences, recovery validation, and knowledge transfer. I have also used SQL and Power BI to make operational progress and data quality visible. I have studied technical success planning and practiced the templates here with a fictional customer. In a real engagement I would verify product documentation, purchased scope, services ownership, tenant state, customer change controls, dependencies, and success evidence before committing dates or outcomes."
+You can say: "My production background is support escalation engineering rather than owning Zscaler SecOps onboarding. I have run complex technical workstreams with prerequisites, customer and engineering owners, evidence checkpoints, mitigations, status cadences, recovery validation, and knowledge transfer. I have also used SQL and Power BI to make operational progress and data quality visible. I have studied technical success planning and practiced the templates here with a fictional customer. In a real engagement I would verify product documentation, purchased scope, services ownership, tenant state, customer change controls, dependencies, and success evidence before committing dates or outcomes."
 
-This statement is credible because it identifies both transfer and boundary. Arti can describe incident work as experience coordinating uncertain technical delivery; she should not rename it as product implementation. Synthetic NMH dates and metrics must remain labeled. Do not say "I onboarded Zscaler customers," "I delivered time to value in thirty days," "I drove SecOps adoption," or "I implemented this architecture" without factual production evidence.
+This statement is credible because it identifies both transfer and boundary. You can describe incident work as experience coordinating uncertain technical delivery; you should not rename it as product implementation. Synthetic NMH dates and metrics must remain labeled. Do not say "I onboarded Zscaler customers," "I delivered time to value in thirty days," "I drove SecOps adoption," or "I implemented this architecture" without factual production evidence.
 
 | Factual background | Transferable strength | Neutral wording | Unsupported statement to avoid |
 |---|---|---|---|
@@ -1150,9 +1150,9 @@ The Zscaler sources support dated public positioning and public support/service 
 
 **Model answer:** I select the medium by interaction. Remote is efficient for recurring delivery, evidence review, distributed training, and rapid escalation. On-site can help complex cross-team whiteboarding, workflow observation, intensive practice, or strategic planning. Every forum needs a decision purpose, pre-read, output, and owner. Travel or meeting frequency is not a value metric.
 
-### Q8. How does Arti's background transfer honestly to onboarding?
+### Q8. How does your background transfer honestly to onboarding?
 
-**Model answer:** Her Microsoft escalation work involved prerequisites, multi-team workstreams, evidence checkpoints, customer communication, mitigations, recovery validation, and knowledge transfer. Network traces help isolate technical gates; SQL and Power BI help make quality and progress visible; mentoring supports enablement. She has practiced synthetic TSM plans, while production Zscaler onboarding, implementation, adoption, time-to-value, and outcome ownership remain explicit learning areas requiring current evidence.
+**Model answer:** Your prior escalation work involved prerequisites, multi-team workstreams, evidence checkpoints, customer communication, mitigations, recovery validation, and knowledge transfer. Network traces help isolate technical gates; SQL and Power BI help make quality and progress visible; mentoring supports enablement. You have practiced synthetic TSM plans, while production Zscaler onboarding, implementation, adoption, time-to-value, and outcome ownership remain explicit learning areas requiring current evidence.
 
 ## 30-Second Memory Hooks
 
@@ -1177,7 +1177,7 @@ The Zscaler sources support dated public positioning and public support/service 
 | Cadence | Forum earns its place through decisions |
 | Health | Outcome, technical, schedule, adoption, operations, governance |
 | Residual | Completion does not mean zero risk |
-| Arti bridge | Delivery coordination transfers; production claims do not |
+| Experience bridge | Delivery coordination transfers; production claims do not |
 
 ## Completion Checklist
 
@@ -1194,7 +1194,7 @@ The Zscaler sources support dated public positioning and public support/service 
 - [ ] I can manage RAID, changes, slippage, executive updates, and residual risk transparently.
 - [ ] I can use the kickoff, success plan, readiness, milestone, RAID, adoption, cadence, executive, operating-agreement, and objection templates.
 - [ ] I can state public Zscaler positioning without inventing implementation, entitlement, timing, adoption, or outcome.
-- [ ] I can describe Arti's transferable experience without claiming production Zscaler onboarding.
+- [ ] I can describe your transferable experience without claiming production Zscaler onboarding.
 - [ ] I can answer Q1-Q8 aloud with evidence-first language.
 
 [Next: Part 102 - Stakeholder Mapping, Executive Management, and Governance Cadence](Part-102-stakeholder-executive-governance.md)

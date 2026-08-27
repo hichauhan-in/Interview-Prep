@@ -1,14 +1,14 @@
 # Part 89 - Risk360 Architecture, Telemetry, Factors, and Four Attack Stages
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 
 > **Purpose:** Explain Zscaler Risk360 from zero using only bounded public product facts, then build a general reference model for telemetry, normalization, factors, trends, the four attack stages, operations, security, privacy, troubleshooting, decision logic, artifacts, and responsible customer communication.
 
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH source, asset, identity, factor, stage, score, trend, date, recommendation, decision, and outcome is invented and is not Risk360 output. Arti's factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler, Risk360, ZIA, ZPA, DLP, ThreatLabz telemetry, Data Fabric, CTEM, UVM, SOC, enterprise risk quantification, and board reporting remain learning boundaries.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH source, asset, identity, factor, stage, score, trend, date, recommendation, decision, and outcome is invented and is not Risk360 output. Your factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler, Risk360, ZIA, ZPA, DLP, ThreatLabz telemetry, Data Fabric, CTEM, UVM, SOC, enterprise risk quantification, and board reporting remain learning boundaries.
 
 > **Currency caveat:** Product wording, inputs, factor descriptions/counts, stages, architecture, interfaces, methods, metrics, trends, integrations, recommendations, limits, packaging, and entitlements change. The controlled official-source snapshot and source review date for this Part is exactly **2026-08-24**. The reviewed live Risk360 page contained differing factor-count statements in different sections, so this Part deliberately does not memorize or assert one count. Current official documentation, licensed-tenant evidence, customer policy, product specialists, Zscaler Support, source-native evidence, and measured postconditions govern production decisions.
 
-> **Section goal:** Enable Arti to explain what Risk360 publicly positions, how a risk-driver architecture can turn bounded telemetry into explainable factors and trends, how the four stages organize an enterprise attack narrative, where Risk360 stops relative to adjacent capabilities, and how a TSM investigates data or interpretation problems without inventing formulas, UI, fields, entitlements, or customer results.
+> **Section goal:** Enable you to explain what Risk360 publicly positions, how a risk-driver architecture can turn bounded telemetry into explainable factors and trends, how the four stages organize an enterprise attack narrative, where Risk360 stops relative to adjacent capabilities, and how a TSM investigates data or interpretation problems without inventing formulas, UI, fields, entitlements, or customer results.
 
 The reviewed official Risk360 page describes an enterprise cyber-risk assessment and quantification offering using data from an existing Zscaler deployment and other described signals. Public positioning includes an enterprise risk view, contributing risk factors and trends, guided mitigation, potential financial exposure, executive or board-oriented reporting, and four attack stages: **external attack surface, compromise, lateral propagation, and data loss**. The page also references Zscaler telemetry or intelligence associated with areas such as ZIA, ZPA, DLP, ThreatLabz, and external signals. This is a bounded summary, not a complete source contract or architecture specification.
 
@@ -51,7 +51,7 @@ flowchart LR
 
 ## Candidate honesty note
 
-Arti can say: "I have studied Risk360's dated public positioning and built a fictional factor-and-stage exercise to demonstrate how I would reason, question data quality, and communicate. My production experience is Microsoft enterprise support, networking evidence, analytics, escalation, and mentoring. I would verify current tenant behavior and would not present a model output as objective loss or compromise evidence."
+You can say: "I have studied Risk360's dated public positioning and built a fictional factor-and-stage exercise to demonstrate how I would reason, question data quality, and communicate. My production experience is enterprise support, networking evidence, analytics, escalation, and mentoring. I would verify current tenant behavior and would not present a model output as objective loss or compromise evidence."
 
 | Background fact | Transferable capability | Neutral wording | Boundary |
 |---|---|---|---|
@@ -542,7 +542,7 @@ flowchart LR
 
 ## Complete synthetic NMH Risk360-style case
 
-Everything in this section is explicitly fictional and synthetic. It is not generated by Risk360, does not reproduce a product score or factor, and does not describe a customer, tenant, integration, UI, field, result, or Arti production experience. Every date below is a synthetic scenario date on or before the official source review date. The source snapshot remains 2026-08-24.
+Everything in this section is explicitly fictional and synthetic. It is not generated by Risk360, does not reproduce a product score or factor, and does not describe a customer, tenant, integration, UI, field, result, or documented production experience. Every date below is a synthetic scenario date on or before the official source review date. The source snapshot remains 2026-08-24.
 
 NMH's fictional review uses a synthetic as-of date of 2026-08-22. The team creates a four-stage teaching model with no proprietary formula. Values are qualitative labels only: attention rising, stable, falling, or unknown. The exercise's purpose is to explain evidence and decisions, not quantify actual enterprise risk.
 
@@ -792,7 +792,7 @@ Official Zscaler pages support bounded public positioning only. The conceptual a
 
 **Model answer:** Reproduce exact user, role, scope, filter, refresh, and UTC. Reconcile expected source/product populations and health; then trace one representative entity through semantics, timestamps, nulls, identity/lifecycle, relationships, factor definition/version/lineage/dependencies, stage mapping, baseline/model changes, and presentation/access. Contain affected claims, repair the smallest layer, backfill or recompute as appropriate, reconcile, restate, and escalate a redacted minimal case if product behavior remains unexplained.
 
-### Q8. How does Arti's background transfer while remaining honest?
+### Q8. How does your background transfer while remaining honest?
 
 **Model answer:** Microsoft 365, OneDrive, and SharePoint escalation work supports multi-layer identity, permission, network, service, and data reasoning. Networking traces support telemetry-path and timing analysis. SQL and Power BI support grain, temporal joins, nulls, lineage, factor drill-down, trends, and movement bridges. Escalation and mentoring support customer communication and adoption; reviewed AI can assist cited summaries. NMH is synthetic, and production Risk360/Zscaler telemetry operation, quantification, and board reporting remain learning boundaries.
 
@@ -815,7 +815,7 @@ Official Zscaler pages support bounded public positioning only. The conceptual a
 | Factor count | Do not memorize; reviewed page conflicted |
 | Guidance | Option requiring customer applicability and authority |
 | Product boundary | Connect data and decisions without merging responsibilities |
-| Arti bridge | Analytics and escalation transfer; Risk360 production does not |
+| Experience bridge | Analytics and escalation transfer; Risk360 production does not |
 
 ## Completion Checklist
 

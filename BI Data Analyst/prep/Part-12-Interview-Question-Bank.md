@@ -26,7 +26,7 @@ Covers index item **12**. This expanded bank is intentionally heavy on **advance
 **Q1. What is the CE&S BI team's mission in one sentence?**
 - **Model answer:** Turn support and customer-experience data into trusted insight, self-serve reporting, and decision support that improves customer outcomes and operational efficiency.
 - **Why it matters:** It shows you understand the job is not just building reports; it is enabling better decisions across support journeys.
-- **Interview hint:** Tie this to your CE&S escalation background and your interest in moving from reacting to issues to preventing them with analytics.
+- **Interview hint:** Tie this to your own support or escalation background and your interest in moving from reacting to issues to preventing them with analytics.
 - **Cross-reference:** [Part 01](Part-01-Role-Org-And-Gap-Map.md)
 
 **Q2. What is the difference between data, information, and insight?**
@@ -1627,7 +1627,7 @@ bad_rows.write.mode('append').format('delta').save(quarantine_path)
 
 **Q187. Describe a high-pressure incident you handled.**
 - **Model answer:** Choose a production or support escalation where you structured the response, communicated clearly, coordinated across teams, and helped restore stability.
-- **Why it matters:** Your CE&S escalation background is a real differentiator if framed well.
+- **Why it matters:** A support-escalation background is a real differentiator if framed well.
 - **Interview hint:** Show calm prioritization and stakeholder communication, not just technical firefighting.
 - **Cross-reference:** [Part 13](Part-13-Behavioral-And-Closing.md)
 

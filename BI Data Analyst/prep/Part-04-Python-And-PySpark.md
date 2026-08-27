@@ -87,7 +87,7 @@ A **data type** is *the kind of value a box holds* — the rules for what you ca
 | Type | Plain meaning | Example | Analogy |
 |---|---|---|---|
 | `int` | whole number | `132` | counting cases |
-| `float` | number with decimals | `4.75` | a CSAT average |
+| `float` | number with decimals | `4.32` | a CSAT average |
 | `str` | text ("string" of characters) | `"escalation"` | a label on a folder |
 | `bool` | True / False | `True` | a light switch |
 | `None` | the absence of a value | `None` | an empty jar |

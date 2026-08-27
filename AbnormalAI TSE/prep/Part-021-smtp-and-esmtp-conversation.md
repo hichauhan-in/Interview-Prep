@@ -8,9 +8,9 @@
 
 ## Section Goal
 
-By the end of this Part, Arti should be able to annotate an SMTP transcript without reading it as a loose list of codes. She should reconstruct the state of the session, explain which command a reply belongs to, preserve independent results for each recipient, and identify the exact point at which responsibility did or did not move to the receiving server.
+By the end of this Part, you should be able to annotate an SMTP transcript without reading it as a loose list of codes. You should reconstruct the state of the session, explain which command a reply belongs to, preserve independent results for each recipient, and identify the exact point at which responsibility did or did not move to the receiving server.
 
-She should understand the normal flow:
+You should understand the normal flow:
 
 1. a client opens a transport connection;
 2. the server sends a greeting;
@@ -40,9 +40,9 @@ The practical outcome is the **Dialogue Ledger: Safe SMTP Transcript Annotation 
 
 ## Candidate Honesty Note
 
-Arti’s production Microsoft support experience transfers in layered troubleshooting, networking fundamentals, identity and authorization reasoning, evidence correlation, customer cadence, escalation, and validation. A protocol transcript is similar to any stateful distributed-system log: order and ownership matter more than isolated strings.
+Your production enterprise support experience transfers in layered troubleshooting, networking fundamentals, identity and authorization reasoning, evidence correlation, customer cadence, escalation, and validation. A protocol transcript is similar to any stateful distributed-system log: order and ownership matter more than isolated strings.
 
-This Part is learned architecture and a local/public lab. It does not establish production operation of Exchange transport, Google Workspace routing, Abnormal, a secure email gateway, or a public MTA. Arti should explain the method confidently while naming the product-specific evidence and runbooks she would learn during ramp.
+This Part is learned architecture and a local/public lab. It does not establish production operation of Exchange transport, Google Workspace routing, Abnormal, a secure email gateway, or a public MTA. You should explain the method confidently while naming the product-specific evidence and runbooks you would learn during ramp.
 
 | Evidence label | Honest use | Claim boundary |
 |---|---|---|
@@ -1151,7 +1151,7 @@ All listed sources were accessed on August 24, 2026 and must be revalidated for 
 
 ### Q8. How would you explain your SMTP readiness without production Abnormal experience?
 
-**Model answer:** I can reconstruct state, correlate command/reply and recipient scope, interpret retry ownership, and build evidence-led escalations from the standards. My Microsoft support background adds production discipline in networking, identity, customer communication, and cross-team resolution. The transcripts here are synthetic; I would learn Abnormal’s documented deployment, telemetry, and runbooks rather than implying the lab is production experience.
+**Model answer:** I can reconstruct state, correlate command/reply and recipient scope, interpret retry ownership, and build evidence-led escalations from the standards. My prior support background adds production discipline in networking, identity, customer communication, and cross-team resolution. The transcripts here are synthetic; I would learn Abnormal’s documented deployment, telemetry, and runbooks rather than implying the lab is production experience.
 
 ## 🧠 30-Second Memory Hooks
 

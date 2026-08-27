@@ -1,10 +1,10 @@
 # Part 80 - Service Review and Customer-Risk Scenarios
 
-> **Section goal:** Turn difficult service-review situations into evidence-based customer decisions, owned actions, and measurable outcomes without overstating severity, value, certainty, or authority. By the end, Arti should be able to handle ignored recommendations, aging actions, disputed severity, missing telemetry, inaccurate install base, lifecycle debt, budget and downtime constraints, absent ownership, conflicting stakeholders, recurring incidents, data disagreement, stale-green dashboards, risk acceptance, executive challenge, value proof, and trust repair.
+> **Section goal:** Turn difficult service-review situations into evidence-based customer decisions, owned actions, and measurable outcomes without overstating severity, value, certainty, or authority. By the end, you should be able to handle ignored recommendations, aging actions, disputed severity, missing telemetry, inaccurate install base, lifecycle debt, budget and downtime constraints, absent ownership, conflicting stakeholders, recurring incidents, data disagreement, stale-green dashboards, risk acceptance, executive challenge, value proof, and trust repair.
 
 Covers index item **80** and maps directly to job-description responsibilities for operational service reviews, customer-risk mitigation, remediation adoption, install-base and telemetry quality, strategic planning, customer loyalty, executive communication, analytics, influence, and action tracking.
 
-**Explicit nonclaim:** Arti has not led a production NetApp service review, owned a live NetApp account risk register, obtained customer acceptance of NetApp risk, committed customer/NetApp resources, or claimed NetApp-attributable customer value or loyalty outcomes.
+**Explicit nonclaim:** You have not led a production NetApp service review, owned a live NetApp account risk register, obtained customer acceptance of NetApp risk, committed customer/NetApp resources, or claimed NetApp-attributable customer value or loyalty outcomes.
 
 **Privacy/access:** Service reviews can combine customer identity, topology, telemetry, incidents, vulnerabilities, bugs, contracts, lifecycle, budgets, staffing, stakeholders, decisions, sentiment, renewal information, accepted risk, and employee behavior. Use authorized purpose-limited access, role-based views, minimum personal/commercial data, approved repositories, secure distribution, redaction, retention, and authorized account/legal/security participation. Do not place restricted account or relationship information in broad technical notes or portfolios.
 
@@ -14,7 +14,7 @@ Covers index item **80** and maps directly to job-description responsibilities f
 
 This Part is a generic customer-risk and review model, not a NetApp internal account process, health model, severity matrix, commercial forecast, risk-acceptance policy, service commitment, or authority to promise technical or business outcomes.
 
-> **No-production-NetApp boundary:** Arti's factual strengths are Microsoft customer/business reviews, high CSAT, backlog and case-quality analysis, CRITSIT ownership, recommendation follow-through, stakeholder communication, Excel/Power BI analytics, and Product/Engineering coordination. Her exact nonclaim is: **she has not owned or delivered a production NetApp service review or customer-risk decision.** These are synthetic role exercises.
+> **No-production-NetApp boundary:** Your factual strengths are customer and business reviews, high CSAT, backlog and case-quality analysis, critical-situation ownership, recommendation follow-through, stakeholder communication, Excel/Power BI analytics, and Product/Engineering coordination. Your exact nonclaim is: **you have not owned or delivered a production NetApp service review or customer-risk decision.** These are synthetic role exercises.
 
 ---
 
@@ -602,14 +602,14 @@ flowchart TD
 
 ---
 
-## 9. Arti transfer/honesty and JD Mapping
+## 9. Experience transfer and honesty and JD Mapping
 
 ```mermaid
 flowchart LR
-    REV[Microsoft customer/business reviews] --> MEET[Audience, narrative, decisions and follow-up]
+    REV[customer and business reviews] --> MEET[Audience, narrative, decisions and follow-up]
     CSAT[High CSAT and support experience] --> TRUST[Empathy, accuracy and expectation setting]
     DATA[Backlog/case quality, Excel and Power BI] --> RISK[Trends, action aging and data QA]
-    CRIT[CRITSIT/Product collaboration] --> EXEC[High-pressure risk and corrective action]
+    CRIT[Critical situation/Product collaboration] --> EXEC[High-pressure risk and corrective action]
     MEET --> TRANS[Transferable service-review method]
     TRUST --> TRANS
     RISK --> TRANS
@@ -628,7 +628,7 @@ flowchart LR
 
 ### Honest interview wording
 
-> `I run a review as a decision system: validate source identity/freshness, connect the finding to the customer's objective and risk, present status quo plus feasible options, request the correct decision, and track owner/date/dependency through effectiveness and residual risk. I have led Microsoft customer and business reviews, but not a production NetApp account review; the NetApp data and actions here are synthetic.`
+> `I run a review as a decision system: validate source identity/freshness, connect the finding to the customer's objective and risk, present status quo plus feasible options, request the correct decision, and track owner/date/dependency through effectiveness and residual risk. I have led customer and business reviews, but not a production NetApp account review; the NetApp data and actions here are synthetic.`
 
 ---
 
@@ -751,7 +751,7 @@ flowchart LR
 
 ### Q8. What experience transfers, and what remains your gap?
 
-> **Model answer:** `Microsoft customer/business reviews, high CSAT, case and backlog analytics, CRITSITs, Product collaboration, Excel/Power BI and action follow-through give me strong review skills. I have not delivered a production NetApp service review or owned customer NetApp risk/value, so these situations are synthetic and live account roles/data require authorized NetApp/customer owners.`
+> **Model answer:** `customer and business reviews, high CSAT, case and backlog analytics, critical situations, Product collaboration, Excel/Power BI and action follow-through give me strong review skills. I have not delivered a production NetApp service review or owned customer NetApp risk/value, so these situations are synthetic and live account roles/data require authorized NetApp/customer owners.`
 
 ---
 
@@ -773,7 +773,7 @@ flowchart LR
 - **Risk acceptance:** Scope + authority + controls + expiry + trigger.
 - **Value:** Measured contribution, not meetings and counts.
 - **Trust:** Correct errors, improve controls, deliver reliably.
-- **Arti boundary:** Microsoft reviews transfer; NetApp account ownership does not.
+- **Experience boundary:** Microsoft reviews transfer; NetApp account ownership does not.
 
 ---
 

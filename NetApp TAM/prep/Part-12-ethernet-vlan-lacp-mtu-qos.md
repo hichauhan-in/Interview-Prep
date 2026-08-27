@@ -1,12 +1,12 @@
 # Part 12 - Ethernet Design: VLANs, Bonds, LACP, MTU, QoS, and Redundancy
 
-> **Section goal:** Learn how Ethernet actually forwards storage traffic, how VLANs and link aggregation create logical paths, and how to test whether an apparently redundant design survives real failures. By the end, Arti should be able to read frame and switch evidence, explain LACP and hashing, calculate realistic throughput, diagnose VLAN/MTU/physical errors, and produce a safe customer recommendation with explicit supportability and residual risk.
+> **Section goal:** Learn how Ethernet actually forwards storage traffic, how VLANs and link aggregation create logical paths, and how to test whether an apparently redundant design survives real failures. By the end, you should be able to read frame and switch evidence, explain LACP and hashing, calculate realistic throughput, diagnose VLAN/MTU/physical errors, and produce a safe customer recommendation with explicit supportability and residual risk.
 
 Covers index item **12** and maps directly to job-description responsibilities for customer-environment analysis, storage and infrastructure depth, stability and risk mitigation, supportability validation, proactive recommendations, operational service reviews, and high-quality escalations.
 
 This Part is vendor-neutral. Exact bond/team/interface-group modes, switch stacking or multi-chassis behavior, hashing algorithms, Spanning Tree Protocol (STP) behavior, Maximum Transmission Unit (MTU), Quality of Service (QoS), flow control, offloads, counters, and failover behavior vary by operating system, adapter, switch platform, storage release, and configuration. Validate the complete combination in current vendor documentation and, for NetApp solutions, the current Interoperability Matrix Tool (IMT) and exact ONTAP release documentation.
 
-> **Evidence boundary:** Every organization, topology, MAC address, VLAN, counter, workload, test, and recommendation below is synthetic. Arti's Windows/Azure networking, enterprise escalation, evidence correlation, and customer communication are production strengths. Production NetApp interface-group administration, storage-switch design, LACP tuning, or Ethernet fabric ownership is not claimed.
+> **Evidence boundary:** Every organization, topology, MAC address, VLAN, counter, workload, test, and recommendation below is synthetic. Your Windows/Azure networking, enterprise escalation, evidence correlation, and customer communication are production strengths. Production NetApp interface-group administration, storage-switch design, LACP tuning, or Ethernet fabric ownership is not claimed.
 
 ---
 
@@ -729,12 +729,12 @@ flowchart TD
 
 ### Explicit JD Mapping
 
-| JD responsibility | Part 12 contribution | Arti's strength and honest gap |
+| JD responsibility | Part 12 contribution | Your strength and honest gap |
 |---|---|---|
 | Understand customer environment | Produces endpoint-to-switch-to-target topology, VLAN/LAG state, and failure domains | **Strength:** Windows/Azure network dependency mapping. **Gap:** production storage-fabric ownership is unproven. |
 | Analyze customer data | Uses FDB, LLDP, LACP, STP, counters, queues, captures, and timelines | **Strength:** evidence correlation and analytics transfer. |
 | Storage/network depth | Explains Ethernet framing, VLANs, aggregation, MTU, QoS, and redundancy | **Conceptual/lab:** no production NetApp interface-group claim. |
-| Mitigate risk and stability | Tests standby paths, common fate, congestion, physical errors, and MTU consistency | **Strength:** CRITSIT risk method. **Gap:** exact changes require network/storage SMEs and current support evidence. |
+| Mitigate risk and stability | Tests standby paths, common fate, congestion, physical errors, and MTU consistency | **Strength:** critical-situation risk method. **Gap:** exact changes require network/storage SMEs and current support evidence. |
 | Supportability | Inventories NIC/driver/firmware/switch/optic/storage combinations and IMT evidence | **Gap:** no current customer IMT result or gated tool access claimed. |
 | Operational service reviews | Converts fabric evidence into impact, options, owners, and validation | **Strength:** business review and executive communication. |
 | Preventative action tracking | Defines failover tests and remediation with dates and residual risk | **Strength:** escalation/action follow-through. |
@@ -970,7 +970,7 @@ $$
 27. Ask the complete TAM discovery set and build a seven-part recommendation.
 28. Recreate BlueYonder's performance and resilience analysis as separate workstreams.
 29. Build the minimum escalation pack.
-30. State Arti's production strengths and Ethernet-storage production gap honestly.
+30. State your production strengths and Ethernet-storage production gap honestly.
 
 ---
 
@@ -1051,7 +1051,7 @@ $$
 
 ### Q8. How does your experience transfer to Ethernet storage analysis, and what remains unproven?
 
-> **Model answer:** "My Microsoft escalation work gives me production experience with Windows and Azure networking, dependency mapping, evidence timelines, high-severity coordination, and customer communication. I can use that method to read Ethernet topology, forwarding, LACP, MTU, and counter evidence. I have not designed or operated NetApp interface groups or a production storage Ethernet fabric. I would verify current switch, NIC, host, protocol, and ONTAP support, collect read-only evidence, and work with network and storage owners on any change or failure test."
+> **Model answer:** "My prior escalation work gives me production experience with Windows and Azure networking, dependency mapping, evidence timelines, high-severity coordination, and customer communication. I can use that method to read Ethernet topology, forwarding, LACP, MTU, and counter evidence. I have not designed or operated NetApp interface groups or a production storage Ethernet fabric. I would verify current switch, NIC, host, protocol, and ONTAP support, collect read-only evidence, and work with network and storage owners on any change or failure test."
 
 **Follow-up depth:** Give one factual network escalation example and separate the proven troubleshooting behavior from the unproven NetApp implementation.
 
@@ -1079,7 +1079,7 @@ $$
 - **LLDP:** Neighbor's business card, not an authorization or uptime proof.
 - **CRC versus discard:** Corruption versus policy/congestion/resource drop.
 - **Microburst:** Short queue overflow hidden by long averages.
-- **Arti's bridge:** Network escalation method is proven; storage-fabric production ownership is not.
+- **Your bridge:** Network escalation method is proven; storage-fabric production ownership is not.
 
 ---
 
@@ -1108,7 +1108,7 @@ $$
 - [ ] Ask the complete TAM discovery set and write a seven-part recommendation.
 - [ ] Recreate the BlueYonder case and keep performance and resilience causes separate.
 - [ ] Complete the paper lab, whiteboard drills, self-test, and Q1-Q8 aloud.
-- [ ] State Arti's production strengths and Ethernet-storage production gap honestly.
+- [ ] State your production strengths and Ethernet-storage production gap honestly.
 - [ ] Recheck IEEE edition/access, vendor releases, exact topology, and NetApp IMT before customer use.
 
 ---

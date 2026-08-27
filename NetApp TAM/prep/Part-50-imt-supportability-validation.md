@@ -1,10 +1,10 @@
 # Part 50 - Interoperability Matrix Tool: Supportability Validation from End to End
 
-> **Section goal:** Learn to represent a real customer stack as an exact component/version recipe, search the NetApp Interoperability Matrix Tool (IMT), read supported-configuration results and notes correctly, preserve dated evidence, compare upgrade deltas, and respond safely when a combination is unlisted. By the end, Arti should be able to validate storage, protocol, host, hypervisor, application, adapter, driver, firmware, switch, multipath, and Host Utilities dependencies without turning partial matches into a support claim.
+> **Section goal:** Learn to represent a real customer stack as an exact component/version recipe, search the NetApp Interoperability Matrix Tool (IMT), read supported-configuration results and notes correctly, preserve dated evidence, compare upgrade deltas, and respond safely when a combination is unlisted. By the end, you should be able to validate storage, protocol, host, hypervisor, application, adapter, driver, firmware, switch, multipath, and Host Utilities dependencies without turning partial matches into a support claim.
 
 Covers index item **50** and maps directly to job-description responsibilities for technical solution validation, proactive risk identification, upgrade planning, customer-specific recommendations, case readiness, install-base analysis, change governance, and cross-functional coordination.
 
-**Explicit nonclaim:** Arti has not approved or certified a production NetApp configuration through IMT.
+**Explicit nonclaim:** You have not approved or certified a production NetApp configuration through IMT.
 
 **Privacy and access boundary:** Authorized IMT results, notes, exports, saved searches, customer recipes, and exception communications must remain in approved systems and be shared only at the necessary level.
 
@@ -14,7 +14,7 @@ Covers index item **50** and maps directly to job-description responsibilities f
 
 IMT access requires authorized NetApp identity and can be gated. Public documentation explains the workflow but cannot prove a customer recipe supported. This Part contains no real IMT result, support declaration, exception, certification, or waiver. Hardware Universe, release notes, host/vendor documentation, application matrices, advisories, and actual configuration evidence remain separate required sources.
 
-> **No-production-NetApp boundary:** Arti does not claim production IMT validation. Every recipe, component, version, result row, note, configuration ID, export, customer, and recommendation below is synthetic. Her factual strengths are Microsoft supportability analysis, Azure/M365 dependency mapping, Windows/Linux/network stack troubleshooting, evidence-led change reviews, and structured data comparison. The explicit non-claim is: **she has not used an entitled customer IMT session to approve a production NetApp design or upgrade, saved/subscribed to a production configuration, opened a Can't Find Config request, or received a NetApp support exception for an unlisted combination.**
+> **No-production-NetApp boundary:** You do not claim production IMT validation. Every recipe, component, version, result row, note, configuration ID, export, customer, and recommendation below is synthetic. Your factual strengths are enterprise supportability analysis, Azure/M365 dependency mapping, Windows/Linux/network stack troubleshooting, evidence-led change reviews, and structured data comparison. The explicit non-claim is: **you have not used an entitled customer IMT session to approve a production NetApp design or upgrade, saved/subscribed to a production configuration, opened a Can't Find Config request, or received a NetApp support exception for an unlisted combination.**
 
 ---
 
@@ -584,14 +584,14 @@ flowchart LR
 
 ### JD Mapping
 
-| JD responsibility | Part 50 contribution | Arti's factual bridge and gap |
+| JD responsibility | Part 50 contribution | Your factual bridge and gap |
 |---|---|---|
 | Solution validation | Defines exact end-to-end recipe and Results evidence | Microsoft dependency/supportability analysis transfers |
 | Upgrade planning | Compares current/target/intermediate compatibility | Change-review discipline transfers; no production IMT approval claimed |
 | Proactive risk | Detects unlisted/mismatched driver/firmware/host/fabric combinations | Cross-stack troubleshooting transfers |
 | Customer recommendation | Produces bounded alternatives with notes, owners, proof | Evidence-risk communication transfers |
 | Support experience | Builds reproducible configuration/evidence pack | Escalation discipline transfers |
-| Cross-functional work | Coordinates storage, host, hypervisor, app, network, vendor, change owners | Multi-team Microsoft experience transfers |
+| Cross-functional work | Coordinates storage, host, hypervisor, app, network, vendor, change owners | Multi-team prior experience transfers |
 
 ### Honest interview answer
 
@@ -715,7 +715,7 @@ flowchart LR
 
 ### Q8. How does your background transfer, and what remains a gap?
 
-> **Model answer:** "Microsoft support and Azure/M365 work gave me cross-layer dependency, exact-version, change-review and evidence-pack discipline. I can apply the IMT method and communicate uncertainty, but I have not used an entitled IMT session to approve a production NetApp stack; an authorized experienced reviewer validates real results."
+> **Model answer:** "enterprise support and Azure/M365 work gave me cross-layer dependency, exact-version, change-review and evidence-pack discipline. I can apply the IMT method and communicate uncertainty, but I have not used an entitled IMT session to approve a production NetApp stack; an authorized experienced reviewer validates real results."
 
 ---
 
@@ -734,7 +734,7 @@ flowchart LR
 - **Evidence:** Recipe, ID, row, notes, policies, history, export, date.
 - **Cross-check:** IMT + HWU + release + bug/advisory + host/app/vendor.
 - **Gated:** Authorized reviewer or explicit gap, never invented output.
-- **Arti's bridge:** Dependency/evidence discipline transfers; production approval does not.
+- **Your bridge:** Dependency/evidence discipline transfers; production approval does not.
 
 ---
 

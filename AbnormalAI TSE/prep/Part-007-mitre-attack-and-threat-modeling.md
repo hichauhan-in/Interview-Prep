@@ -2,15 +2,15 @@
 
 > **Purpose:** Learn to describe adversary behavior and reason about possible attack paths without turning a knowledge base into a scorecard, inventing evidence, or providing harmful operational instructions.
 >
-> **Evidence rule:** Every threat model, actor, message, identity, application, event, and ATT&CK mapping in this Part is synthetic. Arti's Microsoft enterprise support experience transfers to structured investigation, scoping, evidence, communication, escalation, and validation; it does not establish threat-intelligence, red-team, direct email-security, Abnormal AI, or named security-tool production experience.
+> **Evidence rule:** Every threat model, actor, message, identity, application, event, and ATT&CK mapping in this Part is synthetic. Your prior enterprise support experience transfers to structured investigation, scoping, evidence, communication, escalation, and validation; it does not establish threat-intelligence, red-team, direct email-security, Abnormal AI, or named security-tool production experience.
 >
 > **Currency and official-source access date:** August 24, 2026.
 
 ## Section Goal
 
-By the end of this Part, Arti should be able to explain **MITRE ATT&CK** as a public, evidence-informed knowledge base of adversary tactics and techniques, not a product, compliance framework, attack instruction manual, universal detection catalog, or numerical measure of security maturity. She should be able to distinguish tactics, techniques, sub-techniques, and procedures; understand the supporting roles of groups, software, campaigns, data sources, mitigations, and detections; and create a defensible behavior mapping that names evidence, version, platform, scope, confidence, alternatives, and limitations.
+By the end of this Part, you should be able to explain **MITRE ATT&CK** as a public, evidence-informed knowledge base of adversary tactics and techniques, not a product, compliance framework, attack instruction manual, universal detection catalog, or numerical measure of security maturity. You should be able to distinguish tactics, techniques, sub-techniques, and procedures; understand the supporting roles of groups, software, campaigns, data sources, mitigations, and detections; and create a defensible behavior mapping that names evidence, version, platform, scope, confidence, alternatives, and limitations.
 
-She should also be able to build a beginner-first **threat model** by identifying objectives, assets, actors, entry points, trust boundaries, data flows, dependencies, assumptions, abuse cases, attack paths, controls, evidence, and owners. She should understand STRIDE as one optional brainstorming aid rather than a mandatory or complete methodology. She should apply this reasoning to a vendor-neutral enterprise email and Software as a Service (SaaS) environment while protecting privacy and avoiding active testing.
+You should also be able to build a beginner-first **threat model** by identifying objectives, assets, actors, entry points, trust boundaries, data flows, dependencies, assumptions, abuse cases, attack paths, controls, evidence, and owners. You should understand STRIDE as one optional brainstorming aid rather than a mandatory or complete methodology. You should apply this reasoning to a vendor-neutral enterprise email and Software as a Service (SaaS) environment while protecting privacy and avoiding active testing.
 
 The practical outcome is a **Paper Lantern Attack-Path Lab**. It produces a synthetic system-context diagram, asset and actor registers, entry-point and trust-boundary map, assumptions ledger, abuse cases, attack-path graph, control/evidence matrix, ATT&CK mapping cards, support decision tree, privacy manifest, and scored validation. The lab is purely local and analytical; it does not send email, create accounts, register applications, visit links, scan systems, bypass controls, or reproduce attacker actions.
 
@@ -35,8 +35,8 @@ The practical outcome is a **Paper Lantern Attack-Path Lab**. It produces a synt
 
 | Evidence label | Honest use | Boundary that remains visible |
 |---|---|---|
-| **Production-transfer example** | Arti's CV-supported Microsoft enterprise support, CRITSIT coordination, Engineering/Product escalation, fix validation, customer communication, KB/training, mentoring, and support analytics support structured reasoning and evidence discipline | These facts do not establish threat hunting, malware analysis, adversary attribution, incident command, email-security operations, or ATT&CK content expertise |
-| **Working knowledge or upskilling** | Networking, identity, API, logging, cloud, and AI concepts help Arti understand system paths and evidence sources | This is not production threat modeling, penetration testing, or security architecture ownership |
+| **Production-transfer example** | Your CV-supported enterprise support, critical-situation coordination, Engineering/Product escalation, fix validation, customer communication, KB/training, mentoring, and support analytics support structured reasoning and evidence discipline | These facts do not establish threat hunting, malware analysis, adversary attribution, incident command, email-security operations, or ATT&CK content expertise |
+| **Working knowledge or upskilling** | Networking, identity, API, logging, cloud, and AI concepts help you understand system paths and evidence sources | This is not production threat modeling, penetration testing, or security architecture ownership |
 | **Local/public lab** | Paper Lantern demonstrates a harmless paper threat model and evidence-based ATT&CK mapping | It is not red-team activity, production detection engineering, security assessment, or direct use of Abnormal/SIEM/EDR/SOAR tooling |
 | **Learned architecture** | MITRE, NIST, CISA, and Microsoft official sources support the vocabulary and method | Official-source study does not prove operational threat-intelligence or vendor-product experience |
 | **No direct experience** | The master records no direct Abnormal AI, direct email-security operations, Splunk, CrowdStrike, Cortex SOAR, or threat-intelligence production experience | State this directly; present the lab as lab evidence only |
@@ -708,7 +708,7 @@ All sources below were accessed on **August 24, 2026**. ATT&CK content, versions
 | Official source title or family | URL | Use | Caution |
 |---|---|---|---|
 | Supplied Abnormal AI Technical Support Engineer JD represented in the master | No public URL supplied | Role, product, case, ecosystem, and culture signals | No private detection or threat workflow inferred |
-| Arti Thakur tailored CV/master evidence summary | Local supplied source; no public URL | Microsoft support transfer and gap boundaries | No threat-intelligence, email-security, or named-tool production claim |
+| Your CV and master evidence summary | Local supplied source; no public URL | enterprise support transfer and gap boundaries | No threat-intelligence, email-security, or named-tool production claim |
 | MITRE ATT&CK official site | <https://attack.mitre.org/> | Primary knowledge-base and current object definitions | Versioned knowledge, not compliance or attribution proof |
 | MITRE ATT&CK Enterprise matrix | <https://attack.mitre.org/matrices/enterprise/> | Enterprise tactics and techniques | Platforms and entries must be checked live |
 | MITRE ATT&CK Data Sources | <https://attack.mitre.org/datasources/> | Official data-source and component relationships | Data availability does not prove analytic coverage |
@@ -727,7 +727,7 @@ All sources below were accessed on **August 24, 2026**. ATT&CK content, versions
 - The guide deliberately avoids freezing technique IDs for the lab candidates; the learner must verify current official names and IDs.
 - STRIDE is an optional Microsoft-origin prompt set, not a complete security standard.
 - Paper Lantern and every event, product, path, actor, app, session, and outcome are fictional.
-- Arti's production evidence remains only the supplied Microsoft support facts; direct email security, Abnormal, ATT&CK operations, and adjacent security tools remain explicit gaps.
+- Your production evidence remains only the supplied enterprise support facts; direct email security, Abnormal, ATT&CK operations, and adjacent security tools remain explicit gaps.
 
 ## Interview Q&A
 
@@ -777,7 +777,7 @@ All sources below were accessed on **August 24, 2026**. ATT&CK content, versions
 
 **Question:** What is your direct ATT&CK or threat-modeling experience?
 
-**Model answer:** I do not claim production ATT&CK detection engineering, threat-intelligence, red-team, Abnormal AI, or direct email-security experience. My production foundation is Microsoft enterprise support and escalation, where structured scoping, evidence, customer communication, Engineering/Product collaboration, fix validation, and knowledge work are transferable. My current threat-model proof is learned architecture from official sources and a local synthetic paper lab with evidence-backed mapping cards and explicit safety limits.
+**Model answer:** I do not claim production ATT&CK detection engineering, threat-intelligence, red-team, Abnormal AI, or direct email-security experience. My production foundation is enterprise support and escalation, where structured scoping, evidence, customer communication, Engineering/Product collaboration, fix validation, and knowledge work are transferable. My current threat-model proof is learned architecture from official sources and a local synthetic paper lab with evidence-backed mapping cards and explicit safety limits.
 
 ## 30-Second Memory Hooks
 
@@ -821,7 +821,7 @@ All sources below were accessed on **August 24, 2026**. ATT&CK content, versions
 - [ ] My lab score is at least 40/48, with 4s for attack-path safety, mapping precision/restraint, evidence/privacy, and honesty.
 - [ ] I performed no phishing, scanning, account creation, app registration, link visit, credential use, bypass, malware activity, or live security action.
 - [ ] I preserve explicit no-direct-experience boundaries for Abnormal AI, email security, Splunk, CrowdStrike, Cortex SOAR, ATT&CK operations, threat intelligence, and red-team work.
-- [ ] I tie Arti's background only to supplied Microsoft support, escalation, communication, validation, knowledge, analytics, networking, identity, API, and AI fundamentals.
+- [ ] I tie your background only to supplied enterprise support, escalation, communication, validation, knowledge, analytics, networking, identity, API, and AI fundamentals.
 - [ ] I can answer all eight interview questions aloud with evidence, confidence, safety, and ownership language.
 - [ ] I revalidated official source currency and kept official facts, candidate facts, teaching models, and synthetic evidence separate.
 

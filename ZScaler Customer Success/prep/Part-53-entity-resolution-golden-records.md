@@ -1,10 +1,10 @@
 # Part 53 - Entity Resolution, Deduplication, Identity Matching, and Golden Records
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 >
 > **Purpose:** Build a rigorous, beginner-first method for deciding when records refer to the same real-world entity, generating candidate pairs, comparing identifiers and aliases, scoring evidence, selecting thresholds, controlling false merges and false splits, constructing golden records, preserving confidence and provenance, handling temporal identity, supporting merge/unmerge, and routing uncertain cases to human review.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every person, asset, source, identifier, record, match rule, score, threshold, review, metric, incident, query result, and outcome in this Part is synthetic. General entity-resolution and PostgreSQL examples are not Zscaler Data Fabric schemas, algorithms, thresholds, model features, matching behavior, guarantees, or production recommendations. Official Zscaler material is used only for bounded public context: Zscaler publicly describes Data Fabric as harmonizing, deduplicating, correlating, and enriching security data. Arti's SQL, data-quality, incident, RCA, Microsoft support, and customer communication skills transfer; direct production operation of Zscaler Data Fabric entity resolution remains a learning boundary.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every person, asset, source, identifier, record, match rule, score, threshold, review, metric, incident, query result, and outcome in this Part is synthetic. General entity-resolution and PostgreSQL examples are not Zscaler Data Fabric schemas, algorithms, thresholds, model features, matching behavior, guarantees, or production recommendations. Official Zscaler material is used only for bounded public context: Zscaler publicly describes Data Fabric as harmonizing, deduplicating, correlating, and enriching security data. Your SQL, data-quality, incident, RCA, enterprise support, and customer communication skills transfer; direct production operation of Zscaler Data Fabric entity resolution remains a learning boundary.
 >
 > **Currency caveat:** Identity sources, matching methods, privacy requirements, product interfaces, database behavior, and public documentation change. The controlled research/source date for this Part is exactly **2026-08-24**. Current approved contracts, tenant evidence, legal/privacy advice, customer risk tolerance, observed populations, and product/source specialists govern production.
 
@@ -14,7 +14,7 @@ Entity resolution asks a deceptively simple question: do two or more records des
 
 Think of a coat-check desk. Several tickets, names, and descriptions may point to one coat, but similar black coats can belong to different people. The clerk must use strong identifiers, supporting clues, time, and an exception process. A neat-looking label is not enough. Entity resolution is that disciplined decision at data scale.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Evidence artifact |
 |---|---|---|
@@ -57,7 +57,7 @@ flowchart LR
 
 ## JD Mapping
 
-| Role expectation | Part 53 capability | TSM artifact | Arti bridge and boundary |
+| Role expectation | Part 53 capability | TSM artifact | experience bridge and boundary |
 |---|---|---|---|
 | Analyze complex customer data | Reconcile conflicting multi-source identities | Entity-resolution assessment | Cross-log correlation transfers; product internals unclaimed |
 | Identify security risk | Expose duplicate, fragmented, or wrongly merged assets and users | Identity-risk register | RCA discipline transfers |
@@ -72,7 +72,7 @@ flowchart LR
 
 | Evidence class | Safe interview statement | Boundary to state |
 |---|---|---|
-| Production transfer | "I correlated users, devices, requests, logs, and time windows during Microsoft support escalations." | Not the same as operating a production master-data platform |
+| Production transfer | "I correlated users, devices, requests, logs, and time windows during enterprise support escalations." | Not the same as operating a production master-data platform |
 | Synthetic practice | "I designed and tested deterministic, fuzzy, review, golden-record, and unmerge flows for fictional NMH data." | Lab evidence, not customer results |
 | General knowledge | "Entity resolution uses identifiers, candidate generation, comparison, decisions, clustering, and survivorship." | Implementations differ by population and risk |
 | Database example | "PostgreSQL offers documented trigram and fuzzy string functions that can support experiments." | Functions do not create a production matching policy |
@@ -258,7 +258,7 @@ Synthetic example:
 | `HOST-17.NMH.EXAMPLE` | `host17nmhexample` | host=`host-17`, domain=`nmh.example` | Preserve semantic components |
 | `001-ABC` | `1abc` | `001ABC` only if issuer confirms separators cosmetic | Leading zeros retained |
 | `10.1.4.8` | device key | parsed locator assertion | IP is not stable identity |
-| `A. Thakur` | `athakur` exact identity | name tokens with uncertainty | Name is supporting evidence |
+| `A. Rivera` | `arivera` exact identity | name tokens with uncertainty | Name is supporting evidence |
 | `unknown` | literal identifier | explicit missing sentinel under source rule | Placeholder is not an identity |
 
 ## Deterministic matching
@@ -858,7 +858,7 @@ Two device records have serial `UNKNOWN`. Does exact agreement support a match?
 
 ### Exercise 4 - Fuzzy name
 
-`Arti Thakur` and `Aarti Thakur` have high trigram similarity. Auto-merge?
+`Ann Rivera` and `Anne Rivera` have high trigram similarity. Auto-merge?
 
 **Answer:** Not from name similarity alone. Use population, authorized identifiers, source, time, and contradictory evidence. Route consequential ambiguity to review.
 
@@ -1129,7 +1129,7 @@ The sources below establish bounded concepts. NIST guidance is used for identity
 
 ### Q8. How does your background transfer, and what can you claim about Zscaler Data Fabric?
 
-**Model answer:** Microsoft escalation work taught me to correlate imperfect identity, device, request, log, and time evidence; test hypotheses; preserve evidence; isolate the first bad stage; and communicate uncertainty. I practiced formal matching, golden records, and unmerge on synthetic NMH data. Zscaler publicly describes Data Fabric harmonization, deduplication, correlation, and enrichment, but I do not claim internal algorithms, schemas, thresholds, or outcomes. I would validate current tenant evidence, documentation, privacy controls, and specialists.
+**Model answer:** enterprise escalation work taught me to correlate imperfect identity, device, request, log, and time evidence; test hypotheses; preserve evidence; isolate the first bad stage; and communicate uncertainty. I practiced formal matching, golden records, and unmerge on synthetic NMH data. Zscaler publicly describes Data Fabric harmonization, deduplication, correlation, and enrichment, but I do not claim internal algorithms, schemas, thresholds, or outcomes. I would validate current tenant evidence, documentation, privacy controls, and specialists.
 
 ## 30-Second Memory Hooks
 
@@ -1158,7 +1158,7 @@ The sources below establish bounded concepts. NIST guidance is used for identity
 | Unmerge | Append correction and repair consumers |
 | Review | Minimized evidence, trained judgment |
 | Privacy | Linking creates new sensitivity |
-| Arti bridge | Correlation and RCA transfer; internals do not |
+| Experience bridge | Correlation and RCA transfer; internals do not |
 
 ## Completion Checklist
 

@@ -10,7 +10,7 @@
 
 ## Section goal
 
-This Part gives Arti one controlled place to retrieve, explain, apply, and honestly qualify the curriculum. The bank is not a script to memorize. It is a map from a likely prompt to a concise answer structure and the completed Part containing the deeper explanation. The intended outcome is that Arti can identify what a question is testing, answer from evidence, reason aloud when uncertain, and name the next safe validation step.
+This Part gives you one controlled place to retrieve, explain, apply, and honestly qualify the curriculum. The bank is not a script to memorize. It is a map from a likely prompt to a concise answer structure and the completed Part containing the deeper explanation. The intended outcome is that you can identify what a question is testing, answer from evidence, reason aloud when uncertain, and name the next safe validation step.
 
 ```mermaid
 flowchart LR
@@ -25,9 +25,9 @@ flowchart LR
 ## Prerequisites
 
 - Parts 001-118 are completed reading references, not proof that their content was practiced or mastered.
-- Arti has access to this local Markdown guide, a private timer, and a private note or audio tool approved for non-sensitive personal practice.
+- You have access to this local Markdown guide, a private timer, and a private note or audio tool approved for non-sensitive personal practice.
 - Practice uses only invented scenarios and sanitized personal career evidence. It uses no customer, employer, tenant, ticket, message, log, token, cookie, secret, confidential interview question, or restricted product material.
-- The learner must preserve the evidence labels from Part 001: **Microsoft production transfer**, **performed safe lab**, **learned architecture**, and **no direct experience**.
+- The learner must preserve the evidence labels from Part 001: **prior production transfer**, **performed safe lab**, **learned architecture**, and **no direct experience**.
 
 ## Twelve terms to know before using the bank
 
@@ -36,7 +36,7 @@ flowchart LR
 | **Bank** | A deliberately bounded collection of prompts and answer cues linked to deeper lessons. | It creates coverage and traceability without pretending to predict an interview. | A map index points to detailed streets. | An interview is adaptive; a bank cannot guarantee which route appears. |
 | **Difficulty** | The expected reasoning depth: Basic recalls and explains, Intermediate connects concepts, and Advanced applies judgment under ambiguity. | It separates vocabulary recall from scenario performance. | Stairs rise from naming a tool to using it safely in a complex repair. | Real questions can become easier or harder through follow-ups. |
 | **Round** | The interview audience and purpose, such as Recruiter, Hiring Manager, Technical Panel, Behavioral/STAR, Troubleshooting Drill, or Closing. | The same fact needs different depth and emphasis for different listeners. | A camera lens changes framing while the subject stays truthful. | Round labels do not reveal a company's exact interview process. |
-| **Answer cue** | A concise set of claims, reasoning steps, evidence, and boundaries from which Arti creates a natural answer. | It supports understanding rather than word-for-word recitation. | Recipe notes guide cooking without dictating every movement. | Good answers still depend on the exact prompt and follow-up. |
+| **Answer cue** | A concise set of claims, reasoning steps, evidence, and boundaries from which you create a natural answer. | It supports understanding rather than word-for-word recitation. | Recipe notes guide cooking without dictating every movement. | Good answers still depend on the exact prompt and follow-up. |
 | **Troubleshooting drill** | A timed invented incident that requires scope, hypotheses, tests, observations, actions, and communication. | It tests applied reasoning rather than recognition alone. | A fire drill rehearses roles without creating a real fire. | A local drill cannot reproduce a customer tenant, product, or production pressure. |
 | **STAR** | **Situation, Task, Action, Result**, a structure for a truthful behavioral example. | It keeps ownership and evidence visible. | Four labeled drawers keep one story organized. | Real work is iterative, and the result must not be invented to fit four boxes. |
 | **Self-quiz** | A private check in which the learner attempts an answer before consulting the cue. | It exposes gaps that rereading can hide. | Closing the book before explaining tests whether the idea is retrievable. | One successful attempt does not prove durable mastery. |
@@ -62,9 +62,9 @@ flowchart TD
 
 ## JD Mapping
 
-| Role signal | Bank coverage | Honest Microsoft transfer | Boundary to state |
+| Role signal | Bank coverage | Honest experience transfer | Boundary to state |
 |---|---|---|---|
-| Enterprise L1 case ownership | Intake, severity, investigation, updates, escalation, resolution, closure, and knowledge questions | Five years of Microsoft enterprise support, CRITSIT investigation, escalation, validation, and customer communication where supported by the CV | Do not call Microsoft cases Abnormal or email-security operations |
+| Enterprise L1 case ownership | Intake, severity, investigation, updates, escalation, resolution, closure, and knowledge questions | Several years of enterprise support, critical-situation investigation, escalation, validation, and customer communication where supported by the CV | Do not call Microsoft cases Abnormal or email-security operations |
 | Cloud Email Security | Mail flow, authentication, BEC, phishing, false-positive and response questions | Microsoft 365 context and evidence-led troubleshooting are transferable | Abnormal product operation and direct threat verdict ownership remain unclaimed |
 | AI Security Agents | Behavioral detection foundations, agent safeguards, evaluation, privacy, and human review | Copilot, agent, and support experience only where personally substantiated | Generative-AI familiarity is not knowledge of Abnormal's private models or agents |
 | SaaS Security and integrations | Identity, SAML, OAuth, SCIM, tokens, APIs, webhooks, logs, and named ecosystem learning | Entra, REST, Postman, cURL, JSON, and troubleshooting concepts transfer at stated depth | Okta, Google Workspace, Slack, Splunk, CrowdStrike, Cortex SOAR, and other named tools remain learned/lab unless real evidence exists |
@@ -73,7 +73,7 @@ flowchart TD
 
 ## Candidate honesty note
 
-Arti's strongest truthful bridge is not “I have already done this exact Abnormal job.” It is: “I have owned complex Microsoft enterprise support investigations, communicated under pressure, collaborated with Engineering and Product, validated fixes, and improved knowledge and quality. For email security, identity, SaaS integrations, APIs, and Abnormal's public portfolio, I have built structured learned architecture and safe-lab plans. I will identify which evidence is production transfer, which lab was actually performed, and what remains untested.”
+Your strongest truthful bridge is not “I have already done this exact Abnormal job.” It is: “I have owned complex enterprise support investigations, communicated under pressure, collaborated with Engineering and Product, validated fixes, and improved knowledge and quality. For email security, identity, SaaS integrations, APIs, and Abnormal's public portfolio, I have built structured learned architecture and safe-lab plans. I will identify which evidence is production transfer, which lab was actually performed, and what remains untested.”
 
 The following are prohibited in every practice answer:
 
@@ -82,13 +82,13 @@ The following are prohibited in every practice answer:
 - exposing customer, employer, tenant, ticket, personal, message, log, token, cookie, secret, or restricted documentation data;
 - unsafe live tests, phishing, scanning, control bypass, adversarial product testing, production configuration changes, or access beyond authorization;
 - vendor disparagement, unsupported product absence, private-architecture inference, winner rankings, or marketing treated as independent proof;
-- hidden AI-generated answers, live interview assistance that violates interview rules, or answers Arti cannot explain and verify; and
+- hidden AI-generated answers, live interview assistance that violates interview rules, or answers you cannot explain and verify; and
 - overclaiming Microsoft scope as email-security operations or treating learned Abnormal concepts as direct product experience.
 
 ```mermaid
 flowchart LR
 	Claim["Proposed claim"] --> Tier{"Evidence tier?"}
-	Tier --> Production["Microsoft production transfer"]
+	Tier --> Production["prior production transfer"]
 	Tier --> Lab["Performed safe lab"]
 	Tier --> Learned["Learned architecture"]
 	Tier --> None["No direct experience"]
@@ -119,7 +119,7 @@ Allowed round tags are **Recruiter**, **Hiring Manager**, **Technical Panel**, *
 
 | # | Question | Concise model answer or answer cue | Most relevant completed Part | Difficulty | Interview round |
 |---:|---|---|---|---|---|
-| 1 | Tell me about your background and why it fits this role. | Lead with five years of Microsoft enterprise support, complex case ownership, customer trust, Engineering/Product escalation, fix validation, knowledge, and operational improvement. Label email security and Abnormal as a deliberate learning transition, not prior production ownership. | [Part 001](Part-001-role-compass-and-honest-candidate-story.md) | Basic | Recruiter |
+| 1 | Tell me about your background and why it fits this role. | Lead with several years of enterprise support, complex case ownership, customer trust, Engineering/Product escalation, fix validation, knowledge, and operational improvement. Label email security and Abnormal as a deliberate learning transition, not prior production ownership. | [Part 001](Part-001-role-compass-and-honest-candidate-story.md) | Basic | Recruiter |
 | 2 | What does an enterprise L1 Technical Support Engineer own? | Own the customer's case narrative from intake through scope, safe evidence, triage, updates, resolution or high-quality escalation, closure, and knowledge capture. L1 is an accountable diagnostic owner, not merely a ticket router. | [Part 002](Part-002-enterprise-support-ownership-and-customer-trust.md) | Basic | Hiring Manager |
 | 3 | What are confidentiality, integrity, and availability? | Confidentiality limits unauthorized disclosure, integrity protects correctness and authorized change, and availability keeps services usable when needed. A support action should consider all three because restoring access can still expose or corrupt data. | [Part 003](Part-003-security-fundamentals-cia-risk-and-controls.md) | Basic | Technical Panel |
 | 4 | What is least privilege? | Give a person, service, or integration only the permissions needed for its current task, for only as long as needed, with review and revocation. It reduces the blast radius of mistakes or compromise. | [Part 004](Part-004-zero-trust-least-privilege-and-shared-responsibility.md) | Basic | Technical Panel |
@@ -191,7 +191,7 @@ Allowed round tags are **Recruiter**, **Hiring Manager**, **Technical Panel**, *
 | 45 | What should a customer progress update contain? | Acknowledge impact, state completed work and evidence-based findings, distinguish knowns from unknowns, give the next action, owner, and time for the next update, and avoid promises not controlled by support. | [Part 108](Part-108-customer-updates-empathy-and-expectation-management.md) | Basic | Hiring Manager |
 | 46 | What is CSAT? | Customer satisfaction is feedback about a customer's experience, usually captured through a survey. Interpret response rate, selection bias, timing, segments, and qualitative context; do not use one score as a complete measure of support quality. | [Part 114](Part-114-support-metrics-dashboards-sql-and-analytics.md) | Basic | Hiring Manager |
 | 47 | How can AI assist support safely? | Use it for bounded drafts, summaries, classification, retrieval, or checks with approved data, provenance, access control, evaluation, and human verification. Never paste secrets or customer data into an unapproved tool or hide AI assistance where disclosure is required. | [Part 116](Part-116-safe-ai-assisted-support-prompting-and-automation.md) | Basic | Hiring Manager |
-| 48 | What does a safe support lab prove? | A performed lab can prove that Arti followed a reproducible method on authorized synthetic or public inputs and produced inspectable artifacts. It cannot prove production-scale skill, Abnormal experience, or behavior in a real customer tenant. | [Part 117](Part-117-safe-lab-portfolio-and-end-to-end-capstones.md) | Basic | Hiring Manager |
+| 48 | What does a safe support lab prove? | A performed lab can prove that you followed a reproducible method on authorized synthetic or public inputs and produced inspectable artifacts. It cannot prove production-scale skill, Abnormal experience, or behavior in a real customer tenant. | [Part 117](Part-117-safe-lab-portfolio-and-end-to-end-capstones.md) | Basic | Hiring Manager |
 
 ### Intermediate questions 49-96 - declared count: 48
 
@@ -205,7 +205,7 @@ Allowed round tags are **Recruiter**, **Hiring Manager**, **Technical Panel**, *
 | 52 | Why might DMARC pass while a message is malicious? | DMARC establishes aligned domain authorization through SPF or DKIM, not sender intent, account health, display-name safety, content, or business legitimacy. A compromised legitimate account can send aligned malicious mail, so correlate identity, behavior, relationship, and requested action. | [Part 027](Part-027-dmarc-alignment-policy-and-reporting.md) | Intermediate | Technical Panel |
 | 53 | How do gateways and connectors complicate mail troubleshooting? | They can reroute, rewrite, stamp, filter, journal, or relay messages and may create loops or bypass expected controls. Draw every hop, owner, connector condition, authentication effect, and message state using provider traces and raw headers. | [Part 030](Part-030-mail-routing-gateways-connectors-and-journaling.md) | Intermediate | Technical Panel |
 | 54 | How would you explain an NDR to a nontechnical customer? | A non-delivery report is a receipt explaining where a delivery attempt failed or was rejected. Translate the status, responsible boundary, retryability, evidence, and next owner without claiming the text alone proves root cause. | [Part 033](Part-033-delivery-quarantine-remediation-ndrs-and-bounces.md) | Intermediate | Hiring Manager |
-| 55 | What is the support value of comparing Microsoft 365 and Google Workspace mail flow? | The comparison exposes common actors and different names, evidence surfaces, routing controls, and administrative ownership. Use Microsoft production knowledge only where true; treat Google behavior as learned or lab architecture until directly practiced. | [Part 032](Part-032-google-workspace-mail-flow-learning-lab.md) | Intermediate | Hiring Manager |
+| 55 | What is the support value of comparing Microsoft 365 and Google Workspace mail flow? | The comparison exposes common actors and different names, evidence surfaces, routing controls, and administrative ownership. Use prior production knowledge only where true; treat Google behavior as learned or lab architecture until directly practiced. | [Part 032](Part-032-google-workspace-mail-flow-learning-lab.md) | Intermediate | Hiring Manager |
 | 56 | How do reputation and blocklists contribute to a verdict? | They are time-bounded signals about an IP, domain, URL, or sender observed by a particular source. Check source, listing reason, time, scope, delisting path, and contrary evidence; never make reputation the sole intent verdict. | [Part 029](Part-029-bimi-reputation-and-blocklists.md) | Intermediate | Technical Panel |
 
 #### Threat investigation and behavioral reasoning - questions 57-64 - declared count: 8
@@ -282,7 +282,7 @@ Allowed round tags are **Recruiter**, **Hiring Manager**, **Technical Panel**, *
 | 97 | A customer says, “The product missed an attack.” How do you open the investigation? | Acknowledge impact, preserve the exact message or event safely, define expected and actual detection and action, bound recipients and time, capture verdict and policy evidence, and separate ingestion, detection, display, remediation, and configuration hypotheses. Do not defend or condemn a product before correlating evidence. | [Part 099](Part-099-end-to-end-support-troubleshooting-trees.md) | Advanced | Hiring Manager |
 | 98 | How would you distinguish a provider defect from customer configuration or dependency failure? | Build an end-to-end boundary map, compare known-good and failing scope, identify recent change and reproducibility, inspect control-plane configuration and data-plane events, and run the cheapest safe test that gives different predictions. Escalate with uncertainty and evidence, not a premature owner assignment. | [Part 013](Part-013-platform-architecture-deployment-models-and-data-flows.md) | Advanced | Technical Panel |
 | 99 | A customer asks whether API-integrated email security is always better than an inline gateway. How do you answer? | Reject the universal ranking. Compare placement, observation time, action authority, latency, mail-path dependency, post-delivery reach, failure behavior, privacy, coexistence, recovery, and customer requirements; then validate current documented behavior for the actual products. | [Part 118](Part-118-advanced-topics-competitive-context-standards-and-current-trends.md) | Advanced | Hiring Manager |
-| 100 | What would you say if asked for hands-on Abnormal experience? | “I have not operated Abnormal in production. My direct evidence is Microsoft enterprise support; I have learned the public architecture and built safe synthetic practice plans for email, identity, APIs, logs, and L1 workflows. I would ramp through authorized documentation, shadowing, sandbox practice, and reviewed cases.” | [Part 001](Part-001-role-compass-and-honest-candidate-story.md) | Advanced | Recruiter |
+| 100 | What would you say if asked for hands-on Abnormal experience? | “I have not operated Abnormal in production. My direct evidence is enterprise support; I have learned the public architecture and built safe synthetic practice plans for email, identity, APIs, logs, and L1 workflows. I would ramp through authorized documentation, shadowing, sandbox practice, and reviewed cases.” | [Part 001](Part-001-role-compass-and-honest-candidate-story.md) | Advanced | Recruiter |
 | 101 | An integration page says “Connected,” but no customer outcome appears. What does that status prove? | It may prove only that a control-plane handshake or stored configuration succeeded. Verify permissions, subscriptions, filters, event generation, delivery, processing, action, and target state with correlated IDs; define the exact semantics of “Connected” from current documentation. | [Part 013](Part-013-platform-architecture-deployment-models-and-data-flows.md) | Advanced | Technical Panel |
 | 102 | An automated security action reports success but the target object is unchanged. How do you reason? | Separate request acceptance from execution and final state. Correlate action ID, authorization, idempotency key, worker and target logs, object identity/version, retries, partial failure, and compensating action; stop repeated changes until current state and ownership are known. | [Part 015](Part-015-ai-security-agents-workflows-and-safeguards.md) | Advanced | Technical Panel |
 | 103 | A customer and vendor disagree about who owns a failed control. How do you de-escalate? | Restate the shared outcome, map each component, permission, decision, evidence source, and contractual owner, and split immediate recovery from causal review. Assign exact next actions and times without using shared responsibility to dismiss the customer. | [Part 017](Part-017-customer-personas-use-cases-and-shared-responsibility.md) | Advanced | Hiring Manager |
@@ -455,7 +455,7 @@ Allowed round tags are **Recruiter**, **Hiring Manager**, **Technical Panel**, *
 | 205 | Postman succeeds but PowerShell fails with the same API. What do you compare? | Export a sanitized semantic comparison of method, URL encoding, DNS/proxy/TLS path, authentication, headers, content type, JSON serialization, redirects, timeout, and environment variables. Recreate a minimum request and avoid copying live secrets between tools. | [Part 085](Part-085-postman-curl-and-powershell-api-practice.md) | Advanced | Technical Panel; Troubleshooting Drill |
 | 206 | OpenSSL validates a server certificate while the browser rejects it. How can both be true? | They may use different trust stores, hostname/SNI, chain building, revocation, policy, proxy path, cached state, certificate transparency, or platform rules. Capture exact command and browser error, align host and path, and do not weaken browser validation. | [Part 082](Part-082-devtools-har-fiddler-linux-openssl-and-path-tools.md) | Advanced | Technical Panel; Troubleshooting Drill |
 | 207 | Design a portfolio lab for a webhook failure without claiming it was performed. | Specify local loopback sender/receiver, synthetic signed events, duplicate/replay/rate-limit cases, prerequisites, commands, expected evidence, redaction, cleanup, validation rubric, and stop conditions. Label every artifact `DESIGNED_NOT_PERFORMED_NOT_VALIDATED` until a dated run exists. | [Part 117](Part-117-safe-lab-portfolio-and-end-to-end-capstones.md) | Advanced | Technical Panel; Troubleshooting Drill |
-| 208 | A safe lab produces a different result from the lesson's expected evidence. What should Arti report? | Preserve actual output and environment, verify instructions and versions, form competing hypotheses, repeat only safely, update the finding and limitation, and seek review. Never edit evidence to match the lesson or present an unexpected self-review as product defect. | [Part 117](Part-117-safe-lab-portfolio-and-end-to-end-capstones.md) | Advanced | Technical Panel; Troubleshooting Drill |
+| 208 | A safe lab produces a different result from the lesson's expected evidence. What should you report? | Preserve actual output and environment, verify instructions and versions, form competing hypotheses, repeat only safely, update the finding and limitation, and seek review. Never edit evidence to match the lesson or present an unexpected self-review as product defect. | [Part 117](Part-117-safe-lab-portfolio-and-end-to-end-capstones.md) | Advanced | Technical Panel; Troubleshooting Drill |
 
 #### Metrics, process, analytics, and AI-support scenarios - questions 209-216 - declared count: 8
 
@@ -487,27 +487,27 @@ Allowed round tags are **Recruiter**, **Hiring Manager**, **Technical Panel**, *
 
 | # | Question | Concise model answer or answer cue | Most relevant completed Part | Difficulty | Interview round |
 |---:|---|---|---|---|---|
-| 225 | Why are you moving from Microsoft support toward security SaaS support? | Frame it as progression: enterprise case ownership, cloud troubleshooting, customer trust, and cross-team work are proven strengths; email, identity, behavioral security, APIs, and AI safety are the focused growth direction. Do not criticize Microsoft or claim the move is already complete. | [Part 001](Part-001-role-compass-and-honest-candidate-story.md) | Advanced | Recruiter |
-| 226 | Why Abnormal? | Cite dated public positioning: the intersection of human-targeted email attacks, behavioral AI, identity/SaaS context, APIs, and enterprise customer outcomes matches Arti's support strengths and learning path. Avoid claims about private culture, models, customers, or superiority. | [Part 011](Part-011-abnormal-ai-mission-market-and-customer-outcomes.md) | Advanced | Recruiter |
-| 227 | Why this L1 Technical Support Engineer role? | It combines accountable investigation, technical breadth, customer communication, escalation quality, onboarding, knowledge, and operational improvement. Arti can contribute proven Microsoft support habits while openly ramping on Abnormal-specific products and security operations. | [Part 001](Part-001-role-compass-and-honest-candidate-story.md) | Advanced | Hiring Manager |
+| 225 | Why are you moving from enterprise support toward security SaaS support? | Frame it as progression: enterprise case ownership, cloud troubleshooting, customer trust, and cross-team work are proven strengths; email, identity, behavioral security, APIs, and AI safety are the focused growth direction. Do not criticize Microsoft or claim the move is already complete. | [Part 001](Part-001-role-compass-and-honest-candidate-story.md) | Advanced | Recruiter |
+| 226 | Why Abnormal? | Cite dated public positioning: the intersection of human-targeted email attacks, behavioral AI, identity/SaaS context, APIs, and enterprise customer outcomes matches your support strengths and learning path. Avoid claims about private culture, models, customers, or superiority. | [Part 011](Part-011-abnormal-ai-mission-market-and-customer-outcomes.md) | Advanced | Recruiter |
+| 227 | Why this L1 Technical Support Engineer role? | It combines accountable investigation, technical breadth, customer communication, escalation quality, onboarding, knowledge, and operational improvement. You can contribute proven enterprise support habits while openly ramping on Abnormal-specific products and security operations. | [Part 001](Part-001-role-compass-and-honest-candidate-story.md) | Advanced | Hiring Manager |
 | 228 | What is your strongest differentiator? | Evidence-led ownership under enterprise pressure: converting ambiguous reports into timelines, hypotheses, safe tests, Engineering/Product asks, customer updates, validation, and reusable knowledge. Support it with one true Microsoft example, not adjectives alone. | [Part 002](Part-002-enterprise-support-ownership-and-customer-trust.md) | Advanced | Hiring Manager |
-| 229 | What is your biggest relevant gap? | Direct Abnormal and email-security operations experience. State it plainly, then show the bridge through Microsoft enterprise support, structured study, safe labs only where performed, and a ramp plan using authorized docs, shadowing, sandbox cases, review, and feedback. | [Part 001](Part-001-role-compass-and-honest-candidate-story.md) | Advanced | Hiring Manager |
+| 229 | What is your biggest relevant gap? | Direct Abnormal and email-security operations experience. State it plainly, then show the bridge through enterprise support, structured study, safe labs only where performed, and a ramp plan using authorized docs, shadowing, sandbox cases, review, and feedback. | [Part 001](Part-001-role-compass-and-honest-candidate-story.md) | Advanced | Hiring Manager |
 | 230 | What would you focus on in your first 90 days? | Learn product and support contracts, security/privacy process, customer environments, tools and evidence; shadow and practice; own bounded cases with review; then improve a small knowledge or quality gap using baseline and manager approval. Metrics and timing must be agreed, not invented. | [Part 115](Part-115-process-improvement-experiments-and-operational-quality.md) | Advanced | Hiring Manager |
 | 231 | How do you work effectively in a remote, cross-functional environment? | Use explicit ownership, written decisions, time-zone-aware handoffs, reliable cadence, audience-specific artifacts, focused synchronous sessions, and early escalation of blocked dependencies. Ground the answer in true Microsoft collaboration examples. | [Part 112](Part-112-trust-building-communication-artifact-workshop.md) | Advanced | Hiring Manager |
-| 232 | What conditions help you do your best work? | Ask for clear outcomes and priorities, access to safe evidence and documentation, candid feedback, accountable ownership, and collaborative escalation; add that Arti is comfortable creating structure amid ambiguity. Avoid presenting preferences as demands or inventing knowledge of the team. | [Part 002](Part-002-enterprise-support-ownership-and-customer-trust.md) | Advanced | Recruiter |
+| 232 | What conditions help you do your best work? | Ask for clear outcomes and priorities, access to safe evidence and documentation, candid feedback, accountable ownership, and collaborative escalation; add that you are comfortable creating structure amid ambiguity. Avoid presenting preferences as demands or inventing knowledge of the team. | [Part 002](Part-002-enterprise-support-ownership-and-customer-trust.md) | Advanced | Recruiter |
 
 #### Closing and readiness prompts - questions 233-240 - declared count: 8
 
 | # | Question | Concise model answer or answer cue | Most relevant completed Part | Difficulty | Interview round |
 |---:|---|---|---|---|---|
-| 233 | Why should we hire you? | Combine proven Microsoft enterprise support ownership, customer trust, complex investigation, escalation, validation, knowledge and improvement with a disciplined security-SaaS learning path. Name the direct-Abnormal gap and show a concrete ramp method rather than claiming immediate product mastery. | [Part 001](Part-001-role-compass-and-honest-candidate-story.md) | Advanced | Closing |
+| 233 | Why should we hire you? | Combine proven enterprise support ownership, customer trust, complex investigation, escalation, validation, knowledge and improvement with a disciplined security-SaaS learning path. Name the direct-Abnormal gap and show a concrete ramp method rather than claiming immediate product mastery. | [Part 001](Part-001-role-compass-and-honest-candidate-story.md) | Advanced | Closing |
 | 234 | What would you ask about success in the first six months? | Ask which customer outcomes, case types, quality behaviors, product knowledge, security practices, escalation standards, and independently owned scope define success, plus how coaching and calibration occur. The answer should shape a future ramp plan, not be assumed. | [Part 018](Part-018-product-support-scenarios-onboarding-and-boundaries.md) | Advanced | Closing |
 | 235 | What would you ask about the team's hardest support problems? | Ask which boundaries create the most ambiguity across email, identity, APIs, integrations, detection, remediation, and customer process; what evidence is usually missing; and how Support, Engineering, Product, Security, and CSMs swarm. Do not ask for confidential incidents. | [Part 104](Part-104-escalation-handoffs-swarming-and-critical-incidents.md) | Advanced | Closing |
 | 236 | How do you close an answer when you do not know the vendor-specific behavior? | State what is unknown, explain the vendor-neutral model and closest honest transfer, name the current official or authorized source and safe evidence you would seek, identify the owner, and stop before guessing. Unknown plus a validation plan is stronger than fabricated fluency. | [Part 001](Part-001-role-compass-and-honest-candidate-story.md) | Advanced | Closing |
 | 237 | At the end of a troubleshooting panel, how do you summarize your reasoning? | Restate impact and scope, confirmed observations, leading and alternative hypotheses, tests and results, current risk/state, next safe action, owner, evidence request, escalation trigger, and customer update. Distinguish resolved, mitigated, and still unknown. | [Part 099](Part-099-end-to-end-support-troubleshooting-trees.md) | Advanced | Closing |
 | 238 | What evidence would make you call yourself interview-ready? | Recorded uncued answers across domains and rounds, corrected technical and honesty gaps, timed drills with structured reasoning, true STAR stories, source revalidation, and stable threshold performance over spaced attempts. This authored bank alone is not readiness evidence. | [Part 117](Part-117-safe-lab-portfolio-and-end-to-end-capstones.md) | Advanced | Closing |
-| 239 | Would you use an AI assistant during an interview? | Only if the interviewer explicitly permits it and the use is disclosed within their rules. Never use hidden live assistance, customer data, or generated claims; Arti must be able to explain and verify every answer independently. | [Part 116](Part-116-safe-ai-assisted-support-prompting-and-automation.md) | Advanced | Closing |
-| 240 | Give your final closing statement. | “My evidence is enterprise support ownership, customer trust, rigorous troubleshooting, escalation, validation, and learning at Microsoft. I am intentionally moving into human-centered security SaaS; I do not claim direct Abnormal operation, but I can show how I learn, reason safely, communicate clearly, and become accountable quickly.” | [Part 001](Part-001-role-compass-and-honest-candidate-story.md) | Advanced | Closing |
+| 239 | Would you use an AI assistant during an interview? | Only if the interviewer explicitly permits it and the use is disclosed within their rules. Never use hidden live assistance, customer data, or generated claims; You must be able to explain and verify every answer independently. | [Part 116](Part-116-safe-ai-assisted-support-prompting-and-automation.md) | Advanced | Closing |
+| 240 | Give your final closing statement. | “My evidence is enterprise support ownership, customer trust, rigorous troubleshooting, escalation, validation, and learning in a previous role. I am intentionally moving into human-centered security SaaS; I do not claim direct Abnormal operation, but I can show how I learn, reason safely, communicate clearly, and become accountable quickly.” | [Part 001](Part-001-role-compass-and-honest-candidate-story.md) | Advanced | Closing |
 
 ## Troubleshooting Drills
 
@@ -516,17 +516,17 @@ The drill index points to selected Advanced core questions; it does not repeat t
 ```mermaid
 sequenceDiagram
 	participant Timer
-	participant Arti
+	participant you
 	participant Scenario as Core question row
 	participant Ledger as Private answer ledger
-	Timer->>Arti: Start bounded drill
-	Arti->>Scenario: Read prompt only and hide cue
-	Arti->>Arti: Scope impact safety and authority
-	Arti->>Arti: State observations and competing hypotheses
-	Arti->>Arti: Choose discriminating evidence or test
-	Arti->>Arti: Give action escalation and customer update
-	Arti->>Scenario: Reveal cue and linked Part
-	Arti->>Ledger: Record score correction evidence label and next review
+	Timer->>Candidate: Start bounded drill
+	You->>Scenario: Read prompt only and hide cue
+	You->>Candidate: Scope impact safety and authority
+	You->>Candidate: State observations and competing hypotheses
+	You->>Candidate: Choose discriminating evidence or test
+	You->>Candidate: Give action escalation and customer update
+	You->>Scenario: Reveal cue and linked Part
+	You->>Ledger: Record score correction evidence label and next review
 ```
 
 ### Drill index - declared count: 32
@@ -568,7 +568,7 @@ sequenceDiagram
 
 ### 🔍 Plain-English deep-dive: Troubleshooting aloud is visible reasoning
 
-The interviewer is not only waiting for a correct product name. They are watching how Arti protects the customer while information is incomplete. A strong drill answer sounds like: “First I would confirm impact and authority. I observe A and B, but C is only the customer's conclusion. My leading hypotheses are X and Y. This safe test predicts different results. While that runs, I would preserve evidence, contain known risk, and update the customer at this time.” The analogy is a pilot reading a checklist aloud so the crew can inspect the decision process. It stops because support is collaborative diagnosis, not a fixed cockpit procedure; the checklist must adapt to evidence and product policy.
+The interviewer is not only waiting for a correct product name. They are watching how you protect the customer while information is incomplete. A strong drill answer sounds like: “First I would confirm impact and authority. I observe A and B, but C is only the customer's conclusion. My leading hypotheses are X and Y. This safe test predicts different results. While that runs, I would preserve evidence, contain known risk, and update the customer at this time.” The analogy is a pilot reading a checklist aloud so the crew can inspect the decision process. It stops because support is collaborative diagnosis, not a fixed cockpit procedure; the checklist must adapt to evidence and product policy.
 
 ### Troubleshooting decision tree
 
@@ -710,7 +710,7 @@ flowchart TD
 | Prompt reference | Core number, drill ID, or strategy Q heading | Do not copy confidential interview prompts | Supports domain and round analysis |
 | Mode and time | Oral/written, uncued/cued, start and stop | No hidden live interview recording | Separates recall from review |
 | Confidence before | Low, medium, or high with one sentence | Do not use confidence as score | Compare belief with rubric result |
-| Evidence label | Microsoft production transfer, performed lab, learned architecture, or no direct experience | Remove names, tenants, tickets, secrets, and customer facts | Detects overclaiming |
+| Evidence label | prior production transfer, performed lab, learned architecture, or no direct experience | Remove names, tenants, tickets, secrets, and customer facts | Detects overclaiming |
 | First answer | Private recording or note, unchanged | Local approved storage only | Preserves actual fluency and omissions |
 | Score and reason | Zero/One/Two/Three plus exact rubric evidence | Self-score labeled self-score | Shows performance, not wishful confidence |
 | Correction | Technical, communication, safety, and honesty correction | Cite linked Part or official source | Creates next retrieval target |
@@ -719,7 +719,7 @@ flowchart TD
 
 ### 🔍 Plain-English deep-dive: Calibration means confidence earns evidence
 
-Confidence is useful when it predicts answer quality. After each attempt, compare the confidence stated before answering with the rubric result. High confidence plus Zero/One is a dangerous gap because Arti may overstate a weak answer; low confidence plus repeated Three may indicate needless hedging. A thermometer is the analogy: it is useful when its reading tracks temperature. The analogy stops because confidence also communicates uncertainty and stakes, so the goal is not permanent certainty but proportionate language.
+Confidence is useful when it predicts answer quality. After each attempt, compare the confidence stated before answering with the rubric result. High confidence plus Zero/One is a dangerous gap because you may overstate a weak answer; low confidence plus repeated Three may indicate needless hedging. A thermometer is the analogy: it is useful when its reading tracks temperature. The analogy stops because confidence also communicates uncertainty and stakes, so the goal is not permanent certainty but proportionate language.
 
 ```mermaid
 quadrantChart
@@ -734,7 +734,7 @@ quadrantChart
 
 ## Readiness threshold
 
-This is a **future evidence gate**, not a claim that Arti is ready today. Reading the bank or checking boxes from memory does not satisfy it.
+This is a **future evidence gate**, not a claim that you are ready today. Reading the bank or checking boxes from memory does not satisfy it.
 
 | Gate | Minimum future evidence | Current authored state |
 |---|---|---|
@@ -829,7 +829,7 @@ No recording, attempt, score, heatmap result, reviewer note, readiness result, o
 - Keep only the minimum private artifact needed to observe progress, in approved local storage with appropriate access control and retention.
 - Do not upload recordings, HAR files, logs, resumes with excess personal data, or answer ledgers to public AI tools, repositories, transcription sites, or file-sharing links.
 - Never record a real interview without explicit permission, and never retain or publish confidential interview questions.
-- Practice examples may use sanitized Microsoft transfer only; they must not reconstruct customer incidents or imply Abnormal production experience.
+- Practice examples may use sanitized experience transfer only; they must not reconstruct customer incidents or imply Abnormal production experience.
 
 ### Validation rubric
 
@@ -869,7 +869,7 @@ The master row was eligible for `Done` only after one full-file pass confirmed e
 | Deep dives | At least four standard Plain-English deep-dive headings | 4 headings |
 | Tables | At least ten decision-support or quick-reference tables | More than ten tables |
 | Lab | Local oral/written practice with prerequisites, expected evidence, cleanup/privacy, and rubric | `DESIGNED_NOT_PERFORMED_NOT_VALIDATED` |
-| Candidate honesty | Exact Microsoft transfer versus learned/lab/no-direct-Abnormal boundaries and prohibitions | Explicit throughout |
+| Candidate honesty | Exact experience transfer versus learned/lab/no-direct-Abnormal boundaries and prohibitions | Explicit throughout |
 | Official sources | At least twelve official/primary anchors with August 24, 2026 scope boundaries | 22 anchors below |
 | Strategy Q&A | Exactly `Q1` through `Q8`, each with `Model answer`, no `Q9+` | Exactly eight headings and eight model-answer labels; no `Q9+` |
 | Navigation | Exact Part 120 link appears once as sole final line | One exact required link at the physical final line |
@@ -878,11 +878,11 @@ The master row was eligible for `Done` only after one full-file pass confirmed e
 
 ## Official Source Anchors - August 24, 2026
 
-**Source-ledger date:** August 24, 2026. These anchors support vocabulary, public positioning, protocol boundaries, and safe practices. Mutable pages and living knowledge bases must be revalidated near the interview. A source can establish what its issuer published within scope; it cannot prove Arti's experience, a customer's configuration, private product behavior, comparative superiority, or an outcome.
+**Source-ledger date:** August 24, 2026. These anchors support vocabulary, public positioning, protocol boundaries, and safe practices. Mutable pages and living knowledge bases must be revalidated near the interview. A source can establish what its issuer published within scope; it cannot prove your experience, a customer's configuration, private product behavior, comparative superiority, or an outcome.
 
 | Official or primary source | Status at study date | Bank use | Scope boundary |
 |---|---|---|---|
-| [Abnormal Behavioral Security Platform](https://abnormal.ai/platform/overview) | Mutable official public vendor page reviewed for the August 24, 2026 curriculum | Public portfolio, behavioral, email, identity, SaaS, AI, API, and integration positioning | Vendor-stated positioning is not private architecture, coverage, entitlement, benchmark, customer result, or Arti experience |
+| [Abnormal Behavioral Security Platform](https://abnormal.ai/platform/overview) | Mutable official public vendor page reviewed for the August 24, 2026 curriculum | Public portfolio, behavioral, email, identity, SaaS, AI, API, and integration positioning | Vendor-stated positioning is not private architecture, coverage, entitlement, benchmark, customer result, or your experience |
 | [Abnormal Email Security](https://abnormal.ai/platform/email-security) | Mutable official public vendor page reviewed for the study date | Public email-security, BEC, account-takeover, behavioral, API, and response positioning | Does not establish exact signals, models, action semantics, support process, or guaranteed detection/remediation |
 | [Abnormal AI Security Mailbox](https://abnormal.ai/platform/ai-security-mailbox) | Mutable official public vendor page reviewed for the study date | Public AI-assisted triage, response, related-message, and remediation positioning | Does not disclose exact prompts, tools, confidence, approvals, scopes, idempotency, or recovery behavior |
 | [Abnormal Trust Center](https://abnormal.ai/trust-center) | Mutable official trust/compliance summary | Public trust posture and route to controlled assurance evidence | Badges and summaries do not prove every service, feature, customer configuration, or jurisdictional obligation |
@@ -902,7 +902,7 @@ The master row was eligible for `Done` only after one full-file pass confirmed e
 | [RFC 7644 - SCIM Protocol](https://www.rfc-editor.org/rfc/rfc7644.html) | Standards Track, September 2015 | Provisioning resources, filters, patching, bulk, and protocol errors | A standard contract does not prove connector mapping, lifecycle policy, target state, or vendor conformance |
 | [OASIS SAML V2.0 Technical Overview](https://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0.html) | Official OASIS technical overview for SAML 2.0 | Identity provider, service provider, assertion, protocol, binding, and profile concepts | Overview is not a customer's metadata, certificate, role mapping, authorization, or current product behavior |
 | [Microsoft Defender for Office 365 overview](https://learn.microsoft.com/en-us/defender-office-365/mdo-about) | Mutable official Microsoft technical documentation reviewed in 2026 | Native Microsoft email-protection, investigation, response, and plan context | Verify license and tenant configuration; Microsoft documentation does not establish Abnormal behavior or comparative effectiveness |
-| [Google Workspace Admin Help](https://support.google.com/a/) | Mutable official Google product-documentation family | Google Workspace administration and mail/integration source route | Exact task page, edition, update date, and tenant evidence are required; source family is not Arti production experience |
+| [Google Workspace Admin Help](https://support.google.com/a/) | Mutable official Google product-documentation family | Google Workspace administration and mail/integration source route | Exact task page, edition, update date, and tenant evidence are required; source family is not documented production experience |
 | [OWASP Agentic AI Threats and Mitigations](https://genai.owasp.org/resource/agentic-ai-threats-and-mitigations/) | Mutable official OWASP project guidance | Agentic threat-model and mitigation prompts | Community guidance, not law, RFC, ISO standard, certification, or proof of product safeguards |
 
 ### Source-use rules
@@ -919,19 +919,19 @@ The master row was eligible for `Done` only after one full-file pass confirmed e
 
 **Bank-use Q&A, not core-bank rows.** These eight meta entries explain how to use the bank; they are not part of the numbered 240-row distribution.
 
-### Q1. How should Arti structure a concise technical answer?
+### Q1. How should you structure a concise technical answer?
 
 **Model answer:** “I lead with the direct answer, then define the key concept, explain why it matters, give one evidence-backed example, state the important limit, and close with the validation or next action. For a scenario, I add impact, hypotheses, a discriminating check, target-state verification, and customer communication. I stop when the question is answered and invite the follow-up.”
 
-### Q2. What should Arti do when the answer is unknown?
+### Q2. What should you do when the answer is unknown?
 
-**Model answer:** “I say exactly what I do not know and avoid guessing. I explain the vendor-neutral model or closest truthful Microsoft transfer, then name the current authorized documentation, safe evidence, or product owner I would use to validate the vendor-specific behavior. An unknown with a bounded plan is credible; invented fluency is not.”
+**Model answer:** “I say exactly what I do not know and avoid guessing. I explain the vendor-neutral model or closest truthful experience transfer, then name the current authorized documentation, safe evidence, or product owner I would use to validate the vendor-specific behavior. An unknown with a bounded plan is credible; invented fluency is not.”
 
-### Q3. How should Arti use honest evidence labels in answers?
+### Q3. How should you use honest evidence labels in answers?
 
-**Model answer:** “I classify claims as Microsoft production transfer, performed safe lab, learned architecture, or no direct experience. I name the tier when it affects credibility: ‘I owned this in Microsoft support,’ ‘I demonstrated this in a dated local lab,’ ‘My understanding from official documentation is,’ or ‘I have not used this directly; here is the bridge and ramp plan.’ I never upgrade reading or an unperformed design into hands-on evidence.”
+**Model answer:** “I classify claims as prior production transfer, performed safe lab, learned architecture, or no direct experience. I name the tier when it affects credibility: ‘I owned this in enterprise support,’ ‘I demonstrated this in a dated local lab,’ ‘My understanding from official documentation is,’ or ‘I have not used this directly; here is the bridge and ramp plan.’ I never upgrade reading or an unperformed design into hands-on evidence.”
 
-### Q4. How should Arti troubleshoot aloud?
+### Q4. How should you troubleshoot aloud?
 
 **Model answer:** “I restate impact, scope, time, authority, and immediate safety; separate observations from conclusions; map layers and recent change; give competing falsifiable hypotheses; choose the cheapest safe check that predicts different observations; and state containment, escalation, target-state validation, and the next customer update. I revise the hypothesis when evidence changes.”
 
@@ -939,17 +939,17 @@ The master row was eligible for `Done` only after one full-file pass confirmed e
 
 **Model answer:** “The facts and honesty do not change. A recruiter gets motivation, role fit, concise gaps, and logistics; a hiring manager gets ownership, judgment, customer trust, collaboration, and improvement; a technical panel gets mechanisms, evidence, alternatives, and validation; a behavioral round gets a true STAR story; a drill gets live reasoning; closing gets synthesis and thoughtful questions.”
 
-### Q6. How should Arti use STAR without sounding fabricated?
+### Q6. How should you use STAR without sounding fabricated?
 
 **Model answer:** “I select one real sanitized example, keep Situation and Task brief, spend most time on my specific Action and reasoning, and state only an observed Result I can defend. I include uncertainty, collaboration, a correction or lesson, and metric provenance. If I lack a relevant story, I state the gap and give a framework rather than inventing one.”
 
-### Q7. What clarifying questions should Arti ask before solving a scenario?
+### Q7. What clarifying questions should you ask before solving a scenario?
 
 **Model answer:** “I ask only questions that change the path: who and what is affected, when it began, expected versus actual behavior, recent change, reproducibility, environment and tenant boundary, security/data impact, actions already taken, evidence and IDs available, and my authority. I then summarize assumptions and begin instead of using clarification to avoid reasoning.”
 
-### Q8. How should Arti close an answer or the interview?
+### Q8. How should you close an answer or the interview?
 
-**Model answer:** “For a technical answer, I summarize the most supported conclusion, remaining uncertainty, next safe action, owner, validation, and communication. For the interview, I connect proven Microsoft support strengths to the role, state the direct-Abnormal gap and ramp plan, ask questions about success and hard support boundaries, and thank the panel without claiming readiness that practice has not established.”
+**Model answer:** “For a technical answer, I summarize the most supported conclusion, remaining uncertainty, next safe action, owner, validation, and communication. For the interview, I connect proven enterprise support strengths to the role, state the direct-Abnormal gap and ramp plan, ask questions about success and hard support boundaries, and thank the panel without claiming readiness that practice has not established.”
 
 ## Memory Hooks
 
@@ -965,7 +965,7 @@ The master row was eligible for `Done` only after one full-file pass confirmed e
 - **Authentication says who; authorization says what they may do.**
 - **`202 Accepted` starts a trace; it does not finish one.**
 - **Preserve original evidence; transform sanitized copies.**
-- **Microsoft production transfer is real; Abnormal operation remains unclaimed.**
+- **prior production transfer is real; Abnormal operation remains unclaimed.**
 - **Designed is not performed; self-review is not independent validation.**
 - **No secrets, customer data, unsafe tests, disparagement, hidden AI, or invented metrics.**
 - **Zero/One returns soon; Two gets corrected; Three gets a harder variant.**
@@ -981,7 +981,7 @@ The master row was eligible for `Done` only after one full-file pass confirmed e
 - [ ] I can navigate each core backlink to an existing completed Part 001-118.
 - [ ] I can use all thirty-two drill IDs without repeating or renumbering the core questions.
 - [ ] I can troubleshoot aloud using impact, scope, safety, observations, hypotheses, discriminating evidence, action, validation, escalation, and update.
-- [ ] I can state the difference between Microsoft production transfer, performed lab, learned architecture, and no direct experience.
+- [ ] I can state the difference between prior production transfer, performed lab, learned architecture, and no direct experience.
 - [ ] I will not invent a STAR story, metric, certification, title, product behavior, customer, or result.
 - [ ] I will not expose customer/employer data, secrets, tokens, messages, logs, tenants, tickets, or restricted documentation.
 - [ ] I will not run phishing, scanning, bypass, adversarial product testing, unsafe live changes, or unapproved uploads for practice.

@@ -431,7 +431,7 @@ A B2B customer reports that their employees cannot sign in to a partner applicat
 
 ## 10. Candidate Honesty Note
 
-- **Production experience:** Azure Identity and Microsoft Entra ID concepts in a Microsoft support context, including access and sign-in issues.
+- **Production experience:** Azure Identity and Microsoft Entra ID concepts in a enterprise support context, including access and sign-in issues.
 - **Production experience:** Active Directory, which gives a concrete basis for articulating the contrast.
 - **Lab experience:** creating a free tenant, registering an application, inspecting the discovery document, and decoding tokens locally, as above.
 - **Learned architecture:** multi-tenant application design, B2B collaboration at scale, and Conditional Access policy design.

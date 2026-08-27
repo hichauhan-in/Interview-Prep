@@ -1,10 +1,10 @@
 # Part 69 - Cyber Assets, Inventory, CAASM, and Asset Exposure Fundamentals
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 >
 > **Purpose:** Build asset exposure knowledge from zero. Define cyber assets across endpoints, servers, networks, cloud, SaaS, identities, data, operational technology, and ephemeral resources; distinguish known, unknown, unmanaged, and rogue assets; separate discovery, inventory, configuration management databases, attack surfaces, and exposure; explain ownership, lifecycle, and criticality; position the CAASM category and Zscaler Asset Exposure Management (AEM) carefully; and turn visibility, control, risk, and compliance gaps into defensible use cases and metrics.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every NMH asset, source, count, identifier, relationship, owner, score, threshold, control, gap, incident, metric, timeline, and outcome in this Part is synthetic. Zscaler public pages support bounded statements about Asset Exposure Management, CAASM, the Data Fabric for Security, multi-source resolution, deduplication, relationships, golden records, coverage gaps, workflows, CMDB updates, and reporting. Public pages do not disclose proprietary matching algorithms, internal topology, default policies, tenant schemas, exact connector behavior, guaranteed completeness, implementation times, or customer outcomes. Detailed mechanics below are general educational patterns, not undocumented Zscaler implementation claims. Arti's Microsoft support, networking, identity, endpoint, SaaS, telemetry, SQL, data-quality, escalation, and customer-leadership skills transfer; direct production operation of Zscaler AEM remains a learning boundary.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every NMH asset, source, count, identifier, relationship, owner, score, threshold, control, gap, incident, metric, timeline, and outcome in this Part is synthetic. Zscaler public pages support bounded statements about Asset Exposure Management, CAASM, the Data Fabric for Security, multi-source resolution, deduplication, relationships, golden records, coverage gaps, workflows, CMDB updates, and reporting. Public pages do not disclose proprietary matching algorithms, internal topology, default policies, tenant schemas, exact connector behavior, guaranteed completeness, implementation times, or customer outcomes. Detailed mechanics below are general educational patterns, not undocumented Zscaler implementation claims. Your prior support, networking, identity, endpoint, SaaS, telemetry, SQL, data-quality, escalation, and customer-leadership skills transfer; direct production operation of Zscaler AEM remains a learning boundary.
 >
 > **Currency caveat:** Product capabilities, packaging, interfaces, connectors, terminology, documentation, and licensing change. The controlled research/source date for this Part is exactly **2026-08-24**. Current official documentation, licensed tenant behavior, approved design, source contracts, customer policy, security/privacy/legal requirements, product specialists, Support guidance, and measured evidence govern production.
 
@@ -14,7 +14,7 @@ A cyber asset is any digital or digitally connected resource that matters to an 
 
 Asset exposure management begins with a deceptively simple question: **What exists now, why does it matter, who is responsible, how is it connected, and what protection should apply?** A list of names does not answer that question. Useful asset knowledge combines identity, type, lifecycle, ownership, business context, relationships, exposure, controls, provenance, and time.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Evidence artifact |
 |---|---|---|
@@ -30,7 +30,7 @@ By the end, Arti should be able to:
 | Measure | Define counts, coverage, freshness, ownership, unknown, action, and outcome metrics | Metric dictionary |
 | Troubleshoot | Isolate scope, source, identity, context, policy, workflow, and reporting defects | Evidence-led runbook |
 | Practice | Complete a synthetic NMH asset-exposure assessment | Lab portfolio |
-| Bridge honestly | Connect Microsoft support evidence to AEM work without inventing experience | Interview answer |
+| Bridge honestly | Connect enterprise support evidence to AEM work without inventing experience | Interview answer |
 
 ```mermaid
 flowchart LR
@@ -48,7 +48,7 @@ flowchart LR
 
 ## JD Mapping
 
-| Role expectation | Part 69 capability | TSM artifact | Arti bridge and boundary |
+| Role expectation | Part 69 capability | TSM artifact | experience bridge and boundary |
 |---|---|---|---|
 | Become a Data Fabric and exposure expert | Explain how multi-source asset context supports exposure decisions | Asset architecture whiteboard | Verify current AEM behavior and licensing |
 | Analyze complex technical environments | Inventory asset classes, boundaries, dependencies, owners, and unknowns | Current-state asset map | Microsoft service dependency mapping transfers |
@@ -964,9 +964,9 @@ The root defect is incomplete source ingestion. The reporting logic's conversion
 | Quarterly executive | CISO/CIO/business leaders | Stable scope, confidence, material trend, decisions and value | Funding, policy, ownership, roadmap decisions |
 | Event-driven incident | Incident roles and affected owners | Material false action/report or exposure | Containment, recovery, reconciliation, PIR |
 
-## Arti bridge: Microsoft support to asset exposure
+## Experience bridge: enterprise support to asset exposure
 
-Arti's strongest bridge is not "I already ran CAASM." It is the investigation method she used in enterprise support. OneDrive and SharePoint cases required distinguishing user, device, sync client, browser, identity, tenant, permissions, proxy, DNS, network, service, and content scope. She compared timestamps and identifiers, separated client from service behavior, worked across owners, communicated uncertainty, escalated with evidence, and validated fixes. Asset exposure work applies the same discipline to a larger governed inventory.
+Your strongest bridge is not "I already ran CAASM." It is the investigation method you used in enterprise support. OneDrive and SharePoint cases required distinguishing user, device, sync client, browser, identity, tenant, permissions, proxy, DNS, network, service, and content scope. You compared timestamps and identifiers, separated client from service behavior, worked across owners, communicated uncertainty, escalated with evidence, and validated fixes. Asset exposure work applies the same discipline to a larger governed inventory.
 
 | Existing strength | AEM/CAASM transfer | Practice gap | Honest interview sentence |
 |---|---|---|---|
@@ -975,7 +975,7 @@ Arti's strongest bridge is not "I already ran CAASM." It is the investigation me
 | Identity and permissions | Understand users, devices, service identities, ownership | Security identity graph/exposure | "Identity is both context and an attack path; I preserve authority and time." |
 | Networking tools | Validate address, name, path, proxy, and endpoint evidence | CAASM source/graph use | "IP is an observation, not a permanent asset key." |
 | SQL/analytics | Reconcile counts, missing/stale data, cohorts, trends | Product query/report specifics | "I define denominator, freshness, exclusions, and uncertainty before presenting coverage." |
-| CRITSIT leadership | Contain harm, coordinate owners, communicate checkpoints | Security/exposure incident process | "I pause unsafe automation and separate root defect from safeguard failure." |
+| Critical-situation leadership | Contain harm, coordinate owners, communicate checkpoints | Security/exposure incident process | "I pause unsafe automation and separate root defect from safeguard failure." |
 | Customer communication | Translate technical evidence into impact and decisions | CISO/risk language | "I present material gaps, confidence, ownership, and next decision without false precision." |
 | Mentoring and training | Teach workflows and quality standards | AEM role-based enablement | "I use task practice, failure cases, and teach-back, not feature tours alone." |
 
@@ -1116,9 +1116,9 @@ Zscaler sources support bounded AEM/CAASM and Data Fabric positioning. NIST sour
 
 **Model answer:** I state exact scope, view, grain, cutoff, expected/actual, and last good/first bad; contain consequential automation; then test scope registry, source auth/query/pagination/watermarks/counts, mappings/lifecycle/applicability, entity resolution, temporal context/relationships, and report/workflow filters in order. I trace normal, false-positive, and false-negative samples through IDs and provenance, repair in no-action mode, and reconcile assets, metrics, tickets, CMDB, and reports before resuming.
 
-### Q8. How does your Microsoft support background transfer to AEM/CAASM work?
+### Q8. How does your prior support background transfer to AEM/CAASM work?
 
-**Model answer:** My Microsoft escalation work required precise population scoping, identity/device/service/network correlation, timestamps and identifiers, cross-team ownership, hypothesis testing, customer communication, RCA, and fix validation. My analytics background supports denominators, freshness, missing/duplicate data, and trends. I practiced asset-exposure methods in the synthetic NMH labs, but I do not claim production Zscaler AEM operation; I would ramp through official documentation, a licensed lab, shadowing, and evidence-reviewed use cases.
+**Model answer:** My prior escalation work required precise population scoping, identity/device/service/network correlation, timestamps and identifiers, cross-team ownership, hypothesis testing, customer communication, RCA, and fix validation. My analytics background supports denominators, freshness, missing/duplicate data, and trends. I practiced asset-exposure methods in the synthetic NMH labs, but I do not claim production Zscaler AEM operation; I would ramp through official documentation, a licensed lab, shadowing, and evidence-reviewed use cases.
 
 ## 30-Second Memory Hooks
 
@@ -1148,7 +1148,7 @@ Zscaler sources support bounded AEM/CAASM and Data Fabric positioning. NIST sour
 | Control | Applicable, present, healthy, enforcing, effective |
 | Compliance | Evidence for obligations, not a dashboard certificate |
 | Troubleshooting | Scope to source to identity to context to policy to action |
-| Arti bridge | Enterprise evidence and escalation method transfers; product operation does not |
+| Experience bridge | Enterprise evidence and escalation method transfers; product operation does not |
 
 ## Completion Checklist
 
@@ -1195,9 +1195,9 @@ Zscaler sources support bounded AEM/CAASM and Data Fabric positioning. NIST sour
 - [ ] I can explain the complete synthetic NMH scope, source plan, counts, EDR metric, prioritization, and pagination incident.
 - [ ] I label every NMH count, source behavior, threshold, control, incident, timeline, and outcome synthetic.
 - [ ] I can complete all fourteen labs and retain artifacts as lab evidence, not production claims.
-- [ ] I connect Arti's Microsoft troubleshooting, analytics, escalation, customer, and mentoring evidence while stating the AEM experience gap.
+- [ ] I connect your prior troubleshooting, analytics, escalation, customer, and mentoring evidence while stating the AEM experience gap.
 - [ ] I use official Zscaler AEM/Data Fabric, NIST, CIS, and CMDB sources with their stated boundaries.
 - [ ] I use the controlled research/source date exactly as 2026-08-24.
-- [ ] I can answer Q1 through Q8 with definitions, analogies, architecture, mechanics, examples, tradeoffs, failures, troubleshooting, labs, NMH evidence, official-source caveats, and an honest Arti bridge.
+- [ ] I can answer Q1 through Q8 with definitions, analogies, architecture, mechanics, examples, tradeoffs, failures, troubleshooting, labs, NMH evidence, official-source caveats, and an honest experience bridge.
 
 [Part 70 - Multi-Source Asset Discovery and Inventory Reconciliation](Part-70-asset-discovery-reconciliation.md)

@@ -2,17 +2,17 @@
 
 > **Purpose:** Consolidate the foundational vocabulary from Parts 001-009 and use it to build accurate persona, stakeholder, decision-right, system-context, dependency, boundary, and data-flow maps for enterprise security support.
 >
-> **Evidence rule:** Every persona, organization, architecture, ticket, event, message, identity, integration, and communication in this Part is synthetic. Arti's Microsoft enterprise support facts are used only as explicit transferable evidence; no direct Abnormal AI, email-security, named adjacent-tool, customer-success-platform, SOC, or incident-command experience is implied.
+> **Evidence rule:** Every persona, organization, architecture, ticket, event, message, identity, integration, and communication in this Part is synthetic. Your prior enterprise support facts are used only as explicit transferable evidence; no direct Abnormal AI, email-security, named adjacent-tool, customer-success-platform, SOC, or incident-command experience is implied.
 >
 > **Currency and official-source access date:** August 24, 2026.
 
 ## Section Goal
 
-By the end of this Part, Arti should be able to use foundational security and support terms consistently enough that each term changes a question, evidence request, owner, or decision. She should be able to distinguish asset, identity, credential, event, alert, incident, case, risk, control, evidence, telemetry, log, correlation, configuration, integration, dependency, trust boundary, data flow, authentication, authorization, privacy, severity, priority, containment, escalation, root cause, workaround, defect, and feature request without turning the conversation into jargon.
+By the end of this Part, you should be able to use foundational security and support terms consistently enough that each term changes a question, evidence request, owner, or decision. You should be able to distinguish asset, identity, credential, event, alert, incident, case, risk, control, evidence, telemetry, log, correlation, configuration, integration, dependency, trust boundary, data flow, authentication, authorization, privacy, severity, priority, containment, escalation, root cause, workaround, defect, and feature request without turning the conversation into jargon.
 
-She should be able to understand the goals, evidence needs, vocabulary, concerns, and decision rights of an administrator, security analyst, Security Operations Center (SOC) responder, Customer Success Manager (CSM), Support engineer, Engineering, Product, executive/business owner, and end user. Personas are working models, not stereotypes: one person can fill several roles, titles vary, and authority must be verified for the actual case.
+You should be able to understand the goals, evidence needs, vocabulary, concerns, and decision rights of an administrator, security analyst, Security Operations Center (SOC) responder, Customer Success Manager (CSM), Support engineer, Engineering, Product, executive/business owner, and end user. Personas are working models, not stereotypes: one person can fill several roles, titles vary, and authority must be verified for the actual case.
 
-She should be able to build a **system-context map** that identifies the system of interest and its external people/systems; an environment inventory; trust and ownership boundaries; identity and data flows; dependencies; management/control/data planes; evidence sources; and failure propagation. She should also build stakeholder and Responsible-Accountable-Consulted-Informed (RACI) maps while recognizing that RACI coordinates work but cannot rewrite architecture, contracts, legal duties, risk authority, or incident command.
+You should be able to build a **system-context map** that identifies the system of interest and its external people/systems; an environment inventory; trust and ownership boundaries; identity and data flows; dependencies; management/control/data planes; evidence sources; and failure propagation. You should also build stakeholder and Responsible-Accountable-Consulted-Informed (RACI) maps while recognizing that RACI coordinates work but cannot rewrite architecture, contracts, legal duties, risk authority, or incident command.
 
 The practical outcome is a **Prism Bridge Persona-to-Question and System-Context Lab**. It produces a vocabulary decision dictionary, persona register, discovery-question matrix, synthetic environment inventory, context/boundary/data-flow diagrams, dependency and evidence maps, stakeholder influence/impact map, RACI, one-fact/many-audiences communication set, support decision tree, privacy manifest, and rubric. It is a design exercise only and creates no additional workspace files.
 
@@ -37,14 +37,14 @@ The practical outcome is a **Prism Bridge Persona-to-Question and System-Context
 
 | Evidence label | Honest use in this Part | Boundary that remains explicit |
 |---|---|---|
-| **Production-transfer example** | Arti's CV-supported five years of Microsoft customer-facing enterprise support/escalation, SharePoint Online, OneDrive, Sync Client, Copilot, CRITSITs, customer/partner communication, Engineering/Product escalation, fix validation, KB/training, mentoring, and CSAT/backlog/case-quality analysis | These facts do not become Abnormal AI, Exchange/email-security, SOC, CSM, Product Manager, incident-command, or named-tool production experience |
+| **Production-transfer example** | Your CV-supported several years of enterprise customer-facing support/escalation, SharePoint Online, OneDrive, Sync Client, Copilot, critical situations, customer/partner communication, Engineering/Product escalation, fix validation, KB/training, mentoring, and CSAT/backlog/case-quality analysis | These facts do not become Abnormal AI, Exchange/email-security, SOC, CSM, Product Manager, incident-command, or named-tool production experience |
 | **Working knowledge/upskilling** | Networking, APIs/JSON, diagnostic tools, SQL/Power BI/Python, Azure/AD/Entra, SSO/SAML/OAuth, automation, AI, GitHub/Confluence/Linux/Kubernetes concepts support discovery and mapping | Depth and production scale must not be invented |
 | **Local/public lab** | Prism Bridge demonstrates persona-aware questions, a system map, evidence reasoning, and communication with invented data | It is not operation of a customer tenant or any named vendor platform |
 | **Learned architecture** | Official NIST, CISA, Microsoft, and public Abnormal sources support general system/security and role context | Public material does not reveal private organization, architecture, permissions, or decision rights |
 | **No direct experience** | Abnormal AI, direct email-security operations, Google Workspace, Slack, Okta, Splunk, CrowdStrike, Cortex SOAR, Zendesk, Salesforce, Jira, and Zoom remain explicit gaps | Category knowledge and diagrams do not convert the gap into production experience |
 | **Template only** | Persona cards, RACI, discovery questions, and diagrams can be adapted under actual policy | Templates do not prove an organization uses these roles or boundaries |
 
-Safe interview language: “My Microsoft support experience gives me production evidence in enterprise case ownership and cross-audience communication. I have not used Abnormal or the named adjacent tools in production. In a synthetic lab I mapped how an admin, SOC analyst, CSM, Engineering, Product, executive, and user would interact around one evidence core; that is a support-method artifact, not platform experience.”
+Safe interview language: “My prior support experience gives me production evidence in enterprise case ownership and cross-audience communication. I have not used Abnormal or the named adjacent tools in production. In a synthetic lab I mapped how an admin, SOC analyst, CSM, Engineering, Product, executive, and user would interact around one evidence core; that is a support-method artifact, not platform experience.”
 
 ## Vocabulary Consolidation: From Words to Decisions
 
@@ -458,7 +458,7 @@ The facts and confidence never change. Vocabulary, detail, and decision framing 
 
 ## Named Tool and Ecosystem Question Map
 
-| Named area | Honest current tier | Category questions Arti can ask | Prohibited implication |
+| Named area | Honest current tier | Category questions you can ask | Prohibited implication |
 |---|---|---|---|
 | Abnormal AI | No direct experience/public learned context later | Which product surface, tenant, object, evidence, role, expected/actual, and supported escalation? | Console operation or private architecture |
 | Microsoft 365 | Production transfer in named CV workloads; identity/cloud fundamentals | Tenant, identity, configuration, client/cloud boundary, service evidence | Direct Exchange/email-security operations unless separately supported |
@@ -746,7 +746,7 @@ All sources below were accessed on **August 24, 2026**. Frameworks, vendor produ
 | Official source title or family | URL | Use | Caution |
 |---|---|---|---|
 | Supplied Abnormal AI Technical Support Engineer JD represented in the master | No public URL supplied | Role responsibilities, products, case types, stakeholders, named ecosystem | No private organization, persona, tool, or workflow inferred |
-| Arti Thakur tailored CV/master evidence summary | Local supplied source; no public URL | Production-transfer facts and no-direct-experience boundaries | No unsupported workload, result, or tool depth added |
+| Your CV and master evidence summary | Local supplied source; no public URL | Production-transfer facts and no-direct-experience boundaries | No unsupported workload, result, or tool depth added |
 | NIST Cybersecurity Framework 2.0 | <https://www.nist.gov/cyberframework> | Governance, risk, roles, communications, and security outcome vocabulary | Not an organization chart or certification |
 | NIST SP 800-61 Revision 3 | <https://csrc.nist.gov/pubs/sp/800/61/r3/final> | Incident roles, communications, coordination, and risk-management integration | Does not make Support the incident commander |
 | NIST SP 800-207, Zero Trust Architecture | <https://csrc.nist.gov/pubs/sp/800/207/final> | Identity, resource, policy, trust-boundary, decision, and telemetry concepts | Logical model is not a vendor architecture claim |
@@ -762,7 +762,7 @@ All sources below were accessed on **August 24, 2026**. Frameworks, vendor produ
 - NIST and CISA sources support general risk, system, incident, and responsibility concepts, not Abnormal internals.
 - Official Abnormal pages support only high-level public context; detailed product study begins in Part 011 and later Parts.
 - Prism Bridge and all systems, identities, IDs, roles, requests, events, and failures are fictional.
-- Arti's production evidence is limited to the supplied CV/master; every named adjacent tool remains explicitly labeled.
+- Your production evidence is limited to the supplied CV/master; every named adjacent tool remains explicitly labeled.
 
 ## Interview Q&A
 
@@ -812,7 +812,7 @@ All sources below were accessed on **August 24, 2026**. Frameworks, vendor produ
 
 **Question:** How does your background prepare you for these personas and maps without overstating tool experience?
 
-**Model answer:** My CV supports five years of Microsoft enterprise support and escalation across named workloads, CRITSIT communication, Engineering/Product collaboration, fix validation, knowledge/training, mentoring, and support analytics. That is strong production evidence for case ownership, discovery, cross-audience translation, and handoffs. I do not claim Abnormal, direct email security, or the named adjacent tools in production. My persona and system-map proof is a local synthetic design artifact plus official-source study.
+**Model answer:** My CV supports several years of enterprise support and escalation across named workloads, critical-situation communication, Engineering/Product collaboration, fix validation, knowledge/training, mentoring, and support analytics. That is strong production evidence for case ownership, discovery, cross-audience translation, and handoffs. I do not claim Abnormal, direct email security, or the named adjacent tools in production. My persona and system-map proof is a local synthetic design artifact plus official-source study.
 
 ## 30-Second Memory Hooks
 
@@ -856,7 +856,7 @@ All sources below were accessed on **August 24, 2026**. Frameworks, vendor produ
 - [ ] My lab contains thirty vocabulary entries, eleven persona cards, persona questions, inventory, three maps, two troubleshooting tracks, stakeholder/RACI, nine messages, and claim-safety review.
 - [ ] My score is at least 42/48, with 4s in persona authority, context/boundary maps, privacy/safety, candidate honesty, and reproducibility/admin.
 - [ ] I created no additional workspace file and performed no service, API, mail, network, tenant, or tool activity.
-- [ ] I tie Arti's production evidence only to the supplied Microsoft support facts and stated working knowledge.
+- [ ] I tie your production evidence only to the supplied enterprise support facts and stated working knowledge.
 - [ ] I explicitly preserve no-direct-experience boundaries for Abnormal AI, direct email security, Google Workspace, Slack, Okta, Splunk, CrowdStrike, Cortex SOAR, Zendesk, Salesforce, Jira, and Zoom.
 - [ ] I can answer all eight interview questions aloud while adapting detail but preserving one evidence core.
 - [ ] I revalidated official source anchors against August 24, 2026 and separated supplied facts, official public context, teaching frameworks, and synthetic evidence.

@@ -2,7 +2,7 @@
 
 > **Section goal:** Build a beginner-first mental model of Microsoft Purview before designing labels, DLP, retention, audit, eDiscovery, or insider-risk controls. By the end, you should be able to distinguish data security, data governance, and risk/compliance; navigate the unified portal direction; explain roles and scope; draw the Microsoft 365 classification pipeline; choose among sensitive information types, exact data match, document fingerprinting, trainable classifiers, named entities, and credential classifiers; assess classification quality and privacy; and produce a defensible discovery, test, rollout, operations, and troubleshooting plan.
 
-This Part maps directly to Deloitte's Microsoft 365 security assessment, Purview design, implementation planning, troubleshooting, stakeholder communication, and operational-readiness expectations. It deliberately uses Arti's direct SharePoint Online, OneDrive, permissions, sharing, sync, content, escalation, RCA, and compliance-aligned support experience as the starting point. It does **not** claim that she has implemented Microsoft Purview classification in production. [Part 27](Part-27-purview-information-protection-labels-encryption.md) builds on this classifier foundation with sensitivity labels, publishing, encryption, and container controls.
+This Part maps directly to Deloitte's Microsoft 365 security assessment, Purview design, implementation planning, troubleshooting, stakeholder communication, and operational-readiness expectations. It deliberately uses your direct SharePoint Online, OneDrive, permissions, sharing, sync, content, escalation, RCA, and compliance-aligned support experience as the starting point. It does **not** claim that you have implemented Microsoft Purview classification in production. [Part 27](Part-27-purview-information-protection-labels-encryption.md) builds on this classifier foundation with sensitivity labels, publishing, encryption, and container controls.
 
 > **Currency, licensing, preview, portal, and change-sensitive note:** This chapter was checked against official Microsoft Learn available on **August 24, 2026**. Microsoft directs administrators to the unified Microsoft Purview portal at `https://purview.microsoft.com`; the retired compliance portal and classic governance portal have had features relocated or retired. In the unified portal, **Classification** is generally presented as **Classifiers**, explorers sit within solution navigation, and roles/scopes are under **Settings**. Exact menus, solution cards, sovereign-cloud URLs, APIs, limits, licenses, and preview states change. Content Explorer is still described in some Learn pages as a classic experience, while newer material refers to Data Explorer. Security Copilot in Activity Explorer, trainable-classifier display in Content Explorer, some Data Map labeling/protection experiences, and several AI/data-security functions remain preview or tenant-dependent. Always verify Product Terms, the Microsoft Purview service description, release notes, Message center, regional availability, role documentation, and the tenant's actual UI before a client design.
 
@@ -19,9 +19,9 @@ This Part maps directly to Deloitte's Microsoft 365 security assessment, Purview
 
 ## Candidate honesty note
 
-Arti can directly claim experience supporting SharePoint Online and OneDrive content, permissions, sharing, synchronization, customer-impacting incidents, RCA, stakeholder coordination, and compliance-aligned guidance where her evidence supports it. Those are strong foundations because Purview classification depends on the same content stores, identity boundaries, search/index behavior, supported file types, and operational investigation habits.
+You can directly claim experience supporting SharePoint Online and OneDrive content, permissions, sharing, synchronization, customer-impacting incidents, RCA, stakeholder coordination, and compliance-aligned guidance where your evidence supports it. Those are strong foundations because Purview classification depends on the same content stores, identity boundaries, search/index behavior, supported file types, and operational investigation habits.
 
-She should not claim production ownership of Purview roles, Content Explorer, Data Explorer, Activity Explorer, custom sensitive information types, exact data match, document fingerprinting, trainable classifiers, auto-labeling, or tenant-wide data taxonomy unless she has separate evidence. A safe interview statement is:
+You should not claim production ownership of Purview roles, Content Explorer, Data Explorer, Activity Explorer, custom sensitive information types, exact data match, document fingerprinting, trainable classifiers, auto-labeling, or tenant-wide data taxonomy unless you have separate evidence. A safe interview statement is:
 
 > “My direct production depth is SharePoint Online, OneDrive, content access, sync, escalations, RCA, and compliance-aligned support. I have built a current Purview classification architecture and a paper test plan covering roles, classifiers, indexing, quality, privacy, deployment, and operations. I would validate it in a licensed nonproduction tenant with security, privacy, legal, records, and workload owners before enforcement.”
 
@@ -234,7 +234,7 @@ Do not write “Purview scans everything.” Define the exact item type, locatio
 
 ## 9. The classification pipeline for SharePoint and OneDrive
 
-Arti's SharePoint and OneDrive background is especially useful here. Files are uploaded or modified, content and metadata become available to service processing, search crawling/indexing occurs, classifiers evaluate supported content, and results eventually appear in policy/evidence experiences. Each stage has a distinct clock.
+Your SharePoint and OneDrive background is especially useful here. Files are uploaded or modified, content and metadata become available to service processing, search crawling/indexing occurs, classifiers evaluate supported content, and results eventually appear in policy/evidence experiences. Each stage has a distinct clock.
 
 ```mermaid
 sequenceDiagram
@@ -800,7 +800,7 @@ An architecture decision record should state context, decision, alternatives, as
 
 **Situation:** A client suspects that customer identifiers are spread across project sites. Start with inventory and synthetic validation, not blocking. Compare a built-in/custom structured SIT against EDM if an authoritative CRM list exists. Measure locations, precision, false-negative corpus behavior, and unscannable files. Restrict content preview to approved investigators.
 
-**Arti bridge:** She can credibly explain site scope, permissions, sharing, search/index timing, file variation, sync/migration effects, and incident evidence. She should present EDM and Purview policy configuration as design/lab knowledge unless implemented.
+**Experience bridge:** You can credibly explain site scope, permissions, sharing, search/index timing, file variation, sync/migration effects, and incident evidence. You should present EDM and Purview policy configuration as design/lab knowledge unless implemented.
 
 ## 40. Scenario: merger-document detection
 

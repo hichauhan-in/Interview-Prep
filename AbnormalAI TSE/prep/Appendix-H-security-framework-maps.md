@@ -38,11 +38,11 @@ Use a framework only when it clarifies a decision. Start with the business capab
 
 ## Candidate Honesty and Safety Boundary
 
-Arti can truthfully connect these concepts to substantiated Microsoft enterprise-support experience, Azure/AD/Entra and identity fundamentals, Copilot/AI learning, evidence-led investigation, escalation, and safe labs. She must not claim that framework familiarity equals security operations, audit, compliance, threat hunting, incident command, or direct production use of Abnormal AI, email-security operations, Google Workspace, Slack, Okta, Splunk, CrowdStrike, Cortex SOAR, Zendesk, Salesforce, Jira, or Zoom.
+You can truthfully connect these concepts to substantiated enterprise-support experience, Azure/AD/Entra and identity fundamentals, Copilot/AI learning, evidence-led investigation, escalation, and safe labs. You must not claim that framework familiarity equals security operations, audit, compliance, threat hunting, incident command, or direct production use of Abnormal AI, email-security operations, Google Workspace, Slack, Okta, Splunk, CrowdStrike, Cortex SOAR, Zendesk, Salesforce, Jira, or Zoom.
 
 Safe interview wording:
 
-> “I use frameworks to structure questions and communicate clearly, not to manufacture evidence. My production foundation is Microsoft enterprise support. Direct email-security operations, Abnormal AI, ATT&CK operational mapping, and the named adjacent platforms remain learning areas, so I would pair my transferable method with current documentation and the authorized security owner.”
+> “I use frameworks to structure questions and communicate clearly, not to manufacture evidence. My production foundation is enterprise support. Direct email-security operations, Abnormal AI, ATT&CK operational mapping, and the named adjacent platforms remain learning areas, so I would pair my transferable method with current documentation and the authorized security owner.”
 
 Safety boundaries:
 
@@ -517,7 +517,7 @@ flowchart TD
 | “A product alert is a security incident.” | Alert is an input, incident is authorized classification | “I would validate evidence/impact and route criteria to the designated incident owner.” |
 | “Shared responsibility means the customer owns configuration.” | Oversimplifies contract/integration duties | “I would map each activity, decision, data flow, and control to a named owner using current contract and architecture.” |
 | “AI is unbiased because the data is anonymized.” | Privacy technique does not prove fairness/validity | “I would evaluate purpose, provenance, representation, slices, performance, harms, privacy, and governance.” |
-| “I used Abnormal/Splunk/CrowdStrike in production.” | Outside verified background | “I have learned the architecture through official material/synthetic labs; my production transfer is Microsoft support and evidence-led escalation.” |
+| “I used Abnormal/Splunk/CrowdStrike in production.” | Outside verified background | “I have learned the architecture through official material/synthetic labs; my production transfer is enterprise support and evidence-led escalation.” |
 
 ### Framework Answer Pattern
 
@@ -582,7 +582,7 @@ flowchart TD
 
 ## Official Source Anchors - August 24, 2026
 
-All sources below were accessed on **August 24, 2026**. Frameworks and guidance change. These public sources organize concepts; they do not disclose private Abnormal AI behavior, prove implementation/control effectiveness/compliance, authorize security action, or establish Arti's production experience.
+All sources below were accessed on **August 24, 2026**. Frameworks and guidance change. These public sources organize concepts; they do not disclose private Abnormal AI behavior, prove implementation/control effectiveness/compliance, authorize security action, or establish your production experience.
 
 | Official or primary source | Use in this appendix | Boundary |
 |---|---|---|
@@ -625,7 +625,7 @@ All sources below were accessed on **August 24, 2026**. Frameworks and guidance 
 - [ ] I mapped email, identity, SaaS, and API evidence without inventing private product capabilities or authority.
 - [ ] Privacy/responsible-AI concerns are routed to qualified owners with minimum evidence and explicit limits.
 - [ ] I did not declare an incident, breach, compliance result, control effectiveness, risk acceptance, or authorized response outside my role.
-- [ ] I labeled Abnormal/adjacent platforms as learned architecture and Microsoft support as the verified production-transfer foundation.
+- [ ] I labeled Abnormal/adjacent platforms as learned architecture and enterprise support as the verified production-transfer foundation.
 - [ ] I revalidated official sources beyond August 24, 2026 when decision-critical.
 
 ## Likely Interview Questions

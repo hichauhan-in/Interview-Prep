@@ -1,6 +1,6 @@
 # Part 83 - LAB 1 - ONTAP Discovery, Topology, Inventory, and Health Baseline
 
-> **Section goal:** Discover what an ONTAP environment contains, how its components relate, and what is healthy, degraded, unknown, or unsupported without changing state. By the end, Arti can turn authorized read-only evidence or a complete synthetic dataset into a reconciled install base, topology, health baseline, risk list, and interview-safe portfolio report.
+> **Section goal:** Discover what an ONTAP environment contains, how its components relate, and what is healthy, degraded, unknown, or unsupported without changing state. By the end, you can turn authorized read-only evidence or a complete synthetic dataset into a reconciled install base, topology, health baseline, risk list, and interview-safe portfolio report.
 
 Covers index item **83** and maps directly to job-description responsibilities for customer-environment understanding, install-base accuracy, customer-data analysis, risk mitigation, strategic planning, operational reviews, technical communication, and support-experience improvement.
 
@@ -12,7 +12,7 @@ Covers index item **83** and maps directly to job-description responsibilities f
 
 **Lab safety contract:** The access fallback is a complete synthetic dataset. Use read-only first, obtain authorization before change, run a positive test and negative test, use bounded failure injection only where approved, document recovery and rollback, capture evidence, complete cleanup, control cost and privacy, and use honest interview language.
 
-**Explicit nonclaim:** Arti has not discovered, inventoried, health-checked, reconciled, or certified a production ONTAP cluster. This lab does not make her a NetApp administrator and does not establish that any example configuration is supported.
+**Explicit nonclaim:** You have not discovered, inventoried, health-checked, reconciled, or certified a production ONTAP cluster. This lab does not make you a NetApp administrator and does not establish that any example configuration is supported.
 
 **Privacy/access:** Collect only the fields authorized for the stated purpose. Cluster names, serials, UUIDs, addresses, sites, users, events, support contracts, versions, topology, capacity, security posture, and protection relationships can be sensitive. Keep raw evidence in approved restricted storage; tokenize portfolio derivatives; never publish customer data, credentials, gated outputs, or real support records.
 
@@ -22,7 +22,7 @@ Covers index item **83** and maps directly to job-description responsibilities f
 
 This is a learning lab, not a customer assessment, security audit, supportability certification, health guarantee, or production change runbook.
 
-> **No-production-NetApp boundary:** Arti's production strengths are Microsoft enterprise discovery, case evidence, Azure/VM/network mapping, Active Directory, data-quality analysis, Excel/Power BI, CRITSIT communication, and customer reviews. Her exact nonclaim is: **she has not run ONTAP discovery or declared a production NetApp environment healthy.** She may present a completed authorized lab or this fully synthetic analysis with the evidence level stated.
+> **No-production-NetApp boundary:** Your production strengths are enterprise discovery, case evidence, Azure/VM/network mapping, Active Directory, data-quality analysis, Excel/Power BI, critical-situation communication, and customer reviews. Your exact nonclaim is: **you have not run ONTAP discovery or declared a production NetApp environment healthy.** You may present a completed authorized lab or this fully synthetic analysis with the evidence level stated.
 
 ---
 
@@ -515,11 +515,11 @@ The report concludes that services are observed as serving in the synthetic inte
 
 **Honest interview language:** `I completed a fully synthetic ONTAP discovery exercise. I reconciled stable IDs, built physical/logical/service/protection topology, separated degraded from unknown, and wrote owner-specific evidence requests. I did not query a production ONTAP cluster or claim live tool results.`
 
-## 19. JD Mapping and Arti advantage
+## 19. JD Mapping and your advantage
 
 ```mermaid
 flowchart LR
-    MS[Microsoft discovery and CRITSIT evidence] --> METHOD[Scope, timeline, identity and secure evidence]
+    MS[Microsoft discovery and critical-situation evidence] --> METHOD[Scope, timeline, identity and secure evidence]
     ANALYTICS[Excel/Power BI/SQL] --> RECON[Coverage, joins and exception model]
     REVIEWS[Customer reviews] --> REPORT[Decision-ready baseline]
     METHOD --> TAM[NetApp TAM discovery capability]
@@ -601,9 +601,9 @@ flowchart LR
 
 > **Model answer:** `Only through authorized read-only access. I map each required field to a current official CLI, System Manager or REST source for the exact release, verify privilege and side effects, record query and timestamp, and cross-check population. This guide's command families are conceptual, not production recipes.`
 
-### Q8. How does your Microsoft experience transfer and what remains unproven?
+### Q8. How does your prior experience transfer and what remains unproven?
 
-> **Model answer:** `My production strengths in enterprise discovery, identity/network mapping, CRITSIT evidence, analytics and customer reviews transfer directly to scope, joins, timelines and communication. I have not discovered or health-certified a production ONTAP cluster; this exercise is synthetic unless I later complete an explicitly authorized lab.`
+> **Model answer:** `My production strengths in enterprise discovery, identity/network mapping, critical-situation evidence, analytics and customer reviews transfer directly to scope, joins, timelines and communication. I have not discovered or health-certified a production ONTAP cluster; this exercise is synthetic unless I later complete an explicitly authorized lab.`
 
 ---
 

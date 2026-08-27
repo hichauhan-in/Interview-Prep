@@ -1,6 +1,6 @@
 # Appendix C - Email Header and Authentication Cheat Sheet
 
-> **Audience:** Arti Thakur, preparing for an Abnormal AI Technical Support Engineer interview  
+> **Audience:** Candidates preparing for an Abnormal AI Technical Support Engineer interview  
 > **Reference date:** August 24, 2026  
 > **Evidence rule:** Authentication results answer narrow identity and integrity questions. They do not, alone, prove human authorship, benign content, account safety, inbox placement, or a product verdict.
 
@@ -18,7 +18,7 @@ Use this appendix to triage one email from preserved raw source without getting 
 
 ## Candidate Honesty and Safety Boundary
 
-Arti can truthfully describe Microsoft enterprise-support experience, transferable evidence-led troubleshooting, official-document study, and synthetic/local email-header labs. She must not claim direct production operation of Abnormal AI, email-security operations, Google Workspace, Slack, Okta, Splunk, CrowdStrike, Cortex SOAR, Zendesk, Salesforce, Jira, or Zoom.
+You can truthfully describe enterprise-support experience, transferable evidence-led troubleshooting, official-document study, and synthetic/local email-header labs. You must not claim direct production operation of Abnormal AI, email-security operations, Google Workspace, Slack, Okta, Splunk, CrowdStrike, Cortex SOAR, Zendesk, Salesforce, Jira, or Zoom.
 
 Do not send tests through a customer domain without authorization, visit suspicious links, open active attachments, query private systems, or copy raw customer content into an interview artifact. Do not request passwords, tokens, private DKIM keys, or signing secrets. Defang any displayed URL; preserve the original only in an approved restricted evidence store. Product verdicts, remediation, allowlisting, and policy changes require the owning team and current authorized documentation. See [Part 001 - Role Compass and Honest Candidate Story](Part-001-role-compass-and-honest-candidate-story.md), [Part 005 - Privacy Data Handling and Evidence Ethics](Part-005-privacy-data-handling-and-evidence-ethics.md), and [Part 098 - Safe Evidence Collection Redaction and Packaging](Part-098-safe-evidence-collection-redaction-and-packaging.md).
 
@@ -76,11 +76,11 @@ The envelope exists during SMTP transfer and is not simply the top of the raw me
 ```text
 SMTP transaction (not itself a message header):
   MAIL FROM:<bounce-42@mailer.sender.example>
-  RCPT TO:<arti@recipient.example>
+  RCPT TO:<user@recipient.example>
 
 Visible/raw message fields:
   From: Accounts Team <billing@sender.example>
-  To: Arti <arti@recipient.example>
+  To: Recipient <user@recipient.example>
   Reply-To: case-42@sender.example
 ```
 
@@ -133,10 +133,10 @@ flowchart TD
 ```text
 Received: from edge.receiver.example (edge.receiver.example [198.51.100.20])
         by mailbox.receiver.example with ESMTPS id SYN003
-        for <arti@recipient.example>; Mon, 24 Aug 2026 14:02:10 +0000
+        for <user@recipient.example>; Mon, 24 Aug 2026 14:02:10 +0000
 Received: from outbound.sender.example (outbound.sender.example [192.0.2.44])
         by edge.receiver.example with ESMTPS id SYN002
-        for <arti@recipient.example>; Mon, 24 Aug 2026 14:02:07 +0000
+        for <user@recipient.example>; Mon, 24 Aug 2026 14:02:07 +0000
 Received: from submit.sender.example (submit.sender.example [192.0.2.10])
         by outbound.sender.example with ESMTPSA id SYN001;
         Mon, 24 Aug 2026 14:02:01 +0000
@@ -461,10 +461,10 @@ The following is harmless and deliberately non-verifiable. Domains use reserved 
 Return-Path: <bounce-42@mailer.sender.example>                     [1]
 Received: from edge.receiver.example (edge.receiver.example [198.51.100.20])
         by mailbox.receiver.example with ESMTPS id SYN-R2
-        for <arti@recipient.example>; Mon, 24 Aug 2026 14:02:10 +0000 [2]
+        for <user@recipient.example>; Mon, 24 Aug 2026 14:02:10 +0000 [2]
 Received: from outbound.sender.example (outbound.sender.example [192.0.2.44])
         by edge.receiver.example with ESMTPS id SYN-R1
-        for <arti@recipient.example>; Mon, 24 Aug 2026 14:02:07 +0000 [3]
+        for <user@recipient.example>; Mon, 24 Aug 2026 14:02:07 +0000 [3]
 Authentication-Results: edge.receiver.example;
         spf=pass smtp.mailfrom=mailer.sender.example;
         dkim=pass header.d=sender.example header.s=aug2026;
@@ -476,7 +476,7 @@ DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
         b=[SYNTHETIC-SIGNATURE-NOT-VERIFIABLE]                       [5]
 From: Accounts Team <billing@sender.example>                         [6]
 Reply-To: case-42@sender.example                                     [7]
-To: Arti <arti@recipient.example>
+To: Recipient <user@recipient.example>
 Date: Mon, 24 Aug 2026 14:01:58 +0000
 Message-ID: <synthetic-42@sender.example>                             [8]
 Subject: Synthetic account notice

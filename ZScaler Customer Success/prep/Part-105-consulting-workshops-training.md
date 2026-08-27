@@ -1,10 +1,10 @@
 # Part 105 - Technical Consulting, Workshops, Whiteboarding, and Training
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 
 > **Purpose:** Explain technical consulting, workshops, architecture whiteboarding, demonstrations, exercises, teach-back, facilitation, training evaluation, and follow-up from zero, then turn them into repeatable customer engagements that produce evidence, decisions, capability, and owned action.
 
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH person, system, product, architecture, workshop, date, metric, objective, decision, exercise, evaluation, artifact, and result is invented. Arti's factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler, SecOps TSM, customer-consulting ownership, Zscaler workshop delivery, product demonstration, security architecture approval, and customer training outcomes remain learning boundaries.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH person, system, product, architecture, workshop, date, metric, objective, decision, exercise, evaluation, artifact, and result is invented. Your factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler, SecOps TSM, customer-consulting ownership, Zscaler workshop delivery, product demonstration, security architecture approval, and customer training outcomes remain learning boundaries.
 
 > **Currency caveat:** Products, interfaces, architectures, recommended practices, services, course catalogs, certifications, delivery methods, accessibility requirements, packaging, and entitlements change. The controlled official-source snapshot and source review date for this Part is exactly **2026-08-24**. Current official technical and ordering documentation, licensed-tenant evidence, customer architecture and policy, contracts and statements of work, product specialists, Support, security/privacy/legal review, accessibility needs, and validated environment tests govern production delivery.
 
@@ -57,13 +57,13 @@ flowchart LR
 
 ## Candidate honesty note
 
-Arti can say: "My production background is Microsoft enterprise Support Escalation Engineering rather than delivering Zscaler customer workshops as a TSM. I have explained complex Microsoft 365, identity, permission, network, client, and cloud-service behavior to mixed audiences; coordinated troubleshooting sessions; used traces and diagrams to test hypotheses; mentored engineers; and created evidence-led guidance. I have studied consulting and adult-learning methods and practiced the artifacts here with fictional data. For a real Zscaler session I would verify audience, objective, current documentation, entitlement, tenant behavior, architecture, safe environment, accessibility, decision rights, and evidence of learning or application."
+You can say: "My production background is enterprise Support Escalation Engineering rather than delivering Zscaler customer workshops as a TSM. I have explained complex Microsoft 365, identity, permission, network, client, and cloud-service behavior to mixed audiences; coordinated troubleshooting sessions; used traces and diagrams to test hypotheses; mentored engineers; and created evidence-led guidance. I have studied consulting and adult-learning methods and practiced the artifacts here with fictional data. For a real Zscaler session I would verify audience, objective, current documentation, entitlement, tenant behavior, architecture, safe environment, accessibility, decision rights, and evidence of learning or application."
 
-That statement uses adjacent experience without renaming it. Arti should not claim she trained production SOC teams on Zscaler, designed a customer security architecture, delivered a Zscaler product demo, changed customer adoption, or achieved a measured security outcome unless she has direct evidence.
+That statement uses adjacent experience without renaming it. You should not claim you trained production SOC teams on Zscaler, designed a customer security architecture, delivered a Zscaler product demo, changed customer adoption, or achieved a measured security outcome unless you have direct evidence.
 
 | Factual background | Transferable strength | Neutral wording | Unsupported statement to avoid |
 |---|---|---|---|
-| Microsoft enterprise escalations | Frame impact, align workstreams, explain evidence, and secure next decisions | "I facilitate technical progress under uncertainty." | "I led strategic Zscaler workshops." |
+| enterprise escalations | Frame impact, align workstreams, explain evidence, and secure next decisions | "I facilitate technical progress under uncertainty." | "I led strategic Zscaler workshops." |
 | Microsoft 365, OneDrive, SharePoint | Explain user, identity, permission, client, network, and service boundaries | "I translate layered service behavior for mixed audiences." | "I am a Zscaler architecture authority." |
 | Networking and traces | Draw request paths and discriminate failing boundaries | "I use whiteboards to make testable hypotheses visible." | "I demonstrated Zscaler traffic enforcement." |
 | SQL and Power BI | Teach data grain, quality, denominators, trends, and evidence | "I make analytical mechanics inspectable." | "I proved risk reduction through a workshop." |
@@ -1046,7 +1046,7 @@ Take one design workshop and produce virtual, on-site, and hybrid delivery plans
 
 ### Exercise 8 - Candidate honesty rehearsal
 
-Answer: "Tell me about a technical workshop you led." Use a factual Microsoft support or mentoring example only if personally true, explain the mechanics and evidence, then describe the synthetic NMH artifact as preparation. State that production Zscaler workshop delivery, tenant demos, and customer adoption results are learning boundaries.
+Answer: "Tell me about a technical workshop you led." Use a factual enterprise support or mentoring example only if personally true, explain the mechanics and evidence, then describe the synthetic NMH artifact as preparation. State that production Zscaler workshop delivery, tenant demos, and customer adoption results are learning boundaries.
 
 ## Customer discovery questions
 
@@ -1120,9 +1120,9 @@ The Zscaler sources support dated public positioning and education context only.
 
 **Model answer:** I separate reach and reaction from learning, application, supportability, and outcome. Learning uses an objective-aligned exercise or teach-back. Application uses a later approved work sample, observation, or case review. Outcome uses a stable baseline, denominator, time range, and context, with confounders and unintended effects visible. I may state a value hypothesis, but I do not claim training caused adoption or risk reduction without appropriate evidence. Evaluation data is minimized, access-controlled, and not repurposed for unfair surveillance.
 
-### Q8. How does Arti's background transfer honestly to technical consulting and training?
+### Q8. How does your background transfer honestly to technical consulting and training?
 
-**Model answer:** Her Microsoft escalation work required explaining layered identity, permission, client, network, and cloud behavior; facilitating technical diagnosis; using traces and diagrams to test hypotheses; communicating to mixed audiences; and validating recovery. Mentoring adds coaching and teach-back experience, while SQL and Power BI support data explanation. Those methods transfer. Production Zscaler workshops, customer architecture approval, tenant demonstrations, SecOps training ownership, and measured adoption remain explicit ramp areas practiced synthetically here.
+**Model answer:** Your prior escalation work required explaining layered identity, permission, client, network, and cloud behavior; facilitating technical diagnosis; using traces and diagrams to test hypotheses; communicating to mixed audiences; and validating recovery. Mentoring adds coaching and teach-back experience, while SQL and Power BI support data explanation. Those methods transfer. Production Zscaler workshops, customer architecture approval, tenant demonstrations, SecOps training ownership, and measured adoption remain explicit ramp areas practiced synthetically here.
 
 ## 30-Second Memory Hooks
 
@@ -1146,7 +1146,7 @@ The Zscaler sources support dated public positioning and education context only.
 | Evaluation | Reaction is not learning; learning is not application |
 | Follow-up | Decision, artifact, action, owner, application |
 | Product truth | Documentation, entitlement, setup, test, boundary |
-| Arti bridge | Escalation explanation and mentoring transfer; Zscaler claims do not |
+| Experience bridge | Escalation explanation and mentoring transfer; Zscaler claims do not |
 
 ## Completion Checklist
 
@@ -1168,6 +1168,6 @@ The Zscaler sources support dated public positioning and education context only.
 - [ ] I can publish concise follow-up with decisions, artifacts, actions, owners, unknowns, support routes, and application checks.
 - [ ] I can apply security, privacy, recording, retention, credential, live-production, AI, and product-truth controls.
 - [ ] I can use the charter, audience map, objective matrix, run-of-show, facilitation guide, whiteboard, demo, exercise, evaluation, and follow-up templates.
-- [ ] I can describe Arti's transferable experience without claiming production Zscaler consulting, architecture, demo, training, adoption, or outcomes.
+- [ ] I can describe your transferable experience without claiming production Zscaler consulting, architecture, demo, training, adoption, or outcomes.
 
 [Next: Part 106 - Customer Health, Adoption, Value Realization, and Success Metrics](Part-106-customer-health-adoption-value.md)

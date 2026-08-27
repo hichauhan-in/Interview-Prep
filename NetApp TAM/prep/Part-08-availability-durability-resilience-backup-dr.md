@@ -1,12 +1,12 @@
 # Part 8 - Availability, Durability, Resilience, Backup, and Disaster Recovery
 
-> **Section goal:** Learn to distinguish service availability, data durability, component reliability, operational resilience, backup, replication, archive, disaster recovery, cyber recovery, and business continuity. By the end, Arti should be able to calculate service-level targets, map failure domains and quorum risks, translate RPO/RTO into a tested recovery design, and challenge a customer's `we are protected` claim without overstating evidence.
+> **Section goal:** Learn to distinguish service availability, data durability, component reliability, operational resilience, backup, replication, archive, disaster recovery, cyber recovery, and business continuity. By the end, you should be able to calculate service-level targets, map failure domains and quorum risks, translate RPO/RTO into a tested recovery design, and challenge a customer's `we are protected` claim without overstating evidence.
 
 Covers index item **8** and maps directly to job-description responsibilities for customer-environment understanding, storage depth, technical-risk mitigation, solution stability, strategic planning, data analysis, preventative recommendations, service reviews, high-pressure communication, and supportability awareness.
 
 This Part teaches vendor-neutral foundations. Product-specific high-availability, quorum, witness, replication, snapshot, MetroCluster, backup, ransomware, and recovery behavior is deferred to later Parts and must be verified for the exact platform, release, topology, license, service, and customer runbook.
 
-> **Evidence boundary:** All organizations, service targets, systems, failures, test results, calculations, and recommendations below are synthetic. Arti has production Microsoft escalation and service-impact experience, not production NetApp HA, backup, replication, DR, or cyber-recovery administration experience.
+> **Evidence boundary:** All organizations, service targets, systems, failures, test results, calculations, and recommendations below are synthetic. You have production enterprise escalation and service-impact experience, not production NetApp HA, backup, replication, DR, or cyber-recovery administration experience.
 
 ---
 
@@ -579,10 +579,10 @@ flowchart TD
 
 ### Explicit JD mapping
 
-| JD responsibility | Part 8 contribution | Arti transfer and honest gap |
+| JD responsibility | Part 8 contribution | experience transfer and honest gap |
 |---|---|---|
 | Understand customer environment | Maps service objectives through technology, sites, identity, people, and recovery | M365 dependency thinking transfers; NetApp DR architecture is unclaimed |
-| Mitigate risk and improve stability | Separates threats and validates recovery controls | CRITSIT impact/restoration discipline transfers strongly |
+| Mitigate risk and improve stability | Separates threats and validates recovery controls | critical-situation impact/restoration discipline transfers strongly |
 | Strategic planning and best practices | Converts RPO/RTO, failure domains, tests, and lifecycle into a roadmap | Advisory and business-review experience transfers |
 | Analyze and report data | Calculates nines, achieved RPO/RTO, MTTR distributions, lag, and test gaps | Analytics skills transfer; definitions must be governed |
 | Conduct service reviews | Frames recovery evidence, decisions, owners, and residual risk | Existing business-review communication is relevant |
@@ -590,7 +590,7 @@ flowchart TD
 
 ### Honest production-gap note
 
-> "I can distinguish availability, durability, reliability, resilience, and recoverability; calculate service targets; map quorum and failure domains; and design a recovery-evidence review. My production evidence is Microsoft enterprise incident and customer communication work, not operating NetApp HA, SnapMirror, MetroCluster, or backup services. For a real account I would use current official product documentation, authorized telemetry, customer-approved objectives, and storage/DR/security SMEs, and I would describe synthetic exercises as exercises."
+> "I can distinguish availability, durability, reliability, resilience, and recoverability; calculate service targets; map quorum and failure domains; and design a recovery-evidence review. My production evidence is enterprise incident and customer communication work, not operating NetApp HA, SnapMirror, MetroCluster, or backup services. For a real account I would use current official product documentation, authorized telemetry, customer-approved objectives, and storage/DR/security SMEs, and I would describe synthetic exercises as exercises."
 
 ---
 
@@ -900,9 +900,9 @@ The budget is not capability until a timed test proves it. Parallel work can sho
 
 **Follow-up depth:** Distinguish document review, tabletop, component restore, application recovery, site exercise, and cyber exercise.
 
-### Q8. How does your Microsoft support background prepare you for resilience work?
+### Q8. How does your prior support background prepare you for resilience work?
 
-> **Model answer:** "My production experience includes business-critical and CRITSIT ownership in Microsoft support, where I defined impact, coordinated multiple technical owners, maintained evidence-based updates, prioritized restoration, and worked with Product and Engineering. Those behaviors transfer to recovery governance and customer communication. I would not claim production NetApp HA or DR operations. My NetApp-specific knowledge remains conceptual and synthetic until authorized labs, current product documentation, and SME-reviewed work provide direct evidence."
+> **Model answer:** "My production experience includes business-critical and critical-situation ownership in enterprise support, where I defined impact, coordinated multiple technical owners, maintained evidence-based updates, prioritized restoration, and worked with Product and Engineering. Those behaviors transfer to recovery governance and customer communication. I would not claim production NetApp HA or DR operations. My NetApp-specific knowledge remains conceptual and synthetic until authorized labs, current product documentation, and SME-reviewed work provide direct evidence."
 
 **Follow-up depth:** Give one sanitized incident story, separate restoration from prevention, and list the NetApp/product-specific facts the story cannot prove.
 
@@ -933,7 +933,7 @@ The budget is not capability until a timed test proves it. Parallel work can sho
 - **3-2-1:** Three copies, two suitable media/systems, one offsite domain, then test identity and restore.
 - **Runbook:** Trigger, owner, action, stop condition, proof, and learning.
 - **Recovery test:** Ends at a valid user transaction and reprotection.
-- **Arti's bridge:** CRITSIT discipline transfers; NetApp HA/DR operation is unclaimed.
+- **Your bridge:** critical-situation discipline transfers; NetApp HA/DR operation is unclaimed.
 
 ---
 
@@ -959,7 +959,7 @@ The budget is not capability until a timed test proves it. Parallel work can sho
 - [ ] Ask all discovery questions and write a bounded recommendation.
 - [ ] Recreate Contoso's SLI math, DR results, shared dependencies, and customer summary.
 - [ ] Complete the paper lab, self-test, and Q1-Q8 aloud.
-- [ ] State Arti's Microsoft transfer and NetApp production gap honestly.
+- [ ] State your prior transfer and NetApp production gap honestly.
 - [ ] Recheck exact official product, contract, topology, supportability, and recovery procedures before real use.
 
 ---

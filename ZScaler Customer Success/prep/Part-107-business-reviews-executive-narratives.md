@@ -1,10 +1,10 @@
 # Part 107 - Business Reviews, Executive Narratives, and Board-Ready Communication
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 
 > **Purpose:** Explain quarterly and executive business reviews, outcome-first narratives, dashboard interpretation, risk translation, decision requests, roadmap communication, bad-news delivery, concise slides, board-ready writing, technical appendices, and follow-through from zero.
 
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH executive, board, product, source, dashboard, date, metric, target, decision, incident, roadmap item, slide, statement, outcome, and result is invented. Arti's factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler, SecOps TSM, QBR/EBR ownership, customer executive advisory, board presentation, product-roadmap authority, risk quantification, commercial forecasting, and customer outcome claims remain learning boundaries.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH executive, board, product, source, dashboard, date, metric, target, decision, incident, roadmap item, slide, statement, outcome, and result is invented. Your factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler, SecOps TSM, QBR/EBR ownership, customer executive advisory, board presentation, product-roadmap authority, risk quantification, commercial forecasting, and customer outcome claims remain learning boundaries.
 
 > **Currency caveat:** Products, telemetry, dashboards, threats, regulations, reporting expectations, support processes, customer priorities, roadmap policy, contracts, packaging, and entitlements change. The controlled official-source snapshot and source review date for this Part is exactly **2026-08-24**. Current official technical and ordering documentation, licensed-tenant evidence, customer-authoritative metrics and governance, contracts, approved public or account communications, product specialists, Support, legal/commercial/security/privacy review, and accountable customer executives govern production reviews.
 
@@ -58,13 +58,13 @@ flowchart LR
 
 ## Candidate honesty note
 
-Arti can say: "My production background is Microsoft enterprise Support Escalation Engineering rather than owning Zscaler QBRs, EBRs, or board presentations. I have translated complex service incidents into impact, evidence, options, decisions, and executive updates; used SQL and Power BI to examine trends and definitions; coordinated stakeholders; and communicated uncertainty and recovery. I have studied business-review and board-ready narrative methods and practiced these artifacts with fictional data. In a real account I would verify the audience, decision rights, customer objectives, metric contracts, product and support facts, commercial and roadmap boundaries, legal/privacy sensitivity, and approved communication path."
+You can say: "My production background is enterprise Support Escalation Engineering rather than owning Zscaler QBRs, EBRs, or board presentations. I have translated complex service incidents into impact, evidence, options, decisions, and executive updates; used SQL and Power BI to examine trends and definitions; coordinated stakeholders; and communicated uncertainty and recovery. I have studied business-review and board-ready narrative methods and practiced these artifacts with fictional data. In a real account I would verify the audience, decision rights, customer objectives, metric contracts, product and support facts, commercial and roadmap boundaries, legal/privacy sensitivity, and approved communication path."
 
-This bridge is factual and neutral. Arti should not claim she advised a board, quantified cyber loss, proved Zscaler value, committed a roadmap, forecast a renewal, presented a production SecOps QBR, or made a customer governance decision unless direct evidence supports it.
+This bridge is factual and neutral. You should not claim you advised a board, quantified cyber loss, proved Zscaler value, committed a roadmap, forecast a renewal, presented a production SecOps QBR, or made a customer governance decision unless direct evidence supports it.
 
 | Factual background | Transferable strength | Neutral wording | Unsupported statement to avoid |
 |---|---|---|---|
-| Microsoft critical escalations | Condense impact, timeline, evidence, workstreams, decision, and recovery | "I make technical uncertainty decision-ready." | "I led board cyber-risk reviews." |
+| enterprise critical escalations | Condense impact, timeline, evidence, workstreams, decision, and recovery | "I make technical uncertainty decision-ready." | "I led board cyber-risk reviews." |
 | Microsoft 365 service knowledge | Trace user, identity, network, application, and cloud-service mechanics | "I preserve a technical evidence spine beneath executive summaries." | "I advised on Zscaler architecture outcomes." |
 | SQL and Power BI | Validate definitions, populations, trends, filters, and drill-downs | "I challenge dashboard interpretation before telling the story." | "I proved risk reduction from a dashboard." |
 | Cross-team escalation | Align Support, engineering, operations, and customer roles | "I reconcile one fact pattern across audiences." | "I owned Zscaler Product roadmap communication." |
@@ -932,9 +932,9 @@ The Zscaler sources support dated public portfolio, risk-visibility, investor, a
 
 **Model answer:** The main deck contains only information that changes executive understanding, risk, decision, or commitment: one conclusion per slide, necessary evidence, material caveat, and explicit ask. The appendix contains metric contracts, data quality, cohorts, architecture, control tests, support details, decision records, RAID/RACI, roadmap sources, and reproducible methods. Sensitive raw evidence remains in controlled systems. Main and appendix must reconcile exactly.
 
-### Q8. How does Arti's background transfer honestly to executive business reviews?
+### Q8. How does your background transfer honestly to executive business reviews?
 
-**Model answer:** Her Microsoft escalation work required translating technical failures into customer impact, evidence, workstreams, decisions, executive updates, recovery, and follow-up. SQL and Power BI support careful dashboard interpretation, while cross-team work supports fact reconciliation and role handoffs. Those mechanics transfer. Production Zscaler QBR/EBR ownership, board advising, product-roadmap authority, commercial forecasting, cyber-loss quantification, and customer value attribution remain explicit ramp areas practiced synthetically here.
+**Model answer:** Your prior escalation work required translating technical failures into customer impact, evidence, workstreams, decisions, executive updates, recovery, and follow-up. SQL and Power BI support careful dashboard interpretation, while cross-team work supports fact reconciliation and role handoffs. Those mechanics transfer. Production Zscaler QBR/EBR ownership, board advising, product-roadmap authority, commercial forecasting, cyber-loss quantification, and customer value attribution remain explicit ramp areas practiced synthetically here.
 
 ## 30-Second Memory Hooks
 
@@ -958,7 +958,7 @@ The Zscaler sources support dated public portfolio, risk-visibility, investor, a
 | Appendix | Reproduce and challenge without contradiction |
 | Read-back | Decision, owner, validation, residual |
 | Product truth | Source, entitlement, tenant, status, authority |
-| Arti bridge | Executive escalation mechanics transfer; board and roadmap authority do not |
+| Experience bridge | Executive escalation mechanics transfer; board and roadmap authority do not |
 
 ## Completion Checklist
 
@@ -979,6 +979,6 @@ The Zscaler sources support dated public portfolio, risk-visibility, investor, a
 - [ ] I can protect vulnerability, incident, personal, commercial, roadmap, board, and financial information.
 - [ ] I can facilitate the review toward decisions and publish read-back, actions, validation, and residual.
 - [ ] I can use the charter, storyboard, writing, dashboard, decision, bad-news, roadmap, board, appendix, RACI, action, and quality artifacts.
-- [ ] I can describe Arti's transferable experience without claiming production Zscaler reviews, board advice, roadmap authority, financial risk, or value outcomes.
+- [ ] I can describe your transferable experience without claiming production Zscaler reviews, board advice, roadmap authority, financial risk, or value outcomes.
 
 [Next: Part 108 - Critical Escalation Leadership and Executive Communication](Part-108-critical-escalation-leadership.md)

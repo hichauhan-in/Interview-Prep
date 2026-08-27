@@ -8,9 +8,9 @@
 
 ## Section goal
 
-By the end of this Part, Arti should be able to take a vague report such as “the integration cannot connect,” define exact expected and actual behavior, establish scope/impact/timeline/change, choose a meaningful control, and trace the operation across local process/configuration, identity, name resolution, route, proxy/VPN, TCP/UDP/QUIC, TLS, HTTP/SMTP, API contract, server processing, asynchronous state, and observability.
+By the end of this Part, you should be able to take a vague report such as “the integration cannot connect,” define exact expected and actual behavior, establish scope/impact/timeline/change, choose a meaningful control, and trace the operation across local process/configuration, identity, name resolution, route, proxy/VPN, TCP/UDP/QUIC, TLS, HTTP/SMTP, API contract, server processing, asynchronous state, and observability.
 
-She should be able to select **inside-out** (endpoint upward), **outside-in** (service edge/backend toward client), or **divide-and-conquer** troubleshooting based on evidence and access; distinguish local from remote symptoms; choose the lowest-risk discriminating test; maintain a hypothesis ledger; correlate UTC and stable IDs; and create an escalation package that tells the owning team exactly what decision or evidence is needed.
+You should be able to select **inside-out** (endpoint upward), **outside-in** (service edge/backend toward client), or **divide-and-conquer** troubleshooting based on evidence and access; distinguish local from remote symptoms; choose the lowest-risk discriminating test; maintain a hypothesis ledger; correlate UTC and stable IDs; and create an escalation package that tells the owning team exactly what decision or evidence is needed.
 
 This Part is not a command cookbook. The method controls the tools. Running DNS, TCP, TLS, HTTP, packet, HAR, and log commands without a hypothesis produces a large artifact pile and privacy risk. The quality standard is: every test has a predicted observation under at least two hypotheses, a safety boundary, an owner, and a next decision.
 
@@ -27,17 +27,17 @@ This Part is not a command cookbook. The method controls the tools. Running DNS,
 | Engineering collaboration | Produces minimal repro, expected/actual, IDs, timeline, evidence, explicit ask | Suspected product defect | Escalation packet |
 | Networking/tool familiarity | Uses tools only where they test a layer hypothesis | Endpoint-to-cloud isolation | Safe lab portfolio artifact |
 | Security/privacy | Collects minimum evidence and protects tokens/content/topology | Redacted evidence manifest | Safety checklist |
-| Honest candidate positioning | Uses Microsoft support transfer without claiming network/vendor ownership | Interview narrative | Spoken answer |
+| Honest candidate positioning | Uses enterprise support transfer without claiming network/vendor ownership | Interview narrative | Spoken answer |
 
 ## Candidate honesty note
 
-This Part naturally leans into Arti's production strength: five years of Microsoft enterprise support, complex investigations, CRITSIT handling, customer/partner updates, Engineering/Product escalation, fix validation, KB/training, and case quality. She can describe the **method** as production transfer. The specific Abnormal product path, private telemetry, network ownership, email-security operations, and named non-Microsoft tool administration remain learned or no-direct-experience areas.
+This Part naturally leans into your production strength: several years of enterprise support, complex investigations, critical-situation handling, customer/partner updates, Engineering/Product escalation, fix validation, KB/training, and case quality. You can describe the **method** as production transfer. The specific Abnormal product path, private telemetry, network ownership, email-security operations, and named non-Microsoft tool administration remain learned or no-direct-experience areas.
 
 Safe wording:
 
-> In Microsoft enterprise support I repeatedly turned incomplete customer reports into scoped problems, compared working and failing conditions, built timelines, tested hypotheses, and escalated with clear evidence while maintaining customer trust. I am applying that production method to networking, API, email, and security support through current standards and safe labs. I would not imply access to Abnormal internals or ownership of customer network changes.
+> In enterprise support I repeatedly turned incomplete customer reports into scoped problems, compared working and failing conditions, built timelines, tested hypotheses, and escalated with clear evidence while maintaining customer trust. I am applying that production method to networking, API, email, and security support through current standards and safe labs. I would not imply access to Abnormal internals or ownership of customer network changes.
 
-| Evidence tier | What Arti may claim | Boundary |
+| Evidence tier | What you may claim | Boundary |
 |---|---|---|
 | Production transfer | Case ownership, scoping, evidence correlation, critical cadence, escalation, validation | Do not relabel Microsoft cases as Abnormal/security cases |
 | Working familiarity | Endpoint-to-cloud protocol/tool reasoning | Not network-engineer ownership |
@@ -555,7 +555,7 @@ Support retains customer ownership: impact, cadence, dependencies, evidence upda
 | Layers | Runs all tools | Checks layers | Stops at last proof/first fail and maps component owner |
 | Correlation | Screenshots | Some IDs | UTC plus client/proxy/edge/operation/message/session mappings |
 | Escalation | Uploads logs | Summary | Complete privacy-safe packet with exact owner ask/cadence |
-| Honesty | Claims Abnormal/network ownership | Says learning | Distinguishes Microsoft production transfer, lab, learned, unknown |
+| Honesty | Claims Abnormal/network ownership | Says learning | Distinguishes prior production transfer, lab, learned, unknown |
 
 ## Official Source Anchors - August 24, 2026
 
@@ -618,7 +618,7 @@ Support retains customer ownership: impact, cadence, dependencies, evidence upda
 
 ### Q8. How does your background support this method?
 
-**Model answer:** The method is a direct transfer from five years of Microsoft enterprise support: complex case scoping, CRITSIT communication, comparison evidence, Engineering escalation, and fix validation. Networking/API/email layers are deliberate working-familiarity areas proven through labs; I do not claim network engineering or Abnormal production access.
+**Model answer:** The method is a direct transfer from several years of enterprise support: complex case scoping, critical-situation communication, comparison evidence, Engineering escalation, and fix validation. Networking/API/email layers are deliberate working-familiarity areas proven through labs; I do not claim network engineering or Abnormal production access.
 
 ## Memory Hooks
 

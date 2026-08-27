@@ -1,10 +1,10 @@
 # Part 62 - Data Fabric Deduplication, Entity Resolution, and Golden Context
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 >
 > **Purpose:** Apply entity-resolution mechanics to multi-source users, assets, applications, and findings; govern identifiers and aliases; compare deterministic and fuzzy evidence; define source precedence and field-level survivorship; preserve confidence and provenance; support reversible merge, split, and unmerge; model temporal records and relationship context; control false-merge and false-split risk; route ambiguity to human review; measure quality; troubleshoot defects; and protect customer trust in golden context.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every user, asset, application, finding, source, identifier, alias, rule, feature, score, threshold, confidence, merge, split, golden record, relationship, review, metric, incident, result, and outcome in this Part is synthetic. Zscaler's official public pages support bounded high-level claims that Data Fabric deduplicates data and that Asset Exposure Management uses multi-source entity deduplication, asset resolution, relationships, and golden records. They do not disclose internal matching algorithms, schemas, identifiers, rules, features, thresholds, confidence calculations, survivorship policies, review queues, cluster logic, or guarantees. General entity-resolution methods and NMH examples are educational, not Zscaler implementation claims. Arti's cross-log correlation, SQL, statistics, data-quality, Microsoft escalation, RCA, and customer communication skills transfer; direct production operation of Zscaler Data Fabric entity resolution remains a learning boundary.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every user, asset, application, finding, source, identifier, alias, rule, feature, score, threshold, confidence, merge, split, golden record, relationship, review, metric, incident, result, and outcome in this Part is synthetic. Zscaler's official public pages support bounded high-level claims that Data Fabric deduplicates data and that Asset Exposure Management uses multi-source entity deduplication, asset resolution, relationships, and golden records. They do not disclose internal matching algorithms, schemas, identifiers, rules, features, thresholds, confidence calculations, survivorship policies, review queues, cluster logic, or guarantees. General entity-resolution methods and NMH examples are educational, not Zscaler implementation claims. Your cross-log correlation, SQL, statistics, data-quality, enterprise escalation, RCA, and customer communication skills transfer; direct production operation of Zscaler Data Fabric entity resolution remains a learning boundary.
 >
 > **Currency caveat:** Identity sources, asset lifecycles, cloud resources, application catalogs, findings, matching methods, privacy requirements, product interfaces, and public claims change. The controlled research/source date for this Part is exactly **2026-08-24**. Current official documentation, licensed tenant behavior, approved entity contracts, representative labeled samples, privacy/security review, customer risk tolerance, source and semantic owners, direct evidence, and Zscaler and source specialists govern production.
 
@@ -14,7 +14,7 @@ Deduplication asks whether records repeat the same logical assertion. Entity res
 
 Think of a hospital patient registry. "A. Singh," "Anita Singh," and a patient number might identify one person, but two people can share a name and birth date. Joining the wrong records can disclose information or drive harmful treatment; failing to join the same person can hide medical history. The registry needs scoped identifiers, supporting and contradictory evidence, confidence, human review, and correction. Security entity resolution has the same trust problem for users, assets, applications, and findings.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Evidence artifact |
 |---|---|---|
@@ -58,7 +58,7 @@ flowchart LR
 
 ## JD Mapping
 
-| Role expectation | Part 62 capability | TSM artifact | Arti bridge and boundary |
+| Role expectation | Part 62 capability | TSM artifact | experience bridge and boundary |
 |---|---|---|---|
 | Develop Data Fabric expertise | Explain documented dedup/golden-record value with general mechanics | Source-bounded whiteboard | Internal algorithms remain unclaimed |
 | Analyze complex environments | Reconcile users, assets, apps, findings, and relationships | Entity assessment | Cross-log/device/user correlation transfers |
@@ -73,7 +73,7 @@ flowchart LR
 
 | Evidence class | Safe interview statement | Boundary to state |
 |---|---|---|
-| Production transfer | "I correlated users, devices, requests, URLs, object IDs, logs, and timestamps during Microsoft escalations." | Not production master-data/entity-resolution operation |
+| Production transfer | "I correlated users, devices, requests, URLs, object IDs, logs, and timestamps during enterprise escalations." | Not production master-data/entity-resolution operation |
 | Synthetic practice | "I built and tested NMH deterministic, fuzzy, review, golden-context, and unmerge flows." | Fictional lab evidence |
 | Official public fact | "Zscaler publicly describes Data Fabric deduplication and AEM multi-source entity deduplication, asset resolution, relationships, and golden records." | No exact rules, scores, or completeness inferred |
 | General method | "I use scoped identifiers, candidate generation, contradictory evidence, consequence-based decisions, and provenance." | Not a disclosed product implementation |
@@ -805,9 +805,9 @@ After splitting a bad cluster, is the issue closed?
 
 ### Exercise 12 - Product claim
 
-Can Arti state Zscaler's asset match threshold?
+Can you state Zscaler's asset match threshold?
 
-**Answer:** No. The public pages support deduplication, resolution, relationships, and golden-record positioning, not internal algorithms or thresholds. She should explain general methods and verify current authenticated documentation and specialists.
+**Answer:** No. The public pages support deduplication, resolution, relationships, and golden-record positioning, not internal algorithms or thresholds. You should explain general methods and verify current authenticated documentation and specialists.
 
 ## Labs and rehearsal
 
@@ -873,7 +873,7 @@ Run the NMH reimage case. Prove physical-asset versus agent grain, merge correct
 
 ### Lab 16 - Interview whiteboard
 
-Explain documented Zscaler dedup/golden-record value, then clearly label blocking, fuzzy methods, thresholds, cluster checks, and unmerge as general methods. End with customer trust and Arti's experience boundary.
+Explain documented Zscaler dedup/golden-record value, then clearly label blocking, fuzzy methods, thresholds, cluster checks, and unmerge as general methods. End with customer trust and your experience boundary.
 
 | Lab evidence | Completion standard |
 |---|---|
@@ -984,7 +984,7 @@ Zscaler sources support bounded public deduplication, entity-resolution, relatio
 
 ### Q8. How does your background transfer, and what can you claim about Zscaler?
 
-**Model answer:** Microsoft escalation work required correlating imperfect users, devices, IDs, requests, logs, permissions, and time, testing contradictions, preserving evidence, and communicating uncertainty. SQL/statistics/data-quality skills support profiling and metrics. I practiced matching, golden context, and unmerge with synthetic NMH data. Zscaler publicly describes deduplication and AEM resolution/golden records, but I do not claim internal algorithms, identifiers, thresholds, confidence, schemas, or outcomes. I would validate current docs, tenant evidence, labels, privacy, and specialists.
+**Model answer:** enterprise escalation work required correlating imperfect users, devices, IDs, requests, logs, permissions, and time, testing contradictions, preserving evidence, and communicating uncertainty. SQL/statistics/data-quality skills support profiling and metrics. I practiced matching, golden context, and unmerge with synthetic NMH data. Zscaler publicly describes deduplication and AEM resolution/golden records, but I do not claim internal algorithms, identifiers, thresholds, confidence, schemas, or outcomes. I would validate current docs, tenant evidence, labels, privacy, and specialists.
 
 ## 30-Second Memory Hooks
 
@@ -1019,7 +1019,7 @@ Zscaler sources support bounded public deduplication, entity-resolution, relatio
 | Relationship | Supporting context, avoid circular proof |
 | Review | Minimized evidence and trained judgment |
 | Trust | Explain, correct, restate, prevent |
-| Arti bridge | Correlation and RCA transfer; algorithms do not |
+| Experience bridge | Correlation and RCA transfer; algorithms do not |
 
 ## Completion Checklist
 
@@ -1081,6 +1081,6 @@ Zscaler sources support bounded public deduplication, entity-resolution, relatio
 - [ ] I label deterministic/fuzzy algorithms, thresholds, cluster checks, and unmerge mechanics as general patterns, not Zscaler internals.
 - [ ] I use the controlled research/source date exactly as 2026-08-24.
 - [ ] I make no unsupported Zscaler schema, identifier, rule, feature, score, threshold, confidence, matching, survivorship, review, completeness, production, or outcome claim.
-- [ ] I can answer Q1 through Q8 with definitions, analogies, mechanics, examples, tradeoffs, failures, troubleshooting, NMH labs, customer trust, and an honest Arti bridge.
+- [ ] I can answer Q1 through Q8 with definitions, analogies, mechanics, examples, tradeoffs, failures, troubleshooting, NMH labs, customer trust, and an honest experience bridge.
 
 [Part 63 - Data Fabric Correlation, Enrichment, Relationships, and Security Graph](Part-63-data-fabric-correlation-enrichment.md)

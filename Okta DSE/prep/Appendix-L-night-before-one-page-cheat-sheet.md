@@ -135,11 +135,11 @@
 
 **2. "You have no Okta/Auth0 experience"**
 
-> *"That's accurate — I haven't used either in production. What I did about it is build a free-tier tenant and work through the flows properly: authorization code with PKCE, a SAML connection, a SCIM provisioning run, Actions with custom claims, and reading tenant logs until I could tell the failure shapes apart. What I bring is five years of business-critical escalation work and the substrate identity runs on — Active Directory, LDAP, Entra ID, TLS, DNS, HTTP, HAR analysis — which is where a large share of identity failures actually live. And to be honest about the boundary: what labs can't give me is architecture judgement, which needs real customer patterns over six to nine months."*
+> *"That's accurate — I haven't used either in production. What I did about it is build a free-tier tenant and work through the flows properly: authorization code with PKCE, a SAML connection, a SCIM provisioning run, Actions with custom claims, and reading tenant logs until I could tell the failure shapes apart. What I bring is several years of business-critical escalation work and the substrate identity runs on — Active Directory, LDAP, Entra ID, TLS, DNS, HTTP, HAR analysis — which is where a large share of identity failures actually live. And to be honest about the boundary: what labs can't give me is architecture judgement, which needs real customer patterns over six to nine months."*
 
 **3. "Why this role?"**
 
-> *"It's the intersection of what I already do and what I want to go deeper into. Five years of enterprise escalations where the hardest problems were nearly always identity, networking, or the boundary between them. I want to be in the product where that's the whole job — and the developer-facing side specifically, because the person on the other end is building something."*
+> *"It's the intersection of what I already do and what I want to go deeper into. Several years of enterprise escalations where the hardest problems were nearly always identity, networking, or the boundary between them. I want to be in the product where that's the whole job — and the developer-facing side specifically, because the person on the other end is building something."*
 
 **4. "First ninety days?"** — Learn failure shapes → own routine work and write it up → contribute deflection and product feedback. **Not claiming architecture guidance at 90 days.**
 
@@ -220,7 +220,7 @@
 
 ## The Position You Are Arguing
 
-**Five years of real escalation work. A strong technical substrate that identity sits on top of. Deliberately lab-built product knowledge. One named gap — architecture judgement — that takes six to nine months and has no shortcut.**
+**Several years of real escalation work. A strong technical substrate that identity sits on top of. Deliberately lab-built product knowledge. One named gap — architecture judgement — that takes six to nine months and has no shortcut.**
 
 **That is credible, defensible, and genuinely strong.**
 

@@ -27,20 +27,20 @@ After completing this Part, you should be able to:
 - recognize baseline lag, overadaptation, contamination, and poisoning at a defensive conceptual level;
 - describe cautious update, quarantine, rollback, and review concepts without claiming a vendor implementation;
 - troubleshoot support-visible symptoms such as "new user flagged," "travel treated as unusual," or "known vendor changed"; and
-- tie Arti's support trend analysis, SQL/Python/analytics, Copilot evaluation/training, and customer communication to transferable baseline reasoning only.
+- tie your support trend analysis, SQL/Python/analytics, Copilot evaluation/training, and customer communication to transferable baseline reasoning only.
 
 ## JD Mapping
 
-| Supplied role signal | Capability built | Transferable Arti evidence | Honesty boundary |
+| Supplied role signal | Capability built | Transferable evidence | Honesty boundary |
 |---|---|---|---|
 | Behavioral false-positive cases | Tests entity, history, cohort, season, and legitimate change | Evidence-first investigation and fix validation | No Abnormal baseline tuning claim |
-| Threat investigation | Correlates unusual behavior with identity, mail, app, and business evidence | Complex Microsoft investigations and CRITSIT ownership | No production BEC or identity-detection claim |
+| Threat investigation | Correlates unusual behavior with identity, mail, app, and business evidence | Complex Microsoft investigations and critical-situation ownership | No production BEC or identity-detection claim |
 | Customer communication | Explains "unusual" without accusing a user or vendor | Technical/nontechnical enterprise updates | No unsupported intent or insider allegation |
 | Configuration tickets | Distinguishes missing history, integration health, mapping, and policy | Microsoft cloud/configuration troubleshooting | Product-specific fields and controls require docs |
 | Engineering/Product escalation | Supplies entity IDs, windows, expected/actual, comparisons, and change history | Engineering/Product escalation and validation | Protected model details stay with authorized teams |
 | Support trends and analytics | Segments cases by cohort, time, tenant change, and symptom | CSAT, backlog, quality, Power BI, SQL/Python skills | Tickets are biased samples, not population truth |
 | AI support | Evaluates context, uncertainty, and human review | Copilot/agent evaluation and training | GenAI does not equal behavior-model experience |
-| Customer trust/culture | Uses neutral, evidence-based language and privacy minimization | Five years of enterprise support | Avoid profiling, blame, or legal/privacy conclusions |
+| Customer trust/culture | Uses neutral, evidence-based language and privacy minimization | Several years of enterprise support | Avoid profiling, blame, or legal/privacy conclusions |
 
 ## Candidate honesty note
 
@@ -576,7 +576,7 @@ The support escalation should say: "Repeated suspicious events correlate with de
 
 ### Explain unusualness
 
-> "The event differs from the selected prior or peer reference in `[documented dimension]`. That observation is contextual evidence, not proof of malicious intent. We are checking entity mapping, data coverage, lifecycle changes, seasonality, relationship history, and independent security/business evidence."
+> "The event differs from the selected prior or peer reference in `[Documented dimension]`. That observation is contextual evidence, not proof of malicious intent. We are checking entity mapping, data coverage, lifecycle changes, seasonality, relationship history, and independent security/business evidence."
 
 ### Explain cold start
 

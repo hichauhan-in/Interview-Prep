@@ -35,7 +35,7 @@ By the end of this part, you should be able to:
 - Explain admin quarantine setup, reviewer access, release, deny/drop/reject consequences, notifications, and current 30-day no-action deletion behavior.
 - Use ELS by sender, recipient, IP, date, subject, and Message-ID while respecting search semantics and content limitations.
 - Interpret ELS as metadata/status evidence rather than a mailbox-content viewer.
-- Compare Google and Microsoft evidence surfaces without asserting false one-to-one equivalence.
+- Compare Google and prior evidence surfaces without asserting false one-to-one equivalence.
 - Diagnose active-user delivery, unrecognized-recipient routing, dual-delivery copies, quarantine, spam, and forwarding as separate outcomes.
 - Produce an official-doc comparison and synthetic Google-style routing case with no tenant access.
 
@@ -920,7 +920,7 @@ All listed sources were accessed on August 24, 2026 and must be revalidated for 
 
 **Model answer:** I compare OU inheritance/override, configuration-group membership, message direction, account type, address list behavior, envelope sender/recipient filters, active versus unrecognized classification, and propagation time. I also inventory Default routing and other compliance or gateway settings. Current membership may differ from event-time state, so I preserve audit evidence.
 
-### Q7. How would you use Microsoft experience without making a bad Google assumption?
+### Q7. How would you use prior experience without making a bad Google assumption?
 
 **Model answer:** I transfer the evidence workflow: define topology, follow one recipient branch, use least privilege, separate transport from quarantine/current state, and test safely. Then I use Google nouns and docs. ELS is a useful analogy to message trace, and unrecognized-account routing serves a coexistence purpose similar to internal relay, but the objects, matching logic, IDs, and limits are not equivalent.
 

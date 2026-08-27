@@ -284,10 +284,10 @@ flowchart LR
 
 | Experience | Glean story |
 |---|---|
-| CRITSIT/escalations | Urgent outcome ownership |
-| Technical Advisor | Guide teams without direct authority |
+| Critical situation/escalations | Urgent outcome ownership |
+| Technical advisor | Guide teams without direct authority |
 | Business reviews | Metrics to decisions/actions |
-| 4.75/4.85 CSAT | Sustained customer experience discipline |
+| a strong customer-satisfaction record | Sustained customer experience discipline |
 | Product defect validation | Close loop from impact to verified fix |
 | Mentoring/KB | Scale quality beyond individual case |
 

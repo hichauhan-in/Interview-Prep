@@ -1,10 +1,10 @@
 # Part 100 - Enterprise Discovery, Qualification, and Current-State Assessment
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 
 > **Purpose:** Explain enterprise discovery, qualification, and current-state assessment from zero, then turn business goals, risk priorities, architecture, tools, data, stakeholders, workflows, constraints, pain, maturity, assumptions, and success criteria into reusable customer artifacts and defensible next decisions.
 
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH person, organization, system, source, architecture, workflow, risk, date, metric, statement, decision, artifact, and result is invented. Arti's factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler, SecOps TSM, security-program discovery, customer architecture ownership, and risk-decision authority remain learning boundaries.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH person, organization, system, source, architecture, workflow, risk, date, metric, statement, decision, artifact, and result is invented. Your factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler, SecOps TSM, security-program discovery, customer architecture ownership, and risk-decision authority remain learning boundaries.
 
 > **Currency caveat:** Organizations, regulations, risks, products, architectures, integrations, interfaces, fields, packaging, and entitlements change. The controlled official-source snapshot and source review date for this Part is exactly **2026-08-24**. Current official technical and ordering documentation, licensed-tenant evidence, customer-authoritative records, contracts, policy, security/privacy/legal review, product specialists, vendor Support, and validated environment evidence govern production decisions.
 
@@ -56,13 +56,13 @@ flowchart LR
 
 ## Candidate honesty note
 
-Arti can say: "My production background is Microsoft enterprise Support Escalation Engineering rather than serving as a Zscaler SecOps TSM. I have discovered complex customer environments during incidents by clarifying impact, topology, identities, permissions, network paths, changes, evidence, owners, and success conditions. I have also used SQL and Power BI to examine data quality and trends, and I have coordinated technical and executive stakeholders. I have studied strategic discovery and practiced the artifacts here with an explicitly fictional scenario. In a customer engagement I would verify the current Zscaler products, entitlements, architecture, data, policy, responsibilities, and measured outcomes."
+You can say: "My production background is enterprise Support Escalation Engineering rather than serving as a Zscaler SecOps TSM. I have discovered complex customer environments during incidents by clarifying impact, topology, identities, permissions, network paths, changes, evidence, owners, and success conditions. I have also used SQL and Power BI to examine data quality and trends, and I have coordinated technical and executive stakeholders. I have studied strategic discovery and practiced the artifacts here with an explicitly fictional scenario. In a customer engagement I would verify the current Zscaler products, entitlements, architecture, data, policy, responsibilities, and measured outcomes."
 
-This wording is factual and neutral. It does not convert adjacent experience into a claim of production Zscaler or TSM ownership. Arti may present a synthetic questionnaire, map, or assessment as evidence of method. She should not call NMH a customer, claim she assessed a production SecOps program, say that she selected or deployed a Zscaler product, or imply a measured risk reduction.
+This wording is factual and neutral. It does not convert adjacent experience into a claim of production Zscaler or TSM ownership. You may present a synthetic questionnaire, map, or assessment as evidence of method. You should not call NMH a customer, claim you assessed a production SecOps program, say that you selected or deployed a Zscaler product, or imply a measured risk reduction.
 
 | Factual background | Transferable strength | Neutral wording | Unsupported wording to avoid |
 |---|---|---|---|
-| Microsoft enterprise escalation support | Clarify impact, environment, recent change, evidence, ownership, and recovery | "I use structured discovery under uncertainty." | "I led SecOps transformations." |
+| enterprise escalation support | Clarify impact, environment, recent change, evidence, ownership, and recovery | "I use structured discovery under uncertainty." | "I led SecOps transformations." |
 | M365, OneDrive, and SharePoint | Understand identity, endpoint, network, service, admin, and user dependencies | "I map connected enterprise service paths." | "I designed customer zero-trust architecture." |
 | Network and trace analysis | Follow requests across DNS, TCP, TLS, HTTP, proxy, client, and cloud boundaries | "I test architectural assumptions with evidence." | "I operated Zscaler traffic infrastructure." |
 | SQL and Power BI | Profile source quality, grains, joins, populations, and trends | "I assess whether data can support a decision." | "I validated a customer's security data fabric." |
@@ -1093,9 +1093,9 @@ The Zscaler sources support dated public positioning only. NIST and CISA sources
 
 **Model answer:** It states business context, the decision, scope, current people-architecture-data-workflow mechanism, evidence quality, material gaps, assumptions and unknowns, options and tradeoffs, conditional recommendation, prerequisites, success contract, residual risk, and owned next actions. It separates customer facts from general practice and public product positioning and avoids unsupported entitlement or outcome claims.
 
-### Q8. How does Arti's background transfer honestly to discovery?
+### Q8. How does your background transfer honestly to discovery?
 
-**Model answer:** Microsoft escalation work required rapid discovery of impact, topology, identity, permissions, network paths, changes, evidence, owners, and recovery conditions across technical and executive stakeholders. SQL and Power BI support source-quality and baseline reasoning; mentoring supports accessible workshops and read-back. She has practiced TSM discovery with synthetic artifacts, while production Zscaler, SecOps program assessment, product selection, and customer risk authority remain explicit ramp areas.
+**Model answer:** enterprise escalation work required rapid discovery of impact, topology, identity, permissions, network paths, changes, evidence, owners, and recovery conditions across technical and executive stakeholders. SQL and Power BI support source-quality and baseline reasoning; mentoring supports accessible workshops and read-back. You have practiced TSM discovery with synthetic artifacts, while production Zscaler, SecOps program assessment, product selection, and customer risk authority remain explicit ramp areas.
 
 ## 30-Second Memory Hooks
 
@@ -1120,7 +1120,7 @@ The Zscaler sources support dated public positioning only. NIST and CISA sources
 | Success | Outcome, population, baseline, acceptance, evidence, owner |
 | Read-back | Correct the map before acting |
 | Privacy | Minimum sufficient evidence |
-| Arti bridge | Escalation discovery transfers; production claims do not |
+| Experience bridge | Escalation discovery transfers; production claims do not |
 
 ## Completion Checklist
 
@@ -1135,7 +1135,7 @@ The Zscaler sources support dated public positioning only. NIST and CISA sources
 - [ ] I can recommend proceed, conditional, reshape, sequence, defer, or stop.
 - [ ] I can protect sensitive discovery information through minimization, authorization, approved transfer, retention, and deletion.
 - [ ] I can create the charter, questionnaire, current-state canvas, inventory, assumption ledger, scorecard, summary, and read-back.
-- [ ] I can state Arti's transferable strengths without claiming production Zscaler or SecOps TSM experience.
+- [ ] I can state your transferable strengths without claiming production Zscaler or SecOps TSM experience.
 - [ ] I can answer Q1-Q8 aloud using evidence-first and customer-specific language.
 
 [Next: Part 101 - Onboarding, Technical Success Plans, Milestones, and Time to Value](Part-101-onboarding-success-plans.md)

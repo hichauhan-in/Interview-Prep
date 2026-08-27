@@ -1,10 +1,10 @@
 # Part 24 - REST APIs, JSON, Webhooks, Authentication, Pagination, and Rate Limits
 
-> **Audience:** Arti Thakur, moving from Microsoft 365 Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
+> **Audience:** Candidates moving from Microsoft 365 Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
 >
 > **Purpose:** Explain web API contracts, resources, URIs, HTTP methods, JSON schemas, authentication, pagination, filtering, rate limits, retries, timeouts, circuit breakers, webhooks, versioning, tools, logging, privacy, connector reliability, and evidence-led integration troubleshooting.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Its APIs, hostnames, credentials, schemas, payloads, rate limits, connectors, records, failures, and outcomes are synthetic. Arti's Microsoft 365, OneDrive for Business, SharePoint Online, networking, evidence, analytics, and escalation experience must remain within her approved factual background.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Its APIs, hostnames, credentials, schemas, payloads, rate limits, connectors, records, failures, and outcomes are synthetic. Your Microsoft 365, OneDrive for Business, SharePoint Online, networking, evidence, analytics, and escalation experience must remain within your documented background.
 >
 > **Product caveat:** This Part teaches standards and integration patterns. Exact Microsoft, Zscaler, Data Fabric, connector, API, SDK, authentication, schema, quota, pagination, webhook, logging, and error behavior varies by product, version, tenant, license, endpoint, and contract. Verify current official API/reference documentation and sanitized direct evidence. No fictional integration proves a production vendor behavior or defect.
 
@@ -14,7 +14,7 @@ An API integration is a contract between independently changing systems. The con
 
 Think of a regulated warehouse. A resource is an inventory item. An endpoint is a service counter for a collection or item. A URI is the counter address. The HTTP method is the requested action. Headers carry labels and credentials. JSON is a structured packing slip, not the business contract itself. Pagination is collecting a large order across numbered carts. A rate limit is the loading dock's capacity rule. Backoff and jitter stop every truck from returning at once. A webhook is a signed notification call from the warehouse; it should trigger safe retrieval or processing, not blind trust.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Evidence of mastery |
 |---|---|---|
@@ -34,11 +34,11 @@ By the end, Arti should be able to:
 
 ## JD Mapping
 
-| JD expectation | Part 24 capability | Artifact | Honest Arti bridge |
+| JD expectation | Part 24 capability | Artifact | Honest experience bridge |
 |---|---|---|---|
 | Analyze complex environments | Trace source API, identity, network, gateway, connector, schema, and destination | Integration dependency map | Extends M365 client/service and analytics investigations |
 | Identify security risk | Find broad API permissions, exposed keys, webhook replay, overlogging, data gaps, and unsafe retries | Integration risk register | Learned SecOps interpretation, not claimed Zscaler operation |
-| Resolve escalations | Separate auth, quota, transport, schema, pagination, mapping, and downstream workstreams | Correlated API timeline | Builds on CRITSIT evidence discipline |
+| Resolve escalations | Separate auth, quota, transport, schema, pagination, mapping, and downstream workstreams | Correlated API timeline | Builds on critical-situation evidence discipline |
 | Tailor mitigation | Choose least-scope permission, retry, checkpoint, schema, mapping, or webhook correction | Change/rollback/replay plan | Builds on fix validation |
 | Deliver consulting | Explain APIs and connector reliability from zero | Whiteboard and runbook | Uses mentoring and advisor strengths |
 | Work cross-functionally | Coordinate API owner, IAM, network, data, security, privacy, application, and vendor | RACI and contract record | Maps to customer/Engineering collaboration |
@@ -46,9 +46,9 @@ By the end, Arti should be able to:
 
 ## Candidate honesty note
 
-Arti can truthfully discuss HTTP troubleshooting, JSON/structured data, SQL, PostgreSQL, Python, Power BI, analytics, Microsoft 365 service evidence, correlation IDs, rate/throttling concepts, and controlled API labs where supported by her background. She can explain how she would safely test an API, reconcile counts, protect credentials, and determine whether a failure occurred before or after source records were accepted.
+You can truthfully discuss HTTP troubleshooting, JSON/structured data, SQL, PostgreSQL, Python, Power BI, analytics, Microsoft 365 service evidence, correlation IDs, rate/throttling concepts, and controlled API labs where supported by your background. You can explain how you would safely test an API, reconcile counts, protect credentials, and determine whether a failure occurred before or after source records were accepted.
 
-She should not claim production administration of Zscaler Data Fabric connectors, unpublished API contracts, or high-scale webhook infrastructure unless supported by actual experience. A safe bridge is: "I have production experience correlating client and service evidence and strong data/analytics fundamentals. I understand the integration reliability model and can demonstrate it in controlled APIs. For a Zscaler connector I would verify the current source requirements, permissions, schema, pagination, limits, health fields, and tenant behavior before making a product-specific conclusion."
+You should not claim production administration of Zscaler Data Fabric connectors, unpublished API contracts, or high-scale webhook infrastructure unless supported by actual experience. A safe bridge is: "I have production experience correlating client and service evidence and strong data/analytics fundamentals. I understand the integration reliability model and can demonstrate it in controlled APIs. For a Zscaler connector I would verify the current source requirements, permissions, schema, pagination, limits, health fields, and tenant behavior before making a product-specific conclusion."
 
 | Evidence category | Safe phrasing | Boundary |
 |---|---|---|
@@ -869,7 +869,7 @@ An API gateway/cache key omits tenant identity for a response marked cacheable. 
 | Change | Recent SDK/schema/permission/config and rollback | Unverified causal claim |
 | Request to owner | Precise missing contract/evidence question | Generic "API broken" |
 
-## Arti bridge and interview positioning
+## Experience bridge and interview positioning
 
 | Existing strength | Part 24 translation | Practice artifact |
 |---|---|---|
@@ -1061,7 +1061,7 @@ The following authoritative sources were reviewed on **2026-08-24**. They suppor
 - [ ] I can troubleshoot auth, quota, schema, pagination, mapping, commit, duplicate, and freshness failures.
 - [ ] I can build an escalation package with IDs and counts instead of full secrets/payloads.
 - [ ] I can present the fictional NMH cursor-expiry case and safe recovery without vendor blame.
-- [ ] I can bridge Arti's analytics/M365 experience without claiming Zscaler connector production operation.
+- [ ] I can bridge your analytics/M365 experience without claiming Zscaler connector production operation.
 - [ ] I can answer Q1-Q8 aloud and complete labs using synthetic or authorized APIs.
 
 [Part 25 - Evidence Collection with Wireshark, Netsh, Network Monitor, and Packet Traces](Part-25-wireshark-netsh-network-monitor.md)

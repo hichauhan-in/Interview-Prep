@@ -1,12 +1,12 @@
 # Part 26 - Hardware Anatomy, Shelves, Cabling, Ports, FRUs, and Environmentals
 
-> **Section goal:** Learn to identify a NetApp hardware topology safely from chassis and controllers through slots, adapters, ports, shelves, I/O modules, drives, cables, power, cooling, batteries, sensors, LEDs, and out-of-band management. By the end, Arti should be able to map physical failure domains, collect replacement-ready evidence, and recommend the next owner/action without inventing model specifications or performing unsupported hardware work.
+> **Section goal:** Learn to identify a NetApp hardware topology safely from chassis and controllers through slots, adapters, ports, shelves, I/O modules, drives, cables, power, cooling, batteries, sensors, LEDs, and out-of-band management. By the end, you should be able to map physical failure domains, collect replacement-ready evidence, and recommend the next owner/action without inventing model specifications or performing unsupported hardware work.
 
 Covers index item **26** and maps directly to job-description responsibilities for install-base accuracy, storage/infrastructure depth, risk and stability analysis, lifecycle planning, customer-specific recommendations, service reviews, incident escalation, supportability, and cross-functional coordination.
 
 Exact chassis layout, controller count, slot/card compatibility, onboard/expansion ports, shelf/I/O module (IOM) type, SAS or NVMe cabling, stack/loop/HA/cluster-port rules, drive/carrier, field/customer replaceability, LED meaning, power/cooling/battery thresholds, service procedure, firmware, and limits vary by platform generation and ONTAP release. Verify the exact platform in **Hardware Universe (HWU)**, current hardware-system documentation, **Interoperability Matrix Tool (IMT)** where applicable, labels/serials, and NetApp Support instructions. This Part contains no hard model specifications.
 
-> **Evidence and experience boundary:** Every rack, serial, cable, alert, failure, and replacement below is synthetic. Arti's factual strengths are Microsoft enterprise escalation, Azure/VM/networking, hardware-adjacent evidence collection, analytics, and customer communication. She does **not** claim production NetApp racking, cabling, FRU/CRU replacement, controller/shelf service, or environmental remediation experience.
+> **Evidence and experience boundary:** Every rack, serial, cable, alert, failure, and replacement below is synthetic. Your factual strengths are enterprise escalation, Azure/VM/networking, hardware-adjacent evidence collection, analytics, and customer communication. You do **not** claim production NetApp racking, cabling, FRU/CRU replacement, controller/shelf service, or environmental remediation experience.
 
 ---
 
@@ -734,11 +734,11 @@ flowchart TD
 
 ### JD Mapping
 
-| JD responsibility | Part 26 contribution | Arti's factual bridge and gap |
+| JD responsibility | Part 26 contribution | Your factual bridge and gap |
 |---|---|---|
 | Install-base accuracy | Serial/part/slot/path/firmware/rack relationship and reconciliation | Data-quality/analytics skills transfer |
 | Storage depth | Controllers, cards, shelves, IOMs, media, SAS/NVMe paths and environmentals | Conceptual; no production NetApp physical service |
-| Risk/stability | Identifies common power/path/cooling/chassis/change fate | CRITSIT and network failure-domain method transfers |
+| Risk/stability | Identifies common power/path/cooling/chassis/change fate | critical situation and network failure-domain method transfers |
 | Lifecycle/upgrade advice | HWU/platform/firmware/FRU/lifecycle evidence and replacement plan | Advisory method transfers; exact hardware access gap explicit |
 | Support experience | Builds replacement-ready escalation pack and avoids wrong-part/action | Product/Engineering evidence discipline transfers |
 | Service reviews | Reports hardware health, spares, environmental risks and actions | Analytics/business reviews transfer |
@@ -748,7 +748,7 @@ flowchart TD
 
 ## 18. Fully synthetic scenario: Fabrikam shelf path and thermal alert
 
-> **Synthetic case:** Fabrikam, all racks, components, labels, events and outcomes below are fictional. It is not a NetApp cabling/replacement procedure or Arti production work.
+> **Synthetic case:** Fabrikam, all racks, components, labels, events and outcomes below are fictional. It is not a NetApp cabling/replacement procedure or documented production work.
 
 ### Environment
 
@@ -828,11 +828,11 @@ flowchart TD
 
 ---
 
-## 19. Arti's support/Azure/network/analytics bridge
+## 19. Your support/Azure/network/analytics bridge
 
 ```mermaid
 flowchart LR
-    CRIT[Microsoft CRITSIT production work] --> IMP[Impact safety owner timeline and escalation]
+    CRIT[Enterprise critical-situation production work] --> IMP[Impact safety owner timeline and escalation]
     NET[Windows/Azure networking] --> PATH[Ports cables peers redundancy and common fate]
     VM[VM/infrastructure foundation] --> LAYER[Logical versus physical resource mapping]
     BI[Excel Power BI/analytics] --> INV[Install-base reconciliation trends and risks]
@@ -845,14 +845,14 @@ flowchart LR
 
 | Factual strength | Transfer | Explicit gap |
 |---|---|---|
-| CRITSIT/enterprise escalation | Safety, evidence, exact owner/ask, customer cadence | No NetApp FRU/CRU replacement authority |
+| Critical situation/enterprise escalation | Safety, evidence, exact owner/ask, customer cadence | No NetApp FRU/CRU replacement authority |
 | Azure/Windows networking | Port/path/peer/failure-domain reasoning | No SAS/NVMe shelf cabling experience |
 | VM/infrastructure concepts | Logical identity versus physical chassis/card/path | No ONTAP hardware service experience |
 | Analytics/install-base discipline | Serial/part/firmware/topology reconciliation and trends | No HWU/gated customer tool production use |
 
 ### Honest answer
 
-> "I can identify the hardware layers, map controllers, chassis, adapters, ports, shelves, IOMs, drives, cables, power/cooling and SP/BMC evidence, and reason about SAS/NVMe path redundancy and FRU/CRU boundaries. My production background is Microsoft support and infrastructure troubleshooting, not NetApp hardware service. I would never cable or replace from memory; I would use exact serials, HWU, platform documentation, authorized Support/field service and customer change approval."
+> "I can identify the hardware layers, map controllers, chassis, adapters, ports, shelves, IOMs, drives, cables, power/cooling and SP/BMC evidence, and reason about SAS/NVMe path redundancy and FRU/CRU boundaries. My production background is enterprise support and infrastructure troubleshooting, not NetApp hardware service. I would never cable or replace from memory; I would use exact serials, HWU, platform documentation, authorized Support/field service and customer change approval."
 
 ---
 
@@ -942,7 +942,7 @@ flowchart LR
 19. Build the minimum escalation pack and TAM recommendation.
 20. Recreate Fabrikam's thermal, IOM, shared-adapter and PDU findings.
 21. Complete all whiteboard drills, paper lab and Q1-Q8 aloud.
-22. State Arti's strengths and NetApp hardware production gap precisely.
+22. State your strengths and NetApp hardware production gap precisely.
 
 ---
 
@@ -1022,7 +1022,7 @@ flowchart LR
 
 ### Q8. How does your background transfer, and what remains a gap?
 
-> **Model answer:** "My Microsoft CRITSIT work gives me safe incident ownership, exact evidence, cross-team coordination and customer communication. Azure/Windows networking helps with ports, peers and failure domains; analytics helps reconcile serials, firmware and topology. I have not cabled or serviced NetApp hardware in production. I would never replace or recable from memory; I would use exact HWU/platform docs, NetApp Support/field service and customer change authority."
+> **Model answer:** "My prior critical-situation work gives me safe incident ownership, exact evidence, cross-team coordination and customer communication. Azure/Windows networking helps with ports, peers and failure domains; analytics helps reconcile serials, firmware and topology. I have not cabled or serviced NetApp hardware in production. I would never replace or recable from memory; I would use exact HWU/platform docs, NetApp Support/field service and customer change authority."
 
 **Follow-up depth:** Give one factual infrastructure escalation and state which NetApp platform, FRU, cabling and firmware facts it cannot prove.
 
@@ -1045,7 +1045,7 @@ flowchart LR
 - **LED:** Clue requiring exact documentation and software/serial corroboration.
 - **SP/BMC:** Privileged out-of-band hardware panel.
 - **Replacement:** Identify -> Support/procedure -> precheck -> one change -> full validation.
-- **Arti's bridge:** Incident/path/inventory rigor transfers; physical NetApp service does not.
+- **Your bridge:** Incident/path/inventory rigor transfers; physical NetApp service does not.
 
 ---
 
@@ -1070,7 +1070,7 @@ flowchart LR
 - [ ] Build minimum escalation pack and TAM recommendation.
 - [ ] Recreate Fabrikam's thermal, link, shared-adapter and PDU risks.
 - [ ] Complete all whiteboard drills, paper lab, self-test and Q1-Q8 aloud.
-- [ ] State Arti's strengths and NetApp hardware production gap precisely.
+- [ ] State your strengths and NetApp hardware production gap precisely.
 - [ ] Recheck exact platform/shelf docs, HWU, IMT, firmware, FRU/CRU, environmental and Support procedure before customer use.
 
 ---

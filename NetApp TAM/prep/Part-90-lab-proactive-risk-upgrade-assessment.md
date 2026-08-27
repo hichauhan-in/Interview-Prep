@@ -1,6 +1,6 @@
 # Part 90 - LAB 5 - AutoSupport, Active IQ, IMT, Bug Scrub, and Upgrade Assessment
 
-> **Section goal:** Build an auditable proactive-risk and upgrade assessment from telemetry freshness, Digital Advisor evidence, reconciled inventory, exact IMT and Hardware Universe checks, lifecycle, advisories, bugs, release notes, upgrade path and prechecks. By the end, Arti can turn authorized gated evidence or a complete synthetic pack into a risk-ranked, reviewer-approved recommendation without fabricating tool access or promising an upgrade outcome.
+> **Section goal:** Build an auditable proactive-risk and upgrade assessment from telemetry freshness, Digital Advisor evidence, reconciled inventory, exact IMT and Hardware Universe checks, lifecycle, advisories, bugs, release notes, upgrade path and prechecks. By the end, you can turn authorized gated evidence or a complete synthetic pack into a risk-ranked, reviewer-approved recommendation without fabricating tool access or promising an upgrade outcome.
 
 Covers index item **90** and maps directly to job-description responsibilities for generating/analyzing customer data, maintaining the install base, strategic upgrade planning, using NetApp tools, risk mitigation, preventative remediation, recommendation representation, Microsoft Office analysis, and operational reviews.
 
@@ -12,7 +12,7 @@ Covers index item **90** and maps directly to job-description responsibilities f
 
 **Lab safety contract:** The access fallback is the default complete synthetic assessment. Use read-only first, obtain authorization before change, run a positive test and negative test of the analysis, use bounded failure injection only in synthetic evidence, document recovery and rollback assumptions, capture evidence, complete cleanup, control cost and privacy, and use honest interview language.
 
-**Explicit nonclaim:** Arti has not accessed or operated a production customer's AutoSupport, Active IQ Digital Advisor, IMT, Hardware Universe, Bugs Online, Upgrade Advisor, lifecycle, advisory, or release-planning workflow; has not performed a production NetApp bug scrub; and has not approved an ONTAP upgrade.
+**Explicit nonclaim:** You have not accessed or operated a production customer's AutoSupport, Active IQ Digital Advisor, IMT, Hardware Universe, Bugs Online, Upgrade Advisor, lifecycle, advisory, or release-planning workflow; has not performed a production NetApp bug scrub; and has not approved an ONTAP upgrade.
 
 **Privacy/access:** Proactive assessments can combine serials, UUIDs, topology, versions, telemetry, wellness, cases, defects, vulnerabilities, entitlement, lifecycle, contracts, performance, capacity, business criticality and planned changes. Use purpose-limited authorization, role-based/gated access, approved secure repositories, minimum exports, redaction/tokenization, retention, and no customer or private NetApp data in portfolios or unapproved AI tools.
 
@@ -22,7 +22,7 @@ Covers index item **90** and maps directly to job-description responsibilities f
 
 This Part is an analytical learning lab, not NetApp internal methodology, a severity model, a live compatibility result, an advisory, a defect record, an Upgrade Advisor plan, a change approval, or a guarantee of nondisruptive upgrade.
 
-> **No-production-NetApp boundary:** Arti's factual strengths are Microsoft enterprise telemetry/support analysis, case and escalation quality, Product/Engineering collaboration, Excel/Power BI/SQL/Python/statistics, release/change reasoning, risk communication, and business reviews. Her exact nonclaim is: **she has not performed a production NetApp proactive-risk or upgrade assessment.** She may present this fully synthetic pack and the transferable method while naming gated-tool and production gaps.
+> **No-production-NetApp boundary:** Your factual strengths are enterprise telemetry/support analysis, case and escalation quality, Product/Engineering collaboration, Excel/Power BI/SQL/Python/statistics, release/change reasoning, risk communication, and business reviews. Your exact nonclaim is: **you have not performed a production NetApp proactive-risk or upgrade assessment.** You may present this fully synthetic pack and the transferable method while naming gated-tool and production gaps.
 
 ---
 
@@ -524,7 +524,7 @@ flowchart TD
 
 Common errors: joining by name, treating missing as healthy, copying a portal recommendation without context, checking components separately instead of one IMT recipe, ignoring notes, using stale HWU limits, calling a bug applicable from symptom, selecting newest release by memory, promising rollback, hiding low confidence, and publishing gated evidence.
 
-## 19. JD Mapping and Arti tie
+## 19. JD Mapping and background tie
 
 ```mermaid
 flowchart LR

@@ -2,7 +2,7 @@
 
 > **Section goal:** Build a beginner-first, consulting-grade understanding of security incident response from preparation through lessons learned. By the end, you should be able to distinguish security events, alerts, incidents, problems, crises, privacy incidents, and major service incidents; use a practical prepare, detect, analyze, contain, eradicate, recover, and learn lifecycle while understanding its relationship to NIST Cybersecurity Framework 2.0; define declaration criteria, severity, authority, and roles for incident command, technical response, communications, scribing, business ownership, legal, privacy, HR, vendors, partners, and law enforcement; preserve evidence with chain-of-custody discipline while respecting forensic limits; build timelines, scope and hypotheses; balance containment speed, business continuity, safety, evidence, attacker awareness, and short-term versus long-term control; eradicate persistence and recover into a trusted state with heightened monitoring; communicate accurately to technical, workforce, customer, executive, board, insurer, regulator, vendor, and public audiences through authorized channels; reserve legal and regulatory decisions for authorized counsel and officials; reason through ransomware, phishing/business-email-compromise, cloud identity, and insider scenarios; distinguish a post-incident review from root-cause analysis; use 5 Whys, fishbone, and fault-tree techniques carefully; perform blame-aware but blame-free system analysis; define corrective actions with owners, dates, validation, and risk treatment; interpret MTTD, MTTA, containment and recovery metrics with caveats; and design safe table-top and paper portfolio exercises.
 
-This Part maps directly to the role's responsibilities for security incident response, crisis coordination, stakeholder communication, troubleshooting, vendor/product escalation, root-cause analysis, remediation validation, documentation, operational improvement, and executive reporting. It strongly uses Arti's demonstrated experience with critical Microsoft 365 incidents, customer and business impact, SharePoint Online and OneDrive, synchronization, vendors, partners and product groups, shared timelines, RCA, fix validation, documentation, mentoring, KPIs, and business reviews. The consulting extension is to add formal security command, evidence, containment, privacy/legal boundaries, crisis communication, and corrective-action governance without overstating her direct forensic or SOC experience.
+This Part maps directly to the role's responsibilities for security incident response, crisis coordination, stakeholder communication, troubleshooting, vendor/product escalation, root-cause analysis, remediation validation, documentation, operational improvement, and executive reporting. It strongly uses your demonstrated experience with critical Microsoft 365 incidents, customer and business impact, SharePoint Online and OneDrive, synchronization, vendors, partners and product groups, shared timelines, RCA, fix validation, documentation, mentoring, KPIs, and business reviews. The consulting extension is to add formal security command, evidence, containment, privacy/legal boundaries, crisis communication, and corrective-action governance without overstating your direct forensic or SOC experience.
 
 > **Method boundary:** This chapter contains public, general incident-response, crisis-management, forensic-readiness, service-management, and consulting practices informed by NIST, CISA, and Microsoft public guidance. It does not describe or imply Deloitte proprietary methods, playbooks, tools, templates, client cases, legal advice, forensic services, threat intelligence, or internal practices. A real incident must follow the organization's approved response plan, legal advice, privacy process, insurer requirements, regulator/law-enforcement obligations, evidence rules, employment policies, communications authority, contracts, and applicable law.
 
@@ -23,9 +23,9 @@ This Part maps directly to the role's responsibilities for security incident res
 
 ## Candidate honesty note
 
-Arti can directly discuss critical Microsoft 365 escalations, customer and service impact, SharePoint/OneDrive and synchronization, issue scoping, timelines, customer/vendor/partner/product-group coordination, RCA, fix validation, documentation, knowledge transfer, mentoring, KPI reporting, and business reviews where supported by her real record. Those are valuable incident-command and recovery behaviors.
+You can directly discuss critical Microsoft 365 escalations, customer and service impact, SharePoint/OneDrive and synchronization, issue scoping, timelines, customer/vendor/partner/product-group coordination, RCA, fix validation, documentation, knowledge transfer, mentoring, KPI reporting, and business reviews where supported by your real record. Those are valuable incident-command and recovery behaviors.
 
-She should not claim that she has acted as a production cyber incident commander, forensic examiner, malware analyst, threat hunter, legal/privacy decision maker, regulator liaison, ransomware negotiator, or Microsoft Defender/Sentinel SOC owner unless separately evidenced. Safe wording is:
+You should not claim that you have acted as a production cyber incident commander, forensic examiner, malware analyst, threat hunter, legal/privacy decision maker, regulator liaison, ransomware negotiator, or Microsoft Defender/Sentinel SOC owner unless separately evidenced. Safe wording is:
 
 > “My direct production experience is leading complex Microsoft 365 support escalations: I define scope and impact, maintain a timeline, coordinate customers, partners, vendors and product groups, validate service recovery and product fixes, document RCA, and communicate metrics and lessons. I have expanded that foundation through a fictional security incident-response portfolio covering command roles, evidence, containment tradeoffs, crisis communication, recovery, PIR, and corrective actions. I would work within the client's approved incident plan and bring in qualified SOC, forensic, legal, privacy, HR, communications, insurer, and law-enforcement specialists as required.”
 
@@ -546,7 +546,7 @@ Use out-of-band communications if ordinary email/Teams/identity may be compromis
 
 Example:
 
-> “At 14:00 UTC we remain at Severity 1. Evidence confirms one privileged identity created an unauthorized application grant and accessed two SharePoint sites; investigation of additional data access continues. The identity, sessions and application grant are contained, clean administrator access is established, and Microsoft support is tracing two request IDs. Email and customer portals remain available; access to one research workspace is paused. Available logs cover the last 90 days but do not prove activity before that period. Legal/privacy teams are assessing notification obligations; no conclusion has been made. The next decision is whether to restore the workspace after the 16:00 integrity and access review. Next update: 16:30 UTC.”
+> “At 14:00 UTC we remain at Severity 1. Evidence confirms one privileged identity created an unauthorized application grant and accessed two SharePoint sites; investigation of additional data access continues. The identity, sessions and application grant are contained, clean administrator access is established, and enterprise support is tracing two request IDs. Email and customer portals remain available; access to one research workspace is paused. Available logs cover the last 90 days but do not prove activity before that period. Legal/privacy teams are assessing notification obligations; no conclusion has been made. The next decision is whether to restore the workspace after the 16:00 integrity and access review. Next update: 16:30 UTC.”
 
 ## 28. Regulatory, legal, insurance, and law-enforcement decisions
 
@@ -975,7 +975,7 @@ Use **P-D-A-C-E-R-L**:
 
 ## 51. JD Mapping: interview translation
 
-| Arti's demonstrated evidence | Incident-response translation | Honest interview sentence |
+| Your demonstrated evidence | Incident-response translation | Honest interview sentence |
 |---|---|---|
 | Critical M365 escalation | Command rhythm, impact, priority and recovery | “I establish one timeline, objectives, owners and stakeholder cadence.” |
 | SharePoint/OneDrive/sync | M365 workload scope and recovery validation | “I connect identity, permission, client, data and service evidence.” |
@@ -1084,7 +1084,7 @@ Use current versions and access dates in real work.
 - [ ] I can write corrective actions with cause, outcome, owner, date, dependency, risk, test, metric and evidence-based closure.
 - [ ] I can interpret MTTD, MTTA, declaration, containment, restoration, dwell, recurrence and action metrics with caveats.
 - [ ] I can design safe tabletop objectives, injects, rules, observers, debrief and follow-up.
-- [ ] I can connect Arti's direct escalation, vendor, RCA, fix-validation, documentation and business-review experience honestly.
+- [ ] I can connect your direct escalation, vendor, RCA, fix-validation, documentation and business-review experience honestly.
 - [ ] I can present Northstar as a fictional paper exercise with no real forensics, malware, phishing, personal data or legal advice.
 - [ ] I can answer Q1–Q8 aloud in approximately 60–90 seconds each without proprietary or unsupported claims.
 

@@ -2,7 +2,7 @@
 
 > **Purpose:** Build a product-neutral mental model for moving one customer support matter across conceptual ticketing, customer relationship management, Engineering work tracking, and documentation without losing ownership, evidence, permissions, decisions, or the customer outcome.
 >
-> **Artifact honesty label:** **Template only with a local synthetic paper-workflow example.** Every organization, customer, person, account, product, case, issue, page, field, queue, status, permission, link, decision, timestamp, identifier, automation event, and result in this Part is fictional unless an official vendor source is explicitly cited or Arti's Microsoft/Confluence background is explicitly described as such. SignalBridge Lab 106 was not performed while this Part was authored. No account is needed. No Abnormal AI, Microsoft, Zendesk, Salesforce, Jira, Confluence, customer, ticketing, CRM, Engineering, knowledge, identity, API, automation, security, production, or external system was accessed, configured, or changed.
+> **Artifact honesty label:** **Template only with a local synthetic paper-workflow example.** Every organization, customer, person, account, product, case, issue, page, field, queue, status, permission, link, decision, timestamp, identifier, automation event, and result in this Part is fictional unless an official vendor source is explicitly cited or your prior/Confluence background is explicitly described as such. SignalBridge Lab 106 was not performed while this Part was authored. No account is needed. No Abnormal AI, Microsoft, Zendesk, Salesforce, Jira, Confluence, customer, ticketing, CRM, Engineering, knowledge, identity, API, automation, security, production, or external system was accessed, configured, or changed.
 >
 > **Currency and source access date:** August 24, 2026.
 >
@@ -12,7 +12,7 @@
 
 A support engineer may hear one customer story but encounter several records. A ticketing record holds the support conversation and case ownership. A **customer relationship management** system, shortened to **CRM**, provides approved account and relationship context. An Engineering issue tracks a bounded product investigation or change. A knowledge page preserves reusable, reviewed learning. These records can point to one another, but they do not become interchangeable merely because an integration copies a field or displays a link.
 
-This Part teaches Arti to:
+This Part teaches you to:
 
 1. explain the distinct job of conceptual Zendesk ticketing, Salesforce CRM context, Jira Engineering work tracking, and Confluence documentation;
 2. identify the minimum fields needed for routing, ownership, evidence, decision-making, customer communication, and lifecycle control;
@@ -79,22 +79,22 @@ This is a conceptual division of responsibility, not Abnormal AI architecture or
 | Queue and case quality | Makes work findable and actionable without gaming fields | Uses required values honestly, records unknowns, and prevents stale assignment or false status | Case-hygiene rubric |
 | Security-aware support | Checks permissions and sensitivity before linking, copying, exporting, or automating | Shares the minimum needed through authorized channels and stops on protected material | Permission-safe linking checklist |
 | Process improvement | Finds duplicate entry, field drift, and synchronization failure | Defines source-of-truth ownership and reconciliation signals before recommending automation | Cross-tool contract matrix |
-| Microsoft enterprise support background | Transfers case ownership, customer communication, escalation, fix validation, knowledge work, and quality review | Uses actual Microsoft examples with exact role/action/result boundaries | Production-transfer narrative |
+| enterprise support background | Transfers case ownership, customer communication, escalation, fix validation, knowledge work, and quality review | Uses actual Microsoft examples with exact role/action/result boundaries | Production-transfer narrative |
 | Confluence working knowledge | Uses only defensible direct examples of navigation, collaboration, or documentation | States the exact Confluence action personally performed and avoids implied administration | Direct-tool evidence statement |
 | Zendesk, Salesforce, and Jira learning targets | Builds accurate public-doc concepts without claiming operation | Labels examples `LEARNED_CONCEPT` or `TEMPLATE_ONLY` | Dated source-and-boundary ledger |
 | Abnormal AI learning goal | Prepares to learn the employer's current systems without inventing them | Asks for the approved object model, fields, queues, statuses, permissions, links, automation, and ownership rules | First-week discovery checklist |
 
 ## Candidate honesty note
 
-Arti's background must be described in layers, not blended into a broad claim of “tooling experience.” The master guide supports five years of Microsoft customer-facing enterprise support involving SharePoint Online, OneDrive, Sync Client, and Copilot support; case ownership; critical situations in the Microsoft context; Engineering or Product collaboration; customer and partner communication; fix validation; knowledge work; mentoring; and case-quality improvement. Those are **direct production support capabilities**. The master also lists **Confluence working knowledge**, which may be described as direct tool familiarity only to the exact depth of a real example Arti can defend.
+Your background must be described in layers, not blended into a broad claim of “tooling experience.” The master guide supports several years of enterprise customer-facing support involving SharePoint Online, OneDrive, Sync Client, and Copilot support; case ownership; critical situations in a prior-employer context; Engineering or Product collaboration; customer and partner communication; fix validation; knowledge work; mentoring; and case-quality improvement. Those are **direct production support capabilities**. The master also lists **Confluence working knowledge**, which may be described as direct tool familiarity only to the exact depth of a real example you can defend.
 
-The same evidence does **not** establish direct production operation of Zendesk, Salesforce, or Jira. Those remain learned concepts in this Part. It also does not establish Confluence administration, space-permission design, automation ownership, or a specific workflow unless Arti has a separate truthful example. Nothing in this Part establishes knowledge of Abnormal AI's internal systems, configuration, queues, fields, statuses, permissions, integrations, automation, records, or customer data.
+The same evidence does **not** establish direct production operation of Zendesk, Salesforce, or Jira. Those remain learned concepts in this Part. It also does not establish Confluence administration, space-permission design, automation ownership, or a specific workflow unless you have a separate truthful example. Nothing in this Part establishes knowledge of Abnormal AI's internal systems, configuration, queues, fields, statuses, permissions, integrations, automation, records, or customer data.
 
 ### Direct experience versus learned concepts
 
 | Tool or capability | Evidence label for this Part | Safe statement | Claim to avoid |
 |---|---|---|---|
-| Microsoft enterprise support and named Microsoft products | **DIRECT_PRODUCTION_TRANSFER** | “In Microsoft enterprise support, I owned customer cases, coordinated specialists, communicated status, and validated outcomes.” | Naming an undisclosed Microsoft ticket platform, schema, automation, or confidential process without evidence |
+| enterprise support and named Microsoft products | **DIRECT_PRODUCTION_TRANSFER** | “In enterprise support, I owned customer cases, coordinated specialists, communicated status, and validated outcomes.” | Naming an undisclosed Microsoft ticket platform, schema, automation, or confidential process without evidence |
 | Confluence working knowledge | **DIRECT_TOOL_EXPERIENCE_AT_STATED_DEPTH** | “I have working knowledge of Confluence; I can describe the exact pages, collaboration, or documentation actions I personally used.” | “I administered Confluence permissions, schemas, integrations, or enterprise governance” without a defensible example |
 | Zendesk | **LEARNED_CONCEPT_NO_DIRECT_OPERATION** | “I studied official Zendesk concepts for tickets, fields, views, followers, and business rules, with plan and configuration caveats.” | “I worked Zendesk queues” or “I configured Zendesk at Abnormal” |
 | Salesforce | **LEARNED_CONCEPT_NO_DIRECT_OPERATION** | “I studied CRM, Case object, ownership, access, and relationship concepts through official Salesforce material.” | “I managed Salesforce cases, queues, Service Cloud, or Abnormal customer records” |
@@ -104,7 +104,7 @@ The same evidence does **not** establish direct production operation of Zendesk,
 
 A safe interview bridge is:
 
-> “My direct experience is enterprise customer support in Microsoft contexts, where I owned cases, coordinated Engineering or Product, communicated with customers, validated fixes, and contributed to knowledge and quality. I also have working knowledge of Confluence, which I describe only to the depth of examples I personally performed. Zendesk, Salesforce, and Jira are learned concepts for me today, not production-operation claims. I have not configured Abnormal's systems and would first learn its current sources of truth, field definitions, queues, permission model, linking rules, and automation ownership.”
+> “My direct experience is enterprise customer support in prior-employer contexts, where I owned cases, coordinated Engineering or Product, communicated with customers, validated fixes, and contributed to knowledge and quality. I also have working knowledge of Confluence, which I describe only to the depth of examples I personally performed. Zendesk, Salesforce, and Jira are learned concepts for me today, not production-operation claims. I have not configured Abnormal's systems and would first learn its current sources of truth, field definitions, queues, permission model, linking rules, and automation ownership.”
 
 ### 🔍 Plain-English deep-dive: Tool familiarity is not workflow ownership
 
@@ -798,7 +798,7 @@ This Part, its artifacts, and SignalBridge Lab 106 prohibit:
 - inventing universal field, schema, queue, view, status, state, priority, assignee, owner, follower, link, permission, source-of-truth, decision-log, or synchronization mappings;
 - claiming a ticket status proves the customer outcome, a work-item status proves a fix, a published page proves approval, a watcher proves acceptance, or a CRM field proves entitlement;
 - fabricating a customer, event, record, test, result, owner, acceptance, decision, approval, publication, sync, validation, closure, or score;
-- claiming direct production experience with Zendesk, Salesforce, or Jira, overstating Confluence depth, or presenting Microsoft experience as experience with another employer's tools; and
+- claiming direct production experience with Zendesk, Salesforce, or Jira, overstating Confluence depth, or presenting prior experience as experience with another employer's tools; and
 - claiming any Abnormal AI configuration, tool selection, object model, queue, field, status, permission, link, automation, customer fact, or internal workflow.
 
 If real or sensitive content appears, stop processing and sharing it, do not copy it into the exercise, preserve only the minimum reference allowed by current policy, and invoke the authorized privacy, security, legal, records, or management route. Do not delete or alter real evidence in the name of cleanup.
@@ -985,7 +985,7 @@ flowchart TD
 | Worked examples | No end-to-end workflow | One partial example | Primary workflow plus duplicate-mechanism and permission-conflict examples exist |
 | Hygiene artifact | Missing or perfect score fabricated | Rubric partly scored | Twenty rows scored with evidence and honest partials |
 | Safety | Any real data/system/action/public upload | Local-only claim is vague | Every named prohibition and automatic stop is explicit |
-| Candidate honesty | Tool/lab/Abnormal experience overstated | Gap implied | Direct Microsoft/Confluence depth, learned vendor concepts, template, and Abnormal unknowns are distinct |
+| Candidate honesty | Tool/lab/Abnormal experience overstated | Gap implied | Direct enterprise collaboration-platform depth, learned vendor concepts, template, and Abnormal unknowns are distinct |
 
 **Lab automatic failure:** any account use; real customer data or secret; public upload; external interaction; unauthorized API, automation, sync, webhook, script, macro, trigger, or integration; bulk update/import/export/link/status/closure/deletion; permission/role/group/sharing/restriction change; destructive operation; real record creation or modification; universal field/status mapping; fabricated action/result/approval; direct Zendesk/Salesforce/Jira experience claim; overstated Confluence depth; invented Abnormal configuration; or claim that the lab was performed during authoring.
 
@@ -1014,7 +1014,7 @@ The authored Part is complete only when all rows pass. The master tracker must s
 
 ## Official Source Anchors - August 24, 2026
 
-These sources establish public product concepts only. They do not prove Arti's direct operation, any customer's configuration, or any Abnormal AI tool choice, field, queue, status, permission, relationship, automation, or internal process. Cloud products change continuously; names such as Jira `issue` versus `work item`, screens, limits, and plan availability may change. Verify the current edition, plan, role, permissions, apps, and configuration before relying on a feature.
+These sources establish public product concepts only. They do not prove your direct operation, any customer's configuration, or any Abnormal AI tool choice, field, queue, status, permission, relationship, automation, or internal process. Cloud products change continuously; names such as Jira `issue` versus `work item`, screens, limits, and plan availability may change. Verify the current edition, plan, role, permissions, apps, and configuration before relying on a feature.
 
 | Official vendor documentation | Concept anchored | Version, plan, role, or configuration boundary |
 |---|---|---|
@@ -1037,7 +1037,7 @@ Source discipline:
 - Zendesk documentation describes Zendesk behavior under its documented plans and account configuration; it does not prove that Abnormal AI uses Zendesk or uses any standard/default behavior.
 - Salesforce object and architecture documentation describes configurable platform capabilities; it does not establish Service Cloud licensing, enabled objects, record types, queues, fields, sharing, automation, or any customer's implementation.
 - Jira and Confluence links above are Cloud documentation. Data Center and older versions can differ, and organization-managed/team-managed or current `space`/`project` terminology can affect instructions.
-- A vendor page can explain capability but cannot grant Arti account access, permission, role authority, API use, automation ownership, publication approval, or production experience.
+- A vendor page can explain capability but cannot grant you account access, permission, role authority, API use, automation ownership, publication approval, or production experience.
 - All source content and URLs should be revalidated when used because documentation, terminology, plans, and product behavior can change after August 24, 2026.
 
 ## Likely Interview Questions
@@ -1068,7 +1068,7 @@ Source discipline:
 
 ### Q7. What direct experience can you honestly claim with these tools?
 
-**Model answer:** My direct production strength is Microsoft enterprise support: customer case ownership, specialist coordination, customer and partner communication, fix validation, knowledge work, and quality improvement. I also have Confluence working knowledge, which I describe only through exact actions I personally performed; I do not imply administration unless I have that evidence. Zendesk, Salesforce, and Jira are learned concepts for me today based on official documentation and this synthetic design, not direct production-operation claims. I have not configured Abnormal's systems and would learn its current toolchain, schemas, permissions, and ownership model first.
+**Model answer:** My direct production strength is enterprise support: customer case ownership, specialist coordination, customer and partner communication, fix validation, knowledge work, and quality improvement. I also have Confluence working knowledge, which I describe only through exact actions I personally performed; I do not imply administration unless I have that evidence. Zendesk, Salesforce, and Jira are learned concepts for me today based on official documentation and this synthetic design, not direct production-operation claims. I have not configured Abnormal's systems and would learn its current toolchain, schemas, permissions, and ownership model first.
 
 ### Q8. When would you stop or escalate a cross-tool workflow?
 
@@ -1109,7 +1109,7 @@ Source discipline:
 - [ ] I prohibit real customer data/secrets, public uploads, unauthorized automation/API, bulk updates, permissions changes, and destructive operations.
 - [ ] I stop and escalate identity, security, privacy, legal, permission, ownership, schema, sync, or broad-impact conflicts through the authorized route.
 - [ ] I describe SignalBridge Lab 106 as a no-account local synthetic paper design that was not performed during authoring.
-- [ ] I state Microsoft production-transfer experience, Confluence working knowledge at a defensible depth, learned Zendesk/Salesforce/Jira concepts, and no Abnormal configuration knowledge separately.
+- [ ] I state production-transfer experience, Confluence working knowledge at a defensible depth, learned Zendesk/Salesforce/Jira concepts, and no Abnormal configuration knowledge separately.
 - [ ] I can state the plan/version/configuration boundary for every official vendor source.
 - [ ] I can answer exactly eight interview questions aloud without inventing tools, access, configuration, or results.
 

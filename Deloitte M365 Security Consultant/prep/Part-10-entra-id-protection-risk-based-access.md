@@ -19,7 +19,7 @@ This Part extends [Part 9](Part-09-conditional-access-design-deployment-troubles
 
 ## Candidate honesty note
 
-Arti can credibly connect this subject to demonstrated production strengths: leading Microsoft 365 escalations, comparing affected and unaffected populations, correlating SharePoint/OneDrive and sync evidence, preserving timelines, coordinating customers, vendors, and product groups, documenting RCA, validating fixes, and briefing technical and business stakeholders.
+You can credibly connect this subject to demonstrated production strengths: leading Microsoft 365 escalations, comparing affected and unaffected populations, correlating SharePoint/OneDrive and sync evidence, preserving timelines, coordinating customers, vendors, and product groups, documenting RCA, validating fixes, and briefing technical and business stakeholders.
 
 This Part does **not** claim production ownership of Entra ID Protection, risk policies, or an identity SOC queue. Safe wording is:
 
@@ -474,7 +474,7 @@ Assume a SharePoint administrator receives an anomalous-token detection. OneDriv
 | Privilege | Role/PIM/audit changes | Did attacker elevate or affect other identities? |
 | Scope | Same IP/ASN/app/user agent across tenant | Are other accounts or workloads affected? |
 
-Arti’s SharePoint/OneDrive experience is directly useful at the **resource-impact** layer: understanding permissions, sync clients, normal migration/download patterns, sharing, and stakeholder impact can distinguish legitimate bulk operations from exfiltration. The honest bridge is to say that the resource investigation and RCA method transfer; the Entra risk-control ownership is paper/lab evidence.
+Your SharePoint/OneDrive experience is directly useful at the **resource-impact** layer: understanding permissions, sync clients, normal migration/download patterns, sharing, and stakeholder impact can distinguish legitimate bulk operations from exfiltration. The honest bridge is to say that the resource investigation and RCA method transfer; the Entra risk-control ownership is paper/lab evidence.
 
 ```mermaid
 sequenceDiagram

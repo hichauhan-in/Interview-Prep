@@ -1,6 +1,6 @@
 # Part 28 - ONTAP NFS Configuration, Security, and Operations
 
-> **Section goal:** Learn how an ONTAP SVM becomes a usable and secure NFS service: server/version settings, network and name-service prerequisites, namespace and junctions, export-policy evaluation, identities, AUTH_SYS or Kerberos security, NFSv4 domains, sessions, locks, leases, delegations, and pNFS orientation. By the end, Arti should be able to discover current state safely, explain access decisions, troubleshoot mounts and file operations, and write a customer-specific recommendation without guessing commands or support combinations.
+> **Section goal:** Learn how an ONTAP SVM becomes a usable and secure NFS service: server/version settings, network and name-service prerequisites, namespace and junctions, export-policy evaluation, identities, AUTH_SYS or Kerberos security, NFSv4 domains, sessions, locks, leases, delegations, and pNFS orientation. By the end, you should be able to discover current state safely, explain access decisions, troubleshoot mounts and file operations, and write a customer-specific recommendation without guessing commands or support combinations.
 
 Covers index item **28** and maps directly to job-description responsibilities for customer-environment discovery, storage and protocol depth, security/supportability analysis, service stability, proactive risk recommendations, operational reviews, and high-quality escalation evidence.
 
@@ -8,7 +8,7 @@ Covers index item **28** and maps directly to job-description responsibilities f
 
 Exact NFS versions/minor versions, server options/defaults, export-rule fields/order, client-match syntax, Kerberos features, NFSv4 identity-domain behavior, name services, name mapping, locks/leases/delegations, pNFS layouts, session fields, ports, commands, limits, and host support vary by ONTAP release, client OS/kernel, configuration, and application. A **current-doc check** means reopening current official documentation for the exact release, client, and configuration. Verify the **Interoperability Matrix Tool (IMT)**, application/client guidance, and authorized system evidence. Hardware Universe (HWU) is relevant only when platform/port facts matter; it does not define export policy or host interoperability.
 
-> **No-production-NetApp boundary:** Arti does not claim production NetApp or ONTAP NFS experience. Every SVM, export, identity, packet, command output, customer, and incident below is synthetic. Her factual experience is Microsoft enterprise support, SharePoint/OneDrive data services, Windows/Azure networking, Active Directory, identity/permissions, CRITSIT ownership, analytics, and customer communication. The explicit non-claim is: **she has not configured or operated an ONTAP NFS server, export policy, Kerberos realm, NFSv4 identity domain, pNFS layout, lock recovery, or production Linux NFS mount.**
+> **No-production-NetApp boundary:** You do not claim production NetApp or ONTAP NFS experience. Every SVM, export, identity, packet, command output, customer, and incident below is synthetic. Your factual experience is enterprise support, SharePoint/OneDrive data services, Windows/Azure networking, Active Directory, identity/permissions, critical-situation ownership, analytics, and customer communication. The explicit non-claim is: **you have not configured or operated an ONTAP NFS server, export policy, Kerberos realm, NFSv4 identity domain, pNFS layout, lock recovery, or production Linux NFS mount.**
 
 ---
 
@@ -603,11 +603,11 @@ flowchart TD
 
 ### JD Mapping
 
-| JD responsibility | Part 28 contribution | Arti's factual bridge and gap |
+| JD responsibility | Part 28 contribution | Your factual bridge and gap |
 |---|---|---|
 | Understand customer environment | Maps client/network/SVM/export/identity/file/state dependencies | M365/AD/network mapping transfers; ONTAP NFS operation unproven |
 | Storage depth | Covers versions, policies, identity, Kerberos, v4 state and pNFS | Conceptual/synthetic only |
-| Risk/stability | Finds broad export, identity drift, stale handles, lock recovery and path risk | CRITSIT hypothesis method transfers |
+| Risk/stability | Finds broad export, identity drift, stale handles, lock recovery and path risk | critical-situation hypothesis method transfers |
 | Supportability | Requires exact client/kernel/security/ONTAP IMT evidence | No customer IMT/gated result claimed |
 | Recommendations | Connects exact gate/status to owner, test and residual risk | Advisory/escalation skills transfer |
 | Service review | Reports security posture, client lifecycle, failures, actions and tests | Analytics/business-review strength |
@@ -617,7 +617,7 @@ flowchart TD
 
 ## 13. Fully synthetic scenario: Bluewater Engineering NFS access and locks
 
-> **Synthetic case:** Bluewater Engineering, every client, UID, rule, event, result and recommendation below is fictional. It is not a NetApp customer, internal workflow, tool result, or Arti's production work.
+> **Synthetic case:** Bluewater Engineering, every client, UID, rule, event, result and recommendation below is fictional. It is not a NetApp customer, internal workflow, tool result, or your production work.
 
 ### Environment
 
@@ -718,14 +718,14 @@ flowchart TD
 
 ---
 
-## 14. Arti's factual transfer and honest positioning
+## 14. Your factual transfer and honest positioning
 
 ```mermaid
 flowchart LR
     ID[Microsoft AD/permissions production work] --> METHOD[Identity gates groups caches and least privilege]
     NET[Windows/Azure networking] --> PATH[DNS route firewall TCP and evidence]
     DATA[SharePoint/OneDrive] --> NS[Namespace access concurrent-user and data-service reasoning]
-    CRIT[CRITSIT escalation] --> RCA[Scope timeline hypotheses safe action and communication]
+    CRIT[Critical-situation escalation] --> RCA[Scope timeline hypotheses safe action and communication]
     BI[Analytics/business reviews] --> TAM[Risk trends actions and customer narrative]
     METHOD --> NFS[ONTAP NFS synthetic method]
     PATH --> NFS
@@ -740,11 +740,11 @@ flowchart LR
 | AD/permissions support | Identity, groups, cache, least privilege and audit reasoning | Unix UID/GID/LDAP/NIS/Kerberos NFS administration unproven |
 | Windows/Azure networking | DNS, routes, ports, MTU and packet correlation | No production NFS client/server packet diagnosis |
 | M365 data services | User operation, path, concurrent access and recovery expectations | NFS filehandle/lease/delegation behavior remains learned |
-| CRITSIT/Product work | Evidence preservation, exact ask and stakeholder cadence | No NetApp internal NFS debugging/process claim |
+| Critical situation/Product work | Evidence preservation, exact ask and stakeholder cadence | No NetApp internal NFS debugging/process claim |
 
 ### Honest answer
 
-> "I understand how ONTAP NFS configuration and operations fit together: SVM dependencies, actual protocol version, export-rule evaluation, UID/GID and name services, AUTH_SYS versus Kerberos, NFSv4 domains, filehandles, locks, leases, sessions, delegations and pNFS orientation. My production experience is Microsoft identity, networking, data-service support and escalations, not ONTAP NFS administration. I would verify current client and ONTAP support, use authorized read-only evidence and IMT, and work with Linux, identity, application and NetApp specialists before changes."
+> "I understand how ONTAP NFS configuration and operations fit together: SVM dependencies, actual protocol version, export-rule evaluation, UID/GID and name services, AUTH_SYS versus Kerberos, NFSv4 domains, filehandles, locks, leases, sessions, delegations and pNFS orientation. My production experience is enterprise identity, networking, data-service support and escalations, not ONTAP NFS administration. I would verify current client and ONTAP support, use authorized read-only evidence and IMT, and work with Linux, identity, application and NetApp specialists before changes."
 
 ---
 
@@ -897,7 +897,7 @@ flowchart LR
 
 ### Q8. How does your background transfer, and what remains a gap?
 
-> **Model answer:** "My Microsoft identity, permissions, DNS/network, data-service and CRITSIT work gives me strong gate-by-gate access analysis, evidence correlation and customer communication. Those methods transfer to NFS export, identity and state troubleshooting. I have not configured ONTAP NFS, Linux mounts, Kerberos NFS, locks or pNFS in production. I would use current docs, authorized read-only evidence, IMT and Linux/identity/NetApp specialists for real work."
+> **Model answer:** "My prior identity, permissions, DNS/network, data-service and critical-situation work gives me strong gate-by-gate access analysis, evidence correlation and customer communication. Those methods transfer to NFS export, identity and state troubleshooting. I have not configured ONTAP NFS, Linux mounts, Kerberos NFS, locks or pNFS in production. I would use current docs, authorized read-only evidence, IMT and Linux/identity/NetApp specialists for real work."
 
 ---
 
@@ -919,7 +919,7 @@ flowchart LR
 - **Lease:** Renewable state relationship; **grace:** reclaim window.
 - **pNFS:** Metadata layout plus every data path.
 - **Read-only first:** Discover, correlate, then change.
-- **Arti's bridge:** Identity/evidence method transfers; ONTAP NFS production work does not.
+- **Your bridge:** Identity/evidence method transfers; ONTAP NFS production work does not.
 
 ---
 

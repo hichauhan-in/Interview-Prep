@@ -1,10 +1,10 @@
 # Part 79 - Upgrade, Compatibility, Firmware, and Change-Failure Scenarios
 
-> **Section goal:** Turn upgrades and cross-stack changes into evidence-gated state transitions rather than calendar-driven tasks. By the end, Arti should be able to diagnose failed prechecks, invalid upgrade paths, IMT and HWU gaps, bug/advisory applicability, firmware/Host Utilities/multipath/switch mismatches, partial and mixed states, constrained rollback, post-upgrade regression, application constraints, and change collisions; then make a defensible go/no-go decision with owners, stop gates, validation, and residual risk.
+> **Section goal:** Turn upgrades and cross-stack changes into evidence-gated state transitions rather than calendar-driven tasks. By the end, you should be able to diagnose failed prechecks, invalid upgrade paths, IMT and HWU gaps, bug/advisory applicability, firmware/Host Utilities/multipath/switch mismatches, partial and mixed states, constrained rollback, post-upgrade regression, application constraints, and change collisions; then make a defensible go/no-go decision with owners, stop gates, validation, and residual risk.
 
 Covers index item **79** and maps directly to job-description responsibilities for upgrade advice, supportability, lifecycle risk, technical analysis, customer reviews, complex change coordination, high-pressure communication, and Support/Engineering engagement.
 
-**Explicit nonclaim:** Arti has not planned, approved, executed, stopped, rolled back, or validated a production ONTAP, NetApp hardware/firmware, host, hypervisor, switch, multipath, or application-integrated upgrade.
+**Explicit nonclaim:** You have not planned, approved, executed, stopped, rolled back, or validated a production ONTAP, NetApp hardware/firmware, host, hypervisor, switch, multipath, or application-integrated upgrade.
 
 **Privacy/access:** Change evidence can expose customer inventory, versions, serials, topology, vulnerabilities, bugs, support contracts, maintenance windows, application dependencies, business freezes, recovery plans, credentials, and vendor positions. Use authorized minimum collection, approved repositories, secure links, need-to-know access, redaction, retention, and controlled vendor sharing. Never publish real IMT/HWU results, bugs, Upgrade Advisor output, runbooks, or customer versions in study artifacts.
 
@@ -14,7 +14,7 @@ Covers index item **79** and maps directly to job-description responsibilities f
 
 This Part is a reasoning casebook, not an upgrade runbook, current support declaration, internal NetApp process, firmware bundle, command reference, bug applicability decision, rollback guarantee, or authorization to change production.
 
-> **No-production-NetApp boundary:** Arti's factual strengths are Microsoft enterprise support, release/change incidents, Product/Engineering collaboration, Azure/Windows networking, technical risk analysis, stakeholder communication, analytics, and validation. Her exact nonclaim is: **she has not owned or executed a production NetApp or ONTAP upgrade.** All cases are synthetic planning and troubleshooting exercises.
+> **No-production-NetApp boundary:** Your factual strengths are enterprise support, release/change incidents, Product/Engineering collaboration, Azure/Windows networking, technical risk analysis, stakeholder communication, analytics, and validation. Your exact nonclaim is: **you have not owned or executed a production NetApp or ONTAP upgrade.** All cases are synthetic planning and troubleshooting exercises.
 
 ---
 
@@ -567,7 +567,7 @@ flowchart TD
 
 ---
 
-## 9. Arti transfer/honesty and JD Mapping
+## 9. Experience transfer and honesty and JD Mapping
 
 ```mermaid
 flowchart LR
@@ -588,7 +588,7 @@ flowchart LR
 | Supportability | IMT/HWU/app/vendor exact-recipe discipline | No live tool-result claim |
 | Risk mitigation | Prechecks, bugs/advisories, rollback and hold gates | Existing escalation/change reasoning transfers |
 | Cross-functional | Host/fabric/storage/app/security owner sequencing | Microsoft coordination evidence |
-| High pressure | Partial state, regression and no-go communication | Production Microsoft incidents |
+| High pressure | Partial state, regression and no-go communication | Production enterprise incidents |
 | Customer review | Lifecycle roadmap, evidence and residual risk | Existing review/analytics strength |
 
 ### Honest interview wording
@@ -717,7 +717,7 @@ flowchart LR
 
 ### Q8. What experience transfers, and what remains your gap?
 
-> **Model answer:** `Microsoft enterprise release/change incidents, Engineering collaboration, networking, analytics, risk and validation give me strong change reasoning. I have not planned or executed production ONTAP, NetApp firmware or ecosystem upgrades, so these cases are synthetic and every live path, tool result, bundle and action requires current authorized sources and qualified owners.`
+> **Model answer:** `enterprise release/change incidents, Engineering collaboration, networking, analytics, risk and validation give me strong change reasoning. I have not planned or executed production ONTAP, NetApp firmware or ecosystem upgrades, so these cases are synthetic and every live path, tool result, bundle and action requires current authorized sources and qualified owners.`
 
 ---
 
@@ -738,7 +738,7 @@ flowchart LR
 - **Application:** IMT does not replace app certification.
 - **Collision:** Separate failure domains and restore baseline.
 - **No-go:** A safety outcome with evidence and reopen criteria.
-- **Arti boundary:** Microsoft change rigor transfers; production ONTAP execution does not.
+- **Experience boundary:** Microsoft change rigor transfers; production ONTAP execution does not.
 
 ---
 

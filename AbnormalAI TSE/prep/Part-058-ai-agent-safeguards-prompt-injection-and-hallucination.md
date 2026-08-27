@@ -28,15 +28,15 @@ After completing this Part, you should be able to:
 - distinguish session memory, user memory, task state, retrieval index, audit history, and secrets;
 - monitor tool calls, prompts/context metadata, retrieval, outputs, costs, failures, approvals, privacy, and incidents;
 - build scenario-specific evaluation sets and authorized defensive red-team tests with stop conditions; and
-- tie Arti's Copilot/agent evaluation/training, enterprise support, analytics/SQL/Python, networking/security learning, fix validation, and customer communication only as transferable evidence.
+- tie your Copilot/agent evaluation/training, enterprise support, analytics/SQL/Python, networking/security learning, fix validation, and customer communication only as transferable evidence.
 
 ## JD Mapping
 
-| Supplied role signal | Capability built | Transferable Arti evidence | Boundary |
+| Supplied role signal | Capability built | Transferable evidence | Boundary |
 |---|---|---|---|
 | AI Security Agents | Maps agent components, permissions, safeguards, and failures | Copilot Studio/agent and LLM fundamentals | No Abnormal agent implementation claim |
 | Prompting | Uses structured tasks and untrusted-content boundaries | Copilot evaluation/training | No jailbreak/bypass testing |
-| Complex support investigations | Traces retrieval/model/tool/policy/action layers | CRITSIT and evidence-based escalation | No production agent incident ownership |
+| Complex support investigations | Traces retrieval/model/tool/policy/action layers | critical situation and evidence-based escalation | No production agent incident ownership |
 | API/configuration tickets | Checks schemas, auth, scopes, retries, idempotency | REST/JSON and identity/networking learning | No direct named-vendor admin claim |
 | Customer trust/privacy | Minimizes sensitive context and verifies claims | Enterprise communication/evidence handling | No customer data in public models |
 | Product/Engineering collaboration | Supplies versioned traces, safe repro, expected/actual, explicit ask | Escalation/fix validation | Protected prompts/weaknesses stay restricted |
@@ -47,7 +47,7 @@ After completing this Part, you should be able to:
 
 | Evidence tier | Safe statement | Do not imply |
 |---|---|---|
-| **Production transfer** | "I have supported/evaluated Copilot-related experiences, validated fixes, and communicated AI limitations to enterprise customers." | That Arti operated Abnormal AI agents |
+| **Production transfer** | "I have supported/evaluated Copilot-related experiences, validated fixes, and communicated AI limitations to enterprise customers." | That you operated Abnormal AI agents |
 | **Local/public lab** | "I built a paper agent threat model and synthetic evaluation suite without executing prompts or tools." | Live prompt injection or model/API use |
 | **Learned architecture** | "I understand agent safeguards from NIST, OWASP, MITRE, and Microsoft sources." | That generic controls match a vendor implementation |
 | **No direct experience** | "I have not operated Abnormal AI or tested its agents in production." | Knowledge of private prompts, tools, memory, or permissions |

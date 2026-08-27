@@ -1,6 +1,6 @@
 # Part 44 - Workload Characterization, Baselines, Bottlenecks, and QoS
 
-> **Section goal:** Learn to describe what a workload actually asks the storage service to do, translate business expectations into measurable service-level objectives, build comparable baselines, identify saturation and noisy-neighbor mechanisms, and use ONTAP Quality of Service concepts only after evidence shows what should be protected or constrained. By the end, Arti should be able to design representative controlled tests, avoid benchmark traps, compare placement and QoS options, and produce a change-safe recommendation.
+> **Section goal:** Learn to describe what a workload actually asks the storage service to do, translate business expectations into measurable service-level objectives, build comparable baselines, identify saturation and noisy-neighbor mechanisms, and use ONTAP Quality of Service concepts only after evidence shows what should be protected or constrained. By the end, you should be able to design representative controlled tests, avoid benchmark traps, compare placement and QoS options, and produce a change-safe recommendation.
 
 Covers index item **44** and maps directly to job-description responsibilities for customer-data analysis, storage expertise, risk mitigation, solution stability, proactive recommendations, operational reviews, workload planning, upgrade/change advice, and cross-functional influence.
 
@@ -8,7 +8,7 @@ Covers index item **44** and maps directly to job-description responsibilities f
 
 This Part provides no universal latency SLO, saturation threshold, queue-depth target, benchmark value, QoS setting, floor, ceiling, adaptive ratio, burst, default, or hard limit. All numeric examples are synthetic business/workload calculations, not ONTAP recommendations. Conceptual placeholders such as `<approved ceiling>` must be replaced only by an authorized, current-document-supported design.
 
-> **No-production-NetApp boundary:** Arti does not claim production ONTAP performance engineering, benchmarking, placement, or QoS experience. Every workload, baseline, policy, threshold, test, customer, bottleneck, and outcome below is synthetic. Her factual strengths are Microsoft enterprise support, CRITSIT ownership, Azure/M365 data-service and networking analysis, an MBA in Business Analytics, and Excel, Power BI, SQL, Python, statistics, change communication, and customer reviews. The explicit non-claim is: **she has not characterized a production ONTAP workload, set or tuned a production QoS floor/ceiling/adaptive policy, run a NetApp customer benchmark, moved a production workload for performance, or proved a NetApp noisy-neighbor condition.**
+> **No-production-NetApp boundary:** You do not claim production ONTAP performance engineering, benchmarking, placement, or QoS experience. Every workload, baseline, policy, threshold, test, customer, bottleneck, and outcome below is synthetic. Your factual strengths are enterprise support, critical-situation ownership, Azure/M365 data-service and networking analysis, an a postgraduate business-analytics qualification, and Excel, Power BI, SQL, Python, statistics, change communication, and customer reviews. The explicit non-claim is: **you have not characterized a production ONTAP workload, set or tuned a production QoS floor/ceiling/adaptive policy, run a NetApp customer benchmark, moved a production workload for performance, or proved a NetApp noisy-neighbor condition.**
 
 ---
 
@@ -808,21 +808,21 @@ flowchart TD
 
 ### JD Mapping
 
-| JD responsibility | Part 44 contribution | Arti's factual bridge and gap |
+| JD responsibility | Part 44 contribution | Your factual bridge and gap |
 |---|---|---|
 | Generate/analyze customer data | Fingerprints, baselines, segmentation, change points, tests | MBA/Excel/Power BI/SQL/Python transfer strongly |
 | Storage depth | Workload, saturation, noisy-neighbor and ONTAP QoS architecture | Conceptual/synthetic; no production QoS claim |
 | Strategic advice | Placement, protection, capacity, fairness and change tradeoffs | Advisory/business analysis transfer |
-| Risk/stability | Prevents unsafe benchmarking/tuning and identifies saturation | CRITSIT discipline transfers |
+| Risk/stability | Prevents unsafe benchmarking/tuning and identifies saturation | critical-situation discipline transfers |
 | Supportability | Requires exact QoS object/release/app evidence | No customer/gated result claimed |
 | Service reviews | Converts workload/SLO/baseline/policy into decisions | Business-review strength |
-| Influence/adoption | Frames options around app and protection owners | Cross-team Microsoft experience transfers |
+| Influence/adoption | Frames options around app and protection owners | Cross-team prior experience transfers |
 
 ---
 
 ## 19. Fully synthetic scenario: Aster Retail noisy-neighbor decision
 
-> **Synthetic case:** Aster Retail, every workload, SLO, graph, policy, test, and result below is fictional. It is not an ONTAP benchmark, customer data, QoS recommendation, or Arti's production work.
+> **Synthetic case:** Aster Retail, every workload, SLO, graph, policy, test, and result below is fictional. It is not an ONTAP benchmark, customer data, QoS recommendation, or your production work.
 
 ### Environment
 
@@ -940,12 +940,12 @@ The doubled analytics load produces the discriminating change; backup amplifies 
 
 ---
 
-## 20. Arti's analytics, MBA, and Microsoft 365 transfer
+## 20. Your analytics, MBA, and Microsoft 365 transfer
 
 ```mermaid
 flowchart LR
     M365[M365 support/escalations] --> PATH[Workload/user/path/change scoping]
-    CRIT[CRITSIT] --> SAFE[Priorities/owners/communication/change safety]
+    CRIT[Critical situation] --> SAFE[Priorities/owners/communication/change safety]
     MBA[MBA analytics] --> BASE[Segmentation/change points/uncertainty/tradeoffs]
     BI[Excel Power BI SQL Python] --> TEST[Data QA/baselines/tests/dashboards]
     PATH --> METHOD[ONTAP workload/QoS synthetic method]
@@ -960,13 +960,13 @@ flowchart LR
 | Factual strength | Transfer | Honest gap |
 |---|---|---|
 | M365 case patterns | Scope user/client/change and compare cohorts | Not ONTAP workload-object operation |
-| CRITSIT | Protect critical service, owner, rollback and updates | No storage QoS change authority |
+| Critical situation | Protect critical service, owner, rollback and updates | No storage QoS change authority |
 | MBA/statistics | Baselines, change points, scenarios and fairness | No production storage benchmark ownership |
 | Office/SQL/Python | Reproducible workload/test/report pipeline | No customer ONTAP metrics/tool access |
 
 ### Honest interview answer
 
-> "I characterize a workload before proposing QoS: read/write/other mix, size distribution, randomness, concurrency, locality, working set, bursts, seasonality and foreground/background jobs. I tie that to an application SLO, build a comparable versioned baseline, prove a shared-resource/noisy-neighbor mechanism and test one variable. I then consider documented ceiling, floor, adaptive, placement or capacity options. My production evidence is Microsoft support and analytics, not ONTAP QoS operation."
+> "I characterize a workload before proposing QoS: read/write/other mix, size distribution, randomness, concurrency, locality, working set, bursts, seasonality and foreground/background jobs. I tie that to an application SLO, build a comparable versioned baseline, prove a shared-resource/noisy-neighbor mechanism and test one variable. I then consider documented ceiling, floor, adaptive, placement or capacity options. My production evidence is enterprise support and analytics, not ONTAP QoS operation."
 
 ---
 
@@ -1115,7 +1115,7 @@ flowchart LR
 
 ### Q8. How does your background transfer, and what remains a gap?
 
-> **Model answer:** "Microsoft support and CRITSIT work gives me workload/change scoping, dependency evidence, owner coordination and safe change communication. My MBA and Excel, Power BI, SQL, Python and statistics support baselines, segmentation, change points and tests. I have not operated production ONTAP QoS or benchmarks. I would use current docs, authorized telemetry and NetApp/application owners."
+> **Model answer:** "enterprise support and critical-situation work gives me workload/change scoping, dependency evidence, owner coordination and safe change communication. My MBA and Excel, Power BI, SQL, Python and statistics support baselines, segmentation, change points and tests. I have not operated production ONTAP QoS or benchmarks. I would use current docs, authorized telemetry and NetApp/application owners."
 
 ---
 
@@ -1139,7 +1139,7 @@ flowchart LR
 - **QoS:** Allocates finite service; does not create capacity.
 - **Benchmark:** Reproduce the business question, not a headline.
 - **Placement:** Move only after proving placement-related mechanism.
-- **Arti's bridge:** Analytics/change rigor transfers; ONTAP QoS production work does not.
+- **Your bridge:** Analytics/change rigor transfers; ONTAP QoS production work does not.
 
 ---
 

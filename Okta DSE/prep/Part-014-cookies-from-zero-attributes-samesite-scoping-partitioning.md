@@ -19,7 +19,7 @@ sequenceDiagram
     S-->>B: 200 OK, Set-Cookie: sid=abc123; HttpOnly; Secure; SameSite=Lax
     Note over B: Browser stores the cookie against its scope
     B->>S: GET /dashboard, Cookie: sid=abc123
-    S->>S: Look up session abc123 - "this is Arti"
+    S->>S: Look up session abc123 - "this is you"
     S-->>B: 200 the dashboard
     B->>S: GET /orders, Cookie: sid=abc123
     S-->>B: 200 the orders
@@ -367,7 +367,7 @@ This is the highest-frequency SPA ticket after redirect URI mismatch, and it is 
 
 ## 12. Candidate Honesty Note
 
-- **Production transfer:** you have debugged browser-based authentication behavior at Microsoft, including sign-in loops and session persistence, using DevTools and HAR. The instinct to check what the browser stored versus what it sent is genuinely yours.
+- **Production transfer:** you have debugged browser-based authentication behavior in a previous role, including sign-in loops and session persistence, using DevTools and HAR. The instinct to check what the browser stored versus what it sent is genuinely yours.
 - **New here:** the precise `SameSite` semantics, schemeful same-site, the Public Suffix List, CHIPS, and the three-session model stated explicitly. All are learnable in one lab session, and having *observed* them rather than read them is what makes the answers convincing.
 - **The strongest thing you can say:** *"I built a cookie playground and tested every `SameSite` and `Secure` combination against two browsers, including cross-site fetch, iframe, and form POST — so I know from observation which combinations the browser silently rejects."* Very few candidates will have done that.
 - **Never advise** a customer to tell their users to enable third-party cookies. It is not a fix, it does not scale, it will stop working, and it signals that you do not know the supported alternatives.

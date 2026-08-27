@@ -1,10 +1,10 @@
 # Part 109 - Difficult Conversations, Objections, Constructive Debate, and Trust
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 
 > **Purpose:** Explain difficult technical and business conversations from zero, including listening, validation, reframing, evidence versus assumption, disagreement, accountability, scope limits, roadmap pressure, low adoption, data distrust, missed commitments, escalation, apology, transparent recovery, decision records, and trust repair.
 
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH person, product, tenant, conversation, concern, date, metric, commitment, scope, roadmap request, data defect, adoption gap, decision, plan, and result is invented. Arti's factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler, SecOps TSM, commercial negotiation, account ownership, product-roadmap authority, contractual interpretation, customer adoption, executive trust, and customer recovery outcomes remain learning boundaries.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH person, product, tenant, conversation, concern, date, metric, commitment, scope, roadmap request, data defect, adoption gap, decision, plan, and result is invented. Your factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler, SecOps TSM, commercial negotiation, account ownership, product-roadmap authority, contractual interpretation, customer adoption, executive trust, and customer recovery outcomes remain learning boundaries.
 
 > **Currency caveat:** Products, architectures, documentation, support processes, customer priorities, contracts, statements of work, roadmap policy, legal obligations, organizational roles, packaging, and entitlements change. The controlled official-source snapshot and source review date for this Part is exactly **2026-08-24**. Current official technical and ordering documentation, licensed-tenant evidence, customer-authoritative records, contracts, approved product/support/roadmap communication, account leadership, and customer legal/privacy/security/commercial authorities govern production conversations.
 
@@ -56,13 +56,13 @@ flowchart LR
 
 ## Candidate honesty note
 
-Arti can say: "My production background is Microsoft enterprise Support Escalation Engineering rather than owning Zscaler commercial accounts or product roadmaps. I have handled frustrated enterprise customers, challenged and tested technical assumptions, communicated service boundaries and uncertainty, coordinated engineering and customer actions, corrected misunderstandings, delivered bad news, and worked through recovery. I have also mentored engineers on evidence-led communication. I have studied TSM objection and trust-repair methods and practiced these artifacts with fictional data. In a real Zscaler conversation I would verify current product, entitlement, contract, support, roadmap, customer evidence, and communication authority before making a statement or commitment."
+You can say: "My production background is enterprise Support Escalation Engineering rather than owning Zscaler commercial accounts or product roadmaps. I have handled frustrated enterprise customers, challenged and tested technical assumptions, communicated service boundaries and uncertainty, coordinated engineering and customer actions, corrected misunderstandings, delivered bad news, and worked through recovery. I have also mentored engineers on evidence-led communication. I have studied TSM objection and trust-repair methods and practiced these artifacts with fictional data. In a real Zscaler conversation I would verify current product, entitlement, contract, support, roadmap, customer evidence, and communication authority before making a statement or commitment."
 
-Arti should not claim she negotiated contracts, offered service credits, committed Zscaler roadmap dates, managed renewals, repaired a production Zscaler executive relationship, or drove customer adoption unless direct evidence supports it. She can speak confidently about factual difficult escalations while preserving those boundaries.
+You should not claim you negotiated contracts, offered service credits, committed Zscaler roadmap dates, managed renewals, repaired a production Zscaler executive relationship, or drove customer adoption unless direct evidence supports it. You can speak confidently about factual difficult escalations while preserving those boundaries.
 
 | Factual background | Transferable strength | Neutral wording | Unsupported statement to avoid |
 |---|---|---|---|
-| Microsoft escalation engineering | Hear impact, manage conflict, test claims, coordinate recovery | "I stay evidence-led and accountable in high-pressure conversations." | "I repaired strategic Zscaler accounts." |
+| enterprise escalation engineering | Hear impact, manage conflict, test claims, coordinate recovery | "I stay evidence-led and accountable in high-pressure conversations." | "I repaired strategic Zscaler accounts." |
 | Microsoft product/service support | Explain documented behavior, limits, workarounds, and escalation paths | "I can give a bounded answer and useful next step." | "I know every Zscaler entitlement and limitation." |
 | Network and trace analysis | Turn competing explanations into discriminating checks | "I move disagreement toward falsifiable evidence." | "I proved customer or Zscaler fault." |
 | SQL and Power BI | Reconcile data definitions, populations, filters, and trends | "I treat dashboard distrust as a testable quality question." | "I proved customer value or adoption." |
@@ -801,7 +801,7 @@ Choose a fictional event that damaged honesty and reliability. Design two small 
 
 ### Exercise 8 - Candidate honesty rehearsal
 
-Answer: "Tell me about a difficult customer conversation." Use a factual Microsoft escalation example if personally supportable. Describe listening, evidence, disagreement, boundary, accountability, and recovery. Do not rename it as Zscaler TSM, commercial negotiation, roadmap ownership, or customer adoption. Label NMH scripts as fictional practice.
+Answer: "Tell me about a difficult customer conversation." Use a factual enterprise escalation example if personally supportable. Describe listening, evidence, disagreement, boundary, accountability, and recovery. Do not rename it as Zscaler TSM, commercial negotiation, roadmap ownership, or customer adoption. Label NMH scripts as fictional practice.
 
 ## Customer discovery questions
 
@@ -875,9 +875,9 @@ The Zscaler sources support dated public product, support, investor, and securit
 
 **Model answer:** I identify whether competence, honesty, reliability, care, or alignment was damaged. I name the event, impact, responsibility, and affected decisions; correct the immediate issue; change the relevant technical, process, or communication control; and make a small authorized commitment with visible evidence and a backup path. I keep or renegotiate it early, ask whether the concern changed, and continue predictable behavior. I never declare trust restored on the customer's behalf.
 
-### Q8. How does Arti's background transfer honestly to difficult conversations?
+### Q8. How does your background transfer honestly to difficult conversations?
 
-**Model answer:** Microsoft escalation engineering required her to work with frustrated enterprise customers, validate impact, test competing explanations, explain boundaries and unknowns, coordinate engineering/customer actions, communicate bad news, and recover service. Networking and data skills help make disagreements testable; mentoring supports respectful coaching. The boundary is that she should not claim Zscaler account ownership, commercial negotiation, roadmap authority, production SecOps adoption, or customer trust outcomes. These artifacts demonstrate preparation, not invented history.
+**Model answer:** enterprise escalation engineering required you to work with frustrated enterprise customers, validate impact, test competing explanations, explain boundaries and unknowns, coordinate engineering/customer actions, communicate bad news, and recover service. Networking and data skills help make disagreements testable; mentoring supports respectful coaching. The boundary is that you should not claim Zscaler account ownership, commercial negotiation, roadmap authority, production SecOps adoption, or customer trust outcomes. These artifacts demonstrate preparation, not invented history.
 
 ## 30-Second Memory Hooks
 
@@ -901,7 +901,7 @@ The Zscaler sources support dated public product, support, investor, and securit
 | Trust | Predictable competent honest behavior |
 | Trust repair | Small commitment, visible proof, repeated follow-through |
 | Decision record | Facts, options, authority, rationale, revisit |
-| Arti bridge | Difficult escalation experience transfers; account/roadmap authority does not |
+| Experience bridge | Difficult escalation experience transfers; account/roadmap authority does not |
 
 ## Completion Checklist
 
@@ -923,6 +923,6 @@ The Zscaler sources support dated public product, support, investor, and securit
 - [ ] I can escalate for authority, expertise, capacity, risk, conduct, or scope without threat or surprise.
 - [ ] I can protect personal, contractual, commercial, roadmap, incident, security, and sentiment information.
 - [ ] I can use the objection, preparation, script, claim, decision, roadmap, adoption, data, commitment, trust, escalation, and quality artifacts.
-- [ ] I can describe Arti's transferable experience without claiming production Zscaler account, commercial, roadmap, adoption, or trust outcomes.
+- [ ] I can describe your transferable experience without claiming production Zscaler account, commercial, roadmap, adoption, or trust outcomes.
 
 [Next: Part 110 - Mentoring, Service Quality, Knowledge Scaling, and 30/60/90-Day Ramp](Part-110-mentoring-service-quality-ramp.md)

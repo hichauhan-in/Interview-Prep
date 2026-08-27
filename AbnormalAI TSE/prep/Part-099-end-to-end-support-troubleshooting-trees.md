@@ -2,13 +2,13 @@
 
 > **Purpose:** Integrate configuration, connectivity, identity, API, behavioral false-positive, email-delivery, and threat-investigation reasoning into one product-neutral L1 support runbook. Each path moves explicitly from symptom to hypothesis to test to observation to next action, while preserving customer safety, evidence quality, and escalation boundaries.
 >
-> **Artifact honesty label:** **Local synthetic multi-scenario troubleshooting runbook design only.** Every tenant, user, message, request, policy, event, timestamp, identifier, result, and support case in this Part is fictional. No lab step was executed. No Abnormal AI, Microsoft, customer, mailbox, identity provider, API, network, security console, or production environment was accessed or changed. Arti may describe the runbook as completed only after she actually performs the local tabletop lab with learner-authored synthetic text and records a passing review.
+> **Artifact honesty label:** **Local synthetic multi-scenario troubleshooting runbook design only.** Every tenant, user, message, request, policy, event, timestamp, identifier, result, and support case in this Part is fictional. No lab step was executed. No Abnormal AI, Microsoft, customer, mailbox, identity provider, API, network, security console, or production environment was accessed or changed. You may describe the runbook as completed only after you actually perform the local tabletop lab with learner-authored synthetic text and records a passing review.
 >
 > **Currency and source access date:** August 24, 2026.
 
 ## Section goal
 
-The goal is to make L1 troubleshooting consistent without making it mechanical. By the end of this Part, Arti should be able to accept an ambiguous customer symptom, classify it without prematurely assigning a cause, protect the customer from unsafe testing, and choose the smallest observation that separates the leading explanations. She should then either resolve within documented L1 authority or escalate with a concise evidence-backed question.
+The goal is to make L1 troubleshooting consistent without making it mechanical. By the end of this Part, you should be able to accept an ambiguous customer symptom, classify it without prematurely assigning a cause, protect the customer from unsafe testing, and choose the smallest observation that separates the leading explanations. You should then either resolve within documented L1 authority or escalate with a concise evidence-backed question.
 
 The primary artifact is a **multi-scenario troubleshooting runbook**. It contains a universal intake-and-routing tree plus seven specialist trees: configuration, connectivity, identity, API, behavioral false positive, email delivery, and threat investigation. Each specialist path includes a worked fictional case, misleading signals, failure modes, an evidence ceiling, escalation triggers, and a stop condition.
 
@@ -48,22 +48,22 @@ This runbook explicitly prohibits broad collection; collection of passwords, tok
 | Complex investigations | Uses competing hypotheses and discriminating tests across systems | Symptom-hypothesis-test-observation-next-action ledger | Seven worked case records |
 | Customer trust | Avoids speculative blame, unsafe changes, overcollection, and silent handoffs | Evidence ceiling, communication points, and stop rules | Customer-safe status templates |
 | Engineering and Product collaboration | Escalates a reproducible boundary, observations, attempted tests, and one explicit ask | Escalation packet schema | Product-neutral handoff template |
-| Microsoft enterprise support transfer | Reuses ownership, scoping, customer communication, escalation, and validation habits | Candidate transfer examples throughout | Truthful Microsoft-to-Abnormal bridge |
+| enterprise support transfer | Reuses ownership, scoping, customer communication, escalation, and validation habits | Candidate transfer examples throughout | Truthful support-to-Abnormal bridge |
 | Abnormal product support | Uses current public product context without inventing fields, tools, thresholds, internals, or entitlements | Product-boundary notes in every path | Learned architecture only |
 
 ## Candidate honesty note
 
-Arti has a credible enterprise-support foundation from Microsoft work involving SharePoint Online, OneDrive, Sync Client, Copilot, customer and partner communication, complex escalation, CRITSIT handling, Engineering or Product collaboration, and fix validation. Those experiences can demonstrate ownership, evidence discipline, expectation management, and calm investigation under pressure. They do not establish direct operation of Abnormal AI, email-security verdict systems, proprietary behavioral models, or Abnormal internal case processes.
+You have a credible enterprise-support foundation from prior work involving SharePoint Online, OneDrive, Sync Client, Copilot, customer and partner communication, complex escalation, critical-situation handling, Engineering or Product collaboration, and fix validation. Those experiences can demonstrate ownership, evidence discipline, expectation management, and calm investigation under pressure. They do not establish direct operation of Abnormal AI, email-security verdict systems, proprietary behavioral models, or Abnormal internal case processes.
 
-The safest interview bridge is method-based: “In Microsoft enterprise support, I learned to separate the reported symptom from the cause, compare affected and healthy scope, preserve timestamps and identifiers, choose a low-risk test, and escalate with a clear question. I have not operated Abnormal AI in production. I would apply the same disciplined method while learning the approved Abnormal evidence, product semantics, permissions, and escalation boundaries.”
+The safest interview bridge is method-based: “In enterprise support, I learned to separate the reported symptom from the cause, compare affected and healthy scope, preserve timestamps and identifiers, choose a low-risk test, and escalate with a clear question. I have not operated Abnormal AI in production. I would apply the same disciplined method while learning the approved Abnormal evidence, product semantics, permissions, and escalation boundaries.”
 
-| Evidence tier | Safe wording Arti can adapt | Boundary to preserve |
+| Evidence tier | Safe wording you can adapt | Boundary to preserve |
 |---|---|---|
-| Microsoft production transfer | “I used structured scoping, targeted diagnostics, customer updates, escalation, and validation in Microsoft enterprise support.” | Use a real permitted example and exact personal contribution; do not imply email-security or Abnormal operations |
+| prior production transfer | “I used structured scoping, targeted diagnostics, customer updates, escalation, and validation in enterprise support.” | Use a real permitted example and exact personal contribution; do not imply email-security or Abnormal operations |
 | Local synthetic practice | “I completed a seven-scenario tabletop runbook using fictional records and no external systems.” | Say this only after actual completion; this authored lesson itself was not executed |
 | Learned architecture | “I understand how configuration, connectivity, identity, APIs, mail flow, behavioral review, and threat evidence intersect.” | Architecture understanding is not production access, product certification, or internal workflow knowledge |
 | Proposed L1 action | “I would verify the documented expected behavior, collect the minimum approved evidence, and use the current escalation route.” | Do not invent an Abnormal console control, log name, field, model feature, threshold, permission, or queue |
-| No direct experience | “I have not supported Abnormal AI directly. My closest evidence is Microsoft enterprise support plus synthetic practice.” | State the gap directly, then explain a concrete learning and validation approach |
+| No direct experience | “I have not supported Abnormal AI directly. My closest evidence is enterprise support plus synthetic practice.” | State the gap directly, then explain a concrete learning and validation approach |
 | Security action | “I would keep ownership while routing containment to the authorized customer or incident-response owner.” | Do not claim authority to quarantine, revoke, disable, delete, or change customer state |
 
 No example below claims a real Abnormal field, internal telemetry source, workflow, service architecture, response time, entitlement, threshold, or remediation action. Public Abnormal pages establish high-level current positioning only. Current customer documentation, contractual scope, role permissions, internal runbooks, and authorized product owners must control real work.
@@ -688,7 +688,7 @@ The lab objective is to route seven fictional symptoms, write a five-column reas
 
 - A learner-owned local folder and UTF-8 text editor.
 - A printed or local copy of the seven scenario templates from this Part.
-- No Abnormal AI account, Microsoft production account, customer tenant, mailbox, identity provider, API credential, support portal, corporate case export, or external system.
+- No Abnormal AI account, prior production account, customer tenant, mailbox, identity provider, API credential, support portal, corporate case export, or external system.
 - No password, token, cookie, API key, client secret, webhook secret, private key, MFA code, recovery code, authenticated connection string, or realistic credential-shaped value.
 - No real person, customer, tenant, domain, IP address, hostname, email address, message ID, message body, attachment, URL, support ticket, or production log.
 - Use only reserved names such as `example.invalid` and obvious aliases beginning `CASE-099-`, `principal-A099`, `msg-A099`, `req-A099`, `policy-A099`, and `corr-A099`.
@@ -814,7 +814,7 @@ If the lab is actually performed later, expected evidence is:
 - Do not make an unapproved account, role, consent, session, policy, connector, DNS, routing, mailbox, allowlist, threshold, or configuration change.
 - Do not run destructive tests or delete, purge, clear, wipe, reset, quarantine, release, remediate, revoke, or alter any real data or system.
 - Verify that every scenario is explicitly fictional and every field needed for correlation is an obvious case-local alias.
-- Verify that no statement implies the lab was executed during authoring or that Arti has direct Abnormal production experience.
+- Verify that no statement implies the lab was executed during authoring or that you have direct Abnormal production experience.
 - Verify that each proposed real-world action is conditioned on current approved documentation, authority, and product semantics.
 - If real or sensitive data enters the folder, stop copying and sharing it, restrict further exposure, and use the approved security/privacy process. This lesson grants no response authority.
 - If unperformed, record `TroubleshootingLab 099 remains a reviewed design and was not executed.`
@@ -842,7 +842,7 @@ If the lab is actually performed later, expected evidence is:
 | Safety | Bypass, disablement, real phishing, unapproved change, destructive test, sensitive upload, or broad collection | General warning | Explicit prohibitions and scenario-specific stop conditions enforced |
 | Privacy | Realistic or sensitive data | Aliases mixed with excess fields | Obvious aliases, minimum fields, no secrets/content/external transfer |
 | Handoff | Data dump or “please investigate” | Summary without ask | Outcome, timeline, ledger, ceiling, safety, exact ask, owner, update, success check |
-| Candidate honesty | Implies Abnormal experience or internals | Lab labeled synthetic | Microsoft transfer, local practice, learned architecture, and direct gap separated |
+| Candidate honesty | Implies Abnormal experience or internals | Lab labeled synthetic | experience transfer, local practice, learned architecture, and direct gap separated |
 | Execution honesty | Design described as performed | State unclear | Not-executed state explicit; completion conditional on actual local pass |
 | Deterministic review | No recorded checks | Informal review | Every gate scored, failures repaired within maximum three cycles, final status explicit |
 | Spoken readiness | Reads the tree only | Explains steps | Defends test choice, limitations, stop point, and customer communication aloud |
@@ -870,7 +870,7 @@ These official or primary sources anchor public product context, email and HTTP 
 | [NIST SP 800-207 - Zero Trust Architecture](https://csrc.nist.gov/pubs/sp/800/207/final) | Explicit verification, resource-focused access, and policy decision/enforcement concepts | Architecture guidance, not proof of any vendor implementation or permission to alter controls |
 | [Microsoft Graph authentication and authorization basics](https://learn.microsoft.com/en-us/graph/auth/auth-concepts) | Official Microsoft example separating app registration, permissions, tokens, delegated and application access | Microsoft Graph-specific; does not define Abnormal integration design or candidate production experience |
 | [Microsoft Graph error responses](https://learn.microsoft.com/en-us/graph/errors) | Official example of status, machine-readable error, request ID, time, and nested detail | Endpoint-specific codes and contracts control; Microsoft semantics do not transfer automatically |
-| [Microsoft Defender for Office 365 - Resolve email false positives](https://learn.microsoft.com/en-us/defender-office-365/step-by-step-guides/how-to-handle-false-positives-in-microsoft-defender-for-office-365) | Current Microsoft example of evidence review, policy/override checks, source correction, submission, and validation | Microsoft workflow, licensing, permissions, and fields are not Abnormal workflow or proof of Arti's use |
+| [Microsoft Defender for Office 365 - Resolve email false positives](https://learn.microsoft.com/en-us/defender-office-365/step-by-step-guides/how-to-handle-false-positives-in-microsoft-defender-for-office-365) | Current Microsoft example of evidence review, policy/override checks, source correction, submission, and validation | Microsoft workflow, licensing, permissions, and fields are not Abnormal workflow or proof of your use |
 | [Microsoft Exchange Online NDR guidance](https://learn.microsoft.com/en-us/exchange/mail-flow-best-practices/non-delivery-reports-in-exchange-online/non-delivery-reports-in-exchange-online) | Current Microsoft example of NDR structure, generating server, codes, and diagnostic context | Exchange Online-specific presentation and tooling; general SMTP standards and current provider docs still apply |
 | [Microsoft incident response overview](https://learn.microsoft.com/en-us/security/operations/incident-response-overview) | Official Microsoft incident-response preparation, coordination, containment, recovery, and lessons concepts | Microsoft guidance does not make Support the incident commander or authorize customer actions |
 
@@ -879,14 +879,14 @@ Source discipline:
 - Public Abnormal pages support only attributable, high-level product context. They do not reveal internal algorithms, model features, customer data, console fields, case routes, or L1 authority.
 - RFCs define protocol semantics, not every provider's operational behavior or application contract.
 - NIST publications provide risk and incident-response guidance, not authorization to collect evidence or change systems.
-- Microsoft sources are useful for Arti's conceptual bridge and truthful Microsoft examples; their fields, roles, tools, licensing, and procedures do not describe Abnormal.
+- Microsoft sources are useful for your conceptual bridge and truthful Microsoft examples; their fields, roles, tools, licensing, and procedures do not describe Abnormal.
 - Product pages, documentation, and interfaces can change after August 24, 2026. Current approved sources and organizational procedures override this study artifact.
 
 ## Likely Interview Questions
 
 ### Q1. How do you approach an ambiguous L1 support symptom?
 
-**Model answer:** I first write expected versus actual behavior, affected and unaffected scope, event time, recent changes, impact, and authority. I separate the customer's observation from their proposed cause, then list at least two hypotheses with different predicted evidence. I choose the smallest authorized low-risk test that distinguishes them, record the observation with source and limitations, and select the next action. I stop unsafe testing but retain case ownership. My Microsoft support experience gives me this investigation discipline; I would learn Abnormal's current product evidence and escalation rules rather than assume them.
+**Model answer:** I first write expected versus actual behavior, affected and unaffected scope, event time, recent changes, impact, and authority. I separate the customer's observation from their proposed cause, then list at least two hypotheses with different predicted evidence. I choose the smallest authorized low-risk test that distinguishes them, record the observation with source and limitations, and select the next action. I stop unsafe testing but retain case ownership. My prior support experience gives me this investigation discipline; I would learn Abnormal's current product evidence and escalation rules rather than assume them.
 
 ### Q2. How do you keep observation, inference, and cause separate?
 
@@ -914,7 +914,7 @@ Source discipline:
 
 ### Q8. What makes an escalation useful to Engineering or Product?
 
-**Model answer:** A useful escalation contains the customer outcome, expected versus actual behavior, bounded scope and UTC timeline, environment/version, active and rejected hypotheses, exact safe tests, source observations, matched control, evidence limitations, and one explicit product-owned question. It also says what was deliberately not done for safety. I preserve an evidence ceiling and continue customer updates during handoff. That approach transfers from my Microsoft enterprise support work, while Abnormal's actual telemetry, workflow, permissions, and ownership would be learned from current approved sources.
+**Model answer:** A useful escalation contains the customer outcome, expected versus actual behavior, bounded scope and UTC timeline, environment/version, active and rejected hypotheses, exact safe tests, source observations, matched control, evidence limitations, and one explicit product-owned question. It also says what was deliberately not done for safety. I preserve an evidence ceiling and continue customer updates during handoff. That approach transfers from my prior enterprise support work, while Abnormal's actual telemetry, workflow, permissions, and ownership would be learned from current approved sources.
 
 ## Memory Hooks
 
@@ -935,7 +935,7 @@ Source discipline:
 - **Stop the unsafe test, not case ownership.**
 - **Evidence ceiling before escalation.**
 - **No broad collection, bypass, disablement, real phishing, unapproved change, destructive test, or sensitive upload.**
-- **Microsoft support method transfers; Abnormal internals do not.**
+- **enterprise support method transfers; Abnormal internals do not.**
 - **Designed is not executed.**
 
 ## Completion Checklist
@@ -986,7 +986,7 @@ Source discipline:
 - [ ] My handoff includes customer outcome, timeline, route, hypotheses, tests, observations, evidence ceiling, safety record, explicit ask, owner, update, and success check.
 - [ ] I can write a customer update that distinguishes observed fact, inference, and unproven cause.
 - [ ] I can ask Engineering or Product one precise question instead of sending a data dump.
-- [ ] I can explain how Microsoft enterprise support skills transfer without claiming direct Abnormal experience.
+- [ ] I can explain how enterprise support skills transfer without claiming direct Abnormal experience.
 - [ ] I make no unsupported claim about Abnormal fields, logs, algorithms, model features, thresholds, tools, entitlements, permissions, workflows, actions, or response times.
 - [ ] I can explain the current-product boundary for every official source.
 - [ ] I revalidate product documentation and organizational procedure after August 24, 2026.

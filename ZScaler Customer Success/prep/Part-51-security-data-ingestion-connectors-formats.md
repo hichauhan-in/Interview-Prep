@@ -1,10 +1,10 @@
 # Part 51 - Security Data Ingestion: APIs, Connectors, Files, and Formats
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 >
 > **Purpose:** Explain how security data enters and leaves a data platform through APIs, webhooks, agents, syslog, connectors, and files; how JSON, JSONL, CSV, XML, ZIP, ZST, and ZSTD differ; and how authentication, pagination, throttling, validation, quarantine, provenance, large files, partial loads, security, and troubleshooting fit together.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every endpoint, credential, source, connector, payload, file, event, limit, schedule, response, checksum, count, error, configuration, lab result, and code example in this Part is synthetic. Official Zscaler public material is quoted only at its documented level: the Data Fabric page reviewed on 2026-08-24 names JSON, JSONL, CSV, ZIP, XML, ZST, and ZSTD and states support for 150 pre-built inbound and outbound integrations. This Part does not infer per-connector authentication, API paths, schedules, limits, schemas, delivery guarantees, availability, or production behavior. Arti's API, JSON, networking, TLS, proxy, sync, log, and escalation experience transfers; direct production Zscaler Data Fabric administration remains a learning boundary.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every endpoint, credential, source, connector, payload, file, event, limit, schedule, response, checksum, count, error, configuration, lab result, and code example in this Part is synthetic. Official Zscaler public material is quoted only at its documented level: the Data Fabric page reviewed on 2026-08-24 names JSON, JSONL, CSV, ZIP, XML, ZST, and ZSTD and states support for 150 pre-built inbound and outbound integrations. This Part does not infer per-connector authentication, API paths, schedules, limits, schemas, delivery guarantees, availability, or production behavior. Your API, JSON, networking, TLS, proxy, sync, log, and escalation experience transfers; direct production Zscaler Data Fabric administration remains a learning boundary.
 >
 > **Currency caveat:** Product pages, integration catalogs, APIs, formats, libraries, security guidance, connector behavior, and standards evolve. Sources in this Part were reviewed on **2026-08-24**. Current official product/help documentation, tenant-visible configuration, source-vendor contracts, approved security/privacy architecture, observed responses, and Zscaler/source specialists govern production.
 
@@ -14,7 +14,7 @@ Ingestion is the controlled crossing of a trust boundary. Bytes arrive from a so
 
 Think of receiving cargo at a port. A sealed container is not trusted merely because it arrived. The port checks sender authority, manifest, seal, weight, hazardous contents, destination, and count; damaged or unexplained cargo goes to inspection rather than the production floor. APIs, files, webhooks, and agents are different transport modes for the same custody problem.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Evidence artifact |
 |---|---|---|
@@ -48,7 +48,7 @@ flowchart LR
 
 ## JD Mapping
 
-| Role expectation | Part 51 capability | TSM artifact | Arti bridge and boundary |
+| Role expectation | Part 51 capability | TSM artifact | experience bridge and boundary |
 |---|---|---|---|
 | Analyze technical environments | Inventory sources, directions, auth, formats, schedules, scopes, and owners | Connector inventory | M365/API troubleshooting transfers |
 | Develop Data Fabric expertise | Use official format/integration statements without inventing connector internals | Product-fact matrix | Tenant behavior must be verified |
@@ -778,7 +778,7 @@ flowchart TD
 
 When data is missing, "the connector is broken" is too broad. The failure can be source export, permission, DNS, TLS, proxy, API page loop, throttle, truncated archive, parser, schema, mapping, identity, target write, or dashboard refresh.
 
-Arti's escalation advantage is boundary isolation: identify the last confirmed good artifact and first bad/missing artifact, with timestamps and ownership. This produces a useful Zscaler/source/customer escalation without pretending to know undocumented internals.
+Your escalation advantage is boundary isolation: identify the last confirmed good artifact and first bad/missing artifact, with timestamps and ownership. This produces a useful Zscaler/source/customer escalation without pretending to know undocumented internals.
 
 ## Security and privacy boundaries
 
@@ -1087,7 +1087,7 @@ IETF/W3C/format sources define their respective standards, not a complete connec
 | Partial load | Plausible is not complete |
 | Large file | Stream, bound, verify, atomically publish |
 | Zscaler boundary | Public formats/catalog; connector details must be verified |
-| Arti bridge | API/network evidence transfers; production product use does not |
+| Experience bridge | API/network evidence transfers; production product use does not |
 
 ## Completion Checklist
 

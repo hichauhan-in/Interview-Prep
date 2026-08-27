@@ -45,7 +45,7 @@ flowchart TD
 | Write a reproduction script | ✅ | You run it |
 | Rewrite for another audience | ✅ | You read the result |
 
-> 💡 **Tie-in to your background:** you hold AI-102, AI-900, and Copilot Studio certifications and have supported Copilot. **You are unusually well placed to speak about AI in support credibly** — including about its limits, which is what makes it credible.
+> 💡 **Tie-in to your background:** you hold relevant AI certifications and have supported Copilot. **You are unusually well placed to speak about AI in support credibly** — including about its limits, which is what makes it credible.
 
 ### 🔍 Plain-English deep-dive: what must never go in
 
@@ -432,7 +432,7 @@ A developer writes:
 
 ## 9. Candidate Honesty Note
 
-- **Production experience:** supporting Copilot; AI-102, AI-900, and Copilot Studio certifications — genuine grounding in how these systems behave and fail.
+- **Production experience:** supporting Copilot; relevant AI certifications — genuine grounding in how these systems behave and fail.
 - **Production experience:** customer data handling discipline in an enterprise environment.
 - **Lab experience:** building shape-only description patterns, testing hypothesis-first comparison, and evaluating AI security suggestions, as above.
 - **Learned architecture:** the verifiability boundary and the dependence risk.

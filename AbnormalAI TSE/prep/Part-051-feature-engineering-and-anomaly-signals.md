@@ -27,11 +27,11 @@ After completing this Part, you should be able to:
 - define feature quality across validity, completeness, consistency, timeliness, uniqueness, provenance, and stability;
 - reason about feature drift, schema drift, source drift, and meaning drift;
 - map support-visible symptoms to ingestion, parsing, identity resolution, windowing, transformation, model, policy, or presentation layers; and
-- use Arti's analytics/SQL/Python, Copilot evaluation/training, support trends, fix validation, and customer communication only as transferable facts.
+- use your analytics/SQL/Python, Copilot evaluation/training, support trends, fix validation, and customer communication only as transferable facts.
 
 ## JD Mapping
 
-| Supplied role signal | Capability built | Transferable Arti evidence | Boundary |
+| Supplied role signal | Capability built | Transferable evidence | Boundary |
 |---|---|---|---|
 | Behavioral false-positive ownership | Traces feature inputs, time windows, missingness, and comparison context | Structured troubleshooting and fix validation | No claim of viewing or editing Abnormal hidden features |
 | Threat investigations | Separates weak signals, interactions, and corroboration | Complex investigations and evidence packages | No production security-model design claim |
@@ -46,7 +46,7 @@ After completing this Part, you should be able to:
 
 | Evidence tier | Safe statement | Must not be implied |
 |---|---|---|
-| **Production transfer** | "I have validated raw versus transformed support evidence, compared cohorts and time windows, and used analytics to find patterns." | That Arti built Abnormal production features |
+| **Production transfer** | "I have validated raw versus transformed support evidence, compared cohorts and time windows, and used analytics to find patterns." | That you built Abnormal production features |
 | **Local/public lab** | "I designed and hand-calculated a fictional feature table for a synthetic BEC case." | That a model was trained or a customer event was processed |
 | **Learned architecture** | "I understand feature quality, leakage, transformation, and responsible-AI concepts from official sources." | That generic patterns match Abnormal implementation |
 | **No direct experience** | "I have not operated Abnormal AI in production or inspected its proprietary feature pipeline." | Knowledge of embeddings, weights, thresholds, training data, or code |

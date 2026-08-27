@@ -1,10 +1,10 @@
 # Part 53 - Software, Hardware, Firmware, and Support Lifecycle Management
 
-> **Section goal:** Build a current, source-backed lifecycle view across ONTAP, hardware, firmware, host operating systems, hypervisors, switches, applications, contracts, and customer services. By the end, Arti should be able to use source-native lifecycle terminology, distinguish availability from support and entitlement, calculate risk horizons, expose dependency deadlines, and produce a multi-year roadmap tied to budget, maintenance windows, ownership, and validation.
+> **Section goal:** Build a current, source-backed lifecycle view across ONTAP, hardware, firmware, host operating systems, hypervisors, switches, applications, contracts, and customer services. By the end, you should be able to use source-native lifecycle terminology, distinguish availability from support and entitlement, calculate risk horizons, expose dependency deadlines, and produce a multi-year roadmap tied to budget, maintenance windows, ownership, and validation.
 
 Covers index item **53** and maps directly to job-description responsibilities for proactive lifecycle risk, install-base management, upgrade and refresh strategy, contract/renewal planning, customer-specific roadmaps, service reviews, technical-debt reduction, and cross-functional program governance.
 
-**Explicit nonclaim:** Arti has not owned a production NetApp lifecycle roadmap or approved a live product-support milestone.
+**Explicit nonclaim:** You have not owned a production NetApp lifecycle roadmap or approved a live product-support milestone.
 
 **Privacy and access boundary:** Customer inventory, contracts, entitlement, budgets, procurement plans, support dates, and migration decisions require authorized access and controlled disclosure.
 
@@ -14,7 +14,7 @@ Covers index item **53** and maps directly to job-description responsibilities f
 
 This Part deliberately avoids inventing NetApp lifecycle stage labels. It uses current source-native terms and stores the underlying support capabilities/dates instead of translating them into undocumented colors such as “mainstream,” “extended,” or “obsolete.” Customer contract entitlement is separate from product/version lifecycle and must be confirmed through authorized systems.
 
-> **No-production-NetApp boundary:** Arti does not claim production NetApp lifecycle ownership. Every platform, release, firmware, date, contract, customer, budget, and roadmap example below is synthetic. Her factual strengths are Microsoft product/service lifecycle planning, Azure/M365 change governance, Windows/network dependency coordination, customer roadmaps, inventory analytics, risk registers, and executive communication. The explicit non-claim is: **she has not approved a NetApp lifecycle roadmap, interpreted a customer's NetApp contract, committed a NetApp support date, selected a production ONTAP target, or executed NetApp firmware/hardware refresh.**
+> **No-production-NetApp boundary:** You do not claim production NetApp lifecycle ownership. Every platform, release, firmware, date, contract, customer, budget, and roadmap example below is synthetic. Your factual strengths are Microsoft product/service lifecycle planning, Azure/M365 change governance, Windows/network dependency coordination, customer roadmaps, inventory analytics, risk registers, and executive communication. The explicit non-claim is: **you have not approved a NetApp lifecycle roadmap, interpreted a customer's NetApp contract, committed a NetApp support date, selected a production ONTAP target, or executed NetApp firmware/hardware refresh.**
 
 ---
 
@@ -554,7 +554,7 @@ flowchart LR
 
 ---
 
-## 13. Discovery, JD Mapping, and Arti transfer
+## 13. Discovery, JD Mapping, and experience transfer
 
 ### Discovery questions
 
@@ -571,7 +571,7 @@ flowchart LR
 
 ### JD Mapping
 
-| JD responsibility | Part 53 contribution | Arti's factual bridge and gap |
+| JD responsibility | Part 53 contribution | Your factual bridge and gap |
 |---|---|---|
 | Lifecycle management | Source-native product/version/firmware/contract dependency model | Microsoft lifecycle planning transfers; no NetApp commitments claimed |
 | Install-base analysis | Exact assets/versions/firmware/entitlement/owners | Data-quality strengths transfer |
@@ -722,7 +722,7 @@ flowchart LR
 - **Unknown date:** Scenario plus owner, never arithmetic from memory.
 - **Technical debt:** Delayed alignment with measurable consequence/horizon.
 - **Cadence:** Monthly, quarterly, annual, event-driven, and pre-change refresh.
-- **Arti's bridge:** Lifecycle governance transfers; NetApp commitment authority does not.
+- **Your bridge:** Lifecycle governance transfers; NetApp commitment authority does not.
 
 ---
 

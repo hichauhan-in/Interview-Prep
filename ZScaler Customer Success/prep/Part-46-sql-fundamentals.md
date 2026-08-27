@@ -1,10 +1,10 @@
 # Part 46 - SQL Fundamentals for Security and Customer Analytics
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 >
 > **Purpose:** Build SQL from zero through correct read-only analysis: `SELECT`, `FROM`, `WHERE`, predicates, null and three-valued logic, aliases, expressions, `CASE`, types, casts, string/date/numeric functions, `DISTINCT`, deterministic ordering and limits, grouping, aggregates, denominators, safe execution, troubleshooting, and answer-backed exercises on a synthetic NMH schema.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every table, user, asset, finding, control observation, ticket, source, query result, threshold, and outcome is synthetic. SQL examples target PostgreSQL and use general ANSI/ISO SQL concepts where practical. They are not Zscaler schemas, queries, or production recommendations. Arti has SQL, PostgreSQL, Power BI, statistics, business analytics, and Microsoft enterprise troubleshooting experience; direct production operation of Zscaler Data Fabric for Security remains a learning boundary.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every table, user, asset, finding, control observation, ticket, source, query result, threshold, and outcome is synthetic. SQL examples target PostgreSQL and use general ANSI/ISO SQL concepts where practical. They are not Zscaler schemas, queries, or production recommendations. You have SQL, PostgreSQL, Power BI, statistics, business analytics, and enterprise troubleshooting experience; direct production operation of Zscaler Data Fabric for Security remains a learning boundary.
 >
 > **Currency caveat:** SQL implementations, PostgreSQL versions, functions, implicit casts, null ordering, collations, query plans, permissions, customer schemas, and product capabilities change. Sources in this Part were reviewed on **2026-08-24**. Current deployed-version documentation, read-only access policy, source contracts, data classification, approved query practices, and measured plans govern production.
 
@@ -14,7 +14,7 @@ SQL is a language for describing a result, not a list of instructions for readin
 
 Think of a restaurant order. `FROM` identifies the pantry or menu source. `WHERE` states which ingredients qualify. `GROUP BY` collects ingredients into dishes. `HAVING` removes dishes that do not meet a group rule. `SELECT` chooses what appears on the plate. `DISTINCT` removes identical plates. `ORDER BY` arranges them. `LIMIT` serves only the requested number. The kitchen may choose an efficient preparation order, but the promised result follows the order's meaning.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Proof artifact |
 |---|---|---|
@@ -45,7 +45,7 @@ flowchart LR
 
 ## JD Mapping
 
-| Role expectation | Part 46 capability | TSM artifact | Arti bridge and boundary |
+| Role expectation | Part 46 capability | TSM artifact | experience bridge and boundary |
 |---|---|---|---|
 | Analyze security/customer data | Write bounded, reproducible read-only queries | Query workbook | SQL/PostgreSQL experience transfers |
 | Troubleshoot complex issues | Isolate predicate, null, type, time, group, and data-quality errors | Incorrect-result runbook | Microsoft fault isolation transfers |
@@ -1257,7 +1257,7 @@ PostgreSQL documentation establishes behavior for the current documentation vers
 
 ### Q8. How does your background transfer to security SQL and Data Fabric work?
 
-**Model answer:** My SQL, PostgreSQL, Power BI, statistics, Microsoft support analytics, and evidence-based troubleshooting give me practical skill with grain, nulls, time, types, aggregates, denominators, quality, and customer explanation. I have rehearsed those skills on synthetic NMH security data. I do not claim a Zscaler SQL schema or production Data Fabric access; I would validate current product interfaces, tenant evidence, contracts, and specialist guidance.
+**Model answer:** My SQL, PostgreSQL, Power BI, statistics, enterprise support analytics, and evidence-based troubleshooting give me practical skill with grain, nulls, time, types, aggregates, denominators, quality, and customer explanation. I have rehearsed those skills on synthetic NMH security data. I do not claim a Zscaler SQL schema or production Data Fabric access; I would validate current product interfaces, tenant evidence, contracts, and specialist guidance.
 
 ## 30-Second Memory Hooks
 
@@ -1287,7 +1287,7 @@ PostgreSQL documentation establishes behavior for the current documentation vers
 | Zero denominator | Undefined, not automatically zero |
 | Read-only | Least privilege plus resource/privacy discipline |
 | Power BI | Reconcile filter context to SQL population |
-| Arti bridge | SQL depth transfers; product schema claims do not |
+| Experience bridge | SQL depth transfers; product schema claims do not |
 
 ## Completion Checklist
 

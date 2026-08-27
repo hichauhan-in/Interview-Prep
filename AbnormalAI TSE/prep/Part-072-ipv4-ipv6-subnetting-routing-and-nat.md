@@ -8,7 +8,7 @@
 
 ## Section goal
 
-By the end of this Part, Arti should be able to read Internet Protocol version 4 (IPv4) and Internet Protocol version 6 (IPv6) addresses, convert IPv4 octets between decimal and binary, interpret Classless Inter-Domain Routing (CIDR) prefixes, calculate an IPv4 subnet's network, host range, and broadcast address, and explain the special-purpose ranges that commonly appear in support evidence. She should also be able to read a route table, apply longest-prefix matching before route preference/metric, reason about gateways and asymmetric paths, and distinguish source NAT, destination NAT, and port translation.
+By the end of this Part, you should be able to read Internet Protocol version 4 (IPv4) and Internet Protocol version 6 (IPv6) addresses, convert IPv4 octets between decimal and binary, interpret Classless Inter-Domain Routing (CIDR) prefixes, calculate an IPv4 subnet's network, host range, and broadcast address, and explain the special-purpose ranges that commonly appear in support evidence. You should also be able to read a route table, apply longest-prefix matching before route preference/metric, reason about gateways and asymmetric paths, and distinguish source NAT, destination NAT, and port translation.
 
 The operational goal is endpoint-to-cloud diagnosis. When a SaaS connector resolves an API name to both IPv4 and IPv6 addresses, which address did it choose? Which local interface and route won? Was the source translated? Did the return path differ? Did the client recover through a Happy Eyeballs-style IPv4/IPv6 race? A useful support answer connects the address and route evidence to the application attempt without pretending that an IP address identifies a person, tenant, certificate, or HTTP operation.
 
@@ -31,7 +31,7 @@ This lesson also establishes a security boundary: **Network Address Translation 
 
 ## Candidate honesty note
 
-Arti's strongest production evidence remains Microsoft enterprise support: isolating client/cloud boundaries, managing critical investigations, comparing working and affected states, coordinating Engineering, and validating outcomes. IPv4/IPv6 subnetting, routing-table interpretation, NAT concepts, and path tools are **upskilling and working familiarity**, supported here by a local read-only lab. She should not claim to have designed enterprise IP plans, configured production routers, owned BGP, administered carrier networks, or changed customer NAT/firewall policy.
+Your strongest production evidence remains enterprise support: isolating client/cloud boundaries, managing critical investigations, comparing working and affected states, coordinating Engineering, and validating outcomes. IPv4/IPv6 subnetting, routing-table interpretation, NAT concepts, and path tools are **upskilling and working familiarity**, supported here by a local read-only lab. You should not claim to have designed enterprise IP plans, configured production routers, owned BGP, administered carrier networks, or changed customer NAT/firewall policy.
 
 Safe wording is: “I can calculate subnets, interpret endpoint route selection, distinguish translated and original identities, and package evidence for the network owner. I would not make a production route or NAT change without authorization and the owning team's change process.”
 
@@ -719,7 +719,7 @@ flowchart TD
 
 ### Q8. How would you position your routing experience honestly?
 
-**Model answer:** I have working familiarity with subnet calculations, endpoint route tables, dual-stack behavior, NAT concepts, and read-only Windows/Linux tools. My production strength is Microsoft enterprise support and evidence-led escalation. I can isolate and communicate the boundary, but I do not claim production router design or ownership and would partner with the authorized network team for changes.
+**Model answer:** I have working familiarity with subnet calculations, endpoint route tables, dual-stack behavior, NAT concepts, and read-only Windows/Linux tools. My production strength is enterprise support and evidence-led escalation. I can isolate and communicate the boundary, but I do not claim production router design or ownership and would partner with the authorized network team for changes.
 
 ## Memory Hooks
 

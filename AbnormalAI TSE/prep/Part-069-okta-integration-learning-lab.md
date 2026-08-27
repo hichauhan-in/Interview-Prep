@@ -2,7 +2,7 @@
 
 ## Section goal
 
-This Part builds a beginner-friendly, support-ready model of an Okta integration. It is explicitly a **learned architecture and synthetic paper lab**. Arti must not claim production Okta administration, app integration creation, policy changes, network-zone configuration, System Log API operation, SCIM provisioning, or SAML/OIDC setup unless real evidence supports that statement.
+This Part builds a beginner-friendly, support-ready model of an Okta integration. It is explicitly a **learned architecture and synthetic paper lab**. You must not claim production Okta administration, app integration creation, policy changes, network-zone configuration, System Log API operation, SCIM provisioning, or SAML/OIDC setup unless real evidence supports that statement.
 
 An **Okta organization (org)** is a hard tenant boundary containing users, groups, app integrations, policies, authenticators, authorization servers, API/service credentials, System Log events, and configuration. Production, preview, trial, and integrator environments differ. Every org has an Okta domain/URL and infrastructure cell; an org can also use a custom domain for end-user sign-in, while administration continues through the appropriate uncustomized/admin URL under current behavior. The org, environment, domain, and app instance must be identified before troubleshooting.
 
@@ -38,16 +38,16 @@ After completing this Part, you should be able to:
 - trace SCIM assignment/provisioning, user/app profiles, match, create/update/deactivate, import/source, group push, rate-limit retry, and target reconciliation;
 - investigate user-not-assigned, policy-denied, wrong network/device, SAML mismatch, OIDC issuer/redirect, SCIM duplicate/deactivation, event-hook, and downstream-session cases;
 - collect a privacy-minimized Okta escalation packet without passwords, API tokens, SAML assertions, OAuth tokens, cookies, SCIM bearer tokens, or raw user profiles; and
-- present Okta knowledge as learned architecture while using Microsoft production support as transferable evidence.
+- present Okta knowledge as learned architecture while using prior production support as transferable evidence.
 
 ## JD Mapping
 
-| Supplied role signal | Capability built | Arti's transferable evidence | Boundary |
+| Supplied role signal | Capability built | Your transferable evidence | Boundary |
 |---|---|---|---|
-| Okta ecosystem | Applies SSO/OIDC/SCIM, assignment, roles, policies, logs, and network context | Microsoft identity/tenant transfer | Learned architecture only |
+| Okta ecosystem | Applies SSO/OIDC/SCIM, assignment, roles, policies, logs, and network context | enterprise identity/tenant transfer | Learned architecture only |
 | Enterprise integrations | Traces org/app/user/assignment to SSO and lifecycle target state | Configuration/API/RCA habits | No Okta production claim |
 | SaaS Security | Least privilege, authenticators, policy context, deprovisioning, audit | Security/identity experience | No policy administration claim |
-| Complex tickets | Joins sign-in, SAML/OIDC, SCIM, System Log, and app evidence | CRITSIT/escalation | Synthetic cases only |
+| Complex tickets | Joins sign-in, SAML/OIDC, SCIM, System Log, and app evidence | critical situation/escalation | Synthetic cases only |
 | API support | Understands System Log paging/filter, OAuth management scopes, rate limits | REST/JSON working knowledge | No API call in lab |
 | Customer communication | Requests stable IDs, event UUID/transaction/outcome, not credentials/assertions | Privacy-aware support | User profiles minimized |
 | Provisioning | Applies Part 063 source/match/active/reconciliation to Okta | Standards foundation | Okta profile specifics current-doc only |
@@ -65,7 +65,7 @@ After completing this Part, you should be able to:
 
 Safe interview language:
 
-> “My Okta knowledge is standards- and current-doc based, supported by real Microsoft identity/support experience. I would identify org/environment, app instance, user/app-user/target IDs, assignment path, SAML or OIDC issuer/recipient/configuration, applied policy/rule/network/device context, System Log UUID/transaction/outcome, SCIM source/externalId/target id/active state, and downstream session. I would never request a password, API token, assertion, OAuth token, cookie, SCIM credential, or raw profile export.”
+> “My Okta knowledge is standards- and current-doc based, supported by real enterprise identity/support experience. I would identify org/environment, app instance, user/app-user/target IDs, assignment path, SAML or OIDC issuer/recipient/configuration, applied policy/rule/network/device context, System Log UUID/transaction/outcome, SCIM source/externalId/target id/active state, and downstream session. I would never request a password, API token, assertion, OAuth token, cookie, SCIM credential, or raw profile export.”
 
 ## 1. Okta org as the root boundary
 
@@ -846,7 +846,7 @@ The lab creates no Okta org, user, group, app integration, assignment, policy, n
 | Hooks | Webhook equals once | Knows retry | Verification, batch, at-least-once, order, one retry, UUID dedup, System Log |
 | SCIM | Recreate user | Knows active | Match IDs, source/mapping, deactivate/reactivate, target sessions, 429 retry |
 | Evidence | Raw assertion/profile | Redacts | Stable IDs/metadata/UTC, no credentials/assertions/tokens/profiles |
-| Honesty | Claims Okta admin | Says learned | Microsoft transfer, Okta paper lab, Abnormal unknown |
+| Honesty | Claims Okta admin | Says learned | experience transfer, Okta paper lab, Abnormal unknown |
 
 ## 36. Official Source Anchors
 
@@ -927,7 +927,7 @@ All sources were verified and recorded with guide currency date **August 24, 202
 - **Event hooks batch and deliver at least once; dedup UUIDs.**
 - **SCIM `active=false` is not target DELETE or session revocation.**
 - **429 retry behavior is product-path specific.**
-- **Microsoft is production transfer; Okta is learned architecture.**
+- **Prior-role work is production transfer; Okta is learned architecture.**
 
 ## Completion Checklist
 
@@ -952,7 +952,7 @@ All sources were verified and recorded with guide currency date **August 24, 202
 - [ ] I completed or can explain **The Okta Identity Junction 069**.
 - [ ] The lab includes Prerequisites, Expected evidence, Cleanup and privacy, and Validation rubric.
 - [ ] I used no live org, user, app, policy, assertion, token, API, hook, SCIM operation, or target account.
-- [ ] I can state Microsoft transfer, Okta learned, and Abnormal unknown boundaries.
+- [ ] I can state experience transfer, Okta learned, and Abnormal unknown boundaries.
 - [ ] I checked Official Source Anchors and recorded **August 24, 2026**.
 - [ ] I can answer exactly Q1-Q8.
 

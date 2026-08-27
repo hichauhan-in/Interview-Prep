@@ -1,10 +1,10 @@
 # Part 19 - DNS and DHCP End to End
 
-> **Audience:** Arti Thakur, moving from Microsoft 365 Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
+> **Audience:** Candidates moving from Microsoft 365 Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
 >
 > **Purpose:** Explain how names are resolved through DNS and how hosts obtain network configuration through DHCP, then turn protocol messages, caches, leases, captures, commands, and service evidence into defensible troubleshooting decisions.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Its zones, resolvers, leases, clients, addresses, failures, policies, and outcomes are learning artifacts. Arti's Microsoft 365, OneDrive for Business, SharePoint Online, networking, evidence, and escalation experience must remain within her approved factual background.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Its zones, resolvers, leases, clients, addresses, failures, policies, and outcomes are learning artifacts. Your own product, networking, evidence, and escalation experience must remain within your documented background.
 >
 > **Product caveat:** DNS and DHCP behavior depends on operating-system versions, resolver libraries, browsers, network policy, authoritative providers, relays, security controls, cloud platforms, and application design. This Part makes no claim about undocumented Microsoft or Zscaler internals. Current endpoint names, encrypted-DNS policy, forwarding, inspection, and tenant results require official documentation and direct evidence.
 
@@ -14,7 +14,7 @@ Part 18 established sockets and transport. Before a browser or sync client can c
 
 Think of moving into a managed apartment and ordering a delivery. The building manager assigns your room, tells you the exit, and gives you the directory service number; that resembles DHCP. The directory service follows a hierarchy to find the current delivery destination; that resembles DNS. A valid room assignment does not prove the directory is correct, and a valid directory answer does not prove the destination accepts a connection.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Evidence of mastery |
 |---|---|---|
@@ -31,11 +31,11 @@ By the end, Arti should be able to:
 
 ## JD Mapping
 
-| JD expectation | Part 19 behavior | Artifact | Honest Arti bridge |
+| JD expectation | Part 19 behavior | Artifact | Honest experience bridge |
 |---|---|---|---|
 | Analyze complex environments | Map client configuration, resolver path, authority, cache, policy, and service dependency | Name/configuration path map | Microsoft 365 connectivity troubleshooting |
 | Identify risk | Find rogue DHCP, poisoned or stale records, unsafe split views, weak validation, and excess DNS visibility | Risk and control notes | Learned SecOps reasoning built on network evidence |
-| Resolve escalations | Separate client, DHCP/relay, resolver, authority, network, security, and service workstreams | Timeline and query/lease matrix | CRITSIT coordination and evidence discipline |
+| Resolve escalations | Separate client, DHCP/relay, resolver, authority, network, security, and service workstreams | Timeline and query/lease matrix | critical-situation coordination and evidence discipline |
 | Tailor mitigation | Recommend scoped record, option, relay, cache, DNSSEC, or policy correction with rollback | Change and validation plan | Production fix-validation method |
 | Deliver consulting | Explain hierarchical resolution and leases from zero | Whiteboard and teach-back | Advisor, mentoring, and training strengths |
 | Work cross-functionally | Give each owner exact question, type, server, transaction, TTL, lease, and timestamp | Shared evidence register | Customer and Engineering collaboration |
@@ -43,9 +43,9 @@ By the end, Arti should be able to:
 
 ## Candidate honesty note
 
-Arti can truthfully discuss isolating Microsoft 365 symptoms across client configuration, name resolution, proxies, transport, HTTP, identity, service, permission, and local sync state; using approved commands and traces; comparing affected and unaffected contexts; coordinating specialists; and validating a result. She can discuss these standards and controlled labs as learning evidence.
+You can truthfully discuss isolating Microsoft 365 symptoms across client configuration, name resolution, proxies, transport, HTTP, identity, service, permission, and local sync state; using approved commands and traces; comparing affected and unaffected contexts; coordinating specialists; and validating a result. You can discuss these standards and controlled labs as learning evidence.
 
-She should not claim that she administered enterprise authoritative DNS, deployed DNSSEC, operated a Zscaler DNS control, or changed DHCP infrastructure unless supported by her actual history. A safe bridge is: "In Microsoft support I used DNS and client configuration as evidence within an end-to-end path. I have deepened the protocol mechanics through standards and labs. I would verify the actual resolver, policy, authority, lease source, and service request before recommending changes."
+You should not claim that you administered enterprise authoritative DNS, deployed DNSSEC, operated a Zscaler DNS control, or changed DHCP infrastructure unless supported by your actual history. A safe bridge is: "In enterprise support I used DNS and client configuration as evidence within an end-to-end path. I have deepened the protocol mechanics through standards and labs. I would verify the actual resolver, policy, authority, lease source, and service request before recommending changes."
 
 | Evidence category | Safe phrasing | Boundary |
 |---|---|---|
@@ -720,7 +720,7 @@ flowchart LR
 
 Preserve lease, query, cache, resolver, forwarder, and authoritative evidence before change. Correct the DHCP option through change control, repair or remove the stale forwarder according to ownership, and invalidate only affected caches under an approved plan. Validate DORA/renewal, effective resolver order, fresh positive and negative queries, DNSSEC status, browser and sync operations, unaffected internal names, and recurrence after lease/cache turnover.
 
-Arti's bridge role is to coordinate endpoint, branch network, DHCP, DNS, identity, Microsoft service, and security owners. She should say: "The failure follows clients whose lease points first to the retiring resolver. That resolver returns a negative answer through a stale forwarding path, while the current resolver obtains valid data. We have not identified a Microsoft or Zscaler defect. DHCP and DNS owners are correcting the configuration with rollback and validating both service and internal namespaces."
+Your bridge role is to coordinate endpoint, branch network, DHCP, DNS, identity, Microsoft service, and security owners. You should say: "The failure follows clients whose lease points first to the retiring resolver. That resolver returns a negative answer through a stale forwarding path, while the current resolver obtains valid data. We have not identified a Microsoft or Zscaler defect. DHCP and DNS owners are correcting the configuration with rollback and validating both service and internal namespaces."
 
 ## Privacy, security, and evidence handling
 
@@ -989,7 +989,7 @@ The following authoritative sources were reviewed on **2026-08-24**. They suppor
 - [ ] I can state correctly that DHCPv6 does not normally provide the default gateway.
 - [ ] I can protect query, hostname, MAC, client-ID, Option 82, lease, and resolver evidence.
 - [ ] I can apply the mechanics to Microsoft 365, browser, OneDrive, SharePoint, and the fictional NMH resolver migration.
-- [ ] I can connect Arti's factual Microsoft support method without claiming infrastructure or Zscaler production work.
+- [ ] I can connect your factual enterprise support method without claiming infrastructure or Zscaler production work.
 - [ ] I can answer Q1-Q8 aloud and complete all eight labs with sanitized evidence.
 
 [Part 20 - HTTP, HTTPS, URLs, Methods, Headers, Cookies, Sessions, and Status Codes](Part-20-http-https-web-protocol.md)

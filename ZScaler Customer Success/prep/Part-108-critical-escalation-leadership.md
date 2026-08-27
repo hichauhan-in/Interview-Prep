@@ -1,10 +1,10 @@
 # Part 108 - Critical Escalation Leadership and Executive Communication
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 
 > **Purpose:** Explain critical escalation leadership from zero, including severity, the first fifteen minutes, impact framing, workstreams, bridge roles, evidence and hypothesis control, update cadence, ETA discipline, Support and Product escalation, mitigation, recovery, closure, executive communication, and post-incident review.
 
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH incident, person, product, tenant, source, architecture, event, timestamp, impact, severity, hypothesis, log, decision, ETA, support case, mitigation, recovery, root cause, action, metric, and result is invented. Arti's factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler, SecOps TSM, Zscaler incident command, Zscaler Support/Product processes, customer security-incident ownership, breach determination, product-defect authority, and executive outcome claims remain learning boundaries.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH incident, person, product, tenant, source, architecture, event, timestamp, impact, severity, hypothesis, log, decision, ETA, support case, mitigation, recovery, root cause, action, metric, and result is invented. Your factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler, SecOps TSM, Zscaler incident command, Zscaler Support/Product processes, customer security-incident ownership, breach determination, product-defect authority, and executive outcome claims remain learning boundaries.
 
 > **Currency caveat:** Products, architectures, threats, incident processes, severity definitions, support terms, legal obligations, telemetry, interfaces, packaging, and entitlements change. The controlled official-source snapshot and source review date for this Part is exactly **2026-08-24**. Current contracts and support terms, official technical documentation, licensed-tenant evidence, customer incident and crisis policy, product specialists, Support, Product/Engineering, security/privacy/legal/communications roles, and validated environment evidence govern production escalations.
 
@@ -57,13 +57,13 @@ flowchart LR
 
 ## Candidate honesty note
 
-Arti can say: "My production background includes Microsoft enterprise Support Escalation Engineering, where I handled high-impact Microsoft 365, OneDrive, and SharePoint issues, correlated client, identity, permission, network, proxy, and service evidence, coordinated workstreams, communicated impact and uncertainty, developed mitigations, and validated recovery. That is directly relevant escalation experience, but it is not Zscaler incident command or customer security-incident ownership. I have studied the SecOps TSM context and practiced these Zscaler-neutral artifacts synthetically. In a real Zscaler escalation I would use current customer policy, support terms, official documentation, licensed-tenant evidence, product specialists, Support, and authorized incident/legal roles."
+You can say: "My production background includes enterprise Support Escalation Engineering, where I handled high-impact Microsoft 365, OneDrive, and SharePoint issues, correlated client, identity, permission, network, proxy, and service evidence, coordinated workstreams, communicated impact and uncertainty, developed mitigations, and validated recovery. That is directly relevant escalation experience, but it is not Zscaler incident command or customer security-incident ownership. I have studied the SecOps TSM context and practiced these Zscaler-neutral artifacts synthetically. In a real Zscaler escalation I would use current customer policy, support terms, official documentation, licensed-tenant evidence, product specialists, Support, and authorized incident/legal roles."
 
-Arti may lead with her factual escalation depth. She should not claim she declared customer breaches, operated a SOC incident, commanded Zscaler Engineering, established a Zscaler defect, committed restoration time, or produced a customer PIR outcome unless directly factual.
+You may lead with your factual escalation depth. You should not claim you declared customer breaches, operated a SOC incident, commanded Zscaler Engineering, established a Zscaler defect, committed restoration time, or produced a customer PIR outcome unless directly factual.
 
 | Factual background | Transferable strength | Neutral wording | Unsupported statement to avoid |
 |---|---|---|---|
-| Microsoft Support Escalation Engineering | High-impact intake, evidence, hypotheses, workstreams, updates, mitigation, recovery | "I have led complex enterprise technical escalations." | "I led Zscaler security incidents." |
+| support escalation engineering | High-impact intake, evidence, hypotheses, workstreams, updates, mitigation, recovery | "I have led complex enterprise technical escalations." | "I led Zscaler security incidents." |
 | Microsoft 365, OneDrive, SharePoint | Understand layered cloud-service dependencies and customer workflows | "I trace user-to-service paths and business impact." | "I know Zscaler incident internals." |
 | Network and trace analysis | Correlate DNS, TCP, TLS, HTTP, proxy, client, and cloud evidence | "I use boundary evidence to narrow fault domains." | "I proved a Zscaler defect from one trace." |
 | Critical customer communication | State impact, facts, unknowns, actions, decisions, and cadence | "I communicate under pressure without inventing certainty." | "I guaranteed restoration ETAs." |
@@ -1003,9 +1003,9 @@ The Zscaler sources support dated public product, support, trust, and security-o
 
 **Model answer:** It reconstructs impact and timeline from evidence, identifies trigger, root and contributing mechanisms, explains why controls and response succeeded or failed, evaluates detection, command, changes, communication, and recovery, and produces prioritized actions tied to failure mechanisms. Each action has authority, dependency, due-date basis, acceptance/effectiveness test, and recurrence monitor. It avoids hindsight blame and vague actions such as "be careful" or "train everyone."
 
-### Q8. How does Arti's background transfer honestly to critical escalation leadership?
+### Q8. How does your background transfer honestly to critical escalation leadership?
 
-**Model answer:** Critical escalation is one of her strongest direct transfers. In Microsoft Support Escalation Engineering she handled high-impact Microsoft 365 issues, traced identity/network/client/service evidence, coordinated teams, communicated with customers, developed mitigations, and validated recovery. The honest boundary is context and authority: she should not claim Zscaler incident command, SOC/security-incident ownership, breach determination, Zscaler defect confirmation, or Product/Engineering commitments. She would apply her proven method through current Zscaler and customer processes.
+**Model answer:** Critical escalation is one of your strongest direct transfers. In support escalation engineering you handled high-impact Microsoft 365 issues, traced identity/network/client/service evidence, coordinated teams, communicated with customers, developed mitigations, and validated recovery. The honest boundary is context and authority: you should not claim Zscaler incident command, SOC/security-incident ownership, breach determination, Zscaler defect confirmation, or Product/Engineering commitments. You would apply your proven method through current Zscaler and customer processes.
 
 ## 30-Second Memory Hooks
 
@@ -1029,7 +1029,7 @@ The Zscaler sources support dated public product, support, trust, and security-o
 | Closure | Accepted recovery, residual owner, handoff, PIR |
 | PIR | Mechanism, controls, response, testable action |
 | Evidence safety | Minimum, controlled, preserved, authorized |
-| Arti bridge | Direct escalation experience transfers; Zscaler/security authority does not |
+| Experience bridge | Direct escalation experience transfers; Zscaler/security authority does not |
 
 ## Completion Checklist
 
@@ -1050,6 +1050,6 @@ The Zscaler sources support dated public product, support, trust, and security-o
 - [ ] I can facilitate a blameless PIR with causal mechanisms, contributing factors, testable actions, and effectiveness review.
 - [ ] I can protect credentials, personal data, forensic evidence, privilege, vulnerability detail, and public communication.
 - [ ] I can use the severity, first-15, bridge, RACI, timeline, workstream, update, Support, mitigation, closure, PIR, and quality artifacts.
-- [ ] I can present Arti's direct escalation strengths without claiming production Zscaler incident command, breach authority, product defect, ETA, or SecOps outcome.
+- [ ] I can present your direct escalation strengths without claiming production Zscaler incident command, breach authority, product defect, ETA, or SecOps outcome.
 
 [Next: Part 109 - Difficult Conversations, Objections, Constructive Debate, and Trust](Part-109-difficult-conversations-trust.md)

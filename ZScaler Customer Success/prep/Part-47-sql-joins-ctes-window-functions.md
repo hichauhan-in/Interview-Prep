@@ -1,10 +1,10 @@
 # Part 47 - SQL Joins, CTEs, Subqueries, Window Functions, and Set Operations
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 >
 > **Purpose:** Build advanced read-only SQL reasoning for security and customer analytics: join types and grain, fanout, semi/anti joins, `EXISTS`, subqueries, common table expressions, recursive traversal, set operations, window partitions/orders/frames, ranking, lag/lead, running metrics, latest-row and deduplication patterns, cohorts, aging, trends, performance plans, and incorrect-query diagnosis.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every user, asset, app, finding, ticket, event, cohort, query, plan, metric, and outcome is synthetic. Examples target PostgreSQL and general ANSI/ISO SQL concepts where practical. They are not Zscaler schemas, product queries, or production recommendations. Public Zscaler Data Fabric context is used only at a high level; no undocumented storage, SQL endpoint, field, graph, connector, limit, or performance claim is made. Arti's SQL, PostgreSQL, Power BI, analytics, troubleshooting, and Microsoft enterprise experience transfer; direct production Data Fabric operation remains a learning boundary.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every user, asset, app, finding, ticket, event, cohort, query, plan, metric, and outcome is synthetic. Examples target PostgreSQL and general ANSI/ISO SQL concepts where practical. They are not Zscaler schemas, product queries, or production recommendations. Public Zscaler Data Fabric context is used only at a high level; no undocumented storage, SQL endpoint, field, graph, connector, limit, or performance claim is made. Your SQL, PostgreSQL, Power BI, analytics, troubleshooting, and enterprise experience transfer; direct production Data Fabric operation remains a learning boundary.
 >
 > **Currency caveat:** PostgreSQL versions, optimizer behavior, CTE materialization, window features, plans, statistics, indexes, permissions, customer schemas, and product capabilities change. Sources in this Part were reviewed on **2026-08-24**. Current deployed-version documentation, approved read-only practices, representative plans, source contracts, security/privacy controls, and tenant evidence govern production.
 
@@ -14,7 +14,7 @@ Advanced SQL is mostly disciplined control of row meaning. A join can turn one a
 
 Think of assembling customer case folders. An inner join keeps folders with matching reference records. A left join keeps every main folder and leaves missing reference fields blank. A semi join asks only whether supporting evidence exists. An anti join asks whether it does not. A window numbers or compares pages while preserving them. A set operation compares entire folder lists. A CTE gives an intermediate pile a name. If one folder has three tickets and four findings, combining both can produce twelve page pairs unless the analyst controls the grain.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Proof artifact |
 |---|---|---|
@@ -52,7 +52,7 @@ flowchart LR
 
 ## JD Mapping
 
-| Role expectation | Part 47 capability | TSM artifact | Arti bridge and boundary |
+| Role expectation | Part 47 capability | TSM artifact | experience bridge and boundary |
 |---|---|---|---|
 | Analyze complex customer data | Combine entities and histories without corrupting grain | Query workbook | SQL/Power BI transfer |
 | Troubleshoot integrations | Find missing, duplicate, stale, and mismatched records | Reconciliation queries | Fault isolation transfer |
@@ -1110,7 +1110,7 @@ flowchart TD
 
 Use parameters for values, least-privileged read-only roles, approved views, schema qualification, bounded time/populations, secure result handling, and a fixed as-of time. Never paste customer data or plans into unapproved tools.
 
-## Arti's Microsoft-to-advanced-SQL bridge
+## Your experience bridge to advanced-SQL
 
 | Demonstrated strength | Advanced SQL application | Boundary |
 |---|---|---|
@@ -1418,7 +1418,7 @@ PostgreSQL documentation establishes implementation behavior for the current doc
 | Cohort | Entered together, compare at equal age |
 | EXPLAIN | Estimated map |
 | EXPLAIN ANALYZE | Executes the trip |
-| Arti bridge | Advanced SQL transfers; product internals do not |
+| Experience bridge | Advanced SQL transfers; product internals do not |
 
 ## Completion Checklist
 

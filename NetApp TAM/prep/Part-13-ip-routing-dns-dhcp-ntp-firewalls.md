@@ -1,12 +1,12 @@
 # Part 13 - IP Services: Subnets, Routing, DNS, DHCP, NTP, Firewalls, and Proxies
 
-> **Section goal:** Learn how an endpoint obtains an address, finds a route, resolves a name, trusts time and identity, crosses security devices, and reaches the intended storage service. By the end, Arti should be able to calculate IPv4 subnets, orient on IPv6, explain route and DNS decisions, trace DHCP and firewall state, identify proxy/VPN/load-balancer dependencies, and build a defensible layered escalation.
+> **Section goal:** Learn how an endpoint obtains an address, finds a route, resolves a name, trusts time and identity, crosses security devices, and reaches the intended storage service. By the end, you should be able to calculate IPv4 subnets, orient on IPv6, explain route and DNS decisions, trace DHCP and firewall state, identify proxy/VPN/load-balancer dependencies, and build a defensible layered escalation.
 
 Covers index item **13** and maps directly to job-description responsibilities for understanding customer environments, technical and storage depth, data analysis, stability and risk mitigation, supportability, proactive recommendations, operational reviews, and high-pressure troubleshooting.
 
 This Part is vendor-neutral. Exact route metrics, Equal-Cost Multipath (ECMP), address selection, DNS caching, DHCP options, time algorithms, firewall state, Network Address Translation (NAT), proxy inspection, Virtual Private Network (VPN), and load-balancer behavior vary by product, release, policy, and topology. Validate current implementation and NetApp Interoperability Matrix Tool (IMT) guidance for the exact end-to-end solution.
 
-> **Evidence boundary:** Every organization, address, DNS record, route, packet, security rule, timing result, outage, and recommendation below is synthetic. Arti has production Windows, Azure, Active Directory, Microsoft 365, DNS/network dependency, and enterprise escalation experience. Production NetApp IP-storage design, customer firewall administration, or storage-network service ownership is not claimed.
+> **Evidence boundary:** Every organization, address, DNS record, route, packet, security rule, timing result, outage, and recommendation below is synthetic. You have production Windows, Azure, Active Directory, Microsoft 365, DNS/network dependency, and enterprise escalation experience. Production NetApp IP-storage design, customer firewall administration, or storage-network service ownership is not claimed.
 
 ---
 
@@ -752,12 +752,12 @@ flowchart TD
 
 ### Explicit JD Mapping
 
-| JD responsibility | Part 13 contribution | Arti's strength and honest gap |
+| JD responsibility | Part 13 contribution | Your strength and honest gap |
 |---|---|---|
 | Understand customer environment | Maps address, routes, services, security devices, storage endpoint, and owners | **Strength:** Windows/Azure/M365/AD dependency mapping. **Gap:** NetApp production IP-storage topology is unproven. |
 | Generate/analyze/report data | Reconciles DNS, DHCP, NTP, routes, state tables, captures, and logs | **Strength:** escalation evidence and analytics. |
 | Storage/infrastructure depth | Connects network services and security to NFS/SMB/iSCSI/NVMe-TCP reachability | **Conceptual/lab:** storage protocol operations remain a production gap. |
-| Mitigate risk/stability | Finds route asymmetry, stale names, lease errors, time drift, state loss, and dependency common fate | **Strength:** CRITSIT method transfers; exact remediation requires owners/SMEs. |
+| Mitigate risk/stability | Finds route asymmetry, stale names, lease errors, time drift, state loss, and dependency common fate | **Strength:** critical-situation method transfers; exact remediation requires owners/SMEs. |
 | Supportability | Builds exact host/network/security/storage combination and dated IMT record | **Gap:** no current customer IMT result claimed. |
 | Service reviews | Converts dependency evidence into business impact, options, owners, and decisions | **Strength:** business review and executive communication. |
 | Improve escalations | Supplies original/translated tuples, both paths, service state, clocks, and exact ask | **Strength:** Product/Engineering escalation discipline. |
@@ -984,7 +984,7 @@ Both `.65` and `.70` are in the common host range; that does not prove either is
 27. Recreate the CedarWorks case and explain why DNS is not the root cause.
 28. Build the minimum escalation pack.
 29. Complete the paper lab and Q1-Q8 aloud.
-30. State Arti's production strengths and NetApp IP-storage production gap honestly.
+30. State your production strengths and NetApp IP-storage production gap honestly.
 
 ---
 
@@ -1073,7 +1073,7 @@ Both `.65` and `.70` are in the common host range; that does not prove either is
 
 ### Q8. How does your background transfer to IP-service troubleshooting, and what is the storage gap?
 
-> **Model answer:** "My Microsoft production work includes Windows and Azure networking, DNS, Active Directory, Microsoft 365 connectivity, proxy and time-sensitive authentication dependencies, customer impact, and cross-team escalation. That gives me strong subnet, route, service-dependency, evidence, and communication habits. I have not owned a NetApp production IP-storage network or its firewall/VPN/load-balancer design. I would verify exact protocol support and IMT evidence, use authorized read-only data, and coordinate any change with network, security, identity, host, and storage owners."
+> **Model answer:** "My prior production work includes Windows and Azure networking, DNS, Active Directory, Microsoft 365 connectivity, proxy and time-sensitive authentication dependencies, customer impact, and cross-team escalation. That gives me strong subnet, route, service-dependency, evidence, and communication habits. I have not owned a NetApp production IP-storage network or its firewall/VPN/load-balancer design. I would verify exact protocol support and IMT evidence, use authorized read-only data, and coordinate any change with network, security, identity, host, and storage owners."
 
 **Follow-up depth:** Give one factual Microsoft DNS/auth/network case and label the new NetApp protocol knowledge as conceptual or lab evidence.
 
@@ -1100,7 +1100,7 @@ Both `.65` and `.70` are in the common host range; that does not prove either is
 - **VPN:** Encrypted tunnel plus routes, selectors, state, and smaller effective MTU.
 - **Load balancer:** Green probe is only as good as probe semantics.
 - **Reachability:** Name -> address -> route -> policy -> transport -> auth -> storage operation.
-- **Arti's bridge:** Windows/Azure/M365 dependency analysis transfers; NetApp IP-storage ownership remains unclaimed.
+- **Your bridge:** Windows/Azure/M365 dependency analysis transfers; NetApp IP-storage ownership remains unclaimed.
 
 ---
 
@@ -1127,7 +1127,7 @@ Both `.65` and `.70` are in the common host range; that does not prove either is
 - [ ] Recreate CedarWorks and keep DNS, network policy, auth, and storage stages separate.
 - [ ] Build the minimum escalation pack with original/translated tuples and synchronized evidence.
 - [ ] Complete the paper lab, whiteboard drills, self-test, and Q1-Q8 aloud.
-- [ ] State Arti's production strengths and NetApp IP-storage production gap honestly.
+- [ ] State your production strengths and NetApp IP-storage production gap honestly.
 - [ ] Recheck RFC status, product versions, policies, topology, and NetApp IMT notes before customer use.
 
 ---

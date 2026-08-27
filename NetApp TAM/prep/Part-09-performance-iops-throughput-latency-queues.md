@@ -1,12 +1,12 @@
 # Part 9 - Performance Fundamentals and Queueing Intuition
 
-> **Section goal:** Learn to describe storage performance with correct units, separate service time from waiting, understand concurrency and saturation, and characterize the workload before blaming a component. By the end, Arti should be able to calculate IOPS, throughput, latency, queue occupancy, utilization, and Little's Law relationships; interpret percentiles and tails; challenge benchmark traps; and turn a customer symptom into a safe evidence plan.
+> **Section goal:** Learn to describe storage performance with correct units, separate service time from waiting, understand concurrency and saturation, and characterize the workload before blaming a component. By the end, you should be able to calculate IOPS, throughput, latency, queue occupancy, utilization, and Little's Law relationships; interpret percentiles and tails; challenge benchmark traps; and turn a customer symptom into a safe evidence plan.
 
 Covers index item **9** and maps directly to job-description responsibilities for storage depth, customer-environment analysis, data generation and reporting, technical-risk mitigation, solution stability, customer-specific recommendations, service-review communication, troubleshooting, and supportability awareness.
 
 This Part teaches vendor-neutral performance reasoning. It does not state NetApp platform limits, counter formulas, benchmark results, queue semantics, or tuning settings. Exact counter scope, workload generators, ONTAP behavior, CPU scheduling, protocol limits, and supported changes must be verified for the exact release, platform, host, network, application, and test method.
 
-> **Evidence boundary:** Every workload, measurement, device, chart value, customer, test, and recommendation below is synthetic. Arti's Microsoft escalation and analytics experience is production evidence; NetApp performance analysis and storage benchmarking remain study, paper-lab, and future authorized practice.
+> **Evidence boundary:** Every workload, measurement, device, chart value, customer, test, and recommendation below is synthetic. Your prior escalation and analytics experience is production evidence; NetApp performance analysis and storage benchmarking remain study, paper-lab, and future authorized practice.
 
 ---
 
@@ -657,18 +657,18 @@ flowchart TD
 
 ### Explicit JD mapping
 
-| JD responsibility | Part 9 contribution | Arti transfer and honest gap |
+| JD responsibility | Part 9 contribution | experience transfer and honest gap |
 |---|---|---|
 | Generate, analyze, and report customer data | Defines units, distributions, baselines, joins, and quality gates | Power BI, Excel, SQL, statistics, and support analytics transfer directly |
 | Understand customer environment | Maps application-to-media performance path and shared resources | M365 systems thinking transfers; NetApp counters need study/access |
-| Mitigate risk and improve stability | Detects saturation, tails, retries, background contention, and unsafe tests | CRITSIT prioritization and evidence discipline transfer |
+| Mitigate risk and improve stability | Detects saturation, tails, retries, background contention, and unsafe tests | critical-situation prioritization and evidence discipline transfer |
 | Provide customer-specific advice | Ties workload/SLO to bottleneck and validates tradeoffs | Advisory strength transfers; tuning requires product/application SMEs |
 | Conduct service reviews | Converts trends into user impact, decisions, and action | Business-review experience is a strong foundation |
-| Improve support experience | Produces aligned timeline, topology, workload, counters, and exact hypotheses | Escalation packaging is proven in Microsoft work |
+| Improve support experience | Produces aligned timeline, topology, workload, counters, and exact hypotheses | Escalation packaging is proven in prior work |
 
 ### Honest production-gap note
 
-> "I can characterize workloads, calculate throughput and queue relationships, interpret latency distributions, and design an evidence-based bottleneck investigation. My production analytics and escalation experience is Microsoft-focused. I have not tuned ONTAP or run customer storage benchmarks, so I would validate current counter definitions, use authorized safe tests, involve application/network/storage SMEs, and describe any paper exercise or lab as such."
+> "I can characterize workloads, calculate throughput and queue relationships, interpret latency distributions, and design an evidence-based bottleneck investigation. My production analytics and escalation experience is focused on a different technology stack. I have not tuned ONTAP or run customer storage benchmarks, so I would validate current counter definitions, use authorized safe tests, involve application/network/storage SMEs, and describe any paper exercise or lab as such."
 
 ---
 
@@ -1007,9 +1007,9 @@ This is not an application payload guarantee.
 
 **Follow-up depth:** Design a throughput-latency sweep with stop conditions and compare closed-loop versus scheduled arrivals.
 
-### Q8. How does your analytics and Microsoft support background transfer to performance work?
+### Q8. How does your analytics and enterprise support background transfer to performance work?
 
-> **Model answer:** "My MBA analytics, Excel, Power BI, SQL, statistics, and Microsoft escalation work give me strong foundations in data quality, time alignment, segmentation, baselines, hypothesis testing, and customer impact communication. I have applied those methods in production Microsoft support, not NetApp performance tuning. I would use current counter definitions, authorized safe tests, and application/network/storage SME review, and I would label synthetic or lab findings honestly."
+> **Model answer:** "My MBA analytics, Excel, Power BI, SQL, statistics, and enterprise escalation work give me strong foundations in data quality, time alignment, segmentation, baselines, hypothesis testing, and customer impact communication. I have applied those methods in production enterprise support, not NetApp performance tuning. I would use current counter definitions, authorized safe tests, and application/network/storage SME review, and I would label synthetic or lab findings honestly."
 
 **Follow-up depth:** Give a sanitized M365 latency or synchronization case and state which storage counters and product behaviors remain unproven by that analogy.
 
@@ -1039,7 +1039,7 @@ This is not an application payload guarantee.
 - **Benchmark:** Reproduce the question, control variables, protect the environment.
 - **Coordinated omission:** A stalled tester forgets requests that should have arrived.
 - **Operating point:** Meet the application SLO, not maximum IOPS.
-- **Arti's bridge:** Analytics and escalation transfer; ONTAP tuning remains unclaimed.
+- **Your bridge:** Analytics and escalation transfer; ONTAP tuning remains unclaimed.
 
 ---
 
@@ -1065,7 +1065,7 @@ This is not an application payload guarantee.
 - [ ] Ask all discovery questions and write a customer-specific recommendation.
 - [ ] Recreate Tailspin's calculations, hypotheses, test plan, and summary.
 - [ ] Complete the paper lab, self-test, and Q1-Q8 aloud.
-- [ ] State Arti's production strengths and NetApp performance gap honestly.
+- [ ] State your production strengths and NetApp performance gap honestly.
 - [ ] Recheck current official tool, counter, platform, workload, and support documentation before real use.
 
 ---

@@ -27,13 +27,13 @@ After completing this Part, you should be able to:
 - define robustness evaluation with harmless synthetic variations and authorized red-team governance;
 - use abstention, human approval, fallbacks, rollback, and incident response proportionately;
 - write a responsible-disclosure report without publishing bypass detail; and
-- tie Arti's enterprise investigation, networking/security upskilling, Copilot evaluation/training, support trends, analytics, and customer communication only as transferable evidence.
+- tie your enterprise investigation, networking/security upskilling, Copilot evaluation/training, support trends, analytics, and customer communication only as transferable evidence.
 
 ## JD Mapping
 
-| Supplied role signal | Capability built | Transferable Arti evidence | Boundary |
+| Supplied role signal | Capability built | Transferable evidence | Boundary |
 |---|---|---|---|
-| Threat investigations | Classifies adversarial hypotheses and evidence | Complex investigations/CRITSITs | No production adversarial-ML ownership |
+| Threat investigations | Classifies adversarial hypotheses and evidence | Complex investigations/critical situations | No production adversarial-ML ownership |
 | Behavioral false negatives | Separates evasion from source/config/model/label causes | Hypothesis testing and escalation | No claim of Abnormal anti-evasion controls |
 | AI Security Agents | Applies tool/data/prompt/permission threat thinking | Copilot/agent evaluation and human verification | Part 058 covers agent-specific safeguards |
 | Product/Engineering collaboration | Sends protected repro, impact, evidence, and disclosure | Engineering/Product escalation | No public bypass reproduction |
@@ -46,7 +46,7 @@ After completing this Part, you should be able to:
 
 | Evidence tier | Safe statement | Do not imply |
 |---|---|---|
-| **Production transfer** | "I have investigated complex technical behavior, preserved evidence, escalated securely, and communicated risk." | That Arti conducted production ML red teaming |
+| **Production transfer** | "I have investigated complex technical behavior, preserved evidence, escalated securely, and communicated risk." | That you conducted production ML red teaming |
 | **Local/public lab** | "I built a paper threat model and robustness control matrix using harmless synthetic records." | Live probing or exploitation |
 | **Learned architecture** | "I understand adversarial-ML categories from NIST, MITRE ATLAS, and official guidance." | That frameworks describe Abnormal internals |
 | **No direct experience** | "I have not operated Abnormal AI or tested its models in production." | Knowledge of hidden controls/weaknesses |

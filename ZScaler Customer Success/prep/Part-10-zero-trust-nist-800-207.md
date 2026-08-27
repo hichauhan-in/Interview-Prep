@@ -1,10 +1,10 @@
 # Part 10 - Zero Trust from First Principles and NIST SP 800-207
 
-> **Audience:** Arti Thakur, moving from Microsoft 365 Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
+> **Audience:** Candidates moving from Microsoft 365 Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
 >
 > **Currency date:** 2026-08-24.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, and every NMH architecture, identity, session, policy, test, incident, metric, calculation, decision, and outcome are fictional. Arti's established production bridge is Microsoft support, OneDrive, SharePoint, networking, troubleshooting, analytics, mentoring, escalation, and approved AI work. Direct production design or operation of Zscaler, Security Operations, vulnerability, exposure, scanner, Endpoint Detection and Response, Security Information and Event Management, Zero Trust Network Access, or an enterprise Zero Trust program is not established.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, and every NMH architecture, identity, session, policy, test, incident, metric, calculation, decision, and outcome are fictional. Your established production bridge is enterprise support, OneDrive, SharePoint, networking, troubleshooting, analytics, mentoring, escalation, and approved AI work. Direct production design or operation of Zscaler, Security Operations, vulnerability, exposure, scanner, Endpoint Detection and Response, Security Information and Event Management, Zero Trust Network Access, or an enterprise Zero Trust program is not established.
 >
 > **Standards and product caveat:** National Institute of Standards and Technology Special Publication 800-207, abbreviated NIST SP 800-207, is technology-neutral United States government guidance. Zscaler pages describe Zscaler's product and architectural positioning. NIST does not certify that a named vendor implementation is automatically a complete Zero Trust Architecture. Verify current standards, product documentation, packaging, license, tenant behavior, privacy duties, and customer policy before operational use.
 >
@@ -16,7 +16,7 @@ Zero Trust is a security strategy and architectural approach that removes automa
 
 Imagine a research campus. A traditional perimeter model may check a badge at the front gate and then allow broad movement. Zero Trust checks which person and device are requesting which laboratory, for which action, at which time, under which risk conditions. Entry to one laboratory does not grant entry to another. A change in badge status, device health, or behavior can cause another check or session termination. The campus still needs fences, cameras, fire safety, backups, and emergency procedures. Zero Trust changes the trust model; it does not eliminate defense in depth.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Learning outcome | What mastery looks like |
 |---|---|
@@ -39,7 +39,7 @@ By the end, Arti should be able to:
 
 **JD** means job description. The target Technical Success Manager, abbreviated **TSM**, needs to connect Zero Trust architecture to customer outcomes, adoption, risk reduction, troubleshooting, and executive communication while preserving product and ownership boundaries.
 
-| JD expectation | Part 10 capability | Honest Arti bridge |
+| JD expectation | Part 10 capability | Honest experience bridge |
 |---|---|---|
 | Analyze complex environments | Map subjects, devices, identities, applications, workloads, data, policy, enforcement, and telemetry | Production Microsoft 365 and networking dependency analysis |
 | Identify security risk | Find implicit trust, broad network access, stale identity, weak context, and large blast radius | Lab NMH assessment; no claimed Zero Trust production design |
@@ -52,13 +52,13 @@ By the end, Arti should be able to:
 
 ## Candidate honesty note
 
-Arti can truthfully say that she has investigated production access and availability across OneDrive, SharePoint, Microsoft identity, client, browser, Domain Name System, Transmission Control Protocol, Transport Layer Security, Hypertext Transfer Protocol, proxy, policy, and service layers. She has led escalations, coordinated with Engineering, analyzed trends, and validated fixes. These are valuable Zero Trust troubleshooting foundations.
+You can truthfully say that you have investigated production access and availability across OneDrive, SharePoint, enterprise identity, client, browser, Domain Name System, Transmission Control Protocol, Transport Layer Security, Hypertext Transfer Protocol, proxy, policy, and service layers. You have led escalations, coordinated with Engineering, analyzed trends, and validated fixes. These are valuable Zero Trust troubleshooting foundations.
 
-She should not say that Microsoft support work constitutes designing a customer Zero Trust Architecture, deploying Zscaler Private Access, operating the Zero Trust Exchange, or owning a Security Operations program.
+You should not say that enterprise support work constitutes designing a customer Zero Trust Architecture, deploying Zscaler Private Access, operating the Zero Trust Exchange, or owning a Security Operations program.
 
 | Label | Meaning in this chapter | Safe wording | Unsafe wording |
 |---|---|---|---|
-| Production | Established Microsoft support, networking, analytics, escalation, mentoring, training, and approved AI facts | "I traced Microsoft 365 access through identity, policy, network, client, and service evidence." | "I deployed enterprise Zero Trust for customers" |
+| Production | Established enterprise support, networking, analytics, escalation, mentoring, training, and approved AI facts | "I traced Microsoft 365 access through identity, policy, network, client, and service evidence." | "I deployed enterprise Zero Trust for customers" |
 | Lab | Synthetic architecture, policy, test, or exercise | "I designed and challenged an NMH target architecture in a lab case." | "I transformed a global manufacturer" |
 | Conceptual | NIST architecture or general method understood from sources | "I can map PE, PA, PEP, signals, and session lifecycle." | "I am a Zero Trust architect" without evidence |
 | Not-yet-used | Product or operational responsibility without direct experience | "I have not deployed Zscaler products in production." | "I configured ZPA policy" |
@@ -545,7 +545,7 @@ Telemetry also creates privacy and security obligations. Collect only what serve
 
 ## OneDrive and SharePoint access example
 
-This example is conceptual and uses Arti's familiar production domain. It does not claim a particular customer's architecture or a Zscaler deployment.
+This example is conceptual and uses your familiar production domain. It does not claim a particular customer's architecture or a Zscaler deployment.
 
 ### Business need
 
@@ -597,7 +597,7 @@ If an employee reports a sync block, "Zero Trust denied it" is not a root cause.
 6. Application: SharePoint and OneDrive authorization, client behavior, service health, and error.
 7. Telemetry: correlation identifiers, clock, missing events, and privacy-safe evidence.
 
-This is where Arti's established production skills are strongest. She can lead evidence isolation while working with customer identity, network, security, application, and vendor owners.
+This is where your established production skills are strongest. You can lead evidence isolation while working with customer identity, network, security, application, and vendor owners.
 
 ## Legacy coexistence
 
@@ -719,7 +719,7 @@ A road map describes destinations, routes, and constraints. A vehicle provides c
 
 NIST SP 800-207 gives architecture concepts and questions. Zscaler provides products that can implement relevant policy, connectivity, inspection, segmentation, and telemetry functions. The customer still owns resource inventory, identity lifecycle, data classification, policy intent, change, exception, application behavior, governance, response, recovery, and proof of outcomes.
 
-In an interview, Arti can say: "NIST gives me the neutral reference model. I would map the customer's actual Zscaler components and integrations to PE, PA, PEP, signal, and resource functions, then validate the flow and controls. I have studied that mapping but have not deployed it in production."
+In an interview, you can say: "NIST gives me the neutral reference model. I would map the customer's actual Zscaler components and integrations to PE, PA, PEP, signal, and resource functions, then validate the flow and controls. I have studied that mapping but have not deployed it in production."
 
 ## Fictional NMH current state
 
@@ -1097,7 +1097,7 @@ I would map actual Zscaler components and integrations to PE, PA, PEP, signals, 
 
 **Model answer:** I would scope the subject, device, resource, action, time, and error, then trace identity and token, device posture and freshness, resource classification, effective policy and rule order, PEP and forwarding path, DNS, TCP, TLS, HTTP and proxy evidence, application authorization, service health, and telemetry correlation. I would compare one affected and one unaffected case that differ in a meaningful dimension.
 
-My production Microsoft support and networking experience is directly useful here. I would work within customer authority and avoid broad bypass. Any workaround would be narrow, time-bound, monitored, and validated for both legitimate success and prohibited denial.
+My production enterprise support and networking experience is directly useful here. I would work within customer authority and avoid broad bypass. Any workaround would be narrow, time-bound, monitored, and validated for both legitimate success and prohibited denial.
 
 ### Q7. Walk through the fictional NMH Zero Trust roadmap.
 
@@ -1138,7 +1138,7 @@ The strongest explanation is resource-specific: which implicit trust was removed
 | NIST | Neutral architecture map |
 | Zscaler | Vendor vehicle and documented positioning |
 | Troubleshooting | Subject, device, resource, policy, PEP, path, app, data |
-| Arti bridge | Production Microsoft access evidence; not-yet-used Zscaler deployment |
+| Experience bridge | Production Microsoft access evidence; not-yet-used Zscaler deployment |
 
 ## Completion Checklist
 

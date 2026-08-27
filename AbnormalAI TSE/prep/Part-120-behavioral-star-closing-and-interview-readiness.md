@@ -1,6 +1,6 @@
 # Part 120 - Behavioral STAR Closing and Interview Readiness
 
-> **Purpose:** Turn Arti's verified Microsoft enterprise-support background and Parts 001-119 into truthful spoken evidence for behavioral, fit, closing, and mixed interview rounds.
+> **Purpose:** Turn your verified enterprise-support background and Parts 001-119 into truthful spoken evidence for behavioral, fit, closing, and mixed interview rounds.
 >
 > **Artifact honesty label:** **Candidate-adaptation templates, sourced company notes, a private mock design, and readiness gates. No bracketed story is a completed autobiographical claim. No mock, recording, local lab, synthetic practice, independent review, interview, or Abnormal product exercise was performed while authoring this Part.**
 >
@@ -10,7 +10,7 @@
 
 ## Section goal
 
-This final Part helps Arti convert established evidence into answers she can say naturally, defend under follow-up, and correct when memory or evidence is incomplete. It supplies a ten-item story bank, a background-to-capability map, fit-answer frameworks, audience-specific interview strategy, more than twenty interviewer questions, closing scripts, a private spoken-practice scorecard, a night-before sheet, and an evidence-based readiness gate.
+This final Part helps you convert established evidence into answers you can say naturally, defend under follow-up, and correct when memory or evidence is incomplete. It supplies a ten-item story bank, a background-to-capability map, fit-answer frameworks, audience-specific interview strategy, more than twenty interviewer questions, closing scripts, a private spoken-practice scorecard, a night-before sheet, and an evidence-based readiness gate.
 
 The purpose is not to manufacture confidence. It is to make confidence proportional to proof. Reading can establish vocabulary and mental models. Only completing the bracketed fields from real memories, checking evidence, speaking without a script, handling follow-ups, and repeating realistic mocks can establish interview readiness.
 
@@ -18,24 +18,24 @@ The purpose is not to manufacture confidence. It is to make confidence proportio
 
 | Term | Beginner-first definition | Why it matters | Everyday analogy | Where the analogy stops |
 |---|---|---|---|---|
-| **Competency** | An observable combination of knowledge, skill, judgment, and behavior that helps someone perform a job well. | Interviewers use examples to predict whether Arti can own cases, communicate, collaborate, and learn. | A driver's competence combines rules, control, awareness, and decisions. | A support competency is contextual and cannot be reduced to one fixed test. |
+| **Competency** | An observable combination of knowledge, skill, judgment, and behavior that helps someone perform a job well. | Interviewers use examples to predict whether you can own cases, communicate, collaborate, and learn. | A driver's competence combines rules, control, awareness, and decisions. | A support competency is contextual and cannot be reduced to one fixed test. |
 | **Behavioral question** | A prompt asking for a real past example, often beginning with “Tell me about a time...” | It asks for evidence of prior behavior, not a hypothetical ideal. | A reference check asks what happened, not what might happen. | One story does not prove behavior in every future setting. |
 | **STAR** | A speaking structure made from **Situation, Task, Action, and Result**. | It keeps a real example understandable and makes personal contribution visible. | Four labeled folders keep one case from becoming a pile of papers. | Real work can be iterative, and no folder permits invented facts. |
 | **Situation** | The minimum context needed to understand the real problem, environment, and stakes. | It tells the listener why the example mattered. | A map pin establishes where a journey starts. | Context is not permission to reveal a customer, tenant, incident, or confidential detail. |
-| **Task** | Arti's actual responsibility, decision, or objective in that situation. | It separates her ownership from the wider team's work. | A relay runner names which leg she ran. | Team outcomes can still depend on many people and systems. |
-| **Action** | The specific steps Arti personally chose or performed, including reasoning, communication, and collaboration. | Action is usually the strongest predictor of repeatable behavior. | A recipe records what the cook did and why. | A sequence is not causal proof, and “we” must not hide personal contribution. |
-| **Result** | The verified change, outcome, decision, or learning that followed. | It closes the evidence loop and prevents a task list from masquerading as impact. | A repaired door is tested by opening it, not by counting tools. | A result must not be invented, and a team result may not be solely attributable to Arti. |
-| **Reflection** | What Arti learned, would repeat, or would change after the event. | It shows self-awareness, calibration, and growth beyond a polished success story. | A team reviews a journey before choosing the next route. | Reflection cannot retroactively make a poor or unsafe action acceptable. |
+| **Task** | Your actual responsibility, decision, or objective in that situation. | It separates your ownership from the wider team's work. | A relay runner names which leg you ran. | Team outcomes can still depend on many people and systems. |
+| **Action** | The specific steps you personally chose or performed, including reasoning, communication, and collaboration. | Action is usually the strongest predictor of repeatable behavior. | A recipe records what the cook did and why. | A sequence is not causal proof, and “we” must not hide personal contribution. |
+| **Result** | The verified change, outcome, decision, or learning that followed. | It closes the evidence loop and prevents a task list from masquerading as impact. | A repaired door is tested by opening it, not by counting tools. | A result must not be invented, and a team result may not be solely attributable to you. |
+| **Reflection** | What you learned, would repeat, or would change after the event. | It shows self-awareness, calibration, and growth beyond a polished success story. | A team reviews a journey before choosing the next route. | Reflection cannot retroactively make a poor or unsafe action acceptable. |
 | **Evidence** | A fact, artifact, observation, or record that supports a claim. | It distinguishes a credible story from a rehearsed assertion. | A receipt supports what was purchased. | Evidence can be incomplete, confidential, context-bound, or open to another interpretation. |
-| **Transferable skill** | A method that remains useful across different products or environments, such as scoping impact or building an escalation packet. | It explains how Microsoft support experience can help in a new security SaaS role. | Driving habits transfer between cars even when controls differ. | Transfer does not equal product operation, domain authority, or immediate mastery. |
+| **Transferable skill** | A method that remains useful across different products or environments, such as scoping impact or building an escalation packet. | It explains how enterprise support experience can help in a new security SaaS role. | Driving habits transfer between cars even when controls differ. | Transfer does not equal product operation, domain authority, or immediate mastery. |
 | **Fit answer** | A concise explanation connecting motivation, evidence, values, gaps, and the target role. | It answers why this move, company, role, and candidate make sense together. | A bridge connects two shores using visible supports. | A persuasive bridge must not hide a missing support or promise mutual fit before discovery. |
 | **Recruiter** | A hiring professional who commonly checks motivation, baseline alignment, communication, process, and logistics. | The answer should be concise and role-oriented without unnecessary technical depth. | A route planner checks destination and constraints. | This does not claim Abnormal's recruiter owns a fixed set of decisions. |
-| **Hiring manager or HM** | The person who may lead the role or evaluate day-to-day performance, ownership, judgment, and team needs. | This audience usually needs evidence of how Arti works, learns, and handles customers. | A team captain evaluates how a player contributes to the whole game. | The actual reporting structure and interview scope are unknown until confirmed. |
-| **Technical panel or panel** | One or more interviewers who may test fundamentals, troubleshooting, communication, and collaboration. | Arti must reason aloud, state assumptions, and validate rather than recite labels. | An inspection team watches both method and result. | A panel is not guaranteed, and its composition or questions cannot be inferred here. |
+| **Hiring manager or HM** | The person who may lead the role or evaluate day-to-day performance, ownership, judgment, and team needs. | This audience usually needs evidence of how you work, learns, and handles customers. | A team captain evaluates how a player contributes to the whole game. | The actual reporting structure and interview scope are unknown until confirmed. |
+| **Technical panel or panel** | One or more interviewers who may test fundamentals, troubleshooting, communication, and collaboration. | You must reason aloud, state assumptions, and validate rather than recite labels. | An inspection team watches both method and result. | A panel is not guaranteed, and its composition or questions cannot be inferred here. |
 | **Closing** | The final concise synthesis of interest, relevant evidence, honest gap, and next step. | It helps the interviewer remember the candidate's value without a new sales pitch. | A case summary states finding, limit, and next action. | A close cannot rescue unsupported answers or force a hiring decision. |
 | **Mock interview or mock** | A planned practice conversation that imitates timing, uncertainty, follow-ups, and audience changes. | It exposes gaps that silent reading and polished notes hide. | A fire drill tests coordinated behavior without creating a fire. | Practice cannot reproduce the exact company, interviewer, product access, or stakes. |
 | **Calibration** | Comparing confidence with actual evidence and scored performance. | It prevents fluent reading from becoming an unsupported readiness claim. | A scale is calibrated against known weights. | Human performance varies with stress, context, sleep, and question design. |
-| **Readiness** | A current evidence-based judgment that Arti can perform the expected interview behaviors consistently enough, with known limits. | It distinguishes “the guide exists” from “I can answer and reason under pressure.” | A travel bag is ready only after required items are checked, not when a packing list is written. | No checklist guarantees an offer or predicts every interview question. |
+| **Readiness** | A current evidence-based judgment that you can perform the expected interview behaviors consistently enough, with known limits. | It distinguishes “the guide exists” from “I can answer and reason under pressure.” | A travel bag is ready only after required items are checked, not when a packing list is written. | No checklist guarantees an offer or predicts every interview question. |
 
 ```mermaid
 flowchart LR
@@ -55,11 +55,11 @@ flowchart LR
 
 The mappings below come from the supplied job-description signals recorded in the master guide. They do not claim knowledge of Abnormal's current internal interview loop, case systems, performance measures, escalation rules, compensation bands, or private culture.
 
-| Supplied role signal | Capability practiced here | Verified Arti foundation | Evidence still required from Arti |
+| Supplied role signal | Capability practiced here | Verified your foundation | Evidence still required from you |
 |---|---|---|---|
-| Four or more years of customer-facing enterprise support | A concise career story and competency examples | Five years of Microsoft customer-facing enterprise support and escalation | Real sanitized case details and verified outcomes |
+| Four or more years of customer-facing enterprise support | A concise career story and competency examples | Several years of enterprise customer-facing support and escalation | Real sanitized case details and verified outcomes |
 | Complex investigations and threat/configuration/API cases | Ambiguity, hypothesis, escalation, and learning stories | Complex Microsoft investigations, Engineering/Product escalation, fix validation; working technical foundations | No direct Abnormal, threat-verdict, or email-security operations claim |
-| Customer trust and timely updates | De-escalation, expectation, and CRITSIT answers | Customer/partner communication and CRITSIT experience | One real example with actual words, cadence, and outcome |
+| Customer trust and timely updates | De-escalation, expectation, and critical-situation answers | Customer/partner communication and critical-situation experience | One real example with actual words, cadence, and outcome |
 | Engineering and Product collaboration | Cross-functional story and escalation follow-up | Microsoft Engineering/Product escalation and fix validation | Exact personal action and result from a real case |
 | KB, training, mentoring, and case deflection | Knowledge and enablement stories | KB/training creation, mentoring, and case-quality work | Real audience, action, adoption signal, and limitation |
 | Trends, metrics, and process improvement | Evidence-led improvement answer | CSAT, backlog, and case-quality analysis | Actual baseline, decision, result, and metric provenance if any |
@@ -69,15 +69,15 @@ The mappings below come from the supplied job-description signals recorded in th
 
 ## Candidate honesty note
 
-Arti's established production foundation is specific: five years in Microsoft customer-facing enterprise support and escalation across SharePoint Online, OneDrive, Sync Client, and Copilot; CRITSITs and complex investigations; customer and partner communication; Engineering and Product escalation; fix validation; KB and training creation; mentoring; case-quality work; and CSAT/backlog/case-quality analysis. The master also records working knowledge or upskilling in networking, diagnostic tools, APIs, data, identity, automation, and AI. It does not establish that every listed tool was used at production scale.
+Your established production foundation is specific: several years in enterprise customer-facing support and escalation across SharePoint Online, OneDrive, Sync Client, and Copilot; critical situations and complex investigations; customer and partner communication; Engineering and Product escalation; fix validation; KB and training creation; mentoring; case-quality work; and CSAT/backlog/case-quality analysis. The master also records working knowledge or upskilling in networking, diagnostic tools, APIs, data, identity, automation, and AI. It does not establish that every listed tool was used at production scale.
 
-The guide does not contain story-level facts such as a customer identity, incident date, defect mechanism, title, exact personal remit, duration, number of users, severity, financial impact, percentage improvement, publication count, award, or measured outcome. Those details must remain bracketed until Arti supplies a true, nonconfidential account she can defend.
+The guide does not contain story-level facts such as a customer identity, incident date, defect mechanism, title, exact personal remit, duration, number of users, severity, financial impact, percentage improvement, publication count, award, or measured outcome. Those details must remain bracketed until you supply a true, nonconfidential account you can defend.
 
 ### Safe wording tiers
 
 | Evidence tier | What it means here | Safe opening | Required proof | Prohibited upgrade |
 |---|---|---|---|---|
-| **Direct production transfer** | A method or responsibility explicitly supported by the master/CV within Microsoft enterprise support | “In my Microsoft enterprise-support work, I...” | A real sanitized situation, personal action, and observed result | Calling it Abnormal, SOC, email-security, or another vendor's production experience |
+| **Direct production transfer** | A method or responsibility explicitly supported by the master/CV within enterprise support | “In my prior enterprise-support work, I...” | A real sanitized situation, personal action, and observed result | Calling it Abnormal, SOC, email-security, or another vendor's production experience |
 | **Performed lab or design** | A safe local/public/synthetic exercise only if it was actually run; a design remains a design | “I have not done this in production. In a dated local lab, I demonstrated...” | Run record, inputs, output, artifact, cleanup, and limitations | Calling authored instructions or reading hands-on work |
 | **Learned architecture** | Understanding developed from current official documentation and study | “My current understanding from official documentation is...” | Dated source, supported statement, boundary, and validation plan | Claiming console use, private behavior, support workflow, or operational judgment |
 | **No direct Abnormal experience** | No production operation of Abnormal or direct email-security case ownership is established | “I have not used Abnormal directly. The closest transferable experience is..., and I would ramp by...” | Clear gap, closest method, authorized learning sequence, feedback checkpoint | Hiding the gap behind “exposure,” “familiar,” or confident product language |
@@ -86,9 +86,9 @@ The guide does not contain story-level facts such as a customer identity, incide
 
 | Candidate statement | Status from the guide | Safe use | Missing candidate evidence | Claim ceiling |
 |---|---|---|---|---|
-| Five years of Microsoft customer-facing enterprise support and escalation | Verified background fact | Career introduction and enterprise-ownership evidence | A real example for each selected competency | Do not add titles, dates, levels, awards, or scope not verified here |
+| Several years of enterprise customer-facing support and escalation | Verified background fact | Career introduction and enterprise-ownership evidence | A real example for each selected competency | Do not add titles, dates, levels, awards, or scope not verified here |
 | SharePoint Online, OneDrive, Sync Client, and Copilot support | Verified named workload scope | Microsoft cloud and client/service-boundary transfer | Exact case details if used in STAR | Not Exchange Online security operations or Abnormal administration |
-| CRITSIT and complex investigation experience | Verified category | Pressure, cadence, prioritization, and escalation transfer | Actual impact, role, actions, communication, result | Not security-incident command unless independently true and authorized to say |
+| Critical situation and complex investigation experience | Verified category | Pressure, cadence, prioritization, and escalation transfer | Actual impact, role, actions, communication, result | Not security-incident command unless independently true and authorized to say |
 | Customer and partner communication | Verified category | Trust, de-escalation, expectation, and translation evidence | A specific conversation and observable outcome | No invented customer emotion or satisfaction score |
 | Engineering/Product escalation and fix validation | Verified category | Cross-functional and escalation evidence | Repro/evidence/ask/validation from a real sanitized case | No invented defect, root cause, roadmap decision, or release |
 | KB/training creation and mentoring | Verified category | Enablement and knowledge-sharing evidence | Audience, need, artifact, feedback, outcome | No invented article count, learner count, deflection, or adoption metric |
@@ -122,7 +122,7 @@ flowchart TD
 
 ### 🔍 Plain-English deep-dive: A scaffold is not a story
 
-A scaffold is a structure that holds empty places for verified facts. It is like a blank incident template: useful because it prevents omissions, but it is not evidence that an incident happened. In this Part, brackets such as **[real customer impact]** are stop signs. Arti must either replace them with a true, sanitized fact or choose a different story. Removing the brackets while keeping invented prose would be deception.
+A scaffold is a structure that holds empty places for verified facts. It is like a blank incident template: useful because it prevents omissions, but it is not evidence that an incident happened. In this Part, brackets such as **[real customer impact]** are stop signs. You must either replace them with a true, sanitized fact or choose a different story. Removing the brackets while keeping invented prose would be deception.
 
 The limitation of the building analogy is important. A physical scaffold can stand before the building exists. An interview story cannot be “close enough” to reality because the interviewer may probe exact actions, alternatives, and outcomes. A truthful modest result is stronger than a dramatic result that changes under follow-up.
 
@@ -133,15 +133,15 @@ Use STAR to make evidence easy to follow, not to turn every answer into a perfor
 | Element | Question to answer | Strong content | Weak or unsafe content |
 |---|---|---|---|
 | Situation | What real, sanitized condition made action necessary? | Workload category, customer-visible impact, ambiguity, constraints | Customer identity, confidential detail, long chronology, invented urgency |
-| Task | What was Arti accountable for? | Specific case ownership, investigation, update, artifact, or decision | “We needed to fix everything” or an unverified title/authority |
-| Action | What did Arti personally do and why? | Questions, hypotheses, evidence, communication, handoff, adaptation | Tool list, vague “worked hard,” or taking credit for team action |
-| Result | What verifiably changed? | Restored outcome, decision, validated fix, reduced uncertainty, reusable knowledge, lesson | Unsupported metric, universal impact, or “Engineering fixed it” as Arti's result |
-| Reflection | What would Arti repeat or improve? | Specific learning, changed habit, boundary, next practice | A generic “communication is important” ending |
+| Task | What was you accountable for? | Specific case ownership, investigation, update, artifact, or decision | “We needed to fix everything” or an unverified title/authority |
+| Action | What did you personally do and why? | Questions, hypotheses, evidence, communication, handoff, adaptation | Tool list, vague “worked hard,” or taking credit for team action |
+| Result | What verifiably changed? | Restored outcome, decision, validated fix, reduced uncertainty, reusable knowledge, lesson | Unsupported metric, universal impact, or “Engineering fixed it” as your result |
+| Reflection | What would you repeat or improve? | Specific learning, changed habit, boundary, next practice | A generic “communication is important” ending |
 
 ```mermaid
 sequenceDiagram
     participant I as Interviewer
-    participant A as Arti
+    participant A as Candidate
     participant E as Evidence boundary
     I->>A: Ask for a past example
     A->>E: Select one real sanitized event
@@ -168,9 +168,9 @@ Why it fails: the guide supports none of the scale, customer, authority, metric,
 
 **Truthful ready-to-adapt form:**
 
-> In a Microsoft enterprise-support case involving **[real sanitized workload]**, the customer was experiencing **[verified impact stated without identity or confidential detail]**. My responsibility was **[actual personal case responsibility]**. I first clarified **[expected versus actual behavior, scope, timeline, or recent change]**. I then **[real investigation actions and why they separated hypotheses]**, kept **[actual stakeholders]** aligned through **[real update approach]**, and escalated **[only if true]** with **[real reproducible evidence and explicit question]**. The verified result was **[actual observable outcome; no invented number]**. I learned **[real reflection]**. The transferable part for this role is structured ownership and evidence; I would still need to learn Abnormal's product-specific evidence and escalation process.
+> In a enterprise-support case involving **[real sanitized workload]**, the customer was experiencing **[verified impact stated without identity or confidential detail]**. My responsibility was **[actual personal case responsibility]**. I first clarified **[expected versus actual behavior, scope, timeline, or recent change]**. I then **[real investigation actions and why they separated hypotheses]**, kept **[actual stakeholders]** aligned through **[real update approach]**, and escalated **[only if true]** with **[real reproducible evidence and explicit question]**. The verified result was **[actual observable outcome; no invented number]**. I learned **[real reflection]**. The transferable part for this role is structured ownership and evidence; I would still need to learn Abnormal's product-specific evidence and escalation process.
 
-The form succeeds only after every bracket contains a real fact Arti can explain consistently.
+The form succeeds only after every bracket contains a real fact you can explain consistently.
 
 ## Background-to-competency translation
 
@@ -178,9 +178,9 @@ This artifact routes likely role capabilities to verified evidence categories. I
 
 | Competency | Plain meaning | Strongest verified background category | Transfer to the target role | Honest boundary | Best story IDs |
 |---|---|---|---|---|---|
-| Enterprise ownership | Maintain forward movement, communication, and validation across a case | Five years of Microsoft enterprise support and escalation | Own inbound cases from scope to resolution or useful escalation | Product workflow and exact L1 authority are unknown | S1, S3 |
+| Enterprise ownership | Maintain forward movement, communication, and validation across a case | Several years of enterprise support and escalation | Own inbound cases from scope to resolution or useful escalation | Product workflow and exact L1 authority are unknown | S1, S3 |
 | Complex troubleshooting | Turn ambiguity into testable explanations and evidence | Complex investigations; named Microsoft cloud workloads | Configuration, integration, API, and security-support reasoning | No direct Abnormal or email-threat case ownership | S1, S2 |
-| Critical coordination | Keep impact, facts, owners, and cadence visible under pressure | CRITSIT experience | High-impact customer and cross-team coordination | CRITSIT is not automatically security incident command | S3 |
+| Critical coordination | Keep impact, facts, owners, and cadence visible under pressure | critical-situation experience | High-impact customer and cross-team coordination | critical situation is not automatically security incident command | S3 |
 | Customer trust | Be candid, useful, dependable, and careful with evidence | Customer and partner communication | De-escalation, expectation management, and updates | Story details and customer reaction require confirmation | S4 |
 | Operational improvement | Use support signals to improve a workflow or quality | CSAT, backlog, and case-quality analysis | Trend identification, quality, and process experiments | Do not invent ownership, denominator, or metric magnitude | S5 |
 | Knowledge creation | Turn verified learning into reusable guidance | KB and training creation | Internal/external knowledge, case deflection, onboarding | No unverified publication or deflection result | S6 |
@@ -189,11 +189,11 @@ This artifact routes likely role capabilities to verified evidence categories. I
 | Learning agility | Build competence in a new area through evidence and feedback | Networking, APIs, identity, analytics, automation, and AI upskilling | Ramp across email security and security SaaS | Reading/design alone is not performed lab or production use | S9 |
 | Accountability and conflict | Correct course, handle disagreement, and own limitations | Complex investigation and cross-team work categories support a search for a real example | Intellectual honesty and productive disagreement | No specific mistake or conflict is established in the guide | S10 |
 | Technical communication | Preserve mechanisms, evidence, uncertainty, and asks | Customer/partner plus Engineering/Product communication | Panel reasoning and high-quality escalation | Must not reveal restricted Microsoft details | S1, S8 |
-| Nontechnical communication | Translate impact, decisions, and next steps | Customer/partner and CRITSIT communication | Executive/customer updates and closing | Do not invent audience title or sentiment | S3, S4 |
+| Nontechnical communication | Translate impact, decisions, and next steps | Customer/partner and critical-situation communication | Executive/customer updates and closing | Do not invent audience title or sentiment | S3, S4 |
 
 ## STAR story bank artifact
 
-All ten entries are **ready-to-adapt scaffolds**, not ready-to-recite claims. The guide confirms the broad evidence category for S1-S9, but only Arti can confirm the event-level details. S10 is especially strict: the guide establishes no particular mistake, failure, or conflict, so the answer must remain blank until a genuine example is selected.
+All ten entries are **ready-to-adapt scaffolds**, not ready-to-recite claims. The guide confirms the broad evidence category for S1-S9, but only you can confirm the event-level details. S10 is especially strict: the guide establishes no particular mistake, failure, or conflict, so the answer must remain blank until a genuine example is selected.
 
 ### Story-bank index
 
@@ -201,7 +201,7 @@ All ten entries are **ready-to-adapt scaffolds**, not ready-to-recite claims. Th
 |---|---|---|---|---|---|
 | S1 | Difficult enterprise case | Complex Microsoft investigation | Workload, impact, responsibility, actions, result | Ownership, troubleshooting, customer focus | `NEEDS_ARTI_FACTS` |
 | S2 | Ambiguity and RCA discipline | Complex investigation and fix validation | Competing explanations, evidence, conclusion strength | Judgment, root-cause restraint, adaptability | `NEEDS_ARTI_FACTS` |
-| S3 | Escalation or CRITSIT | CRITSIT, escalation, communication | Trigger, role, cadence, handoffs, validation | Pressure, prioritization, cross-team ownership | `NEEDS_ARTI_FACTS` |
+| S3 | Escalation or critical situation | critical situation, escalation, communication | Trigger, role, cadence, handoffs, validation | Pressure, prioritization, cross-team ownership | `NEEDS_ARTI_FACTS` |
 | S4 | Customer trust and de-escalation | Customer/partner communication | Concern, words/actions, expectation reset, outcome | Empathy, bad news, executive communication | `NEEDS_ARTI_FACTS` |
 | S5 | Process improvement and metrics | CSAT/backlog/case-quality analysis | Baseline signal, intervention, measurement, limitation | Analytics, improvement, quality | `NEEDS_ARTI_FACTS` |
 | S6 | KB or reusable guidance | KB/training creation | Repeated need, artifact, review, use signal | Documentation, deflection, communication | `NEEDS_ARTI_FACTS` |
@@ -226,11 +226,11 @@ flowchart TD
 
 ### S1 - Difficult enterprise case ownership
 
-**Evidence ceiling:** The master supports complex Microsoft enterprise investigations and named workloads. It does not identify a particular case, cause, impact, or result.
+**Evidence ceiling:** The master supports complex enterprise investigations and named workloads. It does not identify a particular case, cause, impact, or result.
 
 | STAR field | Candidate-filled scaffold |
 |---|---|
-| Situation | “A Microsoft enterprise customer using **[SharePoint Online, OneDrive, Sync Client, or Copilot only if that was the real workload]** experienced **[sanitized, verified symptom and business impact]**. The difficulty came from **[real ambiguity, intermittence, scope, dependency, or evidence gap]**.” |
+| Situation | “A enterprise customer using **[SharePoint Online, OneDrive, Sync Client, or Copilot only if that was the real workload]** experienced **[sanitized, verified symptom and business impact]**. The difficulty came from **[real ambiguity, intermittence, scope, dependency, or evidence gap]**.” |
 | Task | “I was responsible for **[actual role in intake, diagnosis, coordination, communication, escalation, or validation]** while staying within **[real support/authorization boundary]**.” |
 | Action | “I clarified **[expected/actual, scope, timeline, change]**, formed **[real competing hypotheses]**, and selected **[real evidence/test]** because it would distinguish **[prediction A]** from **[prediction B]**. I kept **[real audience]** informed through **[real cadence/artifact]** and involved **[verified team]** when **[real escalation trigger]**.” |
 | Result | “The verified outcome was **[actual restored function, clarified owner, validated fix, workaround, reduced uncertainty, or other defensible result]**. My contribution was **[personal contribution]**; the wider team contributed **[team contribution if relevant]**.” |
@@ -256,13 +256,13 @@ flowchart TD
 
 **Likely probes:** Were you wrong at first? Which observation was discriminating? Did the workaround prove cause? Who had authority to confirm root cause?
 
-### S3 - Escalation or CRITSIT under pressure
+### S3 - Escalation or critical-situation under pressure
 
-**Evidence ceiling:** CRITSITs, Engineering/Product escalation, customer/partner communication, and fix validation are verified categories. A CRITSIT is not automatically a cybersecurity incident.
+**Evidence ceiling:** critical situations, Engineering/Product escalation, customer/partner communication, and fix validation are verified categories. A critical situation is not automatically a cybersecurity incident.
 
 | STAR field | Candidate-filled scaffold |
 |---|---|
-| Situation | “During a Microsoft CRITSIT involving **[sanitized workload and verified impact]**, **[actual number/type of stakeholder groups without identities]** needed a common view while the cause remained **[known/unknown]**.” |
+| Situation | “During a enterprise critical-situation involving **[sanitized workload and verified impact]**, **[actual number/type of stakeholder groups without identities]** needed a common view while the cause remained **[known/unknown]**.” |
 | Task | “My responsibility was **[actual investigation or coordination workstream]**, including **[real update, evidence, handoff, or validation duty]**.” |
 | Action | “I kept a live structure for impact, confirmed facts, unknowns, actions, owners, and checkpoints. I **[real diagnostic action]**, sent **[real technical/nontechnical update]**, and escalated to **[verified Engineering/Product boundary]** with **[real evidence and explicit ask]**. When **[dependency or evidence changed]**, I **[real reprioritization or correction]**.” |
 | Result | “The verified outcome was **[real restoration, workaround, decision, fix validation, or orderly transfer]**. The result attributable to my work was **[actual contribution]**, not the entire team outcome.” |
@@ -278,7 +278,7 @@ flowchart TD
 
 | STAR field | Candidate-filled scaffold |
 |---|---|
-| Situation | “A customer or partner in **[real sanitized Microsoft context]** was concerned because **[verified impact, missed expectation, uncertainty, or repeated effort]**.” |
+| Situation | “A customer or partner in **[real sanitized situation from your own work]** was concerned because **[verified impact, missed expectation, uncertainty, or repeated effort]**.” |
 | Task | “I needed to reduce avoidable uncertainty and move the technical case forward without promising **[uncontrolled result or date]**.” |
 | Action | “I first **[real listening/summary action]** and acknowledged **[real impact]**. I separated **[known]** from **[unknown]**, explained **[next evidence-based action]**, set **[real checkpoint]**, and **[met or candidly renegotiated it]**. I offered **[real safe option/workaround/escalation]** while preserving **[privacy, authorization, or product boundary if relevant]**.” |
 | Result | “The observable outcome was **[customer accepted plan, communication stabilized, necessary evidence arrived, workflow restored, or another real result]**. I did not measure **[emotion/CSAT]** unless a real record supports it.” |
@@ -310,7 +310,7 @@ flowchart TD
 
 | STAR field | Candidate-filled scaffold |
 |---|---|
-| Situation | “A recurring Microsoft support need involving **[real sanitized topic]** caused **[verified confusion, repeated investigation, inconsistent action, or onboarding need]**.” |
+| Situation | “A recurring enterprise support need involving **[real sanitized topic]** caused **[verified confusion, repeated investigation, inconsistent action, or onboarding need]**.” |
 | Task | “I needed to create or improve **[actual KB, troubleshooting note, training artifact, or guidance]** for **[real audience]**.” |
 | Action | “I gathered **[real verified source/case pattern]**, separated universal guidance from case-specific detail, wrote **[real decision steps, prerequisites, warnings, or escalation criteria]**, and had **[real reviewer/process if any]** validate it. I adjusted it after **[real feedback or observed confusion]**.” |
 | Result | “The verified outcome was **[actual reuse, clearer handling, learner completion, reduced repeated question, or accepted artifact]**. I will not claim a deflection rate or publication reach without a record.” |
@@ -338,7 +338,7 @@ flowchart TD
 
 | STAR field | Candidate-filled scaffold |
 |---|---|
-| Situation | “A Microsoft enterprise case involving **[real sanitized workload]** reached a boundary where Support could not determine **[real internal behavior, defect question, or intended behavior]** from available evidence.” |
+| Situation | “A enterprise case involving **[real sanitized workload]** reached a boundary where Support could not determine **[real internal behavior, defect question, or intended behavior]** from available evidence.” |
 | Task | “I needed to make the issue decision-ready for **[Engineering or Product, whichever was real]** while keeping customer ownership and avoiding a premature defect or roadmap claim.” |
 | Action | “I documented **[real expected/actual behavior, scope, environment, timeline, repro, IDs, known-good comparison]**, stated **[real hypotheses and tests]**, and asked **[specific real decision]**. I responded to **[real request/disagreement]** by **[adding evidence, revising the claim, or clarifying impact]**. After **[real returned finding/change]**, I **[real validation and customer follow-through]**.” |
 | Result | “The verified result was **[accepted investigation, clarified behavior, validated fix, useful workaround, product evidence, or another real result]**. I did not control **[priority, release, roadmap, or code decision]**.” |
@@ -362,7 +362,7 @@ flowchart TD
 
 ### S10 - Mistake, failed approach, or conflict
 
-**Evidence ceiling:** No event-level mistake, failed approach, or conflict is established in the guide. This scaffold cannot become an answer until Arti selects a genuine event. A small, well-understood example is preferable to an invented dramatic failure.
+**Evidence ceiling:** No event-level mistake, failed approach, or conflict is established in the guide. This scaffold cannot become an answer until you select a genuine event. A small, well-understood example is preferable to an invented dramatic failure.
 
 | STAR field | Candidate-filled scaffold |
 |---|---|
@@ -381,7 +381,7 @@ Complete one row per chosen event before speaking it.
 | Check | Candidate entry | Pass rule |
 |---|---|---|
 | Story ID and competency | `[FILL]` | One primary competency, at most two secondary ones |
-| Real event memory source | `[FILL: personal record/memory; no restricted data copied]` | Arti recognizes the event and can answer probes consistently |
+| Real event memory source | `[FILL: personal record/memory; no restricted data copied]` | You recogniz the event and can answer probes consistently |
 | Evidence tier | `[FILL]` | Direct production transfer, performed lab, learned architecture, or no direct experience |
 | Situation facts | `[FILL]` | Minimal, sanitized, no identity or confidential detail |
 | Personal task | `[FILL]` | “I” responsibility is distinct from team remit |
@@ -395,11 +395,11 @@ Complete one row per chosen event before speaking it.
 
 ## Fit-answer bank and worked examples
 
-A fit answer should normally use four moves: direct motivation, verified evidence, role connection, and honest boundary. It should sound like Arti, not like a company brochure. The scripts below are starting structures. Current company statements are attributed to official public sources reviewed for August 24, 2026 and must be revalidated close to the interview.
+A fit answer should normally use four moves: direct motivation, verified evidence, role connection, and honest boundary. It should sound like you, not like a company brochure. The scripts below are starting structures. Current company statements are attributed to official public sources reviewed for August 24, 2026 and must be revalidated close to the interview.
 
 ### Why this move?
 
-> I am not moving away from customer support; I am moving toward a security SaaS domain where the customer and technical consequences are especially meaningful. My verified foundation is five years in Microsoft enterprise support and escalation, including complex investigations, CRITSIT communication, Engineering and Product collaboration, fix validation, knowledge creation, mentoring, and support-quality analysis. I want to apply those disciplines at the intersection of cloud services, AI, identity, APIs, and human-targeted security. Direct email-security and Abnormal product operations are genuine gaps, so I am presenting this as a deliberate transition with a structured ramp plan, not as work I have already done.
+> I am not moving away from customer support; I am moving toward a security SaaS domain where the customer and technical consequences are especially meaningful. My verified foundation is several years in enterprise support and escalation, including complex investigations, critical-situation communication, Engineering and Product collaboration, fix validation, knowledge creation, mentoring, and support-quality analysis. I want to apply those disciplines at the intersection of cloud services, AI, identity, APIs, and human-targeted security. Direct email-security and Abnormal product operations are genuine gaps, so I am presenting this as a deliberate transition with a structured ramp plan, not as work I have already done.
 
 ### Why Abnormal AI?
 
@@ -411,11 +411,11 @@ A fit answer should normally use four moves: direct motivation, verified evidenc
 
 ### Why you?
 
-> I offer a mature enterprise-support foundation and a candid learning posture. My evidence includes five years of Microsoft customer-facing support and escalation, complex case and CRITSIT work, clear customer and partner communication, Engineering and Product escalation, fix validation, KB and training creation, mentoring, and operational analysis. I will not pretend that this makes me an Abnormal or email-security operator on day one. It does mean I already know how to own ambiguity, build evidence, protect trust, and learn through feedback. I would make the product/domain ramp visible and measurable rather than hiding it.
+> I offer a mature enterprise-support foundation and a candid learning posture. My evidence includes several years of enterprise customer-facing support and escalation, complex case and critical-situation work, clear customer and partner communication, Engineering and Product escalation, fix validation, KB and training creation, mentoring, and operational analysis. I will not pretend that this makes me an Abnormal or email-security operator on day one. It does mean I already know how to own ambiguity, build evidence, protect trust, and learn through feedback. I would make the product/domain ramp visible and measurable rather than hiding it.
 
 ### What is your biggest relevant gap?
 
-> My biggest relevant gap is direct Abnormal product and email-security operations experience. My Microsoft cloud support background is useful, but it is not equivalent. I am closing the conceptual gap through the completed curriculum and current official sources; the remaining readiness work is spoken practice, candidate-completed true stories, and authorized product learning such as documentation, shadowing, sandbox exercises, and reviewed cases after joining. I would rather be precise about that gap and show a reliable ramp method than use broad familiarity language.
+> My biggest relevant gap is direct Abnormal product and email-security operations experience. My prior cloud support background is useful, but it is not equivalent. I am closing the conceptual gap through the completed curriculum and current official sources; the remaining readiness work is spoken practice, candidate-completed true stories, and authorized product learning such as documentation, shadowing, sandbox exercises, and reviewed cases after joining. I would rather be precise about that gap and show a reliable ramp method than use broad familiarity language.
 
 ### First 30, 60, and 90 days
 
@@ -433,9 +433,9 @@ Do not promise ticket volume, CSAT, resolution time, independent case ownership,
 
 **Recruiter-ready answer without invented numbers:**
 
-> I am interested in understanding the role's scope, level, location expectations, total compensation structure, and the range budgeted for this position. I do not want to invent a number without that context. I am happy to discuss my expectations transparently once we align on level, base, variable or equity components, benefits, and logistics. I will also be direct about **[real notice period, work authorization, location, travel, or schedule constraint only after Arti verifies it]**.
+> I am interested in understanding the role's scope, level, location expectations, total compensation structure, and the range budgeted for this position. I do not want to invent a number without that context. I am happy to discuss my expectations transparently once we align on level, base, variable or equity components, benefits, and logistics. I will also be direct about **[real notice period, work authorization, location, travel, or schedule constraint only after you verify it]**.
 
-If the recruiter requires an expectation first, Arti should research current lawful market information and decide a real range privately. This guide intentionally supplies no amount, current salary, competing offer, work authorization, notice period, location preference, or flexibility claim.
+If the recruiter requires an expectation first, you should research current lawful market information and decide a real range privately. This guide intentionally supplies no amount, current salary, competing offer, work authorization, notice period, location preference, or flexibility claim.
 
 ### Concise closing scripts
 
@@ -443,13 +443,13 @@ If the recruiter requires an expectation first, Arti should research current law
 |---|---|---:|
 | Short final close | “Thank you. My strongest evidence is enterprise support ownership: complex Microsoft investigations, customer trust, cross-team escalation, fix validation, knowledge, and improvement. I am intentionally moving into security SaaS and I am candid that direct Abnormal operation is a gap. The conversation has strengthened my interest in **[real point learned today]**, and I would welcome the opportunity to bring the proven support foundation while earning product depth through the team's standards.” | 20-30 seconds |
 | Hiring-manager close | “What I hope you take away is that I know how to create structure when enterprise cases are ambiguous: define impact, test evidence, communicate under pressure, collaborate with Engineering and Product, validate outcomes, and capture learning. I would not arrive claiming product mastery. I would arrive ready to learn the actual support system, accept coaching, own bounded work safely, and become accountable for broader cases as the evidence supports it.” | 35-50 seconds |
-| Technical-panel close | “My current conclusion from the scenario is **[supported conclusion]**; the remaining uncertainty is **[unknown]**. My next safe action would be **[test/action]**, with **[owner]**, and I would validate **[target state]** while updating the customer by **[checkpoint]**. More broadly, my Microsoft support method transfers, but I would verify Abnormal-specific behavior from authorized documentation and telemetry rather than guess.” | 35-60 seconds |
+| Technical-panel close | “My current conclusion from the scenario is **[supported conclusion]**; the remaining uncertainty is **[unknown]**. My next safe action would be **[test/action]**, with **[owner]**, and I would validate **[target state]** while updating the customer by **[checkpoint]**. More broadly, my prior support method transfers, but I would verify Abnormal-specific behavior from authorized documentation and telemetry rather than guess.” | 35-60 seconds |
 
 ### 🔍 Plain-English deep-dive: Fit is a hypothesis, not a slogan
 
 Candidate and employer are both testing a hypothesis: “Could this person and this role work well together under real conditions?” A strong fit answer supplies relevant evidence and useful questions. It does not repeat adjectives from a careers page as though they prove private culture.
 
-Think of fit like checking whether a tool belongs in a particular workshop. The tool's quality matters, but so do the work, safety rules, teammates, materials, and maintenance. The analogy stops because people grow, negotiate expectations, and affect culture; they are not fixed tools. Arti should therefore show what she has done, what she wants to learn, and what she needs to discover.
+Think of fit like checking whether a tool belongs in a particular workshop. The tool's quality matters, but so do the work, safety rules, teammates, materials, and maintenance. The analogy stops because people grow, negotiate expectations, and affect culture; they are not fixed tools. You should therefore show what you have done, what you want to learn, and what you need to discover.
 
 ```mermaid
 flowchart TD
@@ -481,11 +481,11 @@ flowchart LR
     Tech -. "additional or fewer steps" .-> Final
 ```
 
-| Possible stage | Likely decision question | Arti's focus | Useful proof | Avoid |
+| Possible stage | Likely decision question | Your focus | Useful proof | Avoid |
 |---|---|---|---|---|
-| Recruiter | Is the motivation, baseline experience, communication, and logistics aligned enough to proceed? | 30/90-second story, why move/company/role, direct gap, factual logistics | Five years of Microsoft enterprise support and a bounded transition story | Deep technical monologue, invented compensation/logistics, overclaiming product research |
-| Hiring manager | Will this person own enterprise customers, learn, collaborate, and improve safely? | S1-S10 evidence, judgment, feedback, first-90-day proposal, expectations | CRITSIT, customer trust, escalation, validation, KB/training, metrics categories with true details | Saying “I am a fast learner” without method; one story reused for everything |
-| Technical panel/peers | Can this person explain fundamentals and reason through uncertainty with the team? | Clarify, define, map layers, offer hypotheses, choose evidence, communicate, validate | Part 119 drills and Microsoft support method, accurately tiered | Guessing private behavior, tool dumping, silent thinking, unsafe test, treating status as outcome |
+| Recruiter | Is the motivation, baseline experience, communication, and logistics aligned enough to proceed? | 30/90-second story, why move/company/role, direct gap, factual logistics | Several years of enterprise support and a bounded transition story | Deep technical monologue, invented compensation/logistics, overclaiming product research |
+| Hiring manager | Will this person own enterprise customers, learn, collaborate, and improve safely? | S1-S10 evidence, judgment, feedback, first-90-day proposal, expectations | critical situation, customer trust, escalation, validation, KB/training, metrics categories with true details | Saying “I am a fast learner” without method; one story reused for everything |
+| Technical panel/peers | Can this person explain fundamentals and reason through uncertainty with the team? | Clarify, define, map layers, offer hypotheses, choose evidence, communicate, validate | Part 119 drills and enterprise support method, accurately tiered | Guessing private behavior, tool dumping, silent thinking, unsafe test, treating status as outcome |
 | Behavioral/cross-functional | How does this person act when pressure, conflict, failure, or stakeholder needs collide? | Personal actions, trade-offs, correction, reflection, attribution | Candidate-completed S3-S10 stories | Blame, perfect-hero story, confidential detail, missing result or reflection |
 | Final/closing | Is the evidence consistent, are expectations aligned, and does mutual interest remain? | Synthesize value, state gap, ask decision-quality questions, concise close | Stable facts across all rounds | New unsupported claim, desperate pressure, premature negotiation, generic questions already answered |
 
@@ -496,13 +496,13 @@ flowchart LR
 - Answer in 30-90 seconds unless invited deeper.
 - Make the transition coherent: proven enterprise support, deliberate security/AI/SaaS direction, honest direct-product gap.
 - Ask about current sequence, role level, location/logistics, compensation structure, and what each round evaluates.
-- Never improvise a salary, notice period, authorization status, or availability. Use only Arti's current verified facts.
+- Never improvise a salary, notice period, authorization status, or availability. Use only your current verified facts.
 
 **Hiring-manager card**
 
 - Lead with one real example rather than five skill labels.
 - Show ownership across diagnosis, communication, dependency, validation, and learning.
-- Name a decision or trade-off: what did Arti prioritize, defer, escalate, correct, or measure?
+- Name a decision or trade-off: what did you prioritize, defer, escalate, correct, or measure?
 - Ask how quality, customer outcomes, case scope, coaching, and progression are assessed.
 
 **Technical-panel/peer card**
@@ -515,9 +515,9 @@ flowchart LR
 
 ### 🔍 Plain-English deep-dive: Practice anchors, not deceptive scripts
 
-Preparation becomes deceptive when polished wording hides unsupported facts, a tool writes an answer Arti cannot explain, or memorization is used to create experience that did not occur. Preparation remains useful and honest when Arti verifies the event, reduces it to a few anchors, practices several natural phrasings, and preserves the same facts under follow-up.
+Preparation becomes deceptive when polished wording hides unsupported facts, a tool writes an answer you cannot explain, or memorization is used to create experience that did not occur. Preparation remains useful and honest when you verify the event, reduces it to a few anchors, practices several natural phrasings, and preserves the same facts under follow-up.
 
-Think of a musician learning a piece. Rehearsal creates reliable structure, but a performance still requires listening and adapting to tempo and the other musicians. The analogy stops because an interview answer is evidence about a real career, not an artistic interpretation: Arti may vary the phrasing, but she may not vary the history. A good test is to answer the same prompt three ways from the five anchors **Situation, Task, Action, Result, Reflection**. If the facts change, return to the ledger; if only the wording changes, the answer is becoming natural.
+Think of a musician learning a piece. Rehearsal creates reliable structure, but a performance still requires listening and adapting to tempo and the other musicians. The analogy stops because an interview answer is evidence about a real career, not an artistic interpretation: You may vary the phrasing, but you may not vary the history. A good test is to answer the same prompt three ways from the five anchors **Situation, Task, Action, Result, Reflection**. If the facts change, return to the ledger; if only the wording changes, the answer is becoming natural.
 
 ### Behavioral and fit decision tree
 
@@ -600,8 +600,8 @@ Interview execution can fail even when the underlying experience is strong. The 
 
 | Failure mode | What the interviewer may hear | Immediate repair | Practice escalation trigger |
 |---|---|---|---|
-| Story contains a number Arti cannot define | Exaggeration or weak attribution | Remove it or explain source, definition, denominator, and ownership | Any metric changes under follow-up |
-| “We” hides personal action | Passenger rather than owner | State “My responsibility was...” and separate team contribution | Reviewer still cannot name Arti's decision |
+| Story contains a number you cannot define | Exaggeration or weak attribution | Remove it or explain source, definition, denominator, and ownership | Any metric changes under follow-up |
+| “We” hides personal action | Passenger rather than owner | State “My responsibility was...” and separate team contribution | Reviewer still cannot name your decision |
 | Same story answers every competency | Thin evidence range | Build distinct story inventory and use secondary reuse sparingly | Fewer than eight real stories selected |
 | Perfect success with no trade-off | Rehearsed hero narrative | Add uncertainty, failed hypothesis, limitation, or reflection only if true | Story cannot survive “What would you change?” |
 | Microsoft cloud becomes email security | Domain overclaim | State named workloads and direct gap explicitly | Any answer implies Exchange/security operations |
@@ -738,15 +738,15 @@ Any one of these fails the attempt regardless of total score:
 
 ### 🔍 Plain-English deep-dive: Completion and readiness are different states
 
-**Completion** means the curriculum artifact exists and its structural contract passes. **Readiness** means Arti has produced current performance evidence. A written piano score can be complete while the musician has not performed it. The score is valuable, but silent reading cannot prove timing, recovery, or expression.
+**Completion** means the curriculum artifact exists and its structural contract passes. **Readiness** means you have produced current performance evidence. A written piano score can be complete while the musician has not performed it. The score is valuable, but silent reading cannot prove timing, recovery, or expression.
 
-The analogy stops because interview readiness also includes truthful memory, technical reasoning, privacy, energy, and interaction with another person. A strong mock is evidence, not a guarantee. The candid state at authoring is: Part 120 can become structurally complete after validation, while Arti remains **not assessed for interview readiness** until the practice gates are performed.
+The analogy stops because interview readiness also includes truthful memory, technical reasoning, privacy, energy, and interaction with another person. A strong mock is evidence, not a guarantee. The candid state at authoring is: Part 120 can become structurally complete after validation, while you remain **not assessed for interview readiness** until the practice gates are performed.
 
 | State | What it proves | What it does not prove | Current state at authoring |
 |---|---|---|---|
 | Part written | The final learning artifact exists | Accuracy, contract pass, or candidate practice | Yes after file creation |
-| Part structurally validated | Required headings, counts, sources, diagrams, Q1-Q8, and navigation passed | Arti read, adapted, practiced, or mastered it | Pending until deterministic checks finish |
-| Story bank adapted | Arti supplied and fact-checked real details | Spoken fluency or follow-up resilience | `NOT_DONE` |
+| Part structurally validated | Required headings, counts, sources, diagrams, Q1-Q8, and navigation passed | You read, adapted, practiced, or mastered it | Pending until deterministic checks finish |
+| Story bank adapted | You supplied and fact-checked real details | Spoken fluency or follow-up resilience | `NOT_DONE` |
 | Mock performed | A dated attempt exists | Stable performance across time | `NOT_DONE` |
 | Readiness threshold met | Repeated evidence meets defined gates | Offer, exact interview prediction, or job performance guarantee | `NOT_ASSESSED` |
 
@@ -754,7 +754,7 @@ The analogy stops because interview readiness also includes truthful memory, tec
 stateDiagram-v2
     [*] --> Authored
     Authored --> StructurallyComplete: Deterministic contract PASS
-    StructurallyComplete --> StoriesVerified: Arti fills and fact-checks real stories
+    StructurallyComplete --> StoriesVerified: You fill and fact-checks real stories
     StoriesVerified --> Practicing: Uncued private mocks begin
     Practicing --> Remediating: Weak area or red flag found
     Remediating --> Practicing: Corrected after spacing
@@ -790,7 +790,7 @@ This lab is an oral and note-taking practice plan. It does not access Abnormal, 
 
 1. Copy the exact honesty label into a private attempt ledger.
 2. Close work accounts, ticketing systems, email, chat, VPNs, customer files, restricted documentation, and screens containing personal or confidential information.
-3. Complete at least eight story fact-check worksheets. S10 may remain unavailable only if Arti candidly prepares a “no strong example” response; it cannot be invented to satisfy a count.
+3. Complete at least eight story fact-check worksheets. S10 may remain unavailable only if you candidly prepare a “no strong example” response; it cannot be invented to satisfy a count.
 4. Select a mock block from the plan. Hide Part 119 cues and all model wording.
 5. Record prompt ID, confidence, evidence tier, and start time. Answer from brief anchors, not a memorized paragraph.
 6. Add one follow-up that challenges ownership, result, metric, alternative hypothesis, gap, privacy, or failure.
@@ -825,7 +825,7 @@ No local recording, scorecard, story fact-check, reviewer result, drill result, 
 5. Never record a real interview without explicit permission from all required parties. Do not retain, publish, or feed confidential interview prompts into a shared bank.
 6. Use only sanitized career facts. Generalization may hide identity, but it must not change the truth of actions or outcomes.
 7. Set a retention date. Keep only artifacts that still support learning and protect them with appropriate device access controls.
-8. Hidden AI assistance is prohibited. For allowed preparation use, disclose it where required, minimize data, verify output, and ensure Arti can explain every word independently.
+8. Hidden AI assistance is prohibited. For allowed preparation use, disclose it where required, minimize data, verify output, and ensure you can explain every word independently.
 
 ### Validation rubric
 
@@ -839,16 +839,16 @@ No local recording, scorecard, story fact-check, reviewer result, drill result, 
 | Follow-up resilience | Three probes per story preserve facts, ownership, result, and boundaries | Facts or evidence tier change under pressure |
 | Fit accuracy | Company claims are dated, attributed, caveated, and connected to real motivation | Private culture/product behavior inferred from marketing |
 | Privacy | No customer, employer-confidential, secret, tenant, ticket, restricted, or private interview content | Sensitive content captured, uploaded, retained, or shared improperly |
-| AI integrity | AI is off or expressly permitted, disclosed where required, data-safe, and human-verified | Hidden live assistance or generated claims Arti cannot explain |
+| AI integrity | AI is off or expressly permitted, disclosed where required, data-safe, and human-verified | Hidden live assistance or generated claims you cannot explain |
 | Readiness | Every readiness gate below passes on repeated evidence; residual gaps are stated | Reading, completion, one mock, or confidence alone called readiness |
 
 ## Readiness gate and candid statement
 
-**Candid current statement:** Completing and structurally validating this guide would prove that a comprehensive preparation artifact exists. It would not prove that Arti can retrieve answers, tell eight true stories, reason aloud, handle follow-ups, maintain privacy, or sustain performance across a realistic loop. Reading alone is insufficient. Local/synthetic/private practice is unperformed, and readiness is therefore `NOT_ASSESSED` at authoring.
+**Candid current statement:** Completing and structurally validating this guide would prove that a comprehensive preparation artifact exists. It would not prove that you can retrieve answers, tell eight true stories, reason aloud, handle follow-ups, maintain privacy, or sustain performance across a realistic loop. Reading alone is insufficient. Local/synthetic/private practice is unperformed, and readiness is therefore `NOT_ASSESSED` at authoring.
 
 | Gate | Minimum future evidence | Current state |
 |---|---|---|
-| Story evidence | Eight distinct true sanitized stories, including difficult case, ambiguity, CRITSIT/escalation, trust, improvement, knowledge/mentoring, cross-functional work, and learning; mistake/conflict handled truthfully | `NOT_PREPARED` |
+| Story evidence | Eight distinct true sanitized stories, including difficult case, ambiguity, critical situation/escalation, trust, improvement, knowledge/mentoring, cross-functional work, and learning; mistake/conflict handled truthfully | `NOT_PREPARED` |
 | Story resilience | Each selected story handles at least three random probes without fact drift | `NOT_ATTEMPTED` |
 | Recruiter | Two spaced uncued mocks meet timing and score threshold | `NOT_ATTEMPTED` |
 | Hiring manager | Two spaced mocks use at least six distinct stories and meet threshold | `NOT_ATTEMPTED` |
@@ -869,7 +869,7 @@ Use this as a final review page, not a cramming script.
 
 | Area | Night-before anchors |
 |---|---|
-| Core story | Five years Microsoft enterprise support/escalation; SharePoint Online, OneDrive, Sync Client, Copilot; complex investigations/CRITSIT; customer/partner communication; Engineering/Product escalation; fix validation; KB/training/mentoring; support analytics |
+| Core story | Several years of enterprise support and escalation; SharePoint Online, OneDrive, Sync Client, Copilot; complex investigations/critical situation; customer/partner communication; Engineering/Product escalation; fix validation; KB/training/mentoring; support analytics |
 | Honest boundary | No direct Abnormal or email-security operations claim; label production transfer, performed lab, learned architecture, or no direct experience |
 | Motivation | Move toward AI-driven security SaaS while continuing customer support; company interest from dated official public mission/platform/values; role fits investigation, trust, collaboration, and learning |
 | Top stories | Write only IDs and five anchors: `S__ [S/T/A/R/Rf]`, `S__`, `S__`, `S__`; verify facts before sleep |
@@ -931,7 +931,7 @@ flowchart LR
 
 ## Official Source Anchors - August 24, 2026
 
-**Source-ledger date:** August 24, 2026. The company facts used in the fit answers are deliberately narrow: official public mission, public platform/product positioning, integration/trust/resource routes, and published careers values. These are mutable, company-authored sources. They do not prove private product implementation, support policy, culture in practice, interview design, comparative superiority, customer-specific outcomes, or Arti's experience. Revalidate them near the interview.
+**Source-ledger date:** August 24, 2026. The company facts used in the fit answers are deliberately narrow: official public mission, public platform/product positioning, integration/trust/resource routes, and published careers values. These are mutable, company-authored sources. They do not prove private product implementation, support policy, culture in practice, interview design, comparative superiority, customer-specific outcomes, or your experience. Revalidate them near the interview.
 
 | Official or primary source | Study-date use | Product or policy boundary |
 |---|---|---|
@@ -945,7 +945,7 @@ flowchart LR
 | [Abnormal AI Governance](https://abnormal.ai/platform/ai-governance) | Public AI tool/agent/chat discovery, risk, policy, and governance positioning | Roadmap/future-functionality caveats apply; no exact discovery completeness, score validity, enforcement, or commitment is inferred |
 | [Security Posture Management](https://abnormal.ai/platform/security-posture-management) | Public Microsoft 365 configuration, benchmark, drift, prioritization, and guidance framing | Does not establish exact checks, frequency, fields, permissions, remediation ownership, or all SaaS Security scope |
 | [Technology Integrations](https://abnormal.ai/platform/technology-integrations) | Public integration categories and named ecosystem references | A listing does not prove data direction, field coverage, configuration, permission, support duty, entitlement, or current health |
-| [Customer Stories](https://abnormal.ai/customers/stories) | Official selected customer narratives | Selected vendor-published stories are not representative proof, universal outcomes, or evidence of Arti's experience |
+| [Customer Stories](https://abnormal.ai/customers/stories) | Official selected customer narratives | Selected vendor-published stories are not representative proof, universal outcomes, or evidence of your experience |
 | [Abnormal Resource Center](https://abnormal.ai/resources) | Official route to product, research, guide, and webinar material | Each item needs its own date, type, method, claims, and limitation review |
 | [Abnormal Trust Center](https://abnormal.ai/trust-center) | Public security, privacy, compliance, and controlled-assurance route | Badges/summaries do not prove every service, feature, customer configuration, period, scope, or legal obligation |
 | [Careers at Abnormal](https://abnormal.ai/careers) | Published AI-native culture language and VOICE values | Values are public aspirations/expectations, not proof of private culture or interview criteria |
@@ -967,35 +967,35 @@ flowchart LR
 
 ## Interview Execution Meta-Q&A
 
-### Q1. How should Arti choose a STAR story quickly without inventing?
+### Q1. How should you choose a STAR story quickly without inventing?
 
 **Model answer:** I first name the competency being tested, then scan my verified story IDs for a real event that actually demonstrates it. I take a brief pause, state the context and my responsibility, and spend most of the answer on my actions and reasoning. If no strong event exists, I use a truthful adjacent example and state the difference, or I say I do not have a strong past example and explain my framework. I never bend one event into a different fact pattern.
 
-### Q2. What should Arti do when an interviewer asks for a metric that is not remembered?
+### Q2. What should you do when an interviewer asks for a metric that is not remembered?
 
 **Model answer:** I should not estimate a precise number to make the story sound stronger. I can say, “I do not want to invent the figure. The observable result I can verify is...” and describe the actual changed state. If a number is important, I explain what record would define it and why it is not available in the interview. A modest qualitative result is better than a false metric.
 
-### Q3. How should Arti explain the direct Abnormal and email-security gap?
+### Q3. How should you explain the direct Abnormal and email-security gap?
 
-**Model answer:** I state it directly: I have not operated Abnormal or owned direct email-security cases in production. My closest production evidence is five years of Microsoft enterprise support involving complex investigation, CRITSIT communication, escalation, fix validation, knowledge, mentoring, and operational analysis. I have built learned architecture from official sources, while any lab must be labeled performed only after a dated run. My product ramp would use authorized documentation, shadowing, sandbox practice, reviewed cases, and explicit manager checkpoints.
+**Model answer:** I state it directly: I have not operated Abnormal or owned direct email-security cases in production. My closest production evidence is several years of enterprise support involving complex investigation, critical-situation communication, escalation, fix validation, knowledge, mentoring, and operational analysis. I have built learned architecture from official sources, while any lab must be labeled performed only after a dated run. My product ramp would use authorized documentation, shadowing, sandbox practice, reviewed cases, and explicit manager checkpoints.
 
-### Q4. How should Arti recover after realizing an answer contained an overstatement?
+### Q4. How should you recover after realizing an answer contained an overstatement?
 
 **Model answer:** I correct it immediately and plainly: “I need to narrow that statement. The guide and my experience support X, not Y.” I then give the accurate evidence tier and continue only within it. After the interview or mock, I update the claim ledger and retest the prompt. Protecting a polished answer is less important than demonstrating intellectual honesty.
 
-### Q5. How should Arti adapt the same evidence to recruiter, HM, and panel audiences?
+### Q5. How should you adapt the same evidence to recruiter, HM, and panel audiences?
 
 **Model answer:** The facts never change. For a recruiter, I emphasize motivation, baseline fit, concise gaps, and verified logistics. For a hiring manager, I show ownership, judgment, customer trust, collaboration, learning, and results through real examples. For a technical panel, I define mechanisms, state assumptions, reason through alternatives, choose discriminating evidence, protect safety, and validate final state. I change depth and framing, not certainty or history.
 
 ### Q6. What makes a closing statement credible?
 
-**Model answer:** It is short and consistent with the evidence already discussed. I connect proven Microsoft enterprise-support strengths to the role, state the direct product/domain gap without apology or concealment, mention one genuine point learned in the conversation, and express interest in the next step. I do not introduce a new achievement, pressure the interviewer, or claim readiness beyond my practice evidence.
+**Model answer:** It is short and consistent with the evidence already discussed. I connect proven enterprise-support strengths to the role, state the direct product/domain gap without apology or concealment, mention one genuine point learned in the conversation, and express interest in the next step. I do not introduce a new achievement, pressure the interviewer, or claim readiness beyond my practice evidence.
 
 ### Q7. What is the privacy-safe way to use recordings for mock practice?
 
 **Model answer:** Recording is optional and local by default. Before recording, I close work systems and remove customer, employer, tenant, ticket, secret, and personal material. I use sanitized career facts and synthetic prompts, avoid cloud upload or transcription unless explicitly reviewed, set retention, inspect metadata, and delete accidental captures. I never record a real interview or confidential prompt without explicit permission.
 
-### Q8. Is Arti interview-ready after this Part passes structural validation?
+### Q8. Is your interview-ready after this Part passes structural validation?
 
 **Model answer:** No readiness claim follows from the file alone. A structural pass proves the artifact meets its writing contract. Readiness requires at least eight truthful fact-checked stories, repeated uncued and timed mocks across recruiter, hiring-manager, technical, behavioral, and closing rounds, Part 119 drills, stable follow-up performance, zero integrity or safety red flags, current source checks, and candid calibration. At authoring, local/synthetic/private practice is unperformed and readiness is not assessed.
 
@@ -1005,7 +1005,7 @@ flowchart LR
 - **Situation is short, Task is personal, Action is detailed, Result is proved, Reflection changes behavior.**
 - **Use “I” for contribution and “we” for the team outcome.**
 - **No remembered metric is better than an invented metric.**
-- **Microsoft production transfer is real; Abnormal operation remains unclaimed.**
+- **prior production transfer is real; Abnormal operation remains unclaimed.**
 - **Public company pages explain positioning, not private product behavior or culture proof.**
 - **Recruiter checks alignment; HM checks ownership; panel checks reasoning.**
 - **Facts stay fixed while audience depth changes.**
@@ -1068,6 +1068,6 @@ The following authored-file gates must pass before this Part changes to `PASS` a
 | Meta questions | Exactly Q1 through Q8 with Model answer; no Q9 or higher | `PASS - 8 headings and 8 Model answer labels; no Q9+` |
 | Navigation | Exact master return link is the only master return navigation and physical final line | `PASS - 1 exact link at physical final line` |
 
-**Authored-Part validation result: PASS in full-content validation cycle 3 of a maximum 3.** Cycle 1 found three rather than four standard deep-dive headings; the fourth was added and the count was rerun. Cycle 2's official-page audit narrowed the company mission wording to the exact attributable phrase “stop crime with AI.” Cycle 3 passed every gate together. Structural validation does not imply that Arti filled a story, performed a mock or lab, received reviewer feedback, or met the readiness threshold.
+**Authored-Part validation result: PASS in full-content validation cycle 3 of a maximum 3.** Cycle 1 found three rather than four standard deep-dive headings; the fourth was added and the count was rerun. Cycle 2's official-page audit narrowed the company mission wording to the exact attributable phrase “stop crime with AI.” Cycle 3 passed every gate together. Structural validation does not imply that you filled a story, performed a mock or lab, received reviewer feedback, or met the readiness threshold.
 
 [Return to Master Study Guide](../Abnormal%20AI%20Technical%20Support%20Engineer%20-%20Complete%20Study%20Guide.md)

@@ -27,26 +27,26 @@ After completing this Part, you should be able to:
 - design transparency, documentation, audit, explanation, appeal, correction, override, and human-oversight controls;
 - handle customer privacy/fairness tickets with minimum necessary evidence and neutral language;
 - build a responsible-AI risk register and escalation packet; and
-- tie Arti's customer trust, evidence handling, Copilot evaluation/training, analytics/SQL/Python, support trends, KB/training, and escalation only as transferable facts.
+- tie your customer trust, evidence handling, Copilot evaluation/training, analytics/SQL/Python, support trends, KB/training, and escalation only as transferable facts.
 
 ## JD Mapping
 
-| Supplied role signal | Capability built | Transferable Arti evidence | Boundary |
+| Supplied role signal | Capability built | Transferable evidence | Boundary |
 |---|---|---|---|
-| Customer trust/security mindset | Uses minimum evidence and accountable explanations | Five years enterprise communication/evidence handling | No privacy/legal authority claim |
+| Customer trust/security mindset | Uses minimum evidence and accountable explanations | Several years of enterprise communication and evidence handling | No privacy/legal authority claim |
 | Behavioral false-positive cases | Tests subgroup/context/proxy and correction path | Case comparison/fix validation | No claim of Abnormal fairness tuning |
 | Product/Engineering collaboration | Provides risk register, observed impact, population, and ask | Escalation and validation | Governance decisions stay authorized |
 | Support trends/analytics | Segments outcomes with denominators and uncertainty | CSAT/backlog/quality analytics | Sensitive groups require governance |
 | AI support tools | Evaluates purpose, data, harms, human verification | Copilot/agent evaluation/training | Not equivalent to security-model governance |
 | Customer onboarding/configuration | Clarifies data purpose, permissions, roles, and shared responsibility | Microsoft cloud/identity experience | Vendor contracts/docs control specifics |
 | KB/training | Teaches safe language and escalation | Training/mentoring | No invented policy |
-| Cross-functional culture | Routes privacy, legal, security, Product, Engineering, CSM | CRITSIT collaboration | L1 supplies facts, not final legal decision |
+| Cross-functional culture | Routes privacy, legal, security, Product, Engineering, CSM | critical-situation collaboration | L1 supplies facts, not final legal decision |
 
 ## Candidate honesty note
 
 | Evidence tier | Safe statement | Do not imply |
 |---|---|---|
-| **Production transfer** | "I have handled enterprise evidence carefully, communicated limitations, analyzed support trends, and escalated risk." | That Arti served as privacy counsel or AI governance owner |
+| **Production transfer** | "I have handled enterprise evidence carefully, communicated limitations, analyzed support trends, and escalated risk." | That you served as privacy counsel or AI governance owner |
 | **Local/public lab** | "I built a synthetic responsible-AI risk register and subgroup metric worksheet." | Use of real demographic/customer data |
 | **Learned architecture** | "I studied NIST and Microsoft responsible-AI/privacy guidance." | That frameworks certify a vendor |
 | **No direct experience** | "I have not operated Abnormal AI or audited its governance in production." | Knowledge of private data/retention/fairness controls |

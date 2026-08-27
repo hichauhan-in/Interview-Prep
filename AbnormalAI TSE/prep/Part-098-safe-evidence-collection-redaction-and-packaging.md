@@ -2,13 +2,13 @@
 
 > **Purpose:** Learn a product-neutral, beginner-first method for requesting only the evidence needed for a support decision, confirming permission before collection, excluding secrets, reducing personal and customer data, creating a reviewed redacted derivative, preserving integrity and handling history, packaging artifacts with a manifest, transferring them only through approved channels, and applying retention and deletion rules.
 >
-> **Artifact honesty label:** **Local synthetic redacted-evidence-bundle design only.** Every person, tenant, case, request, message, event, file, timestamp, digest, transfer, receipt, retention period, and deletion record in this Part is fictional. No lab step was performed. No customer data, Microsoft production evidence, Abnormal AI data, mailbox, tenant, case system, cloud service, support portal, external recipient, or public service was accessed. Arti may call the artifact completed only after she actually creates and reviews it locally with harmless synthetic text.
+> **Artifact honesty label:** **Local synthetic redacted-evidence-bundle design only.** Every person, tenant, case, request, message, event, file, timestamp, digest, transfer, receipt, retention period, and deletion record in this Part is fictional. No lab step was performed. No customer data, prior production evidence, Abnormal AI data, mailbox, tenant, case system, cloud service, support portal, external recipient, or public service was accessed. You may call the artifact completed only after you actually create and reviews it locally with harmless synthetic text.
 >
 > **Currency and source access date:** August 24, 2026.
 
 ## Section goal
 
-The goal is to make evidence handling part of technical correctness rather than an afterthought. By the end of this Part, Arti should be able to turn “send all logs and screenshots” into a narrow request tied to one decision; identify prohibited and sensitive data; create a purpose-bound share copy; describe what an integrity check can and cannot establish; build a reviewable manifest; choose a controlled transfer path; and explain how the evidence lifecycle ends.
+The goal is to make evidence handling part of technical correctness rather than an afterthought. By the end of this Part, you should be able to turn “send all logs and screenshots” into a narrow request tied to one decision; identify prohibited and sensitive data; create a purpose-bound share copy; describe what an integrity check can and cannot establish; build a reviewable manifest; choose a controlled transfer path; and explain how the evidence lifecycle ends.
 
 Before using the method, learn the terms below. The definitions are deliberately product-neutral. None grants authority, changes policy, or describes an Abnormal AI internal procedure.
 
@@ -51,24 +51,24 @@ This Part explicitly prohibits collecting credentials or private keys; copying p
 | Engineering and Product collaboration | Supplies scope, expected versus actual, versions, transformations, limitations, and one precise question | Prevents opaque archives and unstructured data dumps | Manifested evidence bundle |
 | Security and privacy judgment | Applies authority, minimization, disclosure, transfer, retention, and disposition gates | Stops L1 curiosity from crossing ownership boundaries | Stop/escalate record |
 | Knowledge and case quality | Defines names, versions, manifests, review evidence, and lifecycle states | Makes case artifacts understandable to the next owner | Packaging checklist |
-| Microsoft enterprise support transfer | Reuses Arti's customer-diagnostic, escalation, communication, and evidence-discipline experience | Provides a truthful bridge from Microsoft support operations | Candidate transfer narrative |
+| enterprise support transfer | Reuses your customer-diagnostic, escalation, communication, and evidence-discipline experience | Provides a truthful bridge from enterprise support operations | Candidate transfer narrative |
 | Honest Abnormal boundary | Requires current approved product sources and owners for every real action | Avoids inventing an Abnormal field, tool, channel, role, retention period, or deletion process | Boundary statement |
 
 ## Candidate honesty note
 
-Arti's Microsoft enterprise support experience is a genuine strength. SharePoint Online, OneDrive, Sync Client, Copilot, escalation, and CRITSIT work can require scoping the affected object and interval, requesting targeted diagnostics, coordinating customer actions, protecting trust, organizing evidence, and giving Engineering or Product a coherent handoff. She may use a real example only if it actually occurred, she is permitted to discuss it, and she accurately separates what she did, what the customer did, what another team did, and what outcome was verified.
+Your prior enterprise support experience is a genuine strength. SharePoint Online, OneDrive, Sync Client, Copilot, escalation, and critical-situation work can require scoping the affected object and interval, requesting targeted diagnostics, coordinating customer actions, protecting trust, organizing evidence, and giving Engineering or Product a coherent handoff. You may use a real example only if it actually occurred, you are permitted to discuss it, and you accurately separates what you did, what the customer did, what another team did, and what outcome was verified.
 
-The transferable claim is about judgment. “In Microsoft enterprise support, I learned to tie a diagnostic request to a decision, use the approved support path, and send the next owner a bounded record” is credible when supported by a true story. It does not mean Microsoft's current upload mechanism, privacy terms, diagnostic packages, retention, or access model apply to another company. Historical Microsoft details must not be presented as current unless revalidated.
+The transferable claim is about judgment. “In enterprise support, I learned to tie a diagnostic request to a decision, use the approved support path, and send the next owner a bounded record” is credible when supported by a true story. It does not mean Microsoft's current upload mechanism, privacy terms, diagnostic packages, retention, or access model apply to another company. Historical Microsoft details must not be presented as current unless revalidated.
 
 This Part makes **no direct Abnormal internal process claim**. It does not claim that Abnormal uses a particular portal, attachment mechanism, archive format, hash algorithm, redaction tool, data region, evidence schema, recipient group, storage boundary, retention period, hold process, deletion method, or L1 workflow. During onboarding, current approved Abnormal documentation, customer agreements, role-based access, privacy/security/records guidance, and product owners must define real evidence handling.
 
-| Evidence tier | Honest wording Arti can adapt | Boundary to preserve |
+| Evidence tier | Honest wording you can adapt | Boundary to preserve |
 |---|---|---|
-| Microsoft production transfer | “In Microsoft enterprise support, I used approved customer-support paths and scoped diagnostics to move real investigations forward.” | Use a truthful permitted example; do not reveal the customer or retrofit this exact framework onto a case that used another process |
+| prior production transfer | “In enterprise support, I used approved customer-support paths and scoped diagnostics to move real investigations forward.” | Use a truthful permitted example; do not reveal the customer or retrofit this exact framework onto a case that used another process |
 | Local synthetic practice | “I built a local bundle from fictional text, removed unnecessary fields, documented transformations, and reviewed a manifest.” | Say this only after actually completing the lab; this lesson was not run |
 | Learned architecture | “I understand minimization, redaction, pseudonymization, integrity, custody, secure transfer, retention, and deletion as general controls.” | General knowledge is not legal advice or ownership of an employer's process |
 | Proposed Abnormal action | “I would first verify the current approved Abnormal evidence request, review, transfer, and lifecycle procedure.” | Do not name an internal tool, role, field, or policy without approved evidence |
-| No direct experience | “I have not operated Abnormal AI's evidence workflow in production; my closest evidence is Microsoft support discipline and local synthetic practice.” | State the gap directly and explain the ramp plan |
+| No direct experience | “I have not operated Abnormal AI's evidence workflow in production; my closest evidence is enterprise support discipline and local synthetic practice.” | State the gap directly and explain the ramp plan |
 | Security/privacy escalation | “I would stop collection and further copying when sensitive material or an authority gap appears, then use the approved path.” | Do not inspect more simply to satisfy curiosity |
 | Integrity statement | “A recorded digest matched the exact local synthetic bytes at two points.” | Do not call the content truthful, complete, authentic, authorized, or legally admissible solely because a hash matched |
 | Redaction statement | “The reviewed derivative removes the listed fields for this recipient and purpose.” | Do not promise anonymity or universal non-identifiability |
@@ -662,22 +662,22 @@ The package is not anonymous. A rare time, direction, outcome, policy version, a
 
 If real content becomes essential to an authorized security investigation, use the approved restricted workflow and audience. This lesson gives no method to open, detonate, forward, upload, or inspect a suspicious URL or attachment and explicitly prohibits public scanning uploads.
 
-## 13. Worked example 3: Arti's Microsoft support transfer
+## 13. Worked example 3: Your prior support transfer
 
-Arti can build a truthful interview story without claiming this exact artifact existed in a past case.
+You can build a truthful interview story without claiming this exact artifact existed in a past case.
 
 | Story element | Truth-safe prompt | Evidence-handling signal |
 |---|---|---|
-| Situation | Which real Microsoft support case involved ambiguity, impact, and several diagnostic surfaces? | Establishes real scope without identifying the customer |
-| Task | Which decision or escalation did Arti own? | Shows purpose instead of indiscriminate collection |
+| Situation | Which real enterprise support case involved ambiguity, impact, and several diagnostic surfaces? | Establishes real scope without identifying the customer |
+| Task | Which decision or escalation did you own? | Shows purpose instead of indiscriminate collection |
 | Authority | How did the customer or approved Microsoft process govern evidence access? | Shows access was bounded |
 | Minimization | Which object, interval, version, or result was actually needed? | Demonstrates restraint |
 | Protection | How were sensitive details handled under the real process? | Must remain accurate and permitted |
 | Packaging | How were reproduction, timestamps, observations, and asks made clear? | Shows escalation quality |
 | Result | What verified outcome followed? | Avoids saying package quality alone caused resolution |
-| Reflection | What would Arti verify during Abnormal onboarding? | Makes the product/process gap explicit |
+| Reflection | What would you verify during Abnormal onboarding? | Makes the product/process gap explicit |
 
-A safe bridge is: “Microsoft enterprise support taught me that an escalation is stronger when the evidence request is tied to a decision, scoped to the affected object and interval, and packaged with clear context. I would bring that discipline to Abnormal, but I have not used Abnormal's internal evidence workflow. I would learn the approved sources, roles, channels, retention rules, and security/privacy escalation path before handling customer artifacts.”
+A safe bridge is: “enterprise support taught me that an escalation is stronger when the evidence request is tied to a decision, scoped to the affected object and interval, and packaged with clear context. I would bring that discipline to Abnormal, but I have not used Abnormal's internal evidence workflow. I would learn the approved sources, roles, channels, retention rules, and security/privacy escalation path before handling customer artifacts.”
 
 The local synthetic bundle is separate from production experience. It demonstrates preparation only after it is actually built.
 
@@ -765,8 +765,8 @@ The objective is to create one harmless fictional source fixture, derive a seven
 ### Prerequisites
 
 - A learner-owned local folder and UTF-8 text editor.
-- Optionally, an approved local hash capability if Arti already knows how to use it safely. No command is provided or required.
-- No administrator role, production access, customer tenant, mailbox, support system, cloud drive, Abnormal account, Microsoft production account, public repository, public parser, online redactor, external AI tool, or collaboration channel.
+- Optionally, an approved local hash capability if you already know how to use it safely. No command is provided or required.
+- No administrator role, production access, customer tenant, mailbox, support system, cloud drive, Abnormal account, prior production account, public repository, public parser, online redactor, external AI tool, or collaboration channel.
 - No credentials, passwords, codes, cookies, bearer/refresh tokens, API keys, client/signing secrets, recovery material, certificates with private material, authenticated connection strings, or private keys.
 - No real name, email, tenant/customer ID, hostname, IP, URL, message ID, subject, body, attachment, case export, screenshot, HAR, packet capture, audit record, production log, or customer note.
 - Use only obvious aliases beginning `CASE-098-`, `BUNDLE-098-`, `AUTH-098-`, `E098-`, `principal-A098`, `tenant-A098`, `route-A098`, or `corr-A098`.
@@ -788,7 +788,7 @@ The objective is to create one harmless fictional source fixture, derive a seven
 | Network | None | Upload, API call, connection, scan, capture, email, test message |
 | Changes | Learner-owned synthetic files only | Service, role, policy, permission, security-control, or system change |
 | Cleanup | Normal approved local interface after review | Recursive deletion, wipe, purge, clear, reset, or destructive script |
-| Claims | Design, or completed local synthetic lab after actual pass | Abnormal, Microsoft production, customer, forensic, legal, or transfer claim |
+| Claims | Design, or completed local synthetic lab after actual pass | Abnormal, prior production, customer, forensic, legal, or transfer claim |
 
 ### Proposed bundle
 
@@ -923,7 +923,7 @@ If actually performed, expected evidence includes:
 - A receipt template marked `NOT_SENT_NOT_RECEIVED`.
 - A retention/disposition plan with trigger, owner, review, hold gate, copy inventory, method placeholder, verification, residuals, and `NOT_PERFORMED` disposition.
 - A validation report with every rubric result and no more than three repair cycles.
-- Spoken notes for minimization, identity treatment, hash limits, secret exposure, and Microsoft-to-Abnormal honesty.
+- Spoken notes for minimization, identity treatment, hash limits, secret exposure, and support-to-Abnormal honesty.
 - No real collection, production access, customer data, sensitive content, secret, external upload, external transfer, public service, control bypass, unapproved tool/channel, destructive command, or fabricated action.
 
 ### Cleanup and privacy
@@ -972,7 +972,7 @@ If actually performed, expected evidence includes:
 | Deletion | Destructive command/deletes source | Says delete at closure | Approved disposition, hold/scope check, verification, residual note, record |
 | Failure response | Quiet correction | Tells a manager | Stops spread, preserves minimum facts, uses approved security/privacy path |
 | Artifact | Loose files | Partial bundle | README, request, manifest, logs, derivative, lifecycle, validation all agree |
-| Candidate honesty | Implies Abnormal operations | Calls lab synthetic | Separates Microsoft transfer, local practice, learned controls, Abnormal unknowns |
+| Candidate honesty | Implies Abnormal operations | Calls lab synthetic | Separates experience transfer, local practice, learned controls, Abnormal unknowns |
 | Spoken readiness | Recites definitions | Explains one control | Answers all eight questions with purpose, boundary, example, limitation, escalation |
 
 ## Official Source Anchors - August 24, 2026
@@ -1006,7 +1006,7 @@ These sources anchor general privacy, PII, incident response, logging, forensic 
 - NIST SP 800-88 Rev. 2 supports governed sanitization, not ad hoc wiping or deletion under hold.
 - NIST SP 800-53 is a control catalog, not proof of implementation in Abnormal or any company.
 - GDPR is primary legal text, but applicability and anonymization assessment require qualified advice.
-- Microsoft Purview is relevant to Arti's Microsoft bridge; its roles, exports, and retention are Microsoft-specific.
+- Microsoft Purview is relevant to your prior bridge; its roles, exports, and retention are Microsoft-specific.
 - Edge and Chrome show why browser evidence can expose more than visible error text; documentation does not authorize capture.
 - FIRST TLP assists sharing expectations but does not replace authorization, channel, access, contract, or retention controls.
 - OWASP reinforces secret exclusion and log protection but is not a product support policy.
@@ -1042,9 +1042,9 @@ These sources anchor general privacy, PII, incident response, logging, forensic 
 
 **Model answer:** I define retention before transfer: controlling rule, trigger, duration or review condition, owner, location, known copies, and hold state. When the purpose ends, disposition follows the approved records, security, privacy, legal, customer, and platform process. I do not delete source evidence, clear logs, change retention, wipe storage, or run generic destructive commands. I verify exact scope and record the result plus residual backups, immutable records, or downstream copies. A hold or active incident blocks routine deletion until an authorized release.
 
-### Q8. How does your Microsoft support experience transfer, and what must you learn at Abnormal?
+### Q8. How does your prior support experience transfer, and what must you learn at Abnormal?
 
-**Model answer:** Microsoft enterprise support taught me to tie diagnostics to a decision, scope the affected object and interval, protect customer trust, preserve useful identifiers/timestamps, and give Engineering a coherent handoff instead of a dump. That method transfers. I have not operated Abnormal AI's evidence process in production. During onboarding I would verify approved product evidence, field meanings, roles, customer authorization, redaction tools, storage/transfer channels, security/privacy escalation, retention, holds, and deletion rather than assuming Microsoft procedures or this synthetic lab describe Abnormal's workflow.
+**Model answer:** enterprise support taught me to tie diagnostics to a decision, scope the affected object and interval, protect customer trust, preserve useful identifiers/timestamps, and give Engineering a coherent handoff instead of a dump. That method transfers. I have not operated Abnormal AI's evidence process in production. During onboarding I would verify approved product evidence, field meanings, roles, customer authorization, redaction tools, storage/transfer channels, security/privacy escalation, retention, holds, and deletion rather than assuming Microsoft procedures or this synthetic lab describe Abnormal's workflow.
 
 ## Memory Hooks
 
@@ -1074,7 +1074,7 @@ These sources anchor general privacy, PII, incident response, logging, forensic 
 - **Retention needs a reason, trigger, owner, and review.**
 - **Deletion is governed disposition, never an improvised command.**
 - **Stop, restrict, record minimally, and escalate.**
-- **Microsoft evidence discipline transfers; Abnormal process knowledge does not.**
+- **prior evidence discipline transfers; Abnormal process knowledge does not.**
 - **Designed is not performed.**
 
 ## Completion Checklist
@@ -1124,7 +1124,7 @@ These sources anchor general privacy, PII, incident response, logging, forensic 
 - [ ] I can produce a minimal escalation without attaching questionable evidence through an unapproved route.
 - [ ] I can walk through the synthetic API example and justify every included/excluded field.
 - [ ] I can walk through the email-security example without requesting content by default.
-- [ ] I can connect Arti's Microsoft support discipline using only truthful permitted details.
+- [ ] I can connect your prior support discipline using only truthful permitted details.
 - [ ] I say directly that I have not operated Abnormal AI's internal evidence workflow in production.
 - [ ] I claim no Abnormal fields, tools, storage, channels, access, retention, deletion, or escalation procedure.
 - [ ] I can explain the policy/product boundary for every official source.

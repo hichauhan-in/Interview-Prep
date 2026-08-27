@@ -19,9 +19,9 @@ This Part deepens the identity and tenant concepts introduced in [Part 4](Part-0
 
 ## Candidate honesty note
 
-Arti can connect this material to real Microsoft 365 escalation work: isolating affected users and tenants, correlating SharePoint and OneDrive identities, handling sync and permissions symptoms, coordinating customer and engineering stakeholders, documenting root cause, and validating fixes. Those are strong transferable skills.
+You can connect this material to real Microsoft 365 escalation work: isolating affected users and tenants, correlating SharePoint and OneDrive identities, handling sync and permissions symptoms, coordinating customer and engineering stakeholders, documenting root cause, and validating fixes. Those are strong transferable skills.
 
-This Part does **not** claim that Arti designed or operated Microsoft Entra ID in production. Safe interview language is:
+This Part does **not** claim that you designed or operated Microsoft Entra ID in production. Safe interview language is:
 
 > “My production depth is Microsoft 365 escalation, especially SharePoint Online, OneDrive, sync, permissions-related symptoms, RCA, fix validation, and cross-team communication. I have built a structured Entra directory inventory and troubleshooting method as a paper/lab exercise. I can explain how the objects and dependencies work and how I would validate them, without presenting that as production Entra implementation.”
 
@@ -178,7 +178,7 @@ sequenceDiagram
     E->>M: Revoke or deprovision according to supported lifecycle
 ```
 
-**Tie-in to Arti's background:** SharePoint and OneDrive cases often surface as “user missing,” “wrong account,” or “access denied.” The Entra discipline is to distinguish the sign-in identity, resource-tenant guest object, group relationship, site permission, license/provisioning state, and sync client cache instead of treating them as one account state.
+**Tie-in to your background:** SharePoint and OneDrive cases often surface as “user missing,” “wrong account,” or “access denied.” The Entra discipline is to distinguish the sign-in identity, resource-tenant guest object, group relationship, site permission, license/provisioning state, and sync client cache instead of treating them as one account state.
 
 ---
 

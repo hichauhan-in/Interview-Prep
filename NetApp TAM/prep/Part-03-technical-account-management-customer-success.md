@@ -1,6 +1,6 @@
 # Part 3 - Technical Account Management, Customer Success, and Trusted-Advisor Fundamentals
 
-> **Section goal:** Learn how a Technical Account Manager (TAM) Technical Analyst turns technical context into an ethical, durable customer relationship: clear outcomes, a shared success plan, evidence-based health, useful governance, adopted recommendations, and measurable value. By the end, Arti should be able to distinguish every account role, manage trust and expectations under pressure, influence without authority, and describe a complete customer-success cycle without inventing NetApp experience or internal methods.
+> **Section goal:** Learn how a Technical Account Manager (TAM) Technical Analyst turns technical context into an ethical, durable customer relationship: clear outcomes, a shared success plan, evidence-based health, useful governance, adopted recommendations, and measurable value. By the end, you should be able to distinguish every account role, manage trust and expectations under pressure, influence without authority, and describe a complete customer-success cycle without inventing NetApp experience or internal methods.
 
 Covers index item **3** and maps to all customer-facing job-description areas: understanding the customer environment and support experience; strategic planning, best-practice and upgrade advice; risk mitigation and solution stability; operational service reviews; preventative-remediation adoption; technical analysis and recommendation quality; special projects; written, verbal, executive, technical, global, and high-pressure communication; influence under lead-TAM guidance; customer-facing learning; coaching; cross-functional and subject-matter-expert contribution; specialization; and honest positioning of support/customer-success experience.
 
@@ -925,7 +925,7 @@ Directness, hierarchy, interruption, disagreement, and silence can have differen
 
 ## 11. Complete synthetic success-plan case: Meridian Mutual Services
 
-> **Synthetic evidence boundary:** Meridian Mutual Services, all people, systems, scores, dates, incidents, recommendations, objections, metrics, and outcomes below are fictional. The case is a paper exercise. It does not describe a real NetApp customer, internal NetApp process, service entitlement, product method, product defect, tool result, or Arti's production experience. Product-specific conclusions would require authorized current evidence and qualified review.
+> **Synthetic evidence boundary:** Meridian Mutual Services, all people, systems, scores, dates, incidents, recommendations, objections, metrics, and outcomes below are fictional. The case is a paper exercise. It does not describe a real NetApp customer, internal NetApp process, service entitlement, product method, product defect, tool result, or your production experience. Product-specific conclusions would require authorized current evidence and qualified review.
 
 ### 11.1 Customer context and personas
 
@@ -1133,29 +1133,29 @@ The synthetic December review states:
 
 ---
 
-## 12. Arti's Microsoft support-to-TAM bridge
+## 12. Your prior support-to-TAM bridge
 
-Arti already brings several customer-facing behaviors that a TAM service needs. The honest transition is to transfer those behaviors while building storage, NetApp, and formal account-success depth.
+You already bring several customer-facing behaviors that a TAM service needs. The honest transition is to transfer those behaviors while building storage, NetApp, and formal account-success depth.
 
 ### Factual strength map
 
-| Arti's factual evidence | TAM/customer-success strength | Honest boundary |
+| Your factual evidence | TAM/customer-success strength | Honest boundary |
 |---|---|---|
-| More than five years in Microsoft enterprise support and escalation engineering | Persistent ownership, impact framing, evidence discipline, and customer communication | Not NetApp production administration or formal NetApp TAM tenure |
-| Business-critical incidents and CRITSIT work | Calm prioritization, communication cadence, cross-team coordination, and restoration focus | Incident work is reactive; TAM adds prevention, governance, and value over a longer horizon |
+| More than several years in enterprise support and escalation engineering | Persistent ownership, impact framing, evidence discipline, and customer communication | Not NetApp production administration or formal NetApp TAM tenure |
+| Business-critical incidents and critical-situation work | Calm prioritization, communication cadence, cross-team coordination, and restoration focus | Incident work is reactive; TAM adds prevention, governance, and value over a longer horizon |
 | Technical advisory work | Translating technical evidence into customer options and action | NetApp storage advice requires current product and supportability depth |
 | Product and Engineering collaboration | Focused escalation packages, exact asks, defect/fix follow-through | Does not prove NetApp Engineering routes or bug-scrub experience |
-| Enterprise CSAT above 4.75 and SMB CSAT above 4.85 | Measured customer experience and communication effectiveness | Satisfaction is not proof of technical account value or storage competence |
-| More than 100 recognitions | Repeated acknowledgement of contribution | Use as corroboration after a specific behavior and result, not as the story itself |
-| Business reviews, analytics, Excel, Power BI, and MBA Business Analytics | Health reporting, trends, decision support, and value narrative | Must learn NetApp/customer-estate data, metrics, and source limitations |
-| Mentoring, onboarding, interviews, and Technical Advisor program | Buddying, coaching, teach-back, and cross-functional contribution | NetApp standard-task coaching requires observed competence and calibration |
+| Strong customer-satisfaction records in both the enterprise and SMB segments | Measured customer experience and communication effectiveness | Satisfaction is not proof of technical account value or storage competence |
+| repeated peer and customer recognition | Repeated acknowledgement of contribution | Use as corroboration after a specific behavior and result, not as the story itself |
+| Business reviews, analytics, Excel, Power BI, and a postgraduate business-analytics qualification | Health reporting, trends, decision support, and value narrative | Must learn NetApp/customer-estate data, metrics, and source limitations |
+| Mentoring, onboarding, interviews, and technical-advisor programme | Buddying, coaching, teach-back, and cross-functional contribution | NetApp standard-task coaching requires observed competence and calibration |
 | SharePoint, OneDrive, M365, Azure, networking, VM, and storage fundamentals | Systems thinking across identity, client, service, network, data, and ownership | Production SAN, NAS, ONTAP, VMware storage, protection, lifecycle, and tools remain gaps |
 
 ### Transfer model
 
 ```mermaid
 flowchart LR
-    PROD[Microsoft production evidence] --> BEHAVIOR[Customer, incident, analysis, and collaboration behaviors]
+    PROD[prior production evidence] --> BEHAVIOR[Customer, incident, analysis, and collaboration behaviors]
     BEHAVIOR --> SYN[Synthetic TAM success-plan practice]
     SYN --> STUDY[Storage and NetApp official learning]
     STUDY --> LAB[Authorized lab and evidence portfolio]
@@ -1165,13 +1165,13 @@ flowchart LR
 
 ### Strengths and gaps, stated together
 
-> "My strongest evidence is enterprise support and escalation ownership: I have handled business-critical and CRITSIT situations, provided technical advisory guidance, worked with Product and Engineering, delivered business reviews, maintained strong CSAT above 4.75 in Enterprise and 4.85 in SMB, and received more than 100 recognitions. Those experiences transfer to trust, impact-first communication, evidence quality, cross-functional influence, and follow-through. My gap is equally clear: I have not yet operated as a NetApp TAM or administered a production NetApp storage estate, and I have not claimed access to NetApp's gated customer tools. I am closing that gap through storage fundamentals, synthetic account exercises, official learning, authorized labs, and review by experienced practitioners."
+> "My strongest evidence is enterprise support and escalation ownership: I have handled business-critical and critical situations, provided technical advisory guidance, worked with Product and Engineering, delivered business reviews, a strong customer-satisfaction record, and received repeated peer and customer recognition. Those experiences transfer to trust, impact-first communication, evidence quality, cross-functional influence, and follow-through. My gap is equally clear: I have not yet operated as a NetApp TAM or administered a production NetApp storage estate, and I have not claimed access to NetApp's gated customer tools. I am closing that gap through storage fundamentals, synthetic account exercises, official learning, authorized labs, and review by experienced practitioners."
 
-### Transfer exercise: one CRITSIT into one success plan
+### Transfer exercise: one critical-situation into one success plan
 
-Choose a real Microsoft incident Arti is authorized to discuss and sanitize all customer information.
+Choose a real enterprise incident you are authorized to discuss and sanitize all customer information.
 
-1. State the business impact, technical scope, and Arti's exact production role.
+1. State the business impact, technical scope, and your exact production role.
 2. Build the incident timeline: known, unknown, hypothesis, action, owner, checkpoint.
 3. Identify the customer emotion or expectation and how it was handled.
 4. Name the Product/Engineering collaboration and exact evidence package.
@@ -1184,7 +1184,7 @@ Choose a real Microsoft incident Arti is authorized to discuss and sanitize all 
 
 | Evidence level | Safe language | Unsafe language |
 |---|---|---|
-| Production | "In Microsoft enterprise support, I owned..." | "As a NetApp TAM, I..." |
+| Production | "In enterprise support, I owned..." | "As a NetApp TAM, I..." |
 | Transferable | "The behavior that transfers is...; the domain difference is..." | "It is basically the same technology." |
 | Synthetic/paper lab | "Using a fictional account, I built and challenged..." | "For my customer, I implemented..." |
 | Conceptual | "I understand the purpose and would validate it by..." | "I know the process" based only on reading |
@@ -1250,32 +1250,32 @@ timeline
                 : Reassess deeper certification or specialization path
 ```
 
-For Arti, a sensible starting specialization candidate is **customer-facing supportability and risk analysis for Microsoft-connected hybrid environments**, because it uses existing Microsoft, identity, networking, analytics, and escalation strengths while forcing deliberate learning of storage protocols, ONTAP architecture, lifecycle, compatibility, and protection. The final choice should follow team need, customer exposure, manager guidance, authorized access, and demonstrated interest.
+For you, a sensible starting specialization candidate is **customer-facing supportability and risk analysis for Microsoft-connected hybrid environments**, because it uses existing Microsoft, identity, networking, analytics, and escalation strengths while forcing deliberate learning of storage protocols, ONTAP architecture, lifecycle, compatibility, and protection. The final choice should follow team need, customer exposure, manager guidance, authorized access, and demonstrated interest.
 
 ---
 
 ## 14. JD mapping across all customer-facing areas
 
-| Customer-facing JD area | Part 3 operating behavior | Arti evidence and honest gap |
+| Customer-facing JD area | Part 3 operating behavior | transferable evidence and honest gap |
 |---|---|---|
-| Understand customer environment and improve support experience | Discovery, stakeholder map, health baseline, support-experience signals, success plan | Strong cross-layer Microsoft support method; storage environment depth is still developing |
+| Understand customer environment and improve support experience | Discovery, stakeholder map, health baseline, support-experience signals, success plan | Strong cross-layer enterprise support method; storage environment depth is still developing |
 | Strategic planning, best practices, and upgrade advice | Desired outcomes, lifecycle horizon, options, dependencies, decision rights, no guarantees | Advisory and review strengths; NetApp-specific recommendation content needs later Parts and current sources |
 | Generate, analyze, and report customer data | Evidence quality, health dimensions, leading/lagging KPIs, anti-gaming, value narrative | Analytics, Excel, Power BI, MBA; no claimed NetApp customer data access |
 | Maintain accurate install-base information | Baseline, action ownership, relationship to service and decisions | Data discipline transfers; NetApp install-base methods remain unproven |
 | Conduct operational service reviews | Meeting architecture, pre-read, agenda, layered communication, decisions, follow-up | Business-review experience transfers; formal NetApp OSR delivery under lead TAM is a gap |
-| Mitigate risk and improve solution stability | Evidence-to-risk-to-option-to-action model, health exceptions, risk acceptance | CRITSIT and technical advisory experience; storage-specific risk mechanisms require study |
+| Mitigate risk and improve solution stability | Evidence-to-risk-to-option-to-action model, health exceptions, risk acceptance | critical situation and technical advisory experience; storage-specific risk mechanisms require study |
 | Track preventative remediation and influence adoption | Adoption ladder, objections, accepted risk, action register, governance | Escalation and follow-through strength; long-cycle TAM action evidence must be built |
 | Improve technical analysis and recommendation representation | TRACE, confidence, customer health, executive/technical layers, decision quality | Strong analytics and documentation foundation |
 | Manage special projects | Success-plan objective, scope, milestones, dependencies, governance, closure | Program and advisory transfer; do not claim NetApp project delivery |
 | Written and verbal communication, Office tools | Pre-reads, service reviews, status structure, metrics, concise value narrative | Demonstrated reviews, Excel/Power BI, enterprise communication; produce a PowerPoint portfolio artifact later |
-| High-pressure situations and competing priorities | Incident boundaries, cadence, silence/noise balance, role clarity, time-zone handoff | Strong CRITSIT and business-critical evidence |
+| High-pressure situations and competing priorities | Incident boundaries, cadence, silence/noise balance, role clarity, time-zone handoff | Strong critical situation and business-critical evidence |
 | Customer time-zone alignment | Rotated burden, UTC records, asynchronous preparation, explicit handoffs | Enterprise/partner context transfers; actual availability boundaries must be stated honestly |
 | Storage or virtualization knowledge | Use customer outcome and role discipline while technical Parts build architecture depth | Azure, VM, networking, storage fundamentals only; no production ONTAP/SAN/NAS claim |
 | Learn new technology customer-facing | State conceptual limits, validate with official sources, shadow, reverse-shadow, teach back | Demonstrated learning and advisory breadth; NetApp specifics still need evidence |
 | Understand technical risks and supportability | Keep supportability distinct from health and guarantee; record exact current evidence | Strong risk reasoning; NetApp tools and parameters are later learning areas |
 | Influence, negotiate, and deliver reviews under lead-TAM guidance | Interests, options, BATNA, objections, escalation, decision logs, lead-TAM quality gate | Advisory/customer communication strength; formal TAM governance is unproven |
 | Buddy new hires and coach standard tasks | Demonstrate, shadow, reverse-shadow, rubric feedback, teach-back | Direct mentoring/onboarding/interview evidence; NetApp coaching requires competence first |
-| Contribute to cross-functional and SME teams | Shared outcome, exact ask, ownership, reusable artifact | Product/Engineering collaboration and Technical Advisor experience transfer strongly |
+| Contribute to cross-functional and SME teams | Shared outcome, exact ask, ownership, reusable artifact | Product/Engineering collaboration and technical advisor experience transfer strongly |
 | Build an area of specialization | Bounded roadmap with study, lab, shadowing, reviewed delivery, reusable contribution | Microsoft specialization is demonstrated; storage specialization is a future plan |
 | Experience, degree, and support/customer-success background | Factual narrative connects 5+ years, customer outcomes, analytics, leadership, and gaps | Support experience is proven; do not relabel it as unearned formal Customer Success or TAM tenure |
 
@@ -1304,7 +1304,7 @@ For Arti, a sensible starting specialization candidate is **customer-facing supp
 | Sending updates whenever someone asks | Creates inconsistent noise and side channels | Agree cadence and one communication owner |
 | Letting actions remain "in progress" indefinitely | Status hides age and blockage | Track last movement, blocker, owner, target, and escalation |
 | Coaching beyond competence | Spreads confident errors | Use an SME and state the learning boundary |
-| Presenting Microsoft support as NetApp TAM experience | Follow-up exposes overclaim | Transfer the behavior and state the domain gap |
+| Presenting enterprise support as NetApp TAM experience | Follow-up exposes overclaim | Transfer the behavior and state the domain gap |
 
 ---
 
@@ -1352,7 +1352,7 @@ For Arti, a sensible starting specialization candidate is **customer-facing supp
 
 **Practice:** Preserve scoring criteria, show evidence and uncertainty, separate technical assessment from renewal, and escalate through the lead TAM if pressure persists.
 
-### Drill 8: bad news during CRITSIT
+### Drill 8: bad news during critical situation
 
 **Prompt:** The latest evidence disproves the leading hypothesis and resolution timing is unknown.
 
@@ -1394,7 +1394,7 @@ A fictional manufacturer has three business-critical applications, a mixed virtu
 10. **Incident:** Inject a material incident and write executive and technical status updates with no unsupported cause.
 11. **Trust challenge:** Add one missed or overconfident commitment, then build a repair plan.
 12. **Value review:** Trace activities to outputs, decisions, adoption, outcomes, impact hypotheses, and limitations.
-13. **Candidate bridge:** Explain which artifact uses Arti's proven skills and which requires storage/TAM review.
+13. **Candidate bridge:** Explain which artifact uses your proven skills and which requires storage/TAM review.
 14. **Presentation:** Deliver a 10-minute OSR segment and a 90-second executive value summary.
 
 ### Required artifacts
@@ -1459,8 +1459,8 @@ Answer without notes, then verify against this Part.
 23. Write a scope statement with dependencies and no guarantee.
 24. Produce executive and technical updates for the same incident.
 25. Recreate Meridian's personas, conflicts, health baseline, success plan, incident, trust repair, and value review.
-26. Explain Arti's strengths using CRITSIT, advisory, Product/Engineering, CSAT, recognition, reviews, and mentoring evidence.
-27. State Arti's storage, NetApp-tool, and formal TAM gaps without weakening the transferable narrative.
+26. Explain your strengths using critical situation, advisory, Product/Engineering, CSAT, recognition, reviews, and mentoring evidence.
+27. State your storage, NetApp-tool, and formal TAM gaps without weakening the transferable narrative.
 28. Describe the buddy model, SME boundary, and specialization plan.
 29. Complete all ten role-play drills aloud.
 30. Complete the paper lab and identify which claims are synthetic.
@@ -1535,11 +1535,11 @@ Answer without notes, then verify against this Part.
 
 **Follow-up depth:** Distinguish response, mitigation, resolution, root cause, remediation, and validation; then draft both layers for a disproven leading hypothesis.
 
-### Q8. Why are you credible for this role when your experience is Microsoft support rather than NetApp TAM work?
+### Q8. Why are you credible for this role when your experience is enterprise support rather than NetApp TAM work?
 
-> **Model answer:** "My direct evidence is more than five years in Microsoft enterprise support and escalation engineering, including business-critical and CRITSIT ownership, technical advisory, Product and Engineering collaboration, business reviews, mentoring, CSAT above 4.75 in Enterprise and 4.85 in SMB, and more than 100 recognitions. Those experiences demonstrate customer empathy, evidence discipline, communication under pressure, cross-functional influence, and reliable follow-through. I would not present them as production NetApp administration or formal NetApp TAM tenure. My storage, ONTAP, supportability-tool, and long-cycle account-governance gaps are explicit, and my plan is official study, synthetic cases, authorized labs, shadowing, reverse-shadowing, and reviewed bounded ownership."
+> **Model answer:** "My direct evidence is several years in enterprise support and escalation engineering, including business-critical and critical-situation ownership, technical advisory, Product and Engineering collaboration, business reviews, mentoring, a strong customer-satisfaction record, and repeated peer and customer recognition. Those experiences demonstrate customer empathy, evidence discipline, communication under pressure, cross-functional influence, and reliable follow-through. I would not present them as production NetApp administration or formal NetApp TAM tenure. My storage, ONTAP, supportability-tool, and long-cycle account-governance gaps are explicit, and my plan is official study, synthetic cases, authorized labs, shadowing, reverse-shadowing, and reviewed bounded ownership."
 
-**Follow-up depth:** Deliver one factual CRITSIT example, one business-review/value example, one mentoring example, the transfer exercise, and a 30/60/90-day storage and TAM ramp plan.
+**Follow-up depth:** Deliver one factual critical-situation example, one business-review/value example, one mentoring example, the transfer exercise, and a 30/60/90-day storage and TAM ramp plan.
 
 ---
 
@@ -1568,7 +1568,7 @@ Answer without notes, then verify against this Part.
 - **Response is not resolution:** Promise the next owned checkpoint, not an uncontrolled outcome.
 - **Bad news:** Early fact, acknowledged impact, options, owner, checkpoint.
 - **Renewal boundary:** Technical value informs; commercial owner leads; evidence stays honest.
-- **Arti's bridge:** Proven Microsoft escalation and customer discipline; storage/TAM depth must be earned.
+- **Your bridge:** Proven enterprise escalation and customer discipline; storage/TAM depth must be earned.
 
 ---
 
@@ -1592,8 +1592,8 @@ Answer without notes, then verify against this Part.
 - [ ] Write a scope statement and expectation message that states dependencies and avoids guarantees.
 - [ ] Produce aligned executive and technical updates for a high-pressure scenario.
 - [ ] Recreate the full synthetic Meridian case, including personas, conflict, health, recommendations, incident, trust challenge, remediation, value, and limitations.
-- [ ] Deliver Arti's factual support-to-TAM narrative with CSAT and recognition evidence while naming storage and formal TAM gaps.
-- [ ] Complete the CRITSIT-to-success-plan transfer exercise and use the candidate honesty labels correctly.
+- [ ] Deliver your factual support-to-TAM narrative with CSAT and recognition evidence while naming storage and formal TAM gaps.
+- [ ] Complete the critical situation-to-success-plan transfer exercise and use the candidate honesty labels correctly.
 - [ ] Explain the coaching/buddy model, SME boundary, cross-functional contribution, and specialization roadmap.
 - [ ] Complete all ten role-play drills, the paper lab, and the 30-question self-test.
 - [ ] Answer Q1-Q8 aloud with the follow-up depth.

@@ -1,10 +1,10 @@
 # Part 106 - Customer Health, Adoption, Value Realization, and Success Metrics
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 
 > **Purpose:** Explain customer health, adoption, value realization, success metrics, risk reduction, stakeholder sentiment, support trends, maturity, health scoring, and evidence from zero, then turn them into a transparent operating model for technical-success decisions.
 
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH stakeholder, product, source, connector, workflow, date, metric, baseline, target, score, weight, threshold, sentiment, incident, adoption level, outcome, and result is invented. Arti's factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler, SecOps TSM, customer-health ownership, product telemetry interpretation, security-program adoption, risk-reduction attribution, commercial forecasting, and realized customer value remain learning boundaries.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH stakeholder, product, source, connector, workflow, date, metric, baseline, target, score, weight, threshold, sentiment, incident, adoption level, outcome, and result is invented. Your factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler, SecOps TSM, customer-health ownership, product telemetry interpretation, security-program adoption, risk-reduction attribution, commercial forecasting, and realized customer value remain learning boundaries.
 
 > **Currency caveat:** Products, telemetry, APIs, fields, dashboards, support processes, success methods, threats, controls, business priorities, contracts, packaging, and entitlements change. The controlled official-source snapshot and source review date for this Part is exactly **2026-08-24**. Current official technical and ordering documentation, licensed-tenant evidence, customer-authoritative business and operational records, contracts, policy, privacy/legal review, product specialists, Support, and validated measurement definitions govern production health and value decisions.
 
@@ -62,13 +62,13 @@ flowchart LR
 
 ## Candidate honesty note
 
-Arti can say: "My production background is Microsoft enterprise Support Escalation Engineering rather than owning Zscaler customer health or SecOps adoption. I have analyzed incident patterns, service impact, evidence quality, recurring failure, stakeholder communication, and recovery; used SQL and Power BI to make populations and trends inspectable; and mentored engineers toward repeatable practice. I have studied customer-success measurement and practiced this model with fictional data. In a real account I would verify product telemetry, entitlement, data grain and quality, workflow definitions, stakeholder perspectives, support classifications, baselines, customer-approved targets, risk evidence, and attribution before reporting health or value."
+You can say: "My production background is enterprise Support Escalation Engineering rather than owning Zscaler customer health or SecOps adoption. I have analyzed incident patterns, service impact, evidence quality, recurring failure, stakeholder communication, and recovery; used SQL and Power BI to make populations and trends inspectable; and mentored engineers toward repeatable practice. I have studied customer-success measurement and practiced this model with fictional data. In a real account I would verify product telemetry, entitlement, data grain and quality, workflow definitions, stakeholder perspectives, support classifications, baselines, customer-approved targets, risk evidence, and attribution before reporting health or value."
 
-This is a transfer statement, not a claim of prior TSM ownership. Arti should not say she drove production Zscaler adoption, improved a customer's risk score, proved cost savings, forecast renewal, operated a SecOps program, or delivered a health outcome without direct evidence.
+This is a transfer statement, not a claim of prior TSM ownership. You should not say you drove production Zscaler adoption, improved a customer's risk score, proved cost savings, forecast renewal, operated a SecOps program, or delivered a health outcome without direct evidence.
 
 | Factual background | Transferable strength | Neutral wording | Unsupported statement to avoid |
 |---|---|---|---|
-| Microsoft escalation engineering | Assess impact, technical state, recurrence, risk, ownership, and recovery | "I synthesize multiple evidence streams into next action." | "I owned strategic account health." |
+| enterprise escalation engineering | Assess impact, technical state, recurrence, risk, ownership, and recovery | "I synthesize multiple evidence streams into next action." | "I owned strategic account health." |
 | Microsoft 365 service support | Understand active use, workflow friction, identity, permissions, clients, networks, and service dependencies | "I distinguish service availability from successful user workflow." | "I drove Zscaler platform adoption." |
 | Networking and traces | Validate path, timing, failure boundary, and recovery | "I test whether a technical signal reflects real behavior." | "I measured customer control effectiveness." |
 | SQL and Power BI | Define grain, denominator, cohort, baseline, trend, quality, and drill-down | "I make metrics reproducible and challengeable." | "My dashboard proved business value." |
@@ -591,7 +591,7 @@ Adoption and health telemetry can become surveillance if collected at individual
 | Cross-customer benchmarking | Is comparison authorized and comparable? | Legal/privacy review and definition equivalence |
 | AI summary | Could generated narrative leak data or overstate cause? | Approved tools, minimization, grounding, human validation |
 
-Health may inform account planning, but Arti should not infer renewal probability, contract value, commercial risk, or expansion intent. Account/commercial owners and authoritative records govern those statements. Technical health should remain truthful even when timing is sensitive.
+Health may inform account planning, but you should not infer renewal probability, contract value, commercial risk, or expansion intent. Account/commercial owners and authoritative records govern those statements. Technical health should remain truthful even when timing is sensitive.
 
 ## Failure modes and misconceptions
 
@@ -964,9 +964,9 @@ The Zscaler sources support dated public positioning only. NIST sources support 
 
 **Model answer:** I walk one recent intended workflow and locate the first failed link: relevance, entitlement, access, configuration, data trust, skill, process friction, ownership, incentive, capacity, reliability, or measurement. The response follows the mechanism: source repair is not training, a missing owner is not a demo, and a defect is not a maturity lecture. I define a bounded intervention, owner, dependency, acceptance evidence, later application check, and residual.
 
-### Q8. How does Arti's background transfer honestly to health and value realization?
+### Q8. How does your background transfer honestly to health and value realization?
 
-**Model answer:** Her Microsoft escalation experience involved customer impact, technical state, incident patterns, recurrence, stakeholder communication, mitigations, and recovery. SQL and Power BI support rigorous grain, denominator, cohort, trend, quality, and drill-down; mentoring supports capability transfer. Those methods transfer to evidence-led health. Production Zscaler telemetry, SecOps adoption ownership, customer risk-reduction attribution, commercial forecasting, and realized value remain explicit ramp areas practiced synthetically here.
+**Model answer:** Your prior escalation experience involved customer impact, technical state, incident patterns, recurrence, stakeholder communication, mitigations, and recovery. SQL and Power BI support rigorous grain, denominator, cohort, trend, quality, and drill-down; mentoring supports capability transfer. Those methods transfer to evidence-led health. Production Zscaler telemetry, SecOps adoption ownership, customer risk-reduction attribution, commercial forecasting, and realized value remain explicit ramp areas practiced synthetically here.
 
 ## 30-Second Memory Hooks
 
@@ -990,7 +990,7 @@ The Zscaler sources support dated public positioning only. NIST sources support 
 | Missing data | Unknown, never silently green |
 | Intervention | Diagnose mechanism before motion |
 | Product truth | Verify entitlement, telemetry, definition, and tenant evidence |
-| Arti bridge | Escalation analysis and analytics transfer; value claims do not |
+| Experience bridge | Escalation analysis and analytics transfer; value claims do not |
 
 ## Completion Checklist
 
@@ -1011,6 +1011,6 @@ The Zscaler sources support dated public positioning only. NIST sources support 
 - [ ] I can protect personal, security, sentiment, support, commercial, and cross-customer data from misuse.
 - [ ] I can separate product positioning from entitlement, telemetry, configuration, adoption, value, and results.
 - [ ] I can use the health, adoption, value, metric, score, support, sentiment, maturity, risk, intervention, narrative, and evidence templates.
-- [ ] I can describe Arti's transferable skills without claiming production Zscaler health, adoption, risk reduction, commercial forecasting, or realized value.
+- [ ] I can describe your transferable skills without claiming production Zscaler health, adoption, risk reduction, commercial forecasting, or realized value.
 
 [Next: Part 107 - Business Reviews, Executive Narratives, and Board-Ready Communication](Part-107-business-reviews-executive-narratives.md)

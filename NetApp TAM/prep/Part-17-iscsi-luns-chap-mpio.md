@@ -1,12 +1,12 @@
 # Part 17 - iSCSI from Zero: Sessions, LUNs, CHAP, MPIO, and Boot Paths
 
-> **Section goal:** Understand how a host discovers an iSCSI target, negotiates login and security, receives a mapped LUN, sends SCSI commands over TCP, and survives path failure. By the end, Arti should be able to separate network, iSCSI, SCSI, MPIO, host file-system, and application state and build a safe supportability or incident recommendation.
+> **Section goal:** Understand how a host discovers an iSCSI target, negotiates login and security, receives a mapped LUN, sends SCSI commands over TCP, and survives path failure. By the end, you should be able to separate network, iSCSI, SCSI, MPIO, host file-system, and application state and build a safe supportability or incident recommendation.
 
 Covers index item **17** and maps directly to job-description responsibilities for storage and networking depth, customer-environment analysis, supportability, stability and risk mitigation, tailored recommendations, operational reviews, and escalation quality.
 
 This Part is vendor-neutral. Exact discovery methods, iSCSI login keys, Challenge-Handshake Authentication Protocol (CHAP), session/connection limits, LUN mapping, initiator groups, Multipath I/O (MPIO), Asymmetric Logical Unit Access (ALUA), timeouts, queue depth, persistent reservations, boot-from-SAN, network design, and NetApp behavior vary by host, target, protocol implementation, release, and supported configuration. Validate current official documentation and the exact NetApp Interoperability Matrix Tool (IMT) solution and notes.
 
-> **Evidence boundary:** Every organization, IQN, portal, LUN, packet, queue, failure, and recommendation below is synthetic. Arti's production Windows/Azure networking, virtual machines, storage fundamentals, Microsoft escalation, and customer communication are strengths. Production iSCSI target/initiator administration, LUN mapping, igroup management, MPIO/ALUA tuning, boot-from-SAN, or ONTAP SAN ownership is not claimed.
+> **Evidence boundary:** Every organization, IQN, portal, LUN, packet, queue, failure, and recommendation below is synthetic. Your production Windows/Azure networking, virtual machines, storage fundamentals, enterprise escalation, and customer communication are strengths. Production iSCSI target/initiator administration, LUN mapping, igroup management, MPIO/ALUA tuning, boot-from-SAN, or ONTAP SAN ownership is not claimed.
 
 ---
 
@@ -700,11 +700,11 @@ flowchart TD
 
 ### Explicit JD Mapping
 
-| JD responsibility | Part 17 contribution | Arti's strength and honest gap |
+| JD responsibility | Part 17 contribution | Your strength and honest gap |
 |---|---|---|
 | Understand customer environment | Maps host/MPIO/network/target/LUN/backing/application ownership | **Strength:** Azure/Windows/network/VM dependency mapping. **Gap:** production iSCSI/ONTAP SAN ownership. |
 | Storage depth | Explains SCSI over TCP, discovery/login, CHAP, LUNs, ALUA, MPIO, reservations, boot | **Conceptual/lab:** no production LUN/igroup/MPIO administration claim. |
-| Risk/stability | Finds identity/map, path common fate, timeout, reservation, boot, and file-system ownership risks | **Strength:** CRITSIT method transfers. |
+| Risk/stability | Finds identity/map, path common fate, timeout, reservation, boot, and file-system ownership risks | **Strength:** critical-situation method transfers. |
 | Supportability | Builds exact host/NIC/network/target/storage/app matrix and IMT evidence | **Gap:** no customer IMT/gated result claimed. |
 | Recommendation quality | Requires data-safe, owner-led, tested remediation with residual risk | **Strength:** escalation and advisory follow-through. |
 | Service review | Reports path tests, support gaps, queue trends, actions, and resilience | **Strength:** analytics/business review. |
@@ -894,7 +894,7 @@ If all traffic hashes or selects one 10 Gbit/s path, raw link capacity is not ye
 27. Build the minimum escalation pack.
 28. Complete the paper lab and whiteboard drills.
 29. Answer Q1-Q8 aloud.
-30. State Arti's strengths and production iSCSI gap honestly.
+30. State your strengths and production iSCSI gap honestly.
 
 ---
 
@@ -975,7 +975,7 @@ If all traffic hashes or selects one 10 Gbit/s path, raw link capacity is not ye
 
 ### Q8. How does your background transfer to iSCSI work, and what remains a gap?
 
-> **Model answer:** "My production Microsoft experience includes Windows and Azure networking, virtual machines, storage fundamentals, high-severity troubleshooting, evidence correlation, and customer communication. Those methods transfer to iSCSI path and dependency analysis. I have not administered production LUN mappings, igroups, MPIO/ALUA, boot-from-SAN, or ONTAP SAN. I would verify exact host/adapter/network/storage/application support and IMT notes, use authorized read-only evidence and labs, and involve host, network, application, cluster, and storage owners for changes."
+> **Model answer:** "My production prior experience includes Windows and Azure networking, virtual machines, storage fundamentals, high-severity troubleshooting, evidence correlation, and customer communication. Those methods transfer to iSCSI path and dependency analysis. I have not administered production LUN mappings, igroups, MPIO/ALUA, boot-from-SAN, or ONTAP SAN. I would verify exact host/adapter/network/storage/application support and IMT notes, use authorized read-only evidence and labs, and involve host, network, application, cluster, and storage owners for changes."
 
 **Follow-up depth:** Give one factual Windows/Azure connectivity case and label the iSCSI/NetApp implementation as conceptual or lab evidence.
 
@@ -1002,7 +1002,7 @@ If all traffic hashes or selects one 10 Gbit/s path, raw link capacity is not ye
 - **Persistent reservation:** Cluster safety key and rule, not a nuisance lock.
 - **Boot from SAN:** Firmware must reach the LUN before OS MPIO exists.
 - **File-system owner:** Host/application, not the target.
-- **Arti's bridge:** Windows/Azure network method transfers; production iSCSI/ONTAP SAN remains unclaimed.
+- **Your bridge:** Windows/Azure network method transfers; production iSCSI/ONTAP SAN remains unclaimed.
 
 ---
 
@@ -1030,7 +1030,7 @@ If all traffic hashes or selects one 10 Gbit/s path, raw link capacity is not ye
 - [ ] Recreate Alpine's alternate-path MTU mechanism and boot common fate.
 - [ ] Build exact current supportability/IMT evidence and complete escalation pack.
 - [ ] Complete the paper lab, whiteboard drills, self-test, and Q1-Q8 aloud.
-- [ ] State Arti's production strengths and iSCSI/ONTAP SAN gap honestly.
+- [ ] State your production strengths and iSCSI/ONTAP SAN gap honestly.
 - [ ] Recheck RFC/SCSI revisions, exact versions/features, application guidance, and NetApp IMT notes before customer use.
 
 ---

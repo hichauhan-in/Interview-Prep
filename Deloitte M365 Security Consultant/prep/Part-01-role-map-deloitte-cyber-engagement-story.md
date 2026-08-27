@@ -1,6 +1,6 @@
 # Part 1 — Role Map, Deloitte Cyber Context, and the Complete Engagement Story
 
-> **Section goal:** Understand what this Microsoft 365 Security Senior Consultant role actually does, why clients pay for it, how the Microsoft security products fit together, and what a complete engagement looks like from first workshop to operational handover. By the end, you should be able to explain the role in business language, draw its architecture, describe its deliverables, and position your existing Microsoft support experience honestly.
+> **Section goal:** Understand what this Microsoft 365 Security Senior Consultant role actually does, why clients pay for it, how the Microsoft security products fit together, and what a complete engagement looks like from first workshop to operational handover. By the end, you should be able to explain the role in business language, draw its architecture, describe its deliverables, and position your existing enterprise support experience honestly.
 
 Covers index item **1** and maps to all major job-description responsibilities, especially client engagement, assessment, design, deployment, troubleshooting, documentation, stakeholder reporting, operational readiness, and Microsoft 365 security transformation.
 
@@ -908,7 +908,7 @@ A strong answer should show readiness for:
 
 ## 12. Support-to-Consultant Bridge: From Escalation Engineering to Security Consulting
 
-Arti's background is not a detour. It provides strong evidence for several consulting competencies. The transition requires translating that evidence and deliberately building the missing platform depth.
+Your background is not a detour. It provides strong evidence for several consulting competencies. The transition requires translating that evidence and deliberately building the missing platform depth.
 
 ### Transferable evidence map
 
@@ -1159,7 +1159,7 @@ Write and speak an answer containing all six elements:
 
 ### Model answer
 
-> "This role helps enterprise clients reduce cyber risk while keeping Microsoft 365 collaboration usable. The work spans identity with Entra, endpoint trust with Intune, Exchange, Teams, SharePoint and OneDrive controls, data security with Purview, and detection and response through Defender XDR and Sentinel. I see the job as an end-to-end consulting lifecycle: discover the current state, assess evidence and risk, design a target architecture, pilot and deploy changes safely, test the intended control behavior, and hand the solution to an operational team with runbooks and metrics. My direct strength is more than five years of Microsoft 365 enterprise support, critical escalation ownership, technical advisory, stakeholder coordination, RCA, fix validation, and documentation. I am building the named security-platform depth through structured labs, and I would be explicit about which evidence is production-based and which is lab-based."
+> "This role helps enterprise clients reduce cyber risk while keeping Microsoft 365 collaboration usable. The work spans identity with Entra, endpoint trust with Intune, Exchange, Teams, SharePoint and OneDrive controls, data security with Purview, and detection and response through Defender XDR and Sentinel. I see the job as an end-to-end consulting lifecycle: discover the current state, assess evidence and risk, design a target architecture, pilot and deploy changes safely, test the intended control behavior, and hand the solution to an operational team with runbooks and metrics. My direct strength is several years of Microsoft 365 enterprise support, critical escalation ownership, technical advisory, stakeholder coordination, RCA, fix validation, and documentation. I am building the named security-platform depth through structured labs, and I would be explicit about which evidence is production-based and which is lab-based."
 
 ### Self-review rubric
 
@@ -1283,7 +1283,7 @@ You are ready to move on when you can do all of the following without reading:
 - [ ] Describe how you would pilot a high-impact policy safely.
 - [ ] Explain how third-party migration differs from a feature checklist.
 - [ ] Describe operational readiness and 24x7 handover requirements.
-- [ ] Translate five items from Arti's support background into consulting competencies.
+- [ ] Translate five items from your support background into consulting competencies.
 - [ ] State the Entra, Intune, Purview, Defender, Sentinel, Exchange, and Teams gaps honestly.
 - [ ] Answer all eight interview questions aloud in two minutes or less each.
 - [ ] Score at least 10/12 on the role-explanation rubric.

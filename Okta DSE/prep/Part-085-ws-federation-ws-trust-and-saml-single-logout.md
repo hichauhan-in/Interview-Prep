@@ -380,7 +380,7 @@ flowchart TD
 - **A fourth, on Single Logout, and this is the honest one:** *"SAML SLO is the least reliable part of SAML. Front-channel logout walks a chain of service providers through the browser, so one slow or unreachable participant stalls it and everything after never gets logged out — and it fails silently, exactly like OIDC front-channel logout. I wouldn't rely on it for security-critical logout; short session lifetimes are more dependable than a logout chain."*
 - **A fifth, on expectations:** *"I'd advise telling users 'you have been signed out of this application' rather than 'signed out everywhere,' because the second is frequently untrue and the difference matters on a shared computer."*
 - **A sixth, an ADFS specific worth knowing:** *"ADFS rotates its token-signing certificate automatically by default, and the rollover date is predictable in advance. So when one relying party breaks, the others on that instance will break at the same time — warning about that turns one ticket into a prevented set."*
-- **Do not overstate:** you have not supported production WS-Federation or SLO. Say recognition and decoding are lab-built and the enterprise Microsoft context is genuinely familiar.
+- **Do not overstate:** you have not supported production WS-Federation or SLO. Say recognition and decoding are lab-built and the enterprise support context is genuinely familiar.
 
 ---
 

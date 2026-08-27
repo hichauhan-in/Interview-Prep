@@ -2,7 +2,7 @@
 
 > **Purpose:** Build a dated, beginner-first method for researching evolving business email compromise, identity-centric attacks, secure email architecture, agentic security, API ecosystems, privacy and AI governance, standards changes, and competitive categories without turning marketing, forecasts, or incomplete public documentation into product facts.
 >
-> **Artifact honesty label:** **Completed learner-authored trends brief, standards map, comparison framework, decision trees, worked paper examples, source ledger, and local synthetic research-worksheet design. The research worksheet remains designed, not performed, and not empirically validated. Arti has no direct Abnormal AI product, customer, tenant, detection, agent, API, competitive-evaluation, or market-analysis experience. No vendor trial, restricted documentation, customer data, scraping, security testing, benchmark, procurement decision, or product result is claimed.**
+> **Artifact honesty label:** **Completed learner-authored trends brief, standards map, comparison framework, decision trees, worked paper examples, source ledger, and local synthetic research-worksheet design. The research worksheet remains designed, not performed, and not empirically validated. You have no direct Abnormal AI product, customer, tenant, detection, agent, API, competitive-evaluation, or market-analysis experience. No vendor trial, restricted documentation, customer data, scraping, security testing, benchmark, procurement decision, or product result is claimed.**
 >
 > **Study currency date:** August 24, 2026.
 >
@@ -50,7 +50,7 @@ The following are exactly twelve numbered contract labels. Combined labels defin
 
 ## Research posture and claim hierarchy
 
-This is a **dated research brief**, not an analyst market report, procurement recommendation, benchmark, or prediction service. Its job is to help Arti answer questions such as “What is changing in email security?” and “How would you compare approaches?” with a defensible method. The answer should identify what was observed, which source supports it, what remains unknown, and what would need revalidation.
+This is a **dated research brief**, not an analyst market report, procurement recommendation, benchmark, or prediction service. Its job is to help your answer questions such as “What is changing in email security?” and “How would you compare approaches?” with a defensible method. The answer should identify what was observed, which source supports it, what remains unknown, and what would need revalidation.
 
 Think of current-topic research as building a bridge while watching the river level change. Standards documents can provide durable foundations, but product pages, documentation, threat reports, regulations, and draft specifications change on different schedules. The safe method records the date and type of every beam. The analogy stops because sources are not merely stronger or weaker: each can be authoritative for a different question. A vendor is authoritative about what it publicly says, but that statement can still be marketing rather than implementation proof. A standards body is authoritative about a specification's status, but the standard cannot prove adoption or a product's conformance.
 
@@ -110,18 +110,18 @@ flowchart LR
 
 ## Candidate honesty note
 
-| Role or curriculum signal | What this Part develops | Honest transfer from Arti's background | Boundary that remains |
+| Role or curriculum signal | What this Part develops | Honest transfer from your background | Boundary that remains |
 |---|---|---|---|
 | Cloud Email Security | Ability to explain changing BEC paths, mail-authentication standards, architecture categories, evidence, and response layers | Microsoft 365 and enterprise support concepts plus structured study | No direct Abnormal, email-security operations, threat hunting, tenant tuning, or product administration claim |
 | AI Security Agents | Agentic workflow, prompt injection, tool abuse, policy gates, observability, and failure containment | Copilot/agent and support experience only where the CV supports it; broader content is learned architecture | No Abnormal agent operation, private model/tool knowledge, autonomous security action, or measured evaluation claim |
 | SaaS Security and APIs | Identity, OAuth, scopes, tokens, event contracts, API control/data planes, and integration questions | Working knowledge of REST, Postman, cURL, JSON, identity, and troubleshooting | No production ownership of the named vendor integrations, scopes, APIs, or data flows |
-| Complex investigations | Source classification, competing hypotheses, causal restraint, trend verification, and escalation | Strong Microsoft support investigation and Engineering/Product escalation method | A research comparison is not a customer investigation or product RCA |
+| Complex investigations | Source classification, competing hypotheses, causal restraint, trend verification, and escalation | Strong enterprise support investigation and Engineering/Product escalation method | A research comparison is not a customer investigation or product RCA |
 | Customer trust | Explaining uncertainty, source dates, limitations, and decision criteria without disparagement | Direct customer communication transfer when backed by true examples | No unsupported vendor recommendation, guarantee, legal interpretation, or procurement authority |
 | Continuous learning | Repeatable currency review, standards status tracking, and source-expiry discipline | Direct learning, KB/training, and mentoring habits | Reading a source does not prove operational competence or current vendor certification |
 
-Arti's safe interview boundary is:
+Your safe interview boundary is:
 
-> “My direct production evidence is Microsoft enterprise support within the scope I can substantiate. For this advanced-topic brief, I reviewed public standards, government guidance, living threat frameworks, official vendor documentation, and public product positioning. I can explain the architecture and comparison questions, but I have not operated Abnormal, run a competitive evaluation, accessed restricted vendor documents, or tested these products. I would revalidate every changing claim against current authorized documentation and the customer's actual requirements.”
+> “My direct production evidence is enterprise support within the scope I can substantiate. For this advanced-topic brief, I reviewed public standards, government guidance, living threat frameworks, official vendor documentation, and public product positioning. I can explain the architecture and comparison questions, but I have not operated Abnormal, run a competitive evaluation, accessed restricted vendor documents, or tested these products. I would revalidate every changing claim against current authorized documentation and the customer's actual requirements.”
 
 ## Dated trends brief - August 24, 2026
 
@@ -1006,7 +1006,7 @@ Validation may use at most three full-content cycles. The master status remains 
 | Failure and escalation | Misleading signals, unsafe shortcuts, stop conditions, owner routing | Failure register, prohibitions, escalation flow, and packet present | PASS |
 | Safe lab | Local synthetic research worksheet with prerequisites, steps, expected evidence, cleanup, and unperformed state | SignalWatch Lab 118 is explicitly designed, unperformed, and not validated | PASS |
 | Prohibitions | No restricted scraping, invented market data, customer data, disparagement, bypass, or marketing-as-proof | Each prohibition is explicit and appears in lab critical failures | PASS |
-| Candidate honesty | Microsoft transfer and no-direct-Abnormal/vendor-evaluation boundaries | Candidate statement, JD map, examples, source rules, and Q&A preserve boundaries | PASS |
+| Candidate honesty | experience transfer and no-direct-Abnormal/vendor-evaluation boundaries | Candidate statement, JD map, examples, source rules, and Q&A preserve boundaries | PASS |
 | Official sources | At least twelve current official/primary URLs including Abnormal, CISA, NIST, MITRE, IETF/RFC/standards, and compared-vendor docs | More than thirty dated and typed anchors appear below with version/status and applicability boundaries | PASS |
 | Q&A | Exactly Q1-Q8 with exactly eight model-answer labels | Final interview section contains eight numbered headings and eight model answers | PASS |
 | Final navigation | Required next link appears once as sole final line | Required link is the final line | PASS |
@@ -1055,7 +1055,7 @@ The source-class column is part of the evidence. A marketing page is not downgra
 | [Microsoft Defender for Office 365 overview](https://learn.microsoft.com/en-us/defender-office-365/mdo-about) | Microsoft Learn page dated May 21, 2026 and updated June 17, 2026 in retrieved metadata | Official vendor technical documentation | Native protection ladder, plan-dependent prevention/detection/investigation/response and automation | Strong for documented Microsoft scope; verify tenant license/configuration and do not infer comparative effectiveness or customer outcome |
 | [Microsoft Defender for Office 365 deployment guide](https://learn.microsoft.com/en-us/defender-office-365/mdo-deployment-guide) | Microsoft Learn page dated February 6, 2026 and updated June 1, 2026 in retrieved metadata | Official vendor technical documentation | Roles, least privilege, SPF/DKIM/DMARC/ARC, policy precedence, user reporting, investigation and response setup | Documentation does not prove a tenant completed the steps or that defaults meet every customer's risk; current tenant evidence remains required |
 | [Cloudflare Email Security documentation](https://developers.cloudflare.com/email-security/) | Official docs last updated August 14, 2026 on retrieved page | Official vendor technical documentation | Public inline-versus-API architecture distinction, SSO, BEC and service context | Docs establish documented options, not efficacy, latency, entitlement, customer fit, or parity with Abnormal/Microsoft |
-| [Google Workspace Admin Help](https://support.google.com/a/) | Mutable official product documentation | Official vendor technical documentation | Google Workspace mail/admin source family for architecture revalidation | Open exact task pages and record update/applicability; admin help does not establish another vendor's integration contract or Arti's experience |
+| [Google Workspace Admin Help](https://support.google.com/a/) | Mutable official product documentation | Official vendor technical documentation | Google Workspace mail/admin source family for architecture revalidation | Open exact task pages and record update/applicability; admin help does not establish another vendor's integration contract or your experience |
 
 ### Source-use rules
 
@@ -1102,7 +1102,7 @@ The source-class column is part of the evidence. A marketing page is not downgra
 
 ### Q8. What direct experience do you claim from this Part?
 
-**Model answer:** “I claim authorship of a dated trends brief, standards map, comparison framework, worked paper examples, source ledger, and an unperformed synthetic worksheet design. I do not claim that I ran the worksheet, tested any vendor, accessed restricted documentation, used customer data, measured a market, or operated Abnormal. My production evidence remains the Microsoft enterprise-support work I can substantiate. The transferable strength is evidence-led troubleshooting, customer communication, escalation, knowledge, and careful source/claim boundaries.”
+**Model answer:** “I claim authorship of a dated trends brief, standards map, comparison framework, worked paper examples, source ledger, and an unperformed synthetic worksheet design. I do not claim that I ran the worksheet, tested any vendor, accessed restricted documentation, used customer data, measured a market, or operated Abnormal. My production evidence remains the enterprise-support work I can substantiate. The transferable strength is evidence-led troubleshooting, customer communication, escalation, knowledge, and careful source/claim boundaries.”
 
 ## 🧠 30-Second Memory Hooks
 
@@ -1124,7 +1124,7 @@ The source-class column is part of the evidence. A marketing page is not downgra
 - **Compare dimensions and unknowns; do not rank adjectives.**
 - **Public silence means unknown, not absent.**
 - **No restricted scraping, invented data, customer evidence, bypass, or disparagement.**
-- **Arti's Microsoft method transfers; Abnormal operation remains unclaimed.**
+- **Your prior method transfers; Abnormal operation remains unclaimed.**
 
 ## Completion Checklist
 

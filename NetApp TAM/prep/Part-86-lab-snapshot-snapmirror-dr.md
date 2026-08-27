@@ -1,6 +1,6 @@
 # Part 86 - LAB 4 - Snapshots, SnapMirror, Restore, and DR Validation
 
-> **Section goal:** Convert business recovery requirements into a layered snapshot and SnapMirror design, then execute only in an explicitly authorized isolated lab or simulate baseline, update, lag, break, resync, restore, and disaster-recovery validation. By the end, Arti can measure actual recovery point objective and recovery time objective, prove application consistency, preserve single-writer safety, and report residual risk.
+> **Section goal:** Convert business recovery requirements into a layered snapshot and SnapMirror design, then execute only in an explicitly authorized isolated lab or simulate baseline, update, lag, break, resync, restore, and disaster-recovery validation. By the end, you can measure actual recovery point objective and recovery time objective, prove application consistency, preserve single-writer safety, and report residual risk.
 
 Covers index item **86** and maps to job-description responsibilities for strategic planning, storage best practices, stability/risk mitigation, upgrade and change advice, technical analysis, high-pressure recovery communication, cross-team coordination, and operational service reviews.
 
@@ -12,7 +12,7 @@ Covers index item **86** and maps to job-description responsibilities for strate
 
 **Lab safety contract:** The access fallback is a complete synthetic simulation. Use read-only first, obtain authorization before change, run a positive test and negative test, perform bounded failure injection, document recovery and rollback, capture evidence, complete cleanup, control cost and privacy, and use honest interview language.
 
-**Explicit nonclaim:** Arti has not configured, initialized, updated, broken, resynchronized, reversed, restored, failed over, or validated production ONTAP snapshots, SnapMirror, backup, or disaster recovery. This lab does not establish production recovery authority or guarantee recoverability.
+**Explicit nonclaim:** You have not configured, initialized, updated, broken, resynchronized, reversed, restored, failed over, or validated production ONTAP snapshots, SnapMirror, backup, or disaster recovery. This lab does not establish production recovery authority or guarantee recoverability.
 
 **Privacy/access:** Protection evidence can expose data sets, recovery points, retention, topology, intercluster addresses, encryption, credentials, catalogs, legal holds, ransomware controls, business priorities, RPO/RTO, and recovery weaknesses. Use generated data, synthetic identities, minimum authorized evidence, approved repositories, separation of duties, redaction, audit, retention, and no keys, secrets, customer snapshots, or catalog exports.
 
@@ -22,7 +22,7 @@ Covers index item **86** and maps to job-description responsibilities for strate
 
 This Part is a learning and simulation workflow, not a production DR runbook, backup guarantee, cyber-recovery plan, data-retention instruction, or authorization to break/resync/restore any relationship.
 
-> **No-production-NetApp boundary:** Arti's production strengths are Microsoft data-service incidents, business continuity concepts, CRITSIT coordination, change governance, analytics, risk communication, and customer reviews. Her exact nonclaim is: **she has not operated or validated production NetApp snapshots, SnapMirror, restore, or DR.** She may present this synthetic exercise or an authorized lab while stating its evidence level.
+> **No-production-NetApp boundary:** Your production strengths are Microsoft data-service incidents, business continuity concepts, critical-situation coordination, change governance, analytics, risk communication, and customer reviews. Your exact nonclaim is: **you have not operated or validated production NetApp snapshots, SnapMirror, restore, or DR.** You may present this synthetic exercise or an authorized lab while stating its evidence level.
 
 ---
 
@@ -489,11 +489,11 @@ Capture requirements, source/destination identities, source date/version, relati
 
 Remove generated data, temporary snapshots/relationships/clones, DR app resources, DNS/routes, accounts, credentials and chargeable services only through the approved plan. Verify inventory/billing after delay. No cost, region, license, simulator or availability promise is made.
 
-## 17. JD Mapping and Arti tie
+## 17. JD Mapping and background tie
 
 ```mermaid
 flowchart LR
-    CRIT[CRITSIT and continuity reasoning] --> AUTH[Authority, milestones and recovery]
+    CRIT[Critical situation and continuity reasoning] --> AUTH[Authority, milestones and recovery]
     DATA[Microsoft data-service support] --> CONS[Application/dependency consistency]
     ANALYTICS[Analytics] --> METRIC[RPO/RTO/lag measurement]
     REVIEW[Customer reviews] --> PLAN[Risk/action narrative]
@@ -573,7 +573,7 @@ flowchart LR
 
 ### Q8. What is your experience boundary?
 
-> **Model answer:** `My Microsoft data-service incident, continuity, change, analytics and customer-communication experience transfers to requirements and recovery governance. I have not operated production ONTAP snapshots or SnapMirror. This exercise is synthetic unless completed in an authorized lab using current NetApp and application procedures.`
+> **Model answer:** `My prior data-service incident, continuity, change, analytics and customer-communication experience transfers to requirements and recovery governance. I have not operated production ONTAP snapshots or SnapMirror. This exercise is synthetic unless completed in an authorized lab using current NetApp and application procedures.`
 
 ---
 

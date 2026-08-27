@@ -1,10 +1,10 @@
 # Part 58 - Data Fabric for Security Architecture and Value Proposition
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 >
 > **Purpose:** Explain why enterprise security risk is also a data problem; how a flexible and extensible security data fabric can ingest, harmonize and map, deduplicate, correlate, enrich, and operationalize information; how unified security truth supports analytical and operational uses; and how business logic, workflows, reports, feedback loops, Asset Exposure Management, Unified Vulnerability Management, and Continuous Threat Exposure Management fit together.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every source, entity, record, connector, mapping, workflow, report, metric, decision, incident, timeline, result, and outcome in this Part is synthetic. Zscaler claims are limited to the official public pages listed in Official Source Anchors. General data-fabric architecture and the NMH examples explain concepts; they do not describe undocumented Zscaler schemas, storage, algorithms, connectors, limits, service levels, control planes, deployment topology, or guarantees. Arti's SQL, Power BI, statistics, data-quality, Microsoft 365 troubleshooting, escalation, and customer communication experience transfers, while direct production administration of Zscaler Data Fabric for Security remains a learning boundary.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every source, entity, record, connector, mapping, workflow, report, metric, decision, incident, timeline, result, and outcome in this Part is synthetic. Zscaler claims are limited to the official public pages listed in Official Source Anchors. General data-fabric architecture and the NMH examples explain concepts; they do not describe undocumented Zscaler schemas, storage, algorithms, connectors, limits, service levels, control planes, deployment topology, or guarantees. Your SQL, Power BI, statistics, data-quality, Microsoft 365 troubleshooting, escalation, and customer communication experience transfers, while direct production administration of Zscaler Data Fabric for Security remains a learning boundary.
 >
 > **Currency caveat:** Product pages, integration catalogs, terminology, licensing, application relationships, connector availability, and public claims change. The controlled research/source date for this Part is exactly **2026-08-24**. Current official documentation, licensed tenant behavior, approved customer architecture, source contracts, security and privacy review, observed evidence, and Zscaler and source-system specialists govern production.
 
@@ -14,7 +14,7 @@ Security teams do not lack data. They often lack connected, current, interpretab
 
 Think of a city emergency coordination center. Police, fire, hospitals, utilities, transport, weather, and building authorities each maintain a specialized view. A dispatcher cannot solve a citywide emergency by piling their reports onto one desk. The reports need shared addresses, clocks, incident identifiers, confidence, ownership, and operating procedures. The coordination center does not replace the specialist agencies. It connects their evidence so people can see the situation and act together. A security data fabric plays that conceptual coordination role for security and business information.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Evidence artifact |
 |---|---|---|
@@ -54,7 +54,7 @@ flowchart LR
 
 ## JD Mapping
 
-| Role expectation | Part 58 capability | TSM artifact | Arti bridge and boundary |
+| Role expectation | Part 58 capability | TSM artifact | experience bridge and boundary |
 |---|---|---|---|
 | Develop deep Data Fabric expertise | Explain the public architecture and value chain | Source-bounded whiteboard | Product internals remain unclaimed |
 | Analyze complex environments | Connect security and business source views | Enterprise data-context map | Microsoft troubleshooting and analytics transfer |
@@ -71,7 +71,7 @@ flowchart LR
 
 | Evidence class | Safe interview statement | Boundary to state |
 |---|---|---|
-| Production transfer | "I used SQL, Power BI, service telemetry, case evidence, and cross-system correlation in Microsoft support operations." | This is not production Zscaler Data Fabric administration |
+| Production transfer | "I used SQL, Power BI, service telemetry, case evidence, and cross-system correlation in enterprise support operations." | This is not production Zscaler Data Fabric administration |
 | Synthetic practice | "I designed an NMH source-to-context-to-workflow model and tested failure cases." | Fictional lab, not a customer result |
 | Official public fact | "Zscaler publicly describes a flexible and extensible Data Fabric that aggregates and unifies security-tool and business-system data." | Public positioning does not reveal internal topology |
 | Official process wording | "The public page names ingest, harmonize and map, deduplicate, correlate and enrich, business logic, workflows, and dynamic reporting." | Do not infer exact order, components, schemas, or guarantees beyond the page |
@@ -121,7 +121,7 @@ flowchart LR
 
 ## Claim ledger: documented, general, and inferred
 
-A credible TSM should label claim strength. Product pages are authoritative for what they publicly say, but they are not implementation manuals. General engineering sources can support design principles, but they cannot prove a vendor uses a particular component. A synthetic lab can show Arti's reasoning, but it cannot prove product behavior or customer value.
+A credible TSM should label claim strength. Product pages are authoritative for what they publicly say, but they are not implementation manuals. General engineering sources can support design principles, but they cannot prove a vendor uses a particular component. A synthetic lab can show your reasoning, but it cannot prove product behavior or customer value.
 
 | Claim | Classification | Support | Safe use | Forbidden leap |
 |---|---|---|---|---|
@@ -805,13 +805,13 @@ The customer connected 25 sources. Has value been realized?
 
 ### Exercise 11 - Public claim
 
-Can Arti say the Zscaler fabric uses a graph database because the product correlates relationships?
+Can you say the Zscaler fabric uses a graph database because the product correlates relationships?
 
-**Answer:** No. Correlation and relationships do not prove a storage technology. She can explain a conceptual graph and say exact internals are not established by the public pages.
+**Answer:** No. Correlation and relationships do not prove a storage technology. You can explain a conceptual graph and say exact internals are not established by the public pages.
 
 ### Exercise 12 - Executive narrative
 
-How should Arti explain a drop in critical exposure after a connector was added?
+How should you explain a drop in critical exposure after a connector was added?
 
 **Answer:** Separate data/model change from observed environment change. State the connector, population, rule/version, quality, restatement, before/after basis, and independent outcome evidence. Do not attribute the entire drop to risk reduction merely because the metric changed.
 
@@ -911,7 +911,7 @@ Present the NMH payroll scenario as outcome, evidence, trust, meaning, options, 
 | Connector count proves value | Value requires accepted data, trusted context, use, action, and outcome |
 | Published product outcomes are guarantees | Vendor figures need attribution and do not guarantee NMH results |
 | Public workflow wording reveals exact implementation | It does not establish triggers, fields, timing, or guarantees |
-| Arti's Power BI experience equals Data Fabric operation | It transfers to modeling and trust, but direct product experience remains separate |
+| Your Power BI experience equals Data Fabric operation | It transfers to modeling and trust, but direct product experience remains separate |
 
 ## Official Source Anchors
 
@@ -966,7 +966,7 @@ Zscaler pages establish current public product positioning. General sources esta
 
 ### Q8. How does your background transfer, and what can you truthfully claim?
 
-**Model answer:** My Microsoft escalation work required cross-system evidence correlation, identity and time alignment, fault isolation, RCA, customer communication, and safe resolution. SQL, Power BI, statistics, and analytics help with models, quality, measures, and decision stories. I practiced the fabric value chain with synthetic NMH data. I can explain Zscaler's documented public positioning, but I do not claim production Data Fabric administration, internal schemas, algorithms, connector behavior, limits, or outcomes. I would validate current docs, tenant evidence, contracts, and specialists.
+**Model answer:** My prior escalation work required cross-system evidence correlation, identity and time alignment, fault isolation, RCA, customer communication, and safe resolution. SQL, Power BI, statistics, and analytics help with models, quality, measures, and decision stories. I practiced the fabric value chain with synthetic NMH data. I can explain Zscaler's documented public positioning, but I do not claim production Data Fabric administration, internal schemas, algorithms, connector behavior, limits, or outcomes. I would validate current docs, tenant evidence, contracts, and specialists.
 
 ## 30-Second Memory Hooks
 
@@ -999,7 +999,7 @@ Zscaler pages establish current public product positioning. General sources esta
 | Warehouse | Curated analytical library |
 | CMDB | Configuration registry and context source/target |
 | Value | Trusted context to action to validated outcome |
-| Arti bridge | Correlation, analytics, RCA, and trust transfer; product internals do not |
+| Experience bridge | Correlation, analytics, RCA, and trust transfer; product internals do not |
 
 ## Completion Checklist
 
@@ -1052,6 +1052,6 @@ Zscaler pages establish current public product positioning. General sources esta
 - [ ] I can complete all twelve labs and explain their tradeoffs and failure controls.
 - [ ] I use the controlled research/source date exactly as 2026-08-24.
 - [ ] I make no unsupported production, customer, Data Fabric, AEM, UVM, or CTEM claim.
-- [ ] I can answer Q1 through Q8 with definitions, analogy, architecture, mechanics, examples, tradeoffs, failures, troubleshooting, NMH practice, and an honest Arti bridge.
+- [ ] I can answer Q1 through Q8 with definitions, analogy, architecture, mechanics, examples, tradeoffs, failures, troubleshooting, NMH practice, and an honest experience bridge.
 
 [Part 59 - Data Fabric Source Discovery and Connector Planning](Part-59-data-fabric-source-connector-planning.md)

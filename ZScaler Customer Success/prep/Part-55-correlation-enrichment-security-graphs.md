@@ -1,10 +1,10 @@
 # Part 55 - Correlation, Enrichment, Security Graphs, and Business Context
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 >
 > **Purpose:** Build a beginner-first method for connecting security records by time, entity, relationship, and behavior; distinguishing joins, event correlation, and graph traversal; modeling nodes, edges, properties, and paths; enriching technical findings with asset, owner, user, service, exposure, control, and threat context; preserving confidence and provenance; reasoning about attack/exposure paths without claiming causation; and using correlated context responsibly for risk decisions.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every user, asset, event, finding, node, edge, path, correlation rule, time window, score, threshold, incident, query result, enrichment, and outcome in this Part is synthetic. General graph, correlation, W3C, NIST, and PostgreSQL concepts are not Zscaler Data Fabric schemas, graph structures, algorithms, risk models, thresholds, query languages, or guarantees. Official Zscaler material is used only for bounded public context: Zscaler publicly describes Data Fabric correlation/enrichment and UVM context spanning identity, assets, user behavior, mitigating controls, business processes, organizational hierarchy, and more. Arti's Microsoft support correlation, timeline, SQL, incident, RCA, and communication skills transfer; direct production operation of Zscaler Data Fabric correlation remains a learning boundary.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every user, asset, event, finding, node, edge, path, correlation rule, time window, score, threshold, incident, query result, enrichment, and outcome in this Part is synthetic. General graph, correlation, W3C, NIST, and PostgreSQL concepts are not Zscaler Data Fabric schemas, graph structures, algorithms, risk models, thresholds, query languages, or guarantees. Official Zscaler material is used only for bounded public context: Zscaler publicly describes Data Fabric correlation/enrichment and UVM context spanning identity, assets, user behavior, mitigating controls, business processes, organizational hierarchy, and more. Your prior support correlation, timeline, SQL, incident, RCA, and communication skills transfer; direct production operation of Zscaler Data Fabric correlation remains a learning boundary.
 >
 > **Currency caveat:** Threat intelligence, business context, topology, identities, controls, standards, products, and source quality change. The controlled research/source date for this Part is exactly **2026-08-24**. Current approved contracts, tenant evidence, incident procedures, threat intelligence terms, customer risk appetite, legal/privacy controls, and product/source specialists govern production.
 
@@ -14,7 +14,7 @@ Correlation connects facts that may belong in one analytical story. Enrichment a
 
 Think of investigating a delayed flight. A ticket record, aircraft maintenance entry, weather alert, crew assignment, and airport closure can be connected by flight number and time. A route map shows dependencies. Yet events occurring together do not prove which one caused the delay. Security correlation needs the same discipline: connect evidence, state uncertainty, test alternatives, and separate association from cause.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Evidence artifact |
 |---|---|---|
@@ -48,7 +48,7 @@ flowchart LR
 
 ## JD Mapping
 
-| Role expectation | Part 55 capability | TSM artifact | Arti bridge and boundary |
+| Role expectation | Part 55 capability | TSM artifact | experience bridge and boundary |
 |---|---|---|---|
 | Analyze complex environments | Connect cross-domain entities, events, relationships, and time | Correlation map | Microsoft multi-layer fault correlation transfers |
 | Identify security risks | Find context-rich exposures and possible paths | Risk evidence brief | Observation supports hypothesis, not proof |
@@ -63,7 +63,7 @@ flowchart LR
 
 | Evidence class | Safe interview statement | Boundary |
 |---|---|---|
-| Production transfer | "I correlated identity, endpoint, network, service, request, log, and timeline evidence in Microsoft escalations." | Not operating a production Zscaler security graph |
+| Production transfer | "I correlated identity, endpoint, network, service, request, log, and timeline evidence in enterprise escalations." | Not operating a production Zscaler security graph |
 | Synthetic practice | "I modeled and queried NMH event/entity/relationship graphs and tested stale context and false paths." | Fictional lab evidence |
 | General method | "I choose joins, event windows, or graph traversal according to the question." | Implementation/platform differs |
 | Query example | "PostgreSQL recursive CTEs can demonstrate path traversal and cycle detection." | Not a claim about a dedicated graph engine or Zscaler |
@@ -632,7 +632,7 @@ flowchart TD
 
 Lightning occurs before many power failures, but a photo of lightning before an outage does not prove that strike hit the line. Investigators need electrical evidence, fault location, competing causes, and mechanism.
 
-In support and security work, "after" is not "because of." Use timelines to constrain hypotheses, then seek discriminating evidence. Arti's escalation background is a strength here: preserve hypotheses and do not promote coincidence into root cause.
+In support and security work, "after" is not "because of." Use timelines to constrain hypotheses, then seek discriminating evidence. Your escalation background is a strength here: preserve hypotheses and do not promote coincidence into root cause.
 
 ## Stale context and temporal joins
 
@@ -1014,7 +1014,7 @@ W3C sources support graph/query/provenance concepts. PostgreSQL documentation su
 
 ### Q8. How does your background transfer, and what can you claim about Zscaler?
 
-**Model answer:** Microsoft escalation work trained me to correlate identities, devices, networks, services, requests, logs, changes, and timestamps; build dependency maps; test competing hypotheses; and communicate uncertainty. I practiced graph and context methods on synthetic NMH data. Zscaler publicly describes Data Fabric correlation/enrichment and UVM context categories, but I do not claim internal graphs, algorithms, schemas, scores, or thresholds; I would validate current tenant evidence, docs, and specialists.
+**Model answer:** enterprise escalation work trained me to correlate identities, devices, networks, services, requests, logs, changes, and timestamps; build dependency maps; test competing hypotheses; and communicate uncertainty. I practiced graph and context methods on synthetic NMH data. Zscaler publicly describes Data Fabric correlation/enrichment and UVM context categories, but I do not claim internal graphs, algorithms, schemas, scores, or thresholds; I would validate current tenant evidence, docs, and specialists.
 
 ## 30-Second Memory Hooks
 
@@ -1043,7 +1043,7 @@ W3C sources support graph/query/provenance concepts. PostgreSQL documentation su
 | Causation | Together/after is not because |
 | Choke point | Bridge across many validated routes |
 | Risk use | Evidence plus context plus uncertainty |
-| Arti bridge | Timeline/dependency RCA transfers; internals do not |
+| Experience bridge | Timeline/dependency RCA transfers; internals do not |
 
 ## Completion Checklist
 

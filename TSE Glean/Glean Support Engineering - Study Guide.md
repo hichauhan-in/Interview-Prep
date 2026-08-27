@@ -1,9 +1,11 @@
 # Glean Support Engineering - Complete Interview Study Guide
 
 > **Target role:** Customer-focused Support / Solutions Engineering at Glean
-> **Built for:** Arti Thakur, Support Escalation Engineer with 5+ years in Microsoft 365, SharePoint Online, OneDrive, Copilot, enterprise escalations, customer communication, and support operations
-> **Goal:** Never go blank in the interview. Understand each concept from first principles, troubleshoot aloud with structure, and connect answers to real Microsoft experience.
+> **Built for:** Candidates moving from enterprise support and escalation engineering into customer-focused support or solutions engineering
+> **Goal:** Never go blank in the interview. Understand each concept from first principles, troubleshoot aloud with structure, and connect answers to real prior experience.
 > **Mode:** Interview preparation with hands-on drills, technical scenarios, 100+ questions, STAR stories, and closing preparation
+
+> **How to use this guide:** It is written for **any** candidate preparing for this role. Background references describe a *typical* starting profile, not one person's CV, and every model answer is a template. Replace the bracketed details, metrics, employers, products, and examples with evidence from your own CV before you use them, and never claim experience you cannot defend.
 
 ---
 
@@ -13,13 +15,13 @@ The guide is ordered from foundations to Glean-specific application. Every futur
 
 - Explain every term from zero knowledge using plain-English analogies.
 - Include Mermaid diagrams, comparison tables, troubleshooting flows, and quick-reference notes.
-- Connect new material to SharePoint Online, OneDrive, Copilot, Azure, CRITSIT, CSAT, and escalation experience.
+- Connect new material to the products, critical situations, satisfaction metrics, and escalation experience already on your own CV.
 - End with 5-8 likely interview questions, model answers, and 30-second memory hooks.
 - Clearly distinguish existing professional experience from newly learned interview-ready familiarity.
 
 ```mermaid
 flowchart LR
-    A[Your Microsoft support experience] --> B[Web, API, identity, and cloud foundations]
+    A[Your prior support experience] --> B[Web, API, identity, and cloud foundations]
     B --> C[Search, connectors, logs, and platform troubleshooting]
     C --> D[Customer ownership and support operations]
     D --> E[Glean scenarios and hands-on cases]
@@ -55,12 +57,12 @@ flowchart LR
 
 | Area | Starting position | Preparation strategy |
 |---|---|---|
-| Enterprise customer support | Strong: escalations, CRITSITs, case ownership, customer updates | Convert experience into concise Glean-relevant examples |
+| Enterprise customer support | Strong: escalations, critical situations, case ownership, customer updates | Convert experience into concise Glean-relevant examples |
 | Search and knowledge systems | Strong bridge: SharePoint, OneDrive, Delve, M365 content | Learn search architecture, indexing, relevance, and permission-aware retrieval vocabulary |
 | Incident and stakeholder management | Strong: engineering, product, partners, vendors, business reviews | Practice designated-customer ownership and high-urgency communication scenarios |
 | Documentation and enablement | Strong: KB articles, guides, training, mentoring | Adapt to customer-specific runbooks and Glean feature education |
 | Metrics and improvement | Strong: CSAT, backlog health, case quality, trends | Add SLA/SLO, alert, health, adoption, and support-efficiency metrics |
-| AI and LLMs | Strong foundation: AI-102, Copilot, Copilot Studio agents | Add transformer, embedding, vector search, grounding, RAG, hallucination, and evaluation concepts |
+| AI and LLMs | Strong foundation: an AI engineering certification, Copilot, Copilot Studio agents | Add transformer, embedding, vector search, grounding, RAG, hallucination, and evaluation concepts |
 | REST APIs | Interview-readiness gap | Build a repeatable Postman/cURL and HTTP troubleshooting workflow |
 | SSO, SAML, OAuth | Interview-readiness gap | Learn flows, tokens, common failures, traces, and customer-safe diagnostics |
 | Browser/log/stack analysis | Partial transfer from escalation work | Practice HAR, DevTools, correlation IDs, log timelines, and stack-trace reading |
@@ -75,7 +77,7 @@ flowchart LR
 
 | # | Part | What you will learn | JD connection |
 |---|---|---|---|
-| 1 | [Role Map, Interview Strategy, and Your Microsoft-to-Glean Story](prep/Part-01-role-map-and-candidate-story.md) | Decode every responsibility and requirement; identify likely interview rounds; build a 60-second introduction; translate ODSP, Copilot, CRITSIT, SME, CSAT, mentoring, and product-feedback experience into Glean language; define honest boundaries around newly learned skills | Communication, technical curiosity, customer ownership, problem solving |
+| 1 | [Role Map, Interview Strategy, and Your Experience Bridge to Glean](prep/Part-01-role-map-and-candidate-story.md) | Decode every responsibility and requirement; identify likely interview rounds; build a 60-second introduction; translate core-product, escalation, SME and satisfaction, mentoring, and product-feedback experience into Glean language; define honest boundaries around newly learned skills | Communication, technical curiosity, customer ownership, problem solving |
 | 2 | [Glean Product, Customer Value, and Enterprise Support Journey](prep/Part-02-glean-product-and-customer-journey.md) | What Glean does; enterprise Work AI, search, assistant, agents, and knowledge discovery at a support-engineering level; users, admins, content sources, permissions, adoption, and customer value; how onboarding, configuration, support, and expansion connect | Educate customers, configure features, realize additional value, represent customer needs |
 | 3 | [Enterprise Search and Knowledge Technology Fundamentals](prep/Part-03-enterprise-search-and-knowledge-fundamentals.md) | Documents, metadata, crawling, ingestion, parsing, normalization, indexing, inverted indexes, tokenization, ranking, relevance, freshness, faceting, semantic search, vector search, permission-aware search, zero-result queries, and relevance debugging | Required search/knowledge experience; troubleshoot user and system health |
 | 4 | [SaaS Connectors, Content Sources, Sync, and Permissions](prep/Part-04-saas-connectors-content-sync-and-permissions.md) | Connector lifecycle from authorization to crawl, incremental sync, indexing, deletion, freshness, rate limits, webhooks, retries, schema mapping, ACL propagation, permission trimming, and common partial-ingestion failures; bridge from SharePoint/OneDrive | Configure and verify content sources; SaaS integrations; system and user health |
@@ -229,7 +231,7 @@ You are ready when you can do all of the following without reading notes:
 - Use basic SQL, Linux, and Kubernetes commands to collect evidence safely.
 - Give clear first-response, investigation, mitigation, resolution, and follow-up updates to a customer.
 - Describe a measurable support-improvement project using objective metrics.
-- Deliver at least six authentic STAR stories from Microsoft experience.
+- Deliver at least six authentic STAR stories from prior experience.
 - Answer scenario questions aloud with a calm hypothesis-test-verify structure.
 - State honestly which tools are professional strengths and which are recently developed working knowledge.
 

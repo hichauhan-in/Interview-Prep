@@ -1,10 +1,10 @@
 # Part 59 - Excel for TAM Analysis: Power Query, Pivots, Lookups, Charts, and QA
 
-> **Section goal:** Build a refreshable, reviewable Excel workbook for TAM install-base, risk, lifecycle, case, capacity, and action analysis. By the end, Arti should be able to use structured tables, named ranges, correct types and time zones, structured references, lookups, conditional and aggregate formulas, text cleanup, data checks, conditional formatting, aging, Power Query, merges/appends, PivotTables, slicers, charts, validation, protection, versioning, and layered QA without hiding errors or presenting synthetic evidence as production NetApp experience.
+> **Section goal:** Build a refreshable, reviewable Excel workbook for TAM install-base, risk, lifecycle, case, capacity, and action analysis. By the end, you should be able to use structured tables, named ranges, correct types and time zones, structured references, lookups, conditional and aggregate formulas, text cleanup, data checks, conditional formatting, aging, Power Query, merges/appends, PivotTables, slicers, charts, validation, protection, versioning, and layered QA without hiding errors or presenting synthetic evidence as production NetApp experience.
 
 Covers index item **59** and maps directly to job-description responsibilities for generating and analyzing customer data, Excel-based service reviews, install-base quality, risk/action tracking, lifecycle planning, trend and case analysis, data validation, repeatable reporting, executive communication, and process improvement.
 
-**Explicit nonclaim:** Arti has not built or operated a production NetApp customer workbook from live AutoSupport, Digital Advisor, install-base, case, IMT, HWU, BURT, lifecycle, or ONTAP data.
+**Explicit nonclaim:** You have not built or operated a production NetApp customer workbook from live AutoSupport, Digital Advisor, install-base, case, IMT, HWU, BURT, lifecycle, or ONTAP data.
 
 **Privacy and access boundary:** Customer identifiers, serials, topology, versions, risks, cases, contacts, contracts, costs, service mappings, and action decisions are sensitive. Use authorized minimum data, approved encrypted storage, controlled sharing, retention, redaction, and least access. Excel protection is not encryption or a substitute for repository permissions.
 
@@ -14,7 +14,7 @@ Covers index item **59** and maps directly to job-description responsibilities f
 
 This Part provides no live workbook, customer threshold, NetApp metric definition, API credential, macro code, production automation, or change authority. Formulas use fictional columns and Excel syntax; function separators and availability can differ by locale/version.
 
-> **No-production-NetApp boundary:** Arti factually knows Excel, Power Query, Power BI, SQL, Python, statistics, business analytics, Microsoft support data, case trends, quality checks, customer reviews, and action tracking. She does **not** claim access to customer NetApp sources or production NetApp workbook ownership. Her exact non-claim is: **she has not refreshed, reconciled, protected, published, or governed an Excel workbook containing live NetApp customer data.**
+> **No-production-NetApp boundary:** You factually know Excel, Power Query, Power BI, SQL, Python, statistics, business analytics, enterprise support data, case trends, quality checks, customer reviews, and action tracking. You do **not** claim access to customer NetApp sources or production NetApp workbook ownership. Your exact non-claim is: **you have not refreshed, reconciled, protected, published, or governed an Excel workbook containing live NetApp customer data.**
 
 ---
 
@@ -1359,7 +1359,7 @@ flowchart LR
 
 ### JD Mapping
 
-| JD responsibility | Part 59 contribution | Arti's factual bridge and gap |
+| JD responsibility | Part 59 contribution | Your factual bridge and gap |
 |---|---|---|
 | Generate/analyze customer data | Tables, Power Query, types, joins, formulas and QA | Excel/analytics skills are factual; NetApp sources remain unpracticed |
 | Install-base accuracy | Stable keys, aliases, duplicate/unmatched and effective-state controls | Data-quality skills transfer |
@@ -1371,7 +1371,7 @@ flowchart LR
 
 ---
 
-## 22. Arti's transfer and honest NetApp gap
+## 22. Your transfer and honest NetApp gap
 
 ```mermaid
 flowchart LR
@@ -1379,7 +1379,7 @@ flowchart LR
     BI[Power BI/analytics] --> MODEL[Grain, dimensions, KPIs, visuals]
     SQL[SQL] --> JOIN[Keys, joins, aggregation, QA]
     PY[Python/statistics] --> TEST[Reproducibility, validation, uncertainty]
-    MS[Microsoft support] --> CASE[Cases/actions/customer narrative]
+    MS[enterprise support] --> CASE[Cases/actions/customer narrative]
     WORK --> TAM[NetApp TAM synthetic workbook method]
     MODEL --> TAM
     JOIN --> TAM
@@ -1396,7 +1396,7 @@ flowchart LR
 | Power BI | Data-model/visual/audience discipline | Production dashboard is Part 60 and remains a gap |
 | SQL | Grain, uniqueness, cardinality and reconciliation | No NetApp warehouse schema |
 | Python/statistics | Automated checks, edge cases and uncertainty | No production credential/API automation |
-| Microsoft support | Case/action/service-review context | No production NetApp cases/install base |
+| enterprise support | Case/action/service-review context | No production NetApp cases/install base |
 
 ### Honest interview answer
 
@@ -1569,7 +1569,7 @@ flowchart LR
 
 ### Q8. How does your background transfer, and what remains a gap?
 
-> **Model answer:** `I have hands-on Excel, Power Query, Power BI, SQL, Python, statistics and Microsoft support analytics experience, so tables, joins, formulas, QA and service-review design transfer directly. I have not refreshed or governed live NetApp customer data, so every source, metric definition, access and result would be validated with current docs and authorized owners.`
+> **Model answer:** `I have hands-on Excel, Power Query, Power BI, SQL, Python, statistics and enterprise support analytics experience, so tables, joins, formulas, QA and service-review design transfer directly. I have not refreshed or governed live NetApp customer data, so every source, metric definition, access and result would be validated with current docs and authorized owners.`
 
 ---
 
@@ -1596,7 +1596,7 @@ flowchart LR
 - **Chart:** Question, scale, gaps, units, cutoff, accessibility.
 - **Protection:** Prevent accidents; permissions/encryption protect data.
 - **Macros:** Code with security/governance, orientation only here.
-- **Arti's bridge:** Excel skill is real; live NetApp workbook experience is not.
+- **Your bridge:** Excel skill is real; live NetApp workbook experience is not.
 
 ---
 

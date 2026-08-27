@@ -1,10 +1,10 @@
 # Part 48 - Security Analytics Query Patterns
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 >
 > **Purpose:** Turn SQL mechanics into defensible security-analysis patterns for asset coverage, source reconciliation, freshness, missing controls, vulnerability aging, service-level breaches, risk trends, owner backlogs, duplicate entities, latest records, incident timelines, cohorts, recurrence, and dashboard extracts.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every table, row, identifier, query, test, threshold, SLA, trend, incident, control, vulnerability, dashboard, and outcome in this Part is synthetic. SQL targets PostgreSQL and general relational concepts; it is not a Zscaler schema, product query, internal Data Fabric model, or production recommendation. Official Zscaler material is used only for bounded public context about bringing security data and business context together. Arti's SQL, PostgreSQL, Power BI, statistics, Microsoft support analytics, and troubleshooting experience transfer; direct production Zscaler Data Fabric operation remains a learning boundary.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every table, row, identifier, query, test, threshold, SLA, trend, incident, control, vulnerability, dashboard, and outcome in this Part is synthetic. SQL targets PostgreSQL and general relational concepts; it is not a Zscaler schema, product query, internal Data Fabric model, or production recommendation. Official Zscaler material is used only for bounded public context about bringing security data and business context together. Your SQL, PostgreSQL, Power BI, statistics, enterprise support analytics, and troubleshooting experience transfer; direct production Zscaler Data Fabric operation remains a learning boundary.
 >
 > **Currency caveat:** PostgreSQL behavior, customer schemas, source contracts, risk definitions, service-level rules, product capabilities, and public documentation change. Sources in this Part were reviewed on **2026-08-24**. Current deployed-version documentation, approved read-only practices, customer data contracts, privacy controls, tenant evidence, and product specialists govern production.
 
@@ -14,7 +14,7 @@ A security query is not trustworthy merely because it runs. It must answer a bou
 
 Think of an airport departure board. A count of "delayed flights" is meaningful only when the airport, airline scope, date, current snapshot, cancellation policy, and total eligible flights are known. A missing flight could mean cancellation, a stale feed, a code-share match failure, or a real absence. Security analytics has the same problem: an asset absent from scanner data is not automatically unscanned, a closed ticket is not automatically remediated, and a falling backlog is not automatically reduced risk.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Evidence artifact |
 |---|---|---|
@@ -48,7 +48,7 @@ flowchart LR
 
 ## JD Mapping
 
-| Role expectation | Part 48 capability | TSM artifact | Arti bridge and boundary |
+| Role expectation | Part 48 capability | TSM artifact | experience bridge and boundary |
 |---|---|---|---|
 | Analyze complex technical environments | Convert multi-source asset, finding, control, and incident data into bounded evidence | Security query workbook | SQL and escalation analytics transfer |
 | Identify security risks | Surface aging, coverage gaps, recurrence, and SLA exceptions with caveats | Prioritized review list | Query output is evidence, not final risk |
@@ -1578,7 +1578,7 @@ PostgreSQL documentation establishes behavior for the referenced current version
 | Dashboard extract | Stable grain plus metadata and gate |
 | Fanout | Count before and after every join |
 | Safety | Read-only can still be expensive and sensitive |
-| Arti bridge | SQL and troubleshooting transfer; product internals do not |
+| Experience bridge | SQL and troubleshooting transfer; product internals do not |
 
 ## Completion Checklist
 

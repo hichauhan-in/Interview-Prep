@@ -1,10 +1,10 @@
 # Part 50 - ETL, ELT, Pipelines, Batch, Streaming, and Change Data
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 >
 > **Purpose:** Explain how security data moves reliably from source to decision through ETL/ELT, orchestration, schedules, full and incremental loads, change data capture, watermarks, idempotency, deduplication, retries, dead-letter handling, replay, backfill, late data, schema evolution, lineage, contracts, observability, recovery, security, and privacy.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every source, record, event, connector, pipeline, service objective, failure, table, schedule, code/SQL example, threshold, architecture, and result in this Part is synthetic. Examples use general data-engineering patterns and PostgreSQL-oriented lab concepts; they are not Zscaler Data Fabric internals, connector behavior, schemas, limits, guarantees, or production recommendations. Official Zscaler material is used only for bounded public context about unifying security data and business context. Arti's Microsoft support, sync, networking, SQL, analytics, incident, RCA, and customer-communication skills transfer; direct production Zscaler Data Fabric operation remains a learning boundary.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every source, record, event, connector, pipeline, service objective, failure, table, schedule, code/SQL example, threshold, architecture, and result in this Part is synthetic. Examples use general data-engineering patterns and PostgreSQL-oriented lab concepts; they are not Zscaler Data Fabric internals, connector behavior, schemas, limits, guarantees, or production recommendations. Official Zscaler material is used only for bounded public context about unifying security data and business context. Your prior support, sync, networking, SQL, analytics, incident, RCA, and customer-communication skills transfer; direct production Zscaler Data Fabric operation remains a learning boundary.
 >
 > **Currency caveat:** Data platforms, orchestration engines, CDC methods, cloud services, schemas, security controls, product capabilities, and public documentation change. Sources in this Part were reviewed on **2026-08-24**. Current source contracts, deployed-version documentation, approved architecture, tenant evidence, privacy/security review, recovery tests, and product specialists govern production.
 
@@ -14,7 +14,7 @@ A data pipeline is a controlled process that moves and changes data while preser
 
 Think of registered mail moving through sorting centers. The envelope has an identity, sender, recipient, timestamps, custody history, retry process, exception queue, and delivery confirmation. If a truck retries a route, the recipient should not receive five independent legal notices. If a sorting rule changes, old mail may need reprocessing. A security pipeline needs the same discipline.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Evidence artifact |
 |---|---|---|
@@ -49,7 +49,7 @@ flowchart LR
 
 ## JD Mapping
 
-| Role expectation | Part 50 capability | TSM artifact | Arti bridge and boundary |
+| Role expectation | Part 50 capability | TSM artifact | experience bridge and boundary |
 |---|---|---|---|
 | Analyze customer environments | Map source-to-outcome dependencies and failure domains | Data-flow assessment | Sync/troubleshooting transfer |
 | Develop Data Fabric expertise | Explain vendor-neutral ingestion and pipeline concepts without inventing internals | Conceptual architecture | Product implementation unclaimed |
@@ -965,7 +965,7 @@ The data-engineering sources below document their own technologies and patterns,
 | Batch | Bounded box |
 | Stream | Unbounded flow with state |
 | Recovery | Designed and tested before incident |
-| Arti bridge | Sync/RCA skills transfer; product internals do not |
+| Experience bridge | Sync/RCA skills transfer; product internals do not |
 
 ## Completion Checklist
 

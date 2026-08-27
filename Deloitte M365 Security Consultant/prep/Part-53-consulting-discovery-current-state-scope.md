@@ -2,13 +2,13 @@
 
 > **Section goal:** Build a beginner-first, consulting-grade method for discovering a client's real business and security situation before recommending technology. By the end, you should be able to frame outcomes; establish an engagement charter and statement-of-work boundaries; map stakeholders, decision rights, and responsibilities; plan and facilitate interviews and workshops; request and evaluate evidence; inventory identities, devices, applications, data, tools, licenses, policies, and integrations; draw architecture, authentication, data, logging, and incident flows with trust boundaries; manage assumptions, constraints, dependencies, risks, actions, issues, and decisions; validate a current-state view; control scope change; run remote or hybrid discovery; and produce a reusable discovery pack from a safe fictional exercise.
 
-This Part maps directly to the role's expectations for Microsoft 365 security consulting, assessments, architecture, stakeholder management, documentation, multi-vendor coordination, and work from discovery through handover. Arti's enterprise technical advisory work, critical escalations, root-cause analysis (RCA), business reviews, evidence-based documentation, product-group and vendor coordination, and customer communication are strong foundations. Discovery changes the time horizon: instead of diagnosing one incident, she must establish enough shared truth to define the right problem, desired outcome, boundaries, and next decisions.
+This Part maps directly to the role's expectations for Microsoft 365 security consulting, assessments, architecture, stakeholder management, documentation, multi-vendor coordination, and work from discovery through handover. Your enterprise technical advisory work, critical escalations, root-cause analysis (RCA), business reviews, evidence-based documentation, product-group and vendor coordination, and customer communication are strong foundations. Discovery changes the time horizon: instead of diagnosing one incident, you must establish enough shared truth to define the right problem, desired outcome, boundaries, and next decisions.
 
 > **Method boundary:** Everything here is general consulting and security-engineering guidance grounded in public sources and common professional practices. It is not presented as Deloitte's internal, confidential, or proprietary methodology. A real Deloitte engagement would use the approved engagement terms, quality processes, templates, independence requirements, and delivery guidance supplied by the firm and client.
 
 ## JD Mapping
 
-| Role expectation | Capability developed here | Evidence Arti can produce |
+| Role expectation | Capability developed here | Evidence you can produce |
 |---|---|---|
 | Discover client security needs | Translate symptoms and requests into business outcomes and decision questions | Outcome statement and discovery plan |
 | Assess Microsoft 365 environments | Collect inventories, flows, configuration evidence, operational evidence, and ownership | Current-state workbook and diagrams |
@@ -21,9 +21,9 @@ This Part maps directly to the role's expectations for Microsoft 365 security co
 
 ## Candidate honesty note
 
-Arti can credibly say that she has gathered evidence during Microsoft 365 escalations, clarified impact and reproduction, coordinated stakeholders and vendors, documented RCA, validated fixes, presented service insights in business reviews, and translated technical findings for customers. Those are real discovery muscles.
+You can credibly say that you have gathered evidence during Microsoft 365 escalations, clarified impact and reproduction, coordinated stakeholders and vendors, documented RCA, validated fixes, presented service insights in business reviews, and translated technical findings for customers. Those are real discovery muscles.
 
-She should not claim that she has led a Deloitte security discovery, authored a contractual statement of work, performed a production-wide Microsoft 365 security inventory, or used a proprietary consulting method unless separately evidenced. Safe wording is:
+You should not claim that you have led a Deloitte security discovery, authored a contractual statement of work, performed a production-wide Microsoft 365 security inventory, or used a proprietary consulting method unless separately evidenced. Safe wording is:
 
 > “My production background is Microsoft 365 technical advisory and escalation engineering. I have clarified business impact, gathered logs and configuration evidence, mapped dependencies, coordinated customers, vendors, and product groups, documented RCA, validated changes, and presented trends in business reviews. To bridge that into consulting, I built a fictional end-to-end discovery pack with an outcome charter, stakeholder map, RACI, evidence register, inventories, architecture and trust-boundary flows, RAID and decision logs, a validated readout, and change-control examples. In a client engagement I would use the firm's approved method and contract, validate facts with accountable owners, and label assumptions and evidence limitations.”
 
@@ -623,7 +623,7 @@ Do not hide risks in meeting notes. Use stable IDs and link evidence, findings i
 | Vendor deflects | Ask for contract/interface evidence, timestamps, discriminating tests, and named escalation |
 | Client wants certainty from weak evidence | Explain confidence and choices for further validation |
 
-Arti's escalation background is useful here. In critical incidents she likely distinguished symptoms from causes, maintained action ownership, coordinated product groups, and communicated uncertainty. Consulting discovery uses the same discipline without treating every disagreement as an incident.
+Your escalation background is useful here. In critical incidents you likely distinguished symptoms from causes, maintained action ownership, coordinated product groups, and communicated uncertainty. Consulting discovery uses the same discipline without treating every disagreement as an incident.
 
 ## 24. Remote and hybrid workshops
 
@@ -825,7 +825,7 @@ flowchart TD
     TYPE -->|Schedule risk| PLAN[Prioritize material decisions and rebaseline]
 ```
 
-When evidence conflicts, first compare tenant, object, population, time zone, date range, filter, source authority, replication delay, and terminology. Arti's RCA habit is valuable: create competing hypotheses and choose the cheapest discriminating check instead of debating confidence.
+When evidence conflicts, first compare tenant, object, population, time zone, date range, filter, source authority, replication delay, and terminology. Your RCA habit is valuable: create competing hypotheses and choose the cheapest discriminating check instead of debating confidence.
 
 ## 33. Client micro-scenarios
 
@@ -1012,7 +1012,7 @@ flowchart LR
 
 ## 39. JD Mapping: interview translation
 
-| Interview theme | Arti's real foundation | Consulting translation |
+| Interview theme | Your real foundation | Consulting translation |
 |---|---|---|
 | Discovery | Clarified scope, impact, reproduction, environment in escalations | Outcome charter, stakeholder plan, questions, evidence and current-state baseline |
 | Evidence | Used logs, traces, configurations, timelines and validation | Evidence register with quality, source, period and limitation |
@@ -1098,7 +1098,7 @@ These sources support general discovery, architecture, security, and privacy con
 - **Scope change is a client choice with visible impact.**
 - **A validated baseline is dated and purpose-specific.**
 - **Discovery artifacts are sensitive attack maps.**
-- **Arti's bridge:** escalation evidence and RCA → consulting discovery discipline.
+- **Your bridge:** escalation evidence and RCA → consulting discovery discipline.
 - **Honesty:** production advisory strengths plus a fictional portfolio artifact.
 
 ## Completion Checklist

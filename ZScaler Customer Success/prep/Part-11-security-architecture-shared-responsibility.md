@@ -1,10 +1,10 @@
 # Part 11 - Security Architecture, Cloud Shared Responsibility, and Control Planes
 
-> **Audience:** Arti Thakur, moving from Microsoft 365 Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
+> **Audience:** Candidates moving from Microsoft 365 Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
 >
 > **Currency date:** 2026-08-24.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, and every NMH system, architecture, requirement, control, incident, metric, calculation, decision, and outcome in this chapter are fictional. Arti's established production bridge is Microsoft support, OneDrive, SharePoint, networking, troubleshooting, analytics, mentoring, escalation, and approved AI work. Direct production ownership of enterprise security architecture, cloud security architecture, Zscaler, Security Operations, vulnerability management, exposure management, or formal threat modeling is not established.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, and every NMH system, architecture, requirement, control, incident, metric, calculation, decision, and outcome in this chapter are fictional. Your established production bridge is enterprise support, OneDrive, SharePoint, networking, troubleshooting, analytics, mentoring, escalation, and approved AI work. Direct production ownership of enterprise security architecture, cloud security architecture, Zscaler, Security Operations, vulnerability management, exposure management, or formal threat modeling is not established.
 >
 > **Architecture caveat:** Reference architectures are reusable reasoning aids, not deployment instructions. Actual designs depend on business requirements, data classification, identity, traffic, contracts, service documentation, tenant configuration, regulation, geography, capacity, and tested failure behavior.
 >
@@ -16,7 +16,7 @@ Security architecture is the organized design of people, process, technology, tr
 
 Imagine designing a modern airport. A useful plan includes public roads, ticketing, security screening, staff-only corridors, baggage systems, aircraft gates, control towers, emergency power, and accountable operators. Drawing one large fence around the airport is not enough. Security architecture similarly places boundaries and controls around identities, devices, applications, data, administration, telemetry, and recovery while preserving the business journey.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Learning outcome | What mastery looks like |
 |---|---|
@@ -54,26 +54,26 @@ The sequence matters. A product-first diagram can look polished while leaving ow
 
 **JD** means job description. A Technical Success Manager, abbreviated **TSM**, does not normally own the customer's enterprise architecture or certify compliance. The TSM helps customers connect documented product capabilities to requirements, dependencies, adoption, supportability, and measurable outcomes. The TSM also identifies assumptions that require customer, product, support, legal, privacy, or specialist validation.
 
-| JD expectation | Architecture capability | Honest Arti bridge | Boundary to preserve |
+| JD expectation | Architecture capability | Honest experience bridge | Boundary to preserve |
 |---|---|---|---|
 | Analyze complex environments | Build a service map with identities, devices, networks, applications, data, controls, owners, and dependencies | Production Microsoft 365 dependency and symptom isolation | Do not claim enterprise security architecture ownership |
 | Identify security risks | Find implicit trust, broad zones, single points of failure, unmanaged paths, and unclear responsibilities | Evidence-driven troubleshooting and escalation | Formal risk acceptance belongs to authorized customer leaders |
 | Deliver mitigation strategies | Compare prevention, detection, recovery, process, and contractual options | Production recommendation and fix-validation method | Product behavior must be validated in current documentation and tenant |
 | Develop Zscaler expertise | Place documented Zscaler capabilities in a broader architecture | Official-source study and future lab work | No production Zscaler deployment claim |
-| Resolve escalations | Correlate control, data, management, and provider evidence | CRITSIT and business-critical support experience | Incident command and forensic authority are not assumed |
-| Lead strategic engagement | Maintain current state, target state, dependencies, decisions, and roadmap | Customer leadership and Technical Advisor experience | Customer architects remain accountable for their design |
+| Resolve escalations | Correlate control, data, management, and provider evidence | critical situation and business-critical support experience | Incident command and forensic authority are not assumed |
+| Lead strategic engagement | Maintain current state, target state, dependencies, decisions, and roadmap | Customer leadership and technical advisor experience | Customer architects remain accountable for their design |
 | Explain metrics | Measure coverage, latency, bypass, change, resilience, and outcomes | SQL, Power BI, statistics, and service analytics | A dashboard is not proof without source and denominator quality |
 | Collaborate across teams | Clarify provider, customer, partner, and internal ownership | Cross-functional work with customers and Engineering | A RACI does not change contracts or statutory accountability |
 
 ## Candidate honesty note
 
-Arti can truthfully say that she has traced real Microsoft 365 failures across client, identity, permissions, policy, Domain Name System, Transmission Control Protocol, Transport Layer Security, Hypertext Transfer Protocol, proxies, Microsoft service behavior, and ownership boundaries. She has coordinated high-pressure escalations, validated fixes, analyzed support trends, and communicated with technical and nontechnical stakeholders. That is a strong architecture-analysis bridge because it demonstrates system thinking and evidence discipline.
+You can truthfully say that you have traced real Microsoft 365 failures across client, identity, permissions, policy, Domain Name System, Transmission Control Protocol, Transport Layer Security, Hypertext Transfer Protocol, proxies, Microsoft service behavior, and ownership boundaries. You have coordinated high-pressure escalations, validated fixes, analyzed support trends, and communicated with technical and nontechnical stakeholders. That is a strong architecture-analysis bridge because it demonstrates system thinking and evidence discipline.
 
-She should not say that she has been the security architect for a global enterprise, designed a regulated cloud landing zone, operated Zscaler planes, performed a formal threat-model engagement, or approved a shared-responsibility matrix unless new factual evidence supports those statements.
+You should not say that you have been the security architect for a global enterprise, designed a regulated cloud landing zone, operated Zscaler planes, performed a formal threat-model engagement, or approved a shared-responsibility matrix unless new factual evidence supports those statements.
 
 | Label | Meaning here | Safe wording | Unsafe wording |
 |---|---|---|---|
-| Production | Established Microsoft support, networking, analytics, escalation, training, and customer work | "I mapped the end-to-end Microsoft 365 dependency path and isolated the owning boundary." | "I owned the customer's security architecture" |
+| Production | Established enterprise support, networking, analytics, escalation, training, and customer work | "I mapped the end-to-end Microsoft 365 dependency path and isolated the owning boundary." | "I owned the customer's security architecture" |
 | Lab | Synthetic diagram, test, or tabletop exercise retained as evidence | "I designed and challenged the fictional NMH architecture in a case exercise." | "I implemented NMH globally" |
 | Conceptual | Architecture method understood from standards and official sources | "I can distinguish planes, trust boundaries, and shared responsibilities." | "I am a certified cloud security architect" |
 | Not-yet-used | Product or duty without direct production practice | "I have not operated Zscaler products in production." | "I configured Zscaler high availability" |
@@ -381,7 +381,7 @@ Contracts and service documentation matter, but they are not enough. Teams must 
 
 ## OneDrive and SharePoint shared-responsibility example
 
-OneDrive for Business and SharePoint Online are Software as a Service examples familiar to Arti. Microsoft operates the cloud service and underlying platform. The customer still manages identities, account lifecycle, permissions, site and sharing configuration, data classification, endpoints, business purpose, many retention choices, and response decisions. Exact responsibility and feature behavior must be checked in current Microsoft documentation, licensing, contracts, and tenant configuration.
+OneDrive for Business and SharePoint Online are Software as a Service examples familiar to you. Microsoft operates the cloud service and underlying platform. The customer still manages identities, account lifecycle, permissions, site and sharing configuration, data classification, endpoints, business purpose, many retention choices, and response decisions. Exact responsibility and feature behavior must be checked in current Microsoft documentation, licensing, contracts, and tenant configuration.
 
 ```mermaid
 sequenceDiagram
@@ -430,7 +430,7 @@ The user sees a synchronization error. That symptom does not identify the owner.
 | Microsoft service is degraded | Provider boundary | Correlate service health, request identifiers, region, and time | Microsoft with customer coordination |
 | Client state is corrupt | Endpoint and application | Compare clean profile or supported reset evidence | Endpoint or application support |
 
-Arti's production advantage is not that she has operated every security control. It is that she knows the visible symptom may sit several layers away from the cause. She can bring precise timestamps, affected scope, comparison cases, request identifiers, client and network evidence, configuration changes, and tested outcomes to the correct owner.
+Your production advantage is not that you have operated every security control. It is that you know the visible symptom may sit several layers away from the cause. You can bring precise timestamps, affected scope, comparison cases, request identifiers, client and network evidence, configuration changes, and tested outcomes to the correct owner.
 
 ## Control, data, and management planes
 
@@ -985,7 +985,7 @@ An application owner assumes the provider patches the guest operating system. Us
 
 The plant application depends on central identity and Domain Name System. A wide-area outage occurs. Design a bounded degraded mode that preserves safety and prevents broad standing access. Define activation authority, identity, permitted action, duration, local logging, reconciliation, and revocation after restoration.
 
-### Drill 6 - Arti interview bridge
+### Drill 6 - your interview bridge
 
 Use a factual OneDrive or SharePoint support example. Explain how you mapped the client-to-service transaction, formed hypotheses, compared affected and unaffected cases, found the owning boundary, coordinated escalation, and validated the fix. Then state that applying this method to cloud security architecture is a transferable skill, while product configuration and architecture ownership are ramp areas.
 
@@ -1070,7 +1070,7 @@ I test failover, failback, degraded modes, clean identity, restore provenance, a
 
 **Model answer:** In production support, I learned to trace a user-visible symptom across client state, identity, permissions, policy, Domain Name System, Transmission Control Protocol, Transport Layer Security, Hypertext Transfer Protocol, proxies, service health, and ownership boundaries. I used timestamps, comparison cases, logs, captures, request identifiers, and change history to isolate the controlling layer and validate the fix.
 
-That method transfers directly to architecture review and critical escalation. I am careful not to present Microsoft support as security-architecture ownership or claim production Zscaler design experience.
+That method transfers directly to architecture review and critical escalation. I am careful not to present enterprise support as security-architecture ownership or claim production Zscaler design experience.
 
 ### Q8. How would you review a proposed Zscaler architecture when you have not deployed it in production?
 
@@ -1138,7 +1138,7 @@ Then I would validate representative allowed and denied paths, posture and ident
 - [ ] I can create an escalation package with scope, timeline, change, comparison, plane evidence, tests, workaround, and specific ask.
 - [ ] I can challenge broad architecture claims with denominators, negative tests, failure exercises, and bounded language.
 - [ ] I can distinguish configuration, observation, negative-test, failure-exercise, and sustained-outcome evidence.
-- [ ] I can explain Arti's production Microsoft 365 bridge without claiming production security architecture or Zscaler operation.
+- [ ] I can explain your production Microsoft 365 bridge without claiming production security architecture or Zscaler operation.
 - [ ] I can recheck all provider, standards, and product sources after 2026-08-24.
 - [ ] I can answer all eight questions aloud and describe at least one explicit tradeoff in each answer.
 

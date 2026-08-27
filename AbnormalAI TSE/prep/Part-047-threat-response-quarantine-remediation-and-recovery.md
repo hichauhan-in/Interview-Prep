@@ -36,7 +36,7 @@ After completing this Part, you should be able to:
 | Cross-functional collaboration | Coordinates technical, business, privacy, and vendor owners | RACI/decision log |
 | Recommendations/RCA | Adds corrective and preventive actions | Immediate-to-preventive roadmap |
 
-Your Microsoft enterprise-support background is useful for severity, ownership, change control, critical-incident communication, rollback, and validation. The honesty boundary remains: this lesson is not production incident command, legal/privacy notification authority, digital forensics, banking fraud recovery, Microsoft security administration, or Abnormal AI operation.
+Your prior enterprise-support background is useful for severity, ownership, change control, critical-incident communication, rollback, and validation. The honesty boundary remains: this lesson is not production incident command, legal/privacy notification authority, digital forensics, banking fraud recovery, Microsoft security administration, or Abnormal AI operation.
 
 ## Candidate honesty note
 

@@ -81,7 +81,7 @@ flowchart TD
 Every object in a directory has a **distinguished name** — its full, unambiguous path from itself up to the root. Read right to left, it is a route down the tree.
 
 ```
-CN=Arti Thakur,OU=Support,OU=Bengaluru,DC=example,DC=com
+CN=Jordan Rivera,OU=Support,OU=HQ,DC=example,DC=com
 ```
 
 | Component | Stands for | Meaning here |
@@ -90,7 +90,7 @@ CN=Arti Thakur,OU=Support,OU=Bengaluru,DC=example,DC=com
 | `OU` | Organizational Unit | A container — a folder in the tree |
 | `DC` | Domain Component | One label of the DNS domain name |
 
-Reading it **right to left**: the `com` domain, the `example` domain within it, the `Bengaluru` container, the `Support` container inside that, and finally the object `Arti Thakur`.
+Reading it **right to left**: the `com` domain, the `example` domain within it, the `Bengaluru` container, the `Support` container inside that, and finally the object `you`.
 
 ```mermaid
 flowchart TD
@@ -99,17 +99,17 @@ flowchart TD
     EX --> L["OU=London"]
     B --> S["OU=Support"]
     B --> E["OU=Engineering"]
-    S --> U1["CN=Arti Thakur"]
+    S --> U1["CN=you"]
     S --> U2["CN=Sam Rivera"]
     E --> U3["CN=Jo Patel"]
-    U1 --> DN["Full DN: CN=Arti Thakur,OU=Support,OU=Bengaluru,DC=example,DC=com"]
+    U1 --> DN["Full DN: CN=Jordan Rivera,OU=Support,OU=HQ,DC=example,DC=com"]
 ```
 
 Two related terms complete the picture:
 
 | Term | Meaning |
 |---|---|
-| **RDN** (Relative DN) | Just the object's own component: `CN=Arti Thakur` |
+| **RDN** (Relative DN) | Just the object's own component: `CN=you` |
 | **Base DN** | Where a search starts: `OU=Bengaluru,DC=example,DC=com` |
 | **Naming context** | The subtree a server holds: often `DC=example,DC=com` |
 
@@ -202,7 +202,7 @@ Group membership is the attribute pattern that causes the most confusion, so it 
 
 ```mermaid
 flowchart LR
-    G["Group: CN=Support Team"] -->|"member"| U1["CN=Arti Thakur"]
+    G["Group: CN=Support Team"] -->|"member"| U1["CN=you"]
     G -->|"member"| U2["CN=Sam Rivera"]
     U1 -->|"memberOf (computed back-link)"| G
     U2 -->|"memberOf (computed back-link)"| G
@@ -211,7 +211,7 @@ flowchart LR
     U1 -.->|"NESTED - not in memberOf directly"| G2
 ```
 
-**The dotted line is the classic trap.** Arti is a member of Support Team, and Support Team is a member of All Staff — so Arti is effectively in All Staff. But **`memberOf` on the user does not show it**, because back-links are direct only. An application that reads `memberOf` and checks for "All Staff" will conclude she is not a member.
+**The dotted line is the classic trap.** You are a member of Support Team, and Support Team is a member of All Staff — so you are effectively in All Staff. But **`memberOf` on the user does not show it**, because back-links are direct only. An application that reads `memberOf` and checks for "All Staff" will conclude you are not a member.
 
 | Approach | Sees nested groups? | Cost |
 |---|---|---|
@@ -302,7 +302,7 @@ Directories mitigate this in specific ways worth knowing:
 | Fails only at one office | ✅ Possible — that site's replica |
 | Fails for everyone, everywhere | ❌ Something else broke |
 
-> 💡 **Tie-in to your background:** "it works from one place and not another, and resolves itself after a while" is a pattern you will recognise from distributed-service work at Microsoft. Directory replication is the same shape of problem with different vocabulary.
+> 💡 **Tie-in to your background:** "it works from one place and not another, and resolves itself after a while" is a pattern you will recognise from distributed-service work. Directory replication is the same shape of problem with different vocabulary.
 
 ---
 

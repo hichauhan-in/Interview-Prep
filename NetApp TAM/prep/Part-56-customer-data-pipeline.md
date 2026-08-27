@@ -1,10 +1,10 @@
 # Part 56 - Customer Data Pipeline: Sources, Extraction, Cleaning, Joining, and Validation
 
-> **Section goal:** Build a trustworthy customer-analysis pipeline from enterprise source discovery through extraction, raw preservation, cleaning, identity resolution, joins, reconciliation, quality gates, lineage, refresh, presentation, and exception handling. By the end, Arti should be able to explain how AutoSupport, Digital Advisor, install-base, CMDB, case, compatibility, bug, lifecycle, monitoring, project, and manual-file evidence becomes a reproducible customer recommendation without inventing data, access, or NetApp production experience.
+> **Section goal:** Build a trustworthy customer-analysis pipeline from enterprise source discovery through extraction, raw preservation, cleaning, identity resolution, joins, reconciliation, quality gates, lineage, refresh, presentation, and exception handling. By the end, you should be able to explain how AutoSupport, Digital Advisor, install-base, CMDB, case, compatibility, bug, lifecycle, monitoring, project, and manual-file evidence becomes a reproducible customer recommendation without inventing data, access, or NetApp production experience.
 
 Covers index item **56** and maps directly to job-description responsibilities for generating, analyzing, and reporting customer data; maintaining install-base accuracy; identifying technical risk; improving recommendation quality; preparing service reviews; tracking preventative remediation; using Excel, Power BI, SQL, and Python; and communicating evidence limitations.
 
-**Explicit nonclaim:** Arti has not built or operated a production NetApp customer-data pipeline or extracted live customer data from NetApp-gated systems.
+**Explicit nonclaim:** You have not built or operated a production NetApp customer-data pipeline or extracted live customer data from NetApp-gated systems.
 
 **Privacy and access boundary:** Customer telemetry, serials, system identifiers, topology, versions, cases, defects, contracts, contacts, locations, usage, support status, business criticality, and recommendation records are restricted data. Collection requires a defined purpose, authorized identity, least access, approved transfer/storage, retention, redaction, and audit.
 
@@ -12,7 +12,7 @@ Covers index item **56** and maps directly to job-description responsibilities f
 
 **Version caveat:** Source names, APIs, exports, schemas, identifiers, timestamps, pagination, retention, entitlement, user interfaces, and field meanings change. A **current-doc check** means reopening the exact current product/service/API/export documentation, recording source and schema versions, and validating fields against authorized source owners at extraction and decision time. IMT, HWU, Bugs Online, Support, contracts, and customer systems can be gated.
 
-> **No-production-NetApp boundary:** Arti's factual strengths are an MBA in Business Analytics; Excel, Power BI, SQL, Python, statistics, Microsoft enterprise support, CRITSIT evidence, backlog/quality/CSAT analytics, data-service troubleshooting, customer reviews, and cross-team action tracking. She does **not** claim production access to AutoSupport payloads, Digital Advisor customer views, NetApp install-base systems, IMT/HWU results, private BURTs, live ONTAP monitoring, or customer CMDB/case data. Her exact non-claim is: **she has not extracted, joined, reconciled, published, or governed a live NetApp customer dataset.**
+> **No-production-NetApp boundary:** Your factual strengths are an a postgraduate business-analytics qualification; Excel, Power BI, SQL, Python, statistics, enterprise support, critical-situation evidence, backlog/quality/CSAT analytics, data-service troubleshooting, customer reviews, and cross-team action tracking. You do **not** claim production access to AutoSupport payloads, Digital Advisor customer views, NetApp install-base systems, IMT/HWU results, private BURTs, live ONTAP monitoring, or customer CMDB/case data. Your exact non-claim is: **you have not extracted, joined, reconciled, published, or governed a live NetApp customer dataset.**
 
 ---
 
@@ -1008,16 +1008,16 @@ flowchart LR
 
 ---
 
-## 15. Arti transfer, honest NetApp gap, and JD Mapping
+## 15. Experience transfer, honest NetApp gap, and JD Mapping
 
 ```mermaid
 flowchart LR
-    MBA[MBA Business Analytics] --> MODEL[Grain, quality, statistics, decision framing]
+    MBA[a postgraduate business-analytics qualification] --> MODEL[Grain, quality, statistics, decision framing]
     EXCEL[Excel/Power Query] --> ETL[Imports, types, joins, reconciliation]
     PBI[Power BI] --> VIS[Models, KPIs, trends, drill-through]
     SQL[SQL] --> DB[Keys, joins, windows, QA queries]
     PY[Python] --> AUTO[APIs, validation, reproducible transformations]
-    MS[Microsoft support] --> EVID[Cases, incidents, owners, customer narrative]
+    MS[enterprise support] --> EVID[Cases, incidents, owners, customer narrative]
     MODEL --> TAM[NetApp TAM synthetic pipeline method]
     ETL --> TAM
     VIS --> TAM
@@ -1029,14 +1029,14 @@ flowchart LR
 
 ### Transfer and gap
 
-| Arti evidence | Natural transfer | Honest NetApp gap |
+| Transferable evidence | Natural transfer | Honest NetApp gap |
 |---|---|---|
 | MBA/statistics | Grain, uncertainty, outlier, forecast and decision logic | NetApp field semantics/tool workflows require current validation |
 | Excel/Power Query | Controlled imports, typing, merge/append and QA | No production AutoSupport/Digital Advisor export handling |
 | Power BI | Star models, trends, action views and executive narrative | No live NetApp dashboard or customer model ownership |
 | SQL | Relational keys, joins, cardinality, effective dates, reconciliation | No production NetApp warehouse schema |
 | Python | API extraction, pagination, tests, versioned pipelines | No authorized NetApp API/customer credential use |
-| Microsoft support | Case evidence, privacy, CRITSIT timelines and customer reviews | No production NetApp cases/BURTs/install-base stewardship |
+| enterprise support | Case evidence, privacy, critical-situation timelines and customer reviews | No production NetApp cases/BURTs/install-base stewardship |
 
 ### JD Mapping
 
@@ -1052,7 +1052,7 @@ flowchart LR
 
 ### Honest interview answer
 
-> "I would begin with the customer decision and source catalog, then define grain, stable identifiers, schema, time and access for AutoSupport, Digital Advisor, install base, CMDB, cases, IMT/HWU, bugs, lifecycle, monitoring, projects and manual files. I would preserve raw snapshots, create staging/curated/presentation zones, clean without inventing nulls, validate join cardinality, reconcile field-level authorities, and publish only after freshness, lineage, privacy and business gates pass. My production data/analytics experience is Microsoft-focused; I have not built a live NetApp pipeline, so authorized source owners and current documentation control every real extraction and field meaning."
+> "I would begin with the customer decision and source catalog, then define grain, stable identifiers, schema, time and access for AutoSupport, Digital Advisor, install base, CMDB, cases, IMT/HWU, bugs, lifecycle, monitoring, projects and manual files. I would preserve raw snapshots, create staging/curated/presentation zones, clean without inventing nulls, validate join cardinality, reconcile field-level authorities, and publish only after freshness, lineage, privacy and business gates pass. My production data/analytics experience is focused on a different technology stack; I have not built a live NetApp pipeline, so authorized source owners and current documentation control every real extraction and field meaning."
 
 ---
 
@@ -1120,7 +1120,7 @@ flowchart LR
 12. Explain privacy, access, synthetic evidence and secret exclusions.
 13. Build an exception register with accepted-risk expiry.
 14. Recreate Redwood Health's discovery, evidence, risks and recommendations.
-15. State Arti's transfer and exact NetApp gap.
+15. State your transfer and exact NetApp gap.
 
 ### Lab pass checklist
 
@@ -1202,7 +1202,7 @@ flowchart LR
 
 ### Q8. How does your background transfer, and what remains a gap?
 
-> **Model answer:** "My MBA, statistics, Excel/Power Query, Power BI, SQL, Python and Microsoft support work give me strong grain, join, QA, lineage, case and customer-review skills. I have not extracted or governed live NetApp customer sources, so I would use current docs, authorized source owners and secure customer systems; every NetApp field/access/result remains explicitly validated rather than assumed."
+> **Model answer:** "My MBA, statistics, Excel/Power Query, Power BI, SQL, Python and enterprise support work give me strong grain, join, QA, lineage, case and customer-review skills. I have not extracted or governed live NetApp customer sources, so I would use current docs, authorized source owners and secure customer systems; every NetApp field/access/result remains explicitly validated rather than assumed."
 
 ---
 
@@ -1226,7 +1226,7 @@ flowchart LR
 - **Refresh:** Pages + counts + schema + keys + QA + atomic publish.
 - **Exception:** Visible defect with owner/date, not silent repair.
 - **Privacy:** Purpose, minimum, authorization, protection, redaction, disposal.
-- **Arti's bridge:** Analytics rigor transfers; production NetApp access does not.
+- **Your bridge:** Analytics rigor transfers; production NetApp access does not.
 
 ---
 

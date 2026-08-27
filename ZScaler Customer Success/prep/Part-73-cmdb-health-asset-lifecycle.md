@@ -1,10 +1,10 @@
 # Part 73 - CMDB Health, Automated Updates, and Asset Lifecycle Workflows
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 >
 > **Purpose:** Explain Configuration Management Database (CMDB) health and asset lifecycle automation from first principles. Cover discovery/source reconciliation, configuration items, source and field authority, identifiers, ownership, relationships, create/update/merge/retire/delete operations, lifecycle states, automated workflows, approvals, audit, idempotency, read-back reconciliation, false update/merge protection, orphan/stale records, tickets, service-level expectations, data quality, metrics, troubleshooting, and a ServiceNow concept without creating a ServiceNow dependency.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every NMH CMDB, configuration item, class, identifier, source, authority rule, workflow, approval, ticket, SLA/SLO, threshold, state, field, relationship, count, incident, timeline, metric, and outcome in this Part is synthetic. Zscaler public pages support bounded statements that Asset Exposure Management (AEM) supports CMDB health, automated CMDB updates, workflows, asset golden records, relationships, and reporting, powered by the Data Fabric for Security. Public pages do not disclose proprietary CMDB schemas, identification/reconciliation rules, field mappings, default workflow logic, approval models, service levels, supported write operations, exact connectors, or outcomes. Detailed mechanics below are general educational patterns, not undocumented Zscaler implementation claims. ServiceNow is discussed as a familiar CMDB/ITSM example based on public concepts; the architecture is vendor-neutral and does not require ServiceNow. Arti's Microsoft support, service dependency, change, identity, telemetry, data-quality, escalation, ticket, RCA, and validation skills transfer; direct production AEM/CMDB integration ownership remains a learning boundary.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every NMH CMDB, configuration item, class, identifier, source, authority rule, workflow, approval, ticket, SLA/SLO, threshold, state, field, relationship, count, incident, timeline, metric, and outcome in this Part is synthetic. Zscaler public pages support bounded statements that Asset Exposure Management (AEM) supports CMDB health, automated CMDB updates, workflows, asset golden records, relationships, and reporting, powered by the Data Fabric for Security. Public pages do not disclose proprietary CMDB schemas, identification/reconciliation rules, field mappings, default workflow logic, approval models, service levels, supported write operations, exact connectors, or outcomes. Detailed mechanics below are general educational patterns, not undocumented Zscaler implementation claims. ServiceNow is discussed as a familiar CMDB/ITSM example based on public concepts; the architecture is vendor-neutral and does not require ServiceNow. Your prior support, service dependency, change, identity, telemetry, data-quality, escalation, ticket, RCA, and validation skills transfer; direct production AEM/CMDB integration ownership remains a learning boundary.
 >
 > **Currency caveat:** Products, CMDB platforms, APIs, connectors, fields, class models, source systems, organizational ownership, and support processes change. The controlled research/source date for this Part is exactly **2026-08-24**. Current official documentation, licensed tenant behavior, approved CMDB/data model, source and field contracts, change/security/privacy/legal requirements, product/CMDB specialists, Support guidance, target-system tests, and measured read-back evidence govern production.
 
@@ -14,7 +14,7 @@ A CMDB is a governed repository of **configuration items**, abbreviated CIs, and
 
 Think of a railway operations map. It tracks stations, lines, signals, power systems, control centers, and relationships needed to operate train services. The finance inventory separately tracks purchase and depreciation; maintenance systems hold detailed work orders; sensors report current conditions. Automatically changing the operations map because one sensor saw a temporary object would be dangerous. A trustworthy update verifies identity, authority, current state, dependencies, approval, and the result after writing.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Evidence artifact |
 |---|---|---|
@@ -49,7 +49,7 @@ flowchart LR
 
 ## JD Mapping
 
-| Role expectation | Part 73 capability | TSM artifact | Arti bridge and boundary |
+| Role expectation | Part 73 capability | TSM artifact | experience bridge and boundary |
 |---|---|---|---|
 | Become AEM/Data Fabric expert | Explain official CMDB health/update positioning with caveats | Source-to-CMDB whiteboard | Verify current product/connector behavior |
 | Analyze complex environments | Map CI classes, sources, authority, relationships, owners, and lifecycle | Current-state CMDB assessment | Microsoft service dependency mapping transfers |
@@ -943,9 +943,9 @@ ServiceNow publicly describes CMDB concepts including CIs, relationships, data a
 
 Do not say AEM requires ServiceNow. Do not claim a ServiceNow connector supports a particular object, direction, or action without current official documentation and licensed tenant testing. The same safety design applies to another CMDB/ITSM platform, a custom repository, or a federated service-management architecture.
 
-## Arti bridge: support operations to configuration trust
+## Experience bridge: support operations to configuration trust
 
-Microsoft escalation work relies on correct configuration context. A wrong tenant, user, device, client version, network path, service dependency, or ownership assumption sends investigation in the wrong direction. Arti used stable IDs and timestamps, compared expected/actual, coordinated changes, escalated defects with evidence, validated fixes, and communicated customer impact.
+enterprise escalation work relies on correct configuration context. A wrong tenant, user, device, client version, network path, service dependency, or ownership assumption sends investigation in the wrong direction. You used stable IDs and timestamps, compared expected/actual, coordinated changes, escalated defects with evidence, validated fixes, and communicated customer impact.
 
 | Existing strength | CMDB transfer | Learning boundary | Honest interview sentence |
 |---|---|---|---|
@@ -954,7 +954,7 @@ Microsoft escalation work relies on correct configuration context. A wrong tenan
 | Change/fix validation | Conditional change, rollback, postconditions | Customer CMDB change authority | "Accepted write is not validated outcome." |
 | Engineering escalation | IDs, timeline, expected/actual, minimal evidence | Product-specific diagnostics | "I provide a compressed reproducible experiment." |
 | SQL/analytics | Data-quality, duplicates, aging, reconciliation metrics | Target query/report specifics | "I measure fitness by use case, not row count." |
-| CRITSIT/RCA | Contain wrong actions, repair, reconcile, prevent | CMDB incident operations | "I preserve audit and correct every downstream echo." |
+| Critical situation/RCA | Contain wrong actions, repair, reconcile, prevent | CMDB incident operations | "I preserve audit and correct every downstream echo." |
 | Customer leadership | Owners, governance, status, adoption | Formal configuration-management program | "I facilitate; accountable customer owners decide." |
 
 ## Labs and rehearsal
@@ -1023,7 +1023,7 @@ Assign CI class steward, source owner, field owner, service owner, workflow owne
 
 ### Lab 16 - Interview capstone
 
-Present NMH model, baseline, safe derived update, wrong-update incident, cleanup campaign, roadmap, metrics, product/source boundaries, and Arti bridge. **Pass:** every number/behavior is synthetic.
+Present NMH model, baseline, safe derived update, wrong-update incident, cleanup campaign, roadmap, metrics, product/source boundaries, and experience bridge. **Pass:** every number/behavior is synthetic.
 
 ## Common misconceptions to correct
 
@@ -1103,7 +1103,7 @@ Zscaler sources support bounded AEM/Data Fabric CMDB health, automated update, w
 
 ### Q8. How do you discuss ServiceNow and your experience honestly?
 
-**Model answer:** ServiceNow is a familiar CMDB/ITSM example whose public pages describe CIs, relationships, data acquisition, automation, lifecycle, health, and workflows. The safety design is vendor-neutral, and AEM does not inherently require ServiceNow. My production strength is Microsoft escalation, configuration/dependency evidence, tickets, change/RCA, analytics, and validation. I practiced this CMDB workflow synthetically, not as production AEM/ServiceNow administration.
+**Model answer:** ServiceNow is a familiar CMDB/ITSM example whose public pages describe CIs, relationships, data acquisition, automation, lifecycle, health, and workflows. The safety design is vendor-neutral, and AEM does not inherently require ServiceNow. My production strength is enterprise escalation, configuration/dependency evidence, tickets, change/RCA, analytics, and validation. I practiced this CMDB workflow synthetically, not as production AEM/ServiceNow administration.
 
 ## 30-Second Memory Hooks
 
@@ -1133,7 +1133,7 @@ Zscaler sources support bounded AEM/Data Fabric CMDB health, automated update, w
 | SLA/SLO | Formal promise versus objective |
 | Health | Fitness by use case, not row count |
 | ServiceNow | One example, no dependency |
-| Arti bridge | Configuration/RCA/validation transfers; product admin does not |
+| Experience bridge | Configuration/RCA/validation transfers; product admin does not |
 
 ## Completion Checklist
 
@@ -1186,10 +1186,10 @@ Zscaler sources support bounded AEM/Data Fabric CMDB health, automated update, w
 - [ ] I label every NMH field, rule, count, threshold, SLA/SLO, workflow, incident, timeline, and outcome synthetic.
 - [ ] I explain ServiceNow as one conceptual/platform example without dependency or unsupported connector claim.
 - [ ] I can complete all sixteen labs and retain reproducible evidence.
-- [ ] I connect Arti's Microsoft scope, dependency, change, ticket, escalation, analytics, RCA, and validation strengths honestly.
+- [ ] I connect your prior scope, dependency, change, ticket, escalation, analytics, RCA, and validation strengths honestly.
 - [ ] I use official Zscaler/NIST and industry CMDB sources with explicit boundaries.
 - [ ] I use the controlled research/source date exactly as 2026-08-24.
 - [ ] I make no unsupported Zscaler/ServiceNow connector, schema, workflow, field, write, default, SLA, production, compliance, or outcome claim.
-- [ ] I can answer Q1 through Q8 with definitions, analogies, architecture, mechanics, examples, tradeoffs, failures, troubleshooting, labs, NMH evidence, official-source caveats, and an honest Arti bridge.
+- [ ] I can answer Q1 through Q8 with definitions, analogies, architecture, mechanics, examples, tradeoffs, failures, troubleshooting, labs, NMH evidence, official-source caveats, and an honest experience bridge.
 
 [Part 74 - Asset Risk, Attack Surface, and Vulnerability-Prioritization Context](Part-74-asset-risk-vulnerability-context.md)

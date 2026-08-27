@@ -1,10 +1,10 @@
 # Part 77 - HA, Takeover/Giveback, Cluster Health, and Hardware-Failure Scenarios
 
-> **Section goal:** Reason safely about ONTAP high availability (HA), cluster authority, path resilience, degraded hardware, environmentals, and field-replaceable-unit (FRU) work without equating current availability with full protection. By the end, Arti should be able to distinguish planned from unplanned takeover, validate giveback readiness, trace LIF and SAN path recovery, assess shelf/disk/port/interconnect failures, explain quorum and epsilon cautiously, identify common fate and degraded redundancy, coordinate power/cooling/FRU evidence, and escalate without improvising forced operations or physical replacement.
+> **Section goal:** Reason safely about ONTAP high availability (HA), cluster authority, path resilience, degraded hardware, environmentals, and field-replaceable-unit (FRU) work without equating current availability with full protection. By the end, you should be able to distinguish planned from unplanned takeover, validate giveback readiness, trace LIF and SAN path recovery, assess shelf/disk/port/interconnect failures, explain quorum and epsilon cautiously, identify common fate and degraded redundancy, coordinate power/cooling/FRU evidence, and escalate without improvising forced operations or physical replacement.
 
 Covers index item **77** and maps directly to job-description responsibilities for storage depth, stability and risk mitigation, high-pressure coordination, hardware/lifecycle analysis, Support engagement, customer communication, and preventative recommendations.
 
-**Explicit nonclaim:** Arti has not performed, approved, forced, monitored, or recovered a production ONTAP takeover/giveback, quorum event, LIF failover, shelf or disk repair, port change, environmental response, or NetApp FRU replacement.
+**Explicit nonclaim:** You have not performed, approved, forced, monitored, or recovered a production ONTAP takeover/giveback, quorum event, LIF failover, shelf or disk repair, port change, environmental response, or NetApp FRU replacement.
 
 **Privacy/access:** HA and hardware evidence can expose customer topology, serials, asset locations, platform models, cluster identity, IPs/WWPNs, cabling, slots, parts, firmware, support entitlement, environmental conditions, alarms, facility weaknesses, and maintenance plans. Use authorized minimum collection, approved secure channels, need-to-know access, redaction, retention, and qualified customer/facility/Support handling. Never publish real serials, site layouts, support outputs, or failure evidence in a portfolio.
 
@@ -14,7 +14,7 @@ Covers index item **77** and maps directly to job-description responsibilities f
 
 This Part is a reasoning casebook, not a NetApp internal service manual, command reference, takeover criterion, quorum procedure, FRU instruction, environmental limit, support commitment, or authorization to touch hardware or production state.
 
-> **No-production-NetApp boundary:** Arti's factual strengths are Microsoft CRITSIT and enterprise support, high-availability concepts, Azure/VM/networking, incident communication, evidence correlation, vendor coordination, and risk tracking. Her exact nonclaim is: **she has not operated, repaired, or restored production NetApp HA, cluster, or hardware.** These scenarios demonstrate conceptual reasoning only.
+> **No-production-NetApp boundary:** Your factual strengths are enterprise critical situation and enterprise support, high-availability concepts, Azure/VM/networking, incident communication, evidence correlation, vendor coordination, and risk tracking. Your exact nonclaim is: **you have not operated, repaired, or restored production NetApp HA, cluster, or hardware.** These scenarios demonstrate conceptual reasoning only.
 
 ---
 
@@ -557,11 +557,11 @@ flowchart TD
 
 ---
 
-## 10. Arti transfer/honesty and JD Mapping
+## 10. Experience transfer and honesty and JD Mapping
 
 ```mermaid
 flowchart LR
-    CRIT[Microsoft CRITSIT and restoration] --> CMD[Impact, roles, cadence and validation]
+    CRIT[Enterprise critical situation and restoration] --> CMD[Impact, roles, cadence and validation]
     AZ[Azure/VM/network HA concepts] --> LAYER[Node, path and application-layer thinking]
     NET[Networking evidence] --> PATH[Redundancy and common-fate mapping]
     VEND[Vendor coordination] --> FRU[Qualified hardware escalation and follow-through]
@@ -576,7 +576,7 @@ flowchart LR
 |---|---|---|
 | Storage depth | HA pair, quorum, shelf/disk/FRU cases | Conceptual/synthetic, not production operation |
 | Stability/risk | Available versus degraded and common fate | Strong incident/risk method transfers |
-| High pressure | Restoration, evidence and communication | Microsoft CRITSIT experience |
+| High pressure | Restoration, evidence and communication | enterprise critical-situation experience |
 | Hardware/lifecycle | Exact part/topology/source discipline | No physical NetApp service claim |
 | Support engagement | Safe package and qualified procedure boundary | No NetApp internal route claim |
 | Customer reviews | Degraded risk, owner/date, validation | Existing review/action tracking strength |
@@ -705,7 +705,7 @@ flowchart LR
 
 ### Q8. What experience transfers, and what remains your gap?
 
-> **Model answer:** `Microsoft CRITSITs, Azure/VM/networking, evidence correlation, customer updates, vendor coordination and risk tracking give me strong HA incident method. I have not performed production ONTAP takeover/giveback, quorum recovery or hardware service, so these cases are synthetic and every live action requires exact current NetApp sources and qualified owners.`
+> **Model answer:** `enterprise critical situations, Azure/VM/networking, evidence correlation, customer updates, vendor coordination and risk tracking give me strong HA incident method. I have not performed production ONTAP takeover/giveback, quorum recovery or hardware service, so these cases are synthetic and every live action requires exact current NetApp sources and qualified owners.`
 
 ---
 
@@ -727,7 +727,7 @@ flowchart LR
 - **Common fate:** Two lamps on one breaker.
 - **Environment:** Facility can fail many components together.
 - **FRU:** Exact part + exact procedure + complete topology validation.
-- **Arti boundary:** Incident method transfers; NetApp HA/hardware operation does not.
+- **Experience boundary:** Incident method transfers; NetApp HA/hardware operation does not.
 
 ---
 

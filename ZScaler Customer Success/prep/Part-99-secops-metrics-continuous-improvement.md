@@ -1,10 +1,10 @@
 # Part 99 - SecOps Metrics, Quality, Cost, and Continuous Improvement
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 
 > **Purpose:** Explain SecOps metrics from zero, including MTTD, MTTA, MTTR, dwell time, false positives, precision and recall concepts, coverage, containment, recurrence, analyst effort, SIEM cost, denominator integrity, Goodhart's law, improvement loops, and evidence-based executive narratives.
 
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH event, alert, case, identity, incident, timestamp, metric, cost, target, decision, action, date, trend, and result is invented. Arti's factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler, Agentic SecOps, SIEM, SOC, detection engineering, incident-response, containment, security-metric ownership, and customer outcomes remain learning boundaries.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH event, alert, case, identity, incident, timestamp, metric, cost, target, decision, action, date, trend, and result is invented. Your factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler, Agentic SecOps, SIEM, SOC, detection engineering, incident-response, containment, security-metric ownership, and customer outcomes remain learning boundaries.
 
 > **Currency caveat:** Product capabilities, telemetry, schemas, fields, reports, AI agents, actions, pricing, packaging, limits, entitlements, and public claims change. The controlled official-source snapshot and source review date for this Part is exactly **2026-08-24**. Current official technical and ordering documentation, licensed-tenant evidence, customer metric definitions, source-native records, contracts, finance methods, customer policy, product specialists, vendor Support, and tested analytical models govern production decisions.
 
@@ -56,7 +56,7 @@ flowchart LR
 
 ## Candidate honesty note
 
-Arti can say: "My production background is Microsoft Support Escalation Engineering rather than owning a SOC metrics program. I have used SQL and Power BI to reason about grains, joins, data quality, trends, and customer impact; coordinated critical incidents using timestamps and checkpoints; and validated technical recovery. I have studied SecOps measurement and practiced with fictional data. In a customer environment I would verify source semantics, event/case definitions, clocks, populations, exclusions, costs, and customer targets before interpreting results."
+You can say: "My production background is support escalation engineering rather than owning a SOC metrics program. I have used SQL and Power BI to reason about grains, joins, data quality, trends, and customer impact; coordinated critical incidents using timestamps and checkpoints; and validated technical recovery. I have studied SecOps measurement and practiced with fictional data. In a customer environment I would verify source semantics, event/case definitions, clocks, populations, exclusions, costs, and customer targets before interpreting results."
 
 Neutral wording protects credibility. Say "the observed cohort changed," "the current evidence suggests," "this metric excludes," "a plausible driver is," and "I would validate." Avoid "I reduced MTTD," "I cut SIEM cost," "I improved detection coverage," or "Zscaler delivered this outcome" without current scoped customer evidence and a defensible attribution method.
 
@@ -910,7 +910,7 @@ All exercises are non-production and use synthetic or authorized test evidence.
 15. Write an executive narrative that distinguishes observation, driver, attribution, action, and residual.
 16. Design a metric incident runbook for schema, join, timezone, source-outage, or definition change.
 17. Create an AI-agent evaluation scorecard pairing acceptance with citation quality, safety, review, effort, and outcome.
-18. Practice a two-minute interview answer using Arti's analytics background without claiming production SOC results.
+18. Practice a two-minute interview answer using your analytics background without claiming production SOC results.
 
 ## Customer discovery questions
 
@@ -977,9 +977,9 @@ The Zscaler sources support dated public positioning only. NIST sources support 
 
 **Model answer:** When a measure becomes a target, people or systems may optimize the proxy rather than the intended outcome. Lower MTTR can come from premature closure; higher precision from missing threats; lower cost from deleting useful evidence. I use balanced speed, quality, coverage, safety, recurrence, effort, and cost measures; version denominators; inspect samples and tails; include qualitative evidence; and assign outcome ownership.
 
-### Q8. How does Arti's background transfer, and how would she report Zscaler value honestly?
+### Q8. How does your background transfer, and how would you report Zscaler value honestly?
 
-**Model answer:** SQL and Power BI support metric grains, joins, denominators, cohorts, quality, and executive views. Enterprise escalation work supports timelines, impact, owners, recovery, and recurrence prevention. She can connect Zscaler's dated public positioning around context, prioritization, agentic assistance, response, and feedback to a proposed measurement plan, while stating that production Zscaler/SOC metrics, causal value, savings, and outcomes require current customer evidence.
+**Model answer:** SQL and Power BI support metric grains, joins, denominators, cohorts, quality, and executive views. Enterprise escalation work supports timelines, impact, owners, recovery, and recurrence prevention. You can connect Zscaler's dated public positioning around context, prioritization, agentic assistance, response, and feedback to a proposed measurement plan, while stating that production Zscaler/SOC metrics, causal value, savings, and outcomes require current customer evidence.
 
 ## 30-Second Memory Hooks
 
@@ -1004,7 +1004,7 @@ The Zscaler sources support dated public positioning only. NIST sources support 
 | Improvement | Owner, change, test, result, residual |
 | Executive story | Context, signal, integrity, driver, action, residual |
 | Zscaler | Attribute public positioning; measure customer reality |
-| Arti bridge | Analytics and escalation transfer; outcome claims do not |
+| Experience bridge | Analytics and escalation transfer; outcome claims do not |
 
 ## Completion Checklist
 

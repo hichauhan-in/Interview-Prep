@@ -1,10 +1,10 @@
 # Part 48 - Active IQ Digital Advisor and Proactive Wellness Analysis
 
-> **Section goal:** Learn how to turn Digital Advisor fleet, system, wellness, upgrade, capacity, efficiency, performance, planning, and support signals into customer-safe actions without treating a dashboard as unquestionable truth. By the end, Arti should be able to define access and scope, validate freshness and applicability, separate a risk from an action, control alert noise, build evidence-backed recommendations, and work through an authorized portal owner when access is gated.
+> **Section goal:** Learn how to turn Digital Advisor fleet, system, wellness, upgrade, capacity, efficiency, performance, planning, and support signals into customer-safe actions without treating a dashboard as unquestionable truth. By the end, you should be able to define access and scope, validate freshness and applicability, separate a risk from an action, control alert noise, build evidence-backed recommendations, and work through an authorized portal owner when access is gated.
 
 Covers index item **48** and maps directly to job-description responsibilities for proactive risk identification, customer-data analysis, install-base review, system-health reporting, lifecycle/upgrade planning, efficiency and capacity insight, support-case context, customer recommendations, and cross-functional follow-through.
 
-**Explicit nonclaim:** Arti has not operated Active IQ Digital Advisor for a production NetApp customer.
+**Explicit nonclaim:** You have not operated Active IQ Digital Advisor for a production NetApp customer.
 
 **Privacy and access boundary:** Digital Advisor account, watchlist, inventory, telemetry, case, contract, risk, and recommendation data are gated customer information and must remain in approved channels.
 
@@ -14,7 +14,7 @@ Covers index item **48** and maps directly to job-description responsibilities f
 
 This Part is not a substitute for Digital Advisor, NetApp Support, an exact advisory, Upgrade Advisor plan, IMT, Hardware Universe, release notes, customer monitoring, or change governance. The portal and many results require valid Support Site credentials, asset entitlement, and active support context. If access is absent, the analyst records the gap and asks an authorized customer/account owner to provide a minimum necessary dated extract. No portal screen, risk, system, case, plan, or recommendation is invented.
 
-> **No-production-NetApp boundary:** Arti does not claim production Digital Advisor experience. Every customer, watchlist, system, screenshot-like table, risk, metric, case, date, and recommendation below is synthetic. Her factual strengths are Microsoft enterprise support, service reviews, CRITSIT ownership, Azure/M365 observability and networking, data-quality analysis, Power BI/Excel/SQL/Python, and evidence-led customer communication. The explicit non-claim is: **she has not signed into a customer's Digital Advisor tenant, managed production watchlists, acknowledged a production risk, requested an Upgrade Advisor plan, inspected a customer AutoSupport instance, exported production performance data, viewed customer cases, or remediated a NetApp wellness action.**
+> **No-production-NetApp boundary:** You do not claim production Digital Advisor experience. Every customer, watchlist, system, screenshot-like table, risk, metric, case, date, and recommendation below is synthetic. Your factual strengths are enterprise support, service reviews, critical-situation ownership, Azure/M365 observability and networking, data-quality analysis, Power BI/Excel/SQL/Python, and evidence-led customer communication. The explicit non-claim is: **you have not signed into a customer's Digital Advisor tenant, managed production watchlists, acknowledged a production risk, requested an Upgrade Advisor plan, inspected a customer AutoSupport instance, exported production performance data, viewed customer cases, or remediated a NetApp wellness action.**
 
 ---
 
@@ -603,7 +603,7 @@ Public FAQ distinguishes technical product issues from non-technical Digital Adv
 
 ```mermaid
 flowchart LR
-    ARTI[Arti lacks customer portal entitlement] --> REQ[Minimum necessary extract request]
+    USER[No customer portal entitlement] --> REQ[Minimum necessary extract request]
     REQ --> OWNER[Authorized customer/account owner]
     OWNER --> EXPORT[Dated sanitized scope/freshness/risk/action tables]
     EXPORT --> VERIFY[Storage/app/security owners validate state/context]
@@ -628,14 +628,14 @@ flowchart LR
 
 ---
 
-## 12. Arti transfer, discovery, and JD Mapping
+## 12. Experience transfer, discovery, and JD Mapping
 
 ### Transfer map
 
 ```mermaid
 flowchart LR
-    MS[Microsoft support/service health] --> RISK[Signal-to-risk discipline]
-    CRIT[CRITSIT ownership] --> ACT[Owner/date/checkpoint/escalation]
+    MS[enterprise support/service health] --> RISK[Signal-to-risk discipline]
+    CRIT[Critical-situation ownership] --> ACT[Owner/date/checkpoint/escalation]
     AZ[Azure/M365 telemetry] --> FRESH[Freshness/scope/correlation]
     BI[Power BI Excel SQL Python] --> CLEAN[Reconcile/dedup/trend/action register]
     REVIEW[Customer reviews] --> STORY[Evidence-risk-recommendation narrative]
@@ -662,14 +662,14 @@ flowchart LR
 
 ### JD Mapping
 
-| JD responsibility | Part 48 contribution | Arti's factual bridge and gap |
+| JD responsibility | Part 48 contribution | Your factual bridge and gap |
 |---|---|---|
-| Proactive risk/stability | Converts wellness findings into applicable prioritized actions | Service-health/CRITSIT discipline transfers; no production acknowledgements |
+| Proactive risk/stability | Converts wellness findings into applicable prioritized actions | Service-health/critical-situation discipline transfers; no production acknowledgements |
 | Customer-data analysis | Validates scope, freshness, lineage, deduplication, and confidence | BI/SQL/Python/Excel strengths transfer |
 | Install-base quality | Reconciles customer/watchlist/system/serial visibility | Data-quality work transfers; gated corrections need owner |
 | Capacity/performance/efficiency | Interprets trends with definitions and workload context | Azure/M365 observability reasoning transfers |
 | Upgrade/lifecycle planning | Treats signals as planning inputs requiring exact validation | Change-risk reasoning transfers; no Upgrade Advisor operation claimed |
-| Support experience | Connects cases, evidence gaps, and proactive remediation | Microsoft escalation experience transfers |
+| Support experience | Connects cases, evidence gaps, and proactive remediation | enterprise escalation experience transfers |
 | Service reviews | Produces concise evidence-risk-action-owner-proof narrative | Customer communication transfers |
 
 ### Honest interview answer
@@ -797,7 +797,7 @@ flowchart LR
 
 ### Q8. How does your background prepare you for this despite the production-tool gap?
 
-> **Model answer:** "Microsoft service-health and CRITSIT work gives me signal validation, ownership and customer-risk discipline; Azure/M365 observability gives me freshness and correlation habits; and BI/SQL/Python/Excel skills support reconciliation and deduplication. I have not operated a production Digital Advisor tenant, so I use current docs and authorized owners explicitly."
+> **Model answer:** "Microsoft service-health and critical-situation work gives me signal validation, ownership and customer-risk discipline; Azure/M365 observability gives me freshness and correlation habits; and BI/SQL/Python/Excel skills support reconciliation and deduplication. I have not operated a production Digital Advisor tenant, so I use current docs and authorized owners explicitly."
 
 ---
 
@@ -816,7 +816,7 @@ flowchart LR
 - **Upgrade signal:** start validated planning, not immediate change.
 - **Gated access:** authorized dated extract or explicit gap.
 - **Action register:** evidence -> applicability -> risk -> owner/date -> proof -> residual risk.
-- **Arti's bridge:** Microsoft evidence/analytics transfer; production portal use does not.
+- **Your bridge:** prior evidence/analytics transfer; production portal use does not.
 
 ---
 

@@ -1,12 +1,12 @@
 # Part 15 - NFS from Zero: Versions, Mounts, Identity, Locks, and Troubleshooting
 
-> **Section goal:** Understand how an NFS client discovers or reaches a server, obtains namespace access, represents identity, opens and locks files, and sends reads and writes. By the end, Arti should be able to compare NFSv3 and NFSv4.x, trace mounts and I/O, separate export from file permission, reason about leases and filehandles, and build a packet- and evidence-grounded escalation.
+> **Section goal:** Understand how an NFS client discovers or reaches a server, obtains namespace access, represents identity, opens and locks files, and sends reads and writes. By the end, you should be able to compare NFSv3 and NFSv4.x, trace mounts and I/O, separate export from file permission, reason about leases and filehandles, and build a packet- and evidence-grounded escalation.
 
 Covers index item **15** and maps directly to job-description responsibilities for storage depth, customer-environment discovery, supportability, risk and stability analysis, proactive recommendations, operational service reviews, and escalation quality.
 
 This Part is vendor-neutral. Exact NFS versions/minor versions, transports, ports, export-policy evaluation, identity sources, Kerberos, locking, delegations, referrals, parallel NFS (pNFS), timeouts, caches, commands, and NetApp behavior are release- and configuration-specific. Validate current client/server documentation and the exact NetApp Interoperability Matrix Tool (IMT) solution and notes.
 
-> **Evidence boundary:** Every organization, hostname, address, export, UID/GID, packet, timing, failure, and recommendation below is synthetic. Arti's Microsoft data-service, Windows/Azure networking, Active Directory, permissions, identity, and escalation experience is production evidence. Production NFS administration, Linux identity integration, Kerberos for NFS, pNFS, or ONTAP export-policy ownership is not claimed.
+> **Evidence boundary:** Every organization, hostname, address, export, UID/GID, packet, timing, failure, and recommendation below is synthetic. Your prior data-service, Windows/Azure networking, Active Directory, permissions, identity, and escalation experience is production evidence. Production NFS administration, Linux identity integration, Kerberos for NFS, pNFS, or ONTAP export-policy ownership is not claimed.
 
 ---
 
@@ -675,11 +675,11 @@ flowchart TD
 
 ### Explicit JD Mapping
 
-| JD responsibility | Part 15 contribution | Arti's strength and honest gap |
+| JD responsibility | Part 15 contribution | Your strength and honest gap |
 |---|---|---|
 | Understand customer environment | Maps client/network/identity/NFS server/export/volume and owners | **Strength:** M365/AD/network dependency mapping. **Gap:** production NFS/ONTAP ownership unproven. |
 | Storage depth | Explains v3/v4.x, RPC, exports, identity, locks, filehandles, pNFS, and I/O | **Conceptual/lab:** no production NFS administration claim. |
-| Risk/stability | Finds version fallback, broad exports, identity drift, stale handles, lock recovery, and path common fate | **Strength:** CRITSIT hypothesis and risk method transfers. |
+| Risk/stability | Finds version fallback, broad exports, identity drift, stale handles, lock recovery, and path common fate | **Strength:** critical-situation hypothesis and risk method transfers. |
 | Supportability | Builds exact client/server/identity/network matrix and IMT evidence | **Gap:** no current customer IMT or gated tool result claimed. |
 | Recommendations | Connects exact NFS evidence to safe owner-led action and validation | **Strength:** advisory and escalation follow-through. |
 | Service review | Reports protocol health, access risk, performance trends, actions, and residual risk | **Strength:** business reviews and analytics. |
@@ -856,7 +856,7 @@ A fictional Linux client mounts `nfs.lab.example:/eng` with NFSv4.1 and `krb5i`.
 27. Complete the paper lab and whiteboard drills.
 28. Explain security/performance/redundancy implications.
 29. Answer Q1-Q8 aloud.
-30. State Arti's strengths and production NFS gap honestly.
+30. State your strengths and production NFS gap honestly.
 
 ---
 
@@ -939,7 +939,7 @@ A fictional Linux client mounts `nfs.lab.example:/eng` with NFSv4.1 and `krb5i`.
 
 ### Q8. How does your background transfer to NFS work, and what remains a gap?
 
-> **Model answer:** "My Microsoft production experience gives me shared-data-service, permissions, Active Directory identity, Windows/Azure networking, incident ownership, evidence correlation, and customer communication skills. Those methods transfer to NFS dependency and authorization analysis. I have not administered Linux NFS, Kerberos for NFS, pNFS, or ONTAP exports in production. I would verify exact client/server/IMT support, use authorized captures and read-only evidence, and involve Linux, identity, network, application, and storage specialists for changes."
+> **Model answer:** "My prior production experience gives me shared-data-service, permissions, Active Directory identity, Windows/Azure networking, incident ownership, evidence correlation, and customer communication skills. Those methods transfer to NFS dependency and authorization analysis. I have not administered Linux NFS, Kerberos for NFS, pNFS, or ONTAP exports in production. I would verify exact client/server/IMT support, use authorized captures and read-only evidence, and involve Linux, identity, network, application, and storage specialists for changes."
 
 **Follow-up depth:** Give one factual permissions or identity escalation and state precisely which NFS-specific work remains conceptual or lab-based.
 
@@ -967,7 +967,7 @@ A fictional Linux client mounts `nfs.lab.example:/eng` with NFSv4.1 and `krb5i`.
 - **pNFS:** Metadata grants layouts; clients access data servers when supported.
 - **WRITE/COMMIT:** Protocol stability path, not application transaction by itself.
 - **Troubleshoot:** Exact status first: access, stale, lock/state, or timeout.
-- **Arti's bridge:** Identity and escalation method transfer; production NFS remains unclaimed.
+- **Your bridge:** Identity and escalation method transfer; production NFS remains unclaimed.
 
 ---
 
@@ -996,7 +996,7 @@ A fictional Linux client mounts `nfs.lab.example:/eng` with NFSv4.1 and `krb5i`.
 - [ ] Recreate Fabrikam and keep stale-handle and access causes separate.
 - [ ] Build a complete escalation pack and dated exact IMT/supportability record.
 - [ ] Complete the paper lab, whiteboard drills, self-test, and Q1-Q8 aloud.
-- [ ] State Arti's production strengths and NFS/ONTAP production gap honestly.
+- [ ] State your production strengths and NFS/ONTAP production gap honestly.
 - [ ] Recheck RFC status, client/server releases, identity/security policy, and NetApp IMT notes before customer use.
 
 ---

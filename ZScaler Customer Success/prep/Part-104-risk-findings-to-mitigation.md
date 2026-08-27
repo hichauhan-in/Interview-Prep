@@ -1,10 +1,10 @@
 # Part 104 - Risk Findings to Tailored Mitigation Strategy
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 
 > **Purpose:** Explain how to turn a security or operational risk finding into a customer-specific mitigation strategy using evidence, scope, context, business impact, threat and control paths, options, tradeoffs, dependencies, owners, priority, effort, service-level expectations, validation, exceptions, residual risk, and executive communication.
 
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH asset, identity, application, vulnerability, finding, source, score, date, metric, SLA, option, owner, decision, action, validation, risk, and result is invented. Arti's factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler, SecOps TSM, vulnerability/exposure management, risk quantification, mitigation ownership, security-control operation, customer risk acceptance, and executive cyber-risk advisory remain learning boundaries.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH asset, identity, application, vulnerability, finding, source, score, date, metric, SLA, option, owner, decision, action, validation, risk, and result is invented. Your factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler, SecOps TSM, vulnerability/exposure management, risk quantification, mitigation ownership, security-control operation, customer risk acceptance, and executive cyber-risk advisory remain learning boundaries.
 
 > **Currency caveat:** Threats, vulnerabilities, exploit evidence, products, architectures, controls, regulations, business priorities, contracts, interfaces, scores, packaging, and entitlements change. The controlled official-source snapshot and source review date for this Part is exactly **2026-08-24**. Current official technical and ordering documentation, licensed-tenant evidence, customer-authoritative asset/identity/application/risk records, source-native findings, threat intelligence, customer policy, control owners, product specialists, Support, and validated tests govern production decisions.
 
@@ -56,13 +56,13 @@ flowchart LR
 
 ## Candidate honesty note
 
-Arti can say: "My production background is Microsoft enterprise Support Escalation Engineering rather than owning a vulnerability or cyber-risk program. I have validated technical symptoms, traced identity, permission, endpoint, network, proxy, application, and cloud-service paths, assessed customer impact, developed mitigations and workarounds, coordinated owners, communicated options, and validated recovery. SQL and Power BI support evidence quality and prioritization analysis. I have studied security-risk treatment and practiced these artifacts with fictional data. In a real customer environment I would verify the finding, asset/service context, threat evidence, controls, product behavior, policy, SLA, decision authority, and measured result."
+You can say: "My production background is enterprise Support Escalation Engineering rather than owning a vulnerability or cyber-risk program. I have validated technical symptoms, traced identity, permission, endpoint, network, proxy, application, and cloud-service paths, assessed customer impact, developed mitigations and workarounds, coordinated owners, communicated options, and validated recovery. SQL and Power BI support evidence quality and prioritization analysis. I have studied security-risk treatment and practiced these artifacts with fictional data. In a real customer environment I would verify the finding, asset/service context, threat evidence, controls, product behavior, policy, SLA, decision authority, and measured result."
 
-This makes the bridge without changing the job history. A service-incident mitigation is adjacent to security-risk mitigation but not identical. Arti should not claim she prioritized production CVEs, set remediation SLAs, accepted cyber risk, operated Zscaler controls, reduced customer risk, or advised boards on quantified loss unless she has direct evidence.
+This makes the bridge without changing the job history. A service-incident mitigation is adjacent to security-risk mitigation but not identical. You should not claim you prioritized production CVEs, set remediation SLAs, accepted cyber risk, operated Zscaler controls, reduced customer risk, or advised boards on quantified loss unless you have direct evidence.
 
 | Factual background | Transferable strength | Neutral wording | Unsupported statement to avoid |
 |---|---|---|---|
-| Microsoft escalation engineering | Validate evidence, isolate mechanism, assess impact, mitigate, and confirm recovery | "I move from evidence to safe owned action." | "I ran enterprise vulnerability management." |
+| enterprise escalation engineering | Validate evidence, isolate mechanism, assess impact, mitigate, and confirm recovery | "I move from evidence to safe owned action." | "I ran enterprise vulnerability management." |
 | Identity/permission/service diagnosis | Understand attack and control preconditions | "I test whether identity and access context changes the scenario." | "I owned zero-trust policy." |
 | Network and trace analysis | Establish reachability, timing, path, control point, and read-back | "I validate technical paths and alternate routes." | "I implemented Zscaler mitigations." |
 | SQL and Power BI | Reconcile populations, score transparently, and track aging/validation | "I make prioritization evidence inspectable." | "I proved customer risk reduction." |
@@ -668,7 +668,7 @@ Define pre-change baseline, exact target, expected postconditions, negative test
 
 Closure should state the claim being accepted: "For the enumerated targets, the authoritative package state and source retest no longer show the validated condition; the relevant reachability test fails as intended; approved user paths and service health pass; monitoring is active; two excluded systems remain under exception X." That sentence exposes scope and residual.
 
-Unknown action state requires reconciliation, not blind retry. Query the target, compare current state, preserve operation IDs, and assess whether a duplicate action could harm service. This is where Arti's escalation habit of validating recovery rather than trusting a success message transfers directly.
+Unknown action state requires reconciliation, not blind retry. Query the target, compare current state, preserve operation IDs, and assess whether a duplicate action could harm service. This is where your escalation habit of validating recovery rather than trusting a success message transfers directly.
 
 ## Residual risk and monitoring
 
@@ -1095,7 +1095,7 @@ A synthetic automated action reports success, but native read-back is unavailabl
 
 ### Exercise 6 - Candidate honesty rehearsal
 
-Answer: "Tell me about tailoring risk mitigation." Start with Arti's factual incident diagnosis/mitigation experience, explain the transfer, present this synthetic decision method, and state that production vulnerability prioritization, Zscaler control operation, SLA ownership, and risk acceptance are learning boundaries.
+Answer: "Tell me about tailoring risk mitigation." Start with your factual incident diagnosis/mitigation experience, explain the transfer, present this synthetic decision method, and state that production vulnerability prioritization, Zscaler control operation, SLA ownership, and risk acceptance are learning boundaries.
 
 ## Customer discovery questions
 
@@ -1167,9 +1167,9 @@ The Zscaler sources support dated public positioning only. NIST, CISA, FIRST, NV
 
 **Model answer:** I begin with the customer requirement and risk-path step, not a product name. I use dated public positioning only to identify a hypothesis, then verify current official documentation, product and entitlement, tenant/region, traffic or data path, identity/context, policy/action semantics, integrations, security/privacy, operations, Support boundary, and bounded tests. I compare current alternatives and include the capability only if acceptance passes. I never infer a UI, control, SLA, or outcome from marketing.
 
-### Q8. How does Arti's background transfer honestly to risk mitigation?
+### Q8. How does your background transfer honestly to risk mitigation?
 
-**Model answer:** Her Microsoft escalation work required validating symptoms, tracing identity/network/application/service paths, assessing impact, developing mitigations and workarounds, coordinating owners, communicating options, and validating recovery. SQL and Power BI support evidence quality and transparent prioritization. Those methods transfer, while production vulnerability prioritization, Zscaler control operation, remediation SLA ownership, customer cyber-risk acceptance, and measured risk reduction remain explicit ramp areas practiced synthetically here.
+**Model answer:** Your prior escalation work required validating symptoms, tracing identity/network/application/service paths, assessing impact, developing mitigations and workarounds, coordinating owners, communicating options, and validating recovery. SQL and Power BI support evidence quality and transparent prioritization. Those methods transfer, while production vulnerability prioritization, Zscaler control operation, remediation SLA ownership, customer cyber-risk acceptance, and measured risk reduction remain explicit ramp areas practiced synthetically here.
 
 ## 30-Second Memory Hooks
 
@@ -1194,7 +1194,7 @@ The Zscaler sources support dated public positioning only. NIST, CISA, FIRST, NV
 | Residual | Remaining scenario, uncertainty, owner, trigger |
 | Product fit | Requirement, documentation, entitlement, path, test |
 | Executive recommendation | Scenario, options, decision, owner, residual |
-| Arti bridge | Mitigation discipline transfers; cyber claims do not |
+| Experience bridge | Mitigation discipline transfers; cyber claims do not |
 
 ## Completion Checklist
 
@@ -1212,7 +1212,7 @@ The Zscaler sources support dated public positioning only. NIST, CISA, FIRST, NV
 - [ ] I can record residual risk, monitoring, contingency, expiry, and reopen triggers.
 - [ ] I can evaluate current Zscaler capability through documentation, entitlement, architecture, and tests without invented UI or outcomes.
 - [ ] I can use the finding, context, option, decision, action, SLA, validation, residual, executive, objection, and account-team templates.
-- [ ] I can describe Arti's transferable skills without claiming production Zscaler, VM, SLA, risk-acceptance, or mitigation outcomes.
+- [ ] I can describe your transferable skills without claiming production Zscaler, VM, SLA, risk-acceptance, or mitigation outcomes.
 - [ ] I can answer Q1-Q8 aloud with evidence-led, customer-specific language.
 
 [Next: Part 105 - Technical Consulting, Workshops, Whiteboarding, and Training](Part-105-consulting-workshops-training.md)

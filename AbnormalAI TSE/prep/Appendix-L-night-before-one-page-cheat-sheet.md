@@ -2,7 +2,7 @@
 
 > **Use:** Rapid night-before and interview-day recall. Read prompts, answer aloud, and stop; use linked Parts for depth.
 >
-> **Truth label:** Microsoft enterprise-support production transfer + current public/JD learning + synthetic practice only where actually performed. **No direct Abnormal AI or email-security production operation is established.**
+> **Truth label:** enterprise-support production transfer + current public/JD learning + synthetic practice only where actually performed. **No direct Abnormal AI or email-security production operation is established.**
 >
 > **Currency date:** Official public sources were accessed August 24, 2026. Revalidate changing mission wording, portfolio names, features, metrics, integrations, role scope, and interview details at use time through [Appendix J](Appendix-J-source-bibliography-and-current-official-docs.md).
 
@@ -21,7 +21,7 @@
 
 | Beat | Cue | Time |
 |---|---|---|
-| Present foundation | “I have five years in Microsoft customer-facing enterprise support across the verified workloads and responsibilities in my CV.” | 10-15s |
+| Present foundation | “I have several years in enterprise customer-facing support across the verified workloads and responsibilities in my CV.” | 10-15s |
 | Proof pattern | Complex/critical investigations; customer/partner communication; Engineering/Product escalation; fix validation | 15-20s |
 | Compounding value | KB/training, mentoring, case quality, CSAT/backlog analysis | 10-15s |
 | Technical direction | Microsoft cloud transfer plus deliberate email security, identity, APIs, networking, logs, and AI learning | 10-15s |
@@ -30,13 +30,13 @@
 
 **Do not:** recite the full CV, imply Exchange/security operations, or say a study guide equals hands-on production depth.
 
-## Why Abnormal, Why the Role, Why Arti
+## Why Abnormal, Why the Role, Why you
 
 | Question | Answer cues only | Boundary |
 |---|---|---|
 | Why Abnormal? | Official public mission: **stop crime with AI**; supplied JD joins Cloud Email Security, AI Security Agents, and SaaS Security; meaningful enterprise customer/security outcomes; public emphasis on behavioral context; connect to evidence-led support | Attribute public claims; do not claim culture, outcomes, architecture, or internals from experience |
 | Why this role? | Best verified evidence is enterprise technical support: incomplete report -> scope -> hypotheses -> evidence -> collaboration -> update -> validation -> knowledge; role adds security SaaS depth | Do not imply the exact Abnormal workflow is known |
-| Why Arti? | Five years' enterprise ownership; critical-case calm; technical/nontechnical trust; Engineering/Product handoff; fix validation; reusable knowledge; mentoring and support analytics; deliberate learning | Use only CV-verifiable examples and numbers |
+| Why you? | Several years of enterprise ownership; critical-case calm; technical/nontechnical trust; Engineering/Product handoff; fix validation; reusable knowledge; mentoring and support analytics; deliberate learning | Use only CV-verifiable examples and numbers |
 | Why move now? | Moving **toward** security/AI/SaaS customer problems, not away from support; foundations and safe labs make the transition intentional | Avoid generic “cybersecurity is exciting” |
 
 **Direct gap language:**
@@ -47,7 +47,7 @@
 
 | Tier | Say | Never upgrade it to |
 |---|---|---|
-| Verified production transfer | “In Microsoft enterprise support, I...” | Security-vendor, Abnormal, or unlisted workload experience |
+| Verified production transfer | “In enterprise support, I...” | Security-vendor, Abnormal, or unlisted workload experience |
 | Current official/JD learning | “The supplied JD/official page states as of [date]...” | Independent proof or private product knowledge |
 | Performed synthetic lab | “In a local synthetic exercise I performed...” | Customer/production operation |
 | Designed/not performed | “I designed a lab/plan...” | “I tested,” “I implemented,” or measured result |
@@ -188,7 +188,7 @@ Baseline, definition, segmentation, target, owner, and guardrail come before opt
 | Story cue | S/T/A/R/Reflection placeholders | Likely competencies |
 |---|---|---|
 | Complex investigation | `[REAL WORKLOAD/SYMPTOM]` / `[YOUR OWNERSHIP]` / `[HYPOTHESES-EVIDENCE-ACTIONS]` / `[VERIFIED RESULT]` / `[LESSON]` | Troubleshooting, ownership |
-| CRITSIT/high impact | `[SANITIZED IMPACT]` / `[ROLE]` / `[STRUCTURE-UPDATES-ESCALATION]` / `[OUTCOME]` / `[WHAT CHANGED]` | Calm, prioritization, trust |
+| Critical situation/high impact | `[SANITIZED IMPACT]` / `[ROLE]` / `[STRUCTURE-UPDATES-ESCALATION]` / `[OUTCOME]` / `[WHAT CHANGED]` | Calm, prioritization, trust |
 | Difficult customer | `[REAL CONCERN]` / `[EXPECTATION]` / `[LISTEN-CLARIFY-PLAN]` / `[RESULT]` / `[EMPATHY LESSON]` | De-escalation, communication |
 | Engineering/Product | `[BOUNDARY]` / `[EXPLICIT ASK]` / `[REPRO-IDS-COLLABORATION]` / `[FIX/DECISION-VALIDATION]` / `[HANDOFF LESSON]` | Cross-functional influence |
 | KB/training | `[REPEATED NEED]` / `[AUDIENCE]` / `[CONTENT-REVIEW-DELIVERY]` / `[VERIFIED USE/FEEDBACK]` / `[IMPROVEMENT]` | Knowledge, enablement |

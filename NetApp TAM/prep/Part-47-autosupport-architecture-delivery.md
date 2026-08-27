@@ -1,10 +1,10 @@
 # Part 47 - AutoSupport Architecture, Delivery, Privacy, and Troubleshooting
 
-> **Section goal:** Understand how ONTAP AutoSupport collects, packages, routes, records, and delivers support information, and how to diagnose stale or missing telemetry without confusing local collection with remote receipt. By the end, Arti should be able to explain message types, manifests, destinations, HTTPS/SMTP paths, entitlement and identity dependencies, privacy controls, delivery evidence, troubleshooting, and customer risk while remaining honest about gated access and production experience.
+> **Section goal:** Understand how ONTAP AutoSupport collects, packages, routes, records, and delivers support information, and how to diagnose stale or missing telemetry without confusing local collection with remote receipt. By the end, you should be able to explain message types, manifests, destinations, HTTPS/SMTP paths, entitlement and identity dependencies, privacy controls, delivery evidence, troubleshooting, and customer risk while remaining honest about gated access and production experience.
 
 Covers index item **47** and maps directly to job-description responsibilities for generating and analyzing customer data, proactive risk mitigation, support-experience improvement, install-base accuracy, customer-specific recommendations, operational service reviews, secure evidence handling, and cross-functional escalation.
 
-**Explicit nonclaim:** Arti has not administered or troubleshot AutoSupport in a production NetApp environment.
+**Explicit nonclaim:** You have not administered or troubleshot AutoSupport in a production NetApp environment.
 
 **Privacy and access boundary:** Customer telemetry, manifests, payloads, identifiers, contracts, portal status, and support evidence require authorization, minimization, secure handling, and approved retention.
 
@@ -14,7 +14,7 @@ Covers index item **47** and maps directly to job-description responsibilities f
 
 This Part provides no production configuration recipe, destination allow-list, firewall rule, proxy exception, redaction guarantee, retention promise, or entitlement result. Public examples establish concepts only. Customer-specific AutoSupport payloads, Support Site assets, Active IQ Digital Advisor views, case data, and some Knowledge Base procedures require authorized identity and entitlement. Missing access remains an explicit gap; it is never replaced with an invented screen or result.
 
-> **No-production-NetApp boundary:** Arti does not claim production ONTAP AutoSupport experience. Every cluster, serial, message, status, destination, timeline, customer, screenshot-like table, and recommendation below is synthetic. Her factual strengths are Microsoft enterprise support, CRITSIT evidence collection, Azure/M365 networking, DNS/TCP/TLS/proxy troubleshooting, analytics, customer reviews, and secure escalation. The explicit non-claim is: **she has not configured or tested production AutoSupport, inspected a customer's payload or manifest, used AutoSupport OnDemand, diagnosed a production delivery failure, accessed customer Digital Advisor telemetry, changed private-data settings, or uploaded a core/performance archive through AutoSupport.**
+> **No-production-NetApp boundary:** You do not claim production ONTAP AutoSupport experience. Every cluster, serial, message, status, destination, timeline, customer, screenshot-like table, and recommendation below is synthetic. Your factual strengths are enterprise support, critical-situation evidence collection, Azure/M365 networking, DNS/TCP/TLS/proxy troubleshooting, analytics, customer reviews, and secure escalation. The explicit non-claim is: **you have not configured or tested production AutoSupport, inspected a customer's payload or manifest, used AutoSupport OnDemand, diagnosed a production delivery failure, accessed customer Digital Advisor telemetry, changed private-data settings, or uploaded a core/performance archive through AutoSupport.**
 
 ---
 
@@ -566,15 +566,15 @@ flowchart LR
 
 ### JD Mapping
 
-| JD responsibility | Part 47 contribution | Arti's factual bridge and gap |
+| JD responsibility | Part 47 contribution | Your factual bridge and gap |
 |---|---|---|
 | Generate/analyze customer data | Defines message, manifest, freshness, identity, and quality schema | Analytics/evidence skills transfer; no production payload access |
-| Improve support experience | Reduces missing context and validates delivery before incidents | Microsoft escalation-package discipline transfers |
-| Proactive risk/stability | Treats missing/stale telemetry as a managed risk | CRITSIT and monitoring reasoning transfer |
+| Improve support experience | Reduces missing context and validates delivery before incidents | enterprise escalation-package discipline transfers |
+| Proactive risk/stability | Treats missing/stale telemetry as a managed risk | critical situation and monitoring reasoning transfer |
 | Install-base quality | Reconciles cluster/node/serial/account/entitlement association | Data-quality strengths transfer |
 | Customer recommendations | Connects evidence to network/privacy/owner/proof/residual risk | Advisory and review communication transfer |
 | Security/privacy | Applies minimization, consent, redaction, secure transfer, retention | Enterprise data-handling experience transfers |
-| Cross-functional work | Coordinates storage, network, PKI, security, Support, partner, account owners | Multi-team Microsoft experience transfers |
+| Cross-functional work | Coordinates storage, network, PKI, security, Support, partner, account owners | Multi-team prior experience transfers |
 
 ---
 
@@ -704,7 +704,7 @@ sequenceDiagram
 
 ### Bounded recommendation
 
-> **Finding:** Synthetic node B collects the expected message and sends internal SMTP notice, but HTTPS delivery fails certificate validation after a proxy trust change; node A remains current. **Risk:** NetApp-side telemetry for node B is stale, reducing proactive wellness and incident-context quality. **Recommendation:** The PKI/network owner and storage owner should restore the documented trusted certificate chain/name/time path without disabling validation, then run the smallest supported check/test. **Access fallback:** The authorized portal owner, not Arti, confirms remote receipt and asset association. **Validation:** node B shows a successful HTTPS destination result, the expected manifest is complete enough, and the portal owner confirms the new sequence. **Residual risk:** a basic test does not prove every large upload/subsystem; ongoing weekly and event-message freshness monitoring remains.
+> **Finding:** Synthetic node B collects the expected message and sends internal SMTP notice, but HTTPS delivery fails certificate validation after a proxy trust change; node A remains current. **Risk:** NetApp-side telemetry for node B is stale, reducing proactive wellness and incident-context quality. **Recommendation:** The PKI/network owner and storage owner should restore the documented trusted certificate chain/name/time path without disabling validation, then run the smallest supported check/test. **Access fallback:** The authorized portal owner, not you, confirms remote receipt and asset association. **Validation:** node B shows a successful HTTPS destination result, the expected manifest is complete enough, and the portal owner confirms the new sequence. **Residual risk:** a basic test does not prove every large upload/subsystem; ongoing weekly and event-message freshness monitoring remains.
 
 ### What the scenario proves
 
@@ -716,11 +716,11 @@ sequenceDiagram
 
 ---
 
-## 14. Arti's transfer and honest gap
+## 14. Your transfer and honest gap
 
 ```mermaid
 flowchart LR
-    CRIT[Microsoft CRITSIT evidence] --> SCOPE[Impact timeline logs secure escalation]
+    CRIT[Enterprise critical-situation evidence] --> SCOPE[Impact timeline logs secure escalation]
     AZ[Azure/M365 networking] --> PATH[DNS route proxy TLS firewall SMTP]
     BI[Excel Power BI SQL Python] --> DATA[Freshness manifests gaps trends data quality]
     REV[Customer reviews] --> STORY[Risk recommendation owner validation]
@@ -738,11 +738,11 @@ flowchart LR
 | Enterprise support/escalation | Question-led evidence, secure transfer, exact ask | Not NetApp AutoSupport operation |
 | DNS/TCP/TLS/proxy/SMTP troubleshooting | Delivery-path hypothesis testing | Exact ONTAP fields/procedures require current docs |
 | Analytics/data quality | Freshness, completeness, duplicate/identity and gap reporting | No customer Digital Advisor data assumed |
-| CRITSIT/customer communication | Impact, owner, checkpoint, residual risk | No authority to change customer egress/privacy settings |
+| Critical situation/customer communication | Impact, owner, checkpoint, residual risk | No authority to change customer egress/privacy settings |
 
 ### Honest interview answer
 
-> "I understand AutoSupport as a collection-and-delivery pipeline: a trigger starts subsystem collection, the manifest records included files and collection errors, the message enters local history, and each HTTPS or SMTP destination has its own delivery result. I would validate DNS, route, firewall, proxy or mail relay, TLS and asset/entitlement association, then state telemetry freshness and gaps. My production experience is Microsoft support and network evidence, not ONTAP AutoSupport or Digital Advisor; I would use current docs and an authorized customer or NetApp owner for gated confirmation."
+> "I understand AutoSupport as a collection-and-delivery pipeline: a trigger starts subsystem collection, the manifest records included files and collection errors, the message enters local history, and each HTTPS or SMTP destination has its own delivery result. I would validate DNS, route, firewall, proxy or mail relay, TLS and asset/entitlement association, then state telemetry freshness and gaps. My production experience is enterprise support and network evidence, not ONTAP AutoSupport or Digital Advisor; I would use current docs and an authorized customer or NetApp owner for gated confirmation."
 
 ---
 
@@ -801,7 +801,7 @@ Create eight node records with:
 - [ ] TLS validation, privacy, consent, and secure transfer are not bypassed.
 - [ ] EMS, AutoSupport, Digital Advisor, and support bundles remain distinct.
 - [ ] All tables/screenshots are labeled synthetic.
-- [ ] No result is described as Arti's production NetApp experience.
+- [ ] No result is described as your production NetApp experience.
 
 ### Self-test
 
@@ -881,9 +881,9 @@ Create eight node records with:
 
 > **Model answer:** "I define purpose and customer authorization, minimize message/file/time/recipient scope, inspect the manifest and current privacy settings, classify identifiers/content/PII/secrets, use approved encrypted destinations, restrict access, redact customer-facing working copies, and follow retention/deletion policy. I never request secrets or promise that one private-data setting removes every sensitive item."
 
-### Q8. How does your Microsoft background transfer, and what remains a gap?
+### Q8. How does your prior background transfer, and what remains a gap?
 
-> **Model answer:** "My Microsoft enterprise support work gives me production evidence discipline, secure escalation, DNS/TCP/TLS/proxy/SMTP troubleshooting, CRITSIT communication, and analytics for freshness and missing data. I understand AutoSupport's architecture and validation method, but I have not configured it or used customer Digital Advisor in production. I would use current docs and authorized storage, network, PKI, customer, and NetApp owners."
+> **Model answer:** "My prior enterprise support work gives me production evidence discipline, secure escalation, DNS/TCP/TLS/proxy/SMTP troubleshooting, critical-situation communication, and analytics for freshness and missing data. I understand AutoSupport's architecture and validation method, but I have not configured it or used customer Digital Advisor in production. I would use current docs and authorized storage, network, PKI, customer, and NetApp owners."
 
 ---
 
@@ -903,7 +903,7 @@ Create eight node records with:
 - **Entitlement:** Delivered data still needs correct asset/account association and authorized access.
 - **Privacy:** Purpose, consent, minimize, protect, redact, retain/delete.
 - **EMS:** Event; **AutoSupport:** package; **Digital Advisor:** analysis; **bundle:** case collection.
-- **Arti's bridge:** Network/evidence discipline transfers; production NetApp tool use does not.
+- **Your bridge:** Network/evidence discipline transfers; production NetApp tool use does not.
 
 ---
 

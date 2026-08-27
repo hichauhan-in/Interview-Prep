@@ -1,14 +1,14 @@
 # Part 88 - Exposure Validation, Attack Paths, Controls, and Mobilization
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 
 > **Purpose:** Build an operational understanding of exposure validation, evidence-backed attack paths, control effectiveness, safe test design, choke-point prioritization, mobilization, closure proof, troubleshooting, governance, and communication without teaching unauthorized exploitation or inventing product behavior.
 
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH system, identity, source, weakness, path, control, test, date, metric, ticket, decision, and result is invented. Arti's factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler, CTEM, Risk360, exposure validation, breach and attack simulation, penetration testing, red teaming, control assurance, SOC operations, and customer risk authority remain learning boundaries.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH system, identity, source, weakness, path, control, test, date, metric, ticket, decision, and result is invented. Your factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler, CTEM, Risk360, exposure validation, breach and attack simulation, penetration testing, red teaming, control assurance, SOC operations, and customer risk authority remain learning boundaries.
 
 > **Currency caveat:** Product wording, exposure methods, architecture, interfaces, telemetry, workflows, testing capabilities, limits, entitlements, and customer conditions change. The controlled official-source snapshot and source review date for this Part is exactly **2026-08-24**. Current official documentation, licensed-tenant evidence, customer testing policy, written authorization, product specialists, Zscaler Support, source-native evidence, safety monitoring, and measured postconditions govern production decisions.
 
-> **Section goal:** Enable Arti to explain how a team moves from an exposure hypothesis to bounded evidence and executable treatment: model attack paths without treating inference as fact, validate prerequisites and controls with the minimum safe method, select efficient choke points, mobilize accountable owners, and prove residual reduction while keeping uncertainty and authority visible.
+> **Section goal:** Enable you to explain how a team moves from an exposure hypothesis to bounded evidence and executable treatment: model attack paths without treating inference as fact, validate prerequisites and controls with the minimum safe method, select efficient choke points, mobilize accountable owners, and prove residual reduction while keeping uncertainty and authority visible.
 
 The reviewed Zscaler CTEM page supports bounded public positioning around continuous exposure management. The reviewed Data Fabric, Asset Exposure Management, UVM, and Risk360 pages support adjacent positioning around unified context, vulnerability priority, and enterprise risk framing. This Part does not claim a proprietary Zscaler attack-path engine, validation method, control catalog, workflow, data model, or entitlement. The path model, test ladder, assurance logic, and mobilization process below are general security practice.
 
@@ -178,7 +178,7 @@ flowchart TD
 
 When a web page fails, an escalation engineer does not stop at "network issue." DNS may resolve the wrong name, routing may lack a path, TCP may be blocked, TLS may reject a certificate, a proxy may deny policy, authentication may fail, authorization may deny the resource, or the application may return an error. Each layer has distinct evidence.
 
-Security reachability should be decomposed similarly. "Internet reachable" might mean only that DNS exists, that a TCP port responded once, that a TLS service answered, that an unauthenticated endpoint exists, or that an affected function can be invoked. "Internal reachable" might require device posture, identity, app segment, policy, protocol, and time. A path engine or analyst should not compress these into one unexplained Boolean. Arti's factual networking background supports this layered reasoning, not a production claim about testing attack paths.
+Security reachability should be decomposed similarly. "Internet reachable" might mean only that DNS exists, that a TCP port responded once, that a TLS service answered, that an unauthenticated endpoint exists, or that an affected function can be invoked. "Internal reachable" might require device posture, identity, app segment, policy, protocol, and time. A path engine or analyst should not compress these into one unexplained Boolean. Your factual networking background supports this layered reasoning, not a production claim about testing attack paths.
 
 ## Validation goals and decision value
 
@@ -557,7 +557,7 @@ flowchart LR
 
 ## Complete synthetic NMH validation and mobilization case
 
-Everything in this section is explicitly fictional and synthetic. It is not a description of a Zscaler tenant, supported product graph, validation capability, customer deployment, test, incident, result, or Arti production work. Every date below is a synthetic scenario date and is on or before the official source review date. The source snapshot remains 2026-08-24.
+Everything in this section is explicitly fictional and synthetic. It is not a description of a Zscaler tenant, supported product graph, validation capability, customer deployment, test, incident, result, or documented production work. Every date below is a synthetic scenario date and is on or before the official source review date. The source snapshot remains 2026-08-24.
 
 The fictional cycle runs from 2026-08-19 to 2026-08-23. NMH's synthetic question is whether a contractor identity could move from a fictional remote support entry to a medication analytics administration plane and then reach a synthetic data repository. The scenario excludes real credentials, patient data, exploitation, destructive action, persistence, social engineering, and supplier infrastructure.
 
@@ -814,7 +814,7 @@ Official Zscaler pages support bounded public positioning only. Attack-path evid
 
 **Model answer:** Fix target, identity, viewer, and UTC window; preserve evidence and contain unsafe automation. Verify node identity/lifecycle, then every edge's semantics, direction, source, time, prerequisites, joins, merges/splits, and expiry. Compare intended configuration, effective policy, observed telemetry, and test conditions. For timeouts or missing alerts, inspect server/control/SOC evidence before retrying. Repair the smallest layer, recompute, retest safely, reconcile downstream records, and restate claims.
 
-### Q8. How does Arti's background help without overstating experience?
+### Q8. How does your background help without overstating experience?
 
 **Model answer:** Microsoft 365, OneDrive, and SharePoint escalation work provides production discipline in exact identity, permissions, service dependencies, evidence, customer impact, containment, ownership, and validation. Networking traces support layered reachability analysis. SQL and Power BI support temporal graphs, nulls, joins, cohorts, and movement bridges. Mentoring and reviewed AI assistance support adoption and grounded communication. NMH is synthetic; production Zscaler, attack-path validation, control assurance, and offensive testing remain learning boundaries.
 
@@ -837,7 +837,7 @@ Official Zscaler pages support bounded public positioning only. Attack-path evid
 | Closure | Postconditions, not ticket state |
 | Residual | Alternate routes and unknowns remain visible |
 | TSM | Clarify, facilitate, evidence, adopt, escalate; never self-authorize |
-| Arti bridge | Layered Microsoft diagnosis transfers; offensive claims do not |
+| Experience bridge | Layered Microsoft diagnosis transfers; offensive claims do not |
 
 ## Completion Checklist
 

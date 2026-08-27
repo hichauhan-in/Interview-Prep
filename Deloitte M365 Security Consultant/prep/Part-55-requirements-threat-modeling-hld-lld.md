@@ -2,7 +2,7 @@
 
 > **Section goal:** Build a beginner-first, consulting-grade method for turning validated findings and business outcomes into testable requirements, threat-informed architecture decisions, a high-level design (HLD), a low-level design (LLD), and evidence-linked tests. By the end, you should be able to elicit functional, nonfunctional, security, privacy, compliance, operational, and transition requirements; write clear and testable criteria; build use, misuse, and abuse cases; classify data; draw context, data-flow, authentication, logging, and trust-boundary diagrams; run a threat-modeling lifecycle using STRIDE and attack trees; relate design threats to MITRE ATT&CK without confusing the two; map risks to preventive, detective, responsive, and recovery controls; compare architecture options and capture decisions in architecture decision records (ADRs); define exact HLD and LLD contents; design RBAC, integrations, logging, resilience, and failure behavior; manage assumptions, constraints, dependencies, and exceptions; run structured design reviews; and produce a safe fictional target-architecture portfolio pack.
 
-This Part maps directly to the role's expectations for Microsoft 365 security architecture, requirements analysis, threat modeling, target-state design, integration, documentation, stakeholder communication, deployment readiness, security-by-design, and technical assurance. Arti's production strengths in understanding customer environments, tracing SharePoint/OneDrive and M365 dependencies, troubleshooting authentication and service flows, coordinating vendors and product groups, performing RCA, validating fixes, writing technical guidance, and translating technical impact for stakeholders provide a strong foundation. The consulting bridge is to make every design choice traceable to an approved outcome and requirement before implementation begins.
+This Part maps directly to the role's expectations for Microsoft 365 security architecture, requirements analysis, threat modeling, target-state design, integration, documentation, stakeholder communication, deployment readiness, security-by-design, and technical assurance. Your production strengths in understanding customer environments, tracing SharePoint/OneDrive and M365 dependencies, troubleshooting authentication and service flows, coordinating vendors and product groups, performing RCA, validating fixes, writing technical guidance, and translating technical impact for stakeholders provide a strong foundation. The consulting bridge is to make every design choice traceable to an approved outcome and requirement before implementation begins.
 
 > **Method boundary:** This chapter is general public architecture and security-engineering guidance. It uses Microsoft Learn, Microsoft Security Development Lifecycle (SDL), NIST, MITRE, OWASP, and other recognized public references. It does not describe or imply Deloitte's internal, confidential, or proprietary architecture method, templates, review gates, or deliverable standards. A real engagement must use approved firm and client methods, contractual deliverables, architecture governance, data-handling rules, and quality review.
 
@@ -21,9 +21,9 @@ This Part maps directly to the role's expectations for Microsoft 365 security ar
 
 ## Candidate honesty note
 
-Arti can credibly discuss production Microsoft 365 technical advisory, service and authentication dependencies, SharePoint/OneDrive architecture and migration considerations, escalations, RCA, vendor/product-group interfaces, change validation, documentation, stakeholder communication, and operational handover. Those are real inputs to architecture work.
+You can credibly discuss production Microsoft 365 technical advisory, service and authentication dependencies, SharePoint/OneDrive architecture and migration considerations, escalations, RCA, vendor/product-group interfaces, change validation, documentation, stakeholder communication, and operational handover. Those are real inputs to architecture work.
 
-She should not claim to have been the accountable enterprise security architect for Entra, Intune, Purview, Defender, or Sentinel; authored a Deloitte HLD/LLD; approved a client threat model; or implemented the fictional target architecture unless separately evidenced. Safe wording is:
+You should not claim to have been the accountable enterprise security architect for Entra, Intune, Purview, Defender, or Sentinel; authored a Deloitte HLD/LLD; approved a client threat model; or implemented the fictional target architecture unless separately evidenced. Safe wording is:
 
 > “My production experience is Microsoft 365 support escalation and technical advisory, including dependency mapping, evidence-led RCA, vendor coordination, change validation, documentation, and stakeholder communication. I have built a fictional target-architecture pack that traces findings to functional, security, privacy, operational, and transition requirements; models data flows, trust boundaries, STRIDE threats, attack trees and controls; compares options in ADRs; and defines HLD, LLD, RBAC, integration, logging, resilience, failure and test details. I would use the firm's approved architecture process and validate current Microsoft behavior, licensing, tenant constraints, client standards, privacy, and risk acceptance before implementation.”
 
@@ -1139,7 +1139,7 @@ flowchart LR
 
 ## 42. JD Mapping: interview translation
 
-| Interview theme | Arti's real foundation | Honest architecture translation |
+| Interview theme | Your real foundation | Honest architecture translation |
 |---|---|---|
 | Requirements | Clarified impact, scope, environment and success in support | Structured multi-category testable requirements |
 | Flows | Traced M365, auth, sync, sharing and migration dependencies | Data/auth/log/incident/trust-boundary diagrams |
@@ -1233,7 +1233,7 @@ These sources support the public design and threat-modeling concepts in this cha
 - **Observability is designed, not added after deployment.**
 - **Exceptions change the threat model.**
 - **Every Must gets positive, negative, failure and operation tests.**
-- **Arti's bridge:** dependency/RCA/validation work → traceable security design.
+- **Your bridge:** dependency/RCA/validation work → traceable security design.
 - **Honesty:** fictional architecture pack, not production ownership claim.
 
 ## Completion Checklist

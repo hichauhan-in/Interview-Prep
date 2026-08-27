@@ -8,9 +8,9 @@
 
 ## Section Goal
 
-By the end of this Part, Arti should be able to draw a useful email-system map from memory and explain it without treating “the mail server” as one undifferentiated box. She should distinguish the **author** from the **originator**, the **recipient** from the **receiver**, and a **Message User Agent (MUA)** from a **Mail Submission Agent (MSA)**, **Message Transfer Agent (MTA)**, **Mail Delivery Agent (MDA)**, **message store**, gateway, mediator, boundary filter, directory, and Domain Name System (DNS) service.
+By the end of this Part, you should be able to draw a useful email-system map from memory and explain it without treating “the mail server” as one undifferentiated box. You should distinguish the **author** from the **originator**, the **recipient** from the **receiver**, and a **Message User Agent (MUA)** from a **Mail Submission Agent (MSA)**, **Message Transfer Agent (MTA)**, **Mail Delivery Agent (MDA)**, **message store**, gateway, mediator, boundary filter, directory, and Domain Name System (DNS) service.
 
-She should be able to follow a message through creation, posting, submission, routing, relaying, receipt, filtering, delivery, storage, synchronization, and display. At every transition, she should ask five questions:
+You should be able to follow a message through creation, posting, submission, routing, relaying, receipt, filtering, delivery, storage, synchronization, and display. At every transition, you should ask five questions:
 
 1. Which logical actor is acting?
 2. Which administrative authority controls it?
@@ -18,7 +18,7 @@ She should be able to follow a message through creation, posting, submission, ro
 4. Which identifiers and evidence are available at that point?
 5. What would success at this boundary prove, and what would it not prove?
 
-The support outcome is a disciplined localization method. Instead of saying “email failed,” Arti should be able to say, for example: “The sending MTA received a final `250` reply from the recipient domain’s boundary MTA, so responsibility crossed that SMTP boundary. Mailbox delivery and inbox placement remain unproven. We need the receiving administrative domain’s trace or quarantine evidence, correlated by time, sender, envelope recipient, and message identifier.”
+The support outcome is a disciplined localization method. Instead of saying “email failed,” you should be able to say, for example: “The sending MTA received a final `250` reply from the recipient domain’s boundary MTA, so responsibility crossed that SMTP boundary. Mailbox delivery and inbox placement remain unproven. We need the receiving administrative domain’s trace or quarantine evidence, correlated by time, sender, envelope recipient, and message identifier.”
 
 The practical outcome is the **Post Office Map: Synthetic Email Actor and Evidence Lab**. It produces a topology, responsibility ledger, evidence matrix, and spoken support explanation using only reserved example domains and invented records. It sends no mail, opens no account, scans no infrastructure, and uses no customer or production data.
 
@@ -37,13 +37,13 @@ The practical outcome is the **Post Office Map: Synthetic Email Actor and Eviden
 
 ## Candidate Honesty Note
 
-Arti can use real Microsoft enterprise-support experience to demonstrate structured scoping, cross-team escalation, evidence correlation, customer communication, safe change control, and validation. Familiarity with Microsoft cloud administration, networking, identity, logs, REST/JSON, and troubleshooting is a legitimate transfer advantage.
+You can use real enterprise-support experience to demonstrate structured scoping, cross-team escalation, evidence correlation, customer communication, safe change control, and validation. Familiarity with Microsoft cloud administration, networking, identity, logs, REST/JSON, and troubleshooting is a legitimate transfer advantage.
 
-She must not claim that this lesson proves production operation of Abnormal, an email-security gateway, Exchange transport, Google Workspace Gmail administration, a Security Operations Center (SOC), or any named adjacent security platform. A hand-drawn topology and synthetic evidence workbook demonstrate learned architecture and method, not tenure operating a mail platform.
+You must not claim that this lesson proves production operation of Abnormal, an email-security gateway, Exchange transport, Google Workspace Gmail administration, a Security Operations Center (SOC), or any named adjacent security platform. A hand-drawn topology and synthetic evidence workbook demonstrate learned architecture and method, not tenure operating a mail platform.
 
-| Evidence label | What Arti may honestly say | What she must not imply |
+| Evidence label | What you may honestly say | What you must not imply |
 |---|---|---|
-| **Production-transfer example** | “In Microsoft enterprise support, I localized faults across service and ownership boundaries and built evidence-led escalations.” | That the real case involved email security if it did not |
+| **Production-transfer example** | “In enterprise support, I localized faults across service and ownership boundaries and built evidence-led escalations.” | That the real case involved email security if it did not |
 | **Working knowledge/upskilling** | “I understand networking, DNS, identity, APIs, logs, and distributed-service troubleshooting.” | Unstated production depth in SMTP, Exchange transport, or Gmail routing |
 | **Local/public lab** | “I built a synthetic actor map and responsibility ledger using reserved domains.” | That a real provider tenant or customer message was tested |
 | **Learned architecture** | “RFC 5598 gives me a vendor-neutral model for email actors and administrative domains.” | That every vendor exposes components exactly as the model draws them |
@@ -804,7 +804,7 @@ Use this workflow before interpreting sophisticated threat or authentication det
 
 ### Microsoft 365 / Exchange Online
 
-Arti’s Microsoft background is a useful bridge because Exchange terminology includes mail flow, accepted domains, connectors, transport rules, message trace, quarantine, and hybrid routing. However, she should still map product terms to logical roles. A connector is route/trust configuration, not a new universal actor. Exchange Online Protection can participate in boundary filtering and transport processing, while a cloud mailbox service also supplies delivery, store, and client-access functions.
+Your prior background is a useful bridge because Exchange terminology includes mail flow, accepted domains, connectors, transport rules, message trace, quarantine, and hybrid routing. However, you should still map product terms to logical roles. A connector is route/trust configuration, not a new universal actor. Exchange Online Protection can participate in boundary filtering and transport processing, while a cloud mailbox service also supplies delivery, store, and client-access functions.
 
 The exact tenant configuration decides the path. Public MX may point to Microsoft, another gateway, or on-premises infrastructure. Hybrid centralized transport can add boundaries and repeated hops. Part 031 will cover this provider specifically.
 
@@ -816,7 +816,7 @@ Google documents that an inbound gateway processes mail before Gmail and that it
 
 ### Abnormal boundary
 
-The supplied role context makes email architecture essential, but this Part does not invent where Abnormal sits in every customer topology or which internal evidence it exposes. In an interview or case, Arti can say:
+The supplied role context makes email architecture essential, but this Part does not invent where Abnormal sits in every customer topology or which internal evidence it exposes. In an interview or case, you can say:
 
 > “I would first identify the customer’s deployment pattern and responsibility boundaries, then map Abnormal’s documented events and identifiers onto that path. I would not assume an inline gateway model or equate a product verdict with the mailbox provider’s final disposition without evidence.”
 
@@ -1121,7 +1121,7 @@ All listed sources were accessed on August 24, 2026 and must be revalidated for 
 
 ### Q8. How does your background prepare you for this if you have not operated Abnormal?
 
-**Model answer:** My Microsoft enterprise-support background transfers strongly in distributed-service scoping, networking and identity fundamentals, evidence correlation, critical communication, Engineering collaboration, safe changes, validation, and knowledge capture. I have built this email architecture from current standards and provider documentation and practiced it in a synthetic lab. I would be explicit that Abnormal’s exact deployment, telemetry, and internal process are learning areas, then map its documented evidence onto the same actor-and-boundary model during ramp.
+**Model answer:** My prior enterprise-support background transfers strongly in distributed-service scoping, networking and identity fundamentals, evidence correlation, critical communication, Engineering collaboration, safe changes, validation, and knowledge capture. I have built this email architecture from current standards and provider documentation and practiced it in a synthetic lab. I would be explicit that Abnormal’s exact deployment, telemetry, and internal process are learning areas, then map its documented evidence onto the same actor-and-boundary model during ramp.
 
 ## 🧠 30-Second Memory Hooks
 
@@ -1165,7 +1165,7 @@ All listed sources were accessed on August 24, 2026 and must be revalidated for 
 
 ### Honesty and safety
 
-- [ ] I label Microsoft experience as production transfer, the topology as learned architecture, and the exercise as a local/public lab.
+- [ ] I label prior experience as production transfer, the topology as learned architecture, and the exercise as a local/public lab.
 - [ ] I explicitly state that I have not operated Abnormal or Google Workspace in production.
 - [ ] I do not imply that RFC roles reveal a provider’s private implementation.
 - [ ] I request minimum evidence and exclude credentials, secrets, customer content, and unrelated identifiers.

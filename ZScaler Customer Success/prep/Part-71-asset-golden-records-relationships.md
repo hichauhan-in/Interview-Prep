@@ -1,10 +1,10 @@
 # Part 71 - Asset Golden Records, Relationships, Ownership, and Criticality
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 >
 > **Purpose:** Turn reconciled multi-source observations into useful, explainable asset knowledge. Cover golden records, field-level survivorship, provenance, source/pair/cluster/attribute confidence, typed and time-valid relationships, owner/custodian/user/department/geography/business-service/lifecycle context, Confidentiality-Integrity-Availability (CIA) and business criticality, crown jewels, internet exposure, false merges, false splits, governance, reviews, metrics, troubleshooting, labs, and honest interview positioning.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every NMH asset, source, attribute, relationship, confidence value, criticality tier, crown-jewel designation, internet-exposure state, threshold, review, incident, metric, timeline, and outcome in this Part is synthetic. Zscaler public pages support bounded statements that Asset Exposure Management (AEM) provides multi-source entity deduplication, relationship identification, asset golden records, coverage-gap use cases, workflows, CMDB capabilities, and reporting, powered by the Data Fabric for Security. Public pages do not disclose proprietary resolution, survivorship, confidence, graph, criticality, exposure, default, governance, or review mechanics. Detailed methods below are general educational patterns, not undocumented Zscaler implementation claims. Arti's Microsoft identity, device, permissions, service-dependency, telemetry, analytics, escalation, and customer skills transfer; direct production AEM ownership remains a learning boundary.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every NMH asset, source, attribute, relationship, confidence value, criticality tier, crown-jewel designation, internet-exposure state, threshold, review, incident, metric, timeline, and outcome in this Part is synthetic. Zscaler public pages support bounded statements that Asset Exposure Management (AEM) provides multi-source entity deduplication, relationship identification, asset golden records, coverage-gap use cases, workflows, CMDB capabilities, and reporting, powered by the Data Fabric for Security. Public pages do not disclose proprietary resolution, survivorship, confidence, graph, criticality, exposure, default, governance, or review mechanics. Detailed methods below are general educational patterns, not undocumented Zscaler implementation claims. Your prior identity, device, permissions, service-dependency, telemetry, analytics, escalation, and customer skills transfer; direct production AEM ownership remains a learning boundary.
 >
 > **Currency caveat:** Products, packaging, interfaces, integrations, fields, models, terminology, and documentation change. The controlled research/source date for this Part is exactly **2026-08-24**. Current official documentation, licensed tenant evidence, customer-approved source/field authority, business impact analysis, security/privacy/legal requirements, product specialists, Support guidance, direct tests, and accountable owner decisions govern production.
 
@@ -14,7 +14,7 @@ A golden record is a governed best-known view of an asset assembled from source 
 
 Think of a medical chart. The chart summarizes a patient, but each consequential fact still needs a source, date, author, and context. The current medication list may come from a clinician; contact information from the patient; allergy history from several records; and a diagnostic conclusion from a reviewed activity. Two patients must never be merged merely because they share a name. An old address should not override a current verified address. Asset records require the same care.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Evidence artifact |
 |---|---|---|
@@ -48,7 +48,7 @@ flowchart LR
 
 ## JD Mapping
 
-| Role expectation | Part 71 capability | TSM artifact | Arti bridge and boundary |
+| Role expectation | Part 71 capability | TSM artifact | experience bridge and boundary |
 |---|---|---|---|
 | Become AEM/Data Fabric expert | Explain public golden-record and relationship positioning with caveats | Architecture whiteboard | Verify tenant fields and behavior |
 | Analyze complex environments | Map assets, people, services, locations, data, controls, and dependencies | Context/relationship model | Microsoft dependency analysis transfers |
@@ -841,9 +841,9 @@ sequenceDiagram
 | Validate public exposure states | Cloud/network/app security | Continuous plus material change | Config, external observation, reachability, controls |
 | Add correction notices to executive reports | Reporting owner | Incident closure | Restated metrics and audit trail |
 
-## Arti bridge: from service dependency to asset context
+## Experience bridge: from service dependency to asset context
 
-Microsoft escalation work trained Arti to distinguish the reporter from the affected user, the device from the sync-client installation, a tenant from a site, identity from permission, and a network observation from a service defect. She traced dependencies among browser/client, DNS, TCP/TLS/proxy, authentication, permissions, content, and cloud service; coordinated teams with different ownership; and communicated what evidence did and did not prove.
+enterprise escalation work trained you to distinguish the reporter from the affected user, the device from the sync-client installation, a tenant from a site, identity from permission, and a network observation from a service defect. You traced dependencies among browser/client, DNS, TCP/TLS/proxy, authentication, permissions, content, and cloud service; coordinated teams with different ownership; and communicated what evidence did and did not prove.
 
 | Existing strength | Golden-record transfer | Learning boundary | Honest interview sentence |
 |---|---|---|---|
@@ -852,7 +852,7 @@ Microsoft escalation work trained Arti to distinguish the reporter from the affe
 | Permissions/identity | User versus owner versus service identity | Enterprise IAM/exposure graph | "Observed user is context, not automatic owner." |
 | Service troubleshooting | Typed dependencies and blast-radius hypotheses | Formal service mapping | "A relationship generates a test; it does not prove causality." |
 | SQL/analytics | Conflict, completeness, aging, error-rate metrics | Product query specifics | "I show unknown/conflict rather than defaulting low." |
-| CRITSIT/RCA | Contain false actions, repair, reconcile, prevent | Security exposure operations | "I separate identity, survivorship, relationship, and policy defects." |
+| Critical situation/RCA | Contain false actions, repair, reconcile, prevent | Security exposure operations | "I separate identity, survivorship, relationship, and policy defects." |
 | Customer communication | Fact/inference/uncertainty/decision narratives | CISO crown-jewel workshop | "I facilitate accountable owner decisions with evidence." |
 
 ## Labs and rehearsal
@@ -917,7 +917,7 @@ Present the source assertions, golden record, relationship graph, criticality/cr
 
 ### Lab 15 - Interview rehearsal
 
-Answer Q1-Q8 and draw identity -> survivorship -> relationships -> criticality/exposure -> decision -> review. **Pass:** Arti states transferable experience and direct-product gap precisely.
+Answer Q1-Q8 and draw identity -> survivorship -> relationships -> criticality/exposure -> decision -> review. **Pass:** You state transferable experience and direct-product gap precisely.
 
 ## Common misconceptions to correct
 
@@ -996,7 +996,7 @@ Zscaler sources support bounded AEM golden-record, relationship, multi-source, w
 
 ### Q8. How would you troubleshoot a wrong owner, criticality, or exposure path?
 
-**Model answer:** I contain harmful actions, then test entity membership, native assertions/mapping, field survivorship/authority/time, relationship type/direction/validity, and criticality/exposure policy/report in that order. I compare normal/affected/false-positive/false-negative examples, repair in no-action mode, and reconcile every score, group, ticket, CMDB update, dashboard, export, and historical correction. My Microsoft RCA skills transfer; AEM internals remain a learning boundary.
+**Model answer:** I contain harmful actions, then test entity membership, native assertions/mapping, field survivorship/authority/time, relationship type/direction/validity, and criticality/exposure policy/report in that order. I compare normal/affected/false-positive/false-negative examples, repair in no-action mode, and reconcile every score, group, ticket, CMDB update, dashboard, export, and historical correction. My prior RCA skills transfer; AEM internals remain a learning boundary.
 
 ## 30-Second Memory Hooks
 
@@ -1026,7 +1026,7 @@ Zscaler sources support bounded AEM golden-record, relationship, multi-source, w
 | False merge | Two patients, one chart |
 | False split | One patient, two charts |
 | Correction | Reconcile every downstream echo |
-| Arti bridge | Dependency/RCA evidence transfers; AEM operation does not |
+| Experience bridge | Dependency/RCA evidence transfers; AEM operation does not |
 
 ## Completion Checklist
 
@@ -1072,10 +1072,10 @@ Zscaler sources support bounded AEM golden-record, relationship, multi-source, w
 - [ ] I can explain the complete NMH source assertions, golden record, relationship graph, criticality/crown-jewel assessment, and false-merge incident.
 - [ ] I label every NMH field, relationship, confidence, tier, threshold, incident, metric, and result synthetic.
 - [ ] I can complete all fifteen labs and retain artifacts as lab evidence.
-- [ ] I connect Arti's Microsoft identity, dependency, timeline, analytics, escalation, and communication skills without claiming production AEM work.
+- [ ] I connect your prior identity, dependency, timeline, analytics, escalation, and communication skills without claiming production AEM work.
 - [ ] I use official Zscaler, NIST, CISA, W3C, and CMDB sources with explicit boundaries.
 - [ ] I use the controlled research/source date exactly as 2026-08-24.
 - [ ] I make no unsupported Zscaler match, graph, survivorship, confidence, criticality, exposure, default, production, or outcome claim.
-- [ ] I can answer Q1 through Q8 with definitions, analogies, architecture, mechanics, examples, tradeoffs, failures, troubleshooting, labs, NMH evidence, official-source caveats, and an honest Arti bridge.
+- [ ] I can answer Q1 through Q8 with definitions, analogies, architecture, mechanics, examples, tradeoffs, failures, troubleshooting, labs, NMH evidence, official-source caveats, and an honest experience bridge.
 
 [Part 72 - Control-Coverage Gaps, Hygiene, and Misconfiguration Analysis](Part-72-asset-control-coverage-gaps.md)

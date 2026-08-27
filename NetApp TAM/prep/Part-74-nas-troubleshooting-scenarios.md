@@ -1,10 +1,10 @@
 # Part 74 - NAS Troubleshooting Scenarios: NFS, SMB, Identity, DNS, and Permissions
 
-> **Section goal:** Diagnose Network-Attached Storage (NAS) symptoms as end-to-end file-service failures rather than immediately blaming the client, network, identity system, or storage. By the end, Arti should be able to reason through NFS mounts, access, stale handles, locks, identity, netgroups, Kerberos, and NFSv4 state; SMB shares, permissions, Active Directory, DNS, time, SPNs, Kerberos/NTLM, locks, continuously available shares, Multichannel, and Witness; plus namespace, LIF, routing, MTU, performance, and multiprotocol permission interactions using competing hypotheses and decisive evidence.
+> **Section goal:** Diagnose Network-Attached Storage (NAS) symptoms as end-to-end file-service failures rather than immediately blaming the client, network, identity system, or storage. By the end, you should be able to reason through NFS mounts, access, stale handles, locks, identity, netgroups, Kerberos, and NFSv4 state; SMB shares, permissions, Active Directory, DNS, time, SPNs, Kerberos/NTLM, locks, continuously available shares, Multichannel, and Witness; plus namespace, LIF, routing, MTU, performance, and multiprotocol permission interactions using competing hypotheses and decisive evidence.
 
 Covers index item **74** and maps directly to job-description responsibilities for storage depth, complex troubleshooting, customer-risk mitigation, Support engagement, technical analysis, high-pressure communication, and evidence-based recommendations.
 
-**Explicit nonclaim:** Arti has not administered, diagnosed, changed, restored, or certified a production NetApp ONTAP NFS, SMB, multiprotocol, identity, namespace, LIF, or NAS network service.
+**Explicit nonclaim:** You have not administered, diagnosed, changed, restored, or certified a production NetApp ONTAP NFS, SMB, multiprotocol, identity, namespace, LIF, or NAS network service.
 
 **Privacy/access:** NAS evidence can expose customer file and directory names, contents, user/group identities, SIDs, UID/GID values, domains, SPNs, DNS, addresses, tickets, security policy, ACLs, packet payloads, open files, sessions, topology, and credentials. Use approved collection and transfer, minimum fields and intervals, need-to-know access, redaction/tokenization, secure repositories, retention rules, and customer/security authorization. Never capture content or authentication secrets merely because packet or log tooling permits it.
 
@@ -14,7 +14,7 @@ Covers index item **74** and maps directly to job-description responsibilities f
 
 This Part is a reasoning casebook, not a NetApp internal troubleshooting manual, command reference, configuration recipe, Support commitment, security assessment, or permission to test production access or failover.
 
-> **No-production-NetApp boundary:** Arti's factual strengths are Microsoft enterprise support, SharePoint/OneDrive permissions and data-service troubleshooting, Active Directory, Windows networking, DNS/TCP/TLS dependency analysis, CRITSIT ownership, trace correlation, and customer communication. Her exact nonclaim is: **she has not troubleshot or changed a production ONTAP NAS service.** She may explain these synthetic cases and transferable method, not claim their outcomes as customer experience.
+> **No-production-NetApp boundary:** Your factual strengths are enterprise support, SharePoint/OneDrive permissions and data-service troubleshooting, Active Directory, Windows networking, DNS/TCP/TLS dependency analysis, critical-situation ownership, trace correlation, and customer communication. Your exact nonclaim is: **you have not troubleshot or changed a production ONTAP NAS service.** You may explain these synthetic cases and transferable method, not claim their outcomes as customer experience.
 
 ---
 
@@ -634,13 +634,13 @@ flowchart TD
 
 ---
 
-## 9. Arti transfer/honesty and JD Mapping
+## 9. Experience transfer and honesty and JD Mapping
 
 ```mermaid
 flowchart LR
     SPO[SharePoint/OneDrive permissions] --> AUTH[Identity vs authorization discipline]
     AD[Active Directory and Windows networking] --> SMB[DNS, time, SPN, Kerberos and SMB reasoning]
-    ESC[Microsoft escalation and traces] --> METHOD[Evidence, controls, hypotheses and communication]
+    ESC[enterprise escalation and traces] --> METHOD[Evidence, controls, hypotheses and communication]
     AZ[Azure/networking fundamentals] --> PATH[LIF, route, MTU and path isolation]
     AUTH --> TRANS[Transferable NAS troubleshooting method]
     SMB --> TRANS
@@ -652,7 +652,7 @@ flowchart LR
 | JD responsibility | Part 74 capability | Honest evidence/boundary |
 |---|---|---|
 | Storage depth | NFS/SMB architecture and 18 scenarios | Learned/synthetic, not production ONTAP |
-| Complex troubleshooting | Gate, control, hypothesis and evidence method | Microsoft production method transfers |
+| Complex troubleshooting | Gate, control, hypothesis and evidence method | prior production method transfers |
 | Risk mitigation | Safe boundaries and positive/negative validation | No production NAS change authority |
 | Customer understanding | Identity, app, network, storage dependency map | Strong Microsoft customer-support background |
 | Support collaboration | Escalation-ready exact evidence | No NetApp case ownership claim |
@@ -660,7 +660,7 @@ flowchart LR
 
 ### Honest interview wording
 
-> `For a NAS issue I identify the exact path, operation, client, identity, protocol version/security, time and error; trace DNS and LIF reachability; verify namespace and export/share; determine effective UID/GID or SID token; then evaluate file permissions and lock/state with an unaffected control. My production depth is Microsoft identity, permissions, networking and escalation, not ONTAP administration. I would use current NetApp documentation and qualified Support for live procedures.`
+> `For a NAS issue I identify the exact path, operation, client, identity, protocol version/security, time and error; trace DNS and LIF reachability; verify namespace and export/share; determine effective UID/GID or SID token; then evaluate file permissions and lock/state with an unaffected control. My production depth is enterprise identity, permissions, networking and escalation, not ONTAP administration. I would use current NetApp documentation and qualified Support for live procedures.`
 
 ---
 
@@ -784,7 +784,7 @@ flowchart LR
 
 ### Q8. What experience transfers, and what remains your gap?
 
-> **Model answer:** `Microsoft enterprise support gives me production strength in AD, DNS, Windows networking, permissions, SharePoint/OneDrive data access, traces, escalations and customer communication. I have not troubleshot or changed production ONTAP NAS, so these cases are synthetic and any live procedure, supportability or product conclusion must use current NetApp sources and qualified owners.`
+> **Model answer:** `enterprise support gives me production strength in AD, DNS, Windows networking, permissions, SharePoint/OneDrive data access, traces, escalations and customer communication. I have not troubleshot or changed production ONTAP NAS, so these cases are synthetic and any live procedure, supportability or product conclusion must use current NetApp sources and qualified owners.`
 
 ---
 
@@ -808,7 +808,7 @@ flowchart LR
 - **LIF:** Logical service address; route and upstream state still matter.
 - **MTU:** End-to-end property; endpoint-only jumbo change is unsafe.
 - **Multiprotocol:** Map SID and UID before changing permissions.
-- **Arti boundary:** Microsoft identity/network method transfers; ONTAP NAS production work does not.
+- **Experience boundary:** enterprise identity/network method transfers; ONTAP NAS production work does not.
 
 ---
 

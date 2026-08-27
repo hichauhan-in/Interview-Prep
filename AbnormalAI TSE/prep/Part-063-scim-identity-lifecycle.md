@@ -14,7 +14,7 @@ The central rule is:
 
 This Part covers User and Group resources, core and enterprise schemas, common attributes, discovery endpoints, create/read/replace/PATCH/delete/deactivate operations, filters, pagination, source of truth, assignment, reconciliation, eventual consistency, retries, duplicates, deprovisioning risk, privacy, and errors. It does not provide credentials, a live tenant setup, runnable API requests, or password-provisioning instructions. The lab uses fictional resource records and a paper operation ledger only.
 
-Microsoft Entra provisioning concepts are production-transfer learning for Arti, not a claim that she operated SCIM jobs in production. Okta SCIM behavior is learned from current official documentation. Abnormal's supported identity providers, SCIM profile, schemas, matching attributes, cadence, endpoints, deprovisioning semantics, and logs remain unknown unless approved documentation states them.
+Microsoft Entra provisioning concepts are production-transfer learning for you, not a claim that you operated SCIM jobs in production. Okta SCIM behavior is learned from current official documentation. Abnormal's supported identity providers, SCIM profile, schemas, matching attributes, cadence, endpoints, deprovisioning semantics, and logs remain unknown unless approved documentation states them.
 
 ## Learning outcomes
 
@@ -33,18 +33,18 @@ After completing this Part, you should be able to:
 - reason about eventual consistency, initial versus incremental cycles, watermarks, retry/backoff, partial failures, concurrency, and ETags;
 - investigate duplicates, stale attributes, group-membership gaps, incorrect matching, and deprovisioning failures;
 - treat `active=false`, scope removal, deletion, token/session survival, ownership, and restoration as security-critical lifecycle decisions; and
-- state Microsoft transfer, Okta learned architecture, no-direct-platform experience, and Abnormal proprietary boundaries truthfully.
+- state experience transfer, Okta learned architecture, no-direct-platform experience, and Abnormal proprietary boundaries truthfully.
 
 ## JD Mapping
 
-| Supplied role signal | Capability built | Arti's transferable evidence | Boundary |
+| Supplied role signal | Capability built | Your transferable evidence | Boundary |
 |---|---|---|---|
-| Own inbound configuration tickets | Traces source, scope, mappings, match, target ID, operation, and result | Microsoft enterprise configuration support and fix validation | No live SCIM administration claim |
+| Own inbound configuration tickets | Traces source, scope, mappings, match, target ID, operation, and result | enterprise configuration support and fix validation | No live SCIM administration claim |
 | Enterprise SaaS ecosystem | Connects directory lifecycle to target SaaS accounts/groups | Entra/AD fundamentals and Microsoft cloud context | Product profiles differ |
 | Okta ecosystem | Uses official Okta SCIM concepts for learned comparison | Structured study only | No Okta org production use |
-| Microsoft 365 ecosystem | Uses current Entra provisioning documentation as concrete example | Microsoft production-transfer context | No claim of owning Entra provisioning jobs |
+| Microsoft 365 ecosystem | Uses current Entra provisioning documentation as concrete example | production-transfer context | No claim of owning Entra provisioning jobs |
 | SaaS Security | Focuses least privilege, source authority, residual access, deactivation, and audit | Security and identity upskilling | No Abnormal implementation claim |
-| Complex investigations | Builds object correlation, timelines, competing hypotheses, and reconciliation | CRITSIT, escalation, and Engineering collaboration | No invented deprovisioning incident |
+| Complex investigations | Builds object correlation, timelines, competing hypotheses, and reconciliation | critical situation, escalation, and Engineering collaboration | No invented deprovisioning incident |
 | API questions | Understands HTTP/JSON endpoints, methods, filters, pagination, and errors | REST/JSON/Postman/cURL working knowledge | Lab makes no API call |
 | Customer trust/privacy | Minimizes personal attributes and protects credentials | Customer communication/evidence handling | SCIM records contain sensitive identity data |
 
@@ -52,7 +52,7 @@ After completing this Part, you should be able to:
 
 | Evidence tier | Safe statement | Do not imply |
 |---|---|---|
-| **Production transfer - Microsoft** | “I bring Microsoft tenant, identity, configuration, lifecycle, case ownership, escalation, and validation habits.” | That Arti operated Microsoft Entra SCIM provisioning jobs unless supported by a real story |
+| **Production transfer - Microsoft** | “I bring Microsoft tenant, identity, configuration, lifecycle, case ownership, escalation, and validation habits.” | That you operated Microsoft Entra SCIM provisioning jobs unless supported by a real story |
 | **Local/public lab** | “I built a synthetic SCIM object and reconciliation ledger with fictional users/groups and no API.” | A live endpoint, connector, token, or tenant change |
 | **Learned architecture - Okta** | “I can explain current Okta SCIM lifecycle concepts from official documentation.” | Production Okta provisioning experience |
 | **Standards knowledge** | “I anchor `id`, `externalId`, schema, HTTP operations, filters, pagination, and PATCH behavior in RFC 7643/7644.” | Every vendor supports all optional SCIM features |
@@ -799,7 +799,7 @@ The lab contains JSON-like field inventories but no executable endpoint, bearer 
 | Reconciliation | Trusts 2xx | Reads target | Desired/action/result/actual/app effect, timing, watermarks, retries |
 | Errors | Retries all | Classifies HTTP | SCIM type, outcome certainty, conflict/version/rate/backoff |
 | Safety | Uses live endpoint | Fake records | No request/credential/PII; paper-only and cleaned |
-| Honesty | Claims SCIM ops | Says learned | Microsoft transfer, Okta learned, Abnormal profile unknown |
+| Honesty | Claims SCIM ops | Says learned | experience transfer, Okta learned, Abnormal profile unknown |
 
 ## 29. Official Source Anchors
 
@@ -893,7 +893,7 @@ All sources were verified and recorded with guide currency date **August 24, 202
 - [ ] I completed or can explain **The SCIM Reconciliation Rail Yard 063**.
 - [ ] The lab includes Prerequisites, Expected evidence, Cleanup and privacy, and Validation rubric.
 - [ ] I used no live endpoint, token, secret, password, request, tenant, account, or identity data.
-- [ ] I can state Microsoft transfer, Okta learned, and Abnormal unknown boundaries.
+- [ ] I can state experience transfer, Okta learned, and Abnormal unknown boundaries.
 - [ ] I checked Official Source Anchors and recorded **August 24, 2026**.
 - [ ] I can answer exactly Q1-Q8.
 

@@ -8,9 +8,9 @@
 
 ## Section Goal
 
-By the end of this Part, Arti should be able to look at a synthetic SMTP transcript and a synthetic raw message and explain which facts belong to each artifact. She should recognize that an email **mail object** has two conceptual parts during transfer: an SMTP envelope carried through commands and message content carried as data. The content itself has a header section, one empty separator line, and an optional body.
+By the end of this Part, you should be able to look at a synthetic SMTP transcript and a synthetic raw message and explain which facts belong to each artifact. You should recognize that an email **mail object** has two conceptual parts during transfer: an SMTP envelope carried through commands and message content carried as data. The content itself has a header section, one empty separator line, and an optional body.
 
-She should be able to:
+You should be able to:
 
 1. distinguish `MAIL FROM` from header `From`;
 2. distinguish `RCPT TO` from header `To`, `Cc`, and `Bcc`;
@@ -42,13 +42,13 @@ The practical outcome is the **Envelope Glass Box: Raw Message and SMTP Evidence
 
 ## Candidate Honesty Note
 
-Arti’s Microsoft support experience supports careful evidence collection, time normalization, structured troubleshooting, privacy-aware handling, and precise customer communication. Her networking, identity, REST/JSON, and diagnostic background makes protocol-versus-object separation a natural transfer skill.
+Your prior support experience supports careful evidence collection, time normalization, structured troubleshooting, privacy-aware handling, and precise customer communication. Your networking, identity, REST/JSON, and diagnostic background makes protocol-versus-object separation a natural transfer skill.
 
-This file does not establish that she has administered Exchange transport, Google Workspace routing, Abnormal parsing, or a production secure-email gateway. The raw messages and SMTP exchanges are synthetic. She can accurately say she has studied the standards and can annotate evidence from first principles; she should not say she has diagnosed a named email-security product in production unless her CV supports that claim.
+This file does not establish that you have administered Exchange transport, Google Workspace routing, Abnormal parsing, or a production secure-email gateway. The raw messages and SMTP exchanges are synthetic. You can accurately say you have studied the standards and can annotate evidence from first principles; you should not say you have diagnosed a named email-security product in production unless your CV supports that claim.
 
 | Evidence label | Honest statement | Boundary |
 |---|---|---|
-| **Production-transfer example** | “I have handled complex Microsoft evidence and cross-team cases where exact field meaning and timestamps mattered.” | Do not recast a non-email case as direct mail-flow work |
+| **Production-transfer example** | “I have handled complex prior evidence and cross-team cases where exact field meaning and timestamps mattered.” | Do not recast a non-email case as direct mail-flow work |
 | **Working knowledge/upskilling** | “I understand protocol transactions, structured text, encodings, and identity layers.” | Do not imply mail-platform ownership |
 | **Local/public lab** | “I annotated paired synthetic SMTP and raw-message artifacts.” | No real tenant, message, or provider result |
 | **Learned architecture** | “I use RFC 5321 for transport and RFC 5322 for content.” | Standards model is not a vendor’s private parser |
@@ -357,7 +357,7 @@ flowchart TD
 Think of a postal address printed over several lines:
 
 ```text
-Arti Example
+Jordan Rivera
 123 Learning Street
 Sample City
 ```
@@ -1124,7 +1124,7 @@ All listed sources were accessed on August 24, 2026 and must be revalidated for 
 
 ### Q8. What does this skill prove about your experience?
 
-**Model answer:** It proves I can reason from current email standards, preserve raw evidence, separate transport from content, parse structured fields, and communicate proof ceilings. My Microsoft support background transfers in evidence correlation and escalation. The lab is synthetic and I would not present it as production administration of Abnormal, Exchange mail flow, or Google Workspace.
+**Model answer:** It proves I can reason from current email standards, preserve raw evidence, separate transport from content, parse structured fields, and communicate proof ceilings. My prior support background transfers in evidence correlation and escalation. The lab is synthetic and I would not present it as production administration of Abnormal, Exchange mail flow, or Google Workspace.
 
 ## 🧠 30-Second Memory Hooks
 

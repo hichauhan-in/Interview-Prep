@@ -2,7 +2,7 @@
 
 > **Section goal:** Build a beginner-first, evidence-led method for diagnosing Microsoft 365 security and service failures that cross users, devices, networks, DNS, TCP, TLS, proxies, identity, tokens, Conditional Access, applications, workloads, data pipelines, Microsoft services, third-party products, partners, and operations. By the end, you should be able to turn a vague symptom into an exact impact/scope/time/change/common-factor statement; create a trustworthy incident timeline; separate control plane from data plane; walk the dependency layers without jumping to blame; form falsifiable hypotheses and run safe hypothesis-test-pivot cycles; reproduce and reduce a failure; use affected/unaffected comparisons and A/B tests; correlate logs, traces, packet captures, HAR files, authentication, policy, and service evidence through IDs and corrected clocks; check service health, release status, roadmap, and Message center without treating them as proof; coordinate multi-vendor boundaries with a shared timeline, RACI, and precise evidence requests; build an escalation pack and product-defect case; distinguish workaround, mitigation, recovery, fix, and prevention; protect and redact evidence; troubleshoot common M365 sign-in, sync, mail, policy, SIEM-ingestion, and automation scenarios; and write an honest RCA without disabling security controls unsafely.
 
-This Part maps directly to the role's expectation to solve complex Microsoft 365 security incidents, policy errors, platform issues, service disruptions, integration failures, and multi-vendor problems. It strongly leverages Arti's demonstrated production experience: SharePoint Online and OneDrive support, synchronization and migration troubleshooting, critical escalations, vendors, partners and Microsoft product groups, RCA, fix validation, documentation, mentoring, customer communication, KPI analysis, and business reviews. The consulting extension is to make the reasoning explicit, reusable, safe, privacy-aware, and persuasive across organizational boundaries.
+This Part maps directly to the role's expectation to solve complex Microsoft 365 security incidents, policy errors, platform issues, service disruptions, integration failures, and multi-vendor problems. It strongly leverages your demonstrated production experience: SharePoint Online and OneDrive support, synchronization and migration troubleshooting, critical escalations, vendors, partners and Microsoft product groups, RCA, fix validation, documentation, mentoring, customer communication, KPI analysis, and business reviews. The consulting extension is to make the reasoning explicit, reusable, safe, privacy-aware, and persuasive across organizational boundaries.
 
 > **Method boundary:** This chapter contains public, general troubleshooting, incident, network, cloud, and consulting practices. It does not describe or imply Deloitte proprietary methods, diagnostic tools, templates, client cases, service levels, or product access. Real work must follow approved client and firm incident, privacy, legal, records, security testing, support, change, evidence, and communications processes.
 
@@ -23,9 +23,9 @@ This Part maps directly to the role's expectation to solve complex Microsoft 365
 
 ## Candidate honesty note
 
-Arti can directly use her production examples in SharePoint Online, OneDrive, synchronization, migration, permissions, critical incidents, customer and partner coordination, Microsoft/product-group escalation, RCA, fix validation, documentation, mentoring, and business reviews, provided every detail is faithful to her experience and confidentiality duties. That evidence is the heart of this Part.
+You can directly use your production examples in SharePoint Online, OneDrive, synchronization, migration, permissions, critical incidents, customer and partner coordination, Microsoft/product-group escalation, RCA, fix validation, documentation, mentoring, and business reviews, provided every detail is faithful to your experience and confidentiality duties. That evidence is the heart of this Part.
 
-She should not claim packet-analysis, Entra/Conditional Access, Exchange, Defender, Sentinel, or specific third-party production depth she does not possess. She can explain the method and safe paper exercises. Safe wording is:
+You should not claim packet-analysis, Entra/Conditional Access, Exchange, Defender, Sentinel, or specific third-party production depth you do not possess. You can explain the method and safe paper exercises. Safe wording is:
 
 > “My strongest production skill is structured Microsoft 365 escalation. I define scope and timeline, compare affected and unaffected cases, isolate layers and changes, collect product-specific evidence, coordinate vendors and product groups, validate workarounds and fixes, document RCA, and communicate impact. Where a security product or protocol is outside my direct production depth, I state that and explain the evidence I would gather, the specialist I would involve, and the safe test that would distinguish hypotheses.”
 
@@ -508,7 +508,7 @@ This is stronger than “please check your logs.”
 | Safety/recovery | Mitigation, rollback, current risk, no unsafe bypass |
 | Ask | Specific backend trace, defect confirmation, guidance, fix, ETA/cadence |
 
-Arti's escalation experience is the strongest bridge here. A senior response is calm and exact: one timeline, visible impact, no unsupported blame, minimal evidence, clear ownership, and persistent follow-through.
+Your escalation experience is the strongest bridge here. A senior response is calm and exact: one timeline, visible impact, no unsupported blame, minimal evidence, clear ownership, and persistent follow-through.
 
 ## 25. Product-defect criteria
 
@@ -569,7 +569,7 @@ A HAR file can contain an authenticated cookie; a packet capture can reveal inte
 
 **Report:** “After a security change, sync loops on sign-in for remote users.”
 
-**Method:** Arti can lead this scenario directly. Segment by client build, OS, tenant/account, network, proxy/VPN, device management/compliance, identity policy, library/site, file path/type, and time. Preserve client logs before reset. Correlate sign-in IDs, proxy/TLS events, DNS, service health, policy changes, and sync status. Test the same device on an approved alternate network and the same user in browser. A broad reset may destroy evidence and create re-download impact. Validate original sync, known-folder/share behavior, permissions, performance, and recurrence after the fix.
+**Method:** You can lead this scenario directly. Segment by client build, OS, tenant/account, network, proxy/VPN, device management/compliance, identity policy, library/site, file path/type, and time. Preserve client logs before reset. Correlate sign-in IDs, proxy/TLS events, DNS, service health, policy changes, and sync status. Test the same device on an approved alternate network and the same user in browser. A broad reset may destroy evidence and create re-download impact. Validate original sync, known-folder/share behavior, permissions, performance, and recurrence after the fix.
 
 ## 30. Scenario: mail delivery failure
 
@@ -685,7 +685,7 @@ Do not invent one root cause when evidence supports only a probable cause. A ven
 | Recurrence | Repeat failure after claimed resolution | Case linking quality matters |
 | RCA action effectiveness | Corrective actions validated by due date | Long-term outcome needs time |
 
-Arti's business-review strength applies: report repeated boundary failures, evidence gaps, vendor response, known errors, user impact, fix quality, and improvement actions—not only ticket volume.
+Your business-review strength applies: report repeated boundary failures, evidence gaps, vendor response, known errors, user impact, fix quality, and improvement actions—not only ticket volume.
 
 ## 39. Outputs and reusable artifacts
 
@@ -759,7 +759,7 @@ Use **I-S-T-A-C-K-E-R**:
 
 ## 42. JD Mapping: interview translation
 
-| Arti's evidence | Senior-consultant capability | Interview wording |
+| Your evidence | Senior-consultant capability | Interview wording |
 |---|---|---|
 | SharePoint/OneDrive/sync troubleshooting | Layered M365 diagnosis | “I separate identity, permission, client, network, service, and content state.” |
 | Critical incidents | Stabilization, timeline, cadence, recovery | “I control impact while diagnosis continues and record every change.” |
@@ -782,7 +782,7 @@ Use current versions and access dates in real work.
 8. Microsoft Sentinel data connector health monitoring: <https://learn.microsoft.com/azure/sentinel/monitor-data-connector-health>
 9. Azure Monitor ingestion troubleshooting: <https://learn.microsoft.com/azure/azure-monitor/logs/data-ingestion-time>
 10. Microsoft Graph throttling guidance: <https://learn.microsoft.com/graph/throttling>
-11. Microsoft support diagnostic data and privacy: <https://privacy.microsoft.com/privacystatement>
+11. enterprise support diagnostic data and privacy: <https://privacy.microsoft.com/privacystatement>
 12. NIST SP 800-61 Rev. 3: <https://csrc.nist.gov/pubs/sp/800/61/r3/final>
 13. NIST SP 800-115, Technical Guide to Information Security Testing and Assessment: <https://csrc.nist.gov/pubs/sp/800/115/final>
 14. CISA Cybersecurity Incident and Vulnerability Response Playbooks: <https://www.cisa.gov/news-events/news/cisa-releases-cybersecurity-incident-and-vulnerability-response-playbooks>
@@ -861,7 +861,7 @@ Use current versions and access dates in real work.
 - [ ] I can troubleshoot sign-in, sync, mail, policy, SIEM-ingestion, and automation scenarios safely.
 - [ ] I can write an RCA with confidence, limitations, contributing system conditions, actions, and validation.
 - [ ] I can refuse broad unsafe disabling and propose narrow, authorized alternatives.
-- [ ] I can tie Arti's vendor, escalation, RCA, fix-validation, documentation, and business-review experience to the method honestly.
+- [ ] I can tie your vendor, escalation, RCA, fix-validation, documentation, and business-review experience to the method honestly.
 - [ ] I can answer Q1–Q8 clearly and present Northstar as a fictional paper lab.
 
 *Next suggested section:* [Part 61](Part-61-security-incident-response-pir.md)

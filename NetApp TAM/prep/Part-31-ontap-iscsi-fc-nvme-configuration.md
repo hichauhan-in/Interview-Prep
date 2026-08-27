@@ -1,6 +1,6 @@
 # Part 31 - ONTAP iSCSI, Fibre Channel, and NVMe Configuration
 
-> **Section goal:** Learn the configuration and validation lifecycle for ONTAP iSCSI, Fibre Channel (FC), NVMe/FC, and NVMe/TCP without turning conceptual knowledge into an unsafe recipe. By the end, Arti should be able to map prerequisites, identities, services, portals/ports, zoning, subsystems, namespaces, host configuration, multipathing, security, performance, end-to-end tests, evidence, supportability, and ownership for a new deployment or failed path.
+> **Section goal:** Learn the configuration and validation lifecycle for ONTAP iSCSI, Fibre Channel (FC), NVMe/FC, and NVMe/TCP without turning conceptual knowledge into an unsafe recipe. By the end, you should be able to map prerequisites, identities, services, portals/ports, zoning, subsystems, namespaces, host configuration, multipathing, security, performance, end-to-end tests, evidence, supportability, and ownership for a new deployment or failed path.
 
 Covers index item **31** and maps directly to job-description responsibilities for SAN/storage depth, customer-environment discovery, supportability validation, risk mitigation, implementation readiness, customer recommendations, service reviews, and escalation quality.
 
@@ -8,7 +8,7 @@ Covers index item **31** and maps directly to job-description responsibilities f
 
 Exact ONTAP protocol support, service enablement, LIF/port behavior, target discovery, iSCSI login keys/CHAP, FC port roles/logins/zoning, port sets, NVMe transports/subsystems/namespaces/NQNs, host utilities, MPIO/ALUA/ANA, security, queues/timeouts, commands, limits, and upgrade paths vary by ONTAP release/platform, host OS/hypervisor/application, adapter, driver/firmware, switch, and topology. Verify current official documentation, **Interoperability Matrix Tool (IMT)** results and every note, **Hardware Universe (HWU)** for exact ports/adapters/platform rules, host/application guidance, and authorized evidence. This Part contains no unverified production steps.
 
-> **No-production-NetApp boundary:** Arti does not claim production NetApp or ONTAP SAN deployment experience. Every target, portal, WWPN, NQN, namespace, host, fabric, customer, command output, and result below is synthetic. Her factual experience is Microsoft enterprise support, Azure/virtual machines, Windows networking, storage fundamentals, CRITSIT ownership, analytics and customer communication. The explicit non-claim is: **she has not enabled an ONTAP iSCSI/FC/NVMe service, configured production target LIFs/ports or port sets, created an NVMe subsystem/namespace, zoned FC fabrics, stored CHAP secrets, or qualified a host through NetApp IMT in production.**
+> **No-production-NetApp boundary:** You do not claim production NetApp or ONTAP SAN deployment experience. Every target, portal, WWPN, NQN, namespace, host, fabric, customer, command output, and result below is synthetic. Your factual experience is enterprise support, Azure/virtual machines, Windows networking, storage fundamentals, critical-situation ownership, analytics and customer communication. The explicit non-claim is: **you have not enabled an ONTAP iSCSI/FC/NVMe service, configured production target LIFs/ports or port sets, created an NVMe subsystem/namespace, zoned FC fabrics, stored CHAP secrets, or qualified a host through NetApp IMT in production.**
 
 ---
 
@@ -702,11 +702,11 @@ flowchart TD
 
 ### JD Mapping
 
-| JD responsibility | Part 31 contribution | Arti's factual bridge and gap |
+| JD responsibility | Part 31 contribution | Your factual bridge and gap |
 |---|---|---|
 | Understand environment | Maps protocol-specific host/network/fabric/target/object paths | Azure/network method transfers; ONTAP config unproven |
 | Storage depth | Covers iSCSI, FC, NVMe identities/services and lifecycles | Conceptual/synthetic only |
-| Risk/stability | Finds path, auth, zoning, mapping, support and failure gaps | CRITSIT method transfers |
+| Risk/stability | Finds path, auth, zoning, mapping, support and failure gaps | critical-situation method transfers |
 | Supportability | Makes IMT/HWU/app/current-doc gates mandatory | No customer/gated production result claimed |
 | Recommendations | Requires owner-led no-unverified-step validation | Advisory/escalation strength |
 | Service review | Reports path tests, lifecycle/security/performance and actions | Analytics/business-review strength |
@@ -716,7 +716,7 @@ flowchart TD
 
 ## 16. Fully synthetic scenario: Fabrikam Analytics mixed-protocol rollout
 
-> **Synthetic case:** Fabrikam Analytics, every host, identity, fabric, path, result and recommendation below is fictional. It is not a NetApp customer, internal workflow, IMT result, or Arti's production work.
+> **Synthetic case:** Fabrikam Analytics, every host, identity, fabric, path, result and recommendation below is fictional. It is not a NetApp customer, internal workflow, IMT result, or your production work.
 
 ### Environment
 
@@ -820,13 +820,13 @@ flowchart TD
 
 ---
 
-## 17. Arti's factual transfer and honest positioning
+## 17. Your factual transfer and honest positioning
 
 ```mermaid
 flowchart LR
     AZ[Azure/VM production context] --> STACK[Host network identity and layered ownership]
     WIN[Windows networking/support] --> IP[TCP routes firewalls drivers and evidence]
-    CRIT[CRITSIT/Product escalation] --> SAFE[Impact hypotheses safe stop and exact ask]
+    CRIT[Critical situation/Product escalation] --> SAFE[Impact hypotheses safe stop and exact ask]
     BI[Analytics/business reviews] --> REVIEW[Path/support/lifecycle trends and actions]
     STACK --> SAN[Mixed-protocol synthetic method]
     IP --> SAN
@@ -839,12 +839,12 @@ flowchart LR
 |---|---|---|
 | Azure/VM/networking | Host/virtual/network/storage dependency maps | No ONTAP SAN service enablement |
 | Windows support | TCP, drivers, identity, failover evidence | No FC zoning or NVMe host config claim |
-| CRITSIT/Product work | Scope, competing hypotheses, safety and escalation | No internal NetApp workflow/tool access claim |
+| Critical situation/Product work | Scope, competing hypotheses, safety and escalation | No internal NetApp workflow/tool access claim |
 | Analytics/reviews | Fleet version/support/path-test reporting | No production IMT/HWU result ownership |
 
 ### Honest answer
 
-> "I understand the separate ONTAP configuration lifecycles for iSCSI, FC/FCP, NVMe/FC and NVMe/TCP, including IQNs/portals/CHAP, WWPNs/zoning/fabric login, NQNs/subsystems/namespaces/queues, host utilities, MPIO/ALUA/ANA, security, performance and end-to-end tests. My production experience is Microsoft support, Azure/VM/networking and analytics, not NetApp SAN deployment. I would require exact current docs, IMT/HWU, authorized evidence and host/fabric/app/NetApp specialists before any implementation."
+> "I understand the separate ONTAP configuration lifecycles for iSCSI, FC/FCP, NVMe/FC and NVMe/TCP, including IQNs/portals/CHAP, WWPNs/zoning/fabric login, NQNs/subsystems/namespaces/queues, host utilities, MPIO/ALUA/ANA, security, performance and end-to-end tests. My production experience is enterprise support, Azure/VM/networking and analytics, not NetApp SAN deployment. I would require exact current docs, IMT/HWU, authorized evidence and host/fabric/app/NetApp specialists before any implementation."
 
 ---
 
@@ -999,7 +999,7 @@ flowchart LR
 
 ### Q8. How does your background transfer, and what remains a gap?
 
-> **Model answer:** "My Microsoft support, Azure/VM/networking, CRITSIT and analytics work gives me layered dependency, identity, path, evidence and customer-risk discipline. I understand iSCSI, FC and NVMe configuration architecture but have not enabled ONTAP services, zoned production fabrics, managed CHAP, created NVMe subsystems or qualified a NetApp production host. I would require current docs, IMT/HWU, authorized evidence and host/fabric/app/NetApp specialists."
+> **Model answer:** "My prior support, Azure/VM/networking, critical situation and analytics work gives me layered dependency, identity, path, evidence and customer-risk discipline. I understand iSCSI, FC and NVMe configuration architecture but have not enabled ONTAP services, zoned production fabrics, managed CHAP, created NVMe subsystems or qualified a NetApp production host. I would require current docs, IMT/HWU, authorized evidence and host/fabric/app/NetApp specialists."
 
 ---
 
@@ -1020,7 +1020,7 @@ flowchart LR
 - **Performance:** More paths/queues are useful only when the workload uses them safely.
 - **Readiness:** Ends with app, failure, restore and lifecycle tests.
 - **No unverified steps:** Missing current procedure/support/owner means stop.
-- **Arti's bridge:** Network/evidence rigor transfers; NetApp SAN deployment remains unclaimed.
+- **Your bridge:** Network/evidence rigor transfers; NetApp SAN deployment remains unclaimed.
 
 ---
 

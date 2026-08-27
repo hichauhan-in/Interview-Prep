@@ -14,7 +14,7 @@ The central support rule is:
 
 This Part covers opaque versus structured tokens, JWTs at a high level, bearer risk, claims validation, access/refresh/ID tokens, API keys, client secrets, certificates, workload identity, scopes/roles, least privilege, storage, logging redaction, rotation, overlap, expiration, revocation, service identities, cookies, browser sessions, timeouts, logout, and cross-site request forgery (CSRF) at a defensive high level. It does not provide a real token, secret, private key, certificate, cookie, credential-generation command, API request, exploit, live tenant change, or customer data. The lab is a paper inventory using fictional metadata and fingerprints only.
 
-Microsoft identity and Azure workload concepts are production-transfer learning for Arti, not a claim that she owned application credential governance in production. Okta and other identity-platform comparisons remain learned architecture unless real evidence supports more. Abnormal's credential types, token formats, scope names, session design, rotation behavior, integration identities, and evidence interfaces remain proprietary unknowns unless approved documentation states them.
+Microsoft identity and Azure workload concepts are production-transfer learning for you, not a claim that you owned application credential governance in production. Okta and other identity-platform comparisons remain learned architecture unless real evidence supports more. Abnormal's credential types, token formats, scope names, session design, rotation behavior, integration identities, and evidence interfaces remain proprietary unknowns unless approved documentation states them.
 
 ## Learning outcomes
 
@@ -40,13 +40,13 @@ After completing this Part, you should be able to:
 
 ## JD Mapping
 
-| Supplied role signal | Capability built | Arti's transferable evidence | Boundary |
+| Supplied role signal | Capability built | Your transferable evidence | Boundary |
 |---|---|---|---|
 | SaaS Security support | Treats tokens, secrets, sessions, and service identities as security assets | Microsoft security and identity support habits | No claim of Abnormal credential administration |
 | Enterprise integrations | Maps machine identity, permissions, API recipient, and lifecycle | REST/JSON and cloud configuration knowledge | Vendor profiles differ |
-| Microsoft 365 ecosystem | Transfers Entra app/service-principal, managed identity, permission, and token concepts | Microsoft production-transfer context | No invented app-governance ownership |
+| Microsoft 365 ecosystem | Transfers Entra app/service-principal, managed identity, permission, and token concepts | production-transfer context | No invented app-governance ownership |
 | API troubleshooting | Separates 401 invalid token from 403 insufficient scope and target authorization | HTTP/API working knowledge | No live API call in lab |
-| Complex escalations | Correlates issuance, use, expiry, rotation, revocation, and session events | CRITSIT and Engineering collaboration | No invented credential incident |
+| Complex escalations | Correlates issuance, use, expiry, rotation, revocation, and session events | critical situation and Engineering collaboration | No invented credential incident |
 | Customer communication | Requests fingerprints, IDs, claims names, UTC, and errors rather than values | Privacy-aware evidence collection | Never request token/secret/private key/cookie |
 | Security posture | Uses least privilege, short lifetime, secretless identity, overlap rotation, and old-key rejection | Security upskilling | Architecture depends on platform support |
 | Browser troubleshooting | Separates IdP session, app session, cookie, token, logout, and CSRF | Browser/HTTP transfer | No claim of product session internals |
@@ -55,7 +55,7 @@ After completing this Part, you should be able to:
 
 | Evidence tier | Safe statement | Do not imply |
 |---|---|---|
-| **Production transfer - Microsoft** | “I bring Microsoft cloud, identity, incident, escalation, and validation habits to credential and token cases.” | That Arti owned a tenant-wide secret program or token issuer |
+| **Production transfer - Microsoft** | “I bring Microsoft cloud, identity, incident, escalation, and validation habits to credential and token cases.” | That you owned a tenant-wide secret program or token issuer |
 | **Local/public lab** | “I built a synthetic credential metadata, scope, validation, rotation, and session ledger without creating a credential.” | A real token, endpoint, app, browser cookie, or tenant change |
 | **Learned architecture** | “I can explain standards and current Microsoft/OWASP guidance and transfer it carefully.” | Direct production operation of every identity platform |
 | **Standards knowledge** | “I use RFC 6750, 7009, 7519, and 9700 for bearer, revocation, JWT, and OAuth security concepts.” | That every vendor exposes RFC endpoints or JWT access tokens |
@@ -918,7 +918,7 @@ The lab records metadata, invented identifiers, claim names, fingerprints, and e
 | Evidence | Copies values | Redacts manually | Fingerprints/IDs/UTC/stages; no replayable values |
 | Sessions | Cookie equals SSO | Knows timeout | App/IdP/tokens, server invalidation, regeneration, idle/absolute/logout |
 | CSRF | SameSite only | Uses token | Framework defense, origin/context, SameSite, CORS, authZ, high-risk reauth |
-| Honesty/safety | Live credential activity | Synthetic values | Metadata-only, zero values/systems, Microsoft transfer, proprietary unknown |
+| Honesty/safety | Live credential activity | Synthetic values | Metadata-only, zero values/systems, experience transfer, proprietary unknown |
 
 ## 33. Official Source Anchors
 
@@ -930,7 +930,7 @@ All sources were verified and recorded with guide currency date **August 24, 202
 | [RFC 7009 - OAuth Token Revocation](https://www.rfc-editor.org/rfc/rfc7009.html) | Revocation endpoint semantics, refresh/access behavior, cascading policy, propagation | Product support and cascade vary |
 | [RFC 7519 - JSON Web Token](https://www.rfc-editor.org/rfc/rfc7519.html) | JWT claims format, issuer/audience/time, JWS/JWE relationship, privacy/trust | Use current JOSE/profile security guidance too |
 | [RFC 9700 - OAuth 2.0 Security Best Current Practice](https://www.rfc-editor.org/rfc/rfc9700.html) | PKCE, sender constraints, least privilege/audience restriction, refresh protection, modern threat guidance | Implement through supported maintained libraries/profiles |
-| [Microsoft Learn - Managed identities for Azure resources](https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/overview) | Platform-managed workload identities and secret replacement | Microsoft/Azure support boundaries |
+| [Microsoft Learn - Managed identities for Azure resources](https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/overview) | Platform-managed workload identities and secret replacement | cloud platform support boundaries |
 | [Microsoft Learn - Workload identity federation](https://learn.microsoft.com/en-us/entra/workload-id/workload-identity-federation) | External workload trust/exchange, issuer-subject-audience matching, secret elimination | Trust configuration remains security-sensitive |
 | [Microsoft Learn - Application security best practices](https://learn.microsoft.com/en-us/entra/identity-platform/security-best-practices-for-app-registration) | Managed identity preference, federation/certificate over secrets, credential review/rotation, least privilege/ownership | Microsoft profile; no production claim |
 | [OWASP Secrets Management Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html) | Centralized management, least privilege, automation, lifecycle, auditing, detection, incident response | Secondary guidance; product docs govern implementation |
@@ -1022,7 +1022,7 @@ All sources were verified and recorded with guide currency date **August 24, 202
 - [ ] I completed or can explain **The Credential Lighthouse and Session Locks 064**.
 - [ ] The lab includes Prerequisites, Expected evidence, Cleanup and privacy, and Validation rubric.
 - [ ] I used no live token, secret, key, certificate, cookie, session, endpoint, account, or tenant.
-- [ ] I can state Microsoft transfer and Abnormal proprietary unknown boundaries.
+- [ ] I can state experience transfer and Abnormal proprietary unknown boundaries.
 - [ ] I checked Official Source Anchors and recorded **August 24, 2026**.
 - [ ] I can answer exactly Q1-Q8.
 

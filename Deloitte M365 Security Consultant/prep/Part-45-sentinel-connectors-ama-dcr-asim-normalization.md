@@ -1,8 +1,8 @@
 # Part 45 — Sentinel Data Connectors, AMA, DCRs, ASIM, Parsers, and Normalization
 
-> **Section goal:** Build a beginner-first, consulting-grade understanding of how security evidence reaches Microsoft Sentinel and becomes queryable, consistent data. This Part covers native and service-to-service connectors, APIs, Azure diagnostic settings, Azure Monitor Agent (AMA), Windows Security Events, Linux Syslog/CEF forwarders, custom logs, Content Hub, Data Collection Rules (DCRs), Data Collection Endpoints (DCEs), DCR associations, streams, transformations, tables, `TimeGenerated`, Advanced Security Information Model (ASIM) schemas and parsers, connector health, latency, duplication, drops, least privilege, secrets, staged onboarding, rollback and urgent migration from legacy agents/APIs. Arti should be able to design, test and troubleshoot a synthetic collection path without claiming production Sentinel connector deployment.
+> **Section goal:** Build a beginner-first, consulting-grade understanding of how security evidence reaches Microsoft Sentinel and becomes queryable, consistent data. This Part covers native and service-to-service connectors, APIs, Azure diagnostic settings, Azure Monitor Agent (AMA), Windows Security Events, Linux Syslog/CEF forwarders, custom logs, Content Hub, Data Collection Rules (DCRs), Data Collection Endpoints (DCEs), DCR associations, streams, transformations, tables, `TimeGenerated`, Advanced Security Information Model (ASIM) schemas and parsers, connector health, latency, duplication, drops, least privilege, secrets, staged onboarding, rollback and urgent migration from legacy agents/APIs. You should be able to design, test and troubleshoot a synthetic collection path without claiming production Sentinel connector deployment.
 
-This Part maps directly to Deloitte expectations for Microsoft Sentinel and Defender integration, Azure/hybrid architecture, third-party onboarding, security engineering, troubleshooting, RCA, data quality, least privilege, migration and client documentation. Arti's incident discipline is a strong fit: start with a known source event, trace each boundary, compare timestamps and identifiers, prove the destination row, then validate the detection. Her reporting experience helps turn connector status into evidence-based service health rather than a green icon.
+This Part maps directly to Deloitte expectations for Microsoft Sentinel and Defender integration, Azure/hybrid architecture, third-party onboarding, security engineering, troubleshooting, RCA, data quality, least privilege, migration and client documentation. Your incident discipline is a strong fit: start with a known source event, trace each boundary, compare timestamps and identifiers, prove the destination row, then validate the detection. Your reporting experience helps turn connector status into evidence-based service health rather than a green icon.
 
 > **Currency, portal, licensing, preview and retirement note (August 24, 2026):** This chapter is grounded in official Microsoft Learn available on August 24, 2026. After March 31, 2027, Sentinel is documented as Defender-portal-only; Azure-portal connector paths are legacy/change-sensitive. Connector packaging, support owner, table mapping, permissions, cloud availability, schemas, DCR APIs, endpoints and UI paths can change. Microsoft Learn currently states that the Log Analytics agent/MMA was retired on August 31, 2024 and that its cloud upload can stop at any time without notice after March 2, 2026. The legacy HTTP Data Collector API is documented as unsupported after September 14, 2026. New designs should use supported AMA/DCR and OAuth-based Logs Ingestion API or approved connector frameworks. Multi-stage transformations, Event Hubs DCR ingestion and some metrics/collection features are preview as of this date; standard DCR transformations and AMA have different status. Logs Ingestion API enforces TLS 1.2 or higher from March 1, 2026. Verify each connector page, Content Hub solution version, Microsoft Learn banner, source-product license, region/cloud matrix, limits, retirement notice and live tenant before implementation.
 
@@ -20,9 +20,9 @@ This Part maps directly to Deloitte expectations for Microsoft Sentinel and Defe
 
 ## Candidate honesty note
 
-Arti can credibly discuss production incident/RCA, source-versus-symptom isolation, timestamp correlation, validation, change coordination, documentation and stakeholder reporting. She can present the safe connector and normalization design in this chapter.
+You can credibly discuss production incident/RCA, source-versus-symptom isolation, timestamp correlation, validation, change coordination, documentation and stakeholder reporting. You can present the safe connector and normalization design in this chapter.
 
-She should not claim production AMA deployment, DCR authoring, Linux forwarder hardening, connector credentials, custom API ingestion, ASIM parser publication or legacy-agent migration unless separately evidenced. Safe wording is:
+You should not claim production AMA deployment, DCR authoring, Linux forwarder hardening, connector credentials, custom API ingestion, ASIM parser publication or legacy-agent migration unless separately evidenced. Safe wording is:
 
 > “My production background is incident troubleshooting, evidence correlation, RCA, fix validation and reporting. I have not deployed Sentinel connectors or AMA/DCRs in production. I built a current paper lab that compares connector types and traces synthetic Windows, Syslog/CEF and custom API data through DCR streams, transformations and Log Analytics tables, then validates timestamps, duplication, schema and ASIM parsing. In a client environment I would install the current Content Hub solution, use least privilege and TLS, pilot a small source set, prove positive and negative events, monitor health and cost, and remove legacy routes only after parallel evidence shows no gap or duplicate.”
 
@@ -595,7 +595,7 @@ flowchart TD
 | Sudden volume drop | Source quiet, filter/DCR change or failure | Expected event rate plus change/audit timeline |
 | Sudden volume spike | Duplicate route, new category or verbose schema | Count by source/collector/DCR and change time |
 
-Arti's RCA method fits exactly: identify the earliest boundary where expected evidence disappears or changes. Avoid reinstalling AMA before proving the agent layer is faulty.
+Your RCA method fits exactly: identify the earliest boundary where expected evidence disappears or changes. Avoid reinstalling AMA before proving the agent layer is faulty.
 
 ## 29. Least privilege, identity and secrets
 
@@ -751,7 +751,7 @@ At 10:00 UTC a known synthetic firewall event exists on Firewall A but not in `C
 
 ### Reporting drill
 
-Arti's report separates impact (“one selected facility was absent for 42 minutes”), evidence (DCR version, source/forwarder timestamps and row tests), root cause (facility omission), correction (restored reviewed DCR), validation (three sources, positive/negative and duplicate checks) and prevention (diff gate plus source-coverage test). It avoids saying “Sentinel outage.”
+Your report separates impact (“one selected facility was absent for 42 minutes”), evidence (DCR version, source/forwarder timestamps and row tests), root cause (facility omission), correction (restored reviewed DCR), validation (three sources, positive/negative and duplicate checks) and prevention (diff gate plus source-coverage test). It avoids saying “Sentinel outage.”
 
 ## 36. Safe paper/data lab
 
@@ -844,7 +844,7 @@ Create a dated urgent plan for any fictional MMA and HTTP Data Collector API pat
 
 ## 38. JD Mapping: interview translation
 
-| Interview theme | Arti's transferable strength | Connector answer |
+| Interview theme | Your transferable strength | Connector answer |
 |---|---|---|
 | Incident investigation | Builds evidence timelines | Trace source event through arrival and parser fields |
 | Troubleshooting | Isolates layer before changing | Source → route → collector/API → DCR → table → parser |

@@ -1,10 +1,10 @@
 # Part 66 - Data Fabric Dynamic Reporting and Dashboards
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 >
 > **Purpose:** Explain how governed Data Fabric entities, relationships, business logic, and workflow state become dynamic reports and dashboards. Cover fabric-wide dimensions and measures; metric grain, denominators, and time; role-based technical, operational, risk, and executive views; filters, groups, drill paths, and cross-filter behavior; risk, exposure, data-health, and workflow metrics; freshness and provenance; exports and schedules; accessibility; performance; validation; misleading metrics; narrative; action; troubleshooting; and customer trust.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every dashboard, visual, data model, entity, dimension, measure, formula, target, threshold, filter, group, drill path, export, schedule, metric, incident, result, and outcome in this Part is synthetic. Zscaler public pages support bounded statements that Data Fabric can create dynamic dashboards using combinations of fabric data, factors, and measurements; that Unified Vulnerability Management provides dynamic reports and dashboards for risk posture, key performance indicators, service-level agreements, and other metrics in a correlated context-rich dataset; and that Asset Exposure Management includes reporting and context-rich asset/coverage views. Public pages do not disclose exact semantic models, formulas, visuals, refresh architecture, query behavior, export controls, schedules, limits, dashboard templates, or guarantees. Detailed mechanics below are general analytics and reporting patterns, not undocumented Zscaler implementation claims. Arti's Microsoft support analytics, telemetry interpretation, Excel/Power BI thinking, customer communication, and evidence validation transfer; direct production administration of Zscaler Data Fabric reporting remains a learning boundary.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every dashboard, visual, data model, entity, dimension, measure, formula, target, threshold, filter, group, drill path, export, schedule, metric, incident, result, and outcome in this Part is synthetic. Zscaler public pages support bounded statements that Data Fabric can create dynamic dashboards using combinations of fabric data, factors, and measurements; that Unified Vulnerability Management provides dynamic reports and dashboards for risk posture, key performance indicators, service-level agreements, and other metrics in a correlated context-rich dataset; and that Asset Exposure Management includes reporting and context-rich asset/coverage views. Public pages do not disclose exact semantic models, formulas, visuals, refresh architecture, query behavior, export controls, schedules, limits, dashboard templates, or guarantees. Detailed mechanics below are general analytics and reporting patterns, not undocumented Zscaler implementation claims. Your prior support analytics, telemetry interpretation, Excel/Power BI thinking, customer communication, and evidence validation transfer; direct production administration of Zscaler Data Fabric reporting remains a learning boundary.
 >
 > **Currency caveat:** Product interfaces, report capabilities, source coverage, metrics, refresh behavior, permissions, and public claims change. The controlled research/source date for this Part is exactly **2026-08-24**. Current official documentation, licensed tenant behavior, metric/data owners, privacy/security review, accessibility requirements, representative source evidence, customer governance, product specialists, and direct validation govern production.
 
@@ -14,7 +14,7 @@ A dashboard is a decision interface over a governed semantic model. It should he
 
 Think of an aircraft cockpit. A fuel gauge has a defined unit, sensor, refresh behavior, warning threshold, and failure state. The pilot needs current readings, trends, exceptions, and drillable evidence, not every raw sensor value on one screen. Executives, program owners, engineers, and analysts similarly need different views of the same governed facts without changing metric meaning.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Evidence artifact |
 |---|---|---|
@@ -53,7 +53,7 @@ flowchart LR
 
 ## JD Mapping
 
-| Role expectation | Part 66 capability | TSM artifact | Arti bridge and boundary |
+| Role expectation | Part 66 capability | TSM artifact | experience bridge and boundary |
 |---|---|---|---|
 | Develop Data Fabric expertise | Explain documented dynamic-reporting value and general semantic mechanics | Source-bounded report whiteboard | No exact product formula/template claim |
 | Analyze customer risk | Build coherent risk, exposure, quality, and workflow views | Metric tree/dashboard | Analytics and telemetry correlation transfer |
@@ -996,7 +996,7 @@ Should a source outage display zero findings?
 
 ### Exercise 12 - Product claim
 
-Can Arti claim exact built-in Zscaler dashboard formulas?
+Can you claim exact built-in Zscaler dashboard formulas?
 
 **Answer:** No. Public pages support dynamic reporting categories, not undocumented formulas/templates/refresh behavior. Validate current tenant documentation/evidence.
 
@@ -1165,7 +1165,7 @@ Zscaler sources support bounded dynamic-reporting, dashboard, KPI, SLA, risk-pos
 
 ### Q8. What can you honestly claim about Zscaler and your background?
 
-**Model answer:** Zscaler publicly describes Data Fabric dynamic dashboards using fabric data/factors/measurements, UVM risk/KPI/SLA reporting, and AEM reporting. I do not claim exact formulas, templates, refresh architecture, visuals, exports, or limits. My Microsoft support analytics, telemetry correlation, Excel/Power BI-style reasoning, RCA, and customer communication transfer; detailed dashboard design and incidents here are synthetic NMH practice.
+**Model answer:** Zscaler publicly describes Data Fabric dynamic dashboards using fabric data/factors/measurements, UVM risk/KPI/SLA reporting, and AEM reporting. I do not claim exact formulas, templates, refresh architecture, visuals, exports, or limits. My prior support analytics, telemetry correlation, Excel/Power BI-style reasoning, RCA, and customer communication transfer; detailed dashboard design and incidents here are synthetic NMH practice.
 
 ## 30-Second Memory Hooks
 
@@ -1196,7 +1196,7 @@ Zscaler sources support bounded dynamic-reporting, dashboard, KPI, SLA, risk-pos
 | Accessibility | Text, contrast, keyboard, semantics |
 | Performance | Fast without silent scope loss |
 | Validation | Test values and interactions |
-| Arti bridge | Analytics/RCA transfer; product formulas do not |
+| Experience bridge | Analytics/RCA transfer; product formulas do not |
 
 ## Completion Checklist
 
@@ -1249,6 +1249,6 @@ Zscaler sources support bounded dynamic-reporting, dashboard, KPI, SLA, risk-pos
 - [ ] I label every NMH metric, formula, target, threshold, visual, incident, result, and outcome synthetic.
 - [ ] I use the controlled research/source date exactly as 2026-08-24.
 - [ ] I make no unsupported Zscaler semantic model, formula, metric, target, template, visual, refresh, query, filter, export, schedule, limit, guarantee, production, or customer-outcome claim.
-- [ ] I can answer Q1 through Q8 with definitions, analogies, architecture, mechanics, examples, tradeoffs, failures, troubleshooting, labs, NMH evidence, official-source caveats, and an honest Arti bridge.
+- [ ] I can answer Q1 through Q8 with definitions, analogies, architecture, mechanics, examples, tradeoffs, failures, troubleshooting, labs, NMH evidence, official-source caveats, and an honest experience bridge.
 
 [Part 67 - Data Fabric versus SIEM, Data Lake, Warehouse, CMDB, and iPaaS](Part-67-data-fabric-comparisons.md)

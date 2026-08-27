@@ -36,7 +36,7 @@ After completing this Part, you should be able to:
 | RCA insights | Separates causal sequence from chronology | Observation/inference ledger |
 | Validation | Records before/after actions and coverage | Action-outcome timeline |
 
-Your Microsoft enterprise-support experience transfers through evidence-first troubleshooting, correlation IDs, log/time analysis, escalation packaging, customer updates, and fix validation. The boundary is explicit: this Part does not establish production incident-response command, forensic acquisition, eDiscovery, legal chain-of-custody expertise, Microsoft Defender operations, or Abnormal AI experience.
+Your prior enterprise-support experience transfers through evidence-first troubleshooting, correlation IDs, log/time analysis, escalation packaging, customer updates, and fix validation. The boundary is explicit: this Part does not establish production incident-response command, forensic acquisition, eDiscovery, legal chain-of-custody expertise, Microsoft Defender operations, or Abnormal AI experience.
 
 ## Candidate honesty note
 

@@ -1,12 +1,12 @@
 # Part 25 - ONTAP Eventing, Logs, EMS, Audit, Service Processor, and Evidence Sources
 
-> **Section goal:** Learn what each ONTAP evidence source observes, how to build a trustworthy UTC timeline, and how to turn events, audit records, jobs, health state, out-of-band hardware logs, traces, dumps, performance archives, and support bundles into a bounded diagnosis and escalation. By the end, Arti should be able to separate signal from noise, preserve privacy, and state what evidence can and cannot prove.
+> **Section goal:** Learn what each ONTAP evidence source observes, how to build a trustworthy UTC timeline, and how to turn events, audit records, jobs, health state, out-of-band hardware logs, traces, dumps, performance archives, and support bundles into a bounded diagnosis and escalation. By the end, you should be able to separate signal from noise, preserve privacy, and state what evidence can and cannot prove.
 
 Covers index item **25** and maps directly to job-description responsibilities for customer-data generation and analysis, risk/stability reporting, service reviews, major incidents, support-experience improvement, preventative recommendations, evidence quality, and escalation packages.
 
 Exact **Event Management System (EMS)** severities, fields, event names/catalog entries, notification destinations, audit records, system-health monitors, job history, log locations/retention, Service Processor (SP) or Baseboard Management Controller (BMC) behavior, packet traces, performance archives, core/dump collection, commands, REST resources, and support bundles vary by ONTAP release and platform. Use current official documentation and NetApp Support guidance; never invent event semantics or low-level collection procedures.
 
-> **Evidence and experience boundary:** Every system, event, timestamp, log, trace, and diagnosis below is synthetic. Arti's factual strengths are Microsoft enterprise escalation, CRITSIT timelines, Windows/Azure/network evidence, analytics, customer communication, and Product/Engineering collaboration. She does **not** claim production ONTAP EMS, SP/BMC, core, packet trace, performance archive, or support-bundle collection experience.
+> **Evidence and experience boundary:** Every system, event, timestamp, log, trace, and diagnosis below is synthetic. Your factual strengths are enterprise escalation, critical-situation timelines, Windows/Azure/network evidence, analytics, customer communication, and Product/Engineering collaboration. You do **not** claim production ONTAP EMS, SP/BMC, core, packet trace, performance archive, or support-bundle collection experience.
 
 ---
 
@@ -672,10 +672,10 @@ flowchart TD
 
 ### JD Mapping
 
-| JD responsibility | Part 25 contribution | Arti's factual bridge and gap |
+| JD responsibility | Part 25 contribution | Your factual bridge and gap |
 |---|---|---|
 | Generate/analyze/report customer data | Builds source schema, UTC timeline, QA and provenance | Analytics/Power BI/SQL/support data strengths transfer |
-| Risk/stability | Separates actionable events, hardware, jobs, paths and performance | CRITSIT triage/evidence method transfers |
+| Risk/stability | Separates actionable events, hardware, jobs, paths and performance | critical-situation triage/evidence method transfers |
 | Support experience | Creates complete escalation pack and avoids repeated discovery | Microsoft Product/Engineering packages are strong evidence |
 | Service reviews | Trends events, notification gaps, jobs, health and prevention actions | Business-review communication transfers |
 | Preventative remediation | Alert hygiene, retention, clock, access and monitoring actions | Backlog/action tracking transfers |
@@ -686,7 +686,7 @@ flowchart TD
 
 ## 18. Fully synthetic scenario: Alpine Health node reset
 
-> **Synthetic case:** Alpine Health, all events, clocks, systems and findings below are fictional. It is not a NetApp customer incident, internal process or Arti production ONTAP work.
+> **Synthetic case:** Alpine Health, all events, clocks, systems and findings below are fictional. It is not a NetApp customer incident, internal process or documented production ONTAP work.
 
 ### Environment and symptom
 
@@ -784,11 +784,11 @@ flowchart TD
 
 ---
 
-## 19. Arti's support/analytics/evidence bridge
+## 19. Your support/analytics/evidence bridge
 
 ```mermaid
 flowchart LR
-    CRIT[Microsoft CRITSIT production work] --> TL[Impact timeline owners cadence and restoration]
+    CRIT[Enterprise critical-situation production work] --> TL[Impact timeline owners cadence and restoration]
     ETW[Windows/Azure/network logs and traces] --> CORR[Multi-source clock/ID correlation]
     PG[Product/Engineering escalation] --> PACK[Reproducible evidence exact ask and secure transfer]
     BI[Excel Power BI SQL analytics] --> TREND[Alert trends duplicates gaps and action tracking]
@@ -801,14 +801,14 @@ flowchart LR
 
 | Factual strength | Transfer | Explicit gap |
 |---|---|---|
-| CRITSIT/enterprise support | Impact-first triage, one timeline, communication and closure | No ONTAP EMS/SP/core production diagnosis |
+| Critical situation/enterprise support | Impact-first triage, one timeline, communication and closure | No ONTAP EMS/SP/core production diagnosis |
 | Windows/Azure/network traces | Source scope, timestamps, packet/log limitations | No ONTAP packet/performance archive collection |
 | Product/Engineering collaboration | Complete secure escalation packages | No NetApp internal tools/process claim |
 | Analytics/business reviews | Event trends, alert hygiene, data quality and preventative actions | No direct AutoSupport/Digital Advisor access |
 
 ### Honest answer
 
-> "I can explain what EMS, audit, jobs, system health, SP/BMC, packet traces, performance archives, dumps and support bundles each observe; normalize a UTC timeline; and build a privacy-safe escalation pack. My direct production evidence is Microsoft support and cross-source troubleshooting, not ONTAP evidence collection. I would use current official commands/fields, customer authorization, NetApp Support and secure handling, and I would defer AutoSupport details to the dedicated Part."
+> "I can explain what EMS, audit, jobs, system health, SP/BMC, packet traces, performance archives, dumps and support bundles each observe; normalize a UTC timeline; and build a privacy-safe escalation pack. My direct production evidence is enterprise support and cross-source troubleshooting, not ONTAP evidence collection. I would use current official commands/fields, customer authorization, NetApp Support and secure handling, and I would defer AutoSupport details to the dedicated Part."
 
 ---
 
@@ -892,7 +892,7 @@ flowchart LR
 17. Ask TAM discovery questions and write a bounded recommendation.
 18. Recreate Alpine's reset, missed page, clock and HA findings separately.
 19. Complete all whiteboard drills, paper lab and Q1-Q8 aloud.
-20. State Arti's strengths and ONTAP evidence production gap precisely.
+20. State your strengths and ONTAP evidence production gap precisely.
 
 ---
 
@@ -970,11 +970,11 @@ flowchart LR
 
 **Follow-up depth:** Adapt the pack for a node reset, intermittent latency and missed alert route.
 
-### Q8. How does your Microsoft background transfer, and what remains a gap?
+### Q8. How does your prior background transfer, and what remains a gap?
 
-> **Model answer:** "My CRITSIT and Product/Engineering work gives me production experience with impact-first triage, multi-source logs/traces, clock-aligned timelines, evidence preservation, secure escalation, customer updates and prevention tracking. Analytics helps with alert trends and gaps. I have not collected or interpreted ONTAP EMS, SP/BMC, cores or performance archives in production. I would use current official commands/fields, customer authorization, NetApp Support and secure handling and never claim gated evidence I cannot access."
+> **Model answer:** "My critical situation and Product/Engineering work gives me production experience with impact-first triage, multi-source logs/traces, clock-aligned timelines, evidence preservation, secure escalation, customer updates and prevention tracking. Analytics helps with alert trends and gaps. I have not collected or interpreted ONTAP EMS, SP/BMC, cores or performance archives in production. I would use current official commands/fields, customer authorization, NetApp Support and secure handling and never claim gated evidence I cannot access."
 
-**Follow-up depth:** Give one factual Microsoft escalation and state which ONTAP event, hardware and support-tool facts remain unproven.
+**Follow-up depth:** Give one factual enterprise escalation and state which ONTAP event, hardware and support-tool facts remain unproven.
 
 ---
 
@@ -995,7 +995,7 @@ flowchart LR
 - **Performance archive:** Time-series context; sampling and retention matter.
 - **Timeline:** Preserve raw, normalize UTC, record offset and uncertainty.
 - **Privacy:** Minimize, protect original, redact copy, secure transfer/retention.
-- **Arti's bridge:** CRITSIT evidence craft transfers; ONTAP production collection does not.
+- **Your bridge:** critical-situation evidence craft transfers; ONTAP production collection does not.
 
 ---
 
@@ -1019,7 +1019,7 @@ flowchart LR
 - [ ] Ask TAM discovery questions and write a bounded recommendation.
 - [ ] Recreate Alpine's reset, notification, clock and recovery workstreams.
 - [ ] Complete all whiteboard drills, paper lab, self-test and Q1-Q8 aloud.
-- [ ] State Arti's strengths and ONTAP evidence production gap precisely.
+- [ ] State your strengths and ONTAP evidence production gap precisely.
 - [ ] Recheck exact ONTAP/platform/event-reference docs, fields, retention, tools and Support guidance before customer use.
 
 ---

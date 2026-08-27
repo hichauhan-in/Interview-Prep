@@ -1,10 +1,10 @@
 # Part 57 - Risk Scoring, Prioritization, and Preventative Recommendation Logic
 
-> **Section goal:** Turn verified technical and data findings into a defensible order of preventative work without pretending that a score is objective truth. By the end, Arti should be able to write bounded risk statements; separate severity, exposure, likelihood, urgency, confidence, effort, dependencies, lead time, and residual risk; use matrices, ordinal weighted models, and FMEA-style methods carefully; apply safety vetoes and documented expert override; test uncertainty and sensitivity; manage aging and accepted risk; and explain portfolio decisions to technical and executive audiences.
+> **Section goal:** Turn verified technical and data findings into a defensible order of preventative work without pretending that a score is objective truth. By the end, you should be able to write bounded risk statements; separate severity, exposure, likelihood, urgency, confidence, effort, dependencies, lead time, and residual risk; use matrices, ordinal weighted models, and FMEA-style methods carefully; apply safety vetoes and documented expert override; test uncertainty and sensitivity; manage aging and accepted risk; and explain portfolio decisions to technical and executive audiences.
 
 Covers index item **57** and maps directly to job-description responsibilities for proactive risk identification, customer-specific prioritization, preventative recommendations, operational service reviews, stability improvement, lifecycle and upgrade planning, action tracking, data analysis, executive communication, and cross-functional influence.
 
-**Explicit nonclaim:** Arti has not owned a production NetApp customer-risk model, approved a NetApp remediation priority, or accepted customer business risk.
+**Explicit nonclaim:** You have not owned a production NetApp customer-risk model, approved a NetApp remediation priority, or accepted customer business risk.
 
 **Privacy and access boundary:** Customer assets, vulnerabilities, defects, supportability gaps, contracts, telemetry, service criticality, cases, recovery posture, financial impact, risk appetite, accepted risks, and action status are sensitive. Use authorized sources, minimum necessary fields, approved storage, audience-specific redaction, and accountable customer decision owners.
 
@@ -14,7 +14,7 @@ Covers index item **57** and maps directly to job-description responsibilities f
 
 This Part provides no universal risk scale, weight, threshold, probability, FMEA cutoff, service criticality, effort estimate, urgency rule, or remediation SLA. A locally approved model must be calibrated against outcomes, challenged for bias and gaming, and governed by accountable customer owners.
 
-> **No-production-NetApp boundary:** Arti's factual strengths are Microsoft enterprise support and CRITSIT, incident/problem/risk prioritization, customer impact analysis, MBA decision methods, Excel, Power BI, SQL, Python, statistics, service reviews, and cross-team action ownership. She does **not** claim production ONTAP risk decisions, NetApp Digital Advisor operation, private bug applicability, lifecycle commitment authority, compatibility approval, or customer risk acceptance. Her exact non-claim is: **she has not designed, calibrated, approved, or operated a production NetApp customer-risk scoring system.**
+> **No-production-NetApp boundary:** Your factual strengths are enterprise support and critical situation, incident/problem/risk prioritization, customer impact analysis, MBA decision methods, Excel, Power BI, SQL, Python, statistics, service reviews, and cross-team action ownership. You do **not** claim production ONTAP risk decisions, NetApp Digital Advisor operation, private bug applicability, lifecycle commitment authority, compatibility approval, or customer risk acceptance. Your exact non-claim is: **you have not designed, calibrated, approved, or operated a production NetApp customer-risk scoring system.**
 
 ---
 
@@ -1029,23 +1029,23 @@ flowchart LR
 
 ### JD Mapping
 
-| JD responsibility | Part 57 contribution | Arti's factual bridge and gap |
+| JD responsibility | Part 57 contribution | Your factual bridge and gap |
 |---|---|---|
-| Proactive risk identification | Exact applicability, consequence, horizon and controls | Microsoft incident/problem/risk discipline transfers |
+| Proactive risk identification | Exact applicability, consequence, horizon and controls | enterprise incident/problem/risk discipline transfers |
 | Preventative recommendations | Action changes mechanism/exposure/consequence/detection/recovery | Advisory skills transfer; NetApp action authority does not |
 | Customer prioritization | Transparent dimensions, sensitivity, veto and owner judgment | MBA/analytics decision framing transfers |
 | Operational service reviews | Bands, aging, owners, deadlines, accepted/residual risk | Customer-review communication transfers |
 | Lifecycle/upgrade planning | Latest-safe-start, dependency and portfolio sequencing | Change/program planning transfers |
 | Data analysis | Versioned scoring, uncertainty, calibration and anti-gaming | Excel/Power BI/SQL/Python/statistics transfer |
-| Cross-functional influence | Technical, business, security, procurement and change roles | CRITSIT coordination transfers |
+| Cross-functional influence | Technical, business, security, procurement and change roles | critical-situation coordination transfers |
 
 ---
 
-## 17. Arti's transfer and honest NetApp gap
+## 17. Your transfer and honest NetApp gap
 
 ```mermaid
 flowchart LR
-    CRIT[CRITSIT/enterprise support] --> IMP[Impact, urgency, ownership, escalation]
+    CRIT[Critical situation/enterprise support] --> IMP[Impact, urgency, ownership, escalation]
     MBA[MBA/statistics] --> DEC[Dimensions, uncertainty, sensitivity, tradeoffs]
     BI[Excel/Power BI/SQL/Python] --> MODEL[Transparent models, aging, portfolio views]
     CUST[Customer reviews] --> STORY[Evidence-risk-action narrative]
@@ -1060,7 +1060,7 @@ flowchart LR
 
 | Factual strength | Transfer | Honest limit |
 |---|---|---|
-| Microsoft support/CRITSIT | Current impact, safety, owner/checkpoint, escalation | Not ONTAP production risk authority |
+| enterprise support/critical situation | Current impact, safety, owner/checkpoint, escalation | Not ONTAP production risk authority |
 | MBA/statistics | Dimensions, scenarios, sensitivity, bias and decision tradeoffs | No customer-calibrated NetApp probability model |
 | Excel/Power BI | Risk register, matrices, aging, trends, service-review views | No live Digital Advisor/customer dataset |
 | SQL/Python | Reproducible rules, joins, QA and model versions | No production scoring pipeline ownership |
@@ -1143,7 +1143,7 @@ flowchart LR
 13. Prioritize a portfolio with shared actions and collisions.
 14. Detect gaming, bias and false precision.
 15. Govern accepted and residual risk through expiry/validation.
-16. Recreate Northwind Bio and state Arti's transfer/gap.
+16. Recreate Northwind Bio and state your transfer/gap.
 
 ### Lab pass checklist
 
@@ -1226,7 +1226,7 @@ flowchart LR
 
 ### Q8. How does your background transfer, and what remains a gap?
 
-> **Model answer:** "Microsoft enterprise support and CRITSIT give me impact, urgency, ownership and escalation discipline; my MBA, statistics and BI/SQL/Python skills support transparent models, sensitivity and portfolio analysis. I have not calibrated or governed a production NetApp risk model, so current authorized NetApp evidence, technical owners and customer risk authority remain explicit."
+> **Model answer:** "enterprise support and critical-situation give me impact, urgency, ownership and escalation discipline; my MBA, statistics and BI/SQL/Python skills support transparent models, sensitivity and portfolio analysis. I have not calibrated or governed a production NetApp risk model, so current authorized NetApp evidence, technical owners and customer risk authority remain explicit."
 
 ---
 
@@ -1250,7 +1250,7 @@ flowchart LR
 - **Portfolio:** Shared actions, dependencies, collisions, waves and capacity.
 - **Anti-gaming:** Stable population, IDs, history and outcome proof.
 - **Residual:** Reassess after control; owner accepts what remains.
-- **Arti's bridge:** Risk analytics transfers; NetApp/customer authority does not.
+- **Your bridge:** Risk analytics transfers; NetApp/customer authority does not.
 
 ---
 

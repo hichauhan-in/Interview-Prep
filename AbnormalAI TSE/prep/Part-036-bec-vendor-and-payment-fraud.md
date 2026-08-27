@@ -51,11 +51,11 @@ By the end of this part, you should be able to:
 | Protect privacy | Minimize invoice, banking, payroll, and employee data | Redacted identifiers and secure evidence location |
 | Support integrations and SaaS evidence | Correlate mail, identity, audit, and business-system records conceptually | Timestamped handoff with message, account, and transaction IDs |
 | Validate response | Distinguish action requested, initiated, accepted, completed, and reconciled | Target-by-target technical and business validation |
-| Transfer Microsoft enterprise-support strength | Apply CRITSIT ownership, stakeholder cadence, and evidence discipline | Honest transfer without claiming finance/SOC operations |
+| Transfer enterprise-support strength | Apply critical-situation ownership, stakeholder cadence, and evidence discipline | Honest transfer without claiming finance/SOC operations |
 
 ## Candidate Honesty Note
 
-Arti can say:
+You can say:
 
 > "My production experience is enterprise technical support, including critical-case coordination, timeline building, stakeholder updates, Engineering escalation, and fix validation. I have not owned a production BEC investigation, banking recall, vendor-fraud program, or Abnormal AI administration. I learned the fraud patterns from official sources and practiced a synthetic control-and-timeline exercise. In a live case I would immediately engage the authorized SOC and finance/fraud owners, preserve minimum evidence, and avoid making financial, legal, attribution, or recovery promises outside my role."
 

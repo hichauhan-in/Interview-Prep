@@ -6,9 +6,9 @@
 
 ## Purpose and Candidate Honesty Boundary
 
-This appendix tells Arti where to look, how to judge a source, how to connect a claim to evidence, and how to detect stale information. It supports the company research in [Part 011](Part-011-abnormal-ai-mission-market-and-customer-outcomes.md), standards work in Parts [020](Part-020-rfc-style-message-structure-envelope-and-headers.md)-[029](Part-029-bimi-reputation-and-blocklists.md), integration learning in Parts [066](Part-066-microsoft-365-integration-architecture-and-troubleshooting.md)-[070](Part-070-splunk-crowdstrike-and-cortex-soar-integration-lab.md), and current-trends review in [Part 118](Part-118-advanced-topics-competitive-context-standards-and-current-trends.md).
+This appendix tells you where to look, how to judge a source, how to connect a claim to evidence, and how to detect stale information. It supports the company research in [Part 011](Part-011-abnormal-ai-mission-market-and-customer-outcomes.md), standards work in Parts [020](Part-020-rfc-style-message-structure-envelope-and-headers.md)-[029](Part-029-bimi-reputation-and-blocklists.md), integration learning in Parts [066](Part-066-microsoft-365-integration-architecture-and-troubleshooting.md)-[070](Part-070-splunk-crowdstrike-and-cortex-soar-integration-lab.md), and current-trends review in [Part 118](Part-118-advanced-topics-competitive-context-standards-and-current-trends.md).
 
-Arti may say that she researched current public sources and built synthetic learning artifacts. She must not say she used private Abnormal documentation, operated the product, administered the named non-Microsoft platforms in production, validated a customer's configuration, or confirmed undocumented product behavior. A vendor page establishes what the vendor publicly states; it does not independently prove every outcome or expose private implementation.
+You may say that you researched current public sources and built synthetic learning artifacts. You must not say you used private Abnormal documentation, operated the product, administered the named non-Microsoft platforms in production, validated a customer's configuration, or confirmed undocumented product behavior. A vendor page establishes what the vendor publicly states; it does not independently prove every outcome or expose private implementation.
 
 Safe interview wording:
 
@@ -100,7 +100,7 @@ Use [Microsoft Learn](https://learn.microsoft.com/) as the primary public portal
 | PowerShell documentation | Language, cmdlets, modules, remoting, security | PowerShell docs, module reference, about topics | PowerShell/module version, OS, authentication, deprecation |
 | Windows/networking documentation | DNS, TLS, HTTP, packet/network tools, event evidence | Windows commands, networking, ETW, event logs | OS/build, elevation, provider/tool version |
 
-Arti's Microsoft production background is real only within the workloads and responsibilities recorded in the master guide. Microsoft documentation about Exchange, Defender, Graph, or Entra is learning evidence unless a specific real experience is separately verified.
+Your prior production background is real only within the workloads and responsibilities recorded in the master guide. Microsoft documentation about Exchange, Defender, Graph, or Entra is learning evidence unless a specific real experience is separately verified.
 
 ## Google Workspace Admin Help
 

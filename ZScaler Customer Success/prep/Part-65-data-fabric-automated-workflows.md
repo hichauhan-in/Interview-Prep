@@ -1,10 +1,10 @@
 # Part 65 - Data Fabric Automated Workflows and Outbound Actions
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 >
 > **Purpose:** Explain how security context becomes controlled operational work through trigger-condition-action workflows, assignment, tickets, notifications, CMDB updates, approvals, human gates, retries, idempotency, reconciliation, state machines, exceptions, escalation, security, role-based access control, secrets, audit, failure handling, metrics, design reviews, troubleshooting, and adoption. The objective is reliable and accountable outcomes, not maximum automation.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every workflow, event, trigger, condition, action, connector, ticket, CMDB record, notification, assignment, state, retry, key, approval, exception, metric, incident, result, and outcome in this Part is synthetic. Zscaler public pages support bounded statements that Data Fabric can create advanced automated workflows and supports inbound/outbound integrations; that Asset Exposure Management can activate risk-mitigation policies, assign/track workflows, auto-update a CMDB, and use automated workflows for coverage gaps; and that Unified Vulnerability Management provides custom remediation workflows and can automatically reconcile tickets. Public pages do not disclose an internal workflow engine, state model, queue, retry policy, idempotency design, connector implementation, security architecture, schema, API contract, or guarantee. Detailed mechanics below are general distributed-systems and security-operations patterns, not undocumented Zscaler implementation claims. Arti's Microsoft escalation orchestration, support ownership, change control, evidence, retry/recovery thinking, and customer communication transfer; direct production operation of Zscaler Data Fabric workflows remains a learning boundary.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every workflow, event, trigger, condition, action, connector, ticket, CMDB record, notification, assignment, state, retry, key, approval, exception, metric, incident, result, and outcome in this Part is synthetic. Zscaler public pages support bounded statements that Data Fabric can create advanced automated workflows and supports inbound/outbound integrations; that Asset Exposure Management can activate risk-mitigation policies, assign/track workflows, auto-update a CMDB, and use automated workflows for coverage gaps; and that Unified Vulnerability Management provides custom remediation workflows and can automatically reconcile tickets. Public pages do not disclose an internal workflow engine, state model, queue, retry policy, idempotency design, connector implementation, security architecture, schema, API contract, or guarantee. Detailed mechanics below are general distributed-systems and security-operations patterns, not undocumented Zscaler implementation claims. Your prior escalation orchestration, support ownership, change control, evidence, retry/recovery thinking, and customer communication transfer; direct production operation of Zscaler Data Fabric workflows remains a learning boundary.
 >
 > **Currency caveat:** Product interfaces, available connectors/actions, permissions, target APIs, rate limits, schemas, and public claims change. The controlled research/source date for this Part is exactly **2026-08-24**. Current official documentation, licensed tenant behavior, target-system contracts, customer approvals, security/privacy review, source and process owners, product specialists, and direct evidence govern production.
 
@@ -14,7 +14,7 @@ An automated workflow observes a qualifying change, evaluates policy, creates or
 
 Think of a hospital referral. A diagnosis can trigger a referral, but the process must confirm patient identity, select the correct specialist, obtain authorization, schedule, handle duplicate requests, track acceptance, escalate delays, and reconcile completion. Sending an email is not treatment. Similarly, creating a security ticket is not remediation. The workflow must preserve context, responsibility, state, validation, and exception handling from trigger to outcome.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Evidence artifact |
 |---|---|---|
@@ -52,7 +52,7 @@ flowchart LR
 
 ## JD Mapping
 
-| Role expectation | Part 65 capability | TSM artifact | Arti bridge and boundary |
+| Role expectation | Part 65 capability | TSM artifact | experience bridge and boundary |
 |---|---|---|---|
 | Develop Data Fabric expertise | Explain documented workflow/outbound value and general reliability controls | Source-bounded workflow whiteboard | No internal engine claim |
 | Analyze customer operations | Map people, systems, approvals, ownership, and failure boundaries | Swimlane/process map | Escalation orchestration transfers |
@@ -67,7 +67,7 @@ flowchart LR
 
 | Evidence class | Safe interview statement | Boundary to state |
 |---|---|---|
-| Production transfer | "I coordinated Microsoft escalations, ownership, evidence, retries, change gates, and stakeholder updates across systems and teams." | Not production Data Fabric workflow administration |
+| Production transfer | "I coordinated enterprise escalations, ownership, evidence, retries, change gates, and stakeholder updates across systems and teams." | Not production Data Fabric workflow administration |
 | Synthetic practice | "I designed and troubleshot NMH ticket, CMDB, notification, approval, idempotency, and reconciliation flows." | Fictional lab evidence |
 | Official public fact | "Zscaler publicly describes advanced workflows, outbound integrations, CMDB updates, assignments, and ticket reconciliation." | No undocumented engine mechanics |
 | General method | "I model durable state, stable keys, retries, reconciliation, least privilege, and human gates." | Distributed-systems pattern |
@@ -950,7 +950,7 @@ Is 10,000 tickets created a success metric?
 
 ### Exercise 12 - Product claim
 
-Can Arti state Zscaler's exact retries or workflow states?
+Can you state Zscaler's exact retries or workflow states?
 
 **Answer:** No. Public pages support workflows, integrations, CMDB updates, assignment, and reconciliation positioning, not undocumented engine mechanics. Verify current product evidence.
 
@@ -1118,7 +1118,7 @@ Zscaler sources support bounded workflow, outbound integration, assignment, CMDB
 
 ### Q8. What can you honestly claim about Zscaler and your background?
 
-**Model answer:** Zscaler publicly describes advanced Data Fabric workflows/outbound integrations, AEM assignment/CMDB automation, and UVM custom workflows/ticket reconciliation. I do not claim internal states, queues, retries, keys, schemas, or guarantees. My Microsoft escalation experience transfers in orchestration, ownership, evidence, change gates, retries, recovery, and stakeholder communication; detailed workflow mechanics here were practiced in synthetic NMH labs.
+**Model answer:** Zscaler publicly describes advanced Data Fabric workflows/outbound integrations, AEM assignment/CMDB automation, and UVM custom workflows/ticket reconciliation. I do not claim internal states, queues, retries, keys, schemas, or guarantees. My prior escalation experience transfers in orchestration, ownership, evidence, change gates, retries, recovery, and stakeholder communication; detailed workflow mechanics here were practiced in synthetic NMH labs.
 
 ## 30-Second Memory Hooks
 
@@ -1148,7 +1148,7 @@ Zscaler sources support bounded workflow, outbound integration, assignment, CMDB
 | Secret | Never in logs/tickets/screenshots |
 | RBAC | Separate author, approver, runtime |
 | Success | Source, workflow, target, and outcome converge |
-| Arti bridge | Escalation orchestration transfers; engine internals do not |
+| Experience bridge | Escalation orchestration transfers; engine internals do not |
 
 ## Completion Checklist
 
@@ -1200,6 +1200,6 @@ Zscaler sources support bounded workflow, outbound integration, assignment, CMDB
 - [ ] I label every NMH key, field, timer, state, payload, metric, incident, and outcome synthetic.
 - [ ] I use the controlled research/source date exactly as 2026-08-24.
 - [ ] I make no unsupported Zscaler engine, queue, state, trigger, retry, backoff, idempotency, connector, API, schema, field, approval, reconciliation, guarantee, production, or customer-outcome claim.
-- [ ] I can answer Q1 through Q8 with definitions, analogies, architecture, mechanics, examples, tradeoffs, failures, troubleshooting, labs, NMH evidence, official-source caveats, and an honest Arti bridge.
+- [ ] I can answer Q1 through Q8 with definitions, analogies, architecture, mechanics, examples, tradeoffs, failures, troubleshooting, labs, NMH evidence, official-source caveats, and an honest experience bridge.
 
 [Part 66 - Data Fabric Dynamic Reporting and Dashboards](Part-66-data-fabric-reporting-dashboards.md)

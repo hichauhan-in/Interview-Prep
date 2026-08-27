@@ -1,6 +1,6 @@
 # Part 39 - SnapLock, Immutability, Retention, and Compliance Controls
 
-> **Section goal:** Understand write once, read many (WORM), SnapLock Compliance and Enterprise modes, ComplianceClock, file commitment, retention, legal hold, privileged delete, audit, event-based retention, autocommit, tamperproof snapshot locking, and protection/lifecycle interactions. By the end, Arti should be able to identify irreversible-risk gates, distinguish legal governance from storage configuration, and recommend a controlled evidence-and-test process without promising compliance or ransomware prevention.
+> **Section goal:** Understand write once, read many (WORM), SnapLock Compliance and Enterprise modes, ComplianceClock, file commitment, retention, legal hold, privileged delete, audit, event-based retention, autocommit, tamperproof snapshot locking, and protection/lifecycle interactions. By the end, you should be able to identify irreversible-risk gates, distinguish legal governance from storage configuration, and recommend a controlled evidence-and-test process without promising compliance or ransomware prevention.
 
 Covers index item **39** and maps directly to job-description responsibilities for storage/security depth, customer discovery, technical risk, supportability, strategic planning, compliance-aware recommendations, analytics, service reviews, and cross-functional governance.
 
@@ -8,7 +8,7 @@ Covers index item **39** and maps directly to job-description responsibilities f
 
 This Part gives no legal opinion, regulatory certification, universal retention period, compliance guarantee, immutability guarantee against every actor, ransomware-prevention promise, or executable production procedure. Synthetic durations illustrate reasoning only. Storage controls support a compliance program; legal/compliance counsel and records owners determine obligations.
 
-> **No-production-NetApp boundary:** Arti does not claim production NetApp SnapLock experience. Every SVM, volume, file, clock, hold, retention date, audit event, customer, and outcome below is synthetic. Her factual strengths are Microsoft enterprise support, M365 retention/eDiscovery concepts, identity/permissions, Azure, analytics, CRITSIT ownership, and stakeholder communication. The explicit non-claim is: **she has not initialized a production ComplianceClock; created or operated Compliance/Enterprise SnapLock volumes; committed production files to WORM; configured autocommit/EBR/Legal Hold/privileged delete/audit; locked production snapshots; or validated a customer's regulatory compliance.**
+> **No-production-NetApp boundary:** You do not claim production NetApp SnapLock experience. Every SVM, volume, file, clock, hold, retention date, audit event, customer, and outcome below is synthetic. Your factual strengths are enterprise support, M365 retention/eDiscovery concepts, identity/permissions, Azure, analytics, critical-situation ownership, and stakeholder communication. The explicit non-claim is: **you have not initialized a production ComplianceClock; created or operated Compliance/Enterprise SnapLock volumes; committed production files to WORM; configured autocommit/EBR/Legal Hold/privileged delete/audit; locked production snapshots; or validated a customer's regulatory compliance.**
 
 ---
 
@@ -586,12 +586,12 @@ flowchart TD
 
 ### JD Mapping
 
-| JD responsibility | Part 39 contribution | Arti's factual bridge and gap |
+| JD responsibility | Part 39 contribution | Your factual bridge and gap |
 |---|---|---|
 | Understand environment | Maps legal record -> app -> file/volume -> protection | M365 retention/eDiscovery concepts transfer |
 | Analyze/report data | Retention populations, holds, expiry, capacity, audit trends | Analytics strength transfers |
 | Strategic planning | Aligns governance, security, lifecycle, recovery and capacity | MBA/advisory transfer |
-| Risk/stability | Exposes irreversible defaults, clocks, privileges and lock growth | CRITSIT/risk discipline transfers |
+| Risk/stability | Exposes irreversible defaults, clocks, privileges and lock growth | critical situation/risk discipline transfers |
 | Supportability | Requires exact mode/version/feature/topology evidence | No compliance/customer result claimed |
 | Service reviews | Reports controls, exceptions, tests, owners and residual risk | Business-review experience transfers |
 | Cross-functional | Coordinates legal/records/security/app/storage/Support | Stakeholder leadership transfers |
@@ -600,7 +600,7 @@ flowchart TD
 
 ## 18. Fully synthetic scenario: Fabrikam Brokerage retention error
 
-> **Synthetic case:** Fabrikam Brokerage, every regulation, record, file, date, volume, alert, and result below is fictional. It is not legal advice, a NetApp customer, internal process, benchmark, tool result, or Arti's production work.
+> **Synthetic case:** Fabrikam Brokerage, every regulation, record, file, date, volume, alert, and result below is fictional. It is not legal advice, a NetApp customer, internal process, benchmark, tool result, or your production work.
 
 ### Environment
 
@@ -682,13 +682,13 @@ flowchart TD
 
 ---
 
-## 19. Arti's factual transfer and honest positioning
+## 19. Your factual transfer and honest positioning
 
 ```mermaid
 flowchart LR
     M365[M365 retention/eDiscovery context] --> GOV[Record classes holds custodians evidence]
     IAM[AD/identity/permissions] --> PRIV[Least privilege MFA audit separation]
-    CRIT[CRITSIT] --> SAFE[Preserve evidence stop destructive action coordinate owners]
+    CRIT[Critical situation] --> SAFE[Preserve evidence stop destructive action coordinate owners]
     BI[Analytics] --> CAP[Retention hold expiry capacity and exception trends]
     GOV --> SL[SnapLock conceptual method]
     PRIV --> SL
@@ -697,7 +697,7 @@ flowchart LR
     SL --> LAB[Future synthetic lab and legal/NetApp review]
 ```
 
-> **Honest interview answer:** "I understand SnapLock as WORM enforcement built around Compliance or Enterprise mode, ComplianceClock, commit and retention, with Compliance legal holds and Enterprise audited privileged-delete behavior where supported. I also separate WORM files from snapshot locking and model capacity, replication, backup and lifecycle constraints. My production experience is Microsoft support and retention/eDiscovery concepts, not SnapLock administration or legal compliance. I would require current docs, legal/records approval, authorized evidence and NetApp specialists before changes."
+> **Honest interview answer:** "I understand SnapLock as WORM enforcement built around Compliance or Enterprise mode, ComplianceClock, commit and retention, with Compliance legal holds and Enterprise audited privileged-delete behavior where supported. I also separate WORM files from snapshot locking and model capacity, replication, backup and lifecycle constraints. My production experience is enterprise support and retention/eDiscovery concepts, not SnapLock administration or legal compliance. I would require current docs, legal/records approval, authorized evidence and NetApp specialists before changes."
 
 ---
 
@@ -778,7 +778,7 @@ flowchart LR
 13. Apply discovery/troubleshooting/support boundaries.
 14. Recreate Fabrikam Brokerage's four workstreams.
 15. Complete paper lab and answer Q1-Q8 aloud.
-16. State Arti's factual bridge and gap without claiming compliance.
+16. State your factual bridge and gap without claiming compliance.
 
 ---
 
@@ -847,7 +847,7 @@ flowchart LR
 
 ### Q8. How does your background transfer, and what remains a gap?
 
-> **Model answer:** "M365 retention/eDiscovery gives me record-class, hold and custodian context; identity and CRITSIT work gives me privilege, audit and evidence discipline; analytics supports retention/capacity trends. I understand SnapLock conceptually but have not operated it or certified compliance. I would require current docs, legal/records approval, authorized evidence and NetApp specialists before changes."
+> **Model answer:** "M365 retention/eDiscovery gives me record-class, hold and custodian context; identity and critical-situation work gives me privilege, audit and evidence discipline; analytics supports retention/capacity trends. I understand SnapLock conceptually but have not operated it or certified compliance. I would require current docs, legal/records approval, authorized evidence and NetApp specialists before changes."
 
 ---
 
@@ -870,7 +870,7 @@ flowchart LR
 - **Capacity:** Holds and locked snapshots turn time into physical demand.
 - **Replication:** WORM mode/holds/resync must match exact support.
 - **Ransomware:** Immutability limits destruction; it does not prevent attack.
-- **Arti's bridge:** Retention/evidence rigor transfers; SnapLock/legal certification does not.
+- **Your bridge:** Retention/evidence rigor transfers; SnapLock/legal certification does not.
 
 ---
 

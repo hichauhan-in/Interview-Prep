@@ -8,11 +8,11 @@
 
 ## Section goal
 
-By the end of this Part, Arti should be able to use Windows-native `netsh trace` with a chosen scenario, explicit nonpersistent configuration, bounded duration/size, named output, immediate stop, and protected cleanup. She should understand Event Trace Log (ETL) files as sensitive multi-provider evidence, not ordinary text, and describe conversion/analysis caveats without assuming every ETL can be losslessly turned into pcap or opened by every tool.
+By the end of this Part, you should be able to use Windows-native `netsh trace` with a chosen scenario, explicit nonpersistent configuration, bounded duration/size, named output, immediate stop, and protected cleanup. You should understand Event Trace Log (ETL) files as sensitive multi-provider evidence, not ordinary text, and describe conversion/analysis caveats without assuming every ETL can be losslessly turned into pcap or opened by every tool.
 
-She should be able to use Process Monitor (Procmon) at a high level to observe process/thread, file system, registry, and network metadata; design include filters before reproduction; recognize that Procmon network events are not packet payload captures; and understand stacks, symbols, boot logging, and profiling as specialized/high-volume options rather than defaults.
+You should be able to use Process Monitor (Procmon) at a high level to observe process/thread, file system, registry, and network metadata; design include filters before reproduction; recognize that Procmon network events are not packet payload captures; and understand stacks, symbols, boot logging, and profiling as specialized/high-volume options rather than defaults.
 
-She should use `Test-NetConnection`, `Get-NetTCPConnection`, `Get-NetRoute`/`Find-NetRoute`, `Resolve-DnsName`, `Get-NetIPConfiguration`, and `ipconfig` to answer exact questions, not dump an endpoint. She should connect command output with Windows Event Log/application logs, UTC, process ID, tuple, request ID, and expected/actual behavior. The guiding principle is **least collection**: use the least invasive source that can disconfirm the current hypothesis.
+You should use `Test-NetConnection`, `Get-NetTCPConnection`, `Get-NetRoute`/`Find-NetRoute`, `Resolve-DnsName`, `Get-NetIPConfiguration`, and `ipconfig` to answer exact questions, not dump an endpoint. You should connect command output with Windows Event Log/application logs, UTC, process ID, tuple, request ID, and expected/actual behavior. The guiding principle is **least collection**: use the least invasive source that can disconfirm the current hypothesis.
 
 ## JD Mapping
 
@@ -31,7 +31,7 @@ She should use `Test-NetConnection`, `Get-NetTCPConnection`, `Get-NetRoute`/`Fin
 
 ## Candidate honesty note
 
-Arti can accurately cite working familiarity with Netsh, Procmon, Network Monitor, PowerShell, and Windows endpoint evidence. Her real production foundation is Microsoft enterprise support, which makes Windows log/process/client-cloud troubleshooting a natural transfer strength. She should still avoid claiming kernel ETW provider design, advanced Procmon stack forensics, Windows networking component ownership, or authority to capture customer endpoints without consent.
+You can accurately cite working familiarity with Netsh, Procmon, Network Monitor, PowerShell, and Windows endpoint evidence. Your real production foundation is enterprise support, which makes Windows log/process/client-cloud troubleshooting a natural transfer strength. You should still avoid claiming kernel ETW provider design, advanced Procmon stack forensics, Windows networking component ownership, or authority to capture customer endpoints without consent.
 
 | Evidence tier | Safe claim | Boundary |
 |---|---|---|

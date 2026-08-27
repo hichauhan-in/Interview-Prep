@@ -1,6 +1,6 @@
 # Part 89 - Cloud and Hybrid Data Services: ONTAP and Major Cloud Integrations
 
-> **Section goal:** Distinguish Cloud Volumes ONTAP from major cloud-provider-managed file services involving NetApp technology, map the shared-responsibility and network/data paths for each, and select a model using workload requirements rather than brand familiarity. By the end, Arti can discuss NetApp Console, AWS, Azure, Google Cloud, hybrid mobility, security, capacity, performance, cost, resilience, protection, limits, observability, and current-source validation without promising availability or price.
+> **Section goal:** Distinguish Cloud Volumes ONTAP from major cloud-provider-managed file services involving NetApp technology, map the shared-responsibility and network/data paths for each, and select a model using workload requirements rather than brand familiarity. By the end, you can discuss NetApp Console, AWS, Azure, Google Cloud, hybrid mobility, security, capacity, performance, cost, resilience, protection, limits, observability, and current-source validation without promising availability or price.
 
 Covers index item **89** and maps to job-description requirements for cloud/storage depth, customer-environment discovery, strategic planning, best-practice and upgrade advice, install-base accuracy, technical risk mitigation, analytics, current product knowledge, and customer communication.
 
@@ -10,7 +10,7 @@ Covers index item **89** and maps to job-description requirements for cloud/stor
 
 **Version caveat:** Service names, regions, features, prices, quotas, limits, architectures, and shared-responsibility boundaries change; complete current-doc and provider checks before customer use.
 
-**Explicit nonclaim:** Arti has not deployed, licensed, administered, migrated, protected, cost-optimized, or troubleshot a production Cloud Volumes ONTAP, NetApp Console, Amazon FSx for NetApp ONTAP, Azure NetApp Files, or Google Cloud NetApp Volumes environment.
+**Explicit nonclaim:** You have not deployed, licensed, administered, migrated, protected, cost-optimized, or troubleshot a production Cloud Volumes ONTAP, NetApp Console, Amazon FSx for NetApp ONTAP, Azure NetApp Files, or Google Cloud NetApp Volumes environment.
 
 **Privacy/access:** Cloud evidence can expose account/subscription/project IDs, tenants, regions, networks, routes, private endpoints, identities, policies, keys, volumes, snapshots, billing, contracts, quotas, topology, data residency and security posture. Use least privilege, approved accounts/tools, minimum fields, redaction/tokenization, secure repositories, retention, and no customer exports, credentials, private offers, invoices, support cases, or gated screenshots in portfolios.
 
@@ -20,7 +20,7 @@ Covers index item **89** and maps to job-description requirements for cloud/stor
 
 This Part is a conceptual selection and troubleshooting guide, not a product guarantee, deployment recipe, region/feature statement, price quote, savings claim, licensing interpretation, migration commitment, or cloud architecture approval.
 
-> **No-production-NetApp boundary:** Arti's factual strengths are Azure and cloud/VM fundamentals, Microsoft 365 data services, networking/identity, enterprise escalation, analytics, customer reviews, and hybrid dependency reasoning. Her exact nonclaim is: **she has not operated a production NetApp cloud data service.** She may explain this fully synthetic comparison and how she would validate a live choice.
+> **No-production-NetApp boundary:** Your factual strengths are Azure and cloud/VM fundamentals, Microsoft 365 data services, networking/identity, enterprise escalation, analytics, customer reviews, and hybrid dependency reasoning. Your exact nonclaim is: **you have not operated a production NetApp cloud data service.** You may explain this fully synthetic comparison and how you would validate a live choice.
 
 ---
 
@@ -402,7 +402,7 @@ flowchart LR
 
 Record exact service name, account/region token, architecture, ownership, current source/date, quotas/limits, pricing assumptions, workload, test interval, metrics, protection, security, cost ranges, unknowns, reviewer and recheck triggers. Delete trial resources, volumes, snapshots, IPs, agents/connectors, logs, secrets and network links through authorization; verify billing later.
 
-## 19. JD Mapping and Arti tie
+## 19. JD Mapping and background tie
 
 ```mermaid
 flowchart LR

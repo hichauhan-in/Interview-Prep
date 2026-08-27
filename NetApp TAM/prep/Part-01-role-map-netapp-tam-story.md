@@ -1,6 +1,6 @@
 # Part 1 - Role Map, NetApp Context, and the Complete TAM Story
 
-> **Section goal:** Translate the complete NetApp Technical Account Manager Technical Analyst job description into an operating model: customer outcomes, stakeholders, evidence, analysis, deliverables, ownership, cadence, competencies, and honest interview proof. By the end, Arti should be able to explain the role from first principles, walk through a complete account cycle, and connect her Microsoft support background to the role without claiming NetApp production experience she does not have.
+> **Section goal:** Translate the complete NetApp Technical Account Manager Technical Analyst job description into an operating model: customer outcomes, stakeholders, evidence, analysis, deliverables, ownership, cadence, competencies, and honest interview proof. By the end, you should be able to explain the role from first principles, walk through a complete account cycle, and connect your prior support background to the role without claiming NetApp production experience you do not have.
 
 Covers index item **1** and orients every job-description responsibility and requirement. Product implementation details are intentionally deferred to later Parts.
 
@@ -509,10 +509,10 @@ sequenceDiagram
 
 The supplied job description is the authority for role claims in this Part. This table converts each responsibility or requirement into observable work and factual interview evidence.
 
-| JD responsibility or requirement | Customer outcome | Stakeholders | Inputs and tools | Outputs | Competency demonstrated | Arti's factual evidence or honest gap |
+| JD responsibility or requirement | Customer outcome | Stakeholders | Inputs and tools | Outputs | Competency demonstrated | Your factual evidence or honest gap |
 |---|---|---|---|---|---|---|
 | Generate customer data from enterprise sources | A usable, governed evidence base | Lead TAM, customer owners, data owners | Approved exports, reports, identifiers, Office tools | Reconciled dataset and data-quality log | Data handling, validation, provenance | **Strength:** analytics, Excel, Power BI, support data. **Gap:** no claimed NetApp data-source access. |
-| Analyze and report customer data | Decisions based on trends and material exposure | Technical and executive audiences | Cleaned data, pivots, charts, reviewed sources | Health/risk report and executive summary | Analytical judgment and communication | **Strength:** business reviews, backlog/quality/CSAT analysis, MBA Business Analytics. |
+| Analyze and report customer data | Decisions based on trends and material exposure | Technical and executive audiences | Cleaned data, pivots, charts, reviewed sources | Health/risk report and executive summary | Analytical judgment and communication | **Strength:** business reviews, backlog/quality/CSAT analysis, a postgraduate business-analytics qualification. |
 | Strategic planning | Fewer urgent lifecycle decisions and clearer investment horizon | Sponsor, platform owners, account team | Business roadmap, estate baseline, lifecycle and change constraints | Phased technical plan | Systems thinking and planning | **Transferable:** advisory and business reviews. **Gap:** NetApp estate strategy not yet production evidence. |
 | Storage best-practice guidance | Safer and more effective use of the solution | Storage, infrastructure, application owners | Customer context plus current official guidance | Contextual recommendation with tradeoffs | Technical judgment | **Foundation only:** Azure, VM, networking, and storage fundamentals; storage depth is a ramp area. |
 | Upgrade advice | Supported, coordinated, lower-risk change | Platform, host, network, app, change teams | Current versions, IMT, lifecycle, release/advisory sources, business windows | Lifecycle/upgrade plan | Dependency analysis and change readiness | **Transferable:** fix validation and change-oriented support. **Gap:** no NetApp upgrade ownership claim. |
@@ -520,28 +520,28 @@ The supplied job description is the authority for role claims in this Part. This
 | Maintain install-base accuracy and hygiene | Correct asset coverage and fewer blind spots | Customer asset owner, account team, Support | Approved inventory and identity sources | Reconciliation and exception tracker | Data quality and ownership follow-through | **Transferable:** case/backlog data discipline. **Gap:** no NetApp install-base production experience. |
 | Conduct operational service reviews | Shared understanding, decisions, and owned actions | Lead TAM, customer owners and sponsors, account team | Reviewed analysis, trends, cases, actions | Service-review deck, minutes, action register | Facilitation and audience calibration | **Strength:** customer business reviews and analytics-led reporting. |
 | Use AutoSupport-related evidence for tailored recommendations | Relevant preventative attention based on customer signals | Lead TAM, customer owner, Support/SMEs | Eligible AutoSupport-derived information, context, official references | Tailored finding and recommendation | Signal validation and applicability | **Gap:** no direct AutoSupport tool usage claimed; conceptual until access or lab evidence exists. |
-| Mitigate technical risk and improve solution stability | Reduced avoidable disruption and clearer residual exposure | Customer owners, lead TAM, Support, SMEs | Health, cases, topology, lifecycle, compatibility, plans | Prioritized risk and remediation plan | Risk reasoning and technical coordination | **Strength:** CRITSIT ownership, risk mitigation, RCA/fix validation. **Gap:** NetApp-specific risk depth is in later Parts. |
+| Mitigate technical risk and improve solution stability | Reduced avoidable disruption and clearer residual exposure | Customer owners, lead TAM, Support, SMEs | Health, cases, topology, lifecycle, compatibility, plans | Prioritized risk and remediation plan | Risk reasoning and technical coordination | **Strength:** critical-situation ownership, risk mitigation, RCA/fix validation. **Gap:** NetApp-specific risk depth is in later Parts. |
 | Track preventative remediation and influence adoption | Recommendations become completed, verified actions | Action owners, sponsor, lead TAM | Recommendation register, dependencies, objections | Action tracker and closure evidence | Follow-through and influence without authority | **Strength:** escalation strategy, customer advisory, cross-team coordination. |
 | Improve technical analysis and representation of recommendations | Clearer, more trusted, repeatable decisions | Lead TAM, peers, customers | Feedback, QA rubric, Office/analytics tools | Improved report, visualization, or method | Continual improvement and data storytelling | **Strength:** analytics, documentation, knowledge creation, Power BI/Excel. |
-| Manage special projects | Scoped outcome delivered despite dependencies | Sponsor, lead TAM, customer/partner owners | Charter, scope, milestones, risks, dependencies | Project status, decision log, closure summary | Planning, prioritization, risk management | **Transferable:** programs, Technical Advisor work, enablement; avoid claiming formal NetApp projects. |
-| Strong written and verbal communication | Technical facts become clear decisions | Engineers through executives | Evidence, audience needs, meeting purpose | Concise updates, reports, presentations, minutes | Communication and listening | **Strength:** enterprise and partner customers, technical advisory, business reviews, 100+ recognitions. |
+| Manage special projects | Scoped outcome delivered despite dependencies | Sponsor, lead TAM, customer/partner owners | Charter, scope, milestones, risks, dependencies | Project status, decision log, closure summary | Planning, prioritization, risk management | **Transferable:** programs, technical advisor work, enablement; avoid claiming formal NetApp projects. |
+| Strong written and verbal communication | Technical facts become clear decisions | Engineers through executives | Evidence, audience needs, meeting purpose | Concise updates, reports, presentations, minutes | Communication and listening | **Strength:** enterprise and partner customers, technical advisory, business reviews, repeated peer and customer recognition. |
 | Microsoft Office, Excel, and PowerPoint | Efficient, credible analysis and reporting | Account and customer teams | Structured workbooks and slide narratives | Reproducible workbook and decision-ready deck | Office fluency and quality assurance | **Strength:** Excel, Power BI, analytics and presentations; PowerPoint should be evidenced with prepared artifacts. |
 | Work across customer time zones | Reliable collaboration and handoff | Global customer and account teams | Working agreements, calendars, handoff template | Clear coverage, checkpoint, and ownership | Boundary setting and global communication | **Transferable:** enterprise/partner support context; state actual availability honestly. |
-| Perform under pressure and manage time | Critical work progresses without losing quality | Incident leads, customers, account teams | Severity, impact, deadlines, work-in-progress limits | Prioritized plan, updates, handoff | Triage, composure, execution | **Strength:** business-critical incidents and CRITSITs. |
+| Perform under pressure and manage time | Critical work progresses without losing quality | Incident leads, customers, account teams | Severity, impact, deadlines, work-in-progress limits | Prioritized plan, updates, handoff | Triage, composure, execution | **Strength:** business-critical incidents and critical situations. |
 | Storage and/or virtualization knowledge | Credible environment analysis | Storage, host, virtualization, app teams | Architecture, metrics, compatibility, lab evidence | Topology, risk reasoning, validated questions | Infrastructure depth | **Partial:** Azure/networking/VM/storage fundamentals. **Gap:** no claimed production ONTAP, SAN, NAS, or VMware storage ownership. |
-| Learn and apply new technology customer-facing | Faster ramp without misleading customers | Lead TAM, SMEs, customers | Official learning, labs, shadowing, feedback | Teach-back, lab evidence, safe customer explanation | Learning agility and humility | **Strength:** Microsoft product breadth, Copilot, Technical Advisor program, mentoring. |
+| Learn and apply new technology customer-facing | Faster ramp without misleading customers | Lead TAM, SMEs, customers | Official learning, labs, shadowing, feedback | Teach-back, lab evidence, safe customer explanation | Learning agility and humility | **Strength:** Microsoft product breadth, Copilot, technical-advisor programme, mentoring. |
 | Understand risks and supportability parameters | Unsupported or uncertain combinations are surfaced before change | Platform and change owners, Support | IMT, Hardware Universe, lifecycle and advisory sources | Dated supportability record | Evidence-based boundary reasoning | **Gap:** tools are access/version sensitive; no direct production use claimed. |
 | Influence, negotiate, and deliver reviews under lead-TAM guidance | Customer chooses feasible actions despite competing priorities | Lead TAM, action owners, sponsor | Evidence, options, interests, constraints | Decision, phased plan, accepted risk | Influence without authority | **Strength:** advisory/escalation/customer communication. **Gap:** formal TAM review delivery under lead TAM is unproven. |
-| Buddy new hires and coach standard tasks | Faster, consistent team readiness | New hires, manager, peers | Task standards, examples, quality checks | Onboarding plan, feedback, competency progress | Coaching and quality calibration | **Strength:** mentoring, onboarding, technical interviews, Technical Advisor program. |
+| Buddy new hires and coach standard tasks | Faster, consistent team readiness | New hires, manager, peers | Task standards, examples, quality checks | Onboarding plan, feedback, competency progress | Coaching and quality calibration | **Strength:** mentoring, onboarding, technical interviews, technical-advisor programme. |
 | Contribute to cross-functional and SME teams | Better decisions across ownership boundaries | Support, Engineering/Product, account, partner, customer teams | Shared evidence and exact asks | Decision record, contribution, knowledge artifact | Collaboration and technical curiosity | **Strength:** product/engineering collaboration, partner and enterprise coordination. |
 | Build an area of specialization | Deeper team capability and reusable expertise | Manager, lead TAM, peers, customers | Learning backlog, cases/labs, feedback | Teach-back, knowledge asset, measurable skill plan | Deliberate development | **Strength:** SharePoint/OneDrive/Copilot depth. **Gap:** NetApp specialization must be earned. |
-| Experience, degree, and support/customer-success fit | Credible readiness for a customer-facing technical role | Hiring team | CV, examples, metrics, education | Factual candidate narrative | Experience relevance and self-awareness | **Evidence:** 5+ years Microsoft support/escalations, MBA Business Analytics, enterprise/partner customers. Do not convert support into unclaimed Customer Success tenure. |
+| Experience, degree, and support/customer-success fit | Credible readiness for a customer-facing technical role | Hiring team | CV, examples, metrics, education | Factual candidate narrative | Experience relevance and self-awareness | **Evidence:** 5+ years enterprise support/escalations, a postgraduate business-analytics qualification, enterprise/partner customers. Do not convert support into unclaimed Customer Success tenure. |
 
 ---
 
 ## 11. Complete fictional customer/account story
 
-> **Fictional scenario and evidence boundary:** Everything in this section is invented for learning. The customer, systems, identifiers, findings, dates, numbers, objections, and outcomes are synthetic. The scenario does not represent NetApp internal process, customer data, confidential methods, or Arti's production experience. It does not claim access to AutoSupport, Active IQ Digital Advisor, IMT, Hardware Universe, Bugs Online, or any other gated tool. Where a real tool would normally be consulted, the exercise uses a clearly labeled placeholder evidence record that would require authorized, current verification.
+> **Fictional scenario and evidence boundary:** Everything in this section is invented for learning. The customer, systems, identifiers, findings, dates, numbers, objections, and outcomes are synthetic. The scenario does not represent NetApp internal process, customer data, confidential methods, or your production experience. It does not claim access to AutoSupport, Active IQ Digital Advisor, IMT, Hardware Universe, Bugs Online, or any other gated tool. Where a real tool would normally be consulted, the exercise uses a clearly labeled placeholder evidence record that would require authorized, current verification.
 
 ### Customer: CedarPeak Health Services
 
@@ -712,7 +712,7 @@ The analyst prepares the fictional review using a 2026-03-31 data cutoff. The le
 
 ### What the fictional story proves
 
-It demonstrates the method Arti should be able to explain:
+It demonstrates the method you should be able to explain:
 
 1. Begin with service scope and customer outcomes.
 2. Build a validated environment picture.
@@ -728,25 +728,25 @@ It does **not** prove production NetApp tool use, ONTAP administration, upgrade 
 
 ---
 
-## 12. Arti's support-to-TAM bridge
+## 12. Your support-to-TAM bridge
 
 ### Factual strength map
 
 | Factual CV evidence | TAM-relevant strength | Interview use |
 |---|---|---|
-| 5+ years in Microsoft support and escalations | Sustained technical ownership, customer context, and structured escalation | Use a real example of organizing evidence, coordinating owners, and maintaining communication |
+| 5+ years in enterprise support and escalations | Sustained technical ownership, customer context, and structured escalation | Use a real example of organizing evidence, coordinating owners, and maintaining communication |
 | SharePoint, OneDrive, and Copilot experience | Enterprise data-service and cloud dependency awareness | Connect to application-to-data thinking while acknowledging different storage architecture |
 | Enterprise and partner customers | Multi-party communication and boundary management | Explain how customer, partner, Support, Product, and Engineering roles were aligned |
-| CRITSIT and business-critical incidents | High-pressure prioritization and executive-ready updates | Show impact-first triage, restoration focus, cadence, and post-incident learning |
+| Critical situation and business-critical incidents | High-pressure prioritization and executive-ready updates | Show impact-first triage, restoration focus, cadence, and post-incident learning |
 | Technical advisory work | Ability to turn technical evidence into customer action | Use a recommendation or risk-mitigation example grounded in actual scope |
 | Product and Engineering collaboration | Strong escalation packages and defect/fix follow-through | Explain evidence quality, exact asks, feedback loops, and validation |
-| CSAT above 4.75 Enterprise and above 4.85 SMB | Consistently strong customer experience indicators | Present as measured support outcomes, not proof of TAM storage expertise |
-| 100+ recognitions | Repeated peer/customer acknowledgement | Use selectively as corroboration; lead with specific behavior and result |
+| a strong customer-satisfaction record | Consistently strong customer experience indicators | Present as measured support outcomes, not proof of TAM storage expertise |
+| repeated peer and customer recognition | Repeated peer/customer acknowledgement | Use selectively as corroboration; lead with specific behavior and result |
 | Business reviews and analytics | Operational reporting and trend storytelling | Bridge to service-review preparation and data-backed decisions |
 | Excel and Power BI | Analysis, reconciliation, visualization, and QA | Build portfolio examples using synthetic data and reproducible logic |
 | Mentoring and onboarding | Coaching and quality calibration | Map directly to buddying, standard-task coaching, and teach-back |
-| Technical Advisor program | Advisory mindset and broader team contribution | Explain factual responsibilities and outcomes without inflating title equivalence |
-| MBA in Business Analytics | Business framing, data reasoning, and stakeholder decisions | Connect technical work to prioritization, value, and uncertainty |
+| technical-advisor programme | Advisory mindset and broader team contribution | Explain factual responsibilities and outcomes without inflating title equivalence |
+| A postgraduate business-analytics qualification | Business framing, data reasoning, and stakeholder decisions | Connect technical work to prioritization, value, and uncertainty |
 | Azure, networking, VM, and storage fundamentals | Entry point to hybrid infrastructure thinking | State as foundation; build NetApp, protocol, SAN/NAS, and virtualization depth in later Parts |
 
 ### Support-to-TAM translation table
@@ -766,7 +766,7 @@ It does **not** prove production NetApp tool use, ONTAP administration, upgrade 
 
 ```mermaid
 flowchart LR
-    PROD[Proven Microsoft production support evidence] --> TRANSFER[Transferable TAM behaviors]
+    PROD[Proven prior production support evidence] --> TRANSFER[Transferable TAM behaviors]
     TRANSFER --> METHOD[Account analysis method and synthetic portfolio]
     METHOD --> LAB[Authorized labs and tool practice]
     LAB --> SHADOW[Shadow and reverse-shadow with feedback]
@@ -777,17 +777,17 @@ flowchart LR
 
 | Demonstrated now | Unproven and must not be implied |
 |---|---|
-| Microsoft enterprise support and escalation ownership | Production administration of NetApp ONTAP, AFF/FAS, StorageGRID, E-Series, or cloud data services |
+| enterprise support and escalation ownership | Production administration of NetApp ONTAP, AFF/FAS, StorageGRID, E-Series, or cloud data services |
 | SharePoint/OneDrive/Copilot and M365 customer context | Direct use of AutoSupport, Active IQ Digital Advisor, IMT, Hardware Universe, or NetApp Bugs Online |
-| CRITSIT coordination and high-pressure communication | NetApp bug/BURT scrub ownership in a customer account |
+| Critical-situation coordination and high-pressure communication | NetApp bug/BURT scrub ownership in a customer account |
 | Product/Engineering collaboration and fix validation | NetApp upgrade, firmware, SAN, NAS, VMware-storage, or lifecycle delivery |
 | Business reviews, analytics, Excel, Power BI | Leading a formal NetApp operational service review |
-| Mentoring, onboarding, and Technical Advisor experience | Acting as a NetApp lead TAM or owning NetApp commercial strategy |
+| Mentoring, onboarding, and technical advisor experience | Acting as a NetApp lead TAM or owning NetApp commercial strategy |
 | Azure, networking, VM, and storage fundamentals | Deep production storage architecture or virtualization specialization |
 
 ### Honest 60-90 second answer: Tell me about yourself and why this role?
 
-> "I have more than five years of Microsoft support and escalation experience, primarily around SharePoint, OneDrive, Microsoft 365, and more recently Copilot-related work. I have supported enterprise and partner customers, owned business-critical and CRITSIT situations, coordinated with Product and Engineering, and translated technical findings into customer guidance and business reviews. My measured customer outcomes include CSAT above 4.75 in Enterprise and above 4.85 in SMB, along with more than 100 recognitions. I also bring an MBA in Business Analytics, hands-on use of Excel and Power BI, mentoring and onboarding experience, and foundations in Azure, networking, virtual machines, and storage. The reason this Technical Analyst role interests me is that it extends the strongest parts of my support background from individual escalations into ongoing account analysis: understanding an environment, identifying risk before it becomes urgent, improving the quality of recommendations, tracking action, and showing value over time. I want to be direct about the gap: my production experience is Microsoft-focused, not NetApp administration or NetApp's gated tools. I am building the storage and NetApp-specific depth systematically, and I would bring a proven evidence, customer, and escalation discipline while I ramp under the lead TAM and subject-matter experts."
+> "I have several years of enterprise support and escalation experience, primarily around SharePoint, OneDrive, Microsoft 365, and more recently Copilot-related work. I have supported enterprise and partner customers, owned business-critical and critical situations, coordinated with Product and Engineering, and translated technical findings into customer guidance and business reviews. My measured customer outcomes include a strong customer-satisfaction record, along with repeated peer and customer recognition. I also bring an a postgraduate business-analytics qualification, hands-on use of Excel and Power BI, mentoring and onboarding experience, and foundations in Azure, networking, virtual machines, and storage. The reason this Technical Analyst role interests me is that it extends the strongest parts of my support background from individual escalations into ongoing account analysis: understanding an environment, identifying risk before it becomes urgent, improving the quality of recommendations, tracking action, and showing value over time. I want to be direct about the gap: my production experience is focused on a different technology stack, not NetApp administration or NetApp's gated tools. I am building the storage and NetApp-specific depth systematically, and I would bring a proven evidence, customer, and escalation discipline while I ramp under the lead TAM and subject-matter experts."
 
 ### Candidate honesty note
 
@@ -795,7 +795,7 @@ Use these labels consistently:
 
 | Evidence level | Safe language | Do not say |
 |---|---|---|
-| **Production** | "In my Microsoft support role, I owned..." followed by a factual example and result | "I have done this in NetApp" when the work was on Microsoft technology |
+| **Production** | "In my prior support role, I owned..." followed by a factual example and result | "I have done this in NetApp" when the work was on Microsoft technology |
 | **Lab or synthetic exercise** | "In a controlled lab" or "Using synthetic account data, I built..." and explain method and evidence | "For my customer" or "in production" |
 | **Conceptual** | "I understand the purpose and would validate it by..." | "I know the tool" when knowledge comes only from reading |
 | **Access-gated or not yet practiced** | "I have not used that tool directly. My current understanding is conceptual, and I would verify current behavior through authorized access, official documentation, and review." | Invented screenshots, workflows, results, or entitlement |
@@ -977,11 +977,11 @@ Prepare a 60-second opening with:
 
 Respond to: "We have no outages, so the preventative action has no value." Use shared objective, evidence, time horizon, options, cost of delay, and customer decision ownership. Avoid fear-based language.
 
-### Exercise 7 - Arti evidence labeling
+### Exercise 7 - transferable evidence labeling
 
-Choose one real Microsoft CRITSIT, one business review, and one mentoring example. For each, write:
+Choose one real enterprise critical situation, one business review, and one mentoring example. For each, write:
 
-- What Arti directly did in production.
+- What you directly did in production.
 - Which TAM competency transfers.
 - Which NetApp-specific knowledge is still missing.
 - Which lab or learning artifact would narrow the gap.
@@ -1056,9 +1056,9 @@ Review the CedarPeak story and identify:
 
 ### Q6. Why are you a fit when your background is Microsoft rather than NetApp storage?
 
-> **Model answer:** "My direct evidence is more than five years of Microsoft enterprise support and escalation work, including SharePoint, OneDrive and Copilot, business-critical incidents, partner and customer coordination, Product and Engineering collaboration, technical advisory, business reviews, analytics, and mentoring. Those experiences demonstrate evidence discipline, customer communication, high-pressure ownership, cross-functional influence, and follow-through. I also bring an MBA in Business Analytics and Azure, networking, VM, and storage fundamentals. I would not claim production ONTAP or NetApp tool experience; that is the domain gap I am closing through official learning, synthetic analysis, labs where authorized, and review by experienced SMEs."
+> **Model answer:** "My direct evidence is several years of enterprise support and escalation work, including SharePoint, OneDrive and Copilot, business-critical incidents, partner and customer coordination, Product and Engineering collaboration, technical advisory, business reviews, analytics, and mentoring. Those experiences demonstrate evidence discipline, customer communication, high-pressure ownership, cross-functional influence, and follow-through. I also bring an a postgraduate business-analytics qualification and Azure, networking, VM, and storage fundamentals. I would not claim production ONTAP or NetApp tool experience; that is the domain gap I am closing through official learning, synthetic analysis, labs where authorized, and review by experienced SMEs."
 
-**Likely follow-up depth:** Prepare one factual CRITSIT story, one analytics/business-review story, one engineering-collaboration story, and a concrete 30/60/90-day storage ramp plan.
+**Likely follow-up depth:** Prepare one factual critical-situation story, one analytics/business-review story, one engineering-collaboration story, and a concrete 30/60/90-day storage ramp plan.
 
 ### Q7. What would you do if a customer rejected a high-priority recommendation?
 
@@ -1093,7 +1093,7 @@ Review the CedarPeak story and identify:
 - **Service review:** A decision meeting backed by evidence, not a slide recital.
 - **Value:** Proved outcome movement, not activity volume.
 - **Honesty:** Production, lab, conceptual, gated, and transferable are different evidence levels.
-- **Arti's bridge:** Microsoft escalation discipline plus analytics and customer trust; NetApp depth must be earned and demonstrated.
+- **Your bridge:** enterprise escalation discipline plus analytics and customer trust; NetApp depth must be earned and demonstrated.
 
 ---
 
@@ -1114,7 +1114,7 @@ You are ready for Part 2 when you can do all of the following without reading:
 - [ ] Explain every JD Mapping row and connect it to factual evidence or an honest gap.
 - [ ] Recreate the CedarPeak fictional story from first 30 days through quarterly review and follow-up.
 - [ ] Identify evidence, priority rationale, recommendation, objection, owner, date, validation, residual risk, and outcome in the fictional story.
-- [ ] Translate five Microsoft support examples into TAM competencies without claiming NetApp production experience.
+- [ ] Translate five enterprise support examples into TAM competencies without claiming NetApp production experience.
 - [ ] Label statements accurately as production, lab/synthetic, conceptual, access-gated, or transferable.
 - [ ] Explain at least five common TAM failure modes and correct the related misconceptions.
 - [ ] Complete the eight self-test exercises and answer all eight interview questions aloud.

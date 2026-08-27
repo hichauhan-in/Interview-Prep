@@ -55,7 +55,7 @@ By the end of this part, you should be able to:
 
 If your background includes Microsoft cloud administration but not Exchange Online mail-flow ownership, say:
 
-> "My Microsoft cloud experience gives me a strong base in tenants, identity, RBAC, portals, and audit evidence. For Exchange Online I would apply that foundation to accepted domains, connectors, mail flow rules, message trace, quarantine, and Defender actions. I would start with a read-only topology and one recipient branch, verify the exact policy or rule that acted, and use a synthetic lab plan before proposing a change. I would not claim a protection verdict from a transport status alone."
+> "My prior cloud experience gives me a strong base in tenants, identity, RBAC, portals, and audit evidence. For Exchange Online I would apply that foundation to accepted domains, connectors, mail flow rules, message trace, quarantine, and Defender actions. I would start with a read-only topology and one recipient branch, verify the exact policy or rule that acted, and use a synthetic lab plan before proposing a change. I would not claim a protection verdict from a transport status alone."
 
 This leans into real transferable skills without overstating product depth.
 
@@ -654,7 +654,7 @@ Fixture:
 | `legacy.user@northwind.example` | Mail user/legacy route | Receive -> Send via `To-Legacy` | Intended coexistence route |
 | `missing@northwind.example` | Unknown | Receive -> Send via `To-Legacy` -> remote `550 5.1.1` | Internal relay delegated final recipient decision to legacy |
 
-Discriminating change on paper: switch the accepted domain to Authoritative **without changing actual tenant**. Expected conceptual result: `missing` is rejected at Microsoft edge/directory boundary, while `legacy.user` works only if its mail user/proxy object remains complete. This demonstrates why domain type and directory data must be evaluated together.
+Discriminating change on paper: switch the accepted domain to Authoritative **without changing actual tenant**. Expected conceptual result: `missing` is rejected at the Microsoft 365 edge/directory boundary, while `legacy.user` works only if its mail user/proxy object remains complete. This demonstrates why domain type and directory data must be evaluated together.
 
 ### Case C: Quarantine
 

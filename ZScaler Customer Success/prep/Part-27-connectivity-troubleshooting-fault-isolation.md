@@ -1,10 +1,10 @@
 # Part 27 - Structured Connectivity Troubleshooting and Fault Isolation
 
-> **Audience:** Arti Thakur, moving from Microsoft 365 Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
+> **Audience:** Candidates moving from Microsoft 365 Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
 >
 > **Purpose:** Turn vague connectivity complaints into reproducible symptoms, dependency maps, ranked hypotheses, discriminating tests, evidence-led ownership, safe mitigations, and validated customer outcomes.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Its users, devices, networks, policies, incidents, metrics, logs, tests, failures, and outcomes are synthetic. Arti's Microsoft 365, OneDrive for Business, SharePoint Online, networking, evidence, escalation, analytics, and mentoring experience must remain within her approved factual background.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Its users, devices, networks, policies, incidents, metrics, logs, tests, failures, and outcomes are synthetic. Your Microsoft 365, OneDrive for Business, SharePoint Online, networking, evidence, escalation, analytics, and mentoring experience must remain within your documented background.
 >
 > **Product caveat:** Network paths, applications, Microsoft 365 endpoints, operating-system behavior, browser/client versions, security controls, and Zscaler features change. Verify current official documentation, configuration, timestamps, and direct evidence. A successful ping, port test, trace, service-health page, or synthetic bypass never proves the entire production transaction is healthy and never proves a Microsoft, Zscaler, carrier, firewall, endpoint, or application defect alone.
 
@@ -14,7 +14,7 @@ Structured troubleshooting is disciplined uncertainty reduction. It begins with 
 
 Think of a building with no water at one sink. Replacing the city pipe, pump, faucet, and water heater at once may restore water, but no one learns which component failed, whether the fix weakened safety, or what to monitor next time. A plumber first defines scope: one faucet, one floor, hot water only, or the whole building? Then the plumber opens observation points and tests boundaries. Connectivity troubleshooting works the same way.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Evidence of mastery |
 |---|---|---|
@@ -31,15 +31,15 @@ By the end, Arti should be able to:
 | Protect customers | Minimize evidence, avoid unsafe bypasses, define rollback and negative controls | Change record |
 | Assign ownership | State last confirmed boundary, confidence, missing evidence, and next owner | Handoff brief |
 | Lead incidents | Coordinate parallel workstreams without shotgun changes | NMH playbooks |
-| Bridge honestly | Apply Arti's production support method without claiming Zscaler production operation | Interview story |
+| Bridge honestly | Apply your production support method without claiming Zscaler production operation | Interview story |
 
 ## JD Mapping
 
-| JD expectation | Part 27 capability | Customer artifact | Honest Arti bridge |
+| JD expectation | Part 27 capability | Customer artifact | Honest experience bridge |
 |---|---|---|---|
 | Analyze complex environments | Build dependency and observation maps across endpoint, identity, network, controls, and service | Current-state fault map | Extends M365 escalation practice |
 | Identify security risks | Detect overbroad bypasses, secret-heavy capture, stale policy, and weak negative controls | Risk-aware test plan | Applies enterprise support discipline |
-| Resolve critical escalations | Run time-bounded hypotheses and parallel evidence workstreams | Incident decision log | Builds on CRITSIT leadership |
+| Resolve critical escalations | Run time-bounded hypotheses and parallel evidence workstreams | Incident decision log | Builds on critical-situation leadership |
 | Tailor mitigation | Match fix to proven boundary with pilot, rollback, and residual risk | Mitigation decision | Builds on fix validation |
 | Deliver consulting | Teach customer teams how to reason from operation to evidence | Workshop and playbook | Uses advisor and mentoring experience |
 | Partner cross-functionally | Define ownership and exact asks for endpoint, identity, network, security, app, and provider teams | RACI and handoff | Maps to Engineering/customer collaboration |
@@ -48,7 +48,7 @@ By the end, Arti should be able to:
 
 ## Candidate honesty note
 
-Arti can truthfully describe production methods she used in Microsoft 365 support: clarifying impact, reproducing symptoms, comparing browser and sync paths, collecting network/client evidence, coordinating escalations, validating fixes, communicating status, and writing RCA where supported by her experience. She can describe the NMH playbooks and labs as structured practice.
+You can truthfully describe production methods you used in Microsoft 365 support: clarifying impact, reproducing symptoms, comparing browser and sync paths, collecting network/client evidence, coordinating escalations, validating fixes, communicating status, and writing RCA where supported by your experience. You can describe the NMH playbooks and labs as structured practice.
 
 Direct production operation of Zscaler policies, service edges, Client Connector telemetry, ZDX, Data Fabric, UVM, or SecOps workflows is not established. The safe bridge is: "I have used this fault-isolation method in Microsoft 365 support. I understand where a zero trust or security control could become an observation and policy boundary. In a Zscaler environment, I would verify the deployed product, forwarding method, policy context, official logs, tenant access, and support procedure before making a product-specific claim."
 
@@ -951,14 +951,14 @@ Collect only what tests the active hypotheses. Define purpose, authority, system
 | Screenshot/video | Personal data, notifications, other apps | Crop after preserving context; review every frame |
 | Decision log | Customer architecture and risk | Role-based case access |
 
-## Arti bridge and interview positioning
+## Experience bridge and interview positioning
 
 | Existing strength | Part 27 translation | Practice artifact |
 |---|---|---|
 | Microsoft 365 escalation | End-to-end transaction ownership | Structured intake |
 | OneDrive/SharePoint expertise | Browser versus native client dependency comparison | Path matrix |
 | Networking upskill | Layered observation and packet reasoning | Fault tree |
-| CRITSIT | Parallel workstreams and decision cadence | Incident log |
+| Critical situation | Parallel workstreams and decision cadence | Incident log |
 | RCA/fix validation | Trigger/root cause/controls/prevention | NMH RCA |
 | Analytics | Baselines, percentiles, scope matrices | Performance dashboard |
 | Mentoring | Teach hypotheses and evidence boundaries | Playbook workshop |
@@ -1132,7 +1132,7 @@ The following authoritative sources were reviewed on **2026-08-24**. They suppor
 - [ ] I can separate trigger, root cause, contributors, detection gap, response gap, fix, prevention, and residual risk.
 - [ ] I can collect minimum authorized evidence and protect tokens, identifiers, paths, content, and architecture.
 - [ ] I can complete all ten labs with synthetic or explicitly authorized data.
-- [ ] I can explain Arti's production support strengths and product gaps without false equivalence.
+- [ ] I can explain your production support strengths and product gaps without false equivalence.
 - [ ] I can answer all eight interview questions aloud with bounded evidence language.
 
 [Part 28 - OneDrive Sync and SharePoint Online Connectivity Architecture](Part-28-onedrive-sharepoint-connectivity.md)

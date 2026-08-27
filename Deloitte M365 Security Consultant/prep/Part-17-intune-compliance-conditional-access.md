@@ -19,7 +19,7 @@ This Part builds on enrollment from [Part 15](Part-15-intune-architecture-enroll
 
 ## Candidate honesty note
 
-Arti can credibly connect this topic to production M365 access troubleshooting, permission and sync investigations, incident scoping, correlation of client/cloud evidence, RCA, fix validation, stakeholder communications, documentation, and escalation to service/product owners. Those skills are directly relevant when users report “Conditional Access blocked me” but the cause might be enrollment, stale compliance, an app/broker limitation, threat risk, licensing, or token context.
+You can credibly connect this topic to production M365 access troubleshooting, permission and sync investigations, incident scoping, correlation of client/cloud evidence, RCA, fix validation, stakeholder communications, documentation, and escalation to service/product owners. Those skills are directly relevant when users report “Conditional Access blocked me” but the cause might be enrollment, stale compliance, an app/broker limitation, threat risk, licensing, or token context.
 
 This Part does **not** claim production ownership of Intune compliance, Conditional Access, device health attestation, MDE/MTD integration, custom compliance scripts, or access-policy rollout. Safe wording is:
 
@@ -737,7 +737,7 @@ Contoso has 1,500 Windows devices, 300 Macs, corporate iPhones, contractor BYOD,
 - [ ] I can troubleshoot from exact sign-in to exact device/rule and preserve evidence.
 - [ ] I can define coverage, freshness, signal-health, remediation, exception, and support metrics.
 - [ ] I completed or can explain the safe paper lab as non-production evidence.
-- [ ] I can answer Q1-Q8 aloud and preserve Arti's honesty boundary.
+- [ ] I can answer Q1-Q8 aloud and preserve your honesty boundary.
 - [ ] I will recheck current platform, partner, preview, grant-retirement, licensing, and report behavior.
 
 ---

@@ -1,10 +1,10 @@
 # Part 56 - Data Governance, Privacy, Security, RBAC, and Retention
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 >
 > **Purpose:** Build a beginner-first operating model for owning, cataloging, classifying, securing, minimizing, authorizing, retaining, archiving, deleting, auditing, sharing, and responding to incidents involving security data. It covers stewardship, lineage, lawful/authorized purpose, role- and attribute-based access control, least privilege, separation of duties, encryption, key/secrets management, masking, tokenization, pseudonymization, residency, legal hold, third parties, data-subject requests, sensitive logs, breaches, and governance evidence.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every policy, dataset, owner, role, attribute, permission, classification, retention period, legal hold, request, incident, audit, vendor, region, contract, and outcome in this Part is synthetic. This is technical/governance education, not legal advice. NIST, GDPR, ISO, and other sources have specific scopes; applicability must be determined by qualified legal, privacy, security, records, and compliance professionals. General controls are not Zscaler Data Fabric schemas, tenant settings, processing terms, residency options, roles, retention behavior, deletion behavior, or guarantees. Public Zscaler pages are used only for bounded Data Fabric and published privacy context. Arti's enterprise support, evidence minimization, incident handling, access, customer trust, and cross-functional communication transfer; direct production governance of Zscaler Data Fabric remains a learning boundary.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every policy, dataset, owner, role, attribute, permission, classification, retention period, legal hold, request, incident, audit, vendor, region, contract, and outcome in this Part is synthetic. This is technical/governance education, not legal advice. NIST, GDPR, ISO, and other sources have specific scopes; applicability must be determined by qualified legal, privacy, security, records, and compliance professionals. General controls are not Zscaler Data Fabric schemas, tenant settings, processing terms, residency options, roles, retention behavior, deletion behavior, or guarantees. Public Zscaler pages are used only for bounded Data Fabric and published privacy context. Your enterprise support, evidence minimization, incident handling, access, customer trust, and cross-functional communication transfer; direct production governance of Zscaler Data Fabric remains a learning boundary.
 >
 > **Currency caveat:** Laws, contracts, standards, product capabilities, service locations, subprocessors, control catalogs, and organizational policies change. The controlled research/source date for this Part is exactly **2026-08-24**. Current executed agreements, approved policies, tenant documentation/evidence, records schedules, legal/privacy advice, customer requirements, and product/security specialists govern production.
 
@@ -14,7 +14,7 @@ Data governance is the system of decisions, accountability, policies, controls, 
 
 Think of a hospital records department. It needs to know what each record is, who owns meaning, who may see or change it, why it is used, how long it stays, when a legal hold overrides deletion, how copies are found, and how unauthorized disclosure is handled. A locked filing cabinet alone is not governance. Neither is encryption alone.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Evidence artifact |
 |---|---|---|
@@ -50,9 +50,9 @@ flowchart LR
 
 ## JD Mapping
 
-| Role expectation | Part 56 capability | TSM artifact | Arti bridge and boundary |
+| Role expectation | Part 56 capability | TSM artifact | experience bridge and boundary |
 |---|---|---|---|
-| Analyze enterprise environments | Map data ownership, flows, copies, access, retention, and dependencies | Governance assessment | Microsoft enterprise data/evidence handling transfers |
+| Analyze enterprise environments | Map data ownership, flows, copies, access, retention, and dependencies | Governance assessment | enterprise data/evidence handling transfers |
 | Identify security risks | Find overcollection, excessive access, weak keys, stale data, and vendor gaps | Data-risk register | Observation requires owner/legal validation |
 | Develop Data Fabric expertise | Apply governance questions to public Data Fabric context | Governance discovery checklist | Tenant/product specifics unclaimed |
 | Resolve escalations | Collect minimum evidence and protect sensitive logs | Secure evidence plan | Support escalation experience transfers |
@@ -285,7 +285,7 @@ Never request "all logs" by reflex. Define hypothesis, minimum fields/time/popul
 
 A support trace may capture the envelope and the letter. URLs can contain identifiers; headers can contain tokens; memory dumps can contain secrets; command lines can include passwords; packet captures can reveal content.
 
-The safest trace is not the biggest trace. Collect the smallest discriminating evidence, inspect/redact using approved processes, and use secure channels. Arti can credibly connect this to Microsoft escalation work.
+The safest trace is not the biggest trace. Collect the smallest discriminating evidence, inspect/redact using approved processes, and use secure channels. You can credibly connect this to enterprise escalation work.
 
 ## Purpose limitation and authorized/lawful use
 
@@ -1085,7 +1085,7 @@ NIST sources provide voluntary/federal-context risk, security, privacy, access, 
 
 ### Q8. How does your background transfer, and what can you claim about Zscaler?
 
-**Model answer:** Enterprise Microsoft support trained me to request minimum discriminating evidence, handle sensitive logs securely, control access/share, redact tokens/PII, preserve timelines, coordinate incidents, and communicate trust boundaries. I practiced governance workflows on synthetic NMH data. Zscaler publicly describes Data Fabric and publishes privacy resources, but I do not infer tenant RBAC, retention, deletion, residency, or legal terms; I would validate current agreements, tenant evidence, docs, and specialists.
+**Model answer:** Enterprise support trained me to request minimum discriminating evidence, handle sensitive logs securely, control access/share, redact tokens/PII, preserve timelines, coordinate incidents, and communicate trust boundaries. I practiced governance workflows on synthetic NMH data. Zscaler publicly describes Data Fabric and publishes privacy resources, but I do not infer tenant RBAC, retention, deletion, residency, or legal terms; I would validate current agreements, tenant evidence, docs, and specialists.
 
 ## 30-Second Memory Hooks
 
@@ -1119,7 +1119,7 @@ NIST sources provide voluntary/federal-context risk, security, privacy, access, 
 | Audit | Who did what under which policy |
 | DSAR | Route rights request through authorized process |
 | Breach | Legal/policy assessment, not casual label |
-| Arti bridge | Evidence care and trust transfer; legal/product claims do not |
+| Experience bridge | Evidence care and trust transfer; legal/product claims do not |
 
 ## Completion Checklist
 

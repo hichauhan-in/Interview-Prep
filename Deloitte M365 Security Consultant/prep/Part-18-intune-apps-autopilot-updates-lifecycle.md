@@ -19,7 +19,7 @@ This Part builds on enrollment, configuration, and compliance in [Parts 15-17](P
 
 ## Candidate honesty note
 
-Arti can truthfully connect this Part to Microsoft 365 app/client support, OneDrive sync deployment behavior, incident triage, log correlation, customer communications, change validation, vendor/product-group escalation, documentation, and RCA. These are strong transferable skills for distinguishing an app assignment from download, installer, detection, or policy failure.
+You can truthfully connect this Part to Microsoft 365 app/client support, OneDrive sync deployment behavior, incident triage, log correlation, customer communications, change validation, vendor/product-group escalation, documentation, and RCA. These are strong transferable skills for distinguishing an app assignment from download, installer, detection, or policy failure.
 
 This Part does **not** claim production packaging of Win32 apps, ownership of IME deployments, Autopilot registrations/profiles, Windows Autopatch, update rings, or production reset/wipe actions. Safe wording is:
 
@@ -608,7 +608,7 @@ flowchart TD
 | Local app state | Does intended version launch and function? |
 | Portal timestamps | Is report current after latest evaluation? |
 
-Arti's support advantage is to avoid “reinstall” as the first response. First determine whether there was an install attempt at all.
+Your support advantage is to avoid “reinstall” as the first response. First determine whether there was an install attempt at all.
 
 ## 27. Autopilot troubleshooting by phase
 
@@ -861,7 +861,7 @@ Contoso needs Microsoft 365 Apps, a 2-GB Win32 finance app, an optional Store di
 - [ ] I can design security, privacy, licensing, deployment, testing, rollback and operations.
 - [ ] I can troubleshoot apps, Autopilot and updates by phase with preserved evidence.
 - [ ] I completed or can explain the safe paper lab as non-production evidence.
-- [ ] I can answer Q1-Q8 aloud and preserve Arti's honesty boundary.
+- [ ] I can answer Q1-Q8 aloud and preserve your honesty boundary.
 - [ ] I will verify current app, Autopilot, update, Autopatch, preview, retirement and licensing guidance.
 
 ---

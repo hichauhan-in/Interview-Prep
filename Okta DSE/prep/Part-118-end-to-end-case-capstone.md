@@ -33,7 +33,7 @@ flowchart TD
 
 **The first move is not to investigate.** It is the five questions, plus the free checks, in parallel (Part 111).
 
-> 💡 **Tie-in to your background:** this is a CRITSIT opening. **The temptation under urgency is to start looking at things; the discipline is to narrow first**, because the wrong layer costs a day you do not have.
+> 💡 **Tie-in to your background:** this is a critical-situation opening. **The temptation under urgency is to start looking at things; the discipline is to narrow first**, because the wrong layer costs a day you do not have.
 
 ---
 

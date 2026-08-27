@@ -1,16 +1,16 @@
 # Part 15 - Incident Response, Evidence, RCA, and Post-Incident Improvement
 
-> **Audience:** Arti Thakur, moving from Microsoft 365 Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
+> **Audience:** Candidates moving from Microsoft 365 Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
 >
 > **Currency date:** 2026-08-24.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, and every NMH event, incident, architecture, identity, connector, control, timeline, indicator, severity, metric, cause, action, decision, and outcome are fictional. Arti's established production bridge is Microsoft support, OneDrive, SharePoint, networking, troubleshooting, analytics, mentoring, escalation, and approved AI work. Direct production command of cybersecurity incidents, digital forensics, Zscaler, Security Operations, vulnerability management, exposure management, SIEM, SOAR, XDR, EDR, or regulated breach notification is not established.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, and every NMH event, incident, architecture, identity, connector, control, timeline, indicator, severity, metric, cause, action, decision, and outcome are fictional. Your established production bridge is enterprise support, OneDrive, SharePoint, networking, troubleshooting, analytics, mentoring, escalation, and approved AI work. Direct production command of cybersecurity incidents, digital forensics, Zscaler, Security Operations, vulnerability management, exposure management, SIEM, SOAR, XDR, EDR, or regulated breach notification is not established.
 >
 > **Current-guidance caveat:** NIST Special Publication 800-61 Revision 3, published April 2025, is the current NIST incident-response publication and supersedes Revision 2. It integrates incident-response recommendations across NIST Cybersecurity Framework 2.0 cybersecurity-risk-management activities. The familiar Preparation, Detection and Analysis, Containment, Eradication, Recovery, and Post-Incident Activity sequence remains a useful operational teaching model, but it should not be misrepresented as the exact current Rev. 3 document structure.
 >
 > **Authority caveat:** Incident declaration, evidence acquisition, employee monitoring, legal privilege, regulator or customer notification, law-enforcement contact, destructive actions, safety decisions, and public communication require authorized organizational roles. This chapter is educational, not legal, privacy, forensic, or regulatory advice.
 >
-> **Product caveat:** Zscaler pages describe vendor positioning. Exact event fields, retention, connectors, workflows, Agentic Security Operations behavior, autonomy, licensing, response actions, and tenant results require current documentation and validation. No NMH or Arti production Zscaler use is claimed.
+> **Product caveat:** Zscaler pages describe vendor positioning. Exact event fields, retention, connectors, workflows, Agentic Security Operations behavior, autonomy, licensing, response actions, and tenant results require current documentation and validation. No NMH or documented production Zscaler use is claimed.
 
 ## Section goal
 
@@ -18,7 +18,7 @@ Incident response is the coordinated process of preparing for, detecting, analyz
 
 Imagine smoke in a hospital. A sensor raises an alert. Staff confirm location and severity, protect patients, preserve information about the source, contain the hazard without blocking emergency exits, remove the cause, restore safe operation, communicate accurately, and improve building and response controls. Acting fast matters, but acting blindly can harm patients or destroy evidence. Cyber incident response has the same balance among urgency, safety, business continuity, evidence, authority, and learning.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Learning outcome | What mastery looks like |
 |---|---|
@@ -36,7 +36,7 @@ By the end, Arti should be able to:
 | Use causal tools | Apply Five Whys, fishbone, and fault tree with limitations and evidence |
 | Improve without blame | Write systemic, owned, measurable, validated, time-bound actions |
 | Close the loop | Feed incident lessons into exposure, architecture, detection, governance, training, and product work |
-| Practice honestly | Run a fictional NMH connector incident and use Arti's factual CRITSIT bridge |
+| Practice honestly | Run a fictional NMH connector incident and use your factual critical-situation bridge |
 
 ```mermaid
 flowchart LR
@@ -58,9 +58,9 @@ The flow is iterative. Containment may reveal new scope. Eradication may fail an
 
 The target Technical Success Manager, abbreviated **TSM**, may coordinate critical customer escalations, provide product and architecture context, organize evidence, manage communication, and connect Support, Product, Sales, Engineering, and customer teams. The TSM is not automatically the customer's incident commander, forensic examiner, legal adviser, breach-notification authority, or risk acceptor.
 
-| JD expectation | Incident-response capability | Honest Arti bridge | Boundary to preserve |
+| JD expectation | Incident-response capability | Honest experience bridge | Boundary to preserve |
 |---|---|---|---|
-| Resolve critical escalations | Structure command, workstreams, evidence, cadence, blockers, and decisions | Production CRITSIT and business-critical incident coordination | Cyber incident command is not claimed |
+| Resolve critical escalations | Structure command, workstreams, evidence, cadence, blockers, and decisions | Production critical situation and business-critical incident coordination | Cyber incident command is not claimed |
 | Analyze complex environments | Correlate identity, endpoint, network, application, SaaS, data, and provider evidence | Microsoft 365 cross-layer troubleshooting | Forensic conclusions require authorized specialists |
 | Deliver mitigation strategies | Compare containment, recovery, workaround, and long-term control actions | Production mitigation and fix validation | Customer incident and business owners approve action |
 | Develop SecOps expertise | Explain alert-to-incident, triage, investigation, response, and feedback | Structured learning and fictional exercise | No production SOC, SIEM, SOAR, XDR, or EDR operation |
@@ -71,13 +71,13 @@ The target Technical Success Manager, abbreviated **TSM**, may coordinate critic
 
 ## Candidate honesty note
 
-Arti can truthfully discuss leading or coordinating Microsoft support escalations and CRITSIT-style engagements: defining customer impact, opening workstreams, gathering logs and traces, comparing affected and unaffected cases, coordinating Engineering and stakeholders, documenting timelines, communicating status, validating workarounds and fixes, and contributing to root-cause and prevention learning.
+You can truthfully discuss leading or coordinating enterprise support escalations and critical-situation-style engagements: defining customer impact, opening workstreams, gathering logs and traces, comparing affected and unaffected cases, coordinating Engineering and stakeholders, documenting timelines, communicating status, validating workarounds and fixes, and contributing to root-cause and prevention learning.
 
-She should say explicitly that a service CRITSIT is not automatically a cybersecurity incident. She has not established production authority to seize devices, acquire forensic images, declare a breach, notify regulators, attribute an attacker, operate a SOC, or execute Zscaler response controls.
+You should say explicitly that a service critical situation is not automatically a cybersecurity incident. You have not established production authority to seize devices, acquire forensic images, declare a breach, notify regulators, attribute an attacker, operate a SOC, or execute Zscaler response controls.
 
 | Claim class | Safe wording | Unsafe wording |
 |---|---|---|
-| Production | "I coordinated high-severity Microsoft support incidents with evidence, workstreams, cadence, and fix validation." | "I commanded cyber breach response" |
+| Production | "I coordinated high-severity enterprise support incidents with evidence, workstreams, cadence, and fix validation." | "I commanded cyber breach response" |
 | Lab | "I ran a fictional NMH connector and account-compromise tabletop." | "I contained the NMH attack" |
 | Conceptual | "I understand current NIST framing and the incident lifecycle." | "I am a digital forensics expert" |
 | Not-yet-used | "I have not operated Zscaler SecOps, SIEM, SOAR, XDR, or EDR in production." | "I automated threat containment" |
@@ -981,13 +981,13 @@ sequenceDiagram
 | Provider evidence path was not rehearsed | Preparation cause | Update support matrix and exercise evidence preservation |
 | Revocation validation covered one app only | Response-test cause | Test session and grant revocation across scoped apps |
 
-## Arti CRITSIT bridge
+## You critical-situation bridge
 
-**CRITSIT** is commonly used in Microsoft support contexts for a critical situation requiring heightened coordination. Exact internal definitions and processes depend on the organization. A CRITSIT may involve availability, data, business impact, or customer confidence without malicious activity. It should not automatically be called a security incident.
+**Critical situation** is commonly used in enterprise support contexts for a critical situation requiring heightened coordination. Exact internal definitions and processes depend on the organization. A critical-situation may involve availability, data, business impact, or customer confidence without malicious activity. It should not automatically be called a security incident.
 
 ### Transferable mechanics
 
-| CRITSIT skill | Security-incident application | Honest boundary |
+| Critical-situation skill | Security-incident application | Honest boundary |
 |---|---|---|
 | Define customer impact | Establish business service, users, data, and urgency | Security severity uses customer criteria |
 | Establish bridge and cadence | Coordinate incident workstreams and decisions | Incident commander authority may sit elsewhere |
@@ -1002,9 +1002,9 @@ sequenceDiagram
 
 ### Interview bridge answer skeleton
 
-"In production Microsoft support, I have coordinated critical customer incidents by establishing scope and business impact, separating workstreams, gathering client, network, tenant, and service evidence, maintaining a timeline and cadence, escalating with reproducible evidence, validating workarounds and fixes, and communicating what was known and unknown. Those mechanics transfer strongly to cybersecurity incident coordination.
+"In production enterprise support, I have coordinated critical customer incidents by establishing scope and business impact, separating workstreams, gathering client, network, tenant, and service evidence, maintaining a timeline and cadence, escalating with reproducible evidence, validating workarounds and fixes, and communicating what was known and unknown. Those mechanics transfer strongly to cybersecurity incident coordination.
 
-I am careful about the boundary: a CRITSIT is not automatically a cyber incident, and I have not claimed forensic, breach-notification, SOC, or Zscaler response authority. In a security case I would work under the customer incident commander, preserve evidence through approved procedures, and involve Legal, Privacy, safety, and specialist teams."
+I am careful about the boundary: a critical situation is not automatically a cyber incident, and I have not claimed forensic, breach-notification, SOC, or Zscaler response authority. In a security case I would work under the customer incident commander, preserve evidence through approved procedures, and involve Legal, Privacy, safety, and specialist teams."
 
 ## Metrics
 
@@ -1123,9 +1123,9 @@ Multiple users cannot access SaaS. Test identity, Domain Name System, route, Tra
 
 An investigator asks for broad employee mailbox exports. Stop and clarify purpose, scope, authority, minimization, Legal, Privacy, Human Resources, storage, access, and retention. Collect only under approved procedure. Technical convenience is not authority.
 
-### Drill 6 - Arti CRITSIT bridge
+### Drill 6 - you critical-situation bridge
 
-Choose a factual critical Microsoft support case. Describe impact, command rhythm, evidence, hypotheses, Engineering escalation, workaround, customer updates, fix validation, and lessons. Then identify which cyber-specific activities you would hand to incident, forensic, Legal, Privacy, SOC, or Zscaler specialists.
+Choose a factual critical enterprise support case. Describe impact, command rhythm, evidence, hypotheses, Engineering escalation, workaround, customer updates, fix validation, and lessons. Then identify which cyber-specific activities you would hand to incident, forensic, Legal, Privacy, SOC, or Zscaler specialists.
 
 ## Contrarian review
 
@@ -1210,11 +1210,11 @@ Five Whys, fishbone, and fault tree help generate and structure causal hypothese
 
 The systemic lessons were progress-aware source health, app and supplier lifecycle ownership, source-confidence in detection, provider-evidence preparation, and cross-application revocation tests. It is entirely fictional and not a Zscaler product claim.
 
-### Q8. How does your CRITSIT experience transfer to cybersecurity incident response?
+### Q8. How does your critical-situation experience transfer to cybersecurity incident response?
 
-**Model answer:** In production Microsoft support, I have coordinated critical situations by defining business impact, organizing workstreams and cadence, gathering client, network, tenant, and service evidence, maintaining timelines, escalating to Engineering with reproducible details, communicating facts and unknowns, and validating workarounds and fixes.
+**Model answer:** In production enterprise support, I have coordinated critical situations by defining business impact, organizing workstreams and cadence, gathering client, network, tenant, and service evidence, maintaining timelines, escalating to Engineering with reproducible details, communicating facts and unknowns, and validating workarounds and fixes.
 
-Those mechanics transfer well. I am explicit that a CRITSIT is not automatically a cyber incident and that I have not claimed forensic, breach-notification, SOC, or Zscaler response authority. I would operate under the customer's incident command and involve Legal, Privacy, safety, and security specialists.
+Those mechanics transfer well. I am explicit that a critical situation is not automatically a cyber incident and that I have not claimed forensic, breach-notification, SOC, or Zscaler response authority. I would operate under the customer's incident command and involve Legal, Privacy, safety, and security specialists.
 
 ## 30-Second Memory Hooks
 
@@ -1248,7 +1248,7 @@ Those mechanics transfer well. I am explicit that a CRITSIT is not automatically
 | Blameless | Accountability without humiliation |
 | Good action | Cause, owner, date, measure, validation |
 | Exposure loop | Incident facts reprioritize paths and controls |
-| CRITSIT bridge | Impact, cadence, evidence, escalation, validation |
+| Critical-situation bridge | Impact, cadence, evidence, escalation, validation |
 | TSM boundary | Coordinate product workstream; do not assume incident authority |
 
 ## Completion Checklist
@@ -1283,7 +1283,7 @@ Those mechanics transfer well. I am explicit that a CRITSIT is not automatically
 - [ ] I can feed incident facts into asset, identity, attack-path, control, detection, and exposure-management updates.
 - [ ] I can walk the fictional NMH connector, supplier-session, app-grant, SharePoint, and replay incident end to end.
 - [ ] I can state that the NMH connector scenario is not a Zscaler product claim.
-- [ ] I can connect Arti's factual CRITSIT experience to command, evidence, escalation, communication, and validation while preserving cyber authority boundaries.
+- [ ] I can connect your factual critical-situation experience to command, evidence, escalation, communication, and validation while preserving cyber authority boundaries.
 - [ ] I can define incident metrics with stable start/end points, severity, denominators, and anti-gaming checks.
 - [ ] I can recheck NIST, CISA, MITRE, FIRST, Microsoft, and Zscaler sources after 2026-08-24.
 - [ ] I can answer all eight questions aloud without claiming production cyber incident command, forensics, Zscaler, SecOps, or vulnerability ownership.

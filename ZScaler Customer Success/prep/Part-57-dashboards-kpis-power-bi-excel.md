@@ -1,10 +1,10 @@
 # Part 57 - Dashboards, KPIs, SLAs, Power BI, Excel, and Executive Data Stories
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 >
 > **Purpose:** Build a beginner-first method for turning goals and questions into governed metrics, dimensions, grain, targets, baselines, filters, trends, aging, cohorts, accessible visuals, Power BI semantic models and DAX measures, Excel PivotTables/lookups/charts, reliable refresh and row-level security, dashboard quality assurance, and concise executive stories ending in a clear decision or action.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every metric, KPI, KRI, SLI, SLO, SLA, target, baseline, dashboard, semantic model, DAX formula, workbook, result, breach, executive statement, decision, and outcome in this Part is synthetic. General NIST measurement, Microsoft Power BI/Excel, and accessibility guidance is not a Zscaler Data Fabric schema, metric formula, dashboard configuration, SLA, threshold, result, or guarantee. Official Zscaler material is used only for bounded public context: Zscaler publicly describes dynamic dashboards/reporting and UVM insights into risk posture, KPIs, SLAs, and other metrics. Arti's Power BI, Excel, SQL, statistics, support quality, incident, and executive communication skills transfer; direct production use of Zscaler reporting remains a learning boundary.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every metric, KPI, KRI, SLI, SLO, SLA, target, baseline, dashboard, semantic model, DAX formula, workbook, result, breach, executive statement, decision, and outcome in this Part is synthetic. General NIST measurement, Microsoft Power BI/Excel, and accessibility guidance is not a Zscaler Data Fabric schema, metric formula, dashboard configuration, SLA, threshold, result, or guarantee. Official Zscaler material is used only for bounded public context: Zscaler publicly describes dynamic dashboards/reporting and UVM insights into risk posture, KPIs, SLAs, and other metrics. Your Power BI, Excel, SQL, statistics, support quality, incident, and executive communication skills transfer; direct production use of Zscaler reporting remains a learning boundary.
 >
 > **Currency caveat:** Product interfaces, licensing, DAX behavior, Excel functions, accessibility guidance, source data, definitions, targets, and business priorities change. The controlled research/source date for this Part is exactly **2026-08-24**. Current approved metric contracts, tenant evidence, source/semantic-model versions, customer risk appetite, executed SLAs, accessibility requirements, and product/data owners govern production.
 
@@ -14,7 +14,7 @@ A dashboard is a decision interface, not a collage of charts. It should help a n
 
 Think of a car dashboard. Speed, fuel, warning lights, and navigation are selected because they support driving decisions. Showing every engine sensor would distract the driver; hiding a failed brake warning would be dangerous. Security dashboards need the same discipline: the right measures, visible context, clear exceptions, and an action path.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Evidence artifact |
 |---|---|---|
@@ -50,7 +50,7 @@ flowchart LR
 
 ## JD Mapping
 
-| Role expectation | Part 57 capability | TSM artifact | Arti bridge and boundary |
+| Role expectation | Part 57 capability | TSM artifact | experience bridge and boundary |
 |---|---|---|---|
 | Analyze strategic customer data | Build governed security/customer metrics | Metric dictionary | Power BI/SQL/statistics transfer |
 | Identify and communicate risks | Show exposure, ownership, aging, quality, and trend honestly | Risk dashboard | Data does not replace risk owner |
@@ -65,7 +65,7 @@ flowchart LR
 
 | Evidence class | Safe interview statement | Boundary |
 |---|---|---|
-| Production transfer | "I used SQL, Excel, Power BI, case-quality metrics, and executive updates in Microsoft support operations." | Do not inflate scope/results |
+| Production transfer | "I used SQL, Excel, Power BI, case-quality metrics, and executive updates in enterprise support operations." | Do not inflate scope/results |
 | Synthetic practice | "I built NMH security metric contracts, model, DAX, PivotTables, dashboard QA, and executive brief." | Fictional lab evidence |
 | Microsoft feature | "Power BI measures evaluate under context; RLS filters rows for specified roles." | Validate current product/license/configuration |
 | Metric finding | "SLA compliance is 82% for the eligible closed cohort under definition v3." | State denominator, period, exclusions, quality |
@@ -1197,7 +1197,7 @@ NIST sources support information-security measure selection and program developm
 | RLS | Row gate, test real identities |
 | Executive story | Outcome, meaning, evidence, options, ask |
 | QA | Source through decision regression |
-| Arti bridge | BI and executive trust transfer; product internals do not |
+| Experience bridge | BI and executive trust transfer; product internals do not |
 
 ## Completion Checklist
 

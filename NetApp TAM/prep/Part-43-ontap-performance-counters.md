@@ -1,6 +1,6 @@
 # Part 43 - ONTAP Performance Architecture and Counter Interpretation
 
-> **Section goal:** Learn how to trace one client request from application to media, choose the correct ONTAP object and metric scope, interpret operations, bytes, latency, utilization, queues, cache, CPU, consistency-point, RAID and network evidence, and challenge a dashboard without inventing causality. By the end, Arti should be able to build an aligned evidence timeline, cross-check it with storage math and Little's Law, rank competing hypotheses, and write a bounded performance recommendation.
+> **Section goal:** Learn how to trace one client request from application to media, choose the correct ONTAP object and metric scope, interpret operations, bytes, latency, utilization, queues, cache, CPU, consistency-point, RAID and network evidence, and challenge a dashboard without inventing causality. By the end, you should be able to build an aligned evidence timeline, cross-check it with storage math and Little's Law, rank competing hypotheses, and write a bounded performance recommendation.
 
 Covers index item **43** and maps directly to job-description responsibilities for customer-data generation and analysis, storage expertise, risk mitigation, solution stability, proactive recommendations, operational service reviews, escalation quality, and technical representation of findings.
 
@@ -10,7 +10,7 @@ A **current-doc check** means reopening those exact release-, object-, protocol-
 
 This Part deliberately gives no universal healthy latency, utilization, queue-depth, CPU, cache-hit, consistency-point, disk-busy, IOPS, or throughput threshold. It gives no production tuning command and no internal counter-name list. Every number below is synthetic teaching data. Replace placeholders only with documented fields from the exact release and authorized customer source.
 
-> **No-production-NetApp boundary:** Arti does not claim production ONTAP performance-analysis or tuning experience. Every customer, workload, counter, dashboard, trace, calculation, test, bottleneck, and result below is synthetic. Her factual strengths are Microsoft enterprise support, CRITSIT ownership, Azure/M365 networking and data-service troubleshooting, an MBA in Business Analytics, and Excel, Power BI, SQL, Python, statistics, evidence correlation, and customer reviews. The explicit non-claim is: **she has not collected or interpreted production ONTAP performance archives, used customer Active IQ/Unified Manager performance data, diagnosed WAFL/CP/cache/disk service centers, changed ONTAP QoS or performance settings, or proved a NetApp customer bottleneck.**
+> **No-production-NetApp boundary:** You do not claim production ONTAP performance-analysis or tuning experience. Every customer, workload, counter, dashboard, trace, calculation, test, bottleneck, and result below is synthetic. Your factual strengths are enterprise support, critical-situation ownership, Azure/M365 networking and data-service troubleshooting, an a postgraduate business-analytics qualification, and Excel, Power BI, SQL, Python, statistics, evidence correlation, and customer reviews. The explicit non-claim is: **you have not collected or interpreted production ONTAP performance archives, used customer Active IQ/Unified Manager performance data, diagnosed WAFL/CP/cache/disk service centers, changed ONTAP QoS or performance settings, or proved a NetApp customer bottleneck.**
 
 ---
 
@@ -797,12 +797,12 @@ flowchart TD
 
 ### JD Mapping
 
-| JD responsibility | Part 43 contribution | Arti's factual bridge and gap |
+| JD responsibility | Part 43 contribution | Your factual bridge and gap |
 |---|---|---|
 | Generate/analyze/report customer data | Object-aware metrics, QA, math, timelines, dashboards | MBA/Excel/Power BI/SQL/Python transfer strongly; no ONTAP production archive claim |
 | Storage depth | Client-to-media ONTAP/WAFL/cache/CP/RAID/counter architecture | Conceptual/synthetic only |
 | Understand customer environment | Connects app, host, network, protocol, ONTAP and media | Microsoft systems thinking transfers |
-| Mitigate risk/stability | Distinguishes tails, saturation, missing data and false causality | CRITSIT evidence discipline transfers |
+| Mitigate risk/stability | Distinguishes tails, saturation, missing data and false causality | critical-situation evidence discipline transfers |
 | Tailored recommendations | Uses evidence/context/risk/options/owner/test/residual risk | Advisory and customer-review strengths |
 | Service reviews | Converts metrics into SLO, trend, risk and decisions | Business-review experience transfers |
 | Escalation | Produces exact scoped counter/topology/timeline package | Product/Engineering collaboration transfers; NetApp specialist validation remains needed |
@@ -811,7 +811,7 @@ flowchart TD
 
 ## 17. Fully synthetic scenario: Meridian Claims month-end latency
 
-> **Synthetic case:** Meridian Claims, all systems, counters, intervals, thresholds, identities, and results below are fictional. It is not a NetApp benchmark, customer telemetry, tuning recommendation, or Arti's production work.
+> **Synthetic case:** Meridian Claims, all systems, counters, intervals, thresholds, identities, and results below are fictional. It is not a NetApp benchmark, customer telemetry, tuning recommendation, or your production work.
 
 ### Environment
 
@@ -934,13 +934,13 @@ flowchart TD
 
 ---
 
-## 18. Arti's analytics, MBA, and Microsoft 365 transfer
+## 18. Your analytics, MBA, and Microsoft 365 transfer
 
 ```mermaid
 flowchart LR
     M365[M365/SharePoint/OneDrive support] --> SCOPE[User operation/dependency and sync evidence]
-    CRIT[CRITSIT ownership] --> TIME[Timeline/impact/hypothesis/communication]
-    MBA[MBA Business Analytics] --> MODEL[Segmentation/uncertainty/decision framing]
+    CRIT[Critical-situation ownership] --> TIME[Timeline/impact/hypothesis/communication]
+    MBA[a postgraduate business-analytics qualification] --> MODEL[Segmentation/uncertainty/decision framing]
     BI[Excel Power BI SQL Python] --> DATA[QA/joins/distributions/dashboards]
     SCOPE --> ONTAP[ONTAP performance synthetic method]
     TIME --> ONTAP
@@ -954,13 +954,13 @@ flowchart LR
 | Factual strength | Transfer to Part 43 | Honest gap |
 |---|---|---|
 | M365 latency/sync/permissions cases | Scope exact user operation and cross-layer dependencies | Does not provide ONTAP object/counter semantics |
-| CRITSIT/Product engagement | Align clocks, preserve evidence, rank hypotheses, communicate | No NetApp performance Support workflow claimed |
+| Critical situation/Product engagement | Align clocks, preserve evidence, rank hypotheses, communicate | No NetApp performance Support workflow claimed |
 | MBA/statistics | Weighted averages, distributions, seasonality, uncertainty | No production storage baseline ownership |
 | Excel/Power BI/SQL/Python | Clean joins, dashboards, missing-data QA, reproducible math | No customer REST/performance archive access claimed |
 
 ### Honest interview answer
 
-> "I start performance analysis with the customer transaction and SLO, then map the exact host, protocol, ONTAP workload object, node, local tier and media path. I verify counter definitions, units, intervals, clocks and missing data; use IOPS-throughput math and Little's Law as cross-checks; and separate correlation from causation with competing hypotheses and safe tests. My production evidence is Microsoft support and analytics, not ONTAP tuning, so I would use current REST/tool documentation, authorized telemetry and NetApp specialists for a real conclusion."
+> "I start performance analysis with the customer transaction and SLO, then map the exact host, protocol, ONTAP workload object, node, local tier and media path. I verify counter definitions, units, intervals, clocks and missing data; use IOPS-throughput math and Little's Law as cross-checks; and separate correlation from causation with competing hypotheses and safe tests. My production evidence is enterprise support and analytics, not ONTAP tuning, so I would use current REST/tool documentation, authorized telemetry and NetApp specialists for a real conclusion."
 
 ---
 
@@ -1044,7 +1044,7 @@ flowchart LR
 17. Build a causality ladder and a six-branch hypothesis tree.
 18. Audit a dashboard for misleading averages, axes, gaps and stale data.
 19. Recreate Meridian's calculations and recommendations.
-20. Deliver Arti's transfer/gap answer and Q1-Q8 aloud.
+20. Deliver your transfer/gap answer and Q1-Q8 aloud.
 
 ---
 
@@ -1112,7 +1112,7 @@ flowchart LR
 
 ### Q8. How does your background transfer, and what remains a gap?
 
-> **Model answer:** "My Microsoft support and CRITSIT work gives me user-impact scoping, network/application dependency analysis, clock-aligned evidence and escalation discipline. My MBA and Excel, Power BI, SQL, Python and statistics support counter QA, distributions, baselines and communication. I have not analyzed or tuned production ONTAP performance. I would use current API/tool definitions, authorized telemetry and NetApp/application/network specialists."
+> **Model answer:** "My prior support and critical-situation work gives me user-impact scoping, network/application dependency analysis, clock-aligned evidence and escalation discipline. My MBA and Excel, Power BI, SQL, Python and statistics support counter QA, distributions, baselines and communication. I have not analyzed or tuned production ONTAP performance. I would use current API/tool definitions, authorized telemetry and NetApp/application/network specialists."
 
 ---
 
@@ -1135,7 +1135,7 @@ flowchart LR
 - **Clock:** Preserve raw time, normalize separately, state uncertainty.
 - **Missing:** Unknown is not zero.
 - **Correlation:** Matching graphs start a hypothesis; tests support cause.
-- **Arti's bridge:** Analytics and incident rigor transfer; ONTAP production tuning does not.
+- **Your bridge:** Analytics and incident rigor transfer; ONTAP production tuning does not.
 
 ---
 
@@ -1158,7 +1158,7 @@ flowchart LR
 - [ ] Build competing hypotheses and a safe discriminating check before causality.
 - [ ] Audit dashboard evidence, scope, gaps, scales, cutoffs and narrative.
 - [ ] Complete Meridian calculations/scenario, four labs and 20 self-test questions.
-- [ ] Answer Q1-Q8 aloud and state Arti's no-production boundary accurately.
+- [ ] Answer Q1-Q8 aloud and state your no-production boundary accurately.
 - [ ] Recheck official source currency, live API schema, IMT/HWU and Support before customer use.
 
 ---

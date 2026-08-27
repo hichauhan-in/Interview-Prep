@@ -1,10 +1,10 @@
 # Part 72 - Control-Coverage Gaps, Hygiene, and Misconfiguration Analysis
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 >
 > **Purpose:** Build a rigorous asset-centered method for finding and closing control gaps. Cover EDR, vulnerability scanning, patching, encryption, backup/recovery, ownership, unsupported operating systems, security agents, firewalls/network controls, and identity controls; distinguish installed, configured, healthy, enforcing, recent, effective, excepted, missing, and unknown; define policy applicability and exceptions; separate real gaps from missing, stale, or duplicate data; prioritize by context; investigate, remediate, validate, measure, troubleshoot, and communicate honestly.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every NMH policy, asset, control, source, status, threshold, exception, finding, count, score, ticket, timeline, incident, metric, and outcome in this Part is synthetic. Zscaler public pages support bounded statements that Asset Exposure Management (AEM) correlates organizational asset details to identify misconfigurations and missing controls, supports coverage-gap use cases and workflows, and is powered by the Data Fabric for Security. Public pages do not disclose proprietary control policies, health semantics, evidence windows, prioritization formulas, defaults, remediation logic, exact connectors, implementation times, or outcomes. Detailed mechanics below are general educational patterns, not undocumented Zscaler implementation claims. Arti's Microsoft support, identity, endpoint, networking, telemetry, SQL/data-quality, escalation, validation, and customer skills transfer; direct production AEM operation remains a learning boundary.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every NMH policy, asset, control, source, status, threshold, exception, finding, count, score, ticket, timeline, incident, metric, and outcome in this Part is synthetic. Zscaler public pages support bounded statements that Asset Exposure Management (AEM) correlates organizational asset details to identify misconfigurations and missing controls, supports coverage-gap use cases and workflows, and is powered by the Data Fabric for Security. Public pages do not disclose proprietary control policies, health semantics, evidence windows, prioritization formulas, defaults, remediation logic, exact connectors, implementation times, or outcomes. Detailed mechanics below are general educational patterns, not undocumented Zscaler implementation claims. Your prior support, identity, endpoint, networking, telemetry, SQL/data-quality, escalation, validation, and customer skills transfer; direct production AEM operation remains a learning boundary.
 >
 > **Currency caveat:** Products, controls, operating-system support dates, threat conditions, policies, integrations, APIs, schemas, and evidence semantics change. The controlled research/source date for this Part is exactly **2026-08-24**. Current official documentation, licensed tenant evidence, vendor support records, customer-approved policy and exception registers, control-owner evidence, security/privacy/legal requirements, product specialists, Support guidance, authorized tests, and measured postconditions govern production.
 
@@ -14,7 +14,7 @@ A control is a safeguard intended to prevent, detect, respond to, or recover fro
 
 Think of fire safety in a hotel. A smoke detector can be purchased, mounted, powered, connected to the alarm panel, recently self-tested, actively monitored, and proven in an authorized drill. Those are different evidence levels. A detector sitting in a box is "present" in inventory but does not protect a room. A detector installed in a kitchen may be the wrong control type. A room under renovation may have an approved temporary exception with a fire watch. A disconnected alarm-data feed must not convert every detector to missing or every detector to healthy.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Evidence artifact |
 |---|---|---|
@@ -31,7 +31,7 @@ By the end, Arti should be able to:
 | Measure | Report coverage, decision completeness, aging, exception debt, recurrence, and outcomes | Metric dictionary |
 | Troubleshoot | Isolate count spikes, false greens/reds, duplicate tickets, and stale closure | Runbook |
 | Practice | Complete a synthetic NMH multi-control campaign and incident | Lab portfolio |
-| Bridge honestly | Apply Microsoft evidence/validation skills without inventing AEM experience | Candidate narrative |
+| Bridge honestly | Apply prior evidence/validation skills without inventing AEM experience | Candidate narrative |
 
 ```mermaid
 flowchart LR
@@ -49,7 +49,7 @@ flowchart LR
 
 ## JD Mapping
 
-| Role expectation | Part 72 capability | TSM artifact | Arti bridge and boundary |
+| Role expectation | Part 72 capability | TSM artifact | experience bridge and boundary |
 |---|---|---|---|
 | Become AEM/Data Fabric expert | Explain official coverage-gap positioning with exact claim boundaries | Control-coverage architecture | Verify current AEM behavior/licensing |
 | Analyze complex environments | Map controls, policies, assets, evidence, exceptions, and owners | Current-state coverage matrix | Microsoft device/identity/network analysis transfers |
@@ -66,7 +66,7 @@ flowchart LR
 
 | Evidence class | Safe interview statement | Boundary to state |
 |---|---|---|
-| Production transfer | "I validated Microsoft identity, permission, endpoint, client, service, and network conditions during high-impact cases." | Not production AEM administration |
+| Production transfer | "I validated enterprise identity, permission, endpoint, client, service, and network conditions during high-impact cases." | Not production AEM administration |
 | Control reasoning transfer | "I distinguish configuration from effective behavior and validate the postcondition." | Not ownership of customer security controls |
 | Data transfer | "I test source freshness, duplicates, scope, timestamps, and denominator integrity before concluding a gap." | Not proprietary product logic |
 | Customer transfer | "I coordinate responsible owners, communicate uncertainty, and validate recovery before closure." | Customer risk owner approves acceptance |
@@ -886,9 +886,9 @@ Containment pauses ticket/CMDB actions and adds a source-health banner. The repa
 | Quarterly executive | CISO/CIO/business | Stable trends, material gaps, debt, outcomes, decisions | Funding/policy/roadmap |
 | Event-driven incident | Incident roles | False action/report or material control failure | Containment, recovery, reconciliation, PIR |
 
-## Arti bridge: configuration, evidence, and validation
+## Experience bridge: configuration, evidence, and validation
 
-Microsoft escalation work frequently required distinguishing "setting exists" from "setting effectively applies." A permission could be configured but inherited differently; a sync client installed but unhealthy; a certificate present but untrusted/expired; a proxy configured but bypassed; a policy assigned but not applied to the user/device; a service fix deployed but not validated for the customer path. Arti collected evidence, tested hypotheses, coordinated owners, and validated end-to-end recovery.
+enterprise escalation work frequently required distinguishing "setting exists" from "setting effectively applies." A permission could be configured but inherited differently; a sync client installed but unhealthy; a certificate present but untrusted/expired; a proxy configured but bypassed; a policy assigned but not applied to the user/device; a service fix deployed but not validated for the customer path. You collected evidence, tested hypotheses, coordinated owners, and validated end-to-end recovery.
 
 | Existing strength | Control-coverage transfer | Learning boundary | Honest interview sentence |
 |---|---|---|---|
@@ -896,7 +896,7 @@ Microsoft escalation work frequently required distinguishing "setting exists" fr
 | Client/service diagnostics | Installed versus healthy/current | EDR/control-product specifics | "A package is the first rung, not control proof." |
 | Networking/proxy evidence | Effective path/firewall validation | Enterprise network-control ownership | "Configured deny must be tested on the effective path." |
 | SQL/Power BI | Denominators, state cohorts, aging, source health | Product report/query specifics | "I show exceptions and unknowns separately." |
-| CRITSIT/RCA | False-red/green containment and layered diagnosis | Security control incident processes | "I pause unsafe automation and find the first wrong layer." |
+| Critical situation/RCA | False-red/green containment and layered diagnosis | Security control incident processes | "I pause unsafe automation and find the first wrong layer." |
 | Fix validation | Technical and customer postconditions | Authorized security-effectiveness testing | "Ticket closure is not my validation endpoint." |
 | Customer leadership | Owner alignment, risk communication, next checkpoints | Customer risk acceptance authority | "I advise; accountable customer owners decide residual risk." |
 
@@ -966,7 +966,7 @@ For EDR, patch, encryption, backup, firewall, and IAM actions, define asset, pol
 
 ### Lab 16 - Interview capstone
 
-Present the NMH policy/counts, six example decisions, incident, campaign, metrics, source caveats, and Arti bridge. **Pass:** every threshold/result is synthetic and product claim bounded.
+Present the NMH policy/counts, six example decisions, incident, campaign, metrics, source caveats, and experience bridge. **Pass:** every threshold/result is synthetic and product claim bounded.
 
 ## Common misconceptions to correct
 
@@ -1045,7 +1045,7 @@ Zscaler sources support bounded AEM/Data Fabric coverage-gap and workflow positi
 
 **Model answer:** Correct asset/lifecycle/owner; correct policy evaluation; required control state read from native and representative evidence; valid exception if any; idempotent target reconciliation; security scenario reduced; service/data/safety postcondition met; metrics/history updated; and recurrence guardrail monitored. A closed ticket is only a workflow event.
 
-### Q8. How does your Microsoft background transfer, and what is the boundary?
+### Q8. How does your prior background transfer, and what is the boundary?
 
 **Model answer:** I have production experience distinguishing configured from effective identity, permission, client, network, and service behavior; collecting timestamps/IDs; finding source defects; coordinating owners; and validating end-to-end fixes. SQL/analytics supports denominator and state-quality checks. I practiced the AEM-style method in synthetic NMH labs, but I do not claim production Zscaler AEM operation or proprietary product knowledge.
 
@@ -1077,7 +1077,7 @@ Zscaler sources support bounded AEM/Data Fabric coverage-gap and workflow positi
 | Priority | Consequence + exposure + controls + confidence |
 | Validation | Ticket is evidence, not the outcome |
 | Troubleshoot | Asset -> policy -> source -> state -> exception -> workflow |
-| Arti bridge | Effective-behavior validation transfers; AEM operation does not |
+| Experience bridge | Effective-behavior validation transfers; AEM operation does not |
 
 ## Completion Checklist
 
@@ -1127,10 +1127,10 @@ Zscaler sources support bounded AEM/Data Fabric coverage-gap and workflow positi
 - [ ] I can explain NMH policies, counts, example decisions, EDR source incident, campaign waves, and governance.
 - [ ] I label every NMH rule, count, threshold, state, exception, incident, timeline, and result synthetic.
 - [ ] I can complete all sixteen labs and retain reproducible evidence.
-- [ ] I connect Arti's Microsoft effective-policy, troubleshooting, analytics, escalation, and validation skills without claiming production AEM.
+- [ ] I connect your prior effective-policy, troubleshooting, analytics, escalation, and validation skills without claiming production AEM.
 - [ ] I use official Zscaler, NIST, and CIS sources with explicit caveats.
 - [ ] I use the controlled research/source date exactly as 2026-08-24.
 - [ ] I make no unsupported Zscaler control, policy, evidence, default, health, prioritization, workflow, production, compliance, or outcome claim.
-- [ ] I can answer Q1 through Q8 with definitions, analogies, architecture, mechanics, examples, tradeoffs, failures, troubleshooting, labs, NMH evidence, official-source caveats, and an honest Arti bridge.
+- [ ] I can answer Q1 through Q8 with definitions, analogies, architecture, mechanics, examples, tradeoffs, failures, troubleshooting, labs, NMH evidence, official-source caveats, and an honest experience bridge.
 
 [Part 73 - CMDB Health, Automated Updates, and Asset Lifecycle Workflows](Part-73-cmdb-health-asset-lifecycle.md)

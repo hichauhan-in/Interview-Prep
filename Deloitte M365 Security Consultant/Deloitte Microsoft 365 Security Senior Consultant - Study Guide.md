@@ -1,20 +1,22 @@
 # Deloitte Microsoft 365 Security Senior Consultant - Complete Study Guide
 
 > **Target role:** Deloitte Cyber, Enterprise Security - Microsoft 365 Security Senior Consultant
-> **Built for:** Arti Thakur, moving from Microsoft 365 Support Escalation Engineering into security consulting
+> **Built for:** Candidates moving from Microsoft 365 Support Escalation Engineering into security consulting
 > **Mode:** Complete learning path plus interview preparation
 > **Depth promise:** Beginner-first concepts, architecture diagrams, decision flows, implementation labs, troubleshooting, consulting deliverables, scenario drills, model answers, and memory hooks
 > **Currency:** Curriculum cross-checked against Microsoft Learn on August 24, 2026
 
+> **How to use this guide:** It is written for **any** candidate preparing for this role. The starting-strength table below describes a *typical* profile, not one person's CV, and every model answer is a template. Replace the bracketed details, metrics, employers, products, and examples with evidence from your own CV before you use them, and never claim experience you cannot defend.
+
 ---
 
-## How this guide is tailored to Arti
+## Starting strengths this guide assumes
 
-This guide starts from demonstrated strengths and deliberately closes the gaps between the current CV and the role.
+This guide starts from the strengths a typical enterprise-support professional already has, then deliberately closes the gaps between that background and the role.
 
 | Demonstrated starting strength | How the guide uses it | Main bridge to build |
 |---|---|---|
-| 5+ years of Microsoft enterprise support and escalations | Incident, troubleshooting, stakeholder, and operational examples use familiar support motions | Reframe support ownership as consulting discovery, design, deployment, and handover |
+| 5+ years of enterprise support and escalations | Incident, troubleshooting, stakeholder, and operational examples use familiar support motions | Reframe support ownership as consulting discovery, design, deployment, and handover |
 | Deep SharePoint Online and OneDrive experience | Workload-security examples start with permissions, sharing, sync, migration, and compliance | Expand to Teams, Exchange Online, Purview, and cross-workload controls |
 | Critical incidents, RCA, fix validation, vendors, and product groups | Scenario labs reuse investigation, defect escalation, and multi-party coordination | Add SOC incident response, threat hunting, evidence handling, and SOAR |
 | Security- and compliance-aligned technical guidance | Provides a natural entry into Zero Trust and data protection | Build hands-on Entra, Conditional Access, Intune, Defender, Purview, and Sentinel depth |
@@ -23,7 +25,7 @@ This guide starts from demonstrated strengths and deliberately closes the gaps b
 
 ### Honest gap map
 
-The current CV does not establish production experience with Entra ID, MFA, Conditional Access, Intune, Sentinel, Defender, Purview, Exchange Online, Microsoft Teams, third-party security migrations, or SC-series certifications. The guide treats these as learning and lab areas, never as past experience. Interview answers will distinguish clearly among:
+This guide assumes no production experience with Entra ID, MFA, Conditional Access, Intune, Sentinel, Defender, Purview, Exchange Online, Microsoft Teams, third-party security migrations, or SC-series certifications. The guide treats these as learning and lab areas, never as past experience. Interview answers will distinguish clearly among:
 
 - **I have done this in production.**
 - **I have done this in a lab or structured exercise.**
@@ -300,7 +302,7 @@ flowchart LR
 |---:|---|---|
 | 72 | [Frameworks, Standards, Competitive Landscape, Licensing, Certifications, and 2026 Trends](prep/Part-72-frameworks-competition-certifications-trends.md) | NIST CSF/800-53, CIS Controls/Benchmarks, ISO 27001, MITRE ATT&CK, OWASP concepts, Zero Trust maturity, Microsoft versus Splunk/Palo Alto/CrowdStrike/Okta/Jamf/Netskope/Purview alternatives, E3/E5 tradeoffs, sovereign clouds, AI agents, Sentinel data lake/behaviors, Security Copilot, and SC-900/300/400/200/100 roadmaps |
 | 73 | [Interview Question Bank - 150+ Questions with Answers and Self-Quiz Tracker](prep/Part-73-interview-question-bank.md) | At least 30 basic, 30 intermediate, and 90 advanced questions; architecture whiteboards, troubleshooting, incident, migration, consulting, KQL, policy design, licensing, behavioral, and closing questions; concise answer keys, Part links, confidence tracker, and spaced-repetition plan |
-| 74 | [Behavioral, Consulting Case, Leadership, and Closing Preparation](prep/Part-74-behavioral-consulting-closing.md) | STAR method, Arti's background-to-competency translation, factual story bank for CRITSITs/RCA/CSAT/mentoring/product fixes/AI adoption/Power Platform, handling gaps honestly, why cyber/consulting/Deloitte, case-interview structure, executive communication, questions to ask, 30/60/90-day answer, and night-before cheat sheet |
+| 74 | [Behavioral, Consulting Case, Leadership, and Closing Preparation](prep/Part-74-behavioral-consulting-closing.md) | STAR method, your background-to-competency translation, factual story bank for critical situations/RCA/CSAT/mentoring/product fixes/AI adoption/Power Platform, handling gaps honestly, why cyber/consulting/Deloitte, case-interview structure, executive communication, questions to ask, 30/60/90-day answer, and night-before cheat sheet |
 
 ---
 
@@ -362,7 +364,7 @@ Every future Part will follow the Study Guide Builder section contract:
 3. Include at least two or three useful Mermaid diagrams when the topic supports them.
 4. Add decision trees, sequence flows, attack paths, and deployment flows rather than decorative diagrams.
 5. Use comparison and quick-reference tables.
-6. Tie concepts to Arti's existing Microsoft 365 support, escalation, RCA, stakeholder, and automation experience.
+6. Tie concepts to your existing Microsoft 365 support, escalation, RCA, stakeholder, and automation experience.
 7. Map the content to the relevant JD responsibility and consulting deliverable.
 8. Separate production evidence, lab evidence, and conceptual knowledge.
 9. Cover architecture, prerequisites, licensing caveats, configuration, testing, troubleshooting, operations, security risks, and rollback.

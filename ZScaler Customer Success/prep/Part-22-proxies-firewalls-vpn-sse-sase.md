@@ -1,10 +1,10 @@
 # Part 22 - Proxies, Firewalls, VPNs, Load Balancers, CDN, SSE, and SASE
 
-> **Audience:** Arti Thakur, moving from Microsoft 365 Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
+> **Audience:** Candidates moving from Microsoft 365 Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
 >
 > **Purpose:** Explain the networking and security components that steer, permit, deny, translate, tunnel, proxy, distribute, cache, inspect, and protect enterprise traffic, then connect them to Security Service Edge, Secure Access Service Edge, zero trust, evidence, ownership, and customer outcomes.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Its users, branches, addresses, applications, policies, devices, incidents, logs, and outcomes are synthetic. Arti's Microsoft 365, OneDrive for Business, SharePoint Online, networking, evidence, and escalation experience must remain within her approved factual background.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Its users, branches, addresses, applications, policies, devices, incidents, logs, and outcomes are synthetic. Your own product, networking, evidence, and escalation experience must remain within your documented background.
 >
 > **Product caveat:** This Part teaches standards and architecture patterns. Exact proxy, firewall, VPN, load-balancer, CDN, SSE, SASE, Microsoft, and Zscaler features vary by product, license, version, cloud, forwarding method, tenant, policy, and deployment. Verify current official documentation and direct evidence. No fictional flow or generic architecture proves a production Zscaler or Microsoft behavior.
 
@@ -14,7 +14,7 @@ Enterprise traffic rarely travels directly from one application process to one s
 
 Think of a business trip. Routing chooses roads. NAT changes the return address on the vehicle manifest. A firewall is a checkpoint deciding whether a flow may cross. A forward proxy is an outbound travel agent acting for the traveler. A reverse proxy is a reception desk acting for the destination. A VPN is a protected shuttle into another network. A load balancer assigns an available service desk. A CDN places approved copies close to visitors. SSE delivers security controls as cloud services. SASE combines those security services with wide-area networking under a converged architecture and operating model.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Evidence of mastery |
 |---|---|---|
@@ -33,11 +33,11 @@ By the end, Arti should be able to:
 
 ## JD Mapping
 
-| JD expectation | Part 22 capability | Artifact | Honest Arti bridge |
+| JD expectation | Part 22 capability | Artifact | Honest experience bridge |
 |---|---|---|---|
 | Analyze complex environments | Trace users, devices, branches, tunnels, service edges, proxies, firewalls, CDNs, and applications | Current-state traffic map | Extends M365 endpoint-to-cloud investigation |
 | Identify security risks | Find broad network trust, unsafe bypass, weak proxy discovery, exposed origins, stale rules, and routing asymmetry | Risk/control register | Learned SecOps architecture, not claimed product operation |
-| Resolve escalations | Separate steering, tunnel, policy, proxy, NAT, delivery, and origin workstreams | Timeline and ownership matrix | Uses CRITSIT and evidence discipline |
+| Resolve escalations | Separate steering, tunnel, policy, proxy, NAT, delivery, and origin workstreams | Timeline and ownership matrix | Uses critical situation and evidence discipline |
 | Tailor mitigation | Choose scoped rule, route, forwarding, health, capacity, or architecture changes | Option/rollback plan | Builds on safe fix validation |
 | Deliver consulting | Explain SSE/SASE and zero trust from first principles | Whiteboard and teach-back | Builds on advisor and mentoring strengths |
 | Partner cross-functionally | Coordinate endpoint, network, security, identity, application, cloud, privacy, and vendors | RACI and decision log | Maps to customer/Engineering collaboration |
@@ -45,9 +45,9 @@ By the end, Arti should be able to:
 
 ## Candidate honesty note
 
-Arti can truthfully discuss Microsoft 365 connectivity investigations, browser-versus-sync comparison, proxy and firewall concepts, packet and HTTP evidence, stakeholder coordination, critical incidents, root-cause analysis, and controlled architecture labs where supported by her actual history. She can say how she would map a traffic path, distinguish policy from availability, identify an intermediary-generated response, and build a safe validation plan.
+You can truthfully discuss Microsoft 365 connectivity investigations, browser-versus-sync comparison, proxy and firewall concepts, packet and HTTP evidence, stakeholder coordination, critical incidents, root-cause analysis, and controlled architecture labs where supported by your actual history. You can say how you would map a traffic path, distinguish policy from availability, identify an intermediary-generated response, and build a safe validation plan.
 
-She should not claim production administration of Zscaler Internet Access, Zscaler Private Access, Client Connector, a carrier WAN, a next-generation firewall, or a CDN unless her CV supports it. A safe bridge is: "I have production experience isolating enterprise SaaS connectivity across clients, identity, network paths, proxies, and services. I understand the generic SSE/SASE and zero trust architecture. In a Zscaler environment I would confirm the tenant's forwarding method, policy, service-edge selection, logs, and support boundaries before asserting product behavior."
+You should not claim production administration of Zscaler Internet Access, Zscaler Private Access, Client Connector, a carrier WAN, a next-generation firewall, or a CDN unless your CV supports it. A safe bridge is: "I have production experience isolating enterprise SaaS connectivity across clients, identity, network paths, proxies, and services. I understand the generic SSE/SASE and zero trust architecture. In a Zscaler environment I would confirm the tenant's forwarding method, policy, service-edge selection, logs, and support boundaries before asserting product behavior."
 
 | Evidence category | Safe phrasing | Boundary |
 |---|---|---|
@@ -771,7 +771,7 @@ For every important test, capture these fields in a table rather than prose frag
 | Field | Example synthetic value | Why it matters |
 |---|---|---|
 | UTC start/end | `2026-08-25T14:03:22.418Z` | Cross-system correlation |
-| User/device/process | `arti-lab`, `LAB-01`, `onedrive.exe` | Client context |
+| User/device/process | `demo-lab`, `LAB-01`, `onedrive.exe` | Client context |
 | Operation | Upload `synthetic.txt` | Business-level action |
 | Name and resolved IPs | `service.example`, `192.0.2.40` | DNS and edge selection |
 | First socket | `10.0.0.25:51520 -> 10.0.0.5:8080` | Explicit proxy proof |
@@ -1021,14 +1021,14 @@ Use only owned/authorized systems, documentation ranges, synthetic identities, a
 | 11. Zero trust | Redesign broad VPN access for one fictional app | Policy-point map | Resource-specific access and residual risks shown |
 | 12. NMH | Present migration incident and RCA | Escalation package | No global bypass or vendor blame |
 
-## Arti bridge and interview positioning
+## Experience bridge and interview positioning
 
-Arti's transferable advantage is disciplined fault isolation: scope the user-visible operation, compare browser and sync clients, preserve timestamps and IDs, split owner workstreams, identify the responder, validate a change, and document root cause without blame. Part 22 adds precise language for intermediary roles, policy points, cloud security categories, and zero trust.
+Your transferable advantage is disciplined fault isolation: scope the user-visible operation, compare browser and sync clients, preserve timestamps and IDs, split owner workstreams, identify the responder, validate a change, and document root cause without blame. Part 22 adds precise language for intermediary roles, policy points, cloud security categories, and zero trust.
 
 | Existing strength | Part 22 translation | Practice proof |
 |---|---|---|
 | OneDrive/SharePoint troubleshooting | Trace PAC/proxy/tunnel/CDN/LB/service paths | Browser-versus-client connection map |
-| CRITSIT coordination | Run endpoint, network, security, and app workstreams | NMH incident action register |
+| Critical-situation coordination | Run endpoint, network, security, and app workstreams | NMH incident action register |
 | RCA | Separate stale steering root cause from MTU/timeout contributors | Fictional RCA and prevention plan |
 | Fix validation | Test positive business flows and negative security controls | Change/rollback checklist |
 | Technical advising | Explain perimeter versus resource access | Five-minute whiteboard |
@@ -1207,7 +1207,7 @@ The following authoritative sources were reviewed on **2026-08-24**. They suppor
 - [ ] I can protect credentials, URLs, identities, locations, topology, decrypted content, and logs.
 - [ ] I can explain Microsoft 365 browser/sync/VPN path comparisons without asserting undocumented internals.
 - [ ] I can present the fictional NMH hairpin scenario, scoped correction, validation, and RCA.
-- [ ] I can bridge Arti's production support skills without claiming Zscaler or SSE production administration.
+- [ ] I can bridge your production support skills without claiming Zscaler or SSE production administration.
 - [ ] I can answer Q1-Q8 aloud and complete all twelve labs with sanitized evidence.
 
 [Part 23 - Identity Protocols: AD, Entra ID, SAML, OAuth 2.0, OIDC, SCIM, and MFA](Part-23-identity-protocols.md)

@@ -1,6 +1,6 @@
 # Appendix D - Command and Tool Cookbook
 
-> **Audience:** Arti Thakur, preparing for an Abnormal AI Technical Support Engineer interview  
+> **Audience:** Candidates preparing for an Abnormal AI Technical Support Engineer interview  
 > **Reference date:** August 24, 2026  
 > **Lab boundary:** Commands use `localhost`, loopback, reserved documentation IPs (`192.0.2.0/24`, `198.51.100.0/24`, `203.0.113.0/24`), or `example.com`. A syntax example is not authorization to probe any system.
 
@@ -18,11 +18,11 @@ This cookbook maps one diagnostic question to the smallest safe command or tool 
 
 ## Candidate Honesty and Safety Boundary
 
-Arti can truthfully cite substantiated Microsoft enterprise-support experience and working familiarity reinforced by safe labs with Windows diagnostics, Wireshark, Netsh, Microsoft Network Monitor concepts, Procmon, browser DevTools/HAR, Fiddler, REST clients, and cross-platform commands. She must not claim direct production operation of Abnormal AI, email-security operations, Google Workspace, Slack, Okta, Splunk, CrowdStrike, Cortex SOAR, Zendesk, Salesforce, Jira, or Zoom.
+You can truthfully cite substantiated enterprise-support experience and working familiarity reinforced by safe labs with Windows diagnostics, Wireshark, Netsh, Microsoft Network Monitor concepts, Procmon, browser DevTools/HAR, Fiddler, REST clients, and cross-platform commands. You must not claim direct production operation of Abnormal AI, email-security operations, Google Workspace, Slack, Okta, Splunk, CrowdStrike, Cortex SOAR, Zendesk, Salesforce, Jira, or Zoom.
 
 Safe interview wording:
 
-> “My production strength is Microsoft enterprise support and evidence-led escalation. I have working familiarity with these diagnostics and can demonstrate them in bounded local or synthetic labs. I would use the customer’s authorized tooling, data-handling policy, and current vendor documentation rather than assume my lab equals their production path.”
+> “My production strength is enterprise support and evidence-led escalation. I have working familiarity with these diagnostics and can demonstrate them in bounded local or synthetic labs. I would use the customer’s authorized tooling, data-handling policy, and current vendor documentation rather than assume my lab equals their production path.”
 
 ## Non-Negotiable Safety Rules
 
@@ -876,7 +876,7 @@ The guide source ledger recorded these official or primary sources as accessed o
 
 ### 7. How do you describe your tool experience honestly?
 
-**Model answer:** My production foundation is Microsoft enterprise support, evidence correlation, customer communication, escalation, and fix validation. I have working familiarity with focused Windows/network/browser/API tools reinforced through safe local labs. I do not claim advanced packet forensics, unrestricted capture authority, production operation of the listed learning-target platforms, or private Abnormal behavior.
+**Model answer:** My production foundation is enterprise support, evidence correlation, customer communication, escalation, and fix validation. I have working familiarity with focused Windows/network/browser/API tools reinforced through safe local labs. I do not claim advanced packet forensics, unrestricted capture authority, production operation of the listed learning-target platforms, or private Abnormal behavior.
 
 ## 🧠 30-Second Memory Hooks
 

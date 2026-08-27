@@ -1579,7 +1579,7 @@ At the end of each round:
 - Keep the energy steady to the last minute.
 
 #### Good closing line
-> Thank you, this conversation reinforced why I am excited about the role. I appreciate hearing how the team thinks about the work, and I would be excited to bring my CE&S domain background and growing analytics depth into that environment.
+> Thank you, this conversation reinforced why I am excited about the role. I appreciate hearing how the team thinks about the work, and I would be excited to bring my customer-support domain background and growing analytics depth into that environment.
 
 > 💡 **Tie-in:** Remote interviews reward candidates who sound organized. That plays to your strength if you use clean structures and calm pacing.
 

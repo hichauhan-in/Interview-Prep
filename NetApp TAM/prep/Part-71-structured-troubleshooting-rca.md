@@ -1,10 +1,10 @@
 # Part 71 - Structured Troubleshooting, Hypothesis Testing, and Root Cause Analysis
 
-> **Section goal:** Turn an urgent, ambiguous symptom into a disciplined evidence trail, a safe restoration decision, and a defensible root-cause analysis (RCA). By the end, Arti should be able to define symptom, scope, timeline, changes, dependencies, baseline, and evidence quality; separate observation from inference; compare hypotheses through predictions and discriminating tests; isolate layers with minimal reproductions and controlled variables; distinguish mitigation, workaround, root cause, and contributing factors; use fault trees and five whys without forcing a story; and write a blame-free RCA with owners, validation, and prevention evidence.
+> **Section goal:** Turn an urgent, ambiguous symptom into a disciplined evidence trail, a safe restoration decision, and a defensible root-cause analysis (RCA). By the end, you should be able to define symptom, scope, timeline, changes, dependencies, baseline, and evidence quality; separate observation from inference; compare hypotheses through predictions and discriminating tests; isolate layers with minimal reproductions and controlled variables; distinguish mitigation, workaround, root cause, and contributing factors; use fault trees and five whys without forcing a story; and write a blame-free RCA with owners, validation, and prevention evidence.
 
 Covers index item **71** and maps directly to job-description responsibilities for high-pressure problem solving, technical analysis, customer-risk mitigation, recommendation quality, Support and Engineering collaboration, operational reviews, and prevention tracking.
 
-**Explicit nonclaim:** Arti has not diagnosed, mitigated, or authored the RCA for a production NetApp, ONTAP, NAS, SAN, replication, MetroCluster, or storage-hardware incident.
+**Explicit nonclaim:** You have not diagnosed, mitigated, or authored the RCA for a production NetApp, ONTAP, NAS, SAN, replication, MetroCluster, or storage-hardware incident.
 
 **Privacy/access:** Troubleshooting evidence can expose customer data, file paths, identities, network addresses, topology, credentials, security controls, packet contents, logs, defects, contracts, and employee actions. Collect only authorized evidence, minimize and redact it, preserve originals in approved restricted systems, transfer it through approved secure channels, record access and retention, and never paste customer or gated Support data into public notes, portfolios, or unapproved AI systems.
 
@@ -14,7 +14,7 @@ Covers index item **71** and maps directly to job-description responsibilities f
 
 This Part teaches a generic reasoning method. It is not a NetApp internal runbook, Support entitlement, severity policy, diagnostic procedure, change authorization, defect determination, or permission to access production systems.
 
-> **No-production-NetApp boundary:** Arti's factual strengths are Microsoft enterprise Support Escalation Engineering, CRITSIT ownership, timeline construction, hypothesis testing, cross-team evidence correlation, mitigation, engineering engagement, technical writing, and customer communication. Her exact nonclaim is: **she has not independently investigated, changed, restored, or declared root cause for a production NetApp system.** In an interview she may describe the method, her Microsoft evidence, and these synthetic exercises, but not present them as NetApp production outcomes.
+> **No-production-NetApp boundary:** Your factual strengths are enterprise Support Escalation Engineering, critical-situation ownership, timeline construction, hypothesis testing, cross-team evidence correlation, mitigation, engineering engagement, technical writing, and customer communication. Your exact nonclaim is: **you have not independently investigated, changed, restored, or declared root cause for a production NetApp system.** In an interview you may describe the method, your prior evidence, and these synthetic exercises, but not present them as NetApp production outcomes.
 
 ---
 
@@ -569,11 +569,11 @@ flowchart LR
 
 ## 14. JD Mapping
 
-| JD responsibility | Part 71 capability | Evidence Arti can honestly use |
+| JD responsibility | Part 71 capability | Evidence you can honestly use |
 |---|---|---|
-| Analyze customer data | Evidence ledger, provenance, baseline, contradiction handling | Microsoft case/timeline analysis and synthetic workbook |
-| Mitigate risk and improve stability | Restoration-first decisions and cause-linked prevention | CRITSIT method; no NetApp production action claim |
-| High-pressure situations | Bounded decisions under uncertainty | Microsoft incident coordination |
+| Analyze customer data | Evidence ledger, provenance, baseline, contradiction handling | prior case/timeline analysis and synthetic workbook |
+| Mitigate risk and improve stability | Restoration-first decisions and cause-linked prevention | critical-situation method; no NetApp production action claim |
+| High-pressure situations | Bounded decisions under uncertainty | enterprise incident coordination |
 | Cross-functional/SME work | Predictions, exact evidence requests, decision records | Product/Engineering collaboration |
 | Technical recommendations | Evidence -> mechanism -> action -> validation | Support escalation writing and synthetic exercises |
 | Operational reviews | RCA themes, action aging, residual risk | Customer/business review experience |
@@ -756,14 +756,14 @@ Rewrite: `Root cause was human error. Engineer selected the wrong port. Action: 
 
 ---
 
-## 17. Arti transfer/honesty
+## 17. Experience transfer and honesty
 
 ### Transfer map
 
 ```mermaid
 flowchart LR
-    MS[Microsoft escalation evidence] --> FRAME[Symptom, scope, timeline and dependency framing]
-    CRIT[CRITSIT ownership] --> REST[Restoration priority and decision logs]
+    MS[enterprise escalation evidence] --> FRAME[Symptom, scope, timeline and dependency framing]
+    CRIT[Critical-situation ownership] --> REST[Restoration priority and decision logs]
     ENG[Product and Engineering work] --> HYP[Hypotheses, traces and exact asks]
     RCAW[RCA and customer writing] --> RCA[Mechanism, actions and communication]
     FRAME --> TAM[Transferable TAM troubleshooting method]
@@ -775,7 +775,7 @@ flowchart LR
 
 ### Honest interview wording
 
-> `My production troubleshooting experience is in Microsoft enterprise support, where I have scoped impact, built timelines, correlated cross-layer evidence, tested hypotheses, coordinated mitigation, engaged engineering, and communicated RCA. For NetApp scenarios I would apply the same evidence discipline, but validate the exact ONTAP release, topology, counter semantics, supportability, and Support procedure with qualified owners. I have not independently diagnosed or changed a production NetApp system; my current NetApp evidence is conceptual and fully synthetic.`
+> `My production troubleshooting experience is in enterprise support, where I have scoped impact, built timelines, correlated cross-layer evidence, tested hypotheses, coordinated mitigation, engaged engineering, and communicated RCA. For NetApp scenarios I would apply the same evidence discipline, but validate the exact ONTAP release, topology, counter semantics, supportability, and Support procedure with qualified owners. I have not independently diagnosed or changed a production NetApp system; my current NetApp evidence is conceptual and fully synthetic.`
 
 ---
 
@@ -837,7 +837,7 @@ flowchart LR
 
 ### Q8. How does your experience transfer, and what is your NetApp boundary?
 
-> **Model answer:** `Microsoft enterprise escalations and CRITSITs gave me production experience in scope, timelines, cross-layer evidence, hypothesis testing, mitigation, Engineering engagement, RCA and customer communication. I have not diagnosed or changed a production NetApp system, so I would validate exact ONTAP sources and work through qualified Support, incident and change owners. My NetApp cases here are fully synthetic.`
+> **Model answer:** `enterprise escalations and critical situations gave me production experience in scope, timelines, cross-layer evidence, hypothesis testing, mitigation, Engineering engagement, RCA and customer communication. I have not diagnosed or changed a production NetApp system, so I would validate exact ONTAP sources and work through qualified Support, incident and change owners. My NetApp cases here are fully synthetic.`
 
 ---
 
@@ -857,7 +857,7 @@ flowchart LR
 - **Five whys:** Branch and verify; five is not magic.
 - **Blame-free:** Examine conditions and controls without erasing ownership.
 - **Action:** Cause-linked owner + date + completion proof + effectiveness test.
-- **Arti boundary:** Microsoft production method transfers; NetApp production diagnosis does not.
+- **Experience boundary:** prior production method transfers; NetApp production diagnosis does not.
 
 ---
 

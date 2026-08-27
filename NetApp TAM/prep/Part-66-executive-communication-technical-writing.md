@@ -1,10 +1,10 @@
 # Part 66 - Executive Communication, Technical Writing, and Difficult Messages
 
-> **Section goal:** Communicate technical reality so people can understand impact, make decisions, act safely, and maintain trust, especially when news is incomplete or difficult. By the end, Arti should be able to use BLUF; distinguish status, observation, finding, issue, risk, decision, and action; calibrate depth and certainty; write concise emails, updates, minutes, and executive summaries; deliver bad news without blame; establish incident cadence; request decisions; handle difficult messages; use culturally and time-zone-aware language; prefer active voice and defined terms; and separate acknowledgment, restoration, resolution, root cause, and prevention.
+> **Section goal:** Communicate technical reality so people can understand impact, make decisions, act safely, and maintain trust, especially when news is incomplete or difficult. By the end, you should be able to use BLUF; distinguish status, observation, finding, issue, risk, decision, and action; calibrate depth and certainty; write concise emails, updates, minutes, and executive summaries; deliver bad news without blame; establish incident cadence; request decisions; handle difficult messages; use culturally and time-zone-aware language; prefer active voice and defined terms; and separate acknowledgment, restoration, resolution, root cause, and prevention.
 
 Covers index item **66** and maps directly to job-description responsibilities for strong written/verbal communication, technical and executive reporting, operational service reviews, customer-risk communication, high-pressure work, cross-time-zone coordination, recommendation representation, escalation, stakeholder influence, and improved support experience.
 
-**Explicit nonclaim:** Arti has not communicated on behalf of a production NetApp account, issued an authorized NetApp technical position, or owned a live NetApp incident, executive message, customer decision, or remediation commitment.
+**Explicit nonclaim:** You have not communicated on behalf of a production NetApp account, issued an authorized NetApp technical position, or owned a live NetApp incident, executive message, customer decision, or remediation commitment.
 
 **Privacy and access boundary:** Communications can expose customer identity, service impact, topology, versions, vulnerabilities, cases, employee names, commercial terms, decisions, legal risk, and incident evidence. Use approved channels, least necessary detail, audience controls, secure links, retention rules, redaction, and review requirements; never move restricted evidence into email or chat merely for speed.
 
@@ -14,7 +14,7 @@ Covers index item **66** and maps directly to job-description responsibilities f
 
 This Part provides transferable writing patterns, not a NetApp internal communication policy, severity/cadence standard, legal statement, public-relations guidance, service-level commitment, or authority to speak for NetApp or a customer. Actual account, Support, incident-command, legal, privacy, security, and customer communication procedures control live messages.
 
-> **No-production-NetApp boundary:** Arti's factual strengths are Microsoft enterprise and partner support, CRITSIT and business-critical incident communication, customer updates, technical writing, business reviews, Product/Engineering collaboration, CSAT, and global stakeholder coordination. She does **not** claim NetApp account spokesperson, Support incident commander, ONTAP subject-matter authority, legal/PR authority, or production NetApp executive-writing ownership. Her exact non-claim is: **she has not authored, approved, or delivered a production NetApp customer, incident, executive, legal, or account communication.**
+> **No-production-NetApp boundary:** Your factual strengths are enterprise and partner support, critical situation and business-critical incident communication, customer updates, technical writing, business reviews, Product/Engineering collaboration, CSAT, and global stakeholder coordination. You do **not** claim NetApp account spokesperson, Support incident commander, ONTAP subject-matter authority, legal/PR authority, or production NetApp executive-writing ownership. Your exact non-claim is: **you have not authored, approved, or delivered a production NetApp customer, incident, executive, legal, or account communication.**
 
 ---
 
@@ -759,11 +759,11 @@ flowchart LR
 
 ---
 
-## 16. Arti's factual bridge and JD Mapping
+## 16. Your factual bridge and JD Mapping
 
 ```mermaid
 flowchart LR
-    CRIT[CRITSIT and business-critical incidents] --> INCIDENT[Impact, cadence, ownership and updates]
+    CRIT[Critical situation and business-critical incidents] --> INCIDENT[Impact, cadence, ownership and updates]
     SUP[Enterprise and partner support] --> TECH[Technical writing and audience calibration]
     REV[Business reviews] --> EXEC[BLUF, decisions and executive summaries]
     ENG[Product and Engineering] --> EVID[Evidence, hypotheses and corrections]
@@ -776,9 +776,9 @@ flowchart LR
 
 ### Factual tie
 
-| Arti evidence | Transfer | Boundary |
+| Transferable evidence | Transfer | Boundary |
 |---|---|---|
-| Microsoft CRITSITs | High-pressure impact/action/checkpoint communication | Not NetApp incident command |
+| enterprise critical situations | High-pressure impact/action/checkpoint communication | Not NetApp incident command |
 | Enterprise/partner customers | Audience, boundary and global language | No NetApp account spokesperson role |
 | Business reviews | Executive summary, decisions and minutes | Not NetApp OSR ownership |
 | Product/Engineering collaboration | Hypothesis, evidence and correction discipline | No private NetApp route or defect authority |
@@ -799,7 +799,7 @@ flowchart LR
 
 ### Honest interview statement
 
-> `I use BLUF, then state verified impact, known/unknown, action owners, decision needs and next checkpoint. I distinguish status, finding, issue, risk, recommendation, decision and action; change depth but not certainty by audience; use active plain language; and deliver bad news without blame. My production communication experience is Microsoft-focused, not authorized NetApp account or incident communication.`
+> `I use BLUF, then state verified impact, known/unknown, action owners, decision needs and next checkpoint. I distinguish status, finding, issue, risk, recommendation, decision and action; change depth but not certainty by audience; use active plain language; and deliver bad news without blame. My production communication experience is focused on a different technology stack, not authorized NetApp account or incident communication.`
 
 ---
 
@@ -876,7 +876,7 @@ Inject:
 7. Build incident cadence and state ladder.
 8. Write a complete decision request.
 9. Communicate globally with exact time zones.
-10. Recreate Eastgate and state Arti's nonclaim.
+10. Recreate Eastgate and state your nonclaim.
 
 ### Lab pass checklist
 
@@ -953,7 +953,7 @@ Inject:
 
 ### Q8. How does your background transfer, and what remains a gap?
 
-> **Model answer:** `Microsoft enterprise support, CRITSITs, partner communication, business reviews and Product/Engineering work give me strong impact, BLUF, cadence, evidence and correction discipline. I have not spoken for a production NetApp account or incident, so actual NetApp/customer messages require authorized owners and procedures.`
+> **Model answer:** `enterprise support, critical situations, partner communication, business reviews and Product/Engineering work give me strong impact, BLUF, cadence, evidence and correction discipline. I have not spoken for a production NetApp account or incident, so actual NetApp/customer messages require authorized owners and procedures.`
 
 ---
 
@@ -975,7 +975,7 @@ Inject:
 - **Decision request:** Choice + options + tradeoffs + authority + deadline + proof.
 - **Global:** ISO date, explicit zone, plain language, confirmation.
 - **Correction:** Prompt, explicit and preserved.
-- **Arti's bridge:** Microsoft communication transfers; NetApp spokesperson authority does not.
+- **Your bridge:** Microsoft communication transfers; NetApp spokesperson authority does not.
 
 ---
 

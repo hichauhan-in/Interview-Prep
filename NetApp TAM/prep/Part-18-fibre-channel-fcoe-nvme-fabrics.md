@@ -1,12 +1,12 @@
 # Part 18 - Fibre Channel, FCoE, and NVMe Storage Fabrics
 
-> **Section goal:** Understand how Fibre Channel endpoints join a fabric, discover one another, establish protocol relationships, exchange credit-controlled frames, and present resilient storage paths. By the end, Arti should be able to explain FC, FCoE, NVMe/FC, and NVMe/TCP; read naming, zoning, optics, congestion, and multipath evidence; and produce a supportable customer risk or troubleshooting recommendation.
+> **Section goal:** Understand how Fibre Channel endpoints join a fabric, discover one another, establish protocol relationships, exchange credit-controlled frames, and present resilient storage paths. By the end, you should be able to explain FC, FCoE, NVMe/FC, and NVMe/TCP; read naming, zoning, optics, congestion, and multipath evidence; and produce a supportable customer risk or troubleshooting recommendation.
 
 Covers index item **18** and maps directly to job-description responsibilities for storage/fabric depth, customer-environment analysis, supportability, stability and risk mitigation, tailored recommendations, operational reviews, and escalation quality.
 
 This Part is vendor-neutral. Exact Fibre Channel (FC) standards revisions, switch/fabric services, zoning, Virtual Storage Area Network (VSAN), N-Port ID Virtualization (NPIV), credits, speeds, optics, Fibre Channel over Ethernet (FCoE), Data Center Bridging (DCB), NVMe over Fabrics (NVMe-oF), multipathing, and NetApp behavior vary by product, release, topology, and supported solution. Validate exact current vendor documentation and the NetApp Interoperability Matrix Tool (IMT).
 
-> **Evidence boundary:** Every organization, World Wide Name (WWN), FC ID, zone, switch, optic, counter, path, incident, and recommendation below is synthetic. Arti's production Windows/Azure networking, virtual machines, storage fundamentals, escalation, analytics, and customer communication are strengths. Production FC switch administration, zoning, FCoE/DCB operation, NVMe-oF deployment, or ONTAP SAN ownership is not claimed.
+> **Evidence boundary:** Every organization, World Wide Name (WWN), FC ID, zone, switch, optic, counter, path, incident, and recommendation below is synthetic. Your production Windows/Azure networking, virtual machines, storage fundamentals, escalation, analytics, and customer communication are strengths. Production FC switch administration, zoning, FCoE/DCB operation, NVMe-oF deployment, or ONTAP SAN ownership is not claimed.
 
 ---
 
@@ -718,11 +718,11 @@ flowchart TD
 
 ### Explicit JD Mapping
 
-| JD responsibility | Part 18 contribution | Arti's strength and honest gap |
+| JD responsibility | Part 18 contribution | Your strength and honest gap |
 |---|---|---|
 | Understand customer environment | Maps hosts, fabrics, zones, targets, protocols, paths, and data ownership | **Strength:** network/VM dependency mapping. **Gap:** production FC/NVMe fabric ownership. |
 | Storage depth | Explains FC layers/logins/credits/zoning, FCoE, NVMe/FC, NVMe/TCP | **Conceptual/lab:** no production switch/zoning/ONTAP SAN claim. |
-| Risk/stability | Finds physical, congestion, slow-drain, common-fate, DCB, and multipath risks | **Strength:** CRITSIT hypothesis/evidence method. |
+| Risk/stability | Finds physical, congestion, slow-drain, common-fate, DCB, and multipath risks | **Strength:** critical-situation hypothesis/evidence method. |
 | Supportability | Builds exact HBA/driver/firmware/switch/optic/protocol/storage matrix and IMT evidence | **Gap:** no customer IMT/gated result claimed. |
 | Recommendation quality | Requires owner-led, reversible, normal/degraded validation and residual risk | **Strength:** advisory/escalation follow-through. |
 | Service review | Reports fabric health, error/credit trends, path tests, support gaps, and actions | **Strength:** analytics/business reviews. |
@@ -907,7 +907,7 @@ A fictional virtualization cluster has two FC fabrics, NPIV guests, FCP LUNs, an
 27. Build the minimum escalation pack.
 28. Complete the paper lab and whiteboard drills.
 29. Answer Q1-Q8 aloud.
-30. State Arti's strengths and production FC/FCoE/NVMe gap honestly.
+30. State your strengths and production FC/FCoE/NVMe gap honestly.
 
 ---
 
@@ -990,7 +990,7 @@ A fictional virtualization cluster has two FC fabrics, NPIV guests, FCP LUNs, an
 
 ### Q8. How does your background transfer to FC/NVMe work, and what remains a gap?
 
-> **Model answer:** "My Microsoft production experience gives me Windows/Azure networking, virtual-machine, storage-fundamental, high-severity evidence, analytics, and customer-communication skills. Those methods transfer to fabric topology, failure-domain, counter, and escalation analysis. I have not administered production FC switches, zoning, FCoE/DCB, NVMe-oF, or ONTAP SAN. I would verify exact HBA/driver/firmware/switch/optic/protocol/storage support and IMT notes and work with fabric, host, application, and storage specialists for any change."
+> **Model answer:** "My prior production experience gives me Windows/Azure networking, virtual-machine, storage-fundamental, high-severity evidence, analytics, and customer-communication skills. Those methods transfer to fabric topology, failure-domain, counter, and escalation analysis. I have not administered production FC switches, zoning, FCoE/DCB, NVMe-oF, or ONTAP SAN. I would verify exact HBA/driver/firmware/switch/optic/protocol/storage support and IMT notes and work with fabric, host, application, and storage specialists for any change."
 
 **Follow-up depth:** Give one factual network/VM escalation and label FC zoning/NVMe practice as conceptual or lab evidence.
 
@@ -1018,7 +1018,7 @@ A fictional virtualization cluster has two FC fabrics, NPIV guests, FCP LUNs, an
 - **NQN:** NVMe host/subsystem identity.
 - **NVMe/FC:** FC login/credits; **NVMe/TCP:** IP/TCP routes/retransmission.
 - **Supportability:** Exact HBA-driver-firmware-switch-protocol-storage combination, dated.
-- **Arti's bridge:** Network/evidence method transfers; production FC/FCoE/NVMe remains unclaimed.
+- **Your bridge:** Network/evidence method transfers; production FC/FCoE/NVMe remains unclaimed.
 
 ---
 
@@ -1048,7 +1048,7 @@ A fictional virtualization cluster has two FC fabrics, NPIV guests, FCP LUNs, an
 - [ ] Recreate Woodgrove and keep slow-drain and missing-NVMe-path causes separate.
 - [ ] Build exact current supportability/IMT evidence and complete escalation pack.
 - [ ] Complete the paper lab, whiteboard drills, self-test, and Q1-Q8 aloud.
-- [ ] State Arti's production strengths and FC/FCoE/NVMe/ONTAP gap honestly.
+- [ ] State your production strengths and FC/FCoE/NVMe/ONTAP gap honestly.
 - [ ] Recheck standards access/revisions, vendor versions, exact topology, and NetApp IMT notes before customer use.
 
 ---

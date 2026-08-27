@@ -1,10 +1,10 @@
 # Part 97 - SecOps Integrations, Data Flow, Health, and Troubleshooting
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 
 > **Purpose:** Explain SecOps integrations from zero across SIEM, EDR, IAM, ticketing, Zscaler, and other third parties, then provide an evidence-led method for data latency, data loss, clock, schema, entity-resolution, action, observability, ownership, and escalation problems.
 
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH source, connector, tenant, record, identity, device, ticket, action, date, metric, incident, decision, and result is invented. Arti's factual background is Microsoft 365, OneDrive, and SharePoint support; network and trace analysis; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler, SIEM, EDR, IAM, ITSM, SOC, connector-operation, incident-response, and security-action ownership remain learning boundaries.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH source, connector, tenant, record, identity, device, ticket, action, date, metric, incident, decision, and result is invented. Your factual background is Microsoft 365, OneDrive, and SharePoint support; network and trace analysis; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler, SIEM, EDR, IAM, ITSM, SOC, connector-operation, incident-response, and security-action ownership remain learning boundaries.
 
 > **Currency caveat:** Product names, integrations, interfaces, schemas, fields, delivery methods, APIs, actions, status semantics, limits, packaging, and entitlements change. The controlled official-source snapshot and source review date for this Part is exactly **2026-08-24**. Current official technical and ordering documentation, licensed-tenant evidence, source-native records, customer policy, contracts, product specialists, vendor Support, and tested runbooks govern production decisions.
 
@@ -55,7 +55,7 @@ flowchart LR
 
 ## Candidate honesty note
 
-Arti can say: "My production experience is enterprise Microsoft Support Escalation Engineering rather than operating SecOps connectors. I have traced identity, permission, endpoint, network, proxy, browser, sync, and cloud-service dependencies; correlated timestamps and identifiers; used SQL and Power BI for data-quality analysis; coordinated multi-team escalations; and validated fixes. I have studied SecOps integration patterns and practiced with fictional artifacts. In a customer environment I would verify the actual Zscaler and third-party products, licenses, schemas, delivery methods, action semantics, ownership, and measured behavior."
+You can say: "My production experience is enterprise support escalation engineering rather than operating SecOps connectors. I have traced identity, permission, endpoint, network, proxy, browser, sync, and cloud-service dependencies; correlated timestamps and identifiers; used SQL and Power BI for data-quality analysis; coordinated multi-team escalations; and validated fixes. I have studied SecOps integration patterns and practiced with fictional artifacts. In a customer environment I would verify the actual Zscaler and third-party products, licenses, schemas, delivery methods, action semantics, ownership, and measured behavior."
 
 That wording is deliberately neutral. It states factual work, a reasonable transfer, a studied boundary, and the next verification. Avoid claims such as "I operated production SIEM connectors," "I integrated Zscaler with every tool," "I automated EDR containment," or "I eliminated data loss." A diagram or synthetic exercise demonstrates reasoning, not production history.
 
@@ -651,7 +651,7 @@ flowchart TD
 
 ### Common transport checks without overreach
 
-Arti's networking background transfers directly to method. DNS can resolve the wrong or stale destination; TCP can fail or reset; TLS can fail because of trust, name, protocol, interception, or certificate lifecycle; proxies can require authentication or block destinations; firewalls and egress policy can filter; rate limits can produce retry/backlog; payload sizes can exceed limits. Yet a successful TLS request says nothing about schema or downstream use.
+Your networking background transfers directly to method. DNS can resolve the wrong or stale destination; TCP can fail or reset; TLS can fail because of trust, name, protocol, interception, or certificate lifecycle; proxies can require authentication or block destinations; firewalls and egress policy can filter; rate limits can produce retry/backlog; payload sizes can exceed limits. Yet a successful TLS request says nothing about schema or downstream use.
 
 Trace only under authorization and minimize sensitive payload exposure. Correlate client and server times, connection IDs, HTTP status and headers where available, retry behavior, and application logs. Do not claim that one packet trace establishes product root cause when the failure can reside in application state or remote processing.
 
@@ -941,7 +941,7 @@ All exercises are vendor-neutral and non-production. Use invented records or aut
 15. Design a degraded mode for SIEM unavailability while preserving customer authority and later reconciliation.
 16. Review a hypothetical connector for least privilege, tenant binding, secret lifecycle, privacy, audit, and replay.
 17. State how untrusted source text could attack an AI-assisted workflow and design an instruction/data boundary.
-18. Practice a two-minute interview answer that connects Arti's trace and escalation experience without claiming SOC operation.
+18. Practice a two-minute interview answer that connects your trace and escalation experience without claiming SOC operation.
 
 ## Customer discovery questions
 
@@ -1008,9 +1008,9 @@ The Zscaler sources below support only dated public positioning. The NIST source
 
 **Model answer:** Zscaler's public Agentic SecOps material reviewed on August 24, 2026 positions available Zscaler first-party telemetry and controls alongside third-party signals and emphasizes interoperability with existing SIEM, EDR, IAM, and ticketing tools. That is portfolio positioning, not proof of a connector or entitlement. I would verify current products, supported methods, schema, scope, authority, actions, and measured source-to-outcome behavior for the customer.
 
-### Q8. How does Arti's background transfer honestly?
+### Q8. How does your background transfer honestly?
 
-**Model answer:** Her Microsoft escalation work required tracing identity, permission, endpoint, network, proxy, browser, sync, and service boundaries using IDs and timestamps, coordinating owners, preserving evidence, and validating recovery. SQL and Power BI support quality funnels and latency analysis; mentoring supports runbook adoption. She has studied SecOps integrations with synthetic exercises, while production Zscaler, SIEM, EDR, IAM, ticketing, SOC, and security-action operation remain explicit ramp areas.
+**Model answer:** Your prior escalation work required tracing identity, permission, endpoint, network, proxy, browser, sync, and service boundaries using IDs and timestamps, coordinating owners, preserving evidence, and validating recovery. SQL and Power BI support quality funnels and latency analysis; mentoring supports runbook adoption. You have studied SecOps integrations with synthetic exercises, while production Zscaler, SIEM, EDR, IAM, ticketing, SOC, and security-action operation remain explicit ramp areas.
 
 ## 30-Second Memory Hooks
 
@@ -1034,7 +1034,7 @@ The Zscaler sources below support only dated public positioning. The NIST source
 | Escalation | Last good, first bad, stable IDs, UTC |
 | Security | Least privilege, tenant binding, minimization, audit |
 | Zscaler | Attribute public positioning; verify customer reality |
-| Arti bridge | Trace and escalation rigor transfer; SOC claims do not |
+| Experience bridge | Trace and escalation rigor transfer; SOC claims do not |
 
 ## Completion Checklist
 

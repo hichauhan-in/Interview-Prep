@@ -1,10 +1,10 @@
 # Part 92 - SIEM, SOAR, XDR, EDR, NDR, UEBA, and Security Data Fabric
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 
 > **Purpose:** Explain SIEM, SOAR, XDR, EDR, NDR, UEBA, and security data fabric from zero, compare their purposes and overlaps, show how they integrate, expose their limitations, and describe how Zscaler can complement an existing security stack without inventing product behavior.
 
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH source, tool, alert, identity, asset, integration, date, metric, decision, action, and result is invented. Arti's factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler, SOC, SIEM, SOAR, XDR, EDR, NDR, UEBA, security-data-fabric, detection-engineering, threat-hunting, and incident-response ownership remain learning boundaries.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH source, tool, alert, identity, asset, integration, date, metric, decision, action, and result is invented. Your factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler, SOC, SIEM, SOAR, XDR, EDR, NDR, UEBA, security-data-fabric, detection-engineering, threat-hunting, and incident-response ownership remain learning boundaries.
 
 > **Currency caveat:** Product names, architectures, connectors, schemas, interfaces, fields, detections, actions, integrations, packaging, limits, and entitlements change. The controlled official-source snapshot and source review date for this Part is exactly **2026-08-24**. Current official documentation, licensed-tenant evidence, customer contracts and policies, product specialists, Support, source-native evidence, and tested runbooks govern production decisions.
 
@@ -63,7 +63,7 @@ flowchart LR
 
 ## Candidate honesty note
 
-Arti can say: "My production experience is enterprise Microsoft support rather than operating a SOC toolchain. I have investigated identity, endpoint, network, browser, permission, sync, and service dependencies; used traces and analytics; led escalations; and communicated evidence under pressure. I have studied SIEM, SOAR, XDR, EDR, NDR, UEBA, and security-data-fabric patterns and practiced only through fictional artifacts. In a customer environment I would validate the licensed products, schemas, authority, and measured behavior."
+You can say: "My production experience is enterprise support rather than operating a SOC toolchain. I have investigated identity, endpoint, network, browser, permission, sync, and service dependencies; used traces and analytics; led escalations; and communicated evidence under pressure. I have studied SIEM, SOAR, XDR, EDR, NDR, UEBA, and security-data-fabric patterns and practiced only through fictional artifacts. In a customer environment I would validate the licensed products, schemas, authority, and measured behavior."
 
 Neutral syntax is important. Say what the evidence establishes, identify the transfer, label study or synthetic practice, and state what production verification would follow. Do not convert adjacent experience into an affirmative security-product claim.
 
@@ -905,9 +905,9 @@ The Zscaler sources below support only dated public positioning. The NIST and MI
 
 **Model answer:** Zscaler's current public Agentic SecOps material says organizations often retain SIEM, EDR, IAM, and ticketing tools and positions integration as complementary. Conceptually, available Zscaler traffic, identity, policy, app, data, posture, exposure, and inline-control context can enrich existing evidence and support risk-appropriate workflows, while third-party tools retain endpoint, identity, event, or case authority as designed. I would verify licensed sources, schemas, mappings, actions, approvals, and measured end-to-end behavior.
 
-### Q8. How does Arti's background transfer to this topic without overclaiming?
+### Q8. How does your background transfer to this topic without overclaiming?
 
-**Model answer:** Her Microsoft enterprise support work provides production experience in identity, permission, endpoint, network, browser, sync, service, and customer-impact diagnosis. Packet/process/browser traces support collection-path troubleshooting. SQL and Power BI support event/entity models, joins, time windows, quality, and metrics. Escalation and mentoring support governance and enablement. She has studied these SecOps categories and used fictional exercises; production SIEM, SOAR, XDR, EDR, NDR, UEBA, Zscaler, and SOC operation remain explicit ramp areas.
+**Model answer:** Your prior enterprise support work provides production experience in identity, permission, endpoint, network, browser, sync, service, and customer-impact diagnosis. Packet/process/browser traces support collection-path troubleshooting. SQL and Power BI support event/entity models, joins, time windows, quality, and metrics. Escalation and mentoring support governance and enablement. You have studied these SecOps categories and used fictional exercises; production SIEM, SOAR, XDR, EDR, NDR, UEBA, Zscaler, and SOC operation remain explicit ramp areas.
 
 ## 30-Second Memory Hooks
 
@@ -930,7 +930,7 @@ The Zscaler sources below support only dated public positioning. The NIST and MI
 | Health | Source through verified outcome, not heartbeat alone |
 | Complementarity | Define the gap, contract, authority, and test |
 | Zscaler | Dated public context plus inline-control positioning; verify tenant reality |
-| Arti bridge | Enterprise evidence and analytics transfer; product operation does not |
+| Experience bridge | Enterprise evidence and analytics transfer; product operation does not |
 
 ## Completion Checklist
 

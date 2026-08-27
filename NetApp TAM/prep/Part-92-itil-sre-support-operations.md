@@ -1,6 +1,6 @@
 # Part 92 - ITIL, SRE, Support Operations, Quality, and Continual Improvement
 
-> **Section goal:** Use ITIL 4, Site Reliability Engineering, and Knowledge-Centered Service as distinct but complementary lenses for reliable support operations. By the end, Arti can distinguish incidents, problems, changes, requests, known errors and knowledge; reason about severity, SLA/OLA, SLI/SLO/error budgets and toil; manage queue quality; run PIRs; and design safe improvement experiments without claiming certification or a NetApp internal process.
+> **Section goal:** Use ITIL 4, Site Reliability Engineering, and Knowledge-Centered Service as distinct but complementary lenses for reliable support operations. By the end, you can distinguish incidents, problems, changes, requests, known errors and knowledge; reason about severity, SLA/OLA, SLI/SLO/error budgets and toil; manage queue quality; run PIRs; and design safe improvement experiments without claiming certification or a NetApp internal process.
 
 Covers index item **92** and maps to job-description responsibilities for support experience, complex/high-pressure work, quality improvement, technical analysis, preventative remediation, special projects, coaching, knowledge contribution, cross-functional teams, operational reviews and customer loyalty.
 
@@ -10,7 +10,7 @@ Covers index item **92** and maps to job-description responsibilities for suppor
 
 **Version caveat:** Framework publications, terminology, certification schemes, products, and organizational practices change; complete current-doc checks and use the employer's approved process.
 
-**Explicit nonclaim:** Arti does not claim ITIL, SRE, KCS or NetApp service-management certification; has not designed NetApp internal support operations; and has not implemented the fictional metrics, processes, automations or outcomes below for a NetApp customer or team.
+**Explicit nonclaim:** You do not claim ITIL, SRE, KCS or NetApp service-management certification; has not designed NetApp internal support operations; and has not implemented the fictional metrics, processes, automations or outcomes below for a NetApp customer or team.
 
 **Privacy/access:** Support operations can expose customer identity, incidents, employee performance, cases, severity, contracts, vulnerabilities, defects, communications, quality scores, sentiment, staffing and commercial information. Use purpose-limited access, minimum personal data, calibrated/aggregated reporting, approved repositories, retention, secure links and authorized HR/legal/security/customer review. Do not use individual metrics for hidden surveillance or publish customer/case data.
 
@@ -20,7 +20,7 @@ Covers index item **92** and maps to job-description responsibilities for suppor
 
 This Part is an educational orientation, not certification training, legal/contract interpretation, a fixed severity matrix, an SLO commitment, a staffing formula or authority to change support policy.
 
-> **No-production-NetApp boundary:** Arti's factual strengths are Microsoft enterprise support/escalation, CRITSIT, CSAT, case-quality and backlog analysis, Product/Engineering collaboration, mentoring, technical writing, analytics and process improvement. Her exact nonclaim is: **she has not operated NetApp support or reliability processes.** She may use Microsoft examples factually and the NetApp scenario only as a synthetic exercise.
+> **No-production-NetApp boundary:** Your factual strengths are enterprise support/escalation, critical situation, CSAT, case-quality and backlog analysis, Product/Engineering collaboration, mentoring, technical writing, analytics and process improvement. Your exact nonclaim is: **you have not operated NetApp support or reliability processes.** You may use Microsoft examples factually and the NetApp scenario only as a synthetic exercise.
 
 ---
 
@@ -397,13 +397,13 @@ flowchart TB
 
 **Decision:** adopt the template with quarterly sampling, maintain privacy gate, update knowledge from feedback, and do not claim reduced resolution time until comparable evidence exists.
 
-**Honest interview language:** `In Microsoft support I have factual case-quality, backlog, mentoring and escalation experience. For NetApp preparation, I built this fully synthetic ITIL/SRE/KCS-oriented experiment; I did not implement it inside NetApp or claim framework certification.`
+**Honest interview language:** `In enterprise support I have factual case-quality, backlog, mentoring and escalation experience. For NetApp preparation, I built this fully synthetic ITIL/SRE/KCS-oriented experiment; I did not implement it inside NetApp or claim framework certification.`
 
-## 18. JD Mapping and Arti tie
+## 18. JD Mapping and background tie
 
 ```mermaid
 flowchart LR
-    CRIT[Microsoft CRITSIT/incident ownership] --> INCIDENT[Incident/PIR/communication]
+    CRIT[Enterprise critical situation/incident ownership] --> INCIDENT[Incident/PIR/communication]
     QA[Case quality/backlog/CSAT] --> FLOW[Queue, sampling and improvement]
     ENG[Product/Engineering collaboration] --> PROBLEM[Problem/known error/change]
     MENTOR[Mentoring/technical writing] --> KCS[Knowledge/coaching]
@@ -485,7 +485,7 @@ flowchart LR
 
 ### Q8. What is your experience and certification boundary?
 
-> **Model answer:** `I factually bring Microsoft CRITSIT, case quality, backlog/CSAT, Engineering collaboration, mentoring and analytics. I do not claim ITIL/SRE/KCS certification or NetApp support-operations ownership. The Northstar process and results are fully synthetic.`
+> **Model answer:** `I factually bring enterprise critical situation, case quality, backlog/CSAT, Engineering collaboration, mentoring and analytics. I do not claim ITIL/SRE/KCS certification or NetApp support-operations ownership. The Northstar process and results are fully synthetic.`
 
 ---
 

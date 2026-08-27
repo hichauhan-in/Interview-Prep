@@ -1,12 +1,12 @@
 # Part 120 - Behavioral, Culture, Closing, and Night-Before Preparation
 
-> **Purpose:** Convert Arti's supported background into honest, adaptable interview evidence; prepare role- and company-specific motivation; handle direct gaps; rehearse culture and executive scenarios; ask strong questions; negotiate professionally; and provide explicit 30/60/90-day, night-before, and day-of preparation sheets.
+> **Purpose:** Convert your supported background into honest, adaptable interview evidence; prepare role- and company-specific motivation; handle direct gaps; rehearse culture and executive scenarios; ask strong questions; negotiate professionally; and provide explicit 30/60/90-day, night-before, and day-of preparation sheets.
 
-> **Scope and honesty:** This Part uses only candidate facts already supported in the master guide: 5+ years of Microsoft enterprise support and escalation engineering; Microsoft 365, SharePoint Online, OneDrive for Business, and sync expertise; networking study and evidence tools; CRITSIT/RCA/Engineering collaboration/fix validation; supported CSAT ranges and recognition; SQL/PostgreSQL/Excel/Power BI/Python/R/statistics/MBA Business Analytics; Technical Advisor, mentoring, onboarding, interviews, partner training, and knowledge work; and Copilot Studio/AI learning, evaluation, certification, and training facts at the level recorded. Bracketed prompts must be completed from Arti's records. No personal event, metric, title, product use, customer result, salary fact, or preference is invented.
+> **Scope and honesty:** This Part uses only candidate facts already supported in the master guide: 5+ years of enterprise support and escalation engineering; Microsoft 365, SharePoint Online, OneDrive for Business, and sync expertise; networking study and evidence tools; critical situation/RCA/Engineering collaboration/fix validation; supported CSAT ranges and recognition; SQL/PostgreSQL/Excel/Power BI/Python/R/statistics/a postgraduate business-analytics qualification; technical advisor, mentoring, onboarding, interviews, partner training, and knowledge work; and Copilot Studio/AI learning, evaluation, certification, and training facts at the level recorded. Bracketed prompts must be completed from your records. No personal event, metric, title, product use, customer result, salary fact, or preference is invented.
 
 > **Section goal:** Build a truthful interview narrative in which every answer has a relevant situation, personal responsibility, specific decisions/actions, supported result, reflection, and role transfer; demonstrate customer obsession, impact, ownership, accountability, collaboration, urgency with quality, transparency, constructive debate, and AI responsibility; and enter the interview with practiced content rather than memorized fiction.
 
-Northstar Meridian Holdings (NMH) remains explicitly fictional and synthetic. Parts 111-117 can be discussed only as candidate-authored practice after Arti personally completes and retains the work. They can never become production stories. Product facts use the public source snapshot reviewed on **2026-08-24** and require current pre-interview verification.
+Northstar Meridian Holdings (NMH) remains explicitly fictional and synthetic. Parts 111-117 can be discussed only as candidate-authored practice after you personally complete and retains the work. They can never become production stories. Product facts use the public source snapshot reviewed on **2026-08-24** and require current pre-interview verification.
 
 ```mermaid
 flowchart LR
@@ -21,7 +21,7 @@ flowchart LR
 
 | Evidence class | Interview use | Required wording | Prohibited conversion |
 |---|---|---|---|
-| Supported production fact | Personal STAR and competency evidence | "In my Microsoft escalation/support/analytics/mentoring work..." | Expanding beyond documented role/result |
+| Supported production fact | Personal STAR and competency evidence | "In my prior escalation/support/analytics/mentoring work..." | Expanding beyond documented role/result |
 | Synthetic practice | Method and preparation evidence | "In a local fictional NMH exercise, I practiced..." | "I delivered this to a customer" |
 | Learned concept | Architecture and approach | "I understand the concept and would validate..." | Claiming hands-on product operation |
 | Direct unknown/gap | Product, program, or personal detail not established | "I have not done/verified that yet..." | Filling silence with a plausible invention |
@@ -30,15 +30,15 @@ flowchart LR
 
 | JD or culture signal | Factual evidence family | Interview emphasis | Gap/boundary |
 |---|---|---|---|
-| Strategic enterprise engagement | Enterprise support, Technical Advisor, partner/customer coordination | Stakeholders, outcomes, evidence, ownership | Formal SecOps TSM account ownership not established |
+| Strategic enterprise engagement | Enterprise support, technical advisor, partner/customer coordination | Stakeholders, outcomes, evidence, ownership | Formal SecOps TSM account ownership not established |
 | Complex troubleshooting | M365/OneDrive/SharePoint, network/browser/process evidence | Layered hypotheses, first divergence, validation | Zscaler production telemetry not used |
-| Critical escalation | Business-critical incidents, CRITSIT, Engineering, RCA, fix validation | Impact, cadence, cross-team work, recovery proof | Use exact personal case only after fact check |
+| Critical escalation | Business-critical incidents, critical situation, Engineering, RCA, fix validation | Impact, cadence, cross-team work, recovery proof | Use exact personal case only after fact check |
 | Data modeling and analytics | SQL, PostgreSQL, Excel, Power BI, Python, R, statistics, MBA | Quality, denominators, trends, decisions | Security Data Fabric implementation not established |
 | Executive/customer communication | Customer support, advisory work, CSAT evidence | Plain language, expectation, bad news, trust | CISO/QBR delivery requires factual example or lab label |
 | Training and mentoring | Mentoring, onboarding, interviews, partner training, knowledge articles | Observable learning and service scaling | Do not invent participant counts/outcomes |
 | Product/Engineering partnership | Engineering/Product Group/vendor collaboration | Actionable evidence, handoffs, closure | No Zscaler roadmap or defect ownership |
 | AI-forward work | Copilot Studio agents, tool evaluation, certifications, training | Responsible evaluation and enablement | No production Agentic SecOps operation |
-| Customer obsession | CSAT above 4.75/4.85 and supported recognition record | Listen, own, follow through, improve | Use exact metric context from records |
+| Customer obsession | a strong customer-satisfaction record and supported recognition record | Listen, own, follow through, improve | Use exact metric context from records |
 | Impact over activity | Case quality/backlog analysis and fix validation | Accepted outcomes and durable change | Avoid equating volume with impact |
 | Ownership/accountability | Escalation coordination and follow-through | Personal decisions, boundaries, correction | Do not claim team authority personally |
 | Transparency/constructive debate | Evidence-led customer/Engineering collaboration | Facts, assumptions, disagreement, correction | Select a real supported example |
@@ -46,9 +46,9 @@ flowchart LR
 
 ## Candidate honesty note
 
-The strongest answer is not the answer with the most impressive nouns. It is the answer whose details survive follow-up. Before using a story, Arti should be able to identify the actual employer context, approximate period, her title, her personal responsibility, collaborators, customer/business stakes, tools/evidence, exact result source, confidentiality-safe wording, and what she learned. If any material detail is uncertain, replace it with a bracketed prompt until verified.
+The strongest answer is not the answer with the most impressive nouns. It is the answer whose details survive follow-up. Before using a story, you should be able to identify the actual employer context, approximate period, your title, your personal responsibility, collaborators, customer/business stakes, tools/evidence, exact result source, confidentiality-safe wording, and what you learned. If any material detail is uncertain, replace it with a bracketed prompt until verified.
 
-Arti should not say she administered ZIA, ZPA, ZDX, Client Connector, Data Fabric for Security, Asset Exposure Management, UVM, Risk360, CTEM, SIEM/SOAR/XDR, vulnerability scanners, enterprise exposure programs, SOC operations, or a Zscaler strategic account unless later factual evidence supports it. The interview-ready alternative is direct: name the gap, explain adjacent factual capability, demonstrate learned architecture or synthetic method, and give a concrete ramp and validation plan.
+You should not say you administered ZIA, ZPA, ZDX, Client Connector, Data Fabric for Security, Asset Exposure Management, UVM, Risk360, CTEM, SIEM/SOAR/XDR, vulnerability scanners, enterprise exposure programs, SOC operations, or a Zscaler strategic account unless later factual evidence supports it. The interview-ready alternative is direct: name the gap, explain adjacent factual capability, demonstrate learned architecture or synthetic method, and give a concrete ramp and validation plan.
 
 | Claim test | Question to ask | Pass condition |
 |---|---|---|
@@ -61,7 +61,7 @@ Arti should not say she administered ZIA, ZPA, ZDX, Client Connector, Data Fabri
 
 ## STAR method from zero
 
-STAR means **Situation, Task, Action, Result**. This guide adds **Learning** and **Transfer**, producing STAR-LT. The Situation provides only enough context and stakes. The Task names Arti's responsibility. The Action is the largest section and names her decisions. The Result uses supported evidence. Learning shows reflection. Transfer explains relevance to the target role without claiming identical experience.
+STAR means **Situation, Task, Action, Result**. This guide adds **Learning** and **Transfer**, producing STAR-LT. The Situation provides only enough context and stakes. The Task names your responsibility. The Action is the largest section and names your decisions. The Result uses supported evidence. Learning shows reflection. Transfer explains relevance to the target role without claiming identical experience.
 
 ```mermaid
 flowchart LR
@@ -88,7 +88,7 @@ flowchart LR
 
 STAR does not make a weak or invented example strong. It helps an interviewer inspect context, ownership, choices, and result. Think of an incident report: a clean template cannot compensate for missing timestamps or unsupported cause. The candidate must populate the structure with verifiable facts and visible judgment.
 
-A useful answer spends most time on Action because that is where capability appears. "We fixed it" hides whether Arti formed hypotheses, correlated evidence, coordinated Engineering, set expectations, made a tradeoff, or validated recovery. Team context matters, but the interviewer needs accurate personal contribution. Result should include what was accepted and what remained outside her control.
+A useful answer spends most time on Action because that is where capability appears. "We fixed it" hides whether you formed hypotheses, correlated evidence, coordinated Engineering, set expectations, made a tradeoff, or validated recovery. Team context matters, but the interviewer needs accurate personal contribution. Result should include what was accepted and what remained outside your control.
 
 ### STAR-LT drafting worksheet
 
@@ -111,15 +111,15 @@ A useful answer spends most time on Action because that is where capability appe
 
 | Supported background fact | Competency evidenced | Strong interview angle | Needed fill-in |
 |---|---|---|---|
-| 5+ years Microsoft enterprise support/escalation | Customer ownership, ambiguity, technical depth, endurance | Complex case from impact through validation | `[exact case, date range, role, result]` |
+| 5+ years enterprise support/escalation | Customer ownership, ambiguity, technical depth, endurance | Complex case from impact through validation | `[exact case, date range, role, result]` |
 | SharePoint Online, OneDrive for Business, sync client, M365 | SaaS architecture and dependency reasoning | Client/browser/identity/network/service comparison | `[specific safe scenario]` |
 | TCP/IP, OSI, HTTP/S, TLS/SSL, DNS/DHCP, proxy/firewall/routing learning | Network reasoning and learning agility | How deliberate upskilling changed investigations | `[course/lab/use example]` |
 | Wireshark, Netsh, Network Monitor, Procmon, HAR, Fiddler, browser tools | Evidence collection and layer isolation | First divergence and tool limitations | `[tool/evidence/result]` |
-| CRITSIT, RCA, Engineering collaboration, fix validation | Escalation leadership and durable improvement | Cadence, workstreams, no unsupported ETA, proof | `[actual incident facts]` |
-| CSAT above 4.75/4.85 and 100+ recognitions | Customer obsession and consistent trust | Behavior behind the supported evidence | `[period/source and one example]` |
+| Critical situation, RCA, Engineering collaboration, fix validation | Escalation leadership and durable improvement | Cadence, workstreams, no unsupported ETA, proof | `[actual incident facts]` |
+| a strong customer-satisfaction record and repeated peer and customer recognition | Customer obsession and consistent trust | Behavior behind the supported evidence | `[period/source and one example]` |
 | Backlog/case-quality analysis | Impact over activity and service improvement | Data identified a pattern and changed practice | `[baseline/action/result]` |
 | SQL/PostgreSQL/Excel/Power BI/Python/R/statistics/MBA | Analytical rigor and executive translation | Query/visual/decision with denominator care | `[project, personal action, supported outcome]` |
-| Technical Advisor | Technical leadership and consultation | Coaching quality and raising decisions | `[scope and example]` |
+| Technical advisor | Technical leadership and consultation | Coaching quality and raising decisions | `[scope and example]` |
 | Mentoring/onboarding/interviews | Talent/service scaling | Competency, feedback, changed behavior | `[learner group and evidence]` |
 | Partner training/knowledge articles | Enablement and reusable knowledge | Beginner-first explanation and support deflection/quality | `[artifact and measured/observed result]` |
 | Customers/partners/Engineering/Product Groups/vendors | Cross-functional collaboration | Conflicting priorities resolved with evidence | `[stakeholders, decision, result]` |
@@ -128,7 +128,7 @@ A useful answer spends most time on Action because that is where capability appe
 
 ## Story portfolio: 16 ready-to-adapt blueprints
 
-These are **blueprints**, not completed claims. Each is grounded in a supported fact family, but every bracketed detail must be filled from Arti's records. One real story can answer several questions when the angle changes; do not invent sixteen separate events just to fill a grid.
+These are **blueprints**, not completed claims. Each is grounded in a supported fact family, but every bracketed detail must be filled from your records. One real story can answer several questions when the angle changes; do not invent sixteen separate events just to fill a grid.
 
 ```mermaid
 flowchart TD
@@ -148,9 +148,9 @@ flowchart TD
 
 | Story | Supported anchor | STAR-LT blueprint | Best questions | Fact-check prompts |
 |---|---|---|---|---|
-| S01 Business-critical customer escalation | CRITSIT/business-critical incidents | S: `[service/customer impact]`; T: own technical/customer coordination; A: scope, workstreams, cadence, evidence, expectations; R: `[supported recovery/acceptance]`; L: `[change]`; TSM transfer: escalation trust | Ownership, pressure, executive communication, customer obsession | `[severity, users, duration, your role, exact result]` |
+| S01 Business-critical customer escalation | critical situation/business-critical incidents | S: `[service/customer impact]`; T: own technical/customer coordination; A: scope, workstreams, cadence, evidence, expectations; R: `[supported recovery/acceptance]`; L: `[change]`; TSM transfer: escalation trust | Ownership, pressure, executive communication, customer obsession | `[severity, users, duration, your role, exact result]` |
 | S02 Difficult expectation conversation | Enterprise customer support/advisory | S: customer wanted `[ETA/cause/action]`; T: maintain trust without guessing; A: listen, facts/unknowns, options, cadence, route; R: `[supported outcome]`; L: transparency | Conflict, bad news, empathy, accountability | `[what was asked, exact words, evidence, feedback]` |
-| S03 High-CSAT behavior example | CSAT above 4.75/4.85 | S: `[representative complex case]`; T: resolve while preserving confidence; A: understand job, simplify, own follow-up, validate; R: `[documented CSAT/context]`; L: repeatable behavior | Customer obsession, why Arti, strength | `[which metric applies to which period and story]` |
+| S03 High-CSAT behavior example | a strong customer-satisfaction record | S: `[representative complex case]`; T: resolve while preserving confidence; A: understand job, simplify, own follow-up, validate; R: `[Documented CSAT/context]`; L: repeatable behavior | Customer obsession, why you, strength | `[which metric applies to which period and story]` |
 | S04 Cross-functional customer/partner coordination | Customers, partners, vendors, Engineering/Product Groups | S: multiple owners and blocked outcome; T: create shared path; A: RACI, evidence, handoffs, updates, decision; R: `[supported closure]`; L: role clarity | Collaboration, influence, stakeholder management | `[roles, disagreement, your artifact/action, result]` |
 
 ### Blueprint group 2 - Technical analysis and escalation
@@ -169,24 +169,24 @@ flowchart TD
 | S09 Backlog or case-quality analysis | Backlog/case-quality analysis | S: volume or quality pattern obscured; T: identify actionable drivers; A: define population, analyze categories/trends, validate sample, recommend; R: `[supported service change]`; L: denominator/behavior | Impact over activity, analytics, initiative | `[dataset, tools, metric, decision, result]` |
 | S10 SQL/Power BI decision support | SQL/PostgreSQL/Excel/Power BI/statistics | S: stakeholders lacked clear view; T: produce trustworthy analysis; A: model/query/quality/visual/interpret; R: `[supported decision]`; L: quality near KPI | Data modeling, dashboard, executive translation | `[project, grain, query, visual, result]` |
 | S11 Urgency with a quality gate | Critical cases and validation | S: pressure to declare fixed or act broadly; T: move fast safely; A: changed/control cohorts, staged validation, communication; R: `[supported acceptance]`; L: urgency shortens loops | Urgency, judgment, risk | `[what pressure, what gate, what happened]` |
-| S12 Recognition as pattern, not story | 100+ recognitions | Use one verified event behind recognition: S/T/A/R-LT; mention aggregate only as supporting consistency, not substitute for behavior | Why hire, strength, customer obsession | `[recognition type, period, exact event, source]` |
+| S12 Recognition as pattern, not story | repeated peer and customer recognition | Use one verified event behind recognition: S/T/A/R-LT; mention aggregate only as supporting consistency, not substitute for behavior | Why hire, strength, customer obsession | `[recognition type, period, exact event, source]` |
 
 ### Blueprint group 4 - Enablement, leadership, and AI
 
 | Story | Supported anchor | STAR-LT blueprint | Best questions | Fact-check prompts |
 |---|---|---|---|---|
-| S13 Mentoring or onboarding | Mentoring/onboarding/Technical Advisor | S: learner/service gap; T: build independent capability; A: baseline, shadow, practice, feedback, teach-back; R: `[supported behavior/quality]`; L: adapt coaching | Leadership, mentoring, scale | `[audience, duration, artifact, evidence]` |
+| S13 Mentoring or onboarding | Mentoring/onboarding/technical advisor | S: learner/service gap; T: build independent capability; A: baseline, shadow, practice, feedback, teach-back; R: `[supported behavior/quality]`; L: adapt coaching | Leadership, mentoring, scale | `[audience, duration, artifact, evidence]` |
 | S14 Partner training or knowledge article | Partner training/knowledge articles | S: recurring confusion or support need; T: create reusable learning; A: audience analysis, examples, review, delivery, update; R: `[usage/feedback/quality]`; L: measure application | Training, communication, leverage | `[topic, format, reach/result if supported]` |
 | S15 Interview or talent-quality contribution | Interview participation | S: hiring/onboarding quality need; T: assess or improve process; A: criteria, evidence, bias control, feedback; R: `[supported contribution]`; L: consistent competency | Judgment, culture, people leadership | `[role in process, not hiring authority unless true]` |
 | S16 Responsible AI exploration and enablement | Copilot Studio, AI tools, certifications, training | S: task/learning need; T: evaluate or enable responsibly; A: use case, prompt/grounding, validation, privacy, human review, training; R: `[supported artifact/outcome]`; L: boundaries | AI-forward, innovation, change | `[exact tool, audience, data boundary, result]` |
 
 ### Plain-English deep-dive 2 - One story can answer many questions without changing facts
 
-Interviewers may ask about ownership, conflict, urgency, failure, or customer obsession. One real CRITSIT could support several answers. The facts stay fixed; the camera angle changes. For ownership, emphasize the responsibility and follow-through. For conflict, emphasize evidence and authority. For urgency, emphasize parallel work and quality gates. For failure, emphasize a missed signal and correction only if that was truly part of the event.
+Interviewers may ask about ownership, conflict, urgency, failure, or customer obsession. One real critical-situation could support several answers. The facts stay fixed; the camera angle changes. For ownership, emphasize the responsibility and follow-through. For conflict, emphasize evidence and authority. For urgency, emphasize parallel work and quality gates. For failure, emphasize a missed signal and correction only if that was truly part of the event.
 
 Think of one packet capture viewed through protocol, timing, or ownership filters. It remains the same evidence. Inventing a different result for each question creates contradictions under follow-up. A compact, verified portfolio of six to eight rich stories is stronger than sixteen shallow, uncertain stories.
 
-## Motivation: why Zscaler, why SecOps TSM, why Arti
+## Motivation: why Zscaler, why SecOps TSM, why you
 
 ### Why Zscaler framework
 
@@ -200,7 +200,7 @@ flowchart LR
 
 | Component | Answer content | Boundary |
 |---|---|---|
-| Company connection | Current public zero-trust, SecOps/data/exposure, AI-forward context that genuinely interests Arti | Recheck official facts; no market ranking |
+| Company connection | Current public zero-trust, SecOps/data/exposure, AI-forward context that genuinely interests you | Recheck official facts; no market ranking |
 | Role connection | Strategic technical customer work across data, vulnerability/exposure, escalation, enablement, executives | Use supplied JD, not assumed daily details |
 | Strength connection | Enterprise escalation, M365 dependencies, networking evidence, analytics, mentoring, AI learning | Supported facts only |
 | Growth connection | Direct Zscaler/SecOps program experience is the deliberate next bridge | Do not hide gap |
@@ -208,7 +208,7 @@ flowchart LR
 
 **Ready-to-adapt answer:**
 
-"I am interested in Zscaler because the role sits where my strongest factual experience and my deliberate next step meet. I have spent more than five years in Microsoft enterprise support and escalation, working through complex SaaS, identity, client, network, and customer-impact problems. I have also built strong analytics and enablement skills through SQL, Power BI, statistics, mentoring, and AI learning. Zscaler's current public direction around zero trust, security data, exposure management, and Agentic SecOps makes the technical problem space compelling. I have not administered Zscaler products in production, so I would bring proven evidence and customer discipline while ramping through current official learning, shadowing, licensed practice, and reviewed account work. [Add one current verified company/role detail learned from the panel.]"
+"I am interested in Zscaler because the role sits where my strongest factual experience and my deliberate next step meet. I have spent several years in enterprise support and escalation, working through complex SaaS, identity, client, network, and customer-impact problems. I have also built strong analytics and enablement skills through SQL, Power BI, statistics, mentoring, and AI learning. Zscaler's current public direction around zero trust, security data, exposure management, and Agentic SecOps makes the technical problem space compelling. I have not administered Zscaler products in production, so I would bring proven evidence and customer discipline while ramping through current official learning, shadowing, licensed practice, and reviewed account work. [Add one current verified company/role detail learned from the panel.]"
 
 ### Why SecOps TSM framework
 
@@ -220,7 +220,7 @@ flowchart LR
 
 "I value deep support work, especially when evidence and communication restore a critical customer outcome. The move I want is not away from that discipline; it is to apply it earlier and across a longer customer lifecycle. A SecOps TSM connects discovery, architecture, data quality, vulnerability and exposure decisions, enablement, health, executive reviews, and escalations. That combination fits my technical troubleshooting, analytics, customer ownership, and mentoring background. My direct gap is operating these Zscaler SecOps workflows in production, and I address it openly with structured study, synthetic practice, and a concrete supervised ramp. [Insert one supported moment that motivated proactive work.]"
 
-### Why Arti framework
+### Why your framework
 
 | Differentiator | Evidence | Role value |
 |---|---|---|
@@ -233,7 +233,7 @@ flowchart LR
 
 **Ready-to-adapt answer:**
 
-"I would bring a combination of enterprise customer ownership, technical evidence discipline, analytics, and enablement. In Microsoft escalation work I have learned to isolate layered service issues, coordinate Engineering and customer stakeholders, communicate under pressure, and validate recovery. SQL, Power BI, statistics, and MBA learning help me challenge data and translate it into decisions. Mentoring and training experience help me make teams more independent. I am also direct about what I have not done: I have not run a Zscaler SecOps account or administered these products in production. My value is proven adjacent execution plus a specific, feedback-driven ramp. [Add two supported examples and one exact result.]"
+"I would bring a combination of enterprise customer ownership, technical evidence discipline, analytics, and enablement. In enterprise escalation work I have learned to isolate layered service issues, coordinate Engineering and customer stakeholders, communicate under pressure, and validate recovery. SQL, Power BI, statistics, and MBA learning help me challenge data and translate it into decisions. Mentoring and training experience help me make teams more independent. I am also direct about what I have not done: I have not run a Zscaler SecOps account or administered these products in production. My value is proven adjacent execution plus a specific, feedback-driven ramp. [Add two supported examples and one exact result.]"
 
 ## Gap handling
 
@@ -278,7 +278,7 @@ flowchart LR
 |---|---|---|---|
 | Customer obsession | Understand job, reduce uncertainty, own follow-through | CSAT, escalations, advisory work | What tradeoff protected the customer? |
 | Impact over activity | Measure accepted change, not volume | Backlog/case-quality analytics, fix validation | What would have happened without the work? |
-| Ownership | Make problem/evidence/owner/checkpoint visible | CRITSIT and Engineering coordination | What did you personally own versus route? |
+| Ownership | Make problem/evidence/owner/checkpoint visible | critical situation and Engineering coordination | What did you personally own versus route? |
 | Accountability | Correct mistakes and close commitments | RCA, quality review | What did you change after feedback? |
 | Urgency | Shorten feedback loops around material impact | Critical support cases | Which steps ran in parallel? |
 | High quality | Use evidence, review, validation, prevention | Trace analysis and fix validation | Which gate prevented false closure? |
@@ -412,7 +412,7 @@ All dates in the diagram are illustrative relative planning dates, not employmen
 
 ## Negotiation basics
 
-Negotiation is a professional alignment conversation, not a contest. Personal salary, location, benefits, risk tolerance, competing processes, and priorities are unknown and must be filled privately. Do not disclose confidential current compensation unless Arti chooses and local requirements make it appropriate.
+Negotiation is a professional alignment conversation, not a contest. Personal salary, location, benefits, risk tolerance, competing processes, and priorities are unknown and must be filled privately. Do not disclose confidential current compensation unless you choo and local requirements make it appropriate.
 
 ```mermaid
 flowchart TD
@@ -441,7 +441,7 @@ flowchart TD
 
 The same TSM skills apply: understand interests, clarify scope, use facts, prioritize, present options, listen, and record the decision. A request does not need aggression, and interest does not require immediate acceptance. Bluffing creates the same trust problem as inventing a technical result.
 
-The strongest preparation is private: know which elements matter, which are flexible, what information is missing, and what outcome would be acceptable. The guide cannot decide those personal values for Arti.
+The strongest preparation is private: know which elements matter, which are flexible, what information is missing, and what outcome would be acceptable. The guide cannot decide those personal values for you.
 
 ## Night-before one-page sheet
 
@@ -470,7 +470,7 @@ flowchart LR
 
 | Cue | Content to fill |
 |---|---|
-| One-line identity | `[Microsoft enterprise escalation + technical analytics + enablement -> SecOps TSM]` |
+| One-line identity | `[enterprise escalation + technical analytics + enablement -> SecOps TSM]` |
 | Three strengths | `[supported strength 1]`, `[strength 2]`, `[strength 3]` |
 | Direct gap | `[Zscaler/SecOps direct gap in one sentence]` |
 | Ramp | `[official learning, shadow, licensed practice, reviewed work]` |
@@ -480,7 +480,7 @@ flowchart LR
 | Best mentoring/AI story | `[S## and supported evidence]` |
 | Why Zscaler | `[current verified direction + role + personal fit]` |
 | Why role | `[proactive lifecycle + technical depth + customer outcomes]` |
-| Why Arti | `[three evidence-backed differentiators]` |
+| Why you | `[three evidence-backed differentiators]` |
 | Questions | `[four role-specific questions]` |
 | Closing | `[fit + gap/ramp + panel detail + concern question]` |
 
@@ -517,7 +517,7 @@ Every answer below includes a model framework and fill-in prompts. Brackets are 
 
 ### Q1. Tell me about yourself.
 
-**Model framework:** Present role identity -> two or three supported evidence themes -> desired move -> why this role. Keep it to 60-90 seconds. "I am a Microsoft enterprise support and escalation engineer with more than five years of experience in complex Microsoft 365 customer environments. My strengths combine layered troubleshooting, customer ownership, analytics, and enablement. [Insert two supported examples/results.] I am now moving toward SecOps Technical Success so I can apply that discipline proactively across data, risk, adoption, and executive outcomes."
+**Model framework:** Present role identity -> two or three supported evidence themes -> desired move -> why this role. Keep it to 60-90 seconds. "I am a enterprise support and escalation engineer with several years of experience in complex Microsoft 365 customer environments. My strengths combine layered troubleshooting, customer ownership, analytics, and enablement. [Insert two supported examples/results.] I am now moving toward SecOps Technical Success so I can apply that discipline proactively across data, risk, adoption, and executive outcomes."
 
 **Fill-in prompts:** `[current exact title]`, `[years as stated in current CV]`, `[two supported examples]`, `[one role detail learned from panel]`.
 
@@ -547,7 +547,7 @@ Every answer below includes a model framework and fill-in prompts. Brackets are 
 
 ### Q6. Tell me about a time you owned a critical customer issue.
 
-**Model framework:** Use S01 or another verified CRITSIT. Situation/impact -> your responsibility -> scope/workstreams/evidence/cadence -> collaboration and no unsupported ETA -> validation -> supported result -> PIR/learning -> SecOps transfer.
+**Model framework:** Use S01 or another verified critical situation. Situation/impact -> your responsibility -> scope/workstreams/evidence/cadence -> collaboration and no unsupported ETA -> validation -> supported result -> PIR/learning -> SecOps transfer.
 
 **Fill-in prompts:** `[safe workload/context]`, `[impact]`, `[your actions]`, `[supported result]`, `[learning]`.
 
@@ -601,7 +601,7 @@ Every answer below includes a model framework and fill-in prompts. Brackets are 
 
 ### Q15. How would you handle a critical escalation with no ETA?
 
-**Model framework:** Confirm impact/safety/workaround, establish roles/workstreams/evidence/cadence, communicate known/unknown/action/owner/next update, and avoid invented ETA. Separate stabilization from diagnosis, validate changed/control cohorts, then run PIR. Bridge to factual Microsoft escalation experience.
+**Model framework:** Confirm impact/safety/workaround, establish roles/workstreams/evidence/cadence, communicate known/unknown/action/owner/next update, and avoid invented ETA. Separate stabilization from diagnosis, validate changed/control cohorts, then run PIR. Bridge to factual enterprise escalation experience.
 
 **Fill-in prompts:** `[supported escalation example]`, `[cadence]`, `[result]`.
 
@@ -688,7 +688,7 @@ The sources support bounded public company/product and general framework context
 | Gap | State it, bridge it, validate it, ramp it |
 | Why Zscaler | Current direction, role work, strengths, growth edge |
 | Why TSM | Apply escalation discipline proactively across lifecycle |
-| Why Arti | Customer ownership, layered evidence, analytics, enablement |
+| Why you | Customer ownership, layered evidence, analytics, enablement |
 | Customer obsession | Listen, clarify job, own follow-through |
 | Impact | Accepted change, not activity volume |
 | Ownership | Problem, evidence, authority, checkpoint, closure |
@@ -710,7 +710,7 @@ The sources support bounded public company/product and general framework context
 - [ ] I selected at least eight rich verified stories that cover all major competencies.
 - [ ] I can state the difference among factual production experience, synthetic practice, learned architecture, and direct gaps.
 - [ ] I can deliver tell-me-about-yourself in 60 and 90 seconds.
-- [ ] I can answer why Zscaler, why SecOps TSM, and why Arti without flattery, competitor bashing, or unsupported claims.
+- [ ] I can answer why Zscaler, why SecOps TSM, and why you without flattery, competitor bashing, or unsupported claims.
 - [ ] I can state the direct Zscaler/SecOps experience gap in the first sentence and give a concrete ramp.
 - [ ] I mapped culture words to observable behaviors and supported stories.
 - [ ] I prepared four to six questions for each likely interviewer type.

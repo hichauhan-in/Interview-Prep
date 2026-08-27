@@ -2,7 +2,7 @@
 
 > **Section goal:** Master Microsoft Defender XDR architecture and the cross-domain attack story described in the approved master scope: the Microsoft Defender portal, component products and data sources, assets and entities, signals, events, evidence, alerts versus incidents, correlation, attack stories, MITRE ATT&CK, the unified incident queue, timeline and graph, roles, retention, service integrations, connectors and APIs, alert tuning, service health, telemetry flow, Sentinel integration, and XDR versus SIEM/SOAR. By the end, you should be able to assess, design, deploy, test, operate and troubleshoot a defensible cross-domain XDR capability and explain a phishing-to-endpoint-to-identity-to-SaaS incident without overstating hands-on experience.
 
-This Part maps directly to Deloitte's Microsoft Defender suite, Defender XDR, Microsoft 365 security assessment, architecture, deployment, incident investigation, platform troubleshooting, operational readiness and stakeholder-reporting expectations. Arti's production foundation in Microsoft 365 workload support, critical incidents, root-cause analysis (RCA), evidence timelines, fix validation, vendor/product-group coordination, documentation and executive updates is directly useful. The honest bridge is learning how a security operations center (SOC) applies those same disciplines to correlated threat evidence. This chapter never claims that Arti has owned or operated production Defender XDR.
+This Part maps directly to Deloitte's Microsoft Defender suite, Defender XDR, Microsoft 365 security assessment, architecture, deployment, incident investigation, platform troubleshooting, operational readiness and stakeholder-reporting expectations. Your production foundation in Microsoft 365 workload support, critical incidents, root-cause analysis (RCA), evidence timelines, fix validation, vendor/product-group coordination, documentation and executive updates is directly useful. The honest bridge is learning how a security operations center (SOC) applies those same disciplines to correlated threat evidence. This chapter never claims that you have owned or operated production Defender XDR.
 
 > **Currency, portal, licensing, preview and change-sensitive note:** This chapter was checked against official Microsoft Learn content available on **August 24, 2026**. Microsoft is moving security operations toward the unified Microsoft Defender portal at `https://security.microsoft.com`, including supported Microsoft Sentinel capabilities. Portal labels, navigation, onboarding eligibility, feature parity, role models, retention, data residency, APIs, schemas, product connectors, automated response, attack disruption, preview features and licensing can change by tenant, cloud, region and rollout ring. Treat every license statement as a planning hypothesis until verified against current Microsoft Product Terms, service descriptions, the tenant's licenses, Microsoft 365 Roadmap, Message center and the live portal. A capability being visible does not prove it is licensed, configured, supported or authorized for a particular analyst.
 
@@ -19,9 +19,9 @@ This Part maps directly to Deloitte's Microsoft Defender suite, Defender XDR, Mi
 
 ## Candidate honesty note
 
-Arti can speak directly about production Microsoft 365 support, SharePoint Online and OneDrive behavior, high-severity incidents, RCA, evidence gathering, fix validation, stakeholder cadence, documentation, escalation and cross-team coordination where supported by her experience. Those are valuable security-consulting skills because an XDR investigation also needs disciplined scoping, timelines, hypotheses, ownership boundaries and clear communication.
+You can speak directly about production Microsoft 365 support, SharePoint Online and OneDrive behavior, high-severity incidents, RCA, evidence gathering, fix validation, stakeholder cadence, documentation, escalation and cross-team coordination where supported by your experience. Those are valuable security-consulting skills because an XDR investigation also needs disciplined scoping, timelines, hypotheses, ownership boundaries and clear communication.
 
-She should not claim that she has administered a production Defender tenant, investigated real Defender XDR incidents, configured unified RBAC, tuned production detections, connected Sentinel, performed live response, isolated devices, disabled users or approved automated remediation unless separately evidenced. Safe wording is:
+You should not claim that you have administered a production Defender tenant, investigated real Defender XDR incidents, configured unified RBAC, tuned production detections, connected Sentinel, performed live response, isolated devices, disabled users or approved automated remediation unless separately evidenced. Safe wording is:
 
 > “My production strength is Microsoft 365 workload support, critical-incident coordination, RCA, evidence timelines, validation and stakeholder communication. I have built a current Defender XDR architecture and a safe fictional paper investigation to understand how endpoint, identity, email and SaaS evidence becomes a correlated incident. I have not operated Defender XDR in production. In a client tenant I would verify licensing and role authorization, preserve evidence, distinguish observed facts from hypotheses, validate correlation, use approval-controlled containment, document every action and escalate destructive or business-impacting decisions to the accountable incident commander.”
 
@@ -587,7 +587,7 @@ Never use real malware, real credentials, unauthorized phishing or production di
 | Retention reduction | Restore future setting | Expired/deleted data may not be recoverable |
 | Evidence export | Delete under approved handling process | Copies may exist in tickets/downloads/backups |
 
-Record pre-change configuration, owner, implementation time, test, rollback trigger, rollback steps, evidence and final disposition. Security changes need the same rigor Arti used for production incident fixes.
+Record pre-change configuration, owner, implementation time, test, rollback trigger, rollback steps, evidence and final disposition. Security changes need the same rigor you used for production incident fixes.
 
 ## 24. Operating model and RACI
 
@@ -774,7 +774,7 @@ Produce these paper artifacts:
 
 ## 32. JD Mapping: interview translation
 
-| Interview prompt | Honest bridge from Arti's background | Defender-specific learning evidence |
+| Interview prompt | Honest bridge from your background | Defender-specific learning evidence |
 |---|---|---|
 | “Tell me about cross-domain investigation.” | Critical-incident scope, timelines, dependencies and product-group coordination | Fictional XDR evidence register and attack story |
 | “How would you deploy XDR?” | Staged changes, validation, stakeholder ownership and rollback | HLD/LLD, rings, RBAC and test matrix |
@@ -848,7 +848,7 @@ Use these first-party anchors and re-check their date, tenant applicability and 
 - **Tune narrowly, test both ways, assign expiry and preserve rollback.**
 - **Role plus scope plus license plus source health equals effective capability.**
 - **Facts, hypotheses, decisions, actions and validation belong in separate fields.**
-- **Arti's bridge is incident discipline, not claimed Defender production ownership.**
+- **Your bridge is incident discipline, not claimed Defender production ownership.**
 
 ## Completion Checklist
 

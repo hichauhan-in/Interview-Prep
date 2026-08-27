@@ -2,17 +2,17 @@
 
 > **Purpose:** Build a beginner-first map of the people, process, evidence, and technologies used to monitor and respond to security activity, then place technical support and email security accurately within that map.
 >
-> **Evidence rule:** Every architecture, log, alert, identity, endpoint, message, case, and response action in this Part is synthetic. Arti's Microsoft enterprise support and escalation experience transfers to evidence-based troubleshooting and communication; it does not establish direct SOC, SIEM, SOAR, XDR, EDR, Abnormal AI, email-security, Splunk, CrowdStrike, or Cortex SOAR production operation.
+> **Evidence rule:** Every architecture, log, alert, identity, endpoint, message, case, and response action in this Part is synthetic. Your prior enterprise support and escalation experience transfers to evidence-based troubleshooting and communication; it does not establish direct SOC, SIEM, SOAR, XDR, EDR, Abnormal AI, email-security, Splunk, CrowdStrike, or Cortex SOAR production operation.
 >
 > **Currency and official-source access date:** August 24, 2026.
 
 ## Section Goal
 
-By the end of this Part, Arti should be able to describe a **Security Operations Center (SOC)** as a capability made from people, repeatable processes, decision authority, data, and technology. She should understand why common Tier 1, Tier 2, and Tier 3 labels are useful teaching shorthand but are not universal organization designs or measures of individual skill.
+By the end of this Part, you should be able to describe a **Security Operations Center (SOC)** as a capability made from people, repeatable processes, decision authority, data, and technology. You should understand why common Tier 1, Tier 2, and Tier 3 labels are useful teaching shorthand but are not universal organization designs or measures of individual skill.
 
-She should be able to distinguish a raw **event** from an **alert**, **detection**, **finding**, **incident**, and **case**; explain why the same object may receive different names across products; and ask about the object's source, schema, identifier, timestamp, confidence, status, owner, and decision rather than relying on its label.
+You should be able to distinguish a raw **event** from an **alert**, **detection**, **finding**, **incident**, and **case**; explain why the same object may receive different names across products; and ask about the object's source, schema, identifier, timestamp, confidence, status, owner, and decision rather than relying on its label.
 
-She should be able to explain a **Security Information and Event Management (SIEM)** system as a platform for collecting, normalizing, searching, correlating, detecting, and retaining security-relevant events; a **Security Orchestration, Automation, and Response (SOAR)** platform as a system for coordinating tools, people, playbooks, approvals, and response actions; **Endpoint Detection and Response (EDR)** as endpoint-focused telemetry, detection, investigation, and response; and **Extended Detection and Response (XDR)** as coordinated detection and investigation across more than one security domain. She should place cloud email security as a signal, control, investigation, and response participant rather than incorrectly calling it a SIEM, endpoint agent, or universal incident authority.
+You should be able to explain a **Security Information and Event Management (SIEM)** system as a platform for collecting, normalizing, searching, correlating, detecting, and retaining security-relevant events; a **Security Orchestration, Automation, and Response (SOAR)** platform as a system for coordinating tools, people, playbooks, approvals, and response actions; **Endpoint Detection and Response (EDR)** as endpoint-focused telemetry, detection, investigation, and response; and **Extended Detection and Response (XDR)** as coordinated detection and investigation across more than one security domain. You should place cloud email security as a signal, control, investigation, and response participant rather than incorrectly calling it a SIEM, endpoint agent, or universal incident authority.
 
 The practical outcome is a **Beacon Bridge SOC Toolchain Lab**. It produces a synthetic toolchain map, event dictionary, data-flow trace, correlation worksheet, integration health matrix, support-boundary RACI, harmless playbook, case timeline, failure-injection cards, privacy manifest, and validation rubric. The lab is local and paper based; it performs no real detection, containment, scanning, phishing, or endpoint action.
 
@@ -40,14 +40,14 @@ The mapping uses supplied job-description signals from the confirmed master. It 
 
 | Evidence label | Honest statement | Boundary to preserve |
 |---|---|---|
-| **Production-transfer example** | Arti has CV-supported Microsoft enterprise support, CRITSIT coordination, complex investigation, customer/partner updates, Engineering/Product escalation, fix validation, KB/training, mentoring, and support analytics | These methods do not become SOC analyst, incident responder, SIEM engineer, EDR operator, or email-security production experience |
-| **Working knowledge or upskilling** | Networking, diagnostic tools, REST/JSON, SQL, Power BI, Python, identity, and cloud concepts help Arti understand event paths and correlation | Do not imply production-scale security telemetry engineering or named-tool administration |
+| **Production-transfer example** | You have CV-supported enterprise support, critical-situation coordination, complex investigation, customer/partner updates, Engineering/Product escalation, fix validation, KB/training, mentoring, and support analytics | These methods do not become SOC analyst, incident responder, SIEM engineer, EDR operator, or email-security production experience |
+| **Working knowledge or upskilling** | Networking, diagnostic tools, REST/JSON, SQL, Power BI, Python, identity, and cloud concepts help you understand event paths and correlation | Do not imply production-scale security telemetry engineering or named-tool administration |
 | **Local/public lab** | Beacon Bridge demonstrates an event model, paper correlation, integration diagnosis, and safe playbook design using invented records | It is not a live SOC, production detection, malware investigation, endpoint isolation, phishing simulation, or tool certification |
 | **Learned architecture** | Official NIST, CISA, Microsoft, Splunk, CrowdStrike, and Palo Alto Networks source families inform category definitions | Public architecture knowledge is not direct operation of Splunk, CrowdStrike, or Cortex SOAR |
 | **No direct experience** | The master explicitly records no direct Abnormal AI, direct email-security operations, Splunk, CrowdStrike, or Cortex SOAR production experience | State the gap before describing the transferable method or lab |
 | **Template only** | Source maps, playbooks, case schemas, and escalation cards are reusable structures | A template is not evidence that a real alert or incident existed |
 
-An interview-safe sentence is: “I have not worked directly in a SOC or operated Splunk, CrowdStrike, Cortex SOAR, Abnormal AI, or email-security tooling in production. My closest production evidence is complex Microsoft enterprise support and escalation. I can show a synthetic event-to-case lab that demonstrates how I would reason across those categories without claiming tool experience.”
+An interview-safe sentence is: “I have not worked directly in a SOC or operated Splunk, CrowdStrike, Cortex SOAR, Abnormal AI, or email-security tooling in production. My closest production evidence is complex enterprise support and escalation. I can show a synthetic event-to-case lab that demonstrates how I would reason across those categories without claiming tool experience.”
 
 ## Beginner Term Primer
 
@@ -783,12 +783,12 @@ All sources below were accessed on **August 24, 2026**. Product categories, name
 | Official source title or family | URL | Use | Caution |
 |---|---|---|---|
 | Supplied Abnormal AI Technical Support Engineer JD represented in the master | No public URL supplied | Role and named ecosystem signals | No private workflow or product behavior inferred |
-| Arti Thakur tailored CV/master evidence summary | Local supplied source; no public URL | Microsoft support transfer and named-tool gaps | No direct SOC/email-security/tool operation claim |
+| Your CV and master evidence summary | Local supplied source; no public URL | enterprise support transfer and named-tool gaps | No direct SOC/email-security/tool operation claim |
 | NIST Cybersecurity Framework 2.0 | <https://www.nist.gov/cyberframework> | Govern, Identify, Protect, Detect, Respond, Recover context | Not a SOC organization chart or certification |
 | NIST SP 800-61 Revision 3 | <https://csrc.nist.gov/pubs/sp/800/61/r3/final> | Incident-response integration and continuous improvement | Incident terminology and authority remain organization-specific |
 | Microsoft Sentinel overview | <https://learn.microsoft.com/en-us/azure/sentinel/overview> | Official Microsoft SIEM/security operations platform context | Product capabilities and naming must be checked live |
 | Microsoft Defender XDR overview | <https://learn.microsoft.com/en-us/defender-xdr/microsoft-365-defender> | Official Microsoft XDR cross-domain context | Does not define all XDR products or Abnormal integration behavior |
-| Splunk documentation portal | <https://docs.splunk.com/> | Official Splunk source family for search, data, security, and platform concepts | Arti has no claimed direct Splunk production use |
+| Splunk documentation portal | <https://docs.splunk.com/> | Official Splunk source family for search, data, security, and platform concepts | You have no claimed direct Splunk production use |
 | CrowdStrike technical resources | <https://www.crowdstrike.com/en-us/resources/> | Official CrowdStrike source family for endpoint and XDR material | Public resources do not establish hands-on CrowdStrike experience |
 | Palo Alto Networks Cortex documentation portal | <https://cortex-docs.paloaltonetworks.com/> | Official Cortex source family for XSOAR orchestration/playbook concepts | Exact capabilities require current product-page verification; no direct use claimed |
 | Abnormal Behavioral Security Platform overview | <https://abnormal.ai/platform/overview> | High-level official public product/ecosystem context | No private schema, architecture, or support process inferred |
@@ -799,7 +799,7 @@ All sources below were accessed on **August 24, 2026**. Product categories, name
 - Microsoft, Splunk, CrowdStrike, Palo Alto Networks, and Abnormal sources provide official public context only.
 - Beacon Bridge and all products, IDs, data, schemas, alerts, detections, and outcomes are synthetic.
 - The toolchain diagrams and lab are teaching models, not representations of Abnormal or named vendors.
-- Arti's production evidence remains limited to supplied Microsoft support facts; named adjacent platforms remain no-direct-experience or learned architecture.
+- Your production evidence remains limited to supplied enterprise support facts; named adjacent platforms remain no-direct-experience or learned architecture.
 
 ## Interview Q&A
 
@@ -849,7 +849,7 @@ All sources below were accessed on **August 24, 2026**. Product categories, name
 
 **Question:** What direct experience do you have with Splunk, CrowdStrike, Cortex SOAR, or SOC work?
 
-**Model answer:** I do not claim direct production experience with those platforms or a SOC role. My production foundation is five years of Microsoft enterprise support and escalation, including complex investigations, CRITSIT communication, Engineering/Product collaboration, fix validation, knowledge work, and support analytics. Those methods transfer to evidence correlation and ownership. My current proof for these security categories is official-source study and a safe synthetic toolchain lab, which I label as learned architecture and lab experience.
+**Model answer:** I do not claim direct production experience with those platforms or a SOC role. My production foundation is several years of enterprise support and escalation, including complex investigations, critical-situation communication, Engineering/Product collaboration, fix validation, knowledge work, and support analytics. Those methods transfer to evidence correlation and ownership. My current proof for these security categories is official-source study and a safe synthetic toolchain lab, which I label as learned architecture and lab experience.
 
 ## 30-Second Memory Hooks
 
@@ -891,7 +891,7 @@ All sources below were accessed on **August 24, 2026**. Product categories, name
 - [ ] My lab score is at least 40/48, with mandatory 4s for category accuracy, SOAR safety, endpoint boundary, honesty, and privacy/cleanup.
 - [ ] I performed no scanning, phishing, suspicious-link access, malware activity, endpoint isolation, account action, or live API call.
 - [ ] I explicitly label Splunk, CrowdStrike, Cortex SOAR, Abnormal AI, direct email security, and SOC operation as no direct production experience.
-- [ ] I can connect Microsoft support only to ownership, evidence, escalation, communication, validation, knowledge, and analytics.
+- [ ] I can connect enterprise support only to ownership, evidence, escalation, communication, validation, knowledge, and analytics.
 - [ ] I can answer all eight interview questions aloud in under two minutes each.
 - [ ] I checked the official source anchors against the August 24, 2026 access date and separated official facts, teaching models, synthetic evidence, and candidate evidence.
 

@@ -2,25 +2,25 @@
 
 > **Purpose:** Build a beginner-first, evidence-safe method for aligning records from multiple systems. This Part explains UTC and local time, offsets and named time zones, daylight-saving transitions, clock skew and drift, timestamp precision, identifier scope, trace parentage, and cross-system ordering. It turns those concepts into a normalized timeline whose observations, inferences, unknowns, and causal limits remain visible.
 >
-> **Artifact honesty label:** **Local synthetic timeline lab and template only.** Every record, clock offset, host, identifier, event, result, and conclusion in the lab is invented. The lab does not use customer data, production telemetry, live services, third-party uploads, or Abnormal AI internals, and it must not be presented as having been performed unless Arti actually performs and saves it.
+> **Artifact honesty label:** **Local synthetic timeline lab and template only.** Every record, clock offset, host, identifier, event, result, and conclusion in the lab is invented. The lab does not use customer data, production telemetry, live services, third-party uploads, or Abnormal AI internals, and it must not be presented as having been performed unless you actually perform and saves it.
 >
 > **Currency and source access date:** August 24, 2026.
 
 ## Section goal
 
-By the end of this Part, Arti should be able to receive a small, authorized evidence set from several sources and construct a defensible timeline without forcing the records into a certainty they do not support. She should know that a **timestamp** is a recorded representation of time, not proof that the source clock was correct. She should preserve the raw timestamp, identify its format, offset, named zone when known, precision, source clock, event meaning, and collection path before calculating a normalized UTC value.
+By the end of this Part, you should be able to receive a small, authorized evidence set from several sources and construct a defensible timeline without forcing the records into a certainty they do not support. You should know that a **timestamp** is a recorded representation of time, not proof that the source clock was correct. You should preserve the raw timestamp, identify its format, offset, named zone when known, precision, source clock, event meaning, and collection path before calculating a normalized UTC value.
 
-She should distinguish **UTC**, or Coordinated Universal Time, from a local civil time such as “9:30 AM Pacific.” She should understand that an **offset** such as `-07:00` is one numeric relationship to UTC at one instant, while a **time-zone identifier** such as `America/Los_Angeles` represents a rule set whose offset can change with date and legislation. She should recognize ambiguous and nonexistent local times around daylight-saving changes, treat abbreviations such as `CST` as insufficient without context, and avoid silently converting an unknown local timestamp.
+You should distinguish **UTC**, or Coordinated Universal Time, from a local civil time such as “9:30 AM Pacific.” You should understand that an **offset** such as `-07:00` is one numeric relationship to UTC at one instant, while a **time-zone identifier** such as `America/Los_Angeles` represents a rule set whose offset can change with date and legislation. You should recognize ambiguous and nonexistent local times around daylight-saving changes, treat abbreviations such as `CST` as insufficient without context, and avoid silently converting an unknown local timestamp.
 
-She should distinguish clock **offset**, **skew**, and **drift**. In operational use, people often say clock skew for any disagreement between clocks; more precisely, offset is the measured difference at an instant, while drift is the change in that difference over time. She should know the limits of wall clocks and why elapsed-duration measurements should normally use a monotonic clock inside one process or host. She should account for source accuracy, synchronization status, network uncertainty, leap-second handling, virtualization, sleep/resume, and collection delay rather than subtracting one timestamp from another without qualification.
+You should distinguish clock **offset**, **skew**, and **drift**. In operational use, people often say clock skew for any disagreement between clocks; more precisely, offset is the measured difference at an instant, while drift is the change in that difference over time. You should know the limits of wall clocks and why elapsed-duration measurements should normally use a monotonic clock inside one process or host. You should account for source accuracy, synchronization status, network uncertainty, leap-second handling, virtualization, sleep/resume, and collection delay rather than subtracting one timestamp from another without qualification.
 
-She should treat timestamp digits carefully. **Precision** describes how finely a value is represented; **resolution** describes the smallest distinguishable tick a system can produce; **accuracy** describes closeness to the intended reference; and **uncertainty** describes a defensible range around the value. A timestamp containing nine fractional digits is not automatically accurate to a nanosecond. Two events displayed in the same millisecond are tied at that displayed precision unless a stronger ordering signal exists.
+You should treat timestamp digits carefully. **Precision** describes how finely a value is represented; **resolution** describes the smallest distinguishable tick a system can produce; **accuracy** describes closeness to the intended reference; and **uncertainty** describes a defensible range around the value. A timestamp containing nine fractional digits is not automatically accurate to a nanosecond. Two events displayed in the same millisecond are tied at that displayed precision unless a stronger ordering signal exists.
 
-She should classify identifiers before joining records. An **event ID** identifies a recorded or domain occurrence according to a producer contract. A **request ID** commonly identifies one request at one boundary. A **message ID** may identify a message object, transport message, or queue item depending on the system. A **trace ID** groups spans in a distributed trace; a **span ID** identifies one operation within that trace; and a parent span ID represents a declared parent-child relationship. None of those values is inherently global, trusted, secret, unique forever, or evidence of authorization.
+You should classify identifiers before joining records. An **event ID** identifies a recorded or domain occurrence according to a producer contract. A **request ID** commonly identifies one request at one boundary. A **message ID** may identify a message object, transport message, or queue item depending on the system. A **trace ID** groups spans in a distributed trace; a **span ID** identifies one operation within that trace; and a parent span ID represents a declared parent-child relationship. None of those values is inherently global, trusted, secret, unique forever, or evidence of authorization.
 
-She should reconstruct ordering from several kinds of evidence. Same-source sequence numbers, parent-child relationships, send/receive pairs, retry and attempt numbers, durable state transitions, and documented protocol semantics can be stronger than wall-clock order. She should distinguish a **total order**, where every pair of events is placed before or after the other, from a **partial order**, where only some relationships are known. When two independent events cannot be ordered, the correct result is “concurrent or indeterminate within uncertainty,” not an invented sequence.
+You should reconstruct ordering from several kinds of evidence. Same-source sequence numbers, parent-child relationships, send/receive pairs, retry and attempt numbers, durable state transitions, and documented protocol semantics can be stronger than wall-clock order. You should distinguish a **total order**, where every pair of events is placed before or after the other, from a **partial order**, where only some relationships are known. When two independent events cannot be ordered, the correct result is “concurrent or indeterminate within uncertainty,” not an invented sequence.
 
-Finally, she should produce the required artifact: a **multi-source normalized timeline** containing raw and normalized time, time basis, correction method, uncertainty, source, event semantics, all relevant identifiers, relationship evidence, observation/inference labels, confidence, and unresolved gaps. The artifact should help Engineering or another support owner reproduce the reasoning without exposing customer content or implying access to proprietary telemetry.
+Finally, you should produce the required artifact: a **multi-source normalized timeline** containing raw and normalized time, time basis, correction method, uncertainty, source, event semantics, all relevant identifiers, relationship evidence, observation/inference labels, confidence, and unresolved gaps. The artifact should help Engineering or another support owner reproduce the reasoning without exposing customer content or implying access to proprietary telemetry.
 
 ## JD Mapping
 
@@ -34,18 +34,18 @@ Finally, she should produce the required artifact: a **multi-source normalized t
 | Engineering collaboration | Provides source, version, raw time, correction, IDs, and exact gaps | Makes escalation evidence reproducible and reviewable | Timeline plus normalization manifest |
 | Customer communication | Converts several clocks into a clear but bounded narrative | Explains what is known, unknown, and being checked | Customer-safe summary |
 | Privacy and trust | Uses aliases and minimum necessary fields | Avoids broad collection and raw customer identifiers | Redaction manifest |
-| Microsoft enterprise support transfer | Reuses disciplined evidence correlation and escalation habits | Applies familiar client/cloud boundary reasoning to a new product domain | Honest transfer statement |
+| enterprise support transfer | Reuses disciplined evidence correlation and escalation habits | Applies familiar client/cloud boundary reasoning to a new product domain | Honest transfer statement |
 | No direct Abnormal telemetry experience | Separates learned method from proprietary implementation | Prevents invented schemas, clock guarantees, or trace architecture | Candidate boundary statement |
 
 ## Candidate honesty note
 
-Arti can honestly say that Microsoft enterprise support gave her transferable experience in correlating customer-reported time, client evidence, cloud-side observations, configuration changes, and escalation updates. She can describe how she protected customer data, clarified time zones, documented uncertainty, and made Engineering-ready handoffs when those are true examples she can personally defend. She can also say she has studied distributed timestamp and identifier concepts and can demonstrate the method using the synthetic artifact in this Part.
+You can honestly say that enterprise support gave your transferable experience in correlating customer-reported time, client evidence, cloud-side observations, configuration changes, and escalation updates. You can describe how you protected customer data, clarified time zones, documented uncertainty, and made Engineering-ready handoffs when those are true examples you can personally defend. You can also say you have studied distributed timestamp and identifier concepts and can demonstrate the method using the synthetic artifact in this Part.
 
-She must not claim that she has queried Abnormal AI's internal logs, knows its internal clock synchronization targets, understands its proprietary event or message identifier schema, has access to its distributed traces, or knows how its detection pipeline orders events. Even if generic names such as `trace_id`, `message_id`, or `request_id` appear in documentation or a UI, their exact issuer, scope, lifetime, uniqueness, propagation, sensitivity, and retention must be verified from current approved product sources.
+You must not claim that you have queried Abnormal AI's internal logs, knows its internal clock synchronization targets, understands its proprietary event or message identifier schema, has access to its distributed traces, or knows how its detection pipeline orders events. Even if generic names such as `trace_id`, `message_id`, or `request_id` appear in documentation or a UI, their exact issuer, scope, lifetime, uniqueness, propagation, sensitivity, and retention must be verified from current approved product sources.
 
-| Evidence tier | Honest wording Arti can adapt | Boundary to preserve |
+| Evidence tier | Honest wording you can adapt | Boundary to preserve |
 |---|---|---|
-| Production transfer | “In Microsoft enterprise support, I correlated customer and service evidence, normalized reported times, and documented uncertainty for escalations.” | Use only a real case and only details she is allowed to share |
+| Production transfer | “In enterprise support, I correlated customer and service evidence, normalized reported times, and documented uncertainty for escalations.” | Use only a real case and only details you are allowed to share |
 | Demonstrated local practice | “I built a synthetic multi-source timeline that preserves raw time, UTC normalization, clock uncertainty, and ID relationships.” | Say synthetic/local; do not imply production access |
 | Learned architecture | “Distributed systems commonly use request IDs, traces, parent-child spans, and clock synchronization, with implementation-specific guarantees.” | Generic architecture is not Abnormal architecture |
 | Interview reasoning | “I would first verify the timestamp and identifier contracts, then normalize and correlate minimum evidence.” | A proposed method is not a completed investigation |
@@ -105,7 +105,7 @@ When a log says `14:03:12`, the computer did not capture time as an unquestionab
 
 Think of an employee using a wall clock to time-stamp a warehouse form. The form tells you what that employee's clock showed when the stamp was applied. It does not prove the wall clock was correct or that the package action happened at exactly the stamping moment. The analogy stops because software may use several clocks, record fractional units, synchronize automatically, and generate millions of events concurrently.
 
-The disciplined first sentence is: “Source A recorded event X with raw timestamp Y under time basis Z.” Only after checking the source and conversion may Arti say: “This corresponds to normalized UTC interval U, subject to uncertainty range R.” That language is precise without being evasive.
+The disciplined first sentence is: “Source A recorded event X with raw timestamp Y under time basis Z.” Only after checking the source and conversion may you say: “This corresponds to normalized UTC interval U, subject to uncertainty range R.” That language is precise without being evasive.
 
 ## 2. UTC, offsets, named zones, and timestamp formats
 
@@ -736,7 +736,7 @@ When escalating, preserve only the minimum authorized evidence. Include exact so
 
 ## Lab - TimeGarden 093 Multi-Source Normalized Timeline
 
-This lab is a design and analysis exercise. It is safe to perform locally because it uses only invented text records and an optional spreadsheet or text editor. The instructions do **not** claim that the lab has been run. If Arti performs it, she should replace planned-result language with her actual local evidence and retain the honesty label.
+This lab is a design and analysis exercise. It is safe to perform locally because it uses only invented text records and an optional spreadsheet or text editor. The instructions do **not** claim that the lab has been run. If you perform it, you should replace planned-result language with your actual local evidence and retain the honesty label.
 
 ### Prerequisites
 
@@ -943,7 +943,7 @@ These anchors support generic standards and platform concepts. They do not estab
 
 ### Q8. How would you position your experience honestly for this role?
 
-**Model answer:** My transferable strength is Microsoft enterprise support: clarifying customer time zones, correlating client and service evidence, protecting data, communicating uncertainty, and creating Engineering-ready escalations. I have deepened the underlying clock, precision, identifier, trace, and partial-order concepts through this synthetic local timeline exercise. I have not used Abnormal's internal telemetry, and I would learn its approved schemas, clock guarantees, tools, retention, and escalation paths during onboarding.
+**Model answer:** My transferable strength is enterprise support: clarifying customer time zones, correlating client and service evidence, protecting data, communicating uncertainty, and creating Engineering-ready escalations. I have deepened the underlying clock, precision, identifier, trace, and partial-order concepts through this synthetic local timeline exercise. I have not used Abnormal's internal telemetry, and I would learn its approved schemas, clock guarantees, tools, retention, and escalation paths during onboarding.
 
 ## Memory Hooks
 
@@ -994,7 +994,7 @@ These anchors support generic standards and platform concepts. They do not estab
 - [ ] I can produce the required multi-source normalized timeline, ID dictionary, partial-order graph, and manifests if I run the lab.
 - [ ] I can complete the privacy and cleanup checks without broad collection, security changes, or external upload.
 - [ ] I can give a five-minute spoken explanation and answer Q1 through Q8 without reading.
-- [ ] I can distinguish real Microsoft production-transfer examples from synthetic proof and learned architecture.
+- [ ] I can distinguish real production-transfer examples from synthetic proof and learned architecture.
 - [ ] I can say clearly that I have no direct access to Abnormal internal telemetry or trace systems.
 - [ ] I reviewed the Official Source Anchors dated August 24, 2026 and would revalidate changing standards, products, and versions.
 

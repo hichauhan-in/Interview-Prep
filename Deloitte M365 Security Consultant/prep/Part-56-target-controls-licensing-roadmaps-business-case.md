@@ -2,7 +2,7 @@
 
 > **Section goal:** Build a beginner-first, consulting-grade method for converting validated findings and target architecture into owned controls, capability and license choices, a dependency-aware roadmap, a defensible cost model, measurable outcomes, and an executive decision paper. By the end, you should be able to trace finding to risk to control objective; organize control families and defense layers; assign business, technical, operational, data, privacy, vendor, and risk owners; map requirements to current Microsoft and third-party capabilities by persona; reason about E3, E5, add-ons, suites, trials, prerequisites, and service dependencies without making stale entitlement claims; identify gaps, compensating controls, and residual risk; prioritize by risk, value, effort, urgency, confidence, and dependency; distinguish quick wins, foundations, and strategic change; build waves, milestones, critical paths, resources, and quality gates; model license, implementation, operations, data-ingestion, and lifecycle cost; present benefits and avoided-loss limitations honestly; define KPIs, KRIs, baselines, targets, and review cadence; and produce a safe fictional roadmap and business case.
 
-This Part maps directly to the role's expectations for Microsoft 365 security transformation, control design, licensing guidance, target-state planning, third-party integration, executive advisory, cost/value communication, roadmap development, stakeholder ownership, and risk treatment. Arti's production strengths in technical advisory, escalations, RCA, service-quality reporting, business reviews, stakeholder and vendor coordination, fix validation, documentation, automation, and customer handover transfer well. Her discipline of connecting symptoms to causes and validating outcomes becomes the discipline of connecting investments to risks, requirements, dependencies, operating ownership, and measurable evidence.
+This Part maps directly to the role's expectations for Microsoft 365 security transformation, control design, licensing guidance, target-state planning, third-party integration, executive advisory, cost/value communication, roadmap development, stakeholder ownership, and risk treatment. Your production strengths in technical advisory, escalations, RCA, service-quality reporting, business reviews, stakeholder and vendor coordination, fix validation, documentation, automation, and customer handover transfer well. Your discipline of connecting symptoms to causes and validating outcomes becomes the discipline of connecting investments to risks, requirements, dependencies, operating ownership, and measurable evidence.
 
 > **Method boundary:** This chapter is general public consulting, security-engineering, portfolio-planning, and business-case guidance. It does not describe or imply Deloitte's internal, confidential, or proprietary methodologies, pricing models, value frameworks, templates, or approval processes. Real work must use approved firm/client methods, contracts, Product Terms, service descriptions, privacy/legal advice, procurement data, financial assumptions, risk methods, and quality review.
 
@@ -23,9 +23,9 @@ This Part maps directly to the role's expectations for Microsoft 365 security tr
 
 ## Candidate honesty note
 
-Arti can credibly discuss production Microsoft 365 technical advisory, escalation and RCA, coordinating product groups/vendors/stakeholders, validating fixes and service recovery, documenting recommendations, reviewing KPIs and customer outcomes, and supporting business reviews. She can translate those strengths into evidence-led prioritization, dependency management, measurable acceptance, and executive communication.
+You can credibly discuss production Microsoft 365 technical advisory, escalation and RCA, coordinating product groups/vendors/stakeholders, validating fixes and service recovery, documenting recommendations, reviewing KPIs and customer outcomes, and supporting business reviews. You can translate those strengths into evidence-led prioritization, dependency management, measurable acceptance, and executive communication.
 
-She should not claim to have negotiated Microsoft licensing, approved a client investment, built a Deloitte financial model, guaranteed savings, implemented the fictional roadmap, or owned production Entra/Intune/Purview/Defender/Sentinel transformation unless separately evidenced. Safe wording is:
+You should not claim to have negotiated Microsoft licensing, approved a client investment, built a Deloitte financial model, guaranteed savings, implemented the fictional roadmap, or owned production Entra/Intune/Purview/Defender/Sentinel transformation unless separately evidenced. Safe wording is:
 
 > “My production experience is Microsoft 365 technical advisory and escalation engineering, including RCA, cross-team and vendor coordination, fix validation, documentation, KPI reviews, and customer communication. I built a fictional control and roadmap pack that traces findings to risks, requirements, capabilities, persona-level licensing assumptions, dependencies, costs, benefits, KPIs/KRIs, residual risk, and executive decisions. I do not treat a SKU name or trial as verified entitlement, and I would validate current Product Terms, service descriptions, tenant/cloud/region, agreement and commercial quote with authorized licensing and procurement specialists before recommendation.”
 
@@ -1075,7 +1075,7 @@ Migration readiness inputs include current and target control objectives, functi
 
 ## 45. JD Mapping: interview translation
 
-| Interview theme | Arti's transferable strength | Honest roadmap/business-case translation |
+| Interview theme | Your transferable strength | Honest roadmap/business-case translation |
 |---|---|---|
 | Prioritization | Assessed impact/urgency and coordinated critical escalations | Risk/value/effort/urgency/dependency/confidence views |
 | Dependencies | Traced service, vendor and product-group boundaries | Critical path, prerequisites, owner/fallback |
@@ -1171,7 +1171,7 @@ These official and recognized public sources anchor product, licensing, cost, ri
 - **KPI performs; KRI warns; health proves the control path is alive.**
 - **Baseline needs numerator, denominator, population, period and source.**
 - **Consultant advises; authorized client owner accepts residual risk.**
-- **Arti's bridge:** RCA, validation and business reviews → traceable roadmap decisions.
+- **Your bridge:** RCA, validation and business reviews → traceable roadmap decisions.
 - **Honesty:** symbolic paper case, no licensing negotiation or implementation claim.
 
 ## Completion Checklist

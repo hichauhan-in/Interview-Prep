@@ -1,6 +1,6 @@
 # Part 35 - Snapshot Copies, Consistency, Restore, and Clone Concepts
 
-> **Section goal:** Understand what an ONTAP snapshot preserves, what crash consistency and application consistency do and do not guarantee, how policies and retained blocks affect space, and how to choose among file, LUN, volume, and clone-based recovery. By the end, Arti should be able to discover recovery points, expose dependencies, plan and validate a restore without treating a local snapshot as an independent backup.
+> **Section goal:** Understand what an ONTAP snapshot preserves, what crash consistency and application consistency do and do not guarantee, how policies and retained blocks affect space, and how to choose among file, LUN, volume, and clone-based recovery. By the end, you should be able to discover recovery points, expose dependencies, plan and validate a restore without treating a local snapshot as an independent backup.
 
 Covers index item **35** and maps directly to job-description responsibilities for storage depth, customer discovery, risk mitigation, supportability analysis, strategic recommendations, operational reviews, evidence quality, and high-pressure recovery communication.
 
@@ -8,7 +8,7 @@ Covers index item **35** and maps directly to job-description responsibilities f
 
 This Part deliberately gives no universal retention count, reserve percentage, timeout, hard limit, performance guarantee, application-consistency promise, or executable production procedure. Values shown are synthetic teaching inputs. A **current-doc check** reopens the exact current ONTAP, application, SnapCenter or integration, Interoperability Matrix Tool (IMT), Hardware Universe (HWU), and support documentation before customer use.
 
-> **No-production-NetApp boundary:** Arti does not claim production NetApp or ONTAP snapshot, restore, or FlexClone experience. Every cluster, volume, LUN, policy, recovery point, customer, timeline, and outcome below is synthetic. Her factual strengths are Microsoft enterprise support, SharePoint/OneDrive data recovery and version concepts, Azure, Windows, Active Directory, networking, analytics, CRITSIT ownership, and customer communication. The explicit non-claim is: **she has not configured production ONTAP snapshot policies or reserves, coordinated application snapshots with ONTAP, restored a production file/LUN/volume, rolled back a production volume, created or split a production FlexClone, or validated a NetApp customer recovery.**
+> **No-production-NetApp boundary:** You do not claim production NetApp or ONTAP snapshot, restore, or FlexClone experience. Every cluster, volume, LUN, policy, recovery point, customer, timeline, and outcome below is synthetic. Your factual strengths are enterprise support, SharePoint/OneDrive data recovery and version concepts, Azure, Windows, Active Directory, networking, analytics, critical-situation ownership, and customer communication. The explicit non-claim is: **you have not configured production ONTAP snapshot policies or reserves, coordinated application snapshots with ONTAP, restored a production file/LUN/volume, rolled back a production volume, created or split a production FlexClone, or validated a NetApp customer recovery.**
 
 ---
 
@@ -549,12 +549,12 @@ flowchart TD
 
 ### JD Mapping
 
-| JD responsibility | Part 35 contribution | Arti's factual bridge and gap |
+| JD responsibility | Part 35 contribution | Your factual bridge and gap |
 |---|---|---|
 | Understand customer environment | Maps app-to-volume recovery dependencies | M365 data-service reasoning transfers; ONTAP operation unproven |
 | Analyze and report risk | Builds recovery catalog, capacity and test evidence | Analytics/Power BI discipline transfers |
 | Strategic best practice | Aligns RPO/RTO, retention, consistency and independent copies | Advisory background transfers |
-| Stability/risk mitigation | Chooses narrow recovery and exposes rollback hazards | CRITSIT restoration focus transfers |
+| Stability/risk mitigation | Chooses narrow recovery and exposes rollback hazards | critical-situation restoration focus transfers |
 | Supportability | Requires exact current ONTAP/app/tool evidence | No IMT/customer/tool result claimed |
 | Customer communication | Separates snapshot existence from recoverability | Executive update strength transfers |
 | Escalation | Produces exact point, timeline, dependency, and validation pack | Product-group collaboration transfers |
@@ -563,7 +563,7 @@ flowchart TD
 
 ## 14. Fully synthetic scenario: Northwind Claims database recovery
 
-> **Synthetic case:** Northwind Claims, every system, point, policy, metric, timeline, and outcome below is fictional. It is not a NetApp customer, benchmark, internal workflow, tool result, or Arti's production work.
+> **Synthetic case:** Northwind Claims, every system, point, policy, metric, timeline, and outcome below is fictional. It is not a NetApp customer, benchmark, internal workflow, tool result, or your production work.
 
 ### Environment and incident
 
@@ -652,12 +652,12 @@ flowchart TD
 
 ---
 
-## 15. Arti's factual transfer and honest positioning
+## 15. Your factual transfer and honest positioning
 
 ```mermaid
 flowchart LR
     M365[SharePoint/OneDrive versions and recovery] --> SCOPE[Recovery-point and user-impact reasoning]
-    CRIT[CRITSIT ownership] --> INC[Preserve restore communicate validate]
+    CRIT[Critical-situation ownership] --> INC[Preserve restore communicate validate]
     AZ[Azure/Windows/networking] --> DEP[Host identity DNS key and app dependencies]
     BI[Excel Power BI SQL Python] --> CAT[Recovery catalog change/space/test trends]
     SCOPE --> METHOD[ONTAP conceptual method]
@@ -669,7 +669,7 @@ flowchart LR
 
 ### Honest interview answer
 
-> "I understand an ONTAP snapshot as a read-only point-in-time volume image that shares unchanged blocks, so change rate and retention drive space. I separate crash consistency from application coordination, choose the smallest safe file, LUN, clone, or volume recovery scope, map clone and replication dependencies, and validate through a business transaction. My production experience is Microsoft enterprise support and data-service recovery, not ONTAP snapshot or restore administration. I would use current documentation, authorized evidence, application runbooks, and NetApp specialists before any change."
+> "I understand an ONTAP snapshot as a read-only point-in-time volume image that shares unchanged blocks, so change rate and retention drive space. I separate crash consistency from application coordination, choose the smallest safe file, LUN, clone, or volume recovery scope, map clone and replication dependencies, and validate through a business transaction. My production experience is enterprise support and data-service recovery, not ONTAP snapshot or restore administration. I would use current documentation, authorized evidence, application runbooks, and NetApp specialists before any change."
 
 ---
 
@@ -745,7 +745,7 @@ flowchart LR
 13. Apply the troubleshooting tree to a missing or unusable point.
 14. Build discovery, evidence, risk, recommendation, owner, validation, and residual-risk fields.
 15. Recreate Northwind's competing hypotheses and narrow recovery decision.
-16. State Arti's factual transfer and explicit gap without inflation.
+16. State your factual transfer and explicit gap without inflation.
 
 ---
 
@@ -813,7 +813,7 @@ flowchart LR
 
 ### Q8. How does your background transfer, and what remains a gap?
 
-> **Model answer:** "Microsoft support, SharePoint/OneDrive recovery concepts, Azure/Windows dependencies, CRITSIT ownership and analytics give me scope, evidence, restoration, communication and catalog discipline. I understand ONTAP snapshot/restore/clone architecture conceptually but have not operated it in production. I would use current docs, authorized evidence, application runbooks and NetApp specialists before changes."
+> **Model answer:** "enterprise support, SharePoint/OneDrive recovery concepts, Azure/Windows dependencies, critical-situation ownership and analytics give me scope, evidence, restoration, communication and catalog discipline. I understand ONTAP snapshot/restore/clone architecture conceptually but have not operated it in production. I would use current docs, authorized evidence, application runbooks and NetApp specialists before changes."
 
 ---
 
@@ -834,7 +834,7 @@ flowchart LR
 - **Dependency:** Never delete a base/common point before mapping consumers.
 - **Validation:** Bytes -> host -> application -> business transaction.
 - **Snapshot is not backup:** Independence, catalog, retention, and tests are separate requirements.
-- **Arti's bridge:** Recovery discipline transfers; production ONTAP operation does not.
+- **Your bridge:** Recovery discipline transfers; production ONTAP operation does not.
 
 ---
 
@@ -855,7 +855,7 @@ flowchart LR
 - [ ] Build discovery, evidence, risk, recommendation, owner, proof, and residual-risk fields.
 - [ ] Recreate Northwind's synthetic analysis without calling it customer work.
 - [ ] Complete the paper lab and self-test.
-- [ ] Answer Q1-Q8 aloud and state Arti's exact production boundary.
+- [ ] Answer Q1-Q8 aloud and state your exact production boundary.
 - [ ] Recheck current docs, IMT/HWU, application guidance, and Support before customer use.
 
 ---

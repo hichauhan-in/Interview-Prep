@@ -617,7 +617,7 @@ A competency framework is simply a clean way to group what “good” looks like
 |---|---|---|
 | Technical | Yellow | You have exposure and foundations in Power BI, SQL, Python/R, plus certifications, but not yet deep stack proof in Fabric-style delivery. |
 | Analytical | Green | You already analyze trends, KPIs, leadership reviews, and operational patterns regularly. |
-| Domain | Green | This is your standout edge: real CE&S support context and customer-experience understanding. |
+| Domain | Green | If you already work in a customer-support organization, this is your standout edge: real support context and customer-experience understanding. |
 | Communication | Green | Executive communication, MBRs, cross-functional work, and mentoring are already strong evidence. |
 | Process & governance | Green/Yellow | Your governance instincts are strong; the main step is translating them into explicit data-governance and agile artifacts. |
 
@@ -1228,7 +1228,7 @@ These are here for fast revision before interviews.
 > *Model answer:* "My current CE&S support role gives me real domain depth in support operations, escalations, customer pain points, KPI and CSAT analysis, and executive review rhythms. I already understand what the metrics mean in operational reality. The transition I am making is to own more of the technical analytics stack directly — SQL, data modeling, Fabric-style platform concepts, and Power BI semantic modeling — so I can contribute end to end."
 
 **Q8. "You do not have the deepest Fabric or Databricks production background yet. How would you address that concern?"**
-> *Model answer:* "I would address it honestly. My strongest production depth today is in CE&S support operations, stakeholder communication, and KPI-driven improvement, not in every component of the modern Microsoft data stack. But I already have the adjacent foundations through Power BI, SQL, Python, and Azure certifications, and I am intentionally deepening the platform side. What gives me confidence is that the underlying concepts — governed metrics, dimensional thinking, customer-experience analysis, and business translation — are transferable, and I am actively building the tool-specific fluency on top of them."
+> *Model answer:* "I would address it honestly. My strongest production depth today is in support operations, stakeholder communication, and KPI-driven improvement, not in every component of the modern Microsoft data stack. But I already have the adjacent foundations through Power BI, SQL, Python, and Azure certifications, and I am intentionally deepening the platform side. What gives me confidence is that the underlying concepts — governed metrics, dimensional thinking, customer-experience analysis, and business translation — are transferable, and I am actively building the tool-specific fluency on top of them."
 
 **Q9. "What does this job description really seem to be looking for?"**
 > *Model answer:* "It is looking for someone who can bridge business needs and data delivery. That means understanding the support domain, translating ambiguous asks into clear requirements, building or shaping the analytics solution using the Microsoft stack, enforcing quality and consistent definitions, and communicating insight clearly to different stakeholders. It is a broad role because it spans both business and technical execution."
@@ -1249,10 +1249,10 @@ These are here for fast revision before interviews.
 > *Model answer:* "By being very honest about where I am already strong and where I am deliberately growing. I would rather sound coachable and accurate than pretend to know everything. My path — building domain depth first, then intentionally adding analytics and AI capability through certifications, hands-on work, and structured study — is itself a growth-mindset story."
 
 **Q15. "How would you describe your unique value versus an external candidate with more pure analytics experience?"**
-> *Model answer:* "An external candidate may come with stronger tool depth on day one, but I bring something harder to teach: real CE&S support context, lived understanding of customer pain, credibility in stakeholder communication, and operational governance instincts inside Microsoft. As I deepen the technical stack, that domain knowledge becomes a multiplier rather than just background."
+> *Model answer:* "An external candidate may come with stronger tool depth on day one, but I bring something harder to teach: real support-operations context, lived understanding of customer pain, credibility in stakeholder communication, and operational governance instincts inside Microsoft. As I deepen the technical stack, that domain knowledge becomes a multiplier rather than just background."
 
 **Q16. "What would your first 90 days look like?"**
-> *Model answer:* "In the first 30 days I would focus on understanding the current support surfaces, stakeholders, KPI definitions, and data flows so I ramp without making assumptions. In days 31 to 60 I would aim to contribute to a scoped analytical improvement with strong validation and clear communication. In days 61 to 90 I would want to own a defined workstream end to end, using my CE&S background to spot practical improvement opportunities while staying aligned with the team's governance standards."
+> *Model answer:* "In the first 30 days I would focus on understanding the current support surfaces, stakeholders, KPI definitions, and data flows so I ramp without making assumptions. In days 31 to 60 I would aim to contribute to a scoped analytical improvement with strong validation and clear communication. In days 61 to 90 I would want to own a defined workstream end to end, using my support-domain background to spot practical improvement opportunities while staying aligned with the team's governance standards."
 
 ---
 

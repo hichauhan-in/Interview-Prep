@@ -1,6 +1,6 @@
 # Part 84 - LAB 2 - NAS Data Service and Troubleshooting
 
-> **Section goal:** Design, implement only when explicitly authorized, or paper-model a complete NFS and SMB data service; trace each request through naming, network, identity, policy, namespace, and storage; inject safe synthetic faults; recover; and convert the evidence into prevention. By the end, Arti can troubleshoot NAS by locating the first failed interface rather than changing permissions blindly.
+> **Section goal:** Design, implement only when explicitly authorized, or paper-model a complete NFS and SMB data service; trace each request through naming, network, identity, policy, namespace, and storage; inject safe synthetic faults; recover; and convert the evidence into prevention. By the end, you can troubleshoot NAS by locating the first failed interface rather than changing permissions blindly.
 
 Covers index item **84** and maps to job-description responsibilities for customer-environment understanding, storage best practices, technical risk mitigation, high-pressure troubleshooting, recommendation writing, supportability validation, operational reviews, and cross-functional coordination.
 
@@ -12,7 +12,7 @@ Covers index item **84** and maps to job-description responsibilities for custom
 
 **Lab safety contract:** The access fallback is a complete synthetic paper lab. Use read-only first, obtain authorization before change, run a positive test and negative test, perform only bounded failure injection, document recovery and rollback, capture evidence, complete cleanup, control cost and privacy, and use honest interview language.
 
-**Explicit nonclaim:** Arti has not designed, configured, joined, exported, shared, secured, failed, restored, or troubleshot a production ONTAP NFS or SMB service. This lab cannot establish production NAS authority or a supported customer configuration.
+**Explicit nonclaim:** You have not designed, configured, joined, exported, shared, secured, failed, restored, or troubleshot a production ONTAP NFS or SMB service. This lab cannot establish production NAS authority or a supported customer configuration.
 
 **Privacy/access:** NAS evidence can reveal filenames, contents, domains, users, groups, security identifiers, numeric identities, service principal names, tickets, addresses, exports, shares, access-control lists, sessions, locks, packets, and business activity. Use minimum authorized fields, generated files, synthetic identities, approved capture locations, secure transfer, redaction, retention, and no authentication secrets or customer content.
 
@@ -22,7 +22,7 @@ Covers index item **84** and maps to job-description responsibilities for custom
 
 This is an isolated learning workflow, not a production configuration guide, security policy, Active Directory procedure, packet-capture authorization, or promise of nondisruption.
 
-> **No-production-NetApp boundary:** Arti's factual strengths are SharePoint/OneDrive permissions and data-service support, Active Directory, Windows networking, DNS/TCP/TLS troubleshooting, trace correlation, CRITSIT ownership, and customer communication. Her exact nonclaim is: **she has not operated or troubleshot production ONTAP NAS.** She may describe an authorized lab or this fully synthetic paper exercise while naming that gap.
+> **No-production-NetApp boundary:** Your factual strengths are SharePoint/OneDrive permissions and data-service support, Active Directory, Windows networking, DNS/TCP/TLS troubleshooting, trace correlation, critical-situation ownership, and customer communication. Your exact nonclaim is: **you have not operated or troubleshot production ONTAP NAS.** You may describe an authorized lab or this fully synthetic paper exercise while naming that gap.
 
 ---
 
@@ -537,13 +537,13 @@ flowchart LR
 
 No product cost, free tier, license, simulator, cloud region, or availability is promised. Verify current terms and delete chargeable resources through the owner; recheck billing later. Preserve only sanitized artifacts and an audit record of disposal.
 
-## 22. JD Mapping and Arti tie
+## 22. JD Mapping and background tie
 
 ```mermaid
 flowchart LR
     M365[SharePoint/OneDrive permissions] --> ID[Identity and policy reasoning]
     AD[Active Directory/DNS/networking] --> PATH[SMB name/auth/path isolation]
-    CRIT[CRITSIT/trace correlation] --> TROUBLE[Layered hypothesis workflow]
+    CRIT[Critical situation/trace correlation] --> TROUBLE[Layered hypothesis workflow]
     COMM[Customer communication] --> REC[Bounded recommendation/prevention]
     ID --> TAM[NAS TAM capability]
     PATH --> TAM
@@ -587,7 +587,7 @@ flowchart LR
 7. Explain why testing by IP or broadening permissions can mislead or harm.
 8. Build a request-trace evidence row with privacy controls.
 9. Turn each synthetic fault into one prevention action.
-10. Deliver the exact nonclaim and Arti transfer statement.
+10. Deliver the exact nonclaim and experience transfer statement.
 
 ---
 
@@ -623,7 +623,7 @@ flowchart LR
 
 ### Q8. What is your relevant experience and boundary?
 
-> **Model answer:** `My Microsoft production work provides permissions, AD, DNS/network, trace, incident and customer-communication experience. I have not operated production ONTAP NAS. This lab is fully synthetic unless completed later in an explicitly authorized environment, and I would use current NetApp/client/domain guidance and qualified owners.`
+> **Model answer:** `My prior production work provides permissions, AD, DNS/network, trace, incident and customer-communication experience. I have not operated production ONTAP NAS. This lab is fully synthetic unless completed later in an explicitly authorized environment, and I would use current NetApp/client/domain guidance and qualified owners.`
 
 ---
 

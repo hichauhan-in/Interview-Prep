@@ -1,14 +1,14 @@
 # Part 84 - UVM Workflows, Ticketing, SLAs, Exceptions, and Reconciliation
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 
 > **Purpose:** Explain vulnerability-remediation workflows from zero. Cover trigger-condition-action design, quality and policy gates, owner routing, remediation rationale, ticket lifecycle, state authority, SLA tiers and clocks, approvals, compensating controls, risk acceptance, exceptions, closure validation, reopen behavior, retries, idempotency, reconciliation, audit, security/privacy, integration troubleshooting, customer artifacts, and TSM service value.
 
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH source, exposure, rule, trigger, condition, action, owner, ticket, SLA, exception, approval, date, state, metric, result, and decision is invented. Arti's factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; escalations; mentoring; and responsible AI exploration. Production Zscaler, Data Fabric, UVM, Risk360, CAASM, CTEM, ITSM integration, and vulnerability-program operation remain learning boundaries.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH source, exposure, rule, trigger, condition, action, owner, ticket, SLA, exception, approval, date, state, metric, result, and decision is invented. Your factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; escalations; mentoring; and responsible AI exploration. Production Zscaler, Data Fabric, UVM, Risk360, CAASM, CTEM, ITSM integration, and vulnerability-program operation remain learning boundaries.
 
 > **Currency caveat:** Product wording, workflows, integrations, fields, states, APIs, retry behavior, reconciliation, entitlements, standards, threat evidence, and customer policies change. The controlled official-source snapshot and review date for this Part is exactly **2026-08-24**. Current official documentation, licensed-tenant evidence, target-system documentation, customer policy, product specialists, Zscaler Support, approved change/risk procedures, source-native evidence, and measured postconditions govern production.
 
-> **Section goal:** Enable Arti to explain and troubleshoot an end-to-end UVM-style remediation workflow without inventing proprietary behavior: how a contextual decision becomes a safely routed action, how tickets and SLAs remain trustworthy, how exceptions preserve residual risk, how validation controls closure, how retries avoid duplicates, and how a TSM helps customer teams operate the loop.
+> **Section goal:** Enable you to explain and troubleshoot an end-to-end UVM-style remediation workflow without inventing proprietary behavior: how a contextual decision becomes a safely routed action, how tickets and SLAs remain trustworthy, how exceptions preserve residual risk, how validation controls closure, how retries avoid duplicates, and how a TSM helps customer teams operate the loop.
 
 The reviewed official UVM page publicly describes custom remediation workflows that can include remediation details and rationale, automatically reconcile tickets, and provide dynamic insights into risk posture, KPIs, SLAs, and other metrics. The reviewed Data Fabric page supports bounded public positioning around custom workflows and AnySource/AnyTarget integration concepts. These are product facts at the source snapshot. They do not publish exact UVM trigger types, condition operators, action catalogs, ticket fields, lifecycle states, bidirectional behavior, retry algorithms, supported ITSM objects, SLA formulas, exception objects, approval mechanisms, limits, or entitlements.
 
@@ -56,7 +56,7 @@ flowchart LR
 
 | Evidence class | Neutral candidate phrasing | Boundary |
 |---|---|---|
-| Factual Microsoft support | Escalation work required event timelines, exact IDs, permissions, service dependencies, owner coordination, updates, and closure evidence | Not production UVM workflow operation |
+| Factual enterprise support | Escalation work required event timelines, exact IDs, permissions, service dependencies, owner coordination, updates, and closure evidence | Not production UVM workflow operation |
 | M365/OneDrive/SharePoint | Cases crossed client, tenant, identity, permission, sync, network, and service layers | Transferable workflow diagnosis, not Zscaler configuration |
 | Networking/traces | DNS/TCP/TLS/proxy/HTTP/time analysis supports integration-path diagnosis | Does not prove use of UVM connectors |
 | SQL/Power BI | Skills support event history, state reconciliation, SLA calculations, retry analysis, and dashboards | No claim of product database access |
@@ -596,7 +596,7 @@ flowchart TD
     SYNC -->|Yes| ESC[Document expected behavior or escalate product symptom]
 ```
 
-Arti's networking background supports transport isolation: resolve from the correct vantage, inspect TCP establishment and resets, verify TLS certificate/hostname/protocol, evaluate proxy behavior, correlate HTTP status and retry headers, and align UTC timestamps. The boundary remains clear: this is transferable troubleshooting method, not production UVM integration experience.
+Your networking background supports transport isolation: resolve from the correct vantage, inspect TCP establishment and resets, verify TLS certificate/hostname/protocol, evaluate proxy behavior, correlate HTTP status and retry headers, and align UTC timestamps. The boundary remains clear: this is transferable troubleshooting method, not production UVM integration experience.
 
 ### Minimal escalation packet
 
@@ -773,7 +773,7 @@ All exercises use synthetic records, public official pages, or isolated explicit
 | 20 | Deliver review | Technical and executive narratives | Facts, caveats, decisions, checkpoints |
 | 21 | Rehearse Q1-Q8 | Recorded answers | Neutral honesty and source boundaries |
 
-## Arti bridge: factual strengths applied to workflow operations
+## Experience bridge: factual strengths applied to workflow operations
 
 | Factual strength | Workflow application | Interview bridge | Boundary |
 |---|---|---|---|
@@ -848,7 +848,7 @@ Official Zscaler sources support only bounded public product positioning. Trigge
 
 **Model answer:** Pause harmful actions, preserve attempts and versions, select one stable episode/action and UTC window, then test decision/trigger, conditions, routing, authentication, authorization, DNS/TCP/TLS/proxy/HTTP, schema, delivery certainty, idempotency, target read-back, state mapping, validation, and reporting. Repair the controlling layer, replay only missing actions, reconcile source/target/exposure state, restate metrics, and escalate a redacted minimal case if product behavior remains unexplained.
 
-### Q8. How does Arti's background transfer without overstating experience?
+### Q8. How does your background transfer without overstating experience?
 
 **Model answer:** Microsoft 365, OneDrive, and SharePoint escalation work built discipline in exact IDs, permissions, cross-system state, timelines, customer impact, ownership, updates, and closure evidence. Networking traces support integration-path and timeout diagnosis. SQL and Power BI support event history, stable keys, SLA clocks, reconciliation, and dashboards. Escalations, mentoring, and reviewed AI assistance support adoption. NMH is synthetic, and production Zscaler/UVM/ITSM workflow operation remains a learning boundary.
 

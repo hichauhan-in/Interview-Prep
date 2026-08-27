@@ -1,10 +1,10 @@
 # Part 64 - Data Fabric Business Logic, Grouping, Scoring, and Customization
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 >
 > **Purpose:** Build a beginner-to-practical model of security business logic: rules, conditions, operators, groups, derived fields, factors, weights, normalization, thresholds, mitigating controls, custom risk and business logic, explainability, governance, versioning, testing, simulation, conflict/order handling, calibration, sensitivity analysis, rollback, audit, and troubleshooting. The goal is to translate customer policy into reproducible decisions without turning a configurable score into unexplained truth.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every rule, condition, field, factor, weight, formula, score, band, threshold, group, policy, control, test, simulation, approval, metric, incident, result, and outcome in this Part is synthetic. Zscaler public pages support bounded statements that Data Fabric can apply customer business logic through custom scoring, automated workflows, and grouping rules; that its customizable data model can add data used by applications; and that Unified Vulnerability Management provides out-of-the-box multifactor scoring and supports adjustments to factors, weights, and mitigating controls. Public pages do not disclose proprietary formulas, default values, normalization methods, evaluation order, thresholds, conflict resolution, storage, interfaces, or guarantees. All detailed mechanics and NMH examples below are general educational patterns, not undocumented Zscaler implementation claims. Arti's policy troubleshooting, conditional logic, analytics, change control, RCA, and customer communication skills transfer; direct production administration of Zscaler scoring remains a learning boundary.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every rule, condition, field, factor, weight, formula, score, band, threshold, group, policy, control, test, simulation, approval, metric, incident, result, and outcome in this Part is synthetic. Zscaler public pages support bounded statements that Data Fabric can apply customer business logic through custom scoring, automated workflows, and grouping rules; that its customizable data model can add data used by applications; and that Unified Vulnerability Management provides out-of-the-box multifactor scoring and supports adjustments to factors, weights, and mitigating controls. Public pages do not disclose proprietary formulas, default values, normalization methods, evaluation order, thresholds, conflict resolution, storage, interfaces, or guarantees. All detailed mechanics and NMH examples below are general educational patterns, not undocumented Zscaler implementation claims. Your policy troubleshooting, conditional logic, analytics, change control, RCA, and customer communication skills transfer; direct production administration of Zscaler scoring remains a learning boundary.
 >
 > **Currency caveat:** Product capabilities, interfaces, factors, terminology, defaults, and documentation change. The controlled research/source date for this Part is exactly **2026-08-24**. Current official documentation, licensed tenant behavior, source and semantic owners, risk governance, representative data, customer appetite/tolerance, product specialists, security/privacy review, and approved change controls govern production.
 
@@ -14,7 +14,7 @@ Business logic turns data into a classification, group, priority, recommendation
 
 Think of an airline upgrade policy. Conditions may consider ticket class, loyalty status, connection risk, seat availability, and accessibility needs. Rules need clear operators and precedence. A points total can rank passengers, but it must not hide hard eligibility constraints or human exceptions. Security logic works similarly: separate mandatory gates from weighted preferences, preserve reasons, test edge cases, and make the final decision accountable.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Evidence artifact |
 |---|---|---|
@@ -34,7 +34,7 @@ By the end, Arti should be able to:
 | Calibrate and analyze | Compare outcomes, errors, segments, and sensitivity | Calibration workbook |
 | Govern change | Approve, version, deploy, monitor, rollback, and audit | Change record/runbook |
 | Troubleshoot | Find first wrong input, mapping, rule, factor, order, threshold, or consumer | Evidence package |
-| Bridge honestly | Connect Arti's experience without claiming proprietary internals | Interview narrative |
+| Bridge honestly | Connect your experience without claiming proprietary internals | Interview narrative |
 
 ```mermaid
 flowchart LR
@@ -52,7 +52,7 @@ flowchart LR
 
 ## JD Mapping
 
-| Role expectation | Part 64 capability | TSM artifact | Arti bridge and boundary |
+| Role expectation | Part 64 capability | TSM artifact | experience bridge and boundary |
 |---|---|---|---|
 | Develop Data Fabric expertise | Explain documented customization value and safe general mechanics | Source-bounded logic whiteboard | No proprietary formula claim |
 | Analyze complex environments | Translate organization, controls, assets, identities, and business policy into governed factors | Logic workshop | Cross-service policy reasoning transfers |
@@ -67,7 +67,7 @@ flowchart LR
 
 | Evidence class | Safe interview statement | Boundary to state |
 |---|---|---|
-| Production transfer | "I troubleshot policy conditions, precedence, exceptions, data dependencies, and customer impact in Microsoft support." | Not production UVM scoring ownership |
+| Production transfer | "I troubleshot policy conditions, precedence, exceptions, data dependencies, and customer impact in enterprise support." | Not production UVM scoring ownership |
 | Synthetic practice | "I designed, tested, simulated, calibrated, and rolled back NMH risk logic." | Fictional lab evidence |
 | Official public fact | "Zscaler publicly describes custom scoring, factors, weights, mitigating controls, workflows, and grouping rules." | No undisclosed values or formulas |
 | General method | "I separate hard gates from weighted factors and preserve reason-level lineage." | General design practice |
@@ -966,7 +966,7 @@ Is selecting policy v6 enough after v7 created tickets?
 
 ### Exercise 12 - Product claim
 
-Can Arti state Zscaler's exact UVM weights or formula?
+Can you state Zscaler's exact UVM weights or formula?
 
 **Answer:** No. Public pages describe multifactor scoring and configurable factors/weights/controls, not undisclosed calculations or defaults. Verify current official documentation and tenant behavior.
 
@@ -1034,7 +1034,7 @@ Run the `monitor` to `enforce` mapping defect. Pause, rollback, reconcile, commu
 
 ### Lab 16 - Interview whiteboard
 
-Explain official Zscaler customization claims, then label the NMH factor, formula, points, thresholds, tests, and results as synthetic. End with risk ownership and Arti's experience boundary.
+Explain official Zscaler customization claims, then label the NMH factor, formula, points, thresholds, tests, and results as synthetic. End with risk ownership and your experience boundary.
 
 | Lab evidence | Completion standard |
 |---|---|
@@ -1134,7 +1134,7 @@ Zscaler sources support bounded public customization and prioritization statemen
 
 ### Q8. What can you honestly claim about Zscaler and your experience?
 
-**Model answer:** Zscaler publicly describes Data Fabric business logic through custom scoring, workflows, grouping rules, and UVM support for multifactor scoring, configurable factors/weights, and mitigating controls. I do not claim proprietary formulas, defaults, operators, order, or thresholds. My Microsoft experience with conditional policies, precedence, exceptions, data dependencies, RCA, change control, and customer communication transfers, and I practiced the detailed mechanics only in synthetic NMH labs.
+**Model answer:** Zscaler publicly describes Data Fabric business logic through custom scoring, workflows, grouping rules, and UVM support for multifactor scoring, configurable factors/weights, and mitigating controls. I do not claim proprietary formulas, defaults, operators, order, or thresholds. My prior experience with conditional policies, precedence, exceptions, data dependencies, RCA, change control, and customer communication transfers, and I practiced the detailed mechanics only in synthetic NMH labs.
 
 ## 30-Second Memory Hooks
 
@@ -1165,7 +1165,7 @@ Zscaler sources support bounded public customization and prioritization statemen
 | Sensitivity | Wiggle each assumption |
 | Rollback | Restore bundle and reconcile consequences |
 | Audit | Who changed what, why, when, and outcome |
-| Arti bridge | Policy/RCA discipline transfers; formula knowledge does not |
+| Experience bridge | Policy/RCA discipline transfers; formula knowledge does not |
 
 ## Completion Checklist
 
@@ -1220,6 +1220,6 @@ Zscaler sources support bounded public customization and prioritization statemen
 - [ ] I label all NMH formulas, factors, weights, points, thresholds, metrics, incidents, and outcomes synthetic.
 - [ ] I use the controlled research/source date exactly as 2026-08-24.
 - [ ] I make no unsupported Zscaler formula, default, factor, weight, transform, normalization, threshold, operator, ordering, storage, interface, guarantee, production, or customer-outcome claim.
-- [ ] I can answer Q1 through Q8 with definitions, analogies, architecture, mechanics, examples, tradeoffs, failures, troubleshooting, labs, NMH evidence, official-source caveats, and an honest Arti bridge.
+- [ ] I can answer Q1 through Q8 with definitions, analogies, architecture, mechanics, examples, tradeoffs, failures, troubleshooting, labs, NMH evidence, official-source caveats, and an honest experience bridge.
 
 [Part 65 - Data Fabric Automated Workflows and Outbound Actions](Part-65-data-fabric-automated-workflows.md)

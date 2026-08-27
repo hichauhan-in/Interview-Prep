@@ -8,14 +8,14 @@
 
 ## Section Goal
 
-By the end of this Part, Arti should be able to answer four different questions with four different evidence sets:
+By the end of this Part, you should be able to answer four different questions with four different evidence sets:
 
 1. **Which message object is this?** Use Message-ID plus provider/queue IDs, entity scope, hashes, envelope, and time.
 2. **Which earlier message does it claim to answer?** Use In-Reply-To and References to build a reply graph, then validate missing/duplicate/cycle conditions.
 3. **Which systems handled it and when?** Use trusted Received fields and system logs, normalize offsets, and account for queueing and clock skew.
 4. **Which authentication assertions can this consumer trust?** Use Authentication-Results only inside a known Administrative Management Domain (ADMD) trust boundary and with an expected `authserv-id`.
 
-The learner should stop saying “the header time” or “the email ID.” Instead, she should name the exact field, producer, representation, trust level, and proof ceiling.
+The learner should stop saying “the header time” or “the email ID.” Instead, you should name the exact field, producer, representation, trust level, and proof ceiling.
 
 The practical outcome is a **Header Timeline and Thread-Correlation Exercise** using invented messages, reserved domains, documentation IP addresses, and manually provided timestamps. No mail is sent, no DNS is queried, and no customer data is used.
 
@@ -34,9 +34,9 @@ The practical outcome is a **Header Timeline and Thread-Correlation Exercise** u
 
 ## Candidate Honesty Note
 
-Arti’s production support experience transfers strongly here. Distributed-system investigations routinely require correlation IDs, multiple clocks, queue delays, trust boundaries, and careful wording about what a log proves. Email headers are another evidence surface with the same engineering discipline.
+Your production support experience transfers strongly here. Distributed-system investigations routinely require correlation IDs, multiple clocks, queue delays, trust boundaries, and careful wording about what a log proves. Email headers are another evidence surface with the same engineering discipline.
 
-This Part is standards-based learning and a local/public lab. It does not establish production administration of Exchange Online mail flow, Google Workspace, Abnormal, or IMAP threading servers. Arti can honestly say she understands the neutral identification/trace model and knows how to build a defensible timeline, while learning vendor-specific IDs, retention, clock sources, and UI algorithms during ramp.
+This Part is standards-based learning and a local/public lab. It does not establish production administration of Exchange Online mail flow, Google Workspace, Abnormal, or IMAP threading servers. You can honestly say you understand the neutral identification/trace model and knows how to build a defensible timeline, while learning vendor-specific IDs, retention, clock sources, and UI algorithms during ramp.
 
 | Evidence label | Honest use | Claim boundary |
 |---|---|---|

@@ -1,6 +1,6 @@
 # Part 001 - Role Compass and Honest Candidate Story
 
-> **Purpose:** Build a truthful, repeatable explanation of why Arti fits an Abnormal AI Level 1 (L1) Technical Support Engineer role, where the gaps are, and how those gaps will be closed.
+> **Purpose:** Build a truthful, repeatable explanation of why you fit an Abnormal AI Level 1 (L1) Technical Support Engineer role, where the gaps are, and how those gaps will be closed.
 >
 > **Evidence rule:** Every experience claim in this Part is labeled as production experience, lab experience, learned architecture, or no direct experience.
 >
@@ -8,7 +8,7 @@
 
 ## Section Goal
 
-By the end of this Part, Arti should be able to explain the role in plain English, describe how L1 support creates customer and product impact, introduce herself at three different lengths, answer the major motivation questions, and handle questions about unfamiliar products without exaggeration. She should also leave with a role-fit matrix, a claim-safety ledger, an evidence inventory, a gap-and-ramp plan, and a scored spoken-practice routine.
+By the end of this Part, you should be able to explain the role in plain English, describe how L1 support creates customer and product impact, introduce yourself at three different lengths, answer the major motivation questions, and handle questions about unfamiliar products without exaggeration. You should also leave with a role-fit matrix, a claim-safety ledger, an evidence inventory, a gap-and-ramp plan, and a scored spoken-practice routine.
 
 This is a foundation Part. It does not attempt to teach email security, the Abnormal platform, or every support tool in depth. It establishes the compass used in later Parts: customer impact, evidence, ownership, clear boundaries, and intellectual honesty.
 
@@ -26,18 +26,18 @@ This is a foundation Part. It does not attempt to teach email security, the Abno
 | **Customer Success Manager or CSM** | A partner focused on customer adoption, goals, value, and relationship health | Support and CSMs collaborate but do not own the same work |
 | **Security Operations Center or SOC** | The people and processes that monitor and respond to security events | Customer SOC analysts may be important support stakeholders |
 | **Knowledge base or KB** | A maintained collection of reusable support guidance | Good case learning can become faster, more consistent future help |
-| **CRITSIT or critical situation** | A Microsoft support term used here for a high-impact situation requiring structured coordination | It is a real transfer example, not a claim of prior security-incident command |
+| **Critical situation** | A common enterprise-support term for a high-impact situation requiring structured coordination | It is a real transfer example, not a claim of prior security-incident command |
 | **Customer satisfaction or CSAT** | Feedback indicating how customers perceived a support experience | It is one outcome signal, but it must be interpreted with quality and context |
 
 ## JD Mapping
 
 This Part supports the following signals from the supplied job description and master curriculum. These are **supplied JD facts**, not assumptions about undocumented internal workflows.
 
-| Supplied JD signal | What this Part develops | Proof Arti can show |
+| Supplied JD signal | What this Part develops | Proof you can show |
 |---|---|---|
 | Enterprise L1 Technical Support Engineer | Role model, ownership flow, escalation boundaries, and first-90-day expectations | Role-fit matrix and ownership explanation |
-| Four or more years of customer-facing enterprise support | A CV-grounded account of five years in Microsoft enterprise support and escalation | 30-, 90-, and 180-second introductions |
-| Complex investigations | Transfer from CRITSIT work, hypothesis-based diagnosis, escalation, and fix validation | Competency/evidence matrix and practice examples |
+| Four or more years of customer-facing enterprise support | A CV-grounded account of several years in enterprise support and escalation | 30-, 90-, and 180-second introductions |
+| Complex investigations | Transfer from critical-situation work, hypothesis-based diagnosis, escalation, and fix validation | Competency/evidence matrix and practice examples |
 | Customer trust and timely communication | Impact-focused updates, expectation management, and truthful uncertainty | Trust language and follow-up handling |
 | Configuration, API, behavioral false-positive, and threat cases | Beginner-level case categories and honest gap boundaries | Gap/ramp plan; no claim of prior Abnormal case ownership |
 | Engineering and Product collaboration | Defect escalation, evidence packages, fix validation, and recurring-pattern feedback | Ticket-to-improvement explanation |
@@ -173,14 +173,14 @@ Job titles vary by company, so the table below is a decision model, not an Abnor
 
 A **surface** is an area where a customer interacts with a product or where a failure can become visible. The supplied JD and master curriculum name Cloud Email Security, AI Security Agents, and SaaS Security. Official public Abnormal material also describes a broader behavioral security platform. This Part uses only high-level public positioning; later Parts will verify current details.
 
-| Surface | Beginner-first meaning | Possible support question category | Claim boundary for Arti |
+| Surface | Beginner-first meaning | Possible support question category | Claim boundary for you |
 |---|---|---|---|
 | Cloud Email Security | Cloud-delivered protection and investigation around email threats and related behavior | Configuration, message outcome, suspected miss, false positive, remediation, integration | Learned architecture and future lab only; no direct email-security operations claim |
 | AI Security Agents | AI-enabled security workflows or agents that assist or perform bounded security tasks | Permissions, expected action, evidence, safeguards, failure, human approval | Learned architecture only; Copilot/agent experience is transferable but not equivalent |
 | SaaS Security | Security visibility and controls around cloud software, identities, permissions, activity, and integrations | Tenant setup, identity, API, webhook, audit event, authorization, unexpected behavior | Microsoft cloud experience transfers; named non-Microsoft ecosystems remain learning targets |
 | Customer administration | Settings, roles, permissions, policies, integrations, and user context | Access, configuration drift, onboarding, expected versus actual behavior | Production transfer from Microsoft cloud support, not Abnormal administration |
 | API and integration | Software-to-software requests and event exchange | Authentication, JSON payload, status code, rate limit, schema, webhook, correlation | Working knowledge only unless tied to a specific CV example; do not claim production scale |
-| Security investigation | A structured attempt to determine what happened and what action is justified | Threat report, false positive, false negative, scope, timeline, recommendation | CRITSIT method transfers; security verdict operations are a gap |
+| Security investigation | A structured attempt to determine what happened and what action is justified | Threat report, false positive, false negative, scope, timeline, recommendation | critical-situation method transfers; security verdict operations are a gap |
 
 An **API**, or Application Programming Interface, is a defined way for software systems to exchange requests and responses. **JSON**, or JavaScript Object Notation, is a common structured text format used in those exchanges. A webhook is an event notification sent from one system to another. These definitions matter because interviewers often test whether a candidate can explain a technical term before troubleshooting it.
 
@@ -251,7 +251,7 @@ The loop requires disciplined case data. One complaint may reveal a real defect,
 - **Proposed change:** What decision, experiment, fix, or content update is requested?
 - **Measure:** How will the team know the intervention helped?
 
-Arti's KB/training work, case-quality work, mentoring, and CSAT/backlog analysis are relevant transfers here. The safe claim is that these experiences built habits useful for knowledge and process improvement, not that she has already operated Abnormal's feedback systems.
+Your KB/training work, case-quality work, mentoring, and CSAT/backlog analysis are relevant transfers here. The safe claim is that these experiences built habits useful for knowledge and process improvement, not that you have already operated Abnormal's feedback systems.
 
 ## What Good First-90-Day Performance Looks Like
 
@@ -276,7 +276,7 @@ This is a **reasoned ramp model**, not a published Abnormal plan. The manager's 
 
 ## Likely Interview Stages and Evaluation Criteria
 
-The supplied material does not guarantee the interview sequence. The following funnel is a preparation model based on common enterprise technical-support hiring. Arti should confirm the actual process with the recruiter.
+The supplied material does not guarantee the interview sequence. The following funnel is a preparation model based on common enterprise technical-support hiring. You should confirm the actual process with the recruiter.
 
 ```mermaid
 flowchart TD
@@ -290,10 +290,10 @@ flowchart TD
 
 ### Interview-stage map
 
-| Possible stage | What may be evaluated | Arti's preparation focus | Evidence to use |
+| Possible stage | What may be evaluated | Your preparation focus | Evidence to use |
 |---|---|---|---|
-| Recruiter conversation | Motivation, communication, basic fit, location/logistics, honest career story | 30- and 90-second introductions; why move, why Abnormal, why now | Five years of Microsoft enterprise support; targeted learning plan |
-| Hiring manager | Ownership, judgment, customer trust, learning speed, role expectations | CRITSIT ownership, ambiguity, escalation, fix validation, coaching response | Real support examples from the CV boundary |
+| Recruiter conversation | Motivation, communication, basic fit, location/logistics, honest career story | 30- and 90-second introductions; why move, why Abnormal, why now | Several years of enterprise support; targeted learning plan |
+| Hiring manager | Ownership, judgment, customer trust, learning speed, role expectations | critical-situation ownership, ambiguity, escalation, fix validation, coaching response | Real support examples from the CV boundary |
 | Technical fundamentals | Reasoning across SaaS, APIs, networking, identity, email/security basics | Define terms, state assumptions, form hypotheses, choose evidence, admit gaps | Microsoft cloud transfer plus labs and learned architecture |
 | Troubleshooting scenario | Structured intake, prioritization, safety, communication, escalation | Expected/actual, scope, impact, timeline, change, evidence, next test | Evidence-first method and diagnostic-tool familiarity |
 | Behavioral or cross-functional | Collaboration, conflict, mentoring, customer empathy, intellectual honesty | STAR stories with clear personal actions and outcomes | Engineering/Product escalation, KB/training, mentoring, analytics |
@@ -314,19 +314,19 @@ flowchart TD
 
 ## Candidate Honesty Note
 
-Arti has **production experience** supported by the master/CV in Microsoft customer-facing enterprise support and escalation, including SharePoint Online, OneDrive, Sync Client, Copilot, CRITSITs, customer and partner communication, Engineering/Product escalation, fix validation, KB/training, mentoring, and CSAT/backlog/case-quality analysis.
+You have **production experience** supported by the master/CV in enterprise customer-facing support and escalation, including SharePoint Online, OneDrive, Sync Client, Copilot, critical situations, customer and partner communication, Engineering/Product escalation, fix validation, KB/training, mentoring, and CSAT/backlog/case-quality analysis.
 
-Arti has **working knowledge or upskilling**, not blanket production ownership, in networking concepts and diagnostic tools; REST APIs, Postman, cURL, JSON, SQL/PostgreSQL, Power BI, and Python; Azure and AD/Entra fundamentals; SSO, SAML, OAuth; Power Automate/Apps; GPT/LLM fundamentals; GitHub, Confluence, Linux, and Kubernetes.
+You have **working knowledge or upskilling**, not blanket production ownership, in networking concepts and diagnostic tools; REST APIs, Postman, cURL, JSON, SQL/PostgreSQL, Power BI, and Python; Azure and AD/Entra fundamentals; SSO, SAML, OAuth; Power Automate/Apps; GPT/LLM fundamentals; GitHub, Confluence, Linux, and Kubernetes.
 
-Arti must **never claim direct production experience** with Abnormal AI, email-security operations, Google Workspace, Slack, Okta, Splunk, CrowdStrike, Cortex SOAR, Zendesk, Salesforce, Jira, or Zoom. Labs completed during preparation are lab experience. Official-document study is learned architecture. Neither becomes production experience through confident wording.
+You must **never claim direct production experience** with Abnormal AI, email-security operations, Google Workspace, Slack, Okta, Splunk, CrowdStrike, Cortex SOAR, Zendesk, Salesforce, Jira, or Zoom. Labs completed during preparation are lab experience. Official-document study is learned architecture. Neither becomes production experience through confident wording.
 
 ## Plain-English deep-dive: The Four Evidence Tiers
 
 An evidence tier answers, "What kind of proof supports this claim?" It prevents a candidate from blending a real transferable skill with an unfamiliar product until the difference disappears.
 
-| Tier | Definition | Safe opening | Arti-specific example |
+| Tier | Definition | Safe opening | candidate-specific example |
 |---|---|---|---|
-| **Production experience** | Work explicitly supported by the master/CV in a live customer-facing role | "In my Microsoft enterprise support role, I..." | Owned complex Microsoft cloud cases, communicated with customers and partners, escalated defects, and validated fixes |
+| **Production experience** | Work explicitly supported by your CV in a live customer-facing role | "In my prior enterprise support role, I..." | Owned complex Microsoft cloud cases, communicated with customers and partners, escalated defects, and validated fixes |
 | **Lab experience** | A repeatable safe simulation completed during preparation with an inspectable artifact | "I have not used that in production. In a local lab, I..." | A future sanitized REST request, packet capture, synthetic log timeline, or email-header exercise |
 | **Learned architecture** | Understanding gained from official documentation and structured study without operational ownership | "My current understanding from official documentation is..." | High-level Abnormal product concepts or a Google Workspace integration flow |
 | **No direct experience** | A gap not yet supported by production, lab, or sufficiently verified study | "I have not used that directly yet. The closest transferable experience is..., and my ramp plan is..." | Named platforms such as Splunk or Cortex SOAR before the relevant study/lab is complete |
@@ -350,13 +350,13 @@ flowchart TD
     Gap --> Ramp[Give closest transfer and ramp plan]
 ```
 
-## Arti-Specific Transferable-Strength Matrix
+## Candidate-specific Transferable-Strength Matrix
 
 | Existing evidence | Evidence tier | What transfers to this role | Safe bridge sentence | Limit that must remain visible |
 |---|---|---|---|---|
-| Five years in Microsoft customer-facing enterprise support and escalation | Production experience | Enterprise expectations, ambiguity, ownership, prioritization, customer communication | "I already understand the discipline of owning complex enterprise cases; I am applying that discipline to a new security product domain." | Microsoft support is not Abnormal or email-security operations |
-| SharePoint Online, OneDrive, Sync Client, and Copilot support | Production experience | SaaS tenancy, client/cloud boundaries, permissions/configuration reasoning, service evidence | "My Microsoft cloud background gives me a useful foundation for tenant, identity, configuration, and integration questions." | Do not imply Exchange Online security operations or Abnormal administration |
-| CRITSIT and complex investigation work | Production experience | Impact scoping, structured cadence, evidence, multi-team coordination, pressure management | "CRITSIT work taught me to keep impact, facts, owners, and next checkpoints clear while the diagnosis evolves." | A critical support incident is not automatically a security incident |
+| Several years in enterprise customer-facing support and escalation | Production experience | Enterprise expectations, ambiguity, ownership, prioritization, customer communication | "I already understand the discipline of owning complex enterprise cases; I am applying that discipline to a new security product domain." | enterprise support is not Abnormal or email-security operations |
+| SharePoint Online, OneDrive, Sync Client, and Copilot support | Production experience | SaaS tenancy, client/cloud boundaries, permissions/configuration reasoning, service evidence | "My prior cloud background gives me a useful foundation for tenant, identity, configuration, and integration questions." | Do not imply Exchange Online security operations or Abnormal administration |
+| Critical situation and complex investigation work | Production experience | Impact scoping, structured cadence, evidence, multi-team coordination, pressure management | "critical-situation work taught me to keep impact, facts, owners, and next checkpoints clear while the diagnosis evolves." | A critical support incident is not automatically a security incident |
 | Engineering/Product escalation and fix validation | Production experience | High-quality handoffs, expected/actual behavior, reproduction, explicit asks, regression thinking | "I know escalation is successful only when the receiving team can act and the customer outcome is later validated." | Do not claim Abnormal's internal escalation workflow |
 | Customer and partner communication | Production experience | Technical/nontechnical translation, expectation management, de-escalation, trust | "I adapt depth to the audience without hiding uncertainty or losing the next action." | Use real examples; do not invent security events |
 | KB/training creation, mentoring, and case-quality work | Production experience | KCS-style knowledge reuse, onboarding, coaching, quality, deflection thinking | "I enjoy turning one investigation into reusable guidance and helping others apply it." | Do not claim vendor-specific KCS tooling or metrics |
@@ -371,7 +371,7 @@ flowchart TD
 ```mermaid
 flowchart LR
     M365[Microsoft cloud support] --> SaaS[SaaS support reasoning]
-    Critsit[CRITSIT ownership] --> Cases[Critical case discipline]
+    Crit[Critical-situation ownership] --> Cases[Critical case discipline]
     Escalation[Defect escalation and validation] --> Eng[Engineering partnership]
     Network[Networking upskilling] --> Path[Endpoint to cloud isolation]
     API[REST and JSON foundation] --> Integration[Integration triage]
@@ -394,8 +394,8 @@ The purpose of this matrix is not to memorize one answer. It is to route each li
 
 | Competency | Strongest available evidence | Evidence tier | Interview proof structure | Missing proof to build |
 |---|---|---|---|---|
-| Enterprise case ownership | Five years of Microsoft customer-facing support and escalation | Production | Situation, impact, personal ownership, diagnosis, cadence, outcome | Select one precise case story and remove confidential details |
-| Critical incident discipline | CRITSIT work | Production | Trigger, impact, roles, facts versus unknowns, checkpoints, resolution validation | Practice a two-minute STAR answer |
+| Enterprise case ownership | Several years of enterprise customer-facing support and escalation | Production | Situation, impact, personal ownership, diagnosis, cadence, outcome | Select one precise case story and remove confidential details |
+| Critical incident discipline | critical-situation work | Production | Trigger, impact, roles, facts versus unknowns, checkpoints, resolution validation | Practice a two-minute STAR answer |
 | Customer trust | Technical and nontechnical customer/partner communication | Production | Concern heard, expectation set, update rhythm, difficult message, confirmed outcome | Add a real de-escalation example |
 | Complex troubleshooting | Microsoft cloud investigation plus diagnostic familiarity | Production plus working familiarity | Expected/actual, scope, hypotheses, discriminating evidence, escalation | Build current security/API labs |
 | Engineering collaboration | Defect escalation and fix validation | Production | Minimal repro, evidence, explicit ask, collaboration, validation | Prepare a sanitized escalation example |
@@ -493,7 +493,7 @@ Why it fails: "familiar" hides the evidence tier and can be heard as operational
 
 **Strong truthful answer:**
 
-> I have not used Splunk directly in production. My closest transferable experience is evidence-driven Microsoft enterprise support, along with working knowledge of logs, SQL-style filtering, and support analytics. I am treating Splunk as a learned and lab target: I would start by understanding the event fields, time range, source, correlation identifiers, and the exact search needed to test a case hypothesis. I would not represent that as Splunk operating experience until I had completed the relevant lab and could show the artifact.
+> I have not used Splunk directly in production. My closest transferable experience is evidence-driven enterprise support, along with working knowledge of logs, SQL-style filtering, and support analytics. I am treating Splunk as a learned and lab target: I would start by understanding the event fields, time range, source, correlation identifiers, and the exact search needed to test a case hypothesis. I would not represent that as Splunk operating experience until I had completed the relevant lab and could show the artifact.
 
 Why it works: it gives a direct "no," preserves relevant value, demonstrates method, and avoids tool equivalence.
 
@@ -509,7 +509,7 @@ Why it fails: it minimizes a real domain gap and treats broad Microsoft cloud wo
 
 **Strong truthful answer:**
 
-> Direct email-security operations are a gap, and I would not describe my SharePoint, OneDrive, Sync Client, or Copilot support as equivalent. What I do bring is five years of enterprise case ownership: complex investigation, CRITSIT discipline, customer communication, Engineering and Product escalation, fix validation, and knowledge creation. Those methods are immediately useful in L1 support. I am closing the domain gap through a structured email-security curriculum and safe synthetic evidence labs, with checkpoints that require me to explain the protocol, investigate a case, preserve evidence, and state when to escalate.
+> Direct email-security operations are a gap, and I would not describe my SharePoint, OneDrive, Sync Client, or Copilot support as equivalent. What I do bring is several years of enterprise case ownership: complex investigation, critical-situation discipline, customer communication, Engineering and Product escalation, fix validation, and knowledge creation. Those methods are immediately useful in L1 support. I am closing the domain gap through a structured email-security curriculum and safe synthetic evidence labs, with checkpoints that require me to explain the protocol, investigate a case, preserve evidence, and state when to escalate.
 
 ### Worked example: impact
 
@@ -519,9 +519,9 @@ Why it fails: it minimizes a real domain gap and treats broad Microsoft cloud wo
 
 **Strong truthful answer template:**
 
-> In a Microsoft enterprise support case involving [sanitized real situation], the customer impact was [real impact]. I owned [your actions], narrowed the issue by [real evidence or comparison], and escalated with [reproduction, identifiers, expected/actual behavior, or other real evidence]. I then [maintained communication and validated the fix]. The outcome was [verified result without invented numbers]. That experience transfers because this role also needs an L1 engineer who can make complex cases actionable for both customers and Engineering.
+> In a enterprise support case involving [sanitized real situation], the customer impact was [real impact]. I owned [your actions], narrowed the issue by [real evidence or comparison], and escalated with [reproduction, identifiers, expected/actual behavior, or other real evidence]. I then [maintained communication and validated the fix]. The outcome was [verified result without invented numbers]. That experience transfers because this role also needs an L1 engineer who can make complex cases actionable for both customers and Engineering.
 
-Arti must fill bracketed fields only with a real, nonconfidential example before using the answer.
+You must fill bracketed fields only with a real, nonconfidential example before using the answer.
 
 ## Ready-to-Practice Introductions
 
@@ -529,11 +529,11 @@ These scripts are starting points, not claims to recite without checking. Replac
 
 ### 30-second introduction
 
-> I am Arti Thakur, and I bring five years of customer-facing Microsoft enterprise support and escalation experience across SharePoint Online, OneDrive, Sync Client, and Copilot. My strengths are owning complex investigations, communicating clearly during CRITSITs, building actionable Engineering and Product escalations, validating fixes, and turning learning into KBs, training, and mentoring. I am now moving deliberately into AI-driven security support. I do not claim direct Abnormal or email-security operations experience; I bring a proven support foundation and a concrete technical ramp plan.
+> I am you, and I bring several years of customer-facing enterprise support and escalation experience across SharePoint Online, OneDrive, Sync Client, and Copilot. My strengths are owning complex investigations, communicating clearly during critical situations, building actionable Engineering and Product escalations, validating fixes, and turning learning into KBs, training, and mentoring. I am now moving deliberately into AI-driven security support. I do not claim direct Abnormal or email-security operations experience; I bring a proven support foundation and a concrete technical ramp plan.
 
 ### 90-second introduction
 
-> I am Arti Thakur. For five years, I have worked in customer-facing Microsoft enterprise support and escalation, with experience across SharePoint Online, OneDrive, Sync Client, and Copilot. The common thread in my work is taking an ambiguous, high-impact customer problem and creating structure: clarifying the expected and actual behavior, gathering useful evidence, coordinating during CRITSIT situations, escalating defects to Engineering or Product with actionable context, keeping technical and nontechnical stakeholders informed, and validating the eventual fix.
+> I am you. For several years, I have worked in customer-facing enterprise support and escalation, with experience across SharePoint Online, OneDrive, Sync Client, and Copilot. The common thread in my work is taking an ambiguous, high-impact customer problem and creating structure: clarifying the expected and actual behavior, gathering useful evidence, coordinating during critical situations, escalating defects to Engineering or Product with actionable context, keeping technical and nontechnical stakeholders informed, and validating the eventual fix.
 >
 > I have also contributed through KB and training creation, mentoring, case-quality work, and analysis of CSAT and backlog patterns. Alongside that production foundation, I have been strengthening networking, REST and JSON, diagnostic tools, analytics, identity concepts, and AI fundamentals.
 >
@@ -541,9 +541,9 @@ These scripts are starting points, not claims to recite without checking. Replac
 
 ### 3-minute introduction
 
-> I am Arti Thakur, and my core professional background is five years in customer-facing Microsoft enterprise support and escalation. My supported areas include SharePoint Online, OneDrive, Sync Client, and Copilot. That experience taught me that a strong support engineer does more than identify a technical fix. The engineer has to understand customer impact, separate observations from assumptions, build a testable investigation, communicate clearly as evidence changes, and keep ownership across team boundaries.
+> I am you, and my core professional background is several years in customer-facing enterprise support and escalation. My supported areas include SharePoint Online, OneDrive, Sync Client, and Copilot. That experience taught me that a strong support engineer does more than identify a technical fix. The engineer has to understand customer impact, separate observations from assumptions, build a testable investigation, communicate clearly as evidence changes, and keep ownership across team boundaries.
 >
-> Some of my strongest transferable experiences come from complex cases and CRITSIT work. In those situations, I learned to keep the problem statement, scope, timeline, owners, and next checkpoints visible while technical teams worked under pressure. I have collaborated with Engineering and Product through defect escalation and fix validation, so I understand that a useful escalation needs expected versus actual behavior, reproduction details, relevant evidence, and a clear ask. I also understand that the case is not complete when a fix is proposed; the original customer scenario needs to be validated.
+> Some of my strongest transferable experiences come from complex cases and critical-situation work. In those situations, I learned to keep the problem statement, scope, timeline, owners, and next checkpoints visible while technical teams worked under pressure. I have collaborated with Engineering and Product through defect escalation and fix validation, so I understand that a useful escalation needs expected versus actual behavior, reproduction details, relevant evidence, and a clear ask. I also understand that the case is not complete when a fix is proposed; the original customer scenario needs to be validated.
 >
 > I have built customer trust across technical and nontechnical audiences, and I have tried to make support knowledge compound through KB and training creation, mentoring, and case-quality work. My experience with CSAT, backlog, and case-quality analysis also gives me an operational view: activity matters only when it improves customer outcomes, support quality, or future efficiency.
 >
@@ -557,7 +557,7 @@ These scripts are starting points, not claims to recite without checking. Replac
 
 ### Why this move?
 
-> I am not moving away from support; I am moving toward a support domain where the technical and customer stakes are especially meaningful. My Microsoft experience has shown me that I do my best work when a complex cloud problem requires structured investigation, cross-team collaboration, and clear customer communication. AI-driven security support adds email, identity, SaaS, API, and threat context to that foundation. The domain is new, but the support discipline is proven.
+> I am not moving away from support; I am moving toward a support domain where the technical and customer stakes are especially meaningful. My prior experience has shown me that I do my best work when a complex cloud problem requires structured investigation, cross-team collaboration, and clear customer communication. AI-driven security support adds email, identity, SaaS, API, and threat context to that foundation. The domain is new, but the support discipline is proven.
 
 ### Why Abnormal AI?
 
@@ -571,16 +571,16 @@ These scripts are starting points, not claims to recite without checking. Replac
 
 > I have a mature enterprise-support base and a clear view of the next depth I want to build. My work with Microsoft cloud and Copilot, together with focused learning in networking, APIs, identity, analytics, and AI, makes this a deliberate transition rather than an impulsive one. Now is the right point to apply those strengths in a security-focused SaaS environment and be measured against a concrete ramp plan.
 
-### Why Arti?
+### Why you?
 
-> I offer a combination of proven enterprise-support ownership and honest learning agility. I have handled complex Microsoft customer situations, CRITSIT communication, Engineering and Product escalation, fix validation, knowledge creation, mentoring, and support analytics. I will not overstate my security-product experience. Instead, I can show how I investigate, communicate, learn, and improve, along with the artifacts and checkpoints I am using to close the domain gaps.
+> I offer a combination of proven enterprise-support ownership and honest learning agility. I have handled complex Microsoft customer situations, critical-situation communication, Engineering and Product escalation, fix validation, knowledge creation, mentoring, and support analytics. I will not overstate my security-product experience. Instead, I can show how I investigate, communicate, learn, and improve, along with the artifacts and checkpoints I am using to close the domain gaps.
 
 ## Common Failure Modes and Red-Flag Language
 
 | Red-flag wording | Why it is risky | Better wording |
 |---|---|---|
 | "I know Abnormal AI." | Can imply product operation or internal knowledge | "I have studied Abnormal's current public material; I have not operated the platform." |
-| "I have M365 email-security experience." | The master supports SharePoint, OneDrive, Sync Client, and Copilot, not direct email-security operations | "My Microsoft cloud support experience transfers to tenant and integration reasoning; email-security operations are a gap." |
+| "I have M365 email-security experience." | The master supports SharePoint, OneDrive, Sync Client, and Copilot, not direct email-security operations | "My prior cloud support experience transfers to tenant and integration reasoning; email-security operations are a gap." |
 | "I have worked with Splunk and CrowdStrike concepts." | "Worked with" can imply hands-on production use | "I am learning their SIEM and EDR roles through official architecture and future synthetic labs." |
 | "All SaaS tools are similar." | Ignores product contracts, security models, and workflows | "The troubleshooting method transfers, but each product's permissions, data, APIs, and evidence must be learned." |
 | "I can learn anything quickly." | Unsupported and unmeasurable | "For this gap, my plan is source, exercise, artifact, feedback, and checkpoint." |
@@ -651,7 +651,7 @@ flowchart LR
 |---|---|---|
 | Monday | Role and motivation | Deliver all introduction lengths and one "why" answer |
 | Tuesday | Production evidence | Build or refine one real STAR story without confidential data |
-| Wednesday | Technical transfer | Explain one Microsoft-to-security bridge and its limit |
+| Wednesday | Technical transfer | Explain one support-to-security bridge and its limit |
 | Thursday | Gap response | Practice three unfamiliar-tool questions without defensiveness |
 | Friday | Troubleshooting | Work one scenario from impact to escalation and validation |
 | Saturday | Mock round | Record 20-30 minutes with follow-ups and score it |
@@ -678,7 +678,7 @@ Build a local, non-production portfolio package that makes role fit, claims, gap
 
 ### Prerequisites
 
-1. A local folder controlled by Arti.
+1. A local folder controlled by you.
 2. A Markdown editor or spreadsheet application.
 3. The confirmed master curriculum and this Part.
 4. A timer.
@@ -703,7 +703,7 @@ Create one row for each major role signal: enterprise support, complex investiga
 For each row, answer:
 
 1. What does the role need?
-2. What exact master/CV fact is relevant?
+2. What exact fact from your own CV is relevant?
 3. Which evidence tier applies?
 4. What method transfers?
 5. What product or domain gap remains?
@@ -717,7 +717,7 @@ Use this template:
 
 | Draft claim | Tier | Supporting fact or artifact | Risky implication | Safe final wording |
 |---|---|---|---|---|
-| "I have enterprise SaaS support experience" | Production | Microsoft support across named workloads | Could imply every SaaS or security platform | "I have Microsoft enterprise cloud support experience across SharePoint Online, OneDrive, Sync Client, and Copilot; the Abnormal workflow is new to me." |
+| "I have enterprise SaaS support experience" | Production | enterprise support across named workloads | Could imply every SaaS or security platform | "I have enterprise cloud support experience across SharePoint Online, OneDrive, Sync Client, and Copilot; the Abnormal workflow is new to me." |
 | "I know email security" | No direct experience today | Structured study has begun | Implies operations or verdict ownership | "Direct email-security operations are a gap; I am building learned architecture and synthetic lab evidence." |
 
 Add every named technology likely to appear in the interview. The ledger must include Abnormal AI, direct email-security operations, Google Workspace, Slack, Okta, Splunk, CrowdStrike, Cortex SOAR, Zendesk, Salesforce, Jira, and Zoom, each with no unsupported production claim.
@@ -759,7 +759,7 @@ Write scripts for 30, 90, and 180 seconds. Record each one twice:
 List real, sanitized examples for:
 
 - a complex investigation;
-- a CRITSIT or high-pressure case;
+- a critical situation or high-pressure case;
 - a difficult customer communication;
 - an Engineering or Product escalation;
 - fix validation;
@@ -797,7 +797,7 @@ Maximum score: 32. A practical baseline pass is **24 or higher with no score bel
 | Are no-direct-experience tools named honestly? | All required named tools appear in the ledger |
 | Does each gap have a concrete ramp checkpoint? | Yes; "learn more" alone fails |
 | Do scripts fit their target times? | Within 10 percent after two practice rounds |
-| Can Arti answer follow-ups without changing the evidence tier? | Yes across at least five random prompts |
+| Can your answer follow-ups without changing the evidence tier? | Yes across at least five random prompts |
 | Is private information absent? | Yes after a manual privacy review |
 
 ### Cleanup and privacy
@@ -846,7 +846,7 @@ All sources below were accessed on **August 24, 2026**. URLs are official top-le
 
 **Question:** Tell me about yourself and why you are relevant to this role.
 
-**Model answer:** I bring five years of customer-facing Microsoft enterprise support and escalation experience across SharePoint Online, OneDrive, Sync Client, and Copilot. My strongest evidence is in complex investigation, CRITSIT communication, Engineering and Product escalation, fix validation, customer trust, KB and training work, mentoring, and support-quality analysis. Those are production strengths that transfer directly to enterprise L1 ownership. I am moving deliberately into AI-driven security support. I do not claim direct Abnormal AI or email-security operations experience; I am closing those gaps through official-source study, safe labs, and scored spoken practice.
+**Model answer:** I bring several years of customer-facing enterprise support and escalation experience across SharePoint Online, OneDrive, Sync Client, and Copilot. My strongest evidence is in complex investigation, critical-situation communication, Engineering and Product escalation, fix validation, customer trust, KB and training work, mentoring, and support-quality analysis. Those are production strengths that transfer directly to enterprise L1 ownership. I am moving deliberately into AI-driven security support. I do not claim direct Abnormal AI or email-security operations experience; I am closing those gaps through official-source study, safe labs, and scored spoken practice.
 
 ### Q2.
 
@@ -858,7 +858,7 @@ All sources below were accessed on **August 24, 2026**. URLs are official top-le
 
 **Question:** You do not have direct email-security operations experience. How would you address that gap?
 
-**Model answer:** I would state the gap directly rather than treating Microsoft cloud support as equivalent. My transferable base is five years of complex enterprise case ownership, including evidence-driven diagnosis, CRITSIT discipline, customer communication, escalation, and fix validation. My ramp plan adds the missing domain through mail-flow and authentication fundamentals, synthetic threat and false-positive cases, safe evidence handling, official sources, saved artifacts, and timed explanations. I would measure readiness by whether I can investigate a harmless case, explain uncertainty, and know when to escalate.
+**Model answer:** I would state the gap directly rather than treating Microsoft cloud support as equivalent. My transferable base is several years of complex enterprise case ownership, including evidence-driven diagnosis, critical-situation discipline, customer communication, escalation, and fix validation. My ramp plan adds the missing domain through mail-flow and authentication fundamentals, synthetic threat and false-positive cases, safe evidence handling, official sources, saved artifacts, and timed explanations. I would measure readiness by whether I can investigate a harmless case, explain uncertainty, and know when to escalate.
 
 ### Q4.
 
@@ -876,13 +876,13 @@ All sources below were accessed on **August 24, 2026**. URLs are official top-le
 
 **Question:** How do you build customer trust during a complex case?
 
-**Model answer:** I make trust operational. I acknowledge the real impact, separate facts from hypotheses, explain the next discriminating action, name the owner and update time, minimize sensitive evidence, and meet the commitment even if the update is that the investigation continues. In CRITSIT work, that structure helps technical and nontechnical stakeholders understand what is known, what is changing, and what decision comes next. I also validate the original customer scenario before treating the case as resolved.
+**Model answer:** I make trust operational. I acknowledge the real impact, separate facts from hypotheses, explain the next discriminating action, name the owner and update time, minimize sensitive evidence, and meet the commitment even if the update is that the investigation continues. In critical-situation work, that structure helps technical and nontechnical stakeholders understand what is known, what is changing, and what decision comes next. I also validate the original customer scenario before treating the case as resolved.
 
 ### Q7.
 
 **Question:** Have you used tools such as Splunk, CrowdStrike, Cortex SOAR, Zendesk, Salesforce, or Jira?
 
-**Model answer:** I have not used those tools directly in production, and I would not imply otherwise. My closest transferable evidence is Microsoft enterprise support, log and analytics reasoning, Engineering and Product escalation, case-quality work, and working knowledge of REST, JSON, SQL-style analysis, and diagnostic methods. I am learning each named platform by first understanding its role and evidence model, then using official documentation and safe synthetic exercises. Until an artifact exists, I label it learned architecture or no direct experience.
+**Model answer:** I have not used those tools directly in production, and I would not imply otherwise. My closest transferable evidence is enterprise support, log and analytics reasoning, Engineering and Product escalation, case-quality work, and working knowledge of REST, JSON, SQL-style analysis, and diagnostic methods. I am learning each named platform by first understanding its role and evidence model, then using official documentation and safe synthetic exercises. Until an artifact exists, I label it learned architecture or no direct experience.
 
 ### Q8.
 
@@ -912,7 +912,7 @@ All sources below were accessed on **August 24, 2026**. URLs are official top-le
 - [ ] I can explain customer trust and impact over activity with a real CV-grounded example.
 - [ ] I can describe the ticket-to-product-improvement loop without promising unsupported product outcomes.
 - [ ] I can deliver the 30-, 90-, and 180-second introductions within 10 percent of target time.
-- [ ] I can answer why this move, why Abnormal, why support, why now, and why Arti without overstating.
+- [ ] I can answer why this move, why Abnormal, why support, why now, and why you without overstating.
 - [ ] My role-fit matrix, claim-safety ledger, gap/ramp plan, evidence inventory, scripts, and scorecard exist locally.
 - [ ] Every artifact has one approved honest evidence label.
 - [ ] Every production claim is traceable to the master/CV and contains no invented detail.

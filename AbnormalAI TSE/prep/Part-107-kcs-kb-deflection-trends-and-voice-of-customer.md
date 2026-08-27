@@ -2,7 +2,7 @@
 
 > **Purpose:** Build a beginner-first, product-neutral method for capturing support knowledge in the flow of work, safely reusing and improving it, finding recurring demand, measuring self-service without gaming raw deflection, and turning evidence into responsible Voice of Customer and Product feedback.
 >
-> **Artifact honesty label:** **Production-transfer method plus completed local synthetic written examples; separate lab unperformed.** Arti's Microsoft enterprise-support background includes KB/training creation, mentoring, case-quality work, customer communication, Engineering/Product collaboration, and CSAT/backlog analysis as stated in the master guide. This Part does not establish a Knowledge-Centered Service/Support certification, formal KCS program ownership, direct Abnormal AI experience, access to Abnormal data, or any real deflection result. Every SignalBridge case, article, search, tag, count, percentage, trend, customer statement, product request, identifier, owner, review, decision, and outcome below is learner-authored fiction. SignalBridge Lab 107 was not performed while this Part was authored.
+> **Artifact honesty label:** **Production-transfer method plus completed local synthetic written examples; separate lab unperformed.** Your prior enterprise-support background includes KB/training creation, mentoring, case-quality work, customer communication, Engineering/Product collaboration, and CSAT/backlog analysis as stated in the master guide. This Part does not establish a Knowledge-Centered Service/Support certification, formal KCS program ownership, direct Abnormal AI experience, access to Abnormal data, or any real deflection result. Every SignalBridge case, article, search, tag, count, percentage, trend, customer statement, product request, identifier, owner, review, decision, and outcome below is learner-authored fiction. SignalBridge Lab 107 was not performed while this Part was authored.
 >
 > **Currency and source access date:** August 24, 2026.
 >
@@ -12,7 +12,7 @@
 
 A support team answers individual questions, but it also sees a stream of repeated friction. If each answer remains inside one case, the next customer and the next engineer pay the discovery cost again. If every case becomes an article, the knowledge base fills with duplicates, weak claims, unsafe details, and pages nobody can find. If leadership rewards only a high “deflection” number, people may hide demand, make contact harder, or count visits as resolutions. The mature goal is not fewer visible cases at any cost. It is **better customer outcomes with less avoidable effort, supported by trustworthy knowledge and evidence**.
 
-This Part teaches Arti to:
+This Part teaches you to:
 
 1. explain Knowledge-Centered Service or Knowledge-Centered Support, abbreviated **KCS**, without claiming certification or reducing it to “write more articles”;
 2. distinguish a knowledge base from an article and internal guidance from externally approved customer content;
@@ -27,7 +27,7 @@ This Part teaches Arti to:
 11. protect customer data, secrets, permissions, publication controls, and proprietary content;
 12. identify metric gaming, hidden demand, closure gaming, unsupported attribution, and escalation triggers;
 13. produce a completed fictional KB article, trend brief, and deflection measurement plan; and
-14. describe Microsoft production-transfer strengths, new synthetic artifacts, learned KCS concepts, and Abnormal unknowns as separate evidence tiers.
+14. describe production-transfer strengths, new synthetic artifacts, learned KCS concepts, and Abnormal unknowns as separate evidence tiers.
 
 The portable rule is: **capture what the case teaches, reuse only what is safe and applicable, improve from evidence, and measure the customer outcome rather than celebrating a missing ticket.**
 
@@ -85,12 +85,12 @@ flowchart LR
 | Enterprise L1 ownership | Reuses knowledge without surrendering case ownership or judgment | Verifies applicability, communicates uncertainty, validates the outcome | Worked KB reuse cases |
 | Support analytics | Uses counts, rates, denominators, cohorts, guardrails, and caveats | Explains correlation versus causation and metric gaming | Pareto worksheet and measurement dictionary |
 | Customer trust and security mindset | Minimizes data and does not publish unapproved or proprietary material | Stops on secrets, customer content, unsafe steps, or unclear authority | Publication and escalation controls |
-| Microsoft enterprise-support transfer | Connects real KB/training, mentoring, case quality, CSAT/backlog, customer communication, and escalation experience | Gives only defensible Microsoft examples with exact actions and outcomes | `DIRECT_PRODUCTION_TRANSFER` narrative |
+| enterprise-support transfer | Connects real KB/training, mentoring, case quality, CSAT/backlog, customer communication, and escalation experience | Gives only defensible Microsoft examples with exact actions and outcomes | `DIRECT_PRODUCTION_TRANSFER` narrative |
 | Abnormal AI learning target | Prepares to learn the employer's current knowledge, tagging, analytics, review, and Product-feedback workflow | Asks for local definitions and approved data access instead of inventing them | First-week discovery checklist |
 
 ## Candidate honesty note
 
-Arti has a strong and relevant transfer: the master guide supports Microsoft enterprise customer-facing work, KB/training creation, mentoring, case-quality improvement, customer and partner communication, Engineering/Product escalation, fix validation, and CSAT/backlog analysis. Those experiences can demonstrate knowledge-sharing habits, evidence discipline, coaching, operational awareness, and customer advocacy. They do not automatically prove that the work followed the Consortium's KCS methodology, that Arti held a KCS credential, or that a specific Microsoft metric represented causal case deflection.
+You have a strong and relevant transfer: the master guide supports enterprise customer-facing work, KB/training creation, mentoring, case-quality improvement, customer and partner communication, Engineering/Product escalation, fix validation, and CSAT/backlog analysis. Those experiences can demonstrate knowledge-sharing habits, evidence discipline, coaching, operational awareness, and customer advocacy. They do not automatically prove that the work followed the Consortium's KCS methodology, that you held a KCS credential, or that a specific Microsoft metric represented causal case deflection.
 
 Nothing in the supplied background establishes direct production use of Abnormal AI, Abnormal's knowledge systems, its article lifecycle, its case taxonomy, its search analytics, its deflection definition, its product-feedback process, or its customer data. No real Abnormal case count, article count, search query, customer quotation, trend, or KPI appears in this Part. The fictional `SignalBridge` examples are learning artifacts, not disguised employer data.
 
@@ -98,7 +98,7 @@ Nothing in the supplied background establishes direct production use of Abnormal
 
 | Capability or claim | Evidence label | Safe language | Claim to avoid |
 |---|---|---|---|
-| Microsoft KB/training, mentoring, and case quality | **DIRECT_PRODUCTION_TRANSFER** | “In Microsoft enterprise support, I created or contributed to KB/training and used case-quality learning to help engineers and customers; I can describe the exact example and my role.” | “I ran Microsoft's KCS program” unless independently true and defensible |
+| Microsoft KB/training, mentoring, and case quality | **DIRECT_PRODUCTION_TRANSFER** | “In enterprise support, I created or contributed to KB/training and used case-quality learning to help engineers and customers; I can describe the exact example and my role.” | “I ran Microsoft's KCS program” unless independently true and defensible |
 | Microsoft CSAT/backlog analysis | **DIRECT_PRODUCTION_TRANSFER_AT_STATED_DEPTH** | “I analyzed CSAT, backlog, or quality patterns in the scope described by my real example.” | Inventing a deflection percentage, causal impact, dashboard ownership, or enterprise-wide result |
 | KCS concepts | **LEARNED_METHOD_FROM_PRIMARY_SOURCES** | “I studied KCS v6 concepts from the Consortium's public materials and applied them to a synthetic exercise.” | “I am KCS certified,” “I am a KCS coach,” or “I implemented KCS” without evidence |
 | KB, trend, and measurement artifacts below | **TEMPLATE_ONLY_SYNTHETIC_COMPLETED_IN_WRITING** | “I authored three local fictional artifacts to demonstrate the method; no live system or customer data was used.” | “I published the article,” “I analyzed production cases,” or “I increased deflection” |
@@ -107,7 +107,7 @@ Nothing in the supplied background establishes direct production use of Abnormal
 
 A safe interview bridge is:
 
-> “My direct foundation is Microsoft enterprise support, including defensible examples of KB or training work, mentoring, case quality, customer communication, escalation, fix validation, and operational analysis. I would not relabel that as KCS certification or claim a deflection result I did not measure. For preparation, I studied the Consortium's public KCS concepts and created local synthetic KB, trend, VOC, and measurement artifacts. I have not used Abnormal's internal knowledge or analytics systems, so I would learn its current taxonomy, article authority model, privacy rules, metric definitions, and Product-feedback process before acting.”
+> “My direct foundation is enterprise support, including defensible examples of KB or training work, mentoring, case quality, customer communication, escalation, fix validation, and operational analysis. I would not relabel that as KCS certification or claim a deflection result I did not measure. For preparation, I studied the Consortium's public KCS concepts and created local synthetic KB, trend, VOC, and measurement artifacts. I have not used Abnormal's internal knowledge or analytics systems, so I would learn its current taxonomy, article authority model, privacy rules, metric definitions, and Product-feedback process before acting.”
 
 ### 🔍 Plain-English deep-dive: KCS is a work habit and system, not an article quota
 
@@ -1130,7 +1130,7 @@ flowchart TD
 | Measurement | Views/no contact equal deflection | Basic funnel | Task success, comparison, denominators, windows, privacy, guardrails, causal limits |
 | Metric integrity | Hidden demand or closure gaming | Gaming named | Incentives, unknowns, channel shift, audit, stop rules, and assisted access protected |
 | Safety | Real data/system/publication/proprietary copy | Local claim vague | Every prohibition and automatic stop explicit |
-| Honesty | KCS/Abnormal/live result overstated | Gap implied | Microsoft transfer, learned KCS, synthetic artifacts, unperformed lab, Abnormal unknowns separate |
+| Honesty | KCS/Abnormal/live result overstated | Gap implied | experience transfer, learned KCS, synthetic artifacts, unperformed lab, Abnormal unknowns separate |
 
 **Lab automatic failure:** any real or uncertain-provenance customer data, secret, proprietary content, production record, live search query, metric, or quotation; public/external upload or publication; account use; API, automation, script, bulk action, permission/configuration change, customer contact, product action, or destructive operation; unsupported KCS certification/program claim; copied licensed material; fabricated metric/result/approval; hidden demand, contact obstruction, closure/tag gaming; unsupported causation; roadmap promise; invented Abnormal process/data; or claim that the lab was performed during authoring.
 
@@ -1159,17 +1159,17 @@ The authored Part is complete only when every gate passes. The master status mus
 
 ## Official Source Anchors - August 24, 2026
 
-These sources anchor public methodology, quality, analytics, and product-documentation concepts only. They do not prove Arti's certification, program authority, direct tool operation, any customer behavior, or any Abnormal AI system, process, article, taxonomy, data, metric, or result. Product pages and guidance can change; revalidate current versions, licenses, plans, permissions, privacy terms, and organizational policy before use.
+These sources anchor public methodology, quality, analytics, and product-documentation concepts only. They do not prove your certification, program authority, direct tool operation, any customer behavior, or any Abnormal AI system, process, article, taxonomy, data, metric, or result. Product pages and guidance can change; revalidate current versions, licenses, plans, permissions, privacy terms, and organizational policy before use.
 
 | Official or primary source | Concept anchored | Boundary for this Part |
 |---|---|---|
-| [Consortium for Service Innovation - KCS v6 Practices Guide](https://library.serviceinnovation.org/KCS/KCS_v6/KCS_v6_Practices_Guide) | Public KCS v6 practices, Solve Loop/Evolve Loop, knowledge in the workflow, content health, performance, and leadership concepts | The Consortium owns and governs KCS materials and certification. This public guide does not certify Arti, authorize program claims, reproduce licensed training, or establish an employer's implementation. Current licensing and attribution rules control reuse. |
+| [Consortium for Service Innovation - KCS v6 Practices Guide](https://library.serviceinnovation.org/KCS/KCS_v6/KCS_v6_Practices_Guide) | Public KCS v6 practices, Solve Loop/Evolve Loop, knowledge in the workflow, content health, performance, and leadership concepts | The Consortium owns and governs KCS materials and certification. This public guide does not certify you, authorize program claims, reproduce licensed training, or establish an employer's implementation. Current licensing and attribution rules control reuse. |
 | [Consortium for Service Innovation - KCS Principles and Core Concepts](https://library.serviceinnovation.org/KCS/Principles_and_Core_Concepts) | KCS principles and core conceptual model | Principles require local adoption design and leadership context. They do not supply an Abnormal workflow, metric target, article state, or permission model. |
-| [Consortium for Service Innovation - KCS v6 Adoption Guide](https://library.serviceinnovation.org/KCS/KCS_v6/KCS_v6_Adoption_Guide) | Adoption-wave and organizational change guidance | Adoption guidance is not proof that Arti or any employer implemented KCS. A real program requires authority, training, licensing where applicable, roles, measurement, coaching, and local change governance. |
+| [Consortium for Service Innovation - KCS v6 Adoption Guide](https://library.serviceinnovation.org/KCS/KCS_v6/KCS_v6_Adoption_Guide) | Adoption-wave and organizational change guidance | Adoption guidance is not proof that you or any employer implemented KCS. A real program requires authority, training, licensing where applicable, roles, measurement, coaching, and local change governance. |
 | [American Society for Quality - Pareto Chart](https://asq.org/quality-resources/pareto) | Pareto chart purpose and quality-tool framing | ASQ guidance explains the tool; it does not make 80/20 a law or establish causation, risk, priority, or data quality. The synthetic table here is not an ASQ dataset. |
 | [Google Search Console Help - Performance report](https://support.google.com/webmasters/answer/7576553) | Official definitions and interpretation context for clicks, impressions, click-through rate, position, queries, pages, and report dimensions in Search Console | Search Console concerns Google Search properties and has filtering, privacy, aggregation, freshness, and product-specific limits. It does not define internal KB search success or self-service outcome. No Search Console data was used. |
 | [Google Analytics - Events](https://developers.google.com/analytics/devguides/collection/ga4/events) | Official GA4 event collection model and implementation concepts | Event instrumentation is product-specific and subject to consent, privacy, retention, identity, implementation, and policy controls. An event is not proof of intent, success, or deflection. No GA4 property was accessed. |
-| [Microsoft Learn - Create and manage knowledge articles](https://learn.microsoft.com/en-us/dynamics365/customer-service/use/customer-service-hub-user-guide-knowledge-article) | Official Dynamics 365 Customer Service knowledge-article lifecycle and authoring concepts | This is product documentation for supported Dynamics 365 experiences and changes over time. It does not prove Arti used this feature, define KCS universally, or establish Abnormal's knowledge workflow. No Dynamics environment was accessed. |
+| [Microsoft Learn - Create and manage knowledge articles](https://learn.microsoft.com/en-us/dynamics365/customer-service/use/customer-service-hub-user-guide-knowledge-article) | Official Dynamics 365 Customer Service knowledge-article lifecycle and authoring concepts | This is product documentation for supported Dynamics 365 experiences and changes over time. It does not prove you used this feature, define KCS universally, or establish Abnormal's knowledge workflow. No Dynamics environment was accessed. |
 | [Atlassian - Knowledge-Centered Service explained](https://www.atlassian.com/itsm/knowledge-management/kcs) | Official vendor explanation of KCS-oriented knowledge management in an ITSM context | This is Atlassian's explanatory/product context, not the Consortium's certification authority and not proof of Jira/Confluence use, plan capability, configuration, or employer adoption. |
 | [Consortium for Service Innovation - Measurement Matters v6](https://library.serviceinnovation.org/KCS/KCS_v6/Measurement_Matters_v6) | KCS measurement guidance, balanced measures, value creation, and interpretation within an adoption context | This companion guidance does not provide an Abnormal target, prove causal deflection, authorize individual quotas, or replace local privacy, quality, and statistical review. Its current license and definitions must be respected. |
 | [Performance.gov - Customer Experience](https://www.performance.gov/cx/) | Official United States federal customer-experience program context emphasizing service experience and measurement | Federal CX policy and resources apply in their stated government context. They do not define a private company's VOC program, metric, legal duty, customer population, or Product priority. No federal/customer dataset was used. |
@@ -1179,7 +1179,7 @@ Source discipline:
 - The Consortium for Service Innovation is the primary authority for KCS terminology and certification boundaries. This Part summarizes public concepts in original wording and does not reproduce a credential curriculum.
 - ASQ explains Pareto as a quality tool; the ranking still depends on trustworthy categories, denominators, and a separate risk/impact view.
 - Google documentation defines behavior within Google products. It provides useful analytics cautions but does not define an enterprise support KB or grant permission to track users.
-- Microsoft, Atlassian, and Zendesk documentation describes configurable vendor capabilities. It does not establish Arti's direct operation, Abnormal's tool choice, or any employer's workflow.
+- Microsoft, Atlassian, and Zendesk documentation describes configurable vendor capabilities. It does not establish your direct operation, Abnormal's tool choice, or any employer's workflow.
 - Performance.gov is an official public-sector source family. Its context is not a universal private-sector VOC standard.
 - Every metric, worked count, title, query phrase, article, and outcome in this Part is synthetic. Sources support concepts, not the fictional results.
 - Revalidate all URLs, content versions, licensing, product plans, privacy requirements, and local policies after August 24, 2026.
@@ -1188,7 +1188,7 @@ Source discipline:
 
 ### Q1. What is KCS, and what experience can you honestly claim?
 
-**Model answer:** KCS is a methodology from the Consortium for Service Innovation that integrates capturing, structuring, reusing, and improving knowledge into the workflow of solving requests, supported by an evolve loop for content health, process, performance, coaching, and governance. My direct foundation is Microsoft enterprise support, including defensible KB or training, mentoring, case-quality, communication, escalation, and operational-analysis examples. I studied public KCS v6 concepts and built synthetic artifacts, but I do not claim KCS certification, formal program ownership, or Abnormal implementation experience.
+**Model answer:** KCS is a methodology from the Consortium for Service Innovation that integrates capturing, structuring, reusing, and improving knowledge into the workflow of solving requests, supported by an evolve loop for content health, process, performance, coaching, and governance. My direct foundation is enterprise support, including defensible KB or training, mentoring, case-quality, communication, escalation, and operational-analysis examples. I studied public KCS v6 concepts and built synthetic artifacts, but I do not claim KCS certification, formal program ownership, or Abnormal implementation experience.
 
 ### Q2. How do you decide whether to reuse, improve, create, or publish an article?
 
@@ -1234,14 +1234,14 @@ Source discipline:
 - **Product feedback is input, not a roadmap promise.**
 - **Keep assisted support easy for complex, sensitive, and high-risk needs.**
 - **Never trade customer trust for a prettier metric.**
-- **Microsoft transfer is real; KCS certification and Abnormal metrics are not claimed.**
+- **experience transfer is real; KCS certification and Abnormal metrics are not claimed.**
 
 ## Completion Checklist
 
 - [ ] I can define all sixteen labels and every paired term without collapsing related concepts.
 - [ ] I can explain KCS as a solve/evolve system without claiming certification or program ownership.
 - [ ] I can describe a real Microsoft KB/training or quality example with exact personal actions and evidence boundaries.
-- [ ] I can separate Microsoft production transfer, learned KCS concepts, synthetic artifacts, an unperformed lab, and unknown Abnormal configuration.
+- [ ] I can separate prior production transfer, learned KCS concepts, synthetic artifacts, an unperformed lab, and unknown Abnormal configuration.
 - [ ] I can distinguish internal from external articles and name the publication reviews that must be verified locally.
 - [ ] I can write an article with audience, symptoms, scope, exclusions, prerequisites, safe steps, observations, validation, escalation, owner, sources, feedback, and review trigger.
 - [ ] I can explain findability across access, indexing, customer language, title, structure, taxonomy, links, freshness, ranking, and feedback.

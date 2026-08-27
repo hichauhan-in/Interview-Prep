@@ -47,19 +47,19 @@ By the end of this part, you should be able to:
 | Protect customer trust | Avoid accusations, absolutes, and unsupported product claims | "The evidence is consistent with" rather than "the vendor definitely caused" |
 | Work across Cloud Email Security, AI Security Agents, and SaaS Security | Recognize that an email may lead to identity, SaaS, endpoint, finance, or data-loss workstreams | Parallel owner map with one incident coordinator |
 | Create knowledge and improve support quality | Use reusable taxonomies, evidence labels, and review rubrics | Searchable case tags and a repeatable hypothesis ledger |
-| Bring Microsoft enterprise-support experience forward | Reuse structured scoping, customer updates, escalation discipline, and fix validation | CV-grounded transfer without claiming Exchange security operations ownership |
+| Bring enterprise-support experience forward | Reuse structured scoping, customer updates, escalation discipline, and fix validation | CV-grounded transfer without claiming Exchange security operations ownership |
 
 ## Candidate Honesty Note
 
-Arti can credibly say:
+You can credibly say:
 
-> "My production strength is five years of Microsoft enterprise support: scoping ambiguous symptoms, preserving evidence, coordinating escalations, communicating under pressure, and validating outcomes. I have not operated Abnormal AI or a dedicated email-security program in production. My threat-investigation knowledge is learned architecture plus safe synthetic practice. I would use the same evidence-first support discipline, follow the customer's incident authority model, and escalate security, identity, endpoint, finance, privacy, or legal actions to the authorized owner."
+> "My production strength is several years of enterprise support: scoping ambiguous symptoms, preserving evidence, coordinating escalations, communicating under pressure, and validating outcomes. I have not operated Abnormal AI or a dedicated email-security program in production. My threat-investigation knowledge is learned architecture plus safe synthetic practice. I would use the same evidence-first support discipline, follow the customer's incident authority model, and escalate security, identity, endpoint, finance, privacy, or legal actions to the authorized owner."
 
 Use the four evidence tiers consistently:
 
 | Experience tier | Honest claim | Example for this part |
 |---|---|---|
-| **Production transfer** | A method genuinely used in prior enterprise support | "I have built timelines, narrowed scope, coordinated Engineering, and validated fixes in Microsoft support cases." |
+| **Production transfer** | A method genuinely used in prior enterprise support | "I have built timelines, narrowed scope, coordinated Engineering, and validated fixes in enterprise support cases." |
 | **Local/synthetic lab** | A repeatable exercise using harmless invented evidence | "I classified four synthetic messages and produced a hypothesis ledger without sending or opening anything." |
 | **Learned architecture** | A concept learned from official public sources | "My understanding from NIST, MITRE ATT&CK, FBI/IC3, and provider documentation is..." |
 | **No direct experience** | A named platform or authority not used in production | "I have not made production quarantine, identity-revocation, legal, or financial-recovery decisions." |
@@ -959,7 +959,7 @@ All sources below were accessed on August 24, 2026. Revalidate current guidance,
 
 ### Q8. How does your prior experience transfer if you have not operated Abnormal AI in production?
 
-**Model answer:** My Microsoft enterprise-support experience transfers in structured intake, evidence preservation, timeline building, scoping, cross-team escalation, customer communication, and fix validation. My email-threat knowledge is learned architecture and synthetic lab practice, not production Abnormal experience. I would follow current runbooks and authority boundaries, work with the SOC and adjacent owners, and be explicit about what I observed, inferred, and still need to verify.
+**Model answer:** My prior enterprise-support experience transfers in structured intake, evidence preservation, timeline building, scoping, cross-team escalation, customer communication, and fix validation. My email-threat knowledge is learned architecture and synthetic lab practice, not production Abnormal experience. I would follow current runbooks and authority boundaries, work with the SOC and adjacent owners, and be explicit about what I observed, inferred, and still need to verify.
 
 ## 🧠 30-Second Memory Hooks
 
@@ -995,7 +995,7 @@ All sources below were accessed on August 24, 2026. Revalidate current guidance,
 - [ ] I completed or can describe the Seven-Lens Evidence Ledger using only inert synthetic data.
 - [ ] My artifact is labeled local/public lab or template only and contains no real customer or personal data.
 - [ ] I can explain the taxonomy and one worked case aloud in under two minutes.
-- [ ] I can state Arti's production-transfer strengths and direct-experience gaps without blurring them.
+- [ ] I can state your production-transfer strengths and direct-experience gaps without blurring them.
 - [ ] I reviewed the official anchors and recorded August 24, 2026 as the access date.
 - [ ] I revalidated current provider guidance before proposing any production action.
 

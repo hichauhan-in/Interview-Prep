@@ -1,12 +1,12 @@
 # Part 14 - NAS and SAN: File versus Block Architecture
 
-> **Section goal:** Understand what a file client asks a NAS server to do, what a block initiator asks a SAN target to do, and which layer owns names, permissions, locks, file systems, paths, and recovery. By the end, Arti should be able to draw both architectures, challenge false comparisons, select by workload and operating model, and isolate failures without crossing ownership boundaries unsafely.
+> **Section goal:** Understand what a file client asks a NAS server to do, what a block initiator asks a SAN target to do, and which layer owns names, permissions, locks, file systems, paths, and recovery. By the end, you should be able to draw both architectures, challenge false comparisons, select by workload and operating model, and isolate failures without crossing ownership boundaries unsafely.
 
 Covers index item **14** and maps directly to job-description responsibilities for storage depth, customer-environment discovery, supportability analysis, stability and risk mitigation, tailored recommendations, operational service reviews, and escalation quality.
 
 This Part is vendor-neutral. Exact NFS, SMB, iSCSI, Fibre Channel (FC), NVMe over Fabrics (NVMe-oF), zoning, LUN masking, multipathing, snapshot, virtualization, and NetApp behavior depend on version, platform, host, network/fabric, and configuration. Validate exact combinations and notes in current official documentation and the NetApp Interoperability Matrix Tool (IMT).
 
-> **Evidence boundary:** Every organization, workload, path, capacity, latency, incident, decision, and recommendation below is synthetic. Arti's Microsoft 365 data-service, Windows/Azure, Active Directory, networking, escalation, and customer communication experience is production evidence. Production NAS administration, SAN zoning, LUN provisioning, multipath configuration, or NetApp ONTAP ownership is not claimed.
+> **Evidence boundary:** Every organization, workload, path, capacity, latency, incident, decision, and recommendation below is synthetic. Your Microsoft 365 data-service, Windows/Azure, Active Directory, networking, escalation, and customer communication experience is production evidence. Production NAS administration, SAN zoning, LUN provisioning, multipath configuration, or NetApp ONTAP ownership is not claimed.
 
 ---
 
@@ -675,11 +675,11 @@ flowchart TD
 
 ### Explicit JD Mapping
 
-| JD responsibility | Part 14 contribution | Arti's strength and honest gap |
+| JD responsibility | Part 14 contribution | Your strength and honest gap |
 |---|---|---|
 | Understand customer environment | Maps application through file/block ownership, networks/fabrics, and storage | **Strength:** M365 data-service dependency thinking. **Gap:** production NAS/SAN ownership unproven. |
 | Storage depth | Explains file/block semantics, LUNs, exports/shares, zoning/masking, and MPIO | **Conceptual/lab:** no production zoning, LUN, or ONTAP administration claim. |
-| Risk/stability | Finds split ownership, false sharing, common fate, path and consistency risk | **Strength:** CRITSIT risk isolation transfers. |
+| Risk/stability | Finds split ownership, false sharing, common fate, path and consistency risk | **Strength:** critical-situation risk isolation transfers. |
 | Strategic advice | Chooses architecture by workload and operating model rather than protocol slogan | **Transfer:** customer advisory; exact product design needs current evidence/SMEs. |
 | Supportability | Builds complete host/fabric/protocol/storage combination and IMT record | **Gap:** no gated customer IMT result claimed. |
 | Service review | Converts architecture into business impact, options, actions, and evidence | **Strength:** business reviews and communication. |
@@ -687,7 +687,7 @@ flowchart TD
 
 ### Honest production-gap statement
 
-> "I understand the architectural difference: NAS servers own shared file namespace and file operations, while SAN targets present blocks and the host usually owns the file system. My Microsoft production experience gives me data-service, permissions, Windows, Azure, networking, and escalation context. I have not administered production NFS exports, FC zoning, LUN mapping, MPIO, or ONTAP. I would validate exact ownership and current supportability, collect read-only evidence, and work with host, network/fabric, storage, application, and protection specialists before recommending changes."
+> "I understand the architectural difference: NAS servers own shared file namespace and file operations, while SAN targets present blocks and the host usually owns the file system. My prior production experience gives me data-service, permissions, Windows, Azure, networking, and escalation context. I have not administered production NFS exports, FC zoning, LUN mapping, MPIO, or ONTAP. I would validate exact ownership and current supportability, collect read-only evidence, and work with host, network/fabric, storage, application, and protection specialists before recommending changes."
 
 ---
 
@@ -863,7 +863,7 @@ A fictional company needs: a 500-user shared department tree, a database requiri
 27. Explain security for both without relying on dedicated networks alone.
 28. Build the exact supportability inventory and IMT evidence plan.
 29. Answer Q1-Q8 aloud.
-30. State Arti's strengths and production NAS/SAN gap honestly.
+30. State your strengths and production NAS/SAN gap honestly.
 
 ---
 
@@ -945,7 +945,7 @@ A fictional company needs: a 500-user shared department tree, a database requiri
 
 ### Q8. How does your background transfer to NAS/SAN work, and what remains a gap?
 
-> **Model answer:** "My Microsoft production experience gives me strong foundations in shared data services, Windows and Azure, Active Directory and permissions, networking, user impact, high-severity escalation, and evidence-based customer communication. I can use that method to map file and block ownership and troubleshoot by layer. I have not administered production NFS exports, FC zoning, LUN masking, MPIO, or ONTAP. I would verify exact IMT support, use authorized read-only evidence and labs, and involve host, fabric, storage, application, identity, and protection owners for changes."
+> **Model answer:** "My prior production experience gives me strong foundations in shared data services, Windows and Azure, Active Directory and permissions, networking, user impact, high-severity escalation, and evidence-based customer communication. I can use that method to map file and block ownership and troubleshoot by layer. I have not administered production NFS exports, FC zoning, LUN masking, MPIO, or ONTAP. I would verify exact IMT support, use authorized read-only evidence and labs, and involve host, fabric, storage, application, identity, and protection owners for changes."
 
 **Follow-up depth:** Give one factual SharePoint/OneDrive or Windows permissions case, then clearly label what does not prove storage administration experience.
 
@@ -970,7 +970,7 @@ A fictional company needs: a 500-user shared department tree, a database requiri
 - **Virtualization:** Guest disk, hypervisor datastore, and storage object are different layers.
 - **Performance:** Workload and implementation beat protocol slogans.
 - **Decision:** Semantics + ownership + support + operations + test evidence.
-- **Arti's bridge:** Shared-data and escalation method transfer; NAS/SAN production administration remains unclaimed.
+- **Your bridge:** Shared-data and escalation method transfer; NAS/SAN production administration remains unclaimed.
 
 ---
 
@@ -997,7 +997,7 @@ A fictional company needs: a 500-user shared department tree, a database requiri
 - [ ] Recreate Northstar and keep coincident file/block symptoms separate until mechanism is proved.
 - [ ] Build exact host/fabric/protocol/storage supportability evidence with date and IMT notes.
 - [ ] Complete the paper lab, whiteboard drills, self-test, and Q1-Q8 aloud.
-- [ ] State Arti's production strengths and NAS/SAN production gap honestly.
+- [ ] State your production strengths and NAS/SAN production gap honestly.
 - [ ] Recheck standards, application/vendor guidance, exact versions, and NetApp IMT before customer use.
 
 ---

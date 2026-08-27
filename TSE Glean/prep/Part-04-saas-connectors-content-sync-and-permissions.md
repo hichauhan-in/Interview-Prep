@@ -6,7 +6,7 @@
 
 > **Product currency note:** Glean-specific statements in this Part are grounded in official Glean documentation accessed on **August 24, 2026**. Connector behavior, authentication, crawl schedules, fields, limits, and Admin console controls vary by source, connector version, deployment, and purchased features. Confirm the current source-specific guide before advising a customer.
 >
-> **Candidate honesty note:** This Part builds interview-ready working knowledge; it does not claim that Arti has administered Glean connectors in production. Her professional evidence comes from Microsoft 365, SharePoint Online, OneDrive, sync, permissions, escalation, and customer-support experience.
+> **Candidate honesty note:** This Part builds interview-ready working knowledge; it does not claim that you have administered Glean connectors in production. Your professional evidence comes from Microsoft 365, SharePoint Online, OneDrive, sync, permissions, escalation, and customer-support experience.
 
 ---
 
@@ -1083,7 +1083,7 @@ Then say:
 
 ### Microsoft 365 bridge
 
-> "My SharePoint Online and OneDrive background transfers strongly because I already troubleshoot content scope, app permissions, user identity, group membership, sync state, freshness, and client-versus-service behavior. As an ODSP Sync Client SME, I learned to compare known-good and affected objects and users rather than treating sync as one binary status. For Glean, I would apply that discipline while learning each connector's specific Admin console signals and source API behavior."
+> "My SharePoint Online and OneDrive background transfers strongly because I already troubleshoot content scope, app permissions, user identity, group membership, sync state, freshness, and client-versus-service behavior. As an sync-client subject-matter expert, I learned to compare known-good and affected objects and users rather than treating sync as one binary status. For Glean, I would apply that discipline while learning each connector's specific Admin console signals and source API behavior."
 
 ---
 
@@ -1158,7 +1158,7 @@ Then say:
 - [ ] I can interpret status, items synced, crawl rate, change rate, and alerts without overtrusting one metric.
 - [ ] I can use the layered troubleshooting flow and customer-update templates.
 - [ ] I completed the Finance policy lab aloud.
-- [ ] I can connect ODSP sync and Microsoft 365 permission experience to Glean honestly.
+- [ ] I can connect product sync and Microsoft 365 permission experience to Glean honestly.
 
 ---
 

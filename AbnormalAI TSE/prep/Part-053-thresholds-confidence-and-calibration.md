@@ -27,14 +27,14 @@ After completing this Part, you should be able to:
 - explain abstention, reject option, deferral, fallback, and human-review queues;
 - map policy/rule/exception/override/audit layers around a model output;
 - troubleshoot ticket contradictions using event IDs, versions, timestamps, configuration, comparable examples, and audit evidence; and
-- connect Arti's Copilot evaluation/training, analytics/SQL/Python, support trends, fix validation, and customer communication only as transferable skills.
+- connect your Copilot evaluation/training, analytics/SQL/Python, support trends, fix validation, and customer communication only as transferable skills.
 
 ## JD Mapping
 
-| Supplied role signal | Capability built | Transferable Arti evidence | Boundary |
+| Supplied role signal | Capability built | Transferable evidence | Boundary |
 |---|---|---|---|
 | Behavioral false-positive tickets | Traces score-to-policy-to-action and threshold tradeoffs | Structured comparison and validation | No claim of changing Abnormal thresholds |
-| Threat investigations | Avoids treating score as proof; uses corroboration | Evidence-first CRITSIT investigations | No production security-scoring claim |
+| Threat investigations | Avoids treating score as proof; uses corroboration | Evidence-first critical-situation investigations | No production security-scoring claim |
 | Customer communication | Explains uncertainty/calibration and contradictions safely | Technical/nontechnical enterprise updates | No undocumented score interpretation |
 | Configuration support | Checks policy, exceptions, overrides, versions, and effective time | Microsoft cloud configuration troubleshooting | Abnormal controls require approved docs |
 | Product/Engineering escalation | Supplies matched examples and exact semantics question | Escalation and fix validation | Protected model/calibration details remain authorized |
@@ -46,7 +46,7 @@ After completing this Part, you should be able to:
 
 | Evidence tier | Safe statement | Do not imply |
 |---|---|---|
-| **Production transfer** | "I have compared versions/configuration and validated expected versus actual behavior in enterprise support." | That Arti owned production model thresholds |
+| **Production transfer** | "I have compared versions/configuration and validated expected versus actual behavior in enterprise support." | That you owned production model thresholds |
 | **Local/public lab** | "I calculated fictional threshold matrices, reliability bins, and Brier scores by hand." | That values represent Abnormal outputs |
 | **Learned architecture** | "I understand calibration and responsible evaluation from official sources." | That generic calibration methods match vendor implementation |
 | **No direct experience** | "I have not operated Abnormal AI or its scoring/policy pipeline in production." | Knowledge of private score scales or customer controls |

@@ -122,7 +122,7 @@ flowchart TD
 
 | Source | Used for | Volatility |
 |---|---|---|
-| Candidate CV — Arti Thakur | Experience, tools, certifications, honesty mapping | ⚪ Candidate-owned |
+| Candidate CV — you | Experience, tools, certifications, honesty mapping | ⚪ Candidate-owned |
 | Supplied job description (`P19357_3403190`) | The JD Coverage Matrix and every JD Mapping table | 🔴 |
 
 **Verified CV facts used throughout** (Parts 001, 126, 129, 130; Appendix K):
@@ -130,16 +130,16 @@ flowchart TD
 | Fact |
 |---|
 | Bangalore, India |
-| Support Escalation Engineer, Microsoft, Oct 2024–present (ODSP + Copilot) |
-| Support Engineer, ODSP, Sep 2021–Sep 2024; internship Apr–Jul 2021 — **5 years total** |
-| CSAT **4.75+** Enterprise, **4.85+** SMB; **100+ recognitions** |
-| ODSP SME; ACE Star Achiever; Pulse Awards; Technical Advisor programme; Aspire Leadership Council |
+| Senior support escalation role, most recent employer |
+| Earlier support roles and an internship — **total tenure as recorded on your own CV** |
+| a strong customer-satisfaction record; repeated peer and customer recognition |
+| product subject-matter expert; an internal excellence award; internal recognition awards; technical-advisor programme; a leadership-development council |
 | Identity: AD, LDAP, Group Policy, IAM, AuthN/AuthZ, Microsoft Entra ID |
 | Networking: TCP/IP, OSI, HTTP/HTTPS, TLS/SSL, DNS/DHCP, proxies, firewalls, routing |
 | Tools: Wireshark, Netsh, Network Monitor, Procmon, DevTools, HAR, Fiddler |
 | Programming: **Python (strongest)**, JavaScript, SQL/PostgreSQL, Power Platform, Copilot Studio |
-| MBA Business Analytics (Manipal, ongoing 2026, 9.64); BE CS (Chandigarh University, 8.45, 2021) |
-| Certs: Technical Advisors Program 2026; Copilot Studio 2026; AI-102 2025; AZ-900 2025; DP-900 2025; AI-900 2024; Power BI 2023 |
+| A postgraduate business-analytics qualification (Manipal, ongoing 2026, 9.64); BE CS (Chandigarh University, 8.45, 2021) |
+| Certifications: technical-advisor programme; plus the cloud, data and AI certifications you actually hold |
 
 **Named gaps carried consistently across all 130 Parts:**
 

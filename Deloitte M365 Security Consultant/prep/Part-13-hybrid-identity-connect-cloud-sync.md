@@ -15,13 +15,13 @@ This Part supplies the directory-provisioning foundation used by the governance 
 | Plan secure transformation | Compare Connect Sync/Cloud Sync and PHS/PTA/federation migrations | Decision record, pilot and cutover plan |
 | Maintain resilience | Design staging/active agents, PHS backup, health, emergency access and DR | BCDR runbook and exercise |
 | Minimize client disruption | Use filtering, matching, accidental-delete protection, staged rollout and rollback | Positive/negative/rollback matrix |
-| Coordinate vendors/stakeholders | Align AD, HR, security, M365, network, PKI, app and Microsoft support owners | RACI, workshop and escalation package |
+| Coordinate vendors/stakeholders | Align AD, HR, security, M365, network, PKI, app and enterprise support owners | RACI, workshop and escalation package |
 
 ## Candidate honesty note
 
-Arti can credibly connect this Part to production Microsoft 365 escalation behaviors: tracing SharePoint/OneDrive identity and sync symptoms across clients and services, comparing affected populations, correlating network and authentication evidence, managing critical incidents, coordinating customers/vendors/product groups, documenting RCA, and validating changes.
+You can credibly connect this Part to production Microsoft 365 escalation behaviors: tracing SharePoint/OneDrive identity and sync symptoms across clients and services, comparing affected populations, correlating network and authentication evidence, managing critical incidents, coordinating customers/vendors/product groups, documenting RCA, and validating changes.
 
-This Part does **not** claim that Arti deployed or operated production Entra Connect Sync, Cloud Sync, PHS, PTA, AD FS, password writeback, or hybrid-identity migrations. Safe wording is:
+This Part does **not** claim that you deployed or operated production Entra Connect Sync, Cloud Sync, PHS, PTA, AD FS, password writeback, or hybrid-identity migrations. Safe wording is:
 
 > “My direct production experience is complex Microsoft 365 escalation, SharePoint/OneDrive and sync troubleshooting, multi-party RCA, documentation, and fix validation. I have completed a current hybrid-identity paper design covering AD DS, Connect Sync, Cloud Sync, authentication choices, matching, migration, testing, monitoring, and disaster recovery. I can defend the architecture and investigation method while being clear that it is design/lab evidence rather than production hybrid-identity ownership.”
 
@@ -857,7 +857,7 @@ Do not troubleshoot by clearing immutable IDs, disabling takeover protection, tu
 | Change/DR/testing | Service owner with CAB/business stakeholders |
 | Microsoft/vendor escalation | Named technical advisor/vendor manager |
 
-Arti’s demonstrated ability to build evidence packs, coordinate vendors/product groups and communicate incident timelines maps naturally to this RACI. The honest gap remains hands-on operation of the hybrid platform itself.
+Your demonstrated ability to build evidence packs, coordinate vendors/product groups and communicate incident timelines maps naturally to this RACI. The honest gap remains hands-on operation of the hybrid platform itself.
 
 ---
 

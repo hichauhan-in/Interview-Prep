@@ -1,6 +1,6 @@
 # Part 30 - ONTAP SAN Architecture, LUNs, igroups, and Multipathing
 
-> **Section goal:** Learn how ONTAP presents block storage safely from a SAN-enabled SVM through target LIFs/ports, initiator identities, igroups, mappings, LUN IDs and stable device identity to host multipathing, volume managers, file systems, databases and clustered applications. By the end, Arti should be able to discover ownership, reason about space/alignment/paths/reservations/snapshots, prevent destructive mistakes, troubleshoot by stage, and make an evidence-based customer recommendation.
+> **Section goal:** Learn how ONTAP presents block storage safely from a SAN-enabled SVM through target LIFs/ports, initiator identities, igroups, mappings, LUN IDs and stable device identity to host multipathing, volume managers, file systems, databases and clustered applications. By the end, you should be able to discover ownership, reason about space/alignment/paths/reservations/snapshots, prevent destructive mistakes, troubleshoot by stage, and make an evidence-based customer recommendation.
 
 Covers index item **30** and maps directly to job-description responsibilities for customer-environment discovery, SAN/storage depth, stability and risk analysis, supportability, customer recommendations, upgrade/change planning, service reviews, and escalation evidence.
 
@@ -8,7 +8,7 @@ Covers index item **30** and maps directly to job-description responsibilities f
 
 Exact SAN protocols, target LIF/port behavior, LUN types and provisioning, igroup fields, LUN ID rules, host utilities, Asymmetric Logical Unit Access (ALUA), Multipath I/O (MPIO) policies, space guarantees/reclamation, alignment, SCSI reservations, snapshot/application consistency, expansion/deletion workflows, commands, limits, and supported combinations vary by ONTAP release, platform, host OS/hypervisor/application, adapter, driver/firmware, fabric/network, and configuration. Verify current official documentation, **Interoperability Matrix Tool (IMT)** results/notes, **Hardware Universe (HWU)** for relevant hardware facts, host/application guidance, and authorized evidence.
 
-> **No-production-NetApp boundary:** Arti does not claim production NetApp or ONTAP SAN experience. Every SVM, LUN, initiator, path, reservation, host, customer and result below is synthetic. Her factual experience is Microsoft enterprise support, Azure/virtual machines, Windows networking, storage fundamentals, CRITSIT ownership, analytics and customer communication. The explicit non-claim is: **she has not provisioned or deleted a production ONTAP LUN, managed igroups/maps, configured host utilities/MPIO/ALUA, expanded a host filesystem, cleared SCSI reservations, or restored an application from an ONTAP SAN snapshot.**
+> **No-production-NetApp boundary:** You do not claim production NetApp or ONTAP SAN experience. Every SVM, LUN, initiator, path, reservation, host, customer and result below is synthetic. Your factual experience is enterprise support, Azure/virtual machines, Windows networking, storage fundamentals, critical-situation ownership, analytics and customer communication. The explicit non-claim is: **you have not provisioned or deleted a production ONTAP LUN, managed igroups/maps, configured host utilities/MPIO/ALUA, expanded a host filesystem, cleared SCSI reservations, or restored an application from an ONTAP SAN snapshot.**
 
 ---
 
@@ -681,11 +681,11 @@ flowchart TD
 
 ### JD Mapping
 
-| JD responsibility | Part 30 contribution | Arti's factual bridge and gap |
+| JD responsibility | Part 30 contribution | Your factual bridge and gap |
 |---|---|---|
 | Understand customer environment | Maps app/host/MPIO/fabric/target/LUN/backing ownership | Azure/VM/network method transfers; ONTAP SAN operation unproven |
 | Storage depth | Covers LUNs, igroups/maps, space, ALUA/MPIO, reservations and consistency | Conceptual/synthetic only |
-| Risk/stability | Finds duplicate devices, path common fate, capacity and destructive hazards | CRITSIT safety method transfers |
+| Risk/stability | Finds duplicate devices, path common fate, capacity and destructive hazards | critical-situation safety method transfers |
 | Supportability | Requires exact host/adapter/driver/firmware/fabric/ONTAP IMT evidence | No customer/gated result claimed |
 | Recommendations | Connects split ownership to safe owner/test/residual risk | Advisory/escalation strength |
 | Service review | Reports paths, capacity, protection, support gaps and actions | Analytics/business-review strength |
@@ -695,7 +695,7 @@ flowchart TD
 
 ## 15. Fully synthetic scenario: Contoso Payments duplicate devices and capacity
 
-> **Synthetic case:** Contoso Payments, every host, LUN, path, metric and outcome below is fictional. It is not a NetApp customer, internal process, tool result, or Arti's production work.
+> **Synthetic case:** Contoso Payments, every host, LUN, path, metric and outcome below is fictional. It is not a NetApp customer, internal process, tool result, or your production work.
 
 ### Environment
 
@@ -799,13 +799,13 @@ flowchart TD
 
 ---
 
-## 16. Arti's factual transfer and honest positioning
+## 16. Your factual transfer and honest positioning
 
 ```mermaid
 flowchart LR
     AZ[Azure/VM production context] --> LAYER[Guest host network storage ownership layers]
     WIN[Windows networking/support] --> MPIO[Device paths drivers timeouts evidence]
-    CRIT[CRITSIT escalation] --> SAFE[Impact stable identity stop destructive action]
+    CRIT[Critical-situation escalation] --> SAFE[Impact stable identity stop destructive action]
     BI[Analytics/business reviews] --> CAP[Capacity/performance trends and recommendations]
     ENG[Product/Engineering collaboration] --> PACK[Reproducible escalation and exact ask]
     LAYER --> SAN[ONTAP SAN synthetic method]
@@ -820,12 +820,12 @@ flowchart LR
 |---|---|---|
 | Azure/VM | Layered host/virtual/storage ownership | No production ONTAP LUN provisioning |
 | Windows/network support | Drivers, paths, identity and evidence discipline | No host-utility/MPIO/ALUA configuration claim |
-| CRITSIT | Stop unsafe action, preserve identity, coordinate owners | No reservation/cluster recovery authority |
+| Critical situation | Stop unsafe action, preserve identity, coordinate owners | No reservation/cluster recovery authority |
 | Analytics | Capacity/performance data quality and service review | No ONTAP SAN counter/tool production use |
 
 ### Honest answer
 
-> "I understand ONTAP SAN architecture from SAN SVMs and target endpoints through initiator identities, igroups, maps, LUN IDs, stable device identity, host utilities, MPIO/ALUA, host filesystems, reservations, space/alignment and application-consistent protection. My production experience is Microsoft support, Azure/VM/networking and analytics, not ONTAP SAN administration. I would verify exact IMT/HWU and application guidance, use authorized read-only evidence and work with host, fabric, application and NetApp specialists before any mapping or destructive action."
+> "I understand ONTAP SAN architecture from SAN SVMs and target endpoints through initiator identities, igroups, maps, LUN IDs, stable device identity, host utilities, MPIO/ALUA, host filesystems, reservations, space/alignment and application-consistent protection. My production experience is enterprise support, Azure/VM/networking and analytics, not ONTAP SAN administration. I would verify exact IMT/HWU and application guidance, use authorized read-only evidence and work with host, fabric, application and NetApp specialists before any mapping or destructive action."
 
 ---
 
@@ -978,7 +978,7 @@ flowchart LR
 
 ### Q8. How does your background transfer, and what remains a gap?
 
-> **Model answer:** "My Azure/VM, Windows networking, storage fundamentals, CRITSIT and analytics work gives me layered ownership, stable-identity, path, evidence and risk discipline. I understand ONTAP SAN architecture but have not provisioned LUNs, managed igroups, MPIO/ALUA, reservations or SAN restores in production. I would use current docs, authorized read-only evidence, exact IMT/HWU and host/fabric/app/NetApp specialists before changes."
+> **Model answer:** "My Azure/VM, Windows networking, storage fundamentals, critical situation and analytics work gives me layered ownership, stable-identity, path, evidence and risk discipline. I understand ONTAP SAN architecture but have not provisioned LUNs, managed igroups, MPIO/ALUA, reservations or SAN restores in production. I would use current docs, authorized read-only evidence, exact IMT/HWU and host/fabric/app/NetApp specialists before changes."
 
 ---
 
@@ -1000,7 +1000,7 @@ flowchart LR
 - **Expansion:** Storage first, then rescan and upper layers in supported order.
 - **Retirement:** Quiesce -> remove host use -> unmap -> retain -> delete.
 - **Split ownership:** Every change needs the owner above and below the LUN.
-- **Arti's bridge:** Host/path/evidence rigor transfers; ONTAP SAN production operation does not.
+- **Your bridge:** Host/path/evidence rigor transfers; ONTAP SAN production operation does not.
 
 ---
 

@@ -1,14 +1,14 @@
 # Part 96 - Zscaler Agentic SecOps Architecture and Workflows
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 
 > **Purpose:** Explain the current official public Zscaler Agentic SecOps architecture and workflow story from zero, including first-party and third-party signals, the security graph, business-context enrichment, risk prioritization, agentic triage and investigation, adaptive Zero Trust controls, feedback loops, existing-tool complementarity, and portfolio boundaries.
 
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH tenant, product, license, source, identity, device, app, graph, alert, story, agent, date, score, action, metric, decision, and result is invented. Arti's factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler, Agentic SecOps, Agentic SOC, Data Fabric for Security, Zero Trust Exchange, Deception, Threat Hunting, MDR, exposure-management, SOC, incident-response, and customer security authority remain learning boundaries.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH tenant, product, license, source, identity, device, app, graph, alert, story, agent, date, score, action, metric, decision, and result is invented. Your factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler, Agentic SecOps, Agentic SOC, Data Fabric for Security, Zero Trust Exchange, Deception, Threat Hunting, MDR, exposure-management, SOC, incident-response, and customer security authority remain learning boundaries.
 
 > **Currency caveat:** Agentic SecOps is an evolving portfolio story. Product names, page routes, architecture, agents, telemetry, integrations, graph relationships, interfaces, fields, actions, automation, metrics, packaging, service scope, limits, and entitlements can change. The controlled official-source snapshot and source review date for this Part is exactly **2026-08-24**. Current official technical and ordering documentation, licensed-tenant evidence, customer policy, contracts, product specialists, Zscaler Support, source-native evidence, and tested runbooks govern production decisions.
 
-> **Section goal:** Enable Arti to explain Zscaler's current public Agentic SecOps story accurately and operationally: identify what official pages state, draw a nonproprietary reasoning model for signal-to-action workflows, show how graph and business context support priority and investigation, govern agentic assistance and adaptive response, troubleshoot each boundary, and state exactly what must be verified in a real customer environment.
+> **Section goal:** Enable you to explain Zscaler's current public Agentic SecOps story accurately and operationally: identify what official pages state, draw a nonproprietary reasoning model for signal-to-action workflows, show how graph and business context support priority and investigation, govern agentic assistance and adaptive response, troubleshoot each boundary, and state exactly what must be verified in a real customer environment.
 
 The primary reviewed public page positions Zscaler Agentic SecOps as connecting proactive and reactive security operations. It describes first-party Zscaler telemetry combined with third-party signals, a security graph built from network, identity, asset, and cloud context, business and risk context, unified threat stories, risk-based prioritization, agentic triage and investigation, right-sized adaptive response through Zero Trust Exchange and third-party controls, and feedback from incidents into exposure and posture programs. It also presents solution areas including Agentic SOC, Deception, Exposure Management, Threat Hunting, and Managed Detection and Response.
 
@@ -59,7 +59,7 @@ flowchart LR
 
 ## Candidate honesty note
 
-Arti can say: "I have studied Zscaler's Agentic SecOps public architecture as of August 24, 2026 and can explain how its signal, context, graph, agentic-workflow, and adaptive-control story fits a broader SecOps operating model. My production experience is Microsoft enterprise Support Escalation Engineering, networking evidence, analytics, critical coordination, mentoring, and responsible AI evaluation. I have not configured or operated Agentic SecOps in a production tenant, so I would verify current licensing, integrations, data, agents, actions, and customer authority."
+You can say: "I have studied Zscaler's Agentic SecOps public architecture as of August 24, 2026 and can explain how its signal, context, graph, agentic-workflow, and adaptive-control story fits a broader SecOps operating model. My production experience is enterprise Support Escalation Engineering, networking evidence, analytics, critical coordination, mentoring, and responsible AI evaluation. I have not configured or operated Agentic SecOps in a production tenant, so I would verify current licensing, integrations, data, agents, actions, and customer authority."
 
 The syntax is intentionally neutral. "Zscaler publicly positions" attributes the source. "A customer might design" labels a general option. "The tenant shows" requires customer evidence. "I would verify" identifies the next professional action. Avoid unsupported affirmative claims such as "I deployed Agentic SOC," "I automated isolation," "I reduced SOC noise," or "the platform correlates every tool."
 
@@ -942,9 +942,9 @@ These official Zscaler pages are the current public anchors used in this chapter
 
 **Model answer:** The official FAQ says many organizations are not looking to replace those tools and emphasizes integration and interoperability. Agentic SecOps can add Zscaler telemetry/context and coordinated workflows, while existing tools may remain authoritative for event retention/search, endpoint causality, identity lifecycle, enterprise cases, or changes. I define use cases and systems of record, test data/action contracts, and rationalize overlap only from measured evidence, not a blanket replacement claim.
 
-### Q8. How would Arti position her readiness honestly?
+### Q8. How would you position your readiness honestly?
 
-**Model answer:** She can accurately explain the dated public architecture and has adjacent production strengths in multi-layer Microsoft service evidence, identity/permission troubleshooting, network traces, analytics, critical escalation, mentoring, and responsible AI evaluation. She can demonstrate synthetic claim ledgers, graph models, agent controls, response matrices, and troubleshooting artifacts. She should say she has not operated production Zscaler Agentic SecOps and would verify tenant licensing, data, integrations, agents, actions, contracts, and authority.
+**Model answer:** You can accurately explain the dated public architecture and has adjacent production strengths in multi-layer Microsoft service evidence, identity/permission troubleshooting, network traces, analytics, critical escalation, mentoring, and responsible AI evaluation. You can demonstrate synthetic claim ledgers, graph models, agent controls, response matrices, and troubleshooting artifacts. You should say you have not operated production Zscaler Agentic SecOps and would verify tenant licensing, data, integrations, agents, actions, contracts, and authority.
 
 ## 30-Second Memory Hooks
 
@@ -969,7 +969,7 @@ These official Zscaler pages are the current public anchors used in this chapter
 | Feedback | Owner, change, test, outcome, residual |
 | Complementarity | Keep systems of record until evidence supports change |
 | TSM | Product truth, adoption, evidence, escalation, boundaries |
-| Arti bridge | Escalation and AI rigor transfer; tenant experience does not |
+| Experience bridge | Escalation and AI rigor transfer; tenant experience does not |
 
 ## Completion Checklist
 

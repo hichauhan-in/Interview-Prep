@@ -8,11 +8,11 @@
 
 ## Section Goal
 
-By the end of this Part, Arti should be able to convert an ambiguous statement such as “Abnormal is broken,” “the AI is wrong,” “the integration stopped,” or “we need this feature” into a precise support scenario. She should define expected and observed outcomes, impact, scope, time, environment, changes, objects, evidence, safety, and the decision the customer needs.
+By the end of this Part, you should be able to convert an ambiguous statement such as “Abnormal is broken,” “the AI is wrong,” “the integration stopped,” or “we need this feature” into a precise support scenario. You should define expected and observed outcomes, impact, scope, time, environment, changes, objects, evidence, safety, and the decision the customer needs.
 
-She should be able to classify configuration; integration/API; behavioral verdict; false-positive/false-negative; threat investigation; onboarding/adoption; permissions; entitlement/documentation; service health; defect; and feature-request scenarios. She should understand that a case can contain several classes, but one **primary decision** should control the initial route while secondary workstreams remain linked.
+You should be able to classify configuration; integration/API; behavioral verdict; false-positive/false-negative; threat investigation; onboarding/adoption; permissions; entitlement/documentation; service health; defect; and feature-request scenarios. You should understand that a case can contain several classes, but one **primary decision** should control the initial route while secondary workstreams remain linked.
 
-Arti should know what an L1 engineer can generally do in a neutral model: acknowledge, scope, protect evidence, reproduce or compare safely, check documented prerequisites, isolate boundaries, apply known supported guidance, communicate, validate, capture knowledge, and escalate with an explicit ask. She should know what L1 must not invent or own: private detection logic, undocumented changes, customer incident command, risk acceptance, legal advice, roadmap promises, contractual entitlement, or uncontrolled remediation.
+You should know what an L1 engineer can generally do in a neutral model: acknowledge, scope, protect evidence, reproduce or compare safely, check documented prerequisites, isolate boundaries, apply known supported guidance, communicate, validate, capture knowledge, and escalate with an explicit ask. You should know what L1 must not invent or own: private detection logic, undocumented changes, customer incident command, risk acceptance, legal advice, roadmap promises, contractual entitlement, or uncontrolled remediation.
 
 The practical outcome is the **Waypoint L1 Scenario Classifier and Boundary-Tree Lab**. It contains twelve harmless synthetic scenarios, a triage classifier, evidence checklists, customer updates, handoffs to CSM/Engineering/Product/SOC, escalation packets, and a scored decision tree. No product account, customer data, tenant, mail, API, ticket system, or live support process is used.
 
@@ -34,11 +34,11 @@ The practical outcome is the **Waypoint L1 Scenario Classifier and Boundary-Tree
 
 ## Candidate Honesty Note
 
-Arti's Microsoft enterprise support and escalation background directly supports L1 ownership, CRITSIT communication, customer/partner updates, Engineering/Product collaboration, fix validation, KB/training, mentoring, case quality, and support analytics. SharePoint Online, OneDrive, Sync Client, and Copilot are the named workload boundaries. Networking, REST/JSON, identity, diagnostic tools, analytics, and AI are transferable foundations. She must not invent experience with Abnormal, direct email-security cases, a customer SOC, Google Workspace, Slack, Okta, Splunk, CrowdStrike, Cortex SOAR, Zendesk, Salesforce, Jira, or Zoom.
+Your prior enterprise support and escalation background directly supports L1 ownership, critical-situation communication, customer/partner updates, Engineering/Product collaboration, fix validation, KB/training, mentoring, case quality, and support analytics. SharePoint Online, OneDrive, Sync Client, and Copilot are the named workload boundaries. Networking, REST/JSON, identity, diagnostic tools, analytics, and AI are transferable foundations. You must not invent experience with Abnormal, direct email-security cases, a customer SOC, Google Workspace, Slack, Okta, Splunk, CrowdStrike, Cortex SOAR, Zendesk, Salesforce, Jira, or Zoom.
 
 | Evidence label | Honest use | Boundary |
 |---|---|---|
-| **Production-transfer example** | Real Microsoft case ownership, escalation, communication, validation, knowledge, mentoring, analytics | No invented security/product scenario or result |
+| **Production-transfer example** | Real enterprise case ownership, escalation, communication, validation, knowledge, mentoring, analytics | No invented security/product scenario or result |
 | **Working knowledge/upskilling** | Networking, APIs, JSON, identity, tools, AI, SaaS concepts | Do not imply production scale or named-tool use |
 | **Local/public lab** | Synthetic classifier, updates, evidence packets, handoffs | No Abnormal/ticketing/customer operation |
 | **Learned architecture** | Official public product context and neutral case model | No internal support process claim |
@@ -770,7 +770,7 @@ Randomize the twelve cards. In three minutes each state:
 | Onboarding/adoption | Setup checklist | Readiness/use | Goals, owners, tests, operations, training, adoption, outcome, guardrails, handoff |
 | Defect/feature | Everything bug | Difference stated | Contract/repro versus user-job/gap/evidence/promise boundary precise |
 | Product/process honesty | Internal flow invented | Disclaimer | No private fields/queues/SLAs/entitlements/runbooks/actions; public facts attributed |
-| Candidate honesty | Lab/transfer sounds production | Gap stated | Every case labeled synthetic; Microsoft transfer precise; named gaps explicit |
+| Candidate honesty | Lab/transfer sounds production | Gap stated | Every case labeled synthetic; experience transfer precise; named gaps explicit |
 | Privacy/admin | Real case/system | Synthetic | No accounts/contact/data/secrets/private docs; cleanup/retention complete |
 
 **Passing target:** 42/48 or higher, with 4s in classification, L1 boundary, technical escalation, cross-functional handoff, product/process honesty, candidate honesty, and privacy/admin. Any product/customer interaction, real case/evidence/credential, private documentation, invented SLA/entitlement/process, unsupported product behavior, or production claim is an automatic failure.
@@ -848,9 +848,9 @@ Randomize the twelve cards. In three minutes each state:
 
 ### Q8.
 
-**Question:** How does your Microsoft background transfer to this L1 role?
+**Question:** How does your prior background transfer to this L1 role?
 
-**Model answer:** My five years of Microsoft enterprise support and escalation provide production evidence in complex intake, CRITSIT communication, customer/partner trust, Engineering/Product escalation, fix validation, KB/training, mentoring, and support analytics. Those methods directly support L1 classification and ownership. I do not claim Abnormal, direct email security, customer SOC, or named adjacent-tool production experience. My current security/product proof is official-source study and safe synthetic labs such as this classifier.
+**Model answer:** My several years of enterprise support and escalation provide production evidence in complex intake, critical-situation communication, customer/partner trust, Engineering/Product escalation, fix validation, KB/training, mentoring, and support analytics. Those methods directly support L1 classification and ownership. I do not claim Abnormal, direct email security, customer SOC, or named adjacent-tool production experience. My current security/product proof is official-source study and safe synthetic labs such as this classifier.
 
 ## 30-Second Memory Hooks
 
@@ -869,7 +869,7 @@ Randomize the twelve cards. In three minutes each state:
 - **Escalate an explicit question, not confusion.**
 - **Warm handoff: context, evidence, acceptance, checkpoint, continuity.**
 - **Fix shipped is activity; customer validation is outcome.**
-- **Microsoft support method transfers; target product operation remains a gap.**
+- **enterprise support method transfers; target product operation remains a gap.**
 
 ## Completion Checklist
 
@@ -893,7 +893,7 @@ Randomize the twelve cards. In three minutes each state:
 - [ ] I scored at least 42/48, with 4s in classification, L1 boundary, technical escalation, cross-functional handoff, product/process honesty, candidate honesty, and privacy/admin.
 - [ ] I used no product/customer/ticketing/CRM/mail/SaaS/API/account/contact, real case/evidence/credential, private documentation, entitlement, SLA, or internal process.
 - [ ] I made no claim about Abnormal's exact case fields, queues, severity, L1 access, runbooks, entitlements, SLAs, handoffs, incident process, roadmap, or customer behavior.
-- [ ] I use Arti's Microsoft, M365, networking, API/data, customer, KB/training, mentoring, and AI facts only as transferable background.
+- [ ] I use your prior support, cloud, networking, API/data, customer, KB/training, mentoring, and AI facts only as transferable background.
 - [ ] I can answer all eight interview questions aloud under follow-up pressure without claim drift.
 - [ ] I revalidated every official source against August 24, 2026.
 

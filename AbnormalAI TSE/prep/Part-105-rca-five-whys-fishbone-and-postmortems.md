@@ -2,7 +2,7 @@
 
 > **Purpose:** Build a careful, evidence-led method for learning from incidents without confusing a trigger, a nearby failure, a contributing condition, or a human action with a proven root or systemic cause.
 >
-> **Artifact honesty label:** **Local synthetic RCA comparison and postmortem design only.** Every organization, person, customer, service, incident, symptom, impact, event, timestamp, cause, condition, action, owner, due date, verification result, and identifier in the worked artifacts is fictional unless an official source is explicitly cited or Arti's Microsoft experience is explicitly described as Microsoft experience. SignalBridge Lab 105 was not performed while this Part was authored. No Abnormal AI, Microsoft, customer, mailbox, identity, security, ticketing, incident, production, or external system was accessed or changed. Proposed actions were not assigned, approved, executed, or verified.
+> **Artifact honesty label:** **Local synthetic RCA comparison and postmortem design only.** Every organization, person, customer, service, incident, symptom, impact, event, timestamp, cause, condition, action, owner, due date, verification result, and identifier in the worked artifacts is fictional unless an official source is explicitly cited or your prior experience is explicitly described as prior experience. SignalBridge Lab 105 was not performed while this Part was authored. No Abnormal AI, Microsoft, customer, mailbox, identity, security, ticketing, incident, production, or external system was accessed or changed. Proposed actions were not assigned, approved, executed, or verified.
 >
 > **Currency and source access date:** August 24, 2026.
 
@@ -10,7 +10,7 @@
 
 Root cause analysis, usually shortened to **RCA**, is a disciplined investigation of why an unwanted outcome became possible and what evidence-supported changes would reduce recurrence or impact. It is not a hunt for the person nearest the failure, a ritual that must end at five answers, or a way to turn a plausible story into certainty. A useful RCA distinguishes what happened, what triggered it, what conditions shaped it, what mechanisms produced it, what remains unknown, and which actions can be owned and verified.
 
-This Part teaches Arti to:
+This Part teaches you to:
 
 1. separate a **proximate cause**, **root or systemic cause**, **trigger**, **contributing factor**, and **condition**;
 2. build a normalized **timeline** before writing a causal story;
@@ -72,20 +72,20 @@ The diagram is a learning loop, not a universal employer workflow. In a real inc
 | Recurring issue prevention | Turns patterns into owned improvements | Selects actions tied to mechanisms, with due dates and verification | Corrective-action register |
 | Critical-incident follow-through | Transitions from response to learning without losing ownership | Preserves timeline, decisions, residual risk, and handoffs | Postmortem timeline and action ledger |
 | Security-aware support | Stops ordinary handling when evidence or proposed reenactment crosses a protected boundary | Uses minimum evidence and the authorized security/privacy/legal route | Stop-and-escalate branch |
-| Microsoft enterprise support background | Transfers evidence discipline, stakeholder communication, escalation, and fix validation | Describes actual Microsoft work only at a defensible level | Honest transfer statement |
+| enterprise support background | Transfers evidence discipline, stakeholder communication, escalation, and fix validation | Describes actual prior work only at a defensible level | Honest transfer statement |
 | Abnormal AI learning goal | Demonstrates a product-neutral method without inventing incident facts | Explicitly identifies internal policy, tooling, role, and process gaps to learn after joining | Source-and-boundary ledger |
 
 ## Candidate honesty note
 
-Arti can truthfully connect this Part to her five years in Microsoft customer-facing enterprise support. The master guide and tailored background support experience with SharePoint Online, OneDrive, Sync Client, and Copilot support; case ownership; critical situations described in the Microsoft context as CRITSITs; Engineering or Product collaboration; customer and partner updates; fix validation; knowledge work; mentoring; and case-quality improvement. Those capabilities transfer naturally to timeline building, evidence discipline, stakeholder communication, action follow-through, and asking whether a returned fix actually corrected the customer outcome.
+You can truthfully connect this Part to your several years in enterprise customer-facing support. The master guide and tailored background support experience with SharePoint Online, OneDrive, Sync Client, and Copilot support; case ownership; critical situations described in a prior-employer context as critical situations; Engineering or Product collaboration; customer and partner updates; fix validation; knowledge work; mentoring; and case-quality improvement. Those capabilities transfer naturally to timeline building, evidence discipline, stakeholder communication, action follow-through, and asking whether a returned fix actually corrected the customer outcome.
 
-They do not prove that Arti authored a formal RCA at Microsoft unless she has a real example she can defend. They do not prove experience with Abnormal AI incidents, postmortem templates, internal data, causal taxonomies, action trackers, security workflows, customers, products, or decision rights. This Part supplies a local synthetic practice artifact, not employment history.
+They do not prove that you authored a formal RCA in a previous role unless you have a real example you can defend. They do not prove experience with Abnormal AI incidents, postmortem templates, internal data, causal taxonomies, action trackers, security workflows, customers, products, or decision rights. This Part supplies a local synthetic practice artifact, not employment history.
 
-> “My Microsoft enterprise support experience taught me to preserve a clear timeline, separate customer impact from technical hypotheses, coordinate specialists, communicate uncertainty, and validate fixes against the original outcome. I would bring those habits to RCA work. I would not assume Microsoft terminology or process applies at Abnormal, and I have not handled an Abnormal incident. I would first learn the current postmortem criteria, security and legal boundaries, systems of record, review roles, action ownership model, and disclosure rules.”
+> “My prior enterprise support experience taught me to preserve a clear timeline, separate customer impact from technical hypotheses, coordinate specialists, communicate uncertainty, and validate fixes against the original outcome. I would bring those habits to RCA work. I would not assume prior-employer terminology or process applies at Abnormal, and I have not handled an Abnormal incident. I would first learn the current postmortem criteria, security and legal boundaries, systems of record, review roles, action ownership model, and disclosure rules.”
 
 | Evidence tier | Safe wording | What supports it | Overclaim to avoid |
 |---|---|---|---|
-| Microsoft production experience | “In Microsoft enterprise support, I maintained case evidence, coordinated specialists, communicated with customers, and validated returned fixes.” | A real, confidentiality-safe story Arti can defend | “I used Abnormal's RCA process” or an invented Microsoft postmortem role |
+| prior production experience | “In enterprise support, I maintained case evidence, coordinated specialists, communicated with customers, and validated returned fixes.” | A real, confidentiality-safe story you can defend | “I used Abnormal's RCA process” or an invented Microsoft postmortem role |
 | Local synthetic practice | “I designed this RCA comparison and complete fictional postmortem; the lab itself remains unperformed.” | This authored Part and its validation record | “I investigated a live incident” |
 | Learned public guidance | “Public reliability and incident-learning guidance supports blameless, evidence-led review and tracked improvement.” | Dated official or primary sources with boundaries | “This source defines Abnormal policy” |
 | Proposed future behavior | “I would verify internal criteria, owner authority, review gates, and data handling before starting.” | A bounded ramp plan | Naming an internal tool, queue, approver, deadline, or disclosure rule without evidence |
@@ -823,7 +823,7 @@ RCA can create harm when it exposes sensitive evidence, pressures a risky reenac
 | Due date without risk logic | Arbitrary date creates false commitment | Base date on current risk, dependencies, and authority | Priority conflict requires leadership decision |
 | Documentation-only fix | Easy task closes while mechanism remains | Prefer stronger controls; label documentation as supporting | Residual risk exceeds accepted threshold |
 | Postmortem as customer statement | Internal uncertainty or sensitive detail may be disclosed | Use authorized audience-specific communication | External disclosure is requested |
-| Microsoft-to-Abnormal projection | Familiar process becomes invented employer fact | Transfer habits, then learn current process | Any Abnormal-specific claim lacks authorized evidence |
+| support-to-Abnormal projection | Familiar process becomes invented employer fact | Transfer habits, then learn current process | Any Abnormal-specific claim lacks authorized evidence |
 
 ### Non-negotiable prohibitions
 
@@ -916,7 +916,7 @@ If performed later, the learner creates one local Markdown artifact containing a
 
 - A learner-owned local folder and a plain-text or Markdown editor.
 - This Part as a read-only reference.
-- No Abnormal AI, Microsoft production, customer, mailbox, tenant, identity, endpoint, API, network, ticketing, incident, CRM, collaboration, security, monitoring, change, knowledge, HR, legal, or external system.
+- No Abnormal AI, prior production, customer, mailbox, tenant, identity, endpoint, API, network, ticketing, incident, CRM, collaboration, security, monitoring, change, knowledge, HR, legal, or external system.
 - No real person, customer, employer, event, incident, postmortem, case, message, log, alert, identifier, action, timestamp, decision, source code, configuration, metric, or internal process.
 - No password, token, cookie, key, secret, MFA code, recovery code, authorization header, credential-shaped placeholder, or authenticated URL.
 - Obvious fictional aliases such as `ORG-105-FICTION`, `PM-105-LAB-A`, `ROLE-105-A`, relative time such as `FT+05`, and `example.invalid` only if a domain-shaped value is necessary.
@@ -991,7 +991,7 @@ If performed later, the learner creates one local Markdown artifact containing a
 50. Search for destructive verbs such as delete, purge, wipe, clear, overwrite, truncate, revoke, reset, release, or destroy; every occurrence must be a prohibition or conceptual warning.
 51. Search for risky verbs such as replay, execute, scan, inject, load, bypass, disable, deploy, contain, remediate, or notify; every occurrence must be a prohibition or authorized conceptual boundary.
 52. Search for `root cause`, `caused`, `confirmed`, `fixed`, `resolved`, `completed`, `approved`, `accepted`, `verified`, and `effective`; ensure each use matches evidence and state.
-53. Search for `Abnormal` and `Microsoft`; retain only honesty boundaries, public-source boundaries, or defensible Microsoft transfer wording.
+53. Search for `Abnormal` and `Microsoft`; retain only honesty boundaries, public-source boundaries, or defensible experience transfer wording.
 54. Confirm there are no Abnormal incident facts, invented internal processes, tools, queues, roles, thresholds, owners, timelines, or customer details.
 55. Count the exact H1, recognized Mermaid declarations and fences, deep-dive headings, Markdown tables, worked examples, decision tree, failure/escalation sections, source rows, interview questions, answer labels, and final navigation link.
 56. Confirm the word floor is at least 6,500 words.
@@ -1004,7 +1004,7 @@ If performed later, the learner creates one local Markdown artifact containing a
 63. Practice a ninety-second explanation of trigger versus systemic cause.
 64. Practice explaining why Five Whys is a prompt and fishbone is an organizer, not proof.
 65. Practice defending a multi-cause conclusion against pressure for one root.
-66. Practice an honest Arti/Microsoft transfer answer with no Abnormal incident claim.
+66. Practice an honest you/experience transfer answer with no Abnormal incident claim.
 67. Practice proposing an action with owner, due date, implementation evidence, effectiveness verification, and reopen condition.
 68. When learning use ends, follow current approved local retention policy; do not issue destructive commands or claim universal deletion.
 
@@ -1044,7 +1044,7 @@ If the lab is actually performed later, expected evidence is:
 - a failure-mode and prohibition review that explicitly covers blame, evidence deletion, unsupported attribution, fabricated facts/actions, sensitive data, and risky reenactment;
 - at least eight official or primary sources with an authority boundary for each;
 - one deterministic validation ledger with no more than three cycles; and
-- no login, external interaction, real data, production work, risky test, action assignment, evidence deletion, personal attribution, Abnormal incident claim, or Microsoft-to-Abnormal process transfer.
+- no login, external interaction, real data, production work, risky test, action assignment, evidence deletion, personal attribution, Abnormal incident claim, or support-to-Abnormal process transfer.
 
 ### Cleanup and privacy
 
@@ -1055,7 +1055,7 @@ If the lab is actually performed later, expected evidence is:
 - Do not recreate suspicious content, replay traffic or messages, test credentials, scan, generate load, force a fault, exhaust capacity, change a security control, or interact with a production-like target.
 - Do not delete or alter real evidence. If real or sensitive material appears, stop processing and sharing, restrict exposure, preserve only what current policy permits, and invoke the authorized privacy, security, legal, HR, compliance, or records route.
 - If unperformed, record `SignalBridge Lab 105 remains a reviewed design and was not executed.`
-- If later performed and passed, record `SignalBridge Lab 105 was completed locally with learner-authored fictional text only; no real incident, system, customer, person, sensitive data, risky reenactment, evidence deletion, unsupported attribution, fabricated fact/action, production operation, Abnormal incident fact, or Microsoft-to-Abnormal process claim was used.`
+- If later performed and passed, record `SignalBridge Lab 105 was completed locally with learner-authored fictional text only; no real incident, system, customer, person, sensitive data, risky reenactment, evidence deletion, unsupported attribution, fabricated fact/action, production operation, Abnormal incident fact, or support-to-Abnormal process claim was used.`
 
 ### Validation rubric
 
@@ -1077,7 +1077,7 @@ Score every row. Any automatic-failure condition makes the overall result `FAIL`
 | Blamelessness | Person or team is endpoint | Blame avoided but context thin | Context is reconstructed and conduct concerns route separately |
 | Failure/escalation | Warnings are generic | Some stops exist | Named failure modes, automatic stops, and authorized escalation paths are explicit |
 | Safety/privacy | Real/sensitive data, risky reenactment, deletion, or production action appears | Local warning lacks detailed controls | Local synthetic scope and all named prohibitions are enforced |
-| Candidate honesty | Lab/Microsoft work becomes Abnormal experience | Gap implied | Microsoft transfer, local artifact, learned guidance, and Abnormal gap stay separate |
+| Candidate honesty | Lab/prior work becomes Abnormal experience | Gap implied | experience transfer, local artifact, learned guidance, and Abnormal gap stay separate |
 | Sources | Fewer than eight or boundaries absent | Sources exist with generic caveat | At least eight official/primary sources each has an explicit authority boundary |
 | Interview section | Count or answer label differs from contract | Eight entries but weak evidence/ethics | Exactly eight numbered questions each has one required answer label |
 | Deterministic review | Counts or result absent | Informal review | Every gate is counted, no more than three cycles, and status changes only after PASS |
@@ -1110,11 +1110,11 @@ Score every row. Any automatic-failure condition makes the overall result `FAIL`
 
 ## Official Source Anchors - August 24, 2026
 
-These official or primary sources anchor public RCA, incident-learning, safety-investigation, reliability, and response concepts. They do not establish facts about the fictional examples, Arti's undisclosed work, or Abnormal AI's incidents, thresholds, templates, systems, customers, owners, action process, disclosure rules, or internal policy.
+These official or primary sources anchor public RCA, incident-learning, safety-investigation, reliability, and response concepts. They do not establish facts about the fictional examples, your undisclosed work, or Abnormal AI's incidents, thresholds, templates, systems, customers, owners, action process, disclosure rules, or internal policy.
 
 | Official or primary source | Concept anchored | Explicit authority boundary |
 |---|---|---|
-| [Google SRE Workbook - Postmortem Culture](https://sre.google/workbook/postmortem-culture/) | Primary Google SRE guidance on blameless learning, postmortem practice, and organizational culture | Google practices are examples, not Abnormal policy; the page does not prove a cause, assign an owner, authorize disclosure, or describe Arti's experience |
+| [Google SRE Workbook - Postmortem Culture](https://sre.google/workbook/postmortem-culture/) | Primary Google SRE guidance on blameless learning, postmortem practice, and organizational culture | Google practices are examples, not Abnormal policy; the page does not prove a cause, assign an owner, authorize disclosure, or describe your experience |
 | [Google SRE Book - Example Postmortem](https://sre.google/sre-book/example-postmortem/) | Primary example of impact, timeline, root-cause discussion, resolution, lessons, and action items | An example format is not a universal template and does not make fictional or unsupported statements true |
 | [Google SRE Book - Postmortem Culture: Learning from Failure](https://sre.google/sre-book/postmortem-culture/) | Primary discussion of postmortem criteria, blamelessness, review, and action tracking | Google's terminology, thresholds, publication choices, and organization design do not transfer automatically to another employer |
 | [NIST SP 800-61 Rev. 3 - Incident Response Recommendations](https://csrc.nist.gov/pubs/sp/800/61/r3/final) | Primary U.S. government guidance connecting cybersecurity incident response, recovery, and improvement to risk management | It does not declare a specific event a security incident or authorize L1 attribution, evidence collection, containment, eradication, notification, or disclosure |
@@ -1125,14 +1125,14 @@ These official or primary sources anchor public RCA, incident-learning, safety-i
 | [AHRQ PSNet - Root Cause Analysis](https://psnet.ahrq.gov/primer/root-cause-analysis) | Official U.S. healthcare patient-safety overview of RCA, contributing factors, and action limitations | Healthcare safety evidence and governance differ from SaaS support; it does not provide clinical, legal, or employer-specific authority here |
 | [ASQ - Fishbone Diagram](https://asq.org/quality-resources/fishbone) | Primary professional-quality resource for cause-and-effect diagram purpose and construction | A diagram organizes possible causes; ASQ guidance does not validate entries, prove causation, or define an employer's categories |
 | [IHI - RCA2: Improving Root Cause Analyses and Actions to Prevent Harm](https://www.ihi.org/resources/tools/rcca2-improving-root-cause-analyses-and-actions-prevent-harm) | Primary framework source emphasizing analysis plus stronger corrective actions in healthcare safety | RCA2 is not automatically an organization's adopted method and does not grant healthcare, legal, disciplinary, or production authority |
-| [Microsoft Azure Well-Architected Framework - Reliability](https://learn.microsoft.com/en-us/azure/well-architected/reliability/) | Official Microsoft guidance on reliability design, failure analysis, recovery, and continuous improvement in Azure workloads | Public Azure architecture guidance is not evidence of Arti's specific cases, one universal Microsoft process, Abnormal architecture, or an approved action in any environment |
+| [Microsoft Azure Well-Architected Framework - Reliability](https://learn.microsoft.com/en-us/azure/well-architected/reliability/) | Official Microsoft guidance on reliability design, failure analysis, recovery, and continuous improvement in Azure workloads | Public Azure architecture guidance is not evidence of your specific cases, one universal Microsoft process, Abnormal architecture, or an approved action in any environment |
 
 Source discipline:
 
 - Public reliability and quality sources offer methods and examples. They cannot prove a factual cause in a specific event; only authorized evidence and review can do that.
 - Cybersecurity sources do not grant ordinary Support authority to collect unrestricted evidence, declare an incident or breach, attribute an actor, contain systems, notify parties, or disclose restricted details.
 - Safety and healthcare sources provide valuable causal and blameless-learning lessons, but their regulatory, legal, clinical, and organizational settings differ from enterprise SaaS support.
-- Microsoft's public guidance and Arti's defensible Microsoft support background can support a transfer story about evidence, communication, coordination, and validation. They do not define Abnormal policy or prove that Arti performed a particular postmortem.
+- Microsoft's public guidance and your defensible enterprise support background can support a transfer story about evidence, communication, coordination, and validation. They do not define Abnormal policy or prove that you performed a particular postmortem.
 - ASQ fishbone guidance explains an organizer; it does not turn brainstormed categories into evidence.
 - Source content, versions, and URLs can change after August 24, 2026. Revalidate current official and internal sources, permissions, retention, disclosure, security, legal, HR, action ownership, and review criteria before real work.
 
@@ -1162,9 +1162,9 @@ Source discipline:
 
 **Model answer:** I tie each action to a supported causal link and label whether it changes occurrence, detection, containment, recovery, or learning. I prefer proportionate guardrails, limits, isolation, automated checks, and release tests over reminders alone. The action needs an accepted owner, due date, authority, dependencies, implementation evidence, effectiveness criteria, observation window, regression checks, and a reopen condition. I keep proposed, accepted, implemented, and verified states separate. A code merge or document publication can prove implementation, but only outcome evidence can support effectiveness.
 
-### Q7. How does your Microsoft support background transfer to RCA work here?
+### Q7. How does your prior support background transfer to RCA work here?
 
-**Model answer:** My Microsoft enterprise support background gives me transferable habits: maintaining a coherent case timeline, separating customer impact from technical hypotheses, coordinating specialists, communicating uncertainty, following actions, and validating a returned fix against the original outcome. I would use a real Microsoft example only within confidentiality and only claim duties I actually performed. I have not handled an Abnormal incident and do not know its internal postmortem thresholds, tooling, roles, disclosure rules, or action process. I would learn those first and transfer the habits, not Microsoft labels or assumptions.
+**Model answer:** My prior enterprise support background gives me transferable habits: maintaining a coherent case timeline, separating customer impact from technical hypotheses, coordinating specialists, communicating uncertainty, following actions, and validating a returned fix against the original outcome. I would use a real Microsoft example only within confidentiality and only claim duties I actually performed. I have not handled an Abnormal incident and do not know its internal postmortem thresholds, tooling, roles, disclosure rules, or action process. I would learn those first and transfer the habits, not Microsoft labels or assumptions.
 
 ### Q8. What would make you stop or escalate an RCA?
 
@@ -1204,7 +1204,7 @@ Source discipline:
 - [ ] I prohibit blame, evidence deletion, unsupported attribution, fabricated facts/actions, sensitive data, and risky reenactment.
 - [ ] I stop and escalate through authorized routes for security, privacy, legal, HR, compliance, disclosure, restricted evidence, risky testing, ownership conflict, and unaccepted risk.
 - [ ] I describe SignalBridge Lab 105 as local, synthetic, and unperformed unless I later complete it and every gate passes.
-- [ ] I describe Microsoft experience as Microsoft experience and do not claim any Abnormal incident fact or internal process.
+- [ ] I describe prior experience as prior experience and do not claim any Abnormal incident fact or internal process.
 - [ ] I can explain what each official source anchors and where its authority stops.
 - [ ] I can answer all eight interview questions aloud without inventing experience or certainty.
 

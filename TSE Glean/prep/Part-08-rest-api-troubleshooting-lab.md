@@ -97,7 +97,7 @@ Caller identity and environment
 
 | JSON type | Example |
 |---|---|
-| Object | `{"name":"Arti"}` |
+| Object | `{"name":"You"}` |
 | Array | `["a","b"]` |
 | String | `"ten"` |
 | Number | `10` |

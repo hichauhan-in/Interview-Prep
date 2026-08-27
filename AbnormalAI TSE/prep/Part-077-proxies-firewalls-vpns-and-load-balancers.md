@@ -8,9 +8,9 @@
 
 ## Section goal
 
-By the end of this Part, Arti should be able to distinguish forward, explicit, transparent/intercepting, and reverse proxies; explain Proxy Auto-Configuration (PAC) at a high level; narrate HTTP CONNECT and 407 proxy authentication; and draw enterprise TLS inspection as two protected sessions. She should be able to explain stateful firewall rules, allow/drop/reject behavior, egress controls, IP/FQDN allowlist limitations, and why a client-side timeout does not prove a firewall.
+By the end of this Part, you should be able to distinguish forward, explicit, transparent/intercepting, and reverse proxies; explain Proxy Auto-Configuration (PAC) at a high level; narrate HTTP CONNECT and 407 proxy authentication; and draw enterprise TLS inspection as two protected sessions. You should be able to explain stateful firewall rules, allow/drop/reject behavior, egress controls, IP/FQDN allowlist limitations, and why a client-side timeout does not prove a firewall.
 
-She should be able to compare full-tunnel and split-tunnel virtual private networks (VPNs), read their route and DNS implications, and identify overlapping prefixes or path changes without changing client configuration. She should understand Layer 4 (L4) versus Layer 7 (L7) load balancers, health checks, backend pools, affinity, TLS termination/passthrough/re-encryption, and why front-end success does not prove backend health.
+You should be able to compare full-tunnel and split-tunnel virtual private networks (VPNs), read their route and DNS implications, and identify overlapping prefixes or path changes without changing client configuration. You should understand Layer 4 (L4) versus Layer 7 (L7) load balancers, health checks, backend pools, affinity, TLS termination/passthrough/re-encryption, and why front-end success does not prove backend health.
 
 The support objective is to map **ownership boundaries**. The local application may connect to a forward proxy rather than the SaaS origin; a reverse proxy may answer 502 while its backend TLS fails; a stateful firewall may drop one direction; a VPN may install more-specific routes and split DNS; and a load balancer may route only one tenant/path to an unhealthy node. A strong escalation names each leg, identity, policy, timer, and owner.
 
@@ -31,7 +31,7 @@ The support objective is to map **ownership boundaries**. The local application 
 
 ## Candidate honesty note
 
-Arti can present proxies, firewalls, VPNs, load balancers, PAC, TLS inspection, and related tools as **working familiarity and learned architecture**. Her production transfer is Microsoft enterprise support across client/cloud boundaries, CRITSIT coordination, customer communication, Engineering escalation, and fix validation. She should not claim to have administered production firewall rulebases, VPN concentrators, PAC infrastructure, certificate-inspection policy, cloud load balancers, or Abnormal edge services.
+You can present proxies, firewalls, VPNs, load balancers, PAC, TLS inspection, and related tools as **working familiarity and learned architecture**. Your production transfer is enterprise support across client/cloud boundaries, critical-situation coordination, customer communication, Engineering escalation, and fix validation. You should not claim to have administered production firewall rulebases, VPN concentrators, PAC infrastructure, certificate-inspection policy, cloud load balancers, or Abnormal edge services.
 
 | Evidence tier | Safe statement | Boundary |
 |---|---|---|

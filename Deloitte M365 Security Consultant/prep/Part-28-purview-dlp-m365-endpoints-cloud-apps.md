@@ -2,7 +2,7 @@
 
 > **Section goal:** Design Microsoft Purview Data Loss Prevention (DLP) as a measurable business control rather than a collection of blocking rules. By the end, you should be able to draw the DLP architecture; explain policies, locations, rules, conditions, groups, exceptions, actions, policy tips, overrides, business justifications, alerts, incident reports, and evidence; compare Exchange, SharePoint, OneDrive, Teams, endpoint, browser, Defender for Cloud Apps, managed/unmanaged cloud-app, and adaptive-protection behavior; plan simulation, priority, staged rollout, tuning, incident response, rollback, operations, metrics, and layered troubleshooting.
 
-This Part maps to Deloitte's Microsoft 365 security consulting, Purview/DLP design, endpoint and cloud-app protection, assessment, transformation, incident support, policy troubleshooting, and operational-readiness expectations. It uses Arti's direct SharePoint Online, OneDrive, permissions, sharing, sync, content, compliance-aligned support, critical incidents, RCA, and stakeholder coordination as a practical foundation for DLP discovery and troubleshooting. It does **not** claim production implementation of Purview DLP, Endpoint DLP, Defender for Cloud Apps integration, Insider Risk Management, or Adaptive Protection. [Part 29](Part-29-purview-lifecycle-records-management.md) follows with retention, records, defensible disposition, and workload-specific preservation/deletion.
+This Part maps to Deloitte's Microsoft 365 security consulting, Purview/DLP design, endpoint and cloud-app protection, assessment, transformation, incident support, policy troubleshooting, and operational-readiness expectations. It uses your direct SharePoint Online, OneDrive, permissions, sharing, sync, content, compliance-aligned support, critical incidents, RCA, and stakeholder coordination as a practical foundation for DLP discovery and troubleshooting. It does **not** claim production implementation of Purview DLP, Endpoint DLP, Defender for Cloud Apps integration, Insider Risk Management, or Adaptive Protection. [Part 29](Part-29-purview-lifecycle-records-management.md) follows with retention, records, defensible disposition, and workload-specific preservation/deletion.
 
 > **Currency, licensing, preview, portal, and change-sensitive note:** This chapter was checked against official Microsoft Learn available on **August 24, 2026**. Use the unified Microsoft Purview portal at `https://purview.microsoft.com`; DLP alerts also integrate with the Microsoft Defender portal. Licenses differ by location and capability. Endpoint DLP, advanced classification, evidence collection, adaptive protection, managed/unmanaged cloud apps, browser/network DLP, alert aggregation, contextual summaries, device groups, authorization groups, Copilot/AI locations, and advanced classifiers have distinct prerequisites. Current preview/change-sensitive features include Inline web traffic and Network Data Security, Microsoft 365 Copilot location/actions, URL conditions for unmanaged cloud apps, IP address/range entries for sensitive sites, selected SharePoint/OneDrive external-domain/user restrictions, alert-triage agents, policy/rule display-name changes, some enhanced matched conditions, browser/network email notifications, and Windows Recall restrictions. Verify Product Terms, service descriptions, supported locations/conditions/actions, operating-system and antimalware builds, extensions, regional availability, release notes, Message center, roadmap, and the tenant's actual UI before implementation.
 
@@ -19,9 +19,9 @@ This Part maps to Deloitte's Microsoft 365 security consulting, Purview/DLP desi
 
 ## Candidate honesty note
 
-Arti can directly claim SharePoint Online and OneDrive content, permissions, sharing, sync, customer-impacting incidents, RCA, stakeholder coordination, and compliance-aligned support where evidenced. This is relevant to DLP because SharePoint/OneDrive policy behavior depends on file ownership, sharing state, search/classification, links, guests, versions, service latency, and user workflow.
+You can directly claim SharePoint Online and OneDrive content, permissions, sharing, sync, customer-impacting incidents, RCA, stakeholder coordination, and compliance-aligned support where evidenced. This is relevant to DLP because SharePoint/OneDrive policy behavior depends on file ownership, sharing state, search/classification, links, guests, versions, service latency, and user workflow.
 
-She should not imply that she has deployed DLP policies, onboarded endpoints, configured browser/service domains, collected endpoint evidence, integrated Defender for Cloud Apps, or operated Adaptive Protection unless she has separate production evidence. Safe wording is:
+You should not imply that you have deployed DLP policies, onboarded endpoints, configured browser/service domains, collected endpoint evidence, integrated Defender for Cloud Apps, or operated Adaptive Protection unless you have separate production evidence. Safe wording is:
 
 > “My direct production foundation is SharePoint Online, OneDrive, permissions, sharing, sync, escalations, RCA, and compliance-aligned support. I have built a current DLP architecture and paper lab covering Microsoft 365, endpoints, browsers, cloud apps, simulation, tuning, incident response, rollback, and operations. I would validate it in a licensed nonproduction tenant and controlled endpoint pilot with privacy, legal, HR, SOC, endpoint, workload, and business owners.”
 
@@ -225,7 +225,7 @@ In SharePoint/OneDrive, a DLP rule that restricts external access can identify s
 
 **Analogy:** Security can seal a document as soon as it enters the records room rather than waiting for someone to carry it toward the exit.
 
-Arti's background is useful when checking site, file owner/modifier, sharing links, existing guests, version, search/index state, sync, and whether the user is seeing a policy result or a normal SharePoint permission failure.
+Your background is useful when checking site, file owner/modifier, sharing links, existing guests, version, search/index state, sync, and whether the user is seeing a policy result or a normal SharePoint permission failure.
 
 ## 9. Teams DLP
 
@@ -802,7 +802,7 @@ Compare a working and failing user/device/item. Use Activity Explorer pairs such
 
 ### Scenario A: customer spreadsheet shared externally from OneDrive
 
-Use exact/built-in customer identifiers, external-sharing context, and simulation. Determine whether external restriction should be proactive. Validate item ownership, guest link, label/encryption, index timing, alert, tip and approved partner exception. Arti can directly connect this to OneDrive sharing/support while describing DLP configuration as design/lab knowledge.
+Use exact/built-in customer identifiers, external-sharing context, and simulation. Determine whether external restriction should be proactive. Validate item ownership, guest link, label/encryption, index timing, alert, tip and approved partner exception. You can directly connect this to OneDrive sharing/support while describing DLP configuration as design/lab knowledge.
 
 ### Scenario B: payroll data copied to USB
 

@@ -8,9 +8,9 @@
 
 ## Section Goal
 
-By the end of this Part, Arti should be able to explain why SaaS security is not merely “secure the web application.” The customer operates a changing estate of tenants, users, administrators, service accounts, applications, OAuth grants, sessions, configurations, data, integrations, and audit sources. Security depends on which identity can perform which action on which resource, under which policy and context, and whether that authority remains necessary and observable.
+By the end of this Part, you should be able to explain why SaaS security is not merely “secure the web application.” The customer operates a changing estate of tenants, users, administrators, service accounts, applications, OAuth grants, sessions, configurations, data, integrations, and audit sources. Security depends on which identity can perform which action on which resource, under which policy and context, and whether that authority remains necessary and observable.
 
-Arti should be able to distinguish authentication from authorization; direct roles from effective privilege; an application registration from a consented grant; configuration state from posture interpretation; exposure from exploitation; unusual behavior from confirmed misuse; guidance from an authorized change; and a remediation request from validated target state. She should identify customer, SaaS provider, identity provider, integration vendor, SOC, Support, Engineering, Product, privacy, and business-owner boundaries.
+You should be able to distinguish authentication from authorization; direct roles from effective privilege; an application registration from a consented grant; configuration state from posture interpretation; exposure from exploitation; unusual behavior from confirmed misuse; guidance from an authorized change; and a remediation request from validated target state. You should identify customer, SaaS provider, identity provider, integration vendor, SOC, Support, Engineering, Product, privacy, and business-owner boundaries.
 
 The practical outcome is the **Orbit Ledger SaaS Risk and Control Map Lab**. It uses a fictional tenant, identities, apps, grants, settings, and audit events. It produces no real tenant or account and performs no sign-in, OAuth consent, configuration change, API call, or security test.
 
@@ -27,15 +27,15 @@ The practical outcome is the **Orbit Ledger SaaS Risk and Control Map Lab**. It 
 | Cloud Email Security | Includes mail-related apps, identities, and configuration without claiming product implementation | Cross-domain use case |
 | Engineering/Product collaboration | Creates exact posture, effective-state, and event-correlation asks | Escalation packets |
 | Customer trust/privacy | Minimizes tenant/user/app data and preserves authority | Evidence and responsibility map |
-| Microsoft 365 | Uses Arti's Microsoft cloud background only as transferable context and current public posture page as public product context | Honest candidate bridge |
+| Microsoft 365 | Uses your prior cloud background only as transferable context and current public posture page as public product context | Honest candidate bridge |
 
 ## Candidate Honesty Note
 
-Arti's production Microsoft enterprise-support experience gives her a useful foundation in tenant-aware cloud troubleshooting, permissions/configuration reasoning, customer communication, service evidence, Engineering/Product escalation, and fix validation. AD/Entra, SSO/SAML/OAuth, REST/JSON, networking, Power Automate/Apps, and analytics are working concepts. She must not claim Microsoft 365 security posture administration, Exchange security, formal identity governance, Abnormal SaaS Security, Okta, Slack, or other named-platform production operation unless supported elsewhere by real evidence.
+Your production enterprise-support experience gives you a useful foundation in tenant-aware cloud troubleshooting, permissions/configuration reasoning, customer communication, service evidence, Engineering/Product escalation, and fix validation. AD/Entra, SSO/SAML/OAuth, REST/JSON, networking, Power Automate/Apps, and analytics are working concepts. You must not claim Microsoft 365 security posture administration, Exchange security, formal identity governance, Abnormal SaaS Security, Okta, Slack, or other named-platform production operation unless supported elsewhere by real evidence.
 
 | Evidence label | Honest use | Boundary |
 |---|---|---|
-| **Production-transfer example** | Microsoft enterprise cloud support, complex cases, communication, escalation, validation | No direct SaaS-security program or Abnormal product claim |
+| **Production-transfer example** | enterprise cloud support, complex cases, communication, escalation, validation | No direct SaaS-security program or Abnormal product claim |
 | **Working knowledge/upskilling** | AD/Entra, OAuth/SSO, APIs/JSON, networking, automation, analytics | Do not imply architecture or administrator depth |
 | **Local/public lab** | Fictional tenant, risk graph, grant review, posture/behavior cases | No real SaaS account, consent, API, configuration, or audit data |
 | **Learned architecture** | Neutral SaaS security model and official public Abnormal context | No exact product scope or mechanism |
@@ -539,7 +539,7 @@ flowchart TD
 | Unusual behavior equals insider threat | Benign/operational alternatives exist | Correlate context and customer authority | Employee/HR concern |
 | Remediation request equals corrected | Async/partial state remains | Validate effective/target state and audit | Consequential state unknown |
 | Public Abnormal page defines all SaaS Security | Scope is incomplete/evolving | Attribute examples and keep JD mapping open | Product ownership question |
-| Microsoft support becomes security admin claim | Overstates candidate depth | Use tenant/support method as transfer | Interview asks exact administration |
+| enterprise support becomes security admin claim | Overstates candidate depth | Use tenant/support method as transfer | Interview asks exact administration |
 
 ## Orbit Ledger SaaS Risk and Control Map Lab
 
@@ -699,7 +699,7 @@ The expected evidence is the complete synthetic artifact set below, with traceab
 | Remediation ownership | Support changes tenant | Owner named | Authority, dependencies, rollback, effective state, business/audit validation complete |
 | Evidence/privacy | Real tenant/data | Synthetic | Minimum fields, no secrets, tenant safety path, cleanup complete |
 | Escalation | Generic “SaaS issue” | IDs/impact | Three boundary-specific packets with explicit asks and continuity |
-| Candidate/product honesty | Admin/Product use implied | Gap stated | Microsoft transfer, public facts, neutral model, private unknown precise |
+| Candidate/product honesty | Admin/Product use implied | Gap stated | experience transfer, public facts, neutral model, private unknown precise |
 | Reproducibility/admin | Live operation | Partial artifacts | Full known-ground-truth set, score, no activity, retention complete |
 
 **Passing target:** 42/48 or higher, with 4s in tenant/resource model, OAuth/app reasoning, effective privilege, risk restraint, evidence/privacy, candidate/product honesty, and reproducibility/admin. Any real tenant/account/app/consent/token/API/change/audit data, cross-tenant exploration, private product claim, or production experience claim is an automatic failure.
@@ -777,7 +777,7 @@ The expected evidence is the complete synthetic artifact set below, with traceab
 
 **Question:** What direct SaaS Security experience do you claim?
 
-**Model answer:** I do not claim Abnormal SaaS Security or named non-Microsoft SaaS/security administration in production. My production foundation is five years of Microsoft enterprise support across named cloud workloads, with complex investigation, customer communication, Engineering/Product escalation, fix validation, knowledge, mentoring, and analytics. AD/Entra, OAuth/SSO, API/JSON, networking, and automation are working foundations. This Part adds official-source learning and a synthetic tenant/risk lab.
+**Model answer:** I do not claim Abnormal SaaS Security or named non-Microsoft SaaS/security administration in production. My production foundation is several years of enterprise support across named cloud workloads, with complex investigation, customer communication, Engineering/Product escalation, fix validation, knowledge, mentoring, and analytics. AD/Entra, OAuth/SSO, API/JSON, networking, and automation are working foundations. This Part adds official-source learning and a synthetic tenant/risk lab.
 
 ## 30-Second Memory Hooks
 
@@ -819,7 +819,7 @@ The expected evidence is the complete synthetic artifact set below, with traceab
 - [ ] I scored at least 42/48, with 4s in tenant/resource model, OAuth/app reasoning, effective privilege, risk restraint, evidence/privacy, candidate/product honesty, and reproducibility/admin.
 - [ ] I used no real tenant/account/app/consent/token/API/configuration/audit data, cross-tenant test, named-platform action, or private document.
 - [ ] I made no claim about Abnormal's exact SaaS products, connectors, fields, scopes, cadence, scores, model logic, remediation, retention, entitlements, SLAs, or customer behavior.
-- [ ] I use Arti's Microsoft, M365, networking, API/data, customer, KB/training, mentoring, and AI facts only as transferable background.
+- [ ] I use your prior support, cloud, networking, API/data, customer, KB/training, mentoring, and AI facts only as transferable background.
 - [ ] I can answer all eight interview questions aloud while naming evidence and owner.
 - [ ] I revalidated all official source anchors against August 24, 2026.
 

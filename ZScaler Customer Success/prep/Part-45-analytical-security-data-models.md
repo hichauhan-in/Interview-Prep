@@ -1,10 +1,10 @@
 # Part 45 - Dimensional, Star, Snowflake, Event, Document, and Graph Models
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 >
 > **Purpose:** Build a practical model-selection toolkit for security and customer analytics: facts, dimensions, grain, measures, slowly changing dimensions, conformed dimensions, bridges, star and snowflake schemas, event records, JSON documents, graph nodes/edges/paths, hybrid architectures, transformations, analytical pitfalls, and Power BI delivery.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every source, entity, event, finding, relationship, query, report, measure, path, and outcome is synthetic. SQL and JSON examples are educational PostgreSQL illustrations, not Zscaler schemas. Zscaler Data Fabric for Security is referenced only through public high-level positioning; this Part does not assert undocumented storage models, graph technology, connector behavior, field names, algorithms, limits, performance, or customer results. Arti's SQL, PostgreSQL, Power BI, statistics, Microsoft enterprise troubleshooting, and customer communication transfer; direct production Data Fabric operation remains a learning boundary.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every source, entity, event, finding, relationship, query, report, measure, path, and outcome is synthetic. SQL and JSON examples are educational PostgreSQL illustrations, not Zscaler schemas. Zscaler Data Fabric for Security is referenced only through public high-level positioning; this Part does not assert undocumented storage models, graph technology, connector behavior, field names, algorithms, limits, performance, or customer results. Your SQL, PostgreSQL, Power BI, statistics, enterprise troubleshooting, and customer communication transfer; direct production Data Fabric operation remains a learning boundary.
 >
 > **Currency caveat:** Product capabilities, Power BI behavior, PostgreSQL versions, JSON/SQL features, event schemas, graph technologies, and organizational definitions change. Sources in this Part were reviewed on **2026-08-24**. Current official documentation, licensed features, tenant evidence, source contracts, privacy/security review, measured workloads, and approved architecture govern production.
 
@@ -14,7 +14,7 @@ No single data model is best for every question. A star schema makes repeated fi
 
 Think of a city. A street map helps find routes. A census table supports counts by neighborhood. A diary records events in order. A property file keeps details about one building. A transit dashboard summarizes ridership by time and station. All describe the same city, but forcing one representation to answer every question produces awkward or wrong results.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Proof artifact |
 |---|---|---|
@@ -48,7 +48,7 @@ flowchart LR
 
 ## JD Mapping
 
-| Role expectation | Part 45 capability | TSM artifact | Arti bridge and boundary |
+| Role expectation | Part 45 capability | TSM artifact | experience bridge and boundary |
 |---|---|---|---|
 | Analyze complex security environments | Select models for entities, events, history, aggregates, and paths | Model landscape | Cross-layer Microsoft analysis transfers |
 | Develop Data Fabric expertise | Understand harmonized context as a modeling problem without inventing internals | Conceptual hybrid map | Product implementation remains unclaimed |
@@ -70,7 +70,7 @@ flowchart LR
 | Performance hypothesis | "This design should be tested against the stated query and distribution." | Universal star/JSON/graph performance |
 | Current validation | "I would confirm source semantics, tenant behavior, current docs, access, quality, and workload." | Remembered features as present fact |
 
-The interview advantage is model literacy, not model certainty. Arti can ask what one record means, what changed, how entities match, which query pattern dominates, and how a decision will be validated. That is more credible than naming a fashionable model without its failure modes.
+The interview advantage is model literacy, not model certainty. You can ask what one record means, what changed, how entities match, which query pattern dominates, and how a decision will be validated. That is more credible than naming a fashionable model without its failure modes.
 
 ## Beginner vocabulary and memory hooks
 
@@ -893,7 +893,7 @@ flowchart TD
 16. Correct affected dashboards, tickets, decisions, and communications where necessary.
 17. Add contract, quality, conformance, cycle, fanout, and known-answer regression tests.
 
-## Arti's Microsoft-to-modeling bridge
+## Your experience bridge to modeling
 
 | Demonstrated strength | Model application | Boundary |
 |---|---|---|
@@ -1075,7 +1075,7 @@ Microsoft guidance establishes Power BI star-schema concepts and explicitly note
 | Path | Bounded temporally coherent route |
 | Hybrid | Right map for each workload |
 | Power BI | Dimensions filter, facts summarize |
-| Arti bridge | Analytics transfers; product internals do not |
+| Experience bridge | Analytics transfers; product internals do not |
 
 ## Completion Checklist
 

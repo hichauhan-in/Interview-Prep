@@ -1,10 +1,10 @@
 # Part 94 - Threat Triage, Investigation, Containment, and Right-Sized Response
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 
 > **Purpose:** Explain threat triage, investigation, containment, eradication, recovery, and right-sized response from zero, including step-up authentication, reduced access, isolation, third-party actions, approvals, rollback, validation, and the tradeoffs between security urgency and business disruption.
 
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH identity, device, source, alert, incident, date, decision, approval, action, metric, service, and outcome is invented. Arti's factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler, Agentic SOC, SOC triage, threat investigation, incident command, containment, eradication, recovery, and customer security authority remain learning boundaries.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH identity, device, source, alert, incident, date, decision, approval, action, metric, service, and outcome is invented. Your factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler, Agentic SOC, SOC triage, threat investigation, incident command, containment, eradication, recovery, and customer security authority remain learning boundaries.
 
 > **Currency caveat:** Product capabilities, control names, integrations, interfaces, fields, automation, action semantics, approval models, packaging, limits, and entitlements change. The controlled official-source snapshot and source review date for this Part is exactly **2026-08-24**. Current official documentation, licensed-tenant evidence, customer incident and change policy, product specialists, Support, source-native evidence, and tested runbooks govern production decisions.
 
@@ -56,7 +56,7 @@ flowchart LR
 
 ## Candidate honesty note
 
-Arti can say: "My production experience is enterprise Support Escalation Engineering, where I assessed impact, built timelines, tested hypotheses, coordinated containment and recovery discussions, validated fixes, and communicated under pressure. That method transfers to security response, but I have not been a SOC analyst or incident commander and have not operated Zscaler controls in production. I have practiced this material only through fictional exercises and would follow the customer's authority and current product documentation."
+You can say: "My production experience is enterprise Support Escalation Engineering, where I assessed impact, built timelines, tested hypotheses, coordinated containment and recovery discussions, validated fixes, and communicated under pressure. That method transfers to security response, but I have not been a SOC analyst or incident commander and have not operated Zscaler controls in production. I have practiced this material only through fictional exercises and would follow the customer's authority and current product documentation."
 
 Use neutral syntax: "The evidence supports this bounded conclusion; the risk tradeoff is this; the authorized owner decides; I would verify the result this way." Avoid "I contained the threat," "I isolated customer users," or "I led cyber incident response" unless separately supported by factual experience.
 
@@ -831,9 +831,9 @@ The Zscaler pages support dated public positioning only. The response lifecycle,
 
 **Model answer:** Confirm cause and unsafe persistence are addressed, scope is stable, identities/secrets and endpoints/workloads are trusted, controls and monitoring pass, business owners are ready, and rollback exists. Restore a canary or limited scope, measure security and service postconditions, and expand only if success criteria pass. Otherwise hold, roll back, or reinvestigate. Recovery release is another governed security decision.
 
-### Q8. How does Arti's experience transfer without claiming incident-response experience?
+### Q8. How does your experience transfer without claiming incident-response experience?
 
-**Model answer:** Enterprise escalation work provides factual experience in impact assessment, layered hypotheses, source timelines, mitigation tradeoffs, cross-team authority, status updates, fix validation, recovery, and RCA. Networking traces strengthen path troubleshooting; SQL/Power BI support case/action analytics; mentoring supports runbook adoption. She has studied security response with fictional cases, but production Zscaler controls, SOC triage, containment, and incident command remain explicit learning areas.
+**Model answer:** Enterprise escalation work provides factual experience in impact assessment, layered hypotheses, source timelines, mitigation tradeoffs, cross-team authority, status updates, fix validation, recovery, and RCA. Networking traces strengthen path troubleshooting; SQL/Power BI support case/action analytics; mentoring supports runbook adoption. You have studied security response with fictional cases, but production Zscaler controls, SOC triage, containment, and incident command remain explicit learning areas.
 
 ## 30-Second Memory Hooks
 
@@ -856,7 +856,7 @@ The Zscaler pages support dated public positioning only. The response lifecycle,
 | Residual | What the action did not cover |
 | AI | Recommend with citations; humans govern consequential action |
 | TSM | Enable product evidence and workflow, not customer command |
-| Arti bridge | Escalation method transfers; incident authority does not |
+| Experience bridge | Escalation method transfers; incident authority does not |
 
 ## Completion Checklist
 

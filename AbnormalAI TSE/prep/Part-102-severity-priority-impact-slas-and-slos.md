@@ -2,7 +2,7 @@
 
 > **Purpose:** Build a product-neutral, evidence-based method for classifying a support matter, choosing its order of work, honoring documented service commitments, communicating at a governed rhythm, and escalating without exaggeration, minimization, queue manipulation, unsafe action, or invented promises.
 >
-> **Artifact honesty label:** **Local synthetic classification and communication design only.** Every organization, person, tenant, user, message, request, event, consequence, class, timestamp, threshold, clock, agreement, and result in this Part is fictional unless a public source is explicitly cited. The lab was not performed while this Part was authored. No Abnormal AI, Microsoft, customer, mailbox, identity, API, network, security, ticketing, contractual, or production system was accessed or changed. Arti may describe the lab as completed only after she actually creates the local fictional artifacts and records a deterministic Pass.
+> **Artifact honesty label:** **Local synthetic classification and communication design only.** Every organization, person, tenant, user, message, request, event, consequence, class, timestamp, threshold, clock, agreement, and result in this Part is fictional unless a public source is explicitly cited. The lab was not performed while this Part was authored. No Abnormal AI, Microsoft, customer, mailbox, identity, API, network, security, ticketing, contractual, or production system was accessed or changed. You may describe the lab as completed only after you actually create the local fictional artifacts and records a deterministic Pass.
 >
 > **Currency and source access date:** August 24, 2026.
 
@@ -30,7 +30,7 @@ The title names several related concepts. This table defines every required term
 
 The central analogy is **emergency-department triage joined to a delivery contract**. Triage evaluates consequence and time pressure so the right expertise acts in the right order. The delivery contract defines what was promised and how performance is measured. The analogy is useful because classification and commitment are related but different. It stops being accurate because software services are distributed, effects can be intermittent, security risk can be uncertain, one customer can have several agreements, measurements can lag, and Support cannot diagnose, promise, or change systems outside assigned authority.
 
-The goal is not to memorize a universal matrix. By the end of this Part, Arti should be able to collect accurate inputs, apply the current organization’s matrix, separate classification from queue ordering, distinguish customer commitments from internal reliability goals, track the right clocks, choose truthful communication triggers, reassess when facts change, and escalate ethically. She should never fabricate a promised estimated time of arrival, abbreviated **ETA**, a contractual entitlement, an owner’s acceptance, or an organization-specific target.
+The goal is not to memorize a universal matrix. By the end of this Part, you should be able to collect accurate inputs, apply the current organization’s matrix, separate classification from queue ordering, distinguish customer commitments from internal reliability goals, track the right clocks, choose truthful communication triggers, reassess when facts change, and escalate ethically. You should never fabricate a promised estimated time of arrival, abbreviated **ETA**, a contractual entitlement, an owner’s acceptance, or an organization-specific target.
 
 ```mermaid
 flowchart LR
@@ -64,22 +64,22 @@ This Part prohibits impact inflation, impact minimization, queue gaming, fabrica
 | Recommendations | Distinguishes immediate restoration from durable correction | Labels temporary paths, residual risk, validation owner, and expiration condition | Restoration-versus-resolution worksheet |
 | Postmortem and recurring-pattern work | Separates an individual ticket target from aggregate service reliability | Preserves target measurement, missed controls, and systemic follow-up without blame | Fictional clock and SLI ledger |
 | Support metrics and quality | Recognizes metric gaming and countermeasures | Refuses premature downgrade, duplicate-ticket clock resets, silent pauses, or false resolution | Anti-gaming review table |
-| Microsoft enterprise support background | Transfers calm critical-case coordination and customer communication | Uses a genuine Microsoft example only within its actual product, action, role, and result boundaries | Candidate transfer statement |
+| enterprise support background | Transfers calm critical-case coordination and customer communication | Uses a genuine Microsoft example only within its actual product, action, role, and result boundaries | Candidate transfer statement |
 | Abnormal AI learning goal | Uses public context but defers operational details | Does not invent an Abnormal severity scale, response interval, contract, queue, entitlement, or internal route | Source-and-boundary ledger |
 
 ## Candidate honesty note
 
-Arti can truthfully transfer methods from five years of Microsoft enterprise support: clarifying customer consequence, coordinating CRITSIT work, maintaining customer and partner updates, managing dependencies, collaborating with Engineering or Product, validating a corrective outcome, and analyzing CSAT, backlog, and case quality. If she uses a real example, she should state the Microsoft product, her exact responsibility, what she personally observed or did, what another team owned, and the real outcome she can defend.
+You can truthfully transfer methods from several years of enterprise support: clarifying customer consequence, coordinating critical-situation work, maintaining customer and partner updates, managing dependencies, collaborating with Engineering or Product, validating a corrective outcome, and analyzing CSAT, backlog, and case quality. If you us a real example, you should state the Microsoft product, your exact responsibility, what you personally observed or did, what another team owned, and the real outcome you can defend.
 
-That experience does not establish Abnormal AI production operation, security-incident command, contract interpretation, an Abnormal severity matrix, ticket priority scale, queue rule, SLA, SLO, SLI, error-budget policy, clock behavior, response interval, restoration target, resolution target, after-hours route, entitlement, remedy, escalation authority, or customer communication policy. Microsoft terminology and CRITSIT practice do not define another company’s process. Public Abnormal pages support only high-level product context, not private operational promises.
+That experience does not establish Abnormal AI production operation, security-incident command, contract interpretation, an Abnormal severity matrix, ticket priority scale, queue rule, SLA, SLO, SLI, error-budget policy, clock behavior, response interval, restoration target, resolution target, after-hours route, entitlement, remedy, escalation authority, or customer communication policy. prior-employer terminology and critical-situation practice do not define another company’s process. Public Abnormal pages support only high-level product context, not private operational promises.
 
 A strong interview bridge is:
 
-> “In Microsoft enterprise support, I learned to separate verified business impact from urgency, use the current critical-case process, keep owners and customer checkpoints visible, and avoid promising a resolution date that the evidence or owning team could not support. I have not operated Abnormal’s support process in production, so I would not import Microsoft labels or invent an Abnormal target. I would apply the same evidence discipline through Abnormal’s current severity matrix, customer agreement, security route, and approved communication process.”
+> “In enterprise support, I learned to separate verified business impact from urgency, use the current critical-case process, keep owners and customer checkpoints visible, and avoid promising a resolution date that the evidence or owning team could not support. I have not operated Abnormal’s support process in production, so I would not import Microsoft labels or invent an Abnormal target. I would apply the same evidence discipline through Abnormal’s current severity matrix, customer agreement, security route, and approved communication process.”
 
 | Evidence tier | Safe candidate wording | Evidence available | Claim that would exceed the evidence |
 |---|---|---|---|
-| Microsoft production transfer | “I coordinated high-pressure Microsoft enterprise support work, communicated with customers and partners, and collaborated with Engineering or Product.” | CV-supported work plus a truthful story Arti can explain | “I know Abnormal’s critical-case process because it must work like Microsoft’s.” |
+| prior production transfer | “I coordinated high-pressure enterprise support work, communicated with customers and partners, and collaborated with Engineering or Product.” | CV-supported work plus a truthful story you can explain | “I know Abnormal’s critical-case process because it must work like Microsoft’s.” |
 | Local synthetic lab | “After I actually complete it, I built and validated a fictional classification and cadence packet offline.” | Learner-authored local Markdown plus a passing rubric | “I met a real customer SLA” or “I managed an Abnormal Severity 1 case.” |
 | Learned architecture | “Official SRE material helps me explain SLI, SLO, and error-budget concepts.” | Dated official sources with explicit limits | “Abnormal uses this SLI formula, objective, or error-budget policy.” |
 | No direct experience | “I have not used Abnormal’s internal matrix or contracts; I would verify the current approved source.” | Honest gap and a concrete ramp method | Inventing a level, clock, interval, entitlement, remedy, or route |
@@ -654,7 +654,7 @@ stateDiagram-v2
 
 ## 10. Putting the method into interview language
 
-Interviewers are testing judgment: can Arti remain decisive without inventing policy, protect trust under pressure, and distinguish consequence from commitment? A useful structure is **I-U-S-P-C-E**:
+Interviewers are testing judgment: can you remain decisive without inventing policy, protect trust under pressure, and distinguish consequence from commitment? A useful structure is **I-U-S-P-C-E**:
 
 - **I - Impact:** confirmed, potential, reported, observed, population, duration, security/data consequence, and workaround.
 - **U - Urgency:** active harm, worsening trend, real deadline, evidence decay, workaround durability, and decision window.
@@ -663,9 +663,9 @@ Interviewers are testing judgment: can Arti remain decisive without inventing po
 - **C - Commitments and cadence:** verify the applicable agreement, target type, clock, qualifying event, and communication source; never invent an ETA.
 - **E - Ethical escalation:** route authority or risk with a bounded packet, preserve ownership, and prohibit inflation, minimization, gaming, bypass, harm, secrets, and unnecessary content.
 
-| Interview prompt | Strong answer shape | Microsoft transfer | Required boundary |
+| Interview prompt | Strong answer shape | experience transfer | Required boundary |
 |---|---|---|---|
-| “How do you assign severity?” | Gather impact/urgency facts, apply current matrix, record unknowns and authority, reassess on events | Mention truthful CRITSIT or enterprise triage discipline | Do not quote an Abnormal or Microsoft scale as universal |
+| “How do you assign severity?” | Gather impact/urgency facts, apply current matrix, record unknowns and authority, reassess on events | Mention truthful critical situation or enterprise triage discipline | Do not quote an Abnormal or Microsoft scale as universal |
 | “A customer insists it is P1. What do you do?” | Validate concern, verify consequence, apply criteria, seek authorized review, adjust communication separately | Transfer de-escalation and critical coordination | Do not retaliate, minimize, or inflate |
 | “What is the SLA?” | Ask which agreement, service, plan, channel, target, clock, and measurement apply | Explain disciplined commitment handling | Do not invent a number or offer legal interpretation |
 | “When will it be fixed?” | Give facts, controlled milestone, owner, uncertainty, and governed communication trigger | Use real experience managing uncertain dependencies | Do not promise another team’s completion time |
@@ -684,7 +684,7 @@ The future learner artifact, if actually created, will be one learner-owned loca
 
 - A learner-owned local folder and plain-text or Markdown editor.
 - This Part available as a read-only learning reference.
-- No Abnormal AI, Microsoft production, customer, mailbox, tenant, identity provider, API, cloud, security, ticketing, contract, CRM, status, monitoring, or external system.
+- No Abnormal AI, prior production, customer, mailbox, tenant, identity provider, API, cloud, security, ticketing, contract, CRM, status, monitoring, or external system.
 - No real person, customer, employer, tenant, domain, address, email, message, request, event, incident, case, agreement, target, timestamp, identifier, screenshot, log, capture, content, or product output.
 - No password, token, cookie, key, secret, MFA code, recovery code, authorization header, credential-shaped placeholder, or authenticated URL.
 - Use obvious aliases such as `ORG-102-FICTION`, `CASE-102-A`, `USER-102-A`, `EVENT-102-A`, `CLK-102-A`, and `example.invalid` only if a domain-shaped placeholder is needed.
@@ -837,7 +837,7 @@ Score every row. Any automatic-failure condition makes the overall result Fail. 
 | Inflation/minimization | Possibility becomes fact or critical context is ignored | Bias is mentioned but not controlled | Confirmed/potential split, matrix rationale, independent review, and history prevent both errors |
 | Queue gaming | Clock, status, duplicate, class, response, validation, or closure is manipulated | Generic ethics warning only | Specific gaming risks, controls, audit signals, correction, and no-retaliation review are documented |
 | Safety/privacy | Secret, content, bypass, harmful change, or destructive action appears | Generic warning only | Minimum data, explicit prohibitions, stop conditions, approved route, and owner boundaries are enforced |
-| Candidate honesty | Microsoft or lab work is presented as Abnormal experience | Gap is implied | Microsoft transfer, synthetic practice, learned sources, and no direct Abnormal policy experience are separate |
+| Candidate honesty | Prior-role or lab work is presented as Abnormal experience | Gap is implied | experience transfer, synthetic practice, learned sources, and no direct Abnormal policy experience are separate |
 | Product boundary | Abnormal level, target, contract, queue, clock, or route is invented | Product references are vague | Public context is attributed and every operational detail defers to current authorized sources |
 | Lab execution honesty | Design is presented as performed | State is ambiguous | Unperformed state is explicit; completion requires real local artifacts and a Pass |
 | Interview Q&A | Count differs from Q1-Q8 or an answer lacks `Model answer` | Eight answers exist but omit evidence or boundary | Exactly Q1 through Q8 each contain one credible Model answer with method, ethics, transfer, and limits |
@@ -865,7 +865,7 @@ These official or primary sources anchor public product context, reliability voc
 | [NIST Cybersecurity Framework 2.0](https://www.nist.gov/cyberframework) | Primary risk-management framework and governance resource family | A voluntary framework does not define a support severity scale, customer contract, response target, or product escalation route |
 | [CISA Federal Government Cybersecurity Incident and Vulnerability Response Playbooks](https://www.cisa.gov/news-events/news/cisa-releases-cybersecurity-incident-and-vulnerability-response-playbooks) | Official public incident and vulnerability response playbook context | Federal playbooks do not grant authority in a private customer environment and do not define Abnormal’s process or a support-ticket SLA |
 | [Microsoft Service Level Agreements for Online Services](https://www.microsoft.com/licensing/docs/view/Service-Level-Agreements-SLA-for-Online-Services) | Official Microsoft entry point showing that service commitments are documented and service-specific | Microsoft terms apply only as their actual documents state; they do not transfer to Abnormal, another customer, or a generic support case |
-| [Microsoft Azure Well-Architected Framework - Reliability metrics](https://learn.microsoft.com/en-us/azure/well-architected/reliability/metrics) | Official Microsoft guidance on reliability indicators, objectives, monitoring, and user-oriented metrics | Architecture guidance is not a customer agreement and does not establish Arti’s authority, a product SLO, or a ticket target |
+| [Microsoft Azure Well-Architected Framework - Reliability metrics](https://learn.microsoft.com/en-us/azure/well-architected/reliability/metrics) | Official Microsoft guidance on reliability indicators, objectives, monitoring, and user-oriented metrics | Architecture guidance is not a customer agreement and does not establish your authority, a product SLO, or a ticket target |
 | [RFC 9110 - HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110.html) | Primary standard for HTTP semantics that may inform availability and API observations | HTTP status alone does not define user success, root cause, severity, SLA eligibility, or service ownership; the endpoint contract still controls |
 
 Source discipline:
@@ -874,7 +874,7 @@ Source discipline:
 - Google SRE sources teach reliability concepts. They are not proof that Abnormal, Microsoft, or a customer uses Google’s exact definitions, windows, or error-budget practices.
 - ISO and PeopleCert identify formal service-management source families, not an organization’s implementation, certification, or contractual promise.
 - NIST and CISA support risk-aware preparation and incident coordination. They grant no L1 authority to declare a security/data breach, contain an account, notify a party, interpret law, or make a harmful change.
-- Microsoft sources are a conceptual and experiential bridge for Arti. Microsoft contracts, terminology, tools, CRITSIT processes, and targets never transfer automatically to Abnormal.
+- Microsoft sources are a conceptual and experiential bridge for you. Microsoft contracts, terminology, tools, critical-situation processes, and targets never transfer automatically to Abnormal.
 - RFC 9110 helps interpret HTTP behavior, not business impact or service eligibility. A technically valid HTTP response can still fail the customer journey.
 - Product pages, documentation, standards, and agreements can change after August 24, 2026. Revalidate the current authorized matrix, procedure, agreement, source version, permissions, and customer context before real work.
 
@@ -908,9 +908,9 @@ Source discipline:
 
 **Model answer:** I would preserve the authoritative event timeline and verify which agreement, service, plan, target, clock start and stop, pause rules, calendar, measurement source, and exclusions apply. I would escalate target risk through the current operations or contract path, communicate facts and uncertainty, and continue technical ownership. I would not reset a clock, backdate a response, manipulate status, declare breach from intuition, concede liability, or promise a credit. The authorized owner decides applicability and remedy.
 
-### Q8. How does your Microsoft background transfer without overstating Abnormal experience?
+### Q8. How does your prior background transfer without overstating Abnormal experience?
 
-**Model answer:** Microsoft enterprise support gave me real practice scoping business consequence, coordinating CRITSIT work, keeping customer and partner updates clear, managing Engineering or Product dependencies, and validating outcomes under pressure. Those habits transfer. Microsoft labels, clocks, contracts, queues, and critical-case procedures do not define Abnormal’s operations, and I have not used Abnormal’s internal matrix or support process in production. I would learn the current approved sources before classifying or promising anything and keep that boundary explicit in the interview.
+**Model answer:** enterprise support gave me real practice scoping business consequence, coordinating critical-situation work, keeping customer and partner updates clear, managing Engineering or Product dependencies, and validating outcomes under pressure. Those habits transfer. Microsoft labels, clocks, contracts, queues, and critical-case procedures do not define Abnormal’s operations, and I have not used Abnormal’s internal matrix or support process in production. I would learn the current approved sources before classifying or promising anything and keep that boundary explicit in the interview.
 
 ## Memory Hooks
 
@@ -988,7 +988,7 @@ Source discipline:
 - [ ] I can use the update-cadence matrix without inserting an invented interval.
 - [ ] I can explain what every official source anchors and where its authority stops.
 - [ ] I revalidate the current matrix, agreement, procedure, source version, permission, and customer context after August 24, 2026.
-- [ ] I state that Microsoft enterprise support methods transfer while Microsoft labels, contracts, CRITSIT process, clocks, and tools do not define Abnormal operations.
+- [ ] I state that enterprise support methods transfer while Microsoft labels, contracts, critical-situation process, clocks, and tools do not define Abnormal operations.
 - [ ] I state honestly that I have not operated Abnormal AI’s severity, priority, SLA, SLO, or escalation process in production unless future real experience changes that fact.
 - [ ] I answer Q1 through Q8 aloud with evidence, ethics, ownership, and product-boundary language.
 - [ ] I describe SignalBridge Lab 102 as `DESIGN_NOT_EXECUTED_NOT_TRANSFERRED` unless I actually create the local artifacts and every validation row passes.

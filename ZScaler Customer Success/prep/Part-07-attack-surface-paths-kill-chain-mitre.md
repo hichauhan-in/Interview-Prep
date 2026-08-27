@@ -1,10 +1,10 @@
 # Part 7 - Attack Surface, Attack Paths, Kill Chains, and MITRE ATT&CK
 
-> **Audience:** Arti Thakur, preparing to move from Microsoft 365 Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
+> **Audience:** Candidates preparing to move from Microsoft 365 Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
 >
 > **Currency date:** 2026-08-24.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, and all its assets, identities, pathways, telemetry, tests, findings, scores, incidents, and outcomes are fictional. Arti's established production bridge is Microsoft support, OneDrive, SharePoint, networking, troubleshooting, analytics, mentoring, escalation, and approved AI work. Direct production operation of Zscaler, Security Operations, vulnerability, exposure, scanner, Endpoint Detection and Response, Security Information and Event Management, threat intelligence, red-team, or adversary-emulation programs is not established.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, and all its assets, identities, pathways, telemetry, tests, findings, scores, incidents, and outcomes are fictional. Your established production bridge is enterprise support, OneDrive, SharePoint, networking, troubleshooting, analytics, mentoring, escalation, and approved AI work. Direct production operation of Zscaler, Security Operations, vulnerability, exposure, scanner, Endpoint Detection and Response, Security Information and Event Management, threat intelligence, red-team, or adversary-emulation programs is not established.
 >
 > **Safety:** Every path-validation activity in this chapter is defensive, authorized, bounded, reversible, and based on synthetic or customer-approved evidence. Do not scan, probe, exploit, phish, access, or modify systems without explicit written authorization, scope, rules of engagement, and qualified supervision.
 >
@@ -16,7 +16,7 @@ Part 6 introduced assets, threats, vulnerabilities, exposures, controls, likelih
 
 Think of an airport journey. The attack surface includes public roads, parking entrances, ticket counters, employee doors, baggage systems, websites, suppliers, and human processes. An attack path is one connected route through those surfaces toward an objective. A kill chain describes broad stages of an intrusion. MITRE ATT&CK provides a vocabulary for why and how adversaries behave. A choke point is a place many routes must cross, such as identity verification. Blast radius describes how much harm one successful step can unlock.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Learning outcome | What mastery looks like |
 |---|---|
@@ -47,11 +47,11 @@ By the end, Arti should be able to:
 
 ## Candidate honesty note
 
-Arti can truthfully say that she has traced distributed Microsoft 365 failures across client, identity, permissions, Domain Name System, Transmission Control Protocol, Transport Layer Security, Hypertext Transfer Protocol, proxy, and service evidence. Those are established troubleshooting skills. She may use a path graph to demonstrate transferable reasoning. She must not describe support investigations as threat hunting, adversary emulation, penetration testing, or SOC incident command unless the factual record supports those responsibilities.
+You can truthfully say that you have traced distributed Microsoft 365 failures across client, identity, permissions, Domain Name System, Transmission Control Protocol, Transport Layer Security, Hypertext Transfer Protocol, proxy, and service evidence. Those are established troubleshooting skills. You may use a path graph to demonstrate transferable reasoning. You must not describe support investigations as threat hunting, adversary emulation, penetration testing, or SOC incident command unless the factual record supports those responsibilities.
 
 | Label | Meaning here | Safe example | Boundary |
 |---|---|---|---|
-| Production | Established Microsoft support, networking, analytics, escalation, mentoring, training, and approved AI facts | "I traced a OneDrive request across identity, network, client, and service evidence." | Do not rename the case an attack-path investigation without evidence |
+| Production | Established enterprise support, networking, analytics, escalation, mentoring, training, and approved AI facts | "I traced a OneDrive request across identity, network, client, and service evidence." | Do not rename the case an attack-path investigation without evidence |
 | Lab | A safe exercise using synthetic data and diagrams | "I modeled the NMH path and defined non-exploitative validation checks." | Lab results are not customer outcomes |
 | Conceptual | A framework learned from authoritative material | "I can explain ATT&CK tactics and techniques and would confirm the current version." | Understanding a matrix is not production detection engineering |
 | Not-yet-used | Product or responsibility without direct operation | "I have not administered Zscaler exposure or SecOps products in production." | Do not imply tenant access, tuning, or deployment |
@@ -166,7 +166,7 @@ An attack graph looks authoritative because boxes and arrows are tidy. In realit
 
 A strong graph labels confidence. A policy document may say a network path is blocked, while an authorized test shows it is allowed. A cloud inventory may say an account is disabled, while a cached session remains usable. A scanner may identify a version but not whether the vulnerable feature is active. The graph should preserve disagreements rather than average them into false certainty.
 
-For Arti, this resembles a Microsoft support dependency map. A client-to-service flow contains name resolution, transport, encryption, proxy, authentication, authorization, and application behavior. The security extension asks which transitions an adversary could abuse, what controls apply, and what business objective becomes reachable.
+For you, this resembles a enterprise support dependency map. A client-to-service flow contains name resolution, transport, encryption, proxy, authentication, authorization, and application behavior. The security extension asks which transitions an adversary could abuse, what controls apply, and what business objective becomes reachable.
 
 ## Reachable, vulnerable, exploitable, and consequential
 
@@ -699,7 +699,7 @@ Present the fictional NMH graph to a reviewer. The reviewer must challenge at le
 
 ## Official Source Anchors
 
-**Checked on 2026-08-24.** MITRE material defines and maintains ATT&CK. Lockheed Martin is the authoritative origin for its Cyber Kill Chain. Government sources support defensive prioritization and safe practice. Zscaler pages describe vendor positioning, not standards or Arti's experience.
+**Checked on 2026-08-24.** MITRE material defines and maintains ATT&CK. Lockheed Martin is the authoritative origin for its Cyber Kill Chain. Government sources support defensive prioritization and safe practice. Zscaler pages describe vendor positioning, not standards or your experience.
 
 | Source type | Official or authoritative anchor | Used for | Caveat |
 |---|---|---|---|
@@ -790,7 +790,7 @@ The boundary is important: I have not operated Zscaler exposure or SecOps produc
 | Telemetry | Evidence with source, meaning, time, and coverage |
 | Safe validation | Authority, bounded method, stop, cleanup, limits |
 | NMH | Fictional path, not a customer incident |
-| Arti bridge | Production dependency tracing; lab adversary-path reasoning |
+| Experience bridge | Production dependency tracing; lab adversary-path reasoning |
 
 ## Completion Checklist
 

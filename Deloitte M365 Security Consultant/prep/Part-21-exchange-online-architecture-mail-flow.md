@@ -2,7 +2,7 @@
 
 > **Section goal:** Build a beginner-first mental model of Exchange Online as an identity-aware messaging service rather than “an inbox in the cloud.” By the end, you should be able to explain recipients, permissions, DNS, transport stages, connectors, hybrid routing, email authentication, client access, auditing, service operations, and a safe method for diagnosing delivery, relay, spoofing, and mail-loop failures.
 
-This Part maps directly to the Deloitte expectation to assess, design, configure, test, troubleshoot, and operationalize Microsoft 365 workloads. It turns Arti's demonstrated SharePoint Online, OneDrive, sync, migration, escalation, RCA, and customer-support evidence into a disciplined Exchange consulting approach without implying production Exchange security ownership. [Part 22](Part-22-eop-defender-office-365.md) adds the EOP and Defender for Office 365 protection stack after this mail-flow foundation.
+This Part maps directly to the Deloitte expectation to assess, design, configure, test, troubleshoot, and operationalize Microsoft 365 workloads. It turns your demonstrated SharePoint Online, OneDrive, sync, migration, escalation, RCA, and customer-support evidence into a disciplined Exchange consulting approach without implying production Exchange security ownership. [Part 22](Part-22-eop-defender-office-365.md) adds the EOP and Defender for Office 365 protection stack after this mail-flow foundation.
 
 > **Currency, portal, licensing, and change-sensitive note:** Product behavior and links were checked against official Microsoft Learn content available on **August 24, 2026**. Exchange Online limits, service descriptions, mailbox entitlements, archive features, transport rule predicates, connector validation, message trace experiences, SMTP AUTH controls, hybrid requirements, modern-authentication behavior, DNS guidance, and portal navigation change. The Exchange admin center is currently reached at `admin.exchange.microsoft.com`; Microsoft 365 service health and Message center remain separate operational sources. Recent Microsoft mail-flow guidance also warns that relay from unknown senders through on-premises paths is being tightened. Verify the current Exchange Online service description, Product Terms, Message center, accepted-domain/connector documentation, and tenant-specific rollout before implementation. Preview behavior must never be treated as a contractual production control.
 
@@ -19,9 +19,9 @@ This Part maps directly to the Deloitte expectation to assess, design, configure
 
 ## Candidate honesty note
 
-Arti can directly claim production experience in SharePoint Online and OneDrive support, synchronization and migration troubleshooting, critical incidents, RCA, customer communication, evidence collection, product-group/vendor escalation, documentation, metrics, and Microsoft 365 service dependencies. Those skills transfer strongly to Exchange diagnosis: identify scope, preserve timestamps and IDs, isolate the failing layer, validate the fix, and communicate risk.
+You can directly claim production experience in SharePoint Online and OneDrive support, synchronization and migration troubleshooting, critical incidents, RCA, customer communication, evidence collection, product-group/vendor escalation, documentation, metrics, and Microsoft 365 service dependencies. Those skills transfer strongly to Exchange diagnosis: identify scope, preserve timestamps and IDs, isolate the failing layer, validate the fix, and communicate risk.
 
-Arti should **not** claim production ownership of Exchange Online architecture, hybrid mail flow, connectors, transport rules, SMTP relay, Exchange RBAC, DKIM/DMARC rollout, mailbox protocols, or Exchange security configuration. Safe interview wording is:
+You should **not** claim production ownership of Exchange Online architecture, hybrid mail flow, connectors, transport rules, SMTP relay, Exchange RBAC, DKIM/DMARC rollout, mailbox protocols, or Exchange security configuration. Safe interview wording is:
 
 > “My direct production depth is SharePoint Online, OneDrive, sync, migration, Microsoft 365 escalation, RCA, and stakeholder management. Exchange Online security implementation is current learning and paper-lab evidence. I can explain the architecture, design controls and tests, read trace/header/NDR evidence, and lead a structured investigation, but I would partner with the Exchange, DNS, identity, network, security, and compliance owners for production change.”
 
@@ -696,7 +696,7 @@ flowchart TD
 | Ownership/RACI | Messaging, identity, DNS, network, security, compliance, app, vendor and service desk owners |
 | Monitoring | Delivery failures, latency, restricted senders, connector/certificate health, auth reports |
 | Change | Rule/connector/DNS/license/hybrid change template with tests and rollback |
-| Incident | Severity, first actions, evidence, communications and Microsoft escalation runbook |
+| Incident | Severity, first actions, evidence, communications and enterprise escalation runbook |
 | Access | Least privilege, PIM/JIT, emergency access and quarterly review |
 | Lifecycle | Shared/resource mailbox, group, delegate, contact and application-owner reviews |
 | Continuity | Gateway/on-prem dependency behavior and tested recovery assumptions |

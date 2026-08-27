@@ -19,9 +19,9 @@ This Part assumes the device identity and enrollment relationship from [Part 15]
 
 ## Candidate honesty note
 
-Arti can connect this topic to production strengths in policy-related Microsoft 365 support, SharePoint/OneDrive client behavior, scoped troubleshooting, configuration validation, RCA, product-group escalation, documentation, customer communications, and measuring whether a fix actually held. Those habits transfer directly to Intune's intent-to-effective-state pipeline.
+You can connect this topic to production strengths in policy-related Microsoft 365 support, SharePoint/OneDrive client behavior, scoped troubleshooting, configuration validation, RCA, product-group escalation, documentation, customer communications, and measuring whether a fix actually held. Those habits transfer directly to Intune's intent-to-effective-state pipeline.
 
-This Part does **not** claim that Arti has designed or administered production Intune configuration profiles, security baselines, custom CSP payloads, remediation packages, or Graph deployment pipelines. Safe wording is:
+This Part does **not** claim that you have designed or administered production Intune configuration profiles, security baselines, custom CSP payloads, remediation packages, or Graph deployment pipelines. Safe wording is:
 
 > “My production experience is Microsoft 365 support and escalation, where I separate policy intent, scope, propagation, client enforcement, and observed outcome. I have applied that method in a current Intune paper design covering channel selection, targeting, conflicts, baselines, testing, rollback, drift, and evidence. I would validate settings and platform behavior with the endpoint engineering owner before a production change.”
 
@@ -633,7 +633,7 @@ On Apple and Android, collect platform-specific management/profile/app logs and 
 | Script works manually but not Intune | System/user context, 32/64-bit, signature, working directory | Run under matching test context and inspect IME log |
 | Imported policy deploys wrong scope | Tenant-specific IDs/metadata not reviewed | Diff import against approved normalized spec |
 
-Arti's RCA discipline applies: preserve current state, identify first divergence from expected flow, compare known-good endpoint, and avoid “fixing” the symptom by deleting the evidence.
+Your RCA discipline applies: preserve current state, identify first divergence from expected flow, compare known-good endpoint, and avoid “fixing” the symptom by deleting the evidence.
 
 ## 26. Drift, metrics, and operations
 
@@ -668,7 +668,7 @@ Normalize the catalog, endpoint-security, and baseline setting to provider ident
 
 ### Scenario D: Policy “succeeded,” but OneDrive behavior is unchanged
 
-Confirm that the setting applies to the installed OneDrive version and correct user/device scope, that the user signed in, and that another ADMX/GPO source does not govern it. Check `edge://policy`-style app-specific policy pages where applicable, OneDrive policy evidence, client logs, and actual behavioral test. This is familiar to Arti: portal status is one signal, not the outcome.
+Confirm that the setting applies to the installed OneDrive version and correct user/device scope, that the user signed in, and that another ADMX/GPO source does not govern it. Check `edge://policy`-style app-specific policy pages where applicable, OneDrive policy evidence, client logs, and actual behavioral test. This is familiar to you: portal status is one signal, not the outcome.
 
 ### Scenario E: Acquisition needs configuration migration
 
@@ -837,7 +837,7 @@ Safe interview statement: “I produced this as a current paper lab; I did not d
 - [ ] I can design representative rings, tests, stop thresholds, and explicit rollback mechanics.
 - [ ] I can troubleshoot from target to effective state without destructive guesswork.
 - [ ] I completed or can explain the safe paper lab and label it non-production.
-- [ ] I can answer Q1-Q8 aloud while preserving Arti's honesty boundary.
+- [ ] I can answer Q1-Q8 aloud while preserving your honesty boundary.
 - [ ] I will recheck current platform, baseline, API, licensing, preview, and retirement guidance.
 
 ---

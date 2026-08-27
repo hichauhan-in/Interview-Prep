@@ -129,7 +129,7 @@ Speed without quality can worsen trust.
 
 CSAT can be biased by who responds, issue severity, timing, and expectations. Pair score with comments, response rate, cohorts, and operational outcomes.
 
-Your sustained 4.75 Enterprise and 4.85 SMB results are strong evidence; explain behaviors behind them.
+Your sustained customer-satisfaction results are strong evidence; explain behaviors behind them.
 
 ---
 
@@ -349,7 +349,7 @@ A connector is technically healthy but weekly active use declines. Segment by de
 > **Model answer:** "Problem/impact, baseline, hypothesis, scoped intervention/pilot, owner/timeline, primary and guardrail metrics, result, standardize/revert."
 
 ### Q8. "How does your background show data-driven work?"
-> **Model answer:** "I use CSAT, backlog health, case quality, escalation trends and business reviews; sustained 4.75 Enterprise/4.85 SMB CSAT while recommending follow-ups."
+> **Model answer:** "I use CSAT, backlog health, case quality, escalation trends and business reviews; a strong customer-satisfaction record while recommending follow-ups."
 
 ---
 

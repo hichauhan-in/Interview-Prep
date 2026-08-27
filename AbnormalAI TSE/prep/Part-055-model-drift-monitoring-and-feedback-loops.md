@@ -27,14 +27,14 @@ After completing this Part, you should be able to:
 - recognize feedback loops, selective labels, automation bias, self-fulfilling outcomes, and model-induced behavior;
 - turn recurring support cases into a privacy-safe pattern escalation with numerator, denominator, time, cohort, and version;
 - communicate customer-safe status without promising root cause or automatic model change; and
-- tie Arti's support trends, analytics/SQL/Python, Copilot evaluation/training, fix validation, CRITSIT ownership, and customer communication only as transferable evidence.
+- tie your support trends, analytics/SQL/Python, Copilot evaluation/training, fix validation, critical-situation ownership, and customer communication only as transferable evidence.
 
 ## JD Mapping
 
-| Supplied role signal | Capability built | Transferable Arti evidence | Boundary |
+| Supplied role signal | Capability built | Transferable evidence | Boundary |
 |---|---|---|---|
 | Behavioral false-positive cases | Distinguishes isolated case, cohort change, and systemic drift | Case comparison and trend analysis | No Abnormal model-monitor ownership claim |
-| Complex investigations | Builds change timeline and competing hypotheses | CRITSIT/evidence/escalation habits | No production drift remediation claim |
+| Complex investigations | Builds change timeline and competing hypotheses | critical situation/evidence/escalation habits | No production drift remediation claim |
 | Product/Engineering collaboration | Sends versioned pattern, indicators, impact, and ask | Engineering/Product escalation and fix validation | Retraining/release decisions stay with owners |
 | Support pattern detection | Uses tags, denominators, cohorts, and time windows | CSAT/backlog/case-quality analytics | Tickets are selected feedback |
 | Customer updates | States current facts, scope, workaround, next checkpoint | Enterprise communication | No premature "model drift" RCA |
@@ -46,7 +46,7 @@ After completing this Part, you should be able to:
 
 | Evidence tier | Safe statement | Do not imply |
 |---|---|---|
-| **Production transfer** | "I have trended support symptoms, correlated changes, validated fixes, and escalated recurring patterns." | That Arti retrained or monitored Abnormal models |
+| **Production transfer** | "I have trended support symptoms, correlated changes, validated fixes, and escalated recurring patterns." | That you retrained or monitored Abnormal models |
 | **Local/public lab** | "I built a fictional drift dashboard and response plan from synthetic weekly aggregates." | Use of real model/customer data |
 | **Learned architecture** | "I understand drift and monitoring concepts from official sources." | That generic metrics match vendor implementation |
 | **No direct experience** | "I have not operated Abnormal AI or its model-monitoring pipeline in production." | Knowledge of private retraining cadence/feedback |
@@ -607,7 +607,7 @@ Additional fixtures: model M-055-1 unchanged W1-W5; policy P-055 changes W5; M-0
 17. Build response options for schema repair, policy rollback, model canary restriction, recalibration, retraining investigation, and customer communication.
 18. Create a retraining readiness checklist without training anything.
 19. Write customer update, Engineering escalation, Product pattern brief, and monitoring plan.
-20. Deliver a 90-second spoken answer tying trends, analytics/SQL/Python, Copilot evaluation/training, validation, CRITSIT ownership, and communication only as transfer evidence.
+20. Deliver a 90-second spoken answer tying trends, analytics/SQL/Python, Copilot evaluation/training, validation, critical-situation ownership, and communication only as transfer evidence.
 21. Complete source, privacy, cleanup, rubric, and zero-activity checks.
 
 ### Expected evidence

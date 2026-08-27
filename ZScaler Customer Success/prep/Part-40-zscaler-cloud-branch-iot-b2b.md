@@ -1,10 +1,10 @@
 # Part 40 - Zscaler Cloud, Workload, Branch, IoT/OT, and B2B Security Overview
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 >
 > **Purpose:** Explain the broader Zscaler cloud, workload, branch, device, operational technology, cellular, privileged access, and partner-access portfolio from zero. Organize it by flows: workload ingress/egress/east-west and micro-flows; branch user/device/server-to-application; IoT/OT device discovery and segmentation; privileged technician-to-asset; cellular device-to-service; and B2B partner-to-specific application.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every NMH cloud, workload, VPC/VNet, tag, branch, factory, IoT/OT device, production line, SIM, contractor, partner, protocol, policy, incident, test, metric, and outcome is synthetic. Arti has production Microsoft enterprise identity, cloud-service support, networking, DNS/TCP/TLS/proxy, endpoint, trace, escalation, analytics, and customer communication experience. Production Zscaler Zero Trust Cloud, Zero Trust Gateway, Cloud Connector, Microsegmentation, Zero Trust Branch/SD-WAN, OT/IoT Segmentation, Privileged Remote Access, Zscaler Cellular, and B2B architecture administration are not established experience.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every NMH cloud, workload, VPC/VNet, tag, branch, factory, IoT/OT device, production line, SIM, contractor, partner, protocol, policy, incident, test, metric, and outcome is synthetic. You have production enterprise identity, cloud-service support, networking, DNS/TCP/TLS/proxy, endpoint, trace, escalation, analytics, and customer communication experience. Production Zscaler Zero Trust Cloud, Zero Trust Gateway, Cloud Connector, Microsegmentation, Zero Trust Branch/SD-WAN, OT/IoT Segmentation, Privileged Remote Access, Zscaler Cellular, and B2B architecture administration are not established experience.
 >
 > **Currency caveat:** Product names, bundles, deployment forms, virtual/managed components, cloud-provider integrations, routing, tags, supported protocols, inspection, identity, edge hardware, SD-WAN functions, IoT/OT classification, segmentation, privileged protocols, browser/desktop features, vaulting, session recording, SIM/operator coverage, B2B patterns, UI paths, limits, regions, licenses, and availability claims change. Confirm current authenticated help, contracts, release notes, cloud/branch/OT design guides, vendor support, safety assessment, and controlled test evidence before production use.
 
@@ -18,7 +18,7 @@ Traditional networking often starts by connecting networks and then restricting 
 
 Think of a modern port. Cargo, passengers, maintenance staff, robots, partner trucks, and emergency crews need different destinations. Building one giant road among all warehouses creates easy movement after compromise. A zero trust design creates purpose-specific routes and checkpoints, while emergency and industrial routes retain tested safety behavior.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Proof artifact |
 |---|---|---|
@@ -48,7 +48,7 @@ flowchart TB
 
 ## JD Mapping
 
-| Role expectation | Part 40 capability | TSM artifact | Arti bridge and boundary |
+| Role expectation | Part 40 capability | TSM artifact | experience bridge and boundary |
 |---|---|---|---|
 | Discover architecture | Inventory cloud, branch, OT, partner, cellular flows and dependencies | Discovery questionnaire | Network/support method transfers |
 | Guide transformation | Compare network-centric and application-centric designs | Architecture decision record | Product deployment is new |
@@ -818,9 +818,9 @@ flowchart LR
     IMPROVE --> DISCOVER
 ```
 
-## Arti's Microsoft-to-Zscaler bridge
+## Your experience bridge to Zscaler
 
-| Microsoft production strength | Part 40 transfer | New Zscaler learning | Honest wording |
+| prior production strength | Part 40 transfer | New Zscaler learning | Honest wording |
 |---|---|---|---|
 | Azure/M365 service-path support | Cloud DNS/TCP/TLS/app dependency mapping | Zero Trust Cloud routing/components | "Flow method transfers; product deployment is new." |
 | Entra identity and groups | Partner/PRA/user policy context | Zscaler identity mapping and JIT workflows | "I verify effective access." |
@@ -833,7 +833,7 @@ flowchart LR
 
 ### 30-second interview bridge
 
-"I organize this portfolio by communication flow. Zero Trust Cloud addresses workload ingress, egress, east-west, and granular microsegmentation with current virtual or managed deployment choices. Zero Trust Branch/SD-WAN connects branch users, devices, and servers to specific apps rather than extending a flat WAN. Agentless IoT/OT segmentation and PRA can limit device and technician relationships, while Cellular applies policy to SIM-connected devices and B2B access limits partners to named apps. I inventory real dependencies, define identity/tag and failure behavior, pilot safely, and measure business and denied-path outcomes. My Microsoft identity, networking, trace, incident, and analytics methods transfer; production operation of these Zscaler products is new."
+"I organize this portfolio by communication flow. Zero Trust Cloud addresses workload ingress, egress, east-west, and granular microsegmentation with current virtual or managed deployment choices. Zero Trust Branch/SD-WAN connects branch users, devices, and servers to specific apps rather than extending a flat WAN. Agentless IoT/OT segmentation and PRA can limit device and technician relationships, while Cellular applies policy to SIM-connected devices and B2B access limits partners to named apps. I inventory real dependencies, define identity/tag and failure behavior, pilot safely, and measure business and denied-path outcomes. My prior identity, networking, trace, incident, and analytics methods transfer; production operation of these Zscaler products is new."
 
 ## Labs and rehearsal
 
@@ -974,9 +974,9 @@ Zscaler product pages are public capability-positioning anchors. Authenticated c
 
 **Model answer:** Give the partner access to the exact app, API, or asset rather than a network. Use federated or sponsored identity, MFA, group/role, device context, contract/ticket, data/action controls, and expiry. Use browser restrictions for unmanaged web access or PRA for privileged maintenance; use workload identity for machine APIs. Audit sessions/actions, test denied resources, automate offboarding, and maintain incident contacts and data obligations.
 
-### Q8. How does your Microsoft background transfer?
+### Q8. How does your prior background transfer?
 
-**Model answer:** My Microsoft production work required defining exact user/service operations, isolating DNS/TCP/TLS/proxy/identity/application boundaries, analyzing packet and client traces, coordinating cloud/network/app incidents, staging changes, measuring cohorts, and communicating limitations. Those methods transfer to Zscaler cloud, branch, partner, and cellular flows. For OT I add strict safety governance and customer owner authority. I do not claim production administration of these Zscaler products.
+**Model answer:** My prior production work required defining exact user/service operations, isolating DNS/TCP/TLS/proxy/identity/application boundaries, analyzing packet and client traces, coordinating cloud/network/app incidents, staging changes, measuring cohorts, and communicating limitations. Those methods transfer to Zscaler cloud, branch, partner, and cellular flows. For OT I add strict safety governance and customer owner authority. I do not claim production administration of these Zscaler products.
 
 ## 30-Second Memory Hooks
 
@@ -1001,7 +1001,7 @@ Zscaler product pages are public capability-positioning anchors. Authenticated c
 | Resilience | Fail behavior, RTO, rollback, break glass |
 | Evidence | Component health is not transaction success |
 | Outcomes | Less exposure with safe working operations |
-| Arti bridge | Microsoft path isolation transfers; product ops are new |
+| Experience bridge | Microsoft path isolation transfers; product ops are new |
 
 ## Completion Checklist
 
@@ -1056,7 +1056,7 @@ Zscaler product pages are public capability-positioning anchors. Authenticated c
 - [ ] I measure flow coverage, explicit policy, exposure reduction, denied paths, availability, impact, exceptions, privilege, cellular success, rollback, and effort carefully.
 - [ ] I do not convert product savings/zero/no-downtime claims into customer guarantees.
 - [ ] I can run all twelve labs only in owned/authorized nonproduction environments.
-- [ ] I can deliver Arti's 30-second bridge with an explicit experience boundary.
+- [ ] I can deliver your 30-second bridge with an explicit experience boundary.
 - [ ] I can cite current Zscaler and NIST sources with product/safety/version caveats.
 - [ ] I can answer Q1-Q8 and expand with architecture, identity, traffic, data, safety, failure, metrics, and boundaries.
 

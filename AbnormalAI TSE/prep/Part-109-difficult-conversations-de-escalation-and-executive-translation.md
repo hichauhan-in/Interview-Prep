@@ -2,7 +2,7 @@
 
 > **Purpose:** Build a beginner-first, vendor-neutral method for handling frustrated customers, missed expectations, no-fault-found outcomes, product limitations, security uncertainty, bad news, global communication, and executive translation without manipulation, blame, false certainty, or unsafe commitments.
 >
-> **Artifact honesty label:** **Direct Microsoft enterprise-support transfer plus completed local synthetic written examples; separate role-play lab unperformed.** Arti's background, as recorded in the master guide, includes customer and partner communication, complex investigations, CRITSIT work, Engineering/Product escalation, fix validation, and enterprise case ownership at Microsoft. Those production skills transfer. Every customer, organization, system, incident, identifier, observation, quote, decision, risk, time, and outcome in this Part is learner-authored fiction. The worked dialogues and executive incident brief are completed writing examples only. The live role-play lab was not performed during authoring. This Part contains no Abnormal AI script, template, policy, SLA, severity rule, communication cadence, security conclusion, escalation path, internal system, customer fact, or approved wording.
+> **Artifact honesty label:** **Direct enterprise-support transfer plus completed local synthetic written examples; separate role-play lab unperformed.** Your background, as recorded in the master guide, includes customer and partner communication, complex investigations, critical-situation work, Engineering/Product escalation, fix validation, and enterprise case ownership in a previous role. Those production skills transfer. Every customer, organization, system, incident, identifier, observation, quote, decision, risk, time, and outcome in this Part is learner-authored fiction. The worked dialogues and executive incident brief are completed writing examples only. The live role-play lab was not performed during authoring. This Part contains no Abnormal AI script, template, policy, SLA, severity rule, communication cadence, security conclusion, escalation path, internal system, customer fact, or approved wording.
 >
 > **Currency and source access date:** August 24, 2026.
 >
@@ -12,7 +12,7 @@
 
 Difficult conversations are not a separate species of support work. They are ordinary support conversations under extra pressure: trust may be low, consequences may be high, evidence may be incomplete, expectations may have been missed, and several audiences may need different levels of detail. The support engineer still has the same duty to listen, investigate, communicate, protect information, stay within authority, and move the issue toward a safe decision. Pressure makes those duties more important, not optional.
 
-This Part teaches Arti to:
+This Part teaches you to:
 
 1. define de-escalation as reducing conversational heat while preserving truth, dignity, safety, and forward motion;
 2. validate a person's experience or reasoning without pretending an unverified claim is true;
@@ -26,7 +26,7 @@ This Part teaches Arti to:
 10. work across languages, cultures, time zones, accessibility needs, and communication styles without stereotyping;
 11. translate technical evidence into an executive summary centered on impact, state, risk, decision, ask, owner, and time;
 12. recognize when behavior, sensitivity, authority, legal exposure, or safety requires escalation; and
-13. describe Microsoft production experience, local synthetic practice, and unknown Abnormal processes as separate evidence tiers.
+13. describe prior production experience, local synthetic practice, and unknown Abnormal processes as separate evidence tiers.
 
 The portable rule is: **lower the heat without lowering the truth; name the impact, boundary, next decision, owner, and time.**
 
@@ -67,7 +67,7 @@ flowchart LR
 
 | Role signal from the master guide | Capability developed here | Observable interview behavior | Honest proof |
 |---|---|---|---|
-| Maintain customer trust | Handles emotion without manipulation and keeps action visible | Validates impact, labels uncertainty, sets a boundary, and returns at the promised time | Worked fictional role-plays plus a real sanitized Microsoft example if available |
+| Maintain customer trust | Handles emotion without manipulation and keeps action visible | Validates impact, labels uncertainty, sets a boundary, and returns at the promised time | Worked fictional role-plays plus a real sanitized example from your own work if available |
 | Communicate bad news | States a verified constraint early and pairs it with ownership and options | Avoids false optimism, blame, and unsupported apologies or promises | Missed-expectation and limitation dialogues |
 | Troubleshoot ambiguous issues | Treats no-fault-found as a bounded test result | Describes conditions tested, evidence limits, capture plan, and escalation trigger | NFF decision tree and worked dialogue |
 | Handle security-sensitive concerns | Routes uncertainty without declaring or dismissing an incident | Uses minimum necessary information and authorized Security/Privacy channels | Security-uncertainty sequence and script |
@@ -75,20 +75,20 @@ flowchart LR
 | Communicate with global customers | Uses plain language, explicit time zones, accessible structure, and confirmation | Avoids idiom, stereotypes, and assumptions about fluency or role | Global communication checklist |
 | Communicate to executives | Preserves one evidence state while changing level of detail | Leads with impact, state, risk, decision, ask, owner, and checkpoint | Completed synthetic executive incident brief |
 | Coordinate Engineering, Product, CSM, and incident roles | Maintains customer ownership while naming decision authority | Escalates a packet, not frustration; never promises another role's outcome | Escalation matrix and role-play branches |
-| Microsoft enterprise-support transfer | Uses direct experience with pressure, escalation, and customer communication | Gives a sanitized example with exact personal action and result | `DIRECT_PRODUCTION_TRANSFER` narrative |
+| enterprise-support transfer | Uses direct experience with pressure, escalation, and customer communication | Gives a sanitized example with exact personal action and result | `DIRECT_PRODUCTION_TRANSFER` narrative |
 | Abnormal AI learning target | Learns approved language, channels, authority, and conduct rules before use | Asks discovery questions instead of presenting this guide as policy | First-week discovery checklist |
 
 ## Candidate honesty note
 
-Arti's five years in Microsoft enterprise support are directly relevant to difficult conversations. She can truthfully discuss listening under pressure, clarifying impact, coordinating investigation, escalating to Engineering or Product, validating fixes, communicating to customers and partners, and maintaining ownership. In an interview, she should use a real Microsoft story only when she can accurately separate the customer's report, her own actions, another team's work, the evidence available at the time, the communication choice, and the outcome. She must remove customer identity, confidential content, proprietary process, internal-only metrics, nonpublic security details, and any detail she is not authorized to share.
+Your several years in enterprise support are directly relevant to difficult conversations. You can truthfully discuss listening under pressure, clarifying impact, coordinating investigation, escalating to Engineering or Product, validating fixes, communicating to customers and partners, and maintaining ownership. In an interview, you should use a real Microsoft story only when you can accurately separate the customer's report, your own actions, another team's work, the evidence available at the time, the communication choice, and the outcome. You must remove customer identity, confidential content, proprietary process, internal-only metrics, nonpublic security details, and any detail you are not authorized to share.
 
-That experience does not prove that Microsoft and Abnormal AI use the same scripts, case fields, security routes, executive templates, limitation language, conduct policy, incident roles, approval chain, SLAs, or escalation thresholds. This Part is a vendor-neutral learning framework. It contains no Abnormal script and does not claim Arti has operated Abnormal's internal processes. A future employee must learn current approved policy, tools, authority, and supervision before applying local procedures.
+That experience does not prove that Microsoft and Abnormal AI use the same scripts, case fields, security routes, executive templates, limitation language, conduct policy, incident roles, approval chain, SLAs, or escalation thresholds. This Part is a vendor-neutral learning framework. It contains no Abnormal script and does not claim you have operated Abnormal's internal processes. A future employee must learn current approved policy, tools, authority, and supervision before applying local procedures.
 
 ### Evidence tiers for this Part
 
 | Capability or claim | Evidence label | Safe interview language | Claim to avoid |
 |---|---|---|---|
-| Microsoft difficult-conversation and escalation experience | **DIRECT_PRODUCTION_TRANSFER** | “In Microsoft enterprise support, I handled high-pressure customer communication and cross-team escalation. I can give a sanitized example of my own actions.” | “Microsoft used this exact script” unless that claim is authorized and supportable |
+| Microsoft difficult-conversation and escalation experience | **DIRECT_PRODUCTION_TRANSFER** | “In enterprise support, I handled high-pressure customer communication and cross-team escalation. I can give a sanitized example of my own actions.” | “Microsoft used this exact script” unless that claim is authorized and supportable |
 | Public communication, incident, accessibility, and writing principles | **LEARNED_METHOD_FROM_PRIMARY_SOURCES** | “I combined public primary guidance with my support experience into a vendor-neutral practice method.” | Presenting several sources as one universal support or security policy |
 | Worked role-play dialogues in this Part | **TEMPLATE_ONLY_SYNTHETIC_COMPLETED_IN_WRITING** | “I authored fictional dialogue branches to demonstrate de-escalation choices.” | “I used these lines with an Abnormal customer” or “these are approved scripts” |
 | Executive incident brief in this Part | **SYNTHETIC_EXECUTIVE_BRIEF_COMPLETED_IN_WRITING** | “I wrote a fictional brief from a bounded evidence ledger and audited it for consistency.” | “This is an Abnormal executive template” or “executives approved it” |
@@ -97,7 +97,7 @@ That experience does not prove that Microsoft and Abnormal AI use the same scrip
 
 A safe interview bridge is:
 
-> “My direct foundation is five years of Microsoft enterprise support, including complex investigations, customer communication, and escalation. I would use a sanitized real example to show how I listened, clarified impact, kept ownership visible, and delivered a difficult update. For preparation, I authored vendor-neutral fictional dialogues and an executive brief. I have not used Abnormal's internal scripts or processes, so I would learn its approved language, security routing, commitment authority, conduct boundaries, and executive format before representing them.”
+> “My direct foundation is several years of enterprise support, including complex investigations, customer communication, and escalation. I would use a sanitized real example to show how I listened, clarified impact, kept ownership visible, and delivered a difficult update. For preparation, I authored vendor-neutral fictional dialogues and an executive brief. I have not used Abnormal's internal scripts or processes, so I would learn its approved language, security routing, commitment authority, conduct boundaries, and executive format before representing them.”
 
 ## 1. What de-escalation changes and what it must preserve
 
@@ -1020,7 +1020,7 @@ flowchart TD
 | Global communication | Stereotype, idiom, ambiguous time, inaccessible flow | Mostly clear | Plain language, absolute time, accessibility, interpretation, confirmation |
 | Executive translation | Technical dump or distorted certainty | Brief but incomplete | Impact, state, risk, decision, ask, owner, time, and limits align to ledger |
 | Conduct/safety | Abuse normalized or retaliation | Boundary vague | Safety-first boundary, factual record, approved route, no discrimination |
-| Honesty | Abnormal script or performed-lab claim | Transfer boundary incomplete | Microsoft transfer, synthetic writing, unperformed lab, and Abnormal unknowns separate |
+| Honesty | Abnormal script or performed-lab claim | Transfer boundary incomplete | experience transfer, synthetic writing, unperformed lab, and Abnormal unknowns separate |
 
 **Lab automatic failure:** any real or uncertain-provenance person/customer/employer data; secret or customer content; live customer contact; external send, upload, account, portal, meeting, recording, transcript, AI service, translation service, API, script, automation, product action, permission/configuration change, bypass, destructive advice, or publication; unsupported breach, compromise, exposure, safety, defect, root cause, ETA, roadmap, compensation, legal, Product/Engineering, customer-validation, or guarantee claim; manipulative mirroring, fake apology, blame, discrimination, harassment, retaliation, hidden material risk, or invented Abnormal process; copied proprietary script/template; or claim that the role-play was performed during authoring.
 
@@ -1049,7 +1049,7 @@ The authored Part is complete only when every gate passes. The master status mus
 
 ## Official Source Anchors - August 24, 2026
 
-These sources anchor public communication, incident response, accessibility, inclusion, risk, and writing concepts only. They do not establish an Abnormal AI script, customer policy, conduct rule, security classification, SLA, executive template, escalation route, limitation, workaround approval, or Arti's direct operation of an Abnormal process. Current employer policy, contracts, law, security/privacy requirements, incident command, accessibility needs, labor and conduct rules, regional requirements, and authorized channels control real work.
+These sources anchor public communication, incident response, accessibility, inclusion, risk, and writing concepts only. They do not establish an Abnormal AI script, customer policy, conduct rule, security classification, SLA, executive template, escalation route, limitation, workaround approval, or your direct operation of an Abnormal process. Current employer policy, contracts, law, security/privacy requirements, incident command, accessibility needs, labor and conduct rules, regional requirements, and authorized channels control real work.
 
 | Official or primary source | Concept anchored | Boundary for this Part |
 |---|---|---|
@@ -1058,7 +1058,7 @@ These sources anchor public communication, incident response, accessibility, inc
 | [NIST SP 800-61 Rev. 3 - Incident Response Recommendations and Considerations](https://csrc.nist.gov/pubs/sp/800/61/r3/final) | Organization-wide cybersecurity incident response integrated with Cybersecurity Framework 2.0 risk management | NIST does not classify a specific customer report, create notification duties, authorize disclosure, or provide an Abnormal customer-message template. Not every support concern is a cybersecurity incident. |
 | [NIST Cybersecurity Framework 2.0](https://www.nist.gov/cyberframework) | Govern, Identify, Protect, Detect, Respond, and Recover outcomes, including risk communication and coordinated response | CSF 2.0 is outcome-oriented guidance, not a universal implementation, support workflow, severity scale, customer promise, or legal conclusion. |
 | [NIST SP 800-184 - Guide for Cybersecurity Event Recovery](https://csrc.nist.gov/pubs/sp/800/184/final) | Recovery planning, realistic scenarios, prioritization, testing, resilience, and improvement | Published in 2016 and scoped to cybersecurity event recovery. It does not define current private-company closure, workaround, executive, or customer-notification language. |
-| [Microsoft Writing Style Guide - Welcome](https://learn.microsoft.com/en-us/style-guide/welcome/) | Microsoft's public principles for warm, clear, concise, and helpful writing | A public style guide is not proof of Microsoft's internal support scripts, Arti's prior wording, Abnormal's voice, or authorization for a claim or promise. |
+| [Microsoft Writing Style Guide - Welcome](https://learn.microsoft.com/en-us/style-guide/welcome/) | Microsoft's public principles for warm, clear, concise, and helpful writing | A public style guide is not proof of Microsoft's internal support scripts, your prior wording, Abnormal's voice, or authorization for a claim or promise. |
 | [Microsoft Writing Style Guide - Global communications](https://learn.microsoft.com/en-us/style-guide/global-communications/) | Public guidance for understandable global communication and localization-aware writing | Writing guidance does not replace approved translation, accessibility, legal, regional, security, time-zone, or customer-specific review. |
 | [Microsoft Writing Style Guide - Bias-free communication](https://learn.microsoft.com/en-us/style-guide/bias-free-communication) | Public guidance for inclusive, respectful language and avoiding unnecessary bias | Style guidance is not an employment, anti-discrimination, harassment, accommodation, or conduct policy and does not determine legal obligations. Current policy and law control. |
 | [W3C - Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/) | W3C Recommendation for accessible web content principles and success criteria | WCAG applies to web-content accessibility and does not by itself define live support accommodations, meeting consent, communication conduct, or a private employer's implementation. |

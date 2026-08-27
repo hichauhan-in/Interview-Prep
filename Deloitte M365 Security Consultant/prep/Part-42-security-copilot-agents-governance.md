@@ -1,8 +1,8 @@
 # Part 42 — Microsoft Security Copilot, Agents, Prompting, Validation, and Governance
 
-> **Section goal:** Build a beginner-first, consulting-grade understanding of Microsoft Security Copilot and security agents. This Part covers standalone and embedded experiences in Defender, Sentinel, Entra, Intune and Purview; language-model orchestration, plugins and grounding; Security Compute Units (SCUs), licensing, capacity, workspaces, regions and provisioning; effective prompts, sessions and promptbooks; incident summaries, guided response, reports, KQL and threat hunting, script/file analysis and threat intelligence; identity, endpoint and data-security scenarios; agents, identities, triggers, memory and autonomy boundaries; role-based access, privacy, audit and retention; prompt injection, data leakage, hallucination, bias and stale context; responsible AI, human validation, approval, rollback, evaluation metrics, adoption and operating model. Arti should be able to design and safely rehearse an AI-assisted workflow without claiming production Security Copilot use or allowing blind execution.
+> **Section goal:** Build a beginner-first, consulting-grade understanding of Microsoft Security Copilot and security agents. This Part covers standalone and embedded experiences in Defender, Sentinel, Entra, Intune and Purview; language-model orchestration, plugins and grounding; Security Compute Units (SCUs), licensing, capacity, workspaces, regions and provisioning; effective prompts, sessions and promptbooks; incident summaries, guided response, reports, KQL and threat hunting, script/file analysis and threat intelligence; identity, endpoint and data-security scenarios; agents, identities, triggers, memory and autonomy boundaries; role-based access, privacy, audit and retention; prompt injection, data leakage, hallucination, bias and stale context; responsible AI, human validation, approval, rollback, evaluation metrics, adoption and operating model. You should be able to design and safely rehearse an AI-assisted workflow without claiming production Security Copilot use or allowing blind execution.
 
-This Part maps directly to Deloitte expectations for Microsoft Security, AI-enabled operations, Defender XDR, Sentinel, Entra, Intune, Purview, incident response, threat hunting, automation, governance, responsible AI, client advisory and stakeholder reporting. Arti's incident/RCA discipline, fix validation, Microsoft 365 workload knowledge, reporting, documentation and interest in AI agents are strong foundations. The key consulting posture is: accelerate evidence processing, never outsource accountability.
+This Part maps directly to Deloitte expectations for Microsoft Security, AI-enabled operations, Defender XDR, Sentinel, Entra, Intune, Purview, incident response, threat hunting, automation, governance, responsible AI, client advisory and stakeholder reporting. Your incident/RCA discipline, fix validation, Microsoft 365 workload knowledge, reporting, documentation and interest in AI agents are strong foundations. The key consulting posture is: accelerate evidence processing, never outsource accountability.
 
 > **Currency, licensing, preview, capacity and portal-convergence note (August 24, 2026):** This chapter is grounded in official Microsoft Learn content available on August 24, 2026. Security Copilot onboarding and interfaces vary by tenant rollout: newer tenants can receive an agents-first homepage, while others remain chat-first; chat can appear under **All history**. Eligible, enabled Microsoft 365 E5/E7 tenants can be auto-provisioned with included monthly SCU capacity, while other customers manually provision hourly SCUs and optional overage through Security Copilot/Azure. Current inclusion guidance describes 400 SCUs per month per 1,000 paid E5/E7 users, prorated and capped at 10,000, with no rollover; rollout and commercial terms must be verified. Agents, Defender Chat, Threat Hunting Assistant, system-capability promptbook calls, incident-summary preferences and several embedded experiences are preview or rollout-sensitive. Government/sovereign availability is restricted. Product names, agent catalog, plugins, SCU charging, licensing, defaults, data settings, roles, retention and portal locations can change. Verify Product Terms, DPA, privacy page, live tenant, agent library, licensing page, Message center and Roadmap before design or use.
 
@@ -19,9 +19,9 @@ This Part maps directly to Deloitte expectations for Microsoft Security, AI-enab
 
 ## Candidate honesty note
 
-Arti can credibly discuss Microsoft 365 incidents, RCA, evidence timelines, fix validation, stakeholder reporting, documentation and AI-agent concepts where supported by her experience. She can describe a synthetic Security Copilot prompt lab and governance design.
+You can credibly discuss Microsoft 365 incidents, RCA, evidence timelines, fix validation, stakeholder reporting, documentation and AI-agent concepts where supported by your experience. You can describe a synthetic Security Copilot prompt lab and governance design.
 
-She should not claim production Security Copilot provisioning, SCU ownership, Copilot incident investigation, agent deployment, promptbook publication, plugin administration or AI-triggered remediation unless separately evidenced. Safe wording is:
+You should not claim production Security Copilot provisioning, SCU ownership, Copilot incident investigation, agent deployment, promptbook publication, plugin administration or AI-triggered remediation unless separately evidenced. Safe wording is:
 
 > “My production background is Microsoft 365 incidents, RCA, fix validation and stakeholder communication. I have built a current Security Copilot architecture and governance design and completed a synthetic prompt/agent paper lab covering incident summarization, KQL drafting, agent permissions, prompt-injection defense, human approval, evaluation and rollback. I have not used or administered Security Copilot in production. In a client environment I would verify tenant rollout, license/capacity, workspace region, plugins and least privilege; use synthetic evaluation first; require source-level validation for every material claim; keep high-impact actions behind human approval; and pause or revoke an agent if quality, privacy or authorization controls fail.”
 
@@ -720,7 +720,7 @@ flowchart TD
 
 ## 36. Scenario: governed phishing triage assistant
 
-**Fictional context:** Fabrikam wants to reduce time spent on user-reported phishing. Arti is asked to design, not deploy, an assistant/agent workflow. All examples use `example.com`, synthetic messages and no live tenant.
+**Fictional context:** Fabrikam wants to reduce time spent on user-reported phishing. You are asked to design, not deploy, an assistant/agent workflow. All examples use `example.com`, synthetic messages and no live tenant.
 
 ```mermaid
 sequenceDiagram
@@ -769,7 +769,7 @@ The Defender plugin returns partial data. Expected behavior: agent marks verdict
 ### Synthetic incident facts
 
 - Incident: `DEF-EX-042`; authorized phishing exercise.
-- Message: `MSG-EX-042`; recipient `arti.test@example.com`.
+- Message: `MSG-EX-042`; recipient `test.user@example.com`.
 - URL: `https://invoice.example.com/a`; reserved synthetic domain.
 - Device: `LAB-W11-042`; no production asset.
 - Times: delivery 09:00 UTC, click 09:04, benign simulator 09:07, alert 09:10.
@@ -824,7 +824,7 @@ The Defender plugin returns partial data. Expected behavior: agent marks verdict
 
 ## 39. JD Mapping: interview translation
 
-| Interview prompt | Arti's factual production strength | Honest Security Copilot bridge |
+| Interview prompt | Your factual production strength | Honest Security Copilot bridge |
 |---|---|---|
 | “How would you use Copilot in incidents?” | Incident RCA, timelines and reporting | Explain summary/guide/report validation workflow |
 | “Can you build AI agents?” | AI-agent concepts and process design | Describe synthetic governed agent card, not production deployment |
@@ -914,7 +914,7 @@ The Defender plugin returns partial data. Expected behavior: agent marks verdict
 - **Validate claims, KQL, actions and reports at the source.**
 - **Pause, revoke, disable and fall back manually.**
 - **No blind execution of AI-generated code, KQL or response actions.**
-- **Arti's bridge is RCA/validation rigor, not production Copilot ownership.**
+- **Your bridge is RCA/validation rigor, not production Copilot ownership.**
 
 ## Completion Checklist
 

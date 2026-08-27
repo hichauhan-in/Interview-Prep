@@ -1,10 +1,10 @@
 # Part 67 - Data Fabric versus SIEM, Data Lake, Warehouse, CMDB, and iPaaS
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 >
-> **Purpose:** Compare a security Data Fabric with security information and event management (SIEM), data lake, data warehouse, lakehouse, configuration management database (CMDB), integration platform as a service (iPaaS), security orchestration, automation, and response (SOAR), and security graph. Evaluate purpose, data, grain, workload, schema, latency, retention, analytics, operationalization, source-of-truth boundaries, strengths, limits, cost, ownership, and reference architectures. Equip Arti to position technologies as complementary capabilities chosen for outcomes rather than make unsupported replacement claims.
+> **Purpose:** Compare a security Data Fabric with security information and event management (SIEM), data lake, data warehouse, lakehouse, configuration management database (CMDB), integration platform as a service (iPaaS), security orchestration, automation, and response (SOAR), and security graph. Evaluate purpose, data, grain, workload, schema, latency, retention, analytics, operationalization, source-of-truth boundaries, strengths, limits, cost, ownership, and reference architectures. Equip you to position technologies as complementary capabilities chosen for outcomes rather than make unsupported replacement claims.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every architecture, source, flow, latency, retention period, volume, cost, ownership model, metric, implementation detail, incident, result, and outcome in this Part is synthetic. Product categories overlap and vendor implementations vary. Zscaler's public Data Fabric page supports bounded statements about unifying security and business data, harmonization, deduplication, correlation, enrichment, customizable business logic, automated workflows, dynamic reports, integrations, and a documented distinction from SIEM. It does not prove that every deployment replaces, stores, queries, retains, or operates like any particular SIEM, lake, warehouse, lakehouse, CMDB, iPaaS, SOAR, or graph product. General category comparisons and NMH reference architectures are educational, not Zscaler implementation claims. Arti's Microsoft cloud/support, logging, networking, data, integration, and escalation skills transfer; direct production architecture of Zscaler Data Fabric remains a learning boundary.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every architecture, source, flow, latency, retention period, volume, cost, ownership model, metric, implementation detail, incident, result, and outcome in this Part is synthetic. Product categories overlap and vendor implementations vary. Zscaler's public Data Fabric page supports bounded statements about unifying security and business data, harmonization, deduplication, correlation, enrichment, customizable business logic, automated workflows, dynamic reports, integrations, and a documented distinction from SIEM. It does not prove that every deployment replaces, stores, queries, retains, or operates like any particular SIEM, lake, warehouse, lakehouse, CMDB, iPaaS, SOAR, or graph product. General category comparisons and NMH reference architectures are educational, not Zscaler implementation claims. Your prior cloud/support, logging, networking, data, integration, and escalation skills transfer; direct production architecture of Zscaler Data Fabric remains a learning boundary.
 >
 > **Currency caveat:** Product categories, architectures, licensing, interfaces, connectors, storage, performance, and public claims change. The controlled research/source date for this Part is exactly **2026-08-24**. Current official documentation, licensed tenant behavior, workload measurements, regulatory obligations, data/process owners, enterprise architecture, security/privacy review, vendor specialists, and total-cost analysis govern production.
 
@@ -14,7 +14,7 @@ Technology categories answer different primary questions. A SIEM asks what secur
 
 Think of a city. The land registry, transport control room, archive, statistics office, utility integration network, emergency dispatch center, and relationship map all use data about the same city. None automatically makes the others unnecessary. The best architecture defines each system's purpose, authority, interfaces, and lifecycle, then avoids copying every responsibility into one platform.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Evidence artifact |
 |---|---|---|
@@ -30,7 +30,7 @@ By the end, Arti should be able to:
 | Position responsibly | Use additive language and verify current product evidence | Positioning narrative |
 | Avoid duplication | Identify redundant ingestion, retention, transforms, workflows, and authority | Rationalization plan |
 | Troubleshoot boundaries | Locate failures across source, movement, semantic, detection, action, and target layers | Evidence package |
-| Bridge honestly | Translate Arti's experience without claiming category replacement or internals | Interview narrative |
+| Bridge honestly | Translate your experience without claiming category replacement or internals | Interview narrative |
 
 ```mermaid
 flowchart LR
@@ -55,7 +55,7 @@ flowchart LR
 
 ## JD Mapping
 
-| Role expectation | Part 67 capability | TSM artifact | Arti bridge and boundary |
+| Role expectation | Part 67 capability | TSM artifact | experience bridge and boundary |
 |---|---|---|---|
 | Develop platform expertise | Explain documented Data Fabric positioning and category boundaries | Source-bounded architecture map | No replacement or internal-storage claim |
 | Analyze complex environments | Inventory SIEM, lake, warehouse, CMDB, integration, SOAR, and graph roles | Current-state capability map | Microsoft ecosystem/dependency mapping transfers |
@@ -1022,7 +1022,7 @@ What evidence supports replacing a platform?
 
 ### Exercise 12 - Product claim
 
-Can Arti say Zscaler Data Fabric stores raw logs like a lake?
+Can you say Zscaler Data Fabric stores raw logs like a lake?
 
 **Answer:** Not from public positioning used here. Discuss documented ingestion/context capabilities and verify current official product architecture, retention, and supported workloads.
 
@@ -1192,7 +1192,7 @@ Zscaler sources support bounded Data Fabric and SIEM-positioning statements. Mic
 
 ### Q8. What can you honestly claim about Zscaler and your background?
 
-**Model answer:** Zscaler publicly positions Data Fabric as unifying security/business data with harmonization, correlation, context, logic, workflows, reports, integrations, and a broader focus than SIEM event logs. I do not claim undocumented storage, latency, retention, graph, transaction, replacement, or cost behavior. My Microsoft experience across telemetry, cloud services, APIs, data, identity, and escalation boundaries transfers; detailed portfolio architecture here is synthetic NMH practice.
+**Model answer:** Zscaler publicly positions Data Fabric as unifying security/business data with harmonization, correlation, context, logic, workflows, reports, integrations, and a broader focus than SIEM event logs. I do not claim undocumented storage, latency, retention, graph, transaction, replacement, or cost behavior. My prior experience across telemetry, cloud services, APIs, data, identity, and escalation boundaries transfers; detailed portfolio architecture here is synthetic NMH practice.
 
 ## 30-Second Memory Hooks
 
@@ -1222,7 +1222,7 @@ Zscaler sources support bounded Data Fabric and SIEM-positioning statements. Mic
 | Authority | Field/process specific |
 | Graph path | Possible route, not footprints |
 | Architecture name | Does not reveal storage internals |
-| Arti bridge | Cross-system RCA transfers; category absolutes do not |
+| Experience bridge | Cross-system RCA transfers; category absolutes do not |
 
 ## Completion Checklist
 
@@ -1275,6 +1275,6 @@ Zscaler sources support bounded Data Fabric and SIEM-positioning statements. Mic
 - [ ] I label every NMH architecture, latency, retention, cost, metric, incident, result, and outcome synthetic.
 - [ ] I use the controlled research/source date exactly as 2026-08-24.
 - [ ] I make no unsupported Zscaler storage, database, query, graph, transaction, latency, retention, connector, replacement, cost, guarantee, production, or customer-outcome claim.
-- [ ] I can answer Q1 through Q8 with definitions, analogies, architecture, mechanics, examples, tradeoffs, failures, troubleshooting, labs, NMH evidence, official-source caveats, and an honest Arti bridge.
+- [ ] I can answer Q1 through Q8 with definitions, analogies, architecture, mechanics, examples, tradeoffs, failures, troubleshooting, labs, NMH evidence, official-source caveats, and an honest experience bridge.
 
 [Part 68 - Data Fabric Implementation, Health, Troubleshooting, and Customer Adoption](Part-68-data-fabric-implementation-troubleshooting.md)

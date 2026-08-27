@@ -2,7 +2,7 @@
 
 > **Purpose:** Build a beginner-first, vendor-neutral method for turning one controlled evidence record into accurate customer updates, executive briefs, CSM handoffs, Engineering escalations, Product evidence briefs, and internal or external knowledge articles without changing the facts, inflating certainty, leaking sensitive information, or publishing beyond authority.
 >
-> **Artifact honesty label:** **Direct Microsoft enterprise-support, customer-communication, executive-translation, Engineering/Product escalation, fix-validation, KB, training, and mentoring transfer plus a completed local synthetic written portfolio; communication lab unperformed.** Arti's Microsoft background, as recorded in the master guide, supports those transferable habits. Every company, person, case, event, identifier, timestamp, quote, artifact, decision, approval state, and outcome in the worked portfolio is learner-authored fiction. Nothing was sent, presented, approved, published, or used with a customer. This Part does not claim that Arti has operated Abnormal AI, used Abnormal customer data, or knows Abnormal's private templates, terminology, systems, review chain, disclosure rules, case fields, escalation path, CSM process, Product intake, Engineering workflow, incident communications, or knowledge-publishing process.
+> **Artifact honesty label:** **Direct enterprise-support, customer-communication, executive-translation, Engineering/Product escalation, fix-validation, KB, training, and mentoring transfer plus a completed local synthetic written portfolio; communication lab unperformed.** Your prior background, as recorded in the master guide, supports those transferable habits. Every company, person, case, event, identifier, timestamp, quote, artifact, decision, approval state, and outcome in the worked portfolio is learner-authored fiction. Nothing was sent, presented, approved, published, or used with a customer. This Part does not claim that you have operated Abnormal AI, used Abnormal customer data, or knows Abnormal's private templates, terminology, systems, review chain, disclosure rules, case fields, escalation path, CSM process, Product intake, Engineering workflow, incident communications, or knowledge-publishing process.
 >
 > **Currency and official-source access date:** August 24, 2026.
 >
@@ -79,14 +79,14 @@ The following table is the exact twelve-row vocabulary contract for this Part. F
 
 ## JD Mapping
 
-| Role signal from the master guide | Capability developed here | Arti's honest transfer | Evidence ceiling |
+| Role signal from the master guide | Capability developed here | Your honest transfer | Evidence ceiling |
 |---|---|---|---|
-| Maintain enterprise customer trust | Uses evidence, uncertainty, ownership, corrections, and checkpoints | Direct Microsoft enterprise-support communication | Use a real sanitized Microsoft example in an interview; do not claim an Abnormal case |
+| Maintain enterprise customer trust | Uses evidence, uncertainty, ownership, corrections, and checkpoints | Direct enterprise-support communication | Use a real sanitized example from your own work in an interview; do not claim an Abnormal case |
 | Communicate with technical and nontechnical audiences | Produces distinct views from one source record | Direct customer, partner, stakeholder, and executive translation | Similar communication discipline, not identical audiences, policies, or product context |
 | Collaborate with CSMs | Connects case facts to customer goals and relationship risk | Transferable cross-functional coordination plus Part 111's synthetic plan | No Abnormal CSM workflow, systems, cadence, or role boundary claimed |
-| Escalate to Engineering and Product | Creates discriminating technical packets and evidence briefs | Direct Microsoft escalation and fix-validation habits | Do not claim Engineering acceptance, Product priority, root cause, roadmap, or release control |
+| Escalate to Engineering and Product | Creates discriminating technical packets and evidence briefs | Direct enterprise escalation and fix-validation habits | Do not claim Engineering acceptance, Product priority, root cause, roadmap, or release control |
 | Create and maintain knowledge | Separates internal diagnostic depth from external safe guidance | Direct KB, training, mentoring, and case-quality transfer where supported by real examples | No Abnormal authoring template, publication permission, taxonomy, or proprietary content claimed |
-| Protect security and customer data | Applies need-to-know, provenance, redaction, approval, and channel controls | Strong enterprise support habit reinforced by public standards | Arti must learn current Abnormal policy, data classes, tools, and authorized reviewers |
+| Protect security and customer data | Applies need-to-know, provenance, redaction, approval, and channel controls | Strong enterprise support habit reinforced by public standards | You must learn current Abnormal policy, data classes, tools, and authorized reviewers |
 | Use AI responsibly | Treats AI as an untrusted drafting assistant with human evidence review | Transfer from Copilot and LLM fundamentals | No customer data in unapproved AI; no unreviewed AI artifact sent or published |
 | Present portfolio evidence | Demonstrates one-evidence-many-audiences writing | Completed synthetic written portfolio in this Part | Portfolio is not a customer engagement, live case, sent message, or approved template |
 
@@ -94,14 +94,14 @@ The following table is the exact twelve-row vocabulary contract for this Part. F
 
 | Capability or artifact | Evidence label | Safe interview language | Claim to avoid |
 |---|---|---|---|
-| Microsoft customer updates and stakeholder communication | `DIRECT_PRODUCTION_TRANSFER` | “In Microsoft enterprise support, I gave evidence-based updates, adapted depth by audience, and preserved ownership.” | “I used Abnormal's communication format.” |
+| prior customer updates and stakeholder communication | `DIRECT_PRODUCTION_TRANSFER` | “In enterprise support, I gave evidence-based updates, adapted depth by audience, and preserved ownership.” | “I used Abnormal's communication format.” |
 | Microsoft Engineering/Product escalation and fix validation | `DIRECT_PRODUCTION_TRANSFER` | “I organized expected-versus-actual evidence, asked a bounded technical question, and kept customer communication moving.” | “I controlled Engineering priority, root cause, or release dates.” |
 | Microsoft KB, training, and mentoring | `DIRECT_PRODUCTION_TRANSFER_WHEN_SUPPORTED_BY_REAL_EXAMPLE` | “I created reusable guidance and can explain how I validated accuracy and audience fit in a sanitized example.” | Invented publication counts, deflection, readership, approval, or business outcome |
 | Portfolio in this Part | `SYNTHETIC_MULTI_AUDIENCE_PORTFOLIO_COMPLETED_NOT_SENT_OR_APPROVED` | “I built a vendor-neutral portfolio showing how one evidence spine becomes seven audience artifacts.” | “These messages were sent,” “stakeholders approved them,” or “this case was resolved” |
 | SignalBridge Lab 112 | `DESIGN_NOT_EXECUTED_NOT_TRANSFERRED` | “The local tabletop is designed but was not performed during authoring.” | Any participant, score, review, send, publication, or result |
 | Abnormal communication process | `NO_DIRECT_EXPERIENCE_UNKNOWN_CONFIGURATION` | “I would first learn the current approved templates, systems, disclosure classes, reviewers, and incident rules.” | Any invented Abnormal template, status, field, approval chain, SLA, or workflow |
 
-Arti's strongest answer is not “I already know how Abnormal communicates.” It is: “I know how to make a complex support state usable without distorting it. My Microsoft experience taught me to preserve evidence, adjust depth for the decision, protect restricted details, keep ownership visible, escalate with a precise ask, and correct the record quickly. I have not used Abnormal's internal templates or systems, so I would learn the current approved process before sending or publishing anything.”
+Your strongest answer is not “I already know how Abnormal communicates.” It is: “I know how to make a complex support state usable without distorting it. My prior experience taught me to preserve evidence, adjust depth for the decision, protect restricted details, keep ownership visible, escalate with a precise ask, and correct the record quickly. I have not used Abnormal's internal templates or systems, so I would learn the current approved process before sending or publishing anything.”
 
 ## 1. Trust is operational, not decorative
 
@@ -1119,7 +1119,7 @@ These official and primary sources anchor general audience-centered writing, inc
 | Official or primary source | Concept anchored | Product/version/policy boundary for this Part |
 |---|---|---|
 | [Digital.gov Plain Language Guide](https://digital.gov/guides/plain-language) | U.S. government guidance for writing clearly around audience needs, organization, wording, testing, and usable content | General public-sector communication guidance. It does not authorize disclosure, define security-support artifacts, establish an Abnormal style, or replace accessibility, localization, legal, contractual, or company review. The older PlainLanguage.gov audience URL redirected to this current Digital.gov guide during research. |
-| [Microsoft Writing Style Guide](https://learn.microsoft.com/en-us/style-guide/welcome/) | Clear, concise, warm, bias-aware, globally usable technical writing | Microsoft public writing guidance and a natural bridge from Arti's background. It is not Abnormal voice, brand, terminology, approval, legal guidance, or proof that Arti used every practice in production. |
+| [Microsoft Writing Style Guide](https://learn.microsoft.com/en-us/style-guide/welcome/) | Clear, concise, warm, bias-aware, globally usable technical writing | Microsoft public writing guidance and a natural bridge from your background. It is not Abnormal voice, brand, terminology, approval, legal guidance, or proof that you used every practice in production. |
 | [NIST Cybersecurity Framework 2.0](https://www.nist.gov/cyberframework) | Outcome-oriented cybersecurity risk management across Govern, Identify, Protect, Detect, Respond, and Recover | Voluntary general guidance, not a communication template, incident declaration, product requirement, customer contract, risk acceptance, or authority assignment. Draft or later quick-start resources must be distinguished from final CSF 2.0. |
 | [NIST SP 800-61 Rev. 3](https://csrc.nist.gov/pubs/sp/800/61/r3/final) | Current final incident-response recommendations integrated with CSF 2.0; preparation and communication matter across cybersecurity risk management | Published April 2025 and supersedes Rev. 2. It does not make Support an incident commander, confirm an incident, authorize containment/disclosure, or define Abnormal/customer notification duties. |
 | [NIST SP 800-86](https://csrc.nist.gov/pubs/sp/800/86/final) | Stable forensic principles for collecting, examining, analyzing, and reporting technical evidence in incident response and troubleshooting | Published in 2006 and used only for durable evidence/provenance concepts. It is not current tool procedure, legal advice, a chain-of-custody decision for a jurisdiction, or permission to collect customer data. |
@@ -1135,7 +1135,7 @@ These official and primary sources anchor general audience-centered writing, inc
 
 - Revalidate every source, date, version, scope, redirect, and applies-to statement before operational use.
 - Use NIST, FIRST, IETF, Digital.gov, KCS, and Microsoft sources for bounded general principles only.
-- Treat Microsoft guidance as a conceptual and experiential bridge for Arti, not employer, tool, process, contract, or policy equivalence.
+- Treat Microsoft guidance as a conceptual and experiential bridge for you, not employer, tool, process, contract, or policy equivalence.
 - Attribute public Abnormal statements narrowly; do not infer a private template, workflow, status, permission, or customer result.
 - Prefer current authorized product documentation, internal policy, customer agreements, source restrictions, incident command, legal/privacy/security guidance, and named role owners over this study artifact.
 - If sources conflict or a page redirects unexpectedly, do not cite the stale destination as support; use a current authoritative source or escalate the ambiguity.
@@ -1170,9 +1170,9 @@ These official and primary sources anchor general audience-centered writing, inc
 
 **Model answer:** “I would stop reuse, preserve the old version and its source snapshot, record the corrected evidence, identify affected audiences and decisions, and assess whether security, privacy, incident, legal, or contractual owners must engage. I would draft a direct correction that says what was stated, what is correct now, why it changed, what action changes, and what remains unknown. After approval for the exact audience and channel, I would send it, supersede every system-of-record copy, and review why the control failed. I would not silently edit only the internal note.”
 
-### Q8. How does your Microsoft experience transfer, and where is the boundary?
+### Q8. How does your prior experience transfer, and where is the boundary?
 
-**Model answer:** “My Microsoft enterprise-support experience transfers in the habits: owning case continuity, adapting technical depth, communicating under pressure, escalating to Engineering and Product with evidence, validating fixes, and creating KB or training content. I can support those claims with real sanitized examples. I have not operated Abnormal's platform or its private communication, CSM, escalation, Product, KB, approval, or AI processes. I would learn the current templates, systems, data rules, status semantics, reviewers, and role boundaries before representing them. This portfolio is a completed synthetic writing exercise, not customer work.”
+**Model answer:** “My prior enterprise-support experience transfers in the habits: owning case continuity, adapting technical depth, communicating under pressure, escalating to Engineering and Product with evidence, validating fixes, and creating KB or training content. I can support those claims with real sanitized examples. I have not operated Abnormal's platform or its private communication, CSM, escalation, Product, KB, approval, or AI processes. I would learn the current templates, systems, data rules, status semantics, reviewers, and role boundaries before representing them. This portfolio is a completed synthetic writing exercise, not customer work.”
 
 ## 🧠 30-Second Memory Hooks
 
@@ -1189,7 +1189,7 @@ These official and primary sources anchor general audience-centered writing, inc
 - **Approval is scoped:** this version, this audience, this purpose, this channel.
 - **A checkpoint is not an ETA:** promise the next communication you control.
 - **AI drafts, humans own:** no restricted input and no send without review.
-- **Arti's honest bridge:** Microsoft communication discipline transfers; Abnormal's process must be learned.
+- **Your honest bridge:** Microsoft communication discipline transfers; Abnormal's process must be learned.
 
 ## Completion Checklist
 
@@ -1202,7 +1202,7 @@ These official and primary sources anchor general audience-centered writing, inc
 - [ ] I can use the cross-artifact consistency matrix to find contradictory status, ownership, ETA, or root-cause claims.
 - [ ] I can identify manipulative language and rewrite it as direct, factual, empathetic communication.
 - [ ] I can describe the safe boundary for AI-assisted drafting and perform human source, privacy, and commitment review.
-- [ ] I can answer Q1 through Q8 aloud using truthful Microsoft transfer and explicit no-direct-Abnormal boundaries.
+- [ ] I can answer Q1 through Q8 aloud using truthful experience transfer and explicit no-direct-Abnormal boundaries.
 - [ ] I reviewed the August 24, 2026 source anchors and will revalidate current templates, policies, permissions, audience rules, and product facts.
 - [ ] I describe SignalBridge Lab 112 as local, synthetic, unperformed, unsent, and unpublished unless I actually complete and validate it.
 - [ ] I completed cleanup and privacy checks and retained no real, restricted, or unnecessary information.

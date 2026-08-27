@@ -8,9 +8,9 @@
 
 ## Section Goal
 
-By the end of this Part, Arti should be able to explain what makes an AI agent different from a conversational assistant and a fixed automation. She should model an agent as a non-human actor that receives a bounded goal, gathers authorized context, proposes or chooses steps, uses permitted tools, observes results, and continues or stops under policy. She should understand that “agent” is a product-dependent term and that real capability matters more than marketing labels.
+By the end of this Part, you should be able to explain what makes an AI agent different from a conversational assistant and a fixed automation. You should model an agent as a non-human actor that receives a bounded goal, gathers authorized context, proposes or chooses steps, uses permitted tools, observes results, and continues or stops under policy. You should understand that “agent” is a product-dependent term and that real capability matters more than marketing labels.
 
-Arti should be able to threat-model every stage: goal ambiguity, untrusted context, prompt injection, poisoned or stale retrieval, plan error, tool misuse, excessive permissions, missing approval, race/duplicate execution, partial failure, misleading observation, memory contamination, privacy leakage, hallucinated communication, unsafe retry, and rollback failure. She should design least privilege, separation of data and instructions, allowlisted tools, argument validation, action budgets, human gates, idempotency, monitoring, audit, sandboxing where appropriate, safe stop, and outcome verification.
+You should be able to threat-model every stage: goal ambiguity, untrusted context, prompt injection, poisoned or stale retrieval, plan error, tool misuse, excessive permissions, missing approval, race/duplicate execution, partial failure, misleading observation, memory contamination, privacy leakage, hallucinated communication, unsafe retry, and rollback failure. You should design least privilege, separation of data and instructions, allowlisted tools, argument validation, action budgets, human gates, idempotency, monitoring, audit, sandboxing where appropriate, safe stop, and outcome verification.
 
 The practical outcome is the **Cobalt Gate Agent Threat Model and Approval-Gates Lab**. It uses a fictional agent that classifies harmless synthetic email reports and can only draft case notes. It includes no live model, prompt to an external service, API, mailbox, product, credential, or consequential action.
 
@@ -32,11 +32,11 @@ The practical outcome is the **Cobalt Gate Agent Threat Model and Approval-Gates
 
 ## Candidate Honesty Note
 
-Arti's Copilot, Copilot Studio/agents, and GPT/large language model fundamentals are useful transferable background. Her Microsoft support, customer communication, escalation, validation, KB/training, mentoring, and analytics experience supports human-in-the-loop design and outcome verification. These facts do not establish production operation of Abnormal AI Security Agents, autonomous security response, model safety engineering, prompt-injection testing, or agent-platform administration.
+Your Copilot, Copilot Studio/agents, and GPT/large language model fundamentals are useful transferable background. Your prior support, customer communication, escalation, validation, KB/training, mentoring, and analytics experience supports human-in-the-loop design and outcome verification. These facts do not establish production operation of Abnormal AI Security Agents, autonomous security response, model safety engineering, prompt-injection testing, or agent-platform administration.
 
 | Evidence label | Honest use | Boundary |
 |---|---|---|
-| **Production-transfer example** | Microsoft support judgment, customer-safe communication, Copilot where CV-supported, escalation, validation | No Abnormal/agent-security product operation claim |
+| **Production-transfer example** | enterprise support judgment, customer-safe communication, Copilot where CV-supported, escalation, validation | No Abnormal/agent-security product operation claim |
 | **Working knowledge/upskilling** | LLM, prompting, agents, identity, OAuth, API, JSON, privacy concepts | No model developer/red-team/production agent owner claim |
 | **Local/public lab** | Paper threat model, approval-gate design, synthetic evaluation | No external model, API, tool execution, email, or customer data |
 | **Learned architecture** | Official public AI product context and neutral agent patterns | No internal prompts, tools, autonomy, or model details |
@@ -713,7 +713,7 @@ The expected evidence is the complete artifact set below, including allow/deny r
 | Observability | Chain-of-thought requested | Basic logs | Run/context/policy/approval/tool/result/output/stop/outcome structured records |
 | Privacy/memory | Customer data persists | Warning | Minimum context, tenant/session isolation, no secrets, memory owner/expiry/disposition |
 | Threat/eval coverage | Happy path only | Several failures | Seventeen threats, ten evals, six failures, four incident cards |
-| Candidate/product honesty | Abnormal design/use implied | Gap stated | Public context, neutral model, Microsoft transfer, private unknown precise |
+| Candidate/product honesty | Abnormal design/use implied | Gap stated | Public context, neutral model, experience transfer, private unknown precise |
 | Admin/safety | Live model/tool | Paper records | No account/call/input/action; privacy search, cleanup, retention complete |
 
 **Passing target:** 42/48 or higher, with 4s in least privilege, prompt injection, hallucination/verification, privacy/memory, candidate/product honesty, and admin/safety. Any live model/API/tool, real data/credential, operational injection test, product action, private prompt/chain-of-thought request, or Abnormal production claim is an automatic failure.
@@ -733,7 +733,7 @@ The expected evidence is the complete artifact set below, including allow/deny r
 | NIST AI Risk Management Framework | <https://www.nist.gov/itl/ai-risk-management-framework> | Govern, map, measure, manage AI risk concepts | Voluntary general framework, not Abnormal implementation |
 | NIST AI 600-1, Generative AI Profile | <https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf> | Generative-AI risk and risk-management considerations | Requires context/tailoring and does not certify a product |
 | NIST SP 800-207, Zero Trust Architecture | <https://csrc.nist.gov/pubs/sp/800/207/final> | Explicit resource/action authorization and policy enforcement concepts | Neutral architecture, not product-specific agent design |
-| Microsoft responsible AI resources | <https://www.microsoft.com/ai/responsible-ai> | Official Microsoft principles/governance source family | Does not prove Arti's AI governance role or define Abnormal |
+| Microsoft responsible AI resources | <https://www.microsoft.com/ai/responsible-ai> | Official Microsoft principles/governance source family | Does not prove your AI governance role or define Abnormal |
 
 ### Source discipline
 
@@ -791,7 +791,7 @@ The expected evidence is the complete artifact set below, including allow/deny r
 
 **Question:** What direct AI-agent experience do you claim?
 
-**Model answer:** I do not claim Abnormal AI Security Agents or autonomous security-agent production operation. My transferable background includes Microsoft enterprise support, Copilot and agent experience where CV-supported, customer communication, escalation, fix validation, knowledge, mentoring, and AI/identity/API fundamentals. This Part gives me a rigorous vendor-neutral threat model and a paper eval artifact. I label that learned architecture and local lab evidence, not production ownership.
+**Model answer:** I do not claim Abnormal AI Security Agents or autonomous security-agent production operation. My transferable background includes enterprise support, Copilot and agent experience where CV-supported, customer communication, escalation, fix validation, knowledge, mentoring, and AI/identity/API fundamentals. This Part gives me a rigorous vendor-neutral threat model and a paper eval artifact. I label that learned architecture and local lab evidence, not production ownership.
 
 ## 30-Second Memory Hooks
 
@@ -834,7 +834,7 @@ The expected evidence is the complete artifact set below, including allow/deny r
 - [ ] I scored at least 42/48, with 4s in least privilege, prompt injection, hallucination/verification, privacy/memory, candidate/product honesty, and admin/safety.
 - [ ] I used no live model, prompt service, API, account, plugin, mailbox, credential, customer data, tool action, or operational injection test.
 - [ ] I made no claim about Abnormal's exact agents, models, prompts, chain-of-thought, context, memory, tools, scopes, autonomy, approvals, logs, eval thresholds, entitlements, SLAs, or customer behavior.
-- [ ] I use Arti's Microsoft, M365, networking, API/data, customer, KB/training, mentoring, and AI facts only as transferable background.
+- [ ] I use your prior support, cloud, networking, API/data, customer, KB/training, mentoring, and AI facts only as transferable background.
 - [ ] I can answer all eight interview questions aloud with evidence and authority boundaries.
 - [ ] I revalidated every official source against August 24, 2026.
 

@@ -2,7 +2,7 @@
 
 > **Purpose:** Build a beginner-first, vendor-neutral portfolio system and multiple end-to-end capstone blueprints that integrate safe email, DNS, TLS, HTTP, packet, HAR, API, webhook, log, false-positive, threat-timeline, L1 case, onboarding, RCA, knowledge, metrics, and AI-support practice while preserving reproducibility, privacy, evidence provenance, and exact claim boundaries.
 >
-> **Artifact honesty label:** **Completed learner-authored portfolio architecture, manifest templates, capstone designs, scoring rubrics, decision trees, and retrospective templates; every technical lab and capstone remains designed, not performed, and not empirically validated. Direct Microsoft enterprise-support transfer may be claimed only through a true sanitized example Arti can defend. No Abnormal AI product, customer, tenant, message, detection, integration, case, workflow, data, control, result, metric, or internal process was accessed, operated, tested, changed, or inferred.** All names, messages, domains, addresses, timestamps, identifiers, events, counts, findings, recommendations, scores, and outcomes below are fictional teaching fixtures unless an official public source is explicitly cited.
+> **Artifact honesty label:** **Completed learner-authored portfolio architecture, manifest templates, capstone designs, scoring rubrics, decision trees, and retrospective templates; every technical lab and capstone remains designed, not performed, and not empirically validated. Direct enterprise-support transfer may be claimed only through a true sanitized example you can defend. No Abnormal AI product, customer, tenant, message, detection, integration, case, workflow, data, control, result, metric, or internal process was accessed, operated, tested, changed, or inferred.** All names, messages, domains, addresses, timestamps, identifiers, events, counts, findings, recommendations, scores, and outcomes below are fictional teaching fixtures unless an official public source is explicitly cited.
 >
 > **Currency and official-source access date:** August 24, 2026.
 >
@@ -73,11 +73,11 @@ The following exactly twelve numbered labels define every required term before t
 
 ## JD mapping
 
-| Role signal from the master guide | Capability developed in this Part | Arti's honest transfer | Portfolio proof ceiling |
+| Role signal from the master guide | Capability developed in this Part | Your honest transfer | Portfolio proof ceiling |
 |---|---|---|---|
-| L1 technical ownership | Connects intake, scoping, reproduction, evidence, updates, escalation, validation, and closure | Direct Microsoft enterprise-support method when backed by a true sanitized example | A synthetic case does not prove Abnormal queue ownership or current internal policy knowledge |
+| L1 technical ownership | Connects intake, scoping, reproduction, evidence, updates, escalation, validation, and closure | Direct enterprise-support method when backed by a true sanitized example | A synthetic case does not prove Abnormal queue ownership or current internal policy knowledge |
 | Email and security fundamentals | Reads message structure, authentication evidence, context, and false-positive hypotheses | Learned architecture plus safe synthetic/public practice after actual completion | No real threat investigation, mailbox access, verdict operation, or detection tuning claim |
-| Networking and SaaS troubleshooting | Correlates DNS, TLS, HTTP, packet, HAR, API, webhook, and log evidence | Working familiarity and Microsoft support boundary isolation | No production network administration, third-party scanning, API ownership, or Abnormal integration claim |
+| Networking and SaaS troubleshooting | Correlates DNS, TLS, HTTP, packet, HAR, API, webhook, and log evidence | Working familiarity and enterprise support boundary isolation | No production network administration, third-party scanning, API ownership, or Abnormal integration claim |
 | Customer trust and onboarding | Creates plans, status updates, handoffs, training, and success checks | Direct communication and coordination transfer where a real example exists | Fictional onboarding does not establish CSM ownership, implementation delivery, or customer outcome |
 | RCA, knowledge, and continuous learning | Produces causal analysis, a reusable knowledge article, and a retrospective | Microsoft KB/training, escalation, validation, mentoring, and process learning within real scope | A written RCA cannot prove cause in a live product; a draft KB is not approved knowledge |
 | Metrics and operational quality | Defines measures, denominators, segments, guardrails, and scoring | Direct CSAT, backlog, and case-quality transfer where substantiated; synthetic analytics otherwise | Fictional counts are not Abnormal metrics, baselines, targets, or improvements |
@@ -86,15 +86,15 @@ The following exactly twelve numbered labels define every required term before t
 
 ## Candidate honesty note
 
-Arti's production story remains her Microsoft enterprise-support work. She can discuss customer ownership, complex troubleshooting, critical situations, Engineering/Product collaboration, communication, knowledge, case quality, CSAT, backlog, mentoring, and Copilot support only to the extent that each statement is true, permitted, and supported by a sanitized example she personally understands. The capstones in this Part are future local practice. They do not create Abnormal experience, direct email-security operations, SOC authority, production API ownership, security-remediation authority, or measured AI competence.
+Your production story remains your prior enterprise-support work. You can discuss customer ownership, complex troubleshooting, critical situations, Engineering/Product collaboration, communication, knowledge, case quality, CSAT, backlog, mentoring, and Copilot support only to the extent that each statement is true, permitted, and supported by a sanitized example you personally understand. The capstones in this Part are future local practice. They do not create Abnormal experience, direct email-security operations, SOC authority, production API ownership, security-remediation authority, or measured AI competence.
 
-> “My direct evidence is Microsoft enterprise support within the scope I can substantiate. I designed this portfolio to integrate email, networking, API, logging, case ownership, RCA, knowledge, metrics, and safe AI-support concepts using only local, public-read-only, and synthetic fixtures. At authoring time the capstones were not performed, so I describe them as designs, not completed labs. After I perform one, I will retain sanitized artifacts, actual results, failures, rubric evidence, cleanup, and limitations. Even a validated local capstone demonstrates method, not Abnormal production experience.”
+> “My direct evidence is enterprise support within the scope I can substantiate. I designed this portfolio to integrate email, networking, API, logging, case ownership, RCA, knowledge, metrics, and safe AI-support concepts using only local, public-read-only, and synthetic fixtures. At authoring time the capstones were not performed, so I describe them as designs, not completed labs. After I perform one, I will retain sanitized artifacts, actual results, failures, rubric evidence, cleanup, and limitations. Even a validated local capstone demonstrates method, not Abnormal production experience.”
 
 ### Evidence tiers
 
 | Evidence tier | Exact label | Safe interview language | Claim that remains prohibited |
 |---|---|---|---|
-| Direct Microsoft experience | `DIRECT_PRODUCTION_TRANSFER_WITH_SANITIZED_EXAMPLE_REQUIRED` | “In Microsoft enterprise support, I personally performed [specific allowed work] and can explain my role, evidence, owner boundary, and validated result.” | Importing Microsoft tools, policy, platform behavior, or team results into an Abnormal claim |
+| Direct prior experience | `DIRECT_PRODUCTION_TRANSFER_WITH_SANITIZED_EXAMPLE_REQUIRED` | “In enterprise support, I personally performed [specific allowed work] and can explain my role, evidence, owner boundary, and validated result.” | Importing Microsoft tools, policy, platform behavior, or team results into an Abnormal claim |
 | Learned concepts from Parts 001-116 and official sources | `LEARNED_ARCHITECTURE_AND_STRUCTURED_STUDY` | “I can explain the architecture, evidence boundaries, risks, and a safe test plan.” | “I operated this platform or workflow in production.” |
 | Written Part 117 portfolio architecture | `SYNTHETIC_WRITTEN_PORTFOLIO_BLUEPRINT_COMPLETED` | “I authored a versioned portfolio structure, capstone plans, manifests, rubrics, and retrospectives.” | “I performed the capstones or observed the designed results.” |
 | Capstone blueprints A-D | `DESIGNED_NOT_PERFORMED_NOT_VALIDATED` | “The capstones are reproducible designs queued for future local execution.” | Any request, packet, HAR, score, finding, validation, cleanup, or outcome represented as observed |
@@ -999,11 +999,11 @@ Use a two-minute structure after a capstone is actually performed:
 5. **Reasoning:** Separate observation, hypotheses, test, result, finding, and limitation.
 6. **Recommendation:** State owner, risk, validation, and rollback without claiming implementation.
 7. **Learning:** Name one actual failure or revision from the retrospective.
-8. **Transfer:** Connect the method to a true Microsoft support strength and identify the Abnormal-specific process that remains to be learned.
+8. **Transfer:** Connect the method to a true enterprise support strength and identify the Abnormal-specific process that remains to be learned.
 
 ### Example blueprint-only answer before performance
 
-> “I have designed, but not yet performed, an integrated local capstone for DNS, HTTP, REST, webhook, packet, HAR, and log correlation. The design binds a generated service to loopback, captures only one synthetic request, separates ingress acknowledgment from worker completion, manifests raw and derived evidence, and includes cleanup and a 25-point rubric. I cannot claim a result or score yet. My direct production evidence is Microsoft enterprise troubleshooting and customer ownership; the capstone is intended to make the protocol method inspectable without implying Abnormal experience.”
+> “I have designed, but not yet performed, an integrated local capstone for DNS, HTTP, REST, webhook, packet, HAR, and log correlation. The design binds a generated service to loopback, captures only one synthetic request, separates ingress acknowledgment from worker completion, manifests raw and derived evidence, and includes cleanup and a 25-point rubric. I cannot claim a result or score yet. My direct production evidence is enterprise troubleshooting and customer ownership; the capstone is intended to make the protocol method inspectable without implying Abnormal experience.”
 
 ### Example future answer only after a real local pass
 
@@ -1201,7 +1201,7 @@ These sources anchor public protocol meaning, reserved identifiers, local tool b
 
 ### Q8. How does this portfolio strengthen your candidacy while preserving your experience boundaries?
 
-**Model answer:** “My direct production evidence remains Microsoft enterprise support: customer ownership, evidence-led troubleshooting, critical coordination, Engineering/Product collaboration, communication, knowledge, quality, metrics, and Copilot support only within examples I can substantiate. The portfolio makes adjacent email-security, network, API, log, support-process, and AI-safety methods inspectable through synthetic designs and, later, actual local runs. I do not convert that into Abnormal platform experience. I would use the portfolio to show how I learn safely and where I would need current product, policy, and process onboarding.”
+**Model answer:** “My direct production evidence remains enterprise support: customer ownership, evidence-led troubleshooting, critical coordination, Engineering/Product collaboration, communication, knowledge, quality, metrics, and Copilot support only within examples I can substantiate. The portfolio makes adjacent email-security, network, API, log, support-process, and AI-safety methods inspectable through synthetic designs and, later, actual local runs. I do not convert that into Abnormal platform experience. I would use the portfolio to show how I learn safely and where I would need current product, policy, and process onboarding.”
 
 ## Memory Hooks
 
@@ -1227,7 +1227,7 @@ These sources anchor public protocol meaning, reserved identifiers, local tool b
 - [ ] I can define all twelve required portfolio labels, including rubric and retrospective as distinct concepts.
 - [ ] I can explain why design, performance, validation, and production experience are different claims.
 - [ ] I can assign `design_state`, `performance_state`, and `validation_state` to every artifact.
-- [ ] I can present my Microsoft production transfer only through true, sanitized, personally defensible examples.
+- [ ] I can present my prior production transfer only through true, sanitized, personally defensible examples.
 - [ ] I can state that every Part 117 capstone remained unperformed at authoring.
 - [ ] I can choose among paper, offline, loopback, and public read-only environments using the decision tree.
 - [ ] I will not use real customer/employer data, live malicious activity, phishing, third-party scanning, control bypass, production changes, secrets, public sensitive uploads, or fabricated results.

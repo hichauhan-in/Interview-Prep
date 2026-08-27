@@ -1,10 +1,10 @@
 # Part 51 - Hardware Universe, Platform Limits, Components, and Configuration Rules
 
-> **Section goal:** Learn to validate a physical NetApp configuration using exact platform, controller, part, slot, port, shelf, drive, cable, topology, ONTAP, and lifecycle context. By the end, Arti should be able to use Hardware Universe (HWU) and public platform documentation without relying on remembered specifications, distinguish hardware compatibility from end-to-end interoperability, resolve source conflicts, and turn limits or configuration gaps into evidence-backed change recommendations.
+> **Section goal:** Learn to validate a physical NetApp configuration using exact platform, controller, part, slot, port, shelf, drive, cable, topology, ONTAP, and lifecycle context. By the end, you should be able to use Hardware Universe (HWU) and public platform documentation without relying on remembered specifications, distinguish hardware compatibility from end-to-end interoperability, resolve source conflicts, and turn limits or configuration gaps into evidence-backed change recommendations.
 
 Covers index item **51** and maps directly to job-description responsibilities for install-base analysis, technical configuration validation, lifecycle/upgrade planning, proactive hardware risk, capacity and expansion reviews, customer recommendations, support readiness, and cross-functional change governance.
 
-**Explicit nonclaim:** Arti has not designed or approved a production NetApp hardware configuration through Hardware Universe.
+**Explicit nonclaim:** You have not designed or approved a production NetApp hardware configuration through Hardware Universe.
 
 **Privacy and access boundary:** Gated HWU results, customer bills of materials, serials, locations, slot maps, cabling, contracts, and replacement plans require authorized access and controlled sharing.
 
@@ -14,7 +14,7 @@ Covers index item **51** and maps directly to job-description responsibilities f
 
 HWU is a gated authoritative hardware-configuration reference; this guide cannot reproduce a customer-specific lookup or certify a real configuration. It contains no remembered platform specifications, numeric customer limits, slot maps, part substitutions, cable plans, drive mixing rules, or lifecycle promises. Every example value is synthetic.
 
-> **No-production-NetApp boundary:** Arti does not claim production Hardware Universe or NetApp hardware-design experience. Every platform, part, slot, port, shelf, drive, cable, limit, firmware, lifecycle state, and recommendation below is synthetic. Her factual strengths are Microsoft enterprise support, server/network dependency mapping, exact-version evidence, capacity/change reviews, inventory reconciliation, and secure escalation. The explicit non-claim is: **she has not used HWU to approve a production NetApp configuration, installed or cabled a NetApp controller/shelf, selected a production adapter/drive, performed a hardware expansion, replaced a NetApp FRU, or certified a platform limit.**
+> **No-production-NetApp boundary:** You do not claim production Hardware Universe or NetApp hardware-design experience. Every platform, part, slot, port, shelf, drive, cable, limit, firmware, lifecycle state, and recommendation below is synthetic. Your factual strengths are enterprise support, server/network dependency mapping, exact-version evidence, capacity/change reviews, inventory reconciliation, and secure escalation. The explicit non-claim is: **you have not used HWU to approve a production NetApp configuration, installed or cabled a NetApp controller/shelf, selected a production adapter/drive, performed a hardware expansion, replaced a NetApp FRU, or certified a platform limit.**
 
 ---
 
@@ -573,7 +573,7 @@ flowchart LR
 
 ### JD Mapping
 
-| JD responsibility | Part 51 contribution | Arti's factual bridge and gap |
+| JD responsibility | Part 51 contribution | Your factual bridge and gap |
 |---|---|---|
 | Hardware/configuration validation | Exact model/part/slot/port/shelf/drive/topology method | Server/network evidence habits transfer; no NetApp design approval claimed |
 | Install-base accuracy | Adds component/firmware/topology identity | Data reconciliation strengths transfer |
@@ -703,7 +703,7 @@ flowchart LR
 
 ### Q8. How does your background transfer, and what remains a gap?
 
-> **Model answer:** "My Microsoft support, server/network dependency mapping, inventory reconciliation and change-review work give me exact-evidence and cross-source habits. I have not used HWU to approve or physically install production NetApp hardware, so an authorized experienced hardware owner validates real lookups and procedures."
+> **Model answer:** "My prior support, server/network dependency mapping, inventory reconciliation and change-review work give me exact-evidence and cross-source habits. I have not used HWU to approve or physically install production NetApp hardware, so an authorized experienced hardware owner validates real lookups and procedures."
 
 ---
 
@@ -721,7 +721,7 @@ flowchart LR
 - **Procedure:** Exact model and component; never borrow a neighboring workflow.
 - **Conflict:** Freeze, preserve, scope, identify authority, clarify.
 - **Gated HWU:** Authorized dated extract, not invented lookup.
-- **Arti's bridge:** Evidence/change discipline transfers; hardware design/install does not.
+- **Your bridge:** Evidence/change discipline transfers; hardware design/install does not.
 
 ---
 

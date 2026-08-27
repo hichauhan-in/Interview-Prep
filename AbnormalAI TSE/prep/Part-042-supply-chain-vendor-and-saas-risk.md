@@ -34,7 +34,7 @@ After completing this Part, you should be able to:
 | Own ambiguous L1 cases | Turns a broad vendor report into testable exposure and impact hypotheses | Scope and evidence workflow |
 | Escalate to Engineering/Product/CSM | Produces exact versions, IDs, events, changes, and customer impact | Escalation packet |
 | Protect customer trust | Avoids blame, speculation, secret exposure, and unverified reassurance | Evidence-calibrated updates |
-| Use Microsoft enterprise support experience | Transfers critical-incident ownership, partner communication, and validation | Honest production-transfer story |
+| Use enterprise support experience | Transfers critical-incident ownership, partner communication, and validation | Honest production-transfer story |
 
 Your customer and partner support experience is a natural advantage. Cross-organization cases require clear ownership, action tracking, escalation discipline, and calm updates even when no team has the whole picture. The honest boundary is that transferable enterprise support and Microsoft cloud familiarity do not establish production experience with vendor compromise response, software supply-chain forensics, third-party risk management, SaaS security operations, or Abnormal AI.
 
@@ -42,7 +42,7 @@ Your customer and partner support experience is a natural advantage. Cross-organ
 
 | Evidence label | Safe claim | Boundary |
 |---|---|---|
-| **Production transfer** | Customer/partner case ownership, CRITSIT cadence, escalation, and fix validation | Not production supplier-incident command |
+| **Production transfer** | Customer/partner case ownership, critical-situation cadence, escalation, and fix validation | Not production supplier-incident command |
 | **Local/public lab** | Offline analysis of synthetic suppliers, integrations, notices, and events | No live vendor, package, tenant, or access action |
 | **Learned architecture** | Public NIST/NCSC/ATT&CK supply-chain and trust concepts | No private product or supplier assessment claim |
 | **Template only** | Risk map, evidence request, response plan, and communications | Recommended, not executed |

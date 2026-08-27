@@ -2,23 +2,23 @@
 
 > **Purpose:** Build a beginner-first, evidence-safe method for investigating operating-system events across Windows and Linux. This Part explains Windows Event Log records, Linux journal and text records, process and service state, socket and network evidence, access boundaries, rotation, retention, and narrow collection. It turns those concepts into a synthetic cross-OS incident evidence pack that keeps observation, inference, cause, uncertainty, and missing coverage visibly separate.
 >
-> **Artifact honesty label:** **Local synthetic cross-OS evidence-pack design only.** Every host, service, process, address, event, command result, permission state, timestamp, and conclusion in the lab is invented. The lab does not use customer data, production telemetry, live endpoints, third-party uploads, Abnormal AI systems, or proprietary schemas, and it must not be presented as performed unless Arti actually creates and reviews the local synthetic artifacts.
+> **Artifact honesty label:** **Local synthetic cross-OS evidence-pack design only.** Every host, service, process, address, event, command result, permission state, timestamp, and conclusion in the lab is invented. The lab does not use customer data, production telemetry, live endpoints, third-party uploads, Abnormal AI systems, or proprietary schemas, and it must not be presented as performed unless you actually create and reviews the local synthetic artifacts.
 >
 > **Currency and source access date:** August 24, 2026.
 
 ## Section goal
 
-By the end of this Part, Arti should be able to explain what an operating-system log can and cannot prove, choose a narrow Windows or Linux evidence source, and build a reproducible cross-OS evidence pack without collecting an entire machine. She should start with the symptom, affected host, time window, process or service, and network endpoint, then ask the smallest question that distinguishes competing explanations.
+By the end of this Part, you should be able to explain what an operating-system log can and cannot prove, choose a narrow Windows or Linux evidence source, and build a reproducible cross-OS evidence pack without collecting an entire machine. You should start with the symptom, affected host, time window, process or service, and network endpoint, then ask the smallest question that distinguishes competing explanations.
 
-She should understand that a **log record** is a producer's statement that something was observed or decided at a particular instrumentation point. On Windows, records may appear in channels such as System, Application, Security, or a provider-specific operational channel. On Linux, records may be stored by the systemd journal, written to text files under a distribution-specific logging design, emitted by the kernel, or forwarded by a logging daemon. The location and fields are platform and version dependent; neither operating system has one magical file containing the full truth.
+You should understand that a **log record** is a producer's statement that something was observed or decided at a particular instrumentation point. On Windows, records may appear in channels such as System, Application, Security, or a provider-specific operational channel. On Linux, records may be stored by the systemd journal, written to text files under a distribution-specific logging design, emitted by the kernel, or forwarded by a logging daemon. The location and fields are platform and version dependent; neither operating system has one magical file containing the full truth.
 
-She should be able to inspect **process state** and **service state** as related but different evidence. A process is a running instance of a program with a process identifier, memory, threads, handles or file descriptors, and a security context. A service is an operating-system-managed workload with configuration and lifecycle state. A service can be configured but stopped, reported active while a child is unhealthy, repeatedly restarting, or running without owning the expected listener. A process snapshot says what the observer could see at that instant; it does not prove what existed five minutes earlier.
+You should be able to inspect **process state** and **service state** as related but different evidence. A process is a running instance of a program with a process identifier, memory, threads, handles or file descriptors, and a security context. A service is an operating-system-managed workload with configuration and lifecycle state. A service can be configured but stopped, reported active while a child is unhealthy, repeatedly restarting, or running without owning the expected listener. A process snapshot says what the observer could see at that instant; it does not prove what existed five minutes earlier.
 
-She should understand basic **network event** evidence. A socket is one software endpoint of communication. A listening socket indicates that a process has asked the operating system to accept traffic on a local address and port; it does not prove a firewall permits the traffic, an application responds correctly, or a remote path works. A connection state such as `SYN_SENT`, `ESTABLISHED`, or `LISTEN` is evidence from one host's network stack at one moment, not a complete packet history. Firewall or filtering events exist only when the relevant control and audit policy are configured, and absence of such an event can mean disabled auditing, overwritten data, wrong scope, or insufficient permission.
+You should understand basic **network event** evidence. A socket is one software endpoint of communication. A listening socket indicates that a process has asked the operating system to accept traffic on a local address and port; it does not prove a firewall permits the traffic, an application responds correctly, or a remote path works. A connection state such as `SYN_SENT`, `ESTABLISHED`, or `LISTEN` is evidence from one host's network stack at one moment, not a complete packet history. Firewall or filtering events exist only when the relevant control and audit policy are configured, and absence of such an event can mean disabled auditing, overwritten data, wrong scope, or insufficient permission.
 
-She should treat **permissions**, **retention**, and **rotation** as part of the evidence model. An access-denied result does not mean no records exist. It means the current identity cannot read them through that path. A rotated file, overwritten Windows channel, volatile journal, reboot boundary, or retention cap can create a real coverage gap. She should record those gaps rather than replacing them with confidence.
+You should treat **permissions**, **retention**, and **rotation** as part of the evidence model. An access-denied result does not mean no records exist. It means the current identity cannot read them through that path. A rotated file, overwritten Windows channel, volatile journal, reboot boundary, or retention cap can create a real coverage gap. You should record those gaps rather than replacing them with confidence.
 
-Finally, she should produce the primary artifact: a **synthetic cross-OS incident evidence pack**. It should contain a scope card, source inventory, raw-preserving excerpts, query or inspection transcript, process and service state, network observations, time and identifier normalization, permission and retention notes, a reasoning ledger, a troubleshooting path, a privacy manifest, and customer-safe and Engineering-ready summaries. It should demonstrate method while clearly stating that no direct Abnormal AI or Linux production experience is being claimed.
+Finally, you should produce the primary artifact: a **synthetic cross-OS incident evidence pack**. It should contain a scope card, source inventory, raw-preserving excerpts, query or inspection transcript, process and service state, network observations, time and identifier normalization, permission and retention notes, a reasoning ledger, a troubleshooting path, a privacy manifest, and customer-safe and Engineering-ready summaries. It should demonstrate method while clearly stating that no direct Abnormal AI or Linux production experience is being claimed.
 
 ## JD Mapping
 
@@ -31,21 +31,21 @@ Finally, she should produce the primary artifact: a **synthetic cross-OS inciden
 | Engineering escalation | Supplies exact host role, OS/build, time basis, source, event identity, PID epoch, service/unit, endpoint, and gaps | Makes a handoff reproducible without a broad archive | Minimal escalation manifest |
 | Customer communication | Converts low-level records into a bounded narrative | States observed behavior, current hypothesis, next test, owner, and limitation | Customer-safe update |
 | Privacy and trust | Applies authorization, minimum necessary collection, redaction, retention, and deletion | Prevents credentials, command-line secrets, customer content, and unrelated records from entering a case | Privacy and cleanup manifest |
-| Microsoft enterprise support transfer | Reuses Windows troubleshooting, customer scoping, evidence handling, and escalation discipline | Makes Arti's Windows background an explicit strength while learning Linux terminology | Honest transfer statement |
+| enterprise support transfer | Reuses Windows troubleshooting, customer scoping, evidence handling, and escalation discipline | Makes your Windows background an explicit strength while learning Linux terminology | Honest transfer statement |
 | Linux learning target | Builds a source-grounded model of systemd journal, text logs, processes, services, sockets, and permissions | Supports credible onboarding questions without pretending prior production ownership | Synthetic Linux evidence worksheet |
 | No direct Abnormal production experience | Separates generic OS behavior from product implementation | Prevents unsupported claims about agents, services, log locations, event IDs, architecture, or retention | Candidate boundary statement |
 
 ## Candidate honesty note
 
-Arti can honestly say that Microsoft enterprise support gave her transferable habits: define impact and scope, establish an incident window, gather the minimum relevant Windows evidence, protect customer data, separate observed state from interpretation, and create an Engineering-ready handoff. If she has personally used Windows Event Viewer, PowerShell, process tools, service controls, or network-state tools in support, she can describe only the real examples she can defend and only at an allowed level of detail.
+You can honestly say that enterprise support gave your transferable habits: define impact and scope, establish an incident window, gather the minimum relevant Windows evidence, protect customer data, separate observed state from interpretation, and create an Engineering-ready handoff. If you have personally used Windows Event Viewer, PowerShell, process tools, service controls, or network-state tools in support, you can describe only the real examples you can defend and only at an allowed level of detail.
 
-For Linux, she can say that she has studied the journal, text-log, process, service, socket, permission, and rotation models and can demonstrate the method with the synthetic pack in this Part. She must not convert study into a production-experience claim. She should not say she administered Linux fleets, queried customer Linux hosts, diagnosed an Abnormal agent, or used a proprietary Abnormal logging pipeline unless that later becomes true and is permitted to discuss.
+For Linux, you can say that you have studied the journal, text-log, process, service, socket, permission, and rotation models and can demonstrate the method with the synthetic pack in this Part. You must not convert study into a production-experience claim. You should not say you administered Linux fleets, queried customer Linux hosts, diagnosed an Abnormal agent, or used a proprietary Abnormal logging pipeline unless that later becomes true and is permitted to discuss.
 
 Generic names such as `agent`, `connector`, `worker`, `service`, `journal`, or `event` do not establish any fact about Abnormal AI. Product process names, Windows providers, Linux unit names, log paths, event schemas, support bundles, retention, required privileges, and escalation tooling must be learned from current approved product documentation and owners during onboarding.
 
-| Evidence tier | Honest wording Arti can adapt | Boundary to preserve |
+| Evidence tier | Honest wording you can adapt | Boundary to preserve |
 |---|---|---|
-| Production transfer | “In Microsoft enterprise support, I used scoped Windows evidence and customer context to isolate the failing boundary and prepare escalations.” | Use a real, permitted example; do not imply it involved Abnormal |
+| Production transfer | “In enterprise support, I used scoped Windows evidence and customer context to isolate the failing boundary and prepare escalations.” | Use a real, permitted example; do not imply it involved Abnormal |
 | Demonstrated local practice | “I designed and, if actually completed, built a synthetic Windows/Linux evidence pack with service, process, socket, permission, and retention analysis.” | Say synthetic and local; state whether it was actually performed |
 | Learned architecture | “Windows and Linux expose different event and service models, but both require source, time, identity, lifecycle, and coverage checks.” | Generic platform understanding is not product architecture knowledge |
 | Interview reasoning | “I would begin with a narrow time window and the owning process or service, then request the smallest evidence that distinguishes my hypotheses.” | A proposed workflow is not a completed customer investigation |
@@ -728,7 +728,7 @@ An escalation should include one exact question. “Please investigate” is wea
 | Failure modes | Misleading severity, PID reuse, false absence, rotation, access, broad collection, control changes | Section 14 |
 | Safe lab | Local fictional CrossLog 094 exercise | Prerequisites, steps, expected evidence, cleanup, rubric |
 | JD mapping | Role signals mapped to support capability and proof | JD Mapping table |
-| Candidate honesty | Microsoft transfer, Linux learning, local proof, and no Abnormal access | Candidate honesty note |
+| Candidate honesty | experience transfer, Linux learning, local proof, and no Abnormal access | Candidate honesty note |
 | Official anchors | Microsoft, systemd, Linux man-pages, logrotate, rsyslog, NIST, and RFC sources | Dated source section |
 | Interview Q&A | Exactly Q1 through Q8, each with a model answer | Interview section |
 | Memory hooks | Fast recall statements | Memory Hooks |
@@ -738,7 +738,7 @@ An escalation should include one exact question. “Please investigate” is wea
 
 ## Lab - CrossLog 094 Synthetic Cross-OS Incident Evidence Pack
 
-This lab is a local design-and-analysis exercise using invented records. It is safe because it does not query the learner's actual Windows Event Log, Linux journal, processes, services, sockets, registry, `/proc`, network, cloud tenant, customer system, or Abnormal AI environment. The instructions do **not** claim that the lab has been run. If Arti performs it, she must record actual local artifact creation and keep every source synthetic.
+This lab is a local design-and-analysis exercise using invented records. It is safe because it does not query the learner's actual Windows Event Log, Linux journal, processes, services, sockets, registry, `/proc`, network, cloud tenant, customer system, or Abnormal AI environment. The instructions do **not** claim that the lab has been run. If you perform it, you must record actual local artifact creation and keep every source synthetic.
 
 ### Prerequisites
 
@@ -820,7 +820,7 @@ Build a fictional corpus of at least 120 records across two Windows-shaped hosts
 37. For one absent security record, make audit policy disabled in the synthetic source card. The correct conclusion is “not recorded under this policy,” not “activity did not occur.”
 38. For another absent record, make the query use the wrong provider. Repair the query in the reasoning ledger and show why event ID alone was insufficient.
 39. Create `hypothesis-ledger-094.md` with at least five symptoms. For each, list three hypotheses, distinct predictions, the cheapest safe synthetic inspection, the observed result, confidence update, rejected alternatives, and next action.
-40. Use the exact worked incident from Section 12 as one scenario, but rewrite the reasoning in Arti's own words. Keep all values labeled fictional.
+40. Use the exact worked incident from Section 12 as one scenario, but rewrite the reasoning in your own words. Keep all values labeled fictional.
 41. Add a second scenario in which the network is healthy and the application rejects an expired synthetic credential. Do not include any token or secret value. This prevents “network logs” from becoming the default answer to every timeout-shaped complaint.
 42. Add a third scenario in which a service is healthy but the collector is delayed. Separate event occurrence, local storage, forwarding, ingest, and analyst query times.
 43. Create `privacy-manifest-094.md`. List excluded classes: authorization headers, cookies, tokens, passwords, secrets, keys, certificates with private material, command lines, environment variables, message content, personal data, tenant IDs, internal hostnames, unrelated endpoints, and raw customer identifiers.
@@ -893,7 +893,7 @@ If the lab is actually performed, expected evidence includes:
 | Reasoning | Error text becomes root cause | Lists one hypothesis | Uses symptom, three hypotheses, predictions, smallest test, observation, confidence update, alternative rejection, and next action |
 | Privacy/safety | Includes secrets/content or changes controls | Manually redacts after collection | Structurally excludes sensitive fields, stays synthetic/local, uses no broad collection, elevation, control change, or destructive command |
 | Artifact quality | Loose notes without provenance | Partial timeline and summary | Complete source inventory, excerpts, state snapshots, timeline, coverage, ledger, manifests, customer update, and escalation |
-| Honesty | Implies Abnormal/Linux production experience | Calls the lab fictional | Separates Microsoft transfer, synthetic demonstration, learned architecture, product unknowns, and actual run status |
+| Honesty | Implies Abnormal/Linux production experience | Calls the lab fictional | Separates experience transfer, synthetic demonstration, learned architecture, product unknowns, and actual run status |
 | Spoken readiness | Reads definitions only | Explains one platform | Gives a five-minute cross-OS explanation and answers Q1-Q8 with evidence limits |
 
 ## Official Source Anchors - August 24, 2026
@@ -967,7 +967,7 @@ These anchors support generic platform and evidence concepts. They do not establ
 
 ### Q8. How would you position your Windows background and Linux gap honestly?
 
-**Model answer:** I would explain that Microsoft enterprise support gave me strong habits in Windows evidence collection, customer scoping, privacy, layered troubleshooting, and Engineering handoffs, using only real examples I can defend. I have built my Linux foundation through official systemd, Linux, and logging sources and this synthetic cross-OS exercise. I would state directly that I have not administered Abnormal's Linux production environment and would learn its approved units, schemas, tools, retention, and escalation paths during onboarding.
+**Model answer:** I would explain that enterprise support gave me strong habits in Windows evidence collection, customer scoping, privacy, layered troubleshooting, and Engineering handoffs, using only real examples I can defend. I have built my Linux foundation through official systemd, Linux, and logging sources and this synthetic cross-OS exercise. I would state directly that I have not administered Abnormal's Linux production environment and would learn its approved units, schemas, tools, retention, and escalation paths during onboarding.
 
 ## Memory Hooks
 
@@ -1027,7 +1027,7 @@ These anchors support generic platform and evidence concepts. They do not establ
 - [ ] If performed, I can produce the complete synthetic cross-OS incident evidence pack and score it with the rubric.
 - [ ] I can deliver a 90-second customer update and five-minute Engineering explanation without reading.
 - [ ] I can answer Q1 through Q8 aloud with bounded, source-aware language.
-- [ ] I can distinguish Microsoft production-transfer experience, synthetic practice, learned Linux architecture, and unknown Abnormal implementation.
+- [ ] I can distinguish production-transfer experience, synthetic practice, learned Linux architecture, and unknown Abnormal implementation.
 - [ ] I can state directly that I have no direct Abnormal host-log or Linux production experience unless that later becomes true.
 - [ ] I reviewed the Official Source Anchors dated August 24, 2026 and would revalidate the actual OS, command, module, distribution, systemd, kernel, and product versions.
 

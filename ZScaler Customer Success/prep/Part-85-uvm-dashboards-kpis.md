@@ -1,14 +1,14 @@
 # Part 85 - UVM Dashboards, KPIs, Trends, and Executive Reporting
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 
 > **Purpose:** Explain UVM dashboards and reporting from zero. Cover risk-reduction evidence, exposure aging, SLA performance, remediation backlog, recurrence, exceptions, ownership, control coverage, trend integrity, denominators, drill-down, technical versus executive narratives, board-safe caveats, data quality, privacy, troubleshooting, practical customer artifacts, and TSM value.
 
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for learning. Every NMH asset, service, metric, dashboard, score, denominator, trend, target, date, result, exception, decision, and narrative is invented. Arti's factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; escalations; mentoring; and responsible AI exploration. Production Zscaler, Data Fabric, UVM, Risk360, CAASM, CTEM, vulnerability-program operation, and board reporting remain learning boundaries.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for learning. Every NMH asset, service, metric, dashboard, score, denominator, trend, target, date, result, exception, decision, and narrative is invented. Your factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; escalations; mentoring; and responsible AI exploration. Production Zscaler, Data Fabric, UVM, Risk360, CAASM, CTEM, vulnerability-program operation, and board reporting remain learning boundaries.
 
 > **Currency caveat:** Product wording, dashboards, metrics, refresh behavior, fields, integrations, entitlements, source data, standards, and customer policies change. The controlled official-source snapshot and review date for this Part is exactly **2026-08-24**. Current official documentation, licensed-tenant evidence, customer metric definitions, source-native data, approved reporting policy, product specialists, Zscaler Support, and measured postconditions govern production.
 
-> **Section goal:** Enable Arti to design and discuss a trustworthy UVM reporting system: define every metric before visualizing it, show source and model health beside risk, distinguish score/count movement from validated exposure reduction, preserve denominators and history, support drill-down, tailor technical and executive narratives, and troubleshoot misleading trends without inventing product behavior or customer outcomes.
+> **Section goal:** Enable you to design and discuss a trustworthy UVM reporting system: define every metric before visualizing it, show source and model health beside risk, distinguish score/count movement from validated exposure reduction, preserve denominators and history, support drill-down, tailor technical and executive narratives, and troubleshoot misleading trends without inventing product behavior or customer outcomes.
 
 The reviewed official UVM page publicly describes dynamic insights into risk posture, key performance indicators, service-level agreements, and other metrics based on a correlated, context-rich dataset. The reviewed Data Fabric page supports bounded public positioning around dynamic reports across fabric elements. These statements support a product conversation about reporting. They do not publish exact UVM dashboards, tiles, measures, formulas, semantic models, refresh intervals, historical retention, drill paths, row-level access, exports, board templates, or entitlements.
 
@@ -55,7 +55,7 @@ flowchart LR
 
 | Evidence class | Neutral candidate phrasing | Boundary |
 |---|---|---|
-| Factual Microsoft support | Escalation reporting required exact scope, customer impact, evidence, timelines, ownership, status, and next checkpoints | Not production UVM or board reporting |
+| Factual enterprise support | Escalation reporting required exact scope, customer impact, evidence, timelines, ownership, status, and next checkpoints | Not production UVM or board reporting |
 | M365/OneDrive/SharePoint | Service health, client state, permissions, network evidence, and customer context needed separate interpretation | Transferable analytical discipline |
 | Networking/traces | Time-aligned path evidence supports reachability/control and integration-health explanations | No claim of Zscaler telemetry operation |
 | SQL/Power BI | Skills support star models, joins, windows, denominators, drill-down, trend bridges, and data-quality views | No undocumented UVM data access claim |
@@ -438,7 +438,7 @@ flowchart LR
     EXCL --> NOTE[Separate exclusion disclosure]
 ```
 
-SQL anti-joins and control totals are especially valuable: expected assets without scanner evidence, active episodes without owner, implemented episodes without validation, exceptions without current controls, tickets without episodes, and episodes without tickets. Arti's SQL background supports these tests naturally.
+SQL anti-joins and control totals are especially valuable: expected assets without scanner evidence, active episodes without owner, implemented episodes without validation, exceptions without current controls, tickets without episodes, and episodes without tickets. Your SQL background supports these tests naturally.
 
 ## Drill-down and drill-through design
 
@@ -826,7 +826,7 @@ All exercises use synthetic data, public official pages, or isolated explicitly 
 | 20 | Run review | Ten-minute synthetic QBR | Decisions, owners, caveats, checkpoints |
 | 21 | Rehearse Q1-Q8 | Recorded answers | Neutral honesty and source boundaries |
 
-## Arti bridge: factual strengths applied to reporting
+## Experience bridge: factual strengths applied to reporting
 
 | Factual strength | Reporting application | Interview bridge | Boundary |
 |---|---|---|---|
@@ -901,7 +901,7 @@ Official Zscaler sources support bounded public product positioning only. Semant
 
 **Model answer:** Mark the metric degraded and preserve evidence. Fix exact viewer, role, filters, and UTC/as-of time. Reconcile independent scope, source completeness/freshness, mapping/types/time, entity identity, fact/dimension relationships, numerator/denominator calculation, policy/model version, ticket/exception/validation state, refresh/cache, access, visual configuration, and narrative. Repair, replay, restate, communicate affected decisions, and escalate a redacted minimal case if needed.
 
-### Q8. How does Arti's background support this work without overstating experience?
+### Q8. How does your background support this work without overstating experience?
 
 **Model answer:** Microsoft 365, OneDrive, and SharePoint escalation work built scoped evidence and audience-aware status communication. Networking traces support source/path/latency reasoning. SQL and Power BI support fact/dimension models, joins, nulls, windows, denominators, drill-through, quality checks, trends, and narratives. Escalations, mentoring, and reviewed AI assistance support adoption. NMH is synthetic, and production UVM dashboards, vulnerability-program metrics, and board reporting remain learning boundaries.
 

@@ -54,7 +54,7 @@ By the end of this part, you should be able to:
 
 ## Candidate Honesty Note
 
-Arti can say:
+You can say:
 
 > "My networking and HTTP upskilling helps me parse URL structure and reason about redirects, DNS, TLS, and browser boundaries, while my enterprise-support experience helps with scoping, evidence, communication, and escalation. I have not operated Abnormal AI or a production phishing sandbox/identity incident program. My hands-on proof is a local inert parsing lab only. I would never visit a suspicious URL, scan a QR code, submit test credentials, or change a live account; I would preserve the indicator and use the customer's authorized security and identity workflows."
 

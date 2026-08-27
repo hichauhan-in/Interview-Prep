@@ -1,10 +1,10 @@
 # Part 20 - HTTP, HTTPS, URLs, Methods, Headers, Cookies, Sessions, and Status Codes
 
-> **Audience:** Arti Thakur, moving from Microsoft 365 Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
+> **Audience:** Candidates moving from Microsoft 365 Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
 >
 > **Purpose:** Explain how web clients identify resources, exchange HTTP requests and responses, maintain application state, cache and compress representations, traverse intermediaries, use HTTP versions, authenticate, expose failures, and provide evidence for browser, API, OneDrive, and SharePoint troubleshooting.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Its URLs, users, proxies, requests, responses, timings, policies, failures, and outcomes are synthetic. Arti's Microsoft 365, OneDrive for Business, SharePoint Online, networking, evidence, and escalation experience must remain within her approved factual background.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Its URLs, users, proxies, requests, responses, timings, policies, failures, and outcomes are synthetic. Your own product, networking, evidence, and escalation experience must remain within your documented background.
 >
 > **Product caveat:** This Part teaches HTTP standards and documented web behavior. Exact Microsoft 365 endpoints, authentication flows, API contracts, throttling, cookies, headers, protocol negotiation, CDN paths, proxy handling, and Zscaler behavior change by service, version, tenant, and policy. Verify current official documentation and direct evidence. No fictional scenario proves a production vendor defect.
 
@@ -14,7 +14,7 @@ Parts 16-19 built the path from link and IP through transport and name resolutio
 
 Think of a structured service desk. The URL is the office and ticket reference. The method states the requested action. Request headers carry context and preferences. The body carries submitted material. The status code classifies the result. Response headers explain representation, caching, authentication, redirects, and retry information. Cookies can carry a return token. A proxy resembles a front desk that can accept one conversation and start another. A CDN resembles a distributed authorized copy desk. A load balancer selects a worker behind the service entrance.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Evidence of mastery |
 |---|---|---|
@@ -31,11 +31,11 @@ By the end, Arti should be able to:
 
 ## JD Mapping
 
-| JD expectation | Part 20 capability | Artifact | Honest Arti bridge |
+| JD expectation | Part 20 capability | Artifact | Honest experience bridge |
 |---|---|---|---|
 | Analyze complex environments | Trace HTTP through browser/client, proxy, identity, CDN, load balancer, and service | Request path and boundary map | Microsoft 365 browser, sync, HAR, Fiddler, and escalation reasoning |
 | Identify risk | Recognize insecure URLs, leaked tokens, unsafe retries, cache exposure, broad cookies, and untrusted headers | HTTP security/privacy notes | Learned SecOps interpretation, not claimed product operation |
-| Resolve critical escalations | Separate DNS/TCP/TLS, proxy, HTTP, identity, service, and content workstreams | Waterfall, timeline, and hypothesis matrix | CRITSIT coordination and evidence discipline |
+| Resolve critical escalations | Separate DNS/TCP/TLS, proxy, HTTP, identity, service, and content workstreams | Waterfall, timeline, and hypothesis matrix | critical-situation coordination and evidence discipline |
 | Tailor mitigation | Recommend scoped header, cache, redirect, proxy, retry, timeout, or application correction | Change and rollback plan | Production validation method |
 | Deliver consulting | Explain web mechanics and errors from zero | Whiteboard and teach-back | Advisor, mentoring, and training strengths |
 | Work cross-functionally | Give owners exact URL, method, status, request ID, timestamp, and responder | Shared evidence register | Customer and Engineering collaboration |
@@ -43,9 +43,9 @@ By the end, Arti should be able to:
 
 ## Candidate honesty note
 
-Arti can truthfully discuss Microsoft 365 production investigations involving OneDrive and SharePoint, browser and sync-client comparison, HAR, Fiddler, browser tools, network evidence, permissions, service behavior, Engineering escalation, and fix validation where supported by her actual background. She can also discuss standards-based HTTP analysis and controlled labs.
+You can truthfully discuss Microsoft 365 production investigations involving OneDrive and SharePoint, browser and sync-client comparison, HAR, Fiddler, browser tools, network evidence, permissions, service behavior, Engineering escalation, and fix validation where supported by your actual background. You can also discuss standards-based HTTP analysis and controlled labs.
 
-She should not claim to have designed Microsoft internal APIs, administered a Zscaler proxy, or diagnosed a product defect from a status code alone. A safe bridge is: "I have production experience correlating client behavior, HTTP evidence, identity, network path, service responses, and object state in Microsoft 365 cases. I am extending that method into SecOps and would validate product-specific policy and telemetry before attributing cause."
+You should not claim to have designed Microsoft internal APIs, administered a Zscaler proxy, or diagnosed a product defect from a status code alone. A safe bridge is: "I have production experience correlating client behavior, HTTP evidence, identity, network path, service responses, and object state in Microsoft 365 cases. I am extending that method into SecOps and would validate product-specific policy and telemetry before attributing cause."
 
 | Evidence category | Safe phrasing | Boundary |
 |---|---|---|
@@ -800,7 +800,7 @@ flowchart LR
 
 ### NMH response and mitigation
 
-Arti's fictional bridge update: "The failure is method/body-size specific. Browser GET and uploads below the threshold succeed. The 413 carries the enterprise gateway's request ID, and the correlated gateway log records a local request-body-limit decision before upstream creation. Current evidence assigns the controlling boundary to the generic gateway policy, not Microsoft or Zscaler. The gateway owner is validating a least-scope rule for the documented upload workflow in a test ring with rollback."
+Your fictional bridge update: "The failure is method/body-size specific. Browser GET and uploads below the threshold succeed. The 413 carries the enterprise gateway's request ID, and the correlated gateway log records a local request-body-limit decision before upstream creation. Current evidence assigns the controlling boundary to the generic gateway policy, not Microsoft or Zscaler. The gateway owner is validating a least-scope rule for the documented upload workflow in a test ring with rollback."
 
 Do not simply remove all body limits. Validate approved Microsoft endpoint/method guidance, data-loss controls, malware inspection, timeout/capacity impact, legal/privacy requirements, and application upload semantics. Use a scoped rule, pilot, monitoring, and rollback. Validate large and small uploads, downloads, browser access, denied unapproved destinations, throttling behavior, request IDs, and recurrence.
 
@@ -1103,7 +1103,7 @@ The following authoritative sources were reviewed on **2026-08-24**. They suppor
 - [ ] I can troubleshoot no response, 4xx/5xx, redirect, cache, browser-versus-sync, and gateway scenarios.
 - [ ] I can walk generic OneDrive/SharePoint browser and sync flows without asserting internal Microsoft design.
 - [ ] I can walk the fictional NMH 413 scenario and explain scoped mitigation, rollback, and validation.
-- [ ] I can connect Arti's factual Microsoft support background without claiming Zscaler production operation.
+- [ ] I can connect your factual enterprise support background without claiming Zscaler production operation.
 - [ ] I can answer Q1-Q8 aloud and complete all eight labs with sanitized evidence.
 
 [Part 21 - TLS, SSL History, PKI, Certificates, Handshakes, and Inspection](Part-21-tls-pki-certificates-inspection.md)

@@ -1,10 +1,10 @@
 # Part 63 - Data Fabric Correlation, Enrichment, Relationships, and Security Graph
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 >
 > **Purpose:** Explain how resolved entities become useful security context through correlation, enrichment, typed relationships, temporal validity, provenance, and graph/path reasoning; connect business, identity, asset, application, vulnerability, control, behavior, and organizational context; show how context can raise, lower, or leave risk unchanged; distinguish possible exposure paths from observed attacks; troubleshoot stale, wrong, missing, duplicated, or circular context; and turn evidence into cautious customer action.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every entity, edge, property, graph, path, rule, confidence value, source record, finding, control, event, workflow, metric, incident, result, and outcome in this Part is synthetic. Zscaler public pages support bounded statements that Data Fabric aggregates and unifies security and business data, harmonizes, deduplicates, correlates, and enriches it; that Asset Exposure Management performs cross-source correlation and identifies asset relationships; and that Unified Vulnerability Management correlates findings with identity, asset, behavior, mitigating-control, business-process, and organizational-hierarchy context. Those pages do not disclose an internal graph schema, storage engine, query language, edge-resolution rule, path algorithm, confidence formula, risk formula, or customer-specific outcome. Graph and correlation mechanics below are general educational patterns, not undocumented Zscaler implementation claims. Arti's Microsoft correlation, dependency mapping, timeline, SQL, RCA, and customer communication experience transfers; direct production operation of Zscaler Data Fabric remains a learning boundary.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every entity, edge, property, graph, path, rule, confidence value, source record, finding, control, event, workflow, metric, incident, result, and outcome in this Part is synthetic. Zscaler public pages support bounded statements that Data Fabric aggregates and unifies security and business data, harmonizes, deduplicates, correlates, and enriches it; that Asset Exposure Management performs cross-source correlation and identifies asset relationships; and that Unified Vulnerability Management correlates findings with identity, asset, behavior, mitigating-control, business-process, and organizational-hierarchy context. Those pages do not disclose an internal graph schema, storage engine, query language, edge-resolution rule, path algorithm, confidence formula, risk formula, or customer-specific outcome. Graph and correlation mechanics below are general educational patterns, not undocumented Zscaler implementation claims. Your prior correlation, dependency mapping, timeline, SQL, RCA, and customer communication experience transfers; direct production operation of Zscaler Data Fabric remains a learning boundary.
 >
 > **Currency caveat:** Product interfaces, terminology, source coverage, relationships, risk models, and public claims change. The controlled research/source date for this Part is exactly **2026-08-24**. Current official documentation, licensed tenant behavior, approved data contracts, customer policy, privacy/security review, source owners, product specialists, and direct evidence govern production.
 
@@ -14,7 +14,7 @@ Correlation answers, "Which governed observations belong together for this quest
 
 Think of an airport disruption desk. A flight, aircraft, crew, passenger, gate, maintenance record, weather event, and connecting flight are separate things. Relationships explain why one delayed aircraft affects some passengers but not every traveler in the airport. A stale gate assignment or wrong aircraft identity can create a confident but false answer. Security correlation has the same mechanics: identify each thing, use typed and time-valid relationships, preserve the source of every claim, and state uncertainty.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Evidence artifact |
 |---|---|---|
@@ -31,7 +31,7 @@ By the end, Arti should be able to:
 | Adjust risk carefully | Show which context raises, lowers, or does not resolve risk | Factor rationale |
 | Find context defects | Isolate source, identity, mapping, edge, time, traversal, and consumer faults | Troubleshooting evidence pack |
 | Protect trust | Contain wrong actions, repair context, reconcile outputs, and communicate restatement | Correction runbook |
-| Bridge experience honestly | Translate Microsoft escalation methods without claiming product internals | Interview narrative |
+| Bridge experience honestly | Translate enterprise escalation methods without claiming product internals | Interview narrative |
 
 ```mermaid
 flowchart LR
@@ -49,7 +49,7 @@ flowchart LR
 
 ## JD Mapping
 
-| Role expectation | Part 63 capability | TSM artifact | Arti bridge and boundary |
+| Role expectation | Part 63 capability | TSM artifact | experience bridge and boundary |
 |---|---|---|---|
 | Develop Data Fabric expertise | Explain documented correlation/enrichment value and general mechanics | Source-bounded architecture whiteboard | No internal graph claim |
 | Analyze complex environments | Connect identity, endpoint, application, vulnerability, control, and business evidence | Context map | Cross-service dependency mapping transfers |
@@ -64,7 +64,7 @@ flowchart LR
 
 | Evidence class | Safe interview statement | Boundary to state |
 |---|---|---|
-| Production transfer | "I correlated users, devices, requests, URLs, permissions, services, changes, logs, and timestamps during Microsoft escalations." | Not production security-graph administration |
+| Production transfer | "I correlated users, devices, requests, URLs, permissions, services, changes, logs, and timestamps during enterprise escalations." | Not production security-graph administration |
 | Synthetic practice | "I built and troubleshot an NMH temporal security graph and exposure-path case." | Fictional evidence only |
 | Official public fact | "Zscaler publicly describes Data Fabric correlation/enrichment, AEM asset relationships, and UVM context categories." | No undocumented graph internals |
 | General method | "I use typed edges, effective time, provenance, confidence, and bounded traversal." | General architecture practice |
@@ -122,7 +122,7 @@ flowchart LR
 
 A diagram often makes a relationship look permanent. A line from `User-17` to `Laptop-44` can appear as undeniable ownership. In reality, one source may have reported an assignment, another may disagree, and the assignment may have ended last month. The edge therefore needs a type, direction, source, effective interval, observation time, confidence, and status.
 
-Imagine a library card catalog. A card saying "borrowed by Arti" is useful only with the exact book copy, checkout date, due date, and library branch. Reusing that card forever would assign every later reader's behavior to Arti. A graph relationship has the same requirement. Treat the line as a time-bound assertion with receipts, not as a physical cable.
+Imagine a library card catalog. A card saying "borrowed by you" is useful only with the exact book copy, checkout date, due date, and library branch. Reusing that card forever would assign every later reader's behavior to you. A graph relationship has the same requirement. Treat the line as a time-bound assertion with receipts, not as a physical cable.
 
 ## Correlation contract before correlation logic
 
@@ -927,7 +927,7 @@ What is the first corrective priority after tickets go to a former team?
 
 ### Exercise 12 - Product claim
 
-Can Arti say Zscaler uses a particular graph database and path algorithm?
+Can you say Zscaler uses a particular graph database and path algorithm?
 
 **Answer:** No. Public pages support correlation, enrichment, relationships, and contextual categories, not undocumented storage, schema, query, algorithm, or formula details.
 
@@ -1094,7 +1094,7 @@ Zscaler sources support bounded public Data Fabric, AEM, and UVM positioning. W3
 
 ### Q8. How does your background transfer, and what can you claim about Zscaler?
 
-**Model answer:** Microsoft escalation work trained me to correlate identities, devices, URLs, requests, permissions, services, changes, and timelines; map dependencies; test alternative hypotheses; preserve evidence; and communicate uncertainty. I practiced typed temporal graph and correction methods in synthetic NMH labs. Zscaler publicly describes Data Fabric correlation/enrichment, AEM relationships, and UVM context categories, but I do not claim internal schemas, graph technology, algorithms, path logic, scores, or thresholds. I would validate current tenant behavior with official documentation and specialists.
+**Model answer:** enterprise escalation work trained me to correlate identities, devices, URLs, requests, permissions, services, changes, and timelines; map dependencies; test alternative hypotheses; preserve evidence; and communicate uncertainty. I practiced typed temporal graph and correction methods in synthetic NMH labs. Zscaler publicly describes Data Fabric correlation/enrichment, AEM relationships, and UVM context categories, but I do not claim internal schemas, graph technology, algorithms, path logic, scores, or thresholds. I would validate current tenant behavior with official documentation and specialists.
 
 ## 30-Second Memory Hooks
 
@@ -1123,7 +1123,7 @@ Zscaler sources support bounded public Data Fabric, AEM, and UVM positioning. W3
 | Missing context | Unknown is not low |
 | Stale edge | Wrong address can misroute action |
 | Troubleshooting | Source -> map -> entity -> edge -> query -> consumer |
-| Arti bridge | Dependency correlation and RCA transfer; internals do not |
+| Experience bridge | Dependency correlation and RCA transfer; internals do not |
 
 ## Completion Checklist
 
@@ -1169,6 +1169,6 @@ Zscaler sources support bounded public Data Fabric, AEM, and UVM positioning. W3
 - [ ] I label every NMH entity, path, rule, metric, incident, and outcome synthetic.
 - [ ] I use the controlled research/source date exactly as 2026-08-24.
 - [ ] I make no unsupported Zscaler graph engine, schema, edge type, relationship rule, query language, path algorithm, confidence, risk formula, threshold, guarantee, production, or customer-outcome claim.
-- [ ] I can answer Q1 through Q8 with definitions, analogies, architecture, mechanics, examples, tradeoffs, failures, troubleshooting, labs, NMH evidence, official-source boundaries, and an honest Arti bridge.
+- [ ] I can answer Q1 through Q8 with definitions, analogies, architecture, mechanics, examples, tradeoffs, failures, troubleshooting, labs, NMH evidence, official-source boundaries, and an honest experience bridge.
 
 [Part 64 - Data Fabric Business Logic, Grouping, Scoring, and Customization](Part-64-data-fabric-business-logic-scoring.md)

@@ -1,6 +1,6 @@
 # Appendix B - Protocol Port and Error Code Cheat Sheets
 
-> **Audience:** Arti Thakur, preparing for an Abnormal AI Technical Support Engineer interview  
+> **Audience:** Candidates preparing for an Abnormal AI Technical Support Engineer interview  
 > **Reference date:** August 24, 2026  
 > **Core rule:** **Ports are defaults or registrations, not proof. Exact error text, protocol stage, direction, identity, timestamp, and surrounding evidence outrank a memorized code.**
 
@@ -17,7 +17,7 @@ This appendix is a routing aid for email, SaaS, identity, API, and endpoint-to-c
 
 ## Candidate Honesty and Safety Boundary
 
-Arti may connect this layered method to substantiated Microsoft enterprise-support experience and safe networking/API labs. She must not claim direct production operation of Abnormal AI, email-security systems, Google Workspace, Slack, Okta, Splunk, CrowdStrike, Cortex SOAR, Zendesk, Salesforce, Jira, or Zoom. Product-specific codes and private handling must come from authorized current documentation and actual tenant evidence.
+You may connect this layered method to substantiated enterprise-support experience and safe networking/API labs. You must not claim direct production operation of Abnormal AI, email-security systems, Google Workspace, Slack, Okta, Splunk, CrowdStrike, Cortex SOAR, Zendesk, Salesforce, Jira, or Zoom. Product-specific codes and private handling must come from authorized current documentation and actual tenant evidence.
 
 Do not probe, scan, stress, or capture third-party systems. Use only authorized customer diagnostics or learner-owned/local/reserved examples. Do not disable certificate validation, TLS controls, firewalls, authentication, or security policy to “test.” Do not paste tokens, cookies, credentials, private keys, full customer addresses, message bodies, or internal topology into a case. See [Part 005 - Privacy Data Handling and Evidence Ethics](Part-005-privacy-data-handling-and-evidence-ethics.md), [Part 009 - Safe Support Lab Environment](Part-009-safe-support-lab-environment.md), and [Part 098 - Safe Evidence Collection Redaction and Packaging](Part-098-safe-evidence-collection-redaction-and-packaging.md).
 

@@ -19,9 +19,9 @@ This Part turns the authentication and token flows from [Part 7](Part-07-authent
 
 ## Candidate honesty note
 
-Arti can credibly connect this Part to production support behaviors: handling urgent user-impacting cases, validating identity and scope, coordinating customers and engineering, documenting safe recovery, explaining changes, and proving a fix across SharePoint, OneDrive, and sync scenarios. Those skills are valuable for MFA rollout and recovery operations.
+You can credibly connect this Part to production support behaviors: handling urgent user-impacting cases, validating identity and scope, coordinating customers and engineering, documenting safe recovery, explaining changes, and proving a fix across SharePoint, OneDrive, and sync scenarios. Those skills are valuable for MFA rollout and recovery operations.
 
-This Part does **not** claim that Arti deployed Entra MFA, passkeys, authentication strengths, or security defaults in production. Safe phrasing is:
+This Part does **not** claim that you deployed Entra MFA, passkeys, authentication strengths, or security defaults in production. Safe phrasing is:
 
 > “My direct production experience is Microsoft 365 escalation, user-impact troubleshooting, RCA, fix validation, documentation, and stakeholder communication. I have built a detailed paper/lab design for Entra authentication methods, registration, recovery, and staged testing. I can defend the architecture and troubleshooting approach while being clear that the Entra implementation evidence is structured learning rather than production ownership.”
 

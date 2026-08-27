@@ -1,10 +1,10 @@
 # Part 110 - Mentoring, Service Quality, Knowledge Scaling, and 30/60/90-Day Ramp
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 
 > **Purpose:** Explain mentoring, coaching, competency, shadowing, reverse-shadowing, case review, service quality, rubrics, documentation, knowledge management, communities of practice, measurable contribution, and a 30/60/90-day role ramp from zero.
 
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH person, account, product, source, case, date, competency, score, quality result, knowledge article, mentoring session, target, milestone, and contribution is invented. Arti's factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler, SecOps TSM, Zscaler account ownership, product administration, customer architecture, customer outcome delivery, formal people management, and Zscaler service-quality authority remain learning boundaries.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH person, account, product, source, case, date, competency, score, quality result, knowledge article, mentoring session, target, milestone, and contribution is invented. Your factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler, SecOps TSM, Zscaler account ownership, product administration, customer architecture, customer outcome delivery, formal people management, and Zscaler service-quality authority remain learning boundaries.
 
 > **Currency caveat:** Products, documentation, training catalogs, team structures, role expectations, customer portfolios, support processes, quality programs, AI tools, packaging, and entitlements change. The controlled official-source snapshot and source review date for this Part is exactly **2026-08-24**. Current manager expectations, role charter, official technical and ordering documentation, licensed-tenant evidence, customer assignments, product specialists, Support, security/privacy/legal policy, approved knowledge systems, and observed performance govern a real ramp.
 
@@ -58,9 +58,9 @@ flowchart LR
 
 ## Candidate honesty note
 
-Arti can say: "My production background includes mentoring engineers in Microsoft enterprise support, reviewing technical evidence, sharing troubleshooting methods, and helping others communicate complex issues. I also bring deep Microsoft 365 escalation, networking/trace, SQL, and Power BI experience. I am not claiming production Zscaler TSM or SecOps account ownership. My ramp would begin with official learning, current documentation, product and process shadowing, synthetic practice, supervised customer work, and rubric-based feedback. I would earn broader autonomy through demonstrated product truth, safe judgment, useful artifacts, and accepted contribution."
+You can say: "My production background includes mentoring engineers in enterprise support, reviewing technical evidence, sharing troubleshooting methods, and helping others communicate complex issues. I also bring deep Microsoft 365 escalation, networking/trace, SQL, and Power BI experience. I am not claiming production Zscaler TSM or SecOps account ownership. My ramp would begin with official learning, current documentation, product and process shadowing, synthetic practice, supervised customer work, and rubric-based feedback. I would earn broader autonomy through demonstrated product truth, safe judgment, useful artifacts, and accepted contribution."
 
-Arti should not claim that reading this guide makes her production-ready, that prior Microsoft mentoring equals Zscaler people management, that a synthetic case is customer delivery, or that a 90-day plan guarantees account outcomes. She can claim factual mentoring and escalation experience where personally supported.
+You should not claim that reading this guide makes your production-ready, that prior Microsoft mentoring equals Zscaler people management, that a synthetic case is customer delivery, or that a 90-day plan guarantees account outcomes. You can claim factual mentoring and escalation experience where personally supported.
 
 | Factual background | Transferable strength | Neutral wording | Unsupported statement to avoid |
 |---|---|---|---|
@@ -598,7 +598,7 @@ flowchart LR
 | Communication | Draft executive and technical updates | Rubric-reviewed simulations | Produce supervised meeting notes/read-back |
 | Shadowing | Observe discovery, account review, Support case, product session | Observation/prediction/debrief records | Ask targeted questions and capture approved actions |
 | Knowledge | Correct or create one low-risk internal artifact | Owner-reviewed draft | Accepted update, not article count alone |
-| Honesty | State Microsoft transfer and Zscaler learning boundary | Manager/buddy feedback | No inflated customer/product claims |
+| Honesty | State experience transfer and Zscaler learning boundary | Manager/buddy feedback | No inflated customer/product claims |
 
 **Day-30 gate:** The learner can explain common concepts and processes accurately with sources, protect data and boundaries, assist with preparation and documentation, and identify when to ask for help. The gate does not imply independent account ownership.
 
@@ -989,7 +989,7 @@ These templates are general practice. Current role expectations, manager decisio
 
 ### Exercise 1 - Build the competency matrix
 
-Choose six high-consequence TSM competencies and write actor, behavior, conditions, criteria, failure handling, evidence, and assessor. Baseline Arti honestly using factual Microsoft transfer, synthetic practice, and explicit Zscaler gaps. Set target levels by day 30, 60, and 90 without making calendar equal readiness.
+Choose six high-consequence TSM competencies and write actor, behavior, conditions, criteria, failure handling, evidence, and assessor. Baseline you honestly using factual experience transfer, synthetic practice, and explicit Zscaler gaps. Set target levels by day 30, 60, and 90 without making calendar equal readiness.
 
 ### Exercise 2 - Design active shadowing
 
@@ -1017,7 +1017,7 @@ Use Artifact 11 to create concrete outcomes, evidence gates, access progression,
 
 ### Exercise 8 - Candidate honesty rehearsal
 
-Answer: "How would you ramp and contribute in your first ninety days?" Lead with Microsoft escalation and mentoring strengths, name Zscaler/SecOps gaps, describe evidence-led progression, and offer bounded contribution. Do not promise full mastery, strategic-account results, or customer value by a calendar date.
+Answer: "How would you ramp and contribute in your first ninety days?" Lead with enterprise escalation and mentoring strengths, name Zscaler/SecOps gaps, describe evidence-led progression, and offer bounded contribution. Do not promise full mastery, strategic-account results, or customer value by a calendar date.
 
 ## Customer and manager discovery questions
 
@@ -1091,9 +1091,9 @@ The Zscaler sources support dated public product, education, support, and securi
 
 **Model answer:** By day 30 I would orient securely, map role/process/product context, explain core concepts with current sources, shadow actively, and produce supervised low-risk artifacts. By day 60 I would reverse-shadow selected discovery, troubleshooting, workshop, health, and communication tasks and contribute customer-facing work only with assigned supervision. By day 90 I would own an explicitly bounded workstream, demonstrate judgment in normal and abnormal cases, contribute one maintained knowledge or quality improvement, and present accepted evidence. Manager gates, account risk, access, and evidence override the calendar.
 
-### Q8. How does Arti's background support mentoring and a fast but honest ramp?
+### Q8. How does your background support mentoring and a fast but honest ramp?
 
-**Model answer:** She brings direct Microsoft mentoring and enterprise escalation experience, deep practice in evidence-led troubleshooting, customer communication, networking/traces, and analytical reporting. That supports coaching, case review, service quality, and learning complex systems. She should not convert those strengths into claims of production Zscaler expertise, TSM account ownership, or customer outcomes. Her ramp should explicitly map transfer, use official sources and specialists, practice synthetically, reverse-shadow real work, and earn bounded autonomy through accepted evidence.
+**Model answer:** You bring direct Microsoft mentoring and enterprise escalation experience, deep practice in evidence-led troubleshooting, customer communication, networking/traces, and analytical reporting. That supports coaching, case review, service quality, and learning complex systems. You should not convert those strengths into claims of production Zscaler expertise, TSM account ownership, or customer outcomes. Your ramp should explicitly map transfer, use official sources and specialists, practice synthetically, reverse-shadow real work, and earn bounded autonomy through accepted evidence.
 
 ## 30-Second Memory Hooks
 
@@ -1117,7 +1117,7 @@ The Zscaler sources support dated public product, education, support, and securi
 | Day 60 | Perform supervised bounded work |
 | Day 90 | Own bounded work and scale one lesson |
 | Autonomy | Earned by evidence and manager authority, not calendar |
-| Arti bridge | Mentoring/escalation strengths transfer; Zscaler expertise must be earned |
+| Experience bridge | Mentoring/escalation strengths transfer; Zscaler expertise must be earned |
 
 ## Completion Checklist
 
@@ -1140,6 +1140,6 @@ The Zscaler sources support dated public product, education, support, and securi
 - [ ] I can explain why day 90 does not guarantee product mastery, account ownership, or customer outcome.
 - [ ] I can protect customer data, employee fairness, mentoring confidentiality, knowledge access, and AI use.
 - [ ] I can use the mentoring, competency, shadowing, coaching, case, rubric, calibration, knowledge, community, ramp, contribution, and portfolio artifacts.
-- [ ] I can present Arti's mentoring and escalation strengths without claiming production Zscaler TSM, SecOps, people-management, or customer results.
+- [ ] I can present your mentoring and escalation strengths without claiming production Zscaler TSM, SecOps, people-management, or customer results.
 
 [Next: Part 111 - Safe Lab Setup, Evidence Portfolio, and Honesty Rules](Part-111-safe-lab-evidence-honesty.md)

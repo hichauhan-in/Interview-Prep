@@ -46,14 +46,14 @@ flowchart TB
 
 ## Candidate honesty note
 
-Arti can say: "I studied adjacent SecOps and exposure categories by the jobs they perform, their data and control points, operating models, evidence, and failure modes. I mapped standards, regulatory themes, third-party and M&A scenarios, OT/IoT constraints, and AI/agentic risks using dated official sources and synthetic cases. My factual strengths are enterprise escalation, Microsoft 365 dependencies, network evidence, analytics, training, and AI learning. I have not administered these categories in a Zscaler production environment, performed a legal compliance assessment, or validated a vendor comparison for a live procurement."
+You can say: "I studied adjacent SecOps and exposure categories by the jobs they perform, their data and control points, operating models, evidence, and failure modes. I mapped standards, regulatory themes, third-party and M&A scenarios, OT/IoT constraints, and AI/agentic risks using dated official sources and synthetic cases. My factual strengths are enterprise escalation, Microsoft 365 dependencies, network evidence, analytics, training, and AI learning. I have not administered these categories in a Zscaler production environment, performed a legal compliance assessment, or validated a vendor comparison for a live procurement."
 
-| Factual Arti background | Natural bridge | Safe wording | Unsupported wording to avoid |
+| Documented background | Natural bridge | Safe wording | Unsupported wording to avoid |
 |---|---|---|---|
 | Microsoft 365, SharePoint, OneDrive | SaaS dependency, identity, permissions, browser, endpoint, network, data | "I understand cross-layer cloud-service dependencies and can extend that method." | "I architected an enterprise SASE program." |
 | Networking and evidence tools | Traffic flow, TLS, proxy, DNS, endpoint/process isolation | "I can ask control-point and evidence questions." | "I deployed an XDR/NDR platform." |
 | SQL, Power BI, statistics, MBA analytics | Data quality, entities, metrics, dashboards, model challenge | "I can evaluate data and measurement contracts." | "I know vendor-internal schemas or algorithms." |
-| Escalation, CRITSIT, RCA | Detection-to-response boundaries, ownership, learning loops | "I bring disciplined incident coordination." | "I ran a SOC or CTEM program." |
+| Escalation, critical situation, RCA | Detection-to-response boundaries, ownership, learning loops | "I bring disciplined incident coordination." | "I ran a SOC or CTEM program." |
 | Mentoring and partner training | Beginner-first explanation and stakeholder enablement | "I can translate overlapping categories for different audiences." | "I certified customer teams." |
 | Copilot Studio and AI education | Agent concepts, prompts, grounding, human review | "I have factual AI learning and enablement experience." | "I secured autonomous agents in production." |
 
@@ -649,11 +649,11 @@ NMH wants a ticket summarizer. The candidate maps data classes, provider/model c
 
 ### Scenario 3 - Acquired OT environment
 
-An acquired fictional site has legacy controllers and no endpoint agents. The candidate does not mark every device noncompliant and demand immediate scanning. She maps physical functions, safety authority, zones/conduits, remote access, passive evidence, vendor support, maintenance windows, compensating controls, and residual risk. Integration remains segmented and staged.
+An acquired fictional site has legacy controllers and no endpoint agents. The candidate does not mark every device noncompliant and demand immediate scanning. You map physical functions, safety authority, zones/conduits, remote access, passive evidence, vendor support, maintenance windows, compensating controls, and residual risk. Integration remains segmented and staged.
 
 ### Scenario 4 - Board asks for one risk number
 
-The candidate explains that one index can help track defined factors but cannot represent every scenario, confidence, control, threat, and consequence. She offers a small portfolio: material scenarios, trend under stable rules, data confidence, mitigation status, decisions, and residual risk. No synthetic Risk360-style value is called a probability or financial loss.
+The candidate explains that one index can help track defined factors but cannot represent every scenario, confidence, control, threat, and consequence. You offer a small portfolio: material scenarios, trend under stable rules, data confidence, mitigation status, decisions, and residual risk. No synthetic Risk360-style value is called a probability or financial loss.
 
 ### Scenario 5 - Agent autonomously closes findings
 
@@ -756,9 +756,9 @@ The table records bounded uses, not endorsements or proofs of customer fit. No s
 
 **Model answer:** I begin with business dependency, data flows, identities, technical integration, software/provider chain, controls, telemetry, incident coordination, resilience, assurance scope, contracts, monitoring, and exit. I distinguish questionnaire claims from operating evidence and consider fourth-party and concentration risk. Legal and Procurement own contractual decisions; technical teams validate architecture and current evidence.
 
-### Q8. How does Arti's experience transfer to these deeper topics?
+### Q8. How does your experience transfer to these deeper topics?
 
-**Model answer:** Microsoft 365 expertise provides a concrete base for SaaS, identity, permissions, endpoint, network, proxy, browser, and data dependencies. Escalation/RCA supports cross-domain evidence and incident learning. SQL, Power BI, statistics, and MBA analytics support data and metric challenge. Mentoring and AI training support translation and responsible adoption. She should state direct Zscaler, SOC, exposure-program, OT, regulatory, and agent-security production gaps honestly.
+**Model answer:** Microsoft 365 expertise provides a concrete base for SaaS, identity, permissions, endpoint, network, proxy, browser, and data dependencies. Escalation/RCA supports cross-domain evidence and incident learning. SQL, Power BI, statistics, and MBA analytics support data and metric challenge. Mentoring and AI training support translation and responsible adoption. You should state direct Zscaler, SOC, exposure-program, OT, regulatory, and agent-security production gaps honestly.
 
 ## 30-Second Memory Hooks
 
@@ -805,7 +805,7 @@ The table records bounded uses, not endorsements or proofs of customer fit. No s
 - [ ] I can reason through all sixteen edge cases without slogan-based answers.
 - [ ] I can use a source hierarchy and currency trigger before making a product, threat, or regulatory claim.
 - [ ] I keep NMH explicitly fictional and synthetic.
-- [ ] I tie Arti's factual strengths to the role while preserving direct-experience gaps.
+- [ ] I tie your factual strengths to the role while preserving direct-experience gaps.
 - [ ] I can answer comparison questions without choosing a universal winner.
 
 [Next: Part 119 - Master Interview Question Bank and Self-Quiz Tracker](Part-119-master-interview-question-bank.md)

@@ -1,10 +1,10 @@
 # Part 75 - SAN Troubleshooting Scenarios: iSCSI, FC, LUNs, Paths, and Hosts
 
-> **Section goal:** Diagnose Storage Area Network (SAN) symptoms across host, initiator, network or fabric, target, mapping, multipath, block object, and host-owned filesystem layers without risking data. By the end, Arti should be able to reason through iSCSI discovery/login/CHAP/MTU/routing; FC link, fabric login, zoning, optics and credits; LUN/igroup mappings and duplicate IDs; path loss, Multipath I/O (MPIO), Asymmetric Logical Unit Access (ALUA), NVMe Asymmetric Namespace Access (ANA), timeouts, queues, reservations, device signatures, Host Utilities, drivers, firmware, switches, target ports, and NVMe host mappings with exact evidence and safe escalation boundaries.
+> **Section goal:** Diagnose Storage Area Network (SAN) symptoms across host, initiator, network or fabric, target, mapping, multipath, block object, and host-owned filesystem layers without risking data. By the end, you should be able to reason through iSCSI discovery/login/CHAP/MTU/routing; FC link, fabric login, zoning, optics and credits; LUN/igroup mappings and duplicate IDs; path loss, Multipath I/O (MPIO), Asymmetric Logical Unit Access (ALUA), NVMe Asymmetric Namespace Access (ANA), timeouts, queues, reservations, device signatures, Host Utilities, drivers, firmware, switches, target ports, and NVMe host mappings with exact evidence and safe escalation boundaries.
 
 Covers index item **75** and maps directly to job-description responsibilities for storage depth, complex high-pressure troubleshooting, risk mitigation, supportability analysis, Support/Engineering collaboration, and customer communication.
 
-**Explicit nonclaim:** Arti has not provisioned, mapped, rescanned, formatted, mounted, failed over, repaired, or diagnosed a production NetApp ONTAP SAN, LUN, namespace, igroup, subsystem, iSCSI, FC, NVMe, MPIO, ALUA, or ANA configuration.
+**Explicit nonclaim:** You have not provisioned, mapped, rescanned, formatted, mounted, failed over, repaired, or diagnosed a production NetApp ONTAP SAN, LUN, namespace, igroup, subsystem, iSCSI, FC, NVMe, MPIO, ALUA, or ANA configuration.
 
 **Privacy/access:** SAN evidence can expose customer topology, IQNs, WWPNs, NQNs, serials, LUN/namespace identifiers, hostnames, addresses, CHAP configuration, zoning, switch ports, drivers, firmware, filesystem labels, reservations, packet/frame contents, and support contracts. Use approved collection, minimum fields, secure transfer, need-to-know access, redaction/tokenization, retention, and authorized vendor/customer repositories. Never include CHAP secrets, credentials, unredacted dumps, or real identifiers in study artifacts.
 
@@ -14,7 +14,7 @@ Covers index item **75** and maps directly to job-description responsibilities f
 
 This Part is a reasoning casebook, not a NetApp internal troubleshooting manual, host or switch runbook, compatibility result, command reference, change authorization, or permission to rescan, alter mappings, clear reservations, initialize media, or manipulate production paths.
 
-> **No-production-NetApp boundary:** Arti's factual strengths are Microsoft enterprise escalation, Windows and Azure infrastructure, networking, virtual machines, storage fundamentals, trace and event correlation, high-pressure communication, and cross-vendor coordination. Her exact nonclaim is: **she has not administered or troubleshot a production NetApp SAN.** These are synthetic reasoning exercises, not proof of ONTAP, FC, iSCSI, NVMe, or host-multipath production experience.
+> **No-production-NetApp boundary:** Your factual strengths are enterprise escalation, Windows and Azure infrastructure, networking, virtual machines, storage fundamentals, trace and event correlation, high-pressure communication, and cross-vendor coordination. Your exact nonclaim is: **you have not administered or troubleshot a production NetApp SAN.** These are synthetic reasoning exercises, not proof of ONTAP, FC, iSCSI, NVMe, or host-multipath production experience.
 
 ---
 
@@ -637,14 +637,14 @@ flowchart TD
 
 ---
 
-## 9. Arti transfer/honesty and JD Mapping
+## 9. Experience transfer and honesty and JD Mapping
 
 ```mermaid
 flowchart LR
     WIN[Windows/Azure/VM fundamentals] --> HOST[Host, device and path reasoning]
     NET[Networking and traces] --> ISCSI[iSCSI route, MTU and flow evidence]
     ESC[Support escalation] --> EVID[Cross-vendor package and hypotheses]
-    CRIT[CRITSIT communication] --> SAFE[Data-safe decisions and degraded-risk updates]
+    CRIT[Critical-situation communication] --> SAFE[Data-safe decisions and degraded-risk updates]
     HOST --> TRANS[Transferable SAN troubleshooting method]
     ISCSI --> TRANS
     EVID --> TRANS
@@ -657,13 +657,13 @@ flowchart LR
 | Storage/virtualization depth | 18 iSCSI/FC/NVMe/host cases | Synthetic learning, not production SAN |
 | Technical risk | Stable identity, filesystem, reservation safety | No destructive action authority |
 | Supportability | Exact IMT/HWU/host recipe discipline | No invented IMT result |
-| High-pressure troubleshooting | Path controls, evidence and escalation | Microsoft incident method transfers |
+| High-pressure troubleshooting | Path controls, evidence and escalation | enterprise incident method transfers |
 | Cross-functional work | Host/fabric/storage/app owner map | Existing vendor coordination skill |
 | Customer communication | Available versus degraded redundancy and data risk | Production Microsoft communication experience |
 
 ### Honest interview wording
 
-> `I troubleshoot SAN as a host-to-media chain: application and host device, MPIO or NVMe multipath, initiator, both independent networks/fabrics, target login, exact mapping, stable LUN or namespace identity, ALUA/ANA state, reservations and host filesystem ownership. I compare a healthy control and exact support recipe before any action. My production background is Microsoft escalation and infrastructure, not ONTAP SAN administration, so I would work through qualified host, fabric, storage and Support owners.`
+> `I troubleshoot SAN as a host-to-media chain: application and host device, MPIO or NVMe multipath, initiator, both independent networks/fabrics, target login, exact mapping, stable LUN or namespace identity, ALUA/ANA state, reservations and host filesystem ownership. I compare a healthy control and exact support recipe before any action. My production background is enterprise escalation and infrastructure, not ONTAP SAN administration, so I would work through qualified host, fabric, storage and Support owners.`
 
 ---
 
@@ -785,7 +785,7 @@ flowchart LR
 
 ### Q8. What experience transfers, and what remains your SAN gap?
 
-> **Model answer:** `Microsoft escalation, Windows/Azure networking, VMs, storage fundamentals, traces and cross-vendor incident work give me strong path and evidence discipline. I have not administered or troubleshot production ONTAP SAN, FC, iSCSI, NVMe or host multipathing. These cases are synthetic; live actions and supportability require current NetApp and ecosystem owners.`
+> **Model answer:** `enterprise escalation, Windows/Azure networking, VMs, storage fundamentals, traces and cross-vendor incident work give me strong path and evidence discipline. I have not administered or troubleshot production ONTAP SAN, FC, iSCSI, NVMe or host multipathing. These cases are synthetic; live actions and supportability require current NetApp and ecosystem owners.`
 
 ---
 
@@ -808,7 +808,7 @@ flowchart LR
 - **IMT:** Exact end-to-end recipe and notes, not a family-level guess.
 - **Optics/credits:** Physical error and congestion need hop-by-hop direction/time evidence.
 - **Host ownership:** Healthy blocks do not prove healthy filesystem/application.
-- **Arti boundary:** Infrastructure reasoning transfers; production NetApp SAN does not.
+- **Experience boundary:** Infrastructure reasoning transfers; production NetApp SAN does not.
 
 ---
 

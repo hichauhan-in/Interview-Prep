@@ -19,7 +19,7 @@ This Part extends the internal and hybrid identity boundaries from [Part 13](Par
 
 ## Candidate honesty note
 
-Arti can credibly connect this Part to demonstrated production work in SharePoint Online and OneDrive sharing, permissions, sync, escalation, multi-vendor coordination, stakeholder communication, RCA, documentation, and technical-advisor guidance. Those are directly relevant to the resource side of guest access and to proving whether application-driven file access is expected.
+You can credibly connect this Part to demonstrated production work in SharePoint Online and OneDrive sharing, permissions, sync, escalation, multi-vendor coordination, stakeholder communication, RCA, documentation, and technical-advisor guidance. Those are directly relevant to the resource side of guest access and to proving whether application-driven file access is expected.
 
 This Part does **not** claim production ownership of Entra External ID, cross-tenant access, multitenant organizations, app registrations, admin consent, managed identities, workload federation, workload Conditional Access, or app governance. Safe wording is:
 
@@ -349,7 +349,7 @@ flowchart TD
 
 Do not delete a guest solely because one package expires if they retain another valid package, direct SharePoint permission, Teams membership, app assignment, shared-channel access, legal/eDiscovery role, or sponsored relationship. Conversely, an external object with no sponsor, assignment or use should not persist indefinitely.
 
-Arti’s SharePoint/OneDrive background is useful for discovering direct sharing and permissions outside identity packages. Governance must reconcile workload-level access, not just guest object existence.
+Your SharePoint/OneDrive background is useful for discovering direct sharing and permissions outside identity packages. Governance must reconcile workload-level access, not just guest object existence.
 
 ---
 
@@ -730,7 +730,7 @@ flowchart TD
 | Related identities | Owner/admin user compromise and other service principals |
 | Business impact | Data sensitivity, customers, regions, legal/privacy notification |
 
-Arti can truthfully lead the SharePoint/OneDrive resource-impact analysis pattern on paper: distinguish expected migration/sync/download from exfiltration, validate site and file scope, sharing and business owner, and coordinate identity/app/security teams. Do not imply having performed production app-governance containment.
+You can truthfully lead the SharePoint/OneDrive resource-impact analysis pattern on paper: distinguish expected migration/sync/download from exfiltration, validate site and file scope, sharing and business owner, and coordinate identity/app/security teams. Do not imply having performed production app-governance containment.
 
 ---
 
@@ -903,7 +903,7 @@ Privacy concerns include external contact discovery, guest profile and activity,
 | Quarterly | Partner trust, sensitive app permissions, shared channels, direct assignments, incident exercises |
 | Annual/change | Default cross-tenant/TRv2 policy, contracts/privacy, multitenant audience, federation issuers and full tabletop |
 
-Vendor coordination should use exact tenant/app/service-principal IDs, UTC, correlation/request IDs, token audience/issuer (never raw tokens), permissions, credential key IDs, redacted sign-in errors, expected/actual flow, ownership and minimal reproduction. This aligns naturally with Arti’s escalation and vendor evidence experience.
+Vendor coordination should use exact tenant/app/service-principal IDs, UTC, correlation/request IDs, token audience/issuer (never raw tokens), permissions, credential key IDs, redacted sign-in errors, expected/actual flow, ownership and minimal reproduction. This aligns naturally with your escalation and vendor evidence experience.
 
 ---
 

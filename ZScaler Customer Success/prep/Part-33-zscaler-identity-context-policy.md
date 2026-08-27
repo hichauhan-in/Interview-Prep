@@ -1,10 +1,10 @@
 # Part 33 - Identity, Device Posture, Context, Policy, and Adaptive Access
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 >
 > **Purpose:** Explain how identity providers, federation, provisioning, user/group attributes, device and workload identity, posture, context, risk, policy criteria/order, least privilege, continuous/adaptive decisions, step-up authentication, reduced access, isolation, privacy, evidence, and troubleshooting fit together.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every NMH user, group, device, workload, policy, risk signal, token, posture result, incident, metric, and outcome is synthetic. Arti has Microsoft 365 identity, permissions, client, network, escalation, analytics, mentoring, and training experience, but production configuration of Zscaler identity, posture, adaptive access, ZIA, ZPA, or Client Connector is not established.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every NMH user, group, device, workload, policy, risk signal, token, posture result, incident, metric, and outcome is synthetic. You have Microsoft 365 identity, permissions, client, network, escalation, analytics, mentoring, and training experience, but production configuration of Zscaler identity, posture, adaptive access, ZIA, ZPA, or Client Connector is not established.
 >
 > **Currency caveat:** The source snapshot is **2026-08-24**. Zscaler identity integrations, posture capabilities, policy objects, rule order, supported attributes, adaptive actions, user interfaces, APIs, licenses, previews, regions, and product relationships change. Standards also receive updates. Confirm current authenticated help, release notes, contract, tenant entitlements, IdP/MDM/EDR documentation, privacy/legal requirements, and specialist guidance before production use.
 
@@ -16,7 +16,7 @@ Think of an airport journey. A passport identifies a traveler. A boarding pass l
 
 The analogy has limits. Digital identity can represent users, devices, workloads, services, and partners. Tokens can be copied or replayed if poorly protected. Group and posture data travel through several systems. Risk is modeled, not observed perfectly. Adaptive access can protect a high-risk transaction, but opaque or overaggressive policy can lock out legitimate users and harm privacy. This Part treats security, availability, explainability, and governance together.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Proof artifact |
 |---|---|---|
@@ -39,20 +39,20 @@ By the end, Arti should be able to:
 
 ## JD Mapping
 
-| Role expectation | Part 33 capability | TSM artifact | Arti bridge and boundary |
+| Role expectation | Part 33 capability | TSM artifact | experience bridge and boundary |
 |---|---|---|---|
-| Analyze complex environments | Trace HR/directory, IdP, provisioning, endpoint, posture, policy, app, and logs | Identity dependency map | Microsoft identity/permissions work transfers |
+| Analyze complex environments | Trace HR/directory, IdP, provisioning, endpoint, posture, policy, app, and logs | Identity dependency map | enterprise identity/permissions work transfers |
 | Identify security risk | Find stale identities, overbroad groups, weak assurance, unmanaged devices, and fail-open context | Access risk register | Formal risk ownership remains customer-side |
 | Tailor mitigation | Choose lifecycle correction, narrower rule, stronger auth, reduced access, or compensating control | Options record | Actions depend on current license/support |
 | Resolve escalations | Separate authentication, provisioning, posture, policy, connection, and app authorization | Hypothesis matrix | Product log/UI mechanics are a ramp area |
 | Advocate best practices | Stage policy, explain impact, test failure behavior, govern exceptions | Policy rollout plan | Change discipline transfers directly |
-| Partner across teams | Coordinate HR, identity, endpoint, SOC, app, privacy, risk, and Support | RACI | Cross-functional Microsoft work transfers |
+| Partner across teams | Coordinate HR, identity, endpoint, SOC, app, privacy, risk, and Support | RACI | Cross-functional prior work transfers |
 | Consult and train | Teach identity lifecycle and reason chains from zero | Workshop/teach-back | Mentoring/training is a strength |
 | Communicate outcomes | Translate context-aware access into bounded risk and user friction | Executive narrative | Avoid claims of automatic risk elimination |
 
 ## Candidate honesty note
 
-The approved background supports factual discussion of production troubleshooting for Microsoft 365 sign-in context, users, groups, permissions, clients, browser/network evidence, authorization symptoms, and service dependencies. Standards and synthetic Zscaler policy models can be explained separately. Production IdP integration with Zscaler, posture-profile creation, adaptive-access tuning, and Client Connector policy operation are not established experience.
+Your documented background supports factual discussion of production troubleshooting for Microsoft 365 sign-in context, users, groups, permissions, clients, browser/network evidence, authorization symptoms, and service dependencies. Standards and synthetic Zscaler policy models can be explained separately. Production IdP integration with Zscaler, posture-profile creation, adaptive-access tuning, and Client Connector policy operation are not established experience.
 
 | Claim class | Safe Part 33 statement | Unsupported conversion |
 |---|---|---|
@@ -143,7 +143,7 @@ Human Resources, vendor management, identity teams, application owners, and secu
 
 ### Plain-English deep-dive 1 - Authentication is the doorman, authorization is the room key
 
-A hotel doorman can confirm that Arti is a registered guest. That does not let her enter room 412, the kitchen, or the cash office. The front desk still assigns a room, and each door enforces its own key.
+A hotel doorman can confirm that you are a registered guest. That does not let your enter room 412, the kitchen, or the cash office. The front desk still assigns a room, and each door enforces its own key.
 
 Federated authentication works similarly. An IdP assertion can convince Zscaler or an application that the subject is a particular user under stated conditions. Zscaler policy can decide whether a connection to an app is allowed. The application still decides whether the user can read payroll, approve a payment, or administer accounts.
 
@@ -749,7 +749,7 @@ flowchart LR
 
 ### NMH incident: a transferred employee retains export access
 
-At 10:00 UTC, Priya transfers from Payroll to Procurement. HR and directory membership change. At 10:25, a synthetic control test shows her existing browser session can still export a payroll report. There is no evidence of malicious use.
+At 10:00 UTC, Priya transfers from Payroll to Procurement. HR and directory membership change. At 10:25, a synthetic control test shows your existing browser session can still export a payroll report. There is no evidence of malicious use.
 
 | Timeline item | Synthetic evidence | Interpretation |
 |---|---|---|
@@ -833,9 +833,9 @@ flowchart TD
     HEALTH --> EVID[Logging reconciliation and explanation]
 ```
 
-## Arti's Microsoft-to-Zscaler bridge
+## Your experience bridge to Zscaler
 
-| Microsoft production strength | Part 33 transfer | New learning required | Honest language |
+| prior production strength | Part 33 transfer | New learning required | Honest language |
 |---|---|---|---|
 | M365 sign-in and permission isolation | Separate authentication, Zscaler access, and app authorization | Zscaler identity/policy logs and objects | "The decision-boundary method transfers." |
 | SharePoint users/groups/permissions | Source/group/effective access reasoning | Zscaler group mapping and policy semantics | "Similar data-quality questions, different product." |
@@ -1001,7 +1001,7 @@ All pages were reviewed on **2026-08-24**. Zscaler pages establish current publi
 
 **Model answer:** Identity, location, device, security, and behavioral signals can expose personal or employment information and generate false inferences. I would require a defined purpose, minimum fields, lawful notice/basis, accuracy/correction path, RBAC, retention/deletion, residency/transfer review, automation authority, and impact testing. More context is not automatically better; a derived policy result may be safer than copying raw telemetry.
 
-### Q8. How does your Microsoft experience transfer to Zscaler identity policy?
+### Q8. How does your prior experience transfer to Zscaler identity policy?
 
 **Model answer:** I have production experience separating Microsoft 365 sign-in, client/session, users/groups, SharePoint permissions, network/proxy behavior, and service authorization while coordinating complex escalations. That maps directly to identity lifecycle timelines, effective-versus-expected access, artifact safety, and first-failed-boundary reasoning. Zscaler IdP configuration, posture profiles, policy order, and adaptive actions are product-specific ramp areas I have studied and practiced synthetically, not operated in production.
 
@@ -1037,7 +1037,7 @@ All pages were reviewed on **2026-08-24**. Zscaler pages establish current publi
 | Clock | Security artifacts live in time |
 | Explainability | Show rule, facts, action, remedy |
 | Privacy | Minimum signal for defined purpose |
-| Arti bridge | Permissions discipline transfers; product UI is new |
+| Experience bridge | Permissions discipline transfers; product UI is new |
 
 ## Completion Checklist
 
@@ -1078,7 +1078,7 @@ All pages were reviewed on **2026-08-24**. Zscaler pages establish current publi
 - [ ] I never present NMH identities, events, or outcomes as real.
 - [ ] I can stage posture/adaptive policy from observation through pilot and controlled enforcement.
 - [ ] I can define identity, posture, policy, friction, revocation, and explanation metrics honestly.
-- [ ] I can deliver Arti's 30-second bridge with clear boundaries.
+- [ ] I can deliver your 30-second bridge with clear boundaries.
 - [ ] I can run the twelve labs using synthetic/owned identities and approved tools only.
 - [ ] I can cite current Zscaler, NIST, OASIS, OpenID, and IETF sources.
 - [ ] I state product, protocol, license, UI, field, refresh, action, integration, and currency caveats.

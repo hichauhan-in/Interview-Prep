@@ -321,7 +321,7 @@ flowchart TD
 
 ## 10. Candidate Honesty Note
 
-- **Claim safety:** *Learned architecture and lab experience*, with genuine adjacent production experience — Active Directory, Group Policy, and IAM work at Microsoft involved exactly this distinction, even if the protocols differed.
+- **Claim safety:** *Learned architecture and lab experience*, with genuine adjacent production experience — Active Directory, Group Policy, and IAM work involved exactly this distinction, even if the protocols differed.
 - **The strongest thing you can say:** *"Authentication answers 'who are you' once and produces an identity. Authorization answers 'may you do this' on every single operation, and it belongs to the application, not the identity provider. Most access bugs are one of the two questions being asked in the wrong place — and the status code usually tells you which."*
 - **A second point, and it is the most practically useful:** *"The UI decides what to render; the API decides what's permitted. Hiding a button is usability, not a control. Rather than arguing that, I'd suggest a one-minute test: call the endpoint directly with a valid token for a user who shouldn't be allowed. If it succeeds, they've found the gap themselves, which lands much better than being told."*
 - **A third, which shows precision:** *"Group membership isn't a permission. A group is an identity attribute; a permission is an authorization grant. Something has to map one to the other, and 'they're in the Admins group so it should work' is usually the missing mapping."*

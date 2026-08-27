@@ -1,10 +1,10 @@
 # Part 102 - Stakeholder Mapping, Executive Management, and Governance Cadence
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 
 > **Purpose:** Explain stakeholder mapping, executive management, and governance from zero across CISO, CIO, SecOps, vulnerability management, IT, network, identity, data, application, compliance, privacy, legal, procurement, finance, champions, detractors, account-team roles, and affected business owners.
 
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH person, title, organization, relationship, meeting, date, metric, concern, decision, conflict, artifact, and result is invented. Arti's factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler, SecOps TSM, executive account ownership, security governance, procurement, risk acceptance, and customer stakeholder management remain learning boundaries.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH person, title, organization, relationship, meeting, date, metric, concern, decision, conflict, artifact, and result is invented. Your factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler, SecOps TSM, executive account ownership, security governance, procurement, risk acceptance, and customer stakeholder management remain learning boundaries.
 
 > **Currency caveat:** Organizations, titles, decision rights, products, regulations, contracts, account teams, and governance models change. The controlled official-source snapshot and source review date for this Part is exactly **2026-08-24**. Current customer organization and policy, contracts, licensed-tenant evidence, official technical/order documentation, accountable executives, product specialists, Support, security/privacy/legal roles, and observed working relationships govern production engagement.
 
@@ -56,9 +56,9 @@ flowchart LR
 
 ## Candidate honesty note
 
-Arti can say: "My production background is Microsoft enterprise Support Escalation Engineering rather than owning a Zscaler strategic account. I have coordinated customer executives, service owners, administrators, network and identity specialists, engineering teams, support leadership, and frontline users during complex incidents. That work required audience-specific communication, clear workstream ownership, evidence-led challenge, escalation, and recovery validation. I have studied TSM stakeholder governance and practiced these artifacts with an explicitly fictional account. In a real engagement I would verify the customer's actual organization, decision rights, incentives, contracts, product scope, and governance preferences."
+You can say: "My production background is enterprise Support Escalation Engineering rather than owning a Zscaler strategic account. I have coordinated customer executives, service owners, administrators, network and identity specialists, engineering teams, support leadership, and frontline users during complex incidents. That work required audience-specific communication, clear workstream ownership, evidence-led challenge, escalation, and recovery validation. I have studied TSM stakeholder governance and practiced these artifacts with an explicitly fictional account. In a real engagement I would verify the customer's actual organization, decision rights, incentives, contracts, product scope, and governance preferences."
 
-That is a transfer statement, not a role substitution. Arti can describe factual escalation coordination and mentoring. She should not claim she advised a production CISO on SecOps strategy, managed procurement, owned a Zscaler executive relationship, created a customer's security RACI, or changed governance outcomes unless she has direct evidence for those claims.
+That is a transfer statement, not a role substitution. You can describe factual escalation coordination and mentoring. You should not claim you advised a production CISO on SecOps strategy, managed procurement, owned a Zscaler executive relationship, created a customer's security RACI, or changed governance outcomes unless you have direct evidence for those claims.
 
 | Factual background | Transferable strength | Neutral wording | Unsupported statement to avoid |
 |---|---|---|---|
@@ -983,7 +983,7 @@ Write a one-page update where technical foundation is healthy but adoption is lo
 
 ### Exercise 6 - Honesty rehearsal
 
-Answer: "Tell me about managing CISO and CIO relationships." Use Arti's factual escalation stakeholder experience, state the adjacent transfer, present the synthetic governance method, and identify what she has not done. Do not convert interview preparation into experience.
+Answer: "Tell me about managing CISO and CIO relationships." Use your factual escalation stakeholder experience, state the adjacent transfer, present the synthetic governance method, and identify what you have not done. Do not convert interview preparation into experience.
 
 ## Customer discovery questions
 
@@ -1051,9 +1051,9 @@ The Zscaler sources support dated public positioning only. NIST sources support 
 
 **Model answer:** I classify whether conflict concerns goals, authority, evidence, resources, incentives, scope, commercial boundaries, or history. I separate facts, assumptions, interests, and positions; restate the shared customer outcome and guardrails; gather the minimum decisive evidence; present options and tradeoffs; and route the decision to the authorized role. I record rationale, conditions, actions, validation, and residual. Escalation is neutral authority routing, not punishment.
 
-### Q8. How does Arti's background transfer honestly to executive and stakeholder management?
+### Q8. How does your background transfer honestly to executive and stakeholder management?
 
-**Model answer:** Her Microsoft escalation work required coordinating executives, service owners, administrators, identity/network specialists, engineering, support leadership, and users around impact, evidence, workstreams, mitigations, and recovery. She tailored technical and executive communication and mentored peers. Those skills transfer to TSM governance, while production CISO/CIO advisory, Zscaler account ownership, procurement, customer security governance, and risk acceptance remain explicit ramp areas demonstrated only through synthetic preparation here.
+**Model answer:** Your prior escalation work required coordinating executives, service owners, administrators, identity/network specialists, engineering, support leadership, and users around impact, evidence, workstreams, mitigations, and recovery. You tailored technical and executive communication and mentored peers. Those skills transfer to TSM governance, while production CISO/CIO advisory, Zscaler account ownership, procurement, customer security governance, and risk acceptance remain explicit ramp areas demonstrated only through synthetic preparation here.
 
 ## 30-Second Memory Hooks
 
@@ -1078,7 +1078,7 @@ The Zscaler sources support dated public positioning only. NIST sources support 
 | Trust | Predictable honesty, competence, protection, follow-through |
 | Correction | Wrong claim, right fact, impact, action, prevention |
 | Privacy | Need-to-know applies to stakeholder work |
-| Arti bridge | Escalation coordination transfers; account claims do not |
+| Experience bridge | Escalation coordination transfers; account claims do not |
 
 ## Completion Checklist
 
@@ -1095,7 +1095,7 @@ The Zscaler sources support dated public positioning only. NIST sources support 
 - [ ] I can protect stakeholder and technical information through professional language, purpose, minimization, and access.
 - [ ] I can use the stakeholder, influence, decision-rights, RACI, charter, calendar, executive, champion, detractor, correction, and recovery templates.
 - [ ] I can state public Zscaler positioning without inventing stakeholder, governance, product, contract, or outcome facts.
-- [ ] I can describe Arti's transfer honestly without claiming production strategic-account leadership.
+- [ ] I can describe your transfer honestly without claiming production strategic-account leadership.
 - [ ] I can answer Q1-Q8 aloud with customer-specific, neutral language.
 
 [Next: Part 103 - Cross-Functional Partnership with Sales, Support, Product, and Engineering](Part-103-cross-functional-account-team.md)

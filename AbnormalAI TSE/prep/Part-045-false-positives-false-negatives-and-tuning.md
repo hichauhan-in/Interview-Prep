@@ -36,7 +36,7 @@ After completing this Part, you should be able to:
 | Recommendations | Balances security, productivity, workload, and risk | Cost/guardrail analysis |
 | Customer trust | Explains uncertainty and tradeoffs without blaming | Customer-safe updates |
 
-Your Microsoft support experience transfers through expected-versus-actual definition, policy and precedence investigation, minimal reproductions, change control, regression validation, and Engineering escalation. The honesty boundary remains: this Part does not establish production ownership of email-security models, DLP tuning, Abnormal AI, or machine-learning operations.
+Your prior support experience transfers through expected-versus-actual definition, policy and precedence investigation, minimal reproductions, change control, regression validation, and Engineering escalation. The honesty boundary remains: this Part does not establish production ownership of email-security models, DLP tuning, Abnormal AI, or machine-learning operations.
 
 ## Candidate honesty note
 

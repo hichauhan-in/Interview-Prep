@@ -1,6 +1,6 @@
 # Part 29 - ONTAP SMB Configuration, Active Directory, and Operations
 
-> **Section goal:** Learn how an ONTAP data SVM becomes a secure, supportable SMB file service: network and DNS/time prerequisites, Active Directory domain join and machine identity, domain-controller/site selection, Kerberos/NTLM orientation, shares and NTFS-style file permissions, local/domain identities, name mapping, home directories, sessions/open files, auditing, Multichannel, continuously available shares, durable/persistent handles, and Witness-assisted recovery. By the end, Arti should be able to discover current state, locate the failed SMB stage, protect role boundaries, and make a customer-specific recommendation.
+> **Section goal:** Learn how an ONTAP data SVM becomes a secure, supportable SMB file service: network and DNS/time prerequisites, Active Directory domain join and machine identity, domain-controller/site selection, Kerberos/NTLM orientation, shares and NTFS-style file permissions, local/domain identities, name mapping, home directories, sessions/open files, auditing, Multichannel, continuously available shares, durable/persistent handles, and Witness-assisted recovery. By the end, you should be able to discover current state, locate the failed SMB stage, protect role boundaries, and make a customer-specific recommendation.
 
 Covers index item **29** and maps directly to job-description responsibilities for customer-environment discovery, storage/Windows/identity depth, supportability, security and stability analysis, proactive recommendations, service reviews, and escalation quality.
 
@@ -8,7 +8,7 @@ Covers index item **29** and maps directly to job-description responsibilities f
 
 Exact SMB dialects/features, CIFS-server fields, domain-join prerequisites, DNS/site/DC selection, Service Principal Names (SPNs), Kerberos/NTLM policy, shares, home-directory behavior, local users/groups, name mapping, auditing, continuously available (CA) shares, durable/persistent handles, Witness, Multichannel, commands, limits, and supported applications vary by ONTAP release, Windows/client/application version, domain policy, network, and configuration. A **current-doc check** means reopening current official Microsoft and NetApp documentation for the exact releases and configuration. Verify the **Interoperability Matrix Tool (IMT)**, application guidance, and authorized evidence. Use **Hardware Universe (HWU)** only for relevant platform/port facts, not SMB policy.
 
-> **No-production-NetApp boundary:** Arti does not claim production NetApp or ONTAP SMB experience. Every domain, account, SVM, share, session, path, customer, event, and result below is synthetic. Her factual strengths are Microsoft enterprise support, SharePoint/OneDrive, Windows, Active Directory, Microsoft 365, Azure networking, permissions, CRITSIT ownership, analytics, and customer communication. The explicit non-claim is: **she has not joined an ONTAP SMB server to a production AD domain, managed its machine account/SPNs, created ONTAP shares/home directories, configured CA properties/Multichannel/Witness, or administered ONTAP SMB sessions, open files, auditing, or name mapping.**
+> **No-production-NetApp boundary:** You do not claim production NetApp or ONTAP SMB experience. Every domain, account, SVM, share, session, path, customer, event, and result below is synthetic. Your factual strengths are enterprise support, SharePoint/OneDrive, Windows, Active Directory, Microsoft 365, Azure networking, permissions, critical-situation ownership, analytics, and customer communication. The explicit non-claim is: **you have not joined an ONTAP SMB server to a production AD domain, managed its machine account/SPNs, created ONTAP shares/home directories, configured CA properties/Multichannel/Witness, or administered ONTAP SMB sessions, open files, auditing, or name mapping.**
 
 ---
 
@@ -670,11 +670,11 @@ flowchart TD
 
 ### JD Mapping
 
-| JD responsibility | Part 29 contribution | Arti's factual bridge and gap |
+| JD responsibility | Part 29 contribution | Your factual bridge and gap |
 |---|---|---|
-| Understand environment | Maps client/network/AD/SMB/SVM/share/file/storage dependencies | Strong Microsoft transfer; ONTAP SMB operation unproven |
+| Understand environment | Maps client/network/AD/SMB/SVM/share/file/storage dependencies | Strong experience transfer; ONTAP SMB operation unproven |
 | Storage depth | Covers SMB state, shares, permissions, handles, CA/Witness/Multichannel | Conceptual/synthetic only |
-| Risk/stability | Finds trust, SPN/fallback, ACL, path and continuity risks | CRITSIT/identity method transfers |
+| Risk/stability | Finds trust, SPN/fallback, ACL, path and continuity risks | critical situation/identity method transfers |
 | Supportability | Requires exact Windows/app/NIC/feature/ONTAP IMT evidence | No customer IMT/gated result claimed |
 | Recommendations | Connects exact SMB stage/status to owner/test/residual risk | Advisory/escalation strength |
 | Service review | Reports auth/security, access, continuity, audit and actions | Business-review/analytics strength |
@@ -684,7 +684,7 @@ flowchart TD
 
 ## 14. Fully synthetic scenario: Wingtip Legal SMB continuity and identity
 
-> **Synthetic case:** Wingtip Legal, every domain, account, SVM, path, event and outcome below is fictional. It is not a NetApp customer, internal process, tool result, or Arti's production work.
+> **Synthetic case:** Wingtip Legal, every domain, account, SVM, path, event and outcome below is fictional. It is not a NetApp customer, internal process, tool result, or your production work.
 
 ### Environment
 
@@ -791,14 +791,14 @@ flowchart TD
 
 ---
 
-## 15. Arti's factual transfer and honest positioning
+## 15. Your factual transfer and honest positioning
 
 ```mermaid
 flowchart LR
     MS[Microsoft Windows/AD production support] --> AUTH[DNS Kerberos SPN token group permission evidence]
     SPO[SharePoint/OneDrive] --> DATA[Shared-data namespace access and user impact]
     AZ[Azure/networking] --> PATH[Routes firewalls multiple paths and shared fate]
-    CRIT[CRITSIT/Product escalation] --> INCIDENT[Timeline hypotheses safe action and communication]
+    CRIT[Critical situation/Product escalation] --> INCIDENT[Timeline hypotheses safe action and communication]
     BI[Analytics/business reviews] --> TAM[Trends risks actions and executive narrative]
     AUTH --> SMB[ONTAP SMB synthetic method]
     DATA --> SMB
@@ -813,11 +813,11 @@ flowchart LR
 | Windows/AD support | Kerberos, DNS, SPN, token, group and ACL reasoning | No ONTAP domain join/machine account administration |
 | SharePoint/OneDrive | Shared-data paths, permissions, concurrent access and customer impact | Not ONTAP shares/CA handles/Witness operation |
 | Azure networking | Multi-path, firewall, DNS and failover dependencies | No production ONTAP LIF/Multichannel design |
-| CRITSIT/analytics | Evidence timelines, decision support and service-review narrative | No NetApp internal tool/process claim |
+| Critical situation/analytics | Evidence timelines, decision support and service-review narrative | No NetApp internal tool/process claim |
 
 ### Honest answer
 
-> "SMB and AD align strongly with my Microsoft background. I understand the ONTAP architecture and evidence path from domain prerequisites and machine/SPN identity through dialect negotiation, Kerberos or NTLM, share and file permissions, local/domain identities, name mapping, home directories, sessions/open files, auditing, Multichannel, CA shares, handles and Witness. I have not administered those ONTAP features in production, so I would use current Microsoft/NetApp documentation, authorized read-only evidence, IMT and AD/network/application/NetApp specialists for real changes."
+> "SMB and AD align strongly with my prior background. I understand the ONTAP architecture and evidence path from domain prerequisites and machine/SPN identity through dialect negotiation, Kerberos or NTLM, share and file permissions, local/domain identities, name mapping, home directories, sessions/open files, auditing, Multichannel, CA shares, handles and Witness. I have not administered those ONTAP features in production, so I would use current Microsoft/NetApp documentation, authorized read-only evidence, IMT and AD/network/application/NetApp specialists for real changes."
 
 ---
 
@@ -970,9 +970,9 @@ flowchart LR
 
 > **Model answer:** "Witness can notify registered clients that a clustered SMB resource moved, reducing reliance on transport timeout. Multichannel binds multiple network connections to one SMB session, potentially adding throughput and path resilience. Neither proves application continuity or physical independence. I map every channel/LIF/switch/firewall, measure notification and handle recovery, and validate the application's transaction through each named failure."
 
-### Q8. How does your Microsoft background transfer, and what remains a gap?
+### Q8. How does your prior background transfer, and what remains a gap?
 
-> **Model answer:** "My Windows, AD, SharePoint/OneDrive, permissions, DNS/network and CRITSIT experience directly supports SMB identity, access and evidence reasoning. I understand the ONTAP-specific architecture and would validate it carefully. I have not joined/administered an ONTAP SMB server, shares, CA handles, Witness, Multichannel, sessions or auditing in production. I would use current Microsoft/NetApp docs, authorized evidence, IMT and AD/network/application/NetApp specialists."
+> **Model answer:** "My Windows, AD, SharePoint/OneDrive, permissions, DNS/network and critical-situation experience directly supports SMB identity, access and evidence reasoning. I understand the ONTAP-specific architecture and would validate it carefully. I have not joined/administered an ONTAP SMB server, shares, CA handles, Witness, Multichannel, sessions or auditing in production. I would use current Microsoft/NetApp docs, authorized evidence, IMT and AD/network/application/NetApp specialists."
 
 ---
 
@@ -994,7 +994,7 @@ flowchart LR
 - **Witness:** Proactive resource-move notification.
 - **Multichannel:** Several connections bound to one session.
 - **Audit:** File access and admin activity are different evidence streams.
-- **Arti's bridge:** Microsoft SMB/AD reasoning is strong; ONTAP SMB production operation is unclaimed.
+- **Your bridge:** Microsoft SMB/AD reasoning is strong; ONTAP SMB production operation is unclaimed.
 
 ---
 

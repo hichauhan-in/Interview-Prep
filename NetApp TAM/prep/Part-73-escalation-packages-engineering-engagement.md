@@ -1,10 +1,10 @@
 # Part 73 - Escalation Packages, Support Boundaries, and Engineering Engagement
 
-> **Section goal:** Build escalation packages that let the receiving team act without repeating discovery, while preserving customer, Support, Engineering, product, entitlement, privacy, and change boundaries. By the end, Arti should be able to package impact, scope, timeline, topology, configuration, versions, reproduction, logs, traces, events, metrics, changes, actions, hypotheses, and an exact ask; select a valid severity and route; use secure transfer; distinguish Support progression from Engineering defect engagement; find or link duplicate defects safely; maintain case quality and updates; know when not to escalate; and turn rejection into a better package rather than blame.
+> **Section goal:** Build escalation packages that let the receiving team act without repeating discovery, while preserving customer, Support, Engineering, product, entitlement, privacy, and change boundaries. By the end, you should be able to package impact, scope, timeline, topology, configuration, versions, reproduction, logs, traces, events, metrics, changes, actions, hypotheses, and an exact ask; select a valid severity and route; use secure transfer; distinguish Support progression from Engineering defect engagement; find or link duplicate defects safely; maintain case quality and updates; know when not to escalate; and turn rejection into a better package rather than blame.
 
 Covers index item **73** and maps directly to job-description responsibilities for high-quality technical analysis, Support and Engineering collaboration, complex-case escalation, customer communication, risk mitigation, defect and lifecycle reasoning, and cross-functional ownership.
 
-**Explicit nonclaim:** Arti has not opened, escalated, prioritized, approved, or represented a production NetApp Support case or Engineering defect investigation, and she has no claimed access to NetApp-internal case, BURT, defect, severity, or escalation systems.
+**Explicit nonclaim:** You have not opened, escalated, prioritized, approved, or represented a production NetApp Support case or Engineering defect investigation, and you have no claimed access to NetApp-internal case, BURT, defect, severity, or escalation systems.
 
 **Privacy/access:** Escalation packages can contain customer identity, serials, topology, addresses, file paths, packet payloads, logs, credentials, personal data, vulnerabilities, contracts, entitlement, defect details, and vendor-restricted evidence. Use purpose-limited authorized collection, minimum necessary data, redaction, approved secure transfer, need-to-know access, retention controls, and sanitized customer-facing summaries. Never use public links, personal storage, broad chat, or a portfolio for customer or gated evidence.
 
@@ -14,7 +14,7 @@ Covers index item **73** and maps directly to job-description responsibilities f
 
 This Part provides a generic quality model, not a NetApp internal Support handbook, entitlement interpretation, severity matrix, Engineering-engagement criterion, escalation path, defect process, response commitment, or permission to upload data.
 
-> **No-production-NetApp boundary:** Arti's factual strengths are Microsoft Support Escalation Engineering, enterprise case ownership, CRITSIT handling, diagnostic package creation, trace/log analysis, Product and Engineering engagement, defect reproduction, fix validation, customer updates, and partner support. Her exact nonclaim is: **she has not created, escalated, routed, or owned a production NetApp Support or Engineering package.**
+> **No-production-NetApp boundary:** Your factual strengths are support escalation engineering, enterprise case ownership, critical-situation handling, diagnostic package creation, trace/log analysis, Product and Engineering engagement, defect reproduction, fix validation, customer updates, and partner support. Your exact nonclaim is: **you have not created, escalated, routed, or owned a production NetApp Support or Engineering package.**
 
 ---
 
@@ -627,11 +627,11 @@ flowchart LR
 
 ---
 
-## 17. Arti transfer/honesty and JD Mapping
+## 17. Experience transfer and honesty and JD Mapping
 
 ```mermaid
 flowchart LR
-    MCASE[Microsoft enterprise case ownership] --> QUAL[Impact, timeline, updates and handoff quality]
+    MCASE[enterprise case ownership] --> QUAL[Impact, timeline, updates and handoff quality]
     TRACE[Logs, traces and reproduction] --> EVID[Indexed diagnostic evidence]
     PG[Product/Engineering collaboration] --> ASK[Defect qualification and exact asks]
     PART[Partner support] --> BOUND[Vendor, contract and customer boundaries]
@@ -644,7 +644,7 @@ flowchart LR
 
 | JD responsibility | Part 73 capability | Honest evidence/boundary |
 |---|---|---|
-| Technical analysis | Reproducible, indexed evidence package | Microsoft case evidence; synthetic NetApp package |
+| Technical analysis | Reproducible, indexed evidence package | prior case evidence; synthetic NetApp package |
 | Support experience | Case progression, updates, handoffs | Production Microsoft, not NetApp Support ownership |
 | Engineering collaboration | Product question, signature, defect validation | Microsoft Product/Engineering experience |
 | Risk mitigation | Impact, severity, restoration, residual risk | Generic method; customer authority retained |
@@ -653,7 +653,7 @@ flowchart LR
 
 ### Honest interview wording
 
-> `My escalation packages begin with impact, scope and exact environment, then chronology, reproduction, indexed logs/traces/events/metrics, changes, actions/results, competing hypotheses and one exact ask. I keep customer communication and restoration owned while specialists investigate, and I treat rejection as a routing or evidence signal. I have done this in Microsoft enterprise support, but I have not used NetApp case or defect systems; current NetApp Support and Engineering owners would control those routes.`
+> `My escalation packages begin with impact, scope and exact environment, then chronology, reproduction, indexed logs/traces/events/metrics, changes, actions/results, competing hypotheses and one exact ask. I keep customer communication and restoration owned while specialists investigate, and I treat rejection as a routing or evidence signal. I have done this in enterprise support, but I have not used NetApp case or defect systems; current NetApp Support and Engineering owners would control those routes.`
 
 ---
 
@@ -779,7 +779,7 @@ flowchart LR
 
 ### Q8. How does your experience transfer, and what remains a gap?
 
-> **Model answer:** `Microsoft Support Escalation Engineering gave me production experience building diagnostic packages, analyzing traces, reproducing defects, engaging Product and Engineering, validating fixes and updating customers. I have not used NetApp case, entitlement or defect processes, so exact routes, severity, visibility and Engineering criteria must come from current authorized NetApp owners.`
+> **Model answer:** `support escalation engineering gave me production experience building diagnostic packages, analyzing traces, reproducing defects, engaging Product and Engineering, validating fixes and updating customers. I have not used NetApp case, entitlement or defect processes, so exact routes, severity, visibility and Engineering criteria must come from current authorized NetApp owners.`
 
 ---
 
@@ -800,7 +800,7 @@ flowchart LR
 - **Case quality:** A new owner can act without repeating discovery.
 - **No escalation:** No blocker, wrong route, unsafe ask, or package not ready.
 - **Rejection:** Diagnose route/package; improve without blame.
-- **Arti boundary:** Microsoft escalation production depth transfers; NetApp systems/routes do not.
+- **Experience boundary:** enterprise escalation production depth transfers; NetApp systems/routes do not.
 
 ---
 

@@ -1,6 +1,6 @@
 # Part 2 - Customer Environment Thinking from Application to Data
 
-> **Section goal:** Learn to represent a customer environment as a connected system from business purpose to stored data, then reason backward from a technical component to the people and outcomes it can affect. By the end, Arti should be able to discover, draw, question, and explain an environment without treating the storage system as an isolated box.
+> **Section goal:** Learn to represent a customer environment as a connected system from business purpose to stored data, then reason backward from a technical component to the people and outcomes it can affect. By the end, you should be able to discover, draw, question, and explain an environment without treating the storage system as an isolated box.
 
 Covers index item **2** and maps directly to job-description responsibilities for understanding the customer environment, producing customer-specific recommendations, improving the support experience, reducing risk and improving stability, maintaining install-base context, supporting strategic planning, coordinating cross-functional work, and contributing to operational service reviews.
 
@@ -218,7 +218,7 @@ The storage system is one participant in a service. Customer-specific advice req
 | Work cross-functionally | Makes ownership and handoffs visible across application, platform, network, storage, security, vendors, and Support | Responsibility map and named evidence owners |
 | Contribute to service reviews | Converts technical state into impact, decisions, actions, and residual risk | Architecture summary, SLA map, risk narrative, and action register |
 
-> **Arti bridge:** SharePoint and OneDrive escalations already required thinking beyond one product symptom: identity, tenant configuration, endpoint state, network path, client version, service health, sync behavior, user impact, and Product or Engineering ownership. The transfer is the method of mapping dependencies and evidence. The new learning is the infrastructure and storage implementation, not a claim that Microsoft cloud support equals production storage administration.
+> **Experience bridge:** SharePoint and OneDrive escalations already required thinking beyond one product symptom: identity, tenant configuration, endpoint state, network path, client version, service health, sync behavior, user impact, and Product or Engineering ownership. The transfer is the method of mapping dependencies and evidence. The new learning is the infrastructure and storage implementation, not a claim that Microsoft cloud support equals production storage administration.
 
 ---
 
@@ -855,7 +855,7 @@ An assumption is an explicit temporary proposition. An unknown is a missing fact
 
 ## 11. Complete synthetic case: Northstar Health patient portal
 
-> **Synthetic evidence boundary:** Northstar Health, all people, systems, addresses, dates, scores, incidents, architecture, service levels, risks, and decisions below are fictional. The case is a paper exercise. It does not describe a real customer, NetApp internal process, or Arti's production storage experience. Product-specific behavior is intentionally generalized and would require authorized evidence and current official validation in a real environment.
+> **Synthetic evidence boundary:** Northstar Health, all people, systems, addresses, dates, scores, incidents, architecture, service levels, risks, and decisions below are fictional. The case is a paper exercise. It does not describe a real customer, NetApp internal process, or your production storage experience. Product-specific behavior is intentionally generalized and would require authorized evidence and current official validation in a real environment.
 
 ### 11.1 Business context
 
@@ -1049,13 +1049,13 @@ All findings are synthetic.
 
 ---
 
-## 12. Arti's Microsoft 365 transfer bridge
+## 12. Your cloud-service transfer bridge
 
-Arti's strength is not claimed production ownership of SAN, NAS, ONTAP, or data-center storage. It is proven practice in enterprise cloud support where a user-visible issue can cross clients, synchronization logic, identity, tenant configuration, network conditions, service components, permissions, and Product or Engineering boundaries.
+Your strength is not claimed production ownership of SAN, NAS, ONTAP, or data-center storage. It is proven practice in enterprise cloud support where a user-visible issue can cross clients, synchronization logic, identity, tenant configuration, network conditions, service components, permissions, and Product or Engineering boundaries.
 
 ### Transfer map
 
-| Familiar Microsoft support reasoning | Infrastructure-mapping transfer | New knowledge that must be earned |
+| Familiar enterprise support reasoning | Infrastructure-mapping transfer | New knowledge that must be earned |
 |---|---|---|
 | Start with user impact and exact sync symptom | Start with business transaction and exact failed function | Storage workload and protocol behavior |
 | Separate OneDrive client, SharePoint service, identity, permissions, and network | Separate application, OS, hypervisor, network/fabric, protocol, and storage | Physical/logical data paths and failure domains |
@@ -1067,7 +1067,7 @@ Arti's strength is not claimed production ownership of SAN, NAS, ONTAP, or data-
 
 ### Transfer exercise: M365 dependency reasoning to infrastructure mapping
 
-Use a real but sanitized SharePoint or OneDrive synchronization case that Arti is authorized to discuss. Do not include customer identity or confidential data.
+Use a real but sanitized SharePoint or OneDrive synchronization case that you are authorized to discuss. Do not include customer identity or confidential data.
 
 1. Write the user transaction in one sentence, such as "an authorized user edits a document and expects the change to synchronize."
 2. Draw the known layers: user, endpoint, client, OS, identity, network, Microsoft service, content, permission, and sync state.
@@ -1075,7 +1075,7 @@ Use a real but sanitized SharePoint or OneDrive synchronization case that Arti i
 4. Identify upstream and downstream dependencies for the failing step.
 5. State the support boundaries and Product/Engineering escalation route used.
 6. Translate the shape into a fictional infrastructure case: replace endpoint/client/service/content with application/host/protocol/storage container while preserving the evidence method.
-7. List which translated questions Arti can answer now and which require storage learning or an SME.
+7. List which translated questions you can answer now and which require storage learning or an SME.
 
 ```mermaid
 flowchart LR
@@ -1381,11 +1381,11 @@ Answer without notes, then check the chapter.
 
 **Follow-up depth:** Explain current versus stale, observed versus reported, complete versus sampled, configuration versus runtime, and correlation versus causation with examples.
 
-### Q7. How would your Microsoft SharePoint and OneDrive background help in this role?
+### Q7. How would your prior SharePoint and OneDrive background help in this role?
 
-> **Model answer:** "My Microsoft support work taught me to start with user impact and scope, then separate client state, identity, permissions, network, tenant configuration, service behavior, changes, and Product or Engineering dependencies. It also taught me to correlate evidence across ownership boundaries and communicate clearly during escalations. That systems-thinking method transfers well to application-to-data mapping. I would be explicit that it does not equal production SAN, NAS, ONTAP, or storage administration; those are the domain areas I am building through official learning, synthetic exercises, authorized labs, and SME review."
+> **Model answer:** "My prior support work taught me to start with user impact and scope, then separate client state, identity, permissions, network, tenant configuration, service behavior, changes, and Product or Engineering dependencies. It also taught me to correlate evidence across ownership boundaries and communicate clearly during escalations. That systems-thinking method transfers well to application-to-data mapping. I would be explicit that it does not equal production SAN, NAS, ONTAP, or storage administration; those are the domain areas I am building through official learning, synthetic exercises, authorized labs, and SME review."
 
-**Follow-up depth:** Give one factual, sanitized Microsoft escalation example, label what is production evidence, and name the exact infrastructure questions that remain conceptual.
+**Follow-up depth:** Give one factual, sanitized enterprise escalation example, label what is production evidence, and name the exact infrastructure questions that remain conceptual.
 
 ### Q8. How would an environment map improve a service review and support experience?
 
@@ -1419,7 +1419,7 @@ Answer without notes, then check the chapter.
 - **Assumption:** Testable placeholder; **unknown:** visible missing fact.
 - **Causation:** Matching timestamps start a question; they do not finish root cause.
 - **Support boundary:** Who can observe, decide, change, and escalate each layer.
-- **Arti's bridge:** Transfer systems thinking and escalation discipline, not unearned storage credentials.
+- **Your bridge:** Transfer systems thinking and escalation discipline, not unearned storage credentials.
 
 ---
 

@@ -1,6 +1,6 @@
 # Part 45 - Capacity Analytics, Forecasting, Efficiency, and Risk Thresholds
 
-> **Section goal:** Learn to reconcile every important capacity layer, convert snapshots into trustworthy fleet trends, model linear, compound, seasonal, and event-driven growth, quantify uncertainty, and turn a forecast into an owned action before operational lead time expires. By the end, Arti should be able to challenge ambiguous `used`, `free`, `effective`, and `full` dashboards; model Snapshot, efficiency, thin provisioning, reserve, replication, and tiering effects; rank fleet risk; and write a capacity recommendation without inventing thresholds or precision.
+> **Section goal:** Learn to reconcile every important capacity layer, convert snapshots into trustworthy fleet trends, model linear, compound, seasonal, and event-driven growth, quantify uncertainty, and turn a forecast into an owned action before operational lead time expires. By the end, you should be able to challenge ambiguous `used`, `free`, `effective`, and `full` dashboards; model Snapshot, efficiency, thin provisioning, reserve, replication, and tiering effects; rank fleet risk; and write a capacity recommendation without inventing thresholds or precision.
 
 Covers index item **45** and maps directly to job-description responsibilities for gathering and analyzing customer data, assessing utilization and risk, planning workloads and lifecycle changes, recommending actions, improving stability, communicating through operational/service reviews, and coordinating Support, sales, engineering, application, infrastructure, finance, and customer owners.
 
@@ -10,7 +10,7 @@ A **current-doc check** means reopening those exact release-, object-, layer-, t
 
 This Part supplies no universal free-space percentage, reserve, Snapshot reserve, oversubscription, efficiency ratio, growth rate, threshold, action horizon, forecast model, autosize/autodelete policy, or hardware-sizing rule. Synthetic numbers teach calculations only. Customer thresholds must come from current product/app/support requirements, protection/failure-state design, approved business risk, measured forecast error, and actual action lead time.
 
-> **No-production-NetApp boundary:** Arti does not claim production ONTAP capacity administration, sizing, forecasting, efficiency, FabricPool, Snapshot, volume-autogrow, LUN-reservation, quota, or hardware-planning experience. Every fleet, dashboard, threshold, forecast, model, risk, customer, command concept, and result below is synthetic. Her factual strengths are Microsoft enterprise support, CRITSIT ownership, Azure/M365 service and networking analysis, an MBA in Business Analytics, and Excel, Power BI, SQL, Python, statistics, customer reviews, and change communication. The explicit non-claim is: **she has not owned a production ONTAP capacity plan, changed a customer capacity control, guaranteed a data-efficiency ratio, sized a NetApp platform, or diagnosed a production NetApp full condition.**
+> **No-production-NetApp boundary:** You do not claim production ONTAP capacity administration, sizing, forecasting, efficiency, FabricPool, Snapshot, volume-autogrow, LUN-reservation, quota, or hardware-planning experience. Every fleet, dashboard, threshold, forecast, model, risk, customer, command concept, and result below is synthetic. Your factual strengths are enterprise support, critical-situation ownership, Azure/M365 service and networking analysis, an a postgraduate business-analytics qualification, and Excel, Power BI, SQL, Python, statistics, customer reviews, and change communication. The explicit non-claim is: **you have not owned a production ONTAP capacity plan, changed a customer capacity control, guaranteed a data-efficiency ratio, sized a NetApp platform, or diagnosed a production NetApp full condition.**
 
 ---
 
@@ -1010,21 +1010,21 @@ flowchart TD
 
 ### JD Mapping
 
-| JD responsibility | Part 45 contribution | Arti's factual bridge and gap |
+| JD responsibility | Part 45 contribution | Your factual bridge and gap |
 |---|---|---|
 | Generate/analyze customer data | Typed capacity facts, QA, decomposition, forecasts | MBA/Excel/Power BI/SQL/Python transfer strongly |
 | Storage depth | ONTAP logical/physical/Snapshot/tiering/reserve hierarchy | Conceptual/synthetic; no production administration claim |
 | Strategic advice | Lead-time, onboarding, lifecycle and option modeling | Business analytics and review strength |
-| Risk/stability | Full-condition, protection and failure-state controls | CRITSIT discipline transfers |
+| Risk/stability | Full-condition, protection and failure-state controls | critical-situation discipline transfers |
 | Service reviews | Fleet risk, decisions, owners and forecast accuracy | Customer communication transfers |
-| Influence/adoption | Aligns app, data, storage, finance and procurement | Cross-team Microsoft experience transfers |
+| Influence/adoption | Aligns app, data, storage, finance and procurement | Cross-team prior experience transfers |
 | Supportability | Requires exact release/source/Support evidence | No gated/customer result claimed |
 
 ---
 
 ## 25. Fully synthetic scenario: Northstar Media capacity decision
 
-> **Synthetic case:** Northstar Media, every object, capacity value, threshold, source, forecast, model, policy, action and result below is fictional. It is not customer telemetry, a platform-sizing recommendation, or Arti's production work.
+> **Synthetic case:** Northstar Media, every object, capacity value, threshold, source, forecast, model, policy, action and result below is fictional. It is not customer telemetry, a platform-sizing recommendation, or your production work.
 
 ### Situation
 
@@ -1143,12 +1143,12 @@ flowchart TD
 
 ---
 
-## 26. Arti's analytics, MBA, Power BI, and Microsoft 365 transfer
+## 26. Your analytics, MBA, Power BI, and Microsoft 365 transfer
 
 ```mermaid
 flowchart LR
     M365[M365/Azure service analysis] --> ID[Stable scope/dependency/change evidence]
-    CRIT[CRITSIT] --> RISK[Impact/owner/action/escalation]
+    CRIT[Critical situation] --> RISK[Impact/owner/action/escalation]
     MBA[MBA analytics/statistics] --> FC[Forecast/backtest/scenario/uncertainty]
     TOOLS[Excel Power BI SQL Python] --> PIPE[QA/model/decomposition/dashboard]
     ID --> METHOD[ONTAP synthetic capacity method]
@@ -1163,13 +1163,13 @@ flowchart LR
 | Factual strength | Natural transfer | Honest gap |
 |---|---|---|
 | Microsoft service/support data | Source QA, IDs, timelines, cohorts and changes | Not ONTAP capacity-field operation |
-| CRITSIT ownership | Consequence, mitigation, owner, date and escalation | No production storage change authority |
+| Critical-situation ownership | Consequence, mitigation, owner, date and escalation | No production storage change authority |
 | MBA/statistics | Trend/seasonality/backtest/scenario/uncertainty | No NetApp platform-sizing ownership |
 | Excel/Power BI/SQL/Python | Reproducible models, decomposition and reviews | No customer telemetry/tool entitlement assumed |
 
 ### Honest interview answer
 
-> "I refuse to forecast an unlabeled percentage. I first type every number by object, layer, unit, local/object tier, active/Snapshot/replica/reserve scope, time and source. I reconcile stocks and events, segment change points, compare linear, compound, seasonal and event models with rolling backtests, and publish ranges. The action date is the risk date minus full lead time. My production experience is Microsoft support and analytics, not ONTAP capacity administration or sizing."
+> "I refuse to forecast an unlabeled percentage. I first type every number by object, layer, unit, local/object tier, active/Snapshot/replica/reserve scope, time and source. I reconcile stocks and events, segment change points, compare linear, compound, seasonal and event models with rolling backtests, and publish ranges. The action date is the risk date minus full lead time. My production experience is enterprise support and analytics, not ONTAP capacity administration or sizing."
 
 ---
 
@@ -1331,7 +1331,7 @@ flowchart LR
 
 ### Q8. How does your background transfer, and what remains a gap?
 
-> **Model answer:** "My Microsoft support work gives me source validation, impact/change timelines and cross-team ownership. My MBA and Excel, Power BI, SQL, Python and statistics support reconciliations, decomposition, forecasting, backtesting and scenarios. I have not owned production ONTAP capacity, sizing, FabricPool or efficiency changes, so I would use current docs, authorized data and NetApp/app specialists."
+> **Model answer:** "My prior support work gives me source validation, impact/change timelines and cross-team ownership. My MBA and Excel, Power BI, SQL, Python and statistics support reconciliations, decomposition, forecasting, backtesting and scenarios. I have not owned production ONTAP capacity, sizing, FabricPool or efficiency changes, so I would use current docs, authorized data and NetApp/app specialists."
 
 ---
 
@@ -1354,7 +1354,7 @@ flowchart LR
 - **Uncertainty:** Data + model + parameter + event + policy assumptions.
 - **Action date:** Forecast risk date minus full lead time.
 - **Alert:** A workflow signal, not the threshold or hard limit.
-- **Arti's bridge:** Analytics rigor transfers; ONTAP capacity operation/sizing does not.
+- **Your bridge:** Analytics rigor transfers; ONTAP capacity operation/sizing does not.
 
 ---
 

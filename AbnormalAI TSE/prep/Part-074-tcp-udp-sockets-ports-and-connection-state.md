@@ -8,9 +8,9 @@
 
 ## Section goal
 
-By the end of this Part, Arti should be able to define a socket, endpoint, listener, connection, port, and five-tuple; distinguish well-known/system, registered/user, and dynamic/private port ranges; and explain how a client normally receives an ephemeral source port. She should be able to narrate the Transmission Control Protocol (TCP) three-way handshake, sequence and acknowledgment numbers, receive windows, retransmissions, flags, graceful FIN teardown, abortive Reset (RST), and common TCP states including TIME_WAIT and CLOSE_WAIT.
+By the end of this Part, you should be able to define a socket, endpoint, listener, connection, port, and five-tuple; distinguish well-known/system, registered/user, and dynamic/private port ranges; and explain how a client normally receives an ephemeral source port. You should be able to narrate the Transmission Control Protocol (TCP) three-way handshake, sequence and acknowledgment numbers, receive windows, retransmissions, flags, graceful FIN teardown, abortive Reset (RST), and common TCP states including TIME_WAIT and CLOSE_WAIT.
 
-She should also be able to distinguish an immediate refusal from a timeout and a reset, explain User Datagram Protocol (UDP) datagrams and Internet Control Message Protocol (ICMP) feedback without treating silence as proof, and describe QUIC at a high level as a secure transport built over UDP rather than “unreliable HTTP.”
+You should also be able to distinguish an immediate refusal from a timeout and a reset, explain User Datagram Protocol (UDP) datagrams and Internet Control Message Protocol (ICMP) feedback without treating silence as proof, and describe QUIC at a high level as a secure transport built over UDP rather than “unreliable HTTP.”
 
 The support goal is to connect transport evidence to SaaS/API/email outcomes. A listening port proves a local process accepted a bind/listen state; it does not prove a remote route, firewall, TLS certificate, HTTP authorization, SMTP recipient, or product workflow. An established TCP connection proves a transport state at an observation point; it does not prove the application request completed. Every conclusion must name the tuple, direction, observer, and time.
 
@@ -31,7 +31,7 @@ The support goal is to connect transport evidence to SaaS/API/email outcomes. A 
 
 ## Candidate honesty note
 
-Arti can describe socket/transport analysis as **working familiarity and lab evidence**. Her production strength is Microsoft enterprise support: scoping, timeline building, client/cloud isolation, Engineering escalation, critical-situation communication, and fix validation. She should not claim kernel TCP implementation expertise, enterprise firewall administration, Internet routing ownership, production packet-forensics specialization, or Abnormal AI transport ownership.
+You can describe socket/transport analysis as **working familiarity and lab evidence**. Your production strength is enterprise support: scoping, timeline building, client/cloud isolation, Engineering escalation, critical-situation communication, and fix validation. You should not claim kernel TCP implementation expertise, enterprise firewall administration, Internet routing ownership, production packet-forensics specialization, or Abnormal AI transport ownership.
 
 | Evidence tier | Safe claim | Boundary |
 |---|---|---|

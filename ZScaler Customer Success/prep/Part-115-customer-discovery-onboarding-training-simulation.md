@@ -1,10 +1,10 @@
 # Part 115 - Strategic Customer Discovery, Onboarding, and Training Simulation
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 
 > **Purpose:** Simulate a complete strategic-customer engagement from preparation and discovery through stakeholder and architecture mapping, outcome definition, success planning, onboarding governance, technical workshop delivery, objection handling, teach-back, and written follow-up using only local synthetic evidence.
 
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is explicitly fictional and synthetic. Every stakeholder, title, organization fact, architecture, source, product interest, license assumption, goal, baseline, metric, objection, decision, workshop, date, plan, risk, action, and result in this Part is invented for study. The simulation does not represent a Zscaler customer, sales opportunity, entitlement, implementation, onboarding, workshop, or outcome. Arti's factual background includes Microsoft enterprise escalation engineering, Microsoft 365/OneDrive/SharePoint, networking and traces, SQL/Power BI/statistics, customer and Engineering collaboration, mentoring, onboarding, partner training, knowledge articles, and responsible AI exploration. Those strengths are mapped honestly.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is explicitly fictional and synthetic. Every stakeholder, title, organization fact, architecture, source, product interest, license assumption, goal, baseline, metric, objection, decision, workshop, date, plan, risk, action, and result in this Part is invented for study. The simulation does not represent a Zscaler customer, sales opportunity, entitlement, implementation, onboarding, workshop, or outcome. Your factual background includes enterprise escalation engineering, Microsoft 365/OneDrive/SharePoint, networking and traces, SQL/Power BI/statistics, customer and Engineering collaboration, mentoring, onboarding, partner training, knowledge articles, and responsible AI exploration. Those strengths are mapped honestly.
 
 > **Currency caveat:** Product capabilities, interfaces, packaging, entitlements, support models, account-team roles, onboarding methods, training catalogs, privacy obligations, and customer priorities change. The controlled official-source snapshot and source review date for this Part is exactly **2026-08-24**. Current official documentation, licensed-tenant evidence, contracts, assigned account roles, customer-authoritative facts, security/privacy/legal review, product specialists, Support, and customer decision makers govern a real engagement.
 
@@ -55,17 +55,17 @@ flowchart LR
 
 ## Candidate honesty note
 
-Arti can say: "I designed and rehearsed a complete synthetic strategic-customer simulation for fictional NMH. I prepared discovery hypotheses, mapped stakeholders and architecture, defined measurable outcome and data-quality contracts, built a phased onboarding/success plan, facilitated a local data-to-action workshop design with teach-back, handled objections, and produced decision-oriented follow-up. The work draws on my factual Microsoft customer escalations, technical advisory, mentoring, onboarding, partner training, SQL, Power BI, and communication experience. It does not represent a Zscaler account, product deployment, customer workshop, production outcome, or entitlement."
+You can say: "I designed and rehearsed a complete synthetic strategic-customer simulation for fictional NMH. I prepared discovery hypotheses, mapped stakeholders and architecture, defined measurable outcome and data-quality contracts, built a phased onboarding/success plan, facilitated a local data-to-action workshop design with teach-back, handled objections, and produced decision-oriented follow-up. The work draws on my documented customer escalations, technical advisory, mentoring, onboarding, partner training, SQL, Power BI, and communication experience. It does not represent a Zscaler account, product deployment, customer workshop, production outcome, or entitlement."
 
-| Factual Arti background | Transferable strength | Safe wording | Unsupported wording to avoid |
+| Documented background | Transferable strength | Safe wording | Unsupported wording to avoid |
 |---|---|---|---|
-| Microsoft enterprise support/escalation | Discovery under ambiguity, impact, evidence, ownership, executive updates | "I have led evidence-based customer conversations in enterprise support." | "I owned a strategic Zscaler account." |
+| enterprise support/escalation | Discovery under ambiguity, impact, evidence, ownership, executive updates | "I have led evidence-based customer conversations in enterprise support." | "I owned a strategic Zscaler account." |
 | Microsoft 365, OneDrive, SharePoint | SaaS, identity, permissions, client, network, data, and service dependencies | "I can map layered cloud-service workflows." | "I designed NMH's security architecture." |
 | SQL, Power BI, statistics, MBA analytics | Baselines, quality, dashboards, metrics, outcome hypotheses | "I can make success measures inspectable." | "My simulation proves ROI." |
 | Mentoring, onboarding, partner training | Audience-aware explanation, practice, teach-back, follow-up | "I have factual enablement experience and designed this synthetic workshop." | "I trained an NMH SOC." |
-| CRITSIT/RCA/Engineering collaboration | Escalation boundaries, hypotheses, actions, validation | "I can coordinate technical uncertainty and handoffs." | "I escalated this to Zscaler Product." |
+| Critical situation/RCA/Engineering collaboration | Escalation boundaries, hypotheses, actions, validation | "I can coordinate technical uncertainty and handoffs." | "I escalated this to Zscaler Product." |
 | Responsible AI exploration | Discuss assistive workflows with privacy/human review | "I can frame safe AI-assisted use as a hypothesis." | "I deployed Zscaler agents." |
-| 100+ recognitions and high CSAT cited in CV | Customer focus and communication evidence | Use exact factual records when personally supportable | Claim simulation satisfaction or adoption |
+| repeated peer and customer recognition and high CSAT cited in CV | Customer focus and communication evidence | Use exact factual records when personally supportable | Claim simulation satisfaction or adoption |
 
 ## Beginner vocabulary and memory hooks
 
@@ -931,9 +931,9 @@ The Zscaler sources support bounded public positioning around the Zero Trust Exc
 
 **Model answer:** Purpose and scope, corrected facts, assumptions, unknowns/evidence requests, decisions and rationale, architecture/artifact versions, actions with owner/due basis/dependency/acceptance, risks and escalation triggers, product questions routed to authority, learning/application evidence, resources, and next checkpoint. I ask recipients to correct the read-back and visibly version changes.
 
-### Q8. How does Arti's background support strategic technical success?
+### Q8. How does your background support strategic technical success?
 
-**Model answer:** Microsoft enterprise escalation work supports discovery under ambiguity, impact framing, evidence, ownership, cross-team coordination, and executive communication. Microsoft 365 depth supports layered SaaS architecture. SQL, Power BI, statistics, and MBA analytics support source quality and success metrics. Mentoring, onboarding, partner training, and knowledge work support enablement. These are factual strengths; Zscaler account ownership, product implementation, and NMH outcomes remain synthetic ramp areas.
+**Model answer:** enterprise escalation work supports discovery under ambiguity, impact framing, evidence, ownership, cross-team coordination, and executive communication. Microsoft 365 depth supports layered SaaS architecture. SQL, Power BI, statistics, and MBA analytics support source quality and success metrics. Mentoring, onboarding, partner training, and knowledge work support enablement. These are factual strengths; Zscaler account ownership, product implementation, and NMH outcomes remain synthetic ramp areas.
 
 ## 30-Second Memory Hooks
 
@@ -954,7 +954,7 @@ The Zscaler sources support bounded public positioning around the Zero Trust Exc
 | Boundary | Verify product, entitlement, authority, roadmap |
 | Follow-up | Facts, decisions, actions, validation, next |
 | NMH | Always fictional and synthetic |
-| Arti bridge | Escalation, analytics, enablement transfer honestly |
+| Experience bridge | Escalation, analytics, enablement transfer honestly |
 
 ## Completion Checklist
 
@@ -977,6 +977,6 @@ The Zscaler sources support bounded public positioning around the Zero Trust Exc
 - [ ] I handled at least six objections without product, roadmap, commercial, or outcome invention.
 - [ ] I issued follow-up with corrected artifacts, decisions, unknowns, actions, validation, and next checkpoint.
 - [ ] I adapted the plan across all five changed cases.
-- [ ] I can discuss Arti's factual strengths without claiming a real Zscaler customer engagement.
+- [ ] I can discuss your factual strengths without claiming a real Zscaler customer engagement.
 
 [Next: Part 116 - Executive Risk Review, Dashboard, and Mitigation Roadmap Capstone](Part-116-executive-risk-review-capstone.md)

@@ -2,7 +2,7 @@
 
 > **Section goal:** Understand how Microsoft Purview Audit and the current Microsoft Purview eDiscovery experience support defensible investigations. By the end, you should be able to explain the unified audit pipeline, Audit (Standard) versus Audit (Premium), licensing and retention caveats, event schemas, latency, search/export/API choices, high-value-user planning, cases, roles, custodians, noncustodial sources, holds, searches, estimates, review sets, processing, deduplication, threading, themes, tags, analytics, exports, legal privilege, chain of custody, deleted content, hold conflicts, incident-versus-legal boundaries, deployment, testing, rollback, operations, metrics, and troubleshooting.
 
-This Part maps directly to Deloitte's Microsoft Purview, Microsoft 365 workload assessment, security incident, legal investigation, troubleshooting, documentation, stakeholder-management, and operational-readiness expectations. Arti's direct strengths in Microsoft 365 incidents, critical escalation, SharePoint Online and OneDrive behavior, root-cause analysis (RCA), evidence timelines, stakeholder communication, and durable support documentation provide a credible foundation. The bridge is learning to preserve and interpret evidence under legal, privacy, and least-privilege controls. This chapter never claims that Arti has operated Microsoft Purview Audit or eDiscovery in production. [Part 31](Part-31-purview-insider-risk-communication-compliance.md) follows with insider risk, communication compliance, information barriers, and Adaptive Protection.
+This Part maps directly to Deloitte's Microsoft Purview, Microsoft 365 workload assessment, security incident, legal investigation, troubleshooting, documentation, stakeholder-management, and operational-readiness expectations. Your direct strengths in Microsoft 365 incidents, critical escalation, SharePoint Online and OneDrive behavior, root-cause analysis (RCA), evidence timelines, stakeholder communication, and durable support documentation provide a credible foundation. The bridge is learning to preserve and interpret evidence under legal, privacy, and least-privilege controls. This chapter never claims that you have operated Microsoft Purview Audit or eDiscovery in production. [Part 31](Part-31-purview-insider-risk-communication-compliance.md) follows with insider risk, communication compliance, information barriers, and Adaptive Protection.
 
 > **Currency, licensing, portal, preview, and change-sensitive note:** This chapter was checked against official Microsoft Learn available on **August 24, 2026**. The active portal is `https://purview.microsoft.com`. Microsoft retired classic Content Search, classic eDiscovery (Standard), and classic eDiscovery (Premium) experiences on August 31, 2025 outside the special documentation path for Microsoft 365 operated by 21Vianet. Current tenants use the new eDiscovery experience and may expose premium capabilities through case settings rather than the old separate navigation. Audit retention, premium events, export limits, Graph endpoints, high-value insights, eDiscovery processing, supported sources, AI interactions, legal-hold behavior, and licensing can change. Some Learn pages preserve retired terminology for 21Vianet or historical explanation; do not use those procedures blindly. Verify Product Terms, service descriptions, subscription requirements, Microsoft 365 Roadmap, Message center, regional-cloud support, current tenant UI, current API version, preview terms, and counsel-approved procedures before a client decision.
 
@@ -19,9 +19,9 @@ This Part maps directly to Deloitte's Microsoft Purview, Microsoft 365 workload 
 
 ## Candidate honesty note
 
-Arti can speak directly about production Microsoft 365 support incidents, SharePoint Online and OneDrive behavior, content and permissions, sync and sharing, escalations, timeline building, RCA, validation, stakeholder updates, product-group collaboration, and evidence-quality documentation where supported by her CV and examples. Those skills are highly relevant because Purview evidence is only useful when an investigator understands workload behavior, timestamps, identities, system-generated actions, missing telemetry, and operational context.
+You can speak directly about production Microsoft 365 support incidents, SharePoint Online and OneDrive behavior, content and permissions, sync and sharing, escalations, timeline building, RCA, validation, stakeholder updates, product-group collaboration, and evidence-quality documentation where supported by your CV and examples. Those skills are highly relevant because Purview evidence is only useful when an investigator understands workload behavior, timestamps, identities, system-generated actions, missing telemetry, and operational context.
 
-She should not claim that she has administered Audit (Premium), created audit retention policies, placed legal holds, managed custodians, processed review sets, made privilege calls, or produced discovery to counsel in production unless she has separate evidence. Safe wording is:
+You should not claim that you have administered Audit (Premium), created audit retention policies, placed legal holds, managed custodians, processed review sets, made privilege calls, or produced discovery to counsel in production unless you have separate evidence. Safe wording is:
 
 > “My production foundation is Microsoft 365 incident ownership, SharePoint and OneDrive behavior, RCA, evidence timelines, validation, documentation, and stakeholder coordination. I have built a current Purview Audit and eDiscovery design and completed a safe paper evidence exercise. I have not operated production Purview legal cases or made legal determinations. In a client engagement I would work under counsel-approved scope, verify licensing and current Microsoft behavior, use least privilege, preserve original evidence, record every transformation, and separate technical facts from legal conclusions.”
 
@@ -1004,7 +1004,7 @@ There is no tenant cleanup because nothing was configured. Review notes and remo
 - **Raw export stays raw; transformations get their own lineage.**
 - **Every export needs reconciliation and chain of custody.**
 - **Modern `edisc-*` guidance wins over retired classic navigation.**
-- **Arti's incident/RCA discipline is the bridge, not a Purview production claim.**
+- **Your incident/RCA discipline is the bridge, not a Purview production claim.**
 
 ## Completion Checklist
 
@@ -1029,7 +1029,7 @@ There is no tenant cleanup because nothing was configured. Review notes and remo
 - [ ] I can plan prerequisites, deployment, rollback constraints, operations and metrics.
 - [ ] I can troubleshoot missing evidence layer by layer and build an escalation pack.
 - [ ] I can produce the listed consulting artifacts and safe paper-lab portfolio.
-- [ ] I can state Arti's production strengths and Purview experience boundary honestly.
+- [ ] I can state your production strengths and Purview experience boundary honestly.
 - [ ] I can answer Q1-Q8 aloud without reading.
 
 *Next suggested section:* [Part 31](Part-31-purview-insider-risk-communication-compliance.md) — design privacy-respecting insider risk, communication review, information barriers and adaptive protection with HR, legal, ethics, security and employee-relations governance.

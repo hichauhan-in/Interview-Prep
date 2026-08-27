@@ -40,7 +40,7 @@ flowchart TD
 
 **Every row has a return exceeding its cost**, and every row is skippable indefinitely without anyone noticing.
 
-> 💡 **Tie-in to your background:** ODSP SME, 100+ recognitions, Technical Advisor programme, Aspire Leadership Council — **these are all markers of unassigned work.** Nobody gets SME recognition for closing their own tickets.
+> 💡 **Tie-in to your background:** product subject-matter expert, repeated peer and customer recognition, technical-advisor programme, a leadership-development council — **these are all markers of unassigned work.** Nobody gets SME recognition for closing their own tickets.
 
 ### 🔍 Plain-English deep-dive: what proactivity actually looks like day to day
 
@@ -429,8 +429,8 @@ An interviewer asks: *"What would you do in your first ninety days?"*
 
 ## 9. Candidate Honesty Note
 
-- **Production experience:** SME recognition, 100+ recognitions, Technical Advisor programme, Aspire Leadership Council — **all markers of work nobody assigned.**
-- **Production experience:** CSAT of 4.75+ enterprise and 4.85+ SMB sustained, with the behaviours behind it describable.
+- **Production experience:** SME recognition, repeated peer and customer recognition, technical-advisor programme, a leadership-development council — **all markers of work nobody assigned.**
+- **Production experience:** a sustained, strong customer-satisfaction record, with the behaviours behind it describable.
 - **Lab experience:** building the two lists, closing gaps by construction, and preparing a concrete ramp plan, as above.
 - **Learned architecture:** the four values as specific behaviours rather than statements.
 - **No direct experience:** Okta or Auth0 in production; developer-facing support at volume; architecture guidance with product judgement.
@@ -479,7 +479,7 @@ An interviewer asks: *"What would you do in your first ninety days?"*
 
 ### Q7. "You have no experience with our product. Why should we hire you?"
 
-> *Model answer:* I would confirm that is accurate, because I would rather be straightforward. What I bring is five years of enterprise support and escalation work — owning business-critical escalations and CRITSITs, root cause analysis, engineering collaboration — which is exactly the shape of most of this role. And the technical substrate: Active Directory, LDAP, Entra ID, networking, TLS, HTTP, HAR analysis, JavaScript, SQL. Identity sits on all of that. What I have done deliberately is close the product gap as far as it can be closed without the job — worked through the protocols with reproductions, built labs across the platform, and read the developer forum. The part I genuinely cannot prepare is architecture judgement, and I would rather say that than discover it in month two.
+> *Model answer:* I would confirm that is accurate, because I would rather be straightforward. What I bring is several years of enterprise support and escalation work — owning business-critical escalations and critical situations, root cause analysis, engineering collaboration — which is exactly the shape of most of this role. And the technical substrate: Active Directory, LDAP, Entra ID, networking, TLS, HTTP, HAR analysis, JavaScript, SQL. Identity sits on all of that. What I have done deliberately is close the product gap as far as it can be closed without the job — worked through the protocols with reproductions, built labs across the platform, and read the developer forum. The part I genuinely cannot prepare is architecture judgement, and I would rather say that than discover it in month two.
 
 ### Q8. "How would you contribute to the team, not just your own queue?"
 

@@ -642,7 +642,7 @@ flowchart TD
 
 ### Q5. "Which question did you rehearse most carefully?"
 
-> *Model answer:* The one about not having production experience with the product, because it is close to certain given my background and it is the worst possible moment to improvise. I wanted to be able to state it as a fact rather than an apology — I have not used Okta or Auth0 in production — and then say what I did about it and what I bring instead. Five years of enterprise escalation work, the technical substrate of directories, networking, TLS and HTTP that identity sits on, and the product knowledge I built deliberately through labs and the developer forum. And to be clear about the one thing preparation genuinely cannot substitute for, which is architecture judgement.
+> *Model answer:* The one about not having production experience with the product, because it is close to certain given my background and it is the worst possible moment to improvise. I wanted to be able to state it as a fact rather than an apology — I have not used Okta or Auth0 in production — and then say what I did about it and what I bring instead. Several years of enterprise escalation work, the technical substrate of directories, networking, TLS and HTTP that identity sits on, and the product knowledge I built deliberately through labs and the developer forum. And to be clear about the one thing preparation genuinely cannot substitute for, which is architecture judgement.
 
 ### Q6. "How would you use a question bank badly?"
 

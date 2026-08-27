@@ -2,7 +2,7 @@
 
 > **Section goal:** Build a beginner-first, consulting-grade deployment method that moves Microsoft 365 security changes from idea to stable production operation through controlled environments, representative personas, pilots, rings, waves, change governance, traceable tests, objective go/no-go gates, command-center cutover, rehearsed rollback, and measurable hypercare. By the end, you should be able to distinguish lab, development, test, pilot, and production purposes; classify standard, normal, and emergency change; build a complete change record; design unit, integration, system, security, performance, user-acceptance, and operational tests; cover positive, negative, boundary, failure, recovery, and rollback behavior; protect test data and privacy; use simulation, report-only, and audit modes safely; collect reproducible evidence and triage defects; plan communications and command roles; define rollback triggers and restore validation; exit hypercare only on evidence; and adapt the method to identity, endpoint, email, DLP, SIEM, automation, and other policy rollouts.
 
-This Part maps directly to the role's expectations for designing, configuring, testing, migrating, troubleshooting, and handing over Microsoft security solutions while protecting client operations. Arti's demonstrated production strengths in high-severity Microsoft 365 escalations, SharePoint/OneDrive and sync troubleshooting, coordinating customers, vendors, partners, and product groups, documenting timelines and RCA, validating fixes, creating knowledge, mentoring engineers, and reporting service metrics are strong deployment-engineering foundations. The consulting extension is to make those behaviors preventive and repeatable before production change, not only corrective after an incident.
+This Part maps directly to the role's expectations for designing, configuring, testing, migrating, troubleshooting, and handing over Microsoft security solutions while protecting client operations. Your demonstrated production strengths in high-severity Microsoft 365 escalations, SharePoint/OneDrive and sync troubleshooting, coordinating customers, vendors, partners, and product groups, documenting timelines and RCA, validating fixes, creating knowledge, mentoring engineers, and reporting service metrics are strong deployment-engineering foundations. The consulting extension is to make those behaviors preventive and repeatable before production change, not only corrective after an incident.
 
 > **Method boundary:** This chapter provides public, general consulting, deployment, testing, change-management, and service-transition practices. It does not describe or imply Deloitte proprietary methods, templates, tools, governance, or client delivery experience. A real engagement must follow the client's and firm's approved security, architecture, engineering, change, privacy, legal, records, procurement, release, accessibility, and quality processes.
 
@@ -23,9 +23,9 @@ This Part maps directly to the role's expectations for designing, configuring, t
 
 ## Candidate honesty note
 
-Arti can credibly describe production experience controlling customer-impacting technical work, leading escalations, building timelines, comparing affected and unaffected users, coordinating vendors and Microsoft product groups, validating fixes in SharePoint/OneDrive and sync scenarios, documenting RCA and guidance, mentoring, and reporting KPIs. These experiences demonstrate disciplined diagnosis, stakeholder management, recovery, and evidence.
+You can credibly describe production experience controlling customer-impacting technical work, leading escalations, building timelines, comparing affected and unaffected users, coordinating vendors and Microsoft product groups, validating fixes in SharePoint/OneDrive and sync scenarios, documenting RCA and guidance, mentoring, and reporting KPIs. These experiences demonstrate disciplined diagnosis, stakeholder management, recovery, and evidence.
 
-She should not claim that she has chaired a client CAB, deployed production Conditional Access, Intune, Purview, Defender, or Sentinel controls, executed a security-platform cutover, or owned a Deloitte deployment method unless separately evidenced. Safe wording is:
+You should not claim that you have chaired a client CAB, deployed production Conditional Access, Intune, Purview, Defender, or Sentinel controls, executed a security-platform cutover, or owned a Deloitte deployment method unless separately evidenced. Safe wording is:
 
 > “My production background is Microsoft 365 escalation engineering, where I scope impact, establish a timeline, coordinate customers and product teams, validate fixes, document RCA, and communicate service outcomes. I have extended those skills through a fictional deployment portfolio that includes environments, rings, change records, traceable test cases, go/no-go gates, cutover, rollback, and hypercare. I would apply the client's approved change and quality process and verify current product behavior before a real deployment.”
 
@@ -320,7 +320,7 @@ A reproducible test case includes ID, objective, requirement/risk links, environ
 
 Evidence should include original identifiers and timestamps, configuration version, relevant exports/logs/screenshots, expected versus actual, test-data reference, and chain to the decision. Screenshots alone are weak when an export, query result, API response, or transaction ID is available.
 
-Arti's fix-validation experience transfers directly: rerun the original failing workflow, test an unaffected comparison, verify service-side evidence, check regressions, monitor long enough for asynchronous behavior, and document what proves recovery.
+Your fix-validation experience transfers directly: rerun the original failing workflow, test an unaffected comparison, verify service-side evidence, check regressions, monitor long enough for asynchronous behavior, and document what proves recovery.
 
 ## 14. Test data, privacy, and safe simulation
 
@@ -424,7 +424,7 @@ Do not close a defect because a workaround exists. Record workaround risk, scope
 
 An escalation pack should include business/security impact; tenant/environment and region without unnecessary sensitive detail; exact scope; first/last known times and time zone; correlation, request, trace, message, sign-in, device, incident, and policy IDs; versions; architecture path; recent changes; expected versus actual; affected/unaffected comparisons; reproduction; logs/traces; mitigation and rollback status; case severity rationale; and clear asks.
 
-Arti can strongly anchor here: precise evidence, a shared timeline, respectful boundary management, persistent ownership, and fix validation are her direct strengths. Redact tokens, secrets, personal content, and unrelated tenant details. Transfer evidence only through approved channels.
+You can strongly anchor here: precise evidence, a shared timeline, respectful boundary management, persistent ownership, and fix validation are your direct strengths. Redact tokens, secrets, personal content, and unrelated tenant details. Transfer evidence only through approved channels.
 
 ## 21. Go/no-go gate
 
@@ -570,7 +570,7 @@ Deleting a policy is often a poor rollback because it may lose evidence, identif
 
 After restoration, do not declare success from configuration alone. Validate assignment, effective state, critical user workflow, security control, logs/alerts, automation, performance, queue, and transition reconciliation. Monitor for delayed propagation and cached sessions.
 
-Arti's familiar closure test applies: the original symptom no longer reproduces, the expected backend evidence is present, unaffected workflows remain healthy, no new regression appears, and the customer/service owner confirms the business outcome.
+Your familiar closure test applies: the original symptom no longer reproduces, the expected backend evidence is present, unaffected workflows remain healthy, no new regression appears, and the customer/service owner confirms the business outcome.
 
 ## 28. Hypercare design
 
@@ -667,7 +667,7 @@ Use safe vendor-supported simulations and dedicated test identities/domains. Tes
 | Operations | Queue/SLA/runbook/escalation success | Short hypercare may mask low-frequency issue |
 | Change | Success, incident, emergency, unauthorized change | Avoid gaming “success” definitions |
 
-A business review should state release outcome, accepted population, evidence, defects, incidents, user impact, risk, rollback events, supplier issues, operations readiness, decisions needed, and next wave. Arti's KPI and business-review experience is directly relevant: explain what the metric means, its baseline and limitation, who owns action, and when the trend will be reviewed.
+A business review should state release outcome, accepted population, evidence, defects, incidents, user impact, risk, rollback events, supplier issues, operations readiness, decisions needed, and next wave. Your KPI and business-review experience is directly relevant: explain what the metric means, its baseline and limitation, who owns action, and when the trend will be reviewed.
 
 ## 37. Roles and separation of duties
 
@@ -761,7 +761,7 @@ Use **S-E-R-T-G-C-R-H**:
 
 ## 41. JD Mapping: interview translation
 
-| Arti's demonstrated behavior | Deployment capability | Interview phrasing |
+| Your demonstrated behavior | Deployment capability | Interview phrasing |
 |---|---|---|
 | Scoped critical incidents | Blast-radius and persona definition | “I define exact affected and unaffected populations before acting.” |
 | Coordinated vendors/product groups | Dependency and defect command | “I give each owner precise evidence and maintain one shared timeline.” |
@@ -859,7 +859,7 @@ Use current versions and access dates in real work.
 - [ ] I can design hypercare metrics, coverage, escalation, defect handling, and exit criteria.
 - [ ] I can adapt the method to identity, endpoint, DLP, SIEM automation, and email rollout scenarios.
 - [ ] I can present the Northstar work as a fictional paper portfolio rather than production experience.
-- [ ] I can connect Arti's escalation, vendor, RCA, fix-validation, documentation, and business-review strengths honestly.
+- [ ] I can connect your escalation, vendor, RCA, fix-validation, documentation, and business-review strengths honestly.
 - [ ] I can answer Q1–Q8 aloud with concise model structure and no proprietary claims.
 
 *Next suggested section:* [Part 59](Part-59-operational-readiness-raci-soc-runbooks.md)

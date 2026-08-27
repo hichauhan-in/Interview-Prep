@@ -12,7 +12,7 @@ The central rule is:
 
 For modern redirect-based user flows, this Part centers **authorization code with Proof Key for Code Exchange (PKCE)**. Current RFC 9700 security best practice requires PKCE for public clients and recommends it for confidential clients. It advises clients not to use the implicit grant in ordinary modern designs, and it states that the resource owner password credentials grant must not be used. This guide therefore provides no setup recipe, payload, or migration workaround for deprecated insecure flows.
 
-Client credentials and device authorization are explained only at an architectural support level. No live authorization request, token exchange, app registration, consent, secret, certificate, user code, or API call appears in the lab. Microsoft identity documentation is a production-transfer anchor for Arti; Okta, Google, Slack, Zoom, Abnormal, and other platform implementations remain learned or unknown unless the candidate has direct evidence.
+Client credentials and device authorization are explained only at an architectural support level. No live authorization request, token exchange, app registration, consent, secret, certificate, user code, or API call appears in the lab. Microsoft identity documentation is a production-transfer anchor for you; Okta, Google, Slack, Zoom, Abnormal, and other platform implementations remain learned or unknown unless the candidate has direct evidence.
 
 ## Learning outcomes
 
@@ -34,12 +34,12 @@ After completing this Part, you should be able to:
 
 ## JD Mapping
 
-| Supplied role signal | Capability built | Arti evidence | Boundary |
+| Supplied role signal | Capability built | transferable evidence | Boundary |
 |---|---|---|---|
 | REST APIs and integrations | Traces client, authorization server, resource server, token, scope, and errors | REST/JSON/Postman/cURL working knowledge | Lab executes no OAuth/API request |
 | Microsoft 365 ecosystem | Uses Entra identity platform as a concrete official example | Microsoft cloud support and Entra fundamentals | No claim of app-registration/consent ownership without evidence |
 | SaaS Security | Connects grants, scopes, tokens, workload identities, and revocation | Security/identity upskilling | No Abnormal implementation claim |
-| Complex support investigations | Separates browser authorization, token exchange, API use, and app session | CRITSIT and escalation habits | No invented OAuth incident |
+| Complex support investigations | Separates browser authorization, token exchange, API use, and app session | critical situation and escalation habits | No invented OAuth incident |
 | Configuration tickets | Checks redirect URI, client type, consent, issuer, resource, and key metadata | Evidence-based configuration support | No weakening security controls |
 | Customer trust/privacy | Treats tokens and claims as credentials/sensitive data | Enterprise communication and redaction | Never request raw token/secret/password |
 | AI Security Agents/integrations | Reasons about workload/client identity and least privilege | Copilot/agent and automation familiarity | No assumption about agent auth design |
@@ -49,7 +49,7 @@ After completing this Part, you should be able to:
 
 | Evidence tier | Safe statement | Do not imply |
 |---|---|---|
-| **Production transfer - Microsoft** | “My Microsoft cloud support and Entra fundamentals transfer to tenant, identity, client/resource, browser, policy, and evidence reasoning.” | Full production OAuth authorization-server implementation or app-consent ownership |
+| **Production transfer - Microsoft** | “My prior cloud support and Entra fundamentals transfer to tenant, identity, client/resource, browser, policy, and evidence reasoning.” | Full production OAuth authorization-server implementation or app-consent ownership |
 | **Local/public lab** | “I built a non-executable OAuth/OIDC flow and validation workbook with placeholders only.” | A live app registration, consent, token, or API call |
 | **Learned standards** | “I anchor modern security guidance in RFC 9700, OAuth/OIDC specifications, and current Microsoft Learn.” | That every vendor supports every optional endpoint or claim |
 | **No direct experience** | “I have not administered Abnormal, Okta, Google, Slack, or Zoom OAuth integrations in production.” | Hidden platform credentials or implementation knowledge |
@@ -57,7 +57,7 @@ After completing this Part, you should be able to:
 
 Safe interview language:
 
-> “I understand OAuth/OIDC from standards and Microsoft transfer experience. I would identify whether the failure is authorization, authentication, consent, token exchange, resource API, or application session; collect only redacted metadata and correlation IDs; and verify issuer, client, redirect, PKCE, state/nonce, resource/audience, scope, token lifetime, and policy. I would not request a password, token, authorization code, refresh token, secret, or private key.”
+> “I understand OAuth/OIDC from standards and experience transfer experience. I would identify whether the failure is authorization, authentication, consent, token exchange, resource API, or application session; collect only redacted metadata and correlation IDs; and verify issuer, client, redirect, PKCE, state/nonce, resource/audience, scope, token lifetime, and policy. I would not request a password, token, authorization code, refresh token, secret, or private key.”
 
 ## 1. Authorization versus authentication
 
@@ -588,7 +588,7 @@ flowchart TD
 | Retry invalid grant repeatedly | Codes are short-lived/single-use | Start clean transaction after cause check |
 | Log tokens for support | Bearer/token leakage | Redacted metadata and correlation IDs |
 | Local logout equals global logout/revocation | Sessions/grants/tokens are layered | Define exact expected logout boundary |
-| Microsoft transfer equals all-vendor experience | Overstates evidence | Named-platform honesty boundary |
+| experience transfer equals all-vendor experience | Overstates evidence | Named-platform honesty boundary |
 
 ## 24. Escalation packet
 
@@ -673,7 +673,7 @@ Use placeholders only. Do not create a valid authorization URL, PKCE pair, state
 - Deprecated/insecure-pattern prohibition register.
 - Twelve failure cases, four decision-tree results, customer request, and escalation.
 - Source ledger dated **August 24, 2026**.
-- Candidate statement distinguishing Microsoft transfer, standards learning, named-platform gaps, and Abnormal unknowns.
+- Candidate statement distinguishing experience transfer, standards learning, named-platform gaps, and Abnormal unknowns.
 
 ### Cleanup and privacy
 
@@ -697,7 +697,7 @@ Use placeholders only. Do not create a valid authorization URL, PKCE pair, state
 | Other grants | Teaches passwords/implicit | Names grant | Safe client-credentials/device concepts and explicit deprecated boundary |
 | Troubleshooting | Requests token | Uses error | Endpoint/layer, redacted metadata, correlation, owner, no weakened checks |
 | Safety | Executes flow | Uses fake URL | Non-executable placeholders; zero tokens, secrets, calls, registrations |
-| Honesty | Claims all vendors | Says standards | Microsoft transfer, named vendors learned/no direct, Abnormal unknown |
+| Honesty | Claims all vendors | Says standards | experience transfer, named vendors learned/no direct, Abnormal unknown |
 
 ## 25. Official Source Anchors
 
@@ -796,7 +796,7 @@ All source anchors were verified and recorded with guide currency date **August 
 - [ ] I completed or can explain **The OAuth OIDC Boundary Exchange 062**.
 - [ ] The lab includes Prerequisites, Expected evidence, Cleanup and privacy, and Validation rubric.
 - [ ] I created no live registration, consent, request, code, token, secret, key, device flow, or API call.
-- [ ] I can state Microsoft transfer, standards knowledge, named-platform gaps, and Abnormal unknowns.
+- [ ] I can state experience transfer, standards knowledge, named-platform gaps, and Abnormal unknowns.
 - [ ] I checked Official Source Anchors and recorded **August 24, 2026**.
 - [ ] I can answer exactly Q1-Q8.
 

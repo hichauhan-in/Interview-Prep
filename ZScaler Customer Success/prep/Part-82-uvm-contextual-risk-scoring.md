@@ -1,10 +1,10 @@
 # Part 82 - Contextual Multifactor Risk Scoring in UVM
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 
 > **Purpose:** Explain contextual multifactor vulnerability-risk scoring from zero. Cover technical severity, exploitability, asset and business criticality, reachability, exposure, threat activity, human and workload identities, mitigating controls, custom factors and weights, calibration, explainability, uncertainty, governance, troubleshooting, customer decisions, and TSM value without inventing a Zscaler formula, field, interface, entitlement, or outcome.
 
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH asset, identity, service, source, score, factor, weight, threshold, policy, date, workflow, result, and decision is invented. Arti's factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; escalations; mentoring; and responsible AI exploration. Production Zscaler, Data Fabric, UVM, Risk360, CAASM, CTEM, and vulnerability-program operation remain learning boundaries.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH asset, identity, service, source, score, factor, weight, threshold, policy, date, workflow, result, and decision is invented. Your factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; escalations; mentoring; and responsible AI exploration. Production Zscaler, Data Fabric, UVM, Risk360, CAASM, CTEM, and vulnerability-program operation remain learning boundaries.
 
 > **Currency caveat:** Product wording, sources, scoring methods, defaults, fields, interfaces, connectors, entitlements, threat evidence, standards, and customer conditions change. The controlled official-source snapshot and review date for this Part is exactly **2026-08-24**. Current official documentation, licensed-tenant evidence, customer policy, product specialists, Zscaler Support, source-native evidence, authorized testing, and measured postconditions govern production decisions.
 
@@ -54,7 +54,7 @@ Interview language should remain neutral and evidence-classed. Transferable expe
 
 | Evidence class | Neutral candidate phrasing | Boundary |
 |---|---|---|
-| Factual background | Microsoft support work required correlation of tenant, identity, permission, device, network, service, and customer-impact evidence | This is not production UVM administration |
+| Factual background | enterprise support work required correlation of tenant, identity, permission, device, network, service, and customer-impact evidence | This is not production UVM administration |
 | Networking strength | Trace work supports DNS, TCP, TLS, proxy, route, timing, and reachability reasoning | It does not prove operation of Zscaler exposure scoring |
 | Analytics strength | SQL and Power BI knowledge supports joins, null handling, cohorts, distributions, trends, and explainable reporting | It does not establish access to a UVM schema |
 | Escalation strength | Escalation practice supports containment, exact evidence, owners, checkpoints, RCA, and validation | It does not grant customer risk authority |
@@ -281,7 +281,7 @@ sequenceDiagram
     C-->>S: Evidence with limitations
 ```
 
-Arti's networking and trace background is directly useful here. DNS, TCP, TLS, proxy behavior, timestamps, retransmissions, resets, HTTP status, certificate names, and vantage points support disciplined path hypotheses. The honest boundary is that these skills transfer to reachability reasoning; they do not establish production operation of a Zscaler scoring feature.
+Your networking and trace background is directly useful here. DNS, TCP, TLS, proxy behavior, timestamps, retransmissions, resets, HTTP status, certificate names, and vantage points support disciplined path hypotheses. The honest boundary is that these skills transfer to reachability reasoning; they do not establish production operation of a Zscaler scoring feature.
 
 ## Identity, privilege, and behavior context
 
@@ -363,7 +363,7 @@ Threat evidence ages differently. A vulnerability vector may change occasionally
 | Decision time | When authority chose action | Supports audit | Confused with remediation completion |
 | Validation time | When postcondition was tested | Supports closure | One pass may not prove durability |
 
-Temporal joins should use validity intervals rather than only the latest row. If an asset became internet-facing after a score calculation, that factor should change under a new decision version. If an identity relationship ended before the exposure began, a latest-only join may falsely amplify risk. SQL window functions, effective-date joins, and event-time logic are natural bridges from Arti's analytics foundation.
+Temporal joins should use validity intervals rather than only the latest row. If an asset became internet-facing after a score calculation, that factor should change under a new decision version. If an identity relationship ended before the exposure began, a latest-only join may falsely amplify risk. SQL window functions, effective-date joins, and event-time logic are natural bridges from your analytics foundation.
 
 ## Combining factors: gates, rules, weights, and cohorts
 
@@ -833,7 +833,7 @@ Use a stable six-part explanation:
 5. **Action:** Name owner, treatment/evidence step, timing logic, and dependency.
 6. **Proof:** Name validation postconditions and next checkpoint.
 
-This pattern resembles strong Microsoft escalation communication: exact scope and evidence first, hypothesis or assessment second, customer impact and containment next, clear ownership and checkpoint last. The method transfers; the product-specific implementation remains to learn and verify.
+This pattern resembles strong enterprise escalation communication: exact scope and evidence first, hypothesis or assessment second, customer impact and containment next, clear ownership and checkpoint last. The method transfers; the product-specific implementation remains to learn and verify.
 
 ## Safe labs and exercises
 
@@ -863,7 +863,7 @@ All exercises use synthetic records, public official pages, or an isolated expli
 | 20 | Present executive review | Two-minute board-safe narrative | Materiality and caveat without score theater |
 | 21 | Rehearse Q1-Q8 | Recorded answers | Neutral honesty and source boundaries remain clear |
 
-## Arti bridge: factual strengths applied to scoring
+## Experience bridge: factual strengths applied to scoring
 
 | Factual strength | Scoring application | Interview bridge | Boundary |
 |---|---|---|---|
@@ -939,7 +939,7 @@ The first three sources support bounded public Zscaler product positioning. The 
 
 **Model answer:** First pause affected automation and preserve versions. Select one stable episode and UTC window. Trace scope and native finding, entity identity and lifecycle, applicability, source health and mapping, service/identity/path/control assertions, missing-value behavior, factor transformations, lineage overlap, policy/rule/weight version and precedence, then display and workflow reconciliation. Repair in shadow, replay deterministically, reconcile open work and trends, communicate affected decisions, and escalate a redacted minimal case if product behavior remains unexplained.
 
-### Q8. How does Arti's background support this work without overstating experience?
+### Q8. How does your background support this work without overstating experience?
 
 **Model answer:** Microsoft 365, OneDrive, and SharePoint escalation work provides adjacent discipline in exact tenant/user/site/device identity, permissions, service dependencies, evidence quality, customer impact, hypotheses, and validation. Networking traces support path and control reasoning. SQL and Power BI support grain, temporal joins, nulls, cohorts, sensitivity, and honest trends. Escalations, mentoring, and reviewed AI assistance support communication and adoption. NMH is synthetic, while production Zscaler/UVM scoring and vulnerability-program operation remain learning and verification boundaries.
 
@@ -965,7 +965,7 @@ The first three sources support bounded public Zscaler product positioning. The 
 | Sensitivity | Move one assumption and watch decisions plus workload |
 | Governance | Customer authorities approve policy and risk |
 | TSM | Enable product use, evidence, adoption, and troubleshooting without assuming authority |
-| Arti bridge | Correlate Microsoft evidence; learn product specifics honestly |
+| Experience bridge | Correlate prior evidence; learn product specifics honestly |
 
 ## Completion Checklist
 

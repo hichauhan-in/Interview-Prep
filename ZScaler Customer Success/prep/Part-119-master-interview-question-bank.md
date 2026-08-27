@@ -2,7 +2,7 @@
 
 > **Purpose:** Turn the complete curriculum into a repeatable interview-practice system with 240 unique questions: 48 basic, 48 intermediate, and 144 advanced. Every question includes a concise model answer or answer framework and at least one link to the Part that contains the full concept.
 
-> **Scope and honesty:** Model answers are study scaffolds, not scripts to recite or evidence that Arti has performed every task in production. Product facts are bounded to official public material reviewed on 2026-08-24. Northstar Meridian Holdings (NMH) is always fictional and synthetic. Personal answers must distinguish supported experience, completed lab practice, learned architecture, and not-yet-used products.
+> **Scope and honesty:** Model answers are study scaffolds, not scripts to recite or evidence that you have performed every task in production. Product facts are bounded to official public material reviewed on 2026-08-24. Northstar Meridian Holdings (NMH) is always fictional and synthetic. Personal answers must distinguish supported experience, completed lab practice, learned architecture, and not-yet-used products.
 
 > **Section goal:** Make it difficult to go blank by training definition, architecture, evidence, decision, customer, and honesty muscles separately; identify weak topics through stable question IDs; rehearse concise and deep versions; and require cross-referenced correction rather than memorizing unsupported claims.
 
@@ -38,11 +38,11 @@ pie showData
 
 ## Candidate honesty note
 
-Arti should use four explicit evidence labels while practicing:
+You should use four explicit evidence labels while practicing:
 
 | Label | When to use | Example opening |
 |---|---|---|
-| Factual production experience | Microsoft 365 support, escalation, customer communication, networking evidence, analytics, mentoring, and AI facts supported by the guide/CV | "In my Microsoft escalation work, I..." |
+| Factual production experience | Microsoft 365 support, escalation, customer communication, networking evidence, analytics, mentoring, and AI facts supported by the guide/CV | "In my prior escalation work, I..." |
 | Completed synthetic practice | Parts 111-117 only after personally completing and retaining the lab evidence | "In a local synthetic NMH exercise, I practiced..." |
 | Learned architecture | Concepts studied but not operated in a licensed production environment | "I understand the architecture as follows, and I would validate..." |
 | Direct gap | Product/program not yet used directly | "I have not administered that product yet; my transferable method is..., and my ramp plan is..." |
@@ -410,9 +410,9 @@ flowchart TD
 
 **Cross-reference:** [Part 106 - Customer Health, Adoption, Value Realization, and Success Metrics](Part-106-customer-health-adoption-value.md)
 
-#### B048. How should Arti describe her direct Zscaler experience gap?
+#### B048. How should you describe your direct Zscaler experience gap?
 
-**Model answer:** "I have not administered Zscaler products in production yet. My factual strengths are Microsoft enterprise escalation, Microsoft 365 dependencies, network evidence, analytics, customer communication, mentoring, and AI learning. I have built structured conceptual and synthetic practice, I label it honestly, and I would ramp through current official learning, shadowing, licensed labs, changed cases, and reviewed customer workflows."
+**Model answer:** "I have not administered Zscaler products in production yet. My factual strengths are enterprise escalation, Microsoft 365 dependencies, network evidence, analytics, customer communication, mentoring, and AI learning. I have built structured conceptual and synthetic practice, I label it honestly, and I would ramp through current official learning, shadowing, licensed labs, changed cases, and reviewed customer workflows."
 
 **Cross-reference:** [Part 1 - Role Map, JD Deconstruction, and the SecOps TSM Story](Part-01-role-map-jd-secops-tsm-story.md)
 
@@ -820,7 +820,7 @@ flowchart LR
 
 #### A016. How would you translate deep Microsoft 365 support experience into a credible Zscaler architecture discussion?
 
-**Model answer:** Use factual knowledge of user, client, identity, permissions, DNS, proxy, TLS, HTTP, CDN/service, sync state, logs, and escalation boundaries to draw a layered transaction. Then add zero-trust traffic steering, service edge, identity/posture policy, inspection, telemetry, and private/internet app distinctions as learned architecture. Explicitly state which Zscaler components need current validation and avoid renaming Microsoft experience as deployment experience.
+**Model answer:** Use factual knowledge of user, client, identity, permissions, DNS, proxy, TLS, HTTP, CDN/service, sync state, logs, and escalation boundaries to draw a layered transaction. Then add zero-trust traffic steering, service edge, identity/posture policy, inspection, telemetry, and private/internet app distinctions as learned architecture. Explicitly state which Zscaler components need current validation and avoid renaming prior experience as deployment experience.
 
 **Cross-reference:** [Part 29 - Bridging Microsoft 365 Support Skills to Zero Trust and SecOps](Part-29-m365-to-zero-trust-secops-bridge.md)
 
@@ -1630,25 +1630,25 @@ flowchart LR
 | Reflection | What changed and how it transfers | "I would do nothing differently" |
 | Honesty | Factual/lab/learned/gap label | Synthetic work presented as production |
 
-#### A129. How should Arti answer "Tell me about yourself" for this role?
+#### A129. How should your answer "Tell me about yourself" for this role?
 
-**Model answer:** Use a 90-second present-past-future structure. Present: Microsoft enterprise escalation engineer with deep M365 customer and evidence work. Past strengths: networking, critical incidents, Engineering partnership, analytics, mentoring, and AI enablement, using only supported details. Future: move proactively into SecOps Technical Success, applying those strengths while ramping honestly on Zscaler, exposure, vulnerability, and SecOps operations. End with why this role's customer/technical mix fits.
+**Model answer:** Use a 90-second present-past-future structure. Present: enterprise escalation engineer with deep M365 customer and evidence work. Past strengths: networking, critical incidents, Engineering partnership, analytics, mentoring, and AI enablement, using only supported details. Future: move proactively into SecOps Technical Success, applying those strengths while ramping honestly on Zscaler, exposure, vulnerability, and SecOps operations. End with why this role's customer/technical mix fits.
 
 **Cross-reference:** [Part 1 - Role Map, JD Deconstruction, and the SecOps TSM Story](Part-01-role-map-jd-secops-tsm-story.md)
 
-#### A130. How should Arti answer "Why Zscaler?"
+#### A130. How should your answer "Why Zscaler?"
 
-**Model answer:** Connect supported motivation to Zscaler's current public zero-trust and SecOps direction, the role's combination of complex customer environments, security data, exposure/vulnerability priorities, troubleshooting, executive communication, and AI-forward work. Explain why her M365 escalation, networking, analytics, and enablement strengths transfer. Avoid flattery, competitor bashing, unverified leadership claims, or saying she has used products she has not.
+**Model answer:** Connect supported motivation to Zscaler's current public zero-trust and SecOps direction, the role's combination of complex customer environments, security data, exposure/vulnerability priorities, troubleshooting, executive communication, and AI-forward work. Explain why your M365 escalation, networking, analytics, and enablement strengths transfer. Avoid flattery, competitor bashing, unverified leadership claims, or saying you have used products you have not.
 
 **Cross-reference:** [Part 2 - Zscaler Mission, AI-Forward Strategy, Culture, and Interview Signals](Part-02-zscaler-mission-ai-culture.md)
 
-#### A131. How should Arti answer "Why SecOps Technical Success rather than another support role?"
+#### A131. How should your answer "Why SecOps Technical Success rather than another support role?"
 
-**Model answer:** She can say she values deep incident ownership but wants to apply it earlier and more strategically: discovery, architecture, data quality, prioritization, adoption, governance, QBRs, and risk outcomes across an account. Her support background is a foundation, not something to escape. The gap is direct SecOps TSM production work, addressed through structured learning, synthetic practice, shadowing, and evidence-based ramp.
+**Model answer:** You can say you value deep incident ownership but wants to apply it earlier and more strategically: discovery, architecture, data quality, prioritization, adoption, governance, QBRs, and risk outcomes across an account. Your support background is a foundation, not something to escape. The gap is direct SecOps TSM production work, addressed through structured learning, synthetic practice, shadowing, and evidence-based ramp.
 
 **Cross-reference:** [Part 3 - Technical Success Management from Zero](Part-03-technical-success-management-from-zero.md)
 
-#### A132. How should Arti answer "Why should we hire you?"
+#### A132. How should your answer "Why should we hire you?"
 
 **Model answer:** Offer a three-part evidence case: proven enterprise customer/escalation judgment; technical breadth across M365 dependencies, networking tools, RCA, SQL/Power BI/statistics; and multiplier behavior through mentoring, onboarding, training, knowledge, and AI exploration. Then state the direct product/SecOps gap and a concrete ramp. Avoid claiming readiness from study alone; emphasize learning velocity, honesty, ownership, and transferable execution.
 
@@ -1668,7 +1668,7 @@ flowchart LR
 
 #### A135. Give a framework for an ownership-under-pressure story.
 
-**Model answer:** Choose a factual CRITSIT or business-critical support case. Fill in impact, ambiguity, your role, first actions, workstreams, evidence, update cadence, decision boundaries, Engineering/customer coordination, validation, result, and PIR. Emphasize what you personally owned without claiming the underlying service. Explain how that discipline transfers to SecOps escalation and strategic account follow-through.
+**Model answer:** Choose a factual critical situation or business-critical support case. Fill in impact, ambiguity, your role, first actions, workstreams, evidence, update cadence, decision boundaries, Engineering/customer coordination, validation, result, and PIR. Emphasize what you personally owned without claiming the underlying service. Explain how that discipline transfers to SecOps escalation and strategic account follow-through.
 
 **Cross-reference:** [Part 108 - Critical Escalation Leadership and Executive Communication](Part-108-critical-escalation-leadership.md)
 
@@ -1678,9 +1678,9 @@ flowchart LR
 
 **Cross-reference:** [Part 109 - Difficult Conversations, Objections, Constructive Debate, and Trust](Part-109-difficult-conversations-trust.md)
 
-#### A137. How should Arti answer "Tell me about a failure" without inventing one?
+#### A137. How should your answer "Tell me about a failure" without inventing one?
 
-**Model answer:** Select a genuine supported case and fill in: what she expected, what actually happened, her contribution or missed signal, impact, immediate correction, communication, root learning, and durable process change. Do not choose a disguised strength or disclose confidential details. If exact metrics are unavailable, state the bounded result. Link the learning to transparency and quality under urgency.
+**Model answer:** Select a genuine supported case and fill in: what you expected, what actually happened, your contribution or missed signal, impact, immediate correction, communication, root learning, and durable process change. Do not choose a disguised strength or disclose confidential details. If exact metrics are unavailable, state the bounded result. Link the learning to transparency and quality under urgency.
 
 **Cross-reference:** [Part 15 - Incident Response, Evidence, RCA, and Post-Incident Improvement](Part-15-incident-response-evidence-rca.md)
 
@@ -1696,7 +1696,7 @@ flowchart LR
 
 **Cross-reference:** [Part 110 - Mentoring, Service Quality, Knowledge Scaling, and 30/60/90-Day Ramp](Part-110-mentoring-service-quality-ramp.md)
 
-#### A140. How should Arti discuss AI experience and responsible adoption?
+#### A140. How should you discuss AI experience and responsible adoption?
 
 **Model answer:** Use supported Copilot Studio, AI tool evaluation, certification, and organization-wide training facts at their documented level. Explain the task, audience, validation, privacy, human oversight, and learning, without claiming production SecOps agents. Then connect to agentic security principles: grounding, least privilege, prompt injection, evaluation, audit, and safe workflow integration. Fill in exact personal details only from records.
 
@@ -1708,7 +1708,7 @@ flowchart LR
 
 **Cross-reference:** [Part 107 - Business Reviews, Executive Narratives, and Board-Ready Communication](Part-107-business-reviews-executive-narratives.md)
 
-#### A142. What smart questions should Arti ask the interview panel?
+#### A142. What smart questions should you ask the interview panel?
 
 **Model answer:** Ask how success is measured at 6 and 12 months; account/technical scope; customer maturity; TSM versus Support/Sales/Product boundaries; escalation and product-feedback paths; Data Fabric/UVM/SecOps priorities; enablement and labs; executive cadence; travel/hybrid expectations; AI workflow governance; team strengths/gaps; and what distinguishes excellent performers. Adapt to interviewer role and avoid questions answered clearly in current public material.
 

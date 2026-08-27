@@ -1,20 +1,20 @@
 # Part 4 - Enterprise Customer Environment and Stakeholder Thinking
 
-> **Audience:** Arti Thakur, preparing to move from Microsoft enterprise Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
+> **Audience:** Candidates preparing to move from enterprise Support Escalation Engineering into a Zscaler Security Operations Technical Success Manager role.
 >
 > **Currency date:** 2026-08-24.
 >
-> **Honesty rule:** Architecture maps and Northstar Meridian Holdings examples in this chapter are fictional learning artifacts. Arti's production evidence comes from Microsoft 365 support, SharePoint Online, OneDrive for Business, Sync, Copilot-related work, networking investigation, escalation, analytics, mentoring, training, and approved AI experience. Direct production administration of Zscaler, Security Operations, vulnerability, or exposure products is not established.
+> **Honesty rule:** Architecture maps and Northstar Meridian Holdings examples in this chapter are fictional learning artifacts. Your production evidence comes from Microsoft 365 support, SharePoint Online, OneDrive for Business, Sync, Copilot-related work, networking investigation, escalation, analytics, mentoring, training, and approved AI experience. Direct production administration of Zscaler, Security Operations, vulnerability, or exposure products is not established.
 >
 > **Product caveat:** Zscaler capabilities, integrations, packaging, product names, and telemetry can change. A diagram is also a model, not the live environment. Validate every important path, owner, boundary, source, and licensed behavior with current evidence.
 
 ## Section goal
 
-This chapter teaches Arti how to see an enterprise as a connected system rather than a list of tools. The starting point is a **business service**: a capability the organization needs to operate, such as fleet dispatch, plant scheduling, online sales, payroll, or collaboration. Users, identities, endpoints, networks, applications, cloud services, data, security tools, owners, regulations, and service commitments all support that service.
+This chapter teaches you how to see an enterprise as a connected system rather than a list of tools. The starting point is a **business service**: a capability the organization needs to operate, such as fleet dispatch, plant scheduling, online sales, payroll, or collaboration. Users, identities, endpoints, networks, applications, cloud services, data, security tools, owners, regulations, and service commitments all support that service.
 
 Think of a restaurant. A customer sees a meal, but reliable delivery depends on staff, ingredients, suppliers, refrigeration, cooking equipment, payment, safety rules, and managers. A failure in a hidden dependency can stop the visible service. Enterprise architecture thinking makes those hidden dependencies, ownership boundaries, and failure consequences visible before a crisis.
 
-By the end of Part 4, Arti should be able to:
+By the end of Part 4, you should be able to:
 
 | Learning outcome | What mastery looks like |
 |---|---|
@@ -26,7 +26,7 @@ By the end of Part 4, Arti should be able to:
 | Run discovery | Ask layered questions, request proportionate evidence, and label uncertainty |
 | Draw useful diagrams | Choose context, container, flow, sequence, ownership, or failure view for the decision |
 | Resolve ambiguity | Establish source authority, decision rights, RACI, and data-quality rules |
-| Use Arti's bridge | Transfer OneDrive, SharePoint, browser, identity, permissions, endpoint, sync, and networking reasoning honestly |
+| Use your bridge | Transfer OneDrive, SharePoint, browser, identity, permissions, endpoint, sync, and networking reasoning honestly |
 
 ## JD Mapping
 
@@ -45,13 +45,13 @@ By the end of Part 4, Arti should be able to:
 
 ## Candidate honesty note
 
-Arti can credibly say that her production Microsoft 365 work required cross-layer thinking. A OneDrive sync symptom can involve user identity, device state, client process, file path, permissions, network name resolution, proxy behavior, encrypted transport, service health, throttling, or content state. SharePoint access can involve tenant configuration, authentication, authorization, browser behavior, policy, and service dependencies.
+You can credibly say that your production Microsoft 365 work required cross-layer thinking. A OneDrive sync symptom can involve user identity, device state, client process, file path, permissions, network name resolution, proxy behavior, encrypted transport, service health, throttling, or content state. SharePoint access can involve tenant configuration, authentication, authorization, browser behavior, policy, and service dependencies.
 
-That experience proves a method: scope the user-visible service, map the path, separate control from data, collect evidence, identify the owning boundary, and validate the result. It does not prove that Arti designed an enterprise security architecture or operated Zscaler products in production.
+That experience proves a method: scope the user-visible service, map the path, separate control from data, collect evidence, identify the owning boundary, and validate the result. It does not prove that you designed an enterprise security architecture or operated Zscaler products in production.
 
 | Claim label | Safe evidence | Boundary statement |
 |---|---|---|
-| Production | Microsoft 365 service troubleshooting, customer impact, traces, escalation, and validation | "The cross-layer method is proven in Microsoft support" |
+| Production | Microsoft 365 service troubleshooting, customer impact, traces, escalation, and validation | "The cross-layer method is proven in enterprise support" |
 | Lab | A synthetic packet, identity, asset, or data-flow exercise | "I performed this in a controlled lab" |
 | Conceptual | Enterprise planes, trust boundaries, blast-radius analysis, Zscaler context | "I understand the model and would validate it this way" |
 | Fictional | Every Northstar Meridian environment, person, metric, and decision | "This is a fictional case artifact" |
@@ -664,7 +664,7 @@ When ownership is unclear, ask: "Which decision must be made, who has authority 
 
 ## OneDrive and SharePoint bridge
 
-Arti's strongest architecture bridge is to map a known Microsoft 365 service path before adding security-platform terminology.
+Your strongest architecture bridge is to map a known Microsoft 365 service path before adding security-platform terminology.
 
 ```mermaid
 flowchart LR
@@ -707,11 +707,11 @@ A train route diagram is architecture. Comparing a delayed train's actual timest
 | After recovery | Did service, data, and visibility fully recover? | Validation checklist |
 | After learning | Which architecture, control, process, or owner should change? | RCA, decision, and roadmap update |
 
-This is why Arti's troubleshooting background is relevant to strategic architecture work. The new bar is to use the map proactively, connect it to business criticality and security risk, and facilitate decisions across stakeholders.
+This is why your troubleshooting background is relevant to strategic architecture work. The new bar is to use the map proactively, connect it to business criticality and security risk, and facilitate decisions across stakeholders.
 
 ## Fictional Northstar Meridian environment exercise
 
-> **Fiction notice:** Northstar Meridian Holdings is a fictional global manufacturer and logistics operator. Every environment detail, person, metric, regulation, incident, and outcome below is invented for practice. Arti did not serve this customer or operate the named security products in production.
+> **Fiction notice:** Northstar Meridian Holdings is a fictional global manufacturer and logistics operator. Every environment detail, person, metric, regulation, incident, and outcome below is invented for practice. You did not serve this customer or operate the named security products in production.
 
 ### Fictional service map
 
@@ -819,7 +819,7 @@ Bring plant operations and safety authority into the decision. Assess blast radi
 | General architecture | Planes, trust boundaries, failure domains, and RACI | "A general architecture method is..." |
 | Customer-specific | Live topology, data, support, regulation, and authority | "I would validate this with the customer..." |
 | Fictional | Every NMH environment detail and result | "In the fictional account exercise..." |
-| Arti production | Microsoft service, networking, customer, and escalation evidence | "In my Microsoft production work..." |
+| Documented production | Microsoft service, networking, customer, and escalation evidence | "In my prior production work..." |
 | Not established | Production Zscaler, SecOps, vulnerability, or exposure operation | "I have not operated that directly yet..." |
 
 ## Likely Interview Questions
@@ -895,7 +895,7 @@ Transparency about uncertainty increases trust when it is paired with a concrete
 | Source authority | Trust the right source for the right field |
 | Uncertainty | Label it, bound it, test it |
 | Diagram | Purpose, scope, date, evidence, confidence, exclusions |
-| Arti bridge | Architecture is expected path; troubleshooting is observed divergence |
+| Experience bridge | Architecture is expected path; troubleshooting is observed divergence |
 
 ## Completion Checklist
 

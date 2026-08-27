@@ -1,10 +1,10 @@
 # Part 31 - Zero Trust Exchange Architecture and One-to-One Proxy Connections
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 >
 > **Purpose:** Explain the Zero Trust Exchange architecture from first principles, especially the move from network-centric trust to resource-centric policy and the meaning, value, limits, evidence, and failure modes of proxy-brokered one-to-one connections.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every NMH identity, device, workload, application, policy, risk, connection, log, incident, metric, and outcome is synthetic. Arti's production experience includes Microsoft 365 support, escalation, troubleshooting, analytics, mentoring, and training; direct production administration of the Zero Trust Exchange, ZIA, ZPA, or related Zscaler products is not established.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every NMH identity, device, workload, application, policy, risk, connection, log, incident, metric, and outcome is synthetic. Your production experience includes Microsoft 365 support, escalation, troubleshooting, analytics, mentoring, and training; direct production administration of the Zero Trust Exchange, ZIA, ZPA, or related Zscaler products is not established.
 >
 > **Currency caveat:** The source snapshot is **2026-08-24**. Zscaler architecture descriptions, product names, service forms, policy signals, inspection capabilities, user interfaces, editions, entitlements, limits, availability, and recommended designs change. Public product pages establish current positioning, not a customer's purchased or configured behavior. Confirm current official help, release notes, ordering material, contract, tenant evidence, and Zscaler specialist guidance before a production decision.
 
@@ -16,7 +16,7 @@ Think of the difference between entering an office campus and calling a hotel sw
 
 The analogy has limits. Real digital transactions involve Domain Name System, or DNS, resolution; Internet Protocol, or IP, routing; Transport Layer Security, or TLS; application protocols; identity systems; endpoint state; policy; inspection; logs; and destination dependencies. A proxy can reduce important classes of risk, but it cannot make identity, application authorization, software security, data governance, resilience, or operations disappear.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Evidence artifact |
 |---|---|---|
@@ -37,15 +37,15 @@ By the end, Arti should be able to:
 
 ## JD Mapping
 
-| Role expectation | Part 31 capability | TSM artifact | Arti bridge and boundary |
+| Role expectation | Part 31 capability | TSM artifact | experience bridge and boundary |
 |---|---|---|---|
 | Lead strategic engagements | Explain why architecture changes before choosing features | Current-state and target-state map | Enterprise advisory transfers; Zscaler design ownership is new |
 | Analyze complex environments | Trace entity, identity, endpoint, path, policy, proxy, destination, and data | Dependency map | M365 multi-layer isolation transfers |
 | Identify security risk | Link broad reachability to exposure and lateral-movement opportunity | Risk statement | Security architecture depth remains conceptual/lab |
 | Tailor mitigation | Choose narrow access, inspection, posture, or compensating controls based on evidence | Options record | Do not prescribe unsupported entitlements |
 | Advocate best practices | Stage policy with baselines, tests, owners, rollback, and health criteria | Adoption plan | Change and validation discipline transfers |
-| Resolve escalations | Separate denial, steering, proxy, destination, and experience failures | Incident hypothesis matrix | CRITSIT coordination transfers; product commands do not |
-| Partner across teams | Name identity, endpoint, network, app, SOC, privacy, and risk owners | RACI | Cross-functional Microsoft work transfers |
+| Resolve escalations | Separate denial, steering, proxy, destination, and experience failures | Incident hypothesis matrix | critical-situation coordination transfers; product commands do not |
+| Partner across teams | Name identity, endpoint, network, app, SOC, privacy, and risk owners | RACI | Cross-functional prior work transfers |
 | Consult and train | Teach the switchboard model and its limits to mixed audiences | Whiteboard and teach-back | Training strength is directly relevant |
 | Communicate to executives | Translate architecture into reduced exposure and bounded access, with caveats | One-page risk narrative | Never promise universal prevention or savings |
 
@@ -307,7 +307,7 @@ sequenceDiagram
 
 ### Plain-English deep-dive 2 - Two conversations, not one magical tunnel
 
-Suppose Arti asks a secure concierge to call NMH payroll. Arti speaks to the concierge on one telephone call. The concierge independently calls payroll on another. Payroll can be busy even while Arti's call to the concierge is healthy. Arti can fail to authenticate to the concierge even while payroll is healthy. The concierge can also hear an error from payroll and relay it to Arti.
+Suppose you ask a secure concierge to call NMH payroll. You speak to the concierge on one telephone call. The concierge independently calls payroll on another. Payroll can be busy even while your call to the concierge is healthy. You can fail to authenticate to the concierge even while payroll is healthy. The concierge can also hear an error from payroll and relay it to you.
 
 That is the key troubleshooting value of a proxy model. "I reached Zscaler" and "Zscaler reached the application" are different hypotheses. A client-side timeout may involve steering, local DNS, local network, TLS trust, identity, or the service edge. A destination-side timeout may involve destination DNS, routing, firewall, connector, server listener, load balancer, or application health. A policy denial is different again.
 
@@ -506,7 +506,7 @@ A national weather map can show clear skies while rain falls on one street. The 
 
 A representative health check should exercise the same identity class, forwarding path, policy, service region, protocol, destination dependency, and business operation that matters. A TCP probe may miss authentication. A login may miss file upload. A policy log may miss application processing. The closer the synthetic or controlled transaction is to the real critical operation, the stronger the evidence.
 
-Arti's Microsoft support experience is valuable here. She already knows that an M365 service-health page, a successful browser sign-in, and a healthy OneDrive process answer different questions. The honest bridge is to apply that same evidence discipline to Zscaler while learning the product-specific logs, objects, and health signals.
+Your prior support experience is valuable here. You already know that an M365 service-health page, a successful browser sign-in, and a healthy OneDrive process answer different questions. The honest bridge is to apply that same evidence discipline to Zscaler while learning the product-specific logs, objects, and health signals.
 
 ## Architecture health model
 
@@ -741,18 +741,18 @@ flowchart LR
 
 The TSM should not claim that architecture alone will eliminate incidents. The pilot should measure reduced unnecessary reachability, policy correctness, adoption, health, experience, logging, and owner confidence. Security outcome requires longer-term evidence and causal caution.
 
-## Arti's Microsoft-to-Zscaler bridge
+## Your experience bridge to Zscaler
 
-Arti's strongest bridge is transaction thinking. A OneDrive sync operation can involve user identity, device/client state, DNS, TCP, TLS, HTTP, proxy, Microsoft endpoint, SharePoint authorization, throttling, local file state, and service health. The Zero Trust Exchange model adds explicit policy decision/enforcement, destination scoping, risk context, inspection, and attack-surface reasoning.
+Your strongest bridge is transaction thinking. A OneDrive sync operation can involve user identity, device/client state, DNS, TCP, TLS, HTTP, proxy, Microsoft endpoint, SharePoint authorization, throttling, local file state, and service health. The Zero Trust Exchange model adds explicit policy decision/enforcement, destination scoping, risk context, inspection, and attack-surface reasoning.
 
-| Microsoft production method | Part 31 transfer | New learning required | Honest interview language |
+| prior production method | Part 31 transfer | New learning required | Honest interview language |
 |---|---|---|---|
 | Scope user/device/site/file/time | Scope entity/device/resource/operation/time | Zscaler entity and policy objects | "I would start with an exact transaction." |
 | Trace DNS/TCP/TLS/HTTP/proxy | Separate client and destination proxy legs | Product forwarding and edge evidence | "The method transfers; the product telemetry is a ramp area." |
 | Compare browser and sync client | Compare protocol/path/forwarding cohorts | Supported product paths | "Different clients can take different enforcement paths." |
 | Validate SharePoint permissions | Distinguish proxy allow from app authorization | ZPA identity and segmentation mechanics | "Connectivity and authorization are separate." |
 | Correlate service and client logs | Correlate identity/policy/traffic/app logs | Nanolog/log-streaming specifics later | "I would align clocks and transaction identifiers." |
-| Lead CRITSIT workstreams | Coordinate identity/network/app/security owners | Security containment authority | "I bring operating discipline, not claimed SOC authority." |
+| Lead critical-situation workstreams | Coordinate identity/network/app/security owners | Security containment authority | "I bring operating discipline, not claimed SOC authority." |
 | Validate fix and recurrence | Positive/negative security tests and feedback | Product-safe test design | "Access restored is not enough if policy is bypassed." |
 
 ### 30-second interview bridge
@@ -857,7 +857,7 @@ Explain one-to-one proxy architecture in 30 seconds, two minutes, and ten minute
 
 Sources in this section were reviewed on **2026-08-24**.
 
-All pages were reviewed on **2026-08-24**. Zscaler pages are vendor-authored sources for current public product and architecture positioning. NIST and IETF sources establish vendor-neutral architecture and protocol concepts. None proves NMH design, tenant entitlement, universal prevention, performance, savings, or Arti's production Zscaler experience.
+All pages were reviewed on **2026-08-24**. Zscaler pages are vendor-authored sources for current public product and architecture positioning. NIST and IETF sources establish vendor-neutral architecture and protocol concepts. None proves NMH design, tenant entitlement, universal prevention, performance, savings, or your production Zscaler experience.
 
 | Source | URL | Used for | Boundary |
 |---|---|---|---|
@@ -899,7 +899,7 @@ All pages were reviewed on **2026-08-24**. Zscaler pages are vendor-authored sou
 
 **Model answer:** It can reduce public and routed attack surface, inspect supported traffic to help prevent compromise, connect entities to specific apps to reduce lateral movement, and apply supported data controls to reduce loss. Those are control contributions, not guarantees. Stolen identities, unsupported or bypassed traffic, vulnerable allowed apps, workload paths, alternate exposure, and uncovered data channels remain, so defense in depth and evidence are essential.
 
-### Q8. How does your Microsoft background prepare you to work with this architecture?
+### Q8. How does your prior background prepare you to work with this architecture?
 
 **Model answer:** My production strength is isolating Microsoft 365 transactions across client, identity, DNS, TCP, TLS, HTTP, proxy, permissions, service, and logs while coordinating customers and Engineering through critical escalations. That method transfers directly to scoping, dependency mapping, two-leg proxy reasoning, evidence correlation, and fix validation. Zscaler policy objects, forwarding, service health, and logs are a product-specific ramp area; I have learned the architecture and practiced synthetic scenarios but would not claim production Zscaler administration.
 
@@ -932,7 +932,7 @@ All pages were reviewed on **2026-08-24**. Zscaler pages are vendor-authored sou
 | Telemetry | Prove the decision and both legs |
 | Troubleshooting | First failed boundary |
 | Validation | Positive, negative, security, experience, logs |
-| Arti bridge | Same evidence discipline, new product mechanics |
+| Experience bridge | Same evidence discipline, new product mechanics |
 
 ## Completion Checklist
 

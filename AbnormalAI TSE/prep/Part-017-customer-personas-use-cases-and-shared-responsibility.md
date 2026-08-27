@@ -8,11 +8,11 @@
 
 ## Section Goal
 
-By the end of this Part, Arti should be able to explain the same security case accurately to a SOC analyst, email administrator, identity team, SaaS owner, CSM, security leader, executive/business owner, end user, Support engineer, Engineering, and Product. The facts and confidence must remain constant; vocabulary, detail, evidence, decision framing, and requested action should change by audience.
+By the end of this Part, you should be able to explain the same security case accurately to a SOC analyst, email administrator, identity team, SaaS owner, CSM, security leader, executive/business owner, end user, Support engineer, Engineering, and Product. The facts and confidence must remain constant; vocabulary, detail, evidence, decision framing, and requested action should change by audience.
 
-Arti should understand **jobs to be done**: the progress each persona is responsible for, not just a job title. She should distinguish technical ownership, customer-environment authority, incident command, risk acceptance, business prioritization, adoption/value ownership, product behavior, code/service correction, and communication. She should use shared responsibility to assign precise actions rather than blame or say “everyone owns it.”
+You should understand **jobs to be done**: the progress each persona is responsible for, not just a job title. You should distinguish technical ownership, customer-environment authority, incident command, risk acceptance, business prioritization, adoption/value ownership, product behavior, code/service correction, and communication. You should use shared responsibility to assign precise actions rather than blame or say “everyone owns it.”
 
-She should also distinguish deployment from adoption, activity from use, use from value, technical resolution from customer success, and customer silence from validation. The practical outcome is the **Concord Bridge Persona, Use-Case, and Responsibility Matrix Lab**, using one harmless synthetic case with distinct technical, adoption, trust, and product-learning outcomes.
+You should also distinguish deployment from adoption, activity from use, use from value, technical resolution from customer success, and customer silence from validation. The practical outcome is the **Concord Bridge Persona, Use-Case, and Responsibility Matrix Lab**, using one harmless synthetic case with distinct technical, adoption, trust, and product-learning outcomes.
 
 ## JD Mapping
 
@@ -32,7 +32,7 @@ She should also distinguish deployment from adoption, activity from use, use fro
 
 ## Candidate Honesty Note
 
-Arti's five years of customer-facing Microsoft enterprise support, CRITSIT communication, customer/partner interaction, Engineering/Product escalation, fix validation, KB/training, mentoring, and support analytics are direct transferable strengths for persona-aware support. Her Microsoft 365 workloads and Copilot experience help with cloud and AI conversations. She must not claim she has served as an Abnormal CSM, customer SOC analyst, email administrator, identity architect, SaaS owner, Product Manager, or Engineering owner.
+Your several years of customer-facing enterprise support, critical-situation communication, customer/partner interaction, Engineering/Product escalation, fix validation, KB/training, mentoring, and support analytics are direct transferable strengths for persona-aware support. Your Microsoft 365 workloads and Copilot experience help with cloud and AI conversations. You must not claim you have served as an Abnormal CSM, customer SOC analyst, email administrator, identity architect, SaaS owner, Product Manager, or Engineering owner.
 
 | Evidence label | Honest use | Boundary |
 |---|---|---|
@@ -483,7 +483,7 @@ flowchart TD
 | Silence equals validation | Customer may be busy/disengaged | Explicit reasonable confirmation and administrative-closure language | High-impact unresolved state |
 | Customer story number generalized | Selected context differs | Attribute and use customer baseline | Commercial/ROI decision |
 | Raw evidence sent to executive/CSM | Privacy/noise increases | Minimum decision facts | Restricted data requested |
-| Arti claims persona role | Transfer becomes false experience | State Microsoft support evidence and role gap | Interview follow-up |
+| You claim persona role | Transfer becomes false experience | State enterprise support evidence and role gap | Interview follow-up |
 
 ## Concord Bridge Persona, Use-Case, and Responsibility Matrix Lab
 
@@ -581,7 +581,7 @@ Write safe resolution, authority, customer language, and escalation.
 
 ### Step 11: Create candidate transfer map
 
-Map Arti's Microsoft enterprise support, CRITSIT, communication, Engineering/Product escalation, fix validation, KB/training, mentoring, CSAT/backlog/case-quality, M365, networking, API/data, and AI facts to persona skills. Add a boundary for every row.
+Map your prior enterprise support, critical situation, communication, Engineering/Product escalation, fix validation, KB/training, mentoring, CSAT/backlog/case-quality, M365, networking, API/data, and AI facts to persona skills. Add a boundary for every row.
 
 ### Step 12: Validate and clean
 
@@ -625,7 +625,7 @@ Map Arti's Microsoft enterprise support, CRITSIT, communication, Engineering/Pro
 | Success criteria | Ticket closure | Several outcomes | Technical, adoption, trust, security, business, product learning separately evidenced |
 | Handoffs | Cold transfer | Context present | Accepted action, evidence, boundary, checkpoint, continuity complete |
 | Communication | Same text/all or fact drift | Audience detail changes | Decision-specific language with unchanged facts/confidence and minimum data |
-| Candidate honesty | CSM/SOC/Product role implied | Gap stated | Microsoft transfer and no-direct-role/product boundaries per row |
+| Candidate honesty | CSM/SOC/Product role implied | Gap stated | experience transfer and no-direct-role/product boundaries per row |
 | Product fact ceiling | Internal process invented | Disclaimer | No entitlement/SLA/team/tool/customer behavior claims; public facts attributed |
 | Privacy/admin | Real data/contact | Synthetic | No systems/contact/data; private artifacts, cleanup and retention complete |
 
@@ -706,7 +706,7 @@ Map Arti's Microsoft enterprise support, CRITSIT, communication, Engineering/Pro
 
 **Question:** How does your background prepare you for these stakeholders?
 
-**Model answer:** My CV supports five years of Microsoft enterprise support and escalation, including CRITSIT communication, customer/partner updates, Engineering/Product collaboration, fix validation, KB/training, mentoring, and CSAT/backlog/case-quality work. That is strong production evidence for cross-audience support, handoffs, and outcomes. I do not claim Abnormal, direct email security, SOC, CSM, Product, or Engineering-role experience. My current domain proof is official-source study and a synthetic persona/responsibility lab.
+**Model answer:** My CV supports several years of enterprise support and escalation, including critical-situation communication, customer/partner updates, Engineering/Product collaboration, fix validation, KB/training, mentoring, and CSAT/backlog/case-quality work. That is strong production evidence for cross-audience support, handoffs, and outcomes. I do not claim Abnormal, direct email security, SOC, CSM, Product, or Engineering-role experience. My current domain proof is official-source study and a synthetic persona/responsibility lab.
 
 ## 30-Second Memory Hooks
 
@@ -725,7 +725,7 @@ Map Arti's Microsoft enterprise support, CRITSIT, communication, Engineering/Pro
 - **Ticket closure is not customer success.**
 - **Leading indicators predict; lagging indicators show later outcomes.**
 - **Customer stories are examples, not guarantees.**
-- **Microsoft support evidence transfers; target personas/products remain honest gaps.**
+- **enterprise support evidence transfers; target personas/products remain honest gaps.**
 
 ## Completion Checklist
 
@@ -748,7 +748,7 @@ Map Arti's Microsoft enterprise support, CRITSIT, communication, Engineering/Pro
 - [ ] I scored at least 42/48, with 4s in persona quality, evidence consistency, decision rights, adoption, candidate honesty, product fact ceiling, and privacy/admin.
 - [ ] I contacted no customer/person and used no product, account, tenant, CRM, ticketing, mail, API, real metric, contract, or private workflow.
 - [ ] I made no claim about Abnormal entitlements, SLAs, customer health, internal teams/tools, onboarding, handoffs, metrics, or customer-specific behavior.
-- [ ] I use Arti's Microsoft, M365, networking, API/data, customer, KB/training, mentoring, and AI facts only as transferable background.
+- [ ] I use your prior support, cloud, networking, API/data, customer, KB/training, mentoring, and AI facts only as transferable background.
 - [ ] I can answer all eight interview questions aloud while naming the decision owner.
 - [ ] I revalidated every official source against August 24, 2026.
 

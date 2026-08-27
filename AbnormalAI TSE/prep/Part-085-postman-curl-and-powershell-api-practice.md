@@ -8,9 +8,9 @@
 
 ## Section goal
 
-By the end of this Part, Arti should construct the same harmless request in Postman, curl, `Invoke-RestMethod`, and `Invoke-WebRequest`; place values correctly in path, query, header, and JSON content; and predict how each tool serializes, sends, parses, and exposes evidence. She should use variables and environments without storing secrets in ordinary collection/environment exports, write focused assertions, sanitize exported collections, and build a reproducible transcript with UTC, versions, canonical request, response, and interpretation.
+By the end of this Part, you should construct the same harmless request in Postman, curl, `Invoke-RestMethod`, and `Invoke-WebRequest`; place values correctly in path, query, header, and JSON content; and predict how each tool serializes, sends, parses, and exposes evidence. You should use variables and environments without storing secrets in ordinary collection/environment exports, write focused assertions, sanitize exported collections, and build a reproducible transcript with UTC, versions, canonical request, response, and interpretation.
 
-She should understand curl's method/body/header options, bounded timeouts, status/timing output, exit code distinction, redirect risks, and verbose-data sensitivity. She should never use `--insecure`. She should distinguish PowerShell's structured JSON conversion in `Invoke-RestMethod` from the richer raw response object of `Invoke-WebRequest`, and record PowerShell edition/version because defaults and parameters vary.
+You should understand curl's method/body/header options, bounded timeouts, status/timing output, exit code distinction, redirect risks, and verbose-data sensitivity. You should never use `--insecure`. You should distinguish PowerShell's structured JSON conversion in `Invoke-RestMethod` from the richer raw response object of `Invoke-WebRequest`, and record PowerShell edition/version because defaults and parameters vary.
 
 The lab is deliberately local. A short Python standard-library receiver echoes only allowlisted synthetic fields, caps content length, supports harmless GET/HEAD/POST, binds only to IPv4 loopback, and stores nothing. Python is optional: if unavailable, the learner completes the exact exercise as paper transcripts. Postman is optional if already installed. No package installation is needed or requested.
 
@@ -31,7 +31,7 @@ The lab is deliberately local. A short Python standard-library receiver echoes o
 
 ## Candidate honesty note
 
-Arti can describe Postman, curl, JSON, and PowerShell as working knowledge/familiarity supported by a safe local lab. Her production strength remains Microsoft enterprise support, browser/client-cloud troubleshooting, evidence correlation, customer/partner communication, Engineering escalation, and fix validation. She should not claim production API development, CI collection ownership, broad automation engineering, customer-secret handling authority, or Abnormal endpoint administration.
+You can describe Postman, curl, JSON, and PowerShell as working knowledge/familiarity supported by a safe local lab. Your production strength remains enterprise support, browser/client-cloud troubleshooting, evidence correlation, customer/partner communication, Engineering escalation, and fix validation. You should not claim production API development, CI collection ownership, broad automation engineering, customer-secret handling authority, or Abnormal endpoint administration.
 
 | Evidence tier | Safe claim | Boundary |
 |---|---|---|
@@ -709,7 +709,7 @@ For a real ticket, replace the loopback branch with authorization, approved targ
 | Transcript | Command dump | Has expected/actual | Reproducible context, UTC, command/settings, result, inference, limitation, cleanup |
 | Fixture | Binds all interfaces | Uses localhost | Loopback-only, bounded body/methods/logs, no persistence, verified stop |
 | Privacy | Masks visible token | No token in request | No secrets anywhere, structural export check, raw deletion, exposure plan |
-| Honesty | Claims production/API ownership | Says lab | Distinguishes Microsoft transfer, working familiarity, local lab, Abnormal unknowns |
+| Honesty | Claims production/API ownership | Says lab | Distinguishes experience transfer, working familiarity, local lab, Abnormal unknowns |
 
 ## Official Source Anchors - August 24, 2026
 
@@ -772,7 +772,7 @@ For a real ticket, replace the loopback branch with authorization, approved targ
 
 ### Q8. How do you position this hands-on practice honestly?
 
-**Model answer:** I have working familiarity with Postman request building/tests, curl, PowerShell REST/web cmdlets, JSON serialization, and cross-tool comparison, demonstrated in a loopback-only lab. My production strength is Microsoft enterprise support and evidence-led escalation. I do not claim production API automation, Postman governance, or Abnormal API ownership.
+**Model answer:** I have working familiarity with Postman request building/tests, curl, PowerShell REST/web cmdlets, JSON serialization, and cross-tool comparison, demonstrated in a loopback-only lab. My production strength is enterprise support and evidence-led escalation. I do not claim production API automation, Postman governance, or Abnormal API ownership.
 
 ## Memory Hooks
 

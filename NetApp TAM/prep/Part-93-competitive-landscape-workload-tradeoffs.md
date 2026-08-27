@@ -1,6 +1,6 @@
 # Part 93 - Competitive Landscape, Workload Choices, and Customer Tradeoffs
 
-> **Section goal:** Compare enterprise data-platform choices neutrally by workload, architecture, semantics, operations, protection, ecosystem, support, cost, lock-in and sustainability rather than memorized vendor claims. By the end, Arti can structure a fair evaluation involving NetApp, Dell Technologies, Pure Storage, Hewlett Packard Enterprise, IBM, Hitachi Vantara, cloud-native services, software-defined storage, hyperconverged infrastructure and backup platforms without inventing current specifications or disparaging competitors.
+> **Section goal:** Compare enterprise data-platform choices neutrally by workload, architecture, semantics, operations, protection, ecosystem, support, cost, lock-in and sustainability rather than memorized vendor claims. By the end, you can structure a fair evaluation involving NetApp, Dell Technologies, Pure Storage, Hewlett Packard Enterprise, IBM, Hitachi Vantara, cloud-native services, software-defined storage, hyperconverged infrastructure and backup platforms without inventing current specifications or disparaging competitors.
 
 Covers index item **93** and maps to job-description responsibilities for strategic planning, customer environment understanding, best-practice guidance, risk/supportability analysis, customer-tailored recommendations, influence, executive communication, current market awareness and maximizing solution value.
 
@@ -10,7 +10,7 @@ Covers index item **93** and maps to job-description responsibilities for strate
 
 **Version caveat:** Portfolios, features, licensing, support, prices, limits, and market positions change; complete current-doc checks and avoid remembered or unsourced comparisons.
 
-**Explicit nonclaim:** Arti has not led a production competitive storage evaluation, procurement, benchmark, proof of concept, migration or vendor selection for NetApp or the fictional customer; has not validated current commercial offers; and does not claim production administration of the compared platforms.
+**Explicit nonclaim:** You have not led a production competitive storage evaluation, procurement, benchmark, proof of concept, migration or vendor selection for NetApp or the fictional customer; has not validated current commercial offers; and does not claim production administration of the compared platforms.
 
 **Privacy/access:** Competitive evaluations can expose customer workloads, topology, performance, capacity, costs, contracts, discounts, bids, security, support experience, vendor roadmaps, licensing and employee opinions. Use approved procurement/legal/security processes, minimum role access, neutral evidence, secure repositories, conflict disclosure, retention and no confidential proposals, benchmarks, customer data or vendor-restricted material in portfolios.
 
@@ -20,7 +20,7 @@ Covers index item **93** and maps to job-description responsibilities for strate
 
 This Part is a decision framework, not a vendor ranking, product endorsement, benchmark, request for proposal, procurement/legal advice, sustainability assurance, price comparison or guarantee.
 
-> **No-production-NetApp boundary:** Arti's factual strengths are Microsoft enterprise support, Azure/cloud fundamentals, Microsoft 365 data services, analytics, customer reviews, stakeholder communication and evidence-based recommendations. Her exact nonclaim is: **she has not selected or competitively positioned production NetApp storage for a customer.** She may present the synthetic framework while distinguishing verified facts, hypotheses and gaps.
+> **No-production-NetApp boundary:** Your factual strengths are enterprise support, Azure/cloud fundamentals, Microsoft 365 data services, analytics, customer reviews, stakeholder communication and evidence-based recommendations. Your exact nonclaim is: **you have not selected or competitively positioned production NetApp storage for a customer.** You may present the synthetic framework while distinguishing verified facts, hypotheses and gaps.
 
 ---
 
@@ -416,7 +416,7 @@ flowchart LR
 | `One platform avoids all lock-in` | `Every API, format, skill, contract and migration path creates some dependency; quantify value and exit.` |
 | `Competitor support is poor` | `Use actual contract, scoped references and case evidence; one anecdote is not a universal fact.` |
 
-## 20. JD Mapping and Arti tie
+## 20. JD Mapping and background tie
 
 ```mermaid
 flowchart LR
@@ -504,7 +504,7 @@ flowchart LR
 
 ### Q8. What is your experience boundary?
 
-> **Model answer:** `My Microsoft enterprise, Azure/cloud, analytics and customer-review experience transfers to evidence and tradeoff decisions. I have not led a production NetApp competitive selection or administered the compared platforms. The Northstar evaluation is fully synthetic and intentionally declares no winner.`
+> **Model answer:** `My prior enterprise, Azure/cloud, analytics and customer-review experience transfers to evidence and tradeoff decisions. I have not led a production NetApp competitive selection or administered the compared platforms. The Northstar evaluation is fully synthetic and intentionally declares no winner.`
 
 ---
 

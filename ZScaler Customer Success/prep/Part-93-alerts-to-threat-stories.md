@@ -1,10 +1,10 @@
 # Part 93 - From Atomic Alerts to Unified Threat Stories
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 
 > **Purpose:** Explain how individual security alerts can become unified threat stories through quality checks, deduplication, entity resolution, temporal and behavioral correlation, timelines, attack paths, confidence, scope, business impact, and an evidence-backed incident narrative.
 
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH alert, entity, event, source, timeline, graph, attack path, date, score, decision, action, and outcome is invented. Arti's factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler, Agentic SOC, SIEM, XDR, alert-correlation, threat-story, SOC, detection-engineering, threat-hunting, and incident-response ownership remain learning boundaries.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH alert, entity, event, source, timeline, graph, attack path, date, score, decision, action, and outcome is invented. Your factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler, Agentic SOC, SIEM, XDR, alert-correlation, threat-story, SOC, detection-engineering, threat-hunting, and incident-response ownership remain learning boundaries.
 
 > **Currency caveat:** Product names, correlation methods, AI agents, schemas, interfaces, fields, scores, workflows, response options, limits, packaging, and entitlements change. The controlled official-source snapshot and source review date for this Part is exactly **2026-08-24**. Current official documentation, licensed-tenant evidence, customer incident policy, source-native records, product specialists, Support, and tested runbooks govern production decisions.
 
@@ -58,7 +58,7 @@ flowchart LR
 
 ## Candidate honesty note
 
-Arti can say: "My production support experience required me to correlate identity, endpoint, network, permission, sync, and service evidence into customer-impact narratives while keeping hypotheses separate from facts. I have studied security alert-to-story methods and practiced them only with fictional data. I have not operated Zscaler Agentic SOC or a production SOC, so I would validate current product behavior and follow the customer's incident authority."
+You can say: "My production support experience required me to correlate identity, endpoint, network, permission, sync, and service evidence into customer-impact narratives while keeping hypotheses separate from facts. I have studied security alert-to-story methods and practiced them only with fictional data. I have not operated Zscaler Agentic SOC or a production SOC, so I would validate current product behavior and follow the customer's incident authority."
 
 This is a stronger answer than claiming direct alert-correlation experience. It identifies a factual production method, a relevant transfer, a studied domain, and the next verification step. Neutral phrases such as "the evidence supports," "the current hypothesis is," and "I would verify" keep the statement defensible.
 
@@ -800,9 +800,9 @@ The Zscaler sources support current public product positioning only. General ale
 
 **Model answer:** Reproduce decisive observations from native sources; verify entity scope and lifecycle; compare event, receipt, and effective time; inspect grouping rationale and excluded alerts; require sentence-level citations; preserve contradictions and unknowns; separate attempted, denied, successful, and potential effects; validate business context; and review recommendations for supported capability, exact target, authority, blast radius, rollback, and read-back. The analyst owns the communicated narrative.
 
-### Q8. How does Arti's background support this work honestly?
+### Q8. How does your background support this work honestly?
 
-**Model answer:** Her production support experience required multi-layer correlation across tenant, identity, permissions, endpoint, network, client, and service evidence; UTC timelines; competing hypotheses; customer impact; escalation; and clear updates. Networking traces support sequence analysis, while SQL and Power BI support grains, joins, windows, reconciliation, and quality. She has studied security threat stories with fictional data; production Zscaler Agentic SOC and SOC investigation remain explicit ramp areas.
+**Model answer:** Your production support experience required multi-layer correlation across tenant, identity, permissions, endpoint, network, client, and service evidence; UTC timelines; competing hypotheses; customer impact; escalation; and clear updates. Networking traces support sequence analysis, while SQL and Power BI support grains, joins, windows, reconciliation, and quality. You have studied security threat stories with fictional data; production Zscaler Agentic SOC and SOC investigation remain explicit ramp areas.
 
 ## 30-Second Memory Hooks
 
@@ -825,7 +825,7 @@ The Zscaler sources support current public product positioning only. General ale
 | Contradiction | Useful evidence, not an inconvenience |
 | AI summary | Transformation to validate, never source proof |
 | Next check | Cheapest safe separator among hypotheses |
-| Arti bridge | Service correlation transfers; SOC claims do not |
+| Experience bridge | Service correlation transfers; SOC claims do not |
 
 ## Completion Checklist
 

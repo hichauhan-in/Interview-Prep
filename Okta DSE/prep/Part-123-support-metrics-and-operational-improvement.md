@@ -37,7 +37,7 @@ flowchart TD
 | How big the backlog is | Whether it is the right work |
 | — | **What we prevented** |
 
-> 💡 **Tie-in to your background:** CSAT of 4.75+ enterprise and 4.85+ SMB is a strong number. **What makes it credible in interview is explaining what produced it** rather than citing it — the behaviours from Parts 119–121, not the score.
+> 💡 **Tie-in to your background:** a strong customer-satisfaction record is compelling evidence. **What makes it credible in interview is explaining what produced it** rather than citing it — the behaviours from Parts 119–121, not the score.
 
 ### 🔍 Plain-English deep-dive: what each metric actually tells you
 
@@ -208,7 +208,7 @@ Numbers are evidence, and **evidence needs interpretation to be persuasive.**
 ```mermaid
 flowchart TD
     N["Citing a metric"] --> W["\ud83d\udd34 Weak"]
-    W --> W1["'My CSAT is 4.75'"]
+    W --> W1["'My CSAT is high'"]
     W1 --> W1a["A number with no mechanism"]
     N --> S["\u2705 Strong"]
     S --> S1["The number"]
@@ -220,7 +220,7 @@ flowchart TD
     S2a --> R["\ud83d\udd35 Mechanism is what makes a number credible"]
 ```
 
-**Node R is the interview-relevant point.** **A number alone invites doubt; a number with a mechanism invites belief.** *"4.75, because I acknowledge before explaining and I never miss a commitment I've made"* **is a claim someone can evaluate.**
+**Node R is the interview-relevant point.** **A number alone invites doubt; a number with a mechanism invites belief.** *"A high score, because I acknowledge before explaining and I never miss a commitment I've made"* **is a claim someone can evaluate.**
 
 **Node S3a is a strong signal of judgement.** Saying *"CSAT under-represents the tickets where I had to decline something, because a correct no rarely rates well"* **demonstrates that you understand the metric rather than just achieving it** — and it is a more sophisticated answer than the number itself.
 
@@ -417,7 +417,7 @@ A monthly review shows: **average resolution time down 18%, reopen rate up from 
 
 ## 9. Candidate Honesty Note
 
-- **Production experience:** CSAT of 4.75+ enterprise and 4.85+ SMB, sustained — and able to explain the behaviours behind it.
+- **Production experience:** a strong customer-satisfaction record, sustained — and able to explain the behaviours behind it.
 - **Production experience:** working within a metric-driven support organisation and recognising where measures distort.
 - **Lab experience:** building synthetic metric sets and practising reading interactions rather than single movements, as above.
 - **Learned architecture:** the developer-support-specific fit issues, particularly speed versus accuracy.

@@ -1,10 +1,10 @@
 # Part 98 - AI Agents for Security: Prompting, Grounding, Validation, and Governance
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 
 > **Purpose:** Explain AI agents for security from zero, including prompts, grounding, retrieval, tools, memory and context, workflow design, hallucination, data leakage, prompt injection, authorization, human approval, audit, evaluation, privacy, and responsible use.
 
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH agent, prompt, model, tool, source, alert, identity, memory, action, evaluation, date, metric, decision, and result is invented. Arti's factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler, Agentic SecOps, Agentic SOC, SOC, AI-agent deployment, security investigation, model governance, and automated-response ownership remain learning boundaries.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH agent, prompt, model, tool, source, alert, identity, memory, action, evaluation, date, metric, decision, and result is invented. Your factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler, Agentic SecOps, Agentic SOC, SOC, AI-agent deployment, security investigation, model governance, and automated-response ownership remain learning boundaries.
 
 > **Currency caveat:** AI models, agent frameworks, product names, prompts, tools, integrations, retrieval methods, context limits, actions, safeguards, evaluations, interfaces, packaging, and entitlements change rapidly. The controlled official-source snapshot and source review date for this Part is exactly **2026-08-24**. Current official technical and ordering documentation, licensed-tenant evidence, customer AI/security/privacy policy, legal review, source-native evidence, product specialists, vendor Support, tested workflows, and measured evaluations govern production decisions.
 
@@ -57,13 +57,13 @@ flowchart LR
 
 ## Candidate honesty note
 
-Arti can say: "I have explored responsible AI in enterprise support contexts and studied AI-agent patterns for SecOps. My production strengths are evidence-led troubleshooting, identity and permission reasoning, network traces, analytics, escalation coordination, and teaching. I can explain how to ground an agent, constrain tools and memory, test prompt injection and leakage, require human approval, and evaluate outputs. I have not deployed or operated Zscaler Agentic SecOps or autonomous SOC agents in production, so I would verify the current product, tenant, data, model, tools, permissions, governance, and measured behavior."
+You can say: "I have explored responsible AI in enterprise support contexts and studied AI-agent patterns for SecOps. My production strengths are evidence-led troubleshooting, identity and permission reasoning, network traces, analytics, escalation coordination, and teaching. I can explain how to ground an agent, constrain tools and memory, test prompt injection and leakage, require human approval, and evaluate outputs. I have not deployed or operated Zscaler Agentic SecOps or autonomous SOC agents in production, so I would verify the current product, tenant, data, model, tools, permissions, governance, and measured behavior."
 
 That statement distinguishes factual background from study. Neutral phrases include "the public page positions," "a governed design could," "the evidence supports," "the agent proposed," and "I would verify." Avoid "I built a production SOC copilot," "I automated containment," "the agent never hallucinates," "our data cannot leak," or "Zscaler uses this exact architecture" unless current authorized evidence truly supports the scoped claim.
 
 | Factual background | Transferable strength | Neutral wording | Unsupported statement to avoid |
 |---|---|---|---|
-| Enterprise Microsoft support | Evidence, identity, permission, impact, and layered diagnosis | "I validate claims against source evidence." | "I ran production AI security investigations." |
+| Enterprise support | Evidence, identity, permission, impact, and layered diagnosis | "I validate claims against source evidence." | "I ran production AI security investigations." |
 | Network and trace analysis | Requests, responses, timing, failure boundaries, and correlation IDs | "I can troubleshoot agent-tool paths." | "I know an Agentic SOC internal architecture." |
 | SQL and Power BI | Evaluation cohorts, labels, quality, latency, cost, and drift | "I can build transparent evaluation reporting." | "I proved a vendor model's accuracy." |
 | Critical escalations | Authority, owners, checkpoints, communications, and recovery | "I can coordinate AI workflow failures responsibly." | "I owned cyber incident decisions." |
@@ -858,7 +858,7 @@ All exercises are non-production and use synthetic or authorized test data.
 15. Build a privacy data-flow inventory covering prompt, retrieval, model, output, memory, logging, evaluation, and Support.
 16. Write a responsible-use decision record choosing assistive drafting over automated action.
 17. Explain the Zscaler public agentic positioning while listing what remains customer-specific and unknown.
-18. Practice a two-minute interview answer that uses Arti's factual AI and troubleshooting experience without a production SOC claim.
+18. Practice a two-minute interview answer that uses your factual AI and troubleshooting experience without a production SOC claim.
 
 ## Customer discovery questions
 
@@ -926,9 +926,9 @@ The Zscaler sources support dated public positioning only. NIST sources support 
 
 **Model answer:** I define the eligible task and risk, build representative and adversarial cases, govern labels and uncertainty, establish the human/current baseline, and test retrieval, grounding, entity/time, summaries, recommendations, tool calls, authorization, injection, leakage, human review, action read-back, latency, cost, and outcomes. I segment by risk, use denominators, gate release, monitor drift, and re-evaluate every material component change.
 
-### Q8. How does Arti's background transfer, and how would she discuss Zscaler honestly?
+### Q8. How does your background transfer, and how would you discuss Zscaler honestly?
 
-**Model answer:** Her support work provides factual evidence-validation, identity/permission, trace, escalation, analytics, and teaching skills, plus responsible AI exploration. Those transfer to agent grounding, tool-path diagnosis, evaluation, and enablement. She can say Zscaler publicly positions agents for threat triage, evidence summary, recommendation, investigation, and governed response as of August 24, 2026, while production product use, models, tools, actions, and tenant behavior remain explicit verification and ramp areas.
+**Model answer:** Your support work provides factual evidence-validation, identity/permission, trace, escalation, analytics, and teaching skills, plus responsible AI exploration. Those transfer to agent grounding, tool-path diagnosis, evaluation, and enablement. You can say Zscaler publicly positions agents for threat triage, evidence summary, recommendation, investigation, and governed response as of August 24, 2026, while production product use, models, tools, actions, and tenant behavior remain explicit verification and ramp areas.
 
 ## 30-Second Memory Hooks
 
@@ -953,7 +953,7 @@ The Zscaler sources support dated public positioning only. NIST sources support 
 | Evaluation | Test the whole workflow and human use |
 | Responsible use | Valid, secure, private, accountable, useful |
 | Zscaler | Attribute public agentic claims; verify tenant reality |
-| Arti bridge | Evidence and AI rigor transfer; production agent claims do not |
+| Experience bridge | Evidence and AI rigor transfer; production agent claims do not |
 
 ## Completion Checklist
 

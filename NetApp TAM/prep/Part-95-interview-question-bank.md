@@ -6,13 +6,13 @@ Covers index item **95** and maps to every job-description responsibility: custo
 
 **Privacy/access boundary:** Practice only with public material and sanitized examples. Do not expose customer/employer data, credentials, gated support records, exam content, candidate details, incident evidence, commercial information, or private bug information in an interview, recording, portfolio, or unapproved AI tool.
 
-**Synthetic-evidence rule:** Every customer, topology, metric, version, incident, action, score, mock result, date, and outcome in this Part is fictional and sanitized unless explicitly identified as Arti's supported CV fact.
+**Synthetic-evidence rule:** Every customer, topology, metric, version, incident, action, score, mock result, date, and outcome in this Part is fictional and sanitized unless explicitly identified as your supported CV fact.
 
 **Version/current-source caveat:** Product names, releases, limits, defaults, commands, features, support matrices, lifecycle status, certification details, and tools change. Official/public sources were checked **2026-08-24**. Revalidate the exact current product, release, platform, host, protocol, and source before a live recommendation.
 
-**Explicit nonclaim:** This bank is original interview preparation, not a NetApp exam dump, internal interview script, hiring rubric, product guarantee, support procedure, or proof of production ONTAP experience. Arti must not claim NetApp employment, certification, tool entitlement, customer outcomes, or production administration that she has not earned.
+**Explicit nonclaim:** This bank is original interview preparation, not a NetApp exam dump, internal interview script, hiring rubric, product guarantee, support procedure, or proof of production ONTAP experience. You must not claim NetApp employment, certification, tool entitlement, customer outcomes, or production administration that you have not earned.
 
-> **No-production-NetApp boundary and Arti tie:** Arti can factually discuss Microsoft enterprise Support Escalation Engineering, CRITSIT/business-critical escalations, enterprise and partner customers, SharePoint/OneDrive/Copilot, advisory work, Product/Engineering collaboration, analytics, reviews, mentoring, recognition, and automation/AI learning. She must label NetApp answers as conceptual study, clearly synthetic exercise, or authorized lab evidence as applicable. Her transferable method is real; the NetApp production claim is not.
+> **No-production-NetApp boundary and background tie:** You can factually discuss enterprise Support Escalation Engineering, critical situation/business-critical escalations, enterprise and partner customers, SharePoint/OneDrive/Copilot, advisory work, Product/Engineering collaboration, analytics, reviews, mentoring, recognition, and automation/AI learning. You must label NetApp answers as conceptual study, clearly synthetic exercise, or authorized lab evidence as applicable. Your transferable method is real; the NetApp production claim is not.
 
 ---
 
@@ -43,8 +43,8 @@ Rereading is like recognizing a familiar road from the passenger seat; an interv
 
 ### Standard answer labels
 
-- **Production fact:** directly supported by Arti's CV/background.
-- **Transferable method:** a real method used in Microsoft work, applied carefully to a new domain.
+- **Production fact:** directly supported by your CV/background.
+- **Transferable method:** a real method used in prior work, applied carefully to a new domain.
 - **Conceptual:** understood from study and official public sources.
 - **Synthetic exercise:** practiced on fictional sanitized evidence.
 - **Authorized lab:** use only after actually completing an authorized lab.
@@ -97,8 +97,8 @@ flowchart LR
 #### B007. What is residual risk?
 **Model answer:** Exposure that remains after a control, remediation, deferral, or acceptance decision; no action makes risk disappear automatically. **Review:** [Part 57](Part-57-risk-scoring-prioritization.md).
 
-#### B008. How should Arti describe her NetApp experience?
-**Model answer:** State Microsoft production strengths factually, then label NetApp knowledge as conceptual, synthetic, or authorized-lab evidence; do not imply production ONTAP administration. **Review:** [Part 1](Part-01-role-map-netapp-tam-story.md).
+#### B008. How should you describe your NetApp experience?
+**Model answer:** State prior production strengths factually, then label NetApp knowledge as conceptual, synthetic, or authorized-lab evidence; do not imply production ONTAP administration. **Review:** [Part 1](Part-01-role-map-netapp-tam-story.md).
 
 ## Basic B - Storage fundamentals and math
 
@@ -890,7 +890,7 @@ flowchart TB
 #### A095. A customer wants one dashboard across on-prem and cloud. What are the traps?
 **Model answer:** Different entity grains, metric semantics, clocks, coverage, service responsibility, units, cost models, access/privacy, and lifecycle can create false comparisons; govern a shared model with source-specific boundaries. **Follow-up:** Define three common KPIs. **Review:** [Part 60](Part-60-power-bi-dashboards-kpis.md).
 
-#### A096. How would Arti bridge her Azure experience honestly?
+#### A096. How would experience bridge your Azure experience honestly?
 **Model answer:** Use real cloud/network/VM/identity/troubleshooting concepts as transferable foundations, state no production NetApp cloud claim, and show current-doc architecture plus synthetic/authorized practice and a ramp plan. **Follow-up:** Give a 30-second answer. **Review:** [Part 89](Part-89-cloud-hybrid-data-services.md).
 
 ## Advanced I - ITIL, SRE, competition, NCDA, standards, and trends
@@ -951,7 +951,7 @@ flowchart LR
 ```
 
 #### A109. Tell me about a business-critical escalation you handled.
-**Model answer:** Use a supported Microsoft CRITSIT/business-critical example: bound impact and personal role, describe triage/evidence/stakeholder cadence/escalation, state factual result only, and add learning. **Follow-up:** What would you change? **Review:** [Part 72](Part-72-major-incident-high-pressure-communication.md).
+**Model answer:** Use a supported enterprise critical situation/business-critical example: bound impact and personal role, describe triage/evidence/stakeholder cadence/escalation, state factual result only, and add learning. **Follow-up:** What would you change? **Review:** [Part 72](Part-72-major-incident-high-pressure-communication.md).
 
 #### A110. Tell me about a difficult enterprise or partner customer.
 **Model answer:** Use a factual customer-support case without identity/details: listen, restate outcome, separate emotion from evidence, set checkpoints, coordinate owners, and report only supported CSAT/recognition or resolution facts. **Follow-up:** Where did you push back? **Review:** [Part 66](Part-66-executive-communication-technical-writing.md).
@@ -986,29 +986,29 @@ flowchart LR
 #### A120. Tell me about mentoring or onboarding someone.
 **Model answer:** Use factual mentoring/onboarding/interview experience: assess needs, decompose task, demonstrate, reverse-shadow, give feedback, check independence, and avoid inventing team size or promotion outcomes. **Follow-up:** A learner struggled; what then? **Review:** [Part 69](Part-69-coaching-new-hires-knowledge-quality.md).
 
-#### A121. Tell me about the eight-month Technical Advisor program.
+#### A121. Tell me about the a structured technical-advisor programme.
 **Model answer:** State it as an eight-month factual development/advisory experience; explain responsibilities and learning actually supported by the CV, how it improved advisory/leadership behavior, and one bounded example without expanding title or authority. **Follow-up:** Most useful feedback? **Review:** [Part 1](Part-01-role-map-netapp-tam-story.md).
 
 #### A122. Tell me about using data to change a decision.
 **Model answer:** Use business reviews/KPIs, CSAT, backlog, quality, or trend analysis: define question/data QA, analysis, insight, recommendation, stakeholder decision, and factual result. **Follow-up:** What could the data not prove? **Review:** [Part 56](Part-56-customer-data-pipeline.md).
 
 #### A123. Tell me about presenting to leadership.
-**Model answer:** Use business reviews, Aspire Leadership Council/global events, or CVP roundtable participation: state exact role, audience, message, preparation, questions, outcome, and learning without claiming event ownership. **Follow-up:** Toughest question? **Review:** [Part 65](Part-65-powerpoint-data-storytelling.md).
+**Model answer:** Use business reviews, a leadership-development council and global events, or an executive roundtable participation: state exact role, audience, message, preparation, questions, outcome, and learning without claiming event ownership. **Follow-up:** Toughest question? **Review:** [Part 65](Part-65-powerpoint-data-storytelling.md).
 
 #### A124. Tell me about a cross-functional project.
 **Model answer:** Use Power Automate/Power Apps, AI enablement, advisory, or process improvement: define scope/role, stakeholders, milestones, risks, decisions, evidence, factual recognition/outcome, and learning. **Follow-up:** What was outside scope? **Review:** [Part 68](Part-68-prioritization-time-zones-special-projects.md).
 
 #### A125. Tell me about recognition you value.
-**Model answer:** Cite 100+ recognitions or supported peer recognition and explain the repeatable behaviors behind them; do not equate recognition count with business impact or invent award criteria. **Follow-up:** What feedback changed you? **Review:** [Part 64](Part-64-customer-health-success-value.md).
+**Model answer:** Cite repeated peer and customer recognition or supported peer recognition and explain the repeatable behaviors behind them; do not equate recognition count with business impact or invent award criteria. **Follow-up:** What feedback changed you? **Review:** [Part 64](Part-64-customer-health-success-value.md).
 
 #### A126. How do your CSAT results demonstrate customer focus?
-**Model answer:** State supported results, over 4.75 Enterprise and over 4.85 SMB, with scope exactly as documented; connect them to listening, ownership, clarity, and follow-through while avoiding sole-causation claims. **Follow-up:** A dissatisfied customer? **Review:** [Part 64](Part-64-customer-health-success-value.md).
+**Model answer:** State supported results, over the enterprise segment and over the SMB segment, with scope exactly as documented; connect them to listening, ownership, clarity, and follow-through while avoiding sole-causation claims. **Follow-up:** A dissatisfied customer? **Review:** [Part 64](Part-64-customer-health-success-value.md).
 
 #### A127. Tell me about an ethical challenge.
 **Model answer:** Use a real privacy, evidence, supportability, or expectation boundary if available: identify stakeholders/policy, refuse unsupported claim/action, escalate appropriately, protect data, and explain outcome without confidential detail. **Follow-up:** What did it cost? **Review:** [Part 40](Part-40-ontap-security-rbac-encryption-audit.md).
 
 #### A128. Tell me about accepting or communicating risk.
-**Model answer:** Clarify that Arti advised or tracked rather than accepted customer risk unless factually authorized; state evidence, options, owner decision, controls, expiry, and follow-up. **Follow-up:** What if no owner responds? **Review:** [Part 57](Part-57-risk-scoring-prioritization.md).
+**Model answer:** Clarify that you advised or tracked rather than accepted customer risk unless factually authorized; state evidence, options, owner decision, controls, expiry, and follow-up. **Follow-up:** What if no owner responds? **Review:** [Part 57](Part-57-risk-scoring-prioritization.md).
 
 #### A129. Tell me about improving a process.
 **Model answer:** Use case bashes/triages, quality analysis, automation, onboarding, or review improvement: baseline problem, root cause, pilot, controls, adoption, factual outcome/recognition, and lesson. **Follow-up:** Unintended consequence? **Review:** [Part 92](Part-92-itil-sre-support-operations.md).
@@ -1020,26 +1020,26 @@ flowchart LR
 **Model answer:** Choose factual feedback from advisor/leader/peer, describe initial reaction honestly, clarify evidence, change one behavior, seek follow-up, and show learning without manufacturing a dramatic flaw. **Follow-up:** What remains hard? **Review:** [Part 69](Part-69-coaching-new-hires-knowledge-quality.md).
 
 #### A132. What is your leadership style?
-**Model answer:** Evidence-led, calm under pressure, clear on ownership, inclusive in questions, and focused on enabling others; support with mentoring, advisory, CRITSIT, analytics, and cross-team examples rather than labels alone. **Follow-up:** When must you be directive? **Review:** [Part 70](Part-70-cross-functional-sme-conflict.md).
+**Model answer:** Evidence-led, calm under pressure, clear on ownership, inclusive in questions, and focused on enabling others; support with mentoring, advisory, critical situation, analytics, and cross-team examples rather than labels alone. **Follow-up:** When must you be directive? **Review:** [Part 70](Part-70-cross-functional-sme-conflict.md).
 
 ## Advanced K - Closing, motivation, candidacy, and first 90 days
 
 ```mermaid
 flowchart LR
-    PAST[Microsoft support and advisory proof] --> MOVE[Why proactive storage TAM]
+    PAST[enterprise support and advisory proof] --> MOVE[Why proactive storage TAM]
     MOVE --> FIT[Role strengths and honest gaps]
     FIT --> RAMP[30/60/90 learning and contribution]
     RAMP --> VALUE[Customer evidence, risk and follow-through]
 ```
 
 #### A133. Tell me about yourself in 60-90 seconds.
-**Model answer:** Present Microsoft enterprise Support Escalation Engineering, business-critical ownership, Microsoft 365/Copilot depth, analytics/reviews/mentoring, then the move to proactive infrastructure TAM and honest ONTAP ramp. **Follow-up:** Make it 30 seconds. **Review:** [Part 1](Part-01-role-map-netapp-tam-story.md).
+**Model answer:** Present enterprise Support Escalation Engineering, business-critical ownership, Microsoft 365/Copilot depth, analytics/reviews/mentoring, then the move to proactive infrastructure TAM and honest ONTAP ramp. **Follow-up:** Make it 30 seconds. **Review:** [Part 1](Part-01-role-map-netapp-tam-story.md).
 
 #### A134. Why NetApp?
 **Model answer:** Connect the role to data infrastructure, customer stability, hybrid environments, protection/cyber resilience, and evidence-led lifecycle work; cite current public learning, not invented culture or product claims. **Follow-up:** Why now? **Review:** [Part 19](Part-19-netapp-portfolio-solution-map.md).
 
 #### A135. Why this TAM Technical Analyst role?
-**Model answer:** It combines Arti's strongest proof: complex support, advisory communication, analytics, reviews, action tracking, Product/Engineering collaboration, and mentoring, while offering a deliberate storage/ONTAP growth path. **Follow-up:** Why not Support? **Review:** [Part 3](Part-03-technical-account-management-customer-success.md).
+**Model answer:** It combines your strongest proof: complex support, advisory communication, analytics, reviews, action tracking, Product/Engineering collaboration, and mentoring, while offering a deliberate storage/ONTAP growth path. **Follow-up:** Why not Support? **Review:** [Part 3](Part-03-technical-account-management-customer-success.md).
 
 #### A136. Why move from Microsoft?
 **Model answer:** Frame it positively as moving from mostly reactive/product support toward persistent account context, proactive risk, storage infrastructure, and long-term customer outcomes; do not criticize Microsoft. **Follow-up:** What will you miss? **Review:** [Part 1](Part-01-role-map-netapp-tam-story.md).
@@ -1048,7 +1048,7 @@ flowchart LR
 **Model answer:** Lead with demonstrated escalation, customer, analytics, advisory, learning, and coaching strengths; name the ONTAP gap directly; show Parts/labs/official-source ramp and safe validation habits. **Follow-up:** First contribution? **Review:** [Part 94](Part-94-ncda-specialization-standards-trends.md).
 
 #### A138. What is your greatest strength?
-**Model answer:** Choose one supported strength such as calm evidence-led ownership across technical/customer boundaries, prove it with CRITSIT/advisory/CSAT examples, and link it to TAM outcomes. **Follow-up:** Overuse risk? **Review:** [Part 72](Part-72-major-incident-high-pressure-communication.md).
+**Model answer:** Choose one supported strength such as calm evidence-led ownership across technical/customer boundaries, prove it with critical situation/advisory/CSAT examples, and link it to TAM outcomes. **Follow-up:** Overuse risk? **Review:** [Part 72](Part-72-major-incident-high-pressure-communication.md).
 
 #### A139. What is a development area?
 **Model answer:** Production NetApp/ONTAP depth is the honest role-relevant gap; explain concrete official-source, lab, teach-back, mentor, and validation plan without calling it a disguised strength. **Follow-up:** Current evidence? **Review:** [Part 94](Part-94-ncda-specialization-standards-trends.md).
@@ -1245,15 +1245,15 @@ flowchart TD
 
 Reading the guide alone does not pass the gate. Interview readiness requires aloud retrieval, correction, whiteboarding, calculations, factual story rehearsal, and mock pressure.
 
-## 8. JD Mapping and Arti tie
+## 8. JD Mapping and background tie
 
-| JD behavior | Bank evidence | Arti connection and honesty boundary |
+| JD behavior | Bank evidence | Your connection and honesty boundary |
 |---|---|---|
 | Generate/analyze/report customer data | I041-I043, A049-A052, A061-A065 | Excel/Power BI/business analytics are factual; NetApp data access is not claimed |
 | Strategic planning/best practices/upgrades | I033-I040, A053-A060 | Advisory/fix validation transfer; production ONTAP upgrades remain a gap |
 | Understand environment/install base | B006, A001-A012, A049-A052 | Enterprise discovery/data quality transfer |
 | Conduct operational reviews | B005, A064-A072 | Business reviews/KPIs are factual; NetApp service-review ownership is not |
-| Mitigate risk/stability | A025-A060, A073-A084 | CRITSIT/escalation proof plus NetApp conceptual/synthetic reasoning |
+| Mitigate risk/stability | A025-A060, A073-A084 | critical situation/escalation proof plus NetApp conceptual/synthetic reasoning |
 | Track remediation/influence | A066-A072, A081 | Advisory and cross-team follow-through transfer |
 | Improve analysis/representation | A061-A072 | Analytics, writing, presentations, automation, recognition |
 | Special projects/time zones/pressure | A068-A069, A073-A084, A115-A116 | Microsoft global enterprise/partner and business-critical work |
@@ -1286,7 +1286,7 @@ Reading the guide alone does not pass the gate. Interview readiness requires alo
 
 ### Q1. Tell me about yourself and why this role now.
 
-> **Full model answer:** `I have more than five years in Microsoft enterprise Support Escalation Engineering, where I worked with enterprise and partner customers across business-critical escalations, SharePoint, OneDrive, Microsoft 365 and newer Copilot scenarios. My strongest pattern is turning a complex technical issue into a clear evidence plan, coordinating the right teams, keeping customers informed and validating the outcome. I also bring business analytics, customer-review, mentoring and interview experience, with CSAT above 4.75 in Enterprise and above 4.85 in SMB and more than 100 recognitions as documented in my background. I now want to apply those strengths in a more proactive technical-account role: understanding an environment over time, identifying risk before it becomes urgent, and helping customers adopt durable actions. I am deliberately building ONTAP and storage depth; I do not claim production NetApp administration, but I can show a structured official-source and scenario-based ramp plan.` **Review:** [Part 1](Part-01-role-map-netapp-tam-story.md) and [Part 94](Part-94-ncda-specialization-standards-trends.md).
+> **Full model answer:** `I have several years in enterprise Support Escalation Engineering, where I worked with enterprise and partner customers across business-critical escalations, SharePoint, OneDrive, Microsoft 365 and newer Copilot scenarios. My strongest pattern is turning a complex technical issue into a clear evidence plan, coordinating the right teams, keeping customers informed and validating the outcome. I also bring business analytics, customer-review, mentoring and interview experience, with a strong customer-satisfaction record and repeated peer and customer recognition as documented in my background. I now want to apply those strengths in a more proactive technical-account role: understanding an environment over time, identifying risk before it becomes urgent, and helping customers adopt durable actions. I am deliberately building ONTAP and storage depth; I do not claim production NetApp administration, but I can show a structured official-source and scenario-based ramp plan.` **Review:** [Part 1](Part-01-role-map-netapp-tam-story.md) and [Part 94](Part-94-ncda-specialization-standards-trends.md).
 
 ### Q2. Whiteboard a NetApp customer environment and explain where you would look first during an issue.
 
@@ -1306,7 +1306,7 @@ Reading the guide alone does not pass the gate. Interview readiness requires alo
 
 ### Q6. Tell me about handling a high-pressure customer escalation.
 
-> **Full model answer:** Use one factual Microsoft CRITSIT: `The situation was a business-critical customer escalation; I will keep customer identity and confidential details out. My responsibility was to structure technical progress and customer communication within my support role. I clarified impact and scope, established evidence and workstreams, coordinated the correct teams, kept checkpoints predictable, and separated restoration from longer root-cause work. I would insert the exact factual result and my contribution from the selected CV-backed example. The lesson I carry into TAM work is that calm structure, clean handoffs and explicit unknowns build more trust than premature certainty.` **Review:** [Part 72](Part-72-major-incident-high-pressure-communication.md).
+> **Full model answer:** Use one factual enterprise critical situation: `The situation was a business-critical customer escalation; I will keep customer identity and confidential details out. My responsibility was to structure technical progress and customer communication within my support role. I clarified impact and scope, established evidence and workstreams, coordinated the correct teams, kept checkpoints predictable, and separated restoration from longer root-cause work. I would insert the exact factual result and my contribution from the selected CV-backed example. The lesson I carry into TAM work is that calm structure, clean handoffs and explicit unknowns build more trust than premature certainty.` **Review:** [Part 72](Part-72-major-incident-high-pressure-communication.md).
 
 ### Q7. Why should we hire you given your ONTAP gap?
 

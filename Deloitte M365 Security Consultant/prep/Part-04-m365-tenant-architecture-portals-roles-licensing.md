@@ -2,7 +2,7 @@
 
 > **Section goal:** Build an accurate map of the Microsoft 365 administrative world before attempting security design or troubleshooting. By the end, you should be able to distinguish tenants, directories, Microsoft 365 subscriptions, Azure subscriptions, domains, licenses, service plans, roles, scopes, portals, workloads, data locations, APIs, logs, and support boundaries; create a least-privilege task map; and perform a safe paper-based tenant health check.
 
-**JD mapping:** This Part supports Deloitte responsibilities for Microsoft 365 assessment, tenant architecture, role and license analysis, workload security, Entra/Intune/Purview/Defender/Sentinel integration, service-health troubleshooting, Power Platform and Azure dependencies, documentation, operational handover, and multi-vendor support. It does not claim that Arti has administered the named security products in production.
+**JD mapping:** This Part supports Deloitte responsibilities for Microsoft 365 assessment, tenant architecture, role and license analysis, workload security, Entra/Intune/Purview/Defender/Sentinel integration, service-health troubleshooting, Power Platform and Azure dependencies, documentation, operational handover, and multi-vendor support. It does not claim that you have administered the named security products in production.
 
 ---
 
@@ -48,7 +48,7 @@ Microsoft documentation states that every Microsoft 365, Azure, or Dynamics onli
 
 An Azure subscription trusts one directory at a time; one directory can be trusted by multiple Azure subscriptions. Moving an Azure subscription to another directory is not a cosmetic switch: old Azure role assignments do not transfer, managed identities and key dependencies can break, and remediation is required. Azure subscription Owner does not automatically mean Microsoft Entra Global Administrator, and Global Administrator does not automatically grant all Azure resource rights without a deliberate elevation/assignment process.
 
-> **Arti's transferable advantage:** M365 enterprise escalation already depends on identifying the right tenant, workload, user, site, client, and service boundary. The security extension is to add identity, Azure resource, license, role, data-location, API, logging, and ownership boundaries before making a recommendation.
+> **Your transferable advantage:** M365 enterprise escalation already depends on identifying the right tenant, workload, user, site, client, and service boundary. The security extension is to add identity, Azure resource, license, role, data-location, API, logging, and ownership boundaries before making a recommendation.
 
 ---
 
@@ -321,7 +321,7 @@ sequenceDiagram
 | Group rename appears inconsistently | Cross-service propagation | Object IDs, timestamps, each workload state, known health/change |
 | Retention blocks deletion | Purview policy rather than workload defect | Policy scope/evaluation, item state, audit, legal owner |
 
-> **Arti's direct strength:** SharePoint Online, OneDrive, sync, migration, and enterprise escalation provide real production evidence for this dependency model. The safe bridge is “I understand the collaboration service boundary deeply and can map security dependencies,” not “I owned Exchange, Teams, Purview, or Entra production administration.”
+> **Your direct strength:** SharePoint Online, OneDrive, sync, migration, and enterprise escalation provide real production evidence for this dependency model. The safe bridge is “I understand the collaboration service boundary deeply and can map security dependencies,” not “I owned Exchange, Teams, Purview, or Entra production administration.”
 
 ---
 
@@ -428,7 +428,7 @@ flowchart TD
 7. Update runbooks, screenshots, training, automation, and integrations.
 8. Review missed changes after incidents.
 
-Arti's business reviews, documentation, escalation coordination, and fix validation translate directly into this cloud-change operating rhythm.
+Your business reviews, documentation, escalation coordination, and fix validation translate directly into this cloud-change operating rhythm.
 
 ---
 
@@ -559,7 +559,7 @@ sequenceDiagram
 
 Microsoft Graph throttling limits resource overuse. A `429 Too Many Requests` response is not solved by immediate aggressive retry. Respect `Retry-After`; use exponential backoff when appropriate; reduce requests; prefer delta queries/change notifications over polling; and consider Data Connect for supported bulk extraction. Batches are evaluated request by request, so a successful batch envelope can contain throttled operations.
 
-Arti's Power Automate/Power Apps/Copilot Studio experience is a useful automation foundation. The security bridge is explicit workload identity, consent, least privilege, secret handling, environment policy, audit, retries, approvals, and rollback.
+Your Power Automate/Power Apps/Copilot Studio experience is a useful automation foundation. The security bridge is explicit workload identity, consent, least privilege, secret handling, environment policy, audit, retries, approvals, and rollback.
 
 ---
 
@@ -585,7 +585,7 @@ flowchart TD
     TEST --> EVIDENCE[Logs, traces, IDs, configuration, health]
     EVIDENCE --> OWNER{Which component controls failing behavior?}
     OWNER --> CLIENT[Customer/team action]
-    OWNER --> MS[Microsoft support action]
+    OWNER --> MS[enterprise support action]
     OWNER --> VENDOR[Third-party/vendor action]
     OWNER --> SHARED[Joint investigation]
     SHARED --> PACK[One timeline, evidence, explicit asks]

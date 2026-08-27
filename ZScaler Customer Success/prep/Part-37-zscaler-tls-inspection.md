@@ -1,10 +1,10 @@
 # Part 37 - TLS Inspection, Certificates, Privacy, Bypass, and Troubleshooting in Zscaler
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 >
 > **Purpose:** Explain Zscaler Internet Access TLS inspection from zero: the two-leg proxy, certificate and trust mechanics, enterprise root distribution, origin validation, inspection-policy scope, bypass categories and governance, certificate pinning, mutual TLS, application-specific trust stores, unsupported protocols, QUIC and HTTP/3, privacy/legal/data handling, performance and capacity, troubleshooting, staged rollout, rollback, evidence, and metrics.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every NMH certificate, user, app, policy, log, trace, incident, metric, rollout, and outcome is synthetic. Arti has production Microsoft 365 TLS, certificate, proxy, browser, client, network, privacy-conscious evidence, escalation, and change-validation experience. Production Zscaler SSL/TLS Inspection policy administration, intermediate-CA management, and enterprise decryption rollout are not established experience.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every NMH certificate, user, app, policy, log, trace, incident, metric, rollout, and outcome is synthetic. You have production Microsoft 365 TLS, certificate, proxy, browser, client, network, privacy-conscious evidence, escalation, and change-validation experience. Production Zscaler SSL/TLS Inspection policy administration, intermediate-CA management, and enterprise decryption rollout are not established experience.
 >
 > **Currency caveat:** Zscaler public help commonly uses "SSL/TLS Inspection" or "SSL inspection," though SSL is obsolete and modern traffic uses TLS. Product actions, rule criteria/order, predefined exemptions, CA choices, supported protocols/ciphers, undecryptable handling, QUIC behavior, certificate deployment, logs, UI paths, licensing, limits, and packaging change. Confirm current authenticated ZIA help, release notes, tenant policy, assigned cloud, contract, legal/privacy decisions, application support statements, and transaction evidence before production use.
 
@@ -16,7 +16,7 @@ Think of a controlled translation desk. A traveler seals a message for the desk,
 
 This architecture is powerful and sensitive. It can expose malware and data movement hidden inside TLS, but it also grants the inspection system temporary plaintext visibility. Therefore, certificate security, origin validation, policy minimization, privacy review, access control, incident handling, user notice, and exception governance are part of the control, not paperwork around it.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Proof artifact |
 |---|---|---|
@@ -44,7 +44,7 @@ flowchart LR
 
 ## JD Mapping
 
-| Role expectation | Part 37 capability | TSM artifact | Arti bridge and boundary |
+| Role expectation | Part 37 capability | TSM artifact | experience bridge and boundary |
 |---|---|---|---|
 | Analyze architecture | Map client trust, two handshakes, policy, inspection, and origin path | TLS flow diagram | M365 TLS/proxy isolation transfers |
 | Identify risk | Find uninspected traffic, weak trust, failed origin validation, broad decryption, and stale bypass | Risk register | Legal decisions remain customer-owned |
@@ -723,9 +723,9 @@ NMH switches issuance before all macOS devices receive the new root. Windows can
 | Changes | Upcoming CA, browser, OS, QUIC, IdP, app updates? | Roadmap/release notes | Joint test calendar |
 | Resilience | Are rollback and CA compromise plans rehearsed? | Exercise results | Close readiness gaps |
 
-## Arti's Microsoft-to-Zscaler bridge
+## Your experience bridge to Zscaler
 
-| Microsoft production strength | Part 37 transfer | New Zscaler learning | Honest language |
+| prior production strength | Part 37 transfer | New Zscaler learning | Honest language |
 |---|---|---|---|
 | Browser and OneDrive TLS errors | Separate certificate, proxy, origin, and application | ZIA inspection logs/policy | "TLS method transfers; ZIA operation is new." |
 | Entra sign-in endpoints | Bootstrap/IdP bypass dependency reasoning | Current Zscaler required domains | "I verify current config, not memorize lists." |
@@ -738,7 +738,7 @@ NMH switches issuance before all macOS devices receive the new root. Windows can
 
 ### 30-second interview bridge
 
-"TLS inspection is a controlled two-leg proxy. The client establishes TLS to ZIA and trusts an enterprise-approved inspection chain; ZIA separately acts as a TLS client and must validate the real origin. Authorized controls can inspect plaintext only at that processing boundary before re-encryption. I would deploy trust first, pilot representative apps, govern privacy and every bypass, and troubleshoot client leg, policy, origin leg, protocol, and application separately. My Microsoft certificate, proxy, trace, privacy, and escalation experience transfers, while production ZIA inspection administration remains a learning boundary."
+"TLS inspection is a controlled two-leg proxy. The client establishes TLS to ZIA and trusts an enterprise-approved inspection chain; ZIA separately acts as a TLS client and must validate the real origin. Authorized controls can inspect plaintext only at that processing boundary before re-encryption. I would deploy trust first, pilot representative apps, govern privacy and every bypass, and troubleshoot client leg, policy, origin leg, protocol, and application separately. My prior certificate, proxy, trace, privacy, and escalation experience transfers, while production ZIA inspection administration remains a learning boundary."
 
 ## Labs and rehearsal
 
@@ -877,7 +877,7 @@ RFC 9846 is the current TLS 1.3 Standards Track specification and obsoletes RFC 
 
 **Model answer:** Inspection creates authorized transient plaintext visibility and may persist identity, URL, action, findings, or incident artifacts. Qualified customer owners must approve purpose, legal basis, scope, notice, exclusions, roles, region, retention, exports, and incident response. Performance adds two handshakes, paths, cryptography, and scanning, so I use matched complete transactions, per-leg errors/timing, percentiles, throughput, cohorts, and bypass rates. I do not promise zero latency or universal capacity.
 
-### Q8. How does your Microsoft background prepare you for this work?
+### Q8. How does your prior background prepare you for this work?
 
 **Model answer:** I have production experience isolating Microsoft 365 certificate chains, trust stores, TLS handshakes, proxies, DNS, browser versus native clients, HARs, packet traces, identity dependencies, privacy-sensitive evidence, critical incidents, and staged change validation. Those methods map directly to two-leg TLS fault isolation, root distribution, app compatibility, and rollout governance. I would be explicit that production ZIA inspection policy and CA administration are new product-specific skills.
 
@@ -904,7 +904,7 @@ RFC 9846 is the current TLS 1.3 Standards Track specification and obsoletes RFC 
 | Rollout | Trust first, inspect second, old trust last |
 | Troubleshooting | Path, rule, origin leg, client leg, app |
 | NMH lesson | Narrow exception, explicit lost control |
-| Arti bridge | Microsoft TLS method transfers; ZIA admin is new |
+| Experience bridge | Microsoft TLS method transfers; ZIA admin is new |
 
 ## Completion Checklist
 
@@ -949,7 +949,7 @@ RFC 9846 is the current TLS 1.3 Standards Track specification and obsoletes RFC 
 - [ ] I can roll back the smallest affected scope and prove retained controls.
 - [ ] I can explain all three fictional NMH incidents without presenting them as real production work.
 - [ ] I can run all twelve labs only in owned/authorized environments.
-- [ ] I can deliver Arti's 30-second bridge with a clear experience boundary.
+- [ ] I can deliver your 30-second bridge with a clear experience boundary.
 - [ ] I can cite current Zscaler, IETF, NIST, and Microsoft sources with limitations.
 - [ ] I state tenant, assigned-cloud, version, protocol, UI, entitlement, packaging, privacy, and app caveats.
 - [ ] I can answer Q1-Q8 and expand with architecture, evidence, policy, metrics, rollout, and limitations.

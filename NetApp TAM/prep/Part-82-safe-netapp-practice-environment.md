@@ -1,6 +1,6 @@
 # Part 82 - Safe NetApp Practice Environment and Evidence Portfolio
 
-> **Section goal:** Build a legal, isolated, cost-aware way to practice NetApp concepts and produce honest evidence without touching a customer system, bypassing access controls, or pretending that a paper exercise is production experience. By the end, Arti can choose an authorized route, design the environment before acting, collect reproducible evidence, clean it up, and describe exactly what she did.
+> **Section goal:** Build a legal, isolated, cost-aware way to practice NetApp concepts and produce honest evidence without touching a customer system, bypassing access controls, or pretending that a paper exercise is production experience. By the end, you can choose an authorized route, design the environment before acting, collect reproducible evidence, clean it up, and describe exactly what you did.
 
 Covers index item **82** and maps directly to job-description responsibilities for learning new technology, technical analysis, risk mitigation, documentation, customer-data handling, Microsoft Office deliverables, special projects, coaching, and trustworthy customer communication.
 
@@ -12,7 +12,7 @@ Covers index item **82** and maps directly to job-description responsibilities f
 
 **Lab safety contract:** The access fallback is a complete synthetic design exercise. Use read-only first, obtain authorization before change, run a positive test and negative test, use bounded failure injection, document recovery and rollback, capture evidence, complete cleanup, control cost and privacy, and use honest interview language that distinguishes production, lab, and conceptual work.
 
-**Explicit nonclaim:** Arti has not built, licensed, administered, or validated a production NetApp practice environment, ONTAP lab, simulator, customer sandbox, or NetApp training tenancy. Completing this Part alone does not establish hands-on ONTAP experience.
+**Explicit nonclaim:** You have not built, licensed, administered, or validated a production NetApp practice environment, ONTAP lab, simulator, customer sandbox, or NetApp training tenancy. Completing this Part alone does not establish hands-on ONTAP experience.
 
 **Privacy/access:** Use only systems, software, subscriptions, data, identities, networks, portals, and documentation for which the owner has explicitly authorized the intended learning activity. Never use a customer system for personal practice, copy customer evidence into a portfolio, reuse credentials, expose management interfaces publicly, or place gated material in public Git repositories or unapproved AI tools.
 
@@ -22,7 +22,7 @@ Covers index item **82** and maps directly to job-description responsibilities f
 
 This Part supplies governance and design guidance, not credentials, software, licenses, support entitlement, a production runbook, a purchasing recommendation, or permission to use any NetApp/customer environment. It contains no bypass, cracked image, unofficial download, credential, or guaranteed-cost route.
 
-> **No-production-NetApp boundary:** Arti's factual strengths are Microsoft enterprise Support Escalation Engineering, Azure and virtual-machine fundamentals, Windows networking, identity, CRITSIT evidence handling, customer reviews, Excel/Power BI/SQL/Python, mentoring, and technical writing. Her exact nonclaim is: **she has not operated a production NetApp lab or customer environment.** She may call a completed route `authorized lab work`, a paper route `synthetic design exercise`, and a documentation route `conceptual study`; she must not call any of them production NetApp administration.
+> **No-production-NetApp boundary:** Your factual strengths are enterprise Support Escalation Engineering, Azure and virtual-machine fundamentals, Windows networking, identity, critical-situation evidence handling, customer reviews, Excel/Power BI/SQL/Python, mentoring, and technical writing. Your exact nonclaim is: **you have not operated a production NetApp lab or customer environment.** You may call a completed route `authorized lab work`, a paper route `synthetic design exercise`, and a documentation route `conceptual study`; you must not call any of them production NetApp administration.
 
 ---
 
@@ -310,7 +310,7 @@ Every artifact needs provenance: where it came from, what it represents, when it
 | Artifact ID | `NRC-LAB82-E014` |
 | Classification | `SYNTHETIC-TRAINING` |
 | Objective | Prove management segment is isolated |
-| Environment/owner | Personal lab / Arti |
+| Environment/owner | Personal lab / you |
 | Product/interface | Conceptual ONTAP topology; no product output |
 | Version/source | Exact official URL or `synthetic-only` |
 | UTC start/end | ISO 8601 timestamps |
@@ -374,17 +374,17 @@ flowchart TB
 
 | Evidence level | Honest wording | Forbidden inflation |
 |---|---|---|
-| Production | `In Microsoft production support, I...` | Recasting it as NetApp administration |
+| Production | `In prior production support, I...` | Recasting it as NetApp administration |
 | Authorized hands-on lab | `In an isolated authorized lab, I...` | `I deployed this for customers` |
 | Official course lab | `I completed the course exercise...` | Claiming independent production design |
 | Synthetic case | `I built a fully synthetic case and...` | Calling generated output telemetry |
 | Documentation-only | `I studied current docs and would validate...` | `I implemented` or `I verified in ONTAP` |
 
-### Arti tie-in and JD Mapping
+### Background tie-in and JD Mapping
 
-| Arti evidence | Transfer to this portfolio | Gap stated honestly |
+| Transferable evidence | Transfer to this portfolio | Gap stated honestly |
 |---|---|---|
-| Microsoft CRITSIT evidence discipline | Timelines, provenance, secure handling, rollback thinking | No production ONTAP changes |
+| enterprise critical-situation evidence discipline | Timelines, provenance, secure handling, rollback thinking | No production ONTAP changes |
 | Azure/VM/network fundamentals | Isolated topology and dependency diagrams | No claim of a supported ONTAP simulator stack |
 | Excel/Power BI/SQL/Python | Synthetic data generation, QA, analysis and visuals | No live Digital Advisor/customer export |
 | Customer reviews and technical writing | Decision-ready findings and limitations | No NetApp service-review delivery |
@@ -392,7 +392,7 @@ flowchart TB
 
 ```mermaid
 flowchart LR
-    FACT[Microsoft production evidence] --> TRANSFER[Transferable method]
+    FACT[prior production evidence] --> TRANSFER[Transferable method]
     LAB[Authorized lab evidence] --> TRANSFER
     SYN[Synthetic/design evidence] --> TRANSFER
     TRANSFER --> ANSWER[Honest interview answer]
@@ -470,7 +470,7 @@ Common mistakes:
 
 ```mermaid
 flowchart TB
-    ARTI[Arti - synthetic lab operator] --> M[Private management segment]
+    USER[Learner - synthetic lab operator] --> M[Private management segment]
     WIN[Windows test persona] --> D[Private data segment]
     LINUX[Linux test persona] --> D
     M --> C[Conceptual two-node ONTAP cluster]
@@ -497,7 +497,7 @@ flowchart TB
 ```mermaid
 sequenceDiagram
     autonumber
-    participant A as Arti
+    participant A as Candidate
     participant J as Evidence journal
     participant R as Reviewer
     A->>J: Record objective, source date and synthetic label
@@ -576,7 +576,7 @@ Recheck when a lab begins, a version changes, a link redirects, a service is ren
 
 ### Q2. What is your no-production-NetApp boundary?
 
-> **Model answer:** `I have Microsoft production support, incident, analytics and customer-review experience, but I have not operated a production NetApp lab or customer environment. I distinguish authorized lab work, official course work, synthetic exercises and conceptual study in every artifact and answer.`
+> **Model answer:** `I have prior production support, incident, analytics and customer-review experience, but I have not operated a production NetApp lab or customer environment. I distinguish authorized lab work, official course work, synthetic exercises and conceptual study in every artifact and answer.`
 
 ### Q3. How do you protect secrets and customer information in a portfolio?
 
@@ -600,7 +600,7 @@ Recheck when a lab begins, a version changes, a link redirects, a service is ren
 
 ### Q8. How does your background help you build this portfolio?
 
-> **Model answer:** `Microsoft escalation and CRITSIT work gives me secure evidence, hypothesis, change and communication discipline; Azure and networking help with isolation; analytics helps with synthetic data and QA; and customer reviews help translate findings into decisions. Those methods transfer, while the portfolio explicitly does not claim production ONTAP experience.`
+> **Model answer:** `enterprise escalation and critical-situation work gives me secure evidence, hypothesis, change and communication discipline; Azure and networking help with isolation; analytics helps with synthetic data and QA; and customer reviews help translate findings into decisions. Those methods transfer, while the portfolio explicitly does not claim production ONTAP experience.`
 
 ---
 

@@ -1,10 +1,10 @@
 # Part 78 - Replication, Backup, Restore, MetroCluster, and DR Scenarios
 
-> **Section goal:** Diagnose data-protection and disaster-recovery (DR) gaps by proving usable recovery points and timed application recovery, not by trusting configured schedules or green jobs. By the end, Arti should be able to reason through replication baseline/update/lag/peering/network/capacity/relationship state; break/resync/reverse operations and data-direction risk; restore point, application consistency, catalog, backup failure, and immutability; MetroCluster switchover/heal/switchback and split-brain risk; stale runbooks and tests; and achieved Recovery Point Objective (RPO) and Recovery Time Objective (RTO) evidence.
+> **Section goal:** Diagnose data-protection and disaster-recovery (DR) gaps by proving usable recovery points and timed application recovery, not by trusting configured schedules or green jobs. By the end, you should be able to reason through replication baseline/update/lag/peering/network/capacity/relationship state; break/resync/reverse operations and data-direction risk; restore point, application consistency, catalog, backup failure, and immutability; MetroCluster switchover/heal/switchback and split-brain risk; stale runbooks and tests; and achieved Recovery Point Objective (RPO) and Recovery Time Objective (RTO) evidence.
 
 Covers index item **78** and maps directly to job-description responsibilities for storage protection depth, stability/risk mitigation, customer reviews, high-pressure incidents, lifecycle/change planning, Support collaboration, and preventative recommendations.
 
-**Explicit nonclaim:** Arti has not configured, broken, resynchronized, reversed, restored, switched over, healed, switched back, or declared recovery for a production NetApp SnapMirror, backup, MetroCluster, or DR environment.
+**Explicit nonclaim:** You have not configured, broken, resynchronized, reversed, restored, switched over, healed, switched back, or declared recovery for a production NetApp SnapMirror, backup, MetroCluster, or DR environment.
 
 **Privacy/access:** Protection evidence can expose customer data sets, recovery points, retention, topology, intercluster addresses, credentials, encryption keys, backup catalogs, immutability controls, legal holds, incident details, RPO/RTO, business priorities, and cyber-recovery weaknesses. Use authorized minimum collection, approved secure systems, separation of duties, need-to-know access, redaction, audit, retention, and security/legal/records governance. Never copy real catalog, snapshot, relationship, key, or customer recovery data into study material.
 
@@ -14,7 +14,7 @@ Covers index item **78** and maps directly to job-description responsibilities f
 
 This Part is a reasoning casebook, not a NetApp internal DR runbook, backup guarantee, command reference, relationship operation procedure, MetroCluster recovery instruction, legal/compliance statement, or authorization to change source/destination roles or restore data.
 
-> **No-production-NetApp boundary:** Arti's factual strengths are Microsoft enterprise support, data-service incidents, business continuity concepts, incident command, risk communication, analytics, change coordination, and customer reviews. Her exact nonclaim is: **she has not operated or validated production NetApp replication, backup, restore, MetroCluster, or DR.** All cases are synthetic learning evidence.
+> **No-production-NetApp boundary:** Your factual strengths are enterprise support, data-service incidents, business continuity concepts, incident command, risk communication, analytics, change coordination, and customer reviews. Your exact nonclaim is: **you have not operated or validated production NetApp replication, backup, restore, MetroCluster, or DR.** All cases are synthetic learning evidence.
 
 ---
 
@@ -572,12 +572,12 @@ flowchart TD
 
 ---
 
-## 9. Arti transfer/honesty and JD Mapping
+## 9. Experience transfer and honesty and JD Mapping
 
 ```mermaid
 flowchart LR
     DATA[SharePoint/OneDrive data-service support] --> CONS[Data, permissions and service dependency thinking]
-    CRIT[CRITSIT/incident command] --> DR[Impact, authority, restoration and communication]
+    CRIT[Critical situation/incident command] --> DR[Impact, authority, restoration and communication]
     ANALYTICS[Analytics and customer reviews] --> RISK[RPO/RTO evidence, trends and actions]
     CHANGE[Cross-team change coordination] --> RUN[Runbook, owners, gates and validation]
     CONS --> TRANS[Transferable protection/DR method]
@@ -591,7 +591,7 @@ flowchart LR
 |---|---|---|
 | Stability/risk | Achieved RPO/RTO and recoverability chain | Generic method; synthetic NetApp cases |
 | Storage depth | SnapMirror, backup and MetroCluster scenario reasoning | No production operation claim |
-| High pressure | Fencing, data direction and recovery decisions | Microsoft incident method transfers |
+| High pressure | Fencing, data direction and recovery decisions | enterprise incident method transfers |
 | Customer review | Protection posture, test aging, action tracking | Strong review/analytics experience |
 | Cross-functional | App, security, network, continuity, storage, Support roles | Existing coordination strength |
 | Recommendations | Runbook/test/remediation and residual risk | Live actions require qualified owners |
@@ -720,7 +720,7 @@ flowchart LR
 
 ### Q8. What experience transfers, and what remains your gap?
 
-> **Model answer:** `Microsoft data-service incidents, continuity concepts, CRITSIT command, analytics, change coordination and reviews give me strong recoverability and risk communication skills. I have not operated production SnapMirror, backup restore or MetroCluster, so these cases are synthetic and every live relationship or site-role action requires current NetApp sources and qualified owners.`
+> **Model answer:** `Microsoft data-service incidents, continuity concepts, critical-situation command, analytics, change coordination and reviews give me strong recoverability and risk communication skills. I have not operated production SnapMirror, backup restore or MetroCluster, so these cases are synthetic and every live relationship or site-role action requires current NetApp sources and qualified owners.`
 
 ---
 
@@ -742,7 +742,7 @@ flowchart LR
 - **MetroCluster:** Storage/site resilience; app/network recovery remains separate.
 - **Split brain:** Prove one writer before forced activation.
 - **Runbook:** Current people + current topology + timed exercise.
-- **Arti boundary:** Continuity method transfers; NetApp protection operation does not.
+- **Experience boundary:** Continuity method transfers; NetApp protection operation does not.
 
 ---
 

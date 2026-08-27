@@ -52,7 +52,7 @@ By the end of this part, you should be able to:
 
 ## Candidate Honesty Note
 
-Arti can say:
+You can say:
 
 > "I have handled ambiguous, high-pressure enterprise support cases in Microsoft environments and am practiced in evidence collection, customer updates, escalation, and validation. I have not operated Abnormal AI or a production phishing-response program. I learned these investigation patterns from official public guidance and practiced them with inert synthetic fixtures. In a live case I would follow the customer's runbook, preserve the original evidence, involve authorized SOC and identity owners, and never claim that a lab or grammar-based judgment proves maliciousness."
 
@@ -986,7 +986,7 @@ All sources were accessed on August 24, 2026 and must be revalidated before prod
 
 ### Q8. How would you position your experience honestly for this role?
 
-**Model answer:** My production evidence is Microsoft enterprise support: high-pressure ownership, structured scoping, evidence collection, customer communication, Engineering escalation, and fix validation. Phishing taxonomy and response are learned architecture plus inert synthetic practice, not production Abnormal or SOC operations. I can demonstrate the method and artifact, state the gap directly, and explain how I would follow current runbooks and authorized owners.
+**Model answer:** My production evidence is enterprise support: high-pressure ownership, structured scoping, evidence collection, customer communication, Engineering escalation, and fix validation. Phishing taxonomy and response are learned architecture plus inert synthetic practice, not production Abnormal or SOC operations. I can demonstrate the method and artifact, state the gap directly, and explain how I would follow current runbooks and authorized owners.
 
 ## 🧠 30-Second Memory Hooks
 

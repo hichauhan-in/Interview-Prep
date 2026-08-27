@@ -1,10 +1,10 @@
 # Part 70 - Cross-Functional Collaboration, SME Teams, and Conflict Resolution
 
-> **Section goal:** Coordinate people with different expertise, incentives, authority, vocabulary, and vendor boundaries around one customer outcome. By the end, Arti should be able to create a shared system view; preserve role/ownership boundaries; design strong handoffs and working agreements; influence without authority; resolve technical disagreement through evidence and discriminating tests; use conflict styles situationally; support psychological safety; improve meeting and decision hygiene; escalate constructively; coordinate vendors; contribute to SME communities; build specialization while sharing knowledge; and repair durable relationships after conflict.
+> **Section goal:** Coordinate people with different expertise, incentives, authority, vocabulary, and vendor boundaries around one customer outcome. By the end, you should be able to create a shared system view; preserve role/ownership boundaries; design strong handoffs and working agreements; influence without authority; resolve technical disagreement through evidence and discriminating tests; use conflict styles situationally; support psychological safety; improve meeting and decision hygiene; escalate constructively; coordinate vendors; contribute to SME communities; build specialization while sharing knowledge; and repair durable relationships after conflict.
 
 Covers index item **70** and maps directly to job-description responsibilities for cross-functional and SME-team contribution, lead-TAM/account-team execution, stakeholder communication, escalation, high-pressure coordination, technical analysis quality, knowledge sharing, specialization, customer loyalty, and time-zone collaboration.
 
-**Explicit nonclaim:** Arti has not led a production NetApp cross-functional account team, owned a NetApp SME community, resolved a live NetApp/customer/vendor conflict, or represented NetApp Product, Engineering, Support, Sales, or Professional Services authority.
+**Explicit nonclaim:** You have not led a production NetApp cross-functional account team, owned a NetApp SME community, resolved a live NetApp/customer/vendor conflict, or represented NetApp Product, Engineering, Support, Sales, or Professional Services authority.
 
 **Privacy and access boundary:** Collaboration records can expose customer evidence, vulnerabilities, contracts, vendor positions, commercial disputes, employee behavior, decision rights, personal feedback, escalation routes, and relationship concerns. Use approved channels, need-to-know access, role-safe broad records, secure evidence links, careful minutes, retention controls, and authorized HR/legal/commercial routes where appropriate.
 
@@ -14,7 +14,7 @@ Covers index item **70** and maps directly to job-description responsibilities f
 
 This Part provides a generic collaboration model, not a NetApp internal org chart, SME charter, conflict policy, vendor-escalation route, support commitment, legal process, or authority to decide customer/employee matters. Actual lead TAM, management, Support, account, HR, legal, commercial, partner, and customer governance controls live work.
 
-> **No-production-NetApp boundary:** Arti's factual strengths are Microsoft enterprise and partner support, CRITSIT coordination, Product/Engineering collaboration, Technical Advisor work, mentoring, knowledge creation, customer communication, escalation packages, and cross-team fix validation. She does **not** claim NetApp account-team leadership, ONTAP SME status, NetApp Product/Engineering authority, vendor-contract ownership, or production conflict-resolution outcomes. Her exact non-claim is: **she has not led, governed, or represented a production NetApp cross-functional, SME, vendor, or customer conflict-resolution process.**
+> **No-production-NetApp boundary:** Your factual strengths are enterprise and partner support, critical-situation coordination, Product/Engineering collaboration, technical advisor work, mentoring, knowledge creation, customer communication, escalation packages, and cross-team fix validation. You do **not** claim NetApp account-team leadership, ONTAP SME status, NetApp Product/Engineering authority, vendor-contract ownership, or production conflict-resolution outcomes. Your exact non-claim is: **you have not led, governed, or represented a production NetApp cross-functional, SME, vendor, or customer conflict-resolution process.**
 
 ---
 
@@ -584,7 +584,7 @@ Harassment, discrimination, retaliation, legal/commercial disputes, security/pri
 
 ## 13. Fully synthetic sanitized scenario: Apex Clinical multi-vendor conflict
 
-> **Synthetic boundary:** `Apex Clinical`, all teams, vendors, incidents, systems, evidence, conflict, decisions, actions, dates, and outcomes are invented. The scenario is not a NetApp customer, account process, vendor statement, product result, or Arti production work.
+> **Synthetic boundary:** `Apex Clinical`, all teams, vendors, incidents, systems, evidence, conflict, decisions, actions, dates, and outcomes are invented. The scenario is not a NetApp customer, account process, vendor statement, product result, or documented production work.
 
 ### Situation
 
@@ -745,14 +745,14 @@ flowchart LR
 
 ---
 
-## 16. Arti's factual bridge and JD Mapping
+## 16. Your factual bridge and JD Mapping
 
 ```mermaid
 flowchart LR
-    CRIT[CRITSIT and enterprise support] --> COORD[Shared impact, roles and cross-team action]
+    CRIT[Critical situation and enterprise support] --> COORD[Shared impact, roles and cross-team action]
     ENG[Product and Engineering collaboration] --> EVID[Technical disagreement and exact evidence]
     PART[Partner customers] --> VENDOR[Vendor boundaries and handoffs]
-    TA[Technical Advisor, mentoring and knowledge] --> SME[SME contribution and teach-back]
+    TA[technical advisor, mentoring and knowledge] --> SME[SME contribution and teach-back]
     COORD --> METHOD[Transferable collaboration method]
     EVID --> METHOD
     VENDOR --> METHOD
@@ -762,12 +762,12 @@ flowchart LR
 
 ### Factual tie
 
-| Arti evidence | Transfer | Boundary |
+| Transferable evidence | Transfer | Boundary |
 |---|---|---|
-| Microsoft CRITSITs | Shared outcome, owners, cadence, escalation | Not NetApp incident/account authority |
+| enterprise critical situations | Shared outcome, owners, cadence, escalation | Not NetApp incident/account authority |
 | Product/Engineering collaboration | Evidence packages, technical challenge, fix validation | No NetApp Product/Engineering representation |
 | Enterprise/partner support | Multi-party boundaries and customer coordination | Contract scope must be authorized |
-| Technical Advisor program | Broader technical contribution and influence | Not NetApp SME status |
+| technical-advisor programme | Broader technical contribution and influence | Not NetApp SME status |
 | Mentoring/knowledge creation | Teach-back, articles and backup capability | No internal NetApp knowledge approval |
 | Customer/business reviews | Decision and relationship communication | No production NetApp review ownership |
 
@@ -785,7 +785,7 @@ flowchart LR
 
 ### Honest interview statement
 
-> `I align cross-functional teams around a measurable customer outcome and system map, then clarify role boundaries, handoffs and working agreements. For technical disagreement I separate facts from hypotheses, require predictions and a safe discriminating test, record dissent and use the correct decision authority. I contribute reusable SME knowledge and repair conflict through specific ownership and sustained behavior. My production examples are Microsoft-focused, not NetApp team leadership.`
+> `I align cross-functional teams around a measurable customer outcome and system map, then clarify role boundaries, handoffs and working agreements. For technical disagreement I separate facts from hypotheses, require predictions and a safe discriminating test, record dissent and use the correct decision authority. I contribute reusable SME knowledge and repair conflict through specific ownership and sustained behavior. My production examples are focused on a different technology stack, not NetApp team leadership.`
 
 ---
 
@@ -857,7 +857,7 @@ Inject:
 7. Create psychological safety and meeting/decision hygiene.
 8. Escalate and coordinate vendors safely.
 9. Build SME contribution and specialization/knowledge plan.
-10. Repair conflict and state Arti's nonclaim.
+10. Repair conflict and state your nonclaim.
 
 ### Lab pass checklist
 
@@ -935,7 +935,7 @@ Inject:
 
 ### Q8. How does your background transfer, and what remains a gap?
 
-> **Model answer:** `Microsoft CRITSITs, partner support, Product/Engineering collaboration, Technical Advisor work, mentoring and knowledge creation give me strong cross-functional evidence and relationship skills. I have not led a production NetApp account/SME/vendor conflict process, so actual roles, support routes, product positions and authority require NetApp/customer owners.`
+> **Model answer:** `enterprise critical situations, partner support, Product/Engineering collaboration, technical advisor work, mentoring and knowledge creation give me strong cross-functional evidence and relationship skills. I have not led a production NetApp account/SME/vendor conflict process, so actual roles, support routes, product positions and authority require NetApp/customer owners.`
 
 ---
 
@@ -957,7 +957,7 @@ Inject:
 - **SME:** Bounded current expertise plus reusable contribution.
 - **Specialization:** Practice, review, teach, refresh; not a badge.
 - **Repair:** Acknowledge -> own -> correct -> agree -> deliver -> check.
-- **Arti's bridge:** Microsoft collaboration transfers; NetApp team authority does not.
+- **Your bridge:** Microsoft collaboration transfers; NetApp team authority does not.
 
 ---
 

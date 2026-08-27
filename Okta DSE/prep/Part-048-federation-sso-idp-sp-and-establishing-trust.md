@@ -358,7 +358,7 @@ flowchart TD
 
 ## 11. Candidate Honesty Note
 
-- **Claim safety:** *Learned architecture and lab experience*, with genuine adjacent background — Active Directory and Entra ID work at Microsoft touched the identity-provider side.
+- **Claim safety:** *Learned architecture and lab experience*, with genuine adjacent background — Active Directory and Entra ID work touched the identity-provider side.
 - **The strongest thing you can say:** *"Federation means the service provider trusts the identity provider to vouch for a user, and the user's password never leaves the identity provider. Establishing that trust is an exchange of specific values in both directions — entity IDs, ACS URLs, signing certificates, attribute names — and almost every federation ticket is one of those values not matching exactly."*
 - **A second point, and it is the fastest technique in this Part:** *"For a redirect URI or ACS mismatch I never ask what they configured — I ask for the actual error, which usually contains the value that was sent, and diff it against the registered list character by character. If they look identical, I compare lengths, because invisible characters and encoding differences are common. That's a thirty-second answer; discussing what they meant to configure can take days."*
 - **A third, which is a real prevention win:** *"A manually pasted signing certificate is an outage with a known date and no alarm attached. The fix is a metadata URL so rollover is picked up automatically — and when I find one pasted certificate, I'd ask whether there are others, because there usually are and none of them are monitored."*

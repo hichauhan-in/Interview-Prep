@@ -1,10 +1,10 @@
 # Part 91 - SOC Fundamentals, Roles, Tiers, Processes, and Operating Models
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 
 > **Purpose:** Explain Security Operations Center fundamentals from zero: mission, services, people/process/technology, analyst roles and tiers, detection engineering, triage, investigation, threat hunting, incident response, threat intelligence, case management, shift handoff, managed services, operating models, metrics, security/privacy, troubleshooting, failure modes, artifacts, exercises, and customer decision logic.
 
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH alert, case, incident, role, service, tool, date, metric, workflow, decision, and result is invented. Arti's factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler, SOC, SIEM, SOAR, XDR, EDR, NDR, UEBA, MDR, detection engineering, threat hunting, incident command, and customer security-operations ownership remain learning boundaries.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is an explicitly fictional and synthetic customer used only for study. Every NMH alert, case, incident, role, service, tool, date, metric, workflow, decision, and result is invented. Your factual background is Microsoft 365, OneDrive, and SharePoint support; networking and trace analysis; SQL and Power BI; enterprise escalations; mentoring; and responsible AI exploration. Production Zscaler, SOC, SIEM, SOAR, XDR, EDR, NDR, UEBA, MDR, detection engineering, threat hunting, incident command, and customer security-operations ownership remain learning boundaries.
 
 > **Currency caveat:** SOC practices, threats, standards, technologies, product names, workflows, automation, managed-service models, legal/privacy obligations, and customer environments change. The controlled source review date for this Part is exactly **2026-08-24**. Current official references, customer policies, product documentation, licensed-tenant evidence, service contracts, legal/privacy guidance, source-native evidence, and tested runbooks govern production decisions.
 
@@ -52,7 +52,7 @@ flowchart LR
 
 ## Candidate honesty note
 
-Arti can say: "My production experience is enterprise Support Escalation Engineering rather than SOC operations. It built adjacent strengths in high-severity intake, layered evidence, networking traces, customer impact, cross-team coordination, timelines, containment discussions, RCA, communication, analytics, and mentoring. I have studied SOC operating models and practiced only with fictional artifacts. In a customer environment I would follow their incident authority and verify current product behavior."
+You can say: "My production experience is enterprise Support Escalation Engineering rather than SOC operations. It built adjacent strengths in high-severity intake, layered evidence, networking traces, customer impact, cross-team coordination, timelines, containment discussions, RCA, communication, analytics, and mentoring. I have studied SOC operating models and practiced only with fictional artifacts. In a customer environment I would follow their incident authority and verify current product behavior."
 
 | Factual strength | SOC transfer | Neutral evidence statement | Unsupported statement to avoid |
 |---|---|---|---|
@@ -821,7 +821,7 @@ flowchart LR
 
 ## Complete synthetic NMH SOC case
 
-Everything in this section is explicitly fictional and synthetic. It does not describe a Zscaler tenant, product alert, integration, SOC, provider, customer incident, result, or Arti production experience. Every date and time below is a synthetic scenario date on or before the official source review date. The source snapshot remains 2026-08-24.
+Everything in this section is explicitly fictional and synthetic. It does not describe a Zscaler tenant, product alert, integration, SOC, provider, customer incident, result, or documented production experience. Every date and time below is a synthetic scenario date on or before the official source review date. The source snapshot remains 2026-08-24.
 
 At synthetic time 2026-08-22 01:40 UTC, NMH's fictional identity detection reports a service account authenticating to a new application and then attempting an administration action. The alert is medium by fictional tool label. The SOC charter says privileged cross-service activity on medication systems requires expedited triage regardless of vendor label.
 
@@ -1039,7 +1039,7 @@ This Part teaches general SOC practice. The Zscaler source supports only adjacen
 
 **Model answer:** Start with business risk, obligations, critical services, service hours, required capabilities, response times, and authority. Assess internal skills, capacity, technology, context, resilience, privacy, and cost gaps. Compare provider scope, RACI, data/regions/subprocessors, SLA definitions, escalation, containment authority, detection/content ownership, evidence portability, integration responsibility, surge/IR coverage, quality governance, and exit. Pilot handoffs and actions. Outsourcing capability never outsources customer accountability.
 
-### Q8. How does Arti's background support SOC work while preserving honesty?
+### Q8. How does your background support SOC work while preserving honesty?
 
 **Model answer:** Microsoft 365, OneDrive, and SharePoint escalation work provides adjacent production experience in high-severity intake, exact identity/permission/service scope, layered evidence, customer impact, containment discussions, ownership, timelines, RCA, updates, and validation. Networking traces support telemetry-path diagnosis. SQL and Power BI support event/case models, windows, joins, trends, and quality. Mentoring and reviewed AI assistance support enablement. NMH is synthetic; production SOC, detection engineering, hunting, IR command, and managed-response operation remain learning boundaries.
 
@@ -1066,7 +1066,7 @@ This Part teaches general SOC practice. The Zscaler source supports only adjacen
 | Automation | Stable, bounded, authorized, reversible, audited |
 | Metrics | Speed plus quality plus outcome plus capacity plus cost |
 | TSM | Enable documented capability and evidence, not incident command |
-| Arti bridge | Escalation rigor transfers; production SOC claims do not |
+| Experience bridge | Escalation rigor transfers; production SOC claims do not |
 
 ## Completion Checklist
 

@@ -141,7 +141,7 @@ flowchart LR
 
 | Payload | Usual meaning in a PATCH |
 |---|---|
-| `{"nickname": "arti"}` | Set it to "arti" |
+| `{"nickname": "sam"}` | Set it to "sam" |
 | `{"nickname": null}` | **Clear it** |
 | `{}` (field absent) | **Leave it alone** |
 

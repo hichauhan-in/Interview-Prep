@@ -1,6 +1,6 @@
 # Appendix A - Glossary and Acronyms
 
-> **Audience:** Arti Thakur, preparing for an Abnormal AI Technical Support Engineer interview  
+> **Audience:** Candidates preparing for an Abnormal AI Technical Support Engineer interview  
 > **Reference date:** August 24, 2026  
 > **Experience boundary:** Beginner-friendly reference based on standards, official public documentation, learned architecture, and synthetic examples. It is not evidence of production operation of Abnormal AI or adjacent learning-target platforms.
 
@@ -17,9 +17,9 @@ Use this appendix as a fast translation layer. Search for the exact acronym, err
 
 ## Candidate Honesty and Safety Boundary
 
-Arti can truthfully connect these concepts to substantiated Microsoft enterprise-support work, networking/API upskilling, and completed synthetic or local labs. She must **not** claim direct production experience with **Abnormal AI, email-security operations, Google Workspace, Slack, Okta, Splunk, CrowdStrike, Cortex SOAR, Zendesk, Salesforce, Jira, or Zoom**. Safe wording is:
+You can truthfully connect these concepts to substantiated enterprise-support work, networking/API upskilling, and completed synthetic or local labs. You must **not** claim direct production experience with **Abnormal AI, email-security operations, Google Workspace, Slack, Okta, Splunk, CrowdStrike, Cortex SOAR, Zendesk, Salesforce, Jira, or Zoom**. Safe wording is:
 
-> “I have not operated that platform in production. My understanding comes from official documentation and safe study or synthetic labs. My transferable production evidence is Microsoft enterprise support: structured investigation, customer communication, escalation, fix validation, knowledge work, and operational improvement.”
+> “I have not operated that platform in production. My understanding comes from official documentation and safe study or synthetic labs. My transferable production evidence is enterprise support: structured investigation, customer communication, escalation, fix validation, knowledge work, and operational improvement.”
 
 Never paste customer data, secrets, tokens, raw unredacted headers, private product behavior, or restricted documentation into notes or interview artifacts. Do not turn a glossary definition into a product-specific claim, threat verdict, legal conclusion, or authorization to change a production control. See [Part 001 - Role Compass and Honest Candidate Story](Part-001-role-compass-and-honest-candidate-story.md), [Part 005 - Privacy Data Handling and Evidence Ethics](Part-005-privacy-data-handling-and-evidence-ethics.md), and [Part 009 - Safe Support Lab Environment](Part-009-safe-support-lab-environment.md).
 
@@ -517,7 +517,7 @@ All sources below were accessed for the guide’s source ledger on **August 24, 
 - [ ] I distinguish observation, inference, hypothesis, verdict, and root cause.
 - [ ] I can explain SPF, DKIM, DMARC, ARC, and BIMI without overstating what they prove.
 - [ ] I treat ports, status codes, logs, and tool output as clues with context, not automatic causes.
-- [ ] I label Microsoft production evidence, safe lab evidence, learned architecture, and no-direct-experience honestly.
+- [ ] I label prior production evidence, safe lab evidence, learned architecture, and no-direct-experience honestly.
 - [ ] I never include customer data, secrets, tokens, private keys, unredacted raw evidence, or private product claims.
 - [ ] I follow the linked Part when a term must be used in a real troubleshooting decision.
 - [ ] I revalidate living standards and vendor documentation beyond the August 24, 2026 source date.

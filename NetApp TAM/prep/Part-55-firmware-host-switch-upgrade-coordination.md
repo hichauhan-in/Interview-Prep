@@ -1,10 +1,10 @@
 # Part 55 - Firmware, Host, Hypervisor, Switch, and Multipath Upgrade Coordination
 
-> **Section goal:** Coordinate a multi-team storage-stack change so that every current, temporary, and target state remains supportable, observable, and recoverable. By the end, Arti should be able to map controllers, disks, shelves, adapters, switches, HBAs/NICs, drivers, host operating systems, hypervisors, Host Utilities, multipath, guests, applications, backup, and monitoring; prevent changes from colliding with shared failure domains; sequence dual-path/fabric and HA/quorum operations; define rollout rings, RACI, test/hold criteria, rollback and forward recovery; and preserve an audit-ready evidence pack.
+> **Section goal:** Coordinate a multi-team storage-stack change so that every current, temporary, and target state remains supportable, observable, and recoverable. By the end, you should be able to map controllers, disks, shelves, adapters, switches, HBAs/NICs, drivers, host operating systems, hypervisors, Host Utilities, multipath, guests, applications, backup, and monitoring; prevent changes from colliding with shared failure domains; sequence dual-path/fabric and HA/quorum operations; define rollout rings, RACI, test/hold criteria, rollback and forward recovery; and preserve an audit-ready evidence pack.
 
 Covers index item **55** and maps directly to job-description responsibilities for upgrade coordination, proactive risk reduction, system stability, interoperability validation, lifecycle execution, customer change governance, technical leadership, support readiness, and cross-functional communication.
 
-**Explicit nonclaim:** Arti has not coordinated a production NetApp cross-stack firmware, host, hypervisor, switch, or multipath upgrade.
+**Explicit nonclaim:** You have not coordinated a production NetApp cross-stack firmware, host, hypervisor, switch, or multipath upgrade.
 
 **Privacy and access boundary:** Customer inventories, configurations, compatibility results, credentials, switch and host artifacts, maintenance plans, and recovery evidence require authorization and controlled handling.
 
@@ -14,7 +14,7 @@ Covers index item **55** and maps directly to job-description responsibilities f
 
 This Part contains no real driver/firmware bundle, switch command, RCF, path-count promise, quorum threshold, timeout, host setting, maintenance sequence, or rollback command. Exact source instructions and customer change authority control. Public examples provide method only; IMT, HWU, downloads, cases, and some vendor matrices are gated.
 
-> **No-production-NetApp boundary:** Arti does not claim production cross-stack NetApp upgrade coordination. Every customer, component, version, fabric, path, ring, result, and recommendation below is synthetic. Her factual strengths are Microsoft enterprise upgrades, Windows/Azure/M365 dependency management, DNS/TCP/TLS/network troubleshooting, driver and OS servicing, cluster/change governance, CRITSIT communication, testing, and recovery planning. The explicit non-claim is: **she has not upgraded production NetApp firmware, Windows/Linux Host Utilities, ESXi storage settings, SAN/cluster/storage switch software, HBA/NIC driver/firmware, multipath configuration, or coordinated a production NetApp stack change.**
+> **No-production-NetApp boundary:** You do not claim production cross-stack NetApp upgrade coordination. Every customer, component, version, fabric, path, ring, result, and recommendation below is synthetic. Your factual strengths are enterprise upgrades, Windows/Azure/M365 dependency management, DNS/TCP/TLS/network troubleshooting, driver and OS servicing, cluster/change governance, critical-situation communication, testing, and recovery planning. The explicit non-claim is: **you have not upgraded production NetApp firmware, Windows/Linux Host Utilities, ESXi storage settings, SAN/cluster/storage switch software, HBA/NIC driver/firmware, multipath configuration, or coordinated a production NetApp stack change.**
 
 ---
 
@@ -750,7 +750,7 @@ gantt
 
 ---
 
-## 15. Discovery, JD Mapping, and Arti transfer
+## 15. Discovery, JD Mapping, and experience transfer
 
 ### Discovery questions
 
@@ -767,14 +767,14 @@ gantt
 
 ### JD Mapping
 
-| JD responsibility | Part 55 contribution | Arti's factual bridge and gap |
+| JD responsibility | Part 55 contribution | Your factual bridge and gap |
 |---|---|---|
-| Upgrade coordination | End-to-end dependency/snapshot/sequence/ring method | Microsoft enterprise servicing transfers |
-| System stability | Preserves path/HA/quorum/recovery/monitoring margins | CRITSIT/service-health discipline transfers |
+| Upgrade coordination | End-to-end dependency/snapshot/sequence/ring method | enterprise servicing transfers |
+| System stability | Preserves path/HA/quorum/recovery/monitoring margins | critical situation/service-health discipline transfers |
 | Interoperability | Validates exact current/mixed/target recipes | Cross-stack support analysis transfers |
 | Proactive risk | Detects change collisions and unsupported temporary states | Change calendar/risk reasoning transfers |
 | Customer communication | RACI, checkpoints, hold/incident/closure narrative | Executive and technical communication transfers |
-| Support readiness | Audit-ready evidence/recovery/escalation pack | Microsoft escalation discipline transfers |
+| Support readiness | Audit-ready evidence/recovery/escalation pack | enterprise escalation discipline transfers |
 
 ### Honest interview answer
 
@@ -909,7 +909,7 @@ flowchart LR
 
 ### Q8. How does your background transfer, and what remains a gap?
 
-> **Model answer:** “Microsoft enterprise servicing and CRITSIT work gave me dependency graphs, rings, driver/OS/network coordination, collision control, RACI, tests, recovery and communications discipline. I have not executed production NetApp firmware, switch, Host Utilities or multipath changes, so authorized specialists and current exact procedures control implementation.”
+> **Model answer:** “enterprise servicing and critical-situation work gave me dependency graphs, rings, driver/OS/network coordination, collision control, RACI, tests, recovery and communications discipline. I have not executed production NetApp firmware, switch, Host Utilities or multipath changes, so authorized specialists and current exact procedures control implementation.”
 
 ---
 
@@ -928,7 +928,7 @@ flowchart LR
 - **Test:** Compatibility + path + HA/quorum + host + app + backup + monitoring.
 - **Rollback:** Supported backward move; **forward recovery:** corrected supported destination.
 - **Evidence pack:** Graph + snapshots + matrices + sequence + tests + recovery + results.
-- **Arti's bridge:** Enterprise change discipline transfers; production NetApp execution does not.
+- **Your bridge:** Enterprise change discipline transfers; production NetApp execution does not.
 
 ---
 

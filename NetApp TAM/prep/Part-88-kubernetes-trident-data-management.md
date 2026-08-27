@@ -1,6 +1,6 @@
 # Part 88 - Kubernetes, Containers, Trident, and Application-Aware Data Management
 
-> **Section goal:** Explain how Kubernetes turns an application's storage request into a persistent volume through the Container Storage Interface and NetApp Trident, then reason about access modes, volume modes, snapshots, clones, application-aware protection, RBAC, secrets, networking, supportability, failure domains, and troubleshooting. By the end, Arti can trace a Pending pod or claim across Kubernetes, CSI, Trident, ONTAP, node and application layers.
+> **Section goal:** Explain how Kubernetes turns an application's storage request into a persistent volume through the Container Storage Interface and NetApp Trident, then reason about access modes, volume modes, snapshots, clones, application-aware protection, RBAC, secrets, networking, supportability, failure domains, and troubleshooting. By the end, you can trace a Pending pod or claim across Kubernetes, CSI, Trident, ONTAP, node and application layers.
 
 Covers index item **88** and maps to job-description requirements for container and storage depth, customer-environment discovery, new-technology learning, supportability/risk analysis, proactive recommendations, complex troubleshooting, cross-functional work, and technical communication.
 
@@ -10,7 +10,7 @@ Covers index item **88** and maps to job-description requirements for container 
 
 **Version caveat:** Kubernetes, CSI, Trident, ONTAP, API, feature, compatibility, and lifecycle behavior changes; complete current-doc and supportability checks before customer use.
 
-**Explicit nonclaim:** Arti has not deployed, administered, upgraded, protected, or troubleshot a production Kubernetes cluster, Trident installation, ONTAP backend, persistent workload, or Trident protect workflow. This Part does not establish Kubernetes or NetApp production experience.
+**Explicit nonclaim:** You have not deployed, administered, upgraded, protected, or troubleshot a production Kubernetes cluster, Trident installation, ONTAP backend, persistent workload, or Trident protect workflow. This Part does not establish Kubernetes or NetApp production experience.
 
 **Privacy/access:** Kubernetes and storage evidence can expose cluster names, namespaces, service accounts, tokens, secrets, registry data, node addresses, application names, PVC/PV/backend identifiers, credentials, snapshots, manifests, logs, and business topology. Use least privilege, minimum fields, approved repositories, secret redaction, encryption, retention, and no kubeconfigs, bearer tokens, backend credentials, customer YAML, or support bundles in portfolios or unapproved AI tools.
 
@@ -20,7 +20,7 @@ Covers index item **88** and maps to job-description requirements for container 
 
 This Part is conceptual and scenario-based, not a production manifest set, credential/configuration recipe, support declaration, backup guarantee, or capacity/performance promise.
 
-> **No-production-NetApp boundary:** Arti's factual strengths are Azure/VM/cloud fundamentals, Microsoft enterprise support, networking/identity troubleshooting, analytics, incident coordination, AI workload awareness, and customer communication. Her exact nonclaim is: **she has not operated production Kubernetes or Trident on NetApp.** She may explain the architecture and fully synthetic case while stating how she would validate a live environment.
+> **No-production-NetApp boundary:** Your factual strengths are Azure/VM/cloud fundamentals, enterprise support, networking/identity troubleshooting, analytics, incident coordination, AI workload awareness, and customer communication. Your exact nonclaim is: **you have not operated production Kubernetes or Trident on NetApp.** You may explain the architecture and fully synthetic case while stating how you would validate a live environment.
 
 ---
 
@@ -452,12 +452,12 @@ Capture desired/observed object state, UIDs/handles, versions, class parameters 
 
 Delete test namespaces/workloads/claims/PVs only with reclaim semantics understood; remove snapshots/clones/backends/secrets/accounts/routes and chargeable resources through authorization. Verify retained/orphan objects and billing. No cost, cloud region, license, service or support promise is made.
 
-## 18. JD Mapping and Arti tie
+## 18. JD Mapping and background tie
 
 ```mermaid
 flowchart LR
     CLOUD[Azure/VM/cloud fundamentals] --> ORCH[Control/data-plane reasoning]
-    MS[Microsoft escalation] --> EVID[Object/event/timeline evidence]
+    MS[enterprise escalation] --> EVID[Object/event/timeline evidence]
     ID[Identity/networking] --> SEC[RBAC/secret/path isolation]
     AI[AI workload awareness] --> STATE[Stateful workload requirements]
     ORCH --> TAM[Container TAM capability]
@@ -538,7 +538,7 @@ flowchart LR
 
 ### Q8. What is your experience boundary?
 
-> **Model answer:** `My Azure/VM, networking/identity, Microsoft escalation, analytics and incident experience transfers to layered cloud-native diagnosis. I have not operated production Kubernetes or Trident. This scenario is synthetic, and live work requires current Kubernetes distribution, Trident, ONTAP and application support evidence.`
+> **Model answer:** `My Azure/VM, networking/identity, enterprise escalation, analytics and incident experience transfers to layered cloud-native diagnosis. I have not operated production Kubernetes or Trident. This scenario is synthetic, and live work requires current Kubernetes distribution, Trident, ONTAP and application support evidence.`
 
 ---
 

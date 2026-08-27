@@ -2,7 +2,7 @@
 
 > **Purpose:** Build a beginner-first, vendor-neutral method for planning, facilitating, documenting, and following up on a remote troubleshooting session while protecting authorization, privacy, security, customer control, and evidence quality.
 >
-> **Artifact honesty label:** **Direct Microsoft enterprise-support transfer plus completed local synthetic written artifacts; remote-session lab unperformed.** Arti's background, as recorded in the master guide, includes Microsoft enterprise case ownership, customer and partner communication, complex investigations, CRITSIT work, Engineering/Product escalation, and fix validation. Those habits transfer. The facilitation script, notes template, decision tree, and worked sessions in this Part are learner-authored fiction. They were not used with a customer, sent externally, run in Zoom, recorded, transcribed, or approved by Microsoft, Abnormal AI, Zoom, or any employer. This Part makes no claim about Abnormal or Zoom entitlement, configuration, policy, support procedure, recording rule, remote-control permission, data-handling route, or customer environment.
+> **Artifact honesty label:** **Direct enterprise-support transfer plus completed local synthetic written artifacts; remote-session lab unperformed.** Your background, as recorded in the master guide, includes enterprise case ownership, customer and partner communication, complex investigations, critical-situation work, Engineering/Product escalation, and fix validation. Those habits transfer. The facilitation script, notes template, decision tree, and worked sessions in this Part are learner-authored fiction. They were not used with a customer, sent externally, run in Zoom, recorded, transcribed, or approved by Microsoft, Abnormal AI, Zoom, or any employer. This Part makes no claim about Abnormal or Zoom entitlement, configuration, policy, support procedure, recording rule, remote-control permission, data-handling route, or customer environment.
 >
 > **Currency and source access date:** August 24, 2026.
 >
@@ -16,7 +16,7 @@ The central rule is therefore:
 
 > **A meeting tool transports a conversation; it does not authorize access, collection, recording, control, disclosure, or change.**
 
-This Part teaches Arti to:
+This Part teaches you to:
 
 1. obtain and continuously recheck informed, voluntary, specific consent;
 2. create an outcome-based agenda with roles, scope, safety rules, and stopping conditions;
@@ -30,7 +30,7 @@ This Part teaches Arti to:
 10. treat recording and transcription as separate, high-consequence processing that must never be surprising;
 11. close with a shared summary, evidence limits, decisions, actions, owners, times, and follow-up route;
 12. use Zoom only as a current-documentation learning target unless actual access, entitlement, configuration, policy, and authorization are independently established; and
-13. describe Microsoft experience honestly without implying that Microsoft, Zoom, or Abnormal uses this exact script.
+13. describe prior experience honestly without implying that Microsoft, Zoom, or Abnormal uses this exact script.
 
 The everyday analogy is a **guided inspection of a locked office**. The office owner decides whether the visit occurs, which room is opened, what may be photographed, and whether anyone may touch equipment. The guide keeps the group on the inspection plan, the operator opens only approved doors, and the note-taker records observations and decisions. An invitation to enter the building does not authorize opening every drawer. The analogy stops where remote support involves technical access controls, organizational policies, contracts, law, security response, retention, accessibility, and platform-specific configuration that must be verified for the real session.
 
@@ -80,20 +80,20 @@ flowchart LR
 | Troubleshoot integrations and configurations | Uses agenda, roles, timeboxes, evidence, and decision logs | Avoids random clicking and unapproved changes | Session decision tree and worked cases |
 | Collaborate with Engineering, Product, CSM, and customers | Defines observer purpose, decision authority, and follow-up ownership | Parks out-of-scope items without losing them and sends decision-ready notes | Decision-log and action/owner/time templates |
 | Use Zoom as a named ecosystem learning target | Reads current official documentation and identifies feature/configuration questions | Separates feature existence from entitlement, enablement, policy, consent, and support authorization | Official-source learning matrix; no live Zoom claim |
-| Microsoft enterprise-support transfer | Applies real case ownership, live troubleshooting, communication, and escalation habits | Gives a sanitized Microsoft example grounded in her own actions | `DIRECT_PRODUCTION_TRANSFER` only when supported by a real memory |
+| enterprise-support transfer | Applies real case ownership, live troubleshooting, communication, and escalation habits | Gives a sanitized example from your own work grounded in your own actions | `DIRECT_PRODUCTION_TRANSFER` only when supported by a real memory |
 | Abnormal AI learning target | Discovers approved remote-session process before use | Asks about authorized channels, data, recording, remote control, notes, security stops, and escalation | First-week discovery checklist, not a policy claim |
 
 ## Candidate honesty note
 
-Arti can truthfully say that five years in Microsoft enterprise support developed transferable habits: preparing for customer calls, clarifying impact, asking focused questions, comparing expected and actual behavior, coordinating specialists, communicating under pressure, escalating evidence, validating fixes, and maintaining follow-through. If she uses a real Microsoft example, she should describe only her own authorized actions and a sanitized technical pattern. She must remove customer identity, tenant details, private communications, proprietary scripts, internal-only process, credentials, content, security-sensitive details, and any result she cannot support.
+You can truthfully say that several years in enterprise support developed transferable habits: preparing for customer calls, clarifying impact, asking focused questions, comparing expected and actual behavior, coordinating specialists, communicating under pressure, escalating evidence, validating fixes, and maintaining follow-through. If you us a real Microsoft example, you should describe only your own authorized actions and a sanitized technical pattern. You must remove customer identity, tenant details, private communications, proprietary scripts, internal-only process, credentials, content, security-sensitive details, and any result you cannot support.
 
-Those experiences do **not** prove that Microsoft used this exact facilitation script or that Abnormal and Microsoft have the same meeting platform, case process, roles, recording rules, remote-control rules, evidence routes, entitlement, change authority, legal obligations, or escalation paths. Microsoft Teams public documentation is used here only as a familiar product comparison and source of feature-boundary examples. Zoom remains learned architecture for Arti. Abnormal's actual channel, license, settings, policy, consent language, evidence system, privacy review, and support authority are unknown until learned through approved onboarding.
+Those experiences do **not** prove that Microsoft used this exact facilitation script or that Abnormal and Microsoft have the same meeting platform, case process, roles, recording rules, remote-control rules, evidence routes, entitlement, change authority, legal obligations, or escalation paths. Microsoft Teams public documentation is used here only as a familiar product comparison and source of feature-boundary examples. Zoom remains learned architecture for you. Abnormal's actual channel, license, settings, policy, consent language, evidence system, privacy review, and support authority are unknown until learned through approved onboarding.
 
 ### Evidence tiers for this Part
 
 | Capability or claim | Evidence label | Safe interview language | Claim to avoid |
 |---|---|---|---|
-| Microsoft live customer troubleshooting and case ownership | **DIRECT_PRODUCTION_TRANSFER** | “In Microsoft enterprise support I facilitated live investigations and maintained customer-facing ownership; I can share a sanitized example of my actions.” | “Microsoft used this Part's script” or disclosure of internal/customer detail |
+| Microsoft live customer troubleshooting and case ownership | **DIRECT_PRODUCTION_TRANSFER** | “In enterprise support I facilitated live investigations and maintained customer-facing ownership; I can share a sanitized example of my actions.” | “Microsoft used this Part's script” or disclosure of internal/customer detail |
 | Public Zoom and Teams feature concepts | **LEARNED_METHOD_FROM_CURRENT_OFFICIAL_SOURCES** | “I studied current official documentation to understand feature and configuration questions, then kept authorization separate.” | “The feature is available for this customer” without current product, plan, client, role, and settings evidence |
 | Facilitation script and notes template | **TEMPLATE_ONLY_SYNTHETIC_COMPLETED_IN_WRITING** | “I authored a vendor-neutral script and notes template for practice.” | “This is approved by Abnormal, Zoom, or Microsoft” |
 | Worked sessions A and B | **SYNTHETIC_WORKED_SESSIONS_COMPLETED_IN_WRITING** | “I walked two fictional sessions on paper and audited the decisions.” | “I ran these sessions” or “the customer confirmed the result” |
@@ -103,7 +103,7 @@ Those experiences do **not** prove that Microsoft used this exact facilitation s
 
 A safe interview bridge is:
 
-> “My direct foundation is Microsoft enterprise support: I have led customer-facing investigations, maintained an evidence trail, coordinated escalation, and validated fixes. For this transition I wrote two vendor-neutral remote-session walkthroughs plus a facilitation and notes template. I have not used Zoom or Abnormal's remote-support process in production. Before a real session I would verify the approved channel, participant roles, data and recording rules, remote-control boundaries, change authority, and escalation route. A meeting feature being visible would not be my authorization to use it.”
+> “My direct foundation is enterprise support: I have led customer-facing investigations, maintained an evidence trail, coordinated escalation, and validated fixes. For this transition I wrote two vendor-neutral remote-session walkthroughs plus a facilitation and notes template. I have not used Zoom or Abnormal's remote-support process in production. Before a real session I would verify the approved channel, participant roles, data and recording rules, remote-control boundaries, change authority, and escalation route. A meeting feature being visible would not be my authorization to use it.”
 
 ## 1. Meeting capability, authorization, and consent are different layers
 
@@ -717,7 +717,7 @@ The facilitator should avoid shame. Do not scold the operator for an accidental 
 
 ## 9. Zoom as a learning tool, not an authorization source
 
-Zoom is named in the role ecosystem, so Arti should understand the kinds of questions a support engineer asks about remote meeting behavior. She should not claim a Zoom account, administrator role, paid plan, production meeting, policy configuration, support entitlement, or feature operation unless she later obtains and can evidence that experience.
+Zoom is named in the role ecosystem, so you should understand the kinds of questions a support engineer asks about remote meeting behavior. You should not claim a Zoom account, administrator role, paid plan, production meeting, policy configuration, support entitlement, or feature operation unless you later obtains and can evidence that experience.
 
 Public product documentation can teach a **feature-question framework**:
 
@@ -736,11 +736,11 @@ Public product documentation can teach a **feature-question framework**:
 
 Zoom can also be used as a **learning subject without using Zoom**. Read current official documentation, draw the capability/configuration/authorization/consent/safety layers, compare those layers with Microsoft Teams public documentation, and rehearse a local paper script. That approach builds product vocabulary while preserving the honest evidence label `LEARNED_ARCHITECTURE`.
 
-### Microsoft transfer without tool equivalence
+### experience transfer without tool equivalence
 
 Microsoft public Teams documentation provides useful examples of why product behavior is conditional. Current pages describe screen and window sharing, giving/requesting control, platform limitations, meeting policies, recording permissions and storage, transcription settings, and licensing-dependent features. Those facts demonstrate the need to ask about role, client, meeting type, setting, and policy.
 
-They do not prove that Zoom uses the same controls, that Abnormal uses Teams or Zoom for support, or that Arti administered these features. A strong interview answer says: “The transferable method is to distinguish capability, configuration, authorization, consent, and safe execution. I would verify Zoom's current documentation and the employer's approved process rather than copy a Teams assumption.”
+They do not prove that Zoom uses the same controls, that Abnormal uses Teams or Zoom for support, or that you administered these features. A strong interview answer says: “The transferable method is to distinguish capability, configuration, authorization, consent, and safe execution. I would verify Zoom's current documentation and the employer's approved process rather than copy a Teams assumption.”
 
 ## 10. Session decision tree
 
@@ -1057,7 +1057,7 @@ flowchart TD
 | Control/change | Remote input or state change | Verbal caution | Explicit no-control/no-change boundary and pressure refusal |
 | Capture | Recording/transcript exists | Notice only | No recording/transcription; surprise capture is an automatic stop |
 | Follow-up | Vague “investigating” | Summary without owner/time | Facts, limits, decisions, actions, owners, absolute times, triggers |
-| Honesty | Claims platform/customer performance | Calls it practice | Microsoft transfer, synthetic writing, unperformed lab, Zoom/Abnormal unknowns separate |
+| Honesty | Claims platform/customer performance | Calls it practice | experience transfer, synthetic writing, unperformed lab, Zoom/Abnormal unknowns separate |
 
 **Lab automatic failure:** any real or uncertain-provenance data, credential, secret, customer content, personal data, customer contact, account, portal, meeting tool, screen broadcast, remote control, recording, transcription, screenshot, note bot, AI service, upload, external send, command, script, automation, configuration/permission/policy/data change, bypass, control disablement, broad collection, destructive step, copied proprietary script, unsupported root-cause/security/defect/entitlement/policy claim, invented Abnormal process, Zoom entitlement, Microsoft script, or claim that the lab was performed during authoring.
 
@@ -1099,13 +1099,13 @@ These sources anchor public product capabilities and general privacy/incident co
 | [Microsoft Learn - Manage Teams recording policies for meetings and events](https://learn.microsoft.com/en-us/microsoftteams/meeting-recording) | Public administrator guidance for recording policies, permissions, external participants, storage, privacy URL, explicit consent policy, and meeting/event distinctions | Page dated July 6, 2026 and updated in the fetched corpus August 18, 2026. Licensing, organizer/initiator policy, meeting type, storage, Purview, OneDrive/SharePoint, tenant settings, and compliance recording can differ. It does not authorize recording in a support case. |
 | [Microsoft Learn - Manage transcription and captions for Teams meetings](https://learn.microsoft.com/en-us/microsoftteams/meeting-transcription-captions) | Public administrator guidance distinguishing saved transcription from live captions and documenting policy/licensing dependencies | Page dated July 6, 2026 and updated in the fetched corpus August 18, 2026. Some functions require Teams Premium; organizer/user policy and platform support matter. Teams captions/transcripts are not Zoom equivalents or consent by themselves. |
 | [Microsoft Learn - Manage meeting policies for audio and video](https://learn.microsoft.com/en-us/microsoftteams/meeting-policies-audio-and-video) | Examples of per-user/per-organizer policy, client, environment, and feature-precedence boundaries | Page dated February 27, 2026. It is administrator documentation for Teams meetings/events and not proof of a customer's assigned policy, Zoom configuration, or support authority. |
-| [Microsoft Privacy Statement](https://privacy.microsoft.com/en-us/privacystatement) | Microsoft's public description of personal-data processing across covered products and services | Product-specific notices, contracts, tenant controls, regional law, employer policy, and current service configuration may add or change obligations. It is not Arti's prior internal procedure or Abnormal policy. |
+| [Microsoft Privacy Statement](https://privacy.microsoft.com/en-us/privacystatement) | Microsoft's public description of personal-data processing across covered products and services | Product-specific notices, contracts, tenant controls, regional law, employer policy, and current service configuration may add or change obligations. It is not your prior internal procedure or Abnormal policy. |
 | [NIST Privacy Framework](https://www.nist.gov/privacy-framework) | Voluntary enterprise privacy-risk management concepts that support minimization and governed processing | NIST describes a voluntary framework, not meeting consent language, a legal conclusion, a SaaS support policy, or product configuration. The site also surfaced Privacy Framework 1.1 as an initial public draft on the source date. |
 | [NIST SP 800-61 Rev. 3 - Incident Response Recommendations and Considerations](https://csrc.nist.gov/pubs/sp/800/61/r3/final) | Current final NIST guidance, published April 2025, for integrating incident response with cybersecurity risk management | NIST does not classify a specific accidental screen exposure, determine notification duties, authorize evidence collection, or define Abnormal's security route. Use current organizational incident process. |
 
 Source discipline:
 
-- Zoom support pages were session-redirected during automated validation. They are included as official dated anchors, not as evidence that a named feature is currently available to Arti or any customer.
+- Zoom support pages were session-redirected during automated validation. They are included as official dated anchors, not as evidence that a named feature is currently available to you or any customer.
 - Microsoft pages demonstrate that feature behavior depends on client, role, meeting type, policy, licensing, storage, and administrator choices. They do not establish Zoom behavior or Microsoft/Abnormal internal support procedures.
 - NIST supports governed privacy-risk and incident-response thinking. It does not create operational authority or legal advice.
 - No source supports credentials or customer content on screen, surprise recording/transcription, unapproved remote control, customer-state changes, bypass, broad collection, or destructive commands.
@@ -1141,9 +1141,9 @@ Source discipline:
 
 **Model answer:** I stop the relevant activity immediately. For sensitive material I say “stop sharing now,” avoid repeating or copying it, record only the category and time, determine whether any capture occurred, and route through current Privacy/Security policy. For surprise recording or transcription I stop capture and do not continue sharing while authorization is unresolved. A product notice is not enough; recording and transcription require current organizational authority, participant notice/consent, applicable law, storage, access, retention, and content scope. This Part's lab uses no actual capture.
 
-### Q8. What is your experience with Zoom and how does Microsoft experience transfer?
+### Q8. What is your experience with Zoom and how does prior experience transfer?
 
-**Model answer:** I do not claim direct Zoom production use, administration, entitlement, or Abnormal remote-support experience. My Zoom knowledge is learned from current official documentation and synthetic written practice. My direct transfer is five years of Microsoft enterprise support: customer communication, live investigation, evidence discipline, escalation, and fix validation. I use the transferable method, not tool equivalence: verify capability, configuration, authorization, consent, and safe execution for the actual product and policy before using any screen-sharing, control, recording, or transcription feature.
+**Model answer:** I do not claim direct Zoom production use, administration, entitlement, or Abnormal remote-support experience. My Zoom knowledge is learned from current official documentation and synthetic written practice. My direct transfer is several years of enterprise support: customer communication, live investigation, evidence discipline, escalation, and fix validation. I use the transferable method, not tool equivalence: verify capability, configuration, authorization, consent, and safe execution for the actual product and policy before using any screen-sharing, control, recording, or transcription feature.
 
 ## Memory Hooks
 
@@ -1187,7 +1187,7 @@ Source discipline:
 - [ ] I provide a written recap with facts, limits, decisions, actions, owners, times, and triggers.
 - [ ] I can state current product/version/policy boundaries for every Zoom/Microsoft source claim.
 - [ ] I describe SignalBridge Lab 110 as local, synthetic, unperformed, and without actual recording, transcription, meeting, broadcast, or platform use.
-- [ ] I can give a sanitized Microsoft transfer example without claiming this script was used there.
+- [ ] I can give a sanitized experience transfer example without claiming this script was used there.
 - [ ] I state honestly that I have no direct Zoom or Abnormal remote-support entitlement, administration, policy, or process evidence.
 
 [Next: Part 111 - Onboarding with CSMs Success Handoffs and Training](Part-111-onboarding-with-csms-success-handoffs-and-training.md)

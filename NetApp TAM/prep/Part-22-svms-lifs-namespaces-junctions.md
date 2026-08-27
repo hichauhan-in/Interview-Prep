@@ -1,12 +1,12 @@
 # Part 22 - SVMs, LIFs, Namespaces, Junctions, and Multi-Tenancy
 
-> **Section goal:** Understand how an ONTAP storage virtual machine turns cluster resources into a tenant- or service-scoped file, block, or supported object service through protocols, logical interfaces, routing, namespaces, junctions, volumes, identity, and delegated administration. By the end, Arti should be able to trace a request, distinguish NAS and SAN mobility, diagnose common path failures, and evaluate isolation without confusing logical tenancy with physical independence.
+> **Section goal:** Understand how an ONTAP storage virtual machine turns cluster resources into a tenant- or service-scoped file, block, or supported object service through protocols, logical interfaces, routing, namespaces, junctions, volumes, identity, and delegated administration. By the end, you should be able to trace a request, distinguish NAS and SAN mobility, diagnose common path failures, and evaluate isolation without confusing logical tenancy with physical independence.
 
 Covers index item **22** and maps directly to job-description responsibilities for customer-environment discovery, storage/network depth, multi-tenant risk, supportability, stability, tailored recommendations, service reviews, security, and escalation quality.
 
 Exact SVM types, LIF service policies/roles, protocol combinations, IPspaces, broadcast-domain behavior, failover policies, routing, namespace/junction rules, root-volume requirements, RBAC commands/APIs, delegation, limits, and NAS/SAN mobility change by ONTAP release, platform, and configuration. Verify current official release documentation, **Interoperability Matrix Tool (IMT)**, **Hardware Universe (HWU)**, application/host guidance, and authorized system evidence.
 
-> **No-production-NetApp boundary:** Arti does not claim production NetApp or ONTAP experience. Every tenant, address, path, policy, failure, and recommendation below is synthetic. Arti's factual strengths are Microsoft enterprise support, SharePoint/OneDrive permissions and data-service reasoning, Azure/VM/networking, Active Directory, analytics, and escalation ownership. She does **not** claim production ONTAP SVM, LIF, namespace, junction, routing, RBAC, or multi-tenancy administration experience.
+> **No-production-NetApp boundary:** You do not claim production NetApp or ONTAP experience. Every tenant, address, path, policy, failure, and recommendation below is synthetic. Your factual strengths are enterprise support, SharePoint/OneDrive permissions and data-service reasoning, Azure/VM/networking, Active Directory, analytics, and escalation ownership. You do **not** claim production ONTAP SVM, LIF, namespace, junction, routing, RBAC, or multi-tenancy administration experience.
 
 ---
 
@@ -594,11 +594,11 @@ flowchart TD
 
 ### JD Mapping
 
-| JD responsibility | Part 22 contribution | Arti's factual bridge and gap |
+| JD responsibility | Part 22 contribution | Your factual bridge and gap |
 |---|---|---|
 | Understand environment | Maps tenant/SVM/LIF/namespace/identity/storage and ownership | M365/AD/Azure dependency mapping transfers; ONTAP admin unproven |
 | Storage/network depth | Explains LIF roles, broadcast domains, failover groups, routes, namespace/junctions, SAN split | Conceptual/synthetic knowledge only |
-| Risk/stability | Finds failed paths, namespace gaps, cross-tenant exposure, shared fate and degraded LIF state | CRITSIT and network evidence method transfers |
+| Risk/stability | Finds failed paths, namespace gaps, cross-tenant exposure, shared fate and degraded LIF state | critical situation and network evidence method transfers |
 | Security/supportability | Builds RBAC/isolation tests and exact IMT/HWU/release record | Identity/permissions experience strong; NetApp tools/access gap explicit |
 | Recommendations | Connects evidence to tenant-safe action and validation | Customer advisory/follow-through transfers |
 | Service review | Reports tenant health, path tests, access risks, capacity and actions | Analytics/business reviews transfer |
@@ -608,7 +608,7 @@ flowchart TD
 
 ## 14. Fully synthetic scenario: Contoso Research and Finance tenants
 
-> **Synthetic case:** Contoso, its tenants, addresses, paths, events, and outcomes are fictional. This is not a NetApp design, internal process, or Arti production experience.
+> **Synthetic case:** Contoso, its tenants, addresses, paths, events, and outcomes are fictional. This is not a NetApp design, internal process, or documented production experience.
 
 ### Environment
 
@@ -685,14 +685,14 @@ flowchart TD
 
 ---
 
-## 15. Arti's Microsoft/Azure/identity/analytics bridge
+## 15. Your prior/Azure/identity/analytics bridge
 
 ```mermaid
 flowchart LR
     SPO[SharePoint/OneDrive production support] --> NS[Namespace permissions and user-operation reasoning]
     AD[Active Directory/Windows] --> ID[Identity group token DNS time and service-name dependencies]
     AZ[Azure VM/networking] --> NET[Virtual network routing failover and shared responsibility]
-    CRIT[CRITSIT/escalation] --> EVID[Scope timeline owners and safe action]
+    CRIT[Critical situation/escalation] --> EVID[Scope timeline owners and safe action]
     BI[Analytics/business reviews] --> RISK[Trend risk action and audit reporting]
     NS --> SVM[SVM/LIF synthetic analysis]
     ID --> SVM
@@ -713,7 +713,7 @@ flowchart LR
 
 ### Honest answer
 
-> "I understand SVMs as logical storage-service and administrative boundaries, LIFs as stable identities with home/current locations, and NAS namespaces as root volumes plus junction-mounted FlexVol volumes. I can reason about IPspaces, broadcast domains, failover groups, routes, RBAC, and shared-fate limits, and I keep SAN MPIO separate from NAS LIF movement. My production experience is Microsoft/Azure/identity support, not ONTAP SVM administration, so I would use current docs, authorized evidence, IMT/HWU and NetApp specialists for real changes."
+> "I understand SVMs as logical storage-service and administrative boundaries, LIFs as stable identities with home/current locations, and NAS namespaces as root volumes plus junction-mounted FlexVol volumes. I can reason about IPspaces, broadcast domains, failover groups, routes, RBAC, and shared-fate limits, and I keep SAN MPIO separate from NAS LIF movement. My production experience is cloud and identity support, not ONTAP SVM administration, so I would use current docs, authorized evidence, IMT/HWU and NetApp specialists for real changes."
 
 ---
 
@@ -804,7 +804,7 @@ flowchart LR
 18. Ask the TAM discovery questions and write a bounded recommendation.
 19. Recreate Contoso's VLAN failover and RBAC findings as separate workstreams.
 20. Complete all whiteboard drills, paper lab and Q1-Q8 aloud.
-21. State Arti's strengths and ONTAP SVM/LIF production gap precisely.
+21. State your strengths and ONTAP SVM/LIF production gap precisely.
 
 ---
 
@@ -882,9 +882,9 @@ flowchart LR
 
 **Follow-up depth:** Build a role for a file-service operator and show which cluster/network/protection actions remain denied.
 
-### Q8. How does your Microsoft background transfer, and what remains a gap?
+### Q8. How does your prior background transfer, and what remains a gap?
 
-> **Model answer:** "SharePoint/OneDrive and AD support taught me to separate service entry, namespace, identity, group/token, object permission, DNS/network and user outcome. Azure/VM work helps me distinguish logical tenancy from shared physical infrastructure, and CRITSIT/analytics work helps with evidence and risk. I have not administered ONTAP SVMs, LIFs, junctions or RBAC in production. I would use current documentation, authorized read-only evidence, IMT/HWU and NetApp specialists for real changes."
+> **Model answer:** "SharePoint/OneDrive and AD support taught me to separate service entry, namespace, identity, group/token, object permission, DNS/network and user outcome. Azure/VM work helps me distinguish logical tenancy from shared physical infrastructure, and critical situation/analytics work helps with evidence and risk. I have not administered ONTAP SVMs, LIFs, junctions or RBAC in production. I would use current documentation, authorized read-only evidence, IMT/HWU and NetApp specialists for real changes."
 
 **Follow-up depth:** Give one factual Microsoft permissions or network case and state which ONTAP service-policy, route, junction and role facts remain unproven.
 
@@ -907,7 +907,7 @@ flowchart LR
 - **SAN:** Multiple target paths plus MPIO/ALUA/ANA.
 - **RBAC:** Identity -> least role -> exact scope -> audit.
 - **Isolation:** Apartment walls still share elevators, power and master keys.
-- **Arti's bridge:** M365/AD/Azure reasoning transfers; ONTAP SVM operation remains unclaimed.
+- **Your bridge:** M365/AD/Azure reasoning transfers; ONTAP SVM operation remains unclaimed.
 
 ---
 
@@ -931,7 +931,7 @@ flowchart LR
 - [ ] Ask all TAM discovery questions and write a bounded recommendation.
 - [ ] Recreate Contoso's VLAN failover, volume/junction evidence, SAN separation and RBAC finding.
 - [ ] Complete all whiteboard drills, paper lab, self-test and Q1-Q8 aloud.
-- [ ] State Arti's strengths and ONTAP SVM/LIF production gap precisely.
+- [ ] State your strengths and ONTAP SVM/LIF production gap precisely.
 - [ ] Recheck exact ONTAP docs, IMT, HWU, service policies, commands/API fields, limits and support state before customer use.
 
 ---

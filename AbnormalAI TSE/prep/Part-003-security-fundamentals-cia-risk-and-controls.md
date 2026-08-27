@@ -2,15 +2,15 @@
 
 > **Purpose:** Build a beginner-first security mental model that connects information value, possible harm, risk decisions, and layered controls to enterprise email and Software as a Service support.
 >
-> **Evidence rule:** Microsoft support, networking, and analytics are used only as transferable experience. The examples and lab are synthetic. Nothing in this Part implies production operation of Abnormal AI, direct email-security work, or formal authority to accept a customer's risk.
+> **Evidence rule:** enterprise support, networking, and analytics are used only as transferable experience. The examples and lab are synthetic. Nothing in this Part implies production operation of Abnormal AI, direct email-security work, or formal authority to accept a customer's risk.
 >
 > **Currency and official-source access date:** August 24, 2026.
 
 ## Section Goal
 
-By the end of this Part, Arti should be able to explain security without beginning with tools or attack names. She should first identify what the organization values, how confidentiality, integrity, or availability could be harmed, what conditions make that harm possible, how likely and consequential the outcome may be, and which safeguards reduce risk. She should be able to apply that chain to an enterprise email or Software as a Service (SaaS) support case while collecting only the minimum authorized evidence.
+By the end of this Part, you should be able to explain security without beginning with tools or attack names. You should first identify what the organization values, how confidentiality, integrity, or availability could be harmed, what conditions make that harm possible, how likely and consequential the outcome may be, and which safeguards reduce risk. You should be able to apply that chain to an enterprise email or Software as a Service (SaaS) support case while collecting only the minimum authorized evidence.
 
-Arti should also be able to distinguish an asset from data, a threat from a vulnerability, an exposure from an exploit, and an attack surface from an active attack. She should be able to separate inherent risk from residual risk, risk appetite from risk tolerance, control design from operating effectiveness, and a temporary exception from a silent control bypass. She should recognize preventive, detective, corrective, deterrent, compensating, and recovery functions; administrative, technical, and physical implementation types; and the value and limits of defense in depth, least privilege, zero trust, shared responsibility, and evidence.
+You should also be able to distinguish an asset from data, a threat from a vulnerability, an exposure from an exploit, and an attack surface from an active attack. You should be able to separate inherent risk from residual risk, risk appetite from risk tolerance, control design from operating effectiveness, and a temporary exception from a silent control bypass. You should recognize preventive, detective, corrective, deterrent, compensating, and recovery functions; administrative, technical, and physical implementation types; and the value and limits of defense in depth, least privilege, zero trust, shared responsibility, and evidence.
 
 The practical outcome is a synthetic **CIA Risk Register and Control Classification Lab**. It produces an asset and data inventory, well-formed risk statements, transparent ordinal scoring, inherent and residual ratings, control classifications, evidence requirements, exception boundaries, and an escalation-ready owner map. It teaches L1 support judgment, not organizational risk authority.
 
@@ -29,7 +29,7 @@ The mappings below come from the supplied job description represented in the con
 | Recommendations and root-cause insights | Connects a finding to preventive, detective, corrective, compensating, or recovery action without overstating cause | Control classification and treatment table |
 | Engineering and Product collaboration | Supplies reproducible control evidence, expected/actual behavior, impact, and an explicit technical question | Escalation boundary and evidence package |
 | Security mindset and privacy | Uses classification, minimization, authorization, redaction, retention, and secure handling | Lab privacy and cleanup plan |
-| Microsoft 365 and enterprise SaaS context | Transfers tenant, identity, configuration, service, and customer-communication reasoning | Honest Microsoft-to-security bridge examples |
+| Microsoft 365 and enterprise SaaS context | Transfers tenant, identity, configuration, service, and customer-communication reasoning | Honest support-to-security bridge examples |
 | Networking, APIs, logs, and analytics | Uses layered dependencies, correlation identifiers, and transparent scoring as diagnostic aids | Attack-surface map, evidence matrix, and register analysis |
 | Customer focus, ownership, and intellectual honesty | Refuses unsupported certainty and unauthorized risk acceptance while keeping the case moving | Owner/escalation map and spoken Q&A |
 
@@ -39,13 +39,13 @@ Security language can make ordinary support experience sound broader than it is.
 
 | Evidence label | Honest use in this Part | Boundary that must remain explicit |
 |---|---|---|
-| **Production-transfer example** | Arti's CV-supported Microsoft enterprise support, escalation, CRITSIT communication, Engineering/Product collaboration, fix validation, KB/training, mentoring, and support analytics provide useful methods | These experiences do not become direct Abnormal AI, email-security, security-operations, or formal risk-governance experience |
+| **Production-transfer example** | Your CV-supported enterprise support, escalation, critical-situation communication, Engineering/Product collaboration, fix validation, KB/training, mentoring, and support analytics provide useful methods | These experiences do not become direct Abnormal AI, email-security, security-operations, or formal risk-governance experience |
 | **Local/public lab** | The risk register, scoring, control mapping, decision tree, and evidence list created from the fictional scenario demonstrate structured practice | A synthetic worksheet is not a production assessment, audit, penetration test, or customer risk decision |
 | **Learned architecture** | CIA, risk, control, zero-trust, least-privilege, and shared-responsibility concepts are grounded in official public sources | Framework knowledge does not prove operation of a vendor's internal control environment |
-| **No direct experience** | Arti has no claimed production operation of Abnormal AI or direct email-security tooling and no stated authority to accept enterprise security risk | She should say so directly and explain the closest transfer and escalation plan |
+| **No direct experience** | You have no claimed production operation of Abnormal AI or direct email-security tooling and no stated authority to accept enterprise security risk | You should say so directly and explain the closest transfer and escalation plan |
 | **Template only** | Risk statements, evidence requests, exceptions, and customer updates can be adapted after authorization and product-specific review | A template does not prove that an event happened or that a control is suitable for a real customer |
 
-Arti can truthfully say that Microsoft support taught her to identify customer impact, compare expected and actual behavior, gather evidence, coordinate dependencies, validate a fix, and communicate uncertainty. Her networking learning helps her reason about DNS, Transport Layer Security (TLS), Hypertext Transfer Protocol (HTTP), proxies, and service boundaries. Her analytics experience helps her organize trends and measurements. She must not turn those transfers into claims that she has classified a real Abnormal threat, administered an email-security platform, performed a formal control audit, or accepted risk for a customer.
+You can truthfully say that enterprise support taught you to identify customer impact, compare expected and actual behavior, gather evidence, coordinate dependencies, validate a fix, and communicate uncertainty. Your networking learning helps your reason about DNS, Transport Layer Security (TLS), Hypertext Transfer Protocol (HTTP), proxies, and service boundaries. Your analytics experience helps your organize trends and measurements. You must not turn those transfers into claims that you have classified a real Abnormal threat, administered an email-security platform, performed a formal control audit, or accepted risk for a customer.
 
 ## Beginner Term Primer
 
@@ -748,17 +748,17 @@ flowchart TD
 
 ### Lab purpose
 
-Build a transparent, synthetic risk register for an enterprise email/SaaS support scenario. The lab demonstrates that Arti can inventory assets, classify data, write risk statements, use an ordinal scale honestly, distinguish inherent and residual risk, classify controls, request evidence, and route decisions to authorized owners. It does not simulate operating Abnormal AI and does not produce a formal enterprise risk acceptance.
+Build a transparent, synthetic risk register for an enterprise email/SaaS support scenario. The lab demonstrates that you can inventory assets, classify data, write risk statements, use an ordinal scale honestly, distinguish inherent and residual risk, classify controls, request evidence, and route decisions to authorized owners. It does not simulate operating Abnormal AI and does not produce a formal enterprise risk acceptance.
 
 ### Honest artifact label
 
 Place this exact label at the top of every lab artifact:
 
-> **Local/public lab:** Produced from a synthetic CIA risk and control exercise. No Abnormal AI, customer, Microsoft production, direct email-security, formal audit, or risk-acceptance authority is implied.
+> **Local/public lab:** Produced from a synthetic CIA risk and control exercise. No Abnormal AI, customer, prior production, direct email-security, formal audit, or risk-acceptance authority is implied.
 
 ### Prerequisites
 
-1. A local folder controlled by Arti.
+1. A local folder controlled by you.
 2. A Markdown editor or spreadsheet application.
 3. This Part's term primer, risk-statement pattern, control tables, and troubleshooting tree.
 4. Synthetic identifiers only.
@@ -769,7 +769,7 @@ Place this exact label at the top of every lab artifact:
 
 | Scope item | Authorized in this lab | Out of scope |
 |---|---|---|
-| Environment | Local documents using the fictional `Contoso Signal Lab` scenario | Any real customer, employer, Abnormal, Microsoft production, or third-party tenant |
+| Environment | Local documents using the fictional `Contoso Signal Lab` scenario | Any real customer, employer, Abnormal, prior production, or third-party tenant |
 | Data | Synthetic messages, identifiers, roles, events, scores, and screenshots created locally | Real email, personal data, credentials, logs, domains, case IDs, or confidential architecture |
 | Network activity | None required | Scanning, sending test mail to others, visiting suspicious links, testing leaked credentials, or probing services |
 | Security action | Paper analysis, classification, evidence planning, and owner routing | Exploitation, bypass, malware handling, phishing simulation, or unauthorized control change |
@@ -982,12 +982,12 @@ Score each category from 0 to 4. The maximum is 48.
 
 ## Official Source Anchors
 
-All sources below were accessed on **August 24, 2026**. Standards and guidance can be revised, withdrawn, or superseded. Product, contractual, legal, and organizational requirements must be revalidated before use. The supplied master/CV remains the only source for Arti's production-experience claims.
+All sources below were accessed on **August 24, 2026**. Standards and guidance can be revised, withdrawn, or superseded. Product, contractual, legal, and organizational requirements must be revalidated before use. Your own CV remains the only source for your production-experience claims.
 
 | Official source title or family | URL | Access date | Use in this Part and caution |
 |---|---|---|---|
 | Supplied Abnormal AI Technical Support Engineer JD represented in the confirmed master | No public URL supplied | August 24, 2026 | Role responsibilities, case types, customer trust, and collaboration signals; no private workflow inferred |
-| Arti Thakur tailored CV/master evidence summary | Local supplied source; no public URL | August 24, 2026 | Microsoft support, networking learning, analytics, escalation, and communication transfers; no security-production details invented |
+| Your CV and master evidence summary | Local supplied source; no public URL | August 24, 2026 | enterprise support, networking learning, analytics, escalation, and communication transfers; no security-production details invented |
 | NIST Cybersecurity Framework 2.0 | <https://www.nist.gov/cyberframework> | August 24, 2026 | Govern, Identify, Protect, Detect, Respond, and Recover outcome framework; not a certification or one-size control list |
 | NIST SP 800-30 Revision 1, Guide for Conducting Risk Assessments | <https://csrc.nist.gov/pubs/sp/800/30/r1/final> | August 24, 2026 | Threat, vulnerability, likelihood, impact, and risk-assessment discipline; this lab is not a formal NIST assessment |
 | NIST SP 800-37 Revision 2, Risk Management Framework for Information Systems and Organizations | <https://csrc.nist.gov/pubs/sp/800/37/r2/final> | August 24, 2026 | Risk management lifecycle, authorization, monitoring, and organizational responsibility concepts |
@@ -1004,7 +1004,7 @@ All sources below were accessed on **August 24, 2026**. Standards and guidance c
 - **Official vendor guidance:** Microsoft's cloud responsibility page illustrates how provider/customer responsibilities change by service model; it does not define Abnormal's contract.
 - **Teaching framework:** The tables, lab scale, score bands, memory hooks, and scenario are created for study. They are not official NIST scoring rules or Abnormal methods.
 - **Synthetic evidence:** Contoso Signal Lab, its token, queue, events, scores, owners, times, and controls are fictional.
-- **Candidate evidence:** Only the supplied CV/master supports Arti's production-transfer claims.
+- **Candidate evidence:** Only your own CV and the master curriculum support your production-transfer claims.
 - **Prohibited inference:** No Abnormal control implementation, detection logic, email verdict, risk appetite, customer responsibility, severity, or internal process is asserted.
 
 ## Interview Q&A
@@ -1100,8 +1100,8 @@ All sources below were accessed on **August 24, 2026**. Standards and guidance c
 - [ ] I completed the CIA Risk Register and Control Classification Lab using only synthetic data.
 - [ ] My lab includes prerequisites, authorized scope, scenario, asset/data inventory, attack surface, six risk statements, transparent ordinal scoring, inherent/residual risk, control classifications, effectiveness evidence, owner boundaries, privacy cleanup, artifacts, and rubric.
 - [ ] My lab score is at least 38/48, with scope/authorization, scoring honesty, owner boundary, and evidence/privacy each at 3 or higher.
-- [ ] Every artifact carries the exact local/public lab label and contains no real customer, employer, Microsoft production, Abnormal, direct email-security, credential, or named-tool production evidence.
-- [ ] I can give one Microsoft support example only as transferable evidence and have invented no security event, metric, technical cause, or authority.
+- [ ] Every artifact carries the exact local/public lab label and contains no real customer, employer, prior production, Abnormal, direct email-security, credential, or named-tool production evidence.
+- [ ] I can give one enterprise support example only as transferable evidence and have invented no security event, metric, technical cause, or authority.
 - [ ] I can answer all eight interview questions aloud while keeping observations, inferences, decisions, and unknowns separate.
 - [ ] I checked all official-source anchors against the August 24, 2026 access date and separated official guidance, teaching framework, synthetic evidence, and candidate evidence.
 

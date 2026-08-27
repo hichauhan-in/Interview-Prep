@@ -2,7 +2,7 @@
 
 > **Purpose:** Provide a beginner-friendly, interview-ready dictionary for the full 120-Part curriculum, from cybersecurity and networking through Zscaler, security data, exposure management, SecOps, analytics, and technical success.
 >
-> **Currency and source note:** This reference was compiled from the curriculum's standards-based concepts and public product context reviewed on **2026-08-24**. Official product names and high-level descriptions are labeled as public context; general practices are not product guarantees; Northstar Meridian Holdings (NMH) examples are synthetic; and Arti's production experience remains limited to her factual background. Product packaging, interfaces, fields, algorithms, limits, and terminology can change, so verify current official documentation and licensed tenant behavior.
+> **Currency and source note:** This reference was compiled from the curriculum's standards-based concepts and public product context reviewed on **2026-08-24**. Official product names and high-level descriptions are labeled as public context; general practices are not product guarantees; Northstar Meridian Holdings (NMH) examples are synthetic; and your production experience remains limited to your factual background. Product packaging, interfaces, fields, algorithms, limits, and terminology can change, so verify current official documentation and licensed tenant behavior.
 >
 > **Safety and honesty:** A definition explains a concept; it does not prove that a capability is licensed, configured, effective, or present in a customer environment. Never turn study, public documentation, or an NMH exercise into a production claim.
 
@@ -959,7 +959,7 @@ Knowing a definition is the start, not the outcome. If a customer says `the prox
 | Official fact | Uses bounded public names and high-level context reviewed 2026-08-24 | Guarantee current licensing, fields, algorithms, limits, roadmap, or tenant behavior |
 | General practice | Explains standards and common engineering or operating methods | Claim every organization implements them identically |
 | Synthetic template | Uses NMH-style learning examples and reusable concepts | Represent a real customer, production result, or Zscaler internal schema |
-| Candidate experience | Links concepts to transferable Microsoft support, analytics, networking, mentoring, and AI learning | Convert study or lab work into production Zscaler or SecOps experience |
+| Candidate experience | Links concepts to transferable enterprise support, analytics, networking, mentoring, and AI learning | Convert study or lab work into production Zscaler or SecOps experience |
 | Interview use | Supplies precise language, analogies, distinctions, and follow-up questions | Replace speaking practice, current fact-checking, or honest gap statements |
 
 ## Completion checklist

@@ -34,9 +34,9 @@ After completing this Part, you should be able to:
 | Own L1 cases | Moves from intake to scope, owners, actions, validation, and escalation | Case workflow and customer updates |
 | Work with Engineering/Product/Security | Produces exact IDs, times, permissions, resource operations, and unknowns | Escalation packet template |
 | Protect customer trust | Minimizes secrets and personal data while giving precise guidance | Redaction and communication controls |
-| Use transferable Microsoft support experience honestly | Reuses hypothesis testing, critical-incident cadence, and fix validation | Production-transfer method, not platform claim |
+| Use transferable enterprise support experience honestly | Reuses hypothesis testing, critical-incident cadence, and fix validation | Production-transfer method, not platform claim |
 
-Your Microsoft enterprise support background is a strong bridge here. You already know that changing one configuration does not prove an end-to-end fix and that a critical case needs owners, timestamps, evidence, customer updates, and validation. Apply those habits to authorization state. The honest boundary is that Microsoft cloud support experience and identity fundamentals do not automatically equal production ownership of Entra incident response, Google Workspace OAuth operations, Abnormal AI, or a security operations center.
+Your prior enterprise support background is a strong bridge here. You already know that changing one configuration does not prove an end-to-end fix and that a critical case needs owners, timestamps, evidence, customer updates, and validation. Apply those habits to authorization state. The honest boundary is that Microsoft cloud support experience and identity fundamentals do not automatically equal production ownership of Entra incident response, Google Workspace OAuth operations, Abnormal AI, or a security operations center.
 
 ## Candidate honesty note
 

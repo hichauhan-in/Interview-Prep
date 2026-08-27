@@ -270,7 +270,7 @@ Say instead:
 
 That reframes non-reproduction as **evidence you gathered**, keeps ownership with you, and asks for one specific thing.
 
-> 💡 **Tie-in to your background:** this is the same discipline as a Microsoft escalation where the issue reproduces in one tenant and not another. The instinct to enumerate environmental differences systematically, rather than declare it unreproducible, is genuinely yours — and it is a senior habit.
+> 💡 **Tie-in to your background:** this is the same discipline as a enterprise escalation where the issue reproduces in one tenant and not another. The instinct to enumerate environmental differences systematically, rather than declare it unreproducible, is genuinely yours — and it is a senior habit.
 
 ---
 
@@ -399,7 +399,7 @@ That is a materially stronger answer than "check your redirect URI", and it took
 
 ## 11. Candidate Honesty Note
 
-- **Production transfer:** your CV lists REST APIs and Postman, and you have reproduced customer issues in a support context for five years. The instinct to reproduce before concluding is genuinely yours.
+- **Production transfer:** your CV lists REST APIs and Postman, and you have reproduced customer issues in a support context for several years. The instinct to reproduce before concluding is genuinely yours.
 - **New here:** the identity-specific flow scripting — PKCE generation, loopback code capture, local token decoding — and the discipline of minimisation as a named technique.
 - **The strongest thing you can say:** *"I don't deduce the cause, I demonstrate it. In one case I reproduced `invalid_grant` by adding a single trailing slash to the redirect URI on the token request, so I could hand the customer two commands differing by one character. That's much harder to argue with than an explanation, and Engineering can run it immediately if it turns out to be a defect."*
 - **A second strong point:** how you handle non-reproduction. *"I never say 'it works for me' and stop — that reads as dismissal. I say I reproduced their exact request successfully, which is itself useful because it eliminates the protocol, and then I enumerate the environmental differences and ask for one specific artifact."*

@@ -1,10 +1,10 @@
 # Part 63 - Stakeholder Mapping, Account Team Roles, RACI, and Governance
 
-> **Section goal:** Build a clear people-and-decision architecture around a customer environment. By the end, Arti should be able to map customer, account-team, Support, specialist, partner, and vendor personas; distinguish interest, influence, authority, accountability, responsibility, support, consultation, and information; design bounded RACI/RASCI views; establish governance forums, cadences, escalation paths, and handoffs; and detect absent, overloaded, or ambiguous ownership before it becomes customer risk.
+> **Section goal:** Build a clear people-and-decision architecture around a customer environment. By the end, you should be able to map customer, account-team, Support, specialist, partner, and vendor personas; distinguish interest, influence, authority, accountability, responsibility, support, consultation, and information; design bounded RACI/RASCI views; establish governance forums, cadences, escalation paths, and handoffs; and detect absent, overloaded, or ambiguous ownership before it becomes customer risk.
 
 Covers index item **63** and maps directly to job-description responsibilities for working under lead-TAM guidance, coordinating account teams, understanding customer environments, conducting operational reviews, influencing preventative remediation, managing escalations and special projects, contributing to cross-functional/SME teams, communicating across time zones, and improving customer experience and loyalty.
 
-**Explicit nonclaim:** Arti has not operated within a production NetApp account team, assigned NetApp or customer decision rights, or approved a live NetApp/customer RACI or governance model.
+**Explicit nonclaim:** You have not operated within a production NetApp account team, assigned NetApp or customer decision rights, or approved a live NetApp/customer RACI or governance model.
 
 **Privacy and access boundary:** Stakeholder maps can reveal names, titles, reporting lines, influence, availability, contact routes, commercial roles, risk owners, escalation paths, and organizational weaknesses. Store the minimum necessary information in approved systems, use role-based broad views, restrict personal/contact details, recertify access, and remove stale records.
 
@@ -14,7 +14,7 @@ Covers index item **63** and maps directly to job-description responsibilities f
 
 This Part provides a generic governance model, not a NetApp internal org chart, fixed service model, standard escalation ladder, universal RACI, commercial process, or authority to assign customer work. The actual contract, lead TAM, account leadership, Support process, partner scope, and customer governance control live responsibilities.
 
-> **No-production-NetApp boundary:** Arti's factual strengths are Microsoft enterprise and partner support, CRITSIT coordination, Product/Engineering collaboration, Technical Advisor experience, customer reviews, mentoring, stakeholder communication, and action tracking. She does **not** claim NetApp lead-TAM, Sales, Customer Success, Professional Services, Support, Product, Engineering, partner, or customer-governance authority. Her exact non-claim is: **she has not designed, approved, or operated a production NetApp account-team RACI, governance forum, escalation path, or handoff model.**
+> **No-production-NetApp boundary:** Your factual strengths are enterprise and partner support, critical-situation coordination, Product/Engineering collaboration, technical advisor experience, customer reviews, mentoring, stakeholder communication, and action tracking. You do **not** claim NetApp lead-TAM, Sales, Customer Success, Professional Services, Support, Product, Engineering, partner, or customer-governance authority. Your exact non-claim is: **you have not designed, approved, or operated a production NetApp account-team RACI, governance forum, escalation path, or handoff model.**
 
 ---
 
@@ -617,14 +617,14 @@ These outcomes demonstrate a paper governance method only.
 
 ---
 
-## 12. Arti's factual bridge and JD Mapping
+## 12. Your factual bridge and JD Mapping
 
 ```mermaid
 flowchart LR
-    CRIT[CRITSIT and enterprise support] --> COORD[Owners, cadence, escalation and handoff]
+    CRIT[Critical situation and enterprise support] --> COORD[Owners, cadence, escalation and handoff]
     ENG[Product and Engineering work] --> BOUND[Technical evidence and role boundaries]
     PART[Partner customers] --> ECO[Multi-party ecosystem communication]
-    TA[Technical Advisor and mentoring] --> INFL[Influence, coaching and quality]
+    TA[technical advisor and mentoring] --> INFL[Influence, coaching and quality]
     COORD --> METHOD[Transferable governance method]
     BOUND --> METHOD
     ECO --> METHOD
@@ -634,12 +634,12 @@ flowchart LR
 
 ### Factual tie
 
-| Arti evidence | Transfer | Boundary |
+| Transferable evidence | Transfer | Boundary |
 |---|---|---|
-| Microsoft CRITSIT/enterprise support | Multi-role incident ownership and checkpoints | Not NetApp lead-TAM authority |
+| enterprise critical situation/enterprise support | Multi-role incident ownership and checkpoints | Not NetApp lead-TAM authority |
 | Product/Engineering collaboration | Exact asks, escalation packages and technical review | Not NetApp Product/Engineering route ownership |
 | Partner and customer work | Customer-partner-vendor boundary communication | Contract scopes must be confirmed |
-| Technical Advisor program | Advisory influence and broader team contribution | Not equivalent to NetApp TAM title |
+| technical-advisor programme | Advisory influence and broader team contribution | Not equivalent to NetApp TAM title |
 | Mentoring/onboarding/interviews | Support, coaching and delegation awareness | Manager/accountability boundaries remain |
 | Business reviews/analytics | Governance evidence and action aging | No live NetApp account data |
 
@@ -658,7 +658,7 @@ flowchart LR
 
 ### Honest interview statement
 
-> `I would map roles by customer outcome, interest, influence, decision rights, evidence, availability and dependencies; then use a bounded RACI or RASCI for meaningful activities. I would charter forums by purpose and authority, define escalation as a request for attention/expertise/resource, require acceptance-based handoffs, and surface absent or overloaded roles early. My production examples are from Microsoft support, not a NetApp account team.`
+> `I would map roles by customer outcome, interest, influence, decision rights, evidence, availability and dependencies; then use a bounded RACI or RASCI for meaningful activities. I would charter forums by purpose and authority, define escalation as a request for attention/expertise/resource, require acceptance-based handoffs, and surface absent or overloaded roles early. My production examples are from enterprise support, not a NetApp account team.`
 
 ---
 
@@ -727,7 +727,7 @@ Inject:
 7. Deliver a complete handoff and follow-the-sun update.
 8. Detect absent, overloaded, ambiguous and single-threaded roles.
 9. Recreate Summit Public Health governance.
-10. State Arti's exact nonclaim.
+10. State your exact nonclaim.
 
 ### Lab pass checklist
 
@@ -802,7 +802,7 @@ Inject:
 
 ### Q8. How does your background transfer, and what remains a gap?
 
-> **Model answer:** `Microsoft CRITSITs, partner support, Product/Engineering collaboration, Technical Advisor work and mentoring give me cross-functional ownership, escalation and handoff experience. I have not operated a NetApp account-team governance model, so actual roles, service scope, authority and escalation paths require lead-TAM and customer validation.`
+> **Model answer:** `enterprise critical situations, partner support, Product/Engineering collaboration, technical advisor work and mentoring give me cross-functional ownership, escalation and handoff experience. I have not operated a NetApp account-team governance model, so actual roles, service scope, authority and escalation paths require lead-TAM and customer validation.`
 
 ---
 
@@ -822,7 +822,7 @@ Inject:
 - **Escalation:** Add authority, expertise, resource or priority; do not abandon.
 - **Handoff:** Receiving owner accepts context, next action and checkpoint.
 - **Overload:** Portfolio choice and continuity risk, not a character judgment.
-- **Arti's bridge:** Microsoft coordination transfers; NetApp account authority does not.
+- **Your bridge:** Microsoft coordination transfers; NetApp account authority does not.
 
 ---
 

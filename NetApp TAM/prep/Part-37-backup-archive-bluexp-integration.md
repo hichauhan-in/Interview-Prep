@@ -1,6 +1,6 @@
 # Part 37 - Backup, Archive, BlueXP Data Protection, and Ecosystem Integration
 
-> **Section goal:** Build a defensible backup and archive model from workload to recovery outcome, including independent copies, control/catalog/data planes, application coordination, object targets, credentials, encryption, immutability, retention, monitoring, ownership, cost, and restore testing. By the end, Arti should be able to discuss the current NetApp Console and NetApp Backup and Recovery context without making stale BlueXP naming or feature promises, and evaluate ecosystem integrations by evidence rather than logo compatibility.
+> **Section goal:** Build a defensible backup and archive model from workload to recovery outcome, including independent copies, control/catalog/data planes, application coordination, object targets, credentials, encryption, immutability, retention, monitoring, ownership, cost, and restore testing. By the end, you should be able to discuss the current NetApp Console and NetApp Backup and Recovery context without making stale BlueXP naming or feature promises, and evaluate ecosystem integrations by evidence rather than logo compatibility.
 
 Covers index item **37** and maps directly to job-description responsibilities for customer discovery, storage and cloud depth, risk mitigation, supportability, strategic planning, analytics, service reviews, cross-functional ownership, and executive communication.
 
@@ -8,7 +8,7 @@ Covers index item **37** and maps directly to job-description responsibilities f
 
 This Part gives no universal 3-2-1 design, air-gap claim, cost, retention, restore time, durability, immutability, or support guarantee. It contains no production commands. Named products and patterns are architectural orientation only; current support requires official NetApp, application, hypervisor/container, cloud-provider, Interoperability Matrix Tool (IMT), Hardware Universe (HWU), and entitlement evidence where applicable.
 
-> **No-production-NetApp boundary:** Arti does not claim production NetApp Console, BlueXP, NetApp Backup and Recovery, SnapCenter, NDMP, tape, or ONTAP backup administration. Every organization, agent, object target, policy, credential, backup, cost, incident, and restore result below is synthetic. Her factual strengths are Microsoft enterprise support, Azure/cloud, SharePoint/OneDrive data protection concepts, networking, identity, CRITSIT ownership, analytics, and customer communication. The explicit non-claim is: **she has not activated a production NetApp backup service, deployed a Console agent, registered production systems/object targets, configured DataLock/immutability/retention, integrated SnapCenter or a third-party backup application, operated NDMP/tape, or restored a NetApp customer workload.**
+> **No-production-NetApp boundary:** You do not claim production NetApp Console, BlueXP, NetApp Backup and Recovery, SnapCenter, NDMP, tape, or ONTAP backup administration. Every organization, agent, object target, policy, credential, backup, cost, incident, and restore result below is synthetic. Your factual strengths are enterprise support, Azure/cloud, SharePoint/OneDrive data protection concepts, networking, identity, critical-situation ownership, analytics, and customer communication. The explicit non-claim is: **you have not activated a production NetApp backup service, deployed a Console agent, registered production systems/object targets, configured DataLock/immutability/retention, integrated SnapCenter or a third-party backup application, operated NDMP/tape, or restored a NetApp customer workload.**
 
 ---
 
@@ -558,12 +558,12 @@ flowchart TD
 
 ### JD Mapping
 
-| JD responsibility | Part 37 contribution | Arti's factual bridge and gap |
+| JD responsibility | Part 37 contribution | Your factual bridge and gap |
 |---|---|---|
 | Understand environment | Maps workload through control/catalog/data/target/recovery | Azure/M365 architecture transfer |
 | Analyze/report data | Tracks jobs, coverage, retention, cost, tests, RPO/RTO | Analytics strength transfers |
 | Strategic planning | Designs layered copies, lifecycle, ownership and tests | Advisory/MBA transfer |
-| Risk/stability | Exposes shared control, mutable copies, app/catalog/key gaps | CRITSIT/security method transfers |
+| Risk/stability | Exposes shared control, mutable copies, app/catalog/key gaps | critical situation/security method transfers |
 | Supportability | Requires exact workload/integration/source/target evidence | No gated/customer result claimed |
 | Service reviews | Turns protection evidence into actions and residual risk | Review/leadership experience transfers |
 | Cross-functional work | Coordinates app/storage/cloud/security/legal/vendors | Product-group coordination transfers |
@@ -572,7 +572,7 @@ flowchart TD
 
 ## 16. Fully synthetic scenario: Contoso Legal backup and archive gap
 
-> **Synthetic case:** Contoso Legal, every workload, account, backup, metric, bill, incident, and result below is fictional. It is not a NetApp customer, benchmark, internal process, tool result, or Arti's production work.
+> **Synthetic case:** Contoso Legal, every workload, account, backup, metric, bill, incident, and result below is fictional. It is not a NetApp customer, benchmark, internal process, tool result, or your production work.
 
 ### Environment
 
@@ -657,13 +657,13 @@ flowchart TD
 
 ---
 
-## 17. Arti's factual transfer and honest positioning
+## 17. Your factual transfer and honest positioning
 
 ```mermaid
 flowchart LR
     AZ[Azure cloud identity networking cost] --> OBJ[Object target IAM key egress shared responsibility]
     M365[SharePoint/OneDrive versions retention] --> GOV[Recovery scope catalog retention user outcome]
-    CRIT[CRITSIT] --> REC[Restore workstreams evidence communication]
+    CRIT[Critical situation] --> REC[Restore workstreams evidence communication]
     BI[Analytics/MBA] --> KPI[Coverage failures aging cost and test dashboards]
     OBJ --> METHOD[NetApp backup conceptual method]
     GOV --> METHOD
@@ -672,7 +672,7 @@ flowchart LR
     METHOD --> LAB[Future authorized service lab/SME review]
 ```
 
-> **Honest interview answer:** "I separate snapshots, replication, backup, and archive, then map control, catalog, data, identity/key, target, and application planes. I understand the current public naming as NetApp Console and NetApp Backup and Recovery, with BlueXP as historical context, and I evaluate 3-2-1-1-0, immutability, air-gap, cost, and integrations by tested evidence. My production background is Microsoft support and Azure/M365, not NetApp backup operations. I would verify current workload/target support and use authorized specialists before changes."
+> **Honest interview answer:** "I separate snapshots, replication, backup, and archive, then map control, catalog, data, identity/key, target, and application planes. I understand the current public naming as NetApp Console and NetApp Backup and Recovery, with BlueXP as historical context, and I evaluate 3-2-1-1-0, immutability, air-gap, cost, and integrations by tested evidence. My production background is enterprise support and Azure/M365, not NetApp backup operations. I would verify current workload/target support and use authorized specialists before changes."
 
 ---
 
@@ -750,7 +750,7 @@ flowchart LR
 13. Apply ecosystem evaluation and troubleshooting trees.
 14. Recreate Contoso Legal's four workstreams.
 15. Complete paper lab and Q1-Q8 aloud.
-16. State Arti's transfer and gap accurately.
+16. State your transfer and gap accurately.
 
 ---
 
@@ -818,7 +818,7 @@ flowchart LR
 
 ### Q8. How does your background transfer, and what remains a gap?
 
-> **Model answer:** "Azure gives me IAM, keys, networking, object and cost discipline; M365 gives me versions, retention and user recovery context; CRITSIT and analytics give me evidence, restore workstreams and reporting. I understand NetApp backup architecture conceptually but have not operated Console, Backup and Recovery, SnapCenter or NDMP in production. I would validate current docs and use authorized specialists before changes."
+> **Model answer:** "Azure gives me IAM, keys, networking, object and cost discipline; M365 gives me versions, retention and user recovery context; critical situation and analytics give me evidence, restore workstreams and reporting. I understand NetApp backup architecture conceptually but have not operated Console, Backup and Recovery, SnapCenter or NDMP in production. I would validate current docs and use authorized specialists before changes."
 
 ---
 
@@ -842,7 +842,7 @@ flowchart LR
 - **Archive tier:** Cheap standing storage can mean slower/costlier retrieval.
 - **Green job:** Intermediate evidence, not recoverability.
 - **Restore:** Catalog -> target -> destination -> application -> transaction.
-- **Arti's bridge:** Cloud/recovery rigor transfers; NetApp operation does not.
+- **Your bridge:** Cloud/recovery rigor transfers; NetApp operation does not.
 
 ---
 
@@ -862,7 +862,7 @@ flowchart LR
 - [ ] Model storage, operations, search, retrieval, egress, license, and labor costs.
 - [ ] Apply restore matrix, troubleshooting tree, support boundaries, and recommendation model.
 - [ ] Recreate Contoso Legal's synthetic analysis and complete paper lab.
-- [ ] Answer Q1-Q8 aloud and state Arti's production boundary.
+- [ ] Answer Q1-Q8 aloud and state your production boundary.
 - [ ] Recheck current NetApp/provider/app/IMT/HWU/Support evidence before customer use.
 
 ---

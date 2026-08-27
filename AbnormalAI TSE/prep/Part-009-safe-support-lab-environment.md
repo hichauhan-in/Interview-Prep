@@ -2,17 +2,17 @@
 
 > **Purpose:** Build repeatable support skills in a deliberately harmless environment where authorization, scope, data, network exposure, tool behavior, evidence, cleanup, retention, and interview claims are controlled before testing begins.
 >
-> **Evidence rule:** A lab proves only the method and artifact actually completed. Arti's Microsoft enterprise support background is production evidence within its stated CV scope; every environment designed here is local/public/synthetic practice and does not establish Abnormal AI, direct email-security, named security-tool, penetration-testing, or production administration experience.
+> **Evidence rule:** A lab proves only the method and artifact actually completed. Your prior enterprise support background is production evidence within its stated CV scope; every environment designed here is local/public/synthetic practice and does not establish Abnormal AI, direct email-security, named security-tool, penetration-testing, or production administration experience.
 >
 > **Currency and official-source access date:** August 24, 2026.
 
 ## Section Goal
 
-By the end of this Part, Arti should be able to design a support lab before selecting commands or tools. She should be able to state the learning objective, authority, in-scope systems, prohibited activity, data classification, network boundaries, safety controls, evidence plan, success criteria, stop conditions, retention, cleanup, and honest-experience label.
+By the end of this Part, you should be able to design a support lab before selecting commands or tools. You should be able to state the learning objective, authority, in-scope systems, prohibited activity, data classification, network boundaries, safety controls, evidence plan, success criteria, stop conditions, retention, cleanup, and honest-experience label.
 
-She should be able to choose among **isolated**, **local**, **public**, and **synthetic** methods; use harmless reserved example domains and documentation Internet Protocol (IP) addresses correctly; and understand that reserved addresses are writing aids, not targets to probe. She should be able to plan local Simple Mail Transfer Protocol (SMTP), Hypertext Transfer Protocol (HTTP) Application Programming Interface (API), webhook, Domain Name System (DNS), and log simulations without sending phishing, visiting malicious content, scanning third parties, bypassing controls, or exposing a listener to an untrusted network.
+You should be able to choose among **isolated**, **local**, **public**, and **synthetic** methods; use harmless reserved example domains and documentation Internet Protocol (IP) addresses correctly; and understand that reserved addresses are writing aids, not targets to probe. You should be able to plan local Simple Mail Transfer Protocol (SMTP), Hypertext Transfer Protocol (HTTP) Application Programming Interface (API), webhook, Domain Name System (DNS), and log simulations without sending phishing, visiting malicious content, scanning third parties, bypassing controls, or exposing a listener to an untrusted network.
 
-She should be able to handle secrets, personal information, message content, logs, packet/HTTP captures, screenshots, timestamps, time zones, identifiers, manifests, hashes, versions, and transformations safely. She should make a lab reproducible by recording prerequisites, exact inputs, expected and actual results, environment/version details, limitations, and cleanup. She should clearly label whether an artifact is a **production-transfer example**, **local/public lab**, **learned architecture**, or **template only**.
+You should be able to handle secrets, personal information, message content, logs, packet/HTTP captures, screenshots, timestamps, time zones, identifiers, manifests, hashes, versions, and transformations safely. You should make a lab reproducible by recording prerequisites, exact inputs, expected and actual results, environment/version details, limitations, and cleanup. You should clearly label whether an artifact is a **production-transfer example**, **local/public lab**, **learned architecture**, or **template only**.
 
 The practical outcome is a **Harbor Glass Safe-Lab Charter and Artifact Design Lab**. It creates a tabletop charter, exposure decision, synthetic data dictionary, local simulation topology, evidence manifest design, timestamp/correlation convention, artifact directory plan, run record, stop/cleanup checklist, retention review, risk register, and validation rubric. The exercise designs the environment; it creates no additional workspace files, starts no service, and contacts no network target.
 
@@ -37,9 +37,9 @@ The practical outcome is a **Harbor Glass Safe-Lab Charter and Artifact Design L
 
 | Evidence tier | Honest statement | Boundary to preserve |
 |---|---|---|
-| **Production-transfer example** | Arti's CV-supported Microsoft enterprise support, CRITSITs, customer/partner communication, Engineering/Product escalation, fix validation, KB/training, mentoring, and support analytics can inform lab goals and interview examples | Do not place invented case details or production data in a lab; do not broaden workload/tool claims beyond the master |
-| **Local/public lab** | Arti designed or completed a bounded exercise using localhost, reserved/public-safe data, and inspectable artifacts | It is not customer operation, Abnormal use, email-security operations, or production scale |
-| **Learned architecture** | Arti can explain an official documented product/protocol flow she has not operated | A diagram or reading note is not hands-on experience |
+| **Production-transfer example** | Your CV-supported enterprise support, critical situations, customer/partner communication, Engineering/Product escalation, fix validation, KB/training, mentoring, and support analytics can inform lab goals and interview examples | Do not place invented case details or production data in a lab; do not broaden workload/tool claims beyond the master |
+| **Local/public lab** | You designed or completed a bounded exercise using localhost, reserved/public-safe data, and inspectable artifacts | It is not customer operation, Abnormal use, email-security operations, or production scale |
+| **Learned architecture** | You can explain an official documented product/protocol flow you have not operated | A diagram or reading note is not hands-on experience |
 | **No direct experience** | Abnormal AI, direct email-security operations, Google Workspace, Slack, Okta, Splunk, CrowdStrike, Cortex SOAR, Zendesk, Salesforce, Jira, and Zoom remain no-direct-production-experience boundaries unless separately supported later | A vendor-neutral simulation cannot silently become named-product experience |
 | **Template only** | A lab charter, runbook, data dictionary, or directory design exists for future authorized use | A template is not evidence that the lab ran or produced the expected output |
 
@@ -739,7 +739,7 @@ All sources below were accessed on **August 24, 2026**. Protocol standards and v
 | Official source title or family | URL | Use | Caution |
 |---|---|---|---|
 | Supplied Abnormal AI Technical Support Engineer JD represented in the master | No public URL supplied | Role and lab/learning relevance | No private product or lab process inferred |
-| Arti Thakur tailored CV/master evidence summary | Local supplied source; no public URL | Production-transfer boundaries and tool-familiarity context | No unsupported production use inferred |
+| Your CV and master evidence summary | Local supplied source; no public URL | Production-transfer boundaries and tool-familiarity context | No unsupported production use inferred |
 | RFC 2606, Reserved Top Level DNS Names | <https://www.rfc-editor.org/rfc/rfc2606> | Reserved example domains | Reserved names are not owned test services |
 | IANA Example Domains | <https://www.iana.org/help/example-domains> | Official explanation of example domains | Ordinary browsing does not authorize testing unrelated services |
 | RFC 5737, IPv4 Address Blocks Reserved for Documentation | <https://www.rfc-editor.org/rfc/rfc5737> | TEST-NET IPv4 ranges | Documentation ranges are not scan targets |
@@ -757,7 +757,7 @@ All sources below were accessed on **August 24, 2026**. Protocol standards and v
 - RFCs define protocols and reserved values; local simulations do not prove a named SaaS implementation.
 - NIST planning guidance does not grant authorization for testing.
 - Harbor Glass is design-only, and no files beyond this requested Part should be inferred.
-- Arti's named-tool familiarity remains bounded by the supplied CV/master; Abnormal and adjacent named platforms remain explicit no-direct-experience areas.
+- Your named-tool familiarity remains bounded by the supplied CV/master; Abnormal and adjacent named platforms remain explicit no-direct-experience areas.
 
 ## Interview Q&A
 
@@ -807,7 +807,7 @@ All sources below were accessed on **August 24, 2026**. Protocol standards and v
 
 **Question:** How would you describe your lab experience without overstating it?
 
-**Model answer:** I name the environment and limit first: “This was a localhost synthetic lab, not production and not the named vendor.” Then I describe the protocol or method, exact fixture, artifact, observation, and what it does not prove. My Microsoft enterprise support experience is separate production-transfer evidence. I do not claim Abnormal, email-security operations, Splunk, CrowdStrike, Cortex SOAR, or other named platforms from a vendor-neutral simulation.
+**Model answer:** I name the environment and limit first: “This was a localhost synthetic lab, not production and not the named vendor.” Then I describe the protocol or method, exact fixture, artifact, observation, and what it does not prove. My prior enterprise support experience is separate production-transfer evidence. I do not claim Abnormal, email-security operations, Splunk, CrowdStrike, Cortex SOAR, or other named platforms from a vendor-neutral simulation.
 
 ## 30-Second Memory Hooks
 

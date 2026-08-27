@@ -1,10 +1,10 @@
 # Part 32 - Zscaler Cloud, Service Edges, Control/Data Planes, and Traffic Flow
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 >
 > **Purpose:** Build an evidence-led model of the Zscaler cloud, public and private service-edge terminology, management/control/data/logging planes, traffic forwarding and selection, resilience, performance, dependencies, path asymmetry, health, and troubleshooting without inventing proprietary internals.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every NMH user, site, tunnel, address, service edge, path, application, log, outage, metric, capacity value, and outcome is synthetic. Arti has strong Microsoft 365 connectivity, escalation, trace, analytics, and customer-coordination experience, but direct production administration of Zscaler clouds, service edges, forwarding, or private service edges is not established.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every NMH user, site, tunnel, address, service edge, path, application, log, outage, metric, capacity value, and outcome is synthetic. You have strong Microsoft 365 connectivity, escalation, trace, analytics, and customer-coordination experience, but direct production administration of Zscaler clouds, service edges, forwarding, or private service edges is not established.
 >
 > **Currency caveat:** The source snapshot is **2026-08-24**. Zscaler cloud names, data centers, service-edge addresses, readiness states, forwarding methods, configuration requirements, portals, limits, maintenance processes, availability, product terms, licenses, and user interfaces change. Use the customer's assigned cloud, current Zscaler Config portal, authenticated help, release notes, contract, tenant, and Support guidance. Never copy addresses or design rules from this lesson into production.
 
@@ -16,7 +16,7 @@ Think of a global parcel network. A customer creates shipping rules in a managem
 
 The analogy has limits. Zscaler delivers several products and traffic models. Internet/SaaS access, private-application access, endpoint forwarding, branch tunnels, private service edges, workload traffic, and logs do not all use one identical flow. The vendor's internal algorithms and topology are proprietary and change. This Part teaches a logical model and an evidence method, not an undocumented blueprint.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Proof artifact |
 |---|---|---|
@@ -39,12 +39,12 @@ By the end, Arti should be able to:
 
 ## JD Mapping
 
-| Role expectation | Part 32 capability | TSM artifact | Arti bridge and boundary |
+| Role expectation | Part 32 capability | TSM artifact | experience bridge and boundary |
 |---|---|---|---|
 | Analyze complex environments | Map endpoint, site, carrier, tunnel, edge, egress, destination, identity, and logs | End-to-end dependency map | M365 path isolation transfers; Zscaler objects are new |
 | Identify risk | Find single points, bypasses, stale allowlists, asymmetry, and logging gaps | Architecture risk register | Product-specific severity needs specialist validation |
 | Tailor mitigation | Choose path diversity, staged forwarding, health tests, or app correction | Options and tradeoff record | Do not prescribe undocumented topology |
-| Resolve escalations | Separate management, control, data, logging, and destination failures | Parallel workstream plan | CRITSIT discipline transfers |
+| Resolve escalations | Separate management, control, data, logging, and destination failures | Parallel workstream plan | critical-situation discipline transfers |
 | Advocate best practices | Baseline, pilot, failover test, maintenance readiness, and rollback | Operational-readiness plan | Change validation is a direct strength |
 | Partner with Support/Product | Provide topology, timestamps, edge/path identity, and controlled comparisons | Escalation evidence package | Never require proprietary inference from customer |
 | Communicate outcomes | Translate resilient paths into availability, risk, and user experience | Executive brief | Avoid universal uptime/performance claims |
@@ -773,15 +773,15 @@ sequenceDiagram
     T->>T: Coordinate bounded correction and dual-path validation
 ```
 
-## Arti's Microsoft-to-Zscaler bridge
+## Your experience bridge to Zscaler
 
-| Microsoft production strength | Part 32 transfer | New Zscaler learning | Honest language |
+| prior production strength | Part 32 transfer | New Zscaler learning | Honest language |
 |---|---|---|---|
 | OneDrive/SharePoint endpoint-to-cloud mapping | User/site-to-edge-to-destination mapping | Product forwarding and service-edge evidence | "I know the method; I would verify Zscaler-specific state." |
 | DNS/TCP/TLS/HTTP trace analysis | First leg, service processing, second leg | Edge/path identifiers and logs | "I would localize, not infer internals." |
 | Proxy/PAC troubleshooting | Explicit path and bypass reasoning | ZIA forwarding profiles and policy | "PAC experience is adjacent, not ZIA deployment proof." |
 | Service health versus user evidence | Plane and scope separation | Zscaler status/support surfaces | "A green portal is one signal." |
-| CRITSIT coordination | Parallel ISP, identity, Zscaler, app, and logging tracks | Product support/escalation process | "I preserve evidence and owner boundaries." |
+| Critical-situation coordination | Parallel ISP, identity, Zscaler, app, and logging tracks | Product support/escalation process | "I preserve evidence and owner boundaries." |
 | Fix validation | Failover, failback, security, experience, and logs | Supported resilience tests | "Recovery includes path and policy correctness." |
 | Power BI/SQL analytics | Baselines, percentiles, path cohorts, log reconciliation | Zscaler schemas and limits | "I validate grain and completeness before conclusions." |
 
@@ -936,7 +936,7 @@ All pages were reviewed on **2026-08-24**. Zscaler sources establish current pub
 
 **Model answer:** I would define the exact operation and divide time into endpoint, local/ISP, service-edge setup and processing, edge-to-destination, destination front door, and application/dependency processing. I would compare representative cohorts one variable at a time, use percentiles, inspect loss/retries/TLS/HTTP and effective policy, and correlate destination logs. Ping, city labels, bypass success, or a green dashboard alone cannot assign cause.
 
-### Q8. How does your Microsoft background help with service-edge troubleshooting?
+### Q8. How does your prior background help with service-edge troubleshooting?
 
 **Model answer:** I have production experience correlating endpoint, DNS, TCP, TLS, HTTP, proxy, Microsoft service, permissions, traces, and health across critical M365 escalations. That transfers to plane separation, path mapping, known-good comparisons, timestamp correlation, owner coordination, and fix validation. I have studied Zscaler's public edge and forwarding model and built synthetic exercises, but Zscaler-specific GRE/IPsec, selection, private-edge, and log operation remain product ramp areas.
 
@@ -971,7 +971,7 @@ All pages were reviewed on **2026-08-24**. Zscaler sources establish current pub
 | Health | Name exactly what passed |
 | Config portal | Current values beat memorized values |
 | Troubleshooting | Product, plane, path, first failure |
-| Arti bridge | Trace discipline transfers; mechanics are new |
+| Experience bridge | Trace discipline transfers; mechanics are new |
 
 ## Completion Checklist
 
@@ -1015,7 +1015,7 @@ All pages were reviewed on **2026-08-24**. Zscaler sources establish current pub
 - [ ] I can use both decision trees and stop at the first supported failed boundary.
 - [ ] I can create a sanitized escalation evidence package.
 - [ ] I can explain the fictional NMH design and payroll incident without presenting either as production.
-- [ ] I can deliver Arti's 30-second bridge with a clear product-operation boundary.
+- [ ] I can deliver your 30-second bridge with a clear product-operation boundary.
 - [ ] I can run the twelve labs on owned/synthetic systems only.
 - [ ] I can cite the dated official Zscaler and IETF source anchors.
 - [ ] I state cloud, product, license, UI, feature, status, region, address, and currency caveats.

@@ -4,7 +4,7 @@
 >
 > **Maps to JD:** basic LLM/GPT knowledge, Glean AI features, search/knowledge, customer education, system/user health, product improvement, and root-cause isolation.
 
-> **Candidate bridge:** Use AI-102, AI-900, Copilot, Copilot Studio agents, and training experience as your professional foundation. Treat Glean-specific internal models, prompts, weights, and tooling as product knowledge to learn; do not claim undocumented architecture.
+> **Candidate bridge:** Use AI certifications, Copilot, Copilot Studio agents, and training experience as your professional foundation. Treat Glean-specific internal models, prompts, weights, and tooling as product knowledge to learn; do not claim undocumented architecture.
 
 ---
 

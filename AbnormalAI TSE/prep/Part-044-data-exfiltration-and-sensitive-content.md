@@ -36,7 +36,7 @@ After completing this Part, you should be able to:
 | Recommendations | Maps immediate, corrective, and preventive controls | Control-layer plan |
 | Cross-functional work | Routes security, privacy, legal, HR, business, identity, endpoint, and data ownership | Ownership map |
 
-Your Microsoft enterprise-support background transfers through scope control, evidence preservation, permissions reasoning, cloud audit correlation, change ownership, and customer communication. The honesty boundary is important: this lesson does not establish production DLP, insider-risk, forensic, privacy-response, or Abnormal AI experience.
+Your prior enterprise-support background transfers through scope control, evidence preservation, permissions reasoning, cloud audit correlation, change ownership, and customer communication. The honesty boundary is important: this lesson does not establish production DLP, insider-risk, forensic, privacy-response, or Abnormal AI experience.
 
 ## Candidate honesty note
 

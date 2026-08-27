@@ -38,7 +38,7 @@ flowchart TD
 | **How hard things are to diagnose** | **Invisible until it breaks** |
 | Which failures are silent | Tested paths all produce errors |
 
-> 💡 **Tie-in to your background:** you have escalated to engineering and product teams and worked in Technical Advisor and Aspire Leadership programmes — **both are structurally about carrying information between functions.**
+> 💡 **Tie-in to your background:** you have escalated to engineering and product teams and worked in technical advisor and leadership-development programmes — **both are structurally about carrying information between functions.**
 
 ### 🔍 Plain-English deep-dive: what makes feedback get acted on
 
@@ -456,7 +456,7 @@ A quarterly review of your own tickets identifies a pattern: **eleven tickets in
 
 ## 9. Candidate Honesty Note
 
-- **Production experience:** escalating to engineering and product teams; Technical Advisor and Aspire Leadership programmes, both of which are about carrying information across functions.
+- **Production experience:** escalating to engineering and product teams; technical advisor and leadership-development programmes, both of which are about carrying information across functions.
 - **Production experience:** recognising repeated patterns rather than treating each ticket as isolated.
 - **Lab experience:** routing this guide's findings across four destinations and writing submissions with the six elements, as above.
 - **Learned architecture:** the silent-failure framing and the detection-gap argument.

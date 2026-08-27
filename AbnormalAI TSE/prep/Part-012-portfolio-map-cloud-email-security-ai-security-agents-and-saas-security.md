@@ -8,9 +8,9 @@
 
 ## Section Goal
 
-By the end of this Part, Arti should be able to hear a customer goal or symptom and identify the most relevant starting area without pretending that product boundaries are simple. She should explain the primary job of Cloud Email Security, AI Security Agents, and SaaS Security; identify where they intersect through identities, behavior, integrations, permissions, policy, telemetry, and response; and route questions by the object and decision involved rather than by a familiar keyword.
+By the end of this Part, you should be able to hear a customer goal or symptom and identify the most relevant starting area without pretending that product boundaries are simple. You should explain the primary job of Cloud Email Security, AI Security Agents, and SaaS Security; identify where they intersect through identities, behavior, integrations, permissions, policy, telemetry, and response; and route questions by the object and decision involved rather than by a familiar keyword.
 
-Arti should also be able to distinguish configuration questions from detection questions and response questions. A configuration question asks whether the intended setup, permission, policy, or integration state is correct. A detection question asks what was observed, how an outcome should be interpreted, and whether a false positive or false negative may exist. A response question asks what action was proposed or performed, who authorized it, whether it succeeded, and how it can be validated or reversed. One ticket may contain all three, but mixing them hides owners and evidence.
+You should also be able to distinguish configuration questions from detection questions and response questions. A configuration question asks whether the intended setup, permission, policy, or integration state is correct. A detection question asks what was observed, how an outcome should be interpreted, and whether a false positive or false negative may exist. A response question asks what action was proposed or performed, who authorized it, whether it succeeded, and how it can be validated or reversed. One ticket may contain all three, but mixing them hides owners and evidence.
 
 The practical outcome is the **Atlas Three-Lane Portfolio Comparison and Routing Lab**. It produces a three-area comparison, a current-public-versus-JD taxonomy ledger, a use-case router, a dependency map, a configuration/detection/response classifier, boundary questions, eight synthetic case routes, an escalation worksheet, and a scored validation record. It uses no product account, customer data, live API, email, SaaS tenant, or agent.
 
@@ -33,11 +33,11 @@ The practical outcome is the **Atlas Three-Lane Portfolio Comparison and Routing
 
 ## Candidate Honesty Note
 
-Arti can bring production evidence from Microsoft enterprise support: tenant and cloud context, complex investigation, customer communication, CRITSIT coordination, Engineering/Product escalation, fix validation, KB/training, mentoring, and support analytics. Her Copilot and agent background is a useful bridge to goals, prompts, verification, and human oversight. Her AD/Entra, SSO/SAML/OAuth, REST/JSON, networking, and diagnostic learning helps frame integrations and access. None of this becomes direct Abnormal, email-security, AI-security-agent, or SaaS-security product operation.
+You can bring production evidence from enterprise support: tenant and cloud context, complex investigation, customer communication, critical-situation coordination, Engineering/Product escalation, fix validation, KB/training, mentoring, and support analytics. Your Copilot and agent background is a useful bridge to goals, prompts, verification, and human oversight. Your AD/Entra, SSO/SAML/OAuth, REST/JSON, networking, and diagnostic learning helps frame integrations and access. None of this becomes direct Abnormal, email-security, AI-security-agent, or SaaS-security product operation.
 
 | Evidence label | Honest statement | Boundary |
 |---|---|---|
-| **Production-transfer example** | “I have owned complex Microsoft enterprise cloud cases and cross-team escalations.” | Do not imply Exchange security, Abnormal, or named non-Microsoft platform production ownership |
+| **Production-transfer example** | “I have owned complex enterprise cloud cases and cross-team escalations.” | Do not imply Exchange security, Abnormal, or named non-Microsoft platform production ownership |
 | **Working knowledge/upskilling** | “I understand identity, API, networking, AI, and SaaS concepts and can form a diagnostic plan.” | Do not imply deep architecture or production scale |
 | **Local/public lab** | “I routed synthetic cases among three portfolio areas and produced an evidence map.” | It is not console, tenant, message, or agent operation |
 | **Learned architecture** | “Current official pages publicly describe specific high-level capabilities and categories.” | Public material does not reveal exact implementation or support process |
@@ -709,7 +709,7 @@ Draw eight case cards at random. In sixty seconds, state outcome, primary object
 | Email depth | Blocking only | Detection/investigation | Path, verdict, action, reporting, error costs, and mail/SOC boundaries complete |
 | Cross-area ownership | Tickets split/restarted | Owners listed | Parent narrative, object IDs, distinct decisions, checkpoints preserved |
 | Product fact ceiling | Private detail asserted | General caution | No invented algorithms, fields, APIs, clicks, permissions, entitlement, SLA, mechanics |
-| Candidate honesty | Lab sounds production | Gap stated | Microsoft transfer and no-direct-Abnormal/email/agent/SaaS experience precise |
+| Candidate honesty | Lab sounds production | Gap stated | experience transfer and no-direct-Abnormal/email/agent/SaaS experience precise |
 | Privacy/admin | Real data/activity | Synthetic data | No accounts, calls, messages, prompts, secrets, screenshots; cleanup complete |
 
 **Passing target:** 42/48 or higher, with 4s in taxonomy honesty, routing, agent safety, product fact ceiling, candidate honesty, and privacy/admin. Any product login, API call, sent message, SaaS change, agent execution, real data, private document, invented product mechanism, or named-tool operation claim is an automatic failure.
@@ -786,7 +786,7 @@ Draw eight case cards at random. In sixty seconds, state outcome, primary object
 
 **Question:** What experience do you have across these three areas?
 
-**Model answer:** I do not claim direct Abnormal, email-security, AI-security-agent, or broad SaaS-security production operation. My production foundation is five years of Microsoft enterprise support and escalation, including cloud workloads, CRITSIT communication, Engineering/Product collaboration, fix validation, knowledge, mentoring, and analytics. Identity, REST/JSON, networking, and Copilot/agent experience are useful transfers. My current product-area proof is official-source study and this synthetic routing lab, clearly labeled as learned architecture and lab experience.
+**Model answer:** I do not claim direct Abnormal, email-security, AI-security-agent, or broad SaaS-security production operation. My production foundation is several years of enterprise support and escalation, including cloud workloads, critical-situation communication, Engineering/Product collaboration, fix validation, knowledge, mentoring, and analytics. Identity, REST/JSON, networking, and Copilot/agent experience are useful transfers. My current product-area proof is official-source study and this synthetic routing lab, clearly labeled as learned architecture and lab experience.
 
 ## 30-Second Memory Hooks
 
@@ -805,7 +805,7 @@ Draw eight case cards at random. In sixty seconds, state outcome, primary object
 - **An agent is a new actor, not magic automation.**
 - **Public integration listing is not a data-flow contract.**
 - **Public context, neutral model, validation question, and private unknown stay separate.**
-- **Microsoft support method transfers; Abnormal product operation does not.**
+- **enterprise support method transfers; Abnormal product operation does not.**
 
 ## Completion Checklist
 
@@ -828,7 +828,7 @@ Draw eight case cards at random. In sixty seconds, state outcome, primary object
 - [ ] I scored at least 42/48, with 4s in taxonomy honesty, routing, agent safety, product fact ceiling, candidate honesty, and privacy/admin.
 - [ ] I used no account, mailbox, SaaS tenant, API, token, prompt, agent, SIEM, network, competitor trial, or private documentation.
 - [ ] I did not invent exact algorithms, fields, APIs, console steps, permissions, entitlements, SLAs, deployment mechanics, or support ownership.
-- [ ] I label Arti's Microsoft, M365, networking, API/data, customer, KB/training, mentoring, and AI facts only as transferable background.
+- [ ] I label your prior support, cloud, networking, API/data, customer, KB/training, mentoring, and AI facts only as transferable background.
 - [ ] I preserve no-direct-experience boundaries for Abnormal, email-security operations, AI Security Agents, SaaS Security, and named adjacent tools.
 - [ ] I can answer all eight interview questions aloud while stating source type and unknowns.
 - [ ] I revalidated the official URLs and taxonomy against August 24, 2026.

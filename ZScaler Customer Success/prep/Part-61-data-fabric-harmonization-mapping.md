@@ -1,10 +1,10 @@
 # Part 61 - Data Fabric Harmonization, Mapping, and Custom Data Models
 
-> **Audience:** Arti Thakur, preparing for a Zscaler Security Operations Technical Success Manager role after Microsoft enterprise Support Escalation Engineering.
+> **Audience:** Candidates preparing for a Zscaler Security Operations Technical Success Manager role after enterprise Support Escalation Engineering.
 >
 > **Purpose:** Build a rigorous method for profiling source data; defining canonical entities, attributes, and relationships; normalizing types, units, enumerations, and time; writing mapping rules, lookups, defaults, and unknown-state behavior; extending a model with governed custom fields and entities; representing organizational hierarchy; validating and handling errors; detecting schema drift; versioning contracts and semantics; building test fixtures; preserving lineage and provenance; assigning semantic ownership; and deploying, changing, troubleshooting, and rolling back mappings safely.
 >
-> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every source, schema, profile, entity, attribute, relationship, field, type, unit, enum, time, lookup, default, hierarchy, validation rule, mapping, version, fixture, result, deployment, incident, and outcome in this Part is synthetic. Zscaler's official public Data Fabric page supports high-level statements about a customizable data model and harmonize/map capabilities. It does not disclose internal canonical schemas, fields, data types, mapping languages, validators, extension mechanisms, hierarchy models, deployment pipelines, or rollback behavior. General semantic, schema, data-quality, and database patterns in this Part are educational and must not be represented as Zscaler implementation details. Arti's SQL, PostgreSQL, Power BI, statistics, data-quality, Microsoft 365 troubleshooting, RCA, and stakeholder translation skills transfer; direct production operation of Zscaler Data Fabric mappings remains a learning boundary.
+> **Scope and honesty:** Northstar Meridian Holdings, abbreviated NMH, is fictional. Every source, schema, profile, entity, attribute, relationship, field, type, unit, enum, time, lookup, default, hierarchy, validation rule, mapping, version, fixture, result, deployment, incident, and outcome in this Part is synthetic. Zscaler's official public Data Fabric page supports high-level statements about a customizable data model and harmonize/map capabilities. It does not disclose internal canonical schemas, fields, data types, mapping languages, validators, extension mechanisms, hierarchy models, deployment pipelines, or rollback behavior. General semantic, schema, data-quality, and database patterns in this Part are educational and must not be represented as Zscaler implementation details. Your SQL, PostgreSQL, Power BI, statistics, data-quality, Microsoft 365 troubleshooting, RCA, and stakeholder translation skills transfer; direct production operation of Zscaler Data Fabric mappings remains a learning boundary.
 >
 > **Currency caveat:** Source schemas, APIs, code lists, standards, product interfaces, organizational structures, security requirements, and business definitions change. The controlled research/source date for this Part is exactly **2026-08-24**. Current official product and source documentation, approved semantic contracts, tenant evidence, source-owner and steward decisions, legal/privacy requirements, representative data, controlled tests, and Zscaler and source specialists govern production.
 
@@ -14,7 +14,7 @@ Harmonization is the work of making source assertions comparable without pretend
 
 Think of an international emergency team. One country reports temperature in Celsius, another in Fahrenheit. One uses "red" for the highest warning, another uses level 5. One timestamp is local without a zone, another is UTC. Translation requires more than changing column names. The team needs definitions, units, code lists, clocks, context, and a translator accountable for ambiguity. Security-data harmonization is that disciplined translation.
 
-By the end, Arti should be able to:
+By the end, you should be able to:
 
 | Outcome | Demonstrated capability | Evidence artifact |
 |---|---|---|
@@ -53,7 +53,7 @@ flowchart LR
 
 ## JD Mapping
 
-| Role expectation | Part 61 capability | TSM artifact | Arti bridge and boundary |
+| Role expectation | Part 61 capability | TSM artifact | experience bridge and boundary |
 |---|---|---|---|
 | Develop Data Fabric expertise | Explain harmonize/map and custom-model value without invented internals | Semantic whiteboard | Exact product model remains unclaimed |
 | Analyze complex environments | Compare source definitions, grain, types, time, and relationships | Source-to-target map | SQL and M365 telemetry translation transfer |
@@ -68,7 +68,7 @@ flowchart LR
 
 | Evidence class | Safe interview statement | Boundary to state |
 |---|---|---|
-| Production transfer | "I used SQL, PostgreSQL, Power BI, statistics, telemetry fields, IDs, states, and cross-system evidence in Microsoft support and analytics." | Not production Zscaler mapping administration |
+| Production transfer | "I used SQL, PostgreSQL, Power BI, statistics, telemetry fields, IDs, states, and cross-system evidence in enterprise support and analytics." | Not production Zscaler mapping administration |
 | Synthetic practice | "I profiled NMH sources, designed canonical entities, wrote mappings and fixtures, and rehearsed migration/rollback." | Fictional evidence only |
 | Official public fact | "Zscaler publicly describes a customizable data model and harmonize/map capability." | No internal field, type, UI, language, or deployment claim |
 | General pattern | "I preserve raw values and version type/unit/enum/time transformations." | Recommended method, not product implementation |
@@ -787,9 +787,9 @@ Mapping v5 created tickets before rollback. Is redeploying v4 enough?
 
 ### Exercise 12 - Product claim
 
-Can Arti describe a specific Zscaler custom entity schema?
+Can you describe a specific Zscaler custom entity schema?
 
-**Answer:** Not from the reviewed public pages. She can explain general extension design and say Zscaler publicly describes a customizable model, then verify current tenant documentation and specialists.
+**Answer:** Not from the reviewed public pages. You can explain general extension design and say Zscaler publicly describes a customizable model, then verify current tenant documentation and specialists.
 
 ## Labs and rehearsal
 
@@ -962,7 +962,7 @@ Zscaler sources support only high-level harmonize/map and customizable-model pos
 
 ### Q8. How does your background transfer, and what can you claim about Zscaler?
 
-**Model answer:** SQL, PostgreSQL, Power BI, statistics, and Microsoft escalation work taught me to inspect fields, IDs, states, clocks, distributions, quality, and cross-system meaning, then test hypotheses and communicate evidence. I built synthetic NMH mappings and migration labs. Zscaler publicly describes harmonize/map and a customizable model, but I do not claim internal schemas, types, mapping rules, UI, validators, or deployment mechanics. I would validate current tenant documentation, data, owners, and specialists.
+**Model answer:** SQL, PostgreSQL, Power BI, statistics, and enterprise escalation work taught me to inspect fields, IDs, states, clocks, distributions, quality, and cross-system meaning, then test hypotheses and communicate evidence. I built synthetic NMH mappings and migration labs. Zscaler publicly describes harmonize/map and a customizable model, but I do not claim internal schemas, types, mapping rules, UI, validators, or deployment mechanics. I would validate current tenant documentation, data, owners, and specialists.
 
 ## 30-Second Memory Hooks
 
@@ -994,7 +994,7 @@ Zscaler sources support only high-level harmonize/map and customizable-model pos
 | Fixture | Small example with an answer key |
 | Lineage | Source-to-decision route and reverse blast radius |
 | Rollback | Restore behavior and reconcile consequences |
-| Arti bridge | Data translation and RCA transfer; product internals do not |
+| Experience bridge | Data translation and RCA transfer; product internals do not |
 
 ## Completion Checklist
 
@@ -1048,6 +1048,6 @@ Zscaler sources support only high-level harmonize/map and customizable-model pos
 - [ ] I can complete the NMH mapping/change incidents and all fifteen labs.
 - [ ] I use the controlled research/source date exactly as 2026-08-24.
 - [ ] I make no unsupported Zscaler entity, field, type, mapping, hierarchy, validator, deployment, rollback, production, or outcome claim.
-- [ ] I can answer Q1 through Q8 with definitions, analogies, mechanics, examples, tradeoffs, failures, troubleshooting, NMH labs, and an honest Arti bridge.
+- [ ] I can answer Q1 through Q8 with definitions, analogies, mechanics, examples, tradeoffs, failures, troubleshooting, NMH labs, and an honest experience bridge.
 
 [Part 62 - Data Fabric Deduplication, Entity Resolution, and Golden Context](Part-62-data-fabric-dedup-entity-resolution.md)
